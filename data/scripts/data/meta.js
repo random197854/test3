@@ -872,6 +872,12 @@ var CV = {
         jap: "恋羽もこ",
         japAlias: ["恋羽", "もこ"]
     },
+    NANASE_PANDA:{
+        eng: "Nanase Panda",
+        engAlias: ["Nanase", "Panda Nanase", "Panda"],
+        jap: "七瀬ぱんだ",
+        japAlias: ["七瀬", "ぱんだ"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -7793,6 +7799,45 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.ASAHI,
             cv:CV.KOIBANE_MOKO
+        }
+    },
+    MONICA_LAURENCE:{
+        base:{
+            name:{
+                eng:"Monica Laurence",
+                engAlias:["Monica", "Monika Laurence", "Monika"],
+                jap:"モニカ・ロレンス",
+                japAlias:["モニカロレンス", "モニカ", "ロレンス"]
+            },
+            tags:[
+                TAG.RED_HAIR, TAG.LONG_HAIR,
+                TAG.GREY_EYES,
+                TAG.AVERAGE_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SAGE_JOH,
+            cv:CV.FUJIIRO_SAKU
+        }
+    },
+    YATSUSHIRO_MOMOKA:{
+        base:{
+            name:{
+                eng:"Yatsushiro Momoka",
+                engAlias:["Yatsushiro", "Momoka", "Momoka Yatsushiro"],
+                jap:"八代桃香",
+                japAlias:["八代", "桃香"]
+            },
+            tags:[
+                TAG.VIOLET_HAIR, TAG.BLUE_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.PINK_EYES, TAG.SYMBOL_PUPILS,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SAIJO_SATORU,
+            cv:CV.NANASE_PANDA
         }
     },
 
@@ -19308,7 +19353,7 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },  
-        "0336_1":{
+    "0336_1":{
         character:[CHAR.RINOA_CERINGU, CHAR.FUUMA_KOTAROU],
         tags:{
             female:[
@@ -19739,6 +19784,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0356_2"
     },
     "0356_2":{
         character:CHAR.ANGE,
@@ -19765,6 +19811,7 @@ var SCENE = {
             misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
+        nextScene:"0357_2"
     },
     "0357_2":{
         character:CHAR.FUUMA_AMANE,
@@ -19801,6 +19848,84 @@ var SCENE = {
             female:[
                 TAG.PANTIES_PUSHED_TO_SIDE, TAG.BREASTS_OUT,
                 TAG.SPANKING, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.AHEGAO, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.PRISON_CELL, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0360_1":{
+        character:CHAR.SERUBIA_ROZAMARI,
+        tags:{
+            female:[
+                TAG.FRILLY_CLOTHING, TAG.DRESS, TAG.RIPPED_CLOTHING, TAG.BREASTS_OUT, TAG.PANTIES,
+                TAG.METAL_BONDAGE, TAG.SEX_TOYS, TAG.VAGINAL_LEAKAGE, TAG.MAGIC_WAND, TAG.INCONTINENCE, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PUBLIC],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0360_2":{
+        character:CHAR.SERUBIA_ROZAMARI,
+        tags:{
+            female:[
+                TAG.FRILLY_CLOTHING, TAG.DRESS, TAG.RIPPED_CLOTHING,
+                TAG.VAGINAL_FINGERING, TAG.ANAL_FINGERING, TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.BLOWJOB, TAG.TRIPLE_PENIS_PENETRATION, TAG.SPANKING, TAG.NIPPLE_PINCHING, TAG.GAPING, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI, TAG.CUM_IN_MOUTH,
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PUBLIC],
+            misc:[TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0361_1":{
+        character:CHAR.WIGHT,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.METAL_BONDAGE, TAG.ANAL_SEX, TAG.STOMACH_DEFORMATION, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.SCAT
+            ],
+            male:[TAG.HORSE_MAN],
+            location:[TAG.LABORATORY, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0361_2":{
+        character:CHAR.WIGHT,
+        tags:{
+            female:[
+                TAG.NIPPLE_PIERCING, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.VAGINAL_SEX, TAG.STOMACH_DEFORMATION, TAG.STOMACH_INFLATION, TAG.VAGINAL_LEAKAGE, TAG.AHEGAO, TAG.LIVE_STREAMING
+            ],
+            male:[],
+            location:[],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0362":{
+        character:CHAR.MONICA_LAURENCE,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.VAGINAL_CUTOUT,
+                TAG.VAGINAL_SEX, TAG.HANDJOB, TAG.BLOWJOB, TAG.BUKKAKE, TAG.NAKADASHI, TAG.DOUBLE_PENIS_PENETRATION
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0363":{
+        character:CHAR.YATSUSHIRO_MOMOKA,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.THIGH_HIGH_STOCKINGS, TAG.HAIRBAND,
+                TAG.METAL_BONDAGE, TAG.VAGINAL_SEX, TAG.BUKKAKE, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI, TAG.AHEGAO, TAG.FILMING
             ],
             male:[],
             location:[TAG.PRISON_CELL, TAG.PRIVATE],
