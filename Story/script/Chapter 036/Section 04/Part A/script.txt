@@ -1,0 +1,818 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：廃墟の都市の地下鉄＿昼夜兼用】【時間：夜】
+//　※対魔忍アサギZERO_NC095aより流用
+//nc425a
+<BGM_PLAY>bgm314,1000
+<BG>nc425a,IN, 1000
+<NAME_PLATE>
+　ＴＶＳＳのシミュレーション世界から
+戻ったと思ったら、知らない場所にいた。
+<PAUSE>
+<NAME_PLATE>
+　しかも未来から来たあのゆきかぜと
+なぜか幼くなっているアスカもいる。
+<PAUSE>
+<NAME_PLATE>
+　“食べられたくなければ”と脅され、
+わけが分からないまま二人についていくと、
+そこは暗いトンネルの中だ。
+<PAUSE>
+<NAME_PLATE>
+　下に二本のレールがあり、
+前後に長く続いているのが見える。
+<PAUSE>
+<NAME_PLATE>俺
+「ここは……地下鉄か！？」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そうよ！
+　こっち！　急いで！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　アスカは俺の呟きに答えると、
+線路に飛び降りて走り始めた。
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　後ろを追いかけながら、
+この地下鉄がもう使われていない
+ことに俺は気づく。
+<PAUSE>
+<NAME_PLATE>
+　明かりが全く点いていないし、
+壁や天井が所々崩れているし、
+なにより電車の残骸がある。
+<PAUSE>
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「まだ追ってくる！
+　くらえっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギュンッ！　ビギュンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　俺の後ろを走るゆきかぜが
+追っ手に向けてレーザー雷撃を放った。
+<PAUSE>
+<NAME_PLATE>レイダー
+「ぎゃっっ！！」
+「ぐあっ！」
+<PAUSE>
+//　※立ち絵
+//　　レイダー
+//　　　＊モンスターイラストより流用
+<BG>nc425a,IN, 500
+<NAME_PLATE>
+　閃光の中で終末物映画に出てくるような
+フードにマスクの怪しい連中がぶっ倒れる。
+<PAUSE>
+<NAME_PLATE>
+　この荒廃しきった有様、
+あんないかにもな格好の襲撃者
+なにより大人のゆきかぜがいるということは、
+<PAUSE>
+<NAME_PLATE>
+　ここはブレインフレーヤーに
+支配されたという未来なのか？
+<PAUSE>
+<NAME_PLATE>
+　俺はいつここに来たんだ？
+<PAUSE>
+<NAME_PLATE>
+　なぜアスカは大人じゃなくて、
+今より幼くなっているんだ？
+<PAUSE>
+<NAME_PLATE>
+　ひょっとして未来じゃなくて、
+またシミュレーターが異常を起こしたのか？
+<PAUSE>
+<NAME_PLATE>
+　頭の中は疑問でいっぱいだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ゆきかぜ、余計な戦闘は避けて！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「分かってる。
+　でもあいつらしつこいから
+　適当に数を減らさないと！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギュンッ！　ビビュンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは雷撃を連発して、
+追っ手をバタバタと倒していく。
+<PAUSE>
+<BG>nc425a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　当然、向こうからも撃ってくるが、
+ゆきかぜは雷のバリアのようなもので、
+弾を全部防いでくれている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>俺
+「なんなんだあの連中は！？」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「さっき言ったでしょ！　レイダーよ。
+　簡単に言えば、
+　この世界を彷徨う頭のおかしい襲撃者！」
+<PAUSE>
+<NAME_PLATE>
+　前を走る違和感だらけのアスカが
+俺を振り返って答えた。
+<PAUSE>
+<NAME_PLATE>俺
+「簡単に言いすぎだ！
+　そもそもここはどこ、いやいつだ？
+　未来の別世界でいいのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「当たり前でしょ。
+　なんだと思ってたのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「だってお前がそんな姿だし
+　もしかしたら過去かも知れないだろ。
+　でなきゃ仮想世界とかな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「仮想世界！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょうど俺はそういう妙なことが起こる
+　新型シミュレーターのテスト中だったんだ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、そうだったんだ。
+　残念だけど現実よ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ブレインフレーヤーのせいで
+　メチャクチャになった未来っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカは強い声で答えつつ、
+両手に持った大型のナイフを閃かせた。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レイダー
+「ぎゃっっ！」
+<PAUSE>
+//　※立ち絵
+//　　レイダー
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　前方から現れた別のレイダーが
+一瞬にして仕留められていた。
+<PAUSE>
+<BG>nc425a,IN, 500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ああもう鬱陶しい！」
+<PAUSE>
+<NAME_PLATE>俺
+「その手足……」
+<PAUSE>
+<NAME_PLATE>
+　暗かったし、
+顔も身体も小さくなっていたので
+今まで気づかなかったが、
+<PAUSE>
+<NAME_PLATE>
+　手足がトレードマークの
+アンドロイドアーム＆レッグではない。
+<PAUSE>
+<NAME_PLATE>
+　生身の手足だ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「色々あってね。
+　手足を失う前の身体に戻っちゃったの」
+<PAUSE>
+<NAME_PLATE>俺
+「色々ってお前……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「詳しい説明はあとあと。
+　とにかく未来よ。
+　ふうまに次元移動装置で来てもらったの」
+<PAUSE>
+<NAME_PLATE>俺
+「次元移動装置。
+　ブレインフレーヤーのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「こないだゆきかぜを
+　あなたの所に送った時はね。
+　今回は私たちが独自に開発した奴！」
+<PAUSE>
+<NAME_PLATE>
+　とんでもないことをさらっと言う。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「自分たちで作ったのか！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「って言っても、マルジャーナって
+　別のブレインフレーヤーに提供された
+　テクノロジーを解析してだけどね」
+<PAUSE>
+<NAME_PLATE>
+　アスカは「それが私たちの限界」と
+言いたげに肩をすくめた。
+<PAUSE>
+<NAME_PLATE>俺
+「マルジャーナ？
+　魔界の９貴族のあいつか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「もうそっちでも会ってるんだ。
+　さすがふうまね」
+<PAUSE>
+<NAME_PLATE>俺
+「五車学園の地下にあった古代遺跡でな。
+　テセラックを破壊した礼を―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はあああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギュウウウウウウウンッ！！
+<PAUSE>
+<NAME_PLATE>俺
+「っっ！」
+<PAUSE>
+<NAME_PLATE>
+　耳をつんざくほどの雷鳴が轟き、
+ゆきかぜが追っ手のレイダーを
+大量に薙ぎ倒していた。
+<PAUSE>
+<BG>nc425a,IN, 500
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あの女の話はあとにしない！？」
+<PAUSE>
+<NAME_PLATE>
+　恐ろしく険のある目付きで言う。
+<PAUSE>
+<NAME_PLATE>
+　なんだ？
+マルジャーナの話をし始めた途端。
+<PAUSE>
+<NAME_PLATE>
+　あいつと何かあったのか？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「とにかく！
+　あいつのテクノロジーは役に立ったわ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「ちょっと独自開発の途中で実験に失敗して
+　私はこんなになっちゃったけど。
+　今回は成功して良かったわ」
+<PAUSE>
+<NAME_PLATE>
+　アスカが強引に話題を変えた。
+<PAUSE>
+<NAME_PLATE>
+　マルジャーナのことは気になったが、
+それ以上に聞き捨てならない言葉があった。
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっと待て。
+　もしかしたら俺もアスカみたいに
+　小さくなってた可能性があったのか！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「うまくいったからいいじゃない。
+　記憶が変わらないのは私で分かってたし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうまが小さくなって可愛くなるなら
+　それもいいかなーって」
+<PAUSE>
+<NAME_PLATE>俺
+「おい！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「冗談冗談」
+<PAUSE>
+<NAME_PLATE>
+　とてもそうは思えない。
+<PAUSE>
+<NAME_PLATE>
+　いきなり人を面倒事に巻き込むのは、
+俺の知っている今のアスカと同じ。
+<PAUSE>
+<NAME_PLATE>
+　いや、それ以上だ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「それにしても、やっぱりふうまね」
+<PAUSE>
+<NAME_PLATE>俺
+「なにがだ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「こんなに追われてる状況なのに
+　まずは情報収集と
+　私への突っ込みなんだからっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッ！　バシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　アスカはやけに楽しそうな調子で
+レイダーを一人、二人と倒していく。
+<PAUSE>
+<BG>nc425a,IN, 500
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それがふうまでしょ？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギューーンッ！　ビギューーンッ！
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜも同じだ。
+レイダーを容赦なく仕留めつつ
+顔は笑っていた。
+<PAUSE>
+<BG>nc425a,IN, 500
+<NAME_PLATE>俺
+「こんな状況だからだ。
+　なんでいきなり追われてるんだ？
+　呼ぶなら普通に呼び出せ」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「私だってそうしたかったわよ。
+　けど次元移動装置を動かすには
+　ものすごいエネルギーが必要なの」
+<PAUSE>
+<NAME_PLATE>俺
+「よくある話だ。
+　１．２１ジゴワットだろ」
+<PAUSE>
+<NAME_PLATE>
+　俺はやけくそ気味に
+有名なタイムトラベル映画ネタで答える。
+<PAUSE>
+<NAME_PLATE>
+　アスカは噴き出した。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あははっ、そんな感じ！
+　私もあれ大好き！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「さっきまでいたのはかつて米連が
+　秘密裏に研究していた小型の地下原発。
+　それを使わせてもらったわけ」
+<PAUSE>
+<NAME_PLATE>俺
+「地下原発？
+　そんな物騒なものがあったのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あったのよ。
+　私も後で知ったんだけどね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「米連はヨミハラの魔界の門に対抗するために
+　原発の巨大なエネルギーを利用しようと
+　したらしいんだけど」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ブレインフレーヤーが攻めてきたせいで
+　それどころじゃなくなったの」
+<PAUSE>
+<NAME_PLATE>アスカ
+「今はレイダーたちの住処になってて、
+　私たちがそこに忍び込んで」
+<PAUSE>
+<NAME_PLATE>アスカ
+「原発がいきなり停電するくらい
+　エネルギーを使っちゃったから
+　なんか怒っちゃって――」
+<PAUSE>
+<NAME_PLATE>俺
+「血眼になって追ってきてるわけだ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そういうことっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「アジトだけあって
+　レイダーの数は千を超えるわ。
+　さすがにそんなに相手はしてられない」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃそうだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なるほど。
+いきなり追われている状況は分かった。
+<PAUSE>
+<NAME_PLATE>
+　いつものことだが、
+とりあえずそれに対処するしかない。
+<PAUSE>
+<NAME_PLATE>
+　幸い、さっきのゆきかぜの大雷撃で
+追っ手の数は減ってきていた。
+<PAUSE>
+<NAME_PLATE>俺
+「それで俺をなんで呼び出した？
+　まさか実はいた俺の子供が
+　大変なことになってるとかか！？」
+<PAUSE>
+<NAME_PLATE>
+　それもさっきの映画からの
+軽いジョークだったが、
+<PAUSE>
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「なにそれ！！
+　まさか心当たりがあるの！？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜに本気で睨まれ、
+俺は若干情けない気分で否定する。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ないけど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アスカはそんな俺を見て
+また噴いていた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ぷははっ。
+　だったら面白いけどね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「面白くないわよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうね。
+　もしそんなことになってたら
+　また過去を改変しないと」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「当然」
+<PAUSE>
+<NAME_PLATE>俺
+「話がわき道に逸れてるぞ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「誰のせいよ。そうじゃなくて、
+　ブレインフレーヤーとの闘いに
+　協力して欲しいからよ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺に？」
+<PAUSE>
+<NAME_PLATE>
+　アスカは笑うのを止めて、
+俺を真っ直ぐ見つめた。
+<PAUSE>
+<NAME_PLATE>
+　俺の知るアスカとはどこか違う、
+深い決意を感じさせる表情をしていた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「はっきり言えば、
+　ふうまはこの世界では英雄なの」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「って気持ちは分かるけど聞いて。
+　ふうまのおかげで私たちはアルサールを倒し、
+　テセラックを破壊したわ」
+<PAUSE>
+<NAME_PLATE>俺
+「おかげというか、
+　俺は普通に指揮しただけだが」
+<PAUSE>
+<NAME_PLATE>アスカ
+「だからよ。
+　普通に指揮してアルサールを倒せる。
+　はっきり言って奇跡よ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうまが生き残ったことも含めてね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それもあって、
+　うちの参謀がふうまに会いたがってるの」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だからかなり無理をしたけど、
+　この世界に来てもらったのよ。
+　レジスタンスの指揮をお願いしたいんだって」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私もまたふうまの力を貸して欲しい」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜも俺をじっと見ていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　申し訳なさと、すがりつくような想いが
+入り交じったような表情だった。
+<PAUSE>
+<NAME_PLATE>俺
+「こっちの世界の
+　ブレインフレーヤーを倒すためか？」
+<PAUSE>
+<NAME_PLATE>
+　二人は頷き、アスカがまた口を開いた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「テセラックが破壊されて
+　ブレインフレーヤーの支配は
+　絶対じゃなくなったけど」
+<PAUSE>
+<NAME_PLATE>アスカ
+「依然奴らは強大な敵なの。
+　こっちの世界では対魔忍は
+　ほとんど死んでしまったから……」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか……
+　もちろん協力したいが俺も元の世界で
+　やらなければならないことが……」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0277f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「もちろん分かってる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「たまに週末きてくれたらいいから」
+<PAUSE>
+<NAME_PLATE>
+　きっとわざとだろう、
+冗談めかして言うアスカに苦笑する。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「アルバイトかよ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そう思って。
+　ほら昔も時々私の任務とかに
+　協力してくれたでしょ？　あんな感じ」
+<PAUSE>
+<NAME_PLATE>俺
+「協力したというか
+　させられたというか……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうだっけ？
+　とにかくふうまにいて欲しいの。
+　私も、ゆきかぜも、仲間たちも」
+<PAUSE>
+<NAME_PLATE>俺
+「仲間？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ブレインフレーヤーの支配に
+　抵抗しているレジスタンスよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アスカはそのリーダー」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,as_t013a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「リーダー？　アスカが？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふふん、まあね」
+<PAUSE>
+<NAME_PLATE>
+　アスカはそれだけ、
+だが誇らしげに頷いた。
+<PAUSE>
+<NAME_PLATE>俺
+「でも俺を呼び出すために
+　膨大なエネルギーがいるんだろ？
+　そんなちょくちょく呼んだりできるのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「膨大なエネルギーが必要なのは最初だけ。
+　位置の特定に膨大なエネルギーがいるのよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「でも今後は“次元ビーコン”を
+　持っててもらえば省エネで呼び出せるはずよ」
+<PAUSE>
+<NAME_PLATE>俺
+「よく分からんがそういうものなのか」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そういうものよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そういうことなら―――
+<PAUSE>
+<NAME_PLATE>
+　俺が了承しようとしたその時、
+ゆきかぜが鋭く警告を発した。
+<PAUSE>
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「アスカ！　待ち伏せよ！
+　前に山ほどいるわ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「ちっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アスカの顔も引き締まる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レイダー
+「ヒーーーヒッヒッッヒ！！」
+「久しぶりのご馳走だ！！」
+「逃がしゃしねえぞ！！」
+<PAUSE>
+//　※立ち絵
+//　　レイダー
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<NAME_PLATE>
+　どうやら回り込まれていたらしい。
+<PAUSE>
+<NAME_PLATE>
+　今までとは比較にならない数のレイダーが
+行く手に待ち構えている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「人肉好きのくせに
+　ほんと数だけは多いわね！
+　共食いでもしてなさいってのよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「あの連中はブレインフレーヤーの
+　仲間なのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「違う。
+　でも世界が壊れて人間性を失った
+　野蛮な連中よ」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0277f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「だから容赦しないで」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「人肉食べるし」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「分かった！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　まずはここを突破することだ。
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

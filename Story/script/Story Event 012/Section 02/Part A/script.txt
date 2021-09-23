@@ -1,0 +1,646 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム繁華街＿夜】【時間：夜】
+//　※対魔忍アサギ2の背景nc005cより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc129a,IN, 1000
+<NAME_PLATE>俺
+「おいおいいいいい！！？
+　卯奈、なんでお前あんなのに
+　追っかけられてるんだよっ！！？」
+<PAUSE>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「知らないよ～～～っ！！！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>卯奈
+「皆のところに戻ろうって走ってたら、
+　いきなり後ろから来たんだよ～！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m046a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m046a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>トロールたち
+「ゴアアアアアアアアアアアアアアア
+　アアアアアアアアア！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>俺
+「おおぉおぉ！！！？
+　やべええええええええっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　合流した卯奈を追って
+トロールたちが突っ込んでくる。
+<PAUSE>
+<NAME_PLATE>
+　３メートル近い巨体。
+強い狂暴性。異常な再生能力。
+<PAUSE>
+<NAME_PLATE>
+　知能は低いがそれを補って余りある
+パワーを持つ危険な怪物だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「あのトロールの肌の色――
+　森林地帯の種族ですね。
+　『魔界種族大全』で読みました」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>まり
+「あわわ……！？
+　分析しているヒマないよ舞ちゃん、
+　こっちに来る来るっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「くっ――！」
+<PAUSE>
+<NAME_PLATE>俺
+「とにかく逃げるぞ皆っ！！
+　こんなところで下手に戦えない！」
+<PAUSE>
+<NAME_PLATE>まり＆舞
+「りょ、了解！！」
+「了解です」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　こちらは学生とは言え対魔忍が４人。
+<PAUSE>
+<NAME_PLATE>
+　戦って勝てない敵ではないが――
+しかし、ここは闇の町のど真ん中だ。
+<PAUSE>
+<NAME_PLATE>
+　騒ぎを起こして囲まれでもしたら
+致命的な事態にもなり得る。
+<PAUSE>
+<NAME_PLATE>卯奈
+「ひえええええええっ！！？
+　こっちに来ないでーーーーーっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m046a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m046a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>トロールたち
+「ゴアアアアアアアアアアアアアアア
+　アアアアアアアアア！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　荒々しい雄たけびを上げて
+トロールの集団が襲いかかってくる。
+<PAUSE>
+<NAME_PLATE>
+　それを振り切るため、
+俺たちは必死の逃走を開始した。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：東京キングダム・裏通り＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc024aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc065a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m046a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m046a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>トロールたち
+「カバン、カネ……ドコ……」
+<PAUSE>
+「ドコ？　アッチ……」
+<PAUSE>
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ドスンドスンという地響きを立てて
+トロールたちが裏路地を通り過ぎていく。
+<PAUSE>
+<NAME_PLATE>俺
+「ふぅ。何とかやり過ごしたか」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「そ、そうですね……」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>舞
+「ひやひやしました」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「ふええ……。
+　三回くらい死んだと思った……」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　トロールが通り過ぎた後の路地裏。
+<PAUSE>
+<NAME_PLATE>
+　その片隅に放置されていたゴミ箱と
+廃材の塊がするりと形を変える。
+<PAUSE>
+<NAME_PLATE>
+　紙気使い・七瀬舞による隠れ身の術だ。
+<PAUSE>
+<NAME_PLATE>
+　無数の紙片を使って俺たち４人が
+隠れられるだけの小さな空間を作り、
+<PAUSE>
+<NAME_PLATE>
+　その外側の色や質感をゴミ箱や廃材に
+擬態させてトロールたちの目を欺いた。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし凄いな……。
+　舞、こんな術も使えたのか」
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「はい。紙を使った術であれば
+　一通りは」
+<PAUSE>
+<NAME_PLATE>舞
+「それに、逃走のために使える術も
+　いくつか用意しておきなさいって、
+　さくら先生が授業で言っていたので」
+<PAUSE>
+<NAME_PLATE>俺
+「確かにそれは正しいな」
+<PAUSE>
+<NAME_PLATE>
+　“試験任務”らしく授業で
+習ったことを活かしたわけだ。
+<PAUSE>
+<NAME_PLATE>
+　普段はおちゃらけているようで、
+意外とさくら先生はしっかりしてる。
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>卯奈
+「ふええええぇっ、
+　ありがとう舞ちゃーーーん！
+　すごい！　最高っ！！」
+<PAUSE>
+<NAME_PLATE>卯奈
+「きみは命の恩人だよ～～！！　好きっ！！
+　愛してるーーーーーーーーっ！！」
+<PAUSE>
+<NAME_PLATE>舞
+「わわっ……！　い、いえ……
+　それほどでも……」
+<PAUSE>
+<NAME_PLATE>
+　ぴょんぴょん飛び跳ねながら
+卯奈が舞に抱きついていく。
+<PAUSE>
+<NAME_PLATE>
+　その勢いがあまりに激しかったのか、
+いつもクールな舞が珍しくわたわたして
+頬を染めていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「と、ところで……ふうまさん、
+　さっきの空間、大丈夫でしたか？
+　狭くなかったですか……？」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　どうして？」
+<PAUSE>
+<NAME_PLATE>
+　するとこっちでは、なぜかまりも
+頬を赤くしてもじもじしていた。
+<PAUSE>
+<NAME_PLATE>まり
+「そ、その……ふうまさんが、
+　窮屈そうにしていたので……」
+<PAUSE>
+<NAME_PLATE>まり
+「私、最近、お団子を食べすぎ
+　ちゃってたので……スペース、
+　余分に取ったかもって……」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ！　いやいや、大丈夫だぞ！
+　ぜんぜんそんなことはない、うん」
+<PAUSE>
+<NAME_PLATE>
+　というより、俺は変なことを
+考えないように必死だっただけだ。
+<PAUSE>
+<NAME_PLATE>
+　舞が紙片で作ってくれた隠れ身の
+スぺースはとても狭かった。
+<PAUSE>
+<NAME_PLATE>
+　そんなところに、この３人と
+ぴったりと体をくっつけて
+隠れていたわけだから――。
+<PAUSE>
+<NAME_PLATE>まり
+「はぁ……？
+　ふうまさん、どうして
+　前かがみに――」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そんなことより……！
+　トロールの連中もまいた事だしな、
+　状況を整理してみようっ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は強引に話題を変えるべく
+３人に声をかけた。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム・裏通り＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc024aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc065a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　実際、何が起こっているのだろう？
+<PAUSE>
+<NAME_PLATE>
+　俺たちは今、闇の町・東京キングダムでの
+“試験任務”の真っ最中。
+<PAUSE>
+<NAME_PLATE>
+　それがほぼ終わりかけた状況で、
+突然、卯奈がトロールたちに
+追われて戻ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「もう一度確認するが――
+　奴らは、いきなり現れて、
+　追いかけてきたんだな？」
+<PAUSE>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「そ、そーだよ！
+　明日の朝食のにんじんに
+　かけて誓いますっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか……」
+<PAUSE>
+<NAME_PLATE>
+　卯奈が言うには――。
+<PAUSE>
+<NAME_PLATE>
+　任務を果たしてＢＭ団のアジトから
+脱出したのち、目立たない裏路地を
+選んで集合場所に急いでいたところ、
+<PAUSE>
+<NAME_PLATE>
+　突然、背後からトロールの
+集団が襲ってきたらしい。
+<PAUSE>
+<NAME_PLATE>俺
+（ということは――）
+<PAUSE>
+<NAME_PLATE>
+　ＢＭ団が追っ手をかけてきた……
+という可能性は低そうだ。
+<PAUSE>
+<NAME_PLATE>
+　さっきのオークたちは
+まだ廃墟で気絶しているはずだし、
+<PAUSE>
+<NAME_PLATE>
+　あの組織に他の戦力があるような
+話も聞いていない。
+<PAUSE>
+<NAME_PLATE>
+　それに、もう一つ気になること。
+<PAUSE>
+<NAME_PLATE>
+　俺たちを追っていたトロールは、
+「カバン、カネ」と口にしていた。
+<PAUSE>
+<NAME_PLATE>
+　それは――。
+<PAUSE>
+<NAME_PLATE>俺
+「卯奈！！　そのスーツケース、
+　連中のアジトにあったものだよな？」
+<PAUSE>
+<NAME_PLATE>
+　卯奈の任務は、ＢＭ団のアジトから
+奴隷取引の秘密帳簿を奪ってくることだ。
+<PAUSE>
+<NAME_PLATE>
+　しかしその他に
+何か騒動の種になるようなものを
+持ち去っていたとすれば。
+<PAUSE>
+<NAME_PLATE>卯奈
+「えっ？　そうだよ。
+　金庫の中に色んな書類やデータと
+　一緒に入ってたから持ってきたの」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっとそれを見せてくれ！
+　――って、やっぱり施錠されてるな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　スーツケースは合金製らしい
+ロックで固く封じられている。
+<PAUSE>
+<NAME_PLATE>俺
+「舞、お前の紙を使って
+　これを開けられないか？」
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「それは……
+　簡単にはいかないと思います」
+<PAUSE>
+<NAME_PLATE>舞
+「鍵を外すほどの精妙な動きは、
+　さすがに短時間では――」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか、時間がかかるのは、
+　今は少し苦しいな」
+<PAUSE>
+<NAME_PLATE>
+　追われている立場で
+悠長にはしていられない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さて、どうしたものか――。
+<PAUSE>
+<NAME_PLATE>まり
+「あっ！　じゃあ私に貸してみてください。
+　――えいっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<SE_PLAY>se046
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　――バキィイ！！！
+<PAUSE>
+<NAME_PLATE>俺
+「はい？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0207a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「わわっ！」
+<PAUSE>
+<NAME_PLATE>卯奈
+「ひぇっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　ケースに手をかけたまりが
+「ふんっ！」と力を込めると、
+鈍い音を響かせて合金錠が弾け飛んだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「おーっ、やりました！
+　開きましたよ、ふうまさん♪」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おぅ……。
+　ありがとう……っていうか、
+　お前もとんでもないな……」
+<PAUSE>
+<NAME_PLATE>
+　まりが怪力の持ち主とは
+聞いていたが、ここまでの
+パワーとは知らなかった。
+<PAUSE>
+<NAME_PLATE>舞
+「さすがです。
+　やっぱりまりちゃん先輩には
+　かないません」
+<PAUSE>
+<NAME_PLATE>卯奈
+「ひゃ、百獣の王……！」
+<PAUSE>
+<NAME_PLATE>まり
+「えへへっ♪
+　お役に立ててよかったです！」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、本当に助かったぞまり！
+　これで早速――」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はケースの中をチェックする。
+<PAUSE>
+<NAME_PLATE>
+　すると、すぐに目当てのものを
+見つけることができた。
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱり………発信機だ」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三人
+「発信機っ！！？」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「ああ。この信号を追って、
+　トロールたちは卯奈を追っかけて
+　きたってわけだ」
+<PAUSE>
+<NAME_PLATE>
+　これで、いきなり奴らが卯奈を
+追って現れた理由も説明がつく。
+<PAUSE>
+<NAME_PLATE>俺
+「恐らく……誰かが
+　懸賞金でもかけたんだろう」
+<PAUSE>
+<NAME_PLATE>
+　トロールたちは「カネ」という
+言葉も口にしていた。
+<PAUSE>
+<NAME_PLATE>
+　何者かが懸賞金でもかけて、
+ケースやそれを持つ俺たちの
+情報を闇の住人に流したのか……。
+<PAUSE>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「じゃ、じゃあ……
+　さっきの組織の人たちが……？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、どうだろうな。
+　奴らにそんな余裕があったとも
+　思えないが……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ＢＭ団の主だった連中は、
+まりたちによってＫＯ済。
+<PAUSE>
+<NAME_PLATE>
+　アジトの方も卯奈が仕掛けた
+爆弾で混乱し、まともに動ける
+状態ではないはずだ。
+<PAUSE>
+<NAME_PLATE>
+　それに――。
+<PAUSE>
+<NAME_PLATE>俺
+（なんだ、これは……？）
+<PAUSE>
+<NAME_PLATE>
+　首をひねらざるを得なかった。
+<PAUSE>
+<NAME_PLATE>
+　ケースに入っていたのは、
+ＢＭ団のメイン商品である
+奴隷取引に関わるモノではなく。
+<PAUSE>
+<NAME_PLATE>
+　奇妙な薬液が入ったアンプルが
+大量に詰め込まれていて――。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、考えるのは後だな。
+　発信機が仕掛けられていた以上、
+　ここもすぐに――」
+<PAUSE>
+<NAME_PLATE>
+　俺はケースからそれを取り外し、
+踏みつぶして破壊した。
+<PAUSE>
+<NAME_PLATE>
+　だが、少し遅かったようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m022a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔族傭兵たち
+「いたぞ！！　あそこだ！！」
+「奴らをぶっ殺せ！！！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　オーク兵＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　俺たちを追う闇の住人が、
+路地の入口に姿を見せていた。
+<PAUSE>
+//→S202a
+//　※注
+//　　プロットから登場雑魚モンスターを修正しています（赤鬼青鬼→魔族傭兵、オーク兵）。
+//　　バトルパートでも雑魚モンスターを魔族傭兵、オーク兵などに修正お願いします。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,723 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町-水城家＿別室＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC016aより流用
+//nc340a
+<BGM_PLAY>bgm506,1000
+<BG>nc340a,IN, 1000
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「………っ」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍１
+<NAME_PLATE>
+　俺を見た瞬間、
+その女性の表情が目まぐるしく変化した。
+<PAUSE>
+<ACTOR>0,yu_t004b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　最初は喜び。
+<PAUSE>
+<ACTOR>0,yu_t004e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　それがすぐ切なそうなものに変わり、
+<PAUSE>
+<NAME_PLATE>
+　なにか溢れる想いを堪えるように
+唇をぐっと噛みしめ、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　一歩、二歩、俺に近寄ったかと思うと、
+いきなり抱きついてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「え？　えええ？？」
+<PAUSE>
+<NAME_PLATE>
+　大人の女性の肌身が俺を包み込む。
+<PAUSE>
+<NAME_PLATE>
+　スラリと鍛え上げられた肉体からは
+彼女の微かな体臭と、闘いの匂いがした。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、あの……その………」
+<PAUSE>
+<NAME_PLATE>
+　さっき一瞬、ゆきかぜだと思ったが、
+そんなはずがない。
+<PAUSE>
+<NAME_PLATE>
+　初めて会った大人の女性に抱擁され、
+頬が赤くなっていく。
+<PAUSE>
+<NAME_PLATE>？？？
+「……久しぶりだね」
+<PAUSE>
+<NAME_PLATE>
+　聞こえてきたのは
+ゆきかぜにとてもよく似た、
+だが俺が知っているそれより落ち着いた声だ。
+<PAUSE>
+<NAME_PLATE>俺
+「ひ、久しぶり？」
+<PAUSE>
+<NAME_PLATE>？？？
+「まさか私が誰か言わないと
+　分からないなんてことないよね？」
+<PAUSE>
+<NAME_PLATE>
+　彼女は俺の目を覗き込む。
+<PAUSE>
+<NAME_PLATE>
+　そこに浮かぶ挑戦的な光を俺は知っている。
+だけど、まさか。
+<PAUSE>
+<NAME_PLATE>俺
+「ゆ、ゆきかぜ……なのか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うん」
+<PAUSE>
+<NAME_PLATE>
+　彼女は―――大人のゆきかぜは
+あっさりと頷いた。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、『うん』とかじゃなくてな。
+　いったいどうしたんだその体は？
+　それにさっき稲毛屋にいたお前は？？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは俺から身体を離して言った。
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それは昔の私よ。
+　正確にいえば今の、この時代の私。
+　後はふうまなら分かるでしょう？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええ！？　まさか？？」
+<PAUSE>
+<NAME_PLATE>
+　このＳＦによくある言い回し。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そう。私は未来のゆきかぜよ」
+<PAUSE>
+<NAME_PLATE>
+　これまたあっさりとゆきかぜは言った。
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ゆきかぜ
+「ふうま、よく聞いて。
+　私はアルサールを倒すためにやってきた」
+<PAUSE>
+//【背景：次元侵略者のイメージ背景＿昼】【時間：昼】
+//　※彷徨う淫らなルナティクス＿nc025aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc052a,IN, 1000
+<ACTOR>0,ts_m032a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アルサール
+『我が名はアルサール、次元を超えし者』
+<PAUSE>
+//　※立ち絵
+//　　ブレインフレーヤー立ち絵
+//　※新規デザインではなく、以前出てきた方です。
+<NAME_PLATE>アルサール
+『我らは生み出した究極のテクノロジーを用い
+　自由かつ快適に次元間を移動する事が
+　出来るのです』
+<PAUSE>
+<NAME_PLATE>アルサール
+『我らの次元は危機的な
+　環境変化に見舞われていましてね』
+<PAUSE>
+<NAME_PLATE>アルサール
+『そこで、高度な知的種族たる
+　我らの移住先にふさわしい次元を求め』
+<PAUSE>
+<NAME_PLATE>アルサール
+『あちこちの次元調査と、
+　現地の有害生物の除去を行っているのです。
+　そう、きみたちのような下等生物です』
+<PAUSE>
+<NAME_PLATE>アルサール
+『しかし私は環境保全運動家なのです。
+　この世界の端っこに、必ずや君たちの
+　自然保護区を設置してあげましょう』
+<PAUSE>
+<NAME_PLATE>
+　次元を好き勝手に移動し、侵略を繰り返す
+ブレインフレーヤーの一族アルサール。
+<PAUSE>
+<NAME_PLATE>
+　奴のせいで俺たちは酷い目にあった。
+<PAUSE>
+<NAME_PLATE>
+　いきなり鹿之助と一緒に別次元に飛ばされ、
+そこは俺たちの過去によく似た世界で、
+<PAUSE>
+<NAME_PLATE>
+　若いさくらと出会い、
+先に飛ばされていた凜子先輩とも合流し、
+<PAUSE>
+<NAME_PLATE>
+　宇宙空間だの魔界の原野だの
+あちこちの次元をたらい回しにされ、
+<PAUSE>
+<NAME_PLATE>
+　元凶のアルサールは倒したものの
+若いさくらは自分の次元に戻れなくなり、
+今も俺の家で居候している。
+<PAUSE>
+//【背景：五車町-水城家＿別室＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC016aより流用
+//nc340a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc340a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「あいつ、生きていたのか……」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　確かあのタコのような身体を
+凜子先輩に真っ二つにされ、
+それでもしぶとく生きていたが、
+<PAUSE>
+<NAME_PLATE>
+　最後は俺に脳みそを抉られて、
+ちりぢりになって消滅したはずだ。
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「いつ死んでもいいように脳だけを
+　サイボーグボディに保管していたのよ」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍１
+<NAME_PLATE>俺
+「なんて古典的な」
+<PAUSE>
+<NAME_PLATE>
+　呆れる俺に、ゆきかぜは静かに言った。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私はアルサールとは
+　別のブレインフレーヤーから次元移動装置を
+　奪ってこの時代にやってきた」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それはこの対魔忍スーツに組み込んである。
+　往復できるのは一度だけだけど」
+<PAUSE>
+<NAME_PLATE>
+　そう言って、
+自分の対魔忍スーツに手を当てた。
+<PAUSE>
+<NAME_PLATE>
+　今のゆきかぜのそれと似ているが、
+より洗練された未来的なデザインだ。
+<PAUSE>
+<NAME_PLATE>
+　次元移動装置とやらがどこにあるのか
+見当も付かない。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私は爺に事情を話して、
+　この時代の私には内緒にして
+　匿ってもらっていたの」
+<PAUSE>
+<NAME_PLATE>俺
+「例のタイムパラドックス的なあれか？
+　過去の自分に会うわけにいかないという」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それは迷信よ。
+　私が言うのもだけど、
+　私はいろいろ面倒だから」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ……そうだよな。
+　それでさっきクリアはゆきかぜから
+　隠れたのか」
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「いろいろとややこしいから」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR>0,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ありがとうね、クリア」
+<PAUSE>
+<NAME_PLATE>クリア
+「えへへ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m093a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>冥界の執事
+『わし一人ではこのお嬢様を
+　お助けできぬところでございました。
+　クリアお嬢様、感謝いたします』
+<PAUSE>
+//　※立ち絵
+//　　冥界の執事立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>俺
+「爺さん、普段はボケてるくせに
+　よく大人のゆきかぜだって分かったな」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『カンラカラカラ―――
+　水城家執事、時来善鬼を見くびるでない。
+　一目で未来のお嬢様と分かったわ』
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜに関しては判断が正確のようで、
+爺さんは大いばりだ。
+<PAUSE>
+<NAME_PLATE>
+　その判断力をほんの少しでも
+俺に向けて欲しいものだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「それで、ゆきかぜ、
+　なぜこの時代に来たんだ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「言ったでしょ。
+　アルサールを倒すため」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは言った。
+<PAUSE>
+<NAME_PLATE>
+　感情を出さないというより
+わざとそうしているように見えた。
+<PAUSE>
+<NAME_PLATE>俺
+「それはさっき聞いた」
+<PAUSE>
+<NAME_PLATE>俺
+「なぜ今、お前にとっては過去のこの時代で
+　アルサールを倒す必要があるのかと
+　いうことだ」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり、お前の時代では
+　アルサールはまだ生きているか」
+<PAUSE>
+<NAME_PLATE>俺
+「少なくともこの時代では
+　死んでいないということだろう？
+　なぜ過去を変えようとする」
+<PAUSE>
+<ACTOR>0,yu_t004b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「……相変わらず頭の回転が速いね」
+<PAUSE>
+<NAME_PLATE>
+　なぜかゆきかぜは微笑んだ。
+<PAUSE>
+<NAME_PLATE>
+　だがそれは返事になっていない。
+<PAUSE>
+<NAME_PLATE>俺
+「話を逸らすな」
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そんなふうまなら
+　私の答えも分かるでしょう。
+　それは言えない」
+<PAUSE>
+<NAME_PLATE>俺
+「未来がどうなるのかもか？」
+<PAUSE>
+<ACTOR>0,yu_t004e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ええ……」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　大人のゆきかぜは目を伏せた。
+<PAUSE>
+<NAME_PLATE>
+　表情を曇らせたまま
+何も語ろうとはしない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　思えば最初に会った時のセリフ
+「久しぶりだね」も気になる。
+<PAUSE>
+<NAME_PLATE>
+　つまり、この未来のゆきかぜは
+それくらい俺と会っていないということだ。
+<PAUSE>
+<NAME_PLATE>
+　いったい未来でなにがあったのか。
+<PAUSE>
+<NAME_PLATE>
+　俺に言えないなにか。
+<PAUSE>
+<ACTOR>0,yu_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「納得できないのは分かる。
+　ごめんなさい」
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「でも、アルサールの居場所を
+　探し出すのを手伝って欲しい。
+　ふうまの力がどうしても必要だから」
+<PAUSE>
+<NAME_PLATE>
+　俺は一つ溜息を吐き、答えた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>俺
+「分かった。手伝おう」
+<PAUSE>
+<ACTOR>0,yu_t004c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「いいの？」
+<PAUSE>
+<NAME_PLATE>
+　意外そうな顔をするゆきかぜに
+俺は軽く肩をすくめる。
+<PAUSE>
+<NAME_PLATE>俺
+「わけの分からないトラブルに
+　巻き込まれるのはいつものことだ」
+<PAUSE>
+<NAME_PLATE>俺
+「この前もほら、ジュノのせいでお前と、
+　今のお前とだが、婚姻の誓いの真似事を
+　させられたばかりだ」
+<PAUSE>
+<NAME_PLATE>俺
+「神様がらみの面倒事に比べたら
+　タイムトラベラーくらいまだ普通だ」
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そんなこともあったね。
+　ジュノか……懐かしいな」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは遠い目をした。
+<PAUSE>
+<NAME_PLATE>
+　さっきと同じ目だ。
+<PAUSE>
+<NAME_PLATE>
+　今のゆきかぜが見せたことのない、
+懐かしさと同時に悲しみを感じさせる目だ。
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「ゆきかぜ、わたしも手伝う」
+<PAUSE>
+<NAME_PLATE>
+　クリアがゆきかぜの手を取った。
+<PAUSE>
+<NAME_PLATE>
+　今とは違うゆきかぜの様子に
+クリアも不安そうだ。
+<PAUSE>
+<ACTOR>0,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ありがとう、クリア。
+　でも、ふうまを私に
+　会わせてくれただけで十分よ」
+<PAUSE>
+<NAME_PLATE>クリア
+「わたし、力になれない？」
+<PAUSE>
+<NAME_PLATE>
+　寂しそうなクリアにゆきかぜは首を振り
+しゃがんで目線を合わせる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうじゃないの。
+　私がしようとする事は
+　少人数が都合が良いの」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だからクリアは我慢して。
+　私と……ふうまのために」
+<PAUSE>
+<NAME_PLATE>クリア
+「ゆきかぜと、ふうまのため？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そう」
+<PAUSE>
+<NAME_PLATE>クリア
+「わかった、我慢する」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「良い子ね、クリア」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜはクリアを抱き寄せた。
+<PAUSE>
+<NAME_PLATE>
+　その仕草はまるで
+母親のような慈愛に満ちていて、
+<PAUSE>
+<NAME_PLATE>
+　今のゆきかぜが姉のように接している
+姿とは全く違う。
+<PAUSE>
+<NAME_PLATE>
+　こんな振る舞いをするゆきかぜに
+未来で何が起こったのか、
+俺は思わずにはいられない。
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「ゆきかぜ、手がかりはあるのか？
+　俺は奴が生きていると知ったばかりだ」
+<PAUSE>
+<NAME_PLATE>俺
+「探すのを手伝うと言っても
+　今のところなにも出来ないぞ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「もちろんあるわ。
+　その前に鹿之助にも力を借りたい。
+　あなたのスマホで連絡してくれる？」
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さて、その頃―――。
+<PAUSE>
+//【背景：五車町＿山間部＿森の中＿昼】【時間：昼】
+//　※MISAO_nc011aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc171a,IN, 1000
+<ACTOR>0,s_t001h,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>上原鹿之助
+「うわあああああああああああああ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　上原鹿之助は盛大な悲鳴を上げて、
+五車の森を逃げていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　道を歩いていたら
+突然、目の前に空飛ぶ魚が現れ、
+彼に襲いかかってきたのだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m167a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m167a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m167a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>化け魚
+「ガチガチガチガチガチ！！」
+「ガチガチガチガチガチ！！」
+「ガチガチガチガチガチ！！」
+<PAUSE>
+//　※立ち絵
+//　　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何匹か出してください。
+<NAME_PLATE>鹿之助
+「な、な、なんで、
+　魚が空飛んで俺を追ってくるんだ？」
+<PAUSE>
+<NAME_PLATE>
+　牙を鳴らして迫ってくる化け魚。
+その数は１０匹以上。
+<PAUSE>
+<NAME_PLATE>
+　とても一人では戦えない。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助にできるのは逃げることだけだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,s_t001h,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいいいいいいい！！
+　俺は餌じゃねえよおおおおおっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　テーレッテー♪　テーレッテー♪
+<PAUSE>
+<NAME_PLATE>
+　突然、彼の携帯が鳴った。
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「で、で、電話！？
+　誰だよこんな時に！？
+　ふうま！？」
+<PAUSE>
+<NAME_PLATE>
+　即座に電話に出る。
+<PAUSE>
+<NAME_PLATE>ふうま
+「鹿之助か、俺だ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふ、ふうま！！　空飛ぶ魚が
+　いっぱい俺を追いかけてくるんだ。
+　た、助けてくれええ！！」
+<PAUSE>
+<NAME_PLATE>ふうま
+『空飛ぶ魚？
+　おいまさか襲われてるのか？』
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+『え！？　もう襲われてるの？
+　鹿之助、どこにいるの？？』
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜと一緒にいるらしい。
+後ろから声が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「も、も、も森だ！！
+　が、学校の裏の森！！
+　ははは早く早く！！」
+<PAUSE>
+<NAME_PLATE>
+　あの二人が、特にゆきかぜが
+来てくれればなんとかなる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう思った矢先。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m166a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m166a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m166a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>化けイカ
+「――――――」
+「――――――」
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何匹か出してください。
+<NAME_PLATE>
+　鹿之助が逃げる先に
+今度は巨大なイカの群れが
+次々と出現した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,s_t001h,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ぎゃああああああああああ！！！
+　今度はでっかいイカだああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　慌てて方向転換し、
+魚だけでなくイカからも逃げる。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうまっ、ゆきかぜっ！
+　は、早く来てくれえええええ！！」
+<PAUSE>
+<NAME_PLATE>ふうま
+『待ってろ今行く！！
+　それまでなんとかしのげ！！』
+<PAUSE>
+<NAME_PLATE>鹿之助
+「し、しのげって俺一人でか！？
+　そんなことできるわけ―――」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+『男でしょ！
+　頑張りなさい、鹿之助！』
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの叱責が聞こえて、
+電話はブチッと切れた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「な、なんだよ一体！？　ゆきかぜの奴！
+　男でしょってそうだけど、そうだけど！」
+<PAUSE>
+<ACTOR>0,s_t004d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「く、くそお！
+　俺だって男だ。対魔忍だ。
+　やってやるっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち_対魔忍衣装
+<NAME_PLATE>
+　鹿之助は勇気を振り絞り
+武器を手に化物に向かい合った。
+<PAUSE>
+//→S202a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

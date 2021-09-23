@@ -1,0 +1,534 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「なにやってるのよ、あのバカ」
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<NAME_PLATE>
+　さっきからふうまとの通信が切れている。
+<PAUSE>
+<NAME_PLATE>
+　蛍と舞華もそうだが、あの二人は別にいい。
+ほっといても勝手になんとかする。
+<PAUSE>
+<NAME_PLATE>
+　ほっとけないのは、一番弱いくせに
+一人でなんとかするとか言っていたバカ男だ。
+<PAUSE>
+<NAME_PLATE>
+　これで指揮官がいきなりやられたりしたら
+目も当てられない。
+<PAUSE>
+<NAME_PLATE>きらら
+（ああもう！
+　ほんとに一人でなんとかできてるの？
+　やっぱり助けに行った方がよくない！？）
+<PAUSE>
+<NAME_PLATE>カジノ客
+「おっ、エロいバニーがいるじゃねえか。
+　お茶引いてんなら、俺と一緒に―――」
+<PAUSE>
+<NAME_PLATE>きらら
+「うるさい！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピキッ
+<PAUSE>
+<NAME_PLATE>カジノ客
+「ぐふっ！？」
+<PAUSE>
+<SE_PLAY>se023
+<NAME_PLATE>
+　お尻を触ろうとしてきたスケベカジノ客を
+死なない程度に冷気で悶絶させ、
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ジリジリイライラ
+もう我慢も限界というところで、
+ようやく通信が回復した。
+<PAUSE>
+//【背景：カジノ倉庫＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+//※シナリオ注　ここからミスター・フールがふうまに化けている
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc047a,IN, 1000
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ふうま
+「あーもしもし」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　※ミスター・フールの変身として
+<NAME_PLATE>
+　人の気も知らずに
+いつもと同じ間抜けな声だ。
+<PAUSE>
+<NAME_PLATE>きらら
+『なにがもしもしよ、バカふうま！
+　無事なら無事ってすぐ連絡いれなさいよ！』
+<PAUSE>
+<NAME_PLATE>ふうま
+「通信が繋がりにくくてな。
+　こちらは無事だ。敵は全員始末した。
+　各自の状況を報告してくれ」
+<PAUSE>
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>きらら
+「状況ってあんたが
+　動くなって言ったんでしょ。
+　こちらきらら、ホールで待機中よ！」
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0254a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「こちら深月。私もホールにいます。
+　さっきのふうまさんの大当たり騒ぎは
+　治まっています」
+<PAUSE>
+//　※立ち絵
+//　　　深月＿立ち絵
+//　　　※【バニー】星乃深月２より流用
+<NAME_PLATE>深月
+「ただイカサマはカジノにバレたはずです。
+　ふうまさんと蛍さんはもうホールに
+　戻らない方がいいと思います」
+<PAUSE>
+//【背景：カジノ別室＿昼夜共通】【時間：夜】
+//　※監獄戦艦外伝_NC008aより流用
+//nc338a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc338a,IN, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>蛍
+「こちら蛍です。
+　はい、バレていました。
+　今、ホールから少し離れた部屋にいます」
+<PAUSE>
+//　※立ち絵
+//　　蛍＿立ち絵
+//　　　＊【バニー】喜瀬蛍３流用
+<NAME_PLATE>蛍
+「舞華ちゃんも一緒です。
+　黒服は大人しくさせました。
+　それはまだ気づかれてないと思います」
+<PAUSE>
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「こちら舞華。
+　悪いな、ふうま。
+　蛍先輩が心配で勝手に動いちまった」
+<PAUSE>
+//　※立ち絵
+//　　舞華＿立ち絵
+//　　　※【バニー】深月２より流用
+<NAME_PLATE>舞華
+「お前一人でサイボーグを倒したのか。
+　なかなかやるじゃねえか」
+<PAUSE>
+//【背景：カジノ倉庫＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc047a,IN, 1000
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ふうま
+「…………」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　※ミスター・フールの変身として
+<NAME_PLATE>きらら
+『ふうま、なに黙ってんのよ』
+<PAUSE>
+<NAME_PLATE>
+　ふうまが何も言わないので、
+きららはイライラして言った。
+<PAUSE>
+<NAME_PLATE>きらら
+『で、どうすんの？
+　あんたが大当たりを出してオーナーを
+　誘い出すって計画はパーよ』
+<PAUSE>
+<NAME_PLATE>きらら
+『オーナーに会えなきゃ
+　私だって変わり身のしようがないわ』
+<PAUSE>
+<NAME_PLATE>舞華
+『どうせイカサマはバレちまったんだろ。
+　もう突入して直に探した方が早くないか？』
+<PAUSE>
+<NAME_PLATE>
+　舞華が彼女らしい
+ストレートな提案をしたが、
+深月がそれに異を唱える。
+<PAUSE>
+<NAME_PLATE>深月
+『待ってください、それは最終手段です』
+<PAUSE>
+<NAME_PLATE>深月
+『ふうまさん、それに蛍さんに舞華さん。
+　倒した護衛からオーナーの居場所を
+　聞き出せませんか？』
+<PAUSE>
+<NAME_PLATE>ふうま
+「分かった」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>蛍
+『了解です。やってみます』
+<PAUSE>
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>きらら
+（ただ待ってるってのは
+　ほんとイライラするわね……）
+<PAUSE>
+//※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　倒した黒服の護衛からオーナーの情報を
+聞き出す。
+<PAUSE>
+<NAME_PLATE>
+　いきなりオーナーがいそうな場所に
+殴り込みをかけるよりは悪くないと思うが、
+そんなに上手くいくだろうか。
+<PAUSE>
+<NAME_PLATE>
+　ホールにいるきららは何もできないので
+苛立ちがつのるばかりだ。
+<PAUSE>
+<NAME_PLATE>
+　その間にまた二人ほどスケベ客を眠らせた。
+<PAUSE>
+<NAME_PLATE>
+　そして、まず蛍たちから返事が来た。
+<PAUSE>
+<NAME_PLATE>蛍
+『こちら蛍です。
+　こっちの人たちは知らないようです。
+　ごめんなさい』
+<PAUSE>
+<NAME_PLATE>舞華
+『ちっ、護衛にも居場所を教えねえってのか。
+　どんだけ引きこもりなんだよ』
+<PAUSE>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「ふうま、あんたの方はどうなの？」
+<PAUSE>
+<NAME_PLATE>
+　もう期待はしていなかったが、
+その答えは意外なものだった。
+<PAUSE>
+<NAME_PLATE>ふうま
+『こっちはうまくいった。
+　敵の一人がカジノの
+　セキュリティ担当だった』
+<PAUSE>
+<NAME_PLATE>ふうま
+『今、そいつを脅して
+　セキュリティルームについたところだ。
+　ここからオーナー室までの道を案内する』
+<PAUSE>
+<NAME_PLATE>ふうま
+『最初の段取りとは違うが、
+　俺の指示に従ってオーナーのところに
+　向かってくれ』
+<PAUSE>
+<NAME_PLATE>きらら
+「それ私一人で行くの？
+　それとも深月先輩と？」
+<PAUSE>
+<NAME_PLATE>ふうま
+『一人で行ってくれ。
+　まだ状況がどう変わるか分からない。
+　他の三人は現在の場所でそのまま待機』
+<PAUSE>
+<NAME_PLATE>深月
+『そう……ですね。
+　こちら深月、了解しました』
+<PAUSE>
+<NAME_PLATE>蛍
+『私たちも了解です』
+<PAUSE>
+<NAME_PLATE>舞華
+『役立たずの黒服どもは
+　騒がれねえようにまた眠らせとくぜ』
+<PAUSE>
+<NAME_PLATE>きらら
+「了解。
+　そういうことなら、
+　ちゃんと案内しなさいよ」
+<PAUSE>
+<NAME_PLATE>きらら
+（黒服を脅して？
+　ふうまにしては珍しいわね。
+　まあこの際しょうがないか）
+<PAUSE>
+<NAME_PLATE>
+　とにかく、動けるのが嬉しい。
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　きららはふうまの指示でホールを出た。
+<PAUSE>
+//【背景：カジノ通路＿昼夜共通】【時間：夜】
+//　※監獄戦艦_nc006aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0143a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　セキュリティルームに
+入ったと言うだけのことはある。
+<PAUSE>
+<NAME_PLATE>
+　ふうまの案内ですぐに
+バニーガールとして内偵していた
+きららも知らないエリアに進入できた。
+<PAUSE>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「こんなとこ来たことないわ。
+　いかにもって感じね」
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<NAME_PLATE>きらら
+「あんたを引っ張ってった連中も
+　サイボーグだったし、どんな敵が出てくるか
+　分かったもんじゃないわね」
+<PAUSE>
+<NAME_PLATE>
+　カジノらしからぬ通路を進みながら
+通信先のふうまに話しかけた。
+<PAUSE>
+<NAME_PLATE>
+　今、彼女が見ている光景は
+リアルタイムでふうまも見ている。
+<PAUSE>
+<NAME_PLATE>
+　こういう形での任務は初めてなので、
+新鮮と言えば新鮮だが、
+ちょっと物足りないのも確かだ。
+<PAUSE>
+<NAME_PLATE>ふうま
+『大丈夫だ。
+　セキュリティは掌握している。
+　安心して進んでくれ』
+<PAUSE>
+<NAME_PLATE>
+　ふうまから自信たっぷりの返事がきた。
+それはいいのだが―――
+<PAUSE>
+<NAME_PLATE>きらら
+「…………」
+<PAUSE>
+<NAME_PLATE>ふうま
+『どうした？』
+<PAUSE>
+<NAME_PLATE>
+　きららの顔が見えてるわけでもないのに、
+しかめっ面をしている気配でも伝わったのか、
+ふうまが尋ねてきた。
+<PAUSE>
+<NAME_PLATE>きらら
+「あのさあ、なんでさっきから
+　そんなえらそーな口調なわけ？」
+<PAUSE>
+<NAME_PLATE>きらら
+「今は任務中だし、隊長はあんただから
+　それで別にいいんだけどさ、
+　なんかいつもと違って調子狂うのよね」
+<PAUSE>
+<NAME_PLATE>ふうま
+『この喋り方は嫌か、きらら？』
+<PAUSE>
+<NAME_PLATE>きらら
+「きららって……ええ？」
+<PAUSE>
+<NAME_PLATE>
+　思わず立ち止まってしまう。
+<PAUSE>
+<NAME_PLATE>きらら
+（いきなり呼び捨て？？）
+<PAUSE>
+<NAME_PLATE>
+　今までこんなことはなかった。
+<PAUSE>
+<NAME_PLATE>
+　突然、隊長としての変なポリシーに
+目覚めたのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　それとも、サイボーグを一人で倒して
+ちょっと調子に乗っているのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　その気持ちは分からなくもないし、
+呼び捨てにされてドキッとしなくもないが、
+ううん、ダメダメ。
+<PAUSE>
+<NAME_PLATE>きらら
+（ここは先輩として厳しくしないと！）
+<PAUSE>
+<NAME_PLATE>ふうま
+『どうした？』
+<PAUSE>
+<NAME_PLATE>きらら
+「やっぱ嫌。納得できない」
+<PAUSE>
+<NAME_PLATE>きらら
+「私のことは『きらら先輩』
+　で、いつも通りちゃんと『ですます調』。
+　いい？　わかった？　ちゃんと敬語！」
+<PAUSE>
+<NAME_PLATE>ふうま
+『了解です、きらら先輩。
+　これでいいですか？』
+<PAUSE>
+<NAME_PLATE>きらら
+「……いいわよ」
+<PAUSE>
+<NAME_PLATE>
+　ふうまはあっさりと口調を元に戻した。
+特にこだわりも無いようだ。
+<PAUSE>
+<NAME_PLATE>きらら
+（なんなのこいつ？）
+<PAUSE>
+<NAME_PLATE>
+　若干の戸惑いを感じながらまた歩き出すと、
+すぐに分かれ道だ。
+<PAUSE>
+<NAME_PLATE>きらら
+「どっち行けばいいの？」
+<PAUSE>
+<NAME_PLATE>ふうま
+『右に行ってください』
+<PAUSE>
+<NAME_PLATE>きらら
+「了解」
+<PAUSE>
+<NAME_PLATE>
+　言う通り進んで行く。
+<PAUSE>
+<NAME_PLATE>きらら
+「オーナー室は遠いの？」
+<PAUSE>
+<NAME_PLATE>ふうま
+『もうすぐです』
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>きらら
+「あっそう―――あっ！」
+<PAUSE>
+<NAME_PLATE>ふうま
+『どうしました？』
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>2,ts_m105a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m105a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m105a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ガードロボット
+「シンニュウシャ、ハッケン」
+「シンニュウシャ、ハッケン」
+「シンニュウシャ、ハッケン」
+<PAUSE>
+//　※立ち絵
+//　　BR-2兼光立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用。
+//　※何体か出してください
+<NAME_PLATE>
+　通路の向こうからガードロボットが
+ワラワラと現れた。
+<PAUSE>
+<NAME_PLATE>
+　侵入者というのはきららのことだろう。
+他に人がいない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「ちょっと！　なんか出てきたわよ！
+　セキュリティはそっちで
+　掌握してるんじゃなかったの！？」
+<PAUSE>
+<NAME_PLATE>ふうま
+『そのつもりでしたが、しかたない。
+　現れた敵を排除してください』
+<PAUSE>
+<NAME_PLATE>きらら
+「言われなくたって排除するわよ！」
+<PAUSE>
+<NAME_PLATE>
+　気楽に言うふうまにイラッとしつつ
+きららは拳を構えた。
+<PAUSE>
+//→S202a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

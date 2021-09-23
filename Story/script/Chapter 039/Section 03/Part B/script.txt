@@ -1,0 +1,236 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・地下通路＿昼夜共通】【時間：昼】
+//　※LILITH_IZM_07_背景nc009aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc133a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m301a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>バーバリアン＆感染者
+「ギィイイイイイイイイイイイイイイッ！！」
+「ああーーーーーー！！」
+「ううーーーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　バーバリアン
+//　　　＊モンスターイラストより流用
+//　　感染者
+//　　　＊モンスターイラストより流用
+//　　※感染者は複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ゆきかぜ！
+　くれぐれも威力はセーブしてね！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「分かってるわよ。
+　天井が落ちでもしたらたまんないわ」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「アスカも壁に振動を与えるような風は
+　使わないでよね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「使うわけないでしょ。
+　ちまちま一匹ずつ倒すわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ああもう！　めんどくさい！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　戦闘開始。
+<PAUSE>
+<NAME_PLATE>
+　かと思われたが、
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m301a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>バーバリアン＆感染者
+「ギィイイイイイイイイイイイイイイッ！！」
+「ああーーーーーー！！」
+「ううーーーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　感染者
+//　　　＊カードイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドドドドドドドドドド！！
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「え？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なに？」
+<PAUSE>
+<NAME_PLATE>
+　化物たちは一人残らず、
+二人の横を駆け抜けていく。
+<PAUSE>
+<NAME_PLATE>
+　彼女たちのことなど
+まるで気にしていない。
+<PAUSE>
+<NAME_PLATE>
+　呆気にとられている間に、
+バーバリアンと感染者のご一行は
+目の前から去っていった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんか素通りしていったけど。
+　私たちを完璧無視して」
+<PAUSE>
+<NAME_PLATE>アスカ
+「っていうか、
+　なにかから逃げてたみたいね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なにから？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「さあ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人は顔を見合わせた。
+<PAUSE>
+<NAME_PLATE>
+　ゾクリとする。
+<PAUSE>
+<NAME_PLATE>
+　恐怖などという感情を忘れたはずの
+あの連中が必死に逃げる相手。
+<PAUSE>
+<NAME_PLATE>
+　つまりそれは
+もっと戦慄すべきもの。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ＆アスカ
+「！！！」
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　二人は前方の闇をハッと見た。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　コツン、コツン、コツン―――。
+<PAUSE>
+<NAME_PLATE>
+　なにかが近づいてくる足音。
+<PAUSE>
+<NAME_PLATE>
+　ヒュン、ヒュン、ヒュン―――。
+<PAUSE>
+<NAME_PLATE>
+　なにか沢山の鞭のようなものが
+風を切っている音。
+<PAUSE>
+<NAME_PLATE>
+　ボォ、ボォ、ボォ―――。
+<PAUSE>
+<NAME_PLATE>
+　生き物が発するとは思えない
+不気味な音。
+<PAUSE>
+<NAME_PLATE>
+　地下道の闇の彼方から
+正体不明の存在が近づいてくる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「私たちも逃げたいとこだけど」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そんなヤバい奴がいるのなら
+　私たちが退治しないと」
+<PAUSE>
+<NAME_PLATE>
+　雷神と風神は覚悟を決めて身構えた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　コツン、コツン、コツン。
+<PAUSE>
+<NAME_PLATE>
+　ヒュンヒュンヒュン。
+<PAUSE>
+<NAME_PLATE>
+　ボォ、ボォ、ボォ。
+<PAUSE>
+<NAME_PLATE>
+　そして―――出た。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m257c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<WAIT>1000
+//　※立ち絵
+//　　ナーサラ
+//　　　＊カードイラストより流用
+//　　おぼ猫
+//　　　＊既存イラストより流用
+//　※サイズを合わせて並べてください
+//→Section３終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

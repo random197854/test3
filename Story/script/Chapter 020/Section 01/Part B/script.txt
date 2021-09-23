@@ -1,0 +1,234 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：近隣都市まえさき市＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+<BGM_PLAY>bgm404,1000
+<BG>nc262a,IN, 1000
+<ACTOR>1,ts_m100a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エージェント
+「……………！」
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m100a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エージェント
+「……………！」
+<PAUSE>
+<NAME_PLATE>アサシン
+「…………！」
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　アサシン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　前後からの挟撃。
+<PAUSE>
+<NAME_PLATE>
+　三対一。
+<PAUSE>
+<NAME_PLATE>
+　しかも、
+一見して斉藤は武器を持っていない。
+<PAUSE>
+<NAME_PLATE>
+　おそらく連中は絶対の自信があっただろう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが―――
+<PAUSE>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「畜群の動きだな」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　突如、
+彼の背中から新たに二本の腕が生えた。
+<PAUSE>
+<NAME_PLATE>
+　元からあった腕と合わせて四本になる。
+<PAUSE>
+<ACTOR>1,ts_m100a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エージェント
+「っ！？」
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m100a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エージェント
+「腕が増えた！？」
+<PAUSE>
+<NAME_PLATE>アサシン
+「調査通りだ。油断するな！」
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　アサシン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　一応、彼のことは調べてきたらしい。
+<PAUSE>
+<NAME_PLATE>
+　だが四本腕を見て、露骨に狼狽している。
+<PAUSE>
+<NAME_PLATE>
+　あまりにも遅鈍。まさに畜群だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>斉藤半次郎
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　斉藤は少しも怯まずに、
+畜群どもの間で四本の腕を軽やかに振るった。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エージェント
+「ぐはっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エージェント
+「うがっ！！」
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサシン
+「ぐふうっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　別に渾身の力を込めたりはしない。
+そんなことをする必要はない。
+<PAUSE>
+<NAME_PLATE>
+　頭なら、天道、烏兎、眼下、人中、下昆、
+胴体なら、天突、秘中、水月、章門、雁下。
+その他、人体の急所は軽く５０を超える。
+<PAUSE>
+<NAME_PLATE>
+　身についた体術を当たり前に駆使し、
+そのうちのたった四つを同時に攻めてやれば、
+人間など簡単に悶絶する。
+<PAUSE>
+<BG>nc262a,IN, 500
+<NAME_PLATE>エージェント＆アサシン
+「ぐぐぐぐぐぅーーーー」
+「ウーー、ウーーーーッ」
+「ふぐぅうぅうううーーーーー」
+<PAUSE>
+<NAME_PLATE>
+　暗殺者はその低級なありようにふさわしく
+三人とも地べたに転がって呻いていた。
+<PAUSE>
+<NAME_PLATE>
+　殺すのは簡単だが、後始末が面倒だ。
+また、その価値もない。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「消えろ。
+　高貴な私の手を汚すまでもない」
+<PAUSE>
+<NAME_PLATE>
+　答えはなかった。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「聞いているのか？」
+<PAUSE>
+<NAME_PLATE>
+　斉藤は裏路地の入り口に顔を向けた。
+<PAUSE>
+<NAME_PLATE>
+　彼は内調の暗殺者たちなどに
+話しかけてなどいなかった。
+<PAUSE>
+<NAME_PLATE>
+　物陰から斉藤を観察している男に
+言っていたのだ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m150a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m151a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>井河影臣
+「よオ、見事な対魔殺法だな」
+<PAUSE>
+//　※立ち絵
+//　　井河影臣立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　隠れていた男、井河影臣が姿を現す。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「こいつらも情けねえな。
+　おかげで半分も食えなかったぜ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「………………」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「んでチクグンって何だ？」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「お前たちのような奴隷の群れを指す言葉だ」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「ったくまたややこしい言葉、使いやがって」
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎と井河影臣。
+<PAUSE>
+<NAME_PLATE>
+　二人は改めて対峙した。
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

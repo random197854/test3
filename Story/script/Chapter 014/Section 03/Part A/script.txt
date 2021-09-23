@@ -1,0 +1,707 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京＿新内閣府庁ビル＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC053bより流用
+//nc159a
+<BG>nc159a,IN, 1000
+<NAME_PLATE>
+　ふうま小太郎が槇島あやめと
+邂逅したその少し前―――
+<PAUSE>
+<NAME_PLATE>
+　井河アサギは内閣情報調査局に呼び出され
+新内閣府庁ビルを訪れていた。
+<PAUSE>
+<NAME_PLATE>
+　その傍らには一人の男がいた。
+<PAUSE>
+//【背景：NC054a　東京＿新内閣府庁ビル＿内調司令室＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC054aより流用
+//nc160a
+<BGM_PLAY>bgm206,1000
+<BG>nc160a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m099a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ya_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舟子
+「お久しぶりです。山本部長」
+<PAUSE>
+//　※立ち絵
+//　　峰舟子立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>山本
+「峰さん、
+　ＮＳＣ（国家安全保障会議）以来ですね」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギＺＥＲＯより流用
+//ya_t001a～
+<NAME_PLATE>
+　男の名は山本信繁（やまもと　のぶしげ）。
+<PAUSE>
+//※園田より
+//　信繁の名はアサギ３シナリオより流用
+<NAME_PLATE>
+　内務省公共安全庁、
+調査第三部＜セクションスリー＞の部長だ。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,ya_t001a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　政府と対魔忍を繋ぐ事務方のトップ。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の直接の上司であり、
+アサギらの良き理解者でもある。
+<PAUSE>
+<NAME_PLATE>
+　人魔結託した悪に対抗し、
+正義を実行するため、知略と政治力を駆使して
+常に対魔忍をサポートしている切れ者だ。
+<PAUSE>
+<NAME_PLATE>
+　顔は現役の軍人のように厳ついが、
+家では恐妻家で
+子煩悩だというもっぱらの噂だ。
+<PAUSE>
+<NAME_PLATE>
+　また大の猫好きでもあり、
+スマホには妻と子供、そして愛猫の写真が
+ぎっしりらしい。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m099a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,a_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舟子
+「あなたが噂の井河さんね。
+　私は峰舟子。よろしく」
+<PAUSE>
+<NAME_PLATE>アサギ
+「井河アサギです。よろしく」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+//既存
+<NAME_PLATE>
+　アサギは彼女たちを呼びつけた
+内閣情報調査局の局長とかいう女と
+表向き平穏に挨拶を交わした。
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>0,ts_m099a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　内調といえば魑魅魍魎の巣であるが、
+この女は全身から胡散臭さを漂わせている。
+<PAUSE>
+<NAME_PLATE>
+　それを隠そうともしていない。
+私は怪しい女ですとあえて主張している。
+油断のならない相手なのは間違いなかった。
+<PAUSE>
+<ACTOR>0,ts_m099a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>山本
+「我々に協力を得たいということですが」
+<PAUSE>
+<NAME_PLATE>
+　女たちが挨拶を済ませると、
+まず山本が口火を切った。
+<PAUSE>
+<NAME_PLATE>舟子
+「ええ、五車の協力が
+　不可欠な案件がありましてね」
+<PAUSE>
+<NAME_PLATE>山本
+「我々で協力できることであれば
+　良いのですが」
+<PAUSE>
+<NAME_PLATE>
+　山本は口調だけは丁寧に言った。
+<PAUSE>
+<NAME_PLATE>
+　相手は内調だ。
+ただの協力であるはずがない。
+<PAUSE>
+<NAME_PLATE>
+　下手をすれば、
+こちらが乗せられるだけの結果となる。
+<PAUSE>
+<NAME_PLATE>舟子
+「呼び出したのは佐郷文庫の件です。
+　山本部長」
+<PAUSE>
+<ACTOR>1,ya_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「ほお、確か米連に亡命した
+　サイボーグ対魔忍でしたな」
+<PAUSE>
+<NAME_PLATE>
+　眉一つ動かさず惚けた山本に
+峰も笑みを浮かべたまま斬り込んできた。
+<PAUSE>
+<NAME_PLATE>舟子
+「ええ、内調が身柄確保直前で
+　暗殺されたサイボーグ対魔忍です」
+<PAUSE>
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「…………」
+<PAUSE>
+<NAME_PLATE>舟子
+「暗殺の首謀者は何者なのか？
+　その調査である疑惑が浮上しまして」
+<PAUSE>
+<NAME_PLATE>山本
+「疑惑、ですか？」
+<PAUSE>
+<NAME_PLATE>
+　山本が注意深く問い質そうとすると、
+峰は驚くほどあからさまに言い募ってきた。
+<PAUSE>
+<NAME_PLATE>舟子
+「佐郷を暗殺した首謀者、
+　それは五車ではないかという疑惑です」
+<PAUSE>
+<NAME_PLATE>山本
+「つまり我々が佐郷を暗殺した、と
+　言いたいのですかな？」
+<PAUSE>
+<NAME_PLATE>
+　その返答は流れるようで、
+山本にいささかの動揺も見られない。
+<PAUSE>
+<NAME_PLATE>舟子
+「ええ。これは立派な国家反逆罪ですわ」
+<PAUSE>
+<NAME_PLATE>
+　そして峰は、
+まるで舞台女優が観客に向かって
+いるかのように言い放った。
+<PAUSE>
+<ACTOR>1,ya_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「峰さん、我々は協力を
+　要請されてここに来た。根拠のない
+　言い掛かりを受けにきたのではない」
+<PAUSE>
+<NAME_PLATE>
+　山本には
+峰の小芝居につきあう気はないようだった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　一も二もなく帰ろうとする。
+<PAUSE>
+<NAME_PLATE>
+　アサギもそれに続いた。
+<PAUSE>
+//　※立ち絵
+//　　エージェント立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストから流用
+//ts_m100a
+<ACTOR>3,ts_m100a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　峰の部下が彼女たちを遮る。
+<PAUSE>
+<NAME_PLATE>アサギ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　この僅かな時間で
+峰のことが嫌いになっていた
+アサギは思わず抵抗したくなる。
+<PAUSE>
+<NAME_PLATE>山本
+「よせ」
+<PAUSE>
+<NAME_PLATE>
+　良くも悪くもアサギを知っている山本が
+彼女がピクリとするかしないかのうちに、
+それを制していた。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m099a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ya_t001c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>山本
+「内閣府と内務省で
+　やり合おうという気ですかな？」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギＺＥＲＯより流用
+//ya_t001a～
+<NAME_PLATE>舟子
+「いえ、
+　ご足労いただきありがとう御座います」
+<PAUSE>
+//　※立ち絵
+//　　峰舟子立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//ts_m099a
+<NAME_PLATE>
+　峰が胡散臭い笑みを浮かべたまま一礼する。
+<PAUSE>
+//【黒画面】
+//【背景：東京＿新内閣府庁ビル＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC053bより流用
+//nc159a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc159a,IN, 1000
+<ACTOR>2,a_t001e,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アサギ
+「あの女、随分な宣戦布告よね」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+//既存
+<NAME_PLATE>
+　アサギは内務省の公用車で
+新内閣府庁ビルを出るなり言った。
+<PAUSE>
+<NAME_PLATE>
+　最初に挨拶を交わしただけで
+後はずっと黙っていたので、
+イライラが溜まっていた。
+<PAUSE>
+<NAME_PLATE>
+　生徒たちの前では滅多に見せない
+感情剥き出しの言葉に、山本が苦笑する。
+<PAUSE>
+<ACTOR>2,a_t001e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ya_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>山本
+「内調は陸自と組んで
+　サイボーグ開発に躍起だ」
+<PAUSE>
+<NAME_PLATE>山本
+「米連の“生きた”サイボーグが入手寸前で
+　それを邪魔されたとあっては
+　頭にもくるだろう」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギＺＥＲＯより流用
+//ya_t001a～
+<ACTOR>2,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あら？　邪魔したの？」
+<PAUSE>
+<NAME_PLATE>山本
+「さあな」
+<PAUSE>
+<ACTOR>2,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「どういう女なの？
+　胡散臭さ全開だったけど」
+<PAUSE>
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「その直感で当たっている。
+　一言で言って、妖怪だな」
+<PAUSE>
+<NAME_PLATE>アサギ
+「妖怪？」
+<PAUSE>
+<NAME_PLATE>山本
+「峰舟子、内外問わず大物政治家や
+　官僚、経済界の重鎮との太いパイプを持ち、
+　暗躍している凄腕のエージェント」
+<PAUSE>
+<NAME_PLATE>山本
+「彼女に潰された組織は
+　公に知られているだけでも十を超える」
+<PAUSE>
+<NAME_PLATE>アサギ
+「なるほど。凄腕ね」
+<PAUSE>
+<NAME_PLATE>山本
+「嘘か本当か、台湾危機の際に
+　陸自の参謀部にいたという噂もある」
+<PAUSE>
+<NAME_PLATE>アサギ
+「台湾危機って、それが本当なら
+　ものすごいお婆さんじゃないの。
+　私の少し上くらいにしか見えないわよ」
+<PAUSE>
+<NAME_PLATE>山本
+「だから妖怪だ。
+　もっとも、女はみな妖怪という説もあるが」
+<PAUSE>
+<ACTOR>2,a_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あら、それって私のこと？
+　それとも奥さん？」
+<PAUSE>
+<ACTOR>1,ya_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「返答は避けておこう」
+<PAUSE>
+<ACTOR>2,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それが賢明ね。
+　ま、あの女が私たち対魔忍を敵視してるって
+　ことだけはビンビンに伝わってきたわ」
+<PAUSE>
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「そのようだな。
+　なんのつもりで我々を呼び出し、
+　あんなことを言ってきたのか……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人を乗せた車は官庁街を離れ
+新港区の方面へ向かう。
+<PAUSE>
+<NAME_PLATE>
+　そこには調査第三部＜セクションスリー＞の
+秘密支部がある。
+<PAUSE>
+//【背景：都内某所道路＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC023bより流用
+//nc161a
+<BG>nc161a,IN, 1000
+<GROUP>
+<ACTOR>2,a_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「内務省に戻らないの？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+//既存
+<NAME_PLATE>山本
+「峰の動きが気になる。
+　杞憂であれば良いがな」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギＺＥＲＯより流用
+//ya_t001a～
+<BGM_STOP>1000
+<NAME_PLATE>アサギ
+「そうね……」
+<PAUSE>
+<NAME_PLATE>
+　そんな会話を交わした時だった。
+<PAUSE>
+<ACTOR>2,a_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサギ
+「っ！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　なにか特別な予兆があったわけではない。
+<PAUSE>
+<NAME_PLATE>
+　だが背筋を氷柱で貫かれたような悪寒が
+アサギを襲った。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>2,a_t001f,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサギ
+「来るわ！！」
+<PAUSE>
+<ACTOR>1,ya_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「なに？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　次の瞬間―――
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se037
+</GROUP>
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ドガアアアアアアアアアアアアンンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　凄まじい爆発音。
+<PAUSE>
+<NAME_PLATE>山本
+「な、なにごとだ！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ふせて！！！」
+<PAUSE>
+<NAME_PLATE>
+　アサギはとっさに山本に覆い被さる。
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se037
+</GROUP>
+<NAME_PLATE>
+　再び激しい爆発。
+<PAUSE>
+<NAME_PLATE>
+　攻撃は上からだ。
+<PAUSE>
+<NAME_PLATE>山本
+「うわっっ！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「くっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　車が跳ねたような感覚。
+<PAUSE>
+<NAME_PLATE>
+　戦車砲の直撃にも耐える専用車が宙を舞う。
+<PAUSE>
+<NAME_PLATE>
+　車は地面に何度も叩きつけられ、
+グルグルと回転して、ようやく止まった。
+<PAUSE>
+<BG>nc161a,IN, 500
+<GROUP>
+<SE_PLAY>se003
+<ACTOR>2,a_t006f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「いきなり襲撃とはやってくれるわね」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿白対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+//a_t004a～
+<NAME_PLATE>
+　アサギは山本を抱えて、
+無傷で地面に立っていた。
+<PAUSE>
+<NAME_PLATE>
+　車が吹き飛ばされた瞬間、
+山本を引っ張り出して、
+脱出していたのだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、一人を救うのが精一杯。
+<PAUSE>
+<NAME_PLATE>
+　停止した車の中で、
+運転手はすでに死亡していた。
+<PAUSE>
+<NAME_PLATE>
+　山本も頭部から出血している。
+<PAUSE>
+<ACTOR>2,a_t006c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「頭の怪我、大丈夫？」
+<PAUSE>
+<NAME_PLATE>山本
+「ああ、なんとかな。
+　運転手は……くっ、駄目か」
+<PAUSE>
+<NAME_PLATE>アサギ
+「助けられなかったわ。
+　部長もまた奥さんに叱られちゃうわね」
+<PAUSE>
+<NAME_PLATE>山本
+「そんなことより、その装備は？
+　最初から襲撃を予想していたのか？」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギＺＥＲＯより流用
+//ya_t001a～
+<NAME_PLATE>
+　頭の出血箇所を押さえつつ、山本が聞いた。
+<PAUSE>
+<NAME_PLATE>
+　アサギの姿が一変していたのだ。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍スーツ。
+<PAUSE>
+<NAME_PLATE>
+　それも見慣れた紫のそれではない。
+<PAUSE>
+<NAME_PLATE>
+　白を基調とした重装備。
+<PAUSE>
+<NAME_PLATE>
+　高い攻撃力と防御力を発揮し、
+ただ一人で敵陣営の制圧すら可能な
+アサギ専用の強襲型スーツだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「話せば長くなるわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そんな暇もないようだしね」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　襲撃者が近づいてくる。
+<PAUSE>
+<ACTOR>4,ts_m101a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「すごい大男」
+<PAUSE>
+//　※立ち絵
+//　　ナイトウ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストを流用
+//ts_m101a
+<NAME_PLATE>
+　縦も横もあきれるほど大きい。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと見たことがないほどの
+巨体の持ち主、サイボーグだった。
+<PAUSE>
+<NAME_PLATE>巨体サイボーグ
+「井河アサギ、
+　さすがにこの程度では死なんか」
+<PAUSE>
+<NAME_PLATE>
+　大男が言った。
+<PAUSE>
+<NAME_PLATE>
+　声帯すら機械化されているのだろう、
+その声は奇妙に歪んでいた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「あきれる大きさね。元から？
+　それとも機械になる時に盛ったのかしら？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿白対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+//a_t004a～
+<NAME_PLATE>巨体サイボーグ
+「時代遅れの忍者が調子に乗るなよ」
+<PAUSE>
+<NAME_PLATE>
+　アサギの軽口に、
+大男は耳障りな返事をよこす。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　その背後に新手が登場した。
+<PAUSE>
+<NAME_PLATE>
+　空からだ。
+<PAUSE>
+//　※立ち絵
+//　　PEX-88式改 雷電立ち絵
+//　　　　＊対魔忍アサギ３より流用
+//ri_t001a～
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>5,ra_t001a,RIGHT, RIGHT, IN, linear, 1000
+<SE_PLAY>se103
+</GROUP>
+<WAIT>500
+<GROUP>
+<ACTOR>6,ra_t001a,LEFT, LEFT, IN, linear, 1000
+<SE_PLAY>se103
+</GROUP>
+<WAIT>700
+<GROUP>
+<ACTOR>7,ra_t001a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se103
+</GROUP>
+<NAME_PLATE>
+　ズシン、ズシン、ズシンと
+強化外骨格が次々と降ってくる。
+<PAUSE>
+<NAME_PLATE>アサギ
+「一機、二機、三機、大盤振る舞いね」
+<PAUSE>
+<NAME_PLATE>
+　あれは陸自が開発したＰＥＸ－８８『雷電』
+とかいう代物だ。
+<PAUSE>
+<NAME_PLATE>
+　この連中がさっきビルの上から
+アサギたちの乗る車を爆撃したのだろう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+<ACTOR_OUT>7,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　さらにワゴン車まで現れる。
+<PAUSE>
+<NAME_PLATE>アサギ
+「まだ来るの？」
+<PAUSE>
+<GROUP>
+<ACTOR>8,ts_m098a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>9,ts_m098a,RIGHT, RIGHT, IN, linear, 1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　そこから武装した兵士一個小隊が
+ぞろぞろと降りてきた。
+<PAUSE>
+//　※立ち絵
+//　　警備兵立ち絵
+//　　　＊モンスターイラストより流用
+//ts_m098a
+<GROUP>
+<ACTOR_OUT>8,LEFT,linear,1000
+<ACTOR_OUT>9,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,a_t006d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「“時代遅れ”相手に随分物騒ね」
+<PAUSE>
+<NAME_PLATE>
+　アサギの顔にうっすらと笑みが浮かぶ。
+<PAUSE>
+<NAME_PLATE>
+　それは氷の笑み。
+<PAUSE>
+<NAME_PLATE>
+　魔族すら恐れる戦士の笑みだ。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se016
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　彼女は大小二振りの対魔刀を
+すらりと抜いた。
+<PAUSE>
+//→S302a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

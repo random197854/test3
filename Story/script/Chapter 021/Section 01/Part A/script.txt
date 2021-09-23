@@ -1,0 +1,357 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：センザキ-首都圏有数の犯罪都市の繁華街＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿NC046bより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc144a,IN, 1000
+<NAME_PLATE>
+　センザキは首都圏有数の犯罪都市として
+知られている。
+<PAUSE>
+<NAME_PLATE>
+　かつては東京のベッドタウンだったが、
+戦争難民の流入で街の中心部がスラム化した。
+<PAUSE>
+<NAME_PLATE>
+　さらに魔界の住人や犯罪組織が寄り集まり、
+闇の大繁華街へと変貌を遂げた。
+<PAUSE>
+<NAME_PLATE>
+　しかも、昔通りの貿易港があるため、
+各闇の勢力の戦略的重要拠点として、
+日々激しい抗争が起こっている。
+<PAUSE>
+<NAME_PLATE>
+　実力と運をかね揃えていなければ、
+一日たりとも無事にすごせない危険な街だ。
+<PAUSE>
+<NAME_PLATE>
+　そんな街を女が一人、歩いていた。
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<NAME_PLATE>
+　ショートカットの女だ。
+<PAUSE>
+<NAME_PLATE>
+　歳は二十代の半ばと言ったところだろうか。
+<PAUSE>
+<NAME_PLATE>
+　露出度の高い服装と
+その下の見事なプロポーション。
+<PAUSE>
+<NAME_PLATE>
+　それはセンザキに最もよくいる種類の女、
+娼婦を思わせなくもない。
+<PAUSE>
+<NAME_PLATE>
+　だが、女は違った。
+<PAUSE>
+<NAME_PLATE>
+　そんな格好で人目を引かないのは、
+ごく自然に気配を殺しているからだ。
+<PAUSE>
+<NAME_PLATE>
+　また、かなりの美人と思われるその顔を
+なぜか黒いアイマスクで覆っていた。
+<PAUSE>
+<NAME_PLATE>
+　盲目なのか、他に理由があるのか、
+いずれにしろ、その歩みに不自然さはない。
+<PAUSE>
+<NAME_PLATE>
+　両目を隠しながら、
+まるで見えているかのように
+夜のセンザキを一人歩く女。
+<PAUSE>
+<NAME_PLATE>
+　名前をユーリと言った。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリ
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　ユーリの口元がふいに歪んだ。
+<PAUSE>
+<NAME_PLATE>
+　立ち止まり、アイマスクの上から
+目をそっと押さえた。
+<PAUSE>
+<NAME_PLATE>
+　何かをこらえるように手が震えている。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「……あまり時間はないようですね」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは呟き、
+アイマスクから手を離してまた歩き出す。
+<PAUSE>
+<NAME_PLATE>
+　そして誰に注目されることもなく、
+彼女はセンザキの雑踏に消えていった。
+<PAUSE>
+//【背景：センザキ-港湾近くの邸宅＿夜】【時間：夜】
+//　※対魔忍紅＿NC010aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　小一時間後―――。
+<PAUSE>
+<BG>nc207a,IN, 1000
+<NAME_PLATE>
+　ユーリは繁華街を離れて、
+港湾地区にある、とある邸宅に着いていた。
+<PAUSE>
+<NAME_PLATE>
+　そこはセンザキでもそれと知られた
+老資産家の屋敷だった。
+<PAUSE>
+<NAME_PLATE>
+　だったというのは、
+もうその老資産家はそこにいないからだ。
+<PAUSE>
+<NAME_PLATE>
+　今は別の者が住み着いている。
+<PAUSE>
+<NAME_PLATE>
+　だから、ユーリがやって来たのだ。
+<PAUSE>
+<NAME_PLATE>
+　暗殺者のユーリが。
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<NAME_PLATE>
+　ユーリは庭の茂みに身を潜め、
+屋敷の様子をじっと窺っていた。
+<PAUSE>
+<NAME_PLATE>
+　やはりアイマスクは付けたままだ。
+彼女はそれを通して“観て”いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　護衛の数は今のところ七人だ。
+<PAUSE>
+<NAME_PLATE>
+　屋敷の外には四人、二人ずつの組が
+塀に沿って巡回していた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m052a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m052a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　塀の内側、屋敷の周りには三人。
+<PAUSE>
+//　※立ち絵
+//　　ダークガード立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　新しい主の趣味なのか、全て女だ。
+<PAUSE>
+<NAME_PLATE>
+　皆、銃を持ってはいたが、
+塀の外をうろついていた四人も含め、
+誰も護衛に集中していなかった。
+<PAUSE>
+<NAME_PLATE>
+　先日、港を支配するボスたちが
+ここにかなりの兵隊を送り込み、
+それが全て返り討ちになったせいだ。
+<PAUSE>
+<NAME_PLATE>
+　当分は次の襲撃などないと、
+仮にあっても、主がなんとかしてくれると
+高を括っているようだ。
+<PAUSE>
+<NAME_PLATE>
+　今、玄関の前に立っている女などは
+退屈そうにあくびをしていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ユーリ
+（これなら目を使う必要はないですね。
+　普通に忍び込みましょう）
+<PAUSE>
+<NAME_PLATE>
+　ユーリは音もなく茂みから出ると、
+役立たずの護衛の目をかいくぐって、
+スルスルと屋敷に近づいていった。
+<PAUSE>
+//【背景：センザキ-邸宅内＿夜】【時間：夜】//　※対魔忍アサギZERO＿NC050cより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc147a,IN, 1000
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ユーリ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<NAME_PLATE>
+　苦もなく屋敷に入ると、
+数だけは厳重な外の警備に比べて、
+中は完全に無人だった。
+<PAUSE>
+<NAME_PLATE>
+　人の気配を感じない。
+<PAUSE>
+<NAME_PLATE>ユーリ
+（でも、いますね……）
+<PAUSE>
+<NAME_PLATE>
+　うなじのあたりがチリチリする。
+<PAUSE>
+<NAME_PLATE>
+　微かに感じるこれは瘴気だ。
+<PAUSE>
+<NAME_PLATE>
+　ユーリだからこそ、
+元対魔忍だからこそ気付ける
+匂いのようなもの。
+<PAUSE>
+<NAME_PLATE>
+　魔界を感じさせるそれだ。
+<PAUSE>
+<NAME_PLATE>ユーリ
+（そして、私に気づいている）
+<PAUSE>
+<NAME_PLATE>
+　暗殺者として
+長らく死線をくぐり抜けてきた
+ユーリの直感が警告する。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは左右の前腕に隠し持っていた
+小太刀を静かに抜いた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その瞬間―――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぞわっっ！！
+<PAUSE>
+<NAME_PLATE>
+　有るか無きかだった瘴気が膨れあがった。
+<PAUSE>
+<NAME_PLATE>ユーリ
+（魔術っ！！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その発動の気配にハッと振り返る。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se112
+<NAME_PLATE>
+　床の上に魔法陣が浮き上がり、
+そこからモンスターが出現していた。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>異界のゴーレム
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+<PAUSE>
+//　※立ち絵
+//　　異界のゴーレム立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　金属をきしませるような
+耳障りな雄叫びをあげる巨人。
+<PAUSE>
+<NAME_PLATE>
+　異界のゴーレムだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、その後ろから、
+館の主がゆらりと姿を現した。
+<PAUSE>
+<ACTOR>0,ts_m155a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔女
+「チンピラどもの手下にしては
+　鼻が利くようね♪」
+<PAUSE>
+//　※立ち絵
+//　　魔女立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　血のように赤い目、黒く濁った金髪。
+<PAUSE>
+<NAME_PLATE>
+　死人を思わせる、生気のない肌。
+<PAUSE>
+<NAME_PLATE>
+　それでいて匂い立つような色香。
+<PAUSE>
+<NAME_PLATE>
+　魔女だ。
+<PAUSE>
+<NAME_PLATE>
+　元は老資産家の囲われ女でありながら、
+彼の孤独につけ込み、病気を装って呪い殺し、
+まんまと館も資産も乗っ取った女だ。
+<PAUSE>
+<NAME_PLATE>
+　そればかりか、
+港を支配する闇の勢力と敵対し、
+ユーリが送られることになった元凶である。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは無言で小太刀を構えた。
+<PAUSE>
+<NAME_PLATE>
+　それを見て魔女はくすりと笑った。
+<PAUSE>
+<NAME_PLATE>魔女
+「この間の襲撃以来、
+　刺激がなくて退屈していたところよ。
+　ゴーレム、少し遊んであげなさい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m034a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>異界のゴーレム
+「ＧＵＧＡＡＡＡＡＡＡＡＡＡＡ！！」
+<PAUSE>
+<NAME_PLATE>
+　魔女が艶めかしく手を一振りすると、
+ゴーレムが地響きを立てて近づいてきた。
+<PAUSE>
+//→S102a
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,813 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：五車学園＿運動場＿昼】【時間：昼】
+//　※対魔忍アサギＺＥＲＯの背景NC012aより流用
+<BGM_PLAY>bgm404,1000
+<BG>nc003a,IN, 1000
+<ACTOR>0,rn_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「“胡蝶乱舞”ッ！！」
+<PAUSE>
+//　※立ち絵
+//　　秋山凜子
+//　　　＊RPGカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　凜子先輩の目にもとまらぬ一閃。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キィン……！
+<PAUSE>
+<NAME_PLATE>紅
+「ふっ！！」
+<PAUSE>
+<NAME_PLATE>
+　それを紅の小太刀、
+『白神』『紅魔』が正面から受け止める。
+<PAUSE>
+<BG>nc003a,IN, 500
+<NAME_PLATE>観戦の生徒たち
+「凜子先輩の……
+　逸刀流の必殺の剣が！！」
+<PAUSE>
+<NAME_PLATE>観戦の生徒たち
+「紅さん、すげー！
+　折れない小太刀もすげえ！」
+<PAUSE>
+<NAME_PLATE>観戦の生徒たち
+「だけど忍法も使ってれば、
+　凜子先輩はこんなもんじゃないわ」
+<PAUSE>
+<NAME_PLATE>観戦の生徒たち
+「それは紅さんだって同じだろ！」
+<PAUSE>
+<NAME_PLATE>
+　そう、模擬戦ということで、
+二人は忍術を使わず、
+剣術だけで勝負しているのであった。
+<PAUSE>
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「ふむ。ではこちらもいくぞ……」
+<PAUSE>
+<NAME_PLATE>紅
+「絶技・旋風陣！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　＊RPGカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギンッ！！　ギンッ！！
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　今度は紅の小太刀が空を裂く。
+<PAUSE>
+<NAME_PLATE>
+　刃は高速で、しかも精緻に
+凜子先輩の隙を攻める。
+<PAUSE>
+<NAME_PLATE>凜子
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩はギリギリですべて躱したが、
+<PAUSE>
+<NAME_PLATE>
+　これが実戦であれば、刃を逃れても、
+さらに真空の竜巻が獲物を捕らえ、
+ずたずたに切り裂いてしまうのだ。
+<PAUSE>
+<BG>nc003a,IN, 500
+<GROUP>
+<ACTOR>0,rn_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kn_t009e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ひととおりの攻防を終え、
+二人は間合いをとって身構える。
+<PAUSE>
+<ACTOR>0,rn_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「驚いたな。
+　なんと正確な切り込みか」
+<PAUSE>
+<ACTOR>1,kn_t009h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「凜子こそ、恐ろしい剣圧だった。
+　『白神』『紅魔』が悲鳴をあげている。
+　斬鬼の名に違わぬようだ」
+<PAUSE>
+<NAME_PLATE>
+　二人は嬉しそうに互いを見やる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,rn_t002d,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,kn_t009e,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<NAME_PLATE>
+　そして再び気合が高まり、
+次の一手を繰り出そうと――
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,m_t001g,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫
+「そこまで！！」
+<PAUSE>
+//　※立ち絵
+//　　八津紫通常立ち絵＿教師衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　しかし、
+紫先生の号令が二人を止めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　緊張が弛み、
+ギャラリーからはふうとため息が漏れる。
+<PAUSE>
+<NAME_PLATE>
+　これから――というところではあったが、
+それに文句を言うものはいなかった。
+<PAUSE>
+<NAME_PLATE>
+　ここから先は“本気”の勝負。
+<PAUSE>
+<NAME_PLATE>
+　そうなれば止めることは難しく、
+どちらか、あるいは両方が死ぬ、
+少なくとも再起不能になるまで続くだろう。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>
+　二人は刃を下ろし、
+笑顔で歩み寄った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,rn_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kn_t008a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>紅
+「ありがとう凜子。
+　強いな」
+<PAUSE>
+<NAME_PLATE>凜子
+「紅こそ。
+　文句なしに最高学年への編入だろう」
+<PAUSE>
+<NAME_PLATE>
+　まだ熱が残る手で、
+固い握手が交わされる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、そこへ。
+<PAUSE>
+<ACTOR>0,ay_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「見事な模擬戦でした紅様。
+　こちらも篝をひっ捕らえました」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ＿スーツ衣装
+//　　　＊対魔忍紅立ち絵より流用
+<ACTOR>0,ay_t001b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>篝
+「う、くれないさまあ……」
+<PAUSE>
+//　※立ち絵
+//　　篝
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　あやめさんの後ろには、
+ボロボロになってうなだれた
+篝が引っ立てられていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「篝！？
+　本当に篝か！？　その姿は……」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　＊RPGカードイラストより流用
+<ACTOR>0,ay_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>あやめ
+「若様に襲いかかったもので。
+　少し懲らしめておきました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あの後――
+<PAUSE>
+<NAME_PLATE>
+　激高した篝は、
+触手をうねらせながら
+襲い掛かってきたが、
+<PAUSE>
+<NAME_PLATE>
+　俺はともかく、一流の対魔忍である
+あやめさんに敵うはずもなく。
+<PAUSE>
+<NAME_PLATE>
+　「紅様に邪な目を向けるものは
+許しません！！」などと、
+<PAUSE>
+<NAME_PLATE>
+　ズタボロに、コテンパンに、
+完膚なきまでに倒されてしまったのだ。
+<PAUSE>
+<NAME_PLATE>
+　篝も妖魔化しているから、
+そう簡単には死なないのだが、
+<PAUSE>
+<NAME_PLATE>
+　あやめさんの気迫に、
+すっかり戦意をへし折られたようだ。
+<PAUSE>
+<ACTOR>0,kn_t008c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紅
+「ふうまに襲い掛かったのか！？
+　なら仕方ないな」
+<PAUSE>
+<ACTOR>1,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>篝
+「そ、そんな紅様アあぁ………」
+<PAUSE>
+<NAME_PLATE>
+　憧れの紅にすげなく流され、
+篝は涙声でへたりこむが、
+すぐにキッと顔をあげる。
+<PAUSE>
+<NAME_PLATE>篝
+「紅様！
+　幼い頃から気高く強かった紅様に、
+　私は心焦がれておりました」
+<PAUSE>
+<NAME_PLATE>篝
+「それなのに、
+　妖魔の細胞とせめぎ合うこと数年、
+　五車へ戻ってきてみれば」
+<PAUSE>
+<NAME_PLATE>篝
+「心願寺は五車から引き離されたと聞いて
+　胸を引き裂かれる思いでした」
+<PAUSE>
+<NAME_PLATE>篝
+「心願寺は穏健派、
+　弾正様の反乱にもあまり加わらなかった
+　というのに」
+<PAUSE>
+<NAME_PLATE>篝
+「与し易しと舐められたのでしょうか！？
+　なんという理不尽！
+　なんという屈辱でしょうか！」
+<PAUSE>
+<NAME_PLATE>あやめ
+「こら篝……！」
+<PAUSE>
+<NAME_PLATE>
+　あやめさんが割って入ろうとするのを、
+紅は目で制止し、
+落ち着いた声で語る。
+<PAUSE>
+<NAME_PLATE>紅
+「落ち着け篝。
+　心願寺――
+　ふうま一党と井河の争いなど今は昔」
+<PAUSE>
+<NAME_PLATE>紅
+「今はこのふうまが、
+　井河アサギに隊を任されるほどだ」
+<PAUSE>
+<NAME_PLATE>紅
+「少なくとも私は、
+　五車と争うつもりはない」
+<PAUSE>
+<NAME_PLATE>篝
+「けれども！」
+<PAUSE>
+<NAME_PLATE>篝
+「紅様のお力ならば、
+　ふうま一門、否、
+　五車を率いることだって出来るはず」
+<PAUSE>
+<NAME_PLATE>篝
+「井河アサギなんかより、よほど、
+　対魔忍の長にふさわしいでしょうに！」
+<PAUSE>
+<ACTOR>0,kn_t008g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「……」
+<PAUSE>
+<NAME_PLATE>
+　紅はふう、と小さくため息をつき、
+諭すように篝の目を見る。
+<PAUSE>
+<ACTOR>0,kn_t008c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「力があるからこそ、
+　使い方は慎重に決めなければならない」
+<PAUSE>
+<NAME_PLATE>紅
+「時には力を振るわないことも、
+　また強さだ。
+　おじいさまが自ら五車を去ったように」
+<PAUSE>
+<NAME_PLATE>篝
+「自ら……？　幻庵様が……」
+<PAUSE>
+<NAME_PLATE>紅
+「井河校長はむしろ、
+　心願寺が五車にいられるように
+　抗議してくれたらしいんだけど」
+<PAUSE>
+<NAME_PLATE>紅
+「おじいさまは敢えて条件を呑み、
+　五車を出て隠居なさった」
+<PAUSE>
+<NAME_PLATE>紅
+「これ以上、争いの種を
+　増やしたくなかったんだろう」
+<PAUSE>
+<NAME_PLATE>篝
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　篝の目の中で、
+止まっていた時が流れていく。
+<PAUSE>
+<NAME_PLATE>篝
+「……では、今の心願寺は？」
+<PAUSE>
+<ACTOR>0,kn_t008a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「今は私が当主だ。
+　といっても、無理にまとめあげる
+　ようなことはしていない」
+<PAUSE>
+<NAME_PLATE>紅
+「センザキを拠点にして、
+　自由にやってる」
+<PAUSE>
+<NAME_PLATE>紅
+「五車を離れたって、
+　やれることはあるのさ」
+<PAUSE>
+<NAME_PLATE>篝
+「……そう、ですか……」
+<PAUSE>
+<NAME_PLATE>
+　うなだれる篝。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>0,ay_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>あやめ
+「わかったら諦めて去りなさい。
+　くれぐれも、
+　もう復讐など考えないように」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,ts_m165a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>篝
+「……わかりました。ええ」
+<PAUSE>
+<NAME_PLATE>篝
+「去るといっても、
+　私に行く先なんてないですけどね」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　篝は踵を返す。
+<PAUSE>
+<NAME_PLATE>
+　その顔にもう狂気はない。
+代わりに静かな落胆と、
+虚しさが浮かぶばかりである。
+<PAUSE>
+<NAME_PLATE>
+　この様子なら、もう暗殺など
+企てたりしないだろう。
+<PAUSE>
+<NAME_PLATE>俺
+（だが……）
+<PAUSE>
+<NAME_PLATE>俺
+（過去の亡霊のような
+　この女を、俺はこのまま捨て置いて
+　良いのだろうか？）
+<PAUSE>
+<NAME_PLATE>
+　ふと骸佐のことが頭をよぎる。
+<PAUSE>
+<NAME_PLATE>俺
+（とはいえ、
+　アサギ先生を殺そうとしていた奴を、
+　五車に置いておくわけにもいかないか）
+<PAUSE>
+<NAME_PLATE>
+　心に引っかかるものを感じながらも、
+篝が一歩、一歩と去っていくのを
+ただ眺める――
+<PAUSE>
+<ACTOR>0,kn_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「待て」
+<PAUSE>
+<NAME_PLATE>篝
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　紅が声をかける。
+<PAUSE>
+<ACTOR>0,kn_t008a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「だったら、私と一緒に来ないか？」
+<PAUSE>
+<NAME_PLATE>篝
+「え……？」
+<PAUSE>
+<ACTOR>0,kn_t008a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　篝は足を止めて振り返った。
+<PAUSE>
+<NAME_PLATE>紅
+「センザキは闇の街だが、
+　その分いろんな奴がいる」
+<PAUSE>
+<NAME_PLATE>紅
+「妖魔でもなんでも受け入れてくれるさ。
+　私がこんなだしな」
+<PAUSE>
+<NAME_PLATE>篝
+「それは……しかし……」
+<PAUSE>
+<NAME_PLATE>
+　篝は逡巡する。
+<PAUSE>
+<ACTOR>0,kn_t008c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「篝。
+　心願寺の当主として紅が命ずる」
+<PAUSE>
+<NAME_PLATE>紅
+「私の従者として、
+　ふたたび心願寺を支えよ」
+<PAUSE>
+<NAME_PLATE>篝
+「紅様……」
+<PAUSE>
+<ACTOR>0,kn_t008a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「不服か？」
+<PAUSE>
+<NAME_PLATE>
+　紅はきびしく命じた後、
+やさしく篝に尋ねた。
+<PAUSE>
+<NAME_PLATE>篝
+「め、滅相もありません！
+　よ、喜んで忠誠を捧げます……」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,kn_t008a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　篝は畏まって、
+紅の前にひれ伏す。
+<PAUSE>
+<ACTOR>0,kn_t008d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「いやいや、土下座はやめてよ。
+　今は従者って言っても、
+　仲間みたいなものなんだ」
+<PAUSE>
+<NAME_PLATE>篝
+「はっ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　紅に窘められても、
+いっそう縮こまるばかりの篝を見て、
+俺とあやめさんは顔を見合わせる。
+<PAUSE>
+<NAME_PLATE>俺
+（さすがは紅だ。
+　器が違うな）
+<PAUSE>
+<NAME_PLATE>俺
+（ま、紅とあやめさんがついていれば、
+　危ない事はまずないだろうし）
+<PAUSE>
+<NAME_PLATE>俺
+（本人にとっても、
+　それが一番だろうな）
+<PAUSE>
+<NAME_PLATE>
+　こうして――
+<PAUSE>
+<NAME_PLATE>
+　五車に忍び込んだ、
+妖気をめぐる騒動は、
+ひと段落となったのだった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、数日後。
+<PAUSE>
+//【背景：センザキの町並み＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC046bより流用
+<BG>nc144a,IN, 1000
+<NAME_PLATE>
+　センザキ。
+<PAUSE>
+<NAME_PLATE>
+　闇の勢力がせめぎあう、
+危険な町である。
+<PAUSE>
+//【背景：センザキ＿酒場＿昼夜共通】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc016aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc277a,IN, 1000
+<NAME_PLATE>
+　そんなセンザキに無数にある酒場の一つ。
+ここは傭兵たちの憩いの場となっていた。
+<PAUSE>
+<ACTOR>0,ts_m053a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>歴戦のオーク傭兵
+「へえー、紅に憧れて妖魔化か！
+　姉ちゃんいいセンスしてるねえ！！」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵
+//　　　　＊モンスターイラストより流用
+<ACTOR>1,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>篝
+「なかなか話せるオークのようですね
+　……フフ」
+<PAUSE>
+//　※立ち絵
+//　　篝
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>オーク傭兵
+「俺たちも紅ちゃんには世話になってんだ。
+　ささ、一杯やりなよ」
+<PAUSE>
+<NAME_PLATE>
+　篝は、紅の部下たち、
+それに顔なじみのオーク傭兵たちに囲まれ、
+まんざらでもない顔で酒を呷っていた。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>0,ay_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>あやめ
+「篝。
+　紅様に不埒な真似をしたら、
+　許しませんからね」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　少しばかり目尻を赤くしたあやめが、
+じろりと篝を牽制する。
+<PAUSE>
+<NAME_PLATE>篝
+「あやめ様に言われたくありませんよ」
+<PAUSE>
+<NAME_PLATE>
+　篝も負けてはいない。
+ニヤリと笑って軽口で返し、
+注がれた酒をぐいっと飲みほした。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーク傭兵
+「おっ、篝ちゃん言うねえ！
+　あやめさんにライバル登場か！？」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「面白え。
+　篝ちゃんがんばれよ！」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「あやめさんは紅ちゃんにかけちゃ、
+　そりゃもう年季の入った
+　ガチ勢だからな！　ガハハ！」
+<PAUSE>
+<NAME_PLATE>
+　酒場にドッと笑いが上がる。
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>歴戦のオーク傭兵
+「そういや、その紅ちゃんは
+　あそこで何やってんだ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そんな騒ぎを背にして、
+紅はカウンターで背中を丸め、
+ちびちびとイカソーメンを啜っていた。
+<PAUSE>
+<ACTOR>0,kn_t008g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「うう……」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>紅
+「本当は……
+　あいつと……」
+<PAUSE>
+<NAME_PLATE>紅
+「あいつと一緒に……学園生活……
+　うぅ……」
+<PAUSE>
+<ACTOR>0,kn_t008g,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m053a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>歴戦のオーク傭兵
+「お？　どうしたんだよ紅ちゃん。
+　あからさまに元気無ェじゃねえか」
+<PAUSE>
+<NAME_PLATE>紅
+「ぅぅ………訊かないで
+　……ぅぅ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　オーク傭兵が声をかけると、
+紅はカウンターに突っ伏してしまう。
+<PAUSE>
+<ACTOR>0,ay_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「そっとして差し上げて♪」
+<PAUSE>
+<ACTOR>0,ay_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>あやめ
+「紅様も本当は、学園生活を
+　送りたかったんです。
+　しかし五車との“誓約”のために……」
+<PAUSE>
+<ACTOR>0,ay_t001a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m053a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>歴戦のオーク傭兵
+「誓約ってーと、あれか」
+<PAUSE>
+<NAME_PLATE>歴戦のオーク傭兵
+「心願寺一党は、
+　対魔忍の本拠地の五車に
+　立ち入り禁止ってやつか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーク傭兵たち
+「そりゃ、ひでえ話しだ。
+　仲間の対魔忍を追ん出すなんてよ」
+「そうだそうだ！」
+<PAUSE>
+//　　※『追ん出す』誤字ではなく訛りの表現です。
+<NAME_PLATE>
+　話を聞いていた他のオークたちも、
+やいのやいのと集まってくる。
+<PAUSE>
+<NAME_PLATE>オーク傭兵たち
+「さすがアサギ、俺たちの天敵」
+「みんなで抗議に行こうぜ！」
+「お、俺ちょっと怖いかな……」
+<PAUSE>
+<ACTOR>0,ts_m165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>篝
+「ほらね！　やっぱり、
+　アサギを討つしかないでしょ！？」
+<PAUSE>
+<NAME_PLATE>
+　盛り上がるオークに怖がるオーク。
+と、それに絡む厄介な篝。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あやめはそれを、
+やれやれと苦笑して宥める。
+<PAUSE>
+<ACTOR>0,ay_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「あなたたち、井河アサギを
+　討ちたいだけでしょ」
+<PAUSE>
+<NAME_PLATE>あやめ
+「むしろ政府と交渉して、
+　その“誓約”を緩めてくれたのが
+　彼女です」
+<PAUSE>
+<NAME_PLATE>あやめ
+「おかげで今は、五車への出入りは
+　ほとんど自由になっているし」
+<PAUSE>
+<NAME_PLATE>歴戦のオーク傭兵
+「なんだよ。じゃあ紅ちゃん、
+　学校にいても良かったんじゃねえか？」
+<PAUSE>
+<NAME_PLATE>あやめ
+「アサギ校長もそう言ってくれました。
+　紅様がよければ、本当に
+　学校に復帰しても良いと」
+<PAUSE>
+<NAME_PLATE>あやめ
+「でも、それでも紅様は……」
+<PAUSE>
+<NAME_PLATE>あやめ
+「幻庵様が守られた“誓約”を
+　自分が破るわけにはいかないと、
+　自ら断られたのです！」
+<PAUSE>
+<ACTOR>0,ay_t001g,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>あやめ
+「なんとご立派なのでしょう！
+　さすがは義に篤い紅様です！」
+<PAUSE>
+<ACTOR>0,ay_t001g,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>篝
+「そうですとも！　そうですとも！」
+<PAUSE>
+<NAME_PLATE>
+　やんやと紅を讃える二人。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　本人はその横でしょげているが。
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>歴戦のオーク傭兵
+「何だよ。じゃあ、
+　自分で断ったのに落ち込んでるのか」
+<PAUSE>
+<NAME_PLATE>紅
+「うぅ……いわないでくれ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　義に篤い人、紅。
+<PAUSE>
+<NAME_PLATE>
+　しかし彼女はまた、
+ひとりの乙女でもあった。
+<PAUSE>
+<NAME_PLATE>紅
+「あいつと学園生活……うう……」
+<PAUSE>
+<NAME_PLATE>
+　彼女の甘い学園生活は、
+見果てぬ夢となって、
+センザキの夜に消えるのだった――。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

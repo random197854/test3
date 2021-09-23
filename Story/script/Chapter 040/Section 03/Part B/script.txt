@@ -1,0 +1,310 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：未来の地下施設＿昼夜兼用】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc047a,IN, 1000
+<ACTOR>0,ma_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「はああっっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん戦闘カード_フレイムクロー発動１
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　舞華の右手から業火がほとばしった。
+<PAUSE>
+<NAME_PLATE>
+　それは火竜のごとく突き進みながら、
+レイダーや番犬のナイトドッグたちを
+次々に飲み込んでいく。
+<PAUSE>
+<NAME_PLATE>
+　彼らは悲鳴を上げる暇もない。
+あまりの火力に一瞬にして絶命し、
+炭化する。
+<PAUSE>
+<BG>nc047a,IN, 500
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「よっしゃああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　かつてその大きすぎる火遁の力を抑えるため、
+彼女が冥途バズーカと呼んでいた
+火砲型リミッターを使っていた舞華だったが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今やその強大な炎の力は
+彼女の意思によって完璧に操られていた。
+<PAUSE>
+<ACTOR>0,ma_t004c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おらあああああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん戦闘カード_フレイムクロー発動２
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　右手の籠手はフレイムクロー。
+さっき業火を放ったそこから、
+今度は火球が次々と打ち出された。
+<PAUSE>
+<NAME_PLATE>
+　それは防具であると同時に
+炎の形を自在に変え、ゼロ距離から遠距離まで
+縦横無尽に放つための武器だ。
+<PAUSE>
+<NAME_PLATE>舞華
+「とりゃああっっ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　左手のフレイムブレードが赤い軌跡を描き、
+ナイトドッグが真っ二つになった。
+<PAUSE>
+<NAME_PLATE>
+　それは火遁エネルギーを収束させ
+プラズマ化した刃であらゆる物体を溶断する。
+<PAUSE>
+<BG>nc047a,IN, 500
+<ACTOR>0,ma_t004c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おらおらおらあああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　数日前まで片田舎で隠遁生活をしていた
+鬱憤を晴らすような舞華の大暴れだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「でやあっ！！　たああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ_攻撃
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その横では、同じように雷遁の力を
+完全に操れるまでに成長したゆきかぜが
+その実力を存分に発揮している。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「はっ！　はっ！　はああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<BG>nc047a,IN, 500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そしてまた、かつての二つ名
+“鋼鉄の対魔忍”の由来である
+アンドロイドアーム＆レッグを失い、
+<PAUSE>
+<NAME_PLATE>
+　肉体まで若返ってしまったアスカが、
+<PAUSE>
+“風神の対魔忍”と呼ばれるまでになった
+その力を思うさま振るっていた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　つまり、レイダーなど何人いようが
+彼女たちの敵ではない。
+<PAUSE>
+<NAME_PLATE>
+　三人はあっという間に
+その場を制圧していた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「はっ、たわいねえな。
+　これじゃ肩慣らしにもなりゃしねえ」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん01（科学ＳＲ）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　このブロックにいた敵の
+半分以上を一人で倒しながら、
+舞華はまだ物足りなそうだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「まあ、ここを制圧するだけなら、
+　私たち三人は多すぎるしね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「ここに来るのが目的だもの。
+　復旧したって噂は本当みたいね」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「良かった。
+　これで鹿之助の座標を特定できるわね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「こいつらが真面目に原発を
+　修理してくれて助かったわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　先ごろ、ふうまを呼び出すための
+エネルギーを確保するためここに潜入し、
+<PAUSE>
+<NAME_PLATE>
+　その結果として原発を故障させた二人は
+安心したように言った。
+<PAUSE>
+<ACTOR>1,chr_t0365a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞華
+「鹿之助の座標特定には
+　すげえエネルギーがいるからだったな」
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「鹿之助には次元ビーコンを
+　渡してなかったからね」
+<PAUSE>
+<NAME_PLATE>舞華
+「けどよ、メッセンジャーが
+　鹿之助で本当に大丈夫なのか？」
+<PAUSE>
+<NAME_PLATE>
+　舞華は気になっていたことを尋ねる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふうまからの伝言を
+　伝えられる相手は他にいないもの」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんだかんだで生き残ったから
+　鹿之助もわりと逞しくなったわよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「そいつは頼もしいぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　バシッと右の拳を
+左の掌に打ち付ける舞華だったが、
+今度はゆきかぜの方が、
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あのさ、鹿之助に次元ケータイを
+　送るためのエネルギーで、
+　またここ壊れそうじゃない？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「んーー多分ね。
+　しょうがないわよ」
+<PAUSE>
+<NAME_PLATE>
+　アスカは気にした風もなく肩をすくめる。
+<PAUSE>
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「でも今度こそギガースはブチギレよ。
+　どうするの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　アスカはむっつりと押し黙ってから、
+<PAUSE>
+<NAME_PLATE>アスカ
+「あいつの依頼を引き受けるしかないわね」
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ああ、前からしつこく依頼してきたやつ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「うん。それでチャラにしてもらう」
+<PAUSE>
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「まあ、仕方ないか」
+<PAUSE>
+<NAME_PLATE>
+　諦め顔の二人に
+舞華が嫌そうに言った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おいおい、そんな話になんのかよ。
+　あいつ嫌いなんだよな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ＆ゆきかぜ
+「私だって嫌いよ」
+<PAUSE>
+<NAME_PLATE>
+　二人の声が重なった。
+<PAUSE>
+//→Section３終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

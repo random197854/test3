@@ -1,0 +1,598 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま
+「やあ、これはすごい有様だ」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　※ミスター・フールの変身として
+<NAME_PLATE>
+　ホールはメチャクチャになっていた。
+<PAUSE>
+<NAME_PLATE>
+　あちこちが破壊され、
+ここでやり合った連中、それから巻き添えを
+食らった客の死体が幾つも転がっている。
+<PAUSE>
+<NAME_PLATE>
+　華やかだったカジノの面影はもうない。
+<PAUSE>
+<NAME_PLATE>
+　最後のギャンブルで
+幸運を引き当てた生き残りは
+とっくに逃げ出したようだ。
+<PAUSE>
+<NAME_PLATE>
+　ホールに残ってるのは
+ここで戦ったバニーガールの二人だけ。
+<PAUSE>
+<NAME_PLATE>
+　他の二人はまだ戻っていないようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「お客さんに沢山の巻き添えが
+　出てしまいました。残念です」
+<PAUSE>
+//　※立ち絵
+//　　深月＿立ち絵
+//　　　※【バニー】星乃深月２より流用
+<NAME_PLATE>蛍
+「蜘蛛の貴婦人にも逃げられてしまって、
+　ごめんなさい、ふうま君」
+<PAUSE>
+//　※立ち絵
+//　　蛍＿立ち絵
+//　　　＊【バニー】喜瀬蛍３流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま
+「別にかまいませんよ。
+　こんなイレギュラーがあったのに
+　任務を達成できて良かった」
+<PAUSE>
+<NAME_PLATE>ふうま
+「こんなカジノの連中や客がいくら死のうと
+　気にすることはないです」
+<PAUSE>
+<NAME_PLATE>ふうま
+「ヨミハラの悪党が減って
+　むしろめでたいくらいだ、あはは」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「…………」
+<PAUSE>
+<NAME_PLATE>蛍
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　二人のバニーガールは答えない。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　代わりに別の声がした。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「いい加減その下手な芝居を止めたら？」
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<NAME_PLATE>ふうま
+「なんのことですか、きらら先輩？」
+<PAUSE>
+<ACTOR>0,chr_t0252a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0251a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞華
+「その猿芝居が見てられねえってんだよ。
+　偽物野郎！」
+<PAUSE>
+//　※立ち絵
+//　　舞華＿立ち絵
+//　　　＊【バニー】神村舞華３より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛍
+「ふうま君が偽物？」
+<PAUSE>
+<NAME_PLATE>深月
+「どういうことですか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま
+「やだなあ、二人とも。
+　俺が偽物なんてなにを証拠に―――」
+<PAUSE>
+<NAME_PLATE>
+　ヘラヘラした喋りが止まった。
+<PAUSE>
+<ACTOR>0,hu_t003a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,hu_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>俺
+「酷い目にあわせてくれたな」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//※二体出してください。
+//　表情差分があれば、それで本物と偽物の違いを示してください。
+//　本物は真剣な顔で、偽物は笑っています。
+<NAME_PLATE>
+　そこには“俺”がいた。
+<PAUSE>
+<NAME_PLATE>
+　鏡で見たように、
+いや、それ以上に俺そっくりの奴だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、その口元にはイヤらしい
+笑みが浮かんでいる。
+<PAUSE>
+<NAME_PLATE>
+　何とも言いがたい嫌悪感が込み上げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>蛍
+「ふうま君が二人！？」
+<PAUSE>
+<NAME_PLATE>
+　深月先輩と蛍先輩が
+俺と、もう一人の俺を交互に見やる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　奴は何も言わない。
+けれど、その薄ら笑いが引きつっていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0252a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0251a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「あーん、なに驚いてんだ？
+　殺したつもりのコイツが出てきて
+　ビックリ仰天ってか」
+<PAUSE>
+<NAME_PLATE>きらら
+「こいつは私たちの中で一番弱いけど、
+　変な力があって回復力は普通じゃないのよ。
+　生き返るのも今回が初めてじゃないしね」
+<PAUSE>
+<NAME_PLATE>俺
+「いえ、きらら先輩。
+　今回は完全に死んだわけじゃなくて、
+　いきなり誰かに後ろからやられて」
+<PAUSE>
+<NAME_PLATE>俺
+「敵は俺を殺したと思ったようですが、
+　ぎりぎりで無事だったというか……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「似たようなもんでしょ！
+　油断してやられて今まで動けずに
+　ひっくり返ってたなんて」
+<PAUSE>
+<NAME_PLATE>きらら
+「おまけに姿まで奪われるとか、
+　おかげでいい迷惑よ！」
+<PAUSE>
+<NAME_PLATE>俺
+「す、すいません……」
+<PAUSE>
+<NAME_PLATE>
+　その通りだ。ぐうの音も出ない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　サイボーグたちを倒したまでは良かったが、
+いきなり背後に現れた誰かから
+不意打ちを受け、
+<PAUSE>
+<NAME_PLATE>
+　致命傷だけは避けることができたものの
+身動きが取れず、通信機も奪われてしまい、
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩が言うところの変な力、
+魔性の力で頑張って回復していたのを
+さっきようやく見つけてもらったのだ。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>1,chr_t0251a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞華
+「さあて、そろそろテメエの正体を
+　見せてもらうとするか」
+<PAUSE>
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ふうま
+「そいつが本物で、
+　俺が偽物という証拠がどこにあるんだ？
+　俺が本物だよ」
+<PAUSE>
+<NAME_PLATE>
+　奴はぬけぬけと言った。
+<PAUSE>
+<NAME_PLATE>
+　強ばっていた薄ら笑いが蘇っている。
+いや、さっき以上の満面の笑みだ。
+この状況を楽しんでいるかのようだ。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0252a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「へえ、そういう無駄なあがきをするんだ」
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩も楽しげな声を出した。
+<PAUSE>
+<NAME_PLATE>
+　怖い。
+これはメチャクチャ怒っているときの声だ。
+<PAUSE>
+<NAME_PLATE>ふうま
+「そうだ。俺とそいつで一騎打ちをして
+　勝った方が本物というのはどうかな？
+　それはいい。うん、楽しそうだ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0251a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞華
+「もっと楽しい方法があるぜ」
+<PAUSE>
+<NAME_PLATE>
+　舞華がドスの効いた声を出す。
+こっちも怖い。
+<PAUSE>
+<NAME_PLATE>舞華
+「言ったろ、こいつは殺しても死なねえんだ。
+　いまから二人ともぶっ殺して
+　生き返った方が本物だ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,hu_t003a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺＆ふうま
+「えっ？」
+「えっ？」
+<PAUSE>
+//※立ち絵
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　※二体並べて出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「結構反応が似てますね」
+<PAUSE>
+<NAME_PLATE>
+　あまり任務を共にしたことのない深月先輩が
+俺とそいつを交互に疑わしげに見る。
+<PAUSE>
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛍
+「あの、舞華ちゃん、
+　そういう強引な方法はちょっと。
+　本物のふうま君が可哀想ですし」
+<PAUSE>
+<NAME_PLATE>
+　優しい蛍先輩が、
+きっと俺を本物と思ってくれているのだろう、
+気遣わしげな声を出してくれた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「まあ、こいつは少しくらい痛い目に
+　あった方がいいんだけど」
+<PAUSE>
+<NAME_PLATE>きらら
+「どっちが本物なのかなんてすぐに分かるわ。
+　私が変わり身の術を解けばいいんだから」
+<PAUSE>
+<NAME_PLATE>きらら
+「ふうま、忘れたの？
+　私たち予め身体を入れ替えてたでしょ。
+　それを元に戻せばいいだけよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,hu_t003a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>俺＆ふうま
+「…………」
+「…………」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　※二体並べて出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「変わり身・解除」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ぼんっ☆
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+//　※偽ふうまに相当する方が、きららの立ち絵に変わります。
+<BG>nc155a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0252a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,hu_t003a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　奇妙な白煙が上がり、
+奴の姿がきらら先輩に変わった。
+<PAUSE>
+<NAME_PLATE>きらら（元ふうま）
+「これで分かっただろう。
+　俺が本物の……え？」
+<PAUSE>
+<NAME_PLATE>
+　奴は、少しも変わっていない
+きらら先輩を見て絶句した。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、俺の姿もそのままだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「あーー、勘違いしてたわ。
+　やっぱり身体なんて入れ替えてなかった」
+<PAUSE>
+<NAME_PLATE>きらら
+「ていうか、
+　私の姿なのにふうまの口調のまま
+　っておかしいでしょ？」
+<PAUSE>
+<ACTOR>1,chr_t0252a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0252a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>偽きらら
+「あはははははははははは！！
+　これはしてやられた！！
+　見事にひっかけられたよ！！」
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩の姿をしたそいつから
+聞いたことのない甲高い声がした。
+<PAUSE>
+<NAME_PLATE>
+　そう、奴は引っかかったのだ。
+<PAUSE>
+<NAME_PLATE>
+　もし奴がきらら先輩のような変わり身、
+あるいは、どんな姿にでも自在に変身できる
+能力の持ち主だとして、
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩と俺が予め姿を入れ替えていて、
+それを元の姿に戻すと言われたら、
+<PAUSE>
+<NAME_PLATE>
+　奴としてはタイミングを合わせて
+俺からきらら先輩の姿になるしかない。
+<PAUSE>
+<NAME_PLATE>
+　奴は自分自身の能力で墓穴を掘ったのだ。
+<PAUSE>
+<NAME_PLATE>
+　変わり身の術の使い手、
+きらら先輩ならではのファインプレイだ。
+<PAUSE>
+<NAME_PLATE>きらら
+「あんたが偽物よ！
+　蜘蛛の貴婦人とやらも
+　あんたが化けてたんじゃないの！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ぼんっ☆
+<PAUSE>
+//　　※立ち絵
+//　　蜘蛛の貴婦人＿立ち絵
+//　　　　＊モンスターイラストから
+<BG>nc155a,IN, 500
+<ACTOR>0,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　また奴の姿が変わった。
+今度は蜘蛛の貴婦人の偽物だ。
+<PAUSE>
+<NAME_PLATE>偽蜘蛛の貴婦人
+「お察しの通り、これも私の変身だよ」
+<PAUSE>
+<NAME_PLATE>偽蜘蛛の貴婦人
+「このラビリンスで遊ぶのにも飽きたのでね。
+　土雲の連中と一緒にみんなまとめて
+　壊すことに決めたんだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「あんた一体何者なの！？
+　いい加減正体を現しなさい！！」
+<PAUSE>
+<NAME_PLATE>？？？
+「ではお見せしよう！！」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール立ち絵＿怖い顔差分
+//　　　　＊新規イラスト
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ぼんっ☆
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ピエロのミスター・フールが現れた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、楽しげだったピエロの顔が
+恐ろしく邪悪に歪んでいる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「ピエロ！？
+　やっぱりアンタが！」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「そう、私。
+　ミスター・フールだよ」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「このカジノを支配していたのも私さ。
+　あんなオーナーではなくてね」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「愚かなヨミハラの住民どもを
+　駒にして楽しむのは楽しかったよ」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「君たちと一緒に暴れるのもね。
+　僕の指揮はどうだったかな？
+　楽しんでもらえたかな？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「ざけんなてめえ！！」
+<PAUSE>
+<NAME_PLATE>深月
+「そういうことですか……」
+<PAUSE>
+<NAME_PLATE>蛍
+「どうりで、今日のふうま君が
+　おかしかったはずです」
+<PAUSE>
+<NAME_PLATE>きらら
+「もう騙されないわ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ミスター・フール
+「まさか私の正体を暴くとはね。
+　だがそれも楽しい。楽しいよ。
+　カジノには奇跡がつきものだからね」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「君たちが最後の駒だ。
+　さあ、死のギャンブルを楽しむとしようか。
+　そうだ、この姿の方がいいね♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ボンッ☆
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+//　※ミスター・フールの変身として
+<NAME_PLATE>
+　ミスター・フールは性懲りもなく変身した。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<BG>nc155a,IN, 500
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　また俺の姿に。
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「どうだい？
+　大切な仲間の姿を攻撃できるかな？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「できるに決まってるでしょ！！」
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩は躊躇いなく答えた。
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

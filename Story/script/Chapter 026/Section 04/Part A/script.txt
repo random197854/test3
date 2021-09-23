@@ -1,0 +1,723 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町＿斉藤家邸宅リビング＿地下へ＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC063cより流用
+//<BG>nc263c,IN, 1000
+<NAME_PLATE>
+　俺たちはあえて殺人鬼の誘いに
+乗って地下へと足を踏み入れた。
+<PAUSE>
+//【背景：五車町＿斉藤家＿地下入口＿昼夜共通】【時間：昼】
+//　※対魔忍ムラサキ_nc011aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc191b,IN, 1000
+<NAME_PLATE>
+　斉藤邸・地下。
+<PAUSE>
+<NAME_PLATE>俺
+「中は思った以上に広いな。
+　蛇子、この辺も探ってもらえるか？」
+<PAUSE>
+<ACTOR>0,h_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「了解、ふうまちゃん。
+　やってみるわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+//　※解説
+//　　一行は臨戦態勢のため制服から対魔忍スーツに変化しています。
+<NAME_PLATE>
+　殺人鬼との対決に備えて
+対魔忍スーツ姿に変じた蛇子が、
+にょろりとタコ足を突き出す。
+<PAUSE>
+<NAME_PLATE>
+　ここは殺人鬼が潜んでいる
+地下施設であり、どんな罠が
+仕掛けられているかわからない。
+<PAUSE>
+<NAME_PLATE>
+　蛇子の吸盤センサーで
+周囲を警戒しながらの探索だ。
+<PAUSE>
+<ACTOR>0,h_t004g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん。やっぱりこのおうち、
+　なんだか不思議ね……」
+<PAUSE>
+<NAME_PLATE>俺
+「どうした？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が不気味そうに鼻にしわを寄せる。
+<PAUSE>
+<ACTOR>0,h_t004c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「普通のおうちって、
+　人が生活している匂いがするの。
+　でもここ、それが極端に少ないわ」
+<PAUSE>
+<ACTOR>0,h_t004g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「なんだか……
+　お寺とか教会の中みたい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「なるほど。寺と教会ね……」
+<PAUSE>
+<NAME_PLATE>
+　どちらも人の死と関係が深い。
+<PAUSE>
+<ACTOR>0,kr_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>きらら
+「不気味な奴ね」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+<ACTOR>1,ko_t008c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（魂の痕跡は……
+　複数の思念の欠片を感じるわ）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路_対魔忍衣装
+<NAME_PLATE>
+　コロ先輩が魂遁の術で
+地下に漂う思念を読んでいる。
+<PAUSE>
+<NAME_PLATE>
+　いつになく険しい表情だ。
+<PAUSE>
+<ACTOR>1,ko_t008e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>弧路
+「（もう、ほとんど薄れて、
+　聞こえないけど……）」
+<PAUSE>
+<NAME_PLATE>弧路
+「（でも、みんな苦しんでいる。
+　許さないって泣いている……）」
+<PAUSE>
+<NAME_PLATE>俺
+「それは……奴に殺された、
+　被害者たちの思念ですね」
+<PAUSE>
+<NAME_PLATE>
+　こくりとコロ先輩が肯く。
+<PAUSE>
+<ACTOR>1,ko_t008c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>弧路
+「（ふうま君、私もこの人を許せない）」
+<PAUSE>
+<NAME_PLATE>弧路
+「（間違いなく、斉藤先生が殺人鬼）」
+<PAUSE>
+<NAME_PLATE>俺
+「………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「皆くれぐれも気をつけて。
+　絶対に僕が皆を守る……
+　そう言い切れればいいんだけど」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_対魔忍立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>なお
+「ここじゃ僕のバルドルは
+　パワーを出し切れない」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩がもどかしそうに言う。
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は光遁の術の中でも、
+特に高度な“集光”という忍法の使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　無尽蔵の光のエネルギーを集め、
+それを五車が開発した特殊なライフル
+“バルドル”でコントロールすることで、
+<PAUSE>
+<NAME_PLATE>
+　あのゆきかぜのトールハンマーと
+同等以上の威力を持つレーザー光線を
+放つことができる。
+<PAUSE>
+<NAME_PLATE>
+　だが、それは充分に光がある場所だけだ。
+<PAUSE>
+<NAME_PLATE>
+　この地下のような暗所では、
+なお先輩の光遁は大きく制限される。
+<PAUSE>
+<NAME_PLATE>なお
+「一応戦える程度の光エネルギーは
+　バルドルの中に貯めてある。
+　それを使うタイミングは――」
+<PAUSE>
+<NAME_PLATE>なお
+「ふうま、君の指揮判断に任せるよ」
+<PAUSE>
+<NAME_PLATE>俺
+「了解しました」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はうなずいた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,kr_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　いま俺たちは、吸盤センサーを持つ蛇子と
+近接戦を得意とするきらら先輩を前衛に、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　中央に指揮官役の俺、その護衛と
+サポートを務めるコロ先輩、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして強力なアウトレンジ攻撃を持つ
+なお先輩が後衛という布陣。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いつ奴が現れても対応できる万全の態勢だ。
+<PAUSE>
+<NAME_PLATE>俺
+「きっと奴はこの先で待ち受けている。
+　警戒して進みましょう」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは慎重に、だが
+怯むことなく通路の奥へと進む。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+//【背景：五車町＿斉藤家邸宅地下室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC064aより流用
+<NAME_PLATE>
+　俺たちはその場所に出た。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<BG>nc263a,IN, 1000
+<NAME_PLATE>
+　地下室だ。
+<PAUSE>
+<NAME_PLATE>
+　コンクリート打ちっぱなしの広い空間。
+<PAUSE>
+<NAME_PLATE>
+　空気はヒンヤリしている。
+<PAUSE>
+<NAME_PLATE>
+　明かりは二つの白色電灯のみ。
+<PAUSE>
+<NAME_PLATE>
+　左右の壁にアンティーク調の
+細長い収納が整然と並んでいた。
+<PAUSE>
+<NAME_PLATE>
+　家具はそれだけだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、収納の一つ一つには
+固い錠前がかけられている。
+<PAUSE>
+<ACTOR>0,h_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、なにここ……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+<NAME_PLATE>俺
+「わからんが……ろくでもない
+　場所であることは確かだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弧路
+「………」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路_対魔忍衣装
+<NAME_PLATE>
+　何の用途か想像もつかない。
+<PAUSE>
+<NAME_PLATE>
+　持ち主のねじくれた精神性が
+そのまま現出したような異様な空間だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,kr_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「ここで行き止まりかしら……？
+　暗くて奥がよく見えないけれど」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+<ACTOR>0,chr_t0169b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「ああ。どうもそのようだが……
+　しかし随分寒い部屋だ」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_対魔忍立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,kr_t001c,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　きらら先輩がゆっくりと
+壁に取り付けられた収納に近づいていく。
+<PAUSE>
+<NAME_PLATE>きらら
+「たぶん……
+　この妙な家具から冷気が出てるのね。
+　何かを冷やしている……？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+<NAME_PLATE>
+　不気味に並んでいる収納のうち、
+鍵がついていないものが一つあった。
+<PAUSE>
+<NAME_PLATE>俺
+「きらら先輩、気をつけて――」
+<PAUSE>
+<NAME_PLATE>きらら
+「ええ。わかってるわ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　かすかにうなずいたきらら先輩は、
+そっとそれに手をかけて――
+<PAUSE>
+//【背景：五車町＿斉藤家邸宅地下室＿解錠１＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC064bより流用
+<BG>nc263b,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「っ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩、そして同時に
+のぞき込んだ俺たちも息を呑んだ。
+<PAUSE>
+<NAME_PLATE>
+　左右に観音開きになった家具の中から
+冷気が靄となった溢れてくる。
+<PAUSE>
+<NAME_PLATE>
+　そして、その中にあったのは――
+<PAUSE>
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「浅井、美織だ――」
+<PAUSE>
+<NAME_PLATE>俺
+「なっ――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　家族ごと消息不明になっていた
+五車学園の２年生。
+<PAUSE>
+<NAME_PLATE>
+　その彼女が、内臓を抜き取られた
+無残な姿でみっしりと収納に収まって――
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンッ！
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンボンボンボンッ！！！
+<PAUSE>
+<NAME_PLATE>弧路
+「……！！？」
+<PAUSE>
+<NAME_PLATE>
+　さらに異変が起こる。
+<PAUSE>
+<NAME_PLATE>
+　左右の壁に並ぶ収納の鍵が次々と
+爆発して吹き飛び、
+<PAUSE>
+<NAME_PLATE>
+　内側から冷気の靄を溢れさせながら
+ゆっくりと開いていく。
+<PAUSE>
+//【背景：五車町＿斉藤家邸宅地下室＿解錠２＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC064cより流用
+<BG>nc263c,IN, 1000
+<ACTOR>0,h_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「――きらら先輩！！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ずるり。
+<PAUSE>
+<NAME_PLATE>
+　突然、浅井美織の死体から生える男の腕。
+<PAUSE>
+<ACTOR>0,kr_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「あっ！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+//　※鮮血演出など
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボウン！！！！
+<PAUSE>
+<NAME_PLATE>
+　爆発、そして飛び散る鮮血と肉片。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩を庇って伸ばした
+蛇子のタコ足の片方が吹き飛ばされた。
+<PAUSE>
+<BG>nc263c,IN, 500
+<NAME_PLATE>蛇子
+「あううぅっ！！？」
+<PAUSE>
+<ACTOR>0,kr_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「へ、蛇子ちゃん！！？
+　この、ふざけんじゃないわよ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　氷のクローを振り下ろすきらら先輩。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そこにもう“奴”の姿はない。
+<PAUSE>
+<BG>nc263c,IN, 500
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「―――不運だ」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト第一弾を流用
+<NAME_PLATE>斉藤半次郎
+「愚かな畜群に私の安寧が乱されている」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「だがこれも、至高への道を歩むための
+　試練なのだろう」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「私はそれを受け入れる。
+　すべては、私の高貴なる夢のため――」
+<PAUSE>
+<NAME_PLATE>俺
+「斉藤先生……
+　いや、斉藤半次郎……」
+<PAUSE>
+<NAME_PLATE>
+　浅井美織の死体から飛び出した
+長身の男が白い冷気の中に降り立った。
+<PAUSE>
+<NAME_PLATE>
+　神経質そうな眼差し、目の前の俺たちが
+存在しないかのような冷淡な態度。
+<PAUSE>
+<NAME_PLATE>
+　五車に潜む殺人鬼。
+<PAUSE>
+<NAME_PLATE>
+　五車学園教師・斉藤半次郎――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,kr_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「殺人鬼が何ぶつぶつ言ってんのよ！？
+　観念しなさい、あんたはもう終わり！！」
+<PAUSE>
+<NAME_PLATE>きらら
+「――蛇子ちゃん、大丈夫！？
+　庇ってくれてありがとう、
+　回復するまで下がってて！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「蛇子、僕の隣に――！」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_対魔忍立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>蛇子
+「くぅう……。
+　は、はい、了解です……っ」
+<PAUSE>
+<NAME_PLATE>
+　バルドルを構えるなお先輩の傍らまで、
+痛みに顔を歪めた蛇子が下がる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子のタコ足には再生能力があるが、
+あそこまで派手に吹き飛ばされたら
+しばらくは戦闘不能だろう。
+<PAUSE>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「愚かな畜群には理解できないさ。
+　高貴なるものの渇望が」
+<PAUSE>
+<NAME_PLATE>きらら
+「何が高貴よ！！？
+　あんたはただのサイコパスでしょう！！」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「くだらんレッテルだな、
+　そこがお前たちの限界だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　斉藤半次郎がゆらりと動く。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0169b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kr_t001f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら＆なお
+「っ！！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+//　※立ち絵
+//　　穂稀なお_対魔忍立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　風紀隊の皆が身構える。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが、そこで俺は
+あえて一歩前に出て奴に問うた。
+<PAUSE>
+<NAME_PLATE>俺
+「……渇望とは何ですか、斉藤先生？」
+<PAUSE>
+<ACTOR>0,ko_t008d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弧路
+「（ふうま君、危険……！）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路_対魔忍衣装
+<NAME_PLATE>
+　コロ先輩が慌てたように
+俺を制止しようとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが俺はそれに「大丈夫です」と
+軽くうなずいて、さらに奴に問う。
+<PAUSE>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「ずっと気になってたんですよ。
+　殺人鬼が何を目的で
+　犯行を繰り返していたのか――」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「――私の狙いは井河アサギ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「あの最強の存在をこの手で殺すことさ」
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ先生……？
+　それが連続殺人とどんな関係が」
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎が傲岸に笑う。
+<PAUSE>
+<NAME_PLATE>
+　淡々と話しているようで微塵も隙は無い。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「高貴なものの死は
+　私を至高の道に導いてくれる――」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「代用品だよ、私が殺してきた女たちは」
+<PAUSE>
+<NAME_PLATE>俺
+「……代用品だと？」
+<PAUSE>
+<NAME_PLATE>
+　全く理解できない。
+<PAUSE>
+<NAME_PLATE>
+　そんなことのために
+この男は多くの命を奪ったのか？
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「ただの代用品じゃないさ。
+　彼女たちは私が認めた高貴な女」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「だが、それでも井河アサギではなかった。
+　あれでは私の夢には役立たない――」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「だから別の形で
+　役に立つようにしてやった！！
+　――出ろ！　私の高貴な女たち！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　左右に並ぶ収納のドアが次々と開く。
+<PAUSE>
+<NAME_PLATE>
+　それらを封じる錠前は先ほどの爆発で
+残らず破壊されている。
+<PAUSE>
+<NAME_PLATE>
+　そして、その内側から現れたのは――
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ts_m197a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m197a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+『ＵＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯＯ！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デミ・ヒューマン
+//　　　＊対魔忍ＲＰＧモンスターイラスト流用
+//　※立ち絵
+//　　デミ・ヒューマン
+//　　　＊対魔忍ＲＰＧモンスターイラスト流用
+<NAME_PLATE>
+　悲痛な咆哮がこだました。
+<PAUSE>
+<NAME_PLATE>
+　女性の身体をベースにしたと思しき
+怪物たちが現れ、俺たちに刃を向ける。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kr_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>きらら
+「な、なにあれ……！？」
+<PAUSE>
+<ACTOR>1,ko_t008f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（いなくなった人たちの……
+　死体を縒り合わせて造ったの……？
+　なんてことを……）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「――デミ・ヒューマン。
+　井河アサギを殺すために用意した尖兵だ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「まさか、こんなところで
+　使う羽目になるとは――
+　本当に、不運だよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ずるうううううっ！！！
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m197a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m197a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　踵を返した斉藤半次郎の姿が
+デミ・ヒューマンの体内に消える。
+<PAUSE>
+<NAME_PLATE>俺
+「皆気をつけろ！！　来るぞ！！！」
+<PAUSE>
+<NAME_PLATE>デミ・ヒューマン
+『ＵＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯＯ！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デミ・ヒューマン
+//　　　＊対魔忍ＲＰＧモンスターイラスト流用
+//　※立ち絵
+//　　デミ・ヒューマン
+//　　　＊対魔忍ＲＰＧモンスターイラスト流用
+<NAME_PLATE>
+　人遁使い・斉藤半次郎をその体内に
+隠した怪物の群れが俺たちに殺到した。
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

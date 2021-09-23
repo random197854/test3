@@ -1,0 +1,1150 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車学園前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　ついにこの日がやってきた。
+<PAUSE>
+//【背景：五車学園＿地下訓練施設＿演習室（柱なし）昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO＿NC016bより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc090a,IN, 1000
+<NAME_PLATE>
+　前々から楽しみにしていた
+新型シミュレーターのテストの日だ。
+<PAUSE>
+<NAME_PLATE>
+　Ｔａｉｍａｎｉｎ　Ｖｉｒｔｕａｌ
+Ｓｉｍｕｌａｔｉｏｎ　Ｓｙｓｔｅｍｓ
+<PAUSE>
+<NAME_PLATE>
+　対魔忍バーチャルシミュレーションシステム
+と名付けられた画期的なものだ。
+<PAUSE>
+<NAME_PLATE>
+　今までは地下訓練施設に、
+様々な場所の立体映像を映し出したり、
+雨風などの自然現象を機械的に再現し、
+<PAUSE>
+<NAME_PLATE>
+　それにロボットを併用したりして、
+そこで実際に自分の身体を動かすことで
+シミュレーション演習を行っていた。
+<PAUSE>
+<NAME_PLATE>
+　これは確かに効果的で、
+俺も何度となく世話になってきた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、いくら地下訓練施設が
+東京ドームほどの広さがあるとはいえ、
+そこで再現できる環境には限界がある。
+<PAUSE>
+<NAME_PLATE>
+　ＴＶＳＳはそれとは全く違う。
+その名の通り仮想現実による疑似体験だ。
+<PAUSE>
+<NAME_PLATE>
+　脳と信号をやりとりすることで
+シミュレーターが作り出した仮想世界に
+意識ごと入り込むというＳＦみたいな話だ。
+<PAUSE>
+<NAME_PLATE>
+　まだ開発途中だが
+生徒で最初のテストプレイヤーに
+俺が選ばれたというわけだ。
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ふうま君、準備はいい？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>俺
+「はい、ＯＫです」
+<PAUSE>
+<NAME_PLATE>
+　テスト用の仮シートについて俺は答えた。
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0112a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「頭にも身体にもコードいっぱい付けられて
+　バカみたいなカッコね」
+<PAUSE>
+//　※立ち絵
+//　　【雷撃の新学期】水城ゆきかぜ立ち絵
+//　　　　　＊カードイラスト表絵より流用
+<NAME_PLATE>
+　呼ばれもしないのにここに来た
+ゆきかぜが嫌味を言った。
+<PAUSE>
+<NAME_PLATE>
+　確かに脳と信号をやりとりする装置や
+筋電図を計るためのセンサやらなにやらで
+身体中コードだらけだ。
+<PAUSE>
+<NAME_PLATE>俺
+「とか言って自分がやりたいんだろ。
+　残念だったな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「むっふーーーーーーーー」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは今まで見たことがないくらい
+悔しそうな、いや羨ましそうな顔になった。
+<PAUSE>
+<NAME_PLATE>
+　要するに俺がこれからテストするのは
+究極のバーチャルシミュレーションゲームだ。
+<PAUSE>
+<NAME_PLATE>
+　ゲーマーＹ－ｋａｚｅＸちゃんの血が
+騒がないわけがない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、雷撃の対魔忍は
+とかく電子機器とは相性が悪い。
+<PAUSE>
+<NAME_PLATE>
+　さらにゆきかぜは
+今のシミュレーターのテストプレイで
+装置を故障させたという前科もある。
+<PAUSE>
+<NAME_PLATE>
+　今度も何が起きるかわからないと
+アサギ先生にテスターを却下されていた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「テストは２時間を予定していいるわ。
+　もっとも、ふうま君の主観では
+　数日くらいになると思うけど」
+<PAUSE>
+<NAME_PLATE>俺
+「結構長いですね。
+　どんなシミュレーションなんです？」
+<PAUSE>
+<ACTOR>0,a_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それは向こうにいってのお楽しみ。
+　基本的に途中では止めないから
+　そのつもりでよろしく」
+<PAUSE>
+<NAME_PLATE>俺
+「わかりました」
+<PAUSE>
+<ACTOR>0,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「後でちゃんと感想きかせなさいよ」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、楽しみにしとけ」
+<PAUSE>
+<NAME_PLATE>
+　俺はニヤリと笑った。
+<PAUSE>
+<NAME_PLATE>俺
+「戻ってきたら俺が実は宇宙海賊だったり、
+　火星のエージェントだったりするのが
+　判明するんだろうな、はっはっは」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「んなわけないでしょ！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「なんの話？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そういう話があるんですよー。
+　ああもう悔しい～～～！
+　やっぱり私がやりたい～～～～！」
+<PAUSE>
+<NAME_PLATE>
+　ジタバタしているゆきかぜを横目に
+俺は目を閉じた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「諦めなさい、ゆきかぜ。
+　それじゃ、始めるわよ。
+　シミュレーション・スタート」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　その声が聞こえた瞬間、
+俺の意識はスーッと落ち込んでいった。
+<PAUSE>
+//【背景：宇宙＿昼】【時間：昼】
+//　※監獄戦艦2＿NC001aより流用
+//nc317a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc317a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　広大な宇宙が広がっている。
+<PAUSE>
+<NAME_PLATE>
+　俺はそこを飛んでいた。
+<PAUSE>
+<NAME_PLATE>
+　地球を離れ、
+火星、木星、土星、さらに先へと。
+<PAUSE>
+//【背景：コーデリア宙域＿昼】【時間：昼】
+//　※監獄戦艦2_NC002aより流用
+//nc318a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc318a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　太陽系第七の惑星。
+天王星。
+<PAUSE>
+<NAME_PLATE>
+　その小衛星コーデリアに、
+人工衛星都市が造られている。
+<PAUSE>
+//【背景：コーデリア内全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC007aより流用
+//nc319a
+<BG>nc319a,IN, 1000
+<NAME_PLATE>
+　俺はその中に入っていく。
+<PAUSE>
+//【背景：コーデリア大公宮＿全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC008aより流用
+<BG>nc320a,IN, 1000
+<NAME_PLATE>
+　立派な建物が見える。
+<PAUSE>
+<NAME_PLATE>
+　俺の意識はそこに引っ張られて行き――
+<PAUSE>
+//【背景：コーデリア大公宮＿広間＿昼】【時間：昼】
+//　※監獄戦艦２_NC016aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc321a,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「…………！」
+<PAUSE>
+<NAME_PLATE>
+　はっと五感が戻ったとき、
+俺は高貴そうな二人の女性の前で跪いていた。
+<PAUSE>
+<NAME_PLATE>
+　彼女たちはなにやら言い争っている。
+<PAUSE>
+<ACTOR>1,my_t001e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>マヤ
+「姫姉さま。
+　マヤは従者なんて必要ありません。
+　しかも平民なんて、イヤです」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<ACTOR>0,ar_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アリシア
+「駄目だ。
+　従者を使うことも覚えろ」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　初めて見たのに
+なぜか彼女たちのことが分かった。
+<PAUSE>
+<NAME_PLATE>
+　従者などいらないと言っていたのは、
+マヤ・コーデリア。
+<PAUSE>
+<NAME_PLATE>
+　先代コーデリア大公の娘にして
+次期大公となるお姫様だ。
+<PAUSE>
+<NAME_PLATE>
+　それを咎めていた方は、
+アリシア・ビューストレーム。
+<PAUSE>
+<NAME_PLATE>
+　マヤの従姉にあたる人物で、
+コーデリア公国の摂政と軍司令官を兼任する
+やはりお姫様だ。
+<PAUSE>
+<NAME_PLATE>
+　そして俺が今いるのは、
+天王星の衛星コーデリアに作られた人工都市。
+<PAUSE>
+<NAME_PLATE>
+　その名もコーデリア公国。
+その大公宮だ。
+<PAUSE>
+<NAME_PLATE>
+　そういったことが
+まるでゲームの説明書を
+予め読んでいたかのように分かった。
+<PAUSE>
+<NAME_PLATE>
+　きっとシミュレーターが
+最低限必要な知識を与えてくれたのだろう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（それにしても、すごいなこりゃ……）
+<PAUSE>
+<NAME_PLATE>
+　シミュレーターが作り出す仮想世界、
+その圧倒的な臨場感に驚愕する。
+<PAUSE>
+<NAME_PLATE>
+　本当の俺は地下訓練施設で
+今もコードに繋がれているはずだが、
+とてもそうは思えない。
+<PAUSE>
+<NAME_PLATE>
+　目の前にいるお姫様二人も
+生きている人間がそこにいるようにしか
+思えない。
+<PAUSE>
+<NAME_PLATE>俺
+（しかし、こんな始まり方をするとはな。
+　まるでゲームのオープニングみたいだけど、
+　アサギ先生の趣味かな？）
+<PAUSE>
+<NAME_PLATE>
+　などと思いながら、
+綺麗なお姫様二人を
+もっとよく見ようとすると、
+<PAUSE>
+<ACTOR>1,my_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「無礼者！
+　誰が面を上げていいと言いました！」
+<PAUSE>
+<NAME_PLATE>
+　マヤがキッと俺を睨み付けた。
+<PAUSE>
+<NAME_PLATE>俺
+「ははっ」
+<PAUSE>
+<NAME_PLATE>
+　俺はさっと頭を下げた。
+<PAUSE>
+<NAME_PLATE>
+　相手はお姫様で、俺は平民らしい。
+<PAUSE>
+<NAME_PLATE>
+　それでジロジロ見ていたら
+そりゃ無礼者と言われるだろう。
+<PAUSE>
+<NAME_PLATE>
+　ここはシミュレーションの役になりきろう。
+でないと面白くない。
+<PAUSE>
+<NAME_PLATE>マヤ
+「姫姉さま、なんなのですかこの者は！？
+　せめてもっと別のまともな者に―――私が
+　自分で選んだ者を従者にさせてください」
+<PAUSE>
+<ACTOR>1,my_t001f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ar_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アリシア
+「駄目だ。
+　そんなことを言って、
+　今まで何人も従者を首にしているだろう」
+<PAUSE>
+<NAME_PLATE>マヤ
+「それはあの者達が―――」
+<PAUSE>
+<ACTOR>0,ar_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「言い訳無用」
+<PAUSE>
+<ACTOR>1,my_t001g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　反論しようとするマヤに
+アリシアがピシャリと言った。
+<PAUSE>
+<ACTOR>0,ar_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「この者は私がマヤのために選んだのだ。
+　いいか、最低でも今日から三日間。
+　この者と一緒にいること。これは命令だ」
+<PAUSE>
+<NAME_PLATE>マヤ
+「うう～～～～～～～」
+<PAUSE>
+<NAME_PLATE>
+　マヤは悔しそうに唸っていた。
+<PAUSE>
+<ACTOR>0,ar_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　けれどアリシアには頭が上がらないらしく、
+嫌々といった感じで、俺に声をかけてきた。
+<PAUSE>
+<ACTOR>1,my_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「面を上げなさい。
+　あなた、名前は？」
+<PAUSE>
+<NAME_PLATE>
+　『名前を入力してください』という奴か。
+まあ普段と同じでいいだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「ふうま小太郎です」
+<PAUSE>
+<NAME_PLATE>マヤ
+「フーマ？　変な名前ね。
+　いいでしょう。ついてきなさい！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　マヤはそう言うなり
+ぷいっと俺から顔を背けて、
+つかつかと部屋を出て行く。
+<PAUSE>
+<NAME_PLATE>
+　ついてきなさいと言いつつ、
+ついてくるなと背中が言っている。
+<PAUSE>
+<NAME_PLATE>
+　これは最初の選択肢的な場面か？
+さて、どうしようか。
+<PAUSE>
+<ACTOR>0,ar_t001c,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>アリシア
+「フーマ、何をしている。
+　今日からお前は私のマヤの従者だ。
+　よく役目を果たすのだぞ」
+<PAUSE>
+<NAME_PLATE>
+　アリシアが俺に命令した。
+<PAUSE>
+<NAME_PLATE>
+　今の話からすると、
+彼女が直々に平民の俺を
+マヤの従者に選んだという設定のようだ。
+<PAUSE>
+<NAME_PLATE>
+　始まったばかりだし
+ここはその流れに乗るか。
+<PAUSE>
+<NAME_PLATE>俺
+「御意」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<BG_OUT>1000
+<NAME_PLATE>
+　俺は気分を出して答え、
+マヤの後を追った。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　こうして思いも寄らないＳＦ世界での
+シミュレーションがスタートしたのだった。
+<PAUSE>
+//【背景：コーデリア内全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC007aより流用
+//nc319a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc319a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「おお、すごい……」
+<PAUSE>
+<NAME_PLATE>
+　大公宮の外に出ると
+壮大な光景が広がっていた。
+<PAUSE>
+<NAME_PLATE>
+　コーデリアは天王星の同じ名前の衛星を
+核に作られた人工都市だ。
+<PAUSE>
+<NAME_PLATE>
+　人間は球形の大地の裏側に住んでいるので、
+遠くに行くにつれて地面がせり上がっていく。
+<PAUSE>
+<NAME_PLATE>
+　そのまま真上を見ると、
+青空と雲を通して向こう側の都市が
+逆さにぶら下がっている。
+<PAUSE>
+<NAME_PLATE>
+　緑が多いせいか閉鎖的な印象はなく、
+数カ所に密集して建ち並んだビルは
+どれも数百メートル級と高い。
+<PAUSE>
+<NAME_PLATE>
+　ひときわ目を引くのは
+それらのビルの数倍、
+縦横数キロはありそうな超巨大な建物だ。
+<PAUSE>
+<NAME_PLATE>
+　大小のピラミッドを組み合わせたような
+地球では絶対にあり得ない土台の上に、
+城やビルがさらに乗っかっている。
+<PAUSE>
+<NAME_PLATE>俺
+「ＳＦだなあ……」
+<PAUSE>
+<NAME_PLATE>
+　フィクションでは見慣れた光景だが
+自分の目で見ると（実際には見てないのだが）
+感激もひとしおだ。
+<PAUSE>
+//【背景：コーデリア大公宮＿全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC008aより流用
+//nc320a
+<BG>nc320a,IN, 1000
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「何を驚いているのですか？」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　口を開けてぽけーっと周りを見ていた俺に
+マヤが怪訝そうな顔をした。
+<PAUSE>
+<NAME_PLATE>俺
+「こんな景色は地球では見られないので」
+<PAUSE>
+<NAME_PLATE>
+　その答えはちょっと意外だったらしく、
+マヤは重ねてこう聞いてきた。
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「地球？
+　あなたは地球から来たのですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「地球のどこですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「日本です」
+<PAUSE>
+<NAME_PLATE>
+　この世界がどれくらい未来の設定か
+分からないのでざっくりと答える。
+<PAUSE>
+<NAME_PLATE>マヤ
+「ニホン？　聞いたことがないですね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「そうですか、地球出身……。
+　姫姉さまはそれであなたを
+　選んだのでしょうか？」
+<PAUSE>
+<NAME_PLATE>
+　マヤは独りごちるが
+俺には答えようがない。
+<PAUSE>
+<NAME_PLATE>
+　もちろんそういう設定だからだが、
+それを言ってはおしまいだ。
+<PAUSE>
+<NAME_PLATE>
+　ともかく、
+何か察するところがあったらしく、
+マヤはしっかりと俺を見てこう言った。
+<PAUSE>
+<NAME_PLATE>マヤ
+「人類発祥の地には
+　私もいつか行ってみたいと思っています」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あなたも地球からコーデリアに来たのは
+　色々と思うところがあってのことでしょう」
+<PAUSE>
+<NAME_PLATE>マヤ
+「しかし、姫姉さまに私の従者として
+　選ばれた以上、その誇りをもって
+　行動することを期待します」
+<PAUSE>
+<NAME_PLATE>俺
+「ははっ」
+<PAUSE>
+<NAME_PLATE>
+　従者らしく恭しく頭を下げる。
+<PAUSE>
+<NAME_PLATE>マヤ
+「では景色を眺めるのは後になさい。
+　行きますよ」
+<PAUSE>
+<NAME_PLATE>俺
+「どこにですか？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「学校です」
+<PAUSE>
+//【背景：王立士官学校＿全景＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC015aより流用
+//nc
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc322a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　コーデリア公立士官学校。
+<PAUSE>
+<NAME_PLATE>
+　マヤを始めとするコーデリア貴族の多くが
+通っている軍学校だ。
+<PAUSE>
+<NAME_PLATE>
+　ノブレス・オブリージュという奴で、
+貴族は一定期間兵役につくことを義務づけられ
+ここもその一環というわけだ。
+<PAUSE>
+<NAME_PLATE>
+　俺は超豪華なリムジンエアカーに乗せられ、
+マヤとともにここにやって来た。
+<PAUSE>
+//【背景：王立士官学校＿廊下＿昼】【時間：昼】
+//　※影のセクハリスト_nc004aより流用
+<BG>nc323a,IN, 1000
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>生徒
+「マヤ様、ごきげんよう」
+<PAUSE>
+<NAME_PLATE>マヤ
+「ごきげんよう、ウィリアムさん」
+<PAUSE>
+<NAME_PLATE>教師
+「コーデリアさん、ごきげんよう」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ごきげんよう、ダストン先生」
+<PAUSE>
+<NAME_PLATE>
+　登校してきたマヤに
+生徒や教師が気さくに挨拶してくる。
+<PAUSE>
+<NAME_PLATE>
+　そこに次期大公に対する
+へつらいのようなものは感じられず、
+ごく普通に慕われている印象だ。
+<PAUSE>
+<NAME_PLATE>
+　マヤも驕り高ぶったところなどなく
+気品を保ちつつ、朗らかに応じている。
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺はというと、颯爽と歩くマヤの後ろを
+どことなく居心地悪い気分で従っていた。
+<PAUSE>
+<NAME_PLATE>
+　マヤは少しも気にしていないようだが、
+新顔の俺は当然、皆の注目を浴びている。
+<PAUSE>
+<NAME_PLATE>
+　やがて、そのうちの一人が
+意を決したようにマヤに尋ねた。
+<PAUSE>
+<NAME_PLATE>女生徒
+「マヤ様、ごきげんよう。
+　お連れになっているそのお方は？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「ごきげんよう、ローザさん。
+　彼はフーマです。
+　今日から私の従者になりました」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺はとりあえず頭を下げる。
+彼女は驚きと好奇心に目を輝かせる。
+<PAUSE>
+<NAME_PLATE>女生徒
+「まあ、マヤ様の従者に。
+　どちらの家のお方ですか？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「地球出身の平民です。
+　姫姉さまが私の従者として
+　選んでくださいました」
+<PAUSE>
+<NAME_PLATE>女生徒
+「平民？　アリシア様が？？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なぜマヤの従者に平民が？
+<PAUSE>
+<NAME_PLATE>
+　それもアリシアが直々に選んだとは
+どういうことだろう？
+<PAUSE>
+<NAME_PLATE>
+　いったい何者？
+<PAUSE>
+<NAME_PLATE>
+　そんな感じの戸惑いが彼女だけでなく、
+周りで耳をそばだてていた他の生徒たちにまで
+さーっと広がっていく。
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「私ともどもよしなに。
+　フーマ、行きますよ。
+　すぐに授業が始まります」
+<PAUSE>
+<NAME_PLATE>俺
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　俺が気づいたのだから、
+マヤも周りの目の変化に当然気づいただろう。
+<PAUSE>
+<NAME_PLATE>
+　だがそれを全く気にしていない様子だ。
+このへんの態度はさすが姫様というところか。
+<PAUSE>
+<NAME_PLATE>
+　俺も最近はそれほどではないものの、
+変な目で見られるのは現実で慣れているので、
+ここでも気にしないことにした。
+<PAUSE>
+<NAME_PLATE>
+　というか貴族だらけの学校に
+異分子の平民がやってくるというのは、
+いかにも何か起りそうな話だ。
+<PAUSE>
+<NAME_PLATE>
+　この先の展開に期待しよう。
+<PAUSE>
+//【背景：王立士官学校＿教室＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC017aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc324a,IN, 1000
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>マヤ
+「授業中は後ろに控えていなさい。
+　用があれば呼びます」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「承知しました」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　マヤに言われ、
+俺は他の生徒の従者たち同様、
+教室の後ろに並んだ。
+<PAUSE>
+<NAME_PLATE>
+　お仲間の従者たちは
+やはりそれなりの家の出のようで、
+<PAUSE>
+<NAME_PLATE>
+　平民ということが早くも知れ渡った俺を
+胡散臭げに見るだけで話しかけてはこない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そんな状況の中、授業が始まった。
+<PAUSE>
+//【背景：宇宙＿昼】【時間：昼】
+//　※監獄戦艦2＿NC001aより流用
+//nc317a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm608,1000
+<BG>nc317a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　人類が宇宙へと広がりはじめた時代。
+<PAUSE>
+<NAME_PLATE>
+　太陽系内には
+数々のテラフォーミングされた惑星が現れ、
+人類の版図は太陽系全域へ広がっていた。
+<PAUSE>
+<NAME_PLATE>
+　宇宙スペースへの人類の拡散は、
+当然のように人類史に変遷をもたらした。
+<PAUSE>
+<NAME_PLATE>
+　地球を故郷としない
+『宇宙人類』と呼ばれる人々の増大、
+それに伴う思想の変化。
+<PAUSE>
+<NAME_PLATE>
+　それまでの地球中心主義を是正するため、
+各植民星の主権を認めた宇宙連邦政府が
+発足したのも歴史の必然であった。
+<PAUSE>
+<NAME_PLATE>
+　人類の再統合がなされて１０数年。
+<PAUSE>
+<NAME_PLATE>
+　人々の努力とは裏腹に、
+かつての権益に執着する旧人類と
+宇宙人類の対立は根深いものがあった。
+<PAUSE>
+<NAME_PLATE>
+　すなわち人類発祥の地、地球を抱き、
+そこに住む者による宇宙の管理を理想とする
+『ネオ・テラーズ』
+<PAUSE>
+<NAME_PLATE>
+　惑星タイタンを筆頭とする、
+宇宙コロニーおよび植民星による自治を目指す
+『ニュー・ソラル』
+<PAUSE>
+//【背景：コーデリア宙域＿昼】【時間：昼】
+//　※監獄戦艦2_NC002aより流用
+//nc318a
+<BG>nc318a,IN, 1000
+<NAME_PLATE>
+　そして、それらに次ぐ第三極と言われる
+『コーデリア』
+<PAUSE>
+<NAME_PLATE>
+　それは直径５６キロ、
+太陽系最大の要塞型人工天体都市だ。
+<PAUSE>
+<NAME_PLATE>
+　地球の人口６５億人、
+タイタンの人口１２億人に対し、
+コーデリアはわずか３５３万人。
+<PAUSE>
+<NAME_PLATE>
+　しかし、天王星の核から産出される、
+稀少な液体金属ウラヌス、
+それから生み出される特殊合金。
+<PAUSE>
+<NAME_PLATE>
+　宇宙戦闘において絶大な価値を有する
+ウラヌス合金の生産加工技術を
+独占することで、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　コーデリアは急速に力を付け、
+ネオ・テラーズとニュー・ソラルの双方から
+危険視されていた。
+<PAUSE>
+//【背景：王立士官学校＿教室＿昼】【時間：昼】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc324a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（なるほどなあ……）
+<PAUSE>
+<NAME_PLATE>
+　一時間目は近代史だった。
+<PAUSE>
+<NAME_PLATE>
+　とってつけたようなこの授業は
+シミュレーターの計らいだろう。
+おかげでこの世界の概略を知ることができた。
+<PAUSE>
+<NAME_PLATE>教師
+「―――では、コーデリアを
+　軍事強国に導く原動力となった特殊兵器に
+　ついて誰か説明してもらおうかな」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「はい！」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　マヤがさっと手を上げた。
+<PAUSE>
+<NAME_PLATE>教師
+「他に誰かいないか？
+　―――では、コーデリア君」
+<PAUSE>
+<NAME_PLATE>マヤ
+「装甲騎です。
+　『コーデリア宇宙軍に歩兵を』という
+　戦略思想の元に開発されました」
+<PAUSE>
+<NAME_PLATE>マヤ
+「コーデリア周辺には
+　惑星帯が多く存在しています」
+<PAUSE>
+<NAME_PLATE>マヤ
+「その地の利を活かす上で、
+　宇宙を自由自在に機動できる
+　歩兵のような兵器が求められたのです」
+<PAUSE>
+<NAME_PLATE>マヤ
+「その技術開発の立役者となったのが、
+　アリシア・ビューストレーム、
+　現在の軍司令長官です」
+<PAUSE>
+<NAME_PLATE>マヤ
+「彼女は全長８メートルあまりの小型の機体に
+　連邦軍宇宙艦と同様の重水素核融合炉を
+　搭載することに成功しました」
+<PAUSE>
+<NAME_PLATE>マヤ
+「さらにその機体にウラノス合金装甲を施し、
+　中型戦艦の主砲に匹敵する兵装をも
+　備えさせたのです」
+<PAUSE>
+<NAME_PLATE>マヤ
+「そして完成したのが装甲騎ヌルです。
+　これは画期的な機体でした」
+<PAUSE>
+<NAME_PLATE>マヤ
+「デビュー戦となる木星宙域軍閥掃討作戦では
+　姫姉さま自身が隊長騎パイロットとして
+　参戦し、なんと―――」
+<PAUSE>
+<NAME_PLATE>教師
+「おっとそこまで。もう結構だ。
+　今は戦史の授業ではないし、
+　君の姫姉さまの活躍は皆知っているからね」
+<PAUSE>
+<ACTOR>0,my_t002h,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「あっ、し、失礼しました。
+　私ったらつい……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　マヤは赤面して席についた。
+こういったことはよくあるらしく、
+周りからは好意的な笑いが起った。
+<PAUSE>
+<NAME_PLATE>
+　今のは調子に乗ってしまったようだが、
+マヤは本当によく勉強しているし、
+授業にも積極的に参加している。
+<PAUSE>
+<NAME_PLATE>俺
+（真面目な姫様だなあ……）
+<PAUSE>
+<NAME_PLATE>
+　なんてことを俺に思わせつつ、
+最初の授業は何ごともなく終わった。
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　休み時間になって
+マヤがすっと席を立った。
+<PAUSE>
+<NAME_PLATE>
+　どこかにいくようだ。
+俺は何も言われていないが
+ついて行くべきだろう。従者だし。
+<PAUSE>
+<NAME_PLATE>
+　と気を利かせて後を追うと、
+マヤはくるりと振り返った。
+<PAUSE>
+<NAME_PLATE>マヤ
+「かまいません、
+　ここで待っていなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「でも従者ですから」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あなたが来れないところに行くのです。
+　すぐ戻ります」
+<PAUSE>
+<NAME_PLATE>俺
+「というと？」
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「言わないと分からないのですか？
+　少しは察しなさい」
+<PAUSE>
+<NAME_PLATE>
+　マヤは眉をひそめて言った。
+少し顔が赤くなっている。
+<PAUSE>
+<NAME_PLATE>
+　あ……トイレか。
+<PAUSE>
+<NAME_PLATE>
+　そりゃついてこられたらイヤだな。
+<PAUSE>
+<NAME_PLATE>俺
+「失礼いたしました」
+<PAUSE>
+<NAME_PLATE>マヤ
+「まったく」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　マヤはプンプンしながら教室を出ていった。
+<PAUSE>
+<NAME_PLATE>俺
+「お姫様の従者なんて初めてだからなあ」
+<PAUSE>
+<NAME_PLATE>
+　思わずそうぼやいていると、
+後ろから俺に声がかかった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貴族
+「そこの平民」
+<PAUSE>
+//　※立ち絵
+//　　士官学校生徒(男)＿立ち絵
+//　　　　　＊新規デザイン
+<NAME_PLATE>
+　振り返ると、何人かの男子生徒、
+つまり貴族が従者を連れてきていた。
+<PAUSE>
+<NAME_PLATE>
+　俺と友達になりたいのではないことは
+その顔を見れば一目で分かる。
+<PAUSE>
+<NAME_PLATE>
+　マヤがいなくなったので
+これ幸いと声をかけてきたのだろう。
+<PAUSE>
+<NAME_PLATE>貴族
+「話がある」
+<PAUSE>
+<NAME_PLATE>
+　貴族の一人が顎をしゃくって、
+こちらの返事も聞かずに教室を出て行く。
+<PAUSE>
+<NAME_PLATE>
+　どうやらイベント発生のようだ。
+俺はいそいそと後を追った。
+<PAUSE>
+//【背景：王立士官学校＿廊下＿昼】【時間：昼】
+//　※影のセクハリスト_nc004aより流用
+//nc323a
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc323a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――で、連れてこられたのが、
+この人けのない廊下だ。
+<PAUSE>
+<ACTOR>0,ts_m200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貴族
+「平民、どうやって大公家に取り入った？」
+<PAUSE>
+//　※立ち絵
+//　　士官学校生徒(男)＿立ち絵
+//　　　　　＊新規デザイン
+<NAME_PLATE>
+　リーダー格と思しき男、
+おそらく一番地位が高い奴が口を開いた。
+<PAUSE>
+<NAME_PLATE>
+　金髪碧眼で傲慢な表情と、
+嫌な貴族を絵に描いたような男だ。
+<PAUSE>
+<NAME_PLATE>俺
+「くくく……」
+<PAUSE>
+<NAME_PLATE>
+　まさかこんなテンプレ悪役の登場かと、
+俺は笑いを堪えられない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>貴族
+「何がおかしい！」
+<PAUSE>
+<NAME_PLATE>俺
+「マヤ様の従者になった平民が
+　気に食わないから雁首揃えて
+　リンチしようってんだろ？」
+<PAUSE>
+<NAME_PLATE>俺
+「相手をしてやるからかかってきな」
+<PAUSE>
+<NAME_PLATE>
+　普段ならこんなこと絶対言わないが、
+これはシミュレーションだ。
+<PAUSE>
+<NAME_PLATE>
+　主人公気分で楽しまないともったいない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>貴族
+「貴様あっっ！」
+<PAUSE>
+<NAME_PLATE>
+　案の定、貴族とその取り巻きは
+激昂して俺に襲いかかってきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

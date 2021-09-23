@@ -1,0 +1,989 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc165a,IN, 1000
+<NAME_PLATE>
+　タツヤ先輩（肉塊）との戦い――。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助と伊紀は、意外なほどの
+苦戦を強いられることになった。
+<PAUSE>
+<ACTOR>0,ts_m190b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タツヤ先輩（異形化）
+『ＧＲＡＡＡＡＡＡＡＡＡＡＡ！！！』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どすーん！！！
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あぐぅっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<ACTOR>1,chr_t0235a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>伊紀
+「鹿之助くん！！！？」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチの優等生】磯咲伊紀02（自然SR）
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0236a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女の人
+「っ！？」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチな人妻】水城不知火
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　肉塊の強烈な突進を受けて
+鹿之助の体が吹き飛ばされた。
+<PAUSE>
+<NAME_PLATE>
+　肉塊の攻撃はシンプルであった。
+<PAUSE>
+<NAME_PLATE>
+　巨体を活かしたパワフルな突進――
+しかし、本当の危険は別にあった。
+<PAUSE>
+<ACTOR>0,ts_m190b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タツヤ先輩（異形化）
+『ちゅーす。俺っち最高～♪』
+<PAUSE>
+//　※立ち絵
+//　　タツヤ先輩（異形化）
+//　　　　＊モンスターイラストより流用
+//　※演出　精神攻撃的な画面エフェクトなど。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>伊紀
+（ぐぅうぅぅっ！？
+　また、この声……！？）
+<PAUSE>
+<NAME_PLATE>
+　砂浜に膝をついた伊紀が苦悶する。
+<PAUSE>
+<NAME_PLATE>
+　肉塊の声が耳に入るたびに
+力が吸い取られる感覚があり、
+体が動かなくなった。
+<PAUSE>
+<NAME_PLATE>
+　奴が吐き出す言葉には、
+ただ不快なだけでなく何らかの
+呪いがかかっているらしい。
+<PAUSE>
+<NAME_PLATE>伊紀
+（くっ……ただの肉だんごだと
+　思って油断したわ……！）
+<PAUSE>
+<NAME_PLATE>
+　伊紀には“水鏡”という魔術や
+忍法を弾き返す術があるのだが、
+<PAUSE>
+<NAME_PLATE>
+　肉塊をパワータイプと見て
+発動させるのが遅れ、完全に
+呪いに体を縛られてしまった。
+<PAUSE>
+<NAME_PLATE>
+　その結果――
+<PAUSE>
+<NAME_PLATE>
+　伊紀、そして鹿之助は
+ほとんど抵抗もできず、
+肉塊の突進攻撃を受け続けた。
+<PAUSE>
+<NAME_PLATE>タツヤ先輩（異形化）
+『どーよババア？　そろそろ
+　俺にヤられたくなったかあ！？』
+<PAUSE>
+<NAME_PLATE>女の人
+「ひっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　ぷるぷると体を震わせて
+肉塊がにじり寄ってくる。
+<PAUSE>
+<NAME_PLATE>
+　おぞましさと恐怖に
+体を固くする女性――そこに。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「や、やめろよ……！！！
+　そのお姉さんに手を出すな！！」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩（異形化）
+『アア！！！？』
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカッ！！
+<PAUSE>
+<NAME_PLATE>
+　足止めしようとしがみついた
+鹿之助が乱暴に蹴り倒される。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あぅうっ！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>女の人
+「し、鹿之助くん……！！？」
+<PAUSE>
+<NAME_PLATE>
+　女の人が悲鳴を上げた。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の小さな体が
+吹き飛ばされる。
+<PAUSE>
+<NAME_PLATE>
+　だが、それでも――。
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「だ、大丈夫……！
+　お姉さんは下がってて……！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は傷だらけの体で
+よろよろと立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　彼女を守るように
+肉塊の前に立ち塞がる。
+<PAUSE>
+<NAME_PLATE>女の人
+「そ、そんな……
+　どうして、そこまで……」
+<PAUSE>
+<NAME_PLATE>
+　女性の声が悲痛に震えた。
+<PAUSE>
+<NAME_PLATE>
+　ついさっき出会ったばかりの、
+名前も知らない相手のために。
+<PAUSE>
+<NAME_PLATE>
+　どうしてこの少年は、
+ここまで戦ってくれるのだろう――。
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「へ、へへっ……！
+　だって俺は、正義の対魔忍、
+　上原鹿之助だからな……！！」
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「狙われてる女の人を置いて、
+　逃げたりなんかするわけないぜ！！」
+<PAUSE>
+<NAME_PLATE>女の人
+「………………！」
+<PAUSE>
+<NAME_PLATE>
+　痛みと怖さのせいだろう、
+鹿之助の足はがくがくと
+小さく震えている。
+<PAUSE>
+<NAME_PLATE>
+　だけどこの少年は、
+一歩も引かず凶悪な敵と対峙する。
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0235a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>伊紀
+「ふふっ。鹿之助くん、
+　良いこと言うじゃない……」
+<PAUSE>
+<NAME_PLATE>伊紀
+「やっぱり愛のために
+　戦うのが対魔忍よね……！！」
+<PAUSE>
+<NAME_PLATE>
+　それに倣うように、
+伊紀も立ち上がって前に出た。
+<PAUSE>
+<NAME_PLATE>
+　ダメージは大きく
+戦えるような状態ではない。
+<PAUSE>
+<NAME_PLATE>
+　それでも、守るべき誰かが
+自分の後ろにいるのならば。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0236a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女の人
+「………………………」
+<PAUSE>
+<NAME_PLATE>
+　それは、かつての遠い日、
+彼女の中にもあった光景だった。
+<PAUSE>
+<NAME_PLATE>
+　決して折れない信念を胸に、
+仲間たちと肩を並べ、
+弱きもののために戦った日々――。
+<PAUSE>
+<NAME_PLATE>女の人
+「…………………そうよね」
+<PAUSE>
+<NAME_PLATE>女の人
+「この子たちが、
+　こんなにがんばっているのに」
+<PAUSE>
+<NAME_PLATE>女の人
+「私だけ“全て忘れる”――
+　なんてムシのいい話、
+　あるはずないわよね？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　女性が自嘲するように笑って
+静かに目を閉じる。
+<PAUSE>
+<NAME_PLATE>
+　口の中で小さく何事か囁く。
+<PAUSE>
+<NAME_PLATE>
+　すると、次の瞬間――。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「――――――――」
+<PAUSE>
+//　※立ち絵
+//　　水城不知火01＿対魔忍衣装
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助＆伊紀
+「！！？」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩（異形化）
+『な、なんだァ！！？』
+<PAUSE>
+<NAME_PLATE>
+　強烈な妖気の奔流と共に、
+幻のように女性の姿が変じていた。
+<PAUSE>
+<NAME_PLATE>
+　明るく愛らしい水着姿から、
+淫靡で妖艶な戦闘スーツ姿へと。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0235a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t001g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>伊紀
+「な、なに……あの人……？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お姉さん、やっぱり……
+　そうだったんだ……。
+　魔女……“幻影の魔女”……」
+<PAUSE>
+<NAME_PLATE>伊紀
+「ええっ！？
+　げ、幻影の魔女って――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　驚きに絶句する伊紀。
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　幻影の魔女は、淫魔族の大幹部、
+闇の世界で名を轟かせる超大物。
+<PAUSE>
+<NAME_PLATE>
+　……でも、どういうことだ？
+<PAUSE>
+<NAME_PLATE>
+　彼女が纏う妖気からして
+明らかに本来の自分に戻っている。
+<PAUSE>
+<NAME_PLATE>
+　しかし彼女が解毒剤を飲んだ
+様子はなかった。
+<PAUSE>
+<NAME_PLATE>
+　それなのにどうして、
+記憶を取り戻している――？
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「ふふっ。あなたが、
+　ドリンクに悪戯をした子ね？」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「……ありがとう。
+　短い時間だったけど、
+　楽しい夢が見れたわ……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>伊紀
+「――っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　その囁きを聞いて、
+伊紀はすぐに気が付いた。
+<PAUSE>
+<NAME_PLATE>
+　“彼女は、自分から望んで
+薬の効果にかかっていた”。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　事実、幻影の魔女は自力で
+薬の効果を解くことができた。
+<PAUSE>
+<NAME_PLATE>
+　稲毛屋の老婆が作った媚薬は
+強力ではあったが、
+<PAUSE>
+<NAME_PLATE>
+　淫魔族の大幹部である
+幻影の魔女を呪縛することなど
+できはしない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、彼女は薬の効果を
+解くことはしなかった。
+<PAUSE>
+<NAME_PLATE>
+　無意識のうちでは、
+それができると理解していたが、
+<PAUSE>
+<NAME_PLATE>
+　“あえて”薬にかかって
+全てを忘れていた。
+<PAUSE>
+<NAME_PLATE>
+　……ほんの一時でも、
+淫魔族に堕ちた自分を忘れるのが
+心地良かったから。
+<PAUSE>
+<NAME_PLATE>
+　一人の無垢な女性として、
+あの勇気ある少年と過ごす時間が
+幸福だったから――。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そんな時間も終わった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m190b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タツヤ先輩（異形化）
+『なんだコスプレか！？
+　やるじゃねえかエロババアアア
+　アアアアアアアア！！！』
+<PAUSE>
+<NAME_PLATE>
+　興奮した肉塊が
+目を血走らせて襲いかかる。
+<PAUSE>
+<NAME_PLATE>
+　幻影の魔女はそれに
+冷たい一瞥を送ると。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「“お姉さん”よ、坊や。
+　口を慎みなさい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――ザシュ！！！
+<PAUSE>
+//　※斬撃演出など。
+<NAME_PLATE>タツヤ先輩（異形化）
+『ぎゃああああああああああ
+　あああああああああっ！！！！』
+<PAUSE>
+<BG>nc165a,IN, 500
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「今日は悪い気分じゃないし、
+　特別サービスよ」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「“悪いもの”を取ってあげるから、
+　生きてたら真人間になりなさい♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ザシュ、ザシュザシュ――！！
+<PAUSE>
+//　※斬撃演出（複数）など。
+<NAME_PLATE>タツヤ先輩（異形化）
+『あがっ！！　ひぎぃ！！？
+　あっ、あへぇ……♪』
+<PAUSE>
+<NAME_PLATE>
+　全身から鮮血をまき散らし、
+白目をむいて砂浜に倒れる肉塊。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc165a,IN, 500
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それを見下ろし、幻影の魔女は
+ふうっと長く息を吐いた。
+<PAUSE>
+<NAME_PLATE>
+　それから、すっと顔を上げて
+何もない空間に目を向けると。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>幻影の魔女
+「――お前達！！
+　近くにいるんでしょう！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m019a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m018a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+</GROUP>
+<NAME_PLATE>淫魔族たち
+「はっ！！！」
+「お見事でございました主さま」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　インキュバス
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ビーチの空間がぐにゃりと歪み、
+そこから淫魔族が姿を現した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「………意地悪ね」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「そこで見ていたのなら、
+　目を覚まさせてくれても
+　良かったのに」
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m019a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>淫魔族
+「主さまが、それを
+　お望みでないようでしたので」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>幻影の魔女
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　淫魔族の男が恭しく答える。
+<PAUSE>
+<NAME_PLATE>
+　彼らは、幻影の魔女の
+“全て忘れたい”という望みを察知し、
+あえて手を出さずに控えていたようだ。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「あなた達はそれでいいの？
+　もし私が、あのまま……
+　何もかも忘れていたとしても」
+<PAUSE>
+<NAME_PLATE>淫魔族
+「すべて主さまの
+　思うがままにさせよ――
+　それが“あの方”のご命令ゆえ」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「………そう」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「相変らず自信家ね。
+　つくづくイヤな男――」
+<PAUSE>
+<NAME_PLATE>
+　幻影の魔女が深く息を吐く。
+<PAUSE>
+<NAME_PLATE>
+　どれだけ彼女の心が泣き叫んでも、
+堕ちた体は“あの男”を裏切れない。
+<PAUSE>
+<NAME_PLATE>
+　そのことを、彼女を支配する
+男はよく知っているのだ。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「……まあいいわ。
+　あなた達は適当に後始末――
+　倒れてる連中の記憶を弄りなさい」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「それと、この地の魔界の門は？」
+<PAUSE>
+<NAME_PLATE>淫魔族
+「消滅しました。
+　あの少年の仲間が封印したようで」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「そう――。
+　だったらここに用はないわ。
+　後始末をしたら帰還する」
+<PAUSE>
+<NAME_PLATE>
+　魔女が淡々と言った。
+<PAUSE>
+<NAME_PLATE>
+　もともとこの地に出現した
+魔界の門は規模が小さく、
+固執するようなものでもない。
+<PAUSE>
+<NAME_PLATE>淫魔族
+「御意」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>
+　幻影の魔女の指示に従い、
+淫魔族が辺りに倒れている
+チンピラ達のところに向かう。
+<PAUSE>
+<NAME_PLATE>
+　そして。
+<PAUSE>
+<ACTOR>0,si_t003a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>幻影の魔女
+「………あなたたちの記憶も、
+　少しだけ、消させてもらうわね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0235a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t001g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>伊紀
+「い、いや、それは……？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「………」
+<PAUSE>
+<NAME_PLATE>
+　二人は腰が抜けたように
+砂浜に座り込んでいる。
+<PAUSE>
+<NAME_PLATE>
+　肉塊との戦闘を切り抜けて
+虚脱したこともあるが、
+<PAUSE>
+<NAME_PLATE>
+　それ以上に、魔女の妖しく輝く
+瞳に魅入られ動けない。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,si_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「伊紀ちゃんって言ったわね？
+　あなたにはひとつ忠告――」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「悪戯をするときは、
+　もう少し考えてやりなさい」
+<PAUSE>
+<NAME_PLATE>
+　とんっ。
+<PAUSE>
+<NAME_PLATE>伊紀
+「はぅ……」
+<PAUSE>
+//　※注　伊紀、意識を失ったので立ち絵消えます。
+<SE_PLAY>se010
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　幻影の魔女の指が、
+伊紀のおでこを軽くたたく。
+<PAUSE>
+<ACTOR>1,si_t003a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　すると、ぱたりと糸が切れたように
+伊紀は砂浜に倒れてしまう。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「それから――」
+<PAUSE>
+<ACTOR>1,si_t003a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,s_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「やっぱり……お姉さん、
+　“魔女”だったんだね……」
+<PAUSE>
+<NAME_PLATE>
+　少しも怖がる様子はなく、
+鹿之助が幻影の魔女を見ていた。
+<PAUSE>
+<NAME_PLATE>
+　その小さな体は、彼女を
+守ってついた名誉の負傷で一杯だ。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「……ぜんぶ忘れて、坊や」
+<PAUSE>
+<NAME_PLATE>
+　ありがとう、そしてごめんなさい、
+そんな言葉を彼女は押し隠して。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「今日のことは夢――
+　決して実現しない、幸せな夢」
+<PAUSE>
+<NAME_PLATE>
+　とんっ。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「んっ……」
+<PAUSE>
+//　※注　鹿之助、意識を失ったので立ち絵消えます。
+<SE_PLAY>se010
+<ACTOR_OUT>0,RIGHT,linear,1000
+<NAME_PLATE>
+　小さく呻いて目を閉じる。
+<PAUSE>
+<ACTOR>1,si_t003a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　これで少年の中から、
+彼女との記憶は消え去った。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「いずれ会いましょう坊や。
+　次は、たぶん敵同士として――」
+<PAUSE>
+<NAME_PLATE>
+　一人の無垢な女性から、対魔忍と
+敵対する淫魔族の大幹部へと戻って。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　幻影の魔女はビーチから姿を消した。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<NAME_PLATE>俺
+「おい！　大丈夫か鹿之助！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「う、うーん……あれ？
+　ふうま……？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<BGM_PLAY>bgm606,1000
+<BG>nc165a,IN, 1000
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺が声をかけると、鹿之助が
+むにゃむにゃ言いながら目を覚ます。
+<PAUSE>
+<NAME_PLATE>
+　ここは鹿之助がナンパ男たちから
+隠れていると言っていたビーチの外れ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは、岩場の洞窟にあった
+魔界の門の封印を済ませて
+戻ってきたところだった。
+<PAUSE>
+<NAME_PLATE>俺
+「というかお前、
+　ここで何があったんだ？」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「は？　なにか……？
+　ここで何かあったのか？」
+<PAUSE>
+<NAME_PLATE>
+　まだ寝ぼけてぼーっとしている様子の
+鹿之助が首をかしげる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「いや、そりゃそうだろう！？
+　何かお前はボロボロになって
+　砂浜に倒れてるし――」
+<PAUSE>
+<NAME_PLATE>俺
+「それに、あっちに変な奴もいるし」
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「変な奴？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が指さした方を鹿之助が見る。
+<PAUSE>
+<NAME_PLATE>
+　そこには。
+<PAUSE>
+<ACTOR>0,ts_m190b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タツヤ先輩（更生）
+「くぅ……。まるで俺は、
+　悪い夢を見ていたようだ……。
+　すまなかった皆！！！」
+<PAUSE>
+//　※立ち絵
+//　　タツヤ先輩（異形化）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>タツヤ先輩（更生）
+「もう強引なナンパなんてしない！
+　これからは心を入れ替えて
+　サーフショップの経営に精を出す！」
+<PAUSE>
+//　※注　真人間になったので名前欄の（異形化）が（更生）になっています。
+//　※注　立ち絵は異形化を使用する感じでお願いします。
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>チンピラたち
+「タツヤ先輩！！！！」
+「その言葉を待ってました！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　オーク兵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「……な？
+　絶対なんかあっただろ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　よくわからない何かとその仲間が、
+妙な感動の場面を繰り広げていた。
+<PAUSE>
+<ACTOR>0,chr_t0237a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「あれは……
+　魔界の瘴気に汚染された人間ね」
+<PAUSE>
+//　※立ち絵
+//　　【賢者のバカンス】シュヴァリエ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>シュヴァリエ
+「でも体内の汚染核は消滅しているようだし、
+　特に問題ないわ」
+<PAUSE>
+<NAME_PLATE>俺
+「も、問題ない……のか？
+　まあ確かに、当人たちも
+　平気そうではあるけれど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「で、鹿之助。
+　お前はどうしたんだ？」
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「いや、俺は……」
+<PAUSE>
+<NAME_PLATE>
+　もう一度俺が聞くと、
+鹿之助はやっぱり何もわからない
+というように首を振る。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「わからないけれど……
+　でも、何かあったんだ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「すごく楽しくて、
+　でもなんだか哀しくて……
+　そんな大切なこと」
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「――って、へへっ。
+　ごめんな、ふうま」
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そんなこと言われても、
+　わけわかんないよな」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう。そうだな……？」
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なんか鹿之助ちゃん、
+　今日は妙に陰のある表情ね。
+　激シブだわ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m111a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0237a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>シュヴァリエ
+「ふむ。坊やはひと夏の経験をして、
+　ひとつ大人になったようね」
+<PAUSE>
+<NAME_PLATE>ドラウグル・オーガスト
+「ひとつ大人？　今日は
+　鹿之助の誕生日だったのか？」
+<PAUSE>
+//　※立ち絵
+//　　ドラウグル・オーガスト
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　寂しげに微笑む鹿之助を見て、
+俺たちは顔を見合わせるのだった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、もう一人。
+<PAUSE>
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc165a,IN, 1000
+<ACTOR>0,chr_t0235a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　――私の名前は磯咲伊紀。
+たった今ビーチの外れで目を覚ましたわ。
+<PAUSE>
+//　※立ち絵
+//　　【ビーチの優等生】磯咲伊紀02（自然SR）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>伊紀
+「………」
+<PAUSE>
+<NAME_PLATE>
+　よく覚えていないのだが、
+ともあれ私の薬は大きな問題を
+起こさずに済んだようだ。
+<PAUSE>
+<NAME_PLATE>
+　安心した。
+<PAUSE>
+<NAME_PLATE>
+　次からはもっと
+注意深くことを進めよう。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら私は愛のためには
+手段を選ばぬ――
+<PAUSE>
+<NAME_PLATE>
+　いえ、人に迷惑にならないように
+ちょっとだけ手段を選ぶ女。
+<PAUSE>
+<NAME_PLATE>
+　私は諦めない。
+<PAUSE>
+<NAME_PLATE>
+　いつか彼の心を射止める
+その日まで――。
+<PAUSE>
+<NAME_PLATE>小太郎
+「あれ？　お前、磯咲伊紀か。
+　なんでこんなところにいるんだ？」
+<PAUSE>
+//　※注　伊紀視点なので上の名前欄は「俺」でなく「小太郎」です。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>伊紀
+「あっ、ふうまくん！？
+　い、いえバカンスよバカンス！
+　偶然ね、あはは――」
+<PAUSE>
+<NAME_PLATE>
+　こっちに気づいた彼に向けて
+私は精一杯の笑顔を見せた。
+<PAUSE>
+//→エピローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

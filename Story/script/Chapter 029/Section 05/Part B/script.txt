@@ -1,0 +1,640 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：アミダハラ＿廃墟街２＿昼】【時間：昼】
+//　※鋼鉄の魔女アンネローゼ_nc023aより流用
+//nc344a
+<BGM_PLAY>bgm313,1000
+<BG>nc344a,IN, 1000
+<NAME_PLATE>
+　天音と多脚戦車たちの戦いが開始された。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m213a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m213a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m214a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ＦＳＤクレイオス
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　FSDクレイオス
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ダダダダダダダダダダダ！！！！
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　無造作に敵集団に歩み寄る天音。
+<PAUSE>
+<NAME_PLATE>
+　それに向けて壮絶な勢いで多脚戦車と
+強化外骨格の攻撃が展開される。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m212b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒＆ローレライ
+「姉御っ！！？」
+「や、やべえっ、
+　こんな攻撃めちゃくちゃだっ！！」
+<PAUSE>
+//　※立ち絵
+//　　人外のお諒
+//　　　＊ＲＰＧカードイラストより流用
+//　※立ち絵
+//　　ローレライ
+//　　　＊カードイラストより流用（エフェクト有りの方）
+<NAME_PLATE>
+　ローレライたちが悲鳴を上げた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　降り注ぐ銃弾、小型ミサイルの
+奔流に周辺のビルや道路が穿たれ、
+また轟音を上げて崩れ落ちる。
+<PAUSE>
+<NAME_PLATE>
+　立ち昇る土煙、放たれた
+全ての攻撃が天音に直撃する。
+<PAUSE>
+<NAME_PLATE>
+　膨大な破壊のエネルギーだ。
+<PAUSE>
+<NAME_PLATE>
+　こんなものを生身で食らって
+生存する人間がいるはずがなく――
+<PAUSE>
+<BG>nc344a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m213a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m213a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m214a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ＦＳＤクレイオス
+「―――――」
+<PAUSE>
+//　※立ち絵
+//　　FSDクレイオス
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　リーダーらしき兵士が片手を上げた。
+<PAUSE>
+<NAME_PLATE>
+　多脚戦車たちが攻撃を止める。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しばしの沈黙。
+<PAUSE>
+<NAME_PLATE>
+　やがて、一面を覆った銃撃による
+土煙が晴れていく。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　――そこには。
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「どうした、それで終わりか？
+　……ならば私の番だな」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　邪眼“動転輪”を燃え上がらせた
+ふうま天音が静かに行動を起こす。
+<PAUSE>
+//【イベントＣＧ：REV001a　天音無双】【時間：昼】
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EV>stv021a,IN, 1000
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドッゴオオオオオオン！！！！
+<PAUSE>
+<NAME_PLATE>ＦＳＤクレイオス
+「――――！！？」
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>
+　戦車砲すら弾き返すとされる
+ＦＳＤクレイオスの分厚い外装が
+大きく内側に抉れていた。
+<PAUSE>
+<NAME_PLATE>
+　生身の女が放ったただ一撃によって。
+<PAUSE>
+<NAME_PLATE>
+　無様にバランスを崩す多脚戦車。
+<PAUSE>
+<NAME_PLATE>
+　動転輪“爆手”。
+<PAUSE>
+<NAME_PLATE>
+　少女時代の彼女が得意とした
+蓄積したエネルギーを拳に乗せて
+放つ技である。
+<PAUSE>
+<NAME_PLATE>Ｆｉｓｔ　ｏｆ　ｓｔｅｅｌ２
+「―――――！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ダダダダダダダダダダ！！！
+<PAUSE>
+<NAME_PLATE>
+　強化外骨格Ｆｉｓｔ　ｏｆ　ｓｔｅｅｌ２が
+着地した天音に向けて銃弾をばらまく。
+<PAUSE>
+<NAME_PLATE>
+　だがそこにもう彼女はいない。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EV>stv021a,IN, 1000
+<NAME_PLATE>
+　人の限界を超えた俊敏さで
+次々と鋼鉄の兵士を屠っていく。
+<PAUSE>
+<NAME_PLATE>ローレライ
+「うおおぉおっ！！！
+　す、すげえええぇっ！！？」
+<PAUSE>
+<NAME_PLATE>お諒
+「め、めちゃくちゃだ姐さんっ！！
+　強すぎるぅぅっ！！」
+<PAUSE>
+<NAME_PLATE>
+　手を振り回して熱狂する二人。
+<PAUSE>
+<NAME_PLATE>
+　ギャングとして闇の世界に身を置く
+彼女たちでも、こんな圧倒的なまでの
+強さは見たことがない。
+<PAUSE>
+<NAME_PLATE>
+　これが彼女たち二人が心酔する、
+対魔忍・ふうま天音――。
+<PAUSE>
+<NAME_PLATE>
+　そして。
+<PAUSE>
+<NAME_PLATE>天音
+「では、これで終わりだ」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　キィイイイイイイイイイイ！！！！
+<PAUSE>
+<NAME_PLATE>
+　動転輪が蓄積したエネルギーが
+サイボーグ化した左腕に集中する。
+<PAUSE>
+<NAME_PLATE>
+　少女時代の彼女ができなかった
+邪眼の完全制御。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　それを体得した今だから放てる、
+強力無比のエネルギービームであった。
+<PAUSE>
+//【黒画面】
+//【背景：アミダハラ＿廃墟街２＿昼】【時間：昼】
+//　※鋼鉄の魔女アンネローゼ_nc023aより流用
+//nc344a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc344a,IN, 1000
+<ACTOR>0,ts_m214a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ＦＳＤクレイオス
+「――――……」
+<PAUSE>
+//　※立ち絵
+//　　FSDクレイオス
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズズ……ズズズズズ……
+<PAUSE>
+<NAME_PLATE>
+　土手っ腹に大穴の空いた
+ＦＳＤクレイオスが地響きを立てて
+崩れ落ちていく。
+<PAUSE>
+<NAME_PLATE>
+　完勝であった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　ほとんど無傷のまま天音は
+多脚戦車と強化外骨格の集団を殲滅した。
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「ふぅ……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ほっと息をつくと、後ろで控えていた
+お諒たちが興奮の顔で駆けてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m212c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒
+「姐さ～～～んっ！！
+　ヤバイ！　感動したっす！」
+<PAUSE>
+//　※立ち絵
+//　　人外のお諒
+//　　　＊決戦アリーナカードイラストより流用
+//　※立ち絵
+//　　ローレライ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ローレライ
+「アタシらのミスを
+　フォローした上にあの鬼強さ！
+　も～最高！　抱いて欲しいっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「くく、何を言っている。
+　別にそんな大したことじゃない」
+<PAUSE>
+<NAME_PLATE>天音
+「それより、早速で悪いが
+　二人の力を借りたいことがある」
+<PAUSE>
+<NAME_PLATE>お諒＆ローレライ
+「えっ？」
+「アタシらに？」
+<PAUSE>
+<NAME_PLATE>
+　首を傾げる二人に天音が説明する。
+<PAUSE>
+<NAME_PLATE>天音
+「兵士のうちの何人かを生かしてある。
+　その尋問を手伝って欲しい」
+<PAUSE>
+<NAME_PLATE>天音
+「今の襲撃の裏に何があるのか、
+　それを確かめたい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　実際のところ、
+ある程度の目星はついている。
+<PAUSE>
+<NAME_PLATE>
+　だが、そこから先に進むには
+確かな情報が必要だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m212c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒
+「お安い御用だ！
+　了解しましたよ姐さん！」
+<PAUSE>
+<NAME_PLATE>ローレライ
+「じゃあ、その辺で唸ってる機械野郎を
+　捕虜にしてうちのアジトまで――」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、三人が倒れている兵士に
+近づいた時だった。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッ！！！
+<PAUSE>
+//　※鮮血、斬撃効果など
+<NAME_PLATE>天音
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>お諒＆ローレライ
+「あがっ！！？」
+「な、なんだこりゃ……っ」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　突然、刃が三人の体を深々と
+刺し貫いていた。
+<PAUSE>
+<NAME_PLATE>
+　激痛で視界が歪む。
+<PAUSE>
+<SE_PLAY>se023
+<BG>nc344a,IN, 500
+<NAME_PLATE>
+　ドサっドサっとお諒と
+ローレライが地面に崩れる音。
+<PAUSE>
+<NAME_PLATE>
+　刃の出どころは、三人の目の前に
+倒れ伏していた強化外骨格の兵士。
+<PAUSE>
+<NAME_PLATE>
+　その金属の外殻が“変形”し、
+鋭利な刃となって天音とお諒たちを
+刺し貫いていた。
+<PAUSE>
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「うふふふ、お久しぶりね天音。
+　でも、その傷じゃあ
+　もう“さようなら”かしら♪」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵＿邪眼露出差分。
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>天音
+「なっ、き、貴様……？」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかそこに少女がいた。
+<PAUSE>
+<NAME_PLATE>
+　令嬢風の美しい少女。
+見たこともない顔だ――しかし。
+<PAUSE>
+<NAME_PLATE>
+　その片側の目に輝く邪眼と、
+いま彼女が使った能力は――。
+<PAUSE>
+<NAME_PLATE>少女
+「なぁんて、
+　再会を祝うヒマはないわね」
+<PAUSE>
+<NAME_PLATE>少女
+「あなたの怖い怖い邪眼が
+　復活してしまうもの♪」
+<PAUSE>
+<NAME_PLATE>少女
+「ほんと、一瞬のエネルギー切れの
+　ためにあんな戦車まで用意したのよ？
+　ありがたく思いなさい♪」
+<PAUSE>
+<NAME_PLATE>
+　少女の邪眼が輝く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　天音の動転輪はエネルギーを
+放出した際、一瞬だけ無防備になる。
+<PAUSE>
+<NAME_PLATE>
+　少女はそれを知って奇襲を仕掛け、
+そして、そのままトドメを刺すべく――
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m212b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒＆ローレライ
+「おっりゃあああああっ！！」
+「このガキ姉御になにしやがるっ！」
+<PAUSE>
+//　※立ち絵
+//　　人外のお諒
+//　　　＊RPGカードイラストより流用（人外変化）
+//　※立ち絵
+//　　ローレライ
+//　　　＊カードイラストより流用（エフェクト有りの方）
+<NAME_PLATE>少女
+「っ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガッキインン！！！！
+<PAUSE>
+<NAME_PLATE>
+　少女のナイフがきらめき、
+二人の攻撃を弾くと同時に
+後方に飛び退った。
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc344a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m212d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ローレライ
+「――大丈夫ですか姉御！！？
+　アタシらの後ろに！」
+<PAUSE>
+<NAME_PLATE>お諒
+「クソ！！　あたしに
+　この顔を出させやがって――
+　生かしちゃおかねえぞ！？」
+<PAUSE>
+<NAME_PLATE>
+　ローレライとお諒が負傷した
+天音を庇い、邪眼の少女に向けて
+武器を構えていた。
+<PAUSE>
+<NAME_PLATE>
+　スライミスの種族であるローレライは
+刺し傷などの物理ダメージにめっぽう強い。
+<PAUSE>
+<NAME_PLATE>
+　一方のお諒も体を深く貫かれたが、
+再生力の強い“異形”に変化して
+強引に復活を果たしていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「二人とも……すまない、
+　もう大丈夫だ……」
+<PAUSE>
+<NAME_PLATE>
+　深く腹部を貫かれた天音も、
+動転輪の守りを復活させる。
+<PAUSE>
+<NAME_PLATE>
+　これで敵にいいようにされる
+恐れはなくなった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「あらあら？
+　雑魚かと思ったら面白い手下を
+　飼っているのね♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ケタケタと嗤った少女の身体が
+徐々に消失していく。
+<PAUSE>
+<NAME_PLATE>
+　光学迷彩だ。
+<PAUSE>
+<NAME_PLATE>
+　撤退のついでとばかりに、
+尋問のために生かしておいた
+兵士の首が次々に飛ぶ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m212d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒
+「くそっ！！？
+　何なんだあのクソガキ！！？」
+<PAUSE>
+<NAME_PLATE>ローレライ
+「舐めやがって！　追うぞ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「いや、待て二人とも……！」
+<PAUSE>
+<NAME_PLATE>天音
+「深追いするな。奴は手ごわい、
+　私の方もこの有様だ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m212d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒＆ローレライ
+「姉御――」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　がっくりと天音が膝をつく。
+<PAUSE>
+<NAME_PLATE>
+　負傷は思いのほか深く、命に別状は
+ないが長い戦闘には耐えられない。
+<PAUSE>
+<NAME_PLATE>
+　邪眼の少女があっさり退いたのも、
+天音の追撃を誘って長期戦へ持ち込む
+算段であろう。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>お諒＆ローレライ
+「だ、大丈夫ですか姉御っ！？」
+<PAUSE>
+「すぐに手当てを！！」
+<PAUSE>
+<NAME_PLATE>
+　慌てて駆け寄ってくる二人に
+天音は微かに笑ってうなずく。
+<PAUSE>
+<NAME_PLATE>天音
+「……問題ない。
+　今、こんな傷ごときで
+　死んでられるかよ……っ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう――。
+<PAUSE>
+<NAME_PLATE>
+　今まさに、重大な手がかりを
+得たところなのだ。
+<PAUSE>
+<NAME_PLATE>
+　十年の時を経て姿を見せた井河扇舟。
+<PAUSE>
+<NAME_PLATE>
+　それに協力している何らかの組織、
+そして邪眼“天津麻羅”を使う少女。
+<PAUSE>
+<NAME_PLATE>天音
+（お館様。私たちの敵が、
+　少しずつ見えてまいりました……）
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

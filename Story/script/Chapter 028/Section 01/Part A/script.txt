@@ -1,0 +1,685 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町＿ふうま邸前＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC025aより流用
+<BG>nc056a,IN, 1000
+<NAME_PLATE>
+　ある日のことだ。
+<PAUSE>
+<NAME_PLATE>
+　俺はお庭番のライブラリーを呼んで、
+娘さんについて話をしていた。
+<PAUSE>
+//【背景：五車町＿ふうま邸リビング＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC026aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc081a,IN, 1000
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「なお先輩によると、
+　鶴さんは快方に向かっているそうだ」
+<PAUSE>
+<NAME_PLATE>俺
+「長い間、あんな状態で監禁されていたとは
+　思えないくらいの精神力の強さで」
+<PAUSE>
+<NAME_PLATE>俺
+「今ではそれをネタに
+　冗談を言い合ってるらしい。
+　すごい娘さんだな」
+<PAUSE>
+<NAME_PLATE>俺
+「手足のサイボーグ手術は２週間後だ。
+　機械ではあるけど手足は取り戻せる」
+<PAUSE>
+<NAME_PLATE>俺
+「あんな目にあい続けていたんだ。
+　単純に良かったなんてとても言えないが
+　それでも助かって良かったと思うよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　死んだと思われていた
+ライブラリーの娘さん、出雲鶴は、
+<PAUSE>
+<NAME_PLATE>
+　連続殺人鬼、斉藤半次郎の家の地下で
+生かされ続けていた。
+<PAUSE>
+<NAME_PLATE>
+　それも四肢を切断され、
+残った身体にもピアスと刺青で飾り立てられた
+残酷極まりない形でだ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは斉藤半次郎は倒したものの、
+その内側に潜んでいた双子の弟、
+斉藤半三を取り逃がしてしまった。
+<PAUSE>
+<BG>nc081a,IN, 500
+<NAME_PLATE>
+　だが、鶴さんを助け出すことだけはでき、
+今は手厚い看護を受けている。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「我が不肖の娘のことで
+　お館様のお心を煩わせて申し訳ありませぬ」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「そんなことはいい。
+　会いに行かないのか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は躊躇いつつも聞いた。
+<PAUSE>
+<NAME_PLATE>
+　ライブラリー、いやかつての佐郷文庫は
+死んだと思った娘の墓参りをするためだけに
+米連を抜けて五車に走ったのだ。
+<PAUSE>
+<NAME_PLATE>
+　その後、周囲を誤魔化すために死を偽装し、
+この新しいサイボーグの身体を得て、
+俺に仕えてくれるようになった。
+<PAUSE>
+<NAME_PLATE>
+　だが鶴さんが生きていると分かった今でも
+会いに行こうとはしない。
+<PAUSE>
+<NAME_PLATE>
+　なお先輩やコロ先輩にも
+父親のことはまだ話さないように頼んでいる。
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーはしばしの無言ののち、
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「あの子にとって父親は死んでいます、
+　私に捨てられたものと憎んでいるでしょう」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「そして私も過去を捨てた者。
+　今は対魔忍ライブラリーです。
+　どうか私の存在はご内密に」
+<PAUSE>
+<NAME_PLATE>俺
+「……そうか」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーの機械の顔では
+生身の人間のように表情は読み取れないが、
+<PAUSE>
+<NAME_PLATE>
+　そこに様々な感情が
+浮かんでは消えるのを感じた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　だからこそ、
+それ以上何も言えなくなる。
+<PAUSE>
+<SE_PLAY>se143
+<NAME_PLATE>
+　ピンポーン♪
+<PAUSE>
+<NAME_PLATE>
+　その時、呼び鈴が鳴った。
+<PAUSE>
+<NAME_PLATE>俺
+「……誰か来たみたいだな」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「失礼します」
+<PAUSE>
+//　※ライブラリー立ち絵オフ
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ライブラリーが見に行く。
+<PAUSE>
+<NAME_PLATE>
+　誰だか知らないが、
+ぎこちなくなった雰囲気を
+破ってくれたことにホッとしていると、
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「ふうま」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　やってきたのは
+ゆきかぜの家で世話になっている
+クリアだった。
+<PAUSE>
+<NAME_PLATE>俺
+「珍しいな、一人か？」
+<PAUSE>
+<NAME_PLATE>
+　いつも一緒にいるヤタガラスの子供、
+通称カラスがいない。
+<PAUSE>
+<NAME_PLATE>クリア
+「ふうま、うちにきて」
+<PAUSE>
+<NAME_PLATE>
+　クリアは質問には答えずに、
+俺の手を取った。
+<PAUSE>
+<NAME_PLATE>俺
+「うちってゆきかぜの家か？」
+<PAUSE>
+<NAME_PLATE>クリア
+「そう、はやくきて」
+<PAUSE>
+<NAME_PLATE>俺
+「行くのはいいけど、
+　なにか急ぐ用事でもあるのか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「むこうで言う」
+<PAUSE>
+<NAME_PLATE>
+　クリアは俺の手を
+グイグイと引っ張る。
+<PAUSE>
+<NAME_PLATE>
+　理由は分からないが
+相当に急いでいるようだ。
+<PAUSE>
+<NAME_PLATE>
+　こんな風にいきなり来て
+頼み事をするのも珍しい。
+<PAUSE>
+<NAME_PLATE>俺
+「分かった分かった。
+　なんだか分からないが行くよ」
+<PAUSE>
+<NAME_PLATE>クリア
+「じゃあ服、きがえて」
+<PAUSE>
+<NAME_PLATE>俺
+「服？」
+<PAUSE>
+<NAME_PLATE>クリア
+「対魔忍スーツ」
+<PAUSE>
+<NAME_PLATE>俺
+「その理由も向こうについてからか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん、おねがい」
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「お館様、どうぞこちらを」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーが
+さっそくスーツを持ってきた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その様子はもういつもと変わりなかった。
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿町並み＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「ゆきかぜたちは家か？」
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「……ゆきかぜは家。
+　カラスちゃんは外」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それで一体、何の用なのだろうと
+思いながら稲毛屋のあたりまで来ると、
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m079a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0112a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　家にいると言ったばかりのゆきかぜが
+カラスと一緒に店先にいた。
+<PAUSE>
+<NAME_PLATE>
+　二人してアイスボックスを
+楽しそうに覗き込んでいる。
+<PAUSE>
+<NAME_PLATE>水城ゆきかぜ
+「カラス、どれにする？
+　好きなの買ってあげる♪」
+<PAUSE>
+//　※立ち絵
+//　　【雷撃の新学期】水城ゆきかぜ立ち絵
+//　　　　　＊カードイラスト絵より流用
+<NAME_PLATE>カラス
+「………！　………！」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供立ち絵
+//　　　＊決戦アリーナより流用
+<NAME_PLATE>ゆきかぜ
+「ソーダとコーラを両方？
+　ダメ、お腹壊しちゃうでしょ。
+　一つにしなさい」
+<PAUSE>
+<NAME_PLATE>
+　そんな声が聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜがカラスに
+アイスを奢ろうとしているようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ。
+　二人ともあそこにいるじゃないか」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　『おーい』と声をかけようとした瞬間、
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「だめ」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おわっ！？」
+<PAUSE>
+<NAME_PLATE>
+　クリアが俺の腕を掴み、
+すごい勢いで脇道に引っ張り込んだ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>俺
+「ど、どうした？」
+<PAUSE>
+<NAME_PLATE>クリア
+「しーー」
+<PAUSE>
+<NAME_PLATE>
+　喋らないでと唇に指を当てる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　わけが分からないが
+言われたとおり黙っていると、
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m079a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0112a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「クリア、どこにいったのかな。
+　カラス、ほんとに知らないの？」
+<PAUSE>
+<NAME_PLATE>カラス
+「……？　……？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「クリアにもアイス奢ってあげないと
+　後で機嫌悪くなるよね。
+　あの子、結構食いしん坊だし」
+<PAUSE>
+<NAME_PLATE>クリア
+「そんなことない」
+<PAUSE>
+<NAME_PLATE>
+　俺と隠れているクリアが
+ボソッと文句を言う。
+<PAUSE>
+<NAME_PLATE>
+　そんなことはつゆ知らず、
+ゆきかぜがスマホを出している。
+<PAUSE>
+<NAME_PLATE>
+　クリアに電話をかけるのかなと
+思っていたら―――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ブブブブ、ブブブブ
+<PAUSE>
+<NAME_PLATE>
+　クリアの頭の装置が
+いきなり振動し始めた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「それスマホなのかよ！？」
+<PAUSE>
+<NAME_PLATE>クリア
+「マナーモード。はやくいこう」
+<PAUSE>
+<NAME_PLATE>俺
+「どういうことだ！？」
+<PAUSE>
+<NAME_PLATE>クリア
+「くればわかる」
+<PAUSE>
+<NAME_PLATE>
+　だそうだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m079a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0112a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「クリア出ないね。
+　じゃあソーダ味にしとこうか？」
+<PAUSE>
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だよね。あの子好きだし。
+　おばーちゃーん、
+　これアイス一個持ち帰りねー」
+<PAUSE>
+<NAME_PLATE>
+　そんな声を聞きながら、
+俺は二人に気づかれないように
+その場を移動した。
+<PAUSE>
+//【黒画面】
+//【背景：五車町-水城家外観＿昼】【時間：夜】
+//　※対魔忍アサギZERO＿NC049aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc146a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、水城家の大屋敷まで来たわけだが、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「ふうま、なにしてるの？」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺の足がピタリと止まったのを見て、
+クリアが不思議そうに振り返った。
+<PAUSE>
+<NAME_PLATE>俺
+「ゆきかぜがいないのに
+　俺が入って大丈夫なのか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「なにが？」
+<PAUSE>
+<NAME_PLATE>俺
+「例の執事の爺さんがいるだろう？」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん、いる」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　冥遁の術使いの爺さんだ。
+<PAUSE>
+<NAME_PLATE>
+　とっくの昔に死んでいるのに
+今でも地縛霊のようになって
+執事として水城家を守り続けている。
+<PAUSE>
+<NAME_PLATE>
+　その忠誠心は見上げたものだが
+困ったことに半分呆けていて、
+<PAUSE>
+<NAME_PLATE>
+　いつかも俺のことを賊だと勘違いして
+いきなり襲いかかって来た。
+<PAUSE>
+<NAME_PLATE>
+　あの爺さんを止められるのは、
+主であるゆきかぜだけなのだが。
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「わたしがいる。だいじょうぶ」
+<PAUSE>
+<NAME_PLATE>俺
+「だといいんだけどな」
+<PAUSE>
+<NAME_PLATE>
+　しょうがない。
+クリアを信じて中に入ろう。
+<PAUSE>
+//【背景：五車町-水城家＿エントランス＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC050aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc147b,IN, 1000
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>クリア
+「ただいま」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0088a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m093a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>冥界の執事
+『お帰りなさいませ、クリアお嬢様』
+<PAUSE>
+//　※立ち絵
+//　　冥界の執事立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　エントランスの床から
+黒タキシードのドクロ男が現れた。
+<PAUSE>
+<NAME_PLATE>
+　相変わらず悪霊じみた姿をしているが、
+クリアに対しては恭しく礼をしている。
+<PAUSE>
+<NAME_PLATE>
+　これは期待できるかなと思いつつ、
+俺はその後をコソコソついて行く。
+<PAUSE>
+<NAME_PLATE>俺
+「お、おじゃましまーす」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,ts_m093a,LEFT, CENTER, NONE, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>冥界の執事
+『クリアお嬢様！
+　背後に曲者が！！』
+<PAUSE>
+<NAME_PLATE>
+　あ、やっぱりダメだった。
+<PAUSE>
+<NAME_PLATE>
+　いきなり血相を変えて、
+俺を曲者呼ばわりしている。
+<PAUSE>
+<NAME_PLATE>
+　なんとなくこんな気がしていたので、
+警戒しつつ、気さくに話しかけてみる。
+<PAUSE>
+<NAME_PLATE>俺
+「よう、執事の爺さん久しぶり。
+　俺のこと覚えてるか？
+　覚えてくれてると嬉しいんだけどな」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『黙れ小僧！！
+　貴様などに爺さん呼ばわりされる
+　覚えはないわ！』
+<PAUSE>
+<NAME_PLATE>俺
+「あー、やっぱりね」
+<PAUSE>
+<ACTOR>1,ts_m093a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0088a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クリア
+「じい、これはふうま。
+　わたしがつれてきた」
+<PAUSE>
+<NAME_PLATE>
+　クリアがそう説明してくれたが、
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『なんと、ふうまと仰りましたか！』
+<PAUSE>
+<NAME_PLATE>クリア
+「そう」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『逆賊のふうまが何の用だ！？
+　さては水城家の財産に目をつけたな！？
+　この冥界の執事が成敗してくれるわ！！』
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ダメだこりゃ。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<SE_PLAY>se057
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴゴゴゴゴゴゴ――！！！
+<PAUSE>
+<NAME_PLATE>
+　屋敷全体が嫌な唸りを上げている。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m094a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m094a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m094a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ポルターガイスト
+『アァァァァァァァァ――ッ！』
+『アァァァァァァァァ――ッ！』
+『アァァァァァァァァ――ッ！』
+<PAUSE>
+//　※立ち絵
+//　　ポルターガイスト立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストを流用
+//　※何体か出してください。
+<NAME_PLATE>
+　騒がしい悪霊がそこら中から現れ、
+家具や調度品を次々と持ち上げていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m092a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m092a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m092a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>スケアクロウ
+『ヒ～ヒヒヒヒヒッ！！！』
+『ヒ～ヒヒヒヒヒッ！！！』
+『ヒ～ヒヒヒヒヒッ！！！』
+<PAUSE>
+//　※立ち絵
+//　　スケアクロウ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより
+//　※何体か出してください。
+<NAME_PLATE>
+　外からは鎌と鍬を持った
+物騒なカカシの悪霊が続々と入ってくる。
+<PAUSE>
+<NAME_PLATE>
+　物忘れの酷い爺さんの冥遁の術だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「またこのパターンか」
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「ごめん」
+<PAUSE>
+<NAME_PLATE>俺
+「クリアのせいじゃない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m093a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>冥界の執事
+『カンラカラカラ――！
+　覚悟するがよい！！
+　ふうまの小僧めが！！」
+<PAUSE>
+<NAME_PLATE>
+　爺さんはノリノリで俺に襲いかかってきた。
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

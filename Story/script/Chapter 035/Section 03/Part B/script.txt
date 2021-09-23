@@ -1,0 +1,271 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：とある山村＿山道２＿昼】【時間：昼】
+//　※魔法少女ナナホ_nc012aより流用
+//nc408a
+<BGM_PLAY>bgm313,1000
+<BG>nc408a,IN, 1000
+<NAME_PLATE>
+　二人に気づいた怪物たちが、
+咆哮を上げて一斉に襲いかかる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m261a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m261a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「ＧＵＵＵＵＵＵ！！」
+「ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡＡッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　食屍鬼グール
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「ふむ。何者かは知らんが、
+　話の通じる連中ではなさそうだな。
+　――雷遁・迅雷っ！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐02＿エフェクト
+//　　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,chr_t0331b,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se030_01
+<NAME_PLATE>
+　“電輝”の異名の通りに
+電気を纏った燐の体が光り輝く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチバチバチバチバチ！！！
+<PAUSE>
+<NAME_PLATE>？？？
+「ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　燐の腕から放たれた雷撃が
+次々と怪物たちの体を貫き、
+燃え上がらせる。
+<PAUSE>
+<BG>nc408a,IN, 500
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うわぁっ！？　や、やっぱり
+　姉ちゃんはすげえっ！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣裳
+<ACTOR>0,s_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「って、
+　俺もビビってられないぜ……！
+　いくぞ、“スパーク”！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣裳（電気）
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,s_t002f,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　びりびりびりびりびり！！
+<PAUSE>
+<NAME_PLATE>？？？
+「ＧＡＡＡＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+<NAME_PLATE>
+　特注バッテリーで増幅された
+鹿之助の電遁が怪物たちを撃つ。
+<PAUSE>
+<NAME_PLATE>
+　威力こそ小さいが、
+敵の足止め程度は十分に可能。
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0331b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>燐
+「よし！　いいぞ鹿之助！！
+　奴らの数は多くない、
+　押し切るぞ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、おうっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリバリバリバリバリバリッ！！
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の電遁と燐の雷遁。
+<PAUSE>
+<NAME_PLATE>
+　二人の息の合った雷撃が
+奇怪な怪物たちを打ち倒した。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc408a,IN, 500
+<ACTOR>0,s_t001e,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>鹿之助
+「ね、ねーちゃん……。
+　一体何だったんだこれ……？」
+<PAUSE>
+<NAME_PLATE>
+　そして戦闘後。
+<PAUSE>
+<NAME_PLATE>
+　呆然として呟く鹿之助に
+燐が小さく首を振る。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,s_t001e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>燐
+「いや、まだわからないが……。
+　十中八九、今回の任務に
+　関わることだろう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　燐は地面に膝をついて、
+動かなくなった怪物たちの体を
+調べていた。
+<PAUSE>
+<NAME_PLATE>
+　もともとは人間……
+なのだろうか？
+<PAUSE>
+<NAME_PLATE>
+　しかし瘴気によって体の内側が
+変容し、手の施しようがないほど
+妖魔化してしまっている。
+<PAUSE>
+<ACTOR>0,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「ふむ……？」
+<PAUSE>
+<NAME_PLATE>燐
+（今回の任務……どうも
+　一筋縄ではいかないようだ）
+<PAUSE>
+<NAME_PLATE>
+　燐が鋭く目を細める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今回は簡単な調査だと考え、
+鹿之助だけを連れてやってきた。
+<PAUSE>
+<NAME_PLATE>
+　だが、こんな怪物が跋扈している
+となれば、その見込みも甘かったと
+考えるしか――。
+<PAUSE>
+<SE_PLAY>se076
+<NAME_PLATE>
+　がさがさ……っ！
+<PAUSE>
+<ACTOR>0,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「何奴っ！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se139
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ヒュ！！
+<PAUSE>
+<BG>nc408a,IN, 500
+<NAME_PLATE>？？？
+「ひぃいいっ！！？
+　い、いえ、違います……！
+　私は、あやしい者では……っ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ね、姉ちゃん……！？」
+<PAUSE>
+<NAME_PLATE>燐
+「………」
+<PAUSE>
+<NAME_PLATE>
+　茂みの後ろに何者かの気配を感じた燐が、
+抜き打ちでクナイを放ったのだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　次の瞬間そこから怯えたような
+声が上がり、続いてよろよろと
+憔悴しきった様子の老人が姿を見せる。
+<PAUSE>
+<ACTOR>0,ro_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>老人
+「わ、私は、この先の村の者で……」
+<PAUSE>
+//　※立ち絵
+//　　老人（杖を普通の杖に加工してください）
+//　　　＊陰陽騎士より謎の爺立ち絵より流用
+<NAME_PLATE>老人
+「“奴ら”に見つかったところを、
+　どうにか逃れようと、
+　か、隠れておりまして……」
+<PAUSE>
+<ACTOR>0,ro_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>燐
+「ほう？　ちょうど良い。
+　あなたは、馬上村の住民か」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　馬上（まがみ）村。
+<PAUSE>
+<NAME_PLATE>
+　それは二人の任務の目的地。
+<PAUSE>
+<NAME_PLATE>
+　謎の“神隠し”の連続発生が
+報告されていた村である。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

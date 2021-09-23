@@ -1,0 +1,186 @@
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京地下坑道跡＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC032aより
+<BG>nc120a,IN, 1000
+<BGM_PLAY>bgm206,1000
+<NAME_PLATE>
+　辛くも包囲を抜けた俺たちは、放水路に
+開けられた横穴から、東京地下に広がる
+隠し坑道跡に足を踏み入れた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そこには――。
+<PAUSE>
+<ACTOR>0,ts_m072a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ＧＲＵ……ＧＲＵＵ……」
+<PAUSE>
+//　※立ち絵
+//　　デビルワーム立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>俺たち
+「……………………」
+「……………………」
+「……………………」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>3,u_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「……な？　アタシがこっちもヤバイって
+　言ったわけ、わかっただろ？」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（タバコ手持ち）
+<NAME_PLATE>俺
+「た、確かに……
+　これはヤバイですね……」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「すっごくグロい……。
+　蛇子……タコなのに、かなり鳥肌……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「俺……ちょっとチビったぞ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　目の前を這い進む怪物の気持ち悪さに、
+俺たち三人は真っ青になっていた。
+<PAUSE>
+<NAME_PLATE>俺
+（これが……デビルワームか……！！）
+<PAUSE>
+<ACTOR>0,ts_m072a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺たちが隠れている横穴――。
+<PAUSE>
+<NAME_PLATE>
+　そのすぐ前をズルズルと這い進むのは、
+デビルワームと呼ばれるワーム型の
+魔獣である。
+<PAUSE>
+<NAME_PLATE>
+　凶暴さと底なしの貪欲さで知られ、
+まともに戦えば対魔忍とて
+苦戦は避けられないと言われている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>3,u_t003h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「こいつの元々の生息地は魔界なんだけどな。
+　この辺はヨミハラが近いから
+　……まあ、その影響だろう」
+<PAUSE>
+<NAME_PLATE>佐那
+「いつの間にかこっち側にも
+　出るようになって、
+　この坑道に巣を作りやがった」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なるほど……」
+<PAUSE>
+<ACTOR>3,u_t003g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「本当に迷惑な話だよ。坑道の調査も
+　中止になるし、今は封鎖されて
+　通路としても使えなくなっちまった……」
+<PAUSE>
+<NAME_PLATE>
+　坑道跡に巣くったデビルワーム。
+<PAUSE>
+<NAME_PLATE>
+　その存在を知っていたから、佐那さんは
+このルートを使うのを渋ったというわけだ。
+<PAUSE>
+<ACTOR>3,u_t003g,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「佐那さん、あの大きいミミズって、
+　この抜け穴に沢山いるんですか？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>3,u_t003d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>佐那
+「うーん、そうだねぇ……？
+　難民の奴らから聞いた話だと、
+　１００や２００じゃきかないって」
+<PAUSE>
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そ、そんなに……！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,s_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「いい、いやいやっ！？
+　あれはマズいだろうふうまっ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あんなキモくてデカくて恐いのと
+　戦うくらいなら、俺はさっきの
+　難民や米連のおっさん達と戦うぞっ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「落ち着けって鹿之助。
+　まあ、気持ちはわかるけど……」
+<PAUSE>
+<NAME_PLATE>
+　デビルワームの直径は
+１メートルを優に超える。
+<PAUSE>
+<NAME_PLATE>
+　ほぼ坑道を満たすほどの巨体を持ち、
+鹿之助がビビりまくるのもよくわかるグロさと
+奇っ怪さである。
+<PAUSE>
+<NAME_PLATE>俺
+「ただ、沢山いるって言ったって、
+　この坑道全体の話だろうからな。
+　全部を相手するわけじゃない」
+<PAUSE>
+<ACTOR>2,s_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そ、そうかもだけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「それに、いくら図体がデカかろうが
+　しょせんミミズだ。習性さえ利用すれば
+　恐い相手じゃないさ」
+<PAUSE>
+<ACTOR>2,s_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「習性……？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。俺に任せておけって――」
+<PAUSE>
+<NAME_PLATE>
+　ズルズルと坑道を這う巨大ミミズを横目に、
+俺はニヤリと笑った。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→S402a
+

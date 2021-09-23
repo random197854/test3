@@ -1,0 +1,112 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+<BGM_PLAY>bgm313,1000
+<BG>chrnc0143a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m105a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m105a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m105a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ガードロボット
+「シンニュウシャ、ハイジョ」
+「シンニュウシャ、ハイジョ」
+「シンニュウシャ、ハイジョ」
+<PAUSE>
+//　※立ち絵
+//　　BR-2兼光立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用。
+//　※何体か出してください
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「うっさい！！」
+<PAUSE>
+<NAME_PLATE>
+　相手はガードロボット。
+つまり手加減は無用！
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>きらら
+「凍豹拳っっ！！
+　でやああああああああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<NAME_PLATE>
+　きららは群がるガードロボットに
+氷のクローを次々と叩きつけていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビキインッッッ！！
+バギィインンッッ！！
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ロボットの身体が瞬時に凍り付き、
+動作を停止してバラバラに砕けていく。
+<PAUSE>
+<BG>chrnc0143a,IN, 500
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　この程度のガードロボットなど
+彼女にとっては全く問題のない相手だが、
+この戦い自体がふうまのミスだ。
+<PAUSE>
+<NAME_PLATE>
+　その苛立ちもあって
+きららは敵をあっという間に全滅させていた。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「ふうま、なにやってんの！」
+<PAUSE>
+<NAME_PLATE>ふうま
+『すいません。でもすごいですね。
+　それだけの数をまとめて氷漬けとは。
+　さすが、きらら先輩』
+<PAUSE>
+<NAME_PLATE>きらら
+「なにがさすがよ！
+　あんた人を馬鹿にしてんの！」
+<PAUSE>
+<NAME_PLATE>ふうま
+『いえいえ、そんなつもりは』
+<PAUSE>
+<NAME_PLATE>ふうま
+『オーナーは用心深いから
+　こっちのセキュリティシステムとは別に
+　護衛を配置していたみたいですね』
+<PAUSE>
+<NAME_PLATE>ふうま
+『その先がオーナー室です。
+　この調子でいくと、そこにも護衛がいると
+　思います。注意してください』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「分かってるわよ、バカ！」
+<PAUSE>
+<NAME_PLATE>
+　ヘラヘラしているふうまに苛つきながら、
+きららは先を進んだ。
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

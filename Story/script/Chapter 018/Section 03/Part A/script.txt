@@ -1,0 +1,251 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：アミダハラ監獄＿朝】【時間：朝】
+//　※免罪の皇女アリア＿nc007aより流用
+<BG>nc212a,IN, 1000
+<NAME_PLATE>
+　ドＳ看守長カウーラの調査を受け、
+封印のピアスをされてしまった俺。
+<PAUSE>
+<NAME_PLATE>
+　ジンジンする痛みも治まらぬまま、
+これから暮らすことになる監房へ
+連れてこられた。
+<PAUSE>
+//【背景：アミダハラ監獄＿監房＿昼夜共通】【時間：朝】
+//　※対魔忍紅_NC014aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc214a,IN, 1000
+<ACTOR>0,ts_m132a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>獄卒
+「入れ！」
+<PAUSE>
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　トロールの獄卒が俺の背中をグイと押した。
+<PAUSE>
+<NAME_PLATE>
+　重苦しい鉄格子が開いている。
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄にはＡからＫまで監房があり
+俺が案内されたのはＨ監房だった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,kr_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら（俺）
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　ここで逆らってもしょうがない。
+<PAUSE>
+<NAME_PLATE>
+　俺は鉄格子をくぐって、
+監房に足を踏み入れた。
+<PAUSE>
+<NAME_PLATE>
+　当然、中には先客の女囚たちがいる。
+<PAUSE>
+<NAME_PLATE>獄卒
+「新入りだ。よく面倒をみてやれ」
+<PAUSE>
+<NAME_PLATE>
+　獄卒はそう言い、鉄格子をガチャンと閉め、
+鍵をかけて去っていった。
+<PAUSE>
+<NAME_PLATE>
+　後は勝手にしろといったところか。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+//　※立ち絵
+//　　女囚立ち絵
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR>2,ts_m133a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m133a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>女囚
+「…………」
+「………………」
+「…………………………」
+<PAUSE>
+<NAME_PLATE>
+　女囚たちがジロリと俺を見た。
+<PAUSE>
+<NAME_PLATE>
+　数は１０人ほど。
+<PAUSE>
+<NAME_PLATE>
+　どうやら殆どが魔族のようだ。
+<PAUSE>
+<NAME_PLATE>
+　床に寝っ転がっていたり、壁にもたれたり、
+思い思いに過ごしているが、みな無言だ。
+<PAUSE>
+<NAME_PLATE>
+　そして、共通する嫌な笑みを浮かべている。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「あの……よろしくお願いします……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　なんとなくこの先の展開は予想できたが
+俺は先輩の女囚たちに頭を下げた。
+<PAUSE>
+<NAME_PLATE>女囚
+「ふふ……」
+「ふふふ……」
+<PAUSE>
+<NAME_PLATE>女囚
+「くく……よろしくだってさ……」
+「いいね……してやろうじゃないか……」
+<PAUSE>
+<NAME_PLATE>
+　などと言いながら、
+女囚たちは俺を取り囲もうとする。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「な……なんですか……？」
+<PAUSE>
+<NAME_PLATE>
+　ますます予想通りだ。
+<PAUSE>
+<NAME_PLATE>
+　一応、怯えたような顔をしつつ
+背後をとられないように、壁際まで後ずさる。
+<PAUSE>
+<ACTOR>4,ts_m134a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベテラン女囚
+「裸になりな、ウシ乳ちゃん」
+<PAUSE>
+//　　ベテラン女囚立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　パッと見、一番腕が立ちそうな
+筋肉質の女が言った。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「え？」
+<PAUSE>
+<NAME_PLATE>ベテラン女囚
+「裸になって荷物を全部広げなって
+　言ってんだ！」
+<PAUSE>
+<NAME_PLATE>女囚
+「早くしなよ」
+<PAUSE>
+<NAME_PLATE>女囚
+「あんたの物は
+　全部このＨ監房のボスのもんだ」
+<PAUSE>
+<NAME_PLATE>
+　女囚たちは口々に脅してくる。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　やっぱりこういう展開になったか。
+<PAUSE>
+<NAME_PLATE>
+　つまりは囚人による新人虐めだ。
+<PAUSE>
+<NAME_PLATE>
+　監獄への潜入と聞いたときから、
+ネジリンボウにパラシュート部隊くらいは
+ありそうな気がしていたが、
+<PAUSE>
+<NAME_PLATE>
+　いきなり裸になれとは、
+さすが女だけの監獄。
+なかなか意表を突いてくれる。
+<PAUSE>
+<NAME_PLATE>
+　もし本物のきらら先輩だったら、
+即ギレ、氷結地獄だ。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+（中身が俺でよかったな……）
+<PAUSE>
+<NAME_PLATE>女囚
+「このアマ、ブルって声も出ねえぜ」
+<PAUSE>
+<NAME_PLATE>女囚
+「自分で脱げないなら、
+　あたしが脱がしてやるよ！」
+<PAUSE>
+<NAME_PLATE>
+　女囚の一人が俺の胸元に手を伸ばしてきた。
+<PAUSE>
+<NAME_PLATE>
+　俺も我慢して触っていない胸にだ。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「！！」
+<PAUSE>
+<NAME_PLATE>
+　俺はその手首をグイと掴み、
+そのまま関節を決めて捻り上げた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女囚
+「ぐあっっ！」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「止めた方がいい」
+<PAUSE>
+<NAME_PLATE>女囚
+「粋がってんじゃねえぞ！」
+<PAUSE>
+<NAME_PLATE>女囚
+「やるってのか、このウシ乳が！」
+<PAUSE>
+<NAME_PLATE>
+　女囚たちが気色ばむ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、ここで必死に守った唯一の持ち物
+“歯ブラシ”を奪われるわけにはいかない。
+<PAUSE>
+<NAME_PLATE>
+　また、監獄では弱みをみせれば
+一生つけこまれると聞いたことがある。
+<PAUSE>
+<NAME_PLATE>
+　それに既にピアスの件でヤバそうなのに、
+他の女囚に裸を見せたなんて知られたら、
+きらら先輩がどんなに怒ることか。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「裸を見せるのも、荷物をやるのもお断りだ」
+<PAUSE>
+<NAME_PLATE>ベテラン女囚
+「痛い目にあいたいようだね！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女囚
+「たたんじまえ！！」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「しょうがないか……」
+<PAUSE>
+<NAME_PLATE>
+　女囚たちに舐められないためには、
+力を見せつけておく必要がありそうだ。
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>4,CENTER,linear,1000
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

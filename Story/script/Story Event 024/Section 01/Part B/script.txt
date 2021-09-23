@@ -1,0 +1,394 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc017aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc279a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m052a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>門番
+「貴様っ！」
+「ノマドに逆らうつもりか！」
+「命が惜しくないようね！」
+<PAUSE>
+//　※立ち絵
+//　　ダークガート
+//　　　＊モンスターイラストより流用
+//　　ハイオーク
+//　　　＊モンスターイラストより流用
+//　　ハイオークチーフ
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「勘違いしないで。
+　少し落ち着いてもらおうと思って。
+　花よ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　静流が軽やかに鞭を振るうと、
+パアッと一面に花びらが舞い踊った。
+<PAUSE>
+<NAME_PLATE>門番
+「おっ！」
+「へえ、こいつは綺麗だな！」
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　忍法・花散る乱の応用だ。
+<PAUSE>
+<NAME_PLATE>
+　普段は眠りや毒の効果を含ませるのだが
+これは単に綺麗なだけの花吹雪だ。
+<PAUSE>
+<NAME_PLATE>
+　それでも心を和ませるには十分だ。
+厳ついオークたちの顔も少し緩んだ。
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「もう一度言うけれど、
+　今日はヨミハラ町内会の会長として
+　大事な用があって来たのよ」
+<PAUSE>
+<NAME_PLATE>静流
+「私が来たことをイングリッドに
+　伝えてくれるだけでもいいの」
+<PAUSE>
+<ACTOR>0,sz_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「お願いできないかしら。
+　今度うちの店に来たらサービスするわ。
+　ね？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　静流が木遁の術より得意な
+女の魅力で艶やかに微笑むと、
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>門番（オーク）
+「まあそれくらいなら……」
+「そうだな……それくらいならな……」
+<PAUSE>
+<NAME_PLATE>
+　オーク二人は
+了解してくれそうだったのだが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m052a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>門番（女）
+「黙れ！
+　こんな花などで誤魔化されるか！
+　いかがわしい女め！」
+<PAUSE>
+<NAME_PLATE>
+　門番のうち、ただ一人の女が
+逆に気色ばんだように銃を向けてきた。
+<PAUSE>
+<ACTOR>0,ts_m052a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「あら、花は嫌い？
+　その花飾りなんかとても似合ってるのに」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>門番（女）
+「余計なお世話だ！
+　こんな花飾りなんか！　男なんか！
+　くそっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　彼女は頭の花飾りを毟って、
+床にたたきつけ、引き金を引こうとする。
+<PAUSE>
+<NAME_PLATE>
+　どうもなにか花関係、
+それも男関係のトラウマを
+刺激してしまったらしい。
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+（これは予想できないわね）
+<PAUSE>
+<NAME_PLATE>
+　かといって、撃たれるわけにはいかない。
+<PAUSE>
+<ACTOR>0,sz_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「ちょっとごめんなさい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビシュッ！
+<PAUSE>
+<NAME_PLATE>
+　静流は薔薇の鞭をさっと振って、
+女から銃を取り上げた。
+<PAUSE>
+<NAME_PLATE>門番（女）
+「なっ！？　貴様あっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>門番（オーク）
+「おいおい、そんな興奮すんなよ」
+「イングリッド様に話を通すくらいいいだろ」
+<PAUSE>
+<NAME_PLATE>門番（女）
+「なっ！？　それでも門番か！
+　こんな飲み屋の女に鼻の下を伸ばして！！」
+<PAUSE>
+<NAME_PLATE>門番（オーク）
+「そういうわけじゃねえけどな」
+「お前もいい加減、あの男のことは忘れろよ」
+<PAUSE>
+<NAME_PLATE>門番（女）
+「だっ、黙れ黙れ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「困ったわね……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　予定とは全然違う方向で、
+騒ぎになってしまっている。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0021b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「なんだなんだ、なにごとだ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵（柄布なし）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　現れたのはイングリッドの右腕、
+ノマド第二の魔界騎士のリーナだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,sz_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「よかった。
+　やっと話の通じそうな人が来てくれたわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と思ったのもつかの間、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0021b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「対魔忍の高坂静流か！？
+　こんなことをしてどういうつもりだ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「まさか単身ノマドに挑むつもりか？
+　ならば魔界騎士として容赦しないぞ！」
+<PAUSE>
+<NAME_PLATE>門番
+「なっ！？　対魔忍！」
+「飲み屋の女が！？」
+「貴様、やはり我々に！！」
+<PAUSE>
+<NAME_PLATE>
+　彼女の正体を知っていたのは流石だが
+それをいきなりバラしてくれたリーナに
+また門番たちが身構える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,sz_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「待って待って落ち着いて！
+　そんなつもりは毛頭ないわ。
+　あ、これ返すわね、ごめんなさい」
+<PAUSE>
+<NAME_PLATE>
+　静流は慌てて奪った銃を女に返しながら、
+<PAUSE>
+<ACTOR>1,sz_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「今日はヨミハラ町内会の会長として
+　イングリッドに話があるから来たのよ」
+<PAUSE>
+<NAME_PLATE>静流
+「ちょっと行き違いがあって
+　なんか騒ぎになってしまったけど」
+<PAUSE>
+<NAME_PLATE>静流
+「とても大切な話なの。
+　ヨミハラのことを考えてのことよ。
+　お願いだから信じてちょうだい」
+<PAUSE>
+<ACTOR>1,sz_t003d,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0021b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「それは本当だろうな？」
+<PAUSE>
+<NAME_PLATE>
+　魔族とは思えないほど
+真っ直ぐな目をしたリーナに頷く。
+<PAUSE>
+<NAME_PLATE>静流
+「私は対魔忍だけれど
+　ヨミハラの住人でもあるわ。
+　町のルールは弁えてるつもりよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「分かった。信用しよう。
+　私がイングリッド様のところに連れていく」
+<PAUSE>
+<NAME_PLATE>
+　リーナは警戒を解いてくれたようだ。
+<PAUSE>
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「ありがとう。助かったわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　花のことで刺激してしまった女の門番は
+まだ忌々しげな顔だったがしょうがない。
+<PAUSE>
+<NAME_PLATE>
+　静流はリーナに連れられ、
+ノマド本部の中に入っていく。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍にとっては敵の本拠地だ。
+<PAUSE>
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+（さすがにちょっと緊張するわね……）
+<PAUSE>
+<ACTOR>0,chr_t0021b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「勝手にどこかに行くなよ。
+　その時は命の保証はできないぞ」
+<PAUSE>
+<NAME_PLATE>静流
+「承知しているわ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ノマドの魔界騎士らしからぬ気さくさで
+知られている彼女は隙があるようでない。
+<PAUSE>
+<NAME_PLATE>
+　それはそれとして彼女の帯剣が
+以前と少し違っているのに気づいた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>静流
+「剣がちょっと変ったわね。
+　前は布か何かを巻いていなかった？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「あっ、気づいたか！」
+<PAUSE>
+<NAME_PLATE>
+　リーナはパッと静流を振り返った。
+いきなり隙だらけの顔になっている。
+<PAUSE>
+<NAME_PLATE>リーナ
+「魔界騎士になった記念に恩人のお嬢様に
+　私の名を柄に刻んでもらったのだ」
+<PAUSE>
+<ACTOR>1,sz_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「魔界騎士になった記念？
+　あなた前から魔界騎士じゃなかった？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「うん確かにそうだが、
+　この前、魔界で試練を受けて
+　正式に魔界騎士になったのだ」
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「あら、そうなの。
+　おめでとう、でいいのかしら？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「もちろんいいぞ。ありがとう」
+<PAUSE>
+<NAME_PLATE>静流
+「どういたしまして」
+<PAUSE>
+<NAME_PLATE>リーナ
+「この剣も今までは二つの意味で
+　無名の風の魔剣だったが
+　これを機会に名を付けてみた」
+<PAUSE>
+<NAME_PLATE>リーナ
+「私の二つ名の嵐騎からとって、
+　嵐の牙“ストームファング”だ。
+　どうだ？」
+<PAUSE>
+<NAME_PLATE>静流
+「いいんじゃないかしら。
+　とても強そうね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうだろう。
+　しかしさすが対魔忍だ。観察力がある。
+　よく剣のことに気づいたな」
+<PAUSE>
+<NAME_PLATE>静流
+「それは見れば分かるもの」
+<PAUSE>
+<NAME_PLATE>リーナ
+「いや、アサギ探偵事務所の連中は
+　まるで気づかなかった。節穴揃いだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「対魔忍のふうま亜希もだ。
+　あれはなんとかしたほうがいいぞ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　良くも悪くも緊張感がなくなりつつ、
+静流はイングリッドの所に向かうのだった。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

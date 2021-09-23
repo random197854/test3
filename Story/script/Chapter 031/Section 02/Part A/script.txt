@@ -1,0 +1,744 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc017aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc279a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「まずはイングリッド様にご報告せねばな」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　日課のパトロールを終えたリーナは
+いつも通りイングリッドの部屋に向かう。
+<PAUSE>
+//【背景：イングリッド執務室＿昼夜共通】【時間：夜】
+//　※監獄戦艦3_nc008aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc280a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「イングリッド様、魔界騎士リーナ、
+　ただいまパトロールから帰りました。
+　今日もヨミハラはだいたい平穏無事です」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>0,chr_t0104a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「うむ、ご苦労」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>
+　リーナの報告にイングリッドが頷く。
+<PAUSE>
+<NAME_PLATE>
+　それだけでなんとも言えない満足が
+胸の中に拡がってくる。
+<PAUSE>
+<NAME_PLATE>
+　そこまではいつもと同じだったが、
+今日はもう一人、反応があった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「ワ、ワーカホリック魔界騎士、帰還。
+　フヒヒ……お、乙ぅ」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>リーナ
+「ドロレスか、珍しいなっ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「久しぶりに、あ、遊びに来た」
+<PAUSE>
+<NAME_PLATE>
+　彼女はイングリッドの遠縁にあたり、
+イングリッドを「お姉ちゃん」と呼び、
+同じ館に住んでいる羨ましい存在だ。
+<PAUSE>
+<NAME_PLATE>
+　ペインというすごい呪いの使い手だが、
+外に出るよりも家にいるのが好きで、
+ノマド本部にも滅多に出てこない。
+<PAUSE>
+<NAME_PLATE>
+　行動派のリーナとは全くタイプが違うが、
+なかなかに気が合う。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「なにか見せたいものがあるとかでな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「見せたいもの？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「ちょ、ちょうどよかった。
+　リーナにも、み、見せたかった。
+　こ、これ……ウェヒヒ、見て見て」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは２０インチの
+最新折り畳みタブレットを取り出し、
+それを表示させた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「うわああああああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　リーナはイングリッドが思わず
+ビクッとするほどの歓声を上げていた。
+<PAUSE>
+<NAME_PLATE>
+　大きなタブレットに映し出されたのは
+先の大納涼祭でのイングリッドの写真だ。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの邪気を払うために、
+敵味方を越えて大太鼓を叩いた
+イングリッドの勇姿が何百枚とある。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「すごいすごいすごい！！！
+　イングリッド様がこんなに！」
+<PAUSE>
+<NAME_PLATE>
+　リーナはものすごい勢いで
+下手をすると剣を振るよりも速く、
+タブレットをスワイプさせた。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0025a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「お姉ちゃん、超エモいでしょ？
+　これとか、ウェヒヒ、ベストショット！」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスが上手く撮れた写真を選び出すと、
+リーナの興奮はさらに高まる。
+<PAUSE>
+<NAME_PLATE>リーナ
+「うわすごいっ！！
+　このお姿！　格好よすぎます！！
+　イングリッド様、ほら見てください！！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「あ、ああ……見ているぞ……」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あ、あと、これとか。どうよ？
+　お姉ちゃんの激レア、え、笑顔。
+　うひひ、カワユス♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「わっ、わあっっ！！
+　イングリッド様笑ってらっしゃいます！
+　ほら、ほらっ！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ああ、なんて可愛らしい！
+　あっ、すいません、でも、うわああ！
+　本当に素敵な笑顔ですイングリッド様！！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「………………」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ど、動画もちゃんとあるぞな。
+　ウェヒヒ、お楽しみに～～」
+<PAUSE>
+<NAME_PLATE>リーナ
+「動画もあるのか！？
+　ドロレス！　このデータをくれ！！
+　頼む！　一生のお願いだ！」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、そう言うと思って、
+　すでに共有フォルダにうｐ済み」
+<PAUSE>
+<NAME_PLATE>リーナ
+「わあっ、ありがとう！！」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「オ、オフッ……熱い抱擁ｋｔｋｒ。
+　ちょ、ちょっと照れる」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「あのな、お前たち……」
+<PAUSE>
+<NAME_PLATE>
+　当人そっちのけで盛り上がる二人に
+イングリッドは何か言いかけるが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「さすがドロレスだ。
+　だが私もこんなものを持っているぞ。
+　これだ！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「またか……」
+<PAUSE>
+<NAME_PLATE>
+　リーナがスカートのポケットから
+ズバッと取り出した物を見て
+イングリッドは呆れ顔になった。
+<PAUSE>
+<NAME_PLATE>
+　リーナがやはり大納涼祭で撮った写真を
+自分でブロマイドに加工したものだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0025a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「ま、まさかのブロマイド？
+　超レトロ、でもイケてる。
+　お姉ちゃんカッコよす」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうだろうそうだろう」
+<PAUSE>
+<NAME_PLATE>
+　普段はデータ派のドロレスが
+現物のブロマイドを羨ましそうに見る姿に
+リーナは自慢げに頷いた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「データはいつ消えるか分からないし、
+　イングリッド様のお姿は
+　肌身離さず持っていたいからな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それだけじゃないぞ。
+　これと同じのを大きなパネルにして
+　私の部屋の壁一面に飾ってるんだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「どうだすごいだろう！」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「お、お姉ちゃんといつも一緒？
+　ウェヒヒ、あ、愛が重い。
+　後でそれ、見せて」
+<PAUSE>
+<NAME_PLATE>リーナ
+「もちろんだ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「そういうのは私のいないところで
+　やって欲しいのだが……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　もう言っても無駄そうだと、
+イングリッドが溜息を吐いたその時。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレーナ
+「イ、イングリッド様！！」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　魔術師のエレーナがドアをノックもせずに
+部屋に飛び込んできた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「どうした、エレーナ。
+　まさかお前も私に妙な写真を―――」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは呆れ顔のまま言いかけたが、
+エレーナの血相が変わっているのに気づき、
+さっと真剣な表情になった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0144a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「なにかあったのか？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ヒ、ヒ、ヒュドラが現れました！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「なにっ！？」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>0,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「なっっ！」
+<PAUSE>
+<NAME_PLATE>
+　イングリッド、そしてリーナが緊張する。
+<PAUSE>
+<NAME_PLATE>
+　特にリーナは大切なブロマイドを
+思わず握りしめるほどだった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ヒュドラは巨大な胴体に
+九つの首を持つ大蛇だ。
+<PAUSE>
+<NAME_PLATE>
+　魔界の沼地に生息し、猛毒の息を吐き、
+水のある場所では不死に近い生命力を
+有するとも言われている。
+<PAUSE>
+<NAME_PLATE>
+　魔界でも非常に恐れられている
+言うなれば、神格級の魔獣だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、ノマドきっての魔界騎士二人の
+驚き様はそれだけではなかった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「ヒュドラ、あいつが……っっ！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　普段は見せないその険しい顔を
+イングリッドはチラリと見てから、
+エレーナに尋ねる。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>イングリッド
+「ヒュドラはどこに現れた？」
+<PAUSE>
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「ヨ、ヨミハラの東にある今は
+　使われていないふ、ふ、古い坑道です！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「あんな場所に？
+　本来魔界にしかいない魔獣だぞ。
+　なぜそれが分かったのだ？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「わた、私、さっきまでふ、普通に
+　ナドラさんとお、お喋りしてたんですがっ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ナドラさんがきゅ、急にま、魔眼で
+　ヒュドラの姿がみ、見えたって
+　お、お、教えてくれてっ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「それも、こ、ここを、ノマドの本部を
+　目指してるみたいだって、だ、だから、
+　わた、わたし、いい、急いでここにッ！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「分かった。少し落ち着け……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　イングリッドは動揺のあまり
+過呼吸になりそうなエレーナの肩に
+手を置いた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ナドラの魔眼か。
+　疑う余地はなさそうだな。
+　ここを目指しているだと？」
+<PAUSE>
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、
+　そのヒュドラとはもしや……」
+<PAUSE>
+<NAME_PLATE>
+　低い声を出したのはリーナだった。
+<PAUSE>
+<NAME_PLATE>
+　さっきまでイングリッドの写真で
+はしゃいでいた彼女とはまるで別人だ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「かもしれんな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「っっ！」
+<PAUSE>
+<NAME_PLATE>
+　沈痛な面持ちで頷くイングリッドに、
+リーナはギリッと歯を食いしばった。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「え？　ど、どういうことですか？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドはその問いには答えず、
+リーナを見やった。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>イングリッド
+「リーナ、直ちに討伐部隊を編成しろ。
+　無論、私も行く」
+<PAUSE>
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はっ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　リーナが部屋を飛び出していく。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「エレーナ、恐ろしいだろうが、
+　私と一緒に来てくれ。頼む。
+　ヒュドラと戦うにはお前の力が必要だ」
+<PAUSE>
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「は、はは、はい！
+　わ、わ、わかりましたっ！」
+<PAUSE>
+<NAME_PLATE>
+　エレーナは顔面蒼白になりながらも頷いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「で、でわーーー、
+　せ、拙者はこのへんで……」
+<PAUSE>
+<ACTOR>0,chr_t0025a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「ドロレス」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ひょっ！？」
+<PAUSE>
+<NAME_PLATE>
+　コソコソ出ていこうとしていたドロレスが
+ビクッと立ち止まった。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「な、なんぞな？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「どこへ行くつもりだ？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ど、どこって拙者、急にお腹が……
+　あいや、持病の癪が……
+　ううう、もうだめぽ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「仮病を使っても無駄だ。
+　いい日に遊びに来てくれたな」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「当然、お前にも加わってもらう。
+　嫌とは言わさん、準備しておけ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「た、頼むの言葉もなし。
+　魔界騎士、身内に容赦なし。
+　お姉ちゃんヒドス……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ドロレスはその場にへたり込んだ。
+<PAUSE>
+//【背景：ヨミハラ地下坑道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC032aより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc120a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　イングリッド率いる討伐部隊は
+ノマド本部から
+伸びている古い坑道に侵入した。
+<PAUSE>
+<NAME_PLATE>
+　ヒュドラがこちらに向かっているなら、
+間違いなくどこかでぶつかるとの判断だ。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　討伐メンバーはイングリッド以下、
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　リーナ、
+<PAUSE>
+//　　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　エレーナ、ドロレス、
+<PAUSE>
+//　※立ち絵
+//　　エレーナ立ち絵
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　ドロレス立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m170a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m170a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そして、特に腕利きの女戦士たちだ。
+<PAUSE>
+//　※立ち絵
+//　　ノマド戦士(女)立ち絵
+//　　　＊カードイラストを流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　部隊の先頭はリーナ、
+それにイングリッドが続いている。
+<PAUSE>
+<NAME_PLATE>
+　魔術と呪いの使い手である
+エレーナとドロレスが真ん中に位置し、
+その左右と後方を女兵士たちで固める。
+<PAUSE>
+<NAME_PLATE>
+　リーナが一番手なのはいつも通りだ。
+<PAUSE>
+<NAME_PLATE>
+　イングリッドに次ぐ戦闘力の持ち主で
+動きも素早く、風で気配を探れるからだが、
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、
+　坑道全体がざわついています」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>0,chr_t0104a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「やはり何かいるようだな」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>リーナ
+「間違いなくあいつです。
+　あの時のヒュドラです、イングリッド様」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　リーナの顔にいつもの余裕がない。
+ひどく焦っているような表情だ。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　イングリッドが
+それを注意しようとした矢先、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブウウウウウウウウンンンンッ！！
+<PAUSE>
+<NAME_PLATE>
+　前方から耳障りな羽音が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>
+　そして顎を激しく噛み合わせる音。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ts_m067a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m067a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔界ワスプ
+「ガチガチガチガチガチ！」
+「ガチガチガチガチガチ！」
+「ガチガチガチガチガチ！」
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプクイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　　魔界ワスプ立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　魔界ワスプの群れだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エレーナ
+「す、すごく興奮してます。
+　もしかして、ヒュ、ヒュドラに追われて？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そのようだな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　魔界ワスプはヒュドラの良いエサだ。
+<PAUSE>
+<NAME_PLATE>
+　エレーナが言う通り、
+ヒュドラから逃げてきたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　その恐怖で生存本能を刺激されて、
+異常なまでに興奮している。
+<PAUSE>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「い、いま……ね、眠りの魔法を―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ちいっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　だがそれより先にリーナが飛び出していた。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>イングリッド
+「リーナ！　気負いすぎるな！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>リーナ
+「お前たち邪魔だ！
+　どけええええええ！！」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの警告も耳に入っていない。
+<PAUSE>
+<NAME_PLATE>
+　殺気を剥き出しにするリーナに反応して、
+魔界ワスプの群れが襲いかかって来た。
+<PAUSE>
+//→S202a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

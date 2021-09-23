@@ -1,0 +1,475 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ふうまの里＿森＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿nc010aより流用
+<BGM_PLAY>bgm407,1000
+<BG>nc048a,IN, 1000
+<NAME_PLATE>
+　矢車弥右衛門と八百比丘尼の助けで、
+時子はからくも窮地を脱した。
+<PAUSE>
+<NAME_PLATE>
+　鎮守の森の井河忍軍も
+彼らの配下によってひとまずは撃退された。
+<PAUSE>
+<NAME_PLATE>
+　乱戦で散り散りとなってしまった
+ふうまの忍も徐々に集結してきている。
+<PAUSE>
+<NAME_PLATE>
+　時子の元に僅かではあるが、
+ふうまの軍勢が蘇ろうとしていた。
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「皆、よくぞ生き残ってくれました」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　時子は万難を排して集まった者たちに
+静かな口調で話し始めた。
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ふうま火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　その数は半分以下に減り、
+誰もが今夜の戦いで大小の傷を負っている。
+<PAUSE>
+<NAME_PLATE>
+　しかし、敵を恐れる者も、
+逃げだそうとする者もいない。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様はまだご無事。
+　ここがふうまの正念場です」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ふうま忍軍
+「「「はっっ！！」」」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m056a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>矢車弥右衛門
+「時子お嬢、ちとよろしいか」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>八百比丘尼
+「我らに妙案がございます」
+<PAUSE>
+//　※立ち絵
+//　　八百比丘尼立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　矢車弥右衛門と八百比丘尼が
+申し合わせていたかのように進み出てきた。
+<PAUSE>
+<NAME_PLATE>時子
+「なんですか？」
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「ふうまの里を襲った
+　井河のやつばらは大軍」
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「口惜しいが依然、我が方は不利に御座る」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「それ故、私と弥右衛門が陽動として、
+　敵の目を集めましょう」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「その間に若様と骸佐様を
+　時子様が逃がしていただければと」
+<PAUSE>
+<NAME_PLATE>時子
+「……骸佐様？」
+<PAUSE>
+<NAME_PLATE>小太郎
+「骸佐？
+　弥右衛門、骸佐はここにいるのか？」
+<PAUSE>
+<NAME_PLATE>
+　小太郎が驚いた声を出した。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「もちろんおりまするぞ。
+　この弥右衛門がいる限り、骸佐様には指一本
+　―――ん？　そういえばお姿が見えぬな？」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「ふふふ、もう夜も遅い。
+　骸佐様は先ほどからあそこで」
+<PAUSE>
+<NAME_PLATE>
+　比丘尼が指さした先の地面で
+二車家の嫡男、幼い二車骸佐がすやすやと
+寝息を立てていた。
+<PAUSE>
+<NAME_PLATE>
+　時子が小太郎を救い出したのと同様、
+二人も骸佐を救い出していたのだ。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「グハハハハ！！
+　こんな時に居眠りとはなんと剛毅な。
+　さすが骸佐様！」
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「骸佐様、若様がお呼びじゃ。
+　起きなされ、起きなされ！！」
+<PAUSE>
+<NAME_PLATE>骸佐
+「うう～～～～、
+　やえもん、うるさい～～」
+<PAUSE>
+<NAME_PLATE>
+　弥右衛門の声に
+骸佐がもぞもぞと身体を起こした。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>骸佐
+「ふぇ？　ここは……？」
+<PAUSE>
+<NAME_PLATE>
+　骸佐はきょろきょろとあたりを見渡し、
+事態を把握した途端、わっと泣き始めた。
+<PAUSE>
+<NAME_PLATE>骸佐
+「うええええんんん、うええええんん。
+　ちちうえ～～～、ちちうえ～～～～～～！」
+<PAUSE>
+<NAME_PLATE>小太郎
+「骸佐っ、無事だったか！」
+<PAUSE>
+<NAME_PLATE>
+　小太郎が骸佐に素早く駆け寄る。
+<PAUSE>
+<NAME_PLATE>骸佐
+「わ、若さま！？
+　ちちうえが！　ちちうえが！
+　うわああん、うあああんん～～～～～！！」
+<PAUSE>
+<NAME_PLATE>
+　骸佐は小太郎に抱きついて、
+いっそう激しく泣きじゃくった。
+<PAUSE>
+<NAME_PLATE>小太郎
+「うん、うん」
+<PAUSE>
+<NAME_PLATE>
+　二人は同い年。
+<PAUSE>
+<NAME_PLATE>
+　しかし、気弱な骸佐にとって
+小太郎は兄貴分のようなものだ。
+<PAUSE>
+<NAME_PLATE>
+　小太郎は自分も悲しいのをこらえ
+泣き虫の弟分を健気に慰めようとする。
+<PAUSE>
+<NAME_PLATE>小太郎
+「骸佐、時子が必ず安全な場所まで
+　逃してくれる」
+<PAUSE>
+<NAME_PLATE>小太郎
+「だから泣くな。
+　お前も二車家の当主となる身だぞ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「えぐっ、えぐっ、若さま。
+　骸佐は……うう、泣きません！」
+<PAUSE>
+<NAME_PLATE>骸佐
+「必ずや……ひぐっ……
+　若さまと一緒に、ち、父上たちの仇を
+　取りまする！」
+<PAUSE>
+<NAME_PLATE>
+　小太郎の励ましに、
+骸佐は涙をゴシゴシ擦って宣言した。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m056a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>矢車弥右衛門
+「ホホホ！　頼もしきや！！」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>八百比丘尼
+「それでは時子さま、骸佐さまをどうか……」
+<PAUSE>
+//　※立ち絵
+//　　八百比丘尼立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>時子
+「分かりました……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　二人は屈指の強者だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし敵の数は余りにも多い。
+<PAUSE>
+<NAME_PLATE>
+　まして陽動ともなれば、
+自分から敵を引きつける必要がある。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「心配めさるな。
+　我らまだ死ぬ気は御座らん」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>八百比丘尼
+「陽動を果たせば、
+　御母堂様をお救いし、脱出する所存」
+<PAUSE>
+//　※立ち絵
+//　　八百比丘尼立ち絵
+//　　　＊モンスターイラストを流用
+//　※解説
+//　　御母堂＝骸佐の母親
+<NAME_PLATE>骸佐
+「やえもん、びくに、
+　かならず戻ってくるのだぞ」
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「承知つかまつりました！！」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「しばし失礼、骸佐様」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　弥右衛門は土の中に潜り込み、
+比丘尼は闇にその身を溶かすように
+姿を消していった。
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「では、私たちも出立します」
+<PAUSE>
+<NAME_PLATE>小太郎
+「行くぞ、骸佐」
+<PAUSE>
+<NAME_PLATE>骸佐
+「は、はい、若さま」
+<PAUSE>
+<NAME_PLATE>
+　こうして、小太郎と骸佐を脱出させるため、
+弥右衛門と比丘尼は陽動に向かい、
+<PAUSE>
+<NAME_PLATE>
+　時子は僅かに残った手勢を率いて、
+二人とは逆方向へと進軍を始めた。
+<PAUSE>
+//【背景：ふうまの里＿山道＿夜】【時間：夜】
+//　※戦国魔姦_nc010aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc030a,IN, 1000
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>時子
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　それから少し経って、
+時子たちは山間の道に潜伏していた。
+<PAUSE>
+<NAME_PLATE>
+　この山道を登り、
+頂上にあるお堂を越えれば、
+ふうまの里の外となる。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そこには間違いなく
+敵が待ち伏せているはずだ。
+<PAUSE>
+<NAME_PLATE>
+　このまま向かったのでは、
+自分から死にに行くのに等しい。
+<PAUSE>
+<NAME_PLATE>
+　町へと陽動へ向かった
+弥右衛門と比丘尼が頼みの綱だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>小太郎
+「骸佐、疲れていないか？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「だいじょうぶです、若さま」
+<PAUSE>
+<NAME_PLATE>
+　一人より二人。
+<PAUSE>
+<NAME_PLATE>
+　ふうまの未来を担う者同士、
+幼子たちが励まし合っている。
+<PAUSE>
+<NAME_PLATE>
+　その姿に時子も希望と、
+気力を蘇らせていった。
+<PAUSE>
+<NAME_PLATE>
+　そして、数分後―――。
+<PAUSE>
+<ACTOR>3,ts_m002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま忍者
+「時子様っ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　配下の一人が駆け寄ってきた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「始まりましたか！？」
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「町で新たな火の手があがりました！」
+<PAUSE>
+<NAME_PLATE>時子
+「さすがですね。
+　時間ぴったりです」
+<PAUSE>
+<NAME_PLATE>
+　時子はうっすらと微笑んだ。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　予め陽動開始の時間を決めてはいたが、
+敵の真っ只中でその通りに行動するのが
+どれだけ困難なことか。
+<PAUSE>
+<NAME_PLATE>
+　二車屈指の実力者二人にして
+初めて実現可能なことだ。
+<PAUSE>
+<ACTOR>0,t_t007b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「直ちに頂上へ向かいます」
+<PAUSE>
+<ACTOR>0,t_t007c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「ついて来られぬ者、倒れた者は
+　全て見捨てます」
+<PAUSE>
+<NAME_PLATE>
+　非情なその言葉にも
+異論を唱える者はいない。
+<PAUSE>
+<NAME_PLATE>
+　時子、小太郎、骸佐、
+そして僅かに残ったふうま忍軍は
+一丸となって山道を駆け上がった。
+<PAUSE>
+//【背景：ふうまの里＿山道頂上付近＿夜】【時間：夜】
+//　※戦国魔姦_nc011aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc200a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　時子たちは風のような早さで
+頂上付近にまでたどり着く。
+<PAUSE>
+<NAME_PLATE>
+　幸運が味方したのか
+ここまで敵と出会うことはなかった。
+<PAUSE>
+<NAME_PLATE>
+　だが……。
+<PAUSE>
+<ACTOR>0,t_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「やはりいますね」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>4,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,ts_m013a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　山頂の目印となるお堂付近には
+井河の忍が待ち伏せていた。
+<PAUSE>
+<NAME_PLATE>
+　その防御網は予想よりは薄い。
+<PAUSE>
+<NAME_PLATE>
+　弥右衛門と比丘尼の陽動が
+功を奏している証拠だ。
+<PAUSE>
+<NAME_PLATE>
+　それでも、時子たちの戦力から考えると
+まだまだ多勢である。
+<PAUSE>
+<NAME_PLATE>
+　普通であれば撤退、
+あるいは他の策を考えるところだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが今、時子は迷わなかった。
+<PAUSE>
+<ACTOR>0,t_t012b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「突破します！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「者ども！！　かかれっっっ！！！」
+<PAUSE>
+//→S302a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

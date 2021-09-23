@@ -1,0 +1,438 @@
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ入り口＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC033aより
+<BG>nc121a,IN, 1000
+<BGM_PLAY>bgm716,1000
+<NAME_PLATE>俺
+「なんとかここまで来たな……」
+<PAUSE>
+<NAME_PLATE>
+　デビルワームの巣となった坑道を
+鹿之助の忍法で突破し、俺たちは
+とうとうここまでやってきた。
+<PAUSE>
+<NAME_PLATE>
+　天井は高く、
+４階建てのビルが入りそうな空間だ。
+<PAUSE>
+<NAME_PLATE>
+　無数の換気口、そして地上から盗み引いて
+いるらしい電源コードや水道管、ガス管が
+そこら中に無秩序に伸びているのが見える。
+<PAUSE>
+<NAME_PLATE>
+　床はコンクリートで
+しっかり舗装されているが、壁面は岩盤を
+くり貫いた状態で、岩肌が露出している。
+<PAUSE>
+<NAME_PLATE>
+　ここが東京地下３００メートルにある、
+地下都市・ヨミハラの入り口――。
+<PAUSE>
+<ACTOR>0,u_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「ここは、ヨミハラに入るための
+　いくつかの入り口の一つで、
+　まあ関所のようなポイントだ」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（タバコ口咥え）
+<NAME_PLATE>
+　目立たぬように身を潜めながら
+佐那さんが解説してくれる。
+<PAUSE>
+<NAME_PLATE>俺
+「警備兵がいるんですか？」
+<PAUSE>
+<NAME_PLATE>佐那
+「まあな。だが、ここも金で何とかなる」
+<PAUSE>
+<ACTOR>0,u_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「でも……？　その警備兵ってのが
+　いないみたいだけど……トイレかな？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<PAUSE>
+<NAME_PLATE>
+　入り口の手前にある警備兵の詰め所を見て
+鹿之助が首を傾げる。
+<PAUSE>
+<NAME_PLATE>俺
+「確かに、詰め所は無人だな……」
+<PAUSE>
+<NAME_PLATE>
+　不思議なことに、
+詰め所は灯りが付いているだけで
+中に人の姿は見えない。
+<PAUSE>
+<NAME_PLATE>佐那
+「ちっ。妙だね……」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（タバコ口咥え）
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>2,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子、嫌な予感がする……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ。これはまさか……？」
+<PAUSE>
+<NAME_PLATE>佐那
+「まあ、ここはアタシに任せな。
+　ここまで来たら、
+　逃げ隠れしても意味がねえ」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>0,u_t001d,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　佐那さんは俺たちを制止し、
+警戒した面持ちで数歩前に出た。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,u_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「――隠れてるのはわかってる！！
+　出てきな！！！　米連の機械野郎！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm314,1000
+<ACTOR>3,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「……鼻がきく奴らやな」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>米連兵士
+「……」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※立ち絵
+//　　米連特殊部隊兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ふひぃ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「やっぱり――っ！！」
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラ入り口への道を塞ぐように、
+物陰からヘスティアと米連部隊が
+姿を見せた。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「苦労してワームの巣を抜けてきたようやが、
+　残念やったなぁ。
+　アンタらは終わりや、対魔忍」
+<PAUSE>
+<NAME_PLATE>
+　どうやら俺たちが坑道跡を使うのを
+予測していたようだ。
+<PAUSE>
+<NAME_PLATE>
+　腐っても米連のサイボーグ兵士、
+チョロいだけではないらしい。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<ACTOR>3,ts_m070a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,u_t004f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>佐那
+「アタシらが終わり？　それはどうかな」
+<PAUSE>
+<NAME_PLATE>
+　佐那さんは余裕たっぷりの顔で、
+ふ～っと紫煙を吐き出した。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「なんや、対魔忍さんは虚勢が上手やな」
+<PAUSE>
+<NAME_PLATE>佐那
+「虚勢はそっちだろ？
+　放水路で見かけた時より
+　頭数が減っている」
+<PAUSE>
+<ACTOR>0,u_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>佐那
+「さすがに兵力全部を
+　ここには置けなかった。……違うかい？」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（タバコ口咥え）
+<NAME_PLATE>ヘスティア
+「…………」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「た、確かに！？　意外と小部隊……」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。厳しいには違いないが、
+　どうにかならない数じゃない……」
+<PAUSE>
+<NAME_PLATE>
+　念のため、他の入り口にも
+兵を配置せざるを得なかったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　これならば充分に突破できる――。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「こりゃ一本取られたわ。確かに、
+　ここを抜けられたら、うちらは結構きつい。
+　ヨミハラの中では追えんしな」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「せやけど、そう上手くいくやろか？」
+<PAUSE>
+<NAME_PLATE>俺
+「なに？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ヘスティアがさっと手を上げて
+何か合図をする。同時に――
+<PAUSE>
+<SE_PLAY>se087
+<NAME_PLATE>
+　ギィィイイイッ……！！
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se088
+</GROUP>
+<NAME_PLATE>
+　ガチャン！！　ガチャ、ガチャン！！
+<PAUSE>
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　背後から異音。
+<PAUSE>
+<NAME_PLATE>
+　振り向くと、そこには――
+<PAUSE>
+<ACTOR>6,ts_m073a,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm504,1000
+<NAME_PLATE>？？？
+「……」
+<PAUSE>
+//　※立ち絵
+//　　ＦＳＤキャンサー立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<ACTOR_OUT>6,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいぃぃ！？　挟み撃ち！？
+　後ろからヤバそうなのが
+　来たああああああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「な、なにあれ！！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「戦車だッ！！　あれは、多脚戦車――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>6,ts_m073a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　大きさは軽自動車ほど。
+<PAUSE>
+<NAME_PLATE>
+　六本の脚を器用に動かして移動し、
+巨大な二門の機関銃で
+俺たちに狙いを付けていた。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「ヒャハハ！！　カワイイ蟹さんやろ！？
+　特務機関“Ｇ”の支援型戦闘ドローン、
+　その名も“キャンサー”や！！！」
+<PAUSE>
+<NAME_PLATE>キャンサー
+「……」
+<PAUSE>
+//　※立ち絵
+//　　ＦＳＤキャンサー立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　ジー、ジッ、ジッ――。
+<PAUSE>
+<NAME_PLATE>
+　自動制御のカメラアイが執拗に
+俺たちの姿を追っている。
+<PAUSE>
+<NAME_PLATE>俺
+「くっ――」
+<PAUSE>
+<NAME_PLATE>
+　厄介だ。
+<PAUSE>
+<NAME_PLATE>
+　米連の戦闘用ドローンの強力さは、
+これまでの任務で何度も遭遇して
+痛いほどわかっている。
+<PAUSE>
+<ACTOR_OUT>6,CENTER,linear,1000
+<ACTOR>3,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「降参し！！！　うちと蟹さんに挟まれて、
+　アンタらに勝ち目ないで！！！」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>1,s_t001h,CENTER, CENTER, IN, linear, 1000
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うわぁあああっ！？　せ、戦車っ！？
+　そんなのどうしたら良いんだよぉ！？」
+<PAUSE>
+<ACTOR>1,s_t001h,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,u_t004f,LEFT, LEFT, IN, linear, 1000
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>佐那
+「クク、ぴーぴー言うな鹿之助。ここは、
+　この頼りになる先輩サマに任せとけ――」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（タバコ手持ち）
+<ACTOR>1,s_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「へっ……？」
+<PAUSE>
+<NAME_PLATE>
+　ぽんと鹿之助の頭を叩くと、佐那さんは
+踵を返し、キャンサーの前に進み出た。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,u_t004f,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「佐那さん……っ！？」
+<PAUSE>
+<NAME_PLATE>佐那
+「アタシの役目はここまでだ。
+　ヨミハラでは先に潜入したモンが
+　待ってる。あとはソイツを頼りな」
+<PAUSE>
+<ACTOR>0,u_t004c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「――後ろのガラクタは、
+　アタシが引き受けてやるよ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「そんなっ！？
+　戦車相手にどうやって！？」
+<PAUSE>
+<ACTOR>0,u_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「クク……」
+<PAUSE>
+<NAME_PLATE>
+　佐那さんは『行け行け』とばかりに
+手をひらひらと舞わせて応えるだけ。
+<PAUSE>
+<NAME_PLATE>俺
+「っ！！」
+<PAUSE>
+<NAME_PLATE>
+　一瞬も迷ってはいられない。
+<PAUSE>
+<NAME_PLATE>俺
+（信じる、しかない……！！）
+<PAUSE>
+<NAME_PLATE>
+　佐那さんならば、
+あの多脚戦車を任せられると――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「鹿之助、蛇子、俺たちは行くぞ！！
+　正面のサイボーグ女を突破して
+　ヨミハラに入る！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,h_t002f,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,s_t001h,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「わかったわ、ふうまちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（武器装備）
+<NAME_PLATE>鹿之助
+「ひぃいいいいいい！！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装（電気）
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>3,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「か～～っ、聞かんやっちゃ！！！
+　そんな死にたいんなら、
+　うちの炎でこんがり焼いたるわ！！」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se090
+</GROUP>
+<NAME_PLATE>
+　ゴウッ――！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　突如、ヘスティアの両手から
+激しい炎が噴き出した。
+<PAUSE>
+<NAME_PLATE>
+　それを自在に操り、ヘスティアは
+俺たちに攻撃をしかけてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「火炎使いか！？　皆、気を付けろっ！！」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→S502a

@@ -1,0 +1,341 @@
+﻿//FileNo:S501a
+//シーン名：プロローグ
+//【背景：東京キングダム＿港湾地区＿夜】【時間：夜】
+<BG>nc106a,IN, 1000
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　東京キングダム・倉庫街。
+<PAUSE>
+<NAME_PLATE>
+　米連部隊の包囲を突破した俺と
+アサギさんは、廃ビルの建ち並ぶ一角に
+やってきていた。
+<PAUSE>
+<ACTOR>0,chr_t0084a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ここに本物の福猪がいるのね……」
+<PAUSE>
+//　※立ち絵
+//　　ＺＥＲＯアサギ立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<ACTOR>1,ts_m061a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>俺
+「……間違いないですね。
+　この中からハッキリと気配を感じます」
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　俺達の目の前には、ずいぶん前に
+放棄されたらしい寂れた廃ビル。
+<PAUSE>
+<NAME_PLATE>
+　この中に、俺達が追っている瑞獣・清麻呂が
+潜んでいるようだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「時間は……２３時半。
+　ギリギリ間に合ったって所かしら」
+<PAUSE>
+<NAME_PLATE>俺
+「そうですね……。
+　でも、奴は今日のうちに倒さないと
+　ダメなんですよね？」
+<PAUSE>
+<NAME_PLATE>
+　そうなると、まだ安心はできない。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。お互い、慎重に行きましょう」
+<PAUSE>
+<NAME_PLATE>アサギ
+「神格の大猪・清麻呂――奴が、どれほど
+　強大な力を持っているかもわからない」
+<PAUSE>
+<NAME_PLATE>俺
+「はい……」
+<PAUSE>
+<NAME_PLATE>
+　緊張の面持ちで頷き合うと、
+俺達は廃ビルに足を踏み入れた。
+<PAUSE>
+//【背景：東京キングダム＿港湾地区の廃ビル１階＿夜】【時間：夜】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc015a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺にだけ感じられる気配を追って、
+廃ビルの奧へと進んでいく。
+<PAUSE>
+<NAME_PLATE>
+　すると――闇の奥から、
+男女の言い争うような声が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>男
+「ち、違うよ～！　僕はイヤらしいことなんて
+　全然考えてなくて――」
+<PAUSE>
+<NAME_PLATE>男
+「ただ君と、もうちょっと
+　仲良くお話したいなぁ～って♪」
+<PAUSE>
+<NAME_PLATE>女
+「お話って何よ！？　というか
+　もう終電って言ってるでしょ！？
+　私は帰るの！！」
+<PAUSE>
+<NAME_PLATE>男
+「あっ！　そ、そんな～？
+　帰るなんて言わないでよ～」
+<PAUSE>
+<NAME_PLATE>女
+「もう！　触らないでよイヤらしい！
+　こんなナンパ男についていくんじゃ
+　なかったわ！」
+<PAUSE>
+<SE_PLAY>se080
+<NAME_PLATE>
+　――バチン！！
+<PAUSE>
+<NAME_PLATE>
+　盛大にビンタするような音に続き、
+俺達が身を潜めるすぐ横を、派手な服装の
+女の人が歩き去っていった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0084a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m061a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>俺たち
+（は……？）
+（えっ……？）
+<PAUSE>
+<NAME_PLATE>
+　……どういうこと？
+<PAUSE>
+<NAME_PLATE>
+　俺とアサギさんが顔を見合わせた。
+<PAUSE>
+<NAME_PLATE>
+　なぜ福猪の潜む部屋から、
+あんなマヌケな会話が聞こえる？
+<PAUSE>
+<NAME_PLATE>
+　そして――つい呆気にとられて
+しまったせいだろう。
+<PAUSE>
+<NAME_PLATE>
+　取り残された男と目が合った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>？？？
+「あっ――」
+//　※立ち絵
+//　　小太郎＿汎用立ち絵
+//　　　　＊ＲＰＧキャラクターイラストから
+//　※注　可能であれば、ＲＰＧのゲーム紹介などで使用している小太郎の立ち絵を表示してください。
+<PAUSE>
+<BGM_PLAY>bgm610,1000
+<NAME_PLATE>
+　――男は、俺と全く同じ外見だった。
+<PAUSE>
+<NAME_PLATE>
+　人間である時の『ふうま小太郎』の外見と。
+<PAUSE>
+<NAME_PLATE>
+　しかし今、本来の小太郎（俺）は
+巨大なイノシシの外見になっている。
+<PAUSE>
+<NAME_PLATE>
+　つまり、目の前の『ふうま小太郎』の
+姿をした者こそが――
+<PAUSE>
+<NAME_PLATE>小太郎？
+「ククク、その大猪の姿……。
+　我が“身代わり”として召喚した人間か。
+　よくぞここまでやって来たものだ……」
+<PAUSE>
+<ACTOR>1,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「い、いや、待て待てっ！？
+　お前……何事もなかったように
+　ボスっぽく話を進めるなっ！！」
+<PAUSE>
+<NAME_PLATE>
+　思わず全力でつっこんでいた。
+<PAUSE>
+<NAME_PLATE>小太郎？
+「なんだ、人間……。
+　いきなり話を遮るとは無礼ではないか」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、無礼というか……？
+　お前、今、ナンパした女の人に
+　ビンタされてフラれてなかったか？」
+<PAUSE>
+<NAME_PLATE>小太郎？
+「いや、それは……」
+<PAUSE>
+<NAME_PLATE>俺
+「あと、なんか口調も変わってるし」
+<PAUSE>
+<NAME_PLATE>小太郎？
+「……………………」
+<PAUSE>
+<NAME_PLATE>
+　小太郎の姿をした存在が黙り込んだ。
+<PAUSE>
+<NAME_PLATE>俺
+「……してたよな？」
+<PAUSE>
+<NAME_PLATE>小太郎？
+「ククク……
+　だからどうしたというのだ、人間よ」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それはこっちのセリフだよ。
+　神的存在がナンパしてどうするつもりだよ。
+　しかもフラれてるし」
+<PAUSE>
+<NAME_PLATE>小太郎？
+「神的存在だって女の子と
+　イチャイチャしたい……。ククク……
+　人間如きにこの気持ちはわからんだろうな」
+<PAUSE>
+<NAME_PLATE>小太郎？
+「あと彼女は終電だから帰ったのであって、
+　我はフラれてなどいない」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……。お前がそれでいいなら
+　別にいいんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　あまりの会話のくだらなさに
+耐えきれなくなったのか、
+アサギさんが割り込んできた。
+<PAUSE>
+<ACTOR>1,ts_m061a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0084a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「その……もう討ち取って構わないか？
+　そろそろ時間が来てしまうけど」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、そうだ！　覚悟しろよ、お前！
+　その人間の姿を俺に返してもらう！」
+<PAUSE>
+<NAME_PLATE>
+　そうだった。タイムリミットは
+もう目の前なのだ。
+<PAUSE>
+<NAME_PLATE>小太郎？
+「ククク……。
+　我と闘うというのだな、面白い」
+<PAUSE>
+<NAME_PLATE>小太郎？
+「そろそろ儀式の終わりも近い。
+　愚かな人間どもを、我本来の姿で
+　相手してやろう……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　すると――。
+<PAUSE>
+<NAME_PLATE>俺
+「っ！？　なんだ……！？」
+<PAUSE>
+<NAME_PLATE>
+　俺、そして小太郎の姿をした存在の体を
+青白い光が包み込んで――。
+<PAUSE>
+//　※演出　画面点滅など
+<EFFECT_FLASH>WHITE, 1500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あっ！？　も、戻った！？」
+<PAUSE>
+//　※注　主人公、元の体に戻る（立ち絵無し）
+<NAME_PLATE>
+　イノシシの姿ではない。
+<PAUSE>
+<NAME_PLATE>
+　光が収まると、俺は慣れ親しんだ
+もとの体に戻っていた。
+<PAUSE>
+<NAME_PLATE>
+　そして、何か不穏な気配に
+顔を上げると――。
+<PAUSE>
+<ACTOR>2,ts_m062a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっ！！　イノシシでかっ！？」
+<PAUSE>
+<NAME_PLATE>清麻呂
+「ククク……」
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+//　※注　可能であれば、主人公が“身代わり”だった時と区別するため、
+//　　　　こちらの清麻呂画像は大きめでお願いします。
+<NAME_PLATE>
+　そこには“福猪・清麻呂”の真の姿――。
+<PAUSE>
+<NAME_PLATE>
+　見上げるほどの大きさとなった
+巨大な神格の猪がいた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>清麻呂
+「これが、我の真の姿なり……。
+　愚かな人間よ、一息に踏みつぶして……
+　あっ、痛っ！？」
+<PAUSE>
+<NAME_PLATE>清麻呂
+「ぐぅ、天井に頭ぶつけた……」
+<PAUSE>
+<NAME_PLATE>俺
+「なにやってんだよ……」
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>
+　この建物の天井はそれほど高くない。
+<PAUSE>
+<NAME_PLATE>
+　どうやら巨大すぎて頭や背中が
+天井に擦れるらしい。
+<PAUSE>
+<NAME_PLATE>アサギ
+「言動はともかく……パワーだけは
+　ありそうね。油断しないように！」
+<PAUSE>
+<NAME_PLATE>俺
+「当然だ！！　すぐにぶっ倒して、
+　お雑煮の具にしてやるぜ！！」
+<PAUSE>
+<NAME_PLATE>
+　構えをとる俺とアサギさん。
+神格の大猪・清麻呂との闘いが始まった。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+//→Section５-ＭＡＰ画面１へ
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

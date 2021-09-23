@@ -1,0 +1,241 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：七霧村＿森の中＿夜】【時間：夜】
+//　※彷徨う淫らなルナティクス＿nc001cより流用
+//nc354a
+<BGM_PLAY>bgm304,1000
+<BG>nc354a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m064a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「グガァアアアアアアアアアアアアア！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,s_t004d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃああああああああああああ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+<NAME_PLATE>鹿之助
+「でたあああああああああああああ！！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち絵＿対魔忍
+<ACTOR>1,h_t005j,RIGHT, RIGHT, NONE, linear, 0
+<SE_PLAY>se084
+<NAME_PLATE>蛇子
+「やだやだ！！！　こっちこないで！
+　ブッフゥウウウウウウウッ！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はしがみついていた俺を
+吹っ飛ばすほどの勢いでタコ化して墨を吐き、
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うわわわわああああああああああ！！！」
+<PAUSE>
+<SE_PLAY>se139_02
+<NAME_PLATE>
+　鹿之助も手当たり次第に
+爆弾手裏剣を投げまくった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぶしゅううううううううっ！！
+ドカドカドカアアンンンッッ！！
+<PAUSE>
+<NAME_PLATE>鬼火
+「グアアッ！！　ガアアッッ！！」
+「ギャグウウウウウウウウッッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+//　※複数出してください
+<NAME_PLATE>
+　現れた連中が激しく藻掻いていた。
+<PAUSE>
+<BG>nc354a,IN, 500
+<NAME_PLATE>俺
+「タコ墨と爆弾にやられてる？
+　幽霊なのに？」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（幽霊じゃない。鬼火）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装＿斬撃1
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ko_t010g,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩は淡々と答えて、
+得意の見えない居合で
+その一匹を真っ二つにした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「蛇子、鹿之助！！
+　落ち着け！！　こいつら幽霊じゃない！！
+　ただの鬼火だ！　鬼火！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t004d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「え？　鬼火？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+<NAME_PLATE>鹿之助
+「ほ、ほんとだ！
+　見たことあるやつらじゃんか！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち絵＿対魔忍
+<NAME_PLATE>
+　二人ともホッとした顔になった。
+実は俺もだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m064a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　鬼火はアンデッド化した動物の魂だから、
+厳密には幽霊の一種なのだが、
+普通に戦って倒せる相手だ。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そうと分かれば、
+俺たちが鬼火を撃退するのに
+さしたる時間はかからなかった。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「あ～～～～驚いた。
+　ものすごい墨吐いちゃった」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いきなりだもんな。
+　てっきり幽霊だと思ったぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「お前ら、怖がりすぎだ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「だって、やっぱりお化けは怖いし」
+<PAUSE>
+<ACTOR>0,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「幽霊とか怖いに決まってるだろ。
+　ふうまは死んでも生き返るからいいけど、
+　普通は死んだら生き返らないんだぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「変なところで俺を引き合いに出すな」
+<PAUSE>
+<NAME_PLATE>
+　実は俺もちょっとビビっていたのだが、
+それは言うまい。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　とんとん。
+<PAUSE>
+<NAME_PLATE>
+　誰かが俺の肩を叩いた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ひっ！」
+<PAUSE>
+<ACTOR>0,ko_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（…………）」
+<PAUSE>
+<NAME_PLATE>
+　ぞっとして振り返ると、
+コロ先輩が幽霊のように
+俺の背後に立っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんですか？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（見て、お化け屋敷）」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩がそれを指さした。
+<PAUSE>
+//【背景：ジョンの館＿外観＿夜】【時間：夜】
+//　※TentacleandWitches_nc001cより流用
+//nc355a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc355a,IN, 1000
+<NAME_PLATE>
+　真っ白な霧がスーッと晴れていく。
+<PAUSE>
+<NAME_PLATE>
+　幽霊の森が開けた先にそれが見えた。
+<PAUSE>
+<NAME_PLATE>
+　この世から消えたはずの
+魔術師ジョンの屋敷が。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,110 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//シーン開始。
+//【背景：プレイルーム＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC048aを流用
+<BGM_PLAY>bgm304,1000
+<BG>nc155a,IN, 1000
+<SE_PLAY>se002_01
+<NAME_PLATE>
+　ＢＥＥＰ……ＢＥＥＰ……
+<PAUSE>
+<ACTOR>0,ts_m052a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セキュリティ
+「つ、強い……応援を！」
+<PAUSE>
+//　※立ち絵
+//　　ダークガード
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　鳴りやまない警報音。
+<PAUSE>
+<NAME_PLATE>
+　辺りにはドローンの残骸と、
+警備兵の燃え残りが散らばり、
+繊維の焦げる臭いが充満していた。
+<PAUSE>
+<SE_PLAY>se054
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>警備員たち
+「無理だ逃げろ！」
+「どけ！　私が先だ！！」
+<PAUSE>
+<NAME_PLATE>
+　アスタロトの圧倒的な力の前に、
+警備員たちは総崩れになり我先にと逃げ出す。
+<PAUSE>
+<ACTOR>1,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「あら？　もう出て来ないの？
+　つまらないわ……。
+　じゃ、先へ行かせてもらうわね」
+<PAUSE>
+//　※立ち絵
+//　　アスタロト
+//　　　＊カードイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　アスタロトは焦げた部屋を顧みもせず、
+さっさと上の階へと向かった。
+<PAUSE>
+//【背景：和室＿夜】【時間：夜】
+//　※戦国魔姦_nc018aを流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm206,1000
+<BG>nc198b,IN, 1000
+<ACTOR>1,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アスタロト
+「あら、きれいね」
+<PAUSE>
+//　※立ち絵
+//　　アスタロト
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　階段を上がると、そこは趣向を変え、
+金箔の張り巡らされた
+絢爛豪華な和室だった。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「ここが最上階かしら？
+　誰かいないの？」
+<PAUSE>
+<NAME_PLATE>
+　アスタロトが呼びかけた
+――その時。
+<PAUSE>
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　――ドォォン……
+<PAUSE>
+<NAME_PLATE>アスタロト
+「！？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　頭上で激しい音がし、
+建物が揺れた。
+<PAUSE>
+<NAME_PLATE>
+　見れば天井に、吹き抜けかと思う程の
+大穴が空いている。
+<PAUSE>
+<NAME_PLATE>
+　そして、そこから――
+<PAUSE>
+//→Section４終了
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

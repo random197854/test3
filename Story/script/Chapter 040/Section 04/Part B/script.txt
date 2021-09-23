@@ -1,0 +1,190 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：センザキ-五車関連の拠点内部（破壊）＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc035b流用
+<BGM_PLAY>bgm505,1000
+<BG>nc096b,IN, 1000
+<NAME_PLATE>
+　闘いは終わった。
+<PAUSE>
+<NAME_PLATE>
+　センザキにおける五車の拠点は破壊され、
+そこにいた対魔忍は全て死体となって
+転がっていた。
+<PAUSE>
+<NAME_PLATE>
+　五車の精鋭たちが守る重要拠点であったが
+あまりにも戦力が違いすぎた。
+<PAUSE>
+<NAME_PLATE>
+　一方的な虐殺であった。
+<PAUSE>
+<NAME_PLATE>
+　それこそを望んでいたのであろう、
+瓦礫の山、血の海で扇舟は哄笑していた。
+<PAUSE>
+<ACTOR>0,ts_m319a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>扇舟
+「アハハハハハハハハハハハハハハ！！
+　弱い、弱すぎるわ、アサギ！」
+<PAUSE>
+//　※立ち絵
+//　　井河扇舟01（科学ＳＲ）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>扇舟
+「これが今の五車の精鋭！？
+　ずいぶんと駒の質が落ちたわね！！」
+<PAUSE>
+<NAME_PLATE>扇舟
+「あなたがご執心だった五車学園とやらも
+　大したことがなさそうね！
+　アハハハハハハハハハハ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m122a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m122a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>井河長老衆対魔忍
+「………………」
+「………………」
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜魔性＞
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<NAME_PLATE>
+　扇舟の配下たちも、
+高笑いこそしていなかったが、
+誇らしげに主の前に跪いている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　一方、襲撃に参加した他の者たちは
+白けた様子で遠巻きにそれを見ていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m209a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m178a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>メイジャー
+「そりゃこんだけ大勢で攻めりゃな。
+　別に自慢にもならねえ」
+<PAUSE>
+//　※立ち絵
+//　　メイジャー立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ミランダ
+「ウフフ。
+　復讐に燃えるのは結構だけれど
+　それだけじゃね。まあ別にいいけど♪」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m225a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ニールセン
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　沙無羅威ニールセン立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　皮肉げなメイジャー、嘲るようなミランダ、
+ここでも無言を保つニールセン。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m253a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m198a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　斉藤半三と
+ルイス“Ｔｈｅ　Ｓｈａｍａｎ”は
+さらに冷徹に扇舟らを評していた。
+<PAUSE>
+<NAME_PLATE>半三
+「長く付き合う相手ではないな」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半三
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ルイス
+「すまねえな、相棒。
+　妙な仕事に付き合わせちまってよ」
+<PAUSE>
+//　※立ち絵
+//　　ルイス“The Shaman”
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>半三
+「別にいい。
+　だがこの襲撃には“神田旅団”も
+　参加するのではなかったのか？」
+<PAUSE>
+<NAME_PLATE>ルイス
+「そういう話だったがな。
+　“タクシャカ”とナーガ族の部隊も不在だ」
+<PAUSE>
+<NAME_PLATE>ルイス
+「どうも最終的に“ボス”と意見が
+　折り合わなかったらしい」
+<PAUSE>
+<NAME_PLATE>半三
+「峰舟子（みねふなこ）か。
+　好戦的な老将軍と聞いていたが意外だな」
+<PAUSE>
+<NAME_PLATE>ルイス
+「色々と思うところがあるのだろう。
+　あれを知っていれば当然だ」
+<PAUSE>
+<NAME_PLATE>半三
+「いずれにしろ、五車と外部の連携を
+　しばらく麻痺させることはできた。
+　今はあの若作りを喜ばせておいてやろう」
+<PAUSE>
+<NAME_PLATE>ルイス
+「それが正解だな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>扇舟
+「待っていなさいアサギ！
+　次はお前のいる五車町よ！」
+<PAUSE>
+//　※立ち絵
+//　　井河扇舟01（科学ＳＲ）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>扇舟
+「お前の可愛い生徒たちを
+　一人残らず始末してあげるわ」
+<PAUSE>
+<NAME_PLATE>扇舟
+「対魔忍としての誇りも、人としての尊厳も
+　何もかもズタズタにしてからね！
+　アハハハハハハハハハ！！」
+<PAUSE>
+<NAME_PLATE>
+　井河扇舟は一人、復讐心をたぎらせて、
+高笑いを続けていた。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

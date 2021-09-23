@@ -1,0 +1,569 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：異世界廊下＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc012aを流用
+<BGM_PLAY>bgm320,1000
+<BG>nc284a,IN, 1000
+<ACTOR>0,ts_m168b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>化けクラゲ本体
+「！！！！！！！！！！」
+<PAUSE>
+//　※立ち絵
+//　メ・デューズ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　化けクラゲの本体は見るからに慌てた様子で
+その醜い身体をグニャグニャと
+くねらせていた。
+<PAUSE>
+<NAME_PLATE>
+　どうせまた二次元平面に
+隠れようとしているのだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「逃がさないよ！
+　忍法！　桜花春影！！」
+<PAUSE>
+//　※立ち絵
+//　　さくら＿立ち絵
+//　　　＊【天真影傑】井河さくらを流用。
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>black,IN, 500
+<NAME_PLATE>
+　さくらは次なる忍法を使った。
+<PAUSE>
+<NAME_PLATE>
+　影で作られた桜の花びらが舞い上がり、
+化けクラゲの身体にビッシリとへばり付く。
+<PAUSE>
+<BG>nc284a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>化けクラゲ本体
+「！？！？！？！？！？！？！？！？」
+<PAUSE>
+<NAME_PLATE>
+　化けクラゲはその影に閉じ込められ、
+二次元平面に戻ることもできずに、
+無様にもがくばかりだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「トドメは任せたよ！！」
+<PAUSE>
+<ACTOR>0,chr_t0225a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「おう！！」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは黒炎の刃を振りかぶった。
+<PAUSE>
+<NAME_PLATE>さくら
+「ほいっ！」
+<PAUSE>
+<NAME_PLATE>
+　さくらは影で固まった化けクラゲを
+パスするように放り投げた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「魂までも燃え尽きるがいい！！
+　邪炎ノ龍爪剣！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　魔剣ダークフレイムが
+影もろとも敵を切り裂いた瞬間、
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<NAME_PLATE>
+　邪龍グニエルが放つ魔界の業火が
+化けクラゲの本体を、今度こそ完全に
+この世から消滅させていた。
+<PAUSE>
+<BG>nc284a,IN, 1000
+<ACTOR>1,chr_t0157a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「やったー！　勝利のＶ！」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>
+　さくらは歓声を上げる。
+その顔は普段と同じ、気楽なものだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0225a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>イングリッド
+「れ、礼を言うぞ……井河さくら……」
+<PAUSE>
+<NAME_PLATE>
+　一方、邪龍グニエルを召喚した
+イングリッドはその反動で片膝を突いていた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「貴様のおかげで……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　それを最後まで言うことができず、
+彼女は精根尽き果てたように意識を失った。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――――――――
+<PAUSE>
+//【背景：デモンズアリーナ（異世界連結）＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc042a、装甲騎女イリス＿nc011aを組み合わせて流用。
+//【背景：デモンズアリーナ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc042aより流用
+//※背景切り替えで、連結がとけたことを示す。
+<UI_DISP>OFF, 0
+<BG>nc281a,IN, 1000
+<WAIT>500
+<BG>nc180a,IN, 1000
+<WAIT>1000
+//【背景：イングリッド執務室＿昼夜共通】【時間：夜】
+//　※監獄戦艦3_nc008aより流用
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc280a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>イングリッド
+「こ、ここは……」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊カードイラストより流用
+//　※イングリッド立ち絵、無印に戻す。
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　イングリッドが目を覚ますと、
+そこは彼女の執務室だった。
+<PAUSE>
+<NAME_PLATE>
+　どうやらベッドに寝かされていたようだ。
+<PAUSE>
+<NAME_PLATE>
+　部下たちが彼女を見下ろしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「イングリッド様！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>リーナ
+「お目覚めになったのですね！
+　よかった、よかった……ううっ」
+<PAUSE>
+<NAME_PLATE>
+　リーナは涙ぐんでいた。
+つぶらな瞳が潤んでいる。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「魔界騎士が泣くな、馬鹿者」
+<PAUSE>
+<NAME_PLATE>リーナ
+「は、はひ……
+　申し訳ありません……ずびび」
+<PAUSE>
+<NAME_PLATE>
+　声をかすれさせ、鼻まで啜っていた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「まったく……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　素直すぎる部下に笑みが浮かぶ。
+<PAUSE>
+<NAME_PLATE>
+　ブロマイドのことなど
+色々と言いたいこともあったが、
+今はやめておくことにした。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「イ、イングリッドお姉ちゃん。
+　わたしも、ここにいるよ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ドロレスか」
+<PAUSE>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「も、もっと寝ててもよかったのに。
+　イングリッドお姉ちゃんの寝顔、
+　け、結構可愛かったし……ウェヒヒ」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス＿立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>
+　ドロレスはいつも通りだ。
+家には戻らずにイングリッドの目覚めを
+待っていてくれたようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　二人がこうやって
+普通にしているということは―――
+<PAUSE>
+<NAME_PLATE>イングリッド
+「どうやら呪いは解けたようだな」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは二人の後ろに
+隠れるように立っていたエレーナに
+声をかけた。
+<PAUSE>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「は、はい……
+　呪いの影響はなくなった……みたいです」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>エレーナ
+「異世界との繋がりも、その、
+　なくなりました。もう、大丈夫です……
+　気のせいじゃないです」
+<PAUSE>
+<NAME_PLATE>
+　エレーナはおどおどしていたが、
+いつもよりは多少は自信がありそうな
+調子で答えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「そうか……
+　お前たち、心配をかけたな……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「邪龍の力をお使いになったのですか？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「敵もなかなか手強くてな。
+　私はあそこから一人で出てきたのか？」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの問いに、
+リーナとドロレスは知らないという顔をし、
+エレーナが躊躇いがちに答えた。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「ええと……はい、私は見てないのですが、
+　護衛の人の話では、お一人で出てきて、
+　そこで倒れられたと……」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「井河さくらはどうした？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「それは……多分、一緒に出てきて、
+　もう帰ったんじゃないでしょうか？
+　あの人は……その、対魔忍ですし」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、
+　お叱りを受けるかもしれませんが、
+　井河さくらには礼を言いたかったです」
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「叱りはせん。
+　私もあいつには助けられた。
+　当然のことだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「それって、ふ、フラグ？
+　ライバルの妹との禁断の関係。
+　ゆ、百合キタコレ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「おかしなことを言うな。
+　まったく」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　イングリットは苦笑し、
+もう少し休ませてくれと言って、
+リーナたちを下がらせる。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc280a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして静かになったところで、
+他に誰もいない部屋でこう呼びかけた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「井河さくら、いるのだろう？」
+<PAUSE>
+<NAME_PLATE>さくら
+「あちゃー、バレてた？」
+<PAUSE>
+//　※立ち絵
+//　　さくら＿立ち絵
+//　　　＊【天真影傑】井河さくらを流用。
+<ACTOR>0,chr_t0157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　さくらが床の影からするりと現れた。
+<PAUSE>
+<NAME_PLATE>さくら
+「隠れててごめんね。
+　何も言わずに帰るのも
+　ちょっとあれだしね」
+<PAUSE>
+<ACTOR>0,chr_t0157a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「それはいい。
+　気を遣わせたな。礼を言う」
+<PAUSE>
+<NAME_PLATE>さくら
+「ん？　なにが？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「あそこで気絶した私を
+　部下にそれと気づかれないように
+　運んでくれたのだろう？」
+<PAUSE>
+<NAME_PLATE>さくら
+「魔界騎士が対魔忍に担がれて脱出とか
+　あんまりカッコつかないもんね。
+　まあ、サービスってことで」
+<PAUSE>
+<NAME_PLATE>さくら
+「でも、危ないとこだったよ。
+　もう少しで二人ともあっちに
+　取り残されるとこだったんだから」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「私を置いていこうと、
+　いや、無様に倒れた私を
+　殺そうとは思わなかったのか？」
+<PAUSE>
+<NAME_PLATE>さくら
+「そんなの後味が悪くて、
+　わたしが夜眠れなくなっちゃうよ」
+<PAUSE>
+<NAME_PLATE>
+　当たり前のように言うさくらに
+イングリッドは納得したように頷いた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ふっ、一つ借りができたな。
+　しかし、私は魔界騎士でお前は対魔忍。
+　互いに相容れぬ運命だ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「だからノマドの魔界騎士としてではなく、
+　ただのイングリッドとして、
+　一度だけお前に手を貸してやろう」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは魔剣を僅かに抜き、
+誓いの証としてカチンと金打を鳴らした。
+<PAUSE>
+<NAME_PLATE>さくら
+「イングリッドちんは真面目だねー」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そのちんはよせ」
+<PAUSE>
+<NAME_PLATE>さくら
+「ごめんごめん。
+　じゃ、そろそろ帰ろうかな」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「世話になったな。
+　そういえば、お前は呪いにかかって
+　いなかったのか？」
+<PAUSE>
+<NAME_PLATE>
+　帰りがけのさくらに
+イングリッドはふと気づいたように尋ねた。
+<PAUSE>
+<NAME_PLATE>さくら
+「んー、ちょっと体が
+　変な感じかなってくらい。井河家の女は
+　そういう肉体変化系に強いんだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そ、そうか……」
+<PAUSE>
+<NAME_PLATE>
+　あっけらかんとした答えに、
+さすがのイングリッドも唖然とする。
+<PAUSE>
+<NAME_PLATE>さくら
+「そんじゃまたね……じゃなかった。
+　魔界騎士イングリッド！
+　次は必ず雌雄を決してやる！　ハハハハ！」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,chr_t0010a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　さくらは笑い声と共に影に消えていった。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「おかしな奴だ」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは呟いた。
+<PAUSE>
+<NAME_PLATE>
+　その顔にはなんとも言えない
+満足げな笑みが浮かんでいた。
+<PAUSE>
+//【背景：ヨミハラ闇の宮殿祭壇の間＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc018aより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc286a,IN, 1000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm504,1000
+<NAME_PLATE>
+　ヨミハラ最深部。
+<PAUSE>
+<NAME_PLATE>
+　そこにメイド姿の少女がいた。
+<PAUSE>
+<NAME_PLATE>
+　一人だ。
+<PAUSE>
+<NAME_PLATE>
+　少女は誰もいない闇に向かって話していた。
+<PAUSE>
+<NAME_PLATE>
+　氷のように冷たい口調で。
+<PAUSE>
+<ACTOR>0,chr_t0078a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリヤ
+「―――以上、
+　アスタロトはまだ動きを見せておりません。
+　引き続き監視を続けます」
+<PAUSE>
+//　※立ち絵
+//　　ユーリヤ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>ユーリヤ
+「それと、イングリッド様が
+　例の問題を解決されたようです。
+　異世界との連結もなくなっています」
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「ただ、それに関して一つご報告が」
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「イングリッド様と井河さくらとの間に
+　なんらかの接触があった模様です。
+　いかがなさいますか？」
+<PAUSE>
+<NAME_PLATE>
+　少しの間。
+<PAUSE>
+<NAME_PLATE>
+　少女の他、誰の声も聞こえなかったが、
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「―――はっ、承知致しました」
+<PAUSE>
+<NAME_PLATE>
+　少女は言い、恭しく頭を下げた。
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「では、失礼致します」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　頭を戻した次の瞬間、
+<PAUSE>
+<ACTOR>0,chr_t0078a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリヤ
+「あ、あれれ？　ふぇええ？
+　ユーリヤはなんでこんなところに？」
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「そもそもここはどこでしょう？
+　なにをしてるんでしょう？」
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「はっ！　いけないいけない！
+　こんなところでさぼっていたら、
+　ご主人様に見捨てられてしまいます」
+<PAUSE>
+<NAME_PLATE>ユーリヤ
+「早くお仕事に戻らないと。
+　はわわわわ～～～～～！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　まるで別人のように慌てた調子で
+メイド少女はドタバタと駆けだしていった。
+<PAUSE>
+<NAME_PLATE>
+　誰もいなくなったその場所に
+深い静寂が戻っていった。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

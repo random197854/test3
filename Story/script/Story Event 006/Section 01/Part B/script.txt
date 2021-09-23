@@ -1,0 +1,420 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：センザキ・薄暗い路地裏＿夜】【時間：夜】
+//　※対魔忍紅＿NC005aより流用
+<BGM_PLAY>bgm207,1000
+<BG>nc062a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m025a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>赤鬼
+「きょきょきょ！？
+　可愛い女の子のくせして
+　何というパワーと技の切れ味！？」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼立ち絵
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>まり
+「あっ、ありがとうございます！
+　私、ちょっと自信喪失気味だったから
+　褒めてもらえて嬉しいですっ」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>赤鬼
+「むむっ！？
+　そこでお礼を言うとは！？」
+<PAUSE>
+<NAME_PLATE>赤鬼
+「煽ってましゅね！？　あなた
+　ワタクシを煽ってるんでしゅね！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「い、いえ……！？
+　そんなつもりは……」
+<PAUSE>
+<NAME_PLATE>まり
+（どどどどうしよ！？
+　あっ、そう言えば、
+　前にふうまくんが――）
+<PAUSE>
+<NAME_PLATE>
+　まりは再び、小太郎と鹿之介の話を
+盗み聞きした時の事を思い出した。
+<PAUSE>
+<NAME_PLATE>
+　何やら新しく出会った相手を
+理解した時に称える言葉があるのだと。
+<PAUSE>
+<NAME_PLATE>まり
+「あ、あの、ぬ、ぬーぶっ！
+　赤鬼さんｎｏｏｂです！！！」
+<PAUSE>
+<NAME_PLATE>赤鬼
+「なッ！？？　ワタクシをｎｏｏｂだと！？
+　絶対許しゅません！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「あれぇ！？　な、なんで！？」
+<PAUSE>
+<NAME_PLATE>
+　怒りで赤さを増した赤鬼が
+襲いかかってくる。
+<PAUSE>
+<NAME_PLATE>
+　しかしまりはそれを得意の土遁の術を
+使って防ぎ、隙を突いて反撃する。
+<PAUSE>
+<NAME_PLATE>まり
+「え、えいっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドカッ！！
+<PAUSE>
+<NAME_PLATE>赤鬼
+「ぐぐっ！？　なんたる不覚――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se023
+</GROUP>
+<NAME_PLATE>
+　力自慢のまりのパンチがヒットし、
+赤鬼が体勢を崩す。
+<PAUSE>
+<NAME_PLATE>まり
+「やった！　今がチャンス――」
+<PAUSE>
+<NAME_PLATE>
+　トドメをさすべくまりが術を
+発動させようとするが。
+<PAUSE>
+<NAME_PLATE>まり
+（あ、でも……あまりケガしないように、
+　ちょっと威力を弱めて……）
+<PAUSE>
+<NAME_PLATE>
+　生来の優しさから攻撃の直前に
+迷いが出た。そこに――
+<PAUSE>
+<NAME_PLATE>赤鬼
+「な～んちゃって！！
+　ここで倒れたのはワタクシの演技！！
+　フランソワ、やっておしまいなさい！！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<GROUP>
+<SE_PLAY>se062
+<ACTOR>2,ts_m024a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランソワ
+「ガルルルルッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ブラッドドッグ立ち絵
+//　　　　＊決戦アリーナのモンスターイラスト流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「きゃっ！？」
+<PAUSE>
+<NAME_PLATE>
+　赤鬼が飼っているらしい
+魔界の猟犬だ。
+<PAUSE>
+<NAME_PLATE>
+　まりの注意が逸れた一瞬の隙を狙い、
+背後から首筋に飛びかかって――
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,500
+<GROUP>
+<SE_PLAY>se050
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<BG>nc062a,NONE
+<TRANSITION>TR01, IN,400
+<WAIT>500
+<SE_PLAY>se011
+<NAME_PLATE>魔物
+『ぐうっ！！？』
+<PAUSE>
+//　※立ち絵
+//　　本の魔人＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>まり
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　まりの喉元寸前まで迫っていた
+猟犬の鋭い牙――。
+<PAUSE>
+<ACTOR>3,ts_m089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それを、負傷していた魔物が自分の
+体を盾にするようにして防いでいた。
+<PAUSE>
+<NAME_PLATE>赤鬼
+「きょきょ！！？
+　なぜアナタが人間など庇う！？」
+<PAUSE>
+<NAME_PLATE>魔物
+『彼女が先に私を助けようとしてくれた……
+　理由はそれで十分』
+<PAUSE>
+<NAME_PLATE>魔物
+『さあお嬢さん、
+　この好機を逃さぬよう……』
+<PAUSE>
+<NAME_PLATE>
+　痛みに呼吸を乱しながらまりに
+囁く魔物。
+<PAUSE>
+<NAME_PLATE>
+　意外な事態に戸惑ったのか、
+赤鬼と猟犬の動きが止まっていた。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「あっ！？　は、はい！！
+　土遁・土劉破（どりゅうは）ッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se057
+<NAME_PLATE>
+　まりの拳が地面に突き刺さると
+同時に――
+<PAUSE>
+<NAME_PLATE>
+　赤鬼と猟犬の周囲の地面が盛り上がり、
+大小様々な土の棘が襲いかかった。
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se005
+</GROUP>
+<NAME_PLATE>赤鬼たち
+「ふごーーーーーーーっ！？」
+「キャイン！！？」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼立ち絵
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+//　※立ち絵
+//　　ブラッドドッグ立ち絵
+//　　　　＊決戦アリーナのモンスターイラスト流用
+<NAME_PLATE>
+　悲鳴を上げる赤鬼と猟犬。
+まりはさらに土砂を操り、積み上げ、
+赤鬼たちをその中に封じ込めた。
+<PAUSE>
+<NAME_PLATE>まり
+「や、やった！！
+　今度こそ、勝ったかも……」
+<PAUSE>
+<ACTOR>3,ts_m089a,CENTER, CENTER, IN, linear, 1000
+<BGM_STOP>1000
+<NAME_PLATE>魔物
+『ええ。お見事でしたね、
+　対魔忍の篠原まり――。さあ、
+　この隙にここから離れましょう』
+<PAUSE>
+//　※立ち絵
+//　　本の魔人＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　シルクハットの魔物がヨロヨロと
+立ち上がり、まりに囁いた。
+<PAUSE>
+<NAME_PLATE>まり
+「えっ？　どうして私が……」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍だとわかったのだろう、
+と訝しく思うまり。
+<PAUSE>
+<NAME_PLATE>
+　今使った土遁の術を見て
+推測したのだろうか。
+<PAUSE>
+<NAME_PLATE>魔物
+『……どうしました？
+　その鬼は強敵だ。
+　すぐに復活してしまいますよ』
+<PAUSE>
+<NAME_PLATE>まり
+「あっ、そうですね……！
+　行きましょう！」
+<PAUSE>
+//【黒画面】
+//【背景：センザキ・無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>3,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc066a,IN, 1000
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m089a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　路地を離れたまりと魔物は、
+無人の工事現場で立ち止まった。
+<PAUSE>
+<NAME_PLATE>魔物
+『ぐぅ、申し訳ない……。
+　もう少し逃げた方が良かったのですが……』
+<PAUSE>
+//　※立ち絵
+//　　本の魔人＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　ガクッと地面に膝を突く魔物。
+<PAUSE>
+<NAME_PLATE>
+　赤鬼にやられたのだろうか。
+その体には無数の傷が刻まれ、
+少しずつ妖気が漏れ出していた。
+<PAUSE>
+<NAME_PLATE>まり
+「い、いえ……大丈夫ですから、
+　今は少し休んでください……」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>魔物
+『……ありがとうございます、まり。
+　あなたには助けて貰いっぱなしだ』
+<PAUSE>
+<NAME_PLATE>まり
+「そんな……私の方こそ、危ない所を
+　助けていただきましたし……」
+<PAUSE>
+<NAME_PLATE>
+　今にも崩れ落ちそうな魔物を
+支えながらまりが言う。
+<PAUSE>
+<NAME_PLATE>
+　さっきの戦闘の際、魔物が身を
+挺して庇ってくれなければ、
+<PAUSE>
+<NAME_PLATE>
+　まりは猟犬に喉元を切り裂かれて
+死んでいたかも知れない。
+<PAUSE>
+<NAME_PLATE>まり
+（うう……やっぱり、
+　私ってダメだなぁ……）
+<PAUSE>
+<NAME_PLATE>
+　助けに入ったつもりが、
+いつものドジのせいで逆に
+助けられてしまった……。
+<PAUSE>
+<NAME_PLATE>魔物
+『フフ……。
+　気にしなくて構いませんよ。
+　元々私が原因の事です』
+<PAUSE>
+<NAME_PLATE>魔物
+『それに、あなたのような
+　善良な子に怪我をさせたら、
+　私の方こそ居たたまれない……』
+<PAUSE>
+<NAME_PLATE>まり
+「……」
+<PAUSE>
+<NAME_PLATE>まり
+（やっぱりこの人……
+　魔物さんだけど、悪い人じゃないよね……）
+<PAUSE>
+<NAME_PLATE>
+　魔族や魔物は、人に仇なす
+危険な存在――まりはそんな風に
+学園で教えられていた。
+<PAUSE>
+<NAME_PLATE>
+　しかし目の前の魔物は、
+少し違っているように思える。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>魔物
+『あぐっ――』
+<PAUSE>
+<ACTOR>0,chr_t0119a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　まりがそんな事を考えていると、
+魔物が苦しそうに体を折った。
+<PAUSE>
+<NAME_PLATE>まり
+「ああ、魔物さん！？
+　と、とにかく手当をしないと！」
+<PAUSE>
+<NAME_PLATE>まり
+「この傷――あの赤鬼さんに
+　やられたんですよね！？
+　病院でどうにかなりますか！？」
+<PAUSE>
+<NAME_PLATE>魔物
+『……気にしないでください、まり。
+　もはや私の体は……』
+<PAUSE>
+<NAME_PLATE>？？？
+「――離れろっ！！！　そいつは、
+　人を惑わす邪悪な魔人だ！！！」
+<PAUSE>
+<NAME_PLATE>まり
+「えっ……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　突然の鋭い声にまりが振り向く。
+<PAUSE>
+<NAME_PLATE>
+　そこには――。
+<PAUSE>
+<ACTOR>4,kn_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心願寺紅
+「……ようやく追いついた。
+　手間をかけさせてくれるな、
+　『本の魔人』よ」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　うずくまる魔物に向けた冷たい視線。
+<PAUSE>
+<NAME_PLATE>
+　二刀を構えた女忍者――
+対魔忍・心願寺紅がそこにいた。
+<PAUSE>
+//→Section１終了
+<ACTOR_OUT>4,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

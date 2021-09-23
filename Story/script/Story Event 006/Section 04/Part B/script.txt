@@ -1,0 +1,355 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：センザキ・裏通り＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc024aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc065a,IN, 1000
+<ACTOR>0,ts_m048a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se086
+<NAME_PLATE>レッサーサラマンダー
+「ＧＲＵＵＵＵＵＵＵ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　レッサーサラマンダー
+//　　　＊モンスターイラストから流用
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se047_01
+</GROUP>
+<NAME_PLATE>
+　――ガキィィン！！
+<PAUSE>
+<NAME_PLATE>紅
+「クッ……」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,kn_t004i,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+（ふむ。少々難敵だな……）
+<PAUSE>
+<NAME_PLATE>
+　紅の二刀がことごとく
+魔獣の硬い鱗に弾かれる。
+<PAUSE>
+<NAME_PLATE>
+　紅が酔って動きが鈍く
+なっている事もあるが、
+それ以上に相手が手強かった。
+<PAUSE>
+<NAME_PLATE>
+　魔獣は炎を操り、さらに達人級の
+技量で槍による攻撃をしかけてくる。
+<PAUSE>
+<NAME_PLATE>メイフォン
+「アハハハ！　さあ、消し炭になる
+　前に答えなさい！　魔人はどこ！？」
+<PAUSE>
+//　※立ち絵
+//　　メイフォン戦闘立ち絵
+//　　　　＊アンネローゼ立ち絵より流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「ああっ！？　く、紅さんっ！？」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>紅
+「………大丈夫だ、まり。
+　君は下がっていろ」
+<PAUSE>
+<NAME_PLATE>
+　慌てて助けに入ろうとした
+まりを紅が制した。
+<PAUSE>
+<NAME_PLATE>
+　まりも酔っ払ってフラフラで、
+戦力には数えられそうにない。
+<PAUSE>
+<NAME_PLATE>紅
+（ならば――）
+<PAUSE>
+<NAME_PLATE>紅
+「仕方がない。この力はあまり
+　使いたくなかったが……ひっく！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　ふいに紅が構えを解いた。
+<PAUSE>
+<NAME_PLATE>
+　薄く目を閉じ、ゆっくりと
+己の内側に精神を集中させる。
+<PAUSE>
+<NAME_PLATE>メイフォン
+「あ～ら、どうしたの対魔忍？
+　もう降参かしらァ！！？」
+<PAUSE>
+<NAME_PLATE>紅
+「………降参？　ふふっ」
+<PAUSE>
+<NAME_PLATE>
+　かすかに紅が笑う、
+すると――。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+</GROUP>
+<NAME_PLATE>
+　ゴウッ！！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「ふえええぇっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、凄まじい勢いで噴き出す
+“魔性”のオーラ。
+<PAUSE>
+<NAME_PLATE>
+　それは静かに佇む紅の体を包み、
+その肌、瞳の色、そして身につけた
+戦闘スーツすら変化させ――。
+<PAUSE>
+<ACTOR>1,kn_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メイフォン
+「な、なんなのっ！？
+　この圧倒的な魔の氣……！？」
+<PAUSE>
+//　※注『氣』のフォントがなかった場合『気』でお願いします。
+//　※立ち絵
+//　　メイフォン戦闘立ち絵
+//　　　　＊アンネローゼ立ち絵より流用
+<ACTOR>1,kn_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「…………さて。
+　対魔忍・心願寺紅、参る」
+<PAUSE>
+//　※立ち絵
+//　　紅覚醒通常立ち絵
+//　　　＊対魔忍紅の立ち絵から流用
+<SE_PLAY>se086
+<NAME_PLATE>レッサーサラマンダー
+「ＧＲＵＵＵＵＵＵＵＵＵ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　レッサーサラマンダー
+//　　　＊モンスターイラストから流用
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>1,CENTER,linear,600
+</GROUP>
+<NAME_PLATE>
+　魔のオーラを纏った紅が疾駆する。
+<PAUSE>
+<SE_PLAY>se108
+<NAME_PLATE>
+　咆吼する魔獣の炎と槍をかいくぐり、
+一瞬でその懐へ―――
+<PAUSE>
+<ACTOR>1,kn_t003h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「神眼剣・“業魔の陣”」
+<PAUSE>
+//　※立ち絵
+//　　紅覚醒戦闘立ち絵
+//　　　＊対魔忍紅の立ち絵から流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　“神眼”――。
+<PAUSE>
+<NAME_PLATE>
+　それが、ふうま八将・心願寺家の
+忍が代々受け継ぐ邪眼である。
+<PAUSE>
+<NAME_PLATE>
+　この世ならざるモノを見、
+<PAUSE>
+<NAME_PLATE>
+　その“存在”そのものを見定め、
+<PAUSE>
+<NAME_PLATE>
+　圧倒的な剣技によってそれを断つ――。
+<PAUSE>
+<NAME_PLATE>
+　強大な再生能力を持つ魔人や
+吸血鬼の如き上級魔族であろうとも、
+<PAUSE>
+<NAME_PLATE>
+　“存在”そのものを断たれれば
+滅ぶより他に途はなく。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se108_01
+<BG>ef004a,NONE
+</GROUP>
+<NAME_PLATE>
+　当然――魔獣の鱗如きで抗うなど
+不可能であった。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<BG>ef005a,NONE
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レッサーサラマンダー
+「ＧＹＡＡＡＡＡＡＡＡ！！？？」
+<PAUSE>
+//　※立ち絵
+//　　レッサーサラマンダー
+//　　　＊モンスターイラストから流用
+<BG>nc065a,IN, 500
+<SE_PLAY>se023
+<NAME_PLATE>
+　苦悶の叫びを上げてサラマンダーの
+巨体が崩れ落ちた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,kn_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「………次は貴様か、魔女？」
+<PAUSE>
+//　※立ち絵
+//　　紅覚醒通常立ち絵
+//　　　＊対魔忍紅の立ち絵から流用
+<NAME_PLATE>メイフォン
+「ぐっ！？　……ひ、退くわよ！！
+　あんなヤバイ化け物がいるなんて
+　こっちは聞いちゃいないっ！！」
+<PAUSE>
+//　※立ち絵
+//　　メイフォン戦闘立ち絵
+//　　　　＊アンネローゼ立ち絵より流用
+//　※立ち絵
+//　　魔族傭兵（男）
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※立ち絵
+//　　魔族傭兵（女）
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>まり
+「あっ！？？」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<SE_PLAY>se054
+<NAME_PLATE>
+　状況が不利と覚ったのだろう。
+苛立ったように号令したメイフォンが
+裏路地の闇へと姿を消した。
+<PAUSE>
+<ACTOR>1,kn_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「やれやれ。またバケモノか」
+<PAUSE>
+//　※立ち絵
+//　　紅通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍紅の立ち絵から流用
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>1,chr_t0006h,CENTER, CENTER, NONE, linear, 0
+</GROUP>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　苦笑した紅が構えを解く。
+<PAUSE>
+<NAME_PLATE>
+　と同時に、“魔”のオーラの放出が
+止まり、紅は元の姿に戻っていた。
+<PAUSE>
+<ACTOR>1,chr_t0006h,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>まり
+「く、紅さん……大丈夫ですか……
+　っていうか、今のは……？」
+<PAUSE>
+<ACTOR>1,chr_t0006g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「あれは、何というか……
+　私の特技のようなものだ」
+<PAUSE>
+<ACTOR>1,chr_t0006a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「おかげで酔いも醒めたし、
+　“眼”もよく見えるようになった」
+<PAUSE>
+<NAME_PLATE>まり
+「は、はあ？　特技……？」
+<PAUSE>
+<NAME_PLATE>
+　首を傾げつつも、やがて
+まりがにっこりと笑う。
+<PAUSE>
+<NAME_PLATE>まり
+「でも、良かったですよね！
+　あのボスの人が逃げちゃったし、
+　もう誰も追ってこないかも」
+<PAUSE>
+<NAME_PLATE>紅
+「ああ、恐らくな。
+　他の組織が動いている様子もないし
+　――だが、それよりも」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se007
+</GROUP>
+<NAME_PLATE>
+　キィィイィン！！！
+<PAUSE>
+<NAME_PLATE>まり
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　紅の突然の斬撃――。
+<PAUSE>
+<NAME_PLATE>
+　それを、まともに走れないほど
+酔っていたはずのまりがあっさりと
+回避した。
+<PAUSE>
+<NAME_PLATE>まり
+「と、突然なにをするんですか
+　紅さん……っ！！？」
+<PAUSE>
+<ACTOR>1,kn_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「ふっ、白々しい――。
+　先に言っておいたはずだがな」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　紅の二刀が、怯えた顔の
+まりに向けられた。
+<PAUSE>
+<NAME_PLATE>紅
+「もし、お前が妙な動きを
+　見せれば叩き切る――」
+<PAUSE>
+<NAME_PLATE>紅
+「今、“そこ”にいるのは
+　お前だろう――『本の魔人』？」
+<PAUSE>
+<NAME_PLATE>まり
+「……………………」
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

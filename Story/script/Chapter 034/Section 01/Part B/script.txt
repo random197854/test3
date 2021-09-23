@@ -1,0 +1,189 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc017aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc279a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m052a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>兵士
+「殺れ！」
+<PAUSE>
+//　※立ち絵
+//　　ダークガート
+//　　　＊モンスターイラストより流用
+//　　ハイオーク
+//　　　＊モンスターイラストより流用
+//　　ハイオークチーフ
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　足を踏み出すと同時に
+兵士たちは発砲してきた。
+<PAUSE>
+<NAME_PLATE>
+　見た目が子供であろうが、
+容赦なく殺しにかかる。
+<PAUSE>
+<NAME_PLATE>
+　そこに一切の躊躇いはない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m236a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>黒斗
+「うん、それでいい」
+<PAUSE>
+//　※立ち絵
+//　　黒斗（魔性差分）
+//　　　※カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m236b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　足元から闇の魔獣を出現させた。
+<PAUSE>
+<NAME_PLATE>
+　放たれた銃弾を軽く受け止め、
+兵士たちの身体にそれを絡みつかせる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>衛兵
+「ぐううっ」
+「な、なんだこれは！？」
+「貴様っ！？　どこの魔族だ！」
+<PAUSE>
+<NAME_PLATE>
+　あとほんの少し力を入れれば、
+全員が肉塊となって弾け飛ぶ。
+<PAUSE>
+<NAME_PLATE>
+　だがそれはしない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>イングリッド
+「待て待て待てーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ノマド最強の魔界騎士、
+イングリッドが現れた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「お前たち止めろ！
+　このお方はブラック様だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　イングリッドは兵士達を制すると、
+さっと跪いた。
+<PAUSE>
+<ACTOR>0,ts_m236a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>黒斗
+「君たち、悪かったね」
+<PAUSE>
+//　※立ち絵
+//　　黒斗立ち絵
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　兵士達を押さえつけていた
+闇の魔獣を解いてやる。
+<PAUSE>
+<NAME_PLATE>兵士
+「ブ、ブラック様？」
+「しかし、そのお姿は……？」
+<PAUSE>
+<NAME_PLATE>
+　兵士達は戸惑いつつも、
+イングリッドに倣って膝を突く。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ブラック様、
+　兵士たちは知らぬこととはいえ、
+　ご無礼いたしました」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「このお詫びはいかようにも」
+<PAUSE>
+<NAME_PLATE>黒斗
+「気にしてないよ。
+　ただ今は黒斗と呼んでくれるかな？
+　名は体を表すというからね」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「はっ、黒斗様。
+　なぜ“傀儡子（くぐつ）”を
+　お使いなのでしょうか？」
+<PAUSE>
+<NAME_PLATE>黒斗
+「死霊卿がしつこくてね。
+　うんざりして使っているだけさ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「それでは我々近習のものをおそばに……」
+<PAUSE>
+<NAME_PLATE>黒斗
+「イングリッド。
+　君には君の役目があるんだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「と申されますと？」
+<PAUSE>
+<NAME_PLATE>黒斗
+「ノマドの中に裏切り者がいる」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>イングリッド
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　それを聞いた瞬間、
+魔界騎士の瞳に浮かんだ光は、
+尋常のものではなかった。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ノマドに裏切り者が……」
+<PAUSE>
+<NAME_PLATE>
+　低い声で繰り返す。
+<PAUSE>
+<NAME_PLATE>
+　横でそれを聞いた兵士が
+震え上がるほどの怒りに満ちた
+呟きだった。
+<PAUSE>
+<NAME_PLATE>黒斗
+「その狙いを探ってほしい」
+<PAUSE>
+<NAME_PLATE>黒斗
+「背後にいるのは……まあ、死霊卿だろうけど
+　裏切り者を操って何を企んでいるのかをね」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「御意」
+<PAUSE>
+<NAME_PLATE>黒斗
+「頼んだよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう言うと、
+黒斗は無数の闇のコウモリとなって
+いずこかへと消えていった。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

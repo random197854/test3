@@ -1,0 +1,222 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：米連地下秘密施設＿通路＿夜】//【時間：夜】
+<BG>nc017a,IN, 1000
+<BGM_PLAY>bgm407,1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　敵をかわしたり、倒したりしながら、
+どのくらい歩いただろうか。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし広いな。
+　こんな本格的な基地を、
+　米連が秘密裡に建設してたなんてな」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ますます捕まるわけにいかないわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>鹿之助
+「……ん？　おいふうま、
+　こっちに広い空間があるみたいなんだが」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「こっちって、どう見ても壁じゃない。
+　鹿之助ちゃん、疲れてるんじゃないの？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そうかなあ……」
+<PAUSE>
+<NAME_PLATE>俺
+「いや待て。
+　これは壁じゃない……扉だ！」
+<PAUSE>
+//【背景：米連地下秘密施設＿通信室＿夜】//【時間：夜】
+<BG>nc018a,IN, 1000
+<NAME_PLATE>俺
+「おお……！
+　よくやったぞ鹿之助、端末だ」
+<PAUSE>
+<NAME_PLATE>
+　通路の壁には巧妙に隠された扉があり、
+その向こうには端末の並ぶ部屋が
+広がっていた。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助でなければ
+絶対に気付けなかっただろう。
+<PAUSE>
+<NAME_PLATE>俺
+「俺はさっそくデータを抜いてみる。
+　お前たちは敵を警戒しててくれ」
+<PAUSE>
+<ACTOR>2,s_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「おう！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「まかせといて」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+（さて、と……）
+<PAUSE>
+<NAME_PLATE>
+　俺は端末のひとつに向かい、
+ネットワークへのアクセスを試してみる。
+<PAUSE>
+<NAME_PLATE>
+　『Ｐａｓｓｗａｒｄ：■＿』
+<PAUSE>
+<NAME_PLATE>俺
+（パスワードか。
+　まあ、そうだよな……）
+<PAUSE>
+<NAME_PLATE>
+　簡単にアクセスできるとは思っていない。
+だが、俺の依頼主は情報屋である。
+<PAUSE>
+<NAME_PLATE>俺
+（“ギャングアジトの端末への
+　アクセスコード”だと聞いたものだが……）
+<PAUSE>
+<NAME_PLATE>
+　俺は、蝶が箔押しされた
+メモ用紙に手書きされた、
+文字の羅列を入力してみた。
+<PAUSE>
+<NAME_PLATE>俺
+「お……つながった」
+<PAUSE>
+<NAME_PLATE>
+　あまりにもあっさりと、
+米連のネットワークへ接続される。
+<PAUSE>
+<NAME_PLATE>俺
+（おいおい……米連ネットワークのアクセス
+　コードだぞ。何で持っているんだ？
+　あの仮面女は何者なんだ……）
+<PAUSE>
+<NAME_PLATE>
+　いや、そんなことは後で考えよう。
+俺は用意した大容量メモリに、
+全てのデータのダウンロードを開始した。
+<PAUSE>
+<NAME_PLATE>俺
+（さすがにデータが多いな。
+　しばらく時間がかかりそうだ）
+<PAUSE>
+<NAME_PLATE>
+　すると――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　なにやら画面に赤い派手な文字で、
+英文が流れてくる。
+<PAUSE>
+<NAME_PLATE>俺
+（セキュリティ……イーメ……エメ？
+　くそ、英語はひたすら
+　サボってたからな……）
+<PAUSE>
+<NAME_PLATE>
+　まあデータのコピーは進んでいるようだし
+済むまで持ちこたえてくれればいい。
+俺は祈るように残り時間を見つめていた。
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、画面が赤いけど？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　すると、気づいた蛇子がやってきて、
+文字を覗きこむ。
+<PAUSE>
+<ACTOR>0,h_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「セキュリティ警告……データのコピー不正
+　“データが不正にコピーされています、
+　セキュリティセンターに通報しました”？」
+<PAUSE>
+<NAME_PLATE>俺
+「おお、さすが優等生だな」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「感心してる場合じゃないでしょ！？
+　データのコピー、
+　思いっきり通報されてるじゃない！」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「つ、通報されるとどうなるんだ？？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「この位置が敵さんにバレる。
+　つまり基地中の敵が
+　ここに集まって来るだろうな」
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひぃいいいいい！？
+　それって大丈夫じゃないよな！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、下手すると袋のネズミだ。
+　ダウンロード完了まであと、５分………」
+<PAUSE>
+<ACTOR>0,h_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「嫌な予感してきたわ」
+<PAUSE>
+<ACTOR>2,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「おいいい！？
+　ももももう逃げようぜ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「逃げてもどうせ修羅場なんだ。
+　覚悟を決めて、データのダウンロードまで
+　防衛するぞ！！」
+<PAUSE>
+<NAME_PLATE>
+　部屋の外には、ガシャガシャと
+敵が集まってくる気配がする。
+<PAUSE>
+<NAME_PLATE>俺
+（来るか……！？）
+<PAUSE>
+//→Section３終了
+<UI_DISP>OFF, 500
+<BGM_STOP>1500
+<GROUP>
+<ACTOR>2,s_t001e,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,h_t002e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>1000
+<SCENARIO_END>

@@ -1,0 +1,185 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：東京キングダム裏町＿霧＿夜】【時間：夜】
+<BGM_PLAY>bgm601,1000
+<BG>nc016b,IN, 1000
+<ACTOR>0,ts_m055a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>腐った女
+「オオオオオオオオオオッ……！？」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビ姉御立ち絵
+<GROUP>
+<SE_PLAY>se010
+<ACTOR>0,ts_m055a,CENTER, CENTER, OUT, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドサッ。
+<PAUSE>
+<NAME_PLATE>
+　うろつくゾンビどもを撃退しながら、
+俺たちは機械仕掛けの蜘蛛を、
+見失わないように追っていく。
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「！！　あの子達がスピードを上げたわ。
+　急ぐわよ！」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「ああ……って」
+<PAUSE>
+<NAME_PLATE>俺
+「あーーー！！？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「な、なによ急にふうまちゃん！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>鹿之助
+「お、脅かすなよ！！！
+　ゾンビになっちゃったのかと
+　思っただろうが！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「いや、俺とした事が……
+　報酬の交渉を忘れてた！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,h_t004a,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<NAME_PLATE>鹿之助
+「報酬って……
+　あのオバサンから金を取る気かよ！
+　これは正義っていうか、世の為の仕事だろ」
+<PAUSE>
+<NAME_PLATE>俺
+「馬鹿！
+　他の米連組織を出し抜いて、
+　骸佐からウィルスを奪うんだぞ？」
+<PAUSE>
+<NAME_PLATE>俺
+「超危険きわまりない任務だ。
+　報酬を請求して当然だろ」
+<PAUSE>
+<ACTOR>1,h_t004g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「でもさ、ふうまちゃん。
+　事の発端は骸佐ちゃんだし、
+　報酬請求するなんて……」
+<PAUSE>
+<NAME_PLATE>俺
+「あのなあ……、
+　部隊を動かすのも、
+　何をするにも金がかかるんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「現地での資金調達は、
+　対魔忍部隊に認められた正当な権利だぞ」
+<PAUSE>
+<NAME_PLATE>
+　少ない小遣いでやりくりしている俺は、
+自然と説教にも力が入る。
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「おいおい金の亡者かよ、ふうま」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ちょっと幻滅よね」
+<PAUSE>
+<NAME_PLATE>俺
+「お、お前らなあ……」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001f,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,h_t004e,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「何揉めてんのよ？　報酬？
+　って前払いならもらってあるわよ。
+　あんたたちの分もね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「マジか！？」
+<PAUSE>
+<NAME_PLATE>
+　秋津はふくらんだ封筒を手渡す。
+中には札が詰められていた。
+前払い、というにはかなりの額だ。
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 500
+<GROUP>
+<ACTOR>2,s_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ひゃー！！　すっげえ！」
+<PAUSE>
+<ACTOR>1,h_t004j,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「任務が終わったらの退院祝い、
+　回らないお寿司に行けるわね！
+　ふうまちゃん！！」
+<PAUSE>
+<NAME_PLATE>俺
+「お前らなあ――！！！」
+<PAUSE>
+<NAME_PLATE>
+　見事なまでの手のひら返しに、
+俺は二人の手から封筒を奪い返す。
+<PAUSE>
+<NAME_PLATE>俺
+「お前ら、世の為正義の為なら
+　金はいらないんだろ！？
+　これは俺の物だ！！！」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あっ！！　ずるいぞふうま！！！」
+<PAUSE>
+<ACTOR>1,h_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子たちだって、
+　命がけで戦うんだからね！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子と鹿之助が、高く掲げた封筒に
+手を伸ばす。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,h_t004f,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「……呆れた。
+　ほんと対魔忍ってお気楽な忍ね！
+　ほら、蜘蛛たち行っちゃうわよ！？」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３終了

@@ -1,0 +1,285 @@
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：五車への山道＿夜】【時間：夜】
+//　　※MISAO_nc002cより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc114b,IN, 1000
+<NAME_PLATE>俺
+「はあ……はあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺は山を抜け、
+必死に五車への道を急いでいた。
+<PAUSE>
+<NAME_PLATE>
+　沙耶を背負う腕がしびれている。
+疲労した足を持ち上げては、
+一歩、また一歩とただ前へ進む。
+<PAUSE>
+<NAME_PLATE>俺
+（あと少し……あと少しだ。
+　五車に入りさえすれば……）
+<PAUSE>
+<NAME_PLATE>
+　顔を上げると、山にかかる空の際が、
+かすかに白んでいる。
+夜明けが近い。
+<PAUSE>
+<NAME_PLATE>
+　その光を背に、
+浮かび上がる人影があった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+（五車の仲間か！？）
+<PAUSE>
+<ACTOR>0,k_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「君には期待していたのに失望したわ」
+<PAUSE>
+//　　※立ち絵
+//　　　【さすらいの対魔忍】甲河朧
+//　　　　＊決戦アリーナカードイラストから流用
+<NAME_PLATE>俺
+「くっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　しかし無慈悲にも、そこに立っていたのは
+追っ手――仮面のマダムその人。
+<PAUSE>
+<NAME_PLATE>俺
+「期待ね……その割には、
+　随分と抜かりなかったじゃないか」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「ご丁寧に傭兵まで準備して、
+　秋津やアスカに見張らせて。
+　周到なことだ」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「君に勝ち目はないわ。
+　その娘を渡しなさい」
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>俺
+「俺は諦めが悪い方でね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<BG_OUT>1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　言うや否や、
+俺は道の脇の藪に飛び込んだ。
+<PAUSE>
+//【背景：五車への山中＿夜】【時間：夜】
+//　　※対魔忍ユキカゼ2＿nc010aより流用
+<BG>nc048a,IN, 1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　五車町を囲む広く険しい山塊。
+<PAUSE>
+<NAME_PLATE>
+　高くはないが急峻で、
+他所者が踏み込めば、
+あっという間に迷ってしまう。
+<PAUSE>
+<NAME_PLATE>俺
+（まして夜だ。
+　沙耶に発信器がついていたって、
+　すぐには追ってこられまい）
+<PAUSE>
+<NAME_PLATE>
+　俺にとっては、勝手知ったる裏山だ。
+とはいえ楽な道ではない。
+<PAUSE>
+<NAME_PLATE>
+　藪を漕ぎ、崖を越え、
+道なき道を一歩ずつ進む。
+五車町はもうすぐそこのはずだ。
+<PAUSE>
+<SE_PLAY>se028
+<NAME_PLATE>
+　バシュッ……
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うっ！？」
+<PAUSE>
+<SE_PLAY>se023
+<NAME_PLATE>
+　突然、何かが飛んできたかと思うと、
+足首に鋭い痛みが走り、
+俺は斜面から転がり落ちた。
+<PAUSE>
+<ACTOR>0,k_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「終わりよ」
+<PAUSE>
+//　　※立ち絵
+//　　　【さすらいの対魔忍】甲河朧
+//　　　　＊決戦アリーナカードイラストから流用
+<NAME_PLATE>俺
+「先回りだと！？
+　馬鹿な……」
+<PAUSE>
+<NAME_PLATE>
+　沙耶に発信器が仕込まれていたとしても、
+位置だけわかったところで、
+この山中で短時間で追いつくのは不可能だ。
+<PAUSE>
+<NAME_PLATE>
+　まして先回りなど、
+よほど地形を熟知していなければ――
+<PAUSE>
+<NAME_PLATE>俺
+（いや、可能性があるなら一つだけだ。
+　この女も、この山に――五車に、
+　土地勘があるという可能性）
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「足首を切ったわ。
+　もうこの山道を走るのは無理よ。
+　諦めなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「くそ……」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、その前に聞かせてくれよ！
+　あんた、もしかして五車にいたのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「紫先生が言っていた。
+　あんたは対魔忍だって！」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「つくづく詮索が好きな坊やね。
+　嫌われるわよ？
+　それとも時間稼ぎのつもりかしら」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「心配しなくても、人造魔族さえ渡せば、
+　あなたのおイタは見逃してあげる」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「そうね、依頼も成功ってことでいいわ。
+　大サービスでしょう？」
+<PAUSE>
+<SE_PLAY>se076
+<NAME_PLATE>
+　さらに背後から、
+ガサガサと大勢の足音が近づいてくる。
+仮面女の雇った傭兵たちだろう。
+<PAUSE>
+<NAME_PLATE>俺
+（ちっ……後ろにも逃げられないか）
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「――……」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「……ね……」
+<PAUSE>
+<NAME_PLATE>俺
+「沙耶？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef005a,NONE
+<SE_PLAY>se011
+</GROUP>
+<NAME_PLATE>
+　ザシュン！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>仮面のマダム
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　一瞬。
+俺の背から、沙耶が鋭い触手を伸ばし、
+仮面のマダムを貫いた。
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「ぐ……っ！？
+　沙耶……まだ、こんな力が……！？」
+<PAUSE>
+<GROUP>
+<BG>nc048a,IN, 500
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　腹を貫かれた仮面のマダムは、
+ドサリとその場に倒れ込む。
+<PAUSE>
+<NAME_PLATE>俺
+「沙耶！　意識が戻ったのか！？」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　しかしそれが最後の力だったらしく、
+沙耶は再び気を失った。
+<PAUSE>
+<NAME_PLATE>俺
+（とにかく今は逃げよう！
+　沙耶の作ってくれたチャンス、
+　無駄にはできない！）
+<PAUSE>
+<NAME_PLATE>
+　俺は痛む身体を鼓舞し、
+再び山道を進む。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………。
+<PAUSE>
+//【背景：五車への山中＿夜】【時間：夜】
+//　　※対魔忍ユキカゼ2＿nc010aより流用
+<BG>nc048a,IN, 1000
+<ACTOR>0,k_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「悪足掻きを……」
+<PAUSE>
+//　　※立ち絵
+//　　　【さすらいの対魔忍】甲河朧
+//　　　　＊決戦アリーナカードイラストから流用
+<NAME_PLATE>
+　ほんの数秒の後。
+<PAUSE>
+<NAME_PLATE>
+　仮面のマダムは、
+傷一つない姿でそこに立っていた。
+<PAUSE>
+<NAME_PLATE>
+　彼女が倒れていた場所には、
+楢の倒木があるのみ。
+“空蝉の術”、これが彼女の忍法だ。
+<PAUSE>
+<NAME_PLATE>傭兵たち
+「マダム！　沙耶ＮＥＯは……」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「まだ近くにいる。追うわよ！」
+<PAUSE>
+<NAME_PLATE>
+　追いついてきた傭兵たちとともに、
+仮面のマダムは再び、
+山の中を迷いなく進んでいく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→S502a

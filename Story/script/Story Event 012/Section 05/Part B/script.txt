@@ -1,0 +1,887 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<BGM_PLAY>bgm205,1000
+<BG>nc066a,IN, 1000
+<NAME_PLATE>
+　洗脳で濁った意識を狂気に染めて、
+ワータイガーは女忍者と対峙する。
+<PAUSE>
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ＧＲＵＵＵ――』
+<PAUSE>
+//　※立ち絵
+//　　ワータイガー＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ワータイガー
+（邪魔者、コロス……！！）
+<PAUSE>
+<NAME_PLATE>
+　人虎は、闇の町で常に捕食者として
+最強の地位に立っていた。
+<PAUSE>
+<NAME_PLATE>
+　屈強な野獣の肉体と鋭い爪。
+<PAUSE>
+<NAME_PLATE>
+　生物としてのスペックが初めから
+他の者とは明確に違っている。
+<PAUSE>
+<NAME_PLATE>
+　自分以外の者はすべて獲物、
+そんな強い自負のもと――
+<PAUSE>
+<NAME_PLATE>
+　獣人は、突然現れた女忍者に
+渾身の“大咆哮”を叩きつけ、
+同時に爪を振り下ろした。
+<PAUSE>
+<NAME_PLATE>ワータイガー
+『ガアアアアアアアアアアアアアア
+　アアアアアアアッ！！！！』
+<PAUSE>
+<NAME_PLATE>
+　敵の生物としての本能に訴えかけ、
+肉体と精神を呪縛する狂獣の叫び。
+<PAUSE>
+<NAME_PLATE>
+　今までこの連携で倒せなかった
+相手はいない――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,a_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「あらあら？
+　騒々しい猫ちゃんだわ――」
+<PAUSE>
+//　※立ち絵
+//　　井河アサギ立ち絵＿白装備衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ワータイガー
+『！！！？』
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キィイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　人虎の振り下ろした爪が軽々と
+女の忍者刀に弾かれる。
+<PAUSE>
+<NAME_PLATE>ワータイガー
+（ナ……ナンダ、
+　コノ人間ハ……！？）
+<PAUSE>
+<NAME_PLATE>
+　驚愕に人虎が目を見開いた。
+<PAUSE>
+<NAME_PLATE>
+　正面から咆哮を食らわせたはず。
+<PAUSE>
+<NAME_PLATE>
+　――それなのに、女の動きは
+少しも鈍らなかった。
+<PAUSE>
+<NAME_PLATE>
+　さっきは簡単に若い忍たちの
+動きを縛った“大咆哮”が通じない。
+<PAUSE>
+<NAME_PLATE>
+　信じ難いことだが――。
+<PAUSE>
+<NAME_PLATE>
+　目の前の女は、胆力だけで
+“大咆哮”の呪縛を断ち切った――？
+<PAUSE>
+<NAME_PLATE>ワータイガー
+（バ、バケモノカ……！！？）
+<PAUSE>
+<NAME_PLATE>
+　人虎は生まれて初めての
+感情に襲われた。
+<PAUSE>
+<NAME_PLATE>
+　それは“恐怖”。
+<PAUSE>
+<NAME_PLATE>
+　目の前の女に対する圧倒的な恐れ。
+<PAUSE>
+<NAME_PLATE>ワータイガー
+『ＧＲＵＵ……ＧＵＵ……』
+<PAUSE>
+<ACTOR>0,a_t007a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふふっ――」
+<PAUSE>
+//　※立ち絵
+//　　井河アサギ立ち絵＿白装備衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　今さらながら肌にビリビリと
+感じる異様なほどの女の闘気。
+<PAUSE>
+<NAME_PLATE>
+　人虎はブルっと背中を震わせる。
+<PAUSE>
+<NAME_PLATE>
+　生物としての格が違う、
+まるで――
+<PAUSE>
+<NAME_PLATE>
+　目の前の女が危険な猛獣であり、
+自分が何もできない子猫になって
+しまったような――。
+<PAUSE>
+<NAME_PLATE>アサギ
+「それじゃ今度は私から行くわね。
+　忍法・殺陣華―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>ワータイガー
+『ＧＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡッ！！！！？』
+<PAUSE>
+<NAME_PLATE>
+　咆哮するワータイガーの
+視界一杯に華麗な光が舞った。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：東京キングダム＿無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<BG>nc066a,IN, 1000
+<NAME_PLATE>
+　卯奈がワータイガーを引き付けて
+走り去ってから約３０分後。
+<PAUSE>
+<NAME_PLATE>俺
+「――アサギ先生！！　卯奈っ！」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<GROUP>
+<ACTOR>0,a_t006a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「来たわね、ふうま君」
+<PAUSE>
+//　※立ち絵
+//　　井河アサギ立ち絵＿白装備衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>卯奈
+「ふえええええっ！！
+　ふうま君、みんな～～っ！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「よかった卯奈ちゃん！！
+　お疲れさまだよー」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>舞
+「無事で安心しました」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「やれやれだぜ……」
+<PAUSE>
+//　※立ち絵
+//　　ギャングのリーダー
+//　　　　＊ふうま下忍(男)のイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ようやく淫魔族を退けた俺たちは、
+合流場所の工事現場に到着した。
+<PAUSE>
+<NAME_PLATE>俺
+「一人でよく頑張ったな卯奈。
+　おかげで助かったよ」
+<PAUSE>
+<NAME_PLATE>
+　俺はなぜか妙にぐったり
+している卯奈に声をかけた。
+<PAUSE>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「あー、いえいえ。というか
+　ふうま君、アサギ先生を
+　呼んだならそう言ってよー」
+<PAUSE>
+<NAME_PLATE>卯奈
+「逃げてるとき、
+　すごいドキドキしたよー」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、すまんすまん。
+　こっちも大変だったんだよ。
+　ぜんぜん余裕なくてさ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　淫魔族たちとの戦闘のことだ。
+<PAUSE>
+<NAME_PLATE>
+　まりと舞が動けるようになるまで
+俺と負傷したワーウルフは防戦一方で。
+<PAUSE>
+<NAME_PLATE>
+　二人が回復してから、何とか
+淫魔族の一団を撃退することができた。
+<PAUSE>
+<NAME_PLATE>俺
+「――と、アサギ先生も
+　ありがとうございます！
+　こっちまで救援に来てくれて」
+<PAUSE>
+<ACTOR>0,a_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺は見慣れない白い対魔忍スーツを
+着たアサギ先生にも声をかける。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が同行していたチームは、
+ほぼ街の反対側で行動していたはず。
+<PAUSE>
+<NAME_PLATE>
+　その位置からだと、救援に間に合うか
+間に合わないかのギリギリだと思ったが、
+<PAUSE>
+<NAME_PLATE>
+　さすがアサギ先生、全く問題なく
+卯奈のもとに駆け付けてくれたようだ。
+<PAUSE>
+<ACTOR>0,a_t006b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふふ、良いのよ。こういう
+　場合に備えて“監督”として
+　同行してたんだし――」
+<PAUSE>
+<ACTOR>0,a_t006a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ちょうど新しい戦闘スーツの
+　試運転もしたかったから」
+<PAUSE>
+<NAME_PLATE>俺
+「し、試運転ですか」
+<PAUSE>
+<NAME_PLATE>
+　俺やまりたちがあれだけ苦戦した
+人虎に対してこのセリフである。
+<PAUSE>
+<NAME_PLATE>
+　やはり俺たち学生は、まだまだ
+この人の域には遠く及ばないようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（ん――？）
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「ごめんねー卯奈ちゃん。
+　私と舞ちゃん、肝心なところで
+　動けなくなっちゃって」
+<PAUSE>
+<NAME_PLATE>舞
+「大変な不覚でした」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「本当だよー。この埋め合わせは、
+　学食のパフェ三杯で手を打とう！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「えへへ。しょうがないなぁ」
+<PAUSE>
+<NAME_PLATE>舞
+「抜け目のない卯奈ちゃんです」
+<PAUSE>
+<NAME_PLATE>
+　見ると、合流した仲良し女子
+三人組が互いの健闘を称えあっていた。
+<PAUSE>
+<NAME_PLATE>まり
+「でも、ほんとに皆が無事で
+　よかった～……って、あれ？
+　なんだろう？」
+<PAUSE>
+<NAME_PLATE>まり
+「卯奈ちゃんの後ろの地面に、
+　何か変な水たまりが――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「はうぅ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　卯奈がぴょんと飛び上がった。
+<PAUSE>
+<NAME_PLATE>
+　確かにまりの言うように、
+卯奈のちょっと後ろの地面が
+妙に湿っている。
+<PAUSE>
+<NAME_PLATE>
+　さらに言うと、卯奈の太ももや
+腰のあたりにも――
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>卯奈
+「――まりちゃん、
+　君は何も見ていない、いいね？」
+<PAUSE>
+<NAME_PLATE>まり
+「え、えぇ～？　は、はい……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「これは……何も言わないのが
+　武士の情けというものです」
+<PAUSE>
+<NAME_PLATE>俺
+（ま、まあ――）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なんだかよくわからないが、
+三人が楽しそうなので良しとしよう。
+<PAUSE>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「おいトラ！？　大丈夫か！」
+<PAUSE>
+//　※立ち絵
+//　　ギャングのリーダー
+//　　　　＊ふうま下忍(男)のイラストを流用
+<NAME_PLATE>
+　アサギ先生に倒された兄弟分の所に
+ワーウルフが駆け寄っていた。
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「うわっ！　すげえやられたな……
+　まあ、でもこれくらいなら
+　すぐに回復するか」
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫か？
+　また目を覚まして
+　襲ってきたりは――」
+<PAUSE>
+<NAME_PLATE>
+　俺も倒れている獣人の様子を見る。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生にボコボコにされた
+ワータイガーは、完全に気を失って
+小さく呻いていた。
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「例の錬金術師に薬をもらってきた」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「こいつを飲ませてやれば、
+　魔力が抜けて人型に戻って――
+　ついでに淫魔族の洗脳も解けるらしい」
+<PAUSE>
+<NAME_PLATE>俺
+「シュヴァリエか」
+<PAUSE>
+<NAME_PLATE>
+　前にこのワーウルフと戦った時も、
+闇の町の錬金術師・シュヴァリエの
+薬にはお世話になった。
+<PAUSE>
+<NAME_PLATE>俺
+「でも、あいつがよく
+　そんな協力をしてくれたな」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「あ、ああ……。
+　代わりに、奴の研究とやらのために
+　一仕事する契約をさせられた」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「面倒で仕方がねえが、
+　まあ背に腹は代えられねえ」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、それは……がんばれよ……」
+<PAUSE>
+<NAME_PLATE>
+　あの錬金術師のことだから、
+まず間違いなくまともな
+仕事ではあるまい。
+<PAUSE>
+<NAME_PLATE>
+　俺はこの意外と人の良い
+獣人に深い同情を寄せた。
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「まっ、それは後のことだ。
+　とりあえず今はこの薬で――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ワーウルフが兄弟分の口に
+薬を注ぎ込む。
+<PAUSE>
+<NAME_PLATE>
+　すると、巨大なワータイガーの
+体を包むようにして、もくもくと
+煙が立ち上り――
+<PAUSE>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「ふわぁ……。
+　良かったですねぇ獣人さんたち、
+　これで一件落着ですね♪」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。まったくだぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あとはケースを持って
+五車に帰還するだけ。
+<PAUSE>
+<NAME_PLATE>
+　さすがに、もうこれ以上の
+面倒ごとはないだろう――
+<PAUSE>
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<NAME_PLATE>まり＆舞＆卯奈
+「えっ？」
+「えっ？」
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　ワータイガーを包む煙が晴れると、
+そこに可愛らしい小さな女の子がいた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はあああああああああああっ！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「あのヤバイ虎の獣人、
+　女の子だったのぉおおおっ！！？」
+<PAUSE>
+<NAME_PLATE>まり
+「か、かわいい……！？」
+<PAUSE>
+<NAME_PLATE>卯奈
+「この子は……
+　あんまり怖くないっ！」
+<PAUSE>
+<NAME_PLATE>舞
+「想定外でした……」
+<PAUSE>
+<NAME_PLATE>？？？
+「ガルル……
+　女で悪いかこのやろーっ！」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「なんだ？　言ったじゃねえか。
+　俺の“兄妹分”のトラジローって」
+<PAUSE>
+<NAME_PLATE>
+　驚愕している俺たちに、
+ワーウルフが当然のように言う。
+<PAUSE>
+<NAME_PLATE>俺
+「きょ、きょうだい……？」
+<PAUSE>
+<NAME_PLATE>
+　たしかに、兄妹でも
+“きょうだい”と読む。
+<PAUSE>
+<NAME_PLATE>
+　しかし、あの獣人の外見から
+女の子とは全く思わず――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,a_t006b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「あら？　カワイイ虎さんね♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>トラジロー
+「ふぎゃっ！！？　ガウウ――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「おっ、おいおい！？
+　どうしたんだよトラ――」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が声をかけると、
+虎の女の子は急にビクっとして
+ワーウルフの背中に隠れてしまった。
+<PAUSE>
+<NAME_PLATE>
+　何かよほど恐ろしい目にでも
+あったのだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、女の子だとしたら、ますます淫魔族に
+　捕まったりさせるなよ……」
+<PAUSE>
+<NAME_PLATE>俺
+「確かこの子、お前とケンカして
+　組織を飛び出したんだよな？」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「いや、でもなぁ。
+　こいつが最近、俺に妙な
+　難癖ばかりつけてくるから――」
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「オレは悪くないぞ！！
+　兄貴が変なタコ女にうつつを
+　抜かしてるから！」
+<PAUSE>
+<NAME_PLATE>俺
+「はい？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　変なタコ女――
+<PAUSE>
+<NAME_PLATE>
+　といえば、俺の知り合いにも
+心当たりが一人いる。
+<PAUSE>
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「はあはあ。やっと追いついた。
+　アサギ先生、急に走って
+　いっちゃうんですからー」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>0,s_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「あれ？　ふうまがいるじゃん」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ma_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>神村舞華
+「おー。他にもいろいろいるなぁ」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華立ち絵
+//　　　＊対魔忍RPGカードより流用
+//　※立ち絵
+//　　獅子神自斎立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>1,chr_t0077a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>獅子神自斎
+「……？」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ！？　お前ら――」
+<PAUSE>
+<NAME_PLATE>
+　やってきたのは、蛇子、鹿之助、
+舞華、自斎の学生対魔忍チーム。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　この４人は今夜、俺たちとは
+別の“即席チーム”を組んでいて、
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生のサポートのもと、
+広域魔薬密売グループの
+摘発任務を行っていた。
+<PAUSE>
+<ACTOR>0,ts_m074a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワーウルフ
+「ワオオオオオオオオオオン♪」
+<PAUSE>
+//　※立ち絵
+//　　ワーウルフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ワーウルフ
+「お久しぶりです蛇子さん！！
+　覚えてますか！？
+　また会えましたね！！」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ」
+<PAUSE>
+<NAME_PLATE>
+　興奮のあまり獣人化したワーウルフが
+全力で蛇子にしっぽを振っていた。
+<PAUSE>
+<ACTOR>0,ts_m074a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あ！　覚えてるよ～！
+　お久しぶりよねオオカミちゃん♪」
+<PAUSE>
+<NAME_PLATE>ワーウルフ
+「キャインキャイン！！
+　覚えてくれて、ウレシイウレシイ♪」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（いや、これはマズイ――！）
+<PAUSE>
+<NAME_PLATE>
+　悪い予感に俺の背筋が冷たくなる。
+<PAUSE>
+<NAME_PLATE>
+　恐らく、あの虎の女の子は
+兄貴であるワーウルフが大好き。
+<PAUSE>
+<NAME_PLATE>
+　だからワーウルフが蛇子に
+デレデレしてるのが気に入らず、
+ケンカになって組織を飛び出した。
+<PAUSE>
+<NAME_PLATE>
+　そして今、その原因である
+蛇子がここに現れて――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ワータイガー
+『ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡ！！！！』
+<PAUSE>
+//　※立ち絵
+//　　ワータイガー＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ワータイガー
+『オマエガ兄貴ヲタブラカシタ
+　タコ女ダナ、コノヤロー！！』
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<NAME_PLATE>俺
+「やっぱりいいいいいっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　悪い予感は的中――。
+<PAUSE>
+<NAME_PLATE>
+　突然出現した二頭の獣人に、
+一同は騒然となった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ma_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「なんだ喧嘩か！！？
+　面白くなってきやがったぜ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「おおお虎っ！？　でけえ、
+　かっけええええええええっ！！」
+<PAUSE>
+<NAME_PLATE>
+　なぜか興奮している舞華と鹿之助。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0207a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0077a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「獅子神さんですよね？
+　初めまして、七瀬舞です」
+<PAUSE>
+<NAME_PLATE>自斎
+「う、うん。どうも……」
+<PAUSE>
+<NAME_PLATE>
+　初対面の挨拶をしている
+マイペースな二人。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「ひょえええええええっ！？
+　ふうま君どうするのこれ～！？」
+<PAUSE>
+<NAME_PLATE>俺
+「押さえるしかないだろう！？
+　アサギ先生、手伝ってください！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,a_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「そうね――。でも、
+　このくらいなら皆でも平気ね」
+<PAUSE>
+<NAME_PLATE>俺
+「へっ？」
+<PAUSE>
+<ACTOR>0,a_t006c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「私は、その淫魔族のテロ組織が
+　気になるから今から行って潰してくる」
+<PAUSE>
+<ACTOR>0,a_t006b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「――ふうま君、後はよろしくね♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「アサギ先生ーーーーーーっ！！！？」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ちょっとコンビニ行ってくる、
+みたいな顔でアサギ先生はひとりで
+テロ組織を潰しに行ってしまった。
+<PAUSE>
+<ACTOR>0,ts_m074a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ワーウルフ
+「じゃ、じゃあ蛇子さん……俺と、
+　メル友から、お願いしても……！？」
+<PAUSE>
+<ACTOR>1,ts_m156a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ガルル……ダメダ、タコ女！！
+　着信拒否ヲシロ！！』
+<PAUSE>
+<NAME_PLATE>蛇子
+「ええええっ！？？
+　どうしよーふうまちゃん！？」
+<PAUSE>
+<NAME_PLATE>俺
+「知るかーーー！？
+　というか撤収だ、撤収！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「手伝え、まり！！
+　こいつらを引っ張っていくぞー！」
+<PAUSE>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「は、はいーーっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　まだ辺りからは俺たちを探しているらしき
+トロールの咆哮が聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　こんなところで騒いでいたら
+命がいくつあっても足りないだろう。
+<PAUSE>
+<NAME_PLATE>俺
+（まったく、まさに“家に
+　帰るまでが試験任務”だぜ――）
+<PAUSE>
+<NAME_PLATE>
+　俺は大騒ぎしている連中をなだめつつ、
+その標語の正しさを実感するのだった。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

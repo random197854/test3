@@ -1,0 +1,438 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ふうまの里＿森＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿nc010aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc048a,IN, 1000
+<ACTOR>0,t_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「邪眼“千里眼”！！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装（千里眼水晶球）
+<NAME_PLATE>
+　迫り来る敵を前に、
+時子は両の瞼をすっと閉じた。
+<PAUSE>
+<NAME_PLATE>
+　彼女の周囲にいくつもの目の文様が
+浮かび上がる。
+<PAUSE>
+<NAME_PLATE>
+　魔を宿した邪眼だ。
+それらが鋭く光った。
+<PAUSE>
+<NAME_PLATE>時子
+「“百鬼夜行”！！！」
+<PAUSE>
+<NAME_PLATE>
+　中空に浮かび上がった妖の目から
+一瞬で無数のクナイが放たれる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se008
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズババババババッッ！！！
+<PAUSE>
+<NAME_PLATE>井河くノ一
+「ぐあっっっっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　幼い当主の命を狙う井河忍者たちは
+降り注ぐクナイにその身を貫かれ、
+バタバタと倒れていく。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>井河くノ一
+「あれが“天才”と
+　謳われるふうま時子だ！！！」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>井河くノ一
+「ガキだと思って侮るな！
+　数で畳み掛けろ！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,500
+<ACTOR_OUT>2,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>時子
+「そうはさせぬ！！」
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　時子は再び百鬼夜行のクナイを放った。
+<PAUSE>
+<SE_PLAY>se008
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズババッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　再びクナイの雨が降る。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>井河くノ一
+「ぎゃあっっっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　敵がまた一人、二人と
+クナイの雨に貫かれていく。
+<PAUSE>
+<NAME_PLATE>
+　しかしその数は一度目よりも
+明らかに少ない。
+<PAUSE>
+<NAME_PLATE>
+　邪眼は強力な術であるが故に
+その使用は時子自身をも大きく疲弊させる。
+<PAUSE>
+<NAME_PLATE>
+　しかも、今は小太郎をかばいながらの
+多勢に無勢。
+<PAUSE>
+<BG>nc048a,IN, 500
+<ACTOR>0,t_t012h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「くっっ……」
+<PAUSE>
+<NAME_PLATE>
+　さしもの天才くノ一も
+息が上がり、ふらつき始めていた。
+<PAUSE>
+<NAME_PLATE>
+　敵はそれを見て取り、
+嵩にかかって攻め込もうとする。
+<PAUSE>
+<NAME_PLATE>井河くノ一
+「かかれかかれ！！
+　奴はもう虫の息だぞ！！」
+<PAUSE>
+<ACTOR>0,t_t012b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「ふうま時子を侮るな！！」
+<PAUSE>
+<NAME_PLATE>
+　時子は気力を振り絞った。
+<PAUSE>
+<NAME_PLATE>
+　ここで諦めるわけにはいかない。
+<PAUSE>
+<NAME_PLATE>
+　自分の敗北はすなわち小太郎の死。
+<PAUSE>
+<NAME_PLATE>
+　ふうま宗家の滅亡を意味する。
+<PAUSE>
+<NAME_PLATE>
+　しかし、敵は後から後から押し寄せてくる。
+<PAUSE>
+<ACTOR>0,t_t012h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「くっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いよいよ、ここまでか。
+<PAUSE>
+<NAME_PLATE>
+　ならば、己の命を全て邪眼に捧げ、
+ここにいる敵だけでも滅殺する。
+<PAUSE>
+<NAME_PLATE>
+　時子が最期の覚悟を決めたその時。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「時子お嬢、よくぞご無事で」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストを流用
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どがぁあああああああっ！！！
+<PAUSE>
+<NAME_PLATE>
+　まるで土から竜が飛び出すかのように
+大地が激しく噴き上がった。
+<PAUSE>
+<NAME_PLATE>
+　土砂を巻き上げ現れた巨大な手が
+今まさに時子に襲いかかろうとしていた
+井河くノ一の足首をむんずと掴み、
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「むううんっ！！」
+<PAUSE>
+<NAME_PLATE>
+　野太い雄叫びとともに、
+くノ一をそのまま大きく持ち上げて、
+地面に強く叩きつけた。
+<PAUSE>
+<SE_PLAY>se079
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ぐしゃあっっ！！！
+<PAUSE>
+<NAME_PLATE>
+　くノ一は自分に何が起こったのかも
+分からないまま脳漿を飛び散らせた。
+<PAUSE>
+<BG>nc048a,IN, 500
+<NAME_PLATE>小太郎
+「あっ！　弥右衛門（やえもん）！！」
+<PAUSE>
+<ACTOR>4,ts_m083a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>矢車弥右衛門
+「グハハハハ！！
+　左様で御座る、若様！」
+<PAUSE>
+<NAME_PLATE>
+　巨漢が呵呵大笑して、
+頭の砕けたくノ一を放り投げると同時に、
+<PAUSE>
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どかっっ！！　どかっっ！！
+どかどかどかっっ！！！
+<PAUSE>
+<NAME_PLATE>
+　まるで土砂の噴水のように
+至るところで地面が弾けだした。
+<PAUSE>
+<ACTOR>5,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>6,ts_m083a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　たった今、くノ一を屠った巨漢。
+それと同じ姿の偉丈夫が次から次へと
+出現していく。
+<PAUSE>
+<NAME_PLATE>井河くノ一
+「な、何者だ？
+　―――うわっっ！」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>4,CENTER,linear,500
+<ACTOR_OUT>6,LEFT,linear,500
+<ACTOR_OUT>5,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se079
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ぐしゃっっ！！！
+<PAUSE>
+<NAME_PLATE>井河くノ一
+「いったいこれはっっ！？
+　―――ぎあゃっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<SE_PLAY>se079
+<NAME_PLATE>
+　べちゃっっっ！！
+<PAUSE>
+<NAME_PLATE>
+　井河忍者たちは大混乱に陥り、
+巨漢に無造作に掴まれては
+虫けらのように叩き潰されていく。
+<PAUSE>
+<BG>nc048a,IN, 500
+<ACTOR>4,ts_m083a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>矢車弥右衛門
+「グハハハハハ！！
+　弱い弱い！　弱すぎるわ！！」
+<PAUSE>
+<NAME_PLATE>
+　彼は矢車弥右衛門（やぐるまやえもん）。
+<PAUSE>
+<NAME_PLATE>
+　ふうま八将が一角・二車家を支える重臣。
+<PAUSE>
+<NAME_PLATE>
+　異能系の忍法
+隠れ身の術“無形秘擬”の使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　水以外のあらゆる無機物と一体化し、
+自在に操ることのできる分身を作り出す。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>井河くノ一
+「た、体勢を立て直すぞ！！
+　ここはいったん引いて―――」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>八百比丘尼
+「うふふ、愚かしいこと」
+<PAUSE>
+<NAME_PLATE>
+　涼やかな笑い声が響きわたったかと思うと、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>井河くノ一
+「ぎゃぁああああああああああああっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　まだ残っていた井河くノ一たちが
+一斉に苦しみ始めた。
+<PAUSE>
+<NAME_PLATE>
+　喉が張り裂けんほどの悲鳴を上げ、
+その身を狂ったように掻きむしり、
+地面をのたうち回る。
+<PAUSE>
+<SE_PLAY>se077
+<NAME_PLATE>
+　ベリッ、ボコッッ、バリバリッ！！
+<PAUSE>
+<NAME_PLATE>
+　悶絶するくノ一たちの肉体が
+異様な音を立てて、変貌し始めていた。
+<PAUSE>
+<NAME_PLATE>
+　髪がずるりと抜け落ち、頭皮がべりっと裂け
+顔の皮膚までもバリバリと剥がれて
+瞼のなくなった両目が突き出していく。
+<PAUSE>
+<NAME_PLATE>
+　首から下も、表皮があっという間に捲れ、
+びっしりと鱗の生えた硬い肌が浮き上がる。
+<PAUSE>
+<NAME_PLATE>
+　両足は拗くれ、絡まり、一体化して、
+やはり鱗のある巨大なヒレのようなものに
+変化していく。
+<PAUSE>
+<NAME_PLATE>
+　魚のような顔、鱗の浮かんだ身体、
+ヒレのような下半身。
+<PAUSE>
+<NAME_PLATE>
+　それは人魚というよりも、
+できそこないの半魚人のような
+おぞましい化物だった。
+<PAUSE>
+<NAME_PLATE>小太郎
+「わっ、比丘尼（びくに）も！」
+<PAUSE>
+<ACTOR>7,ts_m056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八百比丘尼
+「はい、若様。
+　もうしばらくお待ちくださいませ」
+<PAUSE>
+//　※立ち絵
+//　　八百比丘尼立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>八百比丘尼
+「井河者め、尽く我が邪眼で呪ってくれる」
+<PAUSE>
+<NAME_PLATE>
+　井河くノ一たちを化物に変えたのは、
+八百比丘尼（やおびくに）。
+<PAUSE>
+<NAME_PLATE>
+　彼女もまた二車家を支える重臣の一人。
+<PAUSE>
+<NAME_PLATE>
+　初代ふうま小太郎から仕えていると言われ、
+事実であれば５００年は
+生きていることになる。
+<PAUSE>
+<NAME_PLATE>
+　彼女の邪眼“人魚の碧眼”は、
+相手の生命エネルギーを吸い取り、
+異形の怪物へと変えてしまうという。
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「生きる価値のない井河者ども。
+　皆、この八百比丘尼の糧となるがよいわ」
+<PAUSE>
+<NAME_PLATE>
+　異形と化した井河くノ一たちは
+さらに生命エネルギーを
+比丘尼に吸われていく。
+<PAUSE>
+<NAME_PLATE>井河くノ一
+「グギャ……ギギャ……ガガ……
+　ギャギャッ！！！」
+<PAUSE>
+<NAME_PLATE>
+　その断末魔の悲鳴すら
+もはや人が発するものではない。
+<PAUSE>
+<NAME_PLATE>
+　ビタンっ……ビタン……ビタビタッ……
+<PAUSE>
+<NAME_PLATE>
+　おそらく水の中でも役に立たない
+歪な形の尾びれをぎこちなく脈打たせ、
+井河くノ一たちは死んでいった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　鎮守の森にようやく静寂が戻った。
+<PAUSE>
+<ACTOR>7,ts_m056a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>4,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>時子
+「矢車弥右衛門、八百比丘尼。
+　助かりました。礼を言います」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>小太郎
+「二人とも、よく来てくれた」
+<PAUSE>
+<NAME_PLATE>
+　時子がようやく邪眼をとき、
+小太郎も笑みを浮かべた。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「ははっ！
+　矢車弥右衛門、ここに」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「八百比丘尼、参上いたしました」
+<PAUSE>
+<NAME_PLATE>
+　時子と小太郎の命を救った
+忠臣たちは恭しく膝を突いた。
+<PAUSE>
+//→Section２終了
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

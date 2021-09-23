@@ -1,0 +1,627 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：城跡＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+<BGM_PLAY>bgm207,1000
+<BG>nc028a,IN, 3000
+<ACTOR>0,ws_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「う～～！　ふうま君、卑怯なり～！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ZEROの立ち絵より流用
+<ACTOR>0,ws_t005f,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　さくらは、動物用のネットに捕まって、
+悔しそうに呻いていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ハハハ！　引っかかる方が悪いんだ！
+　勝負の世界は厳しいんだぜ！
+　――な、鹿之助！！」
+<PAUSE>
+<ACTOR>1,s_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「ああ、上手くいったな！　うししっ！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　鹿之助が罠のヒモに手をかけて、
+楽しそうに答える。
+<PAUSE>
+<NAME_PLATE>
+　この訓練では、途中のサポートとして
+２人の“助っ人”の起用が許可されている。
+<PAUSE>
+<NAME_PLATE>
+　俺はその一人に鹿之助を選び、
+伏兵として待機させていた。
+<PAUSE>
+<NAME_PLATE>
+　さくらがやってくると同時に、
+罠を一気に複数起動させ、
+さくらを捕縛用の網の中に押し込めたのだ。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうま、おごってくれる約束忘れるなよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「もちろんだぜ！！
+　小遣いの権利に比べれば安いもんだ。
+　じゃ、後は任せたぜ！」
+<PAUSE>
+<ACTOR>1,s_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　あとはゴールを目指すだけ――
+と、そんな俺の前にひとつの影が立ち塞がる。
+<PAUSE>
+<ACTOR>2,rn_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋山凜子
+「ふうま君、
+　そういう士道にもとる真似は感心しないな」
+<PAUSE>
+//　※立ち絵
+//　　凜子戦闘立ち絵_対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「げ、凜子先輩！！
+　さくらが助っ人を頼んだんでしたっけ……」
+<PAUSE>
+<NAME_PLATE>凜子
+「いかにも。
+　事情を知っている生徒が、
+　私と彼女くらいしかいなかったからな」
+<PAUSE>
+<NAME_PLATE>
+　と、凜子先輩が指差す先には。
+<PAUSE>
+<ACTOR>2,rn_t002b,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>3,h_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「もー。鹿之助ちゃん、
+　ズルイことしちゃダメでしょ！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化（武器）衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひいいい！？
+　やめろ蛇子、墨はやめろ～～～！？」
+<PAUSE>
+<NAME_PLATE>俺
+「げっ！？　蛇子！？
+　そうか、あいつもさくらの助っ人か！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が鹿之助をタコ墨で追っ払い、
+捕縛用の網からさくらを解放しているのが
+見えた。
+<PAUSE>
+<ACTOR>3,h_t005c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ws_t005b,LEFT, LEFT, IN, linear, 1000
+<ACTOR_PRIORITY>0, 10
+<NAME_PLATE>さくら
+「ありがと、蛇子ちゃん！」
+<PAUSE>
+<ACTOR>3,h_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「いえいえ～。がんばってくださいね、
+　若いさくら先生♪」
+<PAUSE>
+<NAME_PLATE>さくら
+「もー、さくらでいいってば！
+　よーし、遅れを取り戻すよ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t005b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>3,h_t005a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　網から抜け出したさくらは、
+ペースをあげて猛追してくる。
+<PAUSE>
+<ACTOR>2,rn_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして俺の前には凜子先輩が立ちはだかり、
+足止めをしている間に、さくらが先へ向かう、
+という作戦のようだ。
+<PAUSE>
+<NAME_PLATE>凜子
+「ふふっ。ふうま君、
+　どうやら君の悪巧みもこれまでのようだな」
+<PAUSE>
+<NAME_PLATE>俺
+「それはどうですかね……？」
+<PAUSE>
+<NAME_PLATE>凜子
+「なに？
+　まさか君の実力で、私と戦おうと――」
+<PAUSE>
+<NAME_PLATE>俺
+「まさか。自分の力はよく知ってますから
+　――今です！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「えーーーーーーい！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガッキィィイ！！
+<PAUSE>
+<ACTOR>2,rn_t002a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>凜子
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　上からの強烈な一撃を喰らい、
+さすがの凜子先輩も地に手をつく。
+<PAUSE>
+<ACTOR>4,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>喜瀬蛍
+「うまくいきましたね、ふうま君」
+<PAUSE>
+//　※立ち絵
+//　　喜瀬蛍
+//　　　　＊対魔忍RPGのカードイラストより流用
+<ACTOR>2,rn_t002c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>凜子
+「喜瀬さん！？
+　君が二人目の助っ人か！？」
+<PAUSE>
+<NAME_PLATE>蛍
+「はい、秋山さん。
+　そういうことになりますね」
+<PAUSE>
+<NAME_PLATE>
+　木の上に潜ませていたもう一人の伏兵。
+それは、カオス・アリーナの一件で、
+一緒に戦った喜瀬蛍先輩だった。
+<PAUSE>
+<NAME_PLATE>
+　彼女は見かけによらずパワー型の対魔忍で、
+その一撃を受けても立ちあがれるのは、
+さすが凜子先輩というべきか。
+<PAUSE>
+<NAME_PLATE>蛍
+「行きなさい、ふうま君。
+　秋山さんが相手では、
+　私も足止めが精一杯です！」
+<PAUSE>
+<NAME_PLATE>俺
+「わかりました！　あとは頼みます！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,rn_t002c,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>4,ht_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　凜子先輩の相手は蛍先輩に任せ、
+俺は先を急いだ。
+<PAUSE>
+<NAME_PLATE>俺
+（小遣いは渡さん……絶対に！！！）
+<PAUSE>
+<NAME_PLATE>
+　そして、後に残された二人は――
+<PAUSE>
+<GROUP>
+<ACTOR>2,rn_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>凜子
+「こんな所で、君と戦うことになるとは。
+　思いがけず楽しめそうだ」
+<PAUSE>
+<NAME_PLATE>蛍
+「お手柔らかに頼みます」
+<PAUSE>
+<NAME_PLATE>
+　二人の戦士は微笑み、しばし睨み合った後、
+互いの得物を激しくぶつけ合うのだった。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR>2,rn_t002a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>4,ht_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：五車学園＿校舎裏の森＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc015aより流用
+<BG>nc004a,NONE
+<TRANSITION>TR26, IN, 1000
+<NAME_PLATE>俺
+「ぜぇ、はぁー……、
+　よし、もうちょっとでゴールだな……」
+<PAUSE>
+<BGM_PLAY>bgm404,1000
+<ACTOR>0,ws_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「むっふふ～。
+　そうはいかないよ、ふうま君！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ZEROの立ち絵より流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「さくら！！」
+<PAUSE>
+<NAME_PLATE>
+　罠でリードを広げたはずが、
+あっという間に追いつかれてしまった。
+しかも息一つ乱していない。
+<PAUSE>
+<NAME_PLATE>俺
+（くそ、身体能力の差は絶望的か……
+　マラソンの授業さぼるんじゃなかったぜ）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、そういう次元じゃないな。
+　あいつの身体能力は……）
+<PAUSE>
+<NAME_PLATE>
+　おまけにさくらは、得意の影遁の術を
+まだ使っていないのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（だからと言って、
+　負けるわけにはいかないがな！！
+　こうなったら、あの秘策を……）
+<PAUSE>
+<NAME_PLATE>
+　俺は対魔忍スーツの内部に隠した、
+ある“秘策”を握りしめる。
+<PAUSE>
+<NAME_PLATE>さくら
+「もう勝ったも同然のようだね。
+　よーし！　じゃあ一足お先に～！」
+<PAUSE>
+<NAME_PLATE>俺
+「待てさくらっ！
+　これが見えないか！？」
+<PAUSE>
+<NAME_PLATE>
+　と、俺が懐から取り出し、
+高く手に掲げたのは――
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t004c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>さくら
+「あああああっ！！　それは！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「今日発売の期待の新作！！
+　女神娘ハンター・ワールドじゃん！？」
+<PAUSE>
+<NAME_PLATE>
+　大人気ゲームシリーズの三年ぶりの新作。
+その発売を心待ちにしていたさくらは、
+思わず目を輝かせる。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、しかも限定発売のプレミア版だ」
+<PAUSE>
+<NAME_PLATE>さくら
+「げ、限定プレミア版っていうと……」
+<PAUSE>
+<NAME_PLATE>さくら
+「北海鏡先生デザインのアマテラス子ちゃんが
+　初めから使えてコラボコスチュームのダウン
+　ロードシリアル付きなうえ豪華設定画集と」
+<PAUSE>
+<NAME_PLATE>さくら
+「サウンドトラックＣＤがついておまけにこの
+　バージョンでしか手に入らない限定装備もあ
+　るっていう、あの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「くわしいな」
+<PAUSE>
+<NAME_PLATE>さくら
+「だ、だって毎日公式サイト見てたもん……
+　欲しいけど私のお小遣いじゃ、
+　とてもムリだなって……」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど。で、やりたいか？」
+<PAUSE>
+<ACTOR>0,ws_t004a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「やりたい！」
+<PAUSE>
+<NAME_PLATE>俺
+「よし。それじゃ向こうに何が見える」
+<PAUSE>
+<NAME_PLATE>さくら
+「川？」
+<PAUSE>
+<NAME_PLATE>俺
+「そのとおり。えいっ」
+<PAUSE>
+<NAME_PLATE>
+　ぽーい。
+<PAUSE>
+<ACTOR>0,ws_t004c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　ぽちゃん。
+<PAUSE>
+<NAME_PLATE>
+　俺の手を離れた新作ゲームのパッケージは、
+きれいな放物線を描いて川に飛び込んだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t004e,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>さくら
+「あ～～～っ！？！
+　ふうま君、なにすんの！？！？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t004e,CENTER, CENTER, OUT, linear, 1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　さくらは勝負のことも忘れ、
+流されていくゲームのパッケージを
+追いかける。
+<PAUSE>
+<NAME_PLATE>俺
+「フハハハハ！！
+　この勝負、貰った！！！」
+<PAUSE>
+<NAME_PLATE>
+　ゲームを拾い上げたさくらを尻目に、
+俺は脱兎のごとくゴールへ突っ走る。
+<PAUSE>
+<ACTOR>0,ws_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「あっ、しまった！！」
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「っていうかこれ、
+　パッケージだけで中身が入ってないし！？」
+<PAUSE>
+<NAME_PLATE>俺
+「当然だ！
+　大切な限定プレミア版を危険に晒すか！」
+<PAUSE>
+<NAME_PLATE>さくら
+「ばかーっ！　ふうま君の卑怯者っっ！！」
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　そして、結局――
+<PAUSE>
+<NAME_PLATE>俺
+「ゴーーーールっ！！
+　やったぞ！　勝利だ！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「くうぅっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ゲームを拾いに行ったさくらを出し抜き、
+俺は無事にゴール。
+<PAUSE>
+<NAME_PLATE>俺
+「やった……！
+　俺のお小遣いの権利は守られた！！」
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「き、キミには、
+　人の心というものがないのか！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「ハハハ！！
+　負け犬の遠吠えは耳に心地よいな！！
+　フハハハハ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t005f,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>5,t_t002c,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>時子
+「二人とも、お疲れさまでした」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿対魔忍衣装
+//　　　　＊決戦アリーナの新時子立ち絵より流用
+<NAME_PLATE>俺
+「時子！　見ていただろう！
+　俺が勝ったぞ！」
+<PAUSE>
+<ACTOR>5,t_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「そうですね。
+　さすがお館様」
+<PAUSE>
+<NAME_PLATE>俺
+「当然だ！」
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>5,t_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「その卑怯な振る舞いは
+　目に余るものがありました」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだろうとも……え？」
+<PAUSE>
+<NAME_PLATE>時子
+「勝つために手段を選ばないというのは、
+　ひとつの正解ではあります」
+<PAUSE>
+<NAME_PLATE>時子
+「しかし私達対魔忍は、力を持つがゆえに、
+　正義の心に依って行動すべきというのも、
+　また忘れてはいけない事……」
+<PAUSE>
+<NAME_PLATE>時子
+「お館様の策は、今回の課題、
+　『対魔忍としての自覚』という点で、
+　少々問題があるように思えますね」
+<PAUSE>
+<NAME_PLATE>俺
+「……と、いうことは？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「いうことはっ！？」
+<PAUSE>
+<NAME_PLATE>
+　なにやら雲行きが怪しくなってきた。
+<PAUSE>
+<NAME_PLATE>時子
+「卑怯な策を弄したお館様、
+　遅れを取ったさくらさん」
+<PAUSE>
+<ACTOR>5,t_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「両者を……
+　痛み分けといたします」
+<PAUSE>
+<NAME_PLATE>俺
+「えぇ……」
+<PAUSE>
+<ACTOR>0,ws_t005g,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>5,t_t002f,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,ws_t005g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「それって……
+　どっちもお小遣いの権利がないって
+　ことですかあ……？」
+<PAUSE>
+<NAME_PLATE>
+　さくらは目に見えてしょんぼりしている。
+時子はにっこり笑い、
+<PAUSE>
+<ACTOR>5,t_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「とは言っても」
+<PAUSE>
+<NAME_PLATE>時子
+「二人とも、かなりのやる気を
+　見せてくれましたからね」
+<PAUSE>
+<NAME_PLATE>時子
+「今回だけは特別です。
+　お小遣いは今まで通りお館様にあげますが、
+　さくらさんの分を少し増額と致しましょう」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！
+　ほんとか！？」
+<PAUSE>
+<ACTOR>0,ws_t005b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「わーーーーーーい！！
+　時子さん、ありがとう！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t005b,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>5,t_t002a,LEFT, CENTER, NONE, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　俺たちはさっきまでの争いも忘れ、
+手を取り合って喜んだ。
+<PAUSE>
+<ACTOR>5,t_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「しかし！
+　お二人とも気をつけてくださいね」
+<PAUSE>
+<NAME_PLATE>時子
+「これからは、きちんと対魔忍としての
+　自覚を持って行動するように！」
+<PAUSE>
+<NAME_PLATE>俺
+「了解だ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR>0,ws_t005g,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「はーい！！
+　…………あっ、でも」
+<PAUSE>
+<NAME_PLATE>さくら
+「ということは……
+　やっぱり、ゲームは一日一時間？」
+<PAUSE>
+<NAME_PLATE>時子
+「もちろんです」
+<PAUSE>
+<NAME_PLATE>さくら
+「でも……期待の新作、
+　女神娘ハンター・ワールド……」
+<PAUSE>
+<NAME_PLATE>時子
+「節度ある生活ができないというのであれば、
+　やはりお小遣いは没収ということに――」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t005d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>さくら
+「わ、わかりました！
+　わかりましたよ～！」
+<PAUSE>
+<NAME_PLATE>
+　慌てて撤回するさくらを、
+時子が笑いながら見ている。
+<PAUSE>
+<NAME_PLATE>時子
+「お二人が対魔忍として一流になれば、
+　このようにうるさくは申しません。
+　これからも鍛錬に励んで下さいね」
+<PAUSE>
+<ACTOR>0,ws_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「はーい」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……」
+<PAUSE>
+<ACTOR>0,ws_t005a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→エピローグ終了
+//=================================================================

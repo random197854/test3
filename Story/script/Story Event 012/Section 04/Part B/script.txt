@@ -1,0 +1,347 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿街はずれ＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc019aより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc013a,IN, 1000
+<NAME_PLATE>
+　人狼と人虎――。
+<PAUSE>
+<NAME_PLATE>
+　狂暴な獣人二頭の戦闘は続いている。
+<PAUSE>
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ＧＲＵＵＵ――！
+　ＧＡＡＡＡＡＡＡＡＡＡ！！』
+<PAUSE>
+//　※立ち絵
+//　　ワータイガー＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ワーウルフ
+「アグゥッ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　ワーウルフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※鮮血演出などお願いします。
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュ！！！
+<PAUSE>
+<NAME_PLATE>
+　人虎の鋭利な爪の一撃で
+ワーウルフの体から鮮血が舞う。
+<PAUSE>
+<NAME_PLATE>
+　さっき当人が言っていた通り、
+ワーウルフと兄弟分である人虎の
+パワーはほとんど互角――
+<PAUSE>
+<NAME_PLATE>
+　だが今は、最初に咆哮を食らった分だけ
+ワーウルフの動きが鈍い。
+<PAUSE>
+<BG>nc013a,IN, 500
+<ACTOR>0,ts_m074a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「おい、大丈夫かあんた！！？」
+<PAUSE>
+<NAME_PLATE>ワーウルフ
+「あ、ああ……任せておけ……！
+　こんな傷、なんでもないぜ……」
+<PAUSE>
+<NAME_PLATE>
+　にやりと笑って戦闘を続ける
+ワーウルフ。
+<PAUSE>
+<NAME_PLATE>
+　獣人ゆえの強い生命力で
+少しの負傷ならすぐに再生する。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、あの激しい攻撃を
+食らい続けたらどうなるか――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ガルル！！！　ガアアアアア
+　アアアアアアアッ！！』
+<PAUSE>
+<NAME_PLATE>ワーウルフ
+「ググ……いい加減にしろ！！！
+　目を覚ませ、トラ！！
+　俺がわかるだろう……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>淫魔族
+「ククク……。
+　いくら呼びかけても無駄なこと」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>淫魔族
+「その獣人は我々の術中。
+　ただ獲物を追いかけるだけの、
+　文字通りの獣です」
+<PAUSE>
+<NAME_PLATE>
+　淫魔族のリーダーらしき
+男が妖しく笑った。
+<PAUSE>
+<NAME_PLATE>俺
+（洗脳ってことか――）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　人虎は完全に理性を失っている。
+<PAUSE>
+<NAME_PLATE>
+　淫魔族お得意の洗脳によって、
+奴らの命に従うだけのしもべに
+されてしまったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（クソ、ここはどうすれば――）
+<PAUSE>
+<NAME_PLATE>
+　俺は必死に頭を巡らせる。
+<PAUSE>
+<NAME_PLATE>
+　獣人二頭の戦いは
+圧倒的にワータイガーが優勢。
+<PAUSE>
+<NAME_PLATE>
+　ワーウルフがやられてしまうのも
+時間の問題だろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　まりと舞も、何とか獣人たちの
+戦闘範囲からは引っ張ってきたものの、
+<PAUSE>
+<NAME_PLATE>
+　完全に目を回してしまって
+立ち上がれる状態ではない。
+<PAUSE>
+<NAME_PLATE>
+　残るこちらの戦力は俺と卯奈。
+<PAUSE>
+<NAME_PLATE>
+　どちらも戦闘が本領ではなく、
+あの狂暴な人虎に勝てるとは――
+<PAUSE>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「――ふうま君！！
+　そのカバン、私に貸して！！」
+<PAUSE>
+<NAME_PLATE>俺
+「卯奈……？」
+<PAUSE>
+<NAME_PLATE>
+　卯奈が決意に満ちた顔で俺に言う。
+<PAUSE>
+<NAME_PLATE>
+　――と、その顔を見て俺は彼女が
+何をしようとしているのか察知した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「卯奈！？　お前本気か！！？」
+<PAUSE>
+<NAME_PLATE>卯奈
+「もちろんっ！！
+　私、足は速いから大丈夫っ！！！
+　………たぶん」
+<PAUSE>
+<NAME_PLATE>
+　つまり――。
+<PAUSE>
+<NAME_PLATE>
+　卯奈はカバンを持って走ることで、
+人虎を引き付けるエサになる気なのだ。
+<PAUSE>
+<NAME_PLATE>
+　ワータイガーは洗脳によって
+カバンを追うように仕込まれている。
+<PAUSE>
+<NAME_PLATE>
+　この場で強敵と言えるのは、
+あの虎の獣人のみ。
+<PAUSE>
+<NAME_PLATE>
+　奴さえこの場から離れれば、
+今の俺たちでも勝機はある。
+だが――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ＧＡＲＲＲ――！！！
+　ＧＡＡＡＡＡＡＡＡＡＡＡ！！』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ワーウルフ
+「ガアァッ！！！」
+<PAUSE>
+<NAME_PLATE>
+　激しい呻き声を上げて
+ワーウルフが吹き飛ばされる。
+<PAUSE>
+<NAME_PLATE>
+　血走った人虎の双眼が身動きの
+できないまりと舞に向けられる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　――苦しい策だが仕方がない。
+<PAUSE>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「すまない卯奈！！　頼んだ！」
+<PAUSE>
+<NAME_PLATE>卯奈
+「がってんっ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　卯奈はケースを受け取ると、
+まさに脱兎のように走り出す。
+<PAUSE>
+<NAME_PLATE>卯奈
+「ヘイヘイ虎さーーーん！！
+　よそ見してていいのかな～！？」
+<PAUSE>
+<NAME_PLATE>卯奈
+「きみたちの大事なオクスリ、
+　今から海に捨ててきちゃうよー♪」
+<PAUSE>
+<NAME_PLATE>ワータイガー
+「ＧＲＲＲ……？」
+<PAUSE>
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>淫魔族
+「ふっ。こざかしい。
+　何をするかと思えば――」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　不審そうに唸るワータイガー。
+<PAUSE>
+<NAME_PLATE>
+　そんな獣人に妖しく笑った
+淫魔族の男が指示を下す。
+<PAUSE>
+<NAME_PLATE>淫魔族
+「しかし、あれが他の組織の
+　者の手にでも渡ったら面倒です。
+　――追いなさい！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>ワータイガー
+『ガルルッ！！　ガアアアアアア
+　アアアアアアアアァァ！！！！』
+<PAUSE>
+<NAME_PLATE>卯奈
+「うひゃあああああ！！？
+　お手柔らかにいいいいいっ！！」
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　悲鳴を上げて逃げ去る卯奈、
+それを猛然と追いかける人虎。
+<PAUSE>
+<NAME_PLATE>
+　そして、あとに残されたのは――。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,ts_m019a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m018a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>淫魔族
+「……獣人がいなければ、
+　我らに勝てると思ったか？
+　ククク、愚かな」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　インキュバス＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>俺
+「まあ、そう簡単にいくとも
+　思ってないさ……」
+<PAUSE>
+<NAME_PLATE>
+　俺たちを囲んで少しずつ
+距離を詰めてくる淫魔族たち。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「あうぅ……ふ、ふうま君、
+　卯奈ちゃんは……」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「あいつに関しては……大丈夫、
+　ひとつ考えがある」
+<PAUSE>
+<NAME_PLATE>俺
+「だがその前に、
+　こっちを何とかしないとな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m074a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワーウルフ
+「クソ……トラの野郎……ッ」
+<PAUSE>
+//　※立ち絵
+//　　ワーウルフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　ワーウルフは負傷し、まりと舞も
+まだ立ち上がれる状態ではない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　卯奈のことは心配だが――
+まずは俺たちがこの窮地を
+切り抜けよう。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

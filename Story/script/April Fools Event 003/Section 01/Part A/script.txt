@@ -1,0 +1,1012 @@
+//=================================================================
+//【背景：五車近郊の道＿夜】【時間：夜】
+//　※先生を孕ませよう_nc014aより流用
+//nc406a
+<BGM_PLAY>bgm314,1000
+<BG>nc406a,IN, 1000
+<NAME_PLATE>上原鹿之助
+（なんで、なんでこんなことに――）
+<PAUSE>
+<NAME_PLATE>
+　俺は上原鹿之助。
+対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　俺は今、五車の町から逃げるべく、
+必死に山の中を駆け抜けている。
+<PAUSE>
+<NAME_PLATE>
+　背中にはタコ壺。
+その中には、あの惨劇の中から
+唯一助け出せた友達の蛇子が入っている。
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「蛇子、絶対助けてやるからな！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助（炭治郎）
+//　　　＊鹿之助の戦闘立ち絵に市松模様の羽織
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t008f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>相州蛇子
+「――――！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子inタコ壺（禰豆子役）
+//　　　＊タコ壺から蛇子（蛇子通常立ち絵の首から上）が顔を出している。
+//　　　　口には茎ワサビをくわえている。
+<NAME_PLATE>
+　背負ったタコ壺から、
+蛇子の悶える気配がする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ことの始まりは、数時間前――
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺が任務で出かけている間に、
+五車学園はまたもタコたちの大群に
+襲われて壊滅していた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（なんか前にもこんなことあったような――）
+<PAUSE>
+<NAME_PLATE>
+　だけど、今度のタコは
+ただのタコではなかった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m258a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼タコ
+「タコ―！」
+「オニタコー！」
+<PAUSE>
+//　※立ち絵
+//　　鬼タコ蛇子
+//　　　＊タコ蛇子の立ち絵+おでこから角を二本生やす
+<NAME_PLATE>
+　その頭には角を生やし、人を喰らい、
+不死の体を持つ恐怖のタコ――通称・鬼タコ。
+<PAUSE>
+<NAME_PLATE>
+　ヤツらにより、生徒たちは食われるか、
+鬼タコ化してしまい、
+生き延びたのは蛇子だけ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかしその蛇子もまた、
+鬼タコの血を浴び、
+鬼タコに変化してしまっていた。
+<PAUSE>
+<ACTOR>0,h_t008f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「おにたこー」
+<PAUSE>
+//　※立ち絵
+//　　蛇子inタコ壺（禰豆子役）
+//　　　＊タコ壺から蛇子（蛇子通常立ち絵の首から上）が顔を出している。
+//　　　　口には茎ワサビをくわえている。
+<NAME_PLATE>
+　ただ蛇子は他の鬼タコと違い、
+かろうじて人を襲わない理性を保っていた。
+もともとタコだからかなあ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「たこ！（怒）」
+<PAUSE>
+<NAME_PLATE>
+　苦しそうな蛇子に、俺は
+そのへんの清流に生えてた野生のワサビを
+咥えさせて、タコ壺に入ってもらった。
+<PAUSE>
+<NAME_PLATE>
+　これでタコである自覚を忘れず、
+少しでも鬼タコ化を防げるといいんだけど。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　とにかく、俺はそんな蛇子を連れて、
+安全な場所へ向かおうと
+山の中をひた走っていた――
+<PAUSE>
+//【背景：五車近郊の道＿夜】【時間：夜】
+//　※先生を孕ませよう_nc014aより流用
+//nc406a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc406a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m258a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>鬼タコたち
+「オニタコー！」
+「オニタコ―！」
+<PAUSE>
+//　※立ち絵
+//　　鬼タコ蛇子
+//　　　＊タコ蛇子の立ち絵+おでこから角を二本生やす
+//　　　＊出せるだけ並べてください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,s_t017f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t008c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「くっ！？
+　説明してる間に囲むなんて、
+　卑怯な鬼タコめっ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助（炭治郎役）
+//　　　＊鹿之助の戦闘立ち絵に市松模様の羽織
+<NAME_PLATE>蛇子
+「たこたこー」
+<PAUSE>
+//　※立ち絵
+//　　蛇子inタコ壺（禰豆子役）
+//　　　＊タコ壺から蛇子（蛇子通常立ち絵の首から上）が顔を出している。
+//　　　　口には茎ワサビをくわえている。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m258b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼タコたち
+「オニタコー！」
+「オニタコ―！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「こっちもか！
+　早くも絶体絶命だー！」
+<PAUSE>
+<NAME_PLATE>
+　振り向いてみると、前も後ろも
+鬼タコの群れに塞がれていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「だけど頑張って逃げずに戦う！
+　なんたって俺は嫡男だからな！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッ！
+<PAUSE>
+<NAME_PLATE>鬼タコ
+「タコーーー」
+<PAUSE>
+<NAME_PLATE>
+　俺は学園から持ち出してきた刀を抜いて、
+鬼タコたちの群れに向かって一閃、
+鬼タコはバラバラになって吹っ飛んでいく。
+<PAUSE>
+<BG>nc406a,IN, 500
+<NAME_PLATE>
+　だけど安心はできない。
+こいつらは首を切るか、
+太陽の光に当てないと死なないのだ。
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「とどめだっ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は鬼タコの首を切り落とそうと
+刀を振り上げた。
+<PAUSE>
+<ACTOR>0,s_t017e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「いや、待てよ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「こいつは、五車学園の
+　生徒の誰かだったかもしれない……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m258a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そう思うと、なんだかそう見えてくる。
+まり……舞華……卯奈……
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ええい、迷ってる場合か俺！」
+<PAUSE>
+<NAME_PLATE>
+　俺は脳裏に浮かぶ学友たちの笑顔を
+振り払った。
+<PAUSE>
+<ACTOR>0,s_t017g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「たとえ友達でも、こうなった以上
+　倒してやるのが忍の情けだ！
+　ごめん、首を落とさせてもらうぞ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は再び刀を振り上げ、
+その首に狙いを……えっと、首？
+<PAUSE>
+<ACTOR>0,s_t017e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「首……？
+　こいつらの首ってどこだ……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m258b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼タコ
+「タッコッコッ」
+<PAUSE>
+<NAME_PLATE>
+　俺が迷ってるわずかな間に、
+切られた鬼タコの足から頭が生え、
+元の姿に戻っていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t017d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「しまった！
+　こいつら、切れば切るほど増えて……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m258a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m258b,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼タコ
+「タコ」「タコ」「タコ」
+「タコ」「タコ」「タコ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うわああああ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「たーこー」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「今度こそほんとに絶体絶命っ――」
+<PAUSE>
+<NAME_PLATE>
+　と思ったその時。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザンッ！！！
+<PAUSE>
+<NAME_PLATE>
+　光が一閃し、
+鬼タコたちの首（？）と胴（？）が
+一気に飛んでいった。
+<PAUSE>
+<BG>nc406a,IN, 500
+<ACTOR>0,a_t018a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ？
+「判断が遅いわ」
+<PAUSE>
+//　※立ち絵
+//　　アサギ（鱗滝役）
+//　　　＊アサギ３の通常立ち絵（対魔忍衣装）に天狗の面をつけている
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　いつの間にそこにいたのか。
+その人は的確に鬼タコの首を狙いすまし、
+ヤツらの生命を絶った。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc406a,IN, 500
+<ACTOR>1,s_t017d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「す、すごい……」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,a_t018a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ？
+「あなたね。鬼タコになった妹を連れて
+　逃げて来たというのは」
+<PAUSE>
+<ACTOR>1,s_t017e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「妹……？　いや友達ですけど」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「ごほん。
+　細かい事はいいのよ」
+<PAUSE>
+<ACTOR>1,s_t017c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ？
+「あなたもとっくにわかってると思うけど、
+　鬼タコは放っておいては危険な存在」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「ただ、普通の人間、いや対魔忍でも
+　ヤツらには対抗できないわ」
+<PAUSE>
+<ACTOR>1,s_t017d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そんな……。
+　それじゃ一体どうすれば……」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「鬼タコを狩るために結成された、
+　特別な部隊がある」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「その名も『蛸刺隊』！！」
+<PAUSE>
+<ACTOR>1,s_t017e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「タコ……サシ……？！」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「あなたには特別な修行をして、
+　人の身で魔を、じゃなくて鬼タコを狩る
+　『蛸刺隊』の隊士になってもらうわ」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「たったひとりで妹……じゃなかった、
+　友達を助けて逃げてきたあなたには、
+　その素質があるかもしれない」
+<PAUSE>
+<ACTOR>1,s_t017c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「俺が……鬼タコを狩る
+　蛸刺隊に……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　こうして俺は鬼タコたちを倒すため、
+蛇子を普通のタコに戻す方法を探すため、
+蛸刺隊の隊士となる修行を始めたのだった。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　修行はそれはもうきつかった。
+<PAUSE>
+<NAME_PLATE>
+　アサギせ……謎の仮面の人に、
+呼吸法とか諸々の鬼タコに対抗する術を
+習い、
+<PAUSE>
+<NAME_PLATE>
+　厳しい修練に耐えること、
+一時間ほど――
+<PAUSE>
+//【背景：とある山の山頂＿夜】【時間：夜】
+//　※先生を孕ませよう_nc015aより流用
+//nc407a
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm506,1000
+<BG>nc407a,IN, 1000
+<ACTOR>0,a_t018a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アサギ？
+「さて、長らくの修行お疲れさま。
+　これからあなたたちには、
+　蛸刺隊の隊士となる試験を受けてもらう」
+<PAUSE>
+//　※立ち絵
+//　　アサギ（鱗滝役）
+//　　　＊アサギ３の通常立ち絵（対魔忍衣装）に天狗の面をつけている
+<NAME_PLATE>
+　修行を終えた俺は、
+とある山の頂上にいた。
+<PAUSE>
+<ACTOR>0,a_t018a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t017c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「あなたたち、って、
+　俺以外にもいるんですか？」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「後ろを見てごらんなさい」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「後ろ？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,400
+<ACTOR_OUT>1,RIGHT,linear,400
+</GROUP>
+<GROUP>
+<BG>nc407a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>
+　と、
+俺が振り返ると――
+<PAUSE>
+<ACTOR>0,yu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「なんで私がこんな試験受けなきゃ
+　いけないのかしら」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ（善逸役）
+//　　＊【雷撃の新学期】水城ゆきかぜに黄色の三角柄の羽織を着せるなどして加工
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ゆきかぜぇ？！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あんなヤツら、
+　ライトニングボルトで全員
+　丸コゲにしちゃえばいいじゃない」
+<PAUSE>
+<NAME_PLATE>
+　黄色い羽織のゆきかぜが、
+木の上に座って足をぶらぶらさせていた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（試験いる！？　キャラ合ってなくない！？）
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あいつは走り回ってばっかだし……
+　全く」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あいつ？」
+<PAUSE>
+<NAME_PLATE>？？？
+「うおおおお！！！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドドドドド……
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<GROUP>
+<BG>nc407a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イノシシ
+「猪突猛進！！　猪突猛進！！！」
+<PAUSE>
+//　※立ち絵
+//　　伊之助ふうま
+//　　＊清麻呂立ち絵を流用
+<NAME_PLATE>鹿之助
+「うわあ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大きなイノシシが
+地響きと共に駆けてきて、
+俺は危うく飛ばされるところだった。
+<PAUSE>
+<ACTOR>0,s_t017d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「今の声……ふうま、なのか？」
+<PAUSE>
+<ACTOR>1,yu_t007a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なんかの拍子であの姿になっちゃったん
+　ですって。でも、おかげで鬼タコに
+　狙われずに済んだみたいよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま小太郎
+「猪突猛進！！　猪突猛進！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t017e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「かぶりもんじゃなくて、
+　そのまんまイノシシなんだな……」
+<PAUSE>
+<ACTOR>0,s_t017b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「でも、その格好も
+　似合ってると思うぜ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ふうまは鼻を鳴らしながら、
+なにかこっちに抗議しているようだが、
+当然聞き取れないので無視しておく。
+<PAUSE>
+<ACTOR>0,a_t018a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ？
+「二人はあなたと同じ、
+　鬼タコの襲撃を生き抜いた者たちよ」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「つまり蛸刺の隊士になる素質がある。
+　だから、修行をして、
+　試練を受けてもらうわ」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「試練の内容は、この山頂から、
+　生きて下山すること。それだけよ」
+<PAUSE>
+<ACTOR>0,a_t018a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t017c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「生きて……？　それだけ？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>アサギ？
+「この山には鬼タコが
+　たくさん生息している」
+<PAUSE>
+<NAME_PLATE>アサギ？
+「鬼タコをすべて殺す必要はない。
+　とにかく生き延びて、
+　麓へ下山せよ！」
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　こうして、
+麓を目指して走り出した俺たちは――
+<PAUSE>
+//【背景：とある山の山中＿夜】【時間：夜】
+//　※MISAO_nc011cより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm313,1000
+<BG>nc037a,IN, 1000
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>鹿之助
+「うおおおおっ！
+　電遁……じゃなかった、
+　鹿の呼吸・壱の型！　スパーク！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助（炭治郎役）
+//　　　＊鹿之助の戦闘立ち絵に市松模様の羽織
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼タコ
+「タコ～～～」
+「オニタコ～～～」
+<PAUSE>
+//　※立ち絵
+//　　鬼タコ蛇子
+//　　　＊タコ蛇子の立ち絵+おでこから角を二本生やす
+<BG>nc037a,IN, 1000
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>鹿之助
+「よし……！
+　“呼吸”、少しずつ使いこなせる
+　ようになってきたぞ！」
+<PAUSE>
+<NAME_PLATE>
+　寄ってくる鬼タコたちを斬り、避け、
+飛び越えながら俺はひたすら麓を目指した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま
+「猪突猛進ー！！！」
+<PAUSE>
+//　※立ち絵
+//　　伊之助ふうま
+//　　＊清麻呂立ち絵を流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,s_t017d,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>鹿之助
+「あっ、ふうま！
+　おーいふうま！
+　……ってもう行っちゃった」
+<PAUSE>
+<NAME_PLATE>ふうま
+（止まれないんだよくそ！
+　なんで俺だけこの絵なんだ！）
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「いや、俺も負けてられないぞ！
+　これ以上鬼タコの被害を出さないためにも、
+　頑張って蛸刺隊の隊士になるんだ！！」
+<PAUSE>
+<NAME_PLATE>
+　と、駆け抜けていく
+ふうまを見送っている横で。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「いっけえ！
+　ライトニングボルト！！！！」
+<PAUSE>
+//　※立ち絵
+//　　善逸ゆきかぜ
+//　　＊【雷撃の新学期】水城ゆきかぜに黄色の三角柄の羽織を着せるなどして加工
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼タコ
+「タコ～～～」
+「タコ～～～」
+<PAUSE>
+<BG>nc037a,IN, 500
+<ACTOR>1,yu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふう。こんなの楽勝よね。
+　寝てても勝てそうだわ」
+<PAUSE>
+<ACTOR>1,yu_t007a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,s_t017d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ゆきかぜ、ちゃんと空気読んで
+　呼吸とか型とか言いなよ！？
+　てかそこ俺の役じゃない！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まあほら、それは雷担当ってことで？
+　それにあんたが主人公やりたいって
+　言ったんでしょ」
+<PAUSE>
+<ACTOR>0,s_t017e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「う、まあ……」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そういうことで、お先！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>1,RIGHT,linear,500
+<NAME_PLATE>
+　二人はどんどん先へ行き、
+俺は取り残されていった。
+<PAUSE>
+<ACTOR>0,s_t017e,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>鹿之助
+「うう……
+　鬼タコはどんどん湧いてくるし、
+　道はあってないようなもんだし……」
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「～～～～いや！
+　頑張れ俺！
+　蛇子や、食べられたみんなの為だ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「何より俺はいま主人公！
+　きっと主人公補正だってかかってる！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が心を奮い立たせ、
+再び顔を上げたとき。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,ts_m025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>赤鬼
+「きょきょきょ！！
+　ひよわそうなガキでしゅねえ！」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼・青鬼
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>青鬼
+「オホホホホホ！！
+　触っただけで折れそうな
+　細っこさでござーます！？」
+<PAUSE>
+<NAME_PLATE>
+　ザッ――と草むらを踏み倒し、
+鎧武者のような恰好の鬼が二人、
+俺の前に立ちふさがった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「え、鬼……！？
+　本物の鬼！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「ホ！？
+　鬼に本物も偽物もないでしょう！？
+　失礼でござーますね！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あっ、いや。
+　ちょっと聞いてなかったから
+　びっくりして――」
+<PAUSE>
+<NAME_PLATE>赤鬼
+「わけわかんないことばっか
+　言ってるじゃないでしゅよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ヒュゥン！
+<PAUSE>
+<NAME_PLATE>
+　赤鬼の偃月刀が俺の目の先を掠め、
+そこにあった木の葉を切り払った。
+<PAUSE>
+<BG>nc037a,IN, 500
+<ACTOR>0,s_t017d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うわっ！？　ずいぶん本気だな！？
+　よーし、こっちだって！」
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「こんな大きな鬼がいるなんて！
+　だけど俺はきっと、
+　試練を乗り越えてみせる！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m026a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>青鬼
+「何でっかい口叩いてるんですか？！
+　生意気ざます！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガスン！
+<PAUSE>
+<NAME_PLATE>
+　今度は青鬼の矛が飛んできて、
+俺の足元の地面を抉った。
+<PAUSE>
+<BG>nc037a,IN, 500
+<ACTOR>0,s_t017d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「あっぶな！！
+　なんか変だな……！？」
+<PAUSE>
+<NAME_PLATE>
+　ＰＩＰＩＰＩＰＩ……
+<PAUSE>
+<NAME_PLATE>
+　と、そのとき
+俺の端末が鳴り響いた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「もしもし監督！？
+　どうしたんだ？」
+<PAUSE>
+//【背景：五車学園シミュレーションルーム＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC015aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc002a,IN, 1000
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>篠原まり
+『あっ上原さん！？
+　大変なんです、撮影は中止です！』
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり
+//　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「大変って？」
+<PAUSE>
+<NAME_PLATE>まり
+『本物の鬼が山中に紛れ込んでる
+　みたいなんです』
+<PAUSE>
+<NAME_PLATE>まり
+『ですから、撮影は止めて、
+　すぐにそこから退避を――』
+<PAUSE>
+<ACTOR>0,chr_t0119a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,a_t002c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+『いいえ、撮影は続けるわ』
+<PAUSE>
+//　※立ち絵
+//　　井河アサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>まり
+『ええっ！？　アサギ先生！？』
+<PAUSE>
+<NAME_PLATE>アサギ
+『何も倒せとはいわないわ。
+　逃げ延びて山を下りてくればいい。
+　それもまた訓練よ』
+<PAUSE>
+<ACTOR>1,a_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+『独立遊撃隊として経験を積んだ
+　あなたならできるでしょう？』
+<PAUSE>
+<ACTOR>1,a_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+『主役の活躍、
+　期待してるわよ』
+<PAUSE>
+//【背景：とある山の山中＿夜】【時間：夜】
+//　※MISAO_nc011cより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc037a,IN, 1000
+<ACTOR>0,s_t017d,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>鹿之助
+「あっ、アサギ先生！？
+　――切れた……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助（炭治郎役）
+//　　　＊鹿之助の戦闘立ち絵に市松模様の羽織
+<ACTOR>0,s_t017e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「くそっ……
+　やっぱり本物の鬼じゃんかよ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　風邪で倒れた映画部員の代わりに
+篠原まりが企画した、
+春のスペシャル自主制作映画『蛸刺の刃』。
+<PAUSE>
+<NAME_PLATE>
+　鬼タコ化したヒロイン蛇子を救うため、
+『蛸刺隊』の一員になるという
+一大冒険活劇は、
+<PAUSE>
+<NAME_PLATE>
+　本物の鬼たちの乱入により、
+未知の展開を迎えようとしていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>赤鬼
+「きょきょ！　お喋りはおしまいでしゅ！」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>青鬼
+「死ねざます！！」
+<PAUSE>
+//　※立ち絵
+//　　青鬼
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「くそっ！　わかったよ！
+　正義の対魔忍として、
+　俺は――逃げる！！！」
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　こうして俺は、
+鬼と鬼タコたちが巣食う山を
+駆け抜け――
+<PAUSE>
+<ACTOR>0,a_t018a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ？
+「そうそう言い忘れてたけど、
+　この試練には、稲毛屋のおばあちゃんが
+　協賛してくれてるから♪」
+<PAUSE>
+//　※立ち絵
+//　　アサギ（鱗滝役）
+//　　　＊アサギ３の通常立ち絵（対魔忍衣装）に天狗の面をつけている
+<NAME_PLATE>アサギ？
+「特別製のアイスを作ってもらって、
+　食べると一時的に、
+　鬼の攻撃が効かない体になれるわ」
+<PAUSE>
+<NAME_PLATE>
+　なにそれ！？
+そんなのあるなら早く言って！？
+<PAUSE>
+<NAME_PLATE>アサギ？
+「そういうわけで、
+　頑張ってね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

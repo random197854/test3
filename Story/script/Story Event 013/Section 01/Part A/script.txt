@@ -1,0 +1,1480 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　東京の地下３００メートル。
+<PAUSE>
+<NAME_PLATE>
+　そこに闇の無法都市ヨミハラがある。
+<PAUSE>
+<NAME_PLATE>
+　大自然の気まぐれで生み出されたのか、
+あるいは何者かの意思によって作られたのか、
+広大な地下空間にできた街だ。
+<PAUSE>
+<NAME_PLATE>
+　その面積は地上の東京２３区と比べても
+上位１０位に入るほどで、品川区がすっぽりと
+収まってしまう。
+<PAUSE>
+<NAME_PLATE>
+　近隣の東京キングダム、あるいはセンザキと
+肩を並べる首都圏有数の犯罪都市である。
+<PAUSE>
+<NAME_PLATE>
+　そんな街に集まってくるのは、
+無論、魔界の住人や闇の世界の住人たちだ。
+<PAUSE>
+<NAME_PLATE>
+　彼らによる大小無数の組織が
+ヨミハラには存在している。
+<PAUSE>
+<NAME_PLATE>
+　中でも吸血鬼エドウィン・ブラックを
+総帥とするノマドは最大の勢力を誇っていた。
+<PAUSE>
+<NAME_PLATE>
+　その日本支部がヨミハラにはあった。
+<PAUSE>
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc017aより流用
+<BG>nc279a,IN, 1000
+<NAME_PLATE>
+　街の最北、目抜き通りを抜けた先にある
+『闇の宮殿』と呼ばれる建物がそれだ。
+<PAUSE>
+<NAME_PLATE>
+　宮殿の名にふさわしく、建物の入り口には、
+岩盤を直接加工して作られた彫像が飾られ、
+荘厳な雰囲気を醸し出している。
+<PAUSE>
+<NAME_PLATE>
+　だがそれに惹かれて近づくような
+迂闊な住人は一人としていない。
+<PAUSE>
+<NAME_PLATE>
+　皆、知っているからだ。
+<PAUSE>
+<NAME_PLATE>
+　闇の宮殿の最深部にはヨミハラの闇の根源、
+魔界へ通じるゲートがあるということを。
+<PAUSE>
+<NAME_PLATE>
+　現在、闇の宮殿を預かっているのは、
+ノマドの大幹部にして、最強の魔界騎士と
+名高いイングリッドその人だった。
+<PAUSE>
+//【背景：イングリッド執務室＿昼夜共通】【時間：夜】
+//　※監獄戦艦3_nc008aより流用
+<BG>nc280a,IN, 1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　彼女は執務室で部下の女から
+最近のヨミハラの動向について報告を
+受けているところだった。
+<PAUSE>
+<NAME_PLATE>部下
+「“蜘蛛の貴婦人”が倒れ、
+　“土雲（つちぐも）”が壊滅して以来、
+　各組織の動きが活発になっています」
+<PAUSE>
+<NAME_PLATE>部下
+「米連の特務機関Ｇがヨミハラの外部と
+　手を結ぼうとする動きを見せており」
+<PAUSE>
+<NAME_PLATE>部下
+「また中華連合系の組織・龍門も
+　それに呼応して何事かを企んでいる
+　模様です」
+<PAUSE>
+<NAME_PLATE>部下
+「これまで以上の警戒が必要かと」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「最近、どこも妙に大人しかったが、
+　ようやくヨミハラらしくなってきたと
+　いうところだな。了解した」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは部下に頷き、
+次いでほくそ笑むような
+不敵な表情を浮かべた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「蜘蛛の貴婦人を倒したのは、
+　例の独立遊撃隊とかいう
+　対魔忍の新部隊だったな？」
+<PAUSE>
+<NAME_PLATE>部下
+「はっ。
+　アミダハラ、センザキでも
+　その目撃情報があります」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「神出鬼没というわけだ。
+　井河アサギめ。なかなかやってくれる」
+<PAUSE>
+<NAME_PLATE>部下
+「討伐部隊を編成いたしますか？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「いや、まだ必要ないだろう。
+　随分と目立っているようだからな。
+　せいぜい掻き回してもらって―――」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは奇妙な感覚に襲われ、
+ふと口を噤んだ。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの空気がピーンと張り詰めていた。
+<PAUSE>
+<NAME_PLATE>
+　何かが来る？
+<PAUSE>
+<NAME_PLATE>
+　いや、起こる！？
+<PAUSE>
+<NAME_PLATE>
+　そう思った次の瞬間、
+闇の宮殿全体がぎしっと重くきしんだ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぐあんっっ！！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　突然、突き上げるように地面が揺れた。
+<PAUSE>
+<NAME_PLATE>
+　闇の宮殿が、いやヨミハラ全体が
+ガクガクと激しく脈打つ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「敵の襲撃！？
+　いや、これは地震か！？」
+<PAUSE>
+<NAME_PLATE>
+　机や棚から物が次々と落ち、
+ガラスが割れる音も
+あちこちから聞こえてくる。
+<PAUSE>
+<NAME_PLATE>部下
+「きゃっ！」
+<PAUSE>
+<NAME_PLATE>
+　報告をしていた部下が
+立っていられなくなり、
+床にひっくり返った。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「じっとしていろ。すぐに治まる！」
+<PAUSE>
+<NAME_PLATE>
+　と言ったそばから地震はぴたりと治まった。
+<PAUSE>
+<NAME_PLATE>
+　揺れていたのは５秒にも
+満たなかっただろう。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「妙な地震だったな……」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは呟いた。
+<PAUSE>
+<NAME_PLATE>
+　こんな街に暮らしている以上、
+大小の地震など日常茶飯事だが、
+<PAUSE>
+<NAME_PLATE>
+　最初の激しさはなんだったのかと思うほど、
+揺れは呆気なく治まってしまった。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「怪我はないか？」
+<PAUSE>
+<NAME_PLATE>部下
+「はい。申し訳ありません」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「大したことはないようだが、
+　念のため被害状況を確認して報告しろ」
+<PAUSE>
+<NAME_PLATE>部下
+「はっっ」
+<PAUSE>
+//　※イングリッド立ち絵オフ
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ここの最奥部には魔界の門がある。
+<PAUSE>
+<NAME_PLATE>
+　小さな地震とはいえ、
+どんな影響があるか分からない。
+それは当然の指示だった。
+<PAUSE>
+<NAME_PLATE>
+　しばらくすると、さっきの部下ではなく、
+ひどく困惑した顔のリーナがやってきた。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、デモンズ・アリーナが
+　おかしなことになっています」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　あまりに曖昧な言葉に
+イングリッドは眉をひそめた。
+<PAUSE>
+<NAME_PLATE>
+　リーナはノマドに所属する魔界騎士で
+イングリッドの最も信頼する部下の一人だ。
+<PAUSE>
+<NAME_PLATE>
+　もとは下級の魔族であり、
+生来の魔力もイングリッドに比べれば
+遙かに小さい。
+<PAUSE>
+<NAME_PLATE>
+　にも拘わらず、たゆまぬ努力により、
+魔界騎士にふさわしい実力を身につけた彼女を
+イングリッドは深く信頼していた。
+<PAUSE>
+<NAME_PLATE>
+　その証として、
+彼女が保有していた魔剣サクラブロッサムを
+与えたほどである。
+<PAUSE>
+<NAME_PLATE>
+　それがよほど誇らしかったらしく、
+それ以来、リーナは自分で『桜嵐舞闘』を
+名乗っている。
+<PAUSE>
+<NAME_PLATE>
+　そんな魔族らしからぬ単純さも含めて、
+イングリッドはリーナを好んでいたのだが、
+『おかしなことになっています』はない。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「おかしなこととはなんだ。
+　もっと具体的に言わないか」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊カードイラストより流用
+<NAME_PLATE>リーナ
+「ええとですね、デモンズ・アリーナに
+　見たことのない場所が現れてるんです」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>リーナ
+「ステージの壁だったとこです。
+　その壁が凹んで？　中が変な広場になってて
+　廊下みたいなのが続いてるんです」
+<PAUSE>
+<NAME_PLATE>リーナ
+「しかもそこ、縦横がおかしいみたいで、
+　左が下で、右が上？　になってる感じで
+　重力？　かなんかがズレてるんです」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様、
+　とにかく一度いらしてください。
+　私には何が何だか分かりません」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「………………」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　身振り手振りを交えて説明しているが、
+何が何だか分からないのは
+イングリッドの方だ。
+<PAUSE>
+<NAME_PLATE>
+　これは自分で見た方が早そうだ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「分かった、行こう」
+<PAUSE>
+//【背景：デモンズアリーナ（異世界連結）＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc042a、装甲騎女イリス＿nc011aを組み合わせて流用。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc281a,IN, 1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>イングリッド
+「なるほど、おかしなことになっているな」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>
+　イングリッドも頷かざるを得なかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　デモンズ・アリーナはノマドの重要な
+資金源である闇のバトルを始めとする
+様々な非合法ショーを行う場所だ。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダムにあるカオス・アリーナを
+より大規模にしたものだ。
+<PAUSE>
+<NAME_PLATE>
+　そのステージの壁の一部が
+見たことのない場所へと繋がっていた。
+<PAUSE>
+<NAME_PLATE>
+　しかもリーナが言ったとおり、
+こちらと向こうとで重力の働く方向が
+ズレているようだ。
+<PAUSE>
+<NAME_PLATE>
+　床が左側にあり、物が横向きに立っている。
+こんなおかしな話はない。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「どこか別の場所と空間が
+　繋がってしまったように見えるな」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0010a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「どこだか分かりますか？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>イングリッド
+「いや、見当がつかない」
+<PAUSE>
+<NAME_PLATE>リーナ
+「さっきの地震のせいでしょうか？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「おそらくな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「…………」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「誰か向こうに行った者はいるのか？」
+<PAUSE>
+<NAME_PLATE>
+　リーナは首を振った。
+<PAUSE>
+<NAME_PLATE>リーナ
+「先にイングリッド様に
+　ご報告しようと思いまして」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「うむ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ただ、試しに石は投げてみました」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「石だと？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、ご覧下さい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se006
+<NAME_PLATE>
+　リーナは地面に落ちていた石を拾って、
+向こう側に放り投げた。
+<PAUSE>
+<NAME_PLATE>
+　石は何ごともなく境目を通り抜け、
+その途端、重力の方向が変わって
+左側の床に落ちていった。
+<PAUSE>
+<NAME_PLATE>
+　境目を通り抜けたことで
+何かが起こるわけでもなく、
+さりとて空間の連結が切れるわけでもない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「どうということはなさそうだな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「お許しを頂ければ、
+　私が部隊を率いて偵察に行ってきます」
+<PAUSE>
+<NAME_PLATE>
+　リーナは少しも臆した風もなく言った。
+<PAUSE>
+<NAME_PLATE>
+　分からなければ考えるよりも行動。
+その意気は頼もしいが、
+<PAUSE>
+<NAME_PLATE>イングリッド
+「いや、待て。
+　まずエレーナを呼んできてくれ。
+　魔術師の意見を聞きたい」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっ、直ちに」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se078
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc281a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　しばらくすると、
+リーナに手を引かれるようにして、
+魔術師のエレーナがやってきた。
+<PAUSE>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「あ……あの、お呼びでしょうか？」
+<PAUSE>
+<NAME_PLATE>
+　エレーナは今日もおどおどしていた。
+これから叱られるような顔だ。
+<PAUSE>
+<NAME_PLATE>
+　以前、魔界で同族の仲間とはぐれ、
+一人で彷徨っていた所を救ってから、
+ノマドに所属しているのだが、
+<PAUSE>
+<NAME_PLATE>
+　卓越した魔術師の力とは裏腹に、
+常に自信がなさそうにしているのが、
+このエレーナだった。
+<PAUSE>
+<NAME_PLATE>
+　実際、闘いは苦手としていて、
+得意とする睡眠の魔術も
+戦闘より兵士の安眠に使われている。
+<PAUSE>
+<ACTOR>0,chr_t0144a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「あれを見てくれ。
+　さっきの地震のあとでああなったようだ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「え……？
+　うう……なんだかすごいことに……」
+<PAUSE>
+<NAME_PLATE>
+　エレーナはそれを見るなりビクッとして、
+不安そうに杖を握りしめた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「どこか別の場所と空間が
+　繋がってしまったように思うのだが、
+　魔術師としての意見をきかせてくれ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ……はい……
+　私も……そう思います……」
+<PAUSE>
+<NAME_PLATE>
+　エレーナは同意し、
+イングリッドが黙って先を促すと
+自信がなさそうに後を続けた。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あの……さっきのは多分、魔界の門が
+　起こした時空震かなにかで……それで
+　時空がからみあって……あんな感じに」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「だからその、あそこに見えるのは、
+　こことは全然違う、どこか別の世界だと……
+　そう思うんですが……多分……」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「つまりこの世界のどこか別の場所ではなく、
+　完全な異世界ということか？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「は、はい……そう思います……
+　あんまり自信は……ないですけど……」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「異世界か……」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「どんな敵が現れるか分かりません。
+　イングリッド様、直ちに探索のご命令を」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　リーナが勢い込んで進言すると、
+エレーナがおそるおそる異を唱えた。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ、あの……
+　でも、ああいう次元の繋がりは……
+　その……とても不安定ですから……」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「しばらく放っておいたら……
+　その、元に戻るかも……
+　ですから何もしない方が……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ただ放っておいて
+　あそこから敵が現れたらどうするんだ！？
+　本部への侵入を許すことになるんだぞ！」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あうう……ご、ごめんなさい……」
+<PAUSE>
+<NAME_PLATE>
+　悪気はないのだろうがリーナの大声に
+エレーナは怯えて首をすくめる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「リーナ。
+　そう、エレーナを脅かしてやるな。
+　確かにあの手のものは不安定だ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっ、申し訳ありません」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「しかし、お前の言うことにも一理ある。
+　やはり放っておく訳にはいかない。
+　よし、私が探索部隊を指揮しよう」
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「イングリッド様自ら！？
+　ならばぜひ私をお供に！！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「よかろう。
+　エレーナ、お前もついてこい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「わ、わ、私もですか？
+　でも私、未知の敵の闘いとか、
+　そういうのはすごく苦手で……」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「イ、イングリッド様の足を絶対に
+　引っ張ってしまいますから……
+　できれば、こ、ここで待機とか……」
+<PAUSE>
+<ACTOR>0,chr_t0144a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「なにを言っているんだ？
+　イングリッド様がご一緒なんだぞ。
+　どんな敵が来ても怖いものなしだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「及ばずながら私もいる。
+　それでも不服か！？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「え？　で、でも……」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「闘いは私たちに任せておけ。
+　お前の魔術師としての判断が必要だ。
+　頼むぞ、エレーナ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「うう……できるだけ、頑張ってみます。
+　でも、失敗してしまったら、ごめんなさい」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私も全力を尽くします！」
+<PAUSE>
+<NAME_PLATE>
+　涙目になっているエレーナと、
+目を輝かせているリーナ。
+いつも通りの二人だった。
+<PAUSE>
+//【背景：異世界広場＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc011aを流用
+//　　デモンズアリーナに張り付けていた背景。
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc282a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　イングリッドはリーナ、エレーナ、
+その他に数人の従者を連れて、
+異世界へと足を踏み入れた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　やはり重力の方向が変わっていて、
+入るときは注意が必要だったが、
+呼吸できる空気もあり、特に問題は無い。
+<PAUSE>
+<NAME_PLATE>
+　洞窟を加工して作られた広場のようで、
+周りは剥き出しの岩肌に包まれており、
+人工の明かりはあるが窓も天井もない。
+<PAUSE>
+<NAME_PLATE>
+　広場の床にはタイルが敷かれていて、
+きちんと施工された通路と、そうでない通路が
+幾つか繋がっていた
+<PAUSE>
+<ACTOR>0,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「洞窟型の住居のようだな。
+　どんな生物が住んでいるのか……」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「こんな穴蔵に住んでいるのは
+　やはりミミズが進化したような
+　不気味な地底人ではないでしょうか？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　リーナはその不気味な地底人に
+出てきて欲しそうな顔をしている。
+<PAUSE>
+<NAME_PLATE>
+　それを真に受けて
+エレーナは早くも青ざめていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「うう……ミミズの地底人……怖い」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「リーナ、我々も地下の穴蔵に
+　住んでいるのを忘れていないか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっ！　そ、そうでした！」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>0,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「……はは……は」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーナは軽く赤面し、
+エレーナも少し笑って、
+僅かだが緊張がほぐれる。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「道はあちこちに繋がってるな。
+　エレーナ、なにか妙な気配を
+　感じる方はあるか？」
+<PAUSE>
+<ACTOR>1,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「け、気配はなにも……感じません」
+<PAUSE>
+<NAME_PLATE>
+　エレーナは通路の一つ一つに
+杖を向けて探りを入れながら答えた。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あの、ですが……ちゃんとした廊下に
+　なっているところを行ったほうが……」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ミミズの地底人とかは
+　出てこないんじゃないかと……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「道が広い方が剣も振りやすいです」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そうだな、そうするか」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　二人の意見を入れ、
+イングリッドはまともな廊下を選んで
+進んでいった。
+<PAUSE>
+//【背景：異世界廊下＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc012aを流用
+<SE_PLAY>se082
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc283a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その廊下は弧を描くように伸びていた。
+思った以上に広い。
+<PAUSE>
+<NAME_PLATE>
+　廊下の外周となる側に
+同じ作りの扉が等間隔で続いている。
+<PAUSE>
+<NAME_PLATE>
+　こちらの感覚で言えば、
+大勢のための寮か宿舎を思わせる。
+<PAUSE>
+<NAME_PLATE>
+　生物の気配は感じられず、
+天井から落ちた細かい瓦礫もそのままで、
+長い間使われていないようだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、
+　なんだかホテルのような作りですね」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>1,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「そうだな……。
+　ドアに取っ手もないが。
+　エレーナ、魔術で開けられるか？」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「す、すいません、無理です。
+　電子ロック？　みたいなのがかかってて。
+　私の魔術ではちょっと……ごめんなさい」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「扉を斬って開けてもいいが……」
+<PAUSE>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あっ！　イングリッド様！
+　あそこ、扉が開きっぱなしです！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「その必要はないようだな」
+<PAUSE>
+//【背景：異世界部屋＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc010aを流用
+<SE_PLAY>se082
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>chrnc0111a,IN, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「殺風景な部屋ですね」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>1,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「うむ、ホテルと言うより牢獄だな」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　確かにひどく狭く、
+ベッドとテーブルしかない。
+<PAUSE>
+<NAME_PLATE>
+　トイレすら見当たらない。
+壁側に溝があってその先が穴になっている。
+そこで大小をすますのだろうか？
+<PAUSE>
+<NAME_PLATE>
+　いや、そもそも排泄が必要な生物（？）が
+ここを使っていたかどうかも不明だが。
+<PAUSE>
+<ACTOR>0,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「あの、でも……」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「なにか気づいたのか！？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「い、いえ、ちょっと思っただけで、
+　その……やっぱり違うかもしれないし……」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「エレーナ、感じたことがあれば
+　なんでも言ってくれ。
+　私にもただの殺風景な部屋に見える」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0144a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>エレーナ
+「は、はい……
+　私にもベッドとテーブルのある
+　普通の部屋に見えます」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「でも、そういう風に見えて、
+　私たちも使えそうな大きさってことは……
+　その、つまり……ここを使っていたのは」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「我々と似たような姿形の生物ということか」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「た、多分……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「おお、なるほど！
+　やるな、エレーナ！」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ど、どうも。
+　でも、もちろん……
+　これがベッドでもテーブルでもなくて」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「私たちには想像もつかない……
+　全然違う用途のものの可能性も……
+　ありますけど……」
+<PAUSE>
+//【背景：異世界廊下＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc012aを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc283a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一行は部屋を出て、再び探索を続けた。
+<PAUSE>
+<NAME_PLATE>
+　まだ誰とも、というより
+どんな生物とも出会っていない。
+<PAUSE>
+<NAME_PLATE>
+　こちらの世界と同等かそれ以上の
+科学技術をもった異世界のようだが、
+警備ロボットの類いも出てこない。
+<PAUSE>
+<NAME_PLATE>
+　やはりなにかの理由で
+廃棄された施設なのかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　すぐに危険がないことが分かれば
+元の世界に帰ってもよかった。
+<PAUSE>
+<ACTOR>0,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「あの……そろそろいったん戻った方が……」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「しっ」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　不安そうに提案したエレーナを
+リーナが口元に指を当てて静かにと合図した。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「え……な、なんですか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様、
+　あの角を曲がった先になにかいます」
+<PAUSE>
+<NAME_PLATE>
+　リーナは風で気配を読んでいたようだ。
+無論、イングリッドもそれに気づいている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「どんな奴かわかるか？」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<ACTOR>0,chr_t0010a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「風の感じからして、
+　大きさは人間くらいです。
+　ただ、普通の人型ではないような」
+<PAUSE>
+<NAME_PLATE>リーナ
+「床をずるずる這いずっているのと、
+　空を飛んでるみたいなのもいます」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「では、空飛ぶミミズの地底人かな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「かもしれません」
+<PAUSE>
+<NAME_PLATE>
+　珍しいイングリッドの冗談だったが、
+リーナは真顔で頷いた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「どうしますか？
+　まだこちらには気づいていないようです。
+　このまま引き返すこともできますが」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「我々は偵察に来たのだ。
+　まずはどんな奴か確かめてみよう」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ミミズの地底人だろうが友好的ならばよし。
+　我々に敵対するようであれば倒す。
+　手強ければ、無理をせずに引く。いいな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっ、では先陣は私が」
+<PAUSE>
+<SE_PLAY>se016
+<NAME_PLATE>
+　リーナはサクラブロッサムを
+スラリと抜いた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「まかせる」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　イングリッドは言い、
+早くも逃げ出しそうな顔のエレーナには
+こう指示した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「エレーナ、闘いになったら
+　眠りの魔術を使え。
+　敵にこちらの術の効果があるか確かめたい」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「わわ、わかりました……」
+<PAUSE>
+<NAME_PLATE>
+　エレーナは杖を固く握りしめ、
+ブルブル震えながらも頷いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーナを先頭にエレーナを従者たちで固め、
+イングリッドが後詰めについて、
+一行は通路を素早く進んで行った。
+<PAUSE>
+//【背景：異世界実験室＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc009aを流用
+<SE_PLAY>se082
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc284a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　通路の先は実験室のような
+広い部屋へと繋がっていた。
+<PAUSE>
+<NAME_PLATE>
+　薬液で満たされたカプセルがあり、
+中には人型の生物が浮かんでいる。
+<PAUSE>
+<NAME_PLATE>
+　ここが異世界だろうが、
+あそこで不道徳な生物実験が
+行われていたと一目で想像できる。
+<PAUSE>
+<NAME_PLATE>
+　無論、ノマドでも
+その類いの研究は行っているが、
+見て楽しくなるものではない。
+<PAUSE>
+<NAME_PLATE>
+　そしてそこには生物実験の産物か、
+あるいはこの施設を無人にした元凶か、
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ts_m167a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m166a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　人間ほどの大きさの複眼のイカの化物と、
+空中を泳ぐ巨大な口の魚の化物が
+ズルズルうねうねと蠢いていた。
+<PAUSE>
+//　※立ち絵
+//　　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　生理的嫌悪を催さずにはいられない
+化けイカと化け魚の群れだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレーナ
+「ひいいいっ！！」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　エレーナの引きつった悲鳴を聞いて、
+化けイカと化け魚がぎょろっと一斉に
+こちらを向いた。
+<PAUSE>
+<NAME_PLATE>
+　初めて見る異世界の生物だが
+こちらに敵意を持っているのは明らかだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「友好関係など望めそうにないな。
+　こちらも御免被るが」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ならば倒します！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　リーナが迷わず先陣を切った。
+<PAUSE>
+<NAME_PLATE>
+　向こうも化け魚の群れが
+空中をヌルヌルと泳いで迫ってくる。
+<PAUSE>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「エレーナ、眠りの術だ！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「は、はい！
+　な、な、なんでもいいから
+　眠ってくださ～～い！」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se112
+<NAME_PLATE>
+　エレーナは泣きそうな声で術を使った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m167a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m167a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m167a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>化け魚
+「……………………………」
+「……………………………」
+「……………………………」
+<PAUSE>
+//　※立ち絵
+//　　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　※三匹くらい出してください。
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+<SE_PLAY>se024
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　化け魚がボトボトと床に落ちていく。
+<PAUSE>
+どうやら効果があるようだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「いいぞ、エレーナ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>リーナ
+「とりゃりゃりゃりゃああああ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッ！　ザシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　リーナがサクラブロッサムを
+右に左に閃かせた。
+<PAUSE>
+<NAME_PLATE>
+　眠ってしまった化け魚は無視して、
+まだ飛んでくるものだけを巧みなステップで
+次々と切り裂いていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m166a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>化けイカ
+「――――――！！」
+<PAUSE>
+//　※立ち絵
+//　　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　それを見た化けイカの一匹が
+複眼をビカビカと光らせていた。
+おそらく怒りの表現なのだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　化けイカは鈍重そうな見た目より
+遙かに素早く床を這いずってリーナに近づき、
+触手を鞭のように鋭く繰り出してきた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっ！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc284a,IN, 500
+<NAME_PLATE>
+　なにも考えずに突っ込むと見せて、
+リーナはさっと身を引いた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「……うまい」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドが思わず呟いてしまうほどの
+絶妙なタイミングだ。
+<PAUSE>
+<NAME_PLATE>
+　触手を空振りさせられ、
+バランスを崩した化けイカを―――
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「チェリースラッシュッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバッッ！！
+<PAUSE>
+<NAME_PLATE>
+　改めて深く踏み込んだ
+リーナのサクラブロッサムが
+一刀両断していた。
+<PAUSE>
+<BG>nc284a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>リーナ
+「とおっ！　桜花煙幕っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se074_01
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　そして、返す刀で桜の花の煙幕を使い、
+残っている敵の目をくらませる。
+<PAUSE>
+<NAME_PLATE>
+　先陣としてこれ以上ないほどの働きぶりだ。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「ますます腕を上げたな。
+　これでは私の出番がなくなりそうだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「敵は怯んだぞ！　リーナに続け！」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは他の従者たちとともに
+敵の群れに斬り込んでいった。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「でやあっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>化けイカ
+「！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　イングリッドの魔剣ダークフレイムが
+一振りで化けイカをまとめて消し炭にする。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「うりゃあっ！！」
+<PAUSE>
+<NAME_PLATE>化け魚
+「！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　リーナの魔剣サクラブロッサムが
+化け魚を片端から開きにしていく。
+<PAUSE>
+<BG>nc284a,IN, 500
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>エレーナ
+「み、み、みんな眠って
+　早くやられてくださーーい！！」
+<PAUSE>
+<NAME_PLATE>
+　エレーナや従者たちも奮闘していた。
+<PAUSE>
+<NAME_PLATE>
+　眠りの魔法を何度も使って、
+動けなくなった敵を確実に仕留ている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　やたらと数は多いが、化けイカも化け魚も
+イングリッドたちの敵ではない。
+<PAUSE>
+<NAME_PLATE>
+　バッタバッタと薙ぎ倒していくと、
+ついに実験室の奥から新たな相手が現れた。
+<PAUSE>
+<ACTOR>0,ts_m168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>化けクラゲ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　メ・デューズ投影体＿立ち絵
+//　　　　＊メ・デューズの色違いバージョン
+<NAME_PLATE>リーナ
+「イングリッド様！　あいつは！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレーナ
+「ひいいっっっ！！
+　お、大きなクラゲ！？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「イカと魚の次はクラゲか。
+　うんざりだな」
+<PAUSE>
+<NAME_PLATE>
+　そう、それはクラゲのような化物だった。
+<PAUSE>
+<NAME_PLATE>
+　全長は５メートルほどもあり、
+化け魚と同じく、水の中にいるように
+地面から浮いてフワフワと漂っている。
+<PAUSE>
+<NAME_PLATE>
+　どれだけの知能があるのかも分からないが、
+敵なのは間違いない。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「あのクラゲも倒すぞ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっ！」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「うう、お願いですから、
+　早く倒されちゃってください～～～」
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

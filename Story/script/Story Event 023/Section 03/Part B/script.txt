@@ -1,0 +1,350 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・東京近郊のビーチ＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC102aより流用
+//451a
+<BGM_PLAY>bgm509,1000
+<BG>nc451a,IN, 1000
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「ハトちゃん、ツバメちゃん、ムクドリちゃん、
+　やっちゃえーー！」
+<PAUSE>
+//　※立ち絵
+//　　【海辺のつよつよヤタガラス】ハツカゼ
+//　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「なんだあの名前」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「昔、自分がカラスって
+　呼ばれてたからかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「分かりにくいな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハーピー
+「キ～～～～～、キ～～～～～」
+「キ～～～～～、キ～～～～～」
+「キ～～～～～、キ～～～～～」
+<PAUSE>
+//　※立ち絵
+//　　ハーピー＿立ち絵
+//　　　＊カードイラストより流用
+//　※三体出してください
+<NAME_PLATE>
+　誰が誰だかさっぱり分からないが、
+ハトとツバメとムクドリは俺たちに
+ちょっかいをかけ始めた。
+<PAUSE>
+<NAME_PLATE>
+　ただ本気で襲う気はないようで、
+鋭い足の爪はしっかり畳んでいるし、
+<PAUSE>
+<NAME_PLATE>
+　空からバサバサと纏わり付いてきて、
+ちょっと鬱陶しいという程度だ。
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼに言われたので、
+仕方なくやっているようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「むふー、みんなどうした！
+　やる気が足りないぞ！
+　もっとビシビシやれーー！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハーピー
+「キ～～～～～、キ～～～～～」
+「キ～～～～～、キ～～～～～」
+「キ～～～～～、キ～～～～～」
+<PAUSE>
+<NAME_PLATE>
+　親分しょうがねえなあという感じで、
+ちょっとだけ勢いが増した。
+<PAUSE>
+<NAME_PLATE>俺
+「まいったなこりゃ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「こんなことして
+　余計引っ込みが付かないのよ」
+<PAUSE>
+<NAME_PLATE>
+　俺たちはハーピーたちのじゃれつきを
+適当にあしらっていたが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ハツカゼ！
+　ハト！　ツバメ！　ムクドリ！
+　これ以上やると怒るわよ！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが一喝すると、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「……！　……！」
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼはカラス時代に戻ったかのように
+ビクビクし、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハーピー
+「キーーーーーーーッ！！」
+「キーーーーーーーッ！！」
+「キーーーーーーーッ！！」
+<PAUSE>
+<NAME_PLATE>
+　ハーピーたちも怒ったゆきかぜの怖さは
+よく分かっているらしく、震え上がった。
+<PAUSE>
+<NAME_PLATE>
+　それはいいのだが
+ハーピーの向かう矛先が俺だけになる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バサバサバサバサバサバサ！！
+<PAUSE>
+<NAME_PLATE>俺
+「うわっ、ちょっと！
+　俺ばっかり来るようになったぞ。
+　どうすりゃいいんだ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「しょうがないわね。
+　じゃあさ、こんなのでどう？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが俺に耳打ちする。
+<PAUSE>
+<NAME_PLATE>俺
+「いいのか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「大丈夫大丈夫。じゃ行くわよ」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは両手を大きく掲げると、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシッッ！！
+<PAUSE>
+<NAME_PLATE>
+　雷撃の閃光を放った。
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「うわっ！
+　まぶしーーーーー！！」
+<PAUSE>
+<NAME_PLATE>ハーピー
+「「「クケーーーーーーー！？」」」
+<PAUSE>
+<NAME_PLATE>
+　あたりが一瞬真っ白になるような眩しさに
+ハツカゼとハーピーたちの目がくらむ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺は目を閉じていて無事だ。
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「おのれーー！
+　目くらましとはひれつなーーー」
+<PAUSE>
+<NAME_PLATE>
+　ぶんぶん手を回している
+ハツカゼの後ろにこっそり回り込み、
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<BG>nc451a,IN, 500
+<NAME_PLATE>俺
+「ハツカゼ、捕まえたぞ！」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「ひゃう！」
+<PAUSE>
+<NAME_PLATE>
+　こちょこちょこちょこちょ。
+<PAUSE>
+<NAME_PLATE>
+　そのぷにぷにの身体を
+思いっきりくすぐってやった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハツカゼ
+「ひゃっふわっ、くすぐりとかズルい！
+　だめっそれ、だめだめっ。きゃはは！
+　こうさんこうさんこうさーーん！」
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼはあっという間に降参。
+子分たちも大人しくなった。
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0341a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0340a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハツカゼ
+「むっふーーー」
+<PAUSE>
+<NAME_PLATE>
+　まだ唸っている。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なに恥ずかしがってるのよ。
+　ふうまに会えて嬉しいんでしょ？」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「でもでも……」
+<PAUSE>
+<NAME_PLATE>
+　今度はモジモジし始める。
+<PAUSE>
+<NAME_PLATE>
+　大人の顔を見られるのが
+そんなに恥ずかしいのか。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私なんか過去でふうまに会ったとき
+　いきなり自分からぎゅって抱きついたわよ」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「ほんと？」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、まあな」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはさらに自慢げに、
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私はオトナの女だからね。
+　そういうこともできちゃうの」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あーーでもハツカゼはまだ子供だから
+　そういうのはちょっと無理かな」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「むふーー、できるもん。
+　ハツカゼもうオトナだもん！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どんっ。
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼは体当たりするように
+俺に両手で抱きついてきた。
+<PAUSE>
+<NAME_PLATE>
+　もう大人だとか言っているが、
+やってることも体つきもただの子供だ。
+<PAUSE>
+<NAME_PLATE>
+　単に人間のような顔になって、
+喋れるようになっただけのようだ。
+<PAUSE>
+<NAME_PLATE>
+　まあでも、とりあえず頭を撫でてやる。
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「～～～～～～～～～～～～っっ」
+<PAUSE>
+<NAME_PLATE>
+　嬉しいのか恥ずかしいのか、
+ハツカゼはプルプルと震えていた。
+<PAUSE>
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ふと横を見ると、
+ゆきかぜが口をパクパクしている。
+<PAUSE>
+<NAME_PLATE>俺
+「……？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「（か・わ・い・く・な・っ・た）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう言ってやれということだろう。
+しょうがない。
+<PAUSE>
+<NAME_PLATE>俺
+「可愛くなったな、ハツカゼ」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「むっふーーー！！
+　ふうまのえっちーーーーー！！」
+<PAUSE>
+<SE_PLAY>se050
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ハツカゼは俺の胸をどんと突いて
+自分から身体を離すと、
+<PAUSE>
+<NAME_PLATE>
+　顔を真っ赤にして
+またゆきかぜの後ろに隠れるのだった。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

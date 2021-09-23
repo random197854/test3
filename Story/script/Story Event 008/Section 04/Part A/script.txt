@@ -1,0 +1,386 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：蜘蛛の貴婦人の館（食堂）＿夜（明かりあり）】【時間：夜】
+//　※監獄アカデミア_NC011aを流用
+<BGM_PLAY>bgm206,1000
+<BG>nc102b,IN, 1000
+<ACTOR>0,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「妾の館へよく来たの。
+　歓迎してやるぞよ、虫けらども」
+<PAUSE>
+//　※立ち絵
+//　　蜘蛛の貴婦人＿立ち絵
+//　　　　＊モンスターイラストから
+//新規　ts_m116a
+<NAME_PLATE>
+　蜘蛛の貴婦人がゆらりと姿を現した。
+<PAUSE>
+<NAME_PLATE>
+　彼女がそうであることは一目で分かった。
+<PAUSE>
+<NAME_PLATE>
+　歓迎の言葉とは裏腹に、
+少しの温かみも感じさせない眼差し。
+<PAUSE>
+<NAME_PLATE>
+　日の光を一度として
+浴びたことがないような青白い肌。
+<PAUSE>
+<NAME_PLATE>
+　なにより人間の女性のような背中から
+生えている四対八本の蜘蛛の脚。
+<PAUSE>
+<NAME_PLATE>
+　彼女が入ってきただけで、
+部屋の温度が下がったような気がした。
+<PAUSE>
+<NAME_PLATE>深月
+「あなたが蜘蛛の貴婦人さんですか？」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>蜘蛛の貴婦人
+「妾にものを尋ねるに跪きもせぬとは
+　無礼な虫けらじゃな」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「だが無知蒙昧な虫けらのすること、
+　慈悲をもって許してやろうぞ。
+　そなたの言うとおりじゃ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は
+血の気の全くない唇を動かした。
+<PAUSE>
+<NAME_PLATE>
+　傲慢を絵に描いたような言い草に
+六穂が鼻で笑った。
+<PAUSE>
+<ACTOR>0,ts_m117a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「蜘蛛の化物が
+　人を虫けら呼ばわりなんて
+　面白い冗談だね」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>蜘蛛の貴婦人
+「そなた、匂うな」
+<PAUSE>
+<NAME_PLATE>
+　微かに眉をひそめる。
+<PAUSE>
+<NAME_PLATE>六穂
+「は？」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「無節操に混ざり合った毒の匂いがしおる。
+　なんと卑しいこと。
+　妾の館には相応しくないようじゃな」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の脚の一本を動かして
+さも穢らわしそうに鼻を押さえた。
+<PAUSE>
+<NAME_PLATE>六穂
+「ああよかった。
+　蜘蛛の化物に気に入られるなんて
+　願い下げだからね」
+<PAUSE>
+<NAME_PLATE>
+　六穂の顔は笑っていたが、
+目は笑っていない。
+<PAUSE>
+<NAME_PLATE>
+　能力を侮辱された怒りで、
+早くも掌からじわりと
+毒を染み出させている。
+<PAUSE>
+<NAME_PLATE>
+　深月は六穂が先走らないように
+手で軽く制しつつ、
+まず焔の安否について尋ねた。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m117a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>深月
+「あなたのところに眞田焔という人が
+　売られてきたはずです」
+<PAUSE>
+<NAME_PLATE>深月
+「今どこにいるんですか？
+　生きているんですか？　答えて下さい」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「知らぬ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は短く答えた。
+<PAUSE>
+<NAME_PLATE>深月
+「嘘を言わないで下さい。
+　奴隷オークションでボスルクという人から
+　買ったって聞いています」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「日々の精気を得るための虫けらの名前など
+　いちいち覚えておらぬ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人はつまらなそうに言った。
+<PAUSE>
+<NAME_PLATE>
+　はぐらかしているのではなく、
+本当にどうでもいいという顔だった。
+<PAUSE>
+<NAME_PLATE>深月
+「そんな……」
+<PAUSE>
+<NAME_PLATE>
+　焔の生死すらわからないとは。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「重森、どうなのじゃ？」
+<PAUSE>
+<ACTOR>0,ts_m117a,CENTER, LEFT, NONE, linear, 1000
+<NAME_PLATE>
+　蜘蛛の貴婦人はおもむろに
+後ろを振り返って聞いた。
+<PAUSE>
+<ACTOR>2,ts_m127a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>重森
+「奥様。確かに購入いたしました。
+　眞田焔、対魔忍にございます」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　今の今まで誰もいなかった物陰から
+男がするりと現れた。
+<PAUSE>
+<NAME_PLATE>
+　執事だろうか。
+黒いタキシードを着て、
+手には白い手袋を付けている。
+<PAUSE>
+<NAME_PLATE>
+　そしてやはり瞳は冷たく、肌は白く、
+人の温かみが感じられない。
+<PAUSE>
+<NAME_PLATE>
+　重森の答えに、
+蜘蛛の貴婦人は得心したように頷いた。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「おお、あれか。
+　卑小な虫けらの分際で
+　その身に魔を宿した者よな」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「あれの精気はなかなかに美味じゃったな。
+　重森、よい買い物をしたぞ」
+<PAUSE>
+<NAME_PLATE>重森
+「お喜びいただけたようで
+　なによりでございます」
+<PAUSE>
+<NAME_PLATE>
+　重森が恭しく頭を下げているが、
+今のやりとりは聞き捨てならない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「なっ！？
+　眞田さんの精気を吸った！？
+　殺してしまったんですか！！」
+<PAUSE>
+<NAME_PLATE>
+　深月は強く問い詰めたが、
+蜘蛛の貴婦人もその執事も
+彼女を見ようともしない。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「じゃが、あれはまだ少し下界の灰汁が
+　残っておってな。
+　灰汁抜きで吊しておいたはずじゃが」
+<PAUSE>
+<NAME_PLATE>重森
+「さようで。そろそろ食べ頃かと」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>蜘蛛の貴婦人
+「楽しみじゃ」
+<PAUSE>
+<NAME_PLATE>
+　それが楽しみの感情表現なのだろうか、
+蜘蛛の貴婦人は八本の脚をカシャカシャと
+擦り合わせていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>3,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「精気を吸われたが生きてはいるようだな」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　燐が冷静にそう判断するが、
+深月は冷静でなどいられない。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<BGM_PLAY>bgm320,1000
+<ACTOR>4,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「いい加減にしてください！
+　人をなんだと思ってるんですか！！」
+<PAUSE>
+<NAME_PLATE>深月
+「蜘蛛の貴婦人さん！
+　あなたに言ってるんです！
+　こっちを見なさい！！」
+<PAUSE>
+<SE_PLAY>se074
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　激しい怒りのほとばしりに、
+深月の周りでブワッと風が起こった。
+<PAUSE>
+<NAME_PLATE>
+　その風を受けて、
+蜘蛛の貴婦人がようやくまた深月を見た。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<ACTOR>0,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「なんじゃ。まだおったのか。
+　もう下がってよいぞ」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「その臭い虫けらを早々に
+　連れてかえるのじゃぞ」
+<PAUSE>
+<NAME_PLATE>
+　文字通り虫けらを払うように、
+シッシッと手を振った。
+<PAUSE>
+<NAME_PLATE>深月
+「そんなわけにはいきません。
+　あなたを倒して眞田さんを連れて帰ります」
+<PAUSE>
+<NAME_PLATE>深月
+「捕まっている他の人たちもです！
+　覚悟して下さい！！」
+<PAUSE>
+<NAME_PLATE>
+　扇子の先をびしりと突きつけるが、
+蜘蛛の貴婦人は面倒くさそうに言った。
+<PAUSE>
+<ACTOR>0,ts_m117a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,ts_m127a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「話の通じぬ虫けらじゃ。
+　重森、後は任せる」
+<PAUSE>
+<NAME_PLATE>重森
+「かしこまりました」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「そのやかましいのは殺さずにの。
+　どんな味かちと確かめたい」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「毒臭いのは匂いが残らぬように始末せよ。
+　もう一人はお前の好きにするがよい」
+<PAUSE>
+<NAME_PLATE>重森
+「では、私の新しい人形に」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「それもよかろう。
+　それとな、いい加減、上の騒ぎを
+　静めてくれぬか？」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「退屈な毎日、たまには変化も必要じゃが、
+　こう騒がしくてはの」
+<PAUSE>
+<NAME_PLATE>重森
+「申し訳ございません。
+　この者たちを始末しましたら直ちに」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「妾は一眠りしたあと、
+　その対魔忍を食すことにしようかの」
+<PAUSE>
+<NAME_PLATE>
+　またも深月たちを無視して
+勝手なことを喋ってから、
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人はあくびをして、
+食堂を出ていこうとする。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「待ちなさい！！」
+<PAUSE>
+<ACTOR>2,ts_m127a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>重森
+「奥様の邪魔はさせません」
+<PAUSE>
+<NAME_PLATE>
+　追いかけようとする深月の前に
+重森が音もなく立ちはだかった。
+<PAUSE>
+<NAME_PLATE>
+　さらに、武装した女たちが
+食堂に連なるいくつもの扉から
+どっと現れる。
+<PAUSE>
+//　※立ち絵
+//　　ダークガード＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+//　　ダークガード＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<SE_PLAY>se054
+<GROUP>
+<ACTOR>5,ts_m052a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<GROUP>
+<ACTOR>6,ts_m052a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「待ち伏せ！？」
+<PAUSE>
+<NAME_PLATE>六穂
+「今度はボクたちが
+　罠にはめられたようだね」
+<PAUSE>
+<NAME_PLATE>燐
+「来るぞ」
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

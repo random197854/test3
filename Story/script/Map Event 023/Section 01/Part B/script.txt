@@ -1,0 +1,675 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//シーン説明：
+//【黒画面】
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<BGM_PLAY>bgm313,1000
+<BG>chrnc0132a,IN, 1000
+<ACTOR>0,ts_m288a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　淫魔族幹部ルル・マンハッタンは、
+鍛え上げられた肉体とアンブローズ直伝の
+ＱＵＥＥＮ　ＫＵＮＧ－ＦＵを使う強者である。
+<PAUSE>
+<NAME_PLATE>
+　並の戦士、あるいは魔族であっても、
+この人物にかかれば簡単に叩き伏せられ、
+地に転がることだろう。
+<PAUSE>
+<NAME_PLATE>
+　しかし、今回は全くそうは
+ならなかった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ルル・マンハッタン
+「も、もうっ！！？
+　さっきからちょこまかと――
+　あなた、真面目に戦いなさいっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ルル・マンハッタン
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m288a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0345a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そ、そんなこと言われても！？」
+<PAUSE>
+//　※立ち絵
+//　　【水着】上原鹿之助03
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「大体、俺があんたと戦う意味が
+　ぜんぜんわかんないし！」
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「わかるでしょう！？
+　強さとはイコール美しさよ！！」
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「あなたとアタシ、
+　勝ち残った方が美しいということ！
+　さあ勝負よ、鹿之助！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいいいいいいっ！！？
+　やっぱり全然意味わからない！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ヒュン！！　ビュッ！！
+<PAUSE>
+<BG>chrnc0132a,IN, 500
+<ACTOR>0,ts_m288a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルル・マンハッタン
+「くっ！！？　また――
+　どうして当たらないの！？」
+<PAUSE>
+<NAME_PLATE>
+　逃げ回る鹿之助――それを狙った
+ルル・マンハッタンの打撃が
+虚しく空を切る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あり得ない事態であった。
+<PAUSE>
+<ACTOR>0,chr_t0345a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　淫魔族幹部の苛烈な攻撃を、
+一見ひ弱な少女（？）がすいすいと
+簡単にかわしていく。
+<PAUSE>
+<NAME_PLATE>
+　だが――それには
+ひとつの理由がある。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（そ、そうだ……！
+　“あの時”と同じように――）
+<PAUSE>
+<NAME_PLATE>鹿之助
+（こんな風に世界を見れば、
+　俺だって戦える……っ！！）
+<PAUSE>
+<NAME_PLATE>
+　少し前、呪いによって隔絶された
+寒村で遭遇した『隠し神』。
+<PAUSE>
+<NAME_PLATE>
+　その時の戦いで覚醒した、
+鹿之助の中にいた謎の存在
+“タケミカヅチ”の力。
+<PAUSE>
+<NAME_PLATE>
+　それを体感したことで、
+鹿之助が使う“電遁”の精度は
+格段に上昇していて――。
+<PAUSE>
+<NAME_PLATE>
+　相手の肉体に流れる電気信号を
+わずかに察知し、なんとかその攻撃を
+予測、避けることができていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m287a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m286a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m285a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クイーンたち
+「ルル姉さん！？」
+「キー、あんな小娘に！」
+「負けないで！」
+<PAUSE>
+//　※立ち絵
+//　　オーククイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　忍熊クイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　トロールクイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※オーク、忍熊、トロール立ち絵をドラッグクイーン風に加工。
+<NAME_PLATE>
+　歯噛みして声援を送るクイーンたち。
+<PAUSE>
+<NAME_PLATE>
+　当人たちは真剣そのものなのだが、
+その姿はどこかコミカルで――。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0345a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+（うーん。
+　なんか緊張感が削がれるなぁ）
+<PAUSE>
+<NAME_PLATE>
+　などと鹿之助も考えていたりする。
+<PAUSE>
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>？？？
+『鹿之助、気をつけて――』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+（えっ！！？）
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の頭の中で、
+かすかに女の子の声が囁いた。
+<PAUSE>
+<NAME_PLATE>
+　あの――隠し神との戦い以来、
+ずっと眠っていた不思議な少女の声――。
+<PAUSE>
+<NAME_PLATE>
+　と同時に、鹿之助の“電遁”の力が
+こちらに近づく不穏な気配を捉えていた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あっ、危ないお姉さん！！！
+　後ろ！！　誰かが
+　お姉さんを狙っている――！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m288a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルル・マンハッタン
+「っ！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイイイイイイイン！！
+<PAUSE>
+<BG>chrnc0132a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m021a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサシン
+「チィ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　魔術師立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>魔術師
+「クソ！？　な、なぜ、
+　我らの隠し身を……！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m287a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m286a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m285a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クイーンたち
+「ど、どういうこと！？」
+「ルル姉さん！？」
+<PAUSE>
+<NAME_PLATE>
+　驚きの声を上げるクイーンたち。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　突然、ルル・マンハッタンの背後に
+空間の歪みが発生し、そこから
+暗殺者が飛び出してきた――。
+<PAUSE>
+<NAME_PLATE>
+　だがその刃が届く直前、鹿之助の
+声によってルル・マンハッタンは
+かろうじて襲撃を回避した。
+<PAUSE>
+<ACTOR>0,ts_m288a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルル・マンハッタン
+「あんたたち……
+　まさかイシュタルの手の者！！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「イシュタル……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　イシュタルとは、アンブローズと
+同じく淫魔族の大幹部。
+<PAUSE>
+<NAME_PLATE>
+　幻影の魔女と敵対し――
+そしてアンブローズが幻影の魔女に
+肩入れしたことから、
+<PAUSE>
+<NAME_PLATE>
+　その側近である
+ルル・マンハッタンに刺客を放った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m021a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサシン
+「クク、愚か者が……」
+<PAUSE>
+<NAME_PLATE>魔術師
+「あの方に盾突く罪深さ、
+　その身で思い知るが――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m287a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m286a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m285a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クイーンたち
+「てやんでいこの野郎！」
+「ルル姉さんのタイマンの邪魔しやがって！」
+「ふてえ野郎だ！」
+<PAUSE>
+<NAME_PLATE>アサシン
+「ギャッ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se035
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボカッ！！　ドカドカッ！！
+<PAUSE>
+<NAME_PLATE>
+　すかさずクイーンたちが飛び出して
+暗殺者をボコボコにする。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　鹿之助との戦闘に加わらなかったのは
+仁義を守っていたためで、いざ戦えば
+三人とも相当の手練れらしい。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<BG>chrnc0132a,IN, 500
+<ACTOR>1,chr_t0345a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「えっと……
+　もう他に敵はいなそうかな？
+　大丈夫ですか、お姉さん」
+<PAUSE>
+<ACTOR>0,ts_m288a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ルル・マンハッタン
+「え、ええ……でも、
+　あなた、どうして……？」
+<PAUSE>
+<NAME_PLATE>
+　手を差し伸べてきた鹿之助に
+ルル・マンハッタンが呆然と問う。
+<PAUSE>
+<NAME_PLATE>
+　問答無用で襲い掛かった自分を、
+この少女（？）は迷いなく助けてくれた。
+<PAUSE>
+<NAME_PLATE>
+　――すると鹿之助は、にっこりと
+笑ってルル・マンハッタンに言う。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いやぁ、だって俺、最初から
+　お姉さんと戦う理由が
+　よくわかんなかったし……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「それに、お姉さんが着てる服って、
+　ニチアサの『忍べ！　対魔戦隊エックス』の
+　女幹部の衣装がモチーフだろ？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「……俺、特撮好きの人に
+　悪い人はいないと思うんだよね！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ルル・マンハッタン
+「！！！？」
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+（こ、この子は……
+　なんという……！！）
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>鹿之助
+「うわっ！？　お姉さん？」
+<PAUSE>
+<NAME_PLATE>
+　あまりの心の広さ、純粋さ――。
+<PAUSE>
+<NAME_PLATE>
+　衝撃を受けたルル・マンハッタンが
+がっくりとビーチに膝をつく。
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「そうね……。
+　私の負けだわ、鹿之助。
+　……………いえ、“鹿姉さん”」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「え？　えっ？」
+<PAUSE>
+<NAME_PLATE>
+　いきなりの姉さん呼ばわりに
+困惑する鹿之助に構わず、
+ルル・マンハッタンが熱く語る。
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「思えば……アンブローズ様が
+　よく仰っていたわ」
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「本当の美しさとは、
+　心の美しさから生まれる――
+　その意味、あなたを見たらよくわかる」
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「さすがはアンブローズ様に認められた
+　本物の男、いえ、むしろ女ね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ど、どっちだよ……？」
+<PAUSE>
+<NAME_PLATE>
+　言ってる意味はよくわからないが、
+ルル・マンハッタンに認めて
+もらえたのは確かなようだ。
+<PAUSE>
+<ACTOR>0,ts_m288a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ルル・マンハッタン
+「さあ、あなたたちもわかったわね！？
+　今の勝負はアタシの負け！」
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「早速お店に戻って、
+　鹿姉さん襲い掛かってごめんなさい
+　パーティーを開くわよっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m287a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m286a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m285a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クイーンたち
+「了解だわ！！」
+「あなた最高よ鹿姉さんっ！」
+「どんだけ～」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ぱ、パーティーって……？
+　いや俺、そろそろ先輩たちの所に
+　――って、わあぁあああっ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ビーチの熱い太陽の下、
+クイーンたちに担ぎ上げられていく
+鹿之助の悲鳴が響いていた。
+<PAUSE>
+//【黒画面】
+//【背景：ビーチ１＿昼】【時間：昼】
+//　※俺と冴子さんと寝取られメール_背景nc011aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc166a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、巴たちに誘われた
+なおとのぞみは――。
+<PAUSE>
+//【背景：ビーチ２＿昼】【時間：昼】
+//　※監獄戦艦２_背景nc019aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc163a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　見物の男たちが集まって
+大盛り上がりのビーチ。
+<PAUSE>
+<NAME_PLATE>
+　その中心で、四人の美女（？）が
+熱い汗を飛び散らせていた。
+<PAUSE>
+<ACTOR>0,chr_t0344a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>巴
+「ハイ！！　トス！
+　お願いします、先生っ！」
+<PAUSE>
+//　※立ち絵
+//　　【水着】黒田巴02
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR>1,hr_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>零子
+「ああ、任せておけ巴っ！
+　はぁぁぁっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【水着】蓮魔零子
+//　　　　＊蓮魔零子_水着イラストより流用
+<ACTOR_OUT>1,RIGHT,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシーン！！！
+<PAUSE>
+<NAME_PLATE>なお＆のぞみ
+「くぅっ！？」
+「ひぃいいいいいっ！？」
+<PAUSE>
+//　※立ち絵
+//　　【水着】穂希なお
+//　　　　＊なお先輩水着立ち絵イラストより流用
+//　※立ち絵
+//　　藍野のぞみ（自然R)
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ドサッ！！　ズササササー！
+<PAUSE>
+<NAME_PLATE>
+　零子が放った強烈なアタックが飛びついた
+二人の間を抜けてビーチの砂に突き刺さる。
+<PAUSE>
+<NAME_PLATE>
+　と同時に見守る男たちの大歓声。
+<PAUSE>
+<NAME_PLATE>
+　審判をしている魔族の少女（？）が
+ピピーっと試合終了の笛を吹く。
+<PAUSE>
+<ACTOR>0,chr_t0346a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ココア・ラピュセル
+「はーい！　結果は９対１５！
+　今回も先生チームの勝利です～！」
+<PAUSE>
+//　※立ち絵
+//　　ココア・ラピュセル
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0344b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,hr_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>巴
+「わわっ！　また勝った！！
+　やりましたね、先生！」
+<PAUSE>
+<NAME_PLATE>零子
+「ああ。お前も良い働きを
+　していたぞ、巴！」
+<PAUSE>
+<NAME_PLATE>
+　パシーン！　と爽やかに
+勝利のハイタッチをする巴と零子。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　一方――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,na_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「くぅぅ……な、なんで、
+　僕たちがビーチバレーなんか……」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「あの二人、一体、何試合する
+　つもりなのよぉ……」
+<PAUSE>
+<NAME_PLATE>
+　そんな二人にこてんぱんにされて
+ぐったりしているなおとのぞみ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう、巴たちが一緒に
+“楽しむ”と言っていたのは、
+<PAUSE>
+<NAME_PLATE>
+　怪しいことでも何でもなく、
+ただのビーチバレーであった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0344b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,hr_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>零子
+「このビーチの砂は非常に質が
+　いいからな。“楽しみ”ながら
+　鍛錬するには最適だ！」
+<PAUSE>
+<NAME_PLATE>巴
+「ふふ。それに……先輩たちくらい
+　しっかりした体つきでないと、
+　私と先生についてこれませんからね」
+<PAUSE>
+<NAME_PLATE>
+　と満足そうな顔の巴と零子。
+<PAUSE>
+<NAME_PLATE>
+　この砂浜でビーチバレー訓練を
+しようとしていた二人だったが、
+<PAUSE>
+<NAME_PLATE>
+　しかし自分たち二人だけでは
+幅広いメニューをこなせない。
+<PAUSE>
+<NAME_PLATE>
+　そこで、ちょうどビーチで
+見つけた対魔忍学生・なおとのぞみを
+訓練に巻き込んだのだった。
+<PAUSE>
+<NAME_PLATE>
+（また審判は、ビーチでバイト生活を
+　している魔族ココア・ラピュセルが
+　ボランティアで申し出てくれた）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,na_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「ま、まあ……アブないお誘い
+　じゃなくて良かったけど……。
+　でも、これはこれでハードだね……」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「はうぅ……。
+　わたし、もうヘトヘトだよ～」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0344b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,hr_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>零子
+「何を気の抜けたことを言っている！
+　鍛錬はこれからだぞ二人とも！」
+<PAUSE>
+<NAME_PLATE>巴
+「さあ！　楽しみましょうね先輩！」
+<PAUSE>
+<NAME_PLATE>
+　鬼教官の叱咤がビーチに響く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　女装男子たちの夏の受難は、
+まだまだ続きそうであった。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

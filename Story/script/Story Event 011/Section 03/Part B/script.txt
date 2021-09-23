@@ -1,0 +1,569 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車町外縁部＿昼】【時間：昼】
+//　※MISAO_nc002aより流用
+//nc114c
+<BGM_PLAY>bgm314,1000
+<BG>nc114c,IN, 1000
+<NAME_PLATE>
+　奇怪な老人と忍を包囲する
+五車警護の対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　だが、そのうちの一人が驚愕に
+顔を引きつらせて叫ぶ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍１
+「ッ！！？　ま、まさか――貴様、
+　鉄華院卍鉄（てっかいんばんてつ）か！？」
+<PAUSE>
+//　　※立ち絵
+//　　　対魔忍斥候(男)
+//　　　　＊カードイラストより流用
+//　　※立ち絵
+//　　　風遁衆(男)
+//　　　　＊カードイラストより流用
+<NAME_PLATE>対魔忍１
+「反乱後に姿をくらました、
+　ふうま弾正の側近―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鉄華院卍鉄
+「おや？　感心じゃのう。
+　雑兵にもわしを知る者がおるか」
+<PAUSE>
+<NAME_PLATE>
+　からからと笑った卍鉄がトンと杖で
+軽く地面を突く。すると――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef005a,IN, 200
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャッ！！！
+<PAUSE>
+<NAME_PLATE>対魔忍２
+「あがあぁあぁああああああぁあああ
+　ああああああああっ！！？」
+<PAUSE>
+<NAME_PLATE>対魔忍１
+「ッ！！？」
+<PAUSE>
+<NAME_PLATE>
+　異様な音を響かせて一人の対魔忍の
+体が内側から“爆ぜた”。
+<PAUSE>
+<NAME_PLATE>対魔忍１
+「術をかけられた！？　散れ！！！」
+<PAUSE>
+<SE_PLAY>se023
+<NAME_PLATE>
+　ドウっと絶命した一人が倒れる。
+<PAUSE>
+<BG>nc114c,IN, 500
+<NAME_PLATE>
+　同時に、脅威を察した対魔忍たちが
+距離を取ろうとする、が――。
+<PAUSE>
+<ACTOR>0,ts_m013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍１
+「ぐうぅっ！？」
+<PAUSE>
+<NAME_PLATE>対魔忍１
+（なっ、なんだ！？
+　これは……どういうことだ！！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　奇怪な感覚――胴体や手足が
+きつく縛められているようだった。
+<PAUSE>
+<NAME_PLATE>
+　彼一人だけでなく、老人を囲んでいた
+十人以上の対魔忍全てが。
+<PAUSE>
+<NAME_PLATE>
+　体を動かせず、その場で
+不格好に手足をバタつかせる。
+<PAUSE>
+<NAME_PLATE>
+　中にはバランスを保てず、
+硬直したまま地面に転がる者もいる。
+<PAUSE>
+<ACTOR>0,ts_m146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卍鉄
+「さて、質問たーいむじゃ。
+　五車の手勢はどれくらい動いておる？」
+<PAUSE>
+<NAME_PLATE>対魔忍３
+「ふ、ふうまの負け犬が！！！
+　地獄に落ちろ！！」
+<PAUSE>
+<NAME_PLATE>卍鉄
+「ひょひょ♪　威勢が良いのう。
+　若い者はそれぐらいでなければな。
+　――ほい！」
+<PAUSE>
+<NAME_PLATE>
+　卍鉄がトンと杖を地面に突く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef005a,IN, 200
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グチャッ！！！！
+<PAUSE>
+<NAME_PLATE>対魔忍３
+「がはっ！？　あっ、がぁ……」
+<PAUSE>
+<NAME_PLATE>対魔忍１
+「…………！！！？」
+<PAUSE>
+<NAME_PLATE>
+　卍鉄を罵倒した対魔忍の腹が大きく凹み、
+その口から鮮血と共に内臓が噴き出した。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卍鉄
+「さて、次。
+　答えてくれる者はおらぬか？」
+<PAUSE>
+<NAME_PLATE>対魔忍たち
+「…………………っ」
+<PAUSE>
+<NAME_PLATE>
+　沈黙――。
+<PAUSE>
+<NAME_PLATE>
+　同輩の無残な死を目の前にしても
+五車対魔忍たちは口をつぐむ。
+<PAUSE>
+<NAME_PLATE>卍鉄
+「ふむ？　敬老精神に欠けておるのう、
+　これだから近頃の若い衆は――」
+<PAUSE>
+<NAME_PLATE>
+　トン、トン、トン。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef005a,IN, 200
+<SE_PLAY>se032
+<NAME_PLATE>対魔忍たち
+「あがっ！？」
+「ぐっ！？」「ひいいっ！？」
+「ぎゃあぁぁああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　卍鉄がひとつ杖を突くたびに
+対魔忍たちの体が破裂し、あるいは
+その首が飛んだ。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卍鉄
+「まぁ、わしがいると知っていれば
+　このような雑兵は寄こさぬじゃろう」
+<PAUSE>
+<NAME_PLATE>卍鉄
+「ならば、まだ少しは遊べるか。
+　良し。手間を取らせて悪かったの」
+<PAUSE>
+<NAME_PLATE>
+　トン。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef005a,IN, 200
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャッ！！！！！
+<PAUSE>
+<NAME_PLATE>
+　最後に残った対魔忍の胴が二つに
+ねじ切られ、辺りは静かになった。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卍鉄
+「では、狩りの続きといこう。
+　ついてまいれ」
+<PAUSE>
+<NAME_PLATE>忍者
+「…………御意」
+<PAUSE>
+//　　※立ち絵
+//　　　ふうま下忍
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　冷たい汗を滴らせる忍を従え、
+卍鉄は山中に向かった。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方その頃――。
+<PAUSE>
+//【背景：五車町山間部＿渓流＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC057aより流用
+//nc170a
+<BGM_PLAY>bgm509,1000
+<BG>nc170a,IN, 1000
+<ACTOR>0,hu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小太郎
+「え、えっと……まず傷口を洗います。
+　しみるようだったら言って、天音さん」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　　＊表情差分などなしで描き下ろしを用意
+<NAME_PLATE>天音
+「あ、あぁ……ぐぅ……っ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音立ち絵＿対魔忍衣装
+//　　　　　＊ふうま天音02カードイラストより流用
+<NAME_PLATE>
+　渓流の水で泥と汚れを落とし、
+消毒と血止めを施して包帯を巻く。
+<PAUSE>
+<NAME_PLATE>
+　口ぶりこそ遠慮がちだったが、
+小太郎の手つきには迷いがなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>天音
+（しかし、なんというか……
+　驚いたな……）
+<PAUSE>
+<NAME_PLATE>
+　天音は複雑な思いで、熱心に
+傷の手当てを進める少年の横顔を見る。
+<PAUSE>
+<NAME_PLATE>
+　彼の手によって腹の傷にも包帯が巻かれ、
+今は右足の手当を進めているところだった。
+<PAUSE>
+<NAME_PLATE>小太郎
+『――俺に考えがある！！』
+<PAUSE>
+<NAME_PLATE>
+　そう力強く言った小太郎の先導で、
+天音はここまでたどり着いた。
+<PAUSE>
+<NAME_PLATE>
+　隠し館の地下で忘れ去られていた、
+裏手の山間部へと通じる抜け穴を使って。
+<PAUSE>
+<NAME_PLATE>小太郎
+『書庫で本を探していた時に、
+　偶然見つけたんです』
+<PAUSE>
+<NAME_PLATE>小太郎
+『この館って歴代のふうま当主が
+　使っていたみたいだから、もしもの
+　時の備えだったんでしょうね――』
+<PAUSE>
+<NAME_PLATE>
+　もしもの備えを多くに
+知られていては意味がない。
+<PAUSE>
+<NAME_PLATE>
+　恐らく当代では弾正しか知らず、
+当然、天音も存在を知らなかった。
+<PAUSE>
+<NAME_PLATE>
+　その秘密の抜け穴を通ることで――
+<PAUSE>
+<NAME_PLATE>
+　二人は隠し館を包囲した抜け忍衆に
+気取られることなく、この渓流まで
+落ち延びることができた。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「………………」
+<PAUSE>
+<NAME_PLATE>天音
+（そして、この手当だ……）
+<PAUSE>
+<NAME_PLATE>
+　館を抜け出す際、小太郎は
+何か大きな荷物を抱えていた。
+<PAUSE>
+<NAME_PLATE>
+　いぶかしく思う天音だったが……
+渓流についた後、そこから出てきたのが、
+彼女の傷を処置するための応急キットだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>小太郎
+『本で読んだだけだから、
+　上手くできるかわからないけど……』
+<PAUSE>
+<NAME_PLATE>
+　そう済まなそうに言って、
+小太郎は天音の傷の手当てを始めた。
+<PAUSE>
+<NAME_PLATE>
+　……見事な手際だった。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+（単に『本で読んだ』だけでは、
+　ここまでのことはできない……）
+<PAUSE>
+<NAME_PLATE>
+　具体的な状況を想定し、脳に刻み込む
+ようにして読み、習得したのだろう。
+<PAUSE>
+<NAME_PLATE>
+　それこそ自分が戦に巻き込まれ、
+誰かを処置せねばならない状況を想定して。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　――ずっと、本を読んでたんです。
+俺にはその方が、きっと役に立つって……。
+<PAUSE>
+<NAME_PLATE>
+　書庫で出会った時、問い詰める
+天音に対して少年が呟いた言葉。
+<PAUSE>
+<NAME_PLATE>
+　あれは、なんの弁解でも
+言い逃れでもなく、本当の――。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+（この少年が、
+　無能の“目抜け”……？）
+<PAUSE>
+<NAME_PLATE>
+　彼がそう五車で嘲られている
+ことは知っている。
+<PAUSE>
+<NAME_PLATE>
+　しかし天音の目には。
+<PAUSE>
+<NAME_PLATE>
+　真剣な顔で傷の手当を進める少年が、
+“無能”だとはとても思えなかった。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,hu_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>小太郎
+「――よし！！
+　ひとまず足の方は終わりました！
+　あとは――」
+<PAUSE>
+<ACTOR>1,hu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「天音さん、そっちの腕は……？」
+<PAUSE>
+<NAME_PLATE>天音
+「ああ。これは――」
+<PAUSE>
+<NAME_PLATE>
+　少年の視線の先には、天音の左腕。
+<PAUSE>
+<NAME_PLATE>
+　米連に下った後に取り付けた、
+天音の邪眼能力を最大に活かす機能を持つ
+サイボーグの左腕だ。
+<PAUSE>
+<NAME_PLATE>天音
+「……奴らの頭目に破壊されかけた」
+<PAUSE>
+<NAME_PLATE>
+　抜け忍衆の頭目は、身体を機械化した者に
+とって“天敵”ともいうべき能力を持つ。
+<PAUSE>
+<NAME_PLATE>
+　ゆえに天音はこれ以上の損傷を避けるため、
+一時的にサイボーグアームを停止していた。
+<PAUSE>
+<NAME_PLATE>天音
+「まぁ、お前は気にするな。
+　応急処置でどうにかできるものじゃない」
+<PAUSE>
+<NAME_PLATE>
+　よろめきながら天音が立ち上がると、
+少年が不思議そうな顔で見上げる。
+<PAUSE>
+<ACTOR>1,hu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「天音さん？
+　もう行くんですか……？」
+<PAUSE>
+<NAME_PLATE>天音
+「ああ。だから、お前ともここまでだ」
+<PAUSE>
+<ACTOR>1,hu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「えっ――？」
+<PAUSE>
+<NAME_PLATE>
+　少年の表情が凍り付いた。
+<PAUSE>
+<NAME_PLATE>天音
+「何を不思議がる？
+　私とお前たちは既に道を違えた」
+<PAUSE>
+<NAME_PLATE>天音
+「それに、館が空だと知れば
+　奴らは追ってくる。
+　そうなればお前も共に死ぬ」
+<PAUSE>
+<ACTOR>1,hu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「―――天音さんは、
+　ひとりで死ぬつもりなんですね」
+<PAUSE>
+<NAME_PLATE>
+　少年が、天音の顔を見て静かに言った。
+<PAUSE>
+<NAME_PLATE>天音
+「…………っ」
+<PAUSE>
+<NAME_PLATE>小太郎
+「館の時からずっと、天音さんは
+　自分が死ぬ前提で話をしていました」
+<PAUSE>
+<NAME_PLATE>小太郎
+「あの忍たちと戦っている時も、
+　どこか投げやりで――」
+<PAUSE>
+<NAME_PLATE>小太郎
+「……俺を逃がすために、ここまで
+　一緒に来てくれたんですか？」
+<PAUSE>
+<NAME_PLATE>
+　渓流は抜け忍衆の包囲から
+外れている。
+<PAUSE>
+<NAME_PLATE>
+　ここまで来れば、小太郎一人でも
+安全な領域に抜けられるはずだ。
+<PAUSE>
+<NAME_PLATE>小太郎
+「あそこを……最期の場所に
+　するつもりだったんですね……？」
+<PAUSE>
+<NAME_PLATE>小太郎
+「親父や、
+　一門の人たちが使っていた、
+　ふうまの隠し館を……」
+<PAUSE>
+<NAME_PLATE>
+　死に場所を求めて。
+<PAUSE>
+<NAME_PLATE>
+　弾正の面影が残る隠し館まで
+落ち延びた――。
+<PAUSE>
+<NAME_PLATE>天音
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　天音はまっすぐに
+自分を見る少年の目を見返した。
+<PAUSE>
+<NAME_PLATE>
+　だが何も答えない。
+<PAUSE>
+<NAME_PLATE>
+　少年の言葉通りだったからだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　天音は弾正の秘蔵っ子であり、
+彼を本当の父のように思い仕えていた。
+<PAUSE>
+<NAME_PLATE>
+　弾正の死後は、
+その雪辱を果たそうと戦い続けた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、いつしか気付いてしまった。
+<PAUSE>
+<NAME_PLATE>
+　どれだけ戦おうと弾正は戻らない。
+<PAUSE>
+<NAME_PLATE>
+　では、なぜ戦うのか――？
+<PAUSE>
+<NAME_PLATE>
+　そんな折である。
+<PAUSE>
+<NAME_PLATE>
+　同志だと思っていた抜け忍衆の
+変節を知った。
+<PAUSE>
+<NAME_PLATE>
+　いや、最初から天音と彼らの見ている
+風景は違っていたのかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　彼らは弾正の理想を忘れ、
+自らの野望のため腐った政府とも結んだ。
+<PAUSE>
+<NAME_PLATE>
+　私利私欲の集団に堕ちた者たちと
+共に戦う理由はない。
+<PAUSE>
+<NAME_PLATE>
+　天音は離反し――そして、
+追われる身となった。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「ふっ。
+　あまり私に立ち入るな――
+　そう言ったはずだがな」
+<PAUSE>
+<NAME_PLATE>小太郎
+「天音さん！！？」
+<PAUSE>
+<NAME_PLATE>
+　少年が悲痛な声を上げる。
+<PAUSE>
+<NAME_PLATE>
+　それに背を向け、天音は
+まっすぐ山中に入っていった。
+<PAUSE>
+<NAME_PLATE>天音
+「お前は去れ、うつけ。
+　………健やかにな」
+<PAUSE>
+//→Section３終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

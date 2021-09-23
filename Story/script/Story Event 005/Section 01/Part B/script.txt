@@ -1,0 +1,370 @@
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：廃棄された地下鉄＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ2_nc016aより流用
+<BGM_PLAY>bgm406,1000
+<BG>nc021a,IN, 1000
+<ACTOR>0,chr_t0107a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>沙耶ＮＥＯ
+「もう終わり？」
+<PAUSE>
+//　※立ち絵
+//　　【報復娘】沙耶ＮＥＯ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>兵士
+「く、くそ！　化物め！」
+<PAUSE>
+//　※立ち絵
+//　　米連兵士（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　冷涼だったトンネルの中は、
+血と汗の匂いで充満していた。
+<PAUSE>
+<NAME_PLATE>
+　あたりには腹を引き裂かれた兵士の山。
+<PAUSE>
+<NAME_PLATE>
+　最後のひとりとなった兵士は、
+血に濡れた地面に足を滑らせながら、
+必死に照準を合わせていた。
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「アハハ！　ざんねん♪
+　沙耶はあなたたちには捕まらないよ！」
+<PAUSE>
+<NAME_PLATE>
+　触手が鎌先をもたげ、
+兵士の頭を狙う。
+<PAUSE>
+<NAME_PLATE>兵士
+「う、ううっ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　そのとき、ドカドカと大勢の足音が
+トンネル内に反響し、
+別の部隊が到着する。
+<PAUSE>
+<ACTOR>1,ts_m040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>特殊兵
+「おい！　大丈夫か！」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊兵(男)
+//　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　その部隊の姿を見て、
+沙耶は顔色を変えた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>沙耶ＮＥＯ
+「やばっ！！？」
+<PAUSE>
+<NAME_PLATE>特殊兵
+「ふん。おてんばな小娘が。
+　手をかけさせやがって」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,400
+<GROUP>
+<BG>nc021a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<GROUP>
+<ACTOR>1,ts_m040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+<SE_PLAY>se040
+</GROUP>
+<NAME_PLATE>
+　沙耶は一転して、
+反対側へ逃げようとする。
+しかし、そちらも兵士に囲まれていた。
+<PAUSE>
+<NAME_PLATE>特殊兵
+「黙らせろ」
+<PAUSE>
+<NAME_PLATE>
+　リーダーとおぼしき兵士が手を上げると、
+兵士たちが一斉に銃――ではなく、
+なにやらマシンを取り出してボタンを押す。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>沙耶ＮＥＯ
+「い、いやああああ！！
+　やめて、止めてえええ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　すると、突然沙耶が苦しみ出した。
+<PAUSE>
+<ACTOR>1,ts_m040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>特殊兵
+「ははは。効果てきめんだな。
+　この装置からはお前の苦手な『あの音』が
+　出ている。我々には聞こえんがな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>沙耶
+「痛い！　痛いよ！！！
+　止めてええ！」
+<PAUSE>
+<NAME_PLATE>特殊兵
+「この音で、お前の体に仕込まれた装置が
+　激痛を走らせるそうじゃないか。
+　んん？　相当痛そうだねえ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>沙耶ＮＥＯ
+「うわわあああっ！
+　止めろおおおおっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se006
+<BG>ef006c,NONE
+</GROUP>
+<WAIT>500
+<GROUP>
+<BG>ef005a,NONE
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドシャァ！！
+<PAUSE>
+<NAME_PLATE>
+　もがく沙耶の触手が何人かの兵士を貫く。
+<PAUSE>
+<BG>nc021a,IN, 700
+<ACTOR>1,ts_m040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>特殊兵
+「ちっ！　しぶといガキが！
+　早く捕えろ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　暴れる沙耶を押さえつけるべく、
+兵士たちが飛びかかろうとした――
+その時。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>特殊兵
+「ぐぁっ？！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<ACTOR_OUT>1,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　兵士は、突然顔面を殴られて倒れた。
+沙耶のしわざではない。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>特殊兵
+「なんだ！？
+　うわっ、拳が飛んでやがる！？
+　――どふうッ！？」
+<PAUSE>
+<NAME_PLATE>特殊兵
+「ひええっ！？
+　やめろ！？　ぐギャアっ！？」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se035
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ゴスンッ。
+ドサッ。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se024
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　突然空中に現れた拳に、
+兵士たちは次々と殴られ、
+昏倒していったのだ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>特殊兵
+「お、おまえら落ち着け！！
+　俺は見たことがある、これは確か、
+　鬼腕の対魔――んゴッ」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<WAIT>800
+<ACTOR>3,chr_t0011a,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>紫藤凜花
+「ふう。こんなもんかしらね。
+　露払いしたわよ、ふうま」
+<PAUSE>
+//　※立ち絵
+//　　紫藤凜花
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　最後のひとりを殴り倒すと、
+ふわりと銀髪をなびかせた美女が姿を現す。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<GROUP>
+<ACTOR>4,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「すげぇ～～～！
+　装甲を着こんだ兵士を素手で……
+　凜花先輩、さすがです！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>相州蛇子
+「蛇子たちの出る幕なかったわね。
+　さすが“鬼腕の対魔忍”凜花先輩！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　その様子を陰から見守っていた、
+鹿之助、蛇子、そして俺も、
+その強さに目を見張る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（煙遁の術……本来戦闘向きではない術だが、
+　拳法と組み合わせることで、
+　こうも強くなるとは）
+<PAUSE>
+<NAME_PLATE>
+　煙遁の術とは、体の一部を煙と化す忍術。
+<PAUSE>
+<NAME_PLATE>
+　それを対魔殺法と組み合わせ、腕を煙化し、
+拳を飛ばすのが、この“鬼腕の対魔忍”、
+紫藤凜花の戦い方だ。
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「“対魔忍に二凜あり、
+　秋山凜子と紫藤凜花”かぁ……
+　蛇子もそんな風に言われる様になりたいわ」
+<PAUSE>
+<NAME_PLATE>凜花
+「あら、あなたたちも有名よ。
+　“遊撃隊名物の蛇と鹿”ってね」
+<PAUSE>
+<GROUP>
+<ACTOR>5,h_t002f,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>鹿之助
+「動物園じゃないんですから！」
+<PAUSE>
+<NAME_PLATE>俺
+「おい、ふざけてる場合じゃない。
+　あれがターゲットみたいだ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺は呆然と立っている少女に目を移す。
+<PAUSE>
+<NAME_PLATE>蛇子
+「イメージと違うわね。
+　いたいけな女の子じゃない」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「だ、だけどなんか、
+　ヤバそうな触手背負ってるぜ！？」
+<PAUSE>
+<ACTOR>0,chr_t0107a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>沙耶ＮＥＯ
+「……」
+<PAUSE>
+<NAME_PLATE>
+　俺がそっと近づくと、
+沙耶ＮＥＯは戸惑ったようにこちらを睨む。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（この子を、抹殺するのか……
+　いや、これは任務だ。
+　心を鬼にしないと……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「おうおう、またお前らかいな！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<ACTOR>6,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「もしかして、
+　あんたらも沙耶ＮＥＯを狙ろとんのか？」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア
+//　　　＊モンスターイラストから流用
+<NAME_PLATE>鹿之助
+「う、うわっ！？
+　ヨミハラで会ったサイボーグ！？」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「ヘスティア様や。
+　ちゃんと覚えとけよガキャア」
+<PAUSE>
+<NAME_PLATE>
+　今度はサイボーグ女・ヘスティアが、
+援軍を率いて現れた。
+<PAUSE>
+<NAME_PLATE>俺
+「よりによってコイツが追手か……」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「しかしまぁ……
+　逃亡した被験体の捕獲やなんて、
+　つまらん任務でシラケとったけど」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「あんたらが出てくるとはなぁ。
+　オモロなってきたやないか！」
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ……」
+<PAUSE>
+<NAME_PLATE>
+　一難去ってまた一難。
+ヘスティアと俺達の間に、
+一触即発の空気が流れる。
+<PAUSE>
+<ACTOR_OUT>6,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section１終了

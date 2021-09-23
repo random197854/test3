@@ -1,0 +1,1744 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：五車学園＿校門＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<SE_PLAY>se021
+<NAME_PLATE>
+　キーンコーン……
+<PAUSE>
+//【背景：五車学園＿廊下＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC011aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc005a,IN, 1000
+<ACTOR>0,s_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「なあ聞いてくれよ。
+　なんか最近視線を感じることないか？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　ある日の放課後。
+鹿之助が突然言い出した。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ないが……」
+<PAUSE>
+<ACTOR>0,s_t003c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「五車に敵のスパイがいるってこと？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>鹿之助
+「いや、そういう感じでもないんだけど
+　特に悪意は感じないっていうか」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだそりゃ？」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「へへ、俺も最近活躍してるし、
+　熱心な隠れファンができた……
+　とかじゃないかなって！　へへ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだとして、別に隠れる必要はないだろ。
+　蛇子、お前鹿之助といるときに
+　何か気配感じたことあるか？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「特にないわね」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はこともなげに言ってのける。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子が感じないなら気のせいじゃないか？」
+<PAUSE>
+<ACTOR>0,s_t003c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そうかなあ……
+　確かに、学校の行き帰りや、
+　みんなといる時は感じないな」
+<PAUSE>
+<NAME_PLATE>蛇子
+「じゃあ一人でいるときに
+　狙われてるのかしら？
+　学校以外のプライベートの時とか」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「プライベートを見たがる……
+　って、やっぱりファンだよな！
+　うん、間違いないぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「お前のプライベートの、
+　一体何が見たいっていうんだよ」
+<PAUSE>
+<ACTOR>0,s_t003c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そりゃ例えば、俺の……
+　………」
+<PAUSE>
+<ACTOR>0,s_t003d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　そこまで言いかけて、鹿之助は突然、
+何かに思い当たった様子で口を閉じた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、俺帰る！　じゃあな！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　そして焦った様子で立ち上がり、
+そそくさと帰っていく。
+<PAUSE>
+<ACTOR>1,h_t001c,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「自分から話振っておいて、
+　なんだあいつ？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,h_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「へんな鹿之助ちゃん。
+　あ、蛇子も委員会の時間だわ。
+　じゃあねふうまちゃん、また明日」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子も帰り、俺は一人残された。
+<PAUSE>
+<NAME_PLATE>俺
+「さて、俺はどうするか」
+<PAUSE>
+<NAME_PLATE>
+　これといって予定もない。
+家に帰っても暇だ。
+<PAUSE>
+<NAME_PLATE>俺
+「こういう時は図書館だな」
+<PAUSE>
+//【背景：五車学園図書室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC058aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc182a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（うーん……）
+<PAUSE>
+<NAME_PLATE>
+　書架をぶらぶらと眺めつつ、
+俺はさっきの鹿之助の話を考えていた。
+<PAUSE>
+<NAME_PLATE>
+　十中八九あいつの自意識過剰だろうが、
+万が一にも本当に危険な奴に
+つけられていては困る。
+<PAUSE>
+<NAME_PLATE>俺
+（仮に鹿之助が狙われているとして……）
+<PAUSE>
+<NAME_PLATE>
+　学校の行き帰りや、俺たちといる時は
+視線を感じないと言っていた。
+<PAUSE>
+<NAME_PLATE>俺
+（それ以外のシチュエーション、
+　学校の行き帰り以外……
+　制服を着てない時とか？）
+<PAUSE>
+<NAME_PLATE>
+　そうだとすれば、五車のことや
+対魔忍の事情にある程度通じた者、
+ということになる。
+<PAUSE>
+<NAME_PLATE>俺
+（制服を着てないとき、
+　つまり私服の時か）
+<PAUSE>
+<NAME_PLATE>俺
+（そもそも、あいつの私服って
+　どんなだっけ？）
+<PAUSE>
+<NAME_PLATE>？？？
+「あ、あのー……」
+<PAUSE>
+<NAME_PLATE>俺
+（私服、私服……あれ？
+　もしかして俺、鹿之助の私服、
+　見たことない気がするな）
+<PAUSE>
+<NAME_PLATE>
+　いくら記憶を辿っても、
+鹿之助の私服姿は思い出せない。
+<PAUSE>
+<NAME_PLATE>？？？
+「あの……」
+<PAUSE>
+<NAME_PLATE>
+　そういえば家にも行ったことがない。
+仲は良いつもりだったが、
+俺は案外あいつのことを知らないのか。
+<PAUSE>
+<NAME_PLATE>
+　なんだか地味にショックだ。
+考えてみればあいつも上忍の家の跡取りだし、
+ふうまの俺とこんなに仲良くするのも――
+<PAUSE>
+<NAME_PLATE>？？？
+「あのう！」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　突然目の前に女子生徒が現れた。
+<PAUSE>
+<NAME_PLATE>？？？
+「……何かお悩みなんですか？？？」
+<PAUSE>
+<NAME_PLATE>
+　図書子さんでもコロ先輩でもない。
+<PAUSE>
+<NAME_PLATE>
+　知らない子――いや、
+どこかで見たことがあるようなないような？
+<PAUSE>
+<NAME_PLATE>俺
+「君は……えっと？」
+<PAUSE>
+<NAME_PLATE>石川あむ
+「ふうま下忍、石川あむです。
+　学校では後輩になります」
+<PAUSE>
+<NAME_PLATE>俺
+「石川……」
+<PAUSE>
+<NAME_PLATE>
+　確かに、石川といえば
+ふうま下忍の家のひとつである。
+<PAUSE>
+<NAME_PLATE>
+　こんな年の近い子がいたなら、
+印象に残っていそうなものだが――
+<PAUSE>
+<NAME_PLATE>あむ
+「あっ、覚えていらっしゃらないのも
+　無理はないです！」
+<PAUSE>
+<NAME_PLATE>あむ
+「私、存在感が薄いのが取り柄なんです。
+　だから小さい頃から目立たなくて」
+<PAUSE>
+<NAME_PLATE>俺
+「取り柄？
+　まあ忍の者としては取り柄か」
+<PAUSE>
+<NAME_PLATE>あむ
+「ええ。それをライブラリーさんが
+　見込んでくださいまして」
+<PAUSE>
+<NAME_PLATE>あむ
+「先日、この石川あむ、
+　ふうま宗家御庭番・壱番隊筆頭に
+　任命されたんです！」
+<PAUSE>
+<NAME_PLATE>俺
+「ライブラリーに？
+　そりゃ凄いな」
+<PAUSE>
+<NAME_PLATE>
+　あのライブラリーが見込むほどの
+存在感のなさか。
+確かにそれは一つの才能だ。
+<PAUSE>
+<NAME_PLATE>あむ
+「……そこでさっそく張り切って、
+　お館様の護衛をですね！」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃありがたいが、学校では大丈夫だよ。
+　自分の学業だってあるんだろ？」
+<PAUSE>
+<NAME_PLATE>あむ
+「むむう。実は、
+　ライブラリーさんにもそう言われました」
+<PAUSE>
+<NAME_PLATE>あむ
+「けれど私、
+　お館様を見守るのが趣味でして！」
+<PAUSE>
+<NAME_PLATE>あむ
+「その趣味と実益を兼ねたお役目を
+　頂いたからには、時間の許す限り、
+　お館様を護衛させていただきたいと！」
+<PAUSE>
+<NAME_PLATE>
+　あむはそう言って胸を張る。
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか。
+　それじゃあまあ、
+　好きに護衛してくれて構わんが……」
+<PAUSE>
+<NAME_PLATE>あむ
+「それはそうと、何かお悩みでしたか？
+　考え込んでおられるようでしたが……」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、たいしたことじゃないさ」
+<PAUSE>
+<NAME_PLATE>あむ
+「私、朝からずっと
+　お館様を見守っていましたが、
+　お悩みになるようなことは……」
+<PAUSE>
+<NAME_PLATE>
+　あむはおもむろに手帳を取り出し、
+ぱらぱらとめくって読み上げる。
+<PAUSE>
+<NAME_PLATE>あむ
+「えーと今日のお館様は、朝７時半起床、
+　トイレに約３分滞在ののち、
+　朝ご飯はごはんとのりと卵焼き」
+<PAUSE>
+<NAME_PLATE>あむ
+「登校中、稲毛屋前で氷室先輩に遭遇、
+　遅刻しないよう早歩きした結果、
+　いつもより２分早く校門を通過」
+<PAUSE>
+<NAME_PLATE>あむ
+「午前中は英語の授業の予定でしたが、
+　出席されずに校庭で……」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、待て待て。
+　見守るってそんなに細かく……！？」
+<PAUSE>
+<NAME_PLATE>あむ
+「もちろんです！
+　昨日の記録もありますよ。
+　寝る前に水を一杯召し上がってから……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あーいい！　もういい大丈夫だ」
+<PAUSE>
+<NAME_PLATE>
+　俺はあむの読み上げを強引に遮る。
+<PAUSE>
+<NAME_PLATE>俺
+「それじゃ護衛じゃなくて監視だろ。
+　今後見守るのは、俺が
+　依頼した時だけにしてほしいかな……」
+<PAUSE>
+<NAME_PLATE>
+　この調子では、
+プライバシーも何もあったものではない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>あむ
+「ええっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし、あむは予想外に
+大きなショックを受けた様子で
+ふらふらと座り込む。
+<PAUSE>
+<NAME_PLATE>あむ
+「そんな……それでは私の存在価値が……」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　いや、そんなに落ち込まなくても。
+　危険な場所へ行くときには、
+　ぜひ護衛を頼むから」
+<PAUSE>
+<NAME_PLATE>あむ
+「いいえ、私はもうだめです！！
+　お庭番の筆頭に選ばれておきながら、
+　お館様をお守りできない役立たずです！」
+<PAUSE>
+<NAME_PLATE>あむ
+「役立たずは……そう、
+　本気のダメ人間になるしかありません！」
+<PAUSE>
+<NAME_PLATE>俺
+「本気のダメ人間？？？」
+<PAUSE>
+<NAME_PLATE>
+　あむが芝居がかった仕草で取り出したのは、
+ワンカップ甘酒『蟹ころし』。
+<PAUSE>
+<NAME_PLATE>
+　酒類には分類されない、
+いわばただの清涼飲料水であるが、
+色々と“ヤバイ”ことで有名だ。
+<PAUSE>
+<NAME_PLATE>あむ
+「ダメ人間たるもの、酒に溺れて、
+　ギャンブルで全財産をスッて、
+　借金取りに追われて失踪くらいしないと！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「いや待て待てなんでそうなるんだ！
+　見守ってていい！　見守ってくれ！」
+<PAUSE>
+<NAME_PLATE>
+　俺が慌ててそう言うと、
+あむはぱっと目を輝かせて立ちあがる。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「ほんとですか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああ。
+　だから元気出してくれ」
+<PAUSE>
+<NAME_PLATE>俺
+（なんていうか、
+　ちょっと極端な子だな）
+<PAUSE>
+<NAME_PLATE>あむ
+「それで、
+　お館様は何を悩んでいたんですか？」
+<PAUSE>
+<NAME_PLATE>
+　あむは何事もなかったかのように
+話を戻した。
+<PAUSE>
+<NAME_PLATE>俺
+「あー。
+　大したことじゃないんだが」
+<PAUSE>
+<NAME_PLATE>あむ
+「お館様が悩まれているのなら、
+　護衛にとっては一大事ですっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助って、俺のクラスメイトいるだろ。
+　監視してたなら知ってると思うが」
+<PAUSE>
+<NAME_PLATE>あむ
+「ええ、上原家のご長男で、
+　蛇子さんと共に、
+　お館様の親友といっていい方ですね」
+<PAUSE>
+<NAME_PLATE>俺
+「親友と言うとちょっと照れ臭いけどな。
+　まあ事実、仲はいいつもりなんだが……」
+<PAUSE>
+<NAME_PLATE>俺
+「考えてみたら俺、あいつの私生活を
+　ほとんど知らないんだ。
+　制服姿しか見たことないし」
+<PAUSE>
+<NAME_PLATE>あむ
+「なるほど……確かに、私がお館様を
+　見守っている間も、制服か、
+　対魔忍スーツ姿しか見ませんでしたね」
+<PAUSE>
+<NAME_PLATE>俺
+「だろ？
+　休日に遊びに出たりするときも、
+　わざわざ制服着てくるんだよな」
+<PAUSE>
+<NAME_PLATE>あむ
+「何か事情があるのかもしれませんよ」
+<PAUSE>
+<NAME_PLATE>俺
+「事情って？」
+<PAUSE>
+<NAME_PLATE>あむ
+「うーん例えば……実はすごい貧乏で、
+　服もろくに買えないとか？」
+<PAUSE>
+<NAME_PLATE>俺
+「それはないだろ。
+　上原家は代々続く上忍の家だし、
+　あいつ俺より羽振りいいぞ」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の従姉の上原燐先生は、
+実力派の対魔忍として前線に出ている。
+給料だっていいはずだ。
+<PAUSE>
+<NAME_PLATE>あむ
+「じゃあ、お母さんが買ってくれた
+　ビミョーなデザインの服しかなくて
+　恥ずかしいとか！」
+<PAUSE>
+<NAME_PLATE>俺
+「それを言ったら俺の服もだいたいは
+　時子や災禍が用意したやつだしな。
+　学生だし、みんなそんなもんだろ」
+<PAUSE>
+<NAME_PLATE>あむ
+「それもそうですね。
+　うーん、じゃあやっぱり実は
+　お館様に心を開いていないのかな」
+<PAUSE>
+<NAME_PLATE>俺
+「うっ……。
+　それはないと思いたいな……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の明るく裏表のない性格は、
+骸佐に裏切られた俺にとって
+救いにもなっている。
+<PAUSE>
+<NAME_PLATE>
+　その鹿之助に距離を置かれている
+としたら、少なからずショックだ。
+<PAUSE>
+<NAME_PLATE>
+　俺の表情が曇ったのを見てか、
+あむは明るくぽんと手を打ってみせる。
+<PAUSE>
+<NAME_PLATE>あむ
+「わかりました！
+　それなら、お館様」
+<PAUSE>
+<NAME_PLATE>あむ
+「鹿之助先輩の私生活、
+　覗いちゃおう作戦、やりましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「私生活覗いちゃおう作戦？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>あむ
+「はい♪　私服も見ちゃいましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃまあ多少興味はあるが、
+　そんなのどうやって見るんだ？」
+<PAUSE>
+//【背景：五車学園＿校門＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　翌日。
+<PAUSE>
+<NAME_PLATE>
+　授業が終わるとすぐ、
+俺とあむは校門で落ち合った。
+<PAUSE>
+<NAME_PLATE>俺
+「で、尾行か……」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「はい♪　私、尾行は得意なんです」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　あむは自信ありげである。
+<PAUSE>
+<NAME_PLATE>
+　確かに、あむの存在感の薄さなら、
+見つからずに尾行するくらい楽勝だろう。
+<PAUSE>
+<NAME_PLATE>あむ
+「鹿之助先輩だって、さすがに家では
+　私服に着替えるでしょうし」
+<PAUSE>
+<NAME_PLATE>俺
+「まあそうだが。
+　友達の後をつけるというのもな」
+<PAUSE>
+<NAME_PLATE>
+　などといいつつ、俺も少しばかり
+わくわくしているのも事実。
+<PAUSE>
+<NAME_PLATE>あむ
+「あっ！　鹿之助先輩が来ましたよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺たちはさっと茂みに身を隠す。
+<PAUSE>
+<ACTOR>0,s_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふんふん～♪　正義のスーパー対魔忍～♪」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　その目の前を、鹿之助が、
+ヒーロー番組の主題歌の替え歌を
+口ずさみながらご機嫌で下校していく。
+<PAUSE>
+<NAME_PLATE>俺
+（こっちにはまるで気づいてないな）
+<PAUSE>
+<NAME_PLATE>
+　さすがの鹿之助も、
+親友の俺につけられるとは、
+思っていないだろうが。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「尾行開始ですね。
+　お館様は、見つからないように
+　私のあとをついてきてください」
+<PAUSE>
+<NAME_PLATE>俺
+「わかった」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はあむの後について、
+鹿之助の尾行を始めた。
+<PAUSE>
+//【背景：稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「お、あれは……」
+<PAUSE>
+<NAME_PLATE>
+　稲毛屋の前までやってくると、
+店の前のベンチにちょこんと座り、
+アイスを食べている小柄な姿が見えた。
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「アイス、おいしい」
+<PAUSE>
+//　※立ち絵
+//　　クリア・ローベル
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜの家に居候している、
+クリア・ローベルだ。
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t003b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「よお、クリアじゃん。
+　一人なんて珍しいな」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　彼女に気づいた鹿之助が、
+気さくに声をかける。
+<PAUSE>
+<NAME_PLATE>俺
+（こういう風に、
+　誰にも分け隔てなく接するのも、
+　鹿之助の良い所ではあるな）
+<PAUSE>
+<NAME_PLATE>クリア
+「ゆきかぜにお小遣い貰った。
+　アイス、美味しい」
+<PAUSE>
+<NAME_PLATE>
+　クリアはいつもの調子で淡々と、
+アイスを舐めている。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いいな。
+　俺もアイス食べたくなっちゃったな。
+　お婆ちゃん、アイス一つちょうだい！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はアイスを購入すると、
+クリアの横に並んで、
+一緒にアイスを食べ始めた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「やっぱうまいな稲毛屋のアイス」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん」
+<PAUSE>
+<NAME_PLATE>
+　質素なベンチにちょこんと並んで、
+アイスを頬張るクリアと鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　なんだか和む風景だ。
+クリアと一緒にいるだけでじぽ扱いされる俺と
+なんという違いだろうか。
+<PAUSE>
+<ACTOR>1,s_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ふうまなんかさ」
+<PAUSE>
+<NAME_PLATE>俺
+（ん？　俺？）
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お小遣いが少なくていつも
+　アイス１個買うのも迷ってるんだぜ」
+<PAUSE>
+<ACTOR>1,s_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「笑っちゃうよな、
+　ふうま宗家ってお金持ちなのにさ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「無駄遣いやサボりのせいで、
+　お小遣いを限界まで減らされて」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「独立遊撃隊の隊長になったのに、
+　まだ雀の涙で頑張ってるんだ」
+<PAUSE>
+<NAME_PLATE>クリア
+「ふうま、スズメの涙。
+　ピヨピヨ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ピヨピヨじゃヒヨコだよ。
+　ふうまにはちょっと可愛すぎだな！」
+<PAUSE>
+<NAME_PLATE>
+　二人はアイスを口の端につけて、
+あははと笑い合っている。
+<PAUSE>
+//【背景：稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「あいつら……
+　好き勝手抜かしおって……」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「まあまあ。
+　お小遣いが少ないのは、
+　ほんとのことじゃないですか」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「あむ……
+　フォローになってないぞ……」
+<PAUSE>
+<NAME_PLATE>あむ
+「えへ、すみません。
+　だけどあの様子だと、鹿之助先輩は
+　お金がないわけじゃなさそうですね」
+<PAUSE>
+<NAME_PLATE>俺
+「確かに……」
+<PAUSE>
+<NAME_PLATE>
+　あそこまで言うからには、
+少なくとも俺よりはお小遣いを
+もらっているはずだ。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあやっぱり、
+　お母さんの買ってくれる服が
+　あまりにもダサいとかか？」
+<PAUSE>
+<NAME_PLATE>あむ
+「どうでしょうね……、
+　あ、また誰か来ますよ」
+<PAUSE>
+//【背景：稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>穂稀なお
+「やあ鹿之助。今帰り？」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお通常立ち絵＿制服衣装
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　次に通りかかったのは、
+風紀隊隊長にして、かわいいもの大好き男子の
+穂稀なお先輩だった。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t003b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「なお先輩！　お疲れ様です」
+<PAUSE>
+<NAME_PLATE>なお
+「これはまた可愛い二人だね。
+　五車町のゆるキャラになれそうだ」
+<PAUSE>
+<ACTOR>1,s_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ゆ、ゆるキャラ……？」
+<PAUSE>
+<NAME_PLATE>なお
+「それより鹿之助、
+　今日の約束忘れてないよね？」
+<PAUSE>
+<ACTOR>1,s_t003d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「あっ！　そうだった。
+　一旦家で着替えてからお邪魔します！」
+<PAUSE>
+<NAME_PLATE>なお
+「忘れてたのかい？　しょうがないなあ。
+　待ってるからね」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　そう言って軽やかに手を振りながら、
+なお先輩は去っていく。
+<PAUSE>
+<ACTOR>1,s_t003d,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　鹿之助も急いで立ち上がると、
+残りのアイスを一気に頬張った。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「やっべ、なお先輩の家へ行く約束、
+　忘れてたよ。
+　クリア、俺先行くね」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん、ばいばい」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　走り去る鹿之助に、
+クリアは無表情のまま手を振ると、
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「おばあさん、もうひとつアイス下さい」
+<PAUSE>
+<NAME_PLATE>
+　３つめになるアイスを注文するのだった。
+<PAUSE>
+//【背景：稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「一人でアイス３つだと？
+　クリアのやつ、なんという贅沢だ……」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「お館様、
+　それより鹿之助先輩を追わないと」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　あむに促され、
+俺ははっと我に返る。
+<PAUSE>
+<NAME_PLATE>俺
+「そうだった。
+　だが焦らなくてもいいだろう」
+<PAUSE>
+<NAME_PLATE>あむ
+「といいますと？」
+<PAUSE>
+<NAME_PLATE>俺
+「さっきの会話からすると、
+　鹿之助はこのあと家で着替えて、
+　なお先輩の家へ行くらしい」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり、あいつの家で張り込めば、
+　私服で出てくる鹿之助を
+　押さえられるんじゃないか」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助がなお先輩の家に
+一体何の用なのかも気になるところだが、
+それも後をつければわかるだろう。
+<PAUSE>
+<NAME_PLATE>あむ
+「確かに！　さすがお館様です」
+<PAUSE>
+<NAME_PLATE>俺
+「ククク、どんなクソダサ私服なのか、
+　たっぷりこの目で見てやるぜ」
+<PAUSE>
+//【背景：上原家邸宅＿昼】【時間：昼】
+//　※発情エクソシスト_nc001aより流用
+//nc349a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc349a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というわけで、俺たちは回り道をし、
+鹿之助の家にやってきた。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「りっぱなお屋敷ですねえ～。
+　ふうま家に負けずとも劣りません」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「上原家は上忍の名家だからな。
+　確かにうちより立派かもしれん……」
+<PAUSE>
+<NAME_PLATE>
+　よく整えられた広い庭の一角に
+身を潜めながら、
+俺たちは大きな日本家屋を見上げていた。
+<PAUSE>
+<NAME_PLATE>俺
+「とはいえ、出入口はこちらだけのようだ。
+　ここで張っていれば、鹿之助が
+　私服で出てくるのを見られるだろう」
+<PAUSE>
+<NAME_PLATE>
+　俺はスマホのカメラを起動すると、
+玄関に向かって構える。
+<PAUSE>
+<NAME_PLATE>
+　好き放題言ってくれたお返しに、
+クソダサ私服の鹿之助の写真を、
+ゆきかぜ達に披露してくれよう。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>あむ
+「お館様！　お待ちください」
+<PAUSE>
+<NAME_PLATE>
+　と、あむが鋭く俺を制止した。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>あむ
+「私達の他に、
+　何者かがこの家を見張っているようです」
+<PAUSE>
+<NAME_PLATE>
+　あむの持つのんびりした空気が、
+忍らしい気迫に変わった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なに！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　視線を感じるという、
+鹿之助の話を思い出す。
+<PAUSE>
+<NAME_PLATE>俺
+（まさか本当に、
+　敵に狙われていたのか？）
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「あそこですね……」
+<PAUSE>
+<NAME_PLATE>俺
+「……！　あれは……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不良
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　西園寺爆斗
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　あむの指さす先では、
+学生服の男がソワソワと上原邸を眺めていた。
+<PAUSE>
+<NAME_PLATE>
+　改造した学生服、
+やたらに太いズボン、
+これでもかと盛ったリーゼント。
+<PAUSE>
+<NAME_PLATE>
+　もはや歴史の教科書に載せてもいいくらいの
+クラシカルな不良スタイルである。
+<PAUSE>
+<NAME_PLATE>
+　俺はその男に見覚えがあった。
+<PAUSE>
+<NAME_PLATE>俺
+「あれは……確か、
+　隣のクラスの西園寺爆斗だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「お館様、知ってるんですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「目立つ奴だからな。
+　直接話したことはないが……」
+<PAUSE>
+<NAME_PLATE>
+　うちのクラスでは一番のヤンキー、
+神村舞華が彼について話しているのを
+聞いたことがある。
+<PAUSE>
+<NAME_PLATE>俺
+「確か火の忍法を使う対魔忍で、
+　“五車町最速・悪婁銃（おるがん）”
+　っていう暴走族の総隊長だとか……」
+<PAUSE>
+<NAME_PLATE>あむ
+「なんですかそのダサイ名前！？
+　五車に暴走族がいたんですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「五車のさらに山奥の道を
+　爆走しているらしい」
+<PAUSE>
+<NAME_PLATE>あむ
+「五車のさらに奥……といえば、
+　ひたすら山が続くばかりの、
+　僻地の中の僻地ですよね」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだ。
+　迷惑をかけないように、あえて
+　人里離れた道を走ってるらしいぞ」
+<PAUSE>
+<NAME_PLATE>あむ
+「不良なんだか、
+　良い人なんだかわかりませんね……」
+<PAUSE>
+<NAME_PLATE>あむ
+「だけど、その不良先輩が
+　どうしてここにいるんでしょう？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　西園寺は上原邸に気をとられていて、
+俺たちには全く気付く様子もない。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「声をかけてみましょうか……」
+<PAUSE>
+<NAME_PLATE>俺
+「待て」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そのとき、
+上原家の扉がガラリと開いた。
+<PAUSE>
+<NAME_PLATE>俺
+「家から誰か出てくる。
+　一旦隠れるぞ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺たちはそっと植え込みに身を隠す。
+西園寺の方を窺うと、彼もまた、
+どこかに姿を消していた。
+<PAUSE>
+//【背景：上原家邸宅＿昼】【時間：昼】
+//　※発情エクソシスト_nc001aより流用
+//nc349a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc349a,IN, 1000
+<ACTOR>0,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>上原燐
+「ご馳走様でした。
+　では、私はこれで」
+<PAUSE>
+//　※立ち絵
+//　　上原燐
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+（上原燐先生だ。
+　話してるのは、鹿之助の母上か？）
+<PAUSE>
+<NAME_PLATE>鹿之助の母
+「お土産ありがとうね。
+　しばらくは五車にいるんでしょ？」
+<PAUSE>
+<NAME_PLATE>燐
+「いえ、すぐ次の任務に出ます」
+<PAUSE>
+<NAME_PLATE>鹿之助の母
+「まあ、忙しいわねえ。
+　売れっ子の対魔忍も大変だこと。
+　鹿之助もそのくらい活躍してくれればねえ」
+<PAUSE>
+<NAME_PLATE>燐
+「また帰った時にはお邪魔します。
+　では……」
+<PAUSE>
+<NAME_PLATE>鹿之助の母
+「あ、待って。
+　ちょっとー、燐ちゃん帰るってー！！
+　ご挨拶しなさーい！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「はーい」
+<PAUSE>
+<ACTOR>0,chr_t0270a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　すると、とたとたと足音を立てて、
+出てきたのは――
+<PAUSE>
+//　※立ち絵
+//　　【仕来り】上原鹿之助
+//　　　＊カードイラストより流用
+//【背景：上原家邸宅＿昼】【時間：昼】
+//　※発情エクソシスト_nc001aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc349a,IN, 1000
+<UI_DISP>ON, 0
+//nc349a
+<NAME_PLATE>俺
+「誰だあの子は！？　あんな可愛い子、
+　鹿之助ん家にいたのか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助の姉妹――いや、
+　そんなのはいないはずだから、
+　親戚の子か？？」
+<PAUSE>
+<NAME_PLATE>
+　突然の美少女登場に、
+俺が沸き立つ一方で、
+あむはじっと彼女の顔を観察していた。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「お館様、
+　あれは鹿之助先輩じゃないでしょうか？」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「何言ってるんだよ。そんなわけないだろ。
+　あいつは男だぞ」
+<PAUSE>
+<NAME_PLATE>あむ
+「うーん、でも……
+　ちょっと近くで見てきます」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が止める暇もなく、
+あむはひょこひょこと上原家の玄関先へ
+近づいていく。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0269a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0270a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+（お、おい！
+　そんなに近づいたら見つか――）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、まったく気づかれてない？）
+<PAUSE>
+<NAME_PLATE>
+　あむは結構な至近距離まで近づき、
+謎の美少女の顔を確かめているが、
+<PAUSE>
+<NAME_PLATE>
+　不思議なことに、上原家の面々は、
+誰もそれに気づいていないようだ。
+<PAUSE>
+<NAME_PLATE>俺
+（これが“存在感のなさ”か……。
+　確かにあそこまでいくと才能だな）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ライブラリーが見込んだだけのことはある。
+などと感心していると、あむが戻ってきた。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「やっぱり鹿之助先輩だと思いますよ。
+　近くで見たらますますそっくりです」
+<PAUSE>
+<NAME_PLATE>俺
+「いやいや、ばかな。
+　鹿之助のことは俺が良く知っている」
+<PAUSE>
+<NAME_PLATE>俺
+「あいつはあれで男らしさにこだわるヤツだ。
+　間違ってもあんな恰好はしない」
+<PAUSE>
+<NAME_PLATE>あむ
+「でも……」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ確かに顔は似てるな。
+　恐らく親戚だろう」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助のやつ、
+　あんな子が身内にいながら
+　黙っているとは許せん……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺たちが騒然としている間に、
+燐先生は帰っていったようだ。
+<PAUSE>
+<ACTOR>0,chr_t0270a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　さらに、謎の美少女も
+どこかへ出かける様子で、
+「いってきます」などと声をかけている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「そうだ。
+　あの子の後をつけてみませんか？」
+<PAUSE>
+<NAME_PLATE>俺
+「え？
+　いや、確かにあの子も気になるが、
+　俺たちは鹿之助を……」
+<PAUSE>
+<NAME_PLATE>あむ
+「だからこそです。
+　鹿之助先輩はこの後、
+　なお先輩の家に行くんですよね」
+<PAUSE>
+<NAME_PLATE>あむ
+「だったら、あの子の後をつけて、
+　なお先輩の家へ行ったら
+　鹿之助先輩ってことですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「うーむ……」
+<PAUSE>
+<NAME_PLATE>俺
+（あの子が鹿之助のわけはない。
+　俺にはわかるんだ。
+　だが、正直なところ、）
+<PAUSE>
+<NAME_PLATE>俺
+（鹿之助の私服よりも、
+　あの子の方が気になる！）
+<PAUSE>
+<NAME_PLATE>俺
+「わかった！
+　予定変更だ。あの子の行く先を
+　突き止めてみよう」
+<PAUSE>
+<NAME_PLATE>あむ
+「はいっ！」
+<PAUSE>
+//【背景：稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　美少女の後をつけて、
+俺たちは再び稲毛屋の前へとやってきた。
+<PAUSE>
+<NAME_PLATE>俺
+（どこへ向かってるんだ？
+　ん？　稲毛屋のベンチに誰かいるな）
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「委員会のあとの一杯は最高ね！
+　おばあちゃん、おかわり！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>
+　今度は蛇子である。
+<PAUSE>
+<NAME_PLATE>
+　委員会帰りらしく、一人で
+アイスを美味しそうに食べている。
+<PAUSE>
+<NAME_PLATE>
+　その蛇子の目の前を――
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0270a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　【仕来り】上原鹿之助
+//　　　＊カードイラストより流用
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,h_t001b,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　あの子が何食わぬ顔で通り過ぎる。
+蛇子は特に声をかけるでもなく、
+二個めのアイスを頬張っていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ほらな、蛇子も無反応だ。
+　鹿之助なら声をかけるだろ」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「そうでしょうか……」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　あむはまだ怪訝そうな顔で、
+じっと彼女を見つめている。
+<PAUSE>
+<NAME_PLATE>あむ
+「あ、でもほら、
+　あの子はなお先輩の家の方向へ
+　向かってるみたいですよ」
+<PAUSE>
+<NAME_PLATE>
+　稲毛屋の前を通り過ぎた彼女は、
+住宅街の方へ続く道へと曲がっていった。
+<PAUSE>
+<NAME_PLATE>俺
+「いやいや、まだわからんぞ」
+<PAUSE>
+<NAME_PLATE>あむ
+「とりあえず、見失う前に
+　後をつけましょう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　まさか……という気持ちが
+脳裏に湧き出すが、
+あの美少女が鹿之助のわけはない。
+<PAUSE>
+<NAME_PLATE>
+　そうだ、俺の親友にして正義の対魔忍、
+あの上原鹿之助が、
+こんな可愛い女の子なわけが……。
+<PAUSE>
+<NAME_PLATE>
+　自分の中で渦を巻く何かに、
+無理やり蓋をすると、
+俺たちは彼女を追って先を急いだ。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,ts_m218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>西園寺爆斗
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　西園寺爆斗
+//　　　＊モンスターイラストより流用
+//【背景：穂稀家の前＿昼】【時間：昼】
+//　※妻ネトリ_nc006aより流用
+//nc350a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc350a,IN, 1000
+<ACTOR>0,chr_t0270a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　【仕来り】上原鹿之助
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　五車町の中でも、
+比較的新しい家の立ち並ぶ住宅街。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　美少女はそのうちの一軒の前で
+立ち止まった。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「ほらほら、あそこはなお先輩のお宅です。
+　やっぱりあれは鹿之助先輩ですよ！」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「まさか……」
+<PAUSE>
+<NAME_PLATE>
+　表札には確かに『穂稀』の文字。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（ということは、やっぱりあの美少女は
+　鹿之助なのか！？）
+<PAUSE>
+<NAME_PLATE>俺
+「いやいや、だが、鹿之助が何か
+　家の用事でもあって、
+　代理を寄越した可能性も……」
+<PAUSE>
+<NAME_PLATE>
+　さすがの俺も、絶対鹿之助ではない、
+とは言いきれなくなっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「……よし、
+　こうなったら声をかけてみるか！」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「そうですね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　悩んでいても埒があかない。
+俺は思い切って美少女に近づき、
+うしろから声をかける。
+<PAUSE>
+<NAME_PLATE>俺
+「あのぉ……」
+<PAUSE>
+<NAME_PLATE>
+　すると、女の子は俺を振り返って――
+<PAUSE>
+<ACTOR>0,chr_t0270a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「………っっ！！？！！？！？！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　文字通り飛び上がって驚き、
+そのままぴゅーっと逃げ去ってしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「逃げた……」
+<PAUSE>
+<NAME_PLATE>
+　あまりの反応にこっちもびっくりして、
+あむと二人でしばし唖然となる。
+<PAUSE>
+<NAME_PLATE>俺
+「あの子鹿のような逃げ足……
+　やっぱり鹿之助……？！」
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「お館様！　追いましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　こうなったら、何としても
+あの子の正体を突き止めてやる。
+<PAUSE>
+//【背景：神社＿昼】【時間：昼】
+//　※クルースニク_nc010aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0183a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　住宅地を抜け森を抜け、
+神社へと駆け込んだところで、
+俺たちはとうとう鹿之助？　を追いつめた。
+<PAUSE>
+<NAME_PLATE>俺
+「お前、鹿之助なのか！？」
+<PAUSE>
+<ACTOR>0,chr_t0270a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助？
+「ち、違います！（裏声）」
+<PAUSE>
+//　※立ち絵
+//　　【仕来り】上原鹿之助
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　間近で見ると、いよいよ鹿之助に似ている。
+というか本人のような気がする。
+<PAUSE>
+<NAME_PLATE>
+　背格好、ふわふわの茶髪、明るい瞳、
+全て鹿之助のそれと同じだ。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、鹿之助だろ！？
+　違うなら、なんで
+　逃げたりなんかするんだよ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今度は逃げられないよう、
+俺が鹿之助？　の肩を掴み、
+問いただそうとすると――
+<PAUSE>
+<NAME_PLATE>？？？
+「ちょっと待ったああああァァア！！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　大声とともに、俺と鹿之助？　の間に
+降り立ったのは、
+あの西園寺爆斗だった。
+<PAUSE>
+<ACTOR>0,ts_m218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>爆斗
+「おうおうテメェ！
+　その汚い手を放しやがれ！」
+<PAUSE>
+//　※立ち絵
+//　　西園寺爆斗
+//　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「さ、西園寺！？
+　一体どこから……」
+<PAUSE>
+<NAME_PLATE>爆斗
+「俺のこたぁどうでもいいんだよ」
+<PAUSE>
+<NAME_PLATE>爆斗
+「さっきから見てりゃー、
+　こんな可憐なお嬢さんを追い回すなんて、
+　恥を知りやがれ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「追いまわしてないぞ！
+　お前こそずっと上原の屋敷、
+　見張ってなかったか！？」
+<PAUSE>
+<NAME_PLATE>爆斗
+「へん。俺はこのお嬢さんに、
+　悪い虫がつかねえか、
+　見守ってただけなんだぜ！」
+<PAUSE>
+<NAME_PLATE>爆斗
+「お嬢さん、この俺が助けに来たからには、
+　もう心配いらないぜ」
+<PAUSE>
+<NAME_PLATE>
+　西園寺はちょっと頬を染めながら、
+鹿之助？　にはにかんだ笑顔を向ける。
+<PAUSE>
+<NAME_PLATE>爆斗
+「この悪漢ストーカー野郎に
+　追われてんだろ？」
+<PAUSE>
+<NAME_PLATE>鹿之助？
+「え？（裏声）」
+<PAUSE>
+<NAME_PLATE>爆斗
+「何も言わなくても大丈夫だぜ。
+　俺にはわかってるんだぜ」
+<PAUSE>
+<NAME_PLATE>爆斗
+「惚れた女を守るってのは男の本懐だぜ。
+　この男、家からお嬢さんのこと
+　尾行してやがった。許せねえぜ」
+<PAUSE>
+<NAME_PLATE>鹿之助？
+「ええ……？（裏声）」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助？　も困惑しているが、
+西園寺はお構いなしに暴走する。
+<PAUSE>
+<NAME_PLATE>爆斗
+「そ、それでその……お嬢さんっ！
+　コイツを倒したら、俺と、
+　ド、ドライブしてくれねえか！？」
+<PAUSE>
+<NAME_PLATE>
+　純情爆走野郎・西園寺爆斗は、
+お辞儀しながらおずおずと手を差し出す。
+<PAUSE>
+<NAME_PLATE>鹿之助？
+「……、えっと……（裏声）」
+<PAUSE>
+<NAME_PLATE>
+　もはや突っ込む気力もなく、
+その光景を眺めていると、
+西園寺がこちらに向き直った。
+<PAUSE>
+<NAME_PLATE>爆斗
+「おうおうおう！
+　そういうわけだストーカー野郎！」
+<PAUSE>
+<NAME_PLATE>爆斗
+「てめぇもこのお嬢さんに惚れてるんなら、
+　男同士、正々堂々と勝負しやがれ！」
+<PAUSE>
+<NAME_PLATE>俺
+「惚れ……？　いや、俺はだな……」
+<PAUSE>
+<NAME_PLATE>俺
+（鹿之助！？
+　鹿之助なら何とか言ってくれよ！）
+<PAUSE>
+<NAME_PLATE>
+　俺は鹿之助？　に目で助けを求めるが、
+鹿之助？　は戸惑った顔で、
+俺と西園寺を眺めるばかりである。
+<PAUSE>
+<NAME_PLATE>爆斗
+「俺は
+　“五車町最速・悪婁銃（おるがん）”
+　総隊長・西園寺爆斗」
+<PAUSE>
+<NAME_PLATE>爆斗
+「その制服、テメェも五車学園、
+　つまり対魔忍のはしくれだろ？」
+<PAUSE>
+<NAME_PLATE>爆斗
+「それなら遠慮なく
+　ケンカができるってもんだ。
+　一対一、タイマン勝負といこうぜ！」
+<PAUSE>
+<NAME_PLATE>俺
+「冗談じゃないぜ。
+　なんだって俺がそんなことに
+　付き合わないといけないんだ」
+<PAUSE>
+<NAME_PLATE>爆斗
+「言い訳無用だぜ！」
+<PAUSE>
+<NAME_PLATE>
+　西園寺は拳をつくり、
+俺に向かって構えた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？　おい、待てよ！」
+<PAUSE>
+<NAME_PLATE>
+　恋は盲目、
+どうやら話は通じなそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「くそ、とんだことになったぜ」
+<PAUSE>
+<NAME_PLATE>
+　仕方なく、俺も格闘の構えをとる。
+<PAUSE>
+<NAME_PLATE>爆斗
+「そうこなくっちゃな！」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……」
+<PAUSE>
+<NAME_PLATE>
+　こうして、俺と西園寺の、
+鹿之助――に激似の美少女をめぐる
+不本意な戦いが始まった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「あのう……」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　それを、存在感が薄すぎて、
+西園寺に認識されずにいたあむが、
+ぽつんと眺めていた。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

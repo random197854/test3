@@ -1,0 +1,138 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//シーン説明：
+//※１日目　夜
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　館は原形を失いつつあった。
+<PAUSE>
+<NAME_PLATE>
+　業火は未だ衰えておらず、
+灼熱が全てを焼き尽くしていく。
+<PAUSE>
+//【背景：炎上するふうまの里＿町の中＿夜】【時間：夜】
+//　※発情エクソシスト_nc001bより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc196a,IN, 1000
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　時子は小太郎を連れて、
+崩壊する屋敷から無事脱出していた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、再編成した味方は
+すでに半分以下に減っていた。
+<PAUSE>
+<NAME_PLATE>
+　皆、敵の刃に、あるいは燃え盛る炎に
+その命を散らしている。
+<PAUSE>
+<NAME_PLATE>
+　時子は残り少ない臣下に告げた。
+<PAUSE>
+<ACTOR>0,t_t007b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「若様をお救いした！
+　お前たちの奮戦は無駄ではなかったぞ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m096a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま忍者
+「若様、よくぞご無事で！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうま忍者
+「ふうま宗家の嫡男は生きておられる！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>3,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうまくノ一
+「井河忍者、何するものぞ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうま忍者
+「ふうまは滅びませぬ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　誰一人、傷ついていない者はいない。
+<PAUSE>
+<NAME_PLATE>
+　彼らが、そして散っていった者たちが
+その身をかけて守った幼き当主を除いて。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,t_t012b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「これより血路を開き、若様、
+　いや、新たなお館様をお救いする！
+　今こそ忠義を見せる時だ！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ふうま忍者たち
+「「「おおおおおおおおっっ！！！」」」
+<PAUSE>
+<NAME_PLATE>
+　時子の、１１歳の少女とは思えぬ勇姿に
+臣下たちの士気は最高潮に達した。
+<PAUSE>
+<NAME_PLATE>
+　もはや死を待つばかりと思われた、
+瀕死の者さえ立ち上がろうとする。
+<PAUSE>
+<NAME_PLATE>小太郎
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　幼い当主はそんな臣下の姿を
+圧倒されたかのように見つめていた。
+<PAUSE>
+<ACTOR>0,t_t012c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「お館様、下知を」
+<PAUSE>
+<NAME_PLATE>小太郎
+「う、うん……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　小太郎は幼心を懸命に奮い立たせる。
+<PAUSE>
+<NAME_PLATE>小太郎
+「み、皆の者、
+　時子の指揮のもと、
+　井河忍軍の包囲を突破せよ」
+<PAUSE>
+<NAME_PLATE>ふうま忍者たち
+「「「「御意っっ！！」」」」
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

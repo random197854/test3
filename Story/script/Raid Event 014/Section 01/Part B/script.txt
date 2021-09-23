@@ -1,0 +1,869 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：森の中＿昼】【時間：昼】
+//　※先生を孕ませよう_nc001aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc299a,IN, 1000
+<ACTOR>0,chr_t0222a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユフィ＆ソフィ
+「いくよー！
+　忍法・蹴遁の術、鬼キーーック！」
+<PAUSE>
+//　※立ち絵
+//　　【一日対魔忍】ユフィ＆ソフィ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　忍法――というのは雰囲気で、
+実のところただの蹴りなのだが。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se006
+<NAME_PLATE>
+　鬼族の血が濃い双子は身体能力が高く、
+小さな体からは想像もできない力で
+正確な攻撃を繰り出していく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「ふんッ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バキンッ！！
+<PAUSE>
+<NAME_PLATE>
+　一方アンブローズも、
+淫魔らしからぬ鍛え上げた肉体の持ち主。
+<PAUSE>
+<NAME_PLATE>
+　双子の攻撃を、
+腕一本で跳ね除けてみせた。
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0222a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「いいキックじゃない♪
+　このアンブローズの腕を震わせるとは」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「でもムダよ。
+　女の子は絶対私に勝てない♪」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「すごい自信ね」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「淫魔ってみんなちょっと
+　自信過剰なのかな」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「事実に裏付けられた自信よ。
+　今にわかるわ」
+<PAUSE>
+<NAME_PLATE>
+　一人と一組はふたたび睨み合う。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0221a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミレイユ
+「なにあの鬼双子……強くない？」
+<PAUSE>
+//　※立ち絵
+//　　【夢の中へ】ミレイユ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミレイユ
+「アンブローズ様は淫魔きっての肉体派よ、
+　それと互角に戦うなんて」
+<PAUSE>
+<NAME_PLATE>
+　ミレイユはリリムを逃がさないよう
+捕まえながら、
+三人の戦いに目をみはっていた。
+<PAUSE>
+<NAME_PLATE>リリム
+「そりゃそうよ！
+　アミダハラ監獄でだって、特別な檻に
+　いれられてたんだからね」
+<PAUSE>
+//　※立ち絵
+//　　【お気楽夢魔】リリム
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「っていうか放せよう！？」
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「放すわけないでしょ。
+　あとでアンブローズ様に
+　シメていただくんだから」
+<PAUSE>
+<NAME_PLATE>リリム
+「やだ！　超やだ！！
+　助けておやびーん！！！！」
+<PAUSE>
+//【背景：森の中＿昼】【時間：昼】
+//　※先生を孕ませよう_nc001aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc299a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　同じころ、俺たちは
+ユフィとソフィから連絡を受けて、
+森の中を捜索していた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,h_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「あっ、いたいた！
+　あそこで戦ってるわふうまちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<NAME_PLATE>俺
+「やれやれ、やっと見つけたか」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「ってなんだアレ！？
+　花まみれの奴がいるぞ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鹿之助の指さす方を見れば、
+えらく毒々しい色の大柄な淫魔と、
+対魔忍スーツの双子が戦っている。
+<PAUSE>
+<NAME_PLATE>
+　その横では、
+リリムがサキュバスらしき女に
+拘束されていた。
+<PAUSE>
+<NAME_PLATE>リリム
+「おやぶん！」
+<PAUSE>
+//　※立ち絵
+//　　【お気楽夢魔】リリム
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0222a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユフィ
+「やっと来たわ」
+<PAUSE>
+//　※立ち絵
+//　　【一日対魔忍】ユフィ＆ソフィ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ソフィ
+「遅いよふうま！」
+<PAUSE>
+<NAME_PLATE>俺
+「遅いぞってお前らなあ……。
+　救援要請するなら場所をちゃんと言えよ」
+<PAUSE>
+<NAME_PLATE>俺
+「“山に淫魔が出た”とだけ言われても、
+　この近くで山じゃない所の方が少ないぞ。
+　おかげで随分探し回ったぜ」
+<PAUSE>
+<NAME_PLATE>ユフィ＆ソフィ
+「てへ」
+「ぺろ」
+<PAUSE>
+<NAME_PLATE>
+　双子は全く悪びれずに舌を出してみせる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0221a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミレイユ
+「対魔忍に見つかったか……
+　面倒くさいわね」
+<PAUSE>
+//　※立ち絵
+//　　【夢の中で】ミレイユ
+//　　　　＊カードイラストより流用
+<ACTOR>1,ts_m177a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「うふふ、大丈夫よミレイユ。
+　この子達もまとめて
+　可愛がってあげればいいだけ」
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「そ、そうですわね！」
+<PAUSE>
+<NAME_PLATE>俺
+「油断するなよみんな。
+　こいつらリリムよりはだいぶ強そうだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミレイユ
+「この子を基準にしないでくれる？！
+　リリムが特別弱いのよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リリムはよほど淫魔の恥であるらしい。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0221a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「あなたがミレイユちゃんね」
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「ちゃ、ちゃん……？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「リリムちゃんから聞いてるわよ、
+　酷い事ばかり言ういじめっ子だって！」
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「い、いじめっ子！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「まあまあミレイユ。
+　ここは私に任せて♪」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「とはいえ対魔忍が三人も増えたんじゃ、
+　多勢に無勢よね。
+　私もちょっと本気出しちゃおうかしら」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t001f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふうま、こんな怪しい人たち、
+　放っておくわけにはいかないぜ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<ACTOR>1,h_t005e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「そうね。
+　やりましょふうまちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳（タコ化＆武器）
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。正直リリムはどうでもいいが、
+　五車のまわりを淫魔がうろついてるのを
+　見逃すわけにはいかないな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「そうこなくっちゃ」
+<PAUSE>
+<NAME_PLATE>
+　淫魔は胸元の筋肉を震わせ、
+蛇子と鹿之助も臨戦態勢になる。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「うふふ。よろしくね可愛い子ちゃんたち。
+　私はアンブローズ。
+　究極の美を追求するインキュバスよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「相州蛇子よ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「上原鹿之助、
+　正義の対魔忍だ！」
+<PAUSE>
+<NAME_PLATE>
+　三人が律儀に名乗りあっている間に、
+俺は脳内で作戦をまとめる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（相手は淫魔、となると
+　精神攻撃を警戒するべきところだが、）
+<PAUSE>
+<NAME_PLATE>俺
+（さっきの双子との戦いを見るに、
+　近接戦闘にもかなり強そうだな。
+　ならば作戦は……）
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「おっと、あなたはこっち♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>
+　後ろからそっと腕を引かれ、
+反射的に振り返ると――
+<PAUSE>
+<NAME_PLATE>俺
+（――しまった！？）
+<PAUSE>
+<ACTOR>0,chr_t0221a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ミレイユがいた。
+ほんの一瞬、無防備にその目を見た瞬間、
+金縛りのように体が動かなくなる。
+<PAUSE>
+<NAME_PLATE>俺
+（これがサキュバスの力か！）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　まるで魅入られたように、
+ミレイユから目が離せない。
+<PAUSE>
+<NAME_PLATE>俺
+（ポンコツのリリムに慣れてたせいで
+　油断したぜ……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm313,1000
+<BG>nc299a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺が静かに魅了されている間、
+蛇子達はユフィとソフィに加勢して、
+アンブローズを攻撃しにかかっていた。
+<PAUSE>
+<ACTOR>0,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「行くわよ！　タコジャーンプ！
+　からの四刀流っ！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　蛇子は周りの木々を利用して次々に跳び、
+アンブローズの斜め上から切りかかる。
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　予測できない方向からの奇襲に、
+アンブローズは避ける余地もない――
+<PAUSE>
+<NAME_PLATE>
+　かと思われたが。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se006
+<NAME_PLATE>蛇子
+「あ、あれっ！？　きゃあっ！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の刃は空を切る。
+<PAUSE>
+<NAME_PLATE>
+　蛇子はバランスを崩し、
+ギリギリで着地したが、タコ足でなければ
+地面に激突して大ケガをしていただろう。
+<PAUSE>
+<ACTOR>0,h_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なんで……！？」
+<PAUSE>
+<ACTOR>0,h_t005d,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m177a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「残念だったわね、こっちよ♪」
+<PAUSE>
+<NAME_PLATE>
+　顔をあげてみれば、少し先の木の間に
+アンブローズはいつの間にか移動していた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「あそこまで避けたっていうの！？
+　アサギ先生並のスピードじゃない！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0222a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソフィ
+「スピードだってお姉ちゃん」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「それなら私達も負けないわねソフィ」
+<PAUSE>
+<NAME_PLATE>
+　それを楽しげに見ていた、
+ユフィ＆ソフィが進み出る。
+<PAUSE>
+<NAME_PLATE>ユフィ
+「じゃあ今度は私達が行くわよソフィ」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「うんお姉ちゃん」
+<PAUSE>
+<NAME_PLATE>ユフィ＆ソフィ
+「「せーの、
+　見よう見まね殺陣華！！！」」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　二人は忍者刀を抜き放つや否や、
+さっと左右に分かれ、高速で走り出す。
+<PAUSE>
+<NAME_PLATE>
+　その速さは残像で二人が八人ほどに
+見えるほどで、
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　二人はアンブローズを取り囲み、
+まるで光が駆け抜けるように、幾筋もの
+突きや斬りをアンブローズに浴びせかけた。
+<PAUSE>
+<BG>nc299a,IN, 1000
+<ACTOR>0,h_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「双子ちゃん凄いわ……！
+　まるで本当の殺陣華みたい！」
+<PAUSE>
+<ACTOR>0,h_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「これならあの人も
+　避けようがないはず……
+　あれっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se050
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どんっ。
+<PAUSE>
+<NAME_PLATE>ユフィ＆ソフィ
+「ぎゃーっ！」
+「あいたっ！？」
+<PAUSE>
+<NAME_PLATE>
+　確かに包囲されていたはずの、
+アンブローズはいつのまにか消え、
+ユフィとソフィは互いに激突して倒れる。
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「言ったでしょ？　私は倒せないって」
+<PAUSE>
+<NAME_PLATE>
+　アンブローズはやはり少し先の場所で、
+それを見て嘲笑いながら見ていた。
+その身には傷一つない。
+<PAUSE>
+<NAME_PLATE>ユフィ
+「おかしいわ、確かに取り囲んだはずなのに」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「幻……？
+　けどお姉ちゃんの感覚を
+　欺けるはずないよね？！」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「どうしたの？　もう降参かしら。
+　許しを請うなら、可愛い子ちゃんたち四人、
+　私のペットにしてあげてもいいけど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0222a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ユフィ
+「ごめんだわ」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「べーっだ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「誰がなるもんですか！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「反抗的なのね♪
+　でもそのくらいのほうが、
+　インキュバスとしてはやりがいがあるわぁ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　双子＆蛇子は、
+ふたたびアンブローズに向かって構えた。
+<PAUSE>
+<NAME_PLATE>
+　その様子をぽかんとした顔で見ていたのは、
+鹿之助である。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,s_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「おい、お前ら何してるんだよ……？」
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「遊んでるのか！？
+　ちゃんと戦えよな！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳＿電気
+<NAME_PLATE>鹿之助
+「なんか作戦があるのかと
+　思って見てたけど……
+　もういい、俺が戦う！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はそう言うと、体に電気を纏う。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「くらえ、バンビーノ・スパーク！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣裳＿小鹿エフェクト
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>0,s_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　電気は小鹿の姿をとり、
+勢いよく駆け出す。
+<PAUSE>
+<NAME_PLATE>
+　一本の木に向かって。
+<PAUSE>
+<ACTOR>0,s_t005e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「鹿之助ちゃんこそ何してるの！？
+　それはただの木よ！？」
+<PAUSE>
+<ACTOR>0,s_t005c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「蛇子こそ何言ってんだよ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<NAME_PLATE>
+　バリバリバリ……
+<PAUSE>
+<NAME_PLATE>
+　小鹿に食い破られた木は、
+次の瞬間、「ぎゃぁぁぁ」と叫び、
+アンブローズの姿に変わった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「えっ！？」
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「ど、どうして！？
+　なんで本当の私を見破ったの？！」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>アンブローズ
+「対魔忍だろうと何だろうと、私の夢から
+　逃れられる女なんていないはず……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>鹿之助
+「女？
+　いや俺男ですけど」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「…………」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「…………」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アンブローズ
+「はあああああ！？
+　うそでしょぉ！？」
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　インキュバスは、
+女に夢を見せる能力を持つ。
+<PAUSE>
+<NAME_PLATE>
+　高位のインキュバスともなれば、
+夢の内容はもちろん、現実との境目まで
+完璧にコントロールできる。
+<PAUSE>
+<NAME_PLATE>
+　そんなアンブローズにとって、
+女相手の戦いなど、
+赤子の手を捻るようなもの。
+<PAUSE>
+<NAME_PLATE>
+　“女相手”なら。
+<PAUSE>
+//【背景：森の中＿昼】【時間：昼】
+//　※先生を孕ませよう_nc001aより流用
+<BG>nc299a,IN, 1000
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>アンブローズ
+「負けたわ」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>アンブローズ
+「あなたみたいな美しい男がいるなんて。
+　人間は奥が深いわね。
+　私もまだまだ勉強不足だわ」
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t001e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「は、はあ、ども……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<NAME_PLATE>
+　アンブローズは両手を上げ、
+潔く負けを認める。
+<PAUSE>
+<NAME_PLATE>
+　電気で焼けた薔薇はところどころ黒くなり、
+焦げた匂いを放っていた。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「だけど次に会う時には負けないわ」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「きっとあなたより美しい男になって、
+　人間界に舞い戻ってみせるんだから」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「えっと、いや、俺そんな……」
+<PAUSE>
+<NAME_PLATE>
+　アンブローズは困惑する鹿之助の手を取り、
+ブンブンと熱烈な握手を交わす。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m177a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>アンブローズ
+「さ、ミレイユ！　帰るわよ！！
+　さっそく魔界で自分磨きしなくちゃ」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「美容院の予約を取ってちょうだい、
+　それと獄炎の女王のところの、
+　溶岩エステもね！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0221a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミレイユ
+「あっ、お待ちください
+　アンブローズ様！！！！」
+<PAUSE>
+//　※立ち絵
+//　　【夢の中で】ミレイユ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミレイユ
+「リリム、今回だけは見逃してあげる！
+　だけど逃げ切れると思わないことね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　こうして鹿之助を一方的にライバルと認め、
+アンブローズとミレイユは
+森の中に消えていった。
+<PAUSE>
+<ACTOR>0,chr_t0222a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユフィ
+「悪い奴じゃなかったみたいね」
+<PAUSE>
+//　※立ち絵
+//　　【一日対魔忍】ユフィ＆ソフィ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ソフィ
+「拳で語り合い、最後は握手で敵を讃える。
+　これぞ男の戦いってやつだね」
+<PAUSE>
+<NAME_PLATE>俺
+（それはなんか、
+　ちょっと違う気もするが……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ri_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「ありがとみんな！
+　おかげでお仕置き部屋は免れたよ。
+　親分は今回なんにもしてないけど！」
+<PAUSE>
+<NAME_PLATE>俺
+「うるさいな！
+　大体お前ら、勝手に五車を出ちゃダメだって
+　言われてるだろ」
+<PAUSE>
+<NAME_PLATE>リリム
+「だって暇なんだもん」
+<PAUSE>
+<NAME_PLATE>俺
+「さくら先生が心配してたぞ」
+<PAUSE>
+<ACTOR>0,ri_t002a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0222a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ソフィ
+「さくら先生が？」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「うーん、
+　さくら先生に心配をかけるのは
+　忍びないわね」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「王子様だしね！」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「ね」
+<PAUSE>
+<NAME_PLATE>俺
+（王子様？）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「あー、やっと見つけたよ！
+　みんな大丈夫！？」
+<PAUSE>
+//　※立ち絵
+//　　【天真影傑】井河さくら
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　噂をすれば、王子様ことさくら先生が
+木の影からにゅっと現れた。
+<PAUSE>
+<NAME_PLATE>
+　双子から連絡を受けたときに、
+さくら先生にも伝えておいたのだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「……って、なんか
+　もう片付いちゃった雰囲気？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい、色々と濃い淫魔でしたけど、
+　鹿之助の大活躍のおかげで撃退できました」
+<PAUSE>
+<ACTOR>0,chr_t0157a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0222a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ソフィ
+「バンビがビリビリ～～って、
+　一撃で倒しちゃった！」
+<PAUSE>
+<NAME_PLATE>さくら
+「へえー！　すごいじゃん！
+　実技ではずっと下から二位だったのに、
+　大成長だね！」
+<PAUSE>
+<NAME_PLATE>
+　さくら先生は目を輝かせて鹿之助を見る。
+生徒の成長がうれしいようだ。
+<PAUSE>
+<NAME_PLATE>
+　実際のところは、
+淫魔が一方的に勘違いしたおかげなのだが、
+<PAUSE>
+<NAME_PLATE>
+　まあ鹿之助の活躍には間違いないし、
+野暮な突っ込みは入れないでおく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリム
+「今回は鹿之助の大勝利だったよね」
+<PAUSE>
+<NAME_PLATE>蛇子
+「よかったわね鹿之助ちゃん！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「……よかねーよ！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の叫びが、
+五車の空高くに吸い込まれていく。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

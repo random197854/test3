@@ -1,0 +1,781 @@
+//☆ストーリー02【Section２】シナリオ
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：NC011a　五車学園＿生徒会室前廊下＿朝】【時間：朝】
+//　※対魔忍アサギZEROの背景NC011aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc005a,IN, 3000
+<NAME_PLATE>
+　ともかく状況がわからないことには、
+どうにもならない。
+<PAUSE>
+<NAME_PLATE>
+　俺は何かを知っているらしい
+アスカを連れて、
+こっそりと授業を抜け出すことにした。
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「えっと、そうね……。
+　何から説明すればいいのかしら……？」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　人の気配のない実習棟の廊下で、
+アスカが困ったように首をかしげている。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよお前、あれだけ思わせぶりに
+　登場して、実は何も知らないのか？」
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「そんなわけないでしょ！
+　ただ……ちょっと色々と事情が複雑で、
+　説明するのが難しいのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「複雑……？　まあ確かに、
+　別の記憶が頭の中に入ってたような、
+　ややこしい感じだったからな……」
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そう、それ――別の記憶。
+　あなたも、気付いたのよね？
+　この世界が、普通じゃないって」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。それは何となく――」
+<PAUSE>
+<NAME_PLATE>
+　俺は肯く。
+<PAUSE>
+<NAME_PLATE>
+　学校中からチヤホヤされ、
+いつもうるさく絡んでくる骸佐も
+ボコボコにできた。
+<PAUSE>
+<NAME_PLATE>
+　正直最高にスカっとしたが……
+明らかに俺が知っている現実とは違っていた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「それは、『幻影の魔女』と呼ばれる女が
+　仕掛けた忍法よ」
+<PAUSE>
+<NAME_PLATE>俺
+「『魔女』……？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そう。『魔女』と呼ばれる対魔忍――」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ま、こいつがどういう奴かは、
+　今の状況とは直接関係ないし、
+　長くなるから割愛するわね」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。わかった」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍が俺達に敵対し、
+術を仕掛けている……？
+<PAUSE>
+<NAME_PLATE>
+　その事実は少し気になったが、
+ともかく今は話の続きを聞こう。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あなたも察したように、
+　この世界は私達がよく知ってる
+　現実の世界じゃない」
+<PAUSE>
+<NAME_PLATE>アスカ
+「仕掛けた相手の欲望や妄想を映し出した、
+　いわば幻の世界――」
+<PAUSE>
+<NAME_PLATE>アスカ
+「つまりこの世界は、
+　あなたの欲望や妄想を具現化した
+　世界ってわけね」
+<PAUSE>
+<NAME_PLATE>俺
+「欲望や妄想が具現化した……？
+　それは、どういう――」
+<PAUSE>
+<NAME_PLATE>
+　と、俺がさらに詳しく話を
+聞こうとした時だった。
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, OUT, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「あ～っ、ふうま！！
+　こんなところにいた！！」
+<PAUSE>
+<NAME_PLATE>俺
+「は？」
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「なにあんた、こんな所でサボり～っ！？
+　授業中いなくなったって聞いたから、
+　探してたんだけど！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ立ち絵
+//　　　＊対魔忍RPGSRゆきかぜカードより流用
+<NAME_PLATE>
+　やってきたのはクラスメイトで俺の天敵、
+水城ゆきかぜだった。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、それは……
+　ちょっと事情があって……」
+<PAUSE>
+<NAME_PLATE>
+　予想外のゆきかぜの登場に、
+つい口ごもってしまった。
+<PAUSE>
+<ACTOR>0,yu_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「はあ？　事情ってなによ？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それは――」
+<PAUSE>
+<NAME_PLATE>俺
+（まずいな……。
+　教師にでも言いつけられたら面倒だぞ）
+<PAUSE>
+<NAME_PLATE>
+　そんなことを考えていると、ゆきかぜは
+じろりと俺の隣のアスカに険しい目を向ける。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「って言うか、この人誰？　他校の人？
+　なにこんな所で二人で
+　こそこそしているのよ」
+<PAUSE>
+<GROUP>
+<ACTOR>1,yu_t001f,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,as_t005d,RIGHT, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t005d,RIGHT, RIGHT, NONE, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「えっ！？　私っ！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そう。あなた何？
+　どうして他校の人がここにいるわけ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あなた、
+　この人と変なことしようとしてたんじゃ
+　ないでしょうね？」
+<PAUSE>
+<NAME_PLATE>
+　五車学園の学生ではないので当然なのだが、
+アスカが着ているのは
+俺も見覚えのない他校の制服だ
+<PAUSE>
+<NAME_PLATE>アスカ
+「いや、えっと……私は、その……転校生？」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>ゆきかぜ
+「転校生……？」
+<PAUSE>
+<ACTOR>0,as_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そ、そう！　ちょっと道に迷っちゃって……
+　それで、この人に職員室の場所を
+　……えへへ」
+<PAUSE>
+<NAME_PLATE>俺
+（ナイス、いい誤魔化しだ！！）
+<PAUSE>
+<NAME_PLATE>
+　これなら俺が授業から
+いなくなったことにも、
+かろうじて言い訳ができる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふ～ん、そういうこと……？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは納得した風に肯きつつも、
+まだ少し疑わしそうな顔で
+アスカを睨んでいる。
+<PAUSE>
+<GROUP>
+<ACTOR>1,yu_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,as_t005a,RIGHT, CENTER, NONE, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+（しかし……おい、アスカ、
+　本当に、これも幻なのか……！？）
+<PAUSE>
+<NAME_PLATE>
+　俺は、ヒソヒソと隣のアスカに耳打ちした。
+<PAUSE>
+<NAME_PLATE>俺
+（顔形も声も、何をどう見ても、
+　本物の水城ゆきかぜなんだが……）
+<PAUSE>
+<ACTOR>0,as_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+（幻よ。本物にしか見えないのは、
+　あんたの中の彼女がそのまま投影されて
+　出てきてるからでしょうね）
+<PAUSE>
+<NAME_PLATE>俺
+（そういうものか……？）
+<PAUSE>
+<NAME_PLATE>アスカ
+（ま、そのうちボロが出てくるから、
+　待っていなさい）
+<PAUSE>
+<NAME_PLATE>アスカ
+（いくら精巧でも、しょせんあなたの
+　妄想から生まれた偽物だしね――）
+<PAUSE>
+<NAME_PLATE>俺
+（俺の妄想……？）
+<PAUSE>
+<NAME_PLATE>アスカ
+（そう。あなたの望みやしたいことが、
+　自然とこの子達の行動に表れるってこと）
+<PAUSE>
+<NAME_PLATE>
+　などと、俺達がヒソヒソと話していると、
+ゆきかぜがふいにぱっと表情を変えた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t005e,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>1,yu_t001e,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「そういうことなら別にいいわ！！
+　そんなことより……ねえ、ふうま？
+　私との約束、忘れてないわよね……？」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？　約束……？」
+<PAUSE>
+<NAME_PLATE>
+　まるで恋する乙女である。
+<PAUSE>
+<NAME_PLATE>
+　さっきまでのツンツンした態度から一変、
+はにかんだ笑顔まで見せ始めているのが、
+妙に不穏だった。
+<PAUSE>
+<ACTOR>1,yu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そうよ♪　今日の放課後、一緒に
+　お勉強しようって約束したでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「勉強っ！？　し、したかな……？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「も～、したわよ。私が期末テスト大変って
+　言ったら、頭の良いあんたが
+　助けてくれるって……」
+<PAUSE>
+<NAME_PLATE>俺
+「へ、へー……？　俺がそんなことを……？」
+<PAUSE>
+<NAME_PLATE>
+　生憎と、そんな記憶はまったくない。
+<PAUSE>
+<ACTOR>1,yu_t001l,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「もちろん、お礼はするわよ？
+　お勉強が終わったら、いつものように
+　二人きりで色々……ふふっ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「い、色々……！？　って、何……？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「えっ？　それは――まあ、色々よ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「もう、バカね。他の人が聞いてる前で、
+　そんなこと言えるわけないでしょ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうだよね……」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはハッキリとは言わないが、
+明らかにエロいことを匂わしている口ぶりだ。
+<PAUSE>
+<GROUP>
+<ACTOR>1,yu_t001l,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,as_t005f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+（あんた、幻にいつも何させてるのよ……？）
+<PAUSE>
+<NAME_PLATE>俺
+（し、知らん！！　覚えがない！！）
+<PAUSE>
+<NAME_PLATE>
+　呆れたような目を向けてくるアスカに
+俺は慌てて首を振った。
+<PAUSE>
+<NAME_PLATE>
+　――俺は恐ろしく混乱した。
+<PAUSE>
+<NAME_PLATE>
+　幻には、俺が覚えているものと、
+覚えていないものがあるのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　ともかく、ゆきかぜと勉強終わりに
+色々とする記憶なんてまったくない。
+<PAUSE>
+<NAME_PLATE>
+　だが、混乱はまだ終わらない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t005f,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,rn_t001f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>秋山凜子
+「待ちたまえ、ゆきかぜ！！
+　ふうま君は、
+　今日は私と約束しているんだぞ！！」
+<PAUSE>
+//　※立ち絵
+//　　凜子立ち絵
+//　　　＊対魔忍RPGローンチSRカードより流用
+<NAME_PLATE>ゆきかぜ
+「むっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「また何か来た！！」
+<PAUSE>
+<NAME_PLATE>
+　そこには、公正な性格と抜群の美貌から
+学内でも人気の高い秋山凜子先輩がいた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,rn_t001f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,yu_t001f,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「なによ、凜子？　何か文句でもあるわけ？」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ立ち絵
+//　　　＊対魔忍RPGSRゆきかぜカードより流用
+<NAME_PLATE>
+　突然現れた凜子先輩の前に、受けて立つ
+とばかりにゆきかぜが立ち塞がる。
+<PAUSE>
+<ACTOR>2,rn_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>凜子
+「ふっ。それはこちらのセリフだな、
+　ゆきかぜ――」
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩が苦笑した。
+<PAUSE>
+<NAME_PLATE>
+　いつも通りの清廉で優雅な佇まいだったが、
+言ってる内容はどこかおかしかった。
+<PAUSE>
+<NAME_PLATE>凜子
+「ふうま君は今日の放課後、
+　私と剣術の稽古をする予定なのだ」
+<PAUSE>
+<NAME_PLATE>凜子
+「それを後から出てきて……まったく、
+　泥棒ネコのような真似は控えて貰おうか」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「なんですって～っ！？」
+<PAUSE>
+<NAME_PLATE>
+　と、二人は険しい視線をぶつけ合っている。
+<PAUSE>
+<NAME_PLATE>アスカ
+（………………）
+<PAUSE>
+<NAME_PLATE>アスカ
+（あなた、こっちの女の人とも？
+　妄想の中で、そういうことを？）
+<PAUSE>
+<NAME_PLATE>俺
+（いやいやいやいやいや！！！
+　知らん！！　知らん！！）
+<PAUSE>
+<NAME_PLATE>
+　どんどんアスカの視線が
+冷たくなっていくのがつらすぎる。
+<PAUSE>
+<NAME_PLATE>
+　ともかく俺は、
+ぶんぶんと首を振って否定した。
+<PAUSE>
+<NAME_PLATE>
+　だが無情にも、さらに続いて――
+<PAUSE>
+<NAME_PLATE>井河さくら
+「違うね！！
+　泥棒ネコはキミの方だよ、凜子ちゃん！！」
+<PAUSE>
+<NAME_PLATE>八津紫
+「そうだ！！　彼の放課後は、
+　私達と生徒会の仕事と決まっている！！」
+<PAUSE>
+<NAME_PLATE>
+　背後から突如として響く二人の声。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「むむっ！？」
+<PAUSE>
+<NAME_PLATE>凜子
+「なにやつ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「また出た！？」
+<PAUSE>
+<NAME_PLATE>
+　俺達一同が振り向くと、そこには――
+<PAUSE>
+<GROUP>
+<ACTOR>1,yu_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,rn_t001e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>3,sa_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「ふふ～ん♪
+　毎度お馴染みさくら先生と――」
+<PAUSE>
+//　※立ち絵
+//　　さくら立ち絵
+//　　　＊対魔忍RPGローンチRさくらカードより流用
+<ACTOR>4,m_t006a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紫
+「紫だ。生徒会顧問として、
+　彼を譲るわけにはいかないな」
+<PAUSE>
+//　※立ち絵
+//　　紫通常立ち絵＿教師衣装
+//　　　＊対魔忍RPGローンチR紫カードより流用
+<NAME_PLATE>
+　井河さくら先生と八津紫先生――
+どちらも学生から
+絶大な人気を誇る美人教師である。
+<PAUSE>
+<GROUP>
+<ACTOR>4,m_t006a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>3,sa_t004a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>2,yu_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なっ、なんですか！？　先生がた、
+　いきなり出てきて、
+　意味わかんないんですけど！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ立ち絵
+//　　　＊対魔忍RPGSRゆきかぜカードより流用
+<NAME_PLATE>
+　突然の闖入者に対し、
+まずゆきかぜが噛みついた。
+<PAUSE>
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「そ、そうだ！！
+　彼の予定が決まっている！？
+　――あり得ない！！」
+<PAUSE>
+//　※立ち絵
+//　　凜子立ち絵
+//　　　＊対魔忍RPGローンチSRカードより流用
+<NAME_PLATE>凜子
+「私の弟の予定を勝手に決めるなんて、
+　教師にあるまじき横暴だっ！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「いや、凜子ちゃん。弟じゃないでしょ」
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩の謎の発言に
+さくら先生がざっくりと突っ込んだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,yu_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<GROUP>
+<ACTOR>4,m_t006a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,sa_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「ともかく、ふうま君は
+　私達と生徒会のお仕事。
+　――そうだよね、紫？」
+<PAUSE>
+<NAME_PLATE>紫
+「その通りだ。二人には申し訳ないが、これは
+　学園全体のための崇高なる職務。決して
+　私情でおろそかにしていいものではない」
+<PAUSE>
+<NAME_PLATE>
+　噛んで含めるように紫先生が言う。
+<PAUSE>
+<NAME_PLATE>
+　語り口も冷静だし、
+言っていることにも筋が通っている。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「む～……」
+<PAUSE>
+<NAME_PLATE>凜子
+「し、しかし……」
+<PAUSE>
+<NAME_PLATE>
+　さすがのゆきかぜと凜子先輩も、
+返す言葉がないという様子で黙り込む。
+<PAUSE>
+<NAME_PLATE>
+　だが――
+<PAUSE>
+<NAME_PLATE>さくら
+「ねえねえ、紫？
+　今日の『オトナのレッスン』どっちが
+　先にする？」
+<PAUSE>
+<NAME_PLATE>さくら
+「私、ふうま君に教えてあげたい
+　とっておきのプレイがあるんだけど～♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫
+「ば、バカっ！！
+　今それを言うな、さくら！！」
+<PAUSE>
+<GROUP>
+<ACTOR>4,m_t006a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>3,sa_t004a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<GROUP>
+<ACTOR>2,yu_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ＆凜子
+「「っ！？」」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんですか、『オトナのレッスン』って！？
+　紫先生、何かいやらしいこと
+　考えてませんか！？」
+<PAUSE>
+<NAME_PLATE>紫
+「い、いや、決してそんなことは……」
+<PAUSE>
+<NAME_PLATE>
+　二人の反撃に、
+今度は紫先生がタジタジとなった。
+<PAUSE>
+<NAME_PLATE>さくら
+「別にいやらしくないよ。
+　ふうま君だって喜んでくれてるし♪」
+<PAUSE>
+<NAME_PLATE>紫
+「だ、だからバカ！！　さくら！！」
+<PAUSE>
+<NAME_PLATE>凜子
+「この……なんたる堕落！！　こんな
+　エロ教師どもに任せるわけにはいかない。
+　断固として弟は私が引き取らせてもらう！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,yu_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　驚くべき光景である。
+<PAUSE>
+<NAME_PLATE>
+　俺を巡って行われる、
+４人の美女による激しい争い――
+<PAUSE>
+<NAME_PLATE>
+　当然、アスカの視線は
+限界を超えた冷たさだ。
+<PAUSE>
+<ACTOR>0,as_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（はぁ……。なんかもう、行ってくれば？
+　私、あんたを助ける気なくなっちゃった）
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+（だから知らんって言ってるだろ
+　おおおおおおおおおおおおおおっ！！）
+<PAUSE>
+<NAME_PLATE>
+　あまりのバカげた状況に俺の混乱は
+深まるばかりである。
+<PAUSE>
+<ACTOR>0,as_t005e,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　しかし、またしてもそこに――
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　なんだ……？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドドドドドドドドド――
+<PAUSE>
+<NAME_PLATE>
+　廊下の向こうから聞こえてくる
+地響きのような足音。
+<PAUSE>
+<GROUP>
+<ACTOR>2,yu_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「ちっ！　奴らに嗅ぎつけられたか」
+<PAUSE>
+<NAME_PLATE>俺
+「奴ら！？　何だあれ！？」
+<PAUSE>
+<NAME_PLATE>
+　足音の主は、
+全てこの五車学園の女子学生のようだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、みんな口々に「ふうま先輩～！！」
+「お館様～！！」と黄色い声を上げている。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あんたも知ってるでしょ？
+　あれは、『ふうま君親衛隊』よ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はああああああっ！？　親衛隊っ！？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,yu_t001e,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<GROUP>
+<ACTOR>4,m_t006a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,sa_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「あちゃ～。手強い相手だね～」
+<PAUSE>
+<NAME_PLATE>紫
+「ああ。ふうま君を愛するあまり
+　己の命すら惜しまない狂気の女達。
+　私達も油断できないな……」
+<PAUSE>
+<NAME_PLATE>
+　厳しい顔で頷き合うさくら先生と紫先生。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよそれ！？
+　なんだよそれええええええっ！？」
+<PAUSE>
+<GROUP>
+<ACTOR>4,m_t006a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>3,sa_t004a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　まったく意味がわからない。
+<PAUSE>
+<NAME_PLATE>
+　困惑のあまり俺はもうパニック状態だった。
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>アスカ
+「あ～、もう付き合ってられないわ！！
+　こんな連中がいたら話もできない！！
+　逃げるわよ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうだな……！！」
+<PAUSE>
+<NAME_PLATE>
+　そんな俺の手を取って、
+アスカが『親衛隊』とは
+反対側に逃げようとする。
+<PAUSE>
+<NAME_PLATE>
+　しかし、女達はそれを見逃さない。
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,yu_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ちょっと、あんた！！
+　どこに行くのよ！？」
+<PAUSE>
+<NAME_PLATE>凜子
+「ふうま君、その女誰なんだっ！？」
+<PAUSE>
+<NAME_PLATE>女子学生たち
+「ふうま先輩～！！」
+「きゃ～！！」
+「待って～っ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドドドドドドドドド――
+<PAUSE>
+<NAME_PLATE>
+　狂気じみた女達の叫びと
+無数の足音が交錯する。
+<PAUSE>
+<GROUP>
+<ACTOR>2,yu_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「うわああああっ！！
+　勘弁してくれえええええええええええ！！」
+<PAUSE>
+<NAME_PLATE>
+　状況はよくわからないが、
+とにかく捕まったらただじゃ済みそうにない。
+<PAUSE>
+<NAME_PLATE>
+　何か根源的な恐怖に駆られ、
+俺は全力で女達から逃げ出した。
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section２-ＭＡＰ画面１へ
+//=================================================================

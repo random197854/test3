@@ -1,0 +1,1386 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿貨物船甲板＿炎上】【時間：夜】
+//　※対魔忍アサギZERO＿nc070bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc302b,IN, 1000
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『――――――』
+<PAUSE>
+//　※立ち絵
+//　　シルバースカル立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<SE_PLAY>se006
+<NAME_PLATE>
+　ヒュン！！　ヒュッヒュッ！！！
+<PAUSE>
+<NAME_PLATE>
+　サイボーグエージェント、
+シルバースカルの両手、そして触手の
+先からジェット水流が射出される。
+<PAUSE>
+//　※レーザーっぽいエフェクト
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「っ！！！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊カードイラスト　心願寺紅01より流用
+<SE_PLAY>se003
+<NAME_PLATE>
+　甲板を走り、放置されたコンテナの
+箱を盾代わりにしながらそれをかわす紅。
+<PAUSE>
+<BG>nc302b,IN, 500
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　シルバースカルが超圧力で
+撃ち出しているのはただの“水”。
+<PAUSE>
+<NAME_PLATE>
+　しかし直撃すれば簡単に人体を貫き、
+皮膚ごと肉を吹き飛ばす凶悪な“水”だ。
+<PAUSE>
+<NAME_PLATE>紅
+（なるほど……。
+　自在に水を操るサイボーグ、
+　奴がこの船の指揮官か）
+<PAUSE>
+<NAME_PLATE>
+　紅は、魔女の館で見つけた資料の
+記述からこの研究船にたどり着いた。
+<PAUSE>
+<NAME_PLATE>
+　そしてその資料には、この敵――
+シルバースカルの記述もあった。
+<PAUSE>
+<NAME_PLATE>紅
+（つまり――）
+<PAUSE>
+<NAME_PLATE>
+　包囲されている子供たちを見て
+とっさに助けに入ったが、
+<PAUSE>
+<NAME_PLATE>
+　この目の前の敵を討つことは
+紅自身の目的にも適う。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「ハアアアアアアアア！！！！」
+<PAUSE>
+<NAME_PLATE>
+　ならば一切容赦する必要は無し。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　紅は射出される“水”をかいくぐると、
+神速の踏み込みで二刀を振るう。
+<PAUSE>
+//　※剣戟エフェクトなど。
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバッ！！　ザシュ！！！
+<PAUSE>
+<BG>nc302b,IN, 500
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『―――！？』
+<PAUSE>
+<NAME_PLATE>
+　二刀が頭部をわずかにかすめ、
+数本の触手が切り落とされた。
+<PAUSE>
+<NAME_PLATE>
+　瞠目して距離を取るシルバースカル。
+<PAUSE>
+<NAME_PLATE>
+　彼の触手や体の大部分は、
+ナノマシンを組み込んだ
+特殊な液体金属で構成されている。
+<PAUSE>
+<NAME_PLATE>
+　撃ち抜かれ、切断されても
+瞬く間に元の形に復元する。
+<PAUSE>
+<NAME_PLATE>
+　そういう機能を持っている。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれが働かない。
+<PAUSE>
+<NAME_PLATE>
+　切断された触手は
+ひくひくと力なく痙攣すると、
+甲板の上で溶けるように消滅した。
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『……………』
+<PAUSE>
+<NAME_PLATE>
+　恐らく、この女の剣には
+何らかの力がある。
+<PAUSE>
+<NAME_PLATE>
+　加えて人間離れした
+異常な身体能力を持っている。
+<PAUSE>
+<NAME_PLATE>
+　シルバースカルは己が恐るべき
+強敵と対峙していることを理解した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「――無駄な抵抗はやめるが良い。
+　私の剣と“眼”に手品は通じない」
+<PAUSE>
+<NAME_PLATE>紅
+「それに、私の従者を
+　センザキの顔役のもとに走らせている。
+　すぐに手勢がやってくる」
+<PAUSE>
+<NAME_PLATE>紅
+「貴様らに逃げ場はない」
+<PAUSE>
+<NAME_PLATE>
+　既に取り巻きの
+サイボーグ兵士たちは片づけた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　残すは目の前の敵、
+シルバースカルのみ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『…………効果が遅いな』
+<PAUSE>
+<NAME_PLATE>紅
+「なに？」
+<PAUSE>
+<NAME_PLATE>
+　ぼそりと陰鬱な呟き。
+<PAUSE>
+<NAME_PLATE>
+　紅の言葉が一切聞こえないように、
+シルバースカルは淡々と独言する。
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『“霧”を撒いて既に１０分』
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『常人であれば既に内臓が腐れているはず。
+　再生力のある魔族の血でも混じっている？』
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『しかし、それも時間の問題だろう』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「貴様、何を言って―――ぐぅっ！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドクン！！！
+<PAUSE>
+<NAME_PLATE>
+　ふいに胸部が引き裂かれるような激痛。
+<PAUSE>
+<NAME_PLATE>
+　ごぼっと熱い塊が喉からこみ上げ、
+紅は大量の血を吐いていた。
+<PAUSE>
+<NAME_PLATE>紅
+「がはっ……！？
+　貴様、なんだこれは……！？」
+<PAUSE>
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『哀しいが、これは決まったこと。
+　お前はここで死ぬ――』
+<PAUSE>
+<NAME_PLATE>紅
+「ぐぅっ！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　繰り出される触手と“水”の攻撃。
+<PAUSE>
+<NAME_PLATE>
+　紅は必死の体捌きでそれをかわす。
+<PAUSE>
+<BG>nc302b,IN, 500
+<NAME_PLATE>紅
+（そ、そうか……“水”だ！！！）
+<PAUSE>
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　シルバースカルは
+水を自在に操る機能を持つ。
+<PAUSE>
+<NAME_PLATE>
+　そして水には幾つかの形態がある。
+個体、液体、気体――つまり“霧”！
+<PAUSE>
+<NAME_PLATE>紅
+（奴は……強力な毒物を霧に変えて
+　私の周囲に漂わせた……！！）
+<PAUSE>
+<NAME_PLATE>
+　さらに、それを気取られぬように
+触手と“水”で盛んに攻撃を仕掛けて
+紅に激しい呼吸を強要した――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>紅
+「ぜっ……絶技・“旋風陣”！！」
+<PAUSE>
+<EV>stv009a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　このままでは毒で内側から殺される。
+<PAUSE>
+<NAME_PLATE>
+　紅は血の塊を吐きながら技を放った。
+<PAUSE>
+<NAME_PLATE>
+　『全てを切り裂く真空の刃』――
+しかしそれは敵を討つためではなく、
+ただ目の前を漂う毒の霧を散らすために。
+<PAUSE>
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオオオ！！！！
+<PAUSE>
+<NAME_PLATE>紅
+「………………………クソっ」
+<PAUSE>
+<BG>nc302b,IN, 500
+<NAME_PLATE>
+　凶悪な毒の霧が晴れる。
+<PAUSE>
+<NAME_PLATE>
+　だが全力で大技を放った紅には
+致命的な隙ができている。
+<PAUSE>
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『―――お前はここで死ぬ。
+　そして俺は逃げた者たちを追う』
+<PAUSE>
+<NAME_PLATE>
+　シルバースカルの無機質な目に
+勝利を確信した陰惨な笑み。
+<PAUSE>
+<NAME_PLATE>
+　紅の眼前に無数の触手――
+“水”の射出孔がずらりと並ぶ。
+<PAUSE>
+<NAME_PLATE>
+　強烈な殺意に背筋が凍り付く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　だが、それが撃ち出される寸前に。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<BGM_STOP>1000
+<NAME_PLATE>エリカ
+「だーれが逃げたってえ！！？
+　――紅！！　目と耳を塞いで！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　カッ！！！
+<PAUSE>
+<NAME_PLATE>
+　轟音と共に真っ白な光が弾けた。
+<PAUSE>
+//【白画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――およそ５分前。
+<PAUSE>
+//【背景：センザキ＿貨物船甲板＿炎上】【時間：夜】
+//　※対魔忍アサギZERO＿nc070bより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc302b,IN, 1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（えぇ……？　なんなの、
+　あの忍者の人とサイボーグ、
+　ヤバすぎるんだけど……！？）
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>
+　死闘を繰り広げる二人から
+１０メートルほど離れた物陰で
+身をひそめる者がいる。
+<PAUSE>
+<NAME_PLATE>
+　女傭兵のエリカであった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　エリカは子供たちを守って
+船の降り口まで送り届け、
+もう安全だと確認したあと、
+<PAUSE>
+<NAME_PLATE>
+　ヤスとミランダに彼らを任せて
+炎上する甲板に戻ってきた。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、助太刀してくれた
+女忍者に加勢するためだ。
+<PAUSE>
+<NAME_PLATE>
+　いや、そのはずだったのだが……
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（これ、うかつに入ると
+　こっちが一番先に死ぬやつね……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　二刀と触手、ジェット水流が
+乱れ飛ぶ壮絶な戦いだ。
+<PAUSE>
+<NAME_PLATE>
+　エリカも腕に覚えがある方だが、
+さすがにあれはレベルが違う。
+<PAUSE>
+<NAME_PLATE>
+　下手に加勢すると足を引っ張る
+恐れさえある。
+<PAUSE>
+<NAME_PLATE>
+　ではどうするか？
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（まっ、知恵と工夫で何とかしようかね！）
+<PAUSE>
+<NAME_PLATE>
+　エリカは不敵ににやりと笑う。
+<PAUSE>
+<NAME_PLATE>
+　そのための“仕込み”も済んでいる。
+<PAUSE>
+<NAME_PLATE>
+　闇の街で蠢くバケモノのような連中を、
+知恵と工夫でやりこめる。
+<PAUSE>
+<NAME_PLATE>
+　それくらいじゃないと
+傭兵なんて務まらない。
+<PAUSE>
+<NAME_PLATE>エリカ
+（ただ、それには……）
+<PAUSE>
+<NAME_PLATE>
+　もう少しだけ、あの女忍者に
+頑張ってもらわないといけないだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　チャンスは一回だけ。
+<PAUSE>
+<NAME_PLATE>
+　彼女は劣勢。
+<PAUSE>
+<NAME_PLATE>
+　だが今はエリカは加勢しない。
+<PAUSE>
+<NAME_PLATE>
+　捕食者は、獲物に牙を突き立てる
+瞬間が一番無防備だ。
+<PAUSE>
+<NAME_PLATE>
+　奴が勝利を確信し、
+慢心した時に勝機は生まれる。
+<PAUSE>
+<NAME_PLATE>
+　――彼女が死んでいなければ。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（……死なないでね、心願寺紅ちゃん）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　エリカはぎりっと奥歯を噛んで
+戦いの趨勢を見守った。
+<PAUSE>
+//【白画面】
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――現在。
+<PAUSE>
+//【背景：センザキ＿貨物船甲板＿炎上】【時間：夜】
+//　※対魔忍アサギZERO＿nc070bより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc302b,IN, 1000
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>シルバースカル
+『！！！？！！？！？！？』
+<PAUSE>
+//　※立ち絵
+//　　シルバースカル立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　シルバースカルが硬直する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　閃光手榴弾だ。
+<PAUSE>
+<NAME_PLATE>
+　エリカの傭兵七つ道具のひとつ。
+<PAUSE>
+<NAME_PLATE>
+　そう強い威力ではないが、
+勝利を確信していたサイボーグの
+完全に虚を突いた。
+<PAUSE>
+<NAME_PLATE>
+　数秒は動きを止められる。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「それから――行け、
+　ツイン・サキュラーソー！！！」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ヒュン！！　ヒュンヒュン！！！
+<PAUSE>
+<NAME_PLATE>
+　ドローン仕掛けの円盤ノコギリが
+宙を滑ってサイボーグを襲う。
+<PAUSE>
+<NAME_PLATE>
+　だが再生能力のあるシルバースカルに
+通常の刃は効果がない。
+<PAUSE>
+<NAME_PLATE>
+　それは知っている。
+<PAUSE>
+<BG>nc302b,IN, 1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（だから、私の狙いは
+　こいつのはらわたよっ！）
+<PAUSE>
+<NAME_PLATE>
+　それがエリカの“仕掛け”。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　円盤ドローンには細い鋼線が
+取り付けられている。
+<PAUSE>
+<NAME_PLATE>
+　エリカはドローンを操作し、
+それをぐるぐるとサイボーグの体に
+巻きつけるような形にする。
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『――――！！？』
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「準備万端！！！
+　痺れろイカれサイボーグ野郎！！」
+<PAUSE>
+<NAME_PLATE>
+　瞬間。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ジジジジジジジジジジジジ！！
+<PAUSE>
+//　※点滅など電撃っぽい演出お願いします。
+<NAME_PLATE>シルバースカル
+『ガアアアアアアアアアアアアアア
+　アアアア！！！！？』
+<PAUSE>
+<NAME_PLATE>
+　鋼線の巻き付いたサイボーグの体に
+青白い光が乱舞した。
+<PAUSE>
+<NAME_PLATE>
+　――電撃。
+<PAUSE>
+<NAME_PLATE>
+　即席のスタンガンだ。
+<PAUSE>
+<NAME_PLATE>
+　シルバースカルのはらわた――
+体を構成する液体金属を狙って。
+<PAUSE>
+<NAME_PLATE>
+　そのためにエリカは研究室に
+備え付けられていた高出力テーザー銃を
+回収・分解し、
+<PAUSE>
+<NAME_PLATE>
+　自分の円盤ドローンと組み合わせて
+遠隔攻撃用の即席スタンガンを作っていた。
+<PAUSE>
+<BG>nc302b,IN, 500
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「―――あとはあんたに任せた！！
+　あんたならこいつを切れるんでしょ紅！！」
+<PAUSE>
+<NAME_PLATE>
+　エリカは見ていた。
+<PAUSE>
+<NAME_PLATE>
+　紅の二刀が再生能力があるはずの
+シルバースカルの触手を切断するところを。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「―――任せておけ！！
+　この敵は私の剣が地獄に叩き込む！！！
+　ハアアアアアアアアアア！！！！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊カードイラスト　心願寺紅01より流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　全身で暴れ狂う激痛を魔力で抑え込み、
+紅は強引に立ち上がって前に出る。
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『ぐぅおぉおおおおおっ！！
+　おまえはここでええええええええ
+　ええええええええええっ！！！！』
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイイインッッ！！！
+<PAUSE>
+//　　※斬撃エフェクトなど。
+<NAME_PLATE>
+　ただ一閃。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれは“神眼”に導かれた
+魔性の刃であり――。
+<PAUSE>
+<BG>nc302b,IN, 500
+<NAME_PLATE>シルバースカル
+『あがっ！？　あっ……ああ……』
+<PAUSE>
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「ここで死ぬのは、
+　お前だったようだなサイボーグ」
+<PAUSE>
+<NAME_PLATE>
+　轟音を立てて炎上する甲板上で。
+<PAUSE>
+<NAME_PLATE>
+　存在そのものを断ち切られた
+シルバースカルの体が崩れ落ちていった。
+<PAUSE>
+//【黒画面】
+//【背景：センザキ＿倉庫地区＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc009cより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc130b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　センザキ港湾地区・倉庫街。
+<PAUSE>
+<NAME_PLATE>
+　子供たちを無事に逃がしたヤスは、
+エリカが帰還するのをここで待っていた。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,ts_m126b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヤス
+「ややっ！？　エリカの姉御、
+　それに対魔忍の姐さんも――
+　ご無事だったんすね！！？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,kn_t008i,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エリカ
+「お、おう……。
+　ご無事というか、微妙に
+　ご無事でもないというか……」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>紅
+「う、うむ……」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>ヤス
+「あれれ？
+　お二人ともどうしたので？」
+<PAUSE>
+<NAME_PLATE>
+　向こうからやってきたのは、
+微妙にぐったりしたエリカと紅。
+<PAUSE>
+<NAME_PLATE>
+　だけでなく、なぜか全身が
+ぐっしょり濡れていた。
+<PAUSE>
+<NAME_PLATE>エリカ
+「これは……まさかのことって言うか、
+　紅が泳げないとか言い出すから」
+<PAUSE>
+<ACTOR>0,kn_t008j,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紅
+「うぐっ！？　め、面目ない……」
+<PAUSE>
+<NAME_PLATE>ヤス
+「は、はあ？」
+<PAUSE>
+<NAME_PLATE>
+　まったくわからないという顔のヤス。
+<PAUSE>
+<NAME_PLATE>エリカ
+「いや、あの船を脱出する時のことね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　とエリカがヤスに説明する。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　強敵シルバースカルを倒したあと。
+<PAUSE>
+<NAME_PLATE>
+　エリカと紅は、自分たちが完全に
+火に巻かれていることに気が付いた。
+<PAUSE>
+<NAME_PLATE>
+　炎上が激しすぎたのだ。
+<PAUSE>
+<NAME_PLATE>
+　ここまで大量の爆弾を仕掛けた
+つもりはなかったのだが、
+船が老朽化していたのだろうか？
+<PAUSE>
+<NAME_PLATE>
+　ともあれ、これでは甲板を走って
+降り口まで戻ることはできない。
+<PAUSE>
+<NAME_PLATE>
+　おまけに船は大きく傾き、
+いまにも沈没しそうな気配すらある。
+<PAUSE>
+<NAME_PLATE>
+　一刻の猶予もない。
+<PAUSE>
+<BG>nc130b,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エリカ
+「ということで、海に飛び込んで
+　逃げることにしたんだけど……」
+<PAUSE>
+<NAME_PLATE>ヤス
+「あっ！　それで……
+　泳げなかったんすね紅さん」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,kn_t008g,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紅
+「いや……申し訳ない……。
+　なぜか昔から海や川が苦手で……」
+<PAUSE>
+//　※注　吸血鬼は川や海を渡れない的な伝承から紅は海や川が苦手設定
+<NAME_PLATE>
+　結局、紅はエリカに思い切りしがみつき。
+<PAUSE>
+<NAME_PLATE>
+　ジタバタと二人で溺れそうになりながら、
+なんとか岸までたどり着いたのだという。
+<PAUSE>
+<NAME_PLATE>紅
+「うう、穴でも掘って埋まりたい気分だ……」
+<PAUSE>
+<NAME_PLATE>エリカ
+「ぷぷっ」
+<PAUSE>
+<NAME_PLATE>
+　濡れた室内犬のようにしょんぼりしている
+紅を見てエリカがにやっと笑う。
+<PAUSE>
+<NAME_PLATE>
+　あれだけ強くて一見クールな印象なのに、
+この子には妙に情けないところがある。
+<PAUSE>
+<NAME_PLATE>
+　そこが何とも可愛らしくて、
+エリカは紅が一発で好きになった。
+<PAUSE>
+<NAME_PLATE>エリカ
+「まー、それはお互い様だって！！
+　私らだって最初に助けてもらったし！
+　あれがなかったら実際ヤバかった」
+<PAUSE>
+<NAME_PLATE>エリカ
+「それに、ピンチの時に助け合うのが
+　“友達”ってやつだからね♪」
+<PAUSE>
+<ACTOR>0,kn_t008d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紅
+「と、友達……？」
+<PAUSE>
+<NAME_PLATE>
+　紅が不思議そうな顔をする。
+<PAUSE>
+<NAME_PLATE>
+　友達も何も、エリカと紅は
+さっき甲板の上で会ったばっかりだ。
+<PAUSE>
+<NAME_PLATE>エリカ
+「そうよ？　一緒に協力バトルして
+　ヤバい敵をやっつけたんだからね。
+　もう友達以外にないっしょ！」
+<PAUSE>
+<NAME_PLATE>エリカ
+「――私は傭兵のエリカ！！！
+　改めて、よろしくね紅♪」
+<PAUSE>
+<NAME_PLATE>紅
+「あっ……」
+<PAUSE>
+<NAME_PLATE>
+　ここでようやく名前を聞いて
+いなかったことに気づいたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと頬を赤くした紅が
+おずおずとエリカに手を差し出した。
+<PAUSE>
+<ACTOR>0,kn_t008j,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紅
+「う、うん……。よろしくエリカ、
+　じゃあ友達ということで……」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヤス
+「あー。いいんすか紅さん？
+　仲良くなった途端、いろいろ
+　無茶言ってきますよこの人」
+<PAUSE>
+<NAME_PLATE>エリカ
+「うるさいわねー。
+　あんたは余計なこと言わないの！」
+<PAUSE>
+<NAME_PLATE>エリカ
+「――ってそういえばヤス、
+　ミランダは？　トイレとか？」
+<PAUSE>
+<NAME_PLATE>
+　ふと気付いてエリカが辺りを見回す。
+<PAUSE>
+<NAME_PLATE>
+　研究船潜入に同行してくれた
+奇妙な少女ミランダの姿がなかった。
+<PAUSE>
+<NAME_PLATE>ヤス
+「ああ、ミランダさんなら
+　もう帰ったっす」
+<PAUSE>
+<NAME_PLATE>エリカ
+「えっ？　そうなの――」
+<PAUSE>
+<NAME_PLATE>
+　ヤスがあっさりと言った。
+<PAUSE>
+<NAME_PLATE>ヤス
+「はい。お二人が戻ってくる前、
+　子供たちをおやっさんの
+　店に預けに行ったんすけど――」
+<PAUSE>
+<NAME_PLATE>
+　センザキには“名物”と呼ばれる
+食堂があり、エリカやヤス、銃兵衛も
+その店主には世話になっている。
+<PAUSE>
+<NAME_PLATE>ヤス
+「その時に、
+　『用事はもう済んだから』って」
+<PAUSE>
+<NAME_PLATE>ヤス
+「『手伝ってくれてありがとう』
+　とも言ってたっす」
+<PAUSE>
+<NAME_PLATE>ヤス
+「『そのうち改めてお礼に行く。
+　楽しみにしててください』って」
+<PAUSE>
+<NAME_PLATE>エリカ
+「そ、そうなんだ……？
+　まあそれなら良いんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　でも少し申し訳なかったな――
+とエリカは考える。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　彼女に“何か違和感がある”と疑ったこと。
+<PAUSE>
+<NAME_PLATE>
+　結局ミランダは、最後まで
+子供たちのために動いてくれた。
+<PAUSE>
+<NAME_PLATE>
+　変に疑ったりしないで、
+もっとちゃんと話せばよかった――。
+<PAUSE>
+//　※演出　この辺りでＢＧＭを徐々に無音にする、もしくは疑惑風ＢＧＭに変わるなど状況が一変した感をお願いします。
+<BGM_PLAY>bgm206,1000
+<ACTOR>0,kn_t008e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紅
+「……ミランダというのだな、彼女は」
+<PAUSE>
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「紅？」
+<PAUSE>
+<NAME_PLATE>
+　紅の表情が変わっていた。
+<PAUSE>
+<NAME_PLATE>
+　何か腑に落ちないというひどく硬い表情。
+<PAUSE>
+<NAME_PLATE>紅
+「ミランダ・クローゼット。
+　クローゼット商会ボスの一人娘。
+　……合っているか？」
+<PAUSE>
+<NAME_PLATE>紅
+「いや、甲板上でちらりと見た時も、
+　もしやとは思っていたのだが……」
+<PAUSE>
+<NAME_PLATE>エリカ
+「ええ、そうよ。
+　紅も彼女を知ってたの？」
+<PAUSE>
+<NAME_PLATE>エリカ
+「まあ、裏社会の人間なら、
+　ボスの娘の顔くらい知ってるかも――」
+<PAUSE>
+<NAME_PLATE>紅
+「――違う。私は今夜、
+　彼女の写真をある場所で見た」
+<PAUSE>
+<NAME_PLATE>紅
+「ある魔女の隠し部屋――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　事件に関わっていたと目される魔女。
+<PAUSE>
+<NAME_PLATE>
+　そこで得た情報をもとにして、
+紅はあの研究船にたどり着いた。
+<PAUSE>
+<ACTOR>0,kn_t008e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「そこにあった“素体”のリストに、
+　彼女の名前と写真があった」
+<PAUSE>
+<NAME_PLATE>紅
+「彼女――ミランダ・クローゼットは、
+　一週間前に“素体”として処理された、
+　そう資料では報告されている」
+<PAUSE>
+<NAME_PLATE>エリカ
+「えっ？」
+<PAUSE>
+<NAME_PLATE>ヤス
+「そ、素体っていうと……」
+<PAUSE>
+<NAME_PLATE>
+　二人の表情が凍りついた。
+<PAUSE>
+<NAME_PLATE>
+　もしそれが事実とするならば。
+<PAUSE>
+<NAME_PLATE>紅
+「――彼女は一週間前、
+　実験素材にされて死んでいる」
+<PAUSE>
+<NAME_PLATE>紅
+「ならば君たちは今日、一体、
+　“誰”と行動していたんだ……？」
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――――――――
+<PAUSE>
+//【背景：センザキ＿路地裏２＿昼】【時間：昼】
+//　※監獄戦艦3_nc013aより流用
+<BG>nc303a,IN, 1000
+<NAME_PLATE>
+　数日後。
+<PAUSE>
+<NAME_PLATE>
+　路地裏を這いつくばり逃げる男がいた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>男
+「ひいいいいいいいっ！？？」
+<PAUSE>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「待ちなよカールの旦那。
+　あんたの態度次第でこっちも
+　悪いようにはしねえからよ」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　それを追うのは金崎銃兵衛。
+<PAUSE>
+<NAME_PLATE>
+　そして顔を引きつらせて逃走しているのは、
+港湾地区のボス、カール・クローゼット。
+<PAUSE>
+<NAME_PLATE>
+　米連・特務機関Ｇと秘密取引をして
+センザキの子供たちを
+売り渡した“裏切り者”。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　半月前――ちょうどあの貨物船炎上の
+一週間前から行方をくらましていたこの男を、
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛は独自の情報網を使って探し当てた。
+<PAUSE>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「まあ、筋から言えば、
+　あんたはここで死ぬことになる」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「他のボス連中も揃って承認した。
+　センザキを売ったあんたは、
+　もう俺たちの敵――」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「この街の“ルール”には守られない」
+<PAUSE>
+<NAME_PLATE>
+　ひいぃ！！　と男が悲鳴を上げる。
+<PAUSE>
+<SE_PLAY>se001
+<NAME_PLATE>
+　銃兵衛にケツを蹴り上げられ、
+ゴミ溜めに頭から突っ込んだのだ。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「……ただ、あんたの態度次第で、
+　それも考えてやっていい」
+<PAUSE>
+<NAME_PLATE>男
+「ど、どういうことだ……？」
+<PAUSE>
+<NAME_PLATE>
+　男が弱々しく声を漏らす。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛はその首もとにピタリと
+クナイの刃を押し当てている。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「話しなよ、旦那。
+　あんたの知ってることを」
+<PAUSE>
+<NAME_PLATE>男
+「………………………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　霧の夜の連続失踪事件。
+<PAUSE>
+<NAME_PLATE>
+　船の沈没によって表社会での追及は
+有耶無耶になったが、
+<PAUSE>
+<NAME_PLATE>
+　その元凶がこのカールとＧであることは
+裏の人間なら誰でも知っている。
+<PAUSE>
+<NAME_PLATE>
+　そういう形で事件は落着した。
+<PAUSE>
+<NAME_PLATE>
+　だが本当にそれだけなのか？
+<PAUSE>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「……俺ァ、
+　少しばかり納得が行かねえんだ」
+<PAUSE>
+<NAME_PLATE>
+　根拠は二つ。
+<PAUSE>
+<NAME_PLATE>
+　信頼できる友人二人が証言した、
+“死んだはずの少女”の謎。
+<PAUSE>
+<NAME_PLATE>
+　調べてみると彼女は、表の記録では
+一か月前に行方不明となっていた。
+<PAUSE>
+<NAME_PLATE>
+　そして、街から消えた子供の数が
+合わないこと。
+<PAUSE>
+<NAME_PLATE>男
+「こ、こどもの……」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「ああ。俺のダチが手に入れたリストと、
+　出てきた死体の数が一致しねえ」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「船の爆発で海に流された――
+　なんて話になってるが、
+　俺ァ納得できねえな」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「恐らく、あの船に行く前に闇に消えた
+　“素体”ってやつが幾つかある」
+<PAUSE>
+<NAME_PLATE>男
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　だから銃兵衛は考えた。
+<PAUSE>
+<NAME_PLATE>
+　この件にはもう一枚裏がある、と。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「もし、この件でまだ裏に隠れて
+　ニタニタ笑ってる奴がいるとすれば、
+　そいつは俺とセンザキの敵だ」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「俺はケジメを取らなけりゃならねえ」
+<PAUSE>
+<NAME_PLATE>男
+「は、話せば……
+　私を守ってくれるのか……？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「あ？」
+<PAUSE>
+<NAME_PLATE>
+　奇妙な物言いだった。
+<PAUSE>
+<NAME_PLATE>
+「殺さないでくれ」ならわかる、
+しかし「守ってくれ」？
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>男
+「！！？　い、いや違う！　嘘だ！！
+　私はなにも話したりしない！！！」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「お、おい？　旦那、
+　いきなりどうした――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　突然の絶叫。
+<PAUSE>
+<NAME_PLATE>
+　恐怖に目を見開いて銃兵衛を――
+<PAUSE>
+<NAME_PLATE>
+　いや、男の目は銃兵衛を通り越して
+路地裏の奥の闇に向けられている。
+<PAUSE>
+<NAME_PLATE>男
+「そ、そうだ、私は裏切らない！！
+　信じてくれ！！　だから私は、
+　“きみたち”に娘まで差し出し――」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パアアアアアアアン！！！！
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「！！？！！？」
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛の目の前で、
+男の頭部がズタズタに吹っ飛んでいた。
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc303a,IN, 1000
+<NAME_PLATE>
+　とっさに飛び退き、
+拳銃を構えて周囲を見回す。
+<PAUSE>
+<NAME_PLATE>
+　だが路地裏の奥には誰の姿もない。
+<PAUSE>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「…………………………………」
+<PAUSE>
+<NAME_PLATE>
+　狙撃？　いや、違う――。
+<PAUSE>
+<NAME_PLATE>
+　頭部に穿たれた破壊の形状から
+明らかにそう偽装されているが、
+<PAUSE>
+<NAME_PLATE>
+　ほんの一瞬、銃兵衛の目は
+確かに“それ”を捉えていた。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛が脅しのために男の首もとに
+押し当てていたクナイ。
+<PAUSE>
+<NAME_PLATE>
+　それが突如ぐにゃりと“変形”し、
+男の頭部を破壊すると同時に元通りの
+形に戻る異常すぎる光景を。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「クク……。こりゃあ、
+　愉快なことになってきたぜ」
+<PAUSE>
+//【黒画面】
+//【背景：東京＿新内閣府庁ビル＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC053bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc159a,IN, 1000
+<UI_DISP>ON, 0
+//nc159a
+<NAME_PLATE>
+　新内閣府庁ビル。
+<PAUSE>
+//【背景：NC054a　東京＿新内閣府庁ビル＿内調司令室＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC054aより流用
+//nc160a
+<BGM_PLAY>bgm206,1000
+<BG>nc160a,IN, 1000
+<NAME_PLATE>
+　内調司令室。深夜。
+<PAUSE>
+<ACTOR>0,ts_m099a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>峰舟子
+「――後始末は済んだようね」
+<PAUSE>
+//　※立ち絵
+//　　峰舟子立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>？？？
+「ええ。すべて予定通りに」
+<PAUSE>
+<NAME_PLATE>？？？
+「船は沈み、事情を知る者は死んだ。
+　いい目撃者も用意できた」
+<PAUSE>
+<NAME_PLATE>？？？
+「今回センザキで起こった事件は全て、
+　マヌケなＧの仕業という事になりましたわ」
+<PAUSE>
+//　※立ち絵なし
+//　※注　最後のオチのところまでミランダ立ち絵は表示させない感じでお願いします。
+//　※注　また名前は最後まで「？？？」のままでお願いします。
+<NAME_PLATE>
+　内閣情報調査局長・峰舟子のつぶやきに
+楽しげな少女の声が答える。
+<PAUSE>
+<NAME_PLATE>
+　姿は見えない。
+<PAUSE>
+<NAME_PLATE>
+　ただ部屋の暗がりに
+柔らかく微笑む口元だけが見える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m101a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナイトウ
+「そうか。ご苦労だった――
+　とは言わんぞ」
+<PAUSE>
+//　※立ち絵
+//　　ナイトウ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>ナイトウ
+「もとより、貴様がその悪趣味な義体を
+　選んだことから生じたトラブルだ」
+<PAUSE>
+<NAME_PLATE>
+　峰の腹心・内藤荒比古。
+<PAUSE>
+<NAME_PLATE>
+　苛立ちと嫌悪の篭った視線を少女に投げる。
+<PAUSE>
+<NAME_PLATE>？？？
+「あら？　それはお互い様では？」
+<PAUSE>
+<NAME_PLATE>？？？
+「そちらの局長さんの
+　サイボーグボディだって、
+　本当は、私と負けず劣らず悪趣味な――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナイトウ
+「き、貴様！！？
+　局長を愚弄するか！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m099a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>峰舟子
+「―――やめなさい」
+<PAUSE>
+<NAME_PLATE>
+　峰が静かに制止した。
+<PAUSE>
+<NAME_PLATE>
+　このような口論のために“彼”に
+新たな体を与えてやったわけではない。
+<PAUSE>
+<NAME_PLATE>峰舟子
+「私が、あなたに期待していること――
+　わかっているわね？」
+<PAUSE>
+<NAME_PLATE>？？？
+「うふ、もちろん♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　少女が嗤った。
+<PAUSE>
+<NAME_PLATE>
+　闇の中にサイボーグ強化された
+邪眼を禍々しく輝かせて。
+<PAUSE>
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「私も彼らには恨みがありますし――
+　しっかり“お礼”をしますわ♪」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵＿邪眼露出差分。
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//→Section５終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

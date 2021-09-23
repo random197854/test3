@@ -1,0 +1,442 @@
+//☆第7章【Section５】シナリオ部分
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：黒画面】
+<NAME_PLATE>
+　傭兵たちの何人かが怪我で離脱したものの、
+ドローンたちの囲みを突破することに成功し、
+トラックは無事に東京キングダムを脱出。
+<PAUSE>
+<NAME_PLATE>
+　しばらく走ると、ひと気のない駐車場で
+ゆっくりと停車する。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<BG>nc069a,IN, 1000
+//【背景：都内某所＿ヒラジマ所有の研究施設の入り口前広場＿夜】【時間：夜】
+<GROUP>
+<ACTOR>0,ts_m051a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「ここは……？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>俺
+「目的地に着いたみたいだな」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「ゴ苦労ダッタ。
+　ココハ安全地帯ダ、警戒ハ解除シテヨイ。
+　貴様ラノ任務ハココデ終了トナル」
+<PAUSE>
+//　※立ち絵
+//　　ファウスト＿汎用立ち絵
+<ACTOR>1,ws_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「やった！　任務完了だよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ」
+<PAUSE>
+<NAME_PLATE>
+　その言葉に傭兵たちの力は抜けて、
+互いに「お疲れさん」「飲みにいくか」などと
+声をかけあっている。
+<PAUSE>
+<NAME_PLATE>ファウスト
+「マダ解散ハスルナ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「……ぷ、ぷふっ」
+<PAUSE>
+<NAME_PLATE>俺
+「さくら？　何がおかしいんだ？」
+<PAUSE>
+<NAME_PLATE>
+　さくらは何やら口を押さえ、
+必死に笑いをこらえている。
+<PAUSE>
+<NAME_PLATE>さくら
+「だってあの人、キャラづくりしてるんだよ。
+　ほんとはふつうに喋れるのに、
+　機械っぽい喋り方してるんだって！　ぷふ」
+<PAUSE>
+<NAME_PLATE>
+　必死に笑いをこらえるさくらの横で、
+俺は目的地らしき研究施設を見つめる。
+<PAUSE>
+<NAME_PLATE>俺
+（ここは……確か……）
+<PAUSE>
+<NAME_PLATE>さくら
+「ちょっと、面白くないの？！
+　キャラづくりだよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、『やっぱり』と思ってな」
+<PAUSE>
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「へ……？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m051a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　『やっぱり』とは、この目的地のこと。
+そしてずっと感じている、仕事自体への
+違和感のことである。
+<PAUSE>
+<NAME_PLATE>
+　目的地であるこの研究施設は、
+ノマドと関係が噂されている企業のもの、
+<PAUSE>
+<NAME_PLATE>
+　……などではまったくない。
+<PAUSE>
+<NAME_PLATE>
+　裏ではどうだか知らないが、少なくとも、
+赤ん坊のオムツを製造する企業が、
+あの“荷物”を欲するとは思えない。
+<PAUSE>
+<NAME_PLATE>俺
+（だからこそ、隠れ蓑にして裏に巨大な
+　闇組織があるなんて可能性も、
+　ないわけではない……が、恐らく違う）
+<PAUSE>
+<NAME_PLATE>俺
+「これは直感だが、
+　“荷物”を運ぶ目的地が、
+　ここではないとしたら」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、むしろ――
+　そもそも、この“荷物”を運ぶことが、
+　目的ではないとしたら？」
+<PAUSE>
+<NAME_PLATE>さくら
+「えっ、ふうま君、それって……」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m051a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ファウスト
+「貴様ラ、
+　何ヲヒソヒソト話シテイル？」
+<PAUSE>
+//　※立ち絵
+//　　ファウスト＿汎用立ち絵
+//　＊モンスターイラストから流用
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「う、うわっ！　ファウストさん！」
+<PAUSE>
+<ACTOR>1,ws_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「もー、いまさらキャラ作らなくっても
+　いいですよう！　やだなー！！！」
+<PAUSE>
+<NAME_PLATE>
+　誤魔化しのつもりなのか、
+ファウストの肩をばんばん叩くさくら。
+見ているこっちがヒヤヒヤする。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、仕事が終わりなら、
+　やっと報酬が貰えると、
+　話していただけだ！」
+<PAUSE>
+<NAME_PLATE>さくら
+「そうそう報酬！！
+　豪華ディナーどこに行こうかなーって」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「報酬か。そうだな。
+　報酬をやらんとな……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うお！？　普通に喋った！？」
+<PAUSE>
+<ACTOR>1,ws_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「だからさっきいったじゃん！」
+<PAUSE>
+<NAME_PLATE>
+　『報酬』の言葉を聞きつけて、
+他の傭兵たちもこちらへ集まってくる。
+<PAUSE>
+<NAME_PLATE>傭兵達
+「お、報酬か！」
+<PAUSE>
+<NAME_PLATE>傭兵達
+「お楽しみの時間だぜ！」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「そう急くな……
+　心配せずともちゃんとくれてやる」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「まずはお前からだ」
+<PAUSE>
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺に向けられたのは札束――ではなく、
+改造大型拳銃の銃口。
+<PAUSE>
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ちょっと！？　いきなり何のつもり！？」
+<PAUSE>
+<NAME_PLATE>傭兵
+「おいおい！　何だ！？」
+<PAUSE>
+<NAME_PLATE>傭兵
+「どうした、
+　小僧どもが何かしたのか？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m051a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ts_m052a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウストの部下
+「動くな傭兵ども！！」
+<PAUSE>
+//　※立ち絵
+//　　ダークガード＿汎用立ち絵
+<NAME_PLATE>傭兵達
+「うっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　気づけば、傭兵たちの後ろから、
+ファウスト直属の部下たちが銃を向けている。
+<PAUSE>
+<ACTOR>0,ts_m052a,CENTER, CENTER, OUT, linear, 500
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+「依頼主からの命令でな。
+　この“荷物”の届け先を、
+　知られたくないそうだ」
+<PAUSE>
+<NAME_PLATE>俺
+「口封じってわけか……」
+<PAUSE>
+<NAME_PLATE>
+　急転した事態に傭兵達は殺気立つが、
+ファウスト直属の部下に銃を向けられ、
+身動きはとれない。
+<PAUSE>
+<NAME_PLATE>俺
+（寄せ集めの傭兵どもは、
+　誰一人生かして帰さないってか……畜生！）
+<PAUSE>
+<NAME_PLATE>ファウスト
+「金は約束通り渡すさ。
+　お前たちは欲に目が眩んで、
+　仲間割れをする事になっている」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど、確かにそうなっても、
+　誰も疑いっこない連中だがな」
+<PAUSE>
+<NAME_PLATE>
+　俺は辺りの傭兵たちの顔を見渡す。
+<PAUSE>
+<NAME_PLATE>ファウスト
+「さらばだ小僧」
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　ファウストの黒い指が、
+大型拳銃の引き金にかかる。
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ふうま君ッ！？」
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, OUT, linear, 500
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿対魔忍衣装
+<NAME_PLATE>
+　さくらが俺を庇って飛び出そうとする。
+が、それより早く――
+<PAUSE>
+<SE_PLAY>se036
+<NAME_PLATE>
+　バンッ！！！！
+<PAUSE>
+<NAME_PLATE>ファウスト
+「――ングッ！？」
+<PAUSE>
+<NAME_PLATE>
+　ファウストの身体が跳ね、
+痛みの呻きが上がる。
+<PAUSE>
+<NAME_PLATE>さくら
+「えっ！？　何っ！？」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「私が……撃たれた……？
+　一体誰に……」
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「ガハハハ！！
+　危ないとこだったな兄ちゃんよ！」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+<NAME_PLATE>さくら
+「おじさんっ！？」
+<PAUSE>
+<NAME_PLATE>
+　背後の茂みから、さくらを褒めていた、
+あの気の良いオークの傭兵が、
+ファウストに向けて銃を構えながら現れる。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「そっちの陰から聞かせてもらったが、
+　まったくひでえ話じゃねえか」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「ウ……グウッ、伏兵だと……」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「俺も何年も傭兵やってるが、
+　こんなにひでえ話は初めてだぜ」
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「おじさん、どうして！？
+　いつのまに隠れてたの！？」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「そっちの兄ちゃんから話を聞いたんでな。
+　どうもいろいろ“妙”だから、
+　依頼主を信用しない方が良いってさ」
+<PAUSE>
+<ACTOR>1,ws_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふうま君から？
+　“妙”ってどういうこと？」
+<PAUSE>
+<NAME_PLATE>俺
+「さっき、ドローンが襲ってきた時、
+　俺は“荷物”を見ることができたんだ……」
+<PAUSE>
+<NAME_PLATE>
+　その中身は、装甲もないむき出しの機械、
+ドローンか何かの心臓部のようだった。
+<PAUSE>
+<NAME_PLATE>
+　輸送中に米連が襲撃してきた事からしても、
+その機械は米連から盗み出された、
+おそらくは開発中の軍事機密というところか。
+<PAUSE>
+<NAME_PLATE>
+　そして行き先は、
+軍事機密などおよそ関係ない、
+ベビー用品メーカーの研究施設……
+<PAUSE>
+<NAME_PLATE>俺
+「そこで俺はヤバい予感がしたんだ。
+　それで、そっちのおっさんたちに、
+　一旦離脱してもらった」
+<PAUSE>
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「『ケガしたから離脱する』って言ったのは、
+　そういうことだったんだ！？」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「それから別行動で追跡してたんだが、
+　兄ちゃんの勘は大当たりだったな！」
+<PAUSE>
+<NAME_PLATE>俺
+「助かったぜおっさん。
+　間一髪殺されるところだった」
+<PAUSE>
+<NAME_PLATE>さくら
+「ふうま君、
+　そんな根回ししてたの！？
+　なんで私には話してくれなかったのさ！」
+<PAUSE>
+<NAME_PLATE>俺
+「だってさくら、お前に話したら、
+　態度ですぐバレるだろうが」
+<PAUSE>
+<ACTOR>1,ws_t002g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「むう……否定できない……」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「ふ……こんなガキが、
+　傭兵どもに紛れ込んでいたとはな」
+<PAUSE>
+<NAME_PLATE>俺
+「思い通りにいかなくて残念だな。
+　こっちも素直に処分されるほど、
+　マヌケじゃないんでね」
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m053a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ws_t002g,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+「面白い。小僧……いや、
+　名を聞いておこう」
+<PAUSE>
+//　※立ち絵
+//　　ファウスト＿汎用立ち絵
+<NAME_PLATE>俺
+「ふうま」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「ふうまか。褒めてやる。
+　だが死ね！」
+<PAUSE>
+<NAME_PLATE>
+　叫ぶや否や、ファウストの体から
+仕込みブレードが飛び出す。
+<PAUSE>
+<NAME_PLATE>さくら
+「うわっ！？
+　あいつ、どんだけ武器持ってんの！？」
+<PAUSE>
+<SE_PLAY>se008
+<NAME_PLATE>ファウスト
+「避けたか。
+　まあいい、皆殺しにすれば同じ事だ！」
+<PAUSE>
+<SE_PLAY>se040
+<NAME_PLATE>
+　ファウストの部下らしき女たちも、
+銃を構え直す。
+<PAUSE>
+<NAME_PLATE>さくら
+「こりゃ、ちょっと本気出さなきゃだね」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、油断せずいくぞ！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ts_m051a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section５-ＭＡＰ画面１へ

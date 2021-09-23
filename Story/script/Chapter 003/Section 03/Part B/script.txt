@@ -1,0 +1,217 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//=================================================================
+//【背景：幽霊城＿回廊】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm312,1000
+<BG>nc033a,IN, 1000
+<NAME_PLATE>
+　俺たちはサキュバスどもを撃破し、
+不思議な城を奥へ奥へと進んでいく。
+<PAUSE>
+<GROUP>
+<ACTOR>2,sa_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ねえ、なかなか本丸にたどりつかないね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装
+<ACTOR>2,sa_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「むーん、すぐそこに見えるのにねぇ？」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<ACTOR>1,h_t004g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「こんなときに鹿之助ちゃんがいればね…
+　方向感覚いいし、電探も使えるしね」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな……」
+<PAUSE>
+<NAME_PLATE>
+　そういえば鹿之助も
+この城へ辿りついているのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　いや、それとも、迷っているのは
+俺たちの方なんだろうか。やはりあそこで
+鹿之助を探してから行くべきだったか。
+<PAUSE>
+<NAME_PLATE>
+　降りつづく霧のような小雨が、
+顔をべったりと濡らしている。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、これは単に城内の道が複雑で
+　迷ってるとは思えないな」
+<PAUSE>
+<ACTOR>2,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「どういう事？」
+<PAUSE>
+<NAME_PLATE>俺
+「さっき倒したサキュバスどもの言葉さ。
+　“幻影の力が及ばない頑固な人間”と
+　言っていた」
+<PAUSE>
+<ACTOR>2,sa_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「そういえば……」
+<PAUSE>
+<NAME_PLATE>俺
+「そしてさくら先生も蛇子も違和感を
+　感じるこの小雨。行方不明の鹿之助。
+　これらが全て繋がっているとしたら……？」
+<PAUSE>
+<ACTOR>1,h_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「お？　ふうまちゃん何か閃いたようね」
+<PAUSE>
+<NAME_PLATE>俺
+「……そうだ！　蛇子、ラジオを貸せ！」
+<PAUSE>
+<ACTOR>1,h_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ラジオ？　あんなものどうする……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子がカバンをあさるのももどかしく、
+俺はラジオを奪い取ってスイッチを入れる。
+<PAUSE>
+<NAME_PLATE>
+　そして、伸ばしたアンテナを
+四方へぐるぐると動かした。
+<PAUSE>
+<SE_PLAY>se056
+<NAME_PLATE>
+　ザ……ザー……
+<PAUSE>
+<NAME_PLATE>蛇子
+「周波数合わせないと
+　聞こえないわよ？」
+<PAUSE>
+<SE_PLAY>se056
+<NAME_PLATE>
+　ザ……ザザー……
+ガガッ……！！
+<PAUSE>
+<NAME_PLATE>
+　アンテナをがむしゃらに動かしていると、
+ある一方向で大きく雑音が入る。
+<PAUSE>
+<NAME_PLATE>俺
+「きた！　でかしたぞ鹿之助！！！」
+<PAUSE>
+<ACTOR>2,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ねえねえ！　どういう事なのさ？？」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助がもし迷ったり、
+　囚われているとしたら、あの怖がりが
+　何もせずにじっとしているわけがない」
+<PAUSE>
+<NAME_PLATE>俺
+「そしてあいつは蛇子がラジオを
+　持って来ている事を知ってる。ピーピー電波
+　出して泣いててもおかしくないさ」
+<PAUSE>
+<ACTOR>2,sa_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「なるほど！　この雑音は鹿之助くんによる
+　電波障害ってわけね？」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「でも方向が分かっても、
+　この迷路みたいな場所じゃあ……」
+<PAUSE>
+<NAME_PLATE>俺
+「この小雨と迷路のような城内、
+　鹿之助の失踪は繋がっているって
+　言ったろ？」
+<PAUSE>
+<ACTOR>2,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふむ、早くそのココロを説明したまへ」
+<PAUSE>
+<NAME_PLATE>俺
+「つまりこうだ。この雨には
+　何か仕掛けがある。おそらくではあるが
+　幻影をみせる効果だ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺たちは幻影の城に誘い込まれ、
+　同じところをグルグル回らされているのさ」
+<PAUSE>
+<ACTOR>2,sa_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「幻影……！？」
+<PAUSE>
+<NAME_PLATE>俺
+「幻影ならば、雨の日の夜に城が現れるやら、
+　洋館が現れるやら、噂話がバラバラなのも
+　頷けるだろ」
+<PAUSE>
+<NAME_PLATE>俺
+「大体、昼間に来た時に何もなかったのは
+　さくら先生だって憶えてるはずだ」
+<PAUSE>
+<ACTOR>2,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「むう、確かに」
+<PAUSE>
+<NAME_PLATE>俺
+「またサキュバスどもは
+　“すぐに幻影の力が及ばない”と言った」
+<PAUSE>
+<NAME_PLATE>俺
+「俺たちの中で一番ビビっていて、
+　精神状態が良くなかったのは鹿之助だ」
+<PAUSE>
+<NAME_PLATE>さくら
+「この雨が私たちの精神に影響を及ぼして、
+　幻影を見せられてるってこと！？」
+<PAUSE>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「でも、すでに幻影の術中に
+　落ちているとしたら、
+　どうやって抜け出すの？？」
+<PAUSE>
+<NAME_PLATE>俺
+「そこでこいつだ」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の問いに、俺はラジオを指差した。
+<PAUSE>
+<SE_PLAY>se056
+<NAME_PLATE>
+　……ガッ……ガガッ……ガッ……ガガッ……
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「……今はそれしかなさそうね！」
+<PAUSE>
+<ACTOR>2,sa_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「よし、行くよっ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは、アンテナの指す方へと
+歩き出した。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>2,sa_t002c,LEFT, LEFT, OUT, linear, 0
+<ACTOR>1,h_t004e,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３終了

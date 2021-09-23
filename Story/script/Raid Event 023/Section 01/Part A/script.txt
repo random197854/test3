@@ -1,0 +1,2804 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//※シーン１
+//【背景：五車町全景＿深夜】【時間：深夜】
+//　※対魔忍アサギZERO_NC007dより流用
+<BG>nc297b,IN, 1000
+<NAME_PLATE>
+　対魔忍の総本山、五車町。
+<PAUSE>
+<NAME_PLATE>
+　深夜二時。
+<PAUSE>
+//【背景：五車町＿山中１＿深夜】【時間：深夜】
+//　※MISAO_nc003cより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc028b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　深い闇に包まれた山中を
+幾つもの影が飛び交っていた。
+<PAUSE>
+<NAME_PLATE>
+　じっとりとした夏の熱気を裂いて
+凍り付くような殺気と殺気が交差する。
+<PAUSE>
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍
+「やっ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候(男)＿立ち絵
+//　　　＊モンスターイラストより流用
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔族
+「はっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【魔族】ノマド刺客(男)＿立ち絵
+//　　　＊モンスターイラストより流用
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍
+「やあっっ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔族
+「きあっ！」
+<PAUSE>
+//　※立ち絵
+//　　【魔族】ノマド刺客(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+<BG>nc028b,IN, 500
+<NAME_PLATE>
+　夜のしじまに響くのは鋭い吐息と
+繰り出す刃がぶつかり合う音だけ。
+<PAUSE>
+<NAME_PLATE>
+　不規則に、だが激しく飛び散る火花が
+互いの姿をパッ、パッと浮き上がらせる。
+<PAUSE>
+<NAME_PLATE>
+　そして時折、火、風、水、土、
+様々な異能の力が鋭く奔り、
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔族
+「がっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【魔族】ノマド刺客(男)＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　それまで激しく動いていた影が
+ふいに地に落ちて動かなくなり、
+暗い森に血の匂いを加えていく。
+<PAUSE>
+<BG>nc028b,IN, 500
+<ACTOR>0,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍隊長
+「どこの魔族どもだ！？」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の一人、このエリアを守る
+警備部隊の長が問い質す。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔族
+「やあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【魔族】ノマド刺客(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　無論、襲撃者は答えない。
+<PAUSE>
+<NAME_PLATE>対魔忍（隊長）
+「はっっ！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　彼は襲いかかってきた相手を
+また一人倒した。
+<PAUSE>
+<NAME_PLATE>魔族
+「ぎゃっ！」
+<PAUSE>
+<BG>nc028b,IN, 500
+<NAME_PLATE>
+　不気味な髑髏面をつけた女魔族は
+何度か強く痙攣してから、
+その面に相応しい骸へと変った。
+<PAUSE>
+<NAME_PLATE>
+　後であの仮面を剥ぎ、
+中身を確かめる必要はあるが、
+どうせ身元は分からないだろう。
+<PAUSE>
+<NAME_PLATE>
+　このところ五車町は
+正体不明の魔族たちによる
+連日の襲撃を受けていた。
+<PAUSE>
+<NAME_PLATE>
+　襲撃自体は珍しくはないが、
+これほど大規模なものは久しぶりだ。
+<PAUSE>
+<NAME_PLATE>
+　今夜もこのエリアだけでなく
+あちこちから襲撃を企てているようだ。
+<PAUSE>
+<NAME_PLATE>
+　無論、これまで敵は
+全て撃退している。
+<PAUSE>
+<NAME_PLATE>
+　守る側の地の利がある上、
+警備部隊は精鋭揃いだ。
+<PAUSE>
+<NAME_PLATE>
+　今も謎の魔族たちを相手に
+優勢に闘いを進めていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m294a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m295a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔族たち
+「―――――」
+「―――――」
+<PAUSE>
+//　※立ち絵
+//　　【魔族】ノマド刺客(男)＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　【魔族】ノマド刺客(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se003
+<NAME_PLATE>
+　敵集団の半数ほどを倒した所で、
+生き残りたちが一斉に引いていく。
+<PAUSE>
+<ACTOR>0,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍隊長
+「逃げたか」
+<PAUSE>
+<NAME_PLATE>
+　深追いは禁物。
+それは厳命されていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　こちらにも被害が出ている。
+まずはその対処をと考えた時だった。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「違うな。
+　五車の対魔忍に敬意を表して
+　この俺の出番というわけだ」
+<PAUSE>
+//　※立ち絵
+//　　オルクス＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　くぐもった声と共に
+異様な姿の魔族がゆらりと姿を現した。
+<PAUSE>
+<NAME_PLATE>
+　人間とそれほど変らぬ中肉中背でありながら、
+手足だけが異様なまでに大きい。
+<PAUSE>
+<NAME_PLATE>
+　ことに右手は大人一人を
+簡単に鷲づかみにできそうなほどで、
+<PAUSE>
+<NAME_PLATE>
+　長く伸びた爪に加えて、
+紫色の不気味な妖気が右腕に
+じっとりと纏わり付いていた。
+<PAUSE>
+<NAME_PLATE>
+　頭には黒いフードを深く被り、
+前屈み気味で顔は全く見えない。
+<PAUSE>
+<NAME_PLATE>
+　初めて会う敵だ。
+<PAUSE>
+<NAME_PLATE>
+　だが今までとは格が違う。
+<PAUSE>
+間違いなく強敵だ。
+<PAUSE>
+<NAME_PLATE>対魔忍隊長
+「何者だ！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「フフフ。
+　お前が死ぬときに教えてやろう。
+　お前も名乗りたければ名乗るがいい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　敵の戯れ言には付き合わず、
+彼は部下に素早く指示を与えた。
+<PAUSE>
+<ACTOR>0,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍隊長
+「手練れだ。
+　一斉にかかれっ！」
+<PAUSE>
+<NAME_PLATE>対魔忍たち
+「「「はっっっ！！」」」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　対魔忍たちはパッと散らばり、
+刀で、クナイで、あるいは忍法で
+一斉に仕掛けていく。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ほう、鋭いな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その魔族は感心したように言い、
+左手の巨大なガントレットを操り、
+数人がかりの攻撃をあっさり防御した。
+<PAUSE>
+<BG>nc028b,IN, 500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ではお返しだ」
+<PAUSE>
+<NAME_PLATE>
+　右手の爪が大きく振り抜かれた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グゴアアアアアアアアアアアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　まるで雑草を薙ぎ払うように、
+対魔忍たちがまとめて吹き飛ばされる。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　悲鳴を上げる暇すらなかった。
+彼の部下たちは一瞬にして
+ボロ切れのごとく惨殺された。
+<PAUSE>
+<BG>nc028b,IN, 500
+<ACTOR>0,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍隊長
+「なっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　残るは彼一人。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「フフフ」
+<PAUSE>
+<NAME_PLATE>
+　含み笑いと共に
+フードの魔族が迫ってきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　猿のような動き。速い。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズガッッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　気がついた時には、
+爪が彼の胸に深く食い込んでいた。
+<PAUSE>
+<NAME_PLATE>対魔忍隊長
+「げぼおっっ！！」
+<PAUSE>
+<BG>nc028b,IN, 500
+<NAME_PLATE>
+　口からどっと血が―――
+いや、溢れ出たのは腐った汁だった。
+<PAUSE>
+<NAME_PLATE>対魔忍隊長
+「あがっ……がっ……あががが……」
+<PAUSE>
+<NAME_PLATE>
+　口、鼻、目、耳、
+身体中の穴という穴から
+腐り汁が一気に噴き出している。
+<PAUSE>
+<NAME_PLATE>
+　音を立てて崩れ落ちるように
+肉が、骨が、神経が、彼の身体すべてが
+まるごと腐り始めていた。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「俺の名はオルクス。
+　触れなば腐らん冥界の魔氣。
+　たっぷり味わうがいい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その言葉は腐った彼の耳には
+もう聞こえなかった。
+<PAUSE>
+<NAME_PLATE>対魔忍隊長
+「げぶおぶぐぶぐごぎゃぶぐぶう！！！」
+<PAUSE>
+<NAME_PLATE>
+　奇怪な音が響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　腐った内臓を
+口から吐き出しているかのような
+断末魔の呻きだ。
+<PAUSE>
+<NAME_PLATE>
+　彼は腐り落ちる寸前の脳で
+自分がグズグズに崩れていく
+最期の感触を味わっていた。
+<PAUSE>
+//※シーン２
+//【背景：五車町＿山中２＿深夜】【時間：深夜】
+//　※MISAO_nc011cより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc028b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　闇の中で風が騒いでいた。
+<PAUSE>
+<NAME_PLATE>
+　今、五車の山中のそこかしこで
+繰り広げられている死闘が生み出す風だ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>2,ts_m004a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m038a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ライブラリー
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　対魔忍ライブラリー＿立ち絵
+//　　　＊カードイラストより流用
+//　　ふうま下忍(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※ライブラリーを真ん中に、左右に下忍
+<NAME_PLATE>
+　ふうま家、御庭番の長、
+対魔忍ライブラリーは伝令に出した部下が
+戻ってくるのを待っていた。
+<PAUSE>
+<NAME_PLATE>
+　ここのところの魔族による襲撃は
+彼も大いに危惧していた。
+<PAUSE>
+<NAME_PLATE>
+　故にふうま御庭番として五車の警備に協力し
+特に今夜は部隊を広く展開していたのだった。
+<PAUSE>
+<NAME_PLATE>
+　彼の傍らには護衛の御庭番が、
+男と女、それぞれ一人ずつ控えている。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーがつと視線を動かした。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>石川あむ
+「ライブラリー様」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　その先に巨大なバールのようなものを持った
+少女がいきなり立っていた。
+<PAUSE>
+<NAME_PLATE>
+　今の今まで誰もいなかった場所だった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>護衛の御庭番
+「……！」
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　護衛の二人がハッと息を飲んだが、
+彼女もまた御庭番の一人だ。
+<PAUSE>
+<NAME_PLATE>
+　御庭番壱番隊筆頭、石川あむ。
+<PAUSE>
+<NAME_PLATE>
+　まるで道ばたの石ころのように
+人に存在を意識させない稀少な忍法、
+石遁の術“路傍石”の使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　たとえその力を使っていなくても、
+生まれつきの存在感のなさで、
+まず人に気づかれない。
+<PAUSE>
+<NAME_PLATE>
+　直接戦闘は苦手と言っているが、
+その気になれば存在感を完全に消して
+相手を撲殺するくらいはやってのける。
+<PAUSE>
+<NAME_PLATE>
+　彼女はその圧倒的な隠密能力を活かして
+ふうま御庭番各部隊の伝令役をしていた。
+<PAUSE>
+<NAME_PLATE>あむ
+「ふうま御庭番各部隊、配置につきました。
+　すでに交戦状態にある部隊もいくつか」
+<PAUSE>
+<ACTOR>1,chr_t0269a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「今宵は随分、大規模な襲撃なようだな」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーは重厚さと同時に
+涼やかさを感じさせる声で言った。
+<PAUSE>
+<NAME_PLATE>あむ
+「は、はい。
+　敵に手練が多く五車の部隊に
+　損害が出ているみたいです」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「ふむ。お前は家に戻りお館様をお守りしろ。
+　私は各部隊の支援にまわる」
+<PAUSE>
+<NAME_PLATE>あむ
+「はい！　ご武運を」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　あむが答えた時には
+ライブラリーは風に溶け込むように
+すっと姿を消していた。
+<PAUSE>
+<NAME_PLATE>
+　二人の護衛もその後を追う。
+<PAUSE>
+<ACTOR>1,chr_t0269a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>あむ
+「ライブラリー様の消え方は
+　今日も鮮やかですね。
+　私もああいう風に消えたいです」
+<PAUSE>
+<NAME_PLATE>あむ
+「それはさておき、
+　お館様、今すぐ参ります。
+　今日もこっそりお守りしますよ！」
+<PAUSE>
+<NAME_PLATE>
+　あむの消え方はどこまでも唐突だった。
+<PAUSE>
+//※シーン３
+//【背景：五車町＿山中３＿深夜】【時間：深夜】
+//　※戦国魔姦_nc010aより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc030a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　別の場所では、
+対魔忍たちがやはり苦戦していた。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「クケケケケケーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　シームルグ＿立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　相手は巨大な鳥のような魔族だ。
+それが闇を切り裂くように飛来してくる。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍
+「がっっ！」
+「ぐはっ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女)＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　対魔忍新兵（男)＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　その度、何かの冗談のように、
+対魔忍の首が苦悶の表情を浮かべたまま、
+一つ、また一つと跳ね飛んでいく。
+<PAUSE>
+<BG>nc030a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m014a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍
+「くっ！　火遁の術！！」
+「風遁の術！！　くらえっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　※火遁衆(男)＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　※風遁衆(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　空飛ぶ凶鳥に向かって
+何人かが下から忍法を放った。
+<PAUSE>
+<BG>nc030a,IN, 500
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「クキィイイイイイイイイ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　鳥魔族は闇に溶け込むようにして、
+それを鮮やかに躱し、
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　急降下して両足の爪を
+彼らの身体に食い込ませると
+見せびらかすように空に持ち上げていく。
+<PAUSE>
+<BG>nc030a,IN, 500
+<NAME_PLATE>対魔忍
+「ぐうううっっ！！
+「はっ、離せっっっ！！」
+<PAUSE>
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「言われずとも離してやる！！
+　クケエエエエエッッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グチャッッ、グチャッッ！！
+<PAUSE>
+<NAME_PLATE>
+　忍法を使った見せしめのように、
+彼らは上空から地面に叩きつけられ
+より無残な死を迎えさせられた。
+<PAUSE>
+<BG>nc030a,IN, 500
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「ケーーッケケケッ！！
+　無駄だ無駄だ。
+　闇夜で俺に勝てると思ったか！」
+<PAUSE>
+<NAME_PLATE>
+　彼は梟の獣人、シームルグ。
+通称は“忍獣”。
+<PAUSE>
+<NAME_PLATE>
+　ノマドの大幹部フュルストに仕える
+四人の側近のうちの一人だ。
+<PAUSE>
+<NAME_PLATE>
+　野生の梟がそうであるように、
+闇の狩人である彼は殺戮の衝動を
+欲しいままにしていた。
+<PAUSE>
+<NAME_PLATE>シームルグ
+「対魔忍どもは怯んだぞ。
+　やれやれ、皆殺しにしろ！
+　クケケケケーーーーー！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサシン
+「ヒャハハハハハハ！！」
+「死ね死ね死ねえええ！！
+「対魔忍どもがあっ！！」
+<PAUSE>
+//　　※アサシン＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　※複数出してください
+<NAME_PLATE>
+　彼の配下のアサシンたちが
+対魔忍たちを嵩にかかって追い込んでいく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m014a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍
+「くっっ、このままでは！」
+「怯むなっ！！　この場を死守しろ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　対魔忍たちは防戦一方だった。
+<PAUSE>
+<NAME_PLATE>
+　アサシンだけならまだしも、
+夜空を自在に舞い、時に闇に消える
+シームルグに手も足も出ない。
+<PAUSE>
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「クケーーーー！！
+　往生際が悪いぞ、虫けらども！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八津紫
+「やかましくてかなわんな」
+<PAUSE>
+//　　※八津紫＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバァアアアアアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　突然現れた黒い影が
+アサシンを四、五人まとめて薙ぎ払った。
+<PAUSE>
+<BG>nc030a,IN, 500
+<NAME_PLATE>シームルグ
+「クケッ！？」
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>
+　一瞬で胴切りにされたアサシンたちが
+自分に何が起こったのかもわからないまま、
+壊れた人形のように倒れていく。
+<PAUSE>
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　やったのは
+五車警備部隊の苦戦の報で来援した
+対魔忍、八津紫だ。
+<PAUSE>
+<NAME_PLATE>紫
+「さて……」
+<PAUSE>
+<NAME_PLATE>シームルグ
+「ひっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　紫にジロリと見られた瞬間、
+シームルグの全身が総毛立った。
+<PAUSE>
+<NAME_PLATE>
+　梟の本能が恐怖を覚え、
+気がついた時にはさらに上空に逃げていた。
+<PAUSE>
+<NAME_PLATE>
+　空にいれば大丈夫。
+まして夜ならば無敵だからだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「な、なんだ貴様は！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「それは私のセリフだ。
+　ずいぶんと不格好な鳥だな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「クケーーッ！？
+　俺様が不格好だと！？
+　お前ら、その斧女を―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「はああああああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　シームルグが部下に命ずるより先に
+紫が動いていた。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グゴォオオオオオオオオオオオオッッ！！！
+<PAUSE>
+<NAME_PLATE>
+　対魔忍が持つにしても大きすぎる
+バケモノ斧がシームルグの目でも
+追えないほど速く旋回する。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その斬風に巻き込まれた部下たちが
+バラバラになって千切れ飛んでいく。
+<PAUSE>
+<NAME_PLATE>
+　戦っているというよりもゴミ掃除だ。
+斧が魔族のゴミをばら撒いているような
+情け容赦のない倒し方だ。
+<PAUSE>
+<BG>nc030a,IN, 500
+<ACTOR>0,ts_m243b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「お、おのれェ！？」
+<PAUSE>
+//　※立ち絵
+//　　シームルグ（羽クナイ）＿立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>シームルグ
+「キィイイイイイイイイッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シームルグは今すぐ逃げ出したいという
+獣の本能を押さえつけて、
+上空から羽クナイを放った。
+<PAUSE>
+<BG>nc030a,IN, 500
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「無駄だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　紫は近くにあった岩陰に
+隠れると思いきや、
+<PAUSE>
+<NAME_PLATE>紫
+「はっっ！！
+　でやぁああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　その岩を斧で豆腐のように叩き切り、
+刃の側面を使って思いきり打ち上げた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシイイイイイイイイインッ！！
+<PAUSE>
+<NAME_PLATE>
+　粉々に砕けて大小無数の散弾と化した岩が
+羽クナイをあっさりと蹴散らして、
+シームルグに襲いかかる。
+<PAUSE>
+<NAME_PLATE>シームルグ
+「ヒィイッ！！」
+<PAUSE>
+<BG>nc030a,IN, 500
+<NAME_PLATE>
+　シームルグは必死にそれを避け、
+なおも虚勢を張った。
+<PAUSE>
+<ACTOR>0,ts_m243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「クケケケケケッ！！
+　そ、そんなものが当たるか！！
+　地べたを這うことしかできない虫けらめ！」
+<PAUSE>
+//　※立ち絵
+//　　シームルグ＿立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「少し黙れ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　紫が斧を一振りした。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グゴォオオオオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　何か来たと思った瞬間、
+<PAUSE>
+<NAME_PLATE>シームルグ
+「グゲエッッ！！」
+<PAUSE>
+<NAME_PLATE>
+　回避不能の巨大なソニックブームが
+空中のシームルグに直撃していた。
+<PAUSE>
+<BG>nc030a,IN, 500
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　紫にとっては、
+さっきの散弾攻撃は当たれば儲けもの、
+敵の回避能力を調べていただけのこと。
+<PAUSE>
+<NAME_PLATE>
+　それを確かめた上で
+どう逃げようが必ず当たる大斬風を放つ。
+<PAUSE>
+<NAME_PLATE>
+　空にいれば大丈夫と思った時点で、
+シームルグはすでに敗北していたのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>シームルグ
+「ば、馬鹿なア！？」
+<PAUSE>
+<NAME_PLATE>
+　とっさに硬さが自慢の羽でガードしたが
+肝心の羽に取り返しのつかない傷を受け、
+シームルグは惨めに落下していた。
+<PAUSE>
+<ACTOR>0,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「自分が地べたを這うことになったな」
+<PAUSE>
+<NAME_PLATE>
+　威圧感の固まりのような
+斧女が近づいてくる。
+<PAUSE>
+<NAME_PLATE>シームルグ
+「キィイイ！！
+　お、思い出したぞ。
+　その斧、その馬鹿力、や、八津紫だなっ？」
+<PAUSE>
+<NAME_PLATE>紫
+「私を知っているのか。
+　では誰に聞いたか教えて貰おう。
+　その目障りな羽を毟りながらな」
+<PAUSE>
+<NAME_PLATE>シームルグ
+「ヒイイイイイイイイ！！」
+<PAUSE>
+<NAME_PLATE>
+　シームルグはようやく理解した。
+<PAUSE>
+<NAME_PLATE>
+　この対魔忍が怖い。
+こいつは本物のバケモノだ。
+夜だろうが空だろうが敵わない。
+<PAUSE>
+<NAME_PLATE>
+　梟の獣人であるという誇りは
+どこにも残っていなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>シームルグ
+「ヒィイイイイイイイイイイイイイ！！」
+<PAUSE>
+<SE_PLAY>se133
+<NAME_PLATE>
+　バタバタバタバタバタバタ！！
+<PAUSE>
+<NAME_PLATE>
+　シームルグは今から絞められると分かった
+鶏のように傷ついた羽をばたつかせ、
+無様に闇に溶け込んでいった。
+<PAUSE>
+<ACTOR>1,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「逃げたか。臆病な鳥だ」
+<PAUSE>
+//　　※【剛力無双】八津紫＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>1,m_t006a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>対魔忍
+「紫様、追撃は？」
+<PAUSE>
+//　　対魔忍新兵（男)＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>紫
+「深追いはするな。
+　今日はお客が多い。
+　あんな小鳥に構っている暇はない」
+<PAUSE>
+<NAME_PLATE>紫
+「負傷者は後方に運び、
+　まだ戦える者は私についてこい」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　紫は生き残りの部下に指示して、
+また別の戦場に向かうのだった。
+<PAUSE>
+//※シーン４
+//【背景：五車町＿山中３＿深夜】【時間：深夜】
+//　※対魔忍アサギ３_nc015cより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc004b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さらに別の場所では
+若き三人の学生対魔忍が
+あのオルクスと対峙していた。
+<PAUSE>
+<ACTOR>0,chr_t0329a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　食べれば食べるほどパワーを発揮する
+ダイエット無縁、大食い店出入り禁止の
+食遁の術の使い手、大林（おおばやし）あずき。
+<PAUSE>
+//　※立ち絵
+//　　大森あずき＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　両足にアンドロイドレッグを装備し、
+その超高速駆動による蹴り技を得意とする
+天速の対魔忍、速水心寧（はやみここね）。
+<PAUSE>
+//　※立ち絵
+//　　速水心寧＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　影を操ることで、その持ち主をも操る
+あの井河さくらとは異なる影遁の術使い、
+御影小梅（みかげこうめ）の三人だった。
+<PAUSE>
+//　　御影小梅＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「フフフ、
+　これは腐らせ甲斐のありそうな
+　美しい対魔忍たちだ」
+<PAUSE>
+//　※立ち絵
+//　　オルクス＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　オルクスはうら若き少女達を前に
+黒いフードの下でほくそ笑んだ。
+<PAUSE>
+<NAME_PLATE>
+　三人はオルクスの力を知らない。
+だがその邪悪な意思は痛いまでに感じていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0329a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>大林あずき
+「う、うわあ……。
+　なんだかすごい強そう。
+　これはもう食べなくちゃ！　はぐっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あすぎは武者震いしながら、
+特製のパワーおにぎり（中身は梅）を
+さっそく取り出して頬張った。
+<PAUSE>
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>速水心寧
+「ええ、きっと強敵です。
+　だからこそ私たちが頑張らないと！」
+<PAUSE>
+<NAME_PLATE>
+　幼い頃に妖魔に両親を殺され、
+自分も長い間、車椅子生活だった心寧は
+戦う力をくれた機械の足にそっと触れた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>御影小梅
+「私に任せてください。
+　敵を足止めします、影遁の術！！」
+<PAUSE>
+<NAME_PLATE>
+　元々、ひどく微弱だった忍法の力を
+日々の努力によって使いこなせるようにした
+小梅は迷うことなくその術を使った。
+<PAUSE>
+<NAME_PLATE>
+　夜の闇を縫うようにして
+小梅の影がオルクスに伸びていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　彼女以外には見えない影が
+闇に混じったオルクスの影を確実に捕らえた。
+<PAUSE>
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小梅
+「捕まえました！
+　あなたはもうそこから動けません！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オルクス
+「ほう、確かに動けぬな。
+　この俺を足止めするとはなかなか」
+<PAUSE>
+<NAME_PLATE>
+　オルクスは少しも動揺せず、
+動けなくなったハンデを楽しむかのように
+三人に向かって身構える。
+<PAUSE>
+<ACTOR>0,chr_t0329a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>あずき
+「もぐもぐもぐもぐ、ゴックン。
+　よおし食遁パワー全開！
+　心寧ちゃん行くよ！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　今食べたおにぎりのエネルギーを
+即座に力に変え、あずきが突進する。
+<PAUSE>
+<ACTOR>1,chr_t0320a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>心寧
+「アンドロイドレッグ・リミッター解除！
+　迅遁・神行太保！！
+　（じんとん・しんこうたいほ）」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　あずきに一足遅れて、
+だが彼女を即座に追い越して、
+<PAUSE>
+心寧がまずオルクスに攻撃を仕掛けた。
+<PAUSE>
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心寧
+「はっ、はっ、はああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リミッターを解除した両足を駆使し、
+分身の術もかくやという速度で攪乱しつつ、
+目にも止らぬ蹴りを連続して叩き込む。
+<PAUSE>
+<NAME_PLATE>
+　ふくらはぎから伸びたブレード、
+そこから溢れ出た対魔粒子が
+鮮やかな軌跡を描いたが、
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィンッ！　ギィンッ！　ギィイインッ！！
+<PAUSE>
+<BG>nc004b,IN, 500
+<NAME_PLATE>オルクス
+「フフフ、素早いな。
+　なるほど、今までの相手とは一味違う」
+<PAUSE>
+<NAME_PLATE>
+　オルクスはその場から動けないにも拘わらず、
+心寧の蹴撃を全てガントレットで防いでいた。
+<PAUSE>
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心寧
+「そんなっ！？
+　今の私の速さについてくるなんて！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>オルクス
+「速いは速いが素直すぎるな。
+　ではこちらから行くぞ」
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズザアッ！！
+<PAUSE>
+<NAME_PLATE>
+　右腕の魔氣を纏った爪が唸る。
+ただの一振り。
+<PAUSE>
+<NAME_PLATE>
+　それはオルクスの周りを
+目まぐるしく動いていた心寧に
+カウンター気味に迫る。
+<PAUSE>
+<BG>nc004b,IN, 500
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心寧
+「しまっ―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0329a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あずき
+「どりゃああああああっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　魔氣の爪を心寧が食らう寸前、
+あずきが食遁パワーを溜めた拳を
+オルクスの右腕に叩きつけて逸らした。
+<PAUSE>
+<BG>nc004b,IN, 500
+<ACTOR>1,chr_t0320a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>心寧
+「す、すいませんっ！」
+<PAUSE>
+<NAME_PLATE>
+　心寧はなんとか身を引き、
+<PAUSE>
+<ACTOR>0,chr_t0329a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>あずき
+「ようし！　もう一発―――」
+<PAUSE>
+<NAME_PLATE>
+　あずきはさらに踏み込もうとしたが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>あずき
+「うわわわわわわわ！！
+　なにこれなにこれ！？
+　なんか変なことになってる！」
+<PAUSE>
+<NAME_PLATE>
+　魔氣にほんの僅かに触れた鋼の手甲が
+ボロボロと腐り始めているのに気づき、
+<PAUSE>
+<NAME_PLATE>
+　あずきは慌ててそれを脱ぎ捨てながら、
+得体の知れない敵からパッと距離を取った。
+<PAUSE>
+<ACTOR>0,chr_t0329a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あずき
+「あの腕から出てる変なの。
+　すごいヤバいよ。
+　絶対触っちゃ駄目！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「その通り。
+　触れなば腐らん冥界の魔氣。
+　誰が最初に味わいたい？」
+<PAUSE>
+<NAME_PLATE>
+　オルクスはことさら恐怖を煽るように、
+魔氣を纏った爪をキシキシと鳴らした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　小梅が伸ばした影で捕まえている
+足元の地面を爪でざっくりと薙いだ。
+<PAUSE>
+<BG>nc004b,IN, 500
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小梅
+「そんなっ！？
+　私の呪縛が解かれた！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いとも簡単に影を寸断され、
+小梅の顔が強ばった。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「驚くほどのことではない。
+　敵を縛るのとはな……こうやるのだ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴォオオオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　オルクスは右手を高く掲げ、
+燃え上がるように魔氣をたぎらせた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0329a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0320a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>あずき
+「なにあれ……
+　やばいよやばいよ……」
+<PAUSE>
+<NAME_PLATE>心寧
+「なんておぞましい魔力……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小梅
+「くっ……私の影じゃ……
+　あんなのとても抑えられない……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　オルクスの圧倒的な邪気に
+三人はただ気圧されてしまう。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「さて―――」
+<PAUSE>
+<NAME_PLATE>
+　オルクスは蛇に睨まれた蛙のような
+対魔忍を端から順に見ていき、
+<PAUSE>
+<NAME_PLATE>オルクス
+「まずはお前からだ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　さっき仕留め損なった
+心寧にまず襲いかかった。
+<PAUSE>
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心寧
+「っっ！！」
+<PAUSE>
+<NAME_PLATE>
+　恐怖のあまり
+心寧の動きが遅れた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　為すすべもなく、
+その毒爪を食らう寸前、
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイインッ！！
+<PAUSE>
+<NAME_PLATE>
+　何者かが心寧の前に立ちはだかり、
+致死の爪を受け止めていた。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<BG>nc004b,IN, 500
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「三人ともよく頑張ったな」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　この場に全くそぐわぬ
+穏やかなその声。
+<PAUSE>
+<NAME_PLATE>オルクス
+「ほう。
+　この俺の爪を止めるとは」
+<PAUSE>
+<NAME_PLATE>心寧
+「あなたはふうま君のところの……」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「対魔忍ライブラリー見参」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「面白い！　俺はオルクス！」
+<PAUSE>
+<NAME_PLATE>
+　オルクスは仕切り直しとばかりに
+距離をとって爪を構えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　その敵から視線を外すことなく、
+ライブラリーは落ち着いた声で言った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「みんな下がっていなさい。
+　あの男は少々やっかいだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「少々ですむかなっ！」
+<PAUSE>
+<NAME_PLATE>
+　侮蔑されたと感じたのか、
+先に動いたのはオルクスだった。
+<PAUSE>
+<NAME_PLATE>オルクス
+「死ねぇえっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　今までとは比較にならない速さで、
+ライブラリーに突きかかっていく。
+<PAUSE>
+<BG>nc004b,IN, 500
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「ふむ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ライブラリーは冷静に受け止め、
+左右のブレードで斬り返した。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オルクス
+「ぬうっっ！」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　オルクスは盾で受け流し、
+さらに爪を激しく繰り出す。
+<PAUSE>
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィインッ、ギッィインッ！！
+<PAUSE>
+<NAME_PLATE>
+　魔氣の爪とブレードが擦れ合い、
+激しい火花が散った。
+<PAUSE>
+<NAME_PLATE>
+　そして若き三人の対魔忍が
+二人の動きを追えたのはそこまでだった。
+<PAUSE>
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ライブラリー
+「はっっ！！　やあっっ！！　はあっ！！」
+<PAUSE>
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オルクス
+「ぐっ！！　でやあっ！　だああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人が切り結ぶ場所が
+パッ、パッと目まぐるしく変っていく。
+<PAUSE>
+<NAME_PLATE>
+　その間の過程が分からない。
+あっと思った時には違う場所で戦っている。
+<PAUSE>
+<NAME_PLATE>
+　まるでコマ落としの動画を
+見ているかのようだ。
+<PAUSE>
+<BG>nc004b,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0329a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0320a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>あずき
+「わっ、わっ、速すぎ」
+<PAUSE>
+<NAME_PLATE>心寧
+「動きが全然追えない」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小梅
+「これが達人の闘い」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　三人は唖然とするばかりだ。
+<PAUSE>
+<NAME_PLATE>
+　二人の攻防のスピードに
+対魔忍として常人以上の感覚を持つ
+彼女たちですら取り残されている。
+<PAUSE>
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ライブラリー
+「はっっ！！」
+<PAUSE>
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オルクス
+「でやああっっ！！」
+<PAUSE>
+<BG>nc004b,IN, 500
+<NAME_PLATE>
+　ズザッッ！！
+<PAUSE>
+<NAME_PLATE>
+　気がついた時には
+二人はかなりの距離を取って
+向かい合っていた。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「…………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　闘いが始まる前と少しも変らぬ
+落ち着いた様子のライブラリーに対し、
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「ぐぐぐ、おのれっ……」
+<PAUSE>
+<NAME_PLATE>
+　オルクスは憤怒に呻いていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　見れば、右の脇腹から出血している。
+かなりの深手を負っていた。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「左で防御、右で攻撃。
+　そして相手を腐らせる魔氣か」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「確かに強力だが
+　技自慢、能力自慢では私は倒せない」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「ただ強いだけの相手なら
+　これまで何人も見てきたのでな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「くっっ！
+　ならば貴様らまとめて
+　腐らせてくれるっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　オルクスは激怒し、
+右腕の魔氣をありったけ放出した。
+<PAUSE>
+<NAME_PLATE>
+　彼を中心に毒々しい色の魔氣が広がり、
+周囲の木々が一斉に腐り落ちていく。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0305a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0329a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>あずき
+「うわああああ！！
+　すごいいっぱい腐ってる！！」
+<PAUSE>
+<NAME_PLATE>小梅
+「そ、そんな……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0320a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心寧
+「ああ、ふうま君っ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　恐怖に身をすくませる三人に対し、
+歴戦の対魔忍は静かな声で言った。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「恐れることはない。
+　力とは必要な時に必要なだけ使うものだ。
+　見せびらかすことに意味はない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「ほざけ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　自慢の魔氣を
+少しも気にしない忌々しい男に
+飛びかかろうとしたその時。
+<PAUSE>
+<NAME_PLATE>
+　ゴォオオオオオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　凄まじいプレッシャーが近づいてくるのを
+オルクスは感じ取っていた。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「ちっっ！　新手か！」
+<PAUSE>
+<NAME_PLATE>
+　脇腹に深手を負わされた上、
+同等以上の敵がさらにもう一人。
+<PAUSE>
+<NAME_PLATE>オルクス
+「必ず殺してやるぞ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　迷うことなく
+オルクスは逃走に転じた。
+その決断は早かった。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「引き際には見るべきものがあるな。
+　捨て台詞は平凡だが」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　敵の気配が完全に消えたのを確認してから
+ライブラリーは構えを解いた。
+<PAUSE>
+<NAME_PLATE>
+　その佇まいはどこまでも静かだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>0,chr_t0329a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0320a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>あずき
+「うわあー、格好いい。
+　すごいドキドキしちゃった」
+<PAUSE>
+<NAME_PLATE>心寧
+「ライブラリーさん、
+　ふうま君が言っていた通りの方ですね。
+　本当にありがとうございます」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0305a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小梅
+「あなたがいなかったら
+　私たちみんなやられていました。
+　あなたのような対魔忍になりたいです」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　命を救われた三人が
+彼をわっと取り囲んだ。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「なに、ただの年の功だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大したことではないという風に答えつつ、
+三人の眩しい視線にライブラリーは
+少し照れくさそうにしていた。
+<PAUSE>
+<NAME_PLATE>
+　魔氣をひけらかす敵よりも
+若者たちの純粋な憧れの方が
+よほど彼を戸惑わせるようだった。
+<PAUSE>
+<ACTOR>1,m_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「お前たち、無事だったか」
+<PAUSE>
+//　※立ち絵
+//　　八津紫＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　そこに現れたのは紫だった。
+<PAUSE>
+<NAME_PLATE>
+　オルクスに逃走を決意させた
+プレッシャーの正体が彼女だ。
+<PAUSE>
+<NAME_PLATE>あずき
+「わあっ、紫先生！」
+<PAUSE>
+<NAME_PLATE>心寧
+「みんな無事です」
+<PAUSE>
+<NAME_PLATE>小梅
+「ライブラリーさんに
+　助けてもらいました」
+<PAUSE>
+<NAME_PLATE>紫
+「そうか。
+　ライブラリー殿、助かりました」
+<PAUSE>
+<ACTOR>1,m_t006a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「礼には及びません。
+　これも年長者の勤めにて」
+<PAUSE>
+<NAME_PLATE>紫
+「襲撃部隊のリーダーは
+　人や物を腐食させる力を持つようです。
+　今、戦っていたのはもしや？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「オルクスと名乗っていました。
+　脇腹に傷を負わせましたが逃げられました。
+　申し訳ない」
+<PAUSE>
+<NAME_PLATE>紫
+「いえ、この三人を守って
+　頂けただけで十分です。
+　私もうるさい鳥を一匹取り逃がしました」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「奴が部隊を率いていたということは、
+　その割に、個人の武勇にはやる手合いと
+　見ましたが」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「とにかく、今夜の闘いはひとまず終わったと
+　考えていいかと」
+<PAUSE>
+<NAME_PLATE>紫
+「同感です。
+　あとは残敵の掃討ですが―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　紫がそこまで言ったところで、
+<PAUSE>
+<NAME_PLATE>誰かの悲鳴
+「た、た、助けてくれーー！」
+「やめてくれ、やめてくれええ！」
+「許して、許してええ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>誰かの悲鳴
+「「「ぎゃあああああああああ！！！」」」
+<PAUSE>
+<NAME_PLATE>
+　あちこちから身も世もない命乞いと、
+それを無視して殺されていく悲痛な叫びが
+聞こえてきた。
+<PAUSE>
+<NAME_PLATE>
+　誰かが逃げる敵を惨殺しているようだ。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「はて……」
+<PAUSE>
+<NAME_PLATE>
+　深追いはするなと言ってあるし、
+嬲り殺しをするような部下もいない。
+紫が率いる対魔忍もそうだろう。
+<PAUSE>
+<NAME_PLATE>
+　誰の仕業だろうか。
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーのその疑問に
+紫は苦笑しつつ答えた。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,m_t006a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>紫
+「沙耶と双子の鬼たちです。
+　最近、何者かによる襲撃が続いているのが
+　楽しくてしょうがないようで」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「それは怖い」
+<PAUSE>
+<NAME_PLATE>
+　ブラックなユーモアを刺激され、
+ライブラリーも思わず笑っていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あの三人とは彼も顔見知りだ。
+<PAUSE>
+<NAME_PLATE>
+　本気で遊んでも、つまり殺すつもりで
+色々やっても大丈夫なおじさんとして
+好かれているようだ。
+<PAUSE>
+<NAME_PLATE>
+　襲撃者達に若干の同情をしつつ、
+ライブラリーは表情を引き締めた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,m_t006a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m104a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ライブラリー
+「それにしても敵の狙いが分からないと
+　いうのは不気味ですな」
+<PAUSE>
+<NAME_PLATE>紫
+「仰る通りです。
+　色々と調べさせてはいますが。
+　まだなんとも」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「今はそれぞれが対魔忍としての
+　務めを果たすのみですな」
+<PAUSE>
+<NAME_PLATE>紫
+「お願い致します」
+<PAUSE>
+<NAME_PLATE>
+　今夜の立役者、ライブラリーと紫は
+そんな言葉を交わし合うのだった。
+<PAUSE>
+//※シーン５(二日目以降)
+//【背景：五車町全景＿深夜】【時間：深夜】
+//　※対魔忍アサギZERO_NC007dより流用
+//【背景：五車町全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC007aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc297b,IN, 1000
+<WAIT>1000
+<BG>nc297a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そんな襲撃があった翌日。
+<PAUSE>
+//【背景：五車町＿稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「あーーー、あっつーー」
+<PAUSE>
+<NAME_PLATE>
+　俺は稲毛屋の店先でだらけていた。
+<PAUSE>
+<NAME_PLATE>
+　昨夜も魔族たちが襲ってきたことは
+ライブラリーに聞いて知っている。
+<PAUSE>
+<NAME_PLATE>
+　だが、その程度は日常茶飯事。
+それで毎日の生活が変るわけでもない。
+<PAUSE>
+<NAME_PLATE>
+　しかも五車学園は夏休みだ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは思い思いに
+勉強だの訓練だの遊びだのに勤しんでいた。
+<PAUSE>
+<NAME_PLATE>
+　今日は、なお先輩の突然の思いつきで、
+五車学園に探偵集合とかで駆り出され、
+<PAUSE>
+<NAME_PLATE>
+　探偵すごろくで無為な時間を過ごし、
+ようやくそれから解放されたところだった。
+<PAUSE>
+<NAME_PLATE>
+　時刻は午後二時。まだ暑い。
+<PAUSE>
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>死々村孤路
+「（はい、ふうま君）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　コロ先輩が店の中から
+アイスを持って出てきた。
+<PAUSE>
+<NAME_PLATE>
+　帰りは一緒で
+このアイスもコロ先輩の奢りだ。
+<PAUSE>
+<NAME_PLATE>
+　とても嬉しい。
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとうございます、コロ先輩」
+<PAUSE>
+<NAME_PLATE>
+　店先の東屋の木陰に入って、
+いつ食べても美味いが、夏は特に美味い
+稲毛屋のアイスを楽しむ。
+<PAUSE>
+<NAME_PLATE>孤路
+「（今日はなおのワガママに
+　付き合ってくれてありがとう）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩がアイスをガリガリと
+勢いよく囓りながら言った。
+<PAUSE>
+<NAME_PLATE>俺
+「なお先輩が脈絡なく何か言い出すのは
+　いつものことですしね。
+　探偵すごろくも結構楽しかったですよ」
+<PAUSE>
+<NAME_PLATE>
+　俺はペロペロ大切に舐めながら答える。
+<PAUSE>
+<NAME_PLATE>孤路
+「（なおはふうま君にだけは
+　そういうところあるから。
+　振り回して楽しんでる）」
+<PAUSE>
+<NAME_PLATE>俺
+「俺が新部隊の隊長候補になったのが
+　まだ引っかかってるんですかね？
+　結局、その話自体なくなりましたけど」
+<PAUSE>
+<NAME_PLATE>
+　ふと思いついて口にすると、
+コロ先輩はちょっとだけ考えて、
+<PAUSE>
+<NAME_PLATE>孤路
+「（それもなくはないと思うけど、
+　ふうま君に甘えてるんだと思う）」
+<PAUSE>
+<NAME_PLATE>俺
+「なお先輩が俺に？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（多分、自分では気づいてないし、
+　言っても絶対認めないだろうけど。
+　うふふ）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩は楽しそうに
+アイスをまたガリガリと囓った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なお先輩が甘えてワガママをしてくるとか、
+他人が聞いたら羨ましがられそうだが、
+あの人、男なんだよなあ。
+<PAUSE>
+<NAME_PLATE>
+　バレンタインのチョコをもらえた時は
+嬉しかったけど、うーむ。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと複雑な気分でいると、
+<PAUSE>
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（当たった）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩が食べ終わった
+アイスの棒を見ていた。
+<PAUSE>
+<NAME_PLATE>俺
+「運が良いですね。
+　俺、当たったことないですよ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（私は結構当たる）」
+<PAUSE>
+<NAME_PLATE>俺
+「それはあれですか？
+　魂遁の力とかが関係して―――」
+<PAUSE>
+<NAME_PLATE>孤路
+「（ないと思う。運が良いだけ）」
+<PAUSE>
+<NAME_PLATE>俺
+「羨ましい」
+<PAUSE>
+<NAME_PLATE>孤路
+「（ふふっ）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　コロ先輩はくすりと笑うと、
+すぐ横の水道で当たり棒を洗い、
+<PAUSE>
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（あげる）」
+<PAUSE>
+<NAME_PLATE>俺
+「いいんですか？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（うん、プレゼント）」
+<PAUSE>
+<NAME_PLATE>俺
+「ありがたくもらっておきます」
+<PAUSE>
+<NAME_PLATE>
+　遠慮なく受け取る。
+<PAUSE>
+<NAME_PLATE>孤路
+「（でも、いい年して当たり棒だけ出して
+　アイスもらうの恥ずかしくない？）」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうことは気にしない主義です」
+<PAUSE>
+<NAME_PLATE>孤路
+「（ふうま君らしいね。
+　そういうとこ、ちょっと尊敬する）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なんだか呆れられているようだが、
+それも気にしないことにしよう。
+<PAUSE>
+<NAME_PLATE>？？？
+「ころちゃん！
+　あ、ついでにおやびんも！」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】リリム＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　聞き慣れた声に、
+見慣れない姿の少女が近づいてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「おやびん？」
+<PAUSE>
+<NAME_PLATE>
+　一瞬、誰かと思ったが、
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……リリムか。
+　なんだその格好？」
+<PAUSE>
+<NAME_PLATE>
+　いつもビキニでフラフラしているのに、
+今日は麦わら帽子にロングスカートと
+やけに清楚な姿をしている。
+<PAUSE>
+<NAME_PLATE>
+　腕にはバスケットまで抱えて、
+ピクニックに出かけるかのようだ。
+<PAUSE>
+<NAME_PLATE>リリム
+「見て分かんないの？
+　夏服に決まってるじゃん。
+　おやびん、またお馬鹿に磨きがかかったね」
+<PAUSE>
+<NAME_PLATE>
+　見た目は愛らしいピクニック少女でも、
+口を開けば普段と同じ生意気なリリムだ。
+<PAUSE>
+<NAME_PLATE>俺
+「阿呆。夏服は見れば分かる」
+<PAUSE>
+<NAME_PLATE>俺
+「いつも痴女みたいな格好してるお前が
+　そんな小洒落た服をどこで手に入れたか
+　聞いてるんだ。また盗んだのか？」
+<PAUSE>
+<NAME_PLATE>リリム
+「またとか言うな。
+　ころちゃんにもらったんだよ。
+　ねー、ころちゃん？」
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0348a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（うん）」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩が？」
+<PAUSE>
+<NAME_PLATE>
+　そんな仲なのかと驚きつつ、
+コロ先輩を見ると、
+<PAUSE>
+<NAME_PLATE>孤路
+「（いつも寒そうな格好をしてるから、
+　私の子供の頃の服をあげたの）」
+<PAUSE>
+<NAME_PLATE>俺
+「へーーー。
+　コロ先輩がこのリリムに」
+<PAUSE>
+<NAME_PLATE>リリム
+「えっへん。
+　驚いたかおやびん。
+　私はころちゃんと仲良しなんだからな」
+<PAUSE>
+<NAME_PLATE>俺
+「へーーー」
+<PAUSE>
+<NAME_PLATE>孤路
+「（私だけじゃなくて、
+　五車の女の子に友達多いよ、リリム）」
+<PAUSE>
+<NAME_PLATE>俺
+「へーーー、このリリムが」
+<PAUSE>
+<NAME_PLATE>リリム
+「へーへーって、うるさいな。
+　リリムちゃんは五車の人気者なの」
+<PAUSE>
+<NAME_PLATE>リリム
+「生まれながらにモテないおやびんとは
+　性能が違うよ、性能が」
+<PAUSE>
+<NAME_PLATE>俺
+「余計なお世話だ」
+<PAUSE>
+<NAME_PLATE>
+　格好だけは可愛い今日のリリムは
+いつもと同じ可愛くない口をきく。
+<PAUSE>
+<NAME_PLATE>孤路
+「（リリム、それは違う。
+　ふうま君、わりとモテモテだよ）」
+<PAUSE>
+<NAME_PLATE>孤路
+「（今年のバレンタインも
+　チョコいっぱいもらってた）」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「えーーーっ！
+　うっそだーーーー！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「ころちゃん、こんなおやびんなんかを
+　フォローしなくていいって」
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびんなんかバレンタインの翌日に
+　売れ残りの安売りチョコをこっそり買うのが
+　関の山だろ、ぷぷぷぷ♪」
+<PAUSE>
+<NAME_PLATE>
+　こいつ、言いたい放題だな。
+<PAUSE>
+<NAME_PLATE>
+　確かに買おうかと思ったこともあったが、
+いい年してアイスの当たり棒だけ交換する俺も
+それはさすがに止めたんだぞ。
+<PAUSE>
+<NAME_PLATE>孤路
+「（そんなことない。
+　私もチョコあげたもの）」
+<PAUSE>
+<NAME_PLATE>リリム
+「うそっ！？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（ほんと。
+　可愛いクッキーのお返しももらった）」
+<PAUSE>
+<NAME_PLATE>孤路
+「（ふうまくん、そういうセンスすごく良い。
+　なおも褒めてた）」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、そりゃどうも」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩にさらりと礼を言いつつ、
+リリムにはどうだ見たかと胸を張ったのだが、
+こいつの反応ときたら、
+<PAUSE>
+<NAME_PLATE>リリム
+「なにそれ！
+　おやびん、私なにももらってないよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「お前はチョコくれなかったろうが。
+　お前からなんか欲しくもないが」
+<PAUSE>
+<NAME_PLATE>リリム
+「私だっておやびんに
+　チョコなんかあげたくないよ！
+　あげるわけないじゃん！」
+<PAUSE>
+<NAME_PLATE>俺
+「なら、お返しだけもらうつもりか！
+　この強突く張りが！」
+<PAUSE>
+<NAME_PLATE>リリム
+「なんだとーー！　この薄情者！！」
+<PAUSE>
+<NAME_PLATE>孤路
+「（二人とも喧嘩しない）」
+<PAUSE>
+<NAME_PLATE>
+　睨み合いから掴み合いに発展しかけた
+俺たちをコロ先輩がたしなめる。
+<PAUSE>
+<NAME_PLATE>
+　確かにこんなことでやりあっては
+こいつと同じレベルになってしまう。
+<PAUSE>
+<NAME_PLATE>俺
+「で、真っ昼間から落ちこぼれ淫魔が
+　なにほっつき歩いてるんだ？」
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびんは馬鹿だなあ。
+　真っ昼間から商売してるに
+　決まってるじゃない」
+<PAUSE>
+<NAME_PLATE>俺
+「また怪しげな商売だろうが。
+　そのバスケットの中身はなんだ？
+　さては人に見せられない物だな？」
+<PAUSE>
+<NAME_PLATE>リリム
+「へへーんだ。
+　ぜんっぜん見せられるもんね。
+　どうだ見てみろ！」
+<PAUSE>
+<NAME_PLATE>
+　リリムは意外にも
+バスケットを開けてみせた。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだこれ……？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（……草？）」
+<PAUSE>
+<NAME_PLATE>
+　干し草がぎっしり入っていた。
+見るからに怪しい。
+<PAUSE>
+<NAME_PLATE>俺
+「なんの草だ？」
+<PAUSE>
+<NAME_PLATE>
+　俺が摘まもうとすると、
+リリムは手でさっと邪魔をした。
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびん触るなよ。
+　これ一つまみですごい貴重なんだから」
+<PAUSE>
+<NAME_PLATE>
+　ますます怪しい。
+<PAUSE>
+<NAME_PLATE>孤路
+「（珍しい草なの？）」
+<PAUSE>
+<NAME_PLATE>
+　俺には触らせもしないくせに、
+コロ先輩の問いには自慢げに答える。
+<PAUSE>
+<NAME_PLATE>リリム
+「もち。珍しくて超高価。
+　乾燥させた魔草だよ。
+　五車の山奥でこっそり育てたやばい草」
+<PAUSE>
+<NAME_PLATE>リリム
+「魔界では禁止されてるけど
+　人間界なら合法ってわけ♪
+　ウシシシシ、これでガッポリ大もう―――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ごんっ！！！
+<PAUSE>
+<NAME_PLATE>リリム
+「ぎゃふん！？」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　頭に落とした拳骨が五車町に響きわたる。
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩を見ると、ウンウンと頷いていた。
+<PAUSE>
+//【背景：五車町＿山中３＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc015aより流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc004a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後、俺はリリムを連行し、
+勝手に魔草を育てたという山に登っていた。
+<PAUSE>
+<NAME_PLATE>
+　もちろん全て処分するためだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ほら、さっさと歩け」
+<PAUSE>
+<NAME_PLATE>
+　ピクニック姿とはほど遠い、
+麻薬製造業者の背中をグイグイ押す。
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「リリムちゃんが一生懸命育てた魔草を
+　焼き払うとかなんでだよー」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】リリム＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リリムはさも嫌そうに歩きながら、
+俺を振り返った。
+<PAUSE>
+<NAME_PLATE>俺
+「当たり前だろうが」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「えー！？　どうしてさ！
+　ひどいやおやびん！　だって合法だよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「魔界で禁止されてるようなヤバい草を
+　人間界で売っていいわけがないだろうが」
+<PAUSE>
+<NAME_PLATE>俺
+「もちろん上には報告させてもらう。
+　すぐに人間界でも違法になるだろうな。
+　お前のおかげだ、ありがとう」
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびん横暴だよ！　横暴！
+　ころちゃん、なんとか言ってよ。
+　このバカおやびんに！」
+<PAUSE>
+<NAME_PLATE>
+　昨日も襲撃があったので心配と
+一緒についてきてくれたコロ先輩に
+リリムは助けを求める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　コロ先輩の答えはもちろん、
+<PAUSE>
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（ふうま君が正しい）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>リリム
+「えーーーーーーーっっ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「えーじゃない」
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「どんな痛みも忘れて
+　天国にトリップできるんだよ？
+　みんな助かるじゃないかあ！」
+<PAUSE>
+<NAME_PLATE>俺
+「だまれ」
+<PAUSE>
+<NAME_PLATE>リリム
+「ぶーぶー」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リリムはその場にしゃがみ込んだ。
+<PAUSE>
+<NAME_PLATE>
+　頬をプーッと膨らませて
+てこでも動かないという態度だ。
+<PAUSE>
+<NAME_PLATE>俺
+「はあ、そうか。
+　そこまで言うならしょうがないな。
+　諦めよう」
+<PAUSE>
+<NAME_PLATE>
+　俺がそう言うと、
+リリムは現金に顔を輝かせて、
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「ほんと？　さすがおやびん！」
+<PAUSE>
+<NAME_PLATE>リリム
+「見逃してくれるお礼に売り上げの１０パー
+　じゃなくて、８パー……も、あげすぎか。
+　うーん、５パーくらいならわけてあげる」
+<PAUSE>
+<NAME_PLATE>
+　この期に及んで値切りをしてくる。
+どうしようもない奴だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「必要ない。
+　魔草に詳しい知り合いもいるからな。
+　その人に聞いて処分する」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩、頼みます」
+<PAUSE>
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（わかった）」
+<PAUSE>
+<NAME_PLATE>リリム
+「ころちゃん、分かったってなにが？
+　え？　なんで刀に手を？？
+　まま、まさか！？」
+<PAUSE>
+<NAME_PLATE>
+　リリムはガバッと立ち上がった。
+顔が引きつっている。
+<PAUSE>
+<NAME_PLATE>孤路
+「（リリムがこれ以上
+　悪の道に堕ちるのを見てられない。
+　ごめんね）」
+<PAUSE>
+<NAME_PLATE>俺
+「お前との腐れ縁もこれまでだな。
+　これっぽっちも惜しくはないが
+　まあ成仏してくれ」
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびんそんな！！」
+<PAUSE>
+<NAME_PLATE>孤路
+「（大丈夫。
+　私は魂遁の術の使い手だから
+　死んじゃってもお話できるよ）」
+<PAUSE>
+<NAME_PLATE>俺
+「よかったな、リリム。
+　なーむー」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「ひーーー！！　やめてやめて！！
+　分かったから！　もう諦めるから！
+　ここでバッサリとかやめてーーー！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　リリムは頭を抱えて命乞いを始めた。
+ようやく観念したようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、そうか。
+　じゃあ、ぶーぶー言わずに
+　とっとと畑まで案内しろ」
+<PAUSE>
+<ACTOR>1,chr_t0348a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（よろしく）」
+<PAUSE>
+<ACTOR>0,chr_t0349a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「なっ！？
+　おのれおやびん、ころちゃん！！
+　はかったなーー！！」
+<PAUSE>
+<NAME_PLATE>俺
+「俺はそのつもりだったが、コロ先輩は？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（わりと本気）」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「ころちゃんこわい！！」
+<PAUSE>
+//【背景：リリムの魔草畑＿昼】【時間：昼】
+//　※対魔忍ユキカゼ_nc008aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc117a,IN, 1000
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リリム
+「ほらここだよっ！　私の魔草畑！！
+　せっかく今日まで丹精込めて
+　育てたのにーーーっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】リリム＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リリムはようやく魔草畑まで
+俺たちを連れてきたが、
+<PAUSE>
+<NAME_PLATE>
+　まだ諦めきれないようで
+さっきからふくれっ面のままだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「なるほど。
+　確かにあの一角だけ
+　怪しげな草が生えているな」
+<PAUSE>
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（すぐに焼くの？）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「意外と広いですし、
+　念のため水遁の術が使える誰かを
+　呼んでからにしますか」
+<PAUSE>
+<NAME_PLATE>孤路
+「（それが良いと思う。
+　あとアサギ先生にも連絡。
+　山火事だと思われたら大変）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「そうですね。
+　じゃあ電話を―――」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「あーーーー、どろぼーーー！！」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（ドロボー？）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そちらを見ると、
+魔草畑の中で誰かが蠢いていた。
+黒っぽい影のような奴だ。
+<PAUSE>
+<NAME_PLATE>
+　その影はリリムの大声に
+ぬっと立ち上がった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　オルクス＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　フードを深く被り、右手は長い爪を伸ばし、
+左手にはガントレットを付けている。
+<PAUSE>
+<NAME_PLATE>
+　右の脇腹を怪我しているらしく、
+そこに魔草をベタベタとシップのように
+張り付けていた。
+<PAUSE>
+<NAME_PLATE>俺
+「まさか……！」
+<PAUSE>
+<NAME_PLATE>
+　昨日、ライブラリーが仕留め損ねた
+オルクスとかいう奴か？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「こらあ！　それは私の草だぞ！
+　お金払え！！！」
+<PAUSE>
+<NAME_PLATE>
+　リリムが抗議の声を上げながら、
+ズンズンと奴に向かって行く。
+<PAUSE>
+<NAME_PLATE>俺
+「よせ！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「ふえっ！？」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>孤路
+「（リリム！）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　コロ先輩がとっさにリリムに駆け寄り、
+その体を抱えて後ろに飛んだ。
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズサアアアアッッ！！
+<PAUSE>
+<NAME_PLATE>
+　右手の爪が鎌のように薙ぎ払われた。
+<PAUSE>
+<NAME_PLATE>リリム
+「うひゃああっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボォオオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　リリムがいた場所が燃え上がった。
+<PAUSE>
+<NAME_PLATE>
+　ただの炎ではない、瘴気の炎だ。
+魔草が次々と腐っていく。
+<PAUSE>
+<NAME_PLATE>
+　聞いていた話と同じだ。
+あの姿、あの力、やはりオルクスか。
+<PAUSE>
+<BG>nc117a,IN, 500
+<ACTOR>0,chr_t0349a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「な、な、な、なにっ！？
+　く、腐ってる？　なんなのあの変人！？」
+<PAUSE>
+<ACTOR>1,chr_t0348a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（昨夜の生き残り）」
+<PAUSE>
+<NAME_PLATE>俺
+「よりによってこんなところに」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「淫魔の女と対魔忍か」
+<PAUSE>
+<NAME_PLATE>
+　触れる物を腐らせる魔氣を発する右腕を
+オルクスは高々と掲げた。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

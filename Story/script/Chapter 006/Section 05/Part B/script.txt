@@ -1,0 +1,550 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：カオス・アリーナ＿アリーナ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZEROの背景NC020aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc060a,IN, 1000
+<ACTOR>0,h_t005f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>蛇子
+「くらえ、四刀流……
+　“Ｔｅｎｔａｃｌｅ　Ｓｌａｓｈ”！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<GROUP>
+<ACTOR>0,h_t005f,CENTER, CENTER, OUT, linear, 500
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ズシャアッッ！！！
+<PAUSE>
+//　※立ち絵
+//　　ナーガソルジャー
+<NAME_PLATE>
+　両手に構えた忍者刀と、
+タコの両足に持つ忍者刀が交錯し、
+ナーガソルジャーの硬い鱗の一点に集中する。
+<PAUSE>
+<NAME_PLATE>
+　続いて懐へ蛍先輩が飛び込むが、
+ナーガソルジャーはひらりとかわし、
+その鎌が無防備な蛍先輩の背中を襲う。
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>鹿之助
+「お、おいっ！　こっち向け！
+　電遁の術“スパーク”！！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装（電気）
+<GROUP>
+<ACTOR>0,s_t002f,CENTER, CENTER, OUT, linear, 500
+<SE_PLAY>se030
+<BG>nc060a,NONE
+<EFFECT_FLASH>WHITE, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>ナーガソルジャー
+「！！！？！？」
+<PAUSE>
+<NAME_PLATE>
+　顔面で静電気をスパークさせられた
+ナーガソルジャーの鎌は宙を斬り、
+代わりに蛍先輩の戦斧がその急所を狙う。
+<PAUSE>
+<ACTOR>0,ht_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛍
+「“重戦斧屡ッ”！！！」
+<PAUSE>
+//　※立ち絵
+//　　喜瀬蛍
+<GROUP>
+<ACTOR>0,ht_t001a,CENTER, CENTER, OUT, linear, 300
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　そして瞬間的に重さを増した斧が、
+ナーガソルジャーの堅牢な胴を両断。
+その上半身がドサリと地に落ちた。
+<PAUSE>
+<ACTOR>0,h_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「やった！」
+<PAUSE>
+<ACTOR>0,h_t005b,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>観客達
+「ウオオオオオオ！！！！」
+「やるじゃねえか餓鬼ども！！！」
+「ふざけんなー！！！」
+<PAUSE>
+<NAME_PLATE>
+　客席から巻き起こる、歓声とブーイング。
+それを制して、スネークレディが進み出る。
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>スネークレディ
+「素晴らしいわ♪」
+<PAUSE>
+//　※立ち絵
+//　　スネークレディ
+<NAME_PLATE>
+　歓声の止んだアリーナに、
+パチ、パチ、パチと、乾いた拍手が響く。
+<PAUSE>
+<NAME_PLATE>俺
+「自ら死闘を演出しておいて、
+　まるで他人事だな」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, OUT, linear, 500
+<ACTOR>0,ht_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛍
+「スネークレディ、
+　残るはあなた一人です！」
+<PAUSE>
+<SE_PLAY>se013
+<NAME_PLATE>
+　ブンッ！！！
+<PAUSE>
+<NAME_PLATE>
+　蛍先輩は鮮血が滴るままの戦斧を振り上げ、
+スネークレディへ突進する。
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「おてんばな子ね♪」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>0,ht_t001a,CENTER, CENTER, OUT, linear, 300
+</GROUP>
+<NAME_PLATE>蛍
+「なッ……！？」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>
+　スネークレディは、蛍先輩の後ろに
+回り込んでいた。
+<PAUSE>
+<NAME_PLATE>蛍
+「いつの間……に」
+<PAUSE>
+<ACTOR>0,sr_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「悪い子はおねんねの時間よ♪」
+<PAUSE>
+<NAME_PLATE>蛍
+「――……」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドサッ。
+<PAUSE>
+<NAME_PLATE>
+　スネークレディがその背中にそっと触れ、
+蛍先輩はその場に昏倒した。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ほ、蛍先輩！？」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「慌てないで、眠らせただけよ♪
+　私はどんな毒でも体内で作り出し、
+　触れるだけで注入する事ができるの♪」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ど、毒……！？
+　スネーク……そうか、
+　ヘビの毒ってことか！？」
+<PAUSE>
+<ACTOR>0,sr_t003g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「ふふ、興味ある？
+　可愛い対魔忍さん♪」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいぃぃっ！？　ないですないですっ！！」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, OUT, linear, 500
+<GROUP>
+<ACTOR>2,s_t001h,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「おいふうま！？　あんなの勝てるのか！？」
+　毒持ってる上、わ、ワープするなんて」
+<PAUSE>
+<NAME_PLATE>蛇子
+「違うわ。
+　恐ろしい速さで後ろに回り込んだのよ。
+　まるでアサギ校長の動きね……」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ほ、ほんとか蛇子！？
+　み、見えたのか！？」
+<PAUSE>
+<ACTOR>1,h_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子も目で追えたわけじゃないわ。
+　吸盤で“臭い”の動きを感じたの」
+<PAUSE>
+<ACTOR>2,s_t001i,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひぃいいいい！？
+　どっちにしろそんなのに勝てるのかよ！？
+　触れられただけで終わりなんだぞ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……予想以上の力だ」
+<PAUSE>
+<NAME_PLATE>
+　かといって、このまま相手のペースに
+飲まれるわけにはいかない。
+俺は精一杯の強気で話しかける。
+<PAUSE>
+<NAME_PLATE>俺
+「おい、スネークレディとやら。
+　こんな面倒な事をして俺に何の用だ？」
+<PAUSE>
+<ACTOR>2,s_t001i,LEFT, CENTER, NONE, linear, 1000
+<ACTOR>0,sr_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>スネークレディ
+「ふふ、利口な坊やね♪
+　会話して時間を稼いで、
+　私を倒す方法を考えるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「さあな。
+　返答に窮するなら答えなくていいがね」
+<PAUSE>
+<ACTOR>0,sr_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「生意気な子……♪
+　全て奪ってあげたくなるわね♪」
+<PAUSE>
+<ACTOR>0,sr_t003b,LEFT, LEFT, OUT, linear, 500
+<NAME_PLATE>
+　スネークレディは今度は鹿之助の後ろから、
+その肩にそっと手を置く。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「――……？！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<ACTOR>2,s_t001i,CENTER, CENTER, OUT, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　鹿之助もまた、その場で崩れ落ちた。
+<PAUSE>
+<ACTOR>1,h_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「鹿之助！」
+<PAUSE>
+<ACTOR>0,sr_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>スネークレディ
+「大丈夫♪　この子も眠らせただけ♪」
+<PAUSE>
+<ACTOR>1,h_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「分かる？
+　あなたはとても興味深い存在なのよ♪」
+<PAUSE>
+<ACTOR>1,h_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「それは光栄だね」
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「全然分かってないわ……♪」
+<PAUSE>
+<NAME_PLATE>俺
+「何が言いたい？」
+<PAUSE>
+<ACTOR>0,sr_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「その目よ、あなたの“失われた右目”♪」
+<PAUSE>
+<ACTOR>1,h_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「俺の右目？」
+<PAUSE>
+<ACTOR>0,sr_t003h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「忌々しい秘密を含んでる♪
+　けれど……やっぱり期待外れかしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「言っている意味がさっぱり分からん。
+　だが、そこまでだぜ」
+<PAUSE>
+<ACTOR>0,sr_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「まだ何かあるの？
+　抵抗しない方がいいと思うけど♪」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助と蛍先輩が倒れ、残るは俺と、
+疲れた蛇子だけ――
+<PAUSE>
+<NAME_PLATE>俺
+「動くと殺す。
+　あんたには聞きたい事が山ほどある」
+<PAUSE>
+<NAME_PLATE>
+　と言いながらも、俺は少しずつ後ずさる。
+じりじりと隅へ追いやられる格好だ。
+<PAUSE>
+<ACTOR>0,sr_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「追い詰められておかしくなっちゃったの？
+　つまらないわ♪
+　やっぱり殺しておこうかしら……」
+<PAUSE>
+<NAME_PLATE>
+　そう言ってスネークレディが微笑んだ、
+次の瞬間――
+<PAUSE>
+<NAME_PLATE>
+　天井から、ひとすじの光が急降下し――
+<PAUSE>
+<GROUP>
+<SE_PLAY>se033
+<ACTOR>0,sr_t003b,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,h_t005e,RIGHT, RIGHT, OUT, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドシュウッ！
+<PAUSE>
+<NAME_PLATE>
+　スネークレディの身体に、
+強烈な一閃が走る。
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「なッ……！？」
+<PAUSE>
+<ACTOR>2,a_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「うまくやったわね、ふうま君」
+<PAUSE>
+//　//　※立ち絵
+//　　アサギ戦闘立ち絵_対魔忍
+<NAME_PLATE>スネークレディ
+「かハァ……井河、アサギ……？」
+<PAUSE>
+<NAME_PLATE>
+　さすがのスネークレディも、
+アサギ先生の斬撃には耐えきれず、
+血を噴き出しながら膝をつく。
+<PAUSE>
+<ACTOR>2,a_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「助っ人が蛍だけだと思った？」
+<PAUSE>
+<NAME_PLATE>俺
+「油断したな。
+　切り札は最後までとっておくもんだぜ」
+<PAUSE>
+<NAME_PLATE>
+　そう、アサギ先生は二人目の助っ人として
+俺の作戦に身を委ねてくれた。
+蛇子の誘拐は自分にも責任があると言って。
+<PAUSE>
+<NAME_PLATE>
+　そこで、アサギ先生にはアリーナの天井へ
+潜入してもらい、頃合いを見計らって
+スネークレディを奇襲したのだ。
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「まさか――私を誘導していたの？
+　時間稼ぎをしながら、少しずつ後ずさって、
+　奇襲しやすい位置に、私を――」
+<PAUSE>
+<NAME_PLATE>俺
+「動くなって言っただろ？
+　素直に聞いときゃよかったのにな」
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「心理戦てわけ？　生意気ね……♪」
+<PAUSE>
+<NAME_PLATE>俺
+「形勢逆転だな」
+<PAUSE>
+<ACTOR>2,a_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふうま君、まだよ」
+<PAUSE>
+<NAME_PLATE>
+　進み出た俺をアサギ先生が制する。
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「フフ……フフフ♪」
+<PAUSE>
+<NAME_PLATE>
+　スネークレディはゆっくりと起き上がる。
+と同時に、深く切り裂かれた傷が、
+みるみる塞がってゆく。
+<PAUSE>
+<NAME_PLATE>蛇子
+「！？
+　アサギ先生に斬られた跡が……！？」
+<PAUSE>
+<ACTOR>2,a_t002c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,sr_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>スネークレディ
+「フフ……毒と薬は表裏一体。
+　私自身に“薬”を注入すれば、
+　傷の再生なんて簡単にできる♪」
+<PAUSE>
+//　※立ち絵
+//　　スネークレディ
+<NAME_PLATE>俺
+「マジかよ……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「驚く程じゃないわ。
+　高位魔族相手に、これくらい日常茶飯事よ」
+<PAUSE>
+<NAME_PLATE>俺
+「あの女、高位魔族なんですか！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。
+　それも相当厄介な部類のね」
+<PAUSE>
+<NAME_PLATE>蛇子
+「たぶんあの人も“蛇”よ……
+　ナーガ族と同じ“臭い”がするもの」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が、吸盤をひくつかせながら言う。
+<PAUSE>
+<NAME_PLATE>俺
+「人の姿は仮初ってことか……」
+<PAUSE>
+<NAME_PLATE>
+　などと話すうちにスネークレディの傷は
+すっかり消えてしまい、
+何事もなかったかのように笑っている。
+<PAUSE>
+<ACTOR>0,sr_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「驚いたわ坊や！　まさかあの井河アサギを
+　連れて来るなんて♪」
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ先生は大人気だな。
+　喜んでもらえて嬉しいよ」
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「坊やの勝ちよ♪
+　ご褒美にまだ生かしておいてあげる♪」
+<PAUSE>
+<ACTOR>2,a_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「随分上から目線だな、スネークレディ。
+　このまま逃げられると思うのか？」
+<PAUSE>
+<ACTOR>0,sr_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「その言葉、そっくり返すわ♪
+　生き残る事ができたら、
+　また会いましょう♪」
+<PAUSE>
+<GROUP>
+<ACTOR>0,sr_t003b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,a_t002f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そう告げると、スネークレディは
+ふうっと息を吹く。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？　霧が……」
+<PAUSE>
+<NAME_PLATE>
+　彼女の息は白い霧となり、
+広がり続け、アリーナを埋め尽くしていく。
+<PAUSE>
+<NAME_PLATE>俺
+「おい待て！
+　あんたには聞きたい事が……」
+<PAUSE>
+<ACTOR>2,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「駄目よふうまちゃん！
+　あの白い霧から凄く嫌な臭いがするわ！」
+<PAUSE>
+//<ACTOR>0,s_t001a,CENTER, CENTER, IN, linear, 1000
+//<NAME_PLATE>鹿之助
+//「ふうま、ヤバいぜ！！！
+//　あれ見ろよ！！！」
+//<PAUSE>
+<ACTOR>2,h_t005f,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>
+　周囲を見上げると、
+天井へ上がった霧に包まれた観客たちが、
+次々と肌をどす黒く変色させて倒れている。
+<PAUSE>
+<NAME_PLATE>観客達
+「うわああっ！！　毒だ！　毒霧だぞ！！」
+「逃げろ！　逃げろーーっ！！！！」
+「馬鹿野郎！！　押すな！！！」
+<PAUSE>
+<NAME_PLATE>
+　パニックになった観客は出口へと詰め掛け、
+阿鼻叫喚の地獄絵図を描いていた。
+<PAUSE>
+<ACTOR>2,a_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ここは引くわよ！
+　ふうま君、蛇子、
+　倒れている二人を担いで！」
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ……！！！」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生の判断は的確だ。
+スネークレディの追跡より、味方を保護し、
+毒霧から脱出するのが最優先だろう。
+<PAUSE>
+<NAME_PLATE>
+　俺と蛇子は手分けして、
+昏倒している蛍先輩と鹿之助を担ぎあげる。
+<PAUSE>
+<ACTOR>2,a_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「道中は私が護衛する。
+　二人はとにかく出口へ走れ！」
+<PAUSE>
+<NAME_PLATE>俺
+「了解！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,a_t002g,CENTER, CENTER, OUT, linear, 500
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　俺と蛇子は疲れを感じる間もなく、
+ただ夢中で出口へと疾走した。
+<PAUSE>
+<NAME_PLATE>俺
+（スネークレディ……
+　俺の右目の秘密だと？
+　一体何を知っているんだ……！？）
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<SCENARIO_END>
+//→Section５終了

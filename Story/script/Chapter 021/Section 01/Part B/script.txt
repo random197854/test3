@@ -1,0 +1,492 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ-邸宅内＿夜】【時間：夜】//　※対魔忍アサギZERO＿NC050cより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc147a,IN, 1000
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>異界のゴーレム
+「ＧＵＧＯＯＯＯＯＯＯＯＯＯ！！」
+<PAUSE>
+//　※立ち絵
+//　　異界のゴーレム立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　ゴーレムが腕を振り上げた。
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　剥き出しの鉱石のような豪腕だ。
+しかもユーリの胴体よりも太い。
+<PAUSE>
+<NAME_PLATE>
+　まともに食らえば、
+肉は潰れ、骨はひしゃげて、
+原形すらとどめないだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　まともに食らえば、だ。
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　ユーリは顔色一つ変えずに
+唸りを上げて振り下ろされた腕を躱し、
+<PAUSE>
+<NAME_PLATE>
+　その巨体の脇をするりと抜けると、
+暗殺のターゲットである魔女に接近した。
+<PAUSE>
+<ACTOR>0,ts_m155a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔女
+「なっ！？」
+<PAUSE>
+//　※立ち絵
+//　　魔女立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　魔女が驚愕に目を見開く。
+<PAUSE>
+<NAME_PLATE>
+　その赤い瞳の奥に恐怖が浮かんだ。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<NAME_PLATE>
+　無論、ユーリは躊躇うことがなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　シャッ！　シャッッ！！
+<PAUSE>
+<NAME_PLATE>
+　二本の小太刀が魔女を鋭く切り裂く。
+<PAUSE>
+<NAME_PLATE>
+　首と胴体だ。
+<PAUSE>
+<SE_PLAY>se010
+<NAME_PLATE>
+　ごろん……どさっ……ばたっ……。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc147a,IN, 500
+<NAME_PLATE>
+　まず頭が床に転がり、
+次いで上半身が斜めにズリ落ちて、
+<PAUSE>
+<NAME_PLATE>
+　少し遅れて腰から下だけが、
+名残惜しそうに前に倒れていった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>ユーリ
+「……！？」
+<PAUSE>
+<NAME_PLATE>
+　ユーリの口元が強ばった。
+<PAUSE>
+<NAME_PLATE>
+　バラバラ死体になった途端、
+魔女の姿が変わっていた。
+<PAUSE>
+<NAME_PLATE>
+　いや、違う。
+これはターゲットの魔女ではない。
+<PAUSE>
+<NAME_PLATE>
+　ただの人間だ。
+<PAUSE>
+<NAME_PLATE>
+　侍女かなにかの女だ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリ
+「変わり身！？」
+<PAUSE>
+<NAME_PLATE>魔女
+「正解♪」
+<PAUSE>
+<NAME_PLATE>
+　その声はユーリの後ろからした。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「っっ！」
+<PAUSE>
+<NAME_PLATE>
+　振り返ろうとしたが、遅かった。
+<PAUSE>
+<NAME_PLATE>魔女
+「ふう」
+<PAUSE>
+<NAME_PLATE>
+　首筋に冷たい息がかかる。
+<PAUSE>
+<NAME_PLATE>
+　魔女の瘴気だ。
+<PAUSE>
+<NAME_PLATE>
+　息を止めようとしたが間に合わない。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「……くっっ」
+<PAUSE>
+<NAME_PLATE>
+　全身があっという間に痺れていく。
+<PAUSE>
+<NAME_PLATE>
+　指一本動かせなくなる。
+<PAUSE>
+<NAME_PLATE>
+　振り返ろうとした姿勢のまま、
+ユーリは木偶人形のように固まっていた。
+<PAUSE>
+<ACTOR>0,ts_m155a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔女
+「うふふ」
+<PAUSE>
+//　※立ち絵
+//　　魔女立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　魔女はほくそ笑みながら首を傾け、
+動けなくなったユーリの顔を覗き込んだ。
+<PAUSE>
+<NAME_PLATE>魔女
+「あなた暗殺者ね」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+<NAME_PLATE>魔女
+「はした金で雇われたのかしら？
+　安心しなさい。殺さないから」
+<PAUSE>
+<NAME_PLATE>魔女
+「そうね、あなたを奴隷商人に売りつけて、
+　奴隷娼婦として一生惨めな人生を
+　味わわせてあげる♪　その程度の軽い罰よ」
+<PAUSE>
+<NAME_PLATE>魔女
+「どうしたの？　なにか言ったらどう？
+　口はきけるようにしてあるわ」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「……………」
+<PAUSE>
+<NAME_PLATE>魔女
+「つまらないわね！
+　何とか言ったらどうなの？」
+<PAUSE>
+<NAME_PLATE>魔女
+「それに、その目隠しは何？
+　隠すほどブサイクな顔なのかしら？」
+<PAUSE>
+<NAME_PLATE>
+　魔女は青白い手を伸ばし、
+ユーリの目隠しをさっと剥がした。
+<PAUSE>
+<NAME_PLATE>
+　二つの目が開かれていた。
+<PAUSE>
+<NAME_PLATE>
+　隠されていた彼女の目が。
+<PAUSE>
+<NAME_PLATE>魔女
+「あら、綺麗な顔じゃない。
+　売るのはやめて
+　私が楽しんであげようかしら？」
+<PAUSE>
+<NAME_PLATE>魔女
+「そうね、皮を少しずつ剥いで。
+　その綺麗な顔を無茶苦茶にして楽しむのよ」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「悪趣味ですね」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは言った。
+<PAUSE>
+<NAME_PLATE>
+　その目で魔女をじっと見据えながら。
+<PAUSE>
+<NAME_PLATE>
+　瞳の中が色鮮やかに輝き始めていた。
+<PAUSE>
+<NAME_PLATE>
+　魔女はそれに気づかない。
+<PAUSE>
+<NAME_PLATE>魔女
+「そう？」
+<PAUSE>
+<NAME_PLATE>
+　魔女は勝ち誇ったように
+冷笑を浮かべようとして、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔女
+「……………ぅぅッ！？」
+<PAUSE>
+<NAME_PLATE>
+　ふいにその顔をぎこちなく歪ませた。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか、魔女自身も
+身動きできなくなっていたのだ。
+<PAUSE>
+<NAME_PLATE>魔女
+「こ、これはどういうこと！？」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「なんのことですか？」
+<PAUSE>
+<NAME_PLATE>
+　ユーリはくすりと笑った。
+<PAUSE>
+<NAME_PLATE>
+　彼女自身、自覚していなかったが、
+その笑みはどこかサディスティックだった。
+<PAUSE>
+<NAME_PLATE>魔女
+「とぼけないで！
+　ゴーレム、この女を潰しなさい！」
+<PAUSE>
+<NAME_PLATE>
+　魔女はゴーレムに命令する。
+<PAUSE>
+<NAME_PLATE>
+　だが、異界の巨人はピクリともしなかった。
+<PAUSE>
+<NAME_PLATE>
+　ただの彫像のように廊下に突っ立っている。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「動きませんね」
+<PAUSE>
+<NAME_PLATE>魔女
+「いったいなにを―――え？」
+<PAUSE>
+<NAME_PLATE>
+　魔女は自分の手がいつの間にか
+持ち上がっているのに気づいた。
+<PAUSE>
+<NAME_PLATE>魔女
+「て、手が……勝手に……！？」
+<PAUSE>
+<NAME_PLATE>
+　魔女の意志ではない。
+<PAUSE>
+<NAME_PLATE>
+　気がついたらそこにあったのだ。
+<PAUSE>
+<NAME_PLATE>
+　鋭く爪を立てた魔女自身の手が、
+強ばった顔のすぐ近くに。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「ずいぶんと爪が伸びていますね」
+<PAUSE>
+<NAME_PLATE>魔女
+「ま、まさか……！？」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「その爪で私の顔の皮を剥がすんですか？」
+<PAUSE>
+<NAME_PLATE>魔女
+「や、やめっ―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ガリッッッ！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔女
+「いぎいっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　魔女自身の爪が頬に食い込んだ。
+<PAUSE>
+<NAME_PLATE>
+　深く鋭く。
+<PAUSE>
+<NAME_PLATE>魔女
+「ぐぎぎぎぎぎぎ！！」
+<PAUSE>
+<NAME_PLATE>
+　ブチブチと嫌な音を立てて、
+魔女の爪が皮どころかその下の肉までも
+引き裂いていく。
+<PAUSE>
+<NAME_PLATE>
+　醜い五本の赤い筋が深く走り、
+えぐれた頬肉から血がどっと噴き出した。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「どうしたんですか？
+　いきなり自分の顔を傷つけて？」
+<PAUSE>
+<NAME_PLATE>
+　ユーリがその目で魔女をじっと見る。
+<PAUSE>
+<NAME_PLATE>
+　魔女の手がまた動き出した。
+<PAUSE>
+<NAME_PLATE>
+　ガリッ、ギリギリッ、ベリッッ！！
+<PAUSE>
+<NAME_PLATE>魔女
+「ぐぎあっっっ！！　ぎあゃっっ！！
+　うぎゃあああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二度、三度、四度……。
+魔女の手は止まらない。
+<PAUSE>
+<NAME_PLATE>
+　抉った爪痕をさらに深く抉るように、
+繰り返し繰り返し、爪を立てていく。
+<PAUSE>
+<NAME_PLATE>魔女
+「ぎぎぎいいいいいいいぃッ……！！？」
+<PAUSE>
+<NAME_PLATE>
+　３０秒としないうちに、
+魔女の顔はズタズタになっていた。
+<PAUSE>
+<NAME_PLATE>
+　両頬は幾重にも引き裂かれ、
+外から口内まで見えてしまっている。
+<PAUSE>
+<NAME_PLATE>
+　薄い瞼もビリビリに千切れ、
+眼球の表面まで削られている。
+もはや何も見えてはいまい。
+<PAUSE>
+<NAME_PLATE>
+　真っ赤な唇はすだれのように縦割れ、
+口の中の舌までボロボロになって、
+血で濁った唾液が止まらない。
+<PAUSE>
+<BG>nc147a,IN, 500
+<NAME_PLATE>魔女
+「あぐう……ぐぐぐ……うぐぅ……」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「そんなに自分の顔が剥ぎたいんですか？」
+<PAUSE>
+<NAME_PLATE>
+　変わることのない笑みを浮かべて
+ユーリは言った。
+<PAUSE>
+<NAME_PLATE>魔女
+「わ……わがぢに……だにをじだあ！」
+<PAUSE>
+<NAME_PLATE>
+　魔女はくぐもった声を発した。
+<PAUSE>
+<NAME_PLATE>
+　頬も口も舌もボロボロで、
+もう満足な言葉を発することができない。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「私はなにもしていませんよ」
+<PAUSE>
+<NAME_PLATE>魔女
+「うぞだ！！　うどだっっ！！
+　おべがい、やべっ、やべでっっ！！
+　ぐぎゃあああああああああああっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　惨たらしい悲鳴はしばらく続いたが、
+限界を超えた苦痛とユーリへの恐怖に
+魔女はやがて気絶した。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「悪趣味なことを言わなければ、
+　こんなに痛い目にあわなかったのに」
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ユーリの痺れも取れていた。
+小太刀を一閃させる。
+<PAUSE>
+<NAME_PLATE>
+　ザシュッッ！
+<PAUSE>
+<NAME_PLATE>
+　魔女の首を無造作に切断し、
+あっさりとトドメを刺した。
+<PAUSE>
+<NAME_PLATE>
+　そして、小太刀を収めようとして、
+<PAUSE>
+<BG>nc147a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリ
+「うっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ふいに目を強く押さえた。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「うっ……ううっっ……くうっ……」
+<PAUSE>
+<NAME_PLATE>
+　全身が小刻みに震えている。
+<PAUSE>
+<NAME_PLATE>
+　冷や汗が溢れ出て止まらない。
+<PAUSE>
+<NAME_PLATE>
+　目が痛い。
+<PAUSE>
+<NAME_PLATE>
+　異常なまでに疼く。
+<PAUSE>
+<NAME_PLATE>
+　理由は分かっている。
+<PAUSE>
+<NAME_PLATE>
+　力を使ったせいだ。
+<PAUSE>
+<NAME_PLATE>
+　いつもそうだ。
+<PAUSE>
+<NAME_PLATE>
+　だが、最近はその痛みが
+ますます酷くなってきている。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「そろそろ限界ですね。
+　魔科医を探さないと……」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは震える手でアイマスクを付け直すと
+主のいなくなった屋敷を去っていった。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

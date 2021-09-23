@@ -1,0 +1,157 @@
+//=================================================================
+//
+//☆第一章//【Section２】シナリオ
+//
+//◆第一章タイトル『反乱』
+//FileNo:S201a
+//シーン名：プロローグ
+//<SCREEN_SIZE>1280, 720
+//=================================================================
+////【背景：五車学園＿グラウンド＿朝】//【時間：昼】
+<BG>nc003a,IN, 1500
+<GROUP>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm408,1000
+<NAME_PLATE>鹿之助
+「よーし行くぞ……って、どこ行くんだ？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>1,h_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「どこもかしこも乱戦状態よ！
+　全部回ってたんじゃ、ラチがあかないわ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「ふむ……」
+<PAUSE>
+<NAME_PLATE>
+　乱戦の昂揚にのまれては
+敵の思うつぼである。俺は呼吸を
+落ち着かせ、戦場と化した学校を見渡した。
+<PAUSE>
+<NAME_PLATE>俺
+「一見無秩序に見えるが……
+　敵は意図的に乱戦を演出しているな」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「実際の敵の数は明らかに少数だもんね」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助に仲間になれと強要したのも
+　そういうことだろう」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ほえ？　わかるように説明してくれよ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「堂々と攻め込んでも、数で圧倒される……
+　なら乱戦や裏切りを起こして」
+<PAUSE>
+<NAME_PLATE>蛇子
+「誰が敵で誰が味方か
+　分からなくしようってわけでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。ありきたりだが効果的な戦法だな」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なるほど……で、でもさ！　乱戦起こす
+　ために反乱してるわけじゃないだろ？
+　あいつらの本当の狙いはなんなんだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「おお鹿之助、お前なかなか鋭いじゃないか。
+　この反乱が成功するとしたら、
+　その方法はひとつしかない」
+<PAUSE>
+<ACTOR>2,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そ、それって何なんだふうま！？」
+<PAUSE>
+<NAME_PLATE>俺
+「現対魔忍総隊長、井河アサギを討つ事」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.3,150
+<NAME_PLATE>鹿之助
+「あ、あ、アサギ校長先生を……！？！」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は、この五車学園の校長で
+あると同時に、対魔忍組織の総隊長を
+務める、最強の女対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　少人数で反乱を成功させようというなら、
+彼女を抑えてしまうのが一番だろう。
+<PAUSE>
+<NAME_PLATE>蛇子
+「アサギ先生、この時間は校長室よね。
+　乱戦でみんなの目をひきつけて、
+　手薄になった校舎を狙うつもりってわけ」
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「な、なら校長先生を守らないと！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は校長室の方を見上げる。
+正義の対魔忍は、口先だけではないようだ。
+<PAUSE>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「慌てないで鹿之助ちゃん。
+　あの人が簡単に討たれるとは思えないわ」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。だが、もし骸佐が首謀者だとしたら
+　俺は奴を止めねばならない」
+<PAUSE>
+<ACTOR>1,h_t004g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃん……」
+<PAUSE>
+<NAME_PLATE>
+　当主だ家来だといった話に
+こだわっているわけではない。
+<PAUSE>
+<NAME_PLATE>
+　ただ、思い返せば、
+今日の骸佐はいつもと少し違っていた。
+<PAUSE>
+<NAME_PLATE>俺
+（骸佐は何かを思いつめていた。
+　俺に責任の一端がないとも言えないだろう）
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまから反乱者が出る………
+　厄介な事になったわね」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、まだ決まったわけじゃない。
+　だが急ぐぞ！！！」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「この乱戦を抜けるのか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それでは敵の術中に
+　はまりにいくようなものだ。
+　校舎裏の森へ回ろう」
+<PAUSE>
+<UI_DISP>OFF, 500
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>2000
+<SCENARIO_END>

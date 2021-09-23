@@ -1,0 +1,128 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+<BGM_PLAY>bgm314,1000
+<BG>nc006a,IN, 1000
+<GROUP>
+<ACTOR>2,a_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛍
+「ハーピーとの戦いに必死になるうち、
+　気が付けばフュルストと蛇子ちゃんが
+　消えていたんです」
+<PAUSE>
+//　※立ち絵
+//　　喜瀬蛍
+<NAME_PLATE>蛍
+「――私の失態でした……」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、蛇子の奴は、
+　あのフュルストに攫われたってのか……！」
+<PAUSE>
+<NAME_PLATE>蛍
+「おそらくは」
+<PAUSE>
+<NAME_PLATE>俺
+「すぐに救出部隊を……！！」
+<PAUSE>
+<ACTOR>2,a_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「悪い事に、即応部隊は全て出払っているわ。
+　今、蛇子ちゃん救出に行けるのは……」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+<NAME_PLATE>俺
+「俺の独立遊撃隊ってわけですね」
+<PAUSE>
+<ACTOR>2,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ええ」
+<PAUSE>
+<NAME_PLATE>蛍
+「私も同行させてください」
+<PAUSE>
+<NAME_PLATE>
+　蛍先輩は思い詰めた様子で一歩進み出る。
+蛇子が攫われたことに、
+責任を感じているのだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「蛍先輩が来てくださるなら心強い。
+　俺からお願いしたいくらいです。
+　ですが、その前に隊長として言いたい事が」
+<PAUSE>
+<NAME_PLATE>蛍
+「何でしょうか？　ふうま君」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子も対魔忍です。
+　あいつはあいつの実力不足で攫われた。
+　決して蛍先輩のせいではないです」
+<PAUSE>
+<NAME_PLATE>蛍
+「……そうでしたね。
+　蛇子ちゃんも立派な対魔忍ですもんね」
+<PAUSE>
+<NAME_PLATE>俺
+「絶対に救出してやります。
+　ですが……」
+<PAUSE>
+<NAME_PLATE>
+　俺はここでフュルストと
+戦ったときのことを思い出す。
+<PAUSE>
+<NAME_PLATE>
+　空間に門を作り、そこから消えていった
+フュルスト。
+あの時と同じなら、どうやって追えば――
+<PAUSE>
+<NAME_PLATE>アサギ
+「手掛かりならある」
+<PAUSE>
+<NAME_PLATE>俺
+「本当ですか！？」
+<PAUSE>
+<ACTOR>2,a_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「“蛇の使い”と名乗る者が連絡してきた。
+　ふうま君を名指しでね。
+　蛇子を救いたければ指定の場所に来いと」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり、蛇子を人質に俺を！？
+　では最初から俺が目的だったと！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「分からない。
+　今は、乗ってみるしか選択肢はないわ」
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ……」
+<PAUSE>
+<GROUP>
+<ACTOR>2,a_t001e,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<NAME_PLATE>
+　罠である可能性は高い。
+しかし今は他に手がかりもない。
+<PAUSE>
+<NAME_PLATE>俺
+（なぜ俺を……、
+　いや、今は考えるより動く時だ）
+<PAUSE>
+<NAME_PLATE>
+　俺はさっそく休み中の鹿之助に連絡をとり、
+蛍先輩と共に、出撃の準備に取り掛かった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section２終了

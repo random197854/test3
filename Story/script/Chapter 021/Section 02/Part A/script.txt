@@ -1,0 +1,791 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ繁華街＿昼夜共通】【時間：昼】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　地下都市ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　それは東京の地下３００メートルにある。
+<PAUSE>
+<NAME_PLATE>
+　ノマドや龍門を筆頭として、
+幾つもの闇組織が覇を争うこの街は、
+地下にも関わらず雨が降ることで有名だ。
+<PAUSE>
+<NAME_PLATE>
+　地上の雨が長い時間をかけて地中を伝い、
+地下の天井から再び落ちてくるのだ。
+<PAUSE>
+<NAME_PLATE>
+　そんな“過去の雨”が降る街ヨミハラに
+その探偵事務所はあった。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ2_nc003cより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc215a,IN, 1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「みんな、食事ができたわよ」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<ACTOR>0,chr_t0116a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「うむ、ご苦労。
+　今日のメニューはなんだ？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<NAME_PLATE>クローンアサギ
+「特製ビーフシチューよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「おっ、ご馳走だね」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<ACTOR>3,chr_t0008a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ビーフシチュー、牛肉。
+　牛さん、感謝」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<NAME_PLATE>亜希
+「ナーサラちゃんは今日も良い子だね。
+　私たちのために死んでくれた牛さんには
+　ちゃんと感謝しないとね」
+<PAUSE>
+<ACTOR_OUT>3,RIGHT,linear,1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「たわけ。
+　食べる前にそんなことを言うな。
+　食事がまずくなるだろうが」
+<PAUSE>
+<NAME_PLATE>亜希
+「食べ物への感謝は大事だよ。
+　こっちのちびっ子は
+　今日も良い子じゃないなあ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「だあ！　誰がちびっ子だ！
+　これは仮の姿だと何度も何度も
+　言っておるだろうが！！」
+<PAUSE>
+<NAME_PLATE>亜希
+「仮でもなんでも人は見た目が大事。
+　ちびっ子はちびっ子らしくして欲しいのが
+　なんで分からないかな？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ふん、しるか！
+　まったく、これだから対魔忍は！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「はいはい、喧嘩するなら向こうでね。
+　食事は明るく楽しく。
+　それがうちのルールよ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「む……」
+<PAUSE>
+<NAME_PLATE>亜希
+「えへへ、ごめん」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「じゃあ、いただきます」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナーサラ＆ミリアム＆亜希
+「いただきまーす！」
+<PAUSE>
+<ACTOR>3,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「はぐ、はぐ、はぐ、はぐ。美味しい」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そう、よかった」
+<PAUSE>
+<ACTOR>2,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>亜希
+「うん、なかなか美味しいね。
+　でも、あれ？　ん？　んん？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「おい、探偵」
+<PAUSE>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「どうかした？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「どうかしたではない。
+　これはなんだ？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「だからビーフシチューよ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「これのどこがビーフシチューだ。
+　肉が全然入ってないではないか！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「あ、やっぱり？
+　なんかどこ探してもないから
+　どういうことかと思ったよ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「肉の入ってないビーフシチューなど
+　ビーフシチューとは言わん！」
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「言うわよ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「言うか！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「お金がないときは言うの」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「むうっ！？」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「え？　うちお金ないの？」
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「逆にあると思ってた？
+　ただでさえ私だけの気ままな暮らしのはずが
+　居候が一気に増えて出費がかさんでるのよ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そのうえ、得体の知れない薬草を
+　こっそり買ってる大魔女はいるわ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ぎくっ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「親戚の子にお年玉をあげるために
+　勝手にお金を借りていく対魔忍はいるわ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>2,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>亜希
+「バ、バレてた？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そういうわけで、
+　うちのビーフシチューはしばらくこれよ？
+　いい？　わかった？　はい、返事」
+<PAUSE>
+<NAME_PLATE>亜希
+「は、はーい。
+　お金は今度ちゃんと返すから」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「むむむむむ……やむを得ぬ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「それにほら、見なさい。
+　ナーサラは肉があろうがなかろうが
+　あんなに美味しそうに食べてるわよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「はぐはぐ、はぐはぐ。
+　アサギの料理、美味しい、大好き。
+　はぐはぐ、はぐはぐ♪」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「こやつはよく分かっておらぬだけだ。
+　牛への感謝はどうした？
+　いないではないか、まったく」
+<PAUSE>
+<ACTOR>3,chr_t0008a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「あーでも口の周りにソースべっとりつけて。
+　ナーサラちゃん、ホントにもう可愛いなあ。
+　ほらほら、お姉さんがフキフキしてあげる」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ンンッ……フキフキ……感謝……
+　はぐはぐ……はぐ、ごっくん」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「お行儀よくね。ナーサラ。
+　まあでも、お金はなんとかしないとね。
+　はあ」
+<PAUSE>
+<ACTOR>2,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>亜希
+「え？　そんな暗い顔してため息つくほど
+　ピンチなのか？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あなたたちの保護者としてはね。
+　責任を感じざるを得ないわ」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「むむ、それはいかんな。
+　良かったら私が作った魔法薬を
+　一つ二つわけてやろうか？　高く売れるぞ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ミリアムの作った魔法薬ねえ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「なんだその目は？」
+<PAUSE>
+<NAME_PLATE>亜希
+「それって安全なの？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「試してないが多分安全だ。
+　レシピは昔通りだからな」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「今はちょっと魔力が減っているから、
+　予想外の薬効があるかもしれないが、
+　まあ、注意書きをしておけばよかろう」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「よくないわよ。
+　妙な評判を立てたくないから、
+　普通に仕事を探しにいくわ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>2,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>亜希
+「それなら、私も行くよ。
+　家主の窮地を救わないとね。
+　ナーサラちゃんも行く？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「経済活動……興味深い」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「ならば私も同行してやろう。
+　姿は変わっても、少しも変わらぬ私の叡知が
+　お前の役に立つぞ、ハッハッハ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「みんなどうもありがとう」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（私一人の方が仕事が捗ると
+　思わないでもないんだけど……ね）
+<PAUSE>
+//【背景：ヨミハラ繁華街＿路地裏＿昼夜共通】【時間：昼】
+//　※対魔忍アサギＺＥＲＯ_NC035aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc127a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というわけで、
+特製ビーフシチューを食べ終えた
+探偵チーム一行は、
+<PAUSE>
+<NAME_PLATE>
+　探偵や傭兵などの
+仕事斡旋の窓口になっているバーへと
+ぞろぞろ移動していった。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿路地裏のBAR＿昼夜共通】【時間：昼】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<BGM_PLAY>bgm203,1000
+<BG>chrnc0101a,IN, 1000
+<ACTOR>1,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「はーい♪　いらっしゃい」
+<PAUSE>
+//　※立ち絵
+//　　高坂静流立ち絵
+//　　　　＊対魔忍ＲＰＧ静流03のカード表イラストを流用
+<NAME_PLATE>
+　昼間から賑わうそのバーは高坂静流の店だ。
+<PAUSE>
+<NAME_PLATE>
+　彼女が実は五車の対魔忍であることを
+知っているのは、ごく限られた人間だけだ。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「なんて格好なの？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<NAME_PLATE>
+　静流はなぜかサンタの姿をしていた。
+<PAUSE>
+<NAME_PLATE>静流
+「サンタ衣装よ。かわいいでしょう？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「季節外れじゃろ」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<NAME_PLATE>静流
+「ヨミハラで季節を気にするなんてヤボよ。
+　ねえ、みんな？」
+<PAUSE>
+<NAME_PLATE>常連客
+「そーだ！　そーだ！」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>常連客
+「毎日サンタをお願いしたいねえ」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストオーク傭兵の色違い
+<NAME_PLATE>常連客
+「アハハ！　静流脱げー！」
+<PAUSE>
+//　※立ち絵
+//　　ソニア立ち絵
+//　　　　＊対魔忍ＲＰＧカードソニア01イラスト表より流用
+<NAME_PLATE>
+　常連客が静流のサンタ衣装を肴に
+やんややんやと盛り上がっている。
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは気にせず会話を続けた。
+<PAUSE>
+<ACTOR>1,chr_t0176a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「それで仕事はある？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<NAME_PLATE>静流
+「あるけど、あなた嫌がるんじゃないかしら」
+<PAUSE>
+//　※立ち絵
+//　　高坂静流立ち絵
+//　　　　＊対魔忍ＲＰＧ静流03のカード表イラストを流用
+<NAME_PLATE>クローンアサギ
+「今は金欠なの。何でも受けるわ」
+<PAUSE>
+<NAME_PLATE>静流
+「それでぞろぞろお供を連れて？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「まあ、そんな感じね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「なんでも頼むがいいぞ。
+　この私がたちどころに解決してやろう」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<ACTOR>1,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「四人いればなんでもできるよ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<GROUP>
+<ACTOR>2,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>0
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>ナーサラ
+「みんなで仕事、興味深い」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「オーケー。
+　そういうことなら、
+　奥のテーブルに依頼人がいるわよ」
+<PAUSE>
+<NAME_PLATE>
+　静流はくすりと笑って、
+クイッと顎をしゃくった。
+<PAUSE>
+<ACTOR>0,chr_t0176a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギはそちらに行こうとして、
+ピタッと立ち止まった。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「依頼人ってあれ？」
+<PAUSE>
+<NAME_PLATE>静流
+「言ったでしょ。
+　あなた嫌がるだろうって」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,mk_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>桐生美琴
+「はーい♪　久しぶりね」
+<PAUSE>
+//　※立ち絵
+//　　桐生美琴立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表（まだ未実装）を流用
+<NAME_PLATE>
+　果たして奥のテーブルには
+魔科医・桐生美琴（きりゅうみこと）が
+座っていた。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「よりによって……」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギはため息を吐いた。
+<PAUSE>
+<NAME_PLATE>
+　桐生美琴。
+<PAUSE>
+<NAME_PLATE>
+　自称・魔界一の魔科医。
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが知る限り、
+おそらくそれは真実であろうと思われる。
+<PAUSE>
+<NAME_PLATE>
+　かつ間違いなく
+魔界一のマッドサイエンティストで、
+常にろくでもない研究ばかりしている。
+<PAUSE>
+<NAME_PLATE>
+　右腕には魔術師より譲り受けた（本人談）
+という鬼神の腕が移植されている。
+<PAUSE>
+<NAME_PLATE>
+　異界の神話級の存在のものと豪語していて、
+その腕で刀を揮えば強力な瘴気を纏い、
+大地を揺るがすという。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（出会いが悪かったのよね……）
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギはサイボーグだ。
+生身と違って、その体には定期的な
+メンテナンスが必須である。
+<PAUSE>
+<NAME_PLATE>
+　だが、米連の特務機関Ｇを出奔してから、
+長期間メンテナンスを受けられなかった。
+<PAUSE>
+<NAME_PLATE>
+　そうやって次第に無力化していき、
+ついに敵に捕らわれてしまった彼女を
+救ってくれたのが、この桐生美琴だ。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、その時は感謝したが、
+今となってはクローンアサギの身体に
+妙な興味を抱いたからだと分かる。
+<PAUSE>
+<NAME_PLATE>
+　それ以来、金や仕事の依頼と引き換えに
+彼女からメンテナンスを受けている。
+<PAUSE>
+<NAME_PLATE>
+　しかし美琴の依頼はろくでもないものが多く
+メンテナンスの他、どうしてもという時以外は
+可能な限り、話を受けないようにしている。
+<PAUSE>
+<NAME_PLATE>
+　そして、今はどうしてもという時だった。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……………」
+<PAUSE>
+<NAME_PLATE>美琴
+「そんなしかめっ面しないで。
+　さあ、座って座って、うふふ」
+<PAUSE>
+<NAME_PLATE>
+　美琴はろくでもない依頼をするときの
+いつもの笑顔を浮かべた。
+<PAUSE>
+//【黒画面】
+//【背景：首都圏新外郭放水路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC031aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その頃。
+<PAUSE>
+<NAME_PLATE>
+　ユーリはヨミハラを目指していた。
+<PAUSE>
+<NAME_PLATE>
+　暗殺の仕事のためではない。
+<PAUSE>
+<NAME_PLATE>
+　いよいよ悪化してきた
+彼女の目を治してもらうためだ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<BG>nc119a,IN, 1000
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<NAME_PLATE>
+　もちろん並の医者では話にもならない。
+<PAUSE>
+<NAME_PLATE>
+　見た相手を魅了する彼女の目は
+いわゆる邪眼の一種だ。
+<PAUSE>
+<NAME_PLATE>
+　邪眼使いとして知られるふうま一族がいる
+五車の里ならば
+専門の医者がいるかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　だが、今は亡き両親とともに
+里を追われた彼女が戻れるはずもない。
+<PAUSE>
+<NAME_PLATE>
+　また、今のふうまの当主は
+邪眼どころか忍術にも目覚めていない
+“目抜け”と聞く。
+<PAUSE>
+<NAME_PLATE>
+　そんな人物はあてにできない。
+<PAUSE>
+<NAME_PLATE>
+　だから、魔界一の魔科医がいるという
+情報をもとにヨミハラに行くことにしたのだ。
+<PAUSE>
+<NAME_PLATE>ユーリ
+（ずいぶんと深くまできましたね）
+<PAUSE>
+<NAME_PLATE>
+　ユーリは巨大な柱が立ち並ぶ
+神殿にも似た広大な空間を見渡した。
+<PAUSE>
+<NAME_PLATE>
+　彼女が今いるのは、
+東京の地下にある首都圏新外郭放水路だ。
+<PAUSE>
+<NAME_PLATE>
+　深度５０メートルにある
+首都圏外郭放水路のさらに下、
+地下１００メートルに建設された施設である。
+<PAUSE>
+<NAME_PLATE>
+　局地災害の備えとして
+造られていた施設だったが、
+例によって途中で計画が頓挫。
+<PAUSE>
+<NAME_PLATE>
+　未完成のまま放置されたそこは
+地下都市ヨミハラへのほぼ唯一の通り道に
+なっていた。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラはさらに深い場所にある。
+やっと中間地点といったところだ。
+<PAUSE>
+<NAME_PLATE>ユーリ
+（もう遅いですし、
+　今夜はここで野営ですね）
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラは犯罪都市として有名だが
+この放水路にも武装難民が数多く
+住み着いていると聞く。
+<PAUSE>
+<NAME_PLATE>
+　無論、余計なトラブルは避けたい。
+<PAUSE>
+<NAME_PLATE>
+　ユーリは体を休めることができそうな
+少しでも身を隠せる場所を探し始めたが、
+<PAUSE>
+<NAME_PLATE>
+　ひたすらに広い空間、延々と続く柱の列は、
+彼女から普段の注意力を奪っていた。
+<PAUSE>
+<NAME_PLATE>
+　だから、すぐ近くまで
+敵が接近している気配に気づかなかった。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　そして、気づいた時には、
+武装難民の群れに取り囲まれていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m069a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+//　※立ち絵
+//　　武装難民立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+//　※何人か出してください。
+<NAME_PLATE>武装難民
+「うひょーーっ、女だぜ！！」
+<PAUSE>
+<NAME_PLATE>武装難民
+「しかもたった一人だ！」
+<PAUSE>
+<NAME_PLATE>
+　ユーリを見つめる男たちの下卑た視線。
+<PAUSE>
+<NAME_PLATE>
+　彼らが何を望んでいるか、
+火を見るよりも明らかだ。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「攻撃しなければ私から攻撃しません」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは冷静に言った。
+<PAUSE>
+<NAME_PLATE>
+　だが、そのクールな声が
+男たちをさらに刺激したらしい。
+<PAUSE>
+<NAME_PLATE>武装難民
+「私からは攻撃しませんだってよ！！」
+<PAUSE>
+<NAME_PLATE>武装難民
+「キャハハハハハハ！！
+　こいつは面白えや！！」
+<PAUSE>
+<NAME_PLATE>
+　武装難民たちは馬鹿笑いしながら、
+ユーリに銃を突きつけた。
+<PAUSE>
+<NAME_PLATE>武装難民
+「身ぐるみ置いていけ」
+<PAUSE>
+<NAME_PLATE>武装難民
+「当然、お前自身もな」
+<PAUSE>
+<NAME_PLATE>武装難民
+「ケケケ、妙なマスク越しにも分かるぞ。
+　きっと上玉だ」
+<PAUSE>
+<NAME_PLATE>武装難民
+「おまた広げてお願いしますって言ってみな。
+　少しは優しくしてやるぜ」
+<PAUSE>
+<NAME_PLATE>武装難民
+「ほ～～んの少しな。
+　グハハハハハハハハ！！！」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はあ……警告はしましたよ」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは嘆息しつつ、小太刀を抜いた。
+<PAUSE>
+<NAME_PLATE>ユーリ
+（できれば、魅眼を使わずにすませましょう）
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

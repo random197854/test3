@@ -1,0 +1,122 @@
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：五車町への田舎道＿夜】【時間：夜】
+//　※MonstersSurvive_nc004cより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc113b,IN, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「あんまり遅いから死んだかと思ったわ」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「秋津……
+　じゃあ、凜花先輩は！？」
+<PAUSE>
+<NAME_PLATE>
+　仮面女からの追っ手である、
+秋津とアスカのことは、
+凜花先輩が足止めしていたはずだ。
+<PAUSE>
+<NAME_PLATE>秋津
+「化物同士仲良くしてるわよ。
+　鋼鉄の死神と鬼腕の対魔忍でね」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……」
+<PAUSE>
+<NAME_PLATE>
+　俺はほっとため息をつく。
+<PAUSE>
+<NAME_PLATE>俺
+「お前はお前で、
+　俺の応援に来てくれた……
+　わけじゃないよな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>秋津
+「当たり前でしょ！
+　今は敵よ！」
+<PAUSE>
+<SE_PLAY>se040
+<NAME_PLATE>
+　ガシャッ！
+<PAUSE>
+<NAME_PLATE>
+　秋津の背の“魔装具”と両手に持った、
+六本の小太刀を構える。
+<PAUSE>
+<NAME_PLATE>秋津
+「魔装六刀流ッ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>俺
+「おっと！」
+<PAUSE>
+<NAME_PLATE>秋津
+「その子を放しなさい！
+　あんたまで八つ裂きになるわよ！」
+<PAUSE>
+<NAME_PLATE>俺
+（あんたまで……？
+　そうか、あくまで狙いは沙耶だもんな）
+<PAUSE>
+<NAME_PLATE>
+　すると、今度前へ出たのは蛇子。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<SE_PLAY>se003
+<ACTOR>1,h_t004f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ふうまちゃん、ここは私が止めるわ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（タコ化）
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「蛇子？！」
+<PAUSE>
+<ACTOR>1,h_t004a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「へへ、実はちょっと、
+　鹿之助ちゃんの勇気に感動しちゃったの。
+　私も負けてられないってね！」
+<PAUSE>
+<ACTOR>1,h_t004e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「それに、その子を守るって決めたんなら、
+　なにがなんでも守らなきゃ！」
+<PAUSE>
+<ACTOR>1,h_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「さ、行って！」
+<PAUSE>
+<NAME_PLATE>俺
+「くっ……
+　わかった！」
+<PAUSE>
+<NAME_PLATE>
+　沙耶を背負った俺がいては、
+逆に蛇子のお荷物になってしまう。
+今は先に行くのが得策――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se078
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　そう思い、俺は蛇子と秋津を置いて、
+道の先へと走り出した。
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<SCENARIO_END>
+//→S402a

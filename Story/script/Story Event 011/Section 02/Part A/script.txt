@@ -1,0 +1,303 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ふうま別邸＿書庫＿昼】【時間：昼】
+//　　※陰陽騎士トワコ_nc008aより流用
+//　※注　以下、天音視点の回想なので
+//　　　　ふうま小太郎の名前表記は「俺」でなく「小太郎」です。
+//chrnc0041a
+<BGM_PLAY>bgm203,1000
+<BG>chrnc0041a,IN, 1000
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「そうか……。
+　お前だったか、小太郎」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音立ち絵＿対魔忍衣装
+//　　　　　＊ふうま天音02カードイラストより流用
+<NAME_PLATE>
+　考えてみれば不思議はない。
+<PAUSE>
+<NAME_PLATE>
+　ふうま宗家の隠し館の存在を
+知る者は限られている。
+<PAUSE>
+<NAME_PLATE>
+　弾正の嫡子・小太郎であれば、
+その所在くらい知らされているだろう。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,hu_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ふうま小太郎
+「天音さん……だよね！？
+　ずいぶん久しぶりだから、
+　一瞬わからなかったけど……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　　＊表情差分などなしで描き下ろしを用意
+<NAME_PLATE>
+　少年の瞳がぱっと明るく輝き、
+しかしすぐに戸惑いに揺れる。
+<PAUSE>
+<NAME_PLATE>
+　突然すぎる再会だ。
+<PAUSE>
+<NAME_PLATE>
+　それに、ここ数年でふうま一門の
+運命は大きく変転した。
+<PAUSE>
+<NAME_PLATE>
+　単純な喜びに浸ることもできず――
+そして、それは天音も同様だった。
+<PAUSE>
+<NAME_PLATE>小太郎
+「あの……俺、心配してたんです。
+　あの反乱の後、天音さんは里から
+　出て行ったって聞いたから……」
+<PAUSE>
+<NAME_PLATE>天音
+「そんなことはどうでも良い。
+　お前こそ、ここで何をしている？」
+<PAUSE>
+<ACTOR>1,hu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「えっ？」
+<PAUSE>
+<NAME_PLATE>天音
+「ここはふうま宗家の隠し館。
+　昔日、一門の猛者たちが独立への
+　夢を語り合った場所だ」
+<PAUSE>
+<NAME_PLATE>天音
+「戦の備えである忍道具も多く貯蔵し、
+　一門の歴史を語る特別な書物もある」
+<PAUSE>
+<NAME_PLATE>天音
+「弾正様の御子とは言え……
+　お前のような子供が軽々しく
+　立ち入っていい場所じゃない」
+<PAUSE>
+<ACTOR>1,hu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「あっ、いや……それは
+　わかっているんですけど……。
+　ちょっと事情があって……」
+<PAUSE>
+<NAME_PLATE>天音
+「事情？　なんだ？」
+<PAUSE>
+<ACTOR>1,hu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「い、いやー……？
+　なんだというか、そんな大した
+　ことじゃないんですけど……」
+<PAUSE>
+<NAME_PLATE>天音
+「………？」
+<PAUSE>
+<NAME_PLATE>
+　あまりに歯切れが悪い。
+<PAUSE>
+<NAME_PLATE>
+　不審に思ってよく見ると、
+小太郎の手には男女の絡み合う図が
+載った本が握られていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「おっ、お前――！！？
+　それは房術の指南書かっ！！？」
+<PAUSE>
+<NAME_PLATE>天音
+「そんな淫猥なものをここで
+　隠れてこっそり見ていたのか！！？」
+<PAUSE>
+<NAME_PLATE>
+　房術とは、男女の交合を用いた――
+いわゆる性に関わる忍術である。
+<PAUSE>
+<ACTOR>1,hu_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「ふわぁっ！？？　ああっ、
+　いや、これは――」
+<PAUSE>
+<NAME_PLATE>
+　さらに見ると、少年の周囲の床にも
+色とりどり卑猥な文献や図が広げられていた。
+<PAUSE>
+<NAME_PLATE>天音
+「あきれたな、その年で色に
+　目覚めるとは――いや、さすがは
+　弾正様の血筋と褒めるべきか」
+<PAUSE>
+<NAME_PLATE>小太郎
+「い、いや違うんですっ！！
+　そういうことじゃなくて、
+　これはただの知識欲で――」
+<PAUSE>
+<NAME_PLATE>天音
+「知識欲？　それにしては
+　女体に興味津々ではないか」
+<PAUSE>
+<NAME_PLATE>天音
+「ここなど付箋まで貼って詳細に
+　読み込んでいるぞ？　ほら、
+　ここにもここにも――」
+<PAUSE>
+<ACTOR>1,hu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「あ、いや……というか
+　天音さん、近いです……」
+<PAUSE>
+<NAME_PLATE>天音
+「近い？　何が近い？」
+<PAUSE>
+<NAME_PLATE>小太郎
+「そりゃ顔とか……おっ、おっぱ
+　……いや、なんでもないです……」
+<PAUSE>
+<NAME_PLATE>
+　指南書を手にぐいぐい迫る天音から、
+顔を真っ赤にした少年が目を逸らす。
+<PAUSE>
+<NAME_PLATE>
+　思春期真っ盛りらしく、色々と
+口にできないことがあるようだ。
+<PAUSE>
+<NAME_PLATE>天音
+「ふんっ。くだらん！
+　うつけの“目抜け”という
+　噂は本当だったか」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>1,hu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「……っ！！」
+<PAUSE>
+<NAME_PLATE>
+　天音が吐き捨てるように呟くと、
+少年はビクっと体を固くする。
+<PAUSE>
+<NAME_PLATE>
+　五車を出奔した天音であったが、
+“現当主”である小太郎がなんと
+呼ばれているかは耳にしていた。
+<PAUSE>
+<NAME_PLATE>小太郎
+「そ、そうです……
+　俺は、無能の“目抜け”……」
+<PAUSE>
+<NAME_PLATE>小太郎
+「だから、ここで隠れて
+　本を読んでいたんです……」
+<PAUSE>
+<NAME_PLATE>天音
+「…………？」
+<PAUSE>
+<NAME_PLATE>小太郎
+「今、屋敷に帰ると、
+　時子に叱られるから……」
+<PAUSE>
+<NAME_PLATE>小太郎
+「いや、それは……俺が忍法の鍛錬を
+　さぼったのが悪いんですけど……」
+<PAUSE>
+<NAME_PLATE>小太郎
+「でも、意味ないんです……。
+　俺、忍法なんて使えないから……
+　鍛錬なんかやったって……」
+<PAUSE>
+<NAME_PLATE>小太郎
+「だったら、ここで、
+　忍法の本を読んでいる方が……
+　きっと、役に立つって……」
+<PAUSE>
+<NAME_PLATE>天音
+「ふん――」
+<PAUSE>
+<NAME_PLATE>
+　少年はうつむいて、
+独り言のように寂しく呟いている。
+<PAUSE>
+<NAME_PLATE>天音
+（ずいぶんと変わったな……）
+<PAUSE>
+<NAME_PLATE>
+　天音が前に小太郎と会ったのは、
+彼がほんの幼子の頃だ。
+<PAUSE>
+<NAME_PLATE>
+　その時の彼は、明るく利発さに溢れ、
+まさしく“当主の子”としての輝きがあった。
+<PAUSE>
+<NAME_PLATE>
+　だが今は、見る影もなく
+くすんでしまっている。
+<PAUSE>
+<NAME_PLATE>
+　原因は――まあ、考えるまでもない。
+<PAUSE>
+<NAME_PLATE>
+　忍術の使えない“目抜け”。
+<PAUSE>
+<NAME_PLATE>
+　その事実が、少年の心に簡単には
+癒えない深い傷を負わせたのだろう。
+<PAUSE>
+<NAME_PLATE>天音
+（……だが、もう
+　私には関わりのないことだ）
+<PAUSE>
+<NAME_PLATE>天音
+「―――奴らが来たか」
+<PAUSE>
+<ACTOR>1,hu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「天音さん……？」
+<PAUSE>
+<NAME_PLATE>
+　戸惑い顔の少年に構わず、
+天音は腰を上げる。
+<PAUSE>
+<NAME_PLATE>
+　天音の鋭敏な耳に、隠し館に接近する
+忍たちの気配が届いていた。
+<PAUSE>
+<NAME_PLATE>天音
+「もう少し時間を稼げると思ったが……
+　腐っても“奴”の配下だ、
+　馬鹿ではないらしい」
+<PAUSE>
+<ACTOR>1,hu_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>小太郎
+「だ、誰かに追われて――って、
+　天音さん！？　その傷！！」
+<PAUSE>
+<NAME_PLATE>
+　少年が目を見開く。
+<PAUSE>
+<NAME_PLATE>
+　天音の右足は、内側から肉が
+爆ぜるように醜く破壊されていた。
+<PAUSE>
+<NAME_PLATE>天音
+「……お前はここに隠れていろ、うつけ。
+　宗家の蔵書を下郎どもの血で汚す
+　わけにはいかないからな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう言い捨てると、天音はまともに
+動かぬ右足を引きずって階上に戻った。
+<PAUSE>
+//→S202a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

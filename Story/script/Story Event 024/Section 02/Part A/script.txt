@@ -1,0 +1,595 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：イングリッド執務室＿昼夜共通】【時間：夜】
+//　※監獄戦艦3_nc008aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc280a,IN, 1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「バニーＫが私を狙っているだと？」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　静流からその話を聞いても
+イングリッドは軽く眉をひそめただけだった。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「私が掴んだ情報によるとね。
+　今日はそれをあなたに伝えに来たの」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>イングリッド
+「ふむ……。
+　リーナ、うちが奴らと揉めたことは
+　なかったはずだな」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0021b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はい。
+　特に友好的というわけではありませんが、
+　敵対したこともなかったはずです」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵（柄布なし）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　彼女をここまで連れてきたリーナが
+こちらも特に驚いた様子もなく答える。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「私はヨミハラ町内会の会長として
+　それを阻止したいと考えているわ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「お前以外の意思としてもか？」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの目がすっと鋭くなった。
+<PAUSE>
+<NAME_PLATE>
+　暗殺計画のことを知らされた時より
+よほど怖い顔をしている。
+<PAUSE>
+<NAME_PLATE>静流
+「否定はしないわ」
+<PAUSE>
+<NAME_PLATE>
+　背筋がヒヤリとするのを感じながら
+静流は答えた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは町内会の会長ではなく
+五車の意を受けた対魔忍にどう答えるか、
+少し考えていたようだったが、
+<PAUSE>
+<NAME_PLATE>イングリッド
+「分かった。
+　お前の情報には感謝するが
+　命を狙われるのは日常茶飯事だ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「バニーＫだろうが誰だろうが、
+　私を殺す計画を立てるのは勝手だ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「向こうが直接行動に出てこなければ、
+　こちらから何かをすることはない」
+<PAUSE>
+<NAME_PLATE>静流
+「襲ってくるなら好きにしろ。
+　その時は容赦しないということね」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「その通りだ。
+　リーナ、一応心に留めておけ。
+　ことさら警戒を強める必要もないがな」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0021b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はっ、いつもどおりですね」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「うむ」
+<PAUSE>
+<NAME_PLATE>
+　いつもどおり。
+まさにそれがノマドなのだろう。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「一応聞かせてもらうけれど、
+　バニーＫに狙われる心当たりはある？」
+<PAUSE>
+<NAME_PLATE>
+　そう聞くと
+イングリッドは今日初めて
+怪訝そうな顔になった。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「……いや、特にないな。
+　奴の組織ではなくバニーＫ個人が
+　私を狙っているのか？」
+<PAUSE>
+<NAME_PLATE>静流
+「おそらくね。
+　組織だって動いてはいないようだし」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ますます分からんな。
+　何かの利害関係。私への個人的な恨みか？
+　覚えはないが」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0021b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、
+　わけの分からない理由で襲ってくる輩は
+　いくらでもいます」
+<PAUSE>
+<NAME_PLATE>リーナ
+「最近は私ですらそうなのですから、
+　イングリッド様ならなおさらです」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そうだな。
+　いちいち気にしてもしょうがあるまい」
+<PAUSE>
+<NAME_PLATE>
+　リーナのきっぱりとした進言に
+イングリッドもそう断じた。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「つまり、狙われる理由を
+　調べる気もないということね」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ない」
+<PAUSE>
+<NAME_PLATE>静流
+「あなたのスタンスは分かったわ。
+　でも私は調べさせてもらうわね。
+　この街が荒れるのは望まないもの」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「好きにしろ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それで会談は終わりだった。
+<PAUSE>
+<NAME_PLATE>
+　要するにノマドは何もしないということだが、
+最初から話を伝えられれば十分と考えていた。
+<PAUSE>
+<NAME_PLATE>
+　ノマドほどの組織が動き出せば、
+それに乗じて別の騒乱が起こりかねない。
+<PAUSE>
+<NAME_PLATE>
+　いつもどおりと言ってくれたのは、
+静流にとってはありがたかった。
+<PAUSE>
+<NAME_PLATE>
+　しかも、この件に関して
+彼女が動くことも了解してもらった。
+<PAUSE>
+<NAME_PLATE>
+　なんとか大事にならないうちに
+事態を密かに処理したいところだ。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+「さて、どうしたものかしらね」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>静流
+「狙われてる当人はどうでもよさそうだけど
+　バニーＫのことをもっと詳しく調べた方が
+　いいでしょうね」
+<PAUSE>
+//【黒画面】
+//　※立ち絵
+//　　バニーＫ＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m297a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　バニーＫの経歴は謎に包まれている。
+<PAUSE>
+<NAME_PLATE>
+　“Ｂｕｎｎｙ　Ｋｉｎｇｓ”のボスになる前、
+どこで何をしていたのか全く分からない。
+<PAUSE>
+<NAME_PLATE>
+　全身をサイボーグ化した魔族で、
+頭に兎の耳のような二つの突起があり、
+<PAUSE>
+バニーガールのような姿をしている。
+<PAUSE>
+<NAME_PLATE>
+　ただバニーガールというよりは、
+それを模した戦闘マシーンといった風情だ。
+<PAUSE>
+<NAME_PLATE>
+　特に頭部は完全に機械で覆われていて、
+その下に生身の素顔があるのかないのかも
+分からない。
+<PAUSE>
+<NAME_PLATE>
+　イングリッドへの襲撃を企てるだけあって
+その戦闘能力には定評があり、
+<PAUSE>
+<NAME_PLATE>
+　実力をもってカジノのボスに収まり、
+何度かあった襲撃も全て撃退している。
+<PAUSE>
+<NAME_PLATE>
+　バニーＫも本名ではないだろう。
+Ｋの由来も不明だ。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+「周りからの調べは限界があるし、
+　やっぱり直接潜入してみるしかないわね」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　静流はそう思って下見のために、
+“Ｂｕｎｎｙ　Ｋｉｎｇｓ”まで
+やって来たのだが、
+<PAUSE>
+<ACTOR>0,sz_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「あら、ナイスタイミング」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　来る８月２１日、
+バニーの日に開催されるパーティーのために
+新しいバニーガールを募集している。
+<PAUSE>
+<NAME_PLATE>
+　しかもバニーガールとしては
+あり得ないほど高額だ。
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「やっぱり何か裏がありそうね」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　静流はこれ幸いと店に入っていった。
+<PAUSE>
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc155a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　“Ｂｕｎｎｙ　Ｋｉｎｇｓ”は
+一攫千金を求める客で
+以前を遙かに上回る賑わいを見せていた。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラでは双璧とされていた
+大カジノ“ラビリンス”がなくなったせいで、
+客がこちらに流れ込んでいるのだ。
+<PAUSE>
+<NAME_PLATE>
+　売り上げがどれほどのものになるのか
+想像もつかない。
+<PAUSE>
+<NAME_PLATE>
+　だからといってノマドの大幹部を狙うのは
+常軌を逸しているが。
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「こんにちは」
+<PAUSE>
+<NAME_PLATE>
+　静流は彼女の店の常連でもある
+オークのホールリーダーに声をかけた。
+<PAUSE>
+<ACTOR>0,ts_m115a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ホールリーダー
+「なんでえ、静流じゃネエか。
+　自分の店はどうしたい？」
+<PAUSE>
+//　※立ち絵
+//　　オーク奴隷商人＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>静流
+「グィネヴィアに任せてるから大丈夫。
+　早く仕事に慣れるように、
+　しばらく一人でお店をやらせてるの」
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「ほっ、そいつは厳しいな。
+　また尻でも触られてるんじゃねえか」
+<PAUSE>
+<ACTOR>1,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「そういう時は
+　魔法でおしおきしなさいって
+　言っておいたわ」
+<PAUSE>
+<NAME_PLATE>静流
+「まだ制御が上手くいかないらしいから
+　あなたも変なことするときは
+　覚悟しておいた方がいいわよ」
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「そいつはおっかねえな。
+　尻に触るのも命がけかよ」
+<PAUSE>
+<NAME_PLATE>
+　ホールリーダーはゲラゲラ笑ってから、
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「で、今日はどうしたい？
+　お前さんがここに来るなんて珍しいな」
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「新人バニーガールの募集を見てね」
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「おいおいマジかよ」
+<PAUSE>
+<NAME_PLATE>静流
+「私もせっかくだから
+　ここでバニーガールのことを
+　勉強しようかと思って」
+<PAUSE>
+<NAME_PLATE>静流
+「お給料もすごくいいみたいだし、
+　あと制服支給っていうのが特にいいわね」
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「お前さんならさぞバニーが似合うだろうぜ」
+<PAUSE>
+<NAME_PLATE>
+　その姿を想像したのだろう、
+ホールリーダーは好色な目付きになった。
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「ちょうどいい。
+　もうすぐ今日の試験の時間だ。
+　ちょっと待ってな」
+<PAUSE>
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「試験？　なにかするの？」
+<PAUSE>
+<NAME_PLATE>ホールリーダー
+「ここはヨミハラだぜ。
+　ただバニーが似合ういい女ってだけじゃ
+　駄目ってことよ」
+<PAUSE>
+<NAME_PLATE>
+　ホールを仕切っているオークは
+意味ありげにニヤリと笑った。
+<PAUSE>
+//【時間経過】
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc155a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　試験とは客たちの見ている前で、
+ガーディアンと戦うことだった。
+<PAUSE>
+<NAME_PLATE>
+　もちろんそれも賭けの対象となる。
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「商魂たくましいというか。
+　まあ、ヨミハラらしいわね」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m297a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「…………」
+<PAUSE>
+//　　　※立ち絵
+//　　バニーＫ＿立ち絵（武器なし）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　試験が始まってすぐに
+ホールにバニーＫが現れた。
+<PAUSE>
+<NAME_PLATE>
+　直接見るのは初めてだが、
+サイボーグというよりロボットのように
+冷たい雰囲気だ。
+<PAUSE>
+<NAME_PLATE>静流
+（なぜ彼女がイングリッドの命を
+　狙っているのかしらね）
+<PAUSE>
+<NAME_PLATE>
+　その機械の頭で何を考えているのか、
+バニーＫはバニーガール応募者の戦いぶりを
+じっと見ている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m091a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔族傭兵
+「はあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵(女)＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　※BR-2兼光
+//　　　＊モンスターイラストより流用
+//　※ドローン・ドッグ
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>500
+<BG>nc155a,IN, 500
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャング
+「このガラクタどもっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ドローン・アント
+//　　　＊モンスターイラストより流用
+//　　ドローン・ワスプ
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>500
+<BG>nc155a,IN, 500
+<NAME_PLATE>
+　その報酬の高さにつられたのか
+応募者はかなりの数だった。
+<PAUSE>
+<NAME_PLATE>
+　皆、腕に覚えのあるヨミハラの女たちだ。
+いきなりガーディアンと戦えと言われても
+誰も文句を言わない。
+<PAUSE>
+<NAME_PLATE>
+　剣に銃、あるいは魔法を駆使して、
+カジノを大いに盛り上げている。
+<PAUSE>
+<NAME_PLATE>
+　戦闘用ステージの周りは
+しっかりシールドされていて
+客たちに被害が出ることはない。
+<PAUSE>
+<NAME_PLATE>
+　逆に応募者の方には
+怪我や人死にも出ているが、
+そこはヨミハラ、誰も気にしていない。
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+（バニーガールというよりは
+　新しい衛兵の募集ね）
+<PAUSE>
+<NAME_PLATE>
+　バニーガール兼衛兵。
+それもこの街では珍しくはないが……。
+<PAUSE>
+<NAME_PLATE>静流
+「さて、次は私の番ね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m181a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レプリカント
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ＫＮＳ８レプリカント
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ギリギリに申し込んだためか
+静流が戦うのは最後だった。
+<PAUSE>
+<NAME_PLATE>
+　メインイベントというわけではなかろうが、
+今までよりも格上の相手が出てきた。
+<PAUSE>
+<NAME_PLATE>
+　ＫＮＳ８レプリカント。
+<PAUSE>
+<NAME_PLATE>
+　かつて最強と目されたサイボーグの能力を
+コピーして量産化した屈強なガーディアンだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ホールリーダーを見ると、
+「サービスしといたぜ」という顔をしている。
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「期待してくれちゃってもう。
+　まあ、しょうがないわね」
+<PAUSE>
+<NAME_PLATE>
+　ホールがますます盛り上がるのを感じながら、
+静流は薔薇の鞭を伸ばした。
+<PAUSE>
+//→S202a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,391 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：宇津女神社＿昼】【時間：昼】
+//　※魔王ト聖女＿nc009aより流用
+//nc405a
+<BGM_PLAY>bgm506,1000
+<BG>nc405a,IN, 1000
+<NAME_PLATE>
+　第一試合・メイｖｓ成美は、
+成美さんの勝利となった。
+すぐに第二試合が始まる。
+<PAUSE>
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ＡＣＯ
+「さーて、次の試合は……じゃん！
+　相馬成美さんvs朧さんでーす！」
+<PAUSE>
+//　※立ち絵
+//　　CA001b　アマノウズメ立ち絵イラスト差分
+//　　　＊『アマノウズメ』モンスターイラストより流用
+<NAME_PLATE>ＡＣＯ
+「成美さんは連戦になっちゃうけど、
+　勝利したら優勝決定だね！」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「早くもクライマックス、
+　盛り上がってまいりましたあ！！
+　さ、二人とも真ん中へどーぞ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ＡＣＯさんに促され、
+中央へと進み出た成美さんと
+朧が向かい合う。
+<PAUSE>
+<ACTOR>0,chr_t0314a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+（新入生歓迎イベントの為に三か月、
+　この任務の為にさらに半月特訓したのよ。
+　飛び入りのあなたに勝てるかしら？）
+<PAUSE>
+//　※立ち絵
+//　　【戦慄のチア】相馬成美
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+（ずいぶんと自信あるみたいだけど、
+　私には到底及ぶまいよ）
+<PAUSE>
+//　※立ち絵
+//　　【凄惨なる女王蜂】朧
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　急遽参加を決めたにも関わらず、
+朧の表情は自信に満ちていた。
+<PAUSE>
+<NAME_PLATE>朧
+（なぜかって、そりゃあ――）
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一月ほど前、
+ヨミハラでのこと。
+<PAUSE>
+//【背景：ヨミハラ広場＿昼夜兼用＿雨天】【時間：夜】
+//　※対魔忍アサギZERO_NC034bより流用
+<UI_DISP>OFF, 0
+<BG>nc122b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　あの日、ヨミハラには
+冷たい雨が降っていた。
+<PAUSE>
+//【背景：ヨミハラ裏通り＿昼夜兼用＿雨天】【時間：夜】
+//　※対魔忍アサギZERO_NC035bより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm509,1000
+<BG>nc127b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　濡れた石畳をハイヒールで踏み、
+どこか憂鬱そうに裏通りを歩く女。
+<PAUSE>
+<ACTOR>0,chr_t0004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　朧
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　朧だ。
+彼女は柄にもなくため息をつき、
+服が濡れるのも構わずに雨の中を行く。
+<PAUSE>
+<NAME_PLATE>？？？
+「ボ……」
+<PAUSE>
+<NAME_PLATE>
+　ふと奇妙な声が聞こえた気がして、
+彼女は足を止めた。
+<PAUSE>
+<NAME_PLATE>朧
+「ぼ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m257a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>猫
+「ボォ」
+<PAUSE>
+//　※立ち絵
+//　　おぼ猫（新規描き下ろし）
+//　　　＊首輪なし差分
+<NAME_PLATE>
+　声のするほうを探してみると、
+そこにはどこかユーモラスな毛並みの猫が、
+人をくったような顔をして首をかしげていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「なんだ猫かい。
+　変な鳴き声だね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう言って朧は再び歩き出す。
+<PAUSE>
+<NAME_PLATE>猫
+「オボォ……」
+<PAUSE>
+<NAME_PLATE>朧
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　猫はそんな朧を見つめたまま、
+再び小さく鳴いた。
+<PAUSE>
+<NAME_PLATE>朧
+「…………はあ」
+<PAUSE>
+<ACTOR>0,ts_m257a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　立ち去りかけた朧だったが、
+ため息をついて踵を返すと、
+猫の前にしゃがみこんだ。
+<PAUSE>
+<NAME_PLATE>朧
+「ノラ猫かい？　愛嬌のない顔だねえ。
+　そんなんじゃ餌もろくに
+　くれてやろうって気にならないだろうよ」
+<PAUSE>
+<NAME_PLATE>猫
+「ボ」
+<PAUSE>
+<NAME_PLATE>
+　猫は逃げるでもなく、
+とぼけた顔のまま朧を見つめる。
+<PAUSE>
+<NAME_PLATE>朧
+「お前もひとりかい？
+　ほら、これでも食ってな」
+<PAUSE>
+<NAME_PLATE>
+　朧はクラッカーをひとつ取り出すと、
+猫の前に置いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「……おっと、こうしてる場合じゃない。
+　ショーの時間だね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se078
+<NAME_PLATE>
+　朧は立ち上がると、
+泥水を跳ねさせながら、
+急ぎ足で路地をゆく。
+<PAUSE>
+<NAME_PLATE>
+　猫は無言で、
+その後ろ姿をずっと見送っていた。
+<PAUSE>
+//【背景：ヨミハラ＿ショーパブ＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC040aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc094a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数十分後。
+<PAUSE>
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ヨミハラで朧が経営するパブ。
+そのステージで、オーナーの朧自らが
+チア衣装に身を包んでポーズを決めていた。
+<PAUSE>
+//　※立ち絵
+//　　【凄惨なる女王蜂】朧
+//　　　＊カードイラストより流用
+<NAME_PLATE>ＤＪ
+『我らが女王蜂・朧様による
+　ダンス・ショーでした！』
+<PAUSE>
+<NAME_PLATE>ＤＪ
+『キュートでエネルギッシュなチアダンス！
+　こりゃフロアもブチアゲの
+　ギンギンになっちゃうってもんだぜ！』
+<PAUSE>
+<NAME_PLATE>
+　……………。
+<PAUSE>
+<NAME_PLATE>
+　……………。
+<PAUSE>
+<NAME_PLATE>
+　ＤＪを務める魔族の
+ハイテンションな声とは裏腹に、
+客席は静まり返っていた。
+<PAUSE>
+<NAME_PLATE>
+　やがて居たたまれなくなった従業員たちが、
+パチ、パチ……と
+まばらな拍手を上げる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　実はこの店は長らく閑古鳥が鳴いていて、
+今日はとうとう、
+客入りゼロとなってしまったのだ。
+<PAUSE>
+<NAME_PLATE>
+　ボッタクリとも言えるような価格設定と、
+暴力的で横柄な従業員たちに、さすがの
+ヨミハラ住民たちも愛想をつかしたのだ。
+<PAUSE>
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「この店も潮時かね……」
+<PAUSE>
+<NAME_PLATE>
+　むなしくライトを浴びる、
+空の客席を見下ろして、
+さすがの朧も肩を落とした。
+<PAUSE>
+<NAME_PLATE>朧
+「別に儲けようと思ってやってる訳でも
+　ないんだがね。
+　こうも客が入らないとあっちゃあ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そもそもこの店は、
+朧が個人的なアジト代わりとして、
+また情報収集の拠点として開いたものだ。
+<PAUSE>
+<NAME_PLATE>
+　利潤を追求しているわけでもないが、
+かといって、客が全く入らなくて
+良いというものでもなかった。
+<PAUSE>
+<NAME_PLATE>
+　人が集まらなければ
+情報収集もしようがないし、
+何より朧のプライドが許さない。
+<PAUSE>
+<NAME_PLATE>
+　そこで起死回生の一策として
+ショーを始めてみたのだが――
+<PAUSE>
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+（ダンサーどもは雇った先から逃げちまう。
+　給料はいいってのに、なんでだろうねえ？）
+<PAUSE>
+<NAME_PLATE>
+　それは朧が気まぐれに虐げたり、
+拷問したりするせいなのだが、
+彼女にその自覚はなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そうして、とうとうダンサーたちは
+一人もいなくなってしまい、
+朧自らがステージに立ったのだった。
+<PAUSE>
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「はあ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「ボォ……」
+<PAUSE>
+<NAME_PLATE>
+　その時、ため息をつく朧の耳に、
+妙な声が聞こえた。
+<PAUSE>
+<NAME_PLATE>？？？
+「ボォ……オボォ……」
+<PAUSE>
+<NAME_PLATE>朧
+「あれは……？」
+<PAUSE>
+<ACTOR>0,ts_m257a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>猫
+「オボォ～～～」
+<PAUSE>
+//　※立ち絵
+//　　おぼ猫（新規描き下ろし）
+//　　　＊首輪なし差分
+<NAME_PLATE>
+　声のした方へ目を凝らしてみると、
+さっき餌をやった猫が、入口の傍に
+ちょこんと座っているではないか。
+<PAUSE>
+<NAME_PLATE>
+　あの変な顔でこちらを見つめながら、
+まるで拍手のかわりのように、
+必死に鳴き声をあげている。
+<PAUSE>
+<NAME_PLATE>猫
+「オボォ、ボォ～～～」
+<PAUSE>
+<NAME_PLATE>朧
+「ついてきてたのかい……」
+<PAUSE>
+<NAME_PLATE>
+　朧は苦笑いする。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　猫はそれに応えるように、
+「オボォ～～～」と大きく鳴いた。
+<PAUSE>
+//【背景：宇津女神社＿昼】【時間：昼】
+//　※魔王ト聖女＿nc009aより流用
+//nc405a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc405a,IN, 1000
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>朧
+（あれ以来、なんだか妙に
+　やる気になっちまってね）
+<PAUSE>
+//　※立ち絵
+//　　【凄惨なる女王蜂】朧
+//　　　＊カードイラストより流用
+<NAME_PLATE>朧
+（毎日ダンスに磨きをかけたのさ。
+　ま、客入りは相変わらずだが……）
+<PAUSE>
+<NAME_PLATE>朧
+（愛想のない猫一匹でも、
+　観客がいると心持ちが違うってものよ）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ＡＣＯ
+「二人とも準備はいーい！？」
+<PAUSE>
+//　※立ち絵
+//　　CA001b　アマノウズメ立ち絵イラスト差分
+//　　　＊『アマノウズメ』モンスターイラストより流用
+<NAME_PLATE>ＡＣＯ
+「そんじゃいくよ！
+　ミュージック、スタートっ！！！！」
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

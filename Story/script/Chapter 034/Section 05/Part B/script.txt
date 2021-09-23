@@ -1,0 +1,1916 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//シーン開始。
+//【背景：姫神ヶ岳＿姫神神社＿昼】【時間：昼】
+//　※姫神さま以下略_nc013aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc379a,IN, 1000
+<NAME_PLATE>
+　四人のうち、
+最初に動いたのは扇舟だった。
+<PAUSE>
+<NAME_PLATE>
+　昨夜、アサギと不知火の二人が疲弊するまで
+姿も現さなかった彼女とは別人だ。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR>0,ts_m217a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>扇舟
+「水城不知火！」
+<PAUSE>
+//　※立ち絵
+//　　井河扇舟立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>扇舟
+「昨夜はよくも邪魔してくれたわね」
+<PAUSE>
+<NAME_PLATE>扇舟
+「お前のためにとびっきりの毒を
+　ブレンドしたわ。
+　かすり傷一つで地獄に送ってあげる」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　扇舟は毒手を鉤爪のように掲げ、
+低い姿勢で突っ込んでくる。
+<PAUSE>
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「わざわざどうも」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　相手は井河一門屈指の
+近接戦闘能力の持ち主。
+<PAUSE>
+<NAME_PLATE>
+　しかも本当にかすり傷一つが
+致命傷となる。
+<PAUSE>
+<NAME_PLATE>
+　懐に入られては不利。
+<PAUSE>
+<NAME_PLATE>
+　扇舟は地面を這うようにして
+常軌を逸した速度で接近してくる。
+<PAUSE>
+<NAME_PLATE>
+　その姿は毒蜘蛛そのものだ。
+<PAUSE>
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「はっ、はっ、はあっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　敵の足を止める三段突き。
+<PAUSE>
+<NAME_PLATE>扇舟
+「っ！」
+<PAUSE>
+<SE_PLAY>se003
+<BG_OUT>500
+<NAME_PLATE>
+　扇舟は速度を瞬時に殺し、
+右に左にそれを避ける。
+<PAUSE>
+<NAME_PLATE>
+　あまりに鋭い動きに、
+分身の術を使ったかのように見える。
+<PAUSE>
+<NAME_PLATE>
+　そしていかに不知火といえども
+速さの遅くなる三本目の突きを躱しざま、
+薙刀を脚で踏みつけた。
+<PAUSE>
+<BG>nc379a,IN, 500
+<NAME_PLATE>不知火
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　扇舟が柄を駆け上ってくる。
+<PAUSE>
+<NAME_PLATE>
+　疾い。
+<PAUSE>
+<NAME_PLATE>
+　薙刀を手放すのが遅れる。
+<PAUSE>
+<ACTOR>0,ts_m217a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>扇舟
+「死ねえっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　右の貫手。
+<PAUSE>
+<NAME_PLATE>
+　毒手が不知火の両眼の間に叩き込まれた。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　五本の毒爪が全て脳髄まで突き刺さる。
+<PAUSE>
+<NAME_PLATE>不知火
+「うぐあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　不知火の頭がガクンと震えた。
+<PAUSE>
+<NAME_PLATE>
+　目、鼻、口、耳、顔にある穴の全てから
+紫色の毒血がドッと噴き出す。
+<PAUSE>
+<NAME_PLATE>
+　普通なら即死。
+<PAUSE>
+<NAME_PLATE>
+　だが―――
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,ts_m217a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>扇舟
+「やはりその手ね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<GROUP>
+<BG>nc379a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>
+　扇舟は素早く身を翻した。
+<PAUSE>
+<NAME_PLATE>
+　幻影を囮に背後をとるのが
+不知火の常套手段。
+<PAUSE>
+<NAME_PLATE>
+　鴉野魎馬もそれで倒された。
+<PAUSE>
+<NAME_PLATE>
+　あれは幻影だ。
+<PAUSE>
+<NAME_PLATE>
+　今日の毒ではあんな死に方はしない。
+<PAUSE>
+<NAME_PLATE>
+　その証拠に悶絶死したはずの不知火が
+パッと水になって散っている。
+<PAUSE>
+<NAME_PLATE>
+　扇舟はもうそれを見ていない。
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　彼女の背後を取ろうとして
+本物の不知火が現れたと同時に
+今度こそ毒手を叩き込む。
+<PAUSE>
+<BG_OUT>500
+<NAME_PLATE>不知火
+「生憎だけど」
+<PAUSE>
+<NAME_PLATE>扇舟
+「なっ！？」
+<PAUSE>
+<BG>nc379a,IN, 500
+<NAME_PLATE>
+　その声は後ろから。
+<PAUSE>
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　水になって散ったはずの
+不知火から聞こえた。
+<PAUSE>
+<NAME_PLATE>
+　しかも姿が元に戻っている。
+<PAUSE>
+<NAME_PLATE>
+　毒で死んでもいない。
+<PAUSE>
+<NAME_PLATE>
+　不知火は貫手を仰け反って躱しつつ、
+上半身だけ幻影を使って死を偽装し、
+<PAUSE>
+<NAME_PLATE>
+　扇舟が無防備な背中を向けるのを
+狙っていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　最初の幻影くらいは読むだろうと
+見越した不知火のトリックだった。
+<PAUSE>
+<NAME_PLATE>
+　薙刀の柄を踏ませたことから
+顔面への毒手攻撃まですべて誘い。
+扇舟はそれに引っかかった。
+<PAUSE>
+<NAME_PLATE>扇舟
+「しまっ―――」
+<PAUSE>
+<NAME_PLATE>
+　その顔が恐怖に歪む。
+<PAUSE>
+<NAME_PLATE>
+　逃げられないことを悟ったのだ。
+<PAUSE>
+<NAME_PLATE>
+　必殺の薙刀が振り下ろされんとしたその時。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>不知火
+「っっ！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　不知火は大きく後方に飛び退いていた。
+<PAUSE>
+<NAME_PLATE>
+　シャァアアアアアアアアアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　突然、地面から異形の毒蛇が現れ、
+不知火に襲いかかる。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>不知火
+「はあっっ！！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　薙刀の一撃が毒蛇を斬り伏せた。
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それは星舟がアサギと間合いを計りつつ、
+密かに踏んでいた“柳宿（ぬりこぼし）”で
+召喚した毒蛇であった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　もちろん、アサギはそれを黙って
+見てはいなかった。
+<PAUSE>
+<NAME_PLATE>
+　かといって、奇襲を受けた不知火の
+フォローに入ったわけでもない。
+<PAUSE>
+<ACTOR>0,a_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「やあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　星舟の注意がアサギから不知火に移った
+まさにその瞬間を狙って星舟に斬り掛かる。
+<PAUSE>
+<NAME_PLATE>星舟
+「ふふ」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイインッ！！
+<PAUSE>
+<NAME_PLATE>
+　二人の忍者刀が火花を散らす。
+<PAUSE>
+<NAME_PLATE>
+　星舟はアサギの攻撃を易々と防いだ。
+笑みさえ浮かべていた。
+<PAUSE>
+<NAME_PLATE>
+　孫の行動を予期していたという顔だ。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc379a,IN, 500
+<ACTOR>0,ts_m254c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「残念ね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,a_t013d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「ちっ」
+<PAUSE>
+<NAME_PLATE>不知火
+「ああ、ビックリした」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m254c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m217a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>扇舟
+「は、母上……」
+<PAUSE>
+<NAME_PLATE>
+　四人は左右に分かれ、
+距離を取って態勢を立て直す。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,a_t013d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m254c,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「不知火は扇舟にまかせたのではないのか？」
+<PAUSE>
+<NAME_PLATE>星舟
+「母親としては放っておけないの」
+<PAUSE>
+<NAME_PLATE>アサギ
+「よく言う。
+　もし不知火が逃げなかったら、
+　今の蛇は扇舟をも食らっていたぞ」
+<PAUSE>
+<NAME_PLATE>扇舟
+「……っ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m254c,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　扇舟はハッとして星舟を見やった。
+<PAUSE>
+<NAME_PLATE>
+　母親は自分を囮にして、
+何かと邪魔な幻影の力を使う不知火を
+まず潰そうとしたのだ。
+<PAUSE>
+<NAME_PLATE>星舟
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　星舟は愕然とする娘の顔を
+見ようともしない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,a_t013d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m217a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「扇舟、こんな母親にまだ従うのか？
+　こいつはお前の命などなんとも
+　思っていないぞ」
+<PAUSE>
+<NAME_PLATE>扇舟
+「黙りなさい、アサギ。
+　それが母上の望みであるなら
+　私にはなんの迷いもないわ！」
+<PAUSE>
+<NAME_PLATE>
+　扇舟はきっぱりと言い切った。
+<PAUSE>
+<NAME_PLATE>
+　母親への恐怖か盲信か、
+さらに戦意を高めたようであった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m254c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「良い子ね、扇舟」
+<PAUSE>
+<NAME_PLATE>
+　星舟はようやく娘を見ると、
+満足げに微笑んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,a_t013d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>不知火
+「今のが“禹歩”。驚いたわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「あの女のステップには注意しろ。
+　なにが飛び出してくるか分からない」
+<PAUSE>
+<NAME_PLATE>
+　アサギは星舟から視線を逸らさずに言った。
+<PAUSE>
+<NAME_PLATE>不知火
+「逆に言えばステップさえ踏ませなければ、
+　なにも飛び出してこないってことね」
+<PAUSE>
+<NAME_PLATE>
+　不知火が薙刀を中段に構え直す。
+<PAUSE>
+<NAME_PLATE>アサギ
+「そうだ。
+　術の発動までに手間がかかる。
+　それが“禹歩”の最大の弱点だ」
+<PAUSE>
+<NAME_PLATE>
+　そのアサギの言葉を聞き、
+星舟の笑みが大きくなった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「ウフフフフフ。
+　ご講釈ありがとう、アサギ。
+　でもそんなことは大した問題じゃないわ」
+<PAUSE>
+<NAME_PLATE>星舟
+「私が、ステップを踏む間、
+　囮になってくれるのは
+　この子だけじゃないもの」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　星舟が言うと同時に、
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m122a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m122a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ザザザッッ！！
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜魔性＞立ち絵
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ザザザザッッ！！
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜剣士＞
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<NAME_PLATE>
+　星舟配下のクーデター部隊が現れ、
+アサギと不知火を包囲した。
+<PAUSE>
+<NAME_PLATE>
+　二人の襲撃を知り、
+星舟が予め四方に配してあった部隊が
+殺到したのであった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,a_t013d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　アサギは素早く周囲に目を配る。
+<PAUSE>
+<NAME_PLATE>不知火
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　不知火もまた無言で
+アサギの背中を守る構えを見せた。
+<PAUSE>
+<NAME_PLATE>
+　それを二人の悪あがきととったか、
+星舟はさも楽しげに喋り始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m254c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「あなた、自分の配下を
+　五車の奪還に向かわせたそうね。
+　それは悪手よ」
+<PAUSE>
+<NAME_PLATE>星舟
+「陽動のつもりだろうけど、
+　五車を奪還されたところで
+　また制圧すれば良い」
+<PAUSE>
+<NAME_PLATE>星舟
+「アサギ、お前の首さえ取ればね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「取れればな」
+<PAUSE>
+<NAME_PLATE>星舟
+「簡単なことよ。
+　じゃあさっそく二人で
+　この子たちの相手をしてもらおうかしら」
+<PAUSE>
+<ACTOR>0,ts_m254d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>星舟
+「私はその間、とっておきのステップを
+　ゆっくり踏ませてもらうから。
+　アハハハハハハハハハ！！」
+<PAUSE>
+//　※立ち絵
+//　　葉取星舟立ち絵（悪い顔の差分）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　星舟は邪悪な本性を剥き出しにして
+高らかに嘲笑する。
+<PAUSE>
+<NAME_PLATE>
+　アサギはニヤリとした。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,a_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「度しがたいな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>星舟
+「……！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「私が一番危惧していたのは
+　お前に逃げ回られることだ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「持久戦に持ち込まれ、時間稼ぎをされたら
+　時はお前に味方して負けていたからな」
+<PAUSE>
+<NAME_PLATE>アサギ
+「お前が私の動きを喝破し、
+　圧倒的有利な状況を演出できたと
+　確信させる事が出来れば」
+<PAUSE>
+<NAME_PLATE>アサギ
+「その時こそ私に勝機がある」
+<PAUSE>
+<ACTOR>1,a_t013a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m254d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>星舟
+「ふん、負け惜しみを」
+<PAUSE>
+<NAME_PLATE>星舟
+「お前たちがたった二人で
+　乗り込んできた間抜けであることに
+　変わりはないわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「私がいつそんなことを言った？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アサギがさっと左手を挙げた途端、
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬨の声
+「うぉおおおおおおおおおおおおおおおお
+　おおおおおおおおっ！！」
+<PAUSE>
+<NAME_PLATE>
+　霊山を揺るがすかと思うほどの
+凄まじい鬨の声が四方から上がった。
+<PAUSE>
+<NAME_PLATE>
+　そして―――。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m215a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m215a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ob_t001e,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>甲河朧
+「甲河忍軍、参上！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍傭兵（甲河忍軍として使用）
+//　　　＊カードイラストより流用
+//　　甲河朧戦闘立ち絵（覆面）＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+//　　対魔忍傭兵（甲河忍軍として使用）
+//　　　＊カードイラストより流用
+//　　※朧を真ん中に
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m096a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m096a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m083a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>矢車弥右衛門
+「ぐはははははは！　ふうま一の伊達男！
+　矢車弥右衛門ここに見参！
+　おうおう、噂通りのロリに美魔女じゃのう」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)
+//　　　＊モンスターイラストより流用
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストより流用
+//　　ふうま土遁衆(男)
+//　　　＊モンスターイラストより流用
+//　※弥右衛門を真ん中に
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m015a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m015a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m056a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>八百比丘尼
+「うふふ、弥右衛門、
+　今日はあなたの趣味は自重しておきなさい。
+　八百比丘尼、推参いたしました」
+<PAUSE>
+//　※立ち絵
+//　　ふうま刺客
+//　　　＊モンスターイラストより流用
+//　　八百比丘尼
+//　　　＊モンスターイラストより流用
+//　　ふうま刺客
+//　　　＊モンスターイラストより流用
+//　※比丘尼を真ん中に
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,t_t012b,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま時子
+「我が名はふうま時子！
+　我らふうま宗家、弾正様の無念を
+　晴らすため参上！　葉取星舟、お覚悟！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)
+//　　　＊モンスターイラストより流用
+//　　ふうま時子-少女時代汎用立ち絵_武装
+//　　ふうま火遁衆(女)
+//　　　＊モンスターイラストより流用
+//　※時子を真ん中に
+<NAME_PLATE>
+　現れたのは甲河家、ふうま宗家からなる
+連合対魔忍軍団だった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　その数はクーデター部隊を
+圧倒的に上回っている。
+<PAUSE>
+<ACTOR>0,ts_m254c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>星舟
+「馬鹿な、こんなことが！
+　アサギ！　貴様！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,a_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「念のため言っておくが
+　不知火の幻影ではないぞ」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>不知火
+「うふふ、だったらよかったのにね」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「くっ！　お前たちやれ！！
+　こいつらを皆殺しにしろ！」
+<PAUSE>
+//　※立ち絵
+//　　葉取星舟立ち絵（悪い顔の差分）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　予想外の事態に十代の少女の仮面が
+音を立てるように剥がれ落ちていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アサギと星舟、双方の闘いは
+一気に集団戦へと変わった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m215a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m215a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>甲河忍軍
+「やああああっっ！！」
+「食らえ！　空遁かまいたち！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍傭兵（甲河忍軍として使用）
+//　　　＊カードイラストより流用
+//　　※複数出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m015a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m096a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま宗家軍
+「土遁の神髄、見せてくれる！！」
+「井河のやつばらめ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)
+//　　　＊モンスターイラストより流用
+//　　ふうま刺客
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま宗家軍
+「弾正様の仇！！」
+「思い知れ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)
+//　　　＊モンスターイラストより流用
+//　　ふうま火遁衆(女)
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m122a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クーデター部隊
+「くっ、こ、こいつら！！
+「この死に損ないどもが！！」
+「か、返り討ちに―――ぐああ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜魔性＞立ち絵
+//　　　＊モンスターイラストより流用
+//　　対魔忍＜剣士＞
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　対魔忍たちの超常の忍法が
+互いにぶつかり合った。
+<PAUSE>
+<NAME_PLATE>
+　しかしクーデター部隊は数で劣り、
+たった二人を包囲殲滅するつもりが、
+自分たちがそれをされる羽目になっている。
+<PAUSE>
+<NAME_PLATE>
+　その上―――。
+<PAUSE>
+<ACTOR>0,ob_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「甲河流対魔殺法・指爪嵐！！」
+<PAUSE>
+//　　甲河朧戦闘立ち絵（覆面）＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+//　　※指爪嵐エフェクト
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　朧が繰り出す神速の指爪は
+敵の体を紙切れのように切り裂く。
+<PAUSE>
+<BG>nc379a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m083a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m083a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>矢車弥右衛門
+「忍法・隠れ身の術“無形秘擬”
+　男祭りでござーーい！！」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+//　※弥右衛門を三体並べてください
+<NAME_PLATE>
+　矢車弥右衛門が生み出す土の分身は
+向かい来る敵を次々と肉塊にする。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八百比丘尼
+「相変わらず悪趣味な技だこと。
+　お前たちは私の“人魚の碧眼”で
+　ゆるりと殺してあげましょうぞ」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　その優しげな言葉とは裏腹に、
+比丘尼の邪眼は相手を異形の化け物に変え、
+生命エネルギーを奪って殺戮する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,t_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「邪眼“千里眼”
+　“百鬼夜行”！！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装（千里眼水晶球）
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　そして幼いながら、
+ふうま宗家の執事である時子が放つクナイは
+文字通り百発百中で敵を仕留めていく。
+<PAUSE>
+<BG>nc379a,IN, 500
+<NAME_PLATE>
+　いずれ劣らぬ一騎当千の対魔忍達。
+<PAUSE>
+<NAME_PLATE>
+　彼らに率いられる
+甲河・ふうま宗家の大部隊。
+<PAUSE>
+<NAME_PLATE>
+　クーデター部隊は本来の力の半分も
+発揮できずに倒されていった。
+<PAUSE>
+<NAME_PLATE>
+　闘いの趨勢は
+すでに決まったも同然だった。
+<PAUSE>
+<NAME_PLATE>
+　その最中、
+アサギは星舟と、不知火は扇舟と
+一騎打ちに臨んでいた。
+<PAUSE>
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「アサギ！！　甲河とふうまの力など借りて
+　この先どうやって
+　五車でやっていくつもり？」
+<PAUSE>
+//　※立ち絵
+//　　葉取星舟立ち絵（悪い顔の差分）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　互いに激しく切り結びながら、
+星舟がそれ以上の激しさで
+アサギに問いかける。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,a_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「どうやってもなにも、
+　私は最初から家々の融和を目指している！」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>アサギ
+「それが私の目指す五車。
+　私が目指す対魔忍だ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「愚か者めっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　星舟は怒りと共に刃を叩きつけた。
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,a_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「自分の未来にしか興味のない
+　老人に分かってもらおうとは思わない」
+<PAUSE>
+<NAME_PLATE>
+　アサギはそれを正面から受け止める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイインッッ！！
+<PAUSE>
+<NAME_PLATE>
+　二人の生き様の違いを示すかのような
+激しい火花が飛び散った。
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「くっ！！
+　術の発動までに時がかかるだと。
+　私の星遁を舐めるな、アサギ！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　アサギの剣圧の強さに負けたと見せ、
+星舟が身を引きながらとんとんとんと
+あるステップを踏んだ。
+<PAUSE>
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「禹歩“鬼宿（たまおのぼし）”！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>アサギ
+「来るかっ！」
+<PAUSE>
+<NAME_PLATE>
+　見た目に変化はない。
+<PAUSE>
+<NAME_PLATE>
+　何かが召喚された気配もない。
+<PAUSE>
+<NAME_PLATE>
+　なにをした？　どんな術を使った？
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>星舟
+「はああああああああああっっ！！」
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　星舟が再び打ち込んでくる。
+<PAUSE>
+<NAME_PLATE>
+　またそれを正面から受け止めようとして、
+<PAUSE>
+<NAME_PLATE>
+　ゾワッ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「……っ！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc379a,IN, 500
+<NAME_PLATE>
+　背筋を鋭く走った悪寒に
+アサギは大きく身を引いていた。
+<PAUSE>
+<NAME_PLATE>
+　同時に刀を合わせて、受け流そうとする。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギャギィイインッ！！！
+<PAUSE>
+<NAME_PLATE>
+　予想を遙かに超える剛力。
+<PAUSE>
+<NAME_PLATE>
+　駄目だ。流しきれない。
+<PAUSE>
+<NAME_PLATE>
+　刀を折られる。
+<PAUSE>
+<NAME_PLATE>アサギ
+「くあっっ！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<BG>nc379a,IN, 500
+<NAME_PLATE>
+　その寸前、相手の刀の腹を蹴り飛ばし、
+かろうじて力を横に逃す。
+<PAUSE>
+<NAME_PLATE>
+　ズガッッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　星舟の刀は大地に食い込み、
+冗談のような深い亀裂を作り出した。
+<PAUSE>
+<GROUP>
+<ACTOR>1,a_t013d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m254d,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>星舟
+「フフフ、勘だけは鋭いわね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「馬鹿力の術とはね」
+<PAUSE>
+<NAME_PLATE>
+　アサギは軽口を叩いたが、
+背中には冷たい汗が流れていた。
+<PAUSE>
+<NAME_PLATE>
+　今の力、八津九郎の不死覚醒に匹敵する。
+<PAUSE>
+<NAME_PLATE>星舟
+「シンプル・イズ・ベストよ。
+　死ねえ！　アサギ！！」
+<PAUSE>
+<SE_PLAY>se003
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　星舟は猛然と襲いかかって来た。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>500
+<BG>nc379a,IN, 500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、不知火と扇舟の闘いは
+佳境を迎えていた。
+<PAUSE>
+<ACTOR>0,ts_m217a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>扇舟
+「不知火！
+　お前さえいなければ！！
+　お前さえ邪魔をしなければ！！」
+<PAUSE>
+//　※立ち絵
+//　　井河扇舟立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　聖母とも美魔女とも呼ばれた扇舟は
+すでに冷静さを失っていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ただ闇雲に不知火に突っかかり、
+毒手を右に左に振り回す。
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「そういうものでもないと思うけれど」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　不知火は辟易しながら、
+それを薙刀で巧みに捌いていた。
+<PAUSE>
+<BG>nc379a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>扇舟
+「黙れ、この女狐が！
+　愛する夫と娘だと！？　ふざけるな！！
+　その幸せ面をズタズタにしてやる！」
+<PAUSE>
+<NAME_PLATE>不知火
+「なんだか知らないけど
+　ずいぶんと恨まれたものね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　不知火はやれやれといった顔で、
+今の彼女にぴったりな
+とっておきの忍法を使った。
+<PAUSE>
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「水遁の術・幻影乱舞！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　爽やかな水飛沫が不知火を取り囲むと、
+<PAUSE>
+<ACTOR>2,chr_t0311a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　その姿が一人、二人、三人、四人、
+五人、十人と増えていく。
+<PAUSE>
+//　※不知火の立ち絵を沢山並べてください。
+<NAME_PLATE>扇舟
+「おのれおのれおのれえええええ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　扇舟は般若の形相となって、
+幾人もの不知火に手当たり次第に
+毒手を突き立てようとした。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　だが全て幻影だ。
+かすり傷で敵を絶命させる毒手は
+虚しくそれらを素通りしていく。
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　しかも幻影の不知火が放つ水弾が
+四方から扇舟を滅多打ちにする。
+<PAUSE>
+<NAME_PLATE>扇舟
+「ぐあああああああああああっ！！」
+<PAUSE>
+<BG>nc379a,IN, 500
+<GROUP>
+<ACTOR>2,chr_t0311a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>不知火
+「無駄よ。
+　防御は虚。攻撃は実。
+　それが私の幻影」
+<PAUSE>
+<NAME_PLATE>不知火
+「故に私は幻影不知火。
+　もう大人しくしなさい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　不知火の薙刀が一閃した。
+<PAUSE>
+<NAME_PLATE>
+　毒手が両方とも手首から切り落とされる。
+<PAUSE>
+<NAME_PLATE>扇舟
+「ぎゃああああ！！」
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　絶叫する扇舟の腹を
+さらに薙刀の柄で一突き。気絶させた。
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「この人が素直に情報を
+　吐いてくれるとは思えないけど、
+　生け捕りはアサギの頼みだしね」
+<PAUSE>
+<NAME_PLATE>
+　不知火はアサギと星舟との闘いを見やる。
+<PAUSE>
+<NAME_PLATE>
+　アサギが星舟に追い立てられていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>500
+<BG>nc379a,IN, 500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>星舟
+「どうしたどうした！？
+　その程度の力で
+　私と戦うつもりだったのか！」
+<PAUSE>
+//　※立ち絵
+//　　葉取星舟立ち絵（悪い顔の差分）
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アサギは鬼神のごとき星舟の斬撃を
+辛くも躱し続けていた。
+<PAUSE>
+<NAME_PLATE>
+　もし防御以外の行動をしようとしたら
+間違いなく斬られている。
+<PAUSE>
+<NAME_PLATE>
+　それほどの剛剣だった。
+<PAUSE>
+<NAME_PLATE>
+　しかしすでに敵の動きは見切った。
+<PAUSE>
+<NAME_PLATE>
+　気も充分に高まった。
+<PAUSE>
+<NAME_PLATE>
+　体内を流れる対魔粒子は熱くたぎり、
+今にも弾けそうだ。
+<PAUSE>
+<BG>nc379a,IN, 500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「フハハハハハハハハハハ！！
+　所詮お前はまだひよっこ。
+　この私にかなうものか！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,a_t016d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ならば私の真の力
+　とくと見てもらおう！」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ｃ＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「やれるものならなっっ！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「はっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>500
+<SE_PLAY>se003
+<BG>nc379a,IN, 500
+<ACTOR>0,a_t016d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　傲然たる打ち込みを
+大きく飛び退いて躱すと、
+アサギは隼の術のモーションに入った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m254d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>星舟
+「無駄だ！
+　お前の隼の術は私には通用しない。
+　禹歩“壁宿（なまめぼし）”！！」
+<PAUSE>
+<NAME_PLATE>
+　敵も然る者。
+<PAUSE>
+<NAME_PLATE>
+　アサギが忍法を使う機を読み、
+素早く防御のステップを踏む。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　見るからに強力な防御結界が
+星舟を包み込んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,a_t016d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ゆくぞっ！！」
+<PAUSE>
+<NAME_PLATE>
+　アサギは構わず
+まだ誰にも見せたことのない
+忍法を放つ。
+<PAUSE>
+<NAME_PLATE>
+　それは―――
+<PAUSE>
+<NAME_PLATE>アサギ
+「忍法・殺陣華っ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>星舟
+「なっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 400
+<NAME_PLATE>
+　その瞬間、
+星舟の視界いっぱいに
+無数のアサギが見えた。
+<PAUSE>
+<NAME_PLATE>
+　その数は数十、いや数百。
+<PAUSE>
+<NAME_PLATE>アサギ
+「はぁああああああああああああああっ！！」
+<PAUSE>
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　数えきれないアサギの斬撃が
+一度に星舟を襲った。
+<PAUSE>
+<NAME_PLATE>
+　凶事が自ら遠ざかる
+“壁宿”の結界が役に立たない。
+<PAUSE>
+<NAME_PLATE>星舟
+「ぐあがあああああああっっ！！」
+<PAUSE>
+<SE_PLAY>se010
+<BG>nc379a,IN, 500
+<NAME_PLATE>
+　一瞬で数百の傷を受け、
+全身から血を噴き出させて、
+星舟はその場に倒れ伏した。
+<PAUSE>
+<NAME_PLATE>星舟
+「ま……まさか……
+　……こん……な……技を……
+　さ、最強の……対魔……忍…………」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,a_t013d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「即死させるつもりだったが。
+　さすがだな」
+<PAUSE>
+<NAME_PLATE>星舟
+「ぐ、ぐぐ……うぐう……」
+<PAUSE>
+<NAME_PLATE>
+　星舟は地面を這いつくばって
+逃げようとしている。
+<PAUSE>
+<NAME_PLATE>
+　しかし真っ赤に染まった身体は
+その場でジタバタするだけだ。
+<PAUSE>
+<NAME_PLATE>
+　もう一歩も動けはしない。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>アサギ
+「往生際が悪いぞ。観念しろ」
+<PAUSE>
+<NAME_PLATE>
+　アサギはとどめを刺そうと
+星舟に近づいた。
+<PAUSE>
+<NAME_PLATE>
+　だが―――
+<PAUSE>
+<NAME_PLATE>
+//　※星舟の立ち絵オフ
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　惨めにあがいていた星舟の姿が
+ふっと消えた。
+<PAUSE>
+<ACTOR>0,a_t013c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサギ
+「しまった！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　禹歩“牛宿（いなみぼし）”
+<PAUSE>
+<NAME_PLATE>
+　５０メートルほどの短い距離だが、
+瞬間移動を可能とする技だ。
+<PAUSE>
+<NAME_PLATE>
+　ジタバタすると見せ、
+足をほんの僅かに動かして、
+ステップを踏んでいたのだ。
+<PAUSE>
+<ACTOR>1,t_t012b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「星舟が消えた！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵_武装
+<ACTOR>1,t_t012b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,a_t013e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「慌てるな！
+　やつは短い距離しか飛べない。
+　それに死にかけだ。すぐ近くにいる」
+<PAUSE>
+<NAME_PLATE>時子
+「皆の者！！
+　弾正様の仇だ！　星舟を逃がすな！」
+<PAUSE>
+<NAME_PLATE>ふうま宗家軍
+「「「ははっっ！！」」」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　時子の命令で、
+ふうま宗家の部隊はあっという間に
+周囲に散っていった。
+<PAUSE>
+<NAME_PLATE>
+　星舟と扇舟の首領二人を失い、
+クーデター部隊は瓦解。
+<PAUSE>
+<NAME_PLATE>
+　僅かな生き残りは散り散りに逃げていく。
+こうして戦闘は終了した。
+<PAUSE>
+<NAME_PLATE>
+　その場に残ったのはアサギ、不知火、
+そして朧と甲河家の部隊だけだ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ob_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「最後の最後でツメが甘かったようね。
+　まあ、そこがあなたらしいけれど」
+<PAUSE>
+//　※立ち絵
+//　　甲河朧通常立ち絵(素顔)＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>
+　朧は覆面をとって
+素顔でアサギに声をかけてきた。
+<PAUSE>
+<ACTOR>0,ob_t003a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,a_t011c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>
+　アサギは無言。
+<PAUSE>
+<NAME_PLATE>
+　ツメの甘さは自分でも分かっていた。
+<PAUSE>
+<ACTOR>0,ob_t003c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「でも結果は結果として、
+　前回と今回の分の報酬は払ってもらうわよ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「もちろん約束は果たす」
+<PAUSE>
+<ACTOR>0,ob_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「そう、よろしくね」
+<PAUSE>
+<NAME_PLATE>
+　朧はにっこりと笑うと、
+さっと身を翻した。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　彼女率いる甲河家部隊は
+風のように去っていった。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<GROUP>
+<ACTOR>0,a_t011c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>不知火
+「ふうま宗家はともかく、
+　まさか甲河も引っ張り出すとはね。
+　どうやって彼女を味方に付けたの？」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>アサギ
+「甲河一門は五車に移住せず、
+　これまで通り甲河の里にいる事を許した」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>不知火
+「政府が許したの！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「政治だ」
+<PAUSE>
+<NAME_PLATE>
+　ぶっきらぼうに答えるアサギに
+不知火はくすりと笑った。
+<PAUSE>
+<NAME_PLATE>不知火
+「政治ねえ。あの山本って人、
+　ずいぶんと頼りになるみたいね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「無駄に敵を作る必要はない。
+　まだこの騒乱が終わったわけでは
+　ないのだからな」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>不知火
+「そうね。
+　闘いは始まったばかりよ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「星舟はお前が私についたのを驚いていたが、
+　これからも付き合ってもらうぞ、不知火」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+//　※刀を抜いた状態
+<ACTOR>0,a_t013b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　アサギは悪鬼六門を抜き、
+その刃を不知火に差し出した。
+<PAUSE>
+<NAME_PLATE>不知火
+「私はあなたの剣となる。
+　この幻影不知火を使いこなしてみなさい」
+<PAUSE>
+<NAME_PLATE>
+　不知火が自分の薙刀をカチンと合わせる。
+<PAUSE>
+<NAME_PLATE>
+　それは二人の誓いだった。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後。
+<PAUSE>
+<NAME_PLATE>
+　八津九郎が率いる部隊は五車の奪還に成功。
+<PAUSE>
+<NAME_PLATE>
+　長老衆は弱体化。
+<PAUSE>
+<NAME_PLATE>
+　アサギは五車に新たな支配体制を確立し、
+いつしか『最強の対魔忍』の二つ名で
+呼ばれるようになった。
+<PAUSE>
+<NAME_PLATE>
+　井河扇舟はなんら有益な情報を話すことなく
+アミダハラ監獄に収監。
+<PAUSE>
+<NAME_PLATE>
+　葉取星舟の消息は不明。
+<PAUSE>
+<NAME_PLATE>
+　必死の探索にも関わらず、
+死体すら発見されなかった。
+<PAUSE>
+<NAME_PLATE>
+　だが、現在にいたるまで、
+星舟の生存を疑わせる情報は
+一つとして上がっていない。
+<PAUSE>
+//※回想終了
+//【背景：五車町＿さくら並木＿昼】【時間：昼】
+//　　※対魔忍アサギZERO_nc076bより流用
+//nc399a
+<BGM_PLAY>bgm506,1000
+<BG>nc399a,IN, 1000
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　アサギは桜をじっと見つめていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　脳裏によぎるのは彼女の姿。
+<PAUSE>
+<NAME_PLATE>
+　いつもそばにいてくれた。
+<PAUSE>
+<NAME_PLATE>
+　どんなときもアサギを支えてくれた。
+<PAUSE>
+<NAME_PLATE>
+　だが彼女はもういない。
+<PAUSE>
+<NAME_PLATE>
+　いなくなってしまった。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+（不知火、お前は今どこにいる？
+　何をしているんだ？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あの後、不知火は９年間にわたって
+アサギの右腕になってくれた。
+<PAUSE>
+<NAME_PLATE>
+　今の五車の礎を作るのに貢献したが、
+５年前に夫と娘を残して失踪。
+<PAUSE>
+<NAME_PLATE>
+　最近になって『幻影の魔女』を
+名乗る魔族の名を聞く。
+<PAUSE>
+<NAME_PLATE>
+　それがあの不知火であるかどうかは
+はっきりしない。
+<PAUSE>
+<NAME_PLATE>
+　だが、もしそうであるなら、
+いつか必ず自分の前に現れるだろう。
+<PAUSE>
+<NAME_PLATE>
+　おそらくは敵として。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　桜がはらはらと散っていく。
+<PAUSE>
+<NAME_PLATE>
+　美しくも儚い春の眺めだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<GROUP>
+<BG>nc399a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>
+　ふっと背後に誰かの気配を感じ、
+アサギは振り返った。
+<PAUSE>
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「アサギ、こんなところで
+　一人でなにをしているの？」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　一瞬、かつてと同じ姿の不知火が
+そこにいたような気がしたが、
+<PAUSE>
+<ACTOR>1,m_t008a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>八津紫
+「あ、アサギ様っ！」
+<PAUSE>
+//　※立ち絵
+//　　【宴の女教師】八津紫
+//　　　＊カードイラストより流用
+<NAME_PLATE>アサギ
+「……紫」
+<PAUSE>
+<NAME_PLATE>
+　桜の木の後ろから出てきたのは
+紫だった。
+<PAUSE>
+<NAME_PLATE>紫
+「は、はい、紫です。アサギ様！！」
+<PAUSE>
+<ACTOR>1,m_t008a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,a_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「どうしたの？　妙に顔が赤いわね」
+<PAUSE>
+<NAME_PLATE>紫
+「そ、そ、そうですか！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ、真っ赤よ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫
+「す、す、すいません！
+　その桜の下で一人たたずんでいる
+　アサギ様の姿があまりにも孤高で美しくて」
+<PAUSE>
+<NAME_PLATE>紫
+「ついハァハァ……あっ、じゃなくて！
+　なんだかお邪魔してはいけないと、
+　ここでこっそり見ていました！」
+<PAUSE>
+<ACTOR>0,a_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふふ、そう」
+<PAUSE>
+<NAME_PLATE>
+　アサギの口元がふっと緩んだ。
+<PAUSE>
+<NAME_PLATE>紫
+「アサギ様？　どうされましたか？
+　なにか楽しいことでも？」
+<PAUSE>
+<ACTOR>0,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ちょっとね。
+　少し二人でお花見していきましょうか？」
+<PAUSE>
+<NAME_PLATE>紫
+「はい、是非！」
+<PAUSE>
+<NAME_PLATE>
+　紫が駆け寄ってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう、不知火はもういない。
+<PAUSE>
+<NAME_PLATE>
+　けれど、今の自分にはこの紫を始めとして、
+信頼できる新しい仲間がいる。
+<PAUSE>
+<NAME_PLATE>
+　アサギは風を感じていた。
+<PAUSE>
+<NAME_PLATE>
+　爽やかな春の風が
+桜の花を空に舞い上がらせていった。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

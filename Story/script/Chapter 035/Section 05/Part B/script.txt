@@ -1,0 +1,1007 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：とある山村＿隠し神の領域＿魔窟＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc016aより流用
+//nc412a
+<BGM_PLAY>bgm313,1000
+<BG>nc412a,IN, 1000
+<NAME_PLATE>
+　禍々しい妖気の渦巻く異空間に
+鮮烈な雷光が煌めく。
+<PAUSE>
+<ACTOR>0,chr_t0331b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「雷遁・電光石火！！！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐02＿エフェクト
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,s_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「い、いくぞ！！
+　電遁の術“バンビーノ・スパーク”！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装（小鹿）
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチバチバチバチバチ！！！
+<PAUSE>
+<NAME_PLATE>
+　雷を纏った燐が切り込み、
+それを鹿之助が電遁で援護する。
+<PAUSE>
+<NAME_PLATE>
+　電撃使い二人による
+息の合った連携である。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　おぞましい本性を現した隠し神の
+巨体に幾つもの電撃が突き刺さる。
+<PAUSE>
+<NAME_PLATE>
+　並みの魔物であれば一瞬で
+消し炭になっている凄まじい威力。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<BG>nc412a,IN, 500
+<ACTOR>0,ts_m262b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>隠し神
+「ひひひひひひひひひひひっ！！
+　かゆいかゆい！！」
+<PAUSE>
+//　※立ち絵
+//　　隠し神＿差分（口を開ける）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>隠し神
+「どうしたのじゃ人間！！？
+　かような脆弱な攻めでわしを討てる
+　とでも！？　ひひ、愚か愚か！」
+<PAUSE>
+<NAME_PLATE>
+　にゅるり。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　びゅるるるるるるるるるるっ！！
+<PAUSE>
+<NAME_PLATE>燐＆鹿之助
+「あがっ！！？」
+「くうっ！？　ね、姉ちゃんっ！！」
+<PAUSE>
+<NAME_PLATE>
+　がばりと巨大な口が開き、
+そこから分厚いムチのような舌が
+二人に襲い掛かった。
+<PAUSE>
+<NAME_PLATE>
+　強烈なスピード、
+そして渾身の攻撃の直後である。
+<PAUSE>
+<NAME_PLATE>
+　二人はそれを避けきれず――
+特に燐は、鹿之助を庇うように
+動いたために強烈な一撃を受ける。
+<PAUSE>
+<BG>nc412a,IN, 500
+<ACTOR>0,ts_m262b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>隠し神
+「ひひひひひひ。女、
+　お前を食うのは楽しみじゃぞ！」
+<PAUSE>
+<NAME_PLATE>隠し神
+「この村には
+　しなびた老人しかおらぬのでなぁ！
+　柔らかな肉は久方ぶりじゃ！」
+<PAUSE>
+<NAME_PLATE>燐
+「ぐっ。悪鬼が……」
+<PAUSE>
+<NAME_PLATE>
+　とっさに後方に飛んで
+体勢を立て直す燐。
+<PAUSE>
+<NAME_PLATE>
+　激痛でその怜悧な顔が歪んでいる。
+<PAUSE>
+<NAME_PLATE>
+　隠し神との戦闘は、
+圧倒的なまでに二人の劣勢であった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ねっ、姉ちゃん大丈夫！！？
+　っていうか、あいつ何なんだよ！
+　俺たちの攻撃が全然通じない！」
+<PAUSE>
+<NAME_PLATE>燐
+「ああ……。何かはわからないが、
+　奴には妙な力がある」
+<PAUSE>
+<NAME_PLATE>燐
+「腐っても“神”と
+　呼ばれるだけはあるらしい……」
+<PAUSE>
+<NAME_PLATE>
+　切迫した顔の鹿之助に燐が低く囁いた。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　すでに二人の体は傷だらけだった。
+<PAUSE>
+<NAME_PLATE>
+　隠し神の武器は巨大な牙と舌、
+そして口内から放たれる瘴気のガス。
+<PAUSE>
+<NAME_PLATE>
+　その攻撃だけでも恐るべき相手。
+<PAUSE>
+<NAME_PLATE>
+　だが、それよりも
+二人を苦戦させているのは――。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+（こちらの攻撃が、
+　まったく通じない……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　何が理由かはわからない。
+<PAUSE>
+<NAME_PLATE>
+　二人がいくら攻撃をしかけても、
+隠し神はダメージを受ける様子はない。
+<PAUSE>
+<NAME_PLATE>
+　そんな中、燐と鹿之助だけが
+一方的に攻撃を受けている……。
+<PAUSE>
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>燐
+「このままでは
+　こちらが確実に負ける――。
+　鹿之助、私の話を聞け」
+<PAUSE>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「えっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　燐の鋭い目が鹿之助を見る。
+<PAUSE>
+<NAME_PLATE>燐
+「お前が、奴の術を暴くんだ」
+<PAUSE>
+<NAME_PLATE>燐
+「奴は必ず、何かしらの
+　こちらを惑わす術を使っている」
+<PAUSE>
+<NAME_PLATE>燐
+「私ではそれを暴けない。
+　お前の、強い探知の力がいる――」
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「えっ？　そんな……」
+<PAUSE>
+<NAME_PLATE>
+　突然の言葉に戸惑う鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　しかし燐はそれに構わず、
+手短に指示を続けていく。
+<PAUSE>
+<NAME_PLATE>燐
+「ひとつの賭けになるが、
+　今はこれしかない」
+<PAUSE>
+<NAME_PLATE>燐
+「その間、私が奴を引き受ける」
+<PAUSE>
+<NAME_PLATE>燐
+「ふふ。まあ、
+　打撃は与えられないだろうが、
+　時間稼ぎにはなるだろう」
+<PAUSE>
+<ACTOR>0,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ちょ、ちょっと待って！！？
+　そんなことしたら、
+　姉ちゃんが……！？」
+<PAUSE>
+<NAME_PLATE>
+　燐は先頭で隠し神と戦うだけでなく、
+時に己を盾にして鹿之助を守っていた。
+<PAUSE>
+<NAME_PLATE>
+　体の至るところに傷を受け、
+立っているのもつらそうに見える。
+<PAUSE>
+<NAME_PLATE>燐
+「ふっ。私の心配なら無用だ。
+　私はお前のイトコだ。
+　誰にも負けたりしない」
+<PAUSE>
+<ACTOR>0,s_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ねーちゃん……」
+<PAUSE>
+<NAME_PLATE>燐
+「それに、さっきの廃墟で
+　私が言ったことを覚えているな？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「自分ができることを、
+　全力でやればいい……」
+<PAUSE>
+<NAME_PLATE>燐
+「そうだ。私は
+　私の役目を全力で果たす」
+<PAUSE>
+<NAME_PLATE>燐
+「だから、お前も――。
+　ハアアアアアアアアア！！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<SE_PLAY>se003
+<ACTOR>0,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「姉ちゃんっ！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　鹿之助に微笑むと、燐は裂帛の
+気合と共に戦いに身を投じていった。
+<PAUSE>
+<ACTOR>0,ts_m262b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>隠し神
+「ひひひひひひっ！
+　おぬしも懲りんのう、
+　まだわしとやりあおうてか！」
+<PAUSE>
+<NAME_PLATE>燐
+「ふっ。愚問だな！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュ！！　ギィイイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　燐の雷剣が隠し神を貫く。
+<PAUSE>
+<NAME_PLATE>
+　奇怪な力によって
+そのダメージは消え失せている。
+<PAUSE>
+<NAME_PLATE>
+　しかし燐は傷だらけの体で
+果敢に戦いに挑んでいく。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc412a,IN, 500
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ね、姉ちゃん……！？
+　でも俺、敵の術を暴くなんて――」
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　できるわけがない――
+そう言いかけ、鹿之助は言葉を止めた。
+<PAUSE>
+<NAME_PLATE>
+　ふうまがいれば、
+きっとすぐに敵の術を暴いて、
+的確な指揮で皆を救ってくれただろう。
+<PAUSE>
+<NAME_PLATE>
+　でも今、あいつはここにいない。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>鹿之助
+（だったら俺がやるんだ……！
+　あいつみたいな凄いヒーローに！）
+<PAUSE>
+<NAME_PLATE>鹿之助
+（姉ちゃんや、
+　苦しんでる人を助けるために！）
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,s_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　鹿之助は渾身の力を込めて
+電遁の術を使う。
+<PAUSE>
+<NAME_PLATE>
+　頭が割れるように痛い――
+が、止めるつもりは一切ない。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の探知の力は、
+電波をソナーのように飛ばして
+敵を探るという単純なもの。
+<PAUSE>
+<NAME_PLATE>
+　それだけでは敵の術が
+何なのかなんてわからない。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（だから、もっと深く探るんだ！
+　もっと深く色んなものを見て、
+　感じ取って、そして……！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　以前、ふうま小太郎は
+鹿之助に言った。
+<PAUSE>
+<NAME_PLATE>
+　お前の電遁には、もっと先があると。
+<PAUSE>
+<NAME_PLATE>
+　小さな電気を感じ取れるなら、
+もっと様々なものを知ることができる。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら――。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+『――わかったわ、鹿之助。
+　わたしの力を貸してあげる』
+<PAUSE>
+//【背景：隠し神の領域＿鹿之助覚醒＿夜】【時間：夜】
+//　※背景NC092a　ネット世界＿昼夜共通　より流用
+<UI_DISP>OFF, 0
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc398a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>鹿之助
+「―――――――！！！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+（なっ、なんだこれ！！？
+　いきなり……み、見えるっ！！）
+<PAUSE>
+<NAME_PLATE>鹿之助
+（世界の中に、色んなキラキラが
+　流れているのが見える……！？）
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣裳
+<NAME_PLATE>
+　突然、
+鹿之助の視界に光が満ちた。
+<PAUSE>
+<NAME_PLATE>
+　それは、あらゆる生命に流れる
+電気信号の輝き。
+<PAUSE>
+<NAME_PLATE>
+　ヒトであれ魔物であれ、全ての
+生物の活動で生体電位が生じる。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の視界に、その全ての
+光が可視化されたのだった。
+<PAUSE>
+<NAME_PLATE>？？？
+『これが、あなたの中の、
+　わたしの力――』
+<PAUSE>
+<NAME_PLATE>？？？
+『その名前は――』
+<PAUSE>
+//【背景：とある山村＿隠し神の領域＿魔窟＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc016aより流用
+//nc412
+<UI_DISP>OFF, 0
+<BG>nc412a,IN, 1000
+<ACTOR>0,ts_m262b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>隠し神
+「ひひひひひっ！！
+　なかなか手こずらせてくれたが、
+　もう終わりじゃなぁ女！！！？」
+<PAUSE>
+//　※立ち絵
+//　　隠し神＿差分（口開く）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>隠し神
+「この熟れて柔らかそうな乳から
+　ガブリと頂いてやろうかのう！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>燐
+「ぐうぅっ！？　き、貴様――
+　がああぁあぁあぁああっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　上原燐02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　触手のような隠し神の舌に
+体を巻き取られた燐が呻いていた。
+<PAUSE>
+<NAME_PLATE>
+　さすがの“電輝の対魔忍”も、
+怪しき術を使う隠し神と
+戦い続けるのは困難だった。
+<PAUSE>
+<NAME_PLATE>
+　こちらの攻撃は全く効果を生まず、
+逆に回避したはずの攻撃が
+次々と重大なダメージを与えてくる。
+<PAUSE>
+<NAME_PLATE>
+　そんな絶望的な戦いが続き、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ついに、身動きのできない燐の体に
+隠し神の牙が突き刺さり――。
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「姉ちゃんを放せ、化け物！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣裳（新規イラストを使用）
+<NAME_PLATE>鹿之助
+「――いくぞ！！
+　電遁の術“タケミカヅチ”！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,s_t019b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>燐
+「！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチバチバチバチバチ！！！
+<PAUSE>
+<NAME_PLATE>隠し神
+「ほほう？　小僧、この程度の
+　雷撃をして何を……んぐぅっ！？
+　こ、これは、うぅぅぅうっ！？」
+<PAUSE>
+<NAME_PLATE>
+　どんなに攻撃を受けても
+微動だにしなかった隠し神。
+<PAUSE>
+<NAME_PLATE>
+　それに変化が起きていた。
+<PAUSE>
+<BG>nc412a,IN, 500
+<SE_PLAY>se081
+<NAME_PLATE>
+　ブルブルと不快げに体を痙攣させ、
+ドスーンと無様に地面に転がった。
+<PAUSE>
+<NAME_PLATE>
+　その拍子に舌に捕らわれていた
+燐が解放され、大きく息を吐く。
+<PAUSE>
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>燐
+「し、鹿之助！？
+　お前、今のは一体……！？」
+<PAUSE>
+<ACTOR>0,s_t019a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「――姉ちゃん。
+　あいつの術の秘密は、
+　両方の目に宿った魔の力だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>燐
+「……！？」
+<PAUSE>
+<NAME_PLATE>
+　隠し神を鋭く睨み据えた
+鹿之助が静かに言う。
+<PAUSE>
+<NAME_PLATE>
+　その背中には、
+雷が具現化したような白く
+輝く少女の姿――。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あいつは、その両眼の魔の力を使って、
+　攻撃が当たる前に空間を歪めていた」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「だから、俺たちの攻撃は、
+　本当は当たっていなかった」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「俺は……この子の力で、
+　それが見えた」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,s_t019a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　鹿之助の中にいたという、
+大きな角を持つ女の子――
+『タケミカヅチ』。
+<PAUSE>
+<NAME_PLATE>
+　その力によって、
+鹿之助は白く輝く世界を見た。
+<PAUSE>
+<NAME_PLATE>
+　そこで、隠し神の生体電位が、
+両眼の周辺で異様なまでに
+反応しているのを発見した。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「もう大丈夫だ、姉ちゃん。
+　俺が、こいつの術を打ち破る」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m262b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>隠し神
+「ひ、ひひひひひひひっ！！
+　小僧が、何を戯けたことを――」
+<PAUSE>
+<NAME_PLATE>燐
+「鹿之助……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一転、鹿之助に牙を剥いた
+隠し神が凄まじい速度で襲い来る。
+<PAUSE>
+<NAME_PLATE>
+　しかし、鹿之助は――。
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc412a,IN, 500
+<ACTOR>0,s_t019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「―――――」
+<PAUSE>
+<NAME_PLATE>隠し神
+「な、なんじゃ！！！？
+　この小僧、どうして当たらん！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助への隠し神の攻撃が、
+全て虚しく空を切った。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は、隠し神の
+“電気の流れ”を見ることで、
+その攻撃を先読みし、
+<PAUSE>
+<NAME_PLATE>
+　あるいは神経の電気信号を
+狂わすことで、
+その体の動きを攪乱させた。
+<PAUSE>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<ACTOR>0,s_t019b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「いくぞ！
+　あと一回だけ頼む！
+　――“タケミカヅチ”！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パキーーーーン！！！
+<PAUSE>
+<NAME_PLATE>隠し神
+「こ、この小僧ががあああああああ
+　ああああああああっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　硬い何かが砕け散るような音。
+<PAUSE>
+<BG>nc412a,IN, 500
+<ACTOR>0,s_t019b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　タケミカヅチ――
+白い少女の強襲パンチが
+隠し神の両眼に炸裂した。
+<PAUSE>
+<NAME_PLATE>
+　魔人の生体電位すら狂わす、
+電気の精の一撃――。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「今だよ、姉ちゃん！！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「これで一瞬だけ、
+　やつの両眼の力は使えなくなった。
+　だから、お願い――」
+<PAUSE>
+<NAME_PLATE>
+　タケミカヅチの力では
+隠し神を討つことはできない。
+<PAUSE>
+<NAME_PLATE>
+　それには、全てを焼き尽くす
+ような圧倒的な火力がいる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0331b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「ふっ。ここまで
+　立派に役目を果たすとは――
+　もう子ども扱いはできないな」
+<PAUSE>
+<NAME_PLATE>燐
+「――了解したぞ鹿之助！！
+　燃え尽きろ悪神！！
+　雷遁の術・雷轟電輝！！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐02＿エフェクト
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>隠し神
+「がああああああああああああああ
+　ああああああああっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　燐が傷だらけの体で立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　その雷を纏って燃える刃が、
+隠し神の巨体を真っ二つに切り裂いた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：とある山村＿隠し神の領域＿神社＿昼】【時間：昼】
+//　※輪姦倶楽部＿nc019aより流用
+//nc410a
+<UI_DISP>OFF, 0
+<BG>nc410a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　山中の寒村・神社跡。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「う、うーん……」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>1,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「おいっ！　大丈夫か！？
+　生きているか、鹿之助っ！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「あっ、あれ、姉ちゃん……？
+　ここは……？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<NAME_PLATE>
+　燐の呼びかけに鹿之助が
+のろのろと目を開ける。
+<PAUSE>
+<NAME_PLATE>
+　異空間での戦いで力を使い果たし、
+意識を失っていたらしい。
+<PAUSE>
+<NAME_PLATE>燐
+「恐らく村の神社だろう。
+　奴を倒したと同時に、
+　あのおぞましい空間も消滅した」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　辺りを見回すと、
+そこは静かな山奥の神社。
+<PAUSE>
+<NAME_PLATE>
+　山中に充満していた異常な妖気は、
+綺麗さっぱり消え失せている。
+<PAUSE>
+<ACTOR>1,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「そして、あれがもともと
+　奴が封じられていた場所だろう」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あっ――」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　顔を上げて鹿之助が見る。
+<PAUSE>
+<NAME_PLATE>
+　神社の傍らには、
+古びた神木の残骸らしきものが、
+<PAUSE>
+<NAME_PLATE>
+　落雷でも受けたように
+真っ二つの黒焦げで転がっていた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あぁ、良かったぁ……。
+　じゃあ姉ちゃん、俺たち、
+　あの化け物をやっつけたんだね……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助がほーっと息を吐いた。
+<PAUSE>
+<NAME_PLATE>
+　自分でも信じられない。
+<PAUSE>
+<NAME_PLATE>
+　無我夢中だった。
+<PAUSE>
+<NAME_PLATE>
+　まさか自分に
+あんなことができるなんて――。
+<PAUSE>
+<NAME_PLATE>燐
+「ああ……。
+　感謝するぞ、鹿之助。
+　今日の勝利は全てお前の手柄だ」
+<PAUSE>
+<ACTOR>1,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「私の無茶な指示に、
+　よく応えてくれた――」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うわっ！？　そ、そんな……？
+　姉ちゃん、大げさだよぉ……」
+<PAUSE>
+<NAME_PLATE>
+　年上の美しいイトコに
+労わるように強く抱きしめられ、
+鹿之助が照れてあたふたする。
+<PAUSE>
+<ACTOR>1,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「いや、お前の活躍を思えば、
+　何も大げさなことはない」
+<PAUSE>
+<NAME_PLATE>燐
+「それに、お前が土壇場で見せた、
+　あの力は一体――？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ああ。あれは……」
+<PAUSE>
+<NAME_PLATE>
+　改めて燐に問われ、
+鹿之助が戸惑った声を出す。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　隠し神との戦いの瞬間。
+<PAUSE>
+<NAME_PLATE>
+　確かに自分の中にあった
+不思議な女の子“タケミカヅチ”の力。
+<PAUSE>
+<NAME_PLATE>
+　それが今は、嘘のように
+何も感じなくなっている。
+<PAUSE>
+<NAME_PLATE>
+　まるで、あの時の全てが
+幻だったかのように――。
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「俺にも、良くわからないけど……。
+　でも姉ちゃんの言った通りだった」
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「……俺にもできた。
+　ちゃんとできることがあったよ」
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0331a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>燐
+「ふふ、そうだな。
+　見事な働きだったぞ、鹿之助」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うん――」
+<PAUSE>
+<NAME_PLATE>鹿之助
+（ありがとう、
+　タケミカヅチ――）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　胸の中で小さく呼びかけてみる。
+<PAUSE>
+<NAME_PLATE>
+　もちろん返事はない。
+<PAUSE>
+<NAME_PLATE>
+　彼女は、再び眠りについて
+しまったのかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　でも、それで構わない。
+<PAUSE>
+<NAME_PLATE>
+　自分の中に、確かな何かが
+あるとわかったから。
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+（そうだ。
+　俺も強くなるんだ……）
+<PAUSE>
+<NAME_PLATE>鹿之助
+（いつか、あの力を
+　使いこなせるように――）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<NAME_PLATE>
+　ふいに鹿之助のポケットの
+通信機が鳴った。
+<PAUSE>
+<NAME_PLATE>小太郎
+『あっ。無事か鹿之助！？
+　やっと繋がった――
+　上原先生もそこか！？』
+<PAUSE>
+<NAME_PLATE>蛇子＆舞華
+『鹿之助ちゃん生きてるー？』
+『おう鹿之助、
+　死んでたら承知しねーぞ！』
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ふうま！？
+　それに、蛇子たちも！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　隠し神が滅んだことで、
+村を覆っていた結界も消えたようだ。
+<PAUSE>
+<NAME_PLATE>
+　ふうま小太郎や相州蛇子、
+神村舞華などの五車の救援部隊が
+村に到着していた。
+<PAUSE>
+<ACTOR>1,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「ふうま小太郎。上原燐だ。
+　村の状況はどうだ？」
+<PAUSE>
+<NAME_PLATE>
+　燐が端末の向こうの小太郎に
+声をかける。
+<PAUSE>
+<NAME_PLATE>小太郎
+『あっ。上原先生――。
+　はい、俺たちは瘴気に
+　侵された村の人たちの救護を』
+<PAUSE>
+<NAME_PLATE>小太郎
+『今の感じだと
+　何とか全員助けられそうです！』
+<PAUSE>
+<NAME_PLATE>燐
+「そうか。私たちも
+　すぐにそっちに向かう。
+　その調子で進めていてくれ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>小太郎
+『はい！　いや、
+　それにしても、鹿之助――』
+<PAUSE>
+<NAME_PLATE>小太郎
+『思った以上にヤバイ事態だった
+　みたいだけど、お前、
+　大丈夫だったか……？』
+<PAUSE>
+<NAME_PLATE>
+　心配そうに聞いてくる親友に、
+鹿之助が元気よく答える。
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ああ！　余裕だぜふうま！
+　俺は正義の対魔忍・上原鹿之助――」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「このくらいのピンチ、
+　ちょちょいのちょいさ！！」
+<PAUSE>
+<NAME_PLATE>
+　そう。どんな困難だって、
+乗り越えていってみせる。
+<PAUSE>
+<NAME_PLATE>
+　親友が成長し続ける限り、
+自分もその隣にいられるように。
+<PAUSE>
+<NAME_PLATE>
+　いつか、本物のヒーローに
+なれるように――。
+<PAUSE>
+//→Section５終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,441 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：滑走路＿夜】【時間：夜】
+//　※対魔忍アサギ３のnc039aから流用
+<BGM_PLAY>bgm313,1000
+<BG>nc227a,IN, 1000
+<NAME_PLATE>サイボーグ
+「いけっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント曹長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<GROUP>
+<ACTOR>7,ts_m029a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>8,ts_m029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>9,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>7
+</GROUP>
+<NAME_PLATE>ドローン・ドッグ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ドッグ立ち絵
+//　　　＊決戦アリーナのモンスターイラストより流用
+//　＊群れを表現したいので三匹並べてください
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<NAME_PLATE>
+　ズガガガガガガッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ドローン・ドッグが機関銃をぶっ放しながら
+こちらに迫ってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,CENTER,linear,1000
+<ACTOR_OUT>8,LEFT,linear,1000
+<ACTOR_OUT>9,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m141b,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,ts_m141b,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<NAME_PLATE>サイボーグ
+「食らえっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント＿伍長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>0,ts_m141c,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,ts_m141c,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<SE_PLAY>se036_03
+<NAME_PLATE>
+　ガガガガガガガッッ！！
+<PAUSE>
+<NAME_PLATE>
+　その後ろで肩マシンガンのサイボーグたちも
+一斉射撃を始めていた。
+<PAUSE>
+<NAME_PLATE>
+　ドローンに接近戦をやらせて、
+自分たちは遠くからチクチクと攻撃し、
+最後はトランク砲でとどめを刺す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そんな作戦だろう。
+<PAUSE>
+<ACTOR>2,as_t011f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そんなのまるっとお見通しよ！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>サイボーグ
+「弾が逸らされるだと！？」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント＿伍長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　遠くからばらまかれる銃弾は
+アスカが予め作っておいた風の障壁で
+全て見当違いの方向に飛んでいく。
+<PAUSE>
+<NAME_PLATE>アスカ
+「迎え撃つ準備くらいしてるに
+　決まってるでしょ！」
+<PAUSE>
+//【背景：夜空＿夜】【時間：夜】
+//　※対魔聖甲アリスのnc028cから流用
+<NAME_PLATE>アスカ
+「はあっっ！　風神・飛翔っっ！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵（風遁）＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<SE_PLAY>se003
+<ACTOR_OUT>2,CENTER,linear,500
+<BG>nc228a,IN, 1000
+<GROUP>
+<ACTOR>2,as_t012f,CENTER, CENTER, IN, linear, 500
+<SE_PLAY>se074_01
+</GROUP>
+<NAME_PLATE>
+　アスカはすぐさま次の忍法を使う。
+<PAUSE>
+<NAME_PLATE>
+　自らを風に乗せて、高く飛び上がる。
+<PAUSE>
+<NAME_PLATE>
+　飛行能力を持っている敵はいない。
+<PAUSE>
+<NAME_PLATE>
+　戦闘用の手足は付けていなくとも、
+滑走路のような開けた場所は
+風遁の術の独壇場だ。
+<PAUSE>
+<NAME_PLATE>
+　まして空からなら、やりたい放題。
+<PAUSE>
+<NAME_PLATE>アスカ
+「くらえっっ！！
+　風神・斬風陣っっ！！」
+<PAUSE>
+<NAME_PLATE>
+　グオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　もし飛行機が上空に来ていたら、
+着陸禁止間違いなしの旋風が
+滑走路に巻き起こった。
+<PAUSE>
+<NAME_PLATE>
+　超高速で大気が攪拌され、
+そこで生まれた無数の真空の刃が、
+サイボーグたちをまとめて呑み込む。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<SE_PLAY>se097
+<NAME_PLATE>サイボーグ
+「ぐあああああああああっっ！！」
+「うがああああああああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント＿伍長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　※立ち絵
+//　　サイボーグエージェント曹長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　生身ならあっという間にバラバラ。
+<PAUSE>
+<NAME_PLATE>
+　強靱なサイボーグの身体も
+真空でズタズタに切り裂かれていく。
+<PAUSE>
+<NAME_PLATE>サイボーグ
+「うぐ……ぐ……」
+「くそ……こんな……」
+<PAUSE>
+<NAME_PLATE>
+　一撃で殲滅とはいかなかったが、
+連中は身体のあちこちに傷を受けて、
+目に見えて動きが鈍くなった。
+<PAUSE>
+<ACTOR>2,as_t012f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>アスカ
+「リーナ、今よ！！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　下にいるリーナにとどめを頼んだが、
+<PAUSE>
+//【背景：滑走路＿夜】【時間：夜】
+//　※対魔忍アサギ３のnc039aから流用
+<BG>nc227a,IN, 1000
+<NAME_PLATE>リーナ
+「わあっ、来るな！　こっち来るなあ！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<GROUP>
+<ACTOR>7,ts_m029a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>8,ts_m029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>9,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>7
+</GROUP>
+<NAME_PLATE>ドローン・ドッグ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ドッグ立ち絵
+//　　　＊決戦アリーナのモンスターイラストより流用
+//　＊群れを表現したいので三匹並べてください
+<NAME_PLATE>
+　リーナはいつのまにか
+ドローン・ドッグに囲まれて
+なにやらドタバタやっていた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「しっしっ、こっち来るなっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　さっきまでとはまるで別人だ。
+<PAUSE>
+<NAME_PLATE>
+　素人のように剣をふりまわし、
+悲鳴をあげて、逃げ惑っている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょっと！　何やってんの！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「わ、私は犬が苦手なんだ！！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ハア！？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「犬が嫌いなんだ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「嫌いって、サイボーグの犬でしょ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「犬は犬だ！！
+　ひゃああっっ！！
+　ブ、ブロッサムステップ！？」
+<PAUSE>
+<NAME_PLATE>
+　リーナは舞い散る桜の花のように
+ぴょんぴょん目まぐるしく動きまくり、
+<PAUSE>
+<NAME_PLATE>
+　ドローン・ドッグたちの銃撃や噛みつきを
+ことごとく躱していた。
+<PAUSE>
+<NAME_PLATE>
+　すごいことはすごい。
+<PAUSE>
+<NAME_PLATE>
+　まったく魔界騎士には見えないが。
+<PAUSE>
+//【背景：夜空＿夜】【時間：夜】
+//　※対魔聖甲アリスのnc028cから流用
+<GROUP>
+<ACTOR_OUT>7,CENTER,linear,1000
+<ACTOR_OUT>8,LEFT,linear,1000
+<ACTOR_OUT>9,RIGHT,linear,1000
+</GROUP>
+<BG>nc227a,IN, 1000
+<ACTOR>2,as_t012f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>アスカ
+「なんなのよ、あの子は。
+　どっかの大食い居候オバケじゃあるまいし」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵（風遁）＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　助けてやろうにも、
+ここから攻撃したら、
+リーナごと巻き込んでしまう。
+<PAUSE>
+//【背景：滑走路＿夜】【時間：夜】
+//　※対魔忍アサギ３のnc039aから流用
+<ACTOR_OUT>2,CENTER,linear,500
+<BG>nc227a,IN, 1000
+<GROUP>
+<ACTOR>2,as_t011d,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se119
+</GROUP>
+<NAME_PLATE>アスカ
+「しかたないわね」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　いったん下に降りて、
+適当な術を使おうとしていると、
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>巴
+「助太刀致します！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>
+　凜とした声が響きわたり、
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　スパンッ！！　スパパンッ！！
+<PAUSE>
+<NAME_PLATE>
+　リーナを追いかけ回していた
+ドローン・ドッグの首が
+綺麗に跳ね飛ばされた。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>3,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「さ、さっきの対魔忍？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>アスカ
+「ええ！？　なんで？？」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>巴
+「先ほどは失礼いたしました。
+　諸悪の根源はあの者たちですね！」
+<PAUSE>
+<NAME_PLATE>巴
+「誤解をしてしまったお詫びに
+　黒田巴、加勢いたします！」
+<PAUSE>
+<NAME_PLATE>
+　巴は残っているサイボーグたちに
+キリッと刀を向けた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「いきなり襲ってきたり加勢したり、
+　この子もなんなの？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　わけが分からないが、
+味方が増えるのは良いことだ。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>サイボーグ
+「う……ぐ……ぐぐ…………」
+「敵が……増えた……だと……」
+<PAUSE>
+<NAME_PLATE>
+　生き残りのサイボーグたちは
+すでに敗北を悟ったらしく、
+ギクシャクした足取りで逃げ出している。
+<PAUSE>
+<NAME_PLATE>アスカ
+「逃がさないわよ……え？」
+<PAUSE>
+<NAME_PLATE>
+　追いかけようとしたアスカは
+逃げるサイボーグたちの向こうから
+異形の巨漢がやってくるのに気づいた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>4,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巨漢
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>アスカ
+「なにあれ？？」
+<PAUSE>
+<NAME_PLATE>
+　日本の甲冑を身に纏い、
+巨大な金棒を持ったその姿は
+およそ現実味がない。
+<PAUSE>
+<NAME_PLATE>巨漢
+「盛者必衰の理をあらわす！！」
+<PAUSE>
+<NAME_PLATE>
+　怒声が響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　グシャッ！！
+グシャグシャグシャッ！！
+<PAUSE>
+<NAME_PLATE>
+　巨漢はサイボーグたちに金棒を振り下ろし、
+次々と破壊しはじめている。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,chr_t0172a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「なんだ、また助太刀か？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>巴
+「ち、違います。
+　あのおぞましい悪気はいったい？」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>アスカ
+「すっごく嫌な予感するわね」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巨漢
+「ふっふっふ。
+　ようやく邪魔者がいなくなったわ」
+<PAUSE>
+<NAME_PLATE>
+　殺意に満ちた悪相が微笑む。
+<PAUSE>
+<NAME_PLATE>
+　今日一番の変な奴が悠然と近づいてきた。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>4,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

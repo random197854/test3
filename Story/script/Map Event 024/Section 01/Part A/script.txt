@@ -1,0 +1,2866 @@
+//【黒画面】
+//【背景：結婚式場＿昼】【時間：昼】
+//　※ジューンブライドイベントで対魔忍RPGゲームのアジト画面で使用されていた教会背景を可能であれば流用
+//nc463a
+<BGM_PLAY>bgm503,1000
+<BG>nc463a,IN, 1000
+<NAME_PLATE>
+　温かな光が差し込む教会ホール。
+<PAUSE>
+<NAME_PLATE>
+　俺たち二人の前に立つ祭服姿の
+男性が慈愛に満ちた眼差しでこう言った。
+<PAUSE>
+<NAME_PLATE>牧師
+「新郎ふうま小太郎、汝は、ここに
+　いる女を、病める時も健やかなる時も」
+<PAUSE>
+<NAME_PLATE>牧師
+「死が二人を分かつまで、共に歩み、
+　永遠に愛することを誓いますか？」
+<PAUSE>
+<NAME_PLATE>俺
+「え、えっと……。はい、誓います……」
+<PAUSE>
+<NAME_PLATE>
+　似合わないタキシード姿の俺が
+もごもごと答えた。
+<PAUSE>
+<NAME_PLATE>
+　永遠の愛の誓い。
+<PAUSE>
+<NAME_PLATE>
+　そんなの誓っていいのか？　と頭の
+どこかで思うものの、しかし今さら
+止められる状況じゃない。
+<PAUSE>
+<NAME_PLATE>
+　牧師のおじさんは「よろしい」と
+優しく肯き、神妙な顔で俺の隣に立つ
+“新婦”に声をかける。
+<PAUSE>
+<ACTOR>0,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>牧師
+「では新婦アンジェよ。汝は、
+　ここにいる新郎ふうま小太郎を
+　永遠に愛し、そして」
+<PAUSE>
+//　※立ち絵
+//　　【ジューンブライド】アンジェ立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>牧師
+「病める時も健やかなる時も、
+　死が二人を分かつまで、
+　共に歩むことを誓いますか？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「はい、誓います……っ」
+<PAUSE>
+<NAME_PLATE>
+　恥ずかしそうに目を伏せた
+ウェディングドレス姿の彼女――
+アンジェが愛らしく微笑む。
+<PAUSE>
+<NAME_PLATE>
+　いつもの飄々とした彼女ではない。
+<PAUSE>
+<NAME_PLATE>
+　愛する男と結ばれる喜びと幸福に
+満ちた、本物の“新婦”の表情……。
+<PAUSE>
+<NAME_PLATE>俺
+（そうか……。
+　こいつは、本気で……）
+<PAUSE>
+<NAME_PLATE>牧師
+「よろしい。では二人の変わらぬ愛の
+　あかしとして、父なる神の前で
+　誓いのキスを」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ん」
+<PAUSE>
+<NAME_PLATE>俺
+「………！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アンジェが俺に一歩近づいた。
+<PAUSE>
+<NAME_PLATE>
+　わずかに顔を上に向けて目を閉じる。
+<PAUSE>
+<NAME_PLATE>
+　俺が誓いの口づけをするのを待っている。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、い、いや……」
+<PAUSE>
+<NAME_PLATE>
+　ところが、俺はそこまでの
+心の準備ができていなかったのだ。
+<PAUSE>
+<ACTOR>0,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「……どうした、ふうま？
+　私と結婚しないのか……？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「いや、するよ！　するけれど……」
+<PAUSE>
+<NAME_PLATE>
+　その予定になっていたけれど、
+本当にしちゃっていいの……？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、どうして良いかわからず、
+アンジェの肩に手をかけて
+おろおろしていると。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>監督さん
+「カーーーーーーーーットッ！！！
+　ダメダメ！　やり直しーー！」
+<PAUSE>
+<ACTOR>0,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ＆俺
+「？？」「あっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ふいにカットの声がかかり、
+俺は慌ててそちらを見る。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>監督さん
+「おいおいバイトくーん？
+　そんなモジモジした挙動不審の
+　新郎さんはいないだろー？」
+<PAUSE>
+<NAME_PLATE>監督さん
+「ちゃんと演じてくれないと困るよ～。
+　誓いのチューだってフリで良いんだからさ」
+<PAUSE>
+<NAME_PLATE>俺
+「はい、すみません……！」
+<PAUSE>
+<NAME_PLATE>
+　たじたじになって謝る俺。
+<PAUSE>
+<NAME_PLATE>
+　声をかけてきたのは、
+カメラを持った撮影監督のおじさん。
+<PAUSE>
+<NAME_PLATE>
+　俺とアンジェは今、バイト中――
+結婚式場のイメージ映像に出演する
+モデルの仕事の真っ最中だった。
+<PAUSE>
+<ACTOR>0,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「うんうん。まったくだぞふうま」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「私のバイトに付き合ってくれるのは
+　うれしいけれど、それならちゃんとしろ」
+<PAUSE>
+<NAME_PLATE>俺
+「ぐぅ。め、面目ない……」
+<PAUSE>
+<NAME_PLATE>
+　カメラが止まっていつもの飄々とした
+顔になったアンジェにビシッと言われる。
+<PAUSE>
+<NAME_PLATE>
+　確かに言い訳のしようがない。
+<PAUSE>
+<NAME_PLATE>
+　ろくに心の準備もせずバイトに
+参加した俺とは違い、
+<PAUSE>
+<NAME_PLATE>
+　アンジェはこのバイトに真剣かつ
+“本気で”向き合っているようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（でも、こっちも事情があるんだよ！）
+<PAUSE>
+<NAME_PLATE>
+　などと内心で苦しい弁解をする。
+<PAUSE>
+<NAME_PLATE>
+　そもそも、なぜ俺が米連ＤＳＯの
+強化人間の少女・アンジェのバイトに
+付き合っているかと言うと……。
+<PAUSE>
+//【黒画面】
+//【背景：五車学園＿外観＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　３日前。五車学園。
+<PAUSE>
+//【背景：五車学園＿体育館＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC021aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc049a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「はぁ？　サプライズパーティー？」
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>甲河アスカ
+「そう。ちょうど次の土曜日、
+　うちのアンジェの誕生日なの」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ【制服】立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>0,as_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「だから、そこでとっておきの
+　パーティーをしようって思って♪」
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あなたもあの子とは知らない
+　仲じゃないんだから、
+　当然、手伝ってくれるわよね？」
+<PAUSE>
+<NAME_PLATE>
+　制服姿の少女がニッコリ笑う。
+<PAUSE>
+<NAME_PLATE>
+　甲河アスカ。
+<PAUSE>
+<NAME_PLATE>
+　米連ＤＳＯに所属している
+元対魔忍のサイボーグ風使いで、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今日は同じくＤＳＯから五車に研修に
+来ているケイリーの様子を見に来たとのこと。
+<PAUSE>
+<ACTOR>0,km_t002d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー・マイヤーズ
+「えーいっ！！
+　いくよー蛇子、鹿之助っ！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリーマイヤーズ＿戦闘立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「おう来いっ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>相州蛇子
+「うふふ。蛇子たちも
+　負けないわよケイリーちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（武器）
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　とケイリーは、俺とアスカが
+話している向こうで鹿之助たちと
+元気に模擬戦闘をしている。
+<PAUSE>
+<NAME_PLATE>俺
+「うーん。まあ、そうだな、
+　手伝うくらいは別にいいぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょうど例の地下施設の件も
+　ひと息ついたし……お前の言う通り、
+　アンジェは知らない仲じゃないからな」
+<PAUSE>
+<NAME_PLATE>
+　アンジェとは、二回ほど一緒に迷惑な
+婚姻の女神の騒動に巻き込まれている。
+<PAUSE>
+<NAME_PLATE>
+　いつも飄々として何を考えてるか
+わからない所もあるけれど、
+<PAUSE>
+<NAME_PLATE>
+　話してみると意外に普通で、
+素直な可愛い女の子だったりする。
+<PAUSE>
+<NAME_PLATE>俺
+「でも、手伝うのは良いとして、
+　俺は何をすればいいんだ？」
+<PAUSE>
+<NAME_PLATE>俺
+「その、サプライズパーティーの
+　会場作りとか？」
+<PAUSE>
+<NAME_PLATE>
+　おめでとうのくす玉を作ったり、
+会場の飾りつけをしたり。
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あー。違う違う。
+　そういうのは大丈夫よ。
+　私たちの仲間で準備はできるから」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あなたに頼みたいのは、
+　それとはちょっと違うこと」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうねぇ？　言ってみれば……
+　あの子の『エスコート』かしら」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？」
+<PAUSE>
+<NAME_PLATE>
+　俺が首をかしげると、アスカが
+悪戯っぽく笑って説明してくれる。
+<PAUSE>
+<NAME_PLATE>アスカ
+「まっ、話すと
+　ちょっと長くなるんだけどねー」
+<PAUSE>
+<NAME_PLATE>アスカ
+「実はあの子、非番の日とか組織の外で
+　色々バイトをしてるみたいなの」
+<PAUSE>
+<NAME_PLATE>俺
+「へえ、バイトを？」
+<PAUSE>
+<ACTOR>0,as_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そう。偉いわよねー。
+　社会勉強がしたいんだって」
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「こういうところ、
+　あなたも見習いなさい？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どうせ休みの日とか、部屋で
+　ゲームばっかりしてるんでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「え、えぇ……？
+　それはそうですけど……」
+<PAUSE>
+<NAME_PLATE>
+　なぜか急に流れ弾がきた。
+<PAUSE>
+<ACTOR>0,as_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ふふっ、冗談よ。
+　その辺は人それぞれだからね！」
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「まあ、とにかく――そのバイトに
+　出かける非番の日っていうのが、
+　ちょうどあの子の誕生日なの」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アスカの話によれば、アンジェは
+結婚式場のホールを始めとして
+様々な所でバイトをしている。
+<PAUSE>
+<NAME_PLATE>
+　そんな働き先のひとつに、
+とあるビアホールがあるという。
+<PAUSE>
+<NAME_PLATE>
+　アスカたちＤＳＯ一同は、
+このビアホールをアンジェに内緒で
+貸し切りにして、
+<PAUSE>
+<NAME_PLATE>
+　バイトのためにやってきた
+アンジェにサプライズパーティーを
+仕掛けようという計画らしい。
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「で、あなたにやってほしいのが、
+　あの子のエスコート……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「つまり、ちゃんと時間通りお店に
+　来るかどうかのお目付け役ね」
+<PAUSE>
+<NAME_PLATE>
+　何事もなければアンジェはバイトの
+時間にそのビアホールにやってくる。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、彼女はふらふらと
+気ままに街を歩くクセがあるので、
+<PAUSE>
+<NAME_PLATE>
+　もしかしたらその日はバイト先に
+現れないという可能性もなくはない。
+<PAUSE>
+<NAME_PLATE>アスカ
+「だから、念のため、
+　あなたに付き添って欲しいの。
+　あの子がちゃんとお店に来るように」
+<PAUSE>
+<NAME_PLATE>アスカ
+「口実は……まあ、
+　『護衛』ってことでいいかしら？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あの子には、最近うちの職員が襲われる
+　事件が起きてるから、護衛として
+　あなたを付けるって言っておくわ」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど……。
+　それでお目付け役ってことか」
+<PAUSE>
+<NAME_PLATE>
+　アスカの頼みはわかった。
+<PAUSE>
+<NAME_PLATE>
+　ただ、ちょっと不思議なこともあった。
+<PAUSE>
+<NAME_PLATE>俺
+「でもアスカ、どうしてだ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「なに？」
+<PAUSE>
+<NAME_PLATE>
+　俺が言うと、
+アスカが可愛らしく首を傾げる。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ＤＳＯにだって
+　他に大勢メンバーがいるだろ？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、会場の支度や任務があるにしたって、
+　わざわざ他の組織の俺に頼まなくても……？」
+<PAUSE>
+<ACTOR>0,as_t005d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「えっ！？
+　あっ、いや、それは……」
+<PAUSE>
+<NAME_PLATE>
+　アスカが珍しくわたわたし始める。
+<PAUSE>
+<NAME_PLATE>俺
+「それに、『護衛』って言っても、
+　休みの日に一緒に色んな所に行くって、
+　なんかデートっぽいっていうか……」
+<PAUSE>
+<NAME_PLATE>俺
+「それ、俺で良いのかなって思って」
+<PAUSE>
+<ACTOR>0,as_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「い、いや……その方が、
+　あの子も嬉しいかなーって……」
+<PAUSE>
+<NAME_PLATE>俺
+「んん？　アスカ？」
+<PAUSE>
+<NAME_PLATE>
+　ちょっと横を向いたアスカが
+何か小声でごにょごにょ言っていた。
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あぁ、もう！　何でもいいでしょ！？
+　こっちだって色々思うところはあるの！」
+<PAUSE>
+<NAME_PLATE>俺
+「？？　お、おう……？」
+<PAUSE>
+<NAME_PLATE>
+　なぜか急に怒られた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「とにかく、私の知り合いで
+　一番ヒマそうなのがあんただったの！
+　いいでしょ！　引き受けなさい！」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい……っ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　――という事情で、なぜか急に
+プンプンし始めたアスカに詰められ、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺は『護衛役』としてアンジェの
+バイトに付き添うことになった。
+<PAUSE>
+//【黒画面】
+//【背景：工事現場＿昼】【時間：昼】
+//　※魔法少女ヒカル＿nc018aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc066b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　現在。
+<PAUSE>
+<NAME_PLATE>
+　結婚式場ホールに続いて、
+アンジェの次のバイトは工事現場だった。
+<PAUSE>
+<NAME_PLATE>現場のおっちゃんたち
+「おう触手の嬢ちゃん、久しぶりー！」
+「今日も頼むぜ～っ！！」
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「うん。お仕事がんばるぞ」
+<PAUSE>
+//　※立ち絵
+//　　アンジェ01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、触手を使ってひょいひょいと
+現場仕事を片付けていくアンジェ。
+<PAUSE>
+<NAME_PLATE>
+　これまで何度もバイトに来ていて
+現場のおっちゃんたちとも
+顔なじみになっているようだ。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに、この現場は米連が出資している
+企業が関係しており、アンジェの触手の
+こともあらかじめ知らされているとのこと。
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「ふうまもがんばれ。
+　お仕事した後のおにぎりは美味しいぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう、頑張る……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>現場のおっちゃんたち
+「ワハハ！　そうそう！
+　そっちの兄ちゃんも頑張れよ！」
+「彼女に負けてられねえからなぁ！」
+<PAUSE>
+<NAME_PLATE>俺
+「うぐぐ……いや、別に俺は
+　彼氏というわけでは……っていうか、
+　この鉄筋すげえ重い……！？」
+<PAUSE>
+<NAME_PLATE>
+　などとアンジェやおっちゃんたちに
+励まされつつ俺も現場作業に参加する。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、しばらく経って。
+<PAUSE>
+<BG>nc066b,IN, 1000
+<NAME_PLATE>俺
+「はぁーー。やっと休憩か……」
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「お疲れ様だぞ、ふうま。はい」
+<PAUSE>
+<NAME_PLATE>俺
+「おっ。ありがとうアンジェ」
+<PAUSE>
+<NAME_PLATE>
+　隣に座ったアンジェがお弁当箱から
+おにぎりを手渡してくれる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　現場作業は休憩時間。
+<PAUSE>
+<NAME_PLATE>
+　確かに、汗水垂らして働いた後の
+おにぎりは絶品だった。
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「はむはむ。うん、
+　今日のおにぎりも美味しいな」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。そっちは何だ？
+　俺のは梅干しが入ってた」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「こっちも同じだ。現場作業のあとは、
+　しょっぱいものが美味しい」
+<PAUSE>
+<NAME_PLATE>俺
+「はは、確かに」
+<PAUSE>
+<NAME_PLATE>
+　俺は笑ってうなずく。
+<PAUSE>
+<NAME_PLATE>
+　アンジェはお米が好物なようで、
+前にも俺は彼女のお手製おにぎりを
+食べさせてもらった。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「そういえば、ふうまは、
+　私の護衛をしてくれてるんだよな」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ一応な。迷惑だったか？」
+<PAUSE>
+<NAME_PLATE>
+　確かに少し変な話ではある。
+<PAUSE>
+<NAME_PLATE>
+　米連の改造人間であるアンジェは、
+『護衛』の俺なんかよりよっぽど高い
+戦闘能力を持っているのだから。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ううん、そんなことはないぞ。
+　ふうまは賢いからな。
+　来てくれて、すごく頼もしい」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「久しぶりにゆっくり話せるのも嬉しいし」
+<PAUSE>
+<NAME_PLATE>俺
+「そっか。それなら良かった」
+<PAUSE>
+<NAME_PLATE>
+　アンジェの淡々とした顔に
+ほのかな笑みが浮かぶ。
+<PAUSE>
+<NAME_PLATE>
+　心なしかこいつ前に会った時よりも
+表情が豊かになった気がする。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「でも、どうしてかなって少し思った」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　何がだ？」
+<PAUSE>
+<NAME_PLATE>
+　アンジェが首をかしげて俺を見る。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ふうまは別の組織の人間だよね。
+　それなのに、どうして
+　わざわざ私の護衛を？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それは……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はちょっと言葉に詰まる。
+<PAUSE>
+<NAME_PLATE>
+　今回の俺の役目は正確には護衛じゃなくて、
+ただのお目付け役だ。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ別の組織のことに
+首を突っ込んでいるのは違いない。
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「まあ、アスカから
+　頼まれたからってのはあるな」
+<PAUSE>
+<NAME_PLATE>俺
+「組織は違うけど、
+　アスカもお前も友達……
+　だと、俺は思ってるから」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「うん」
+<PAUSE>
+<NAME_PLATE>
+　水筒のお茶をすすりながら
+アンジェが嬉しそうに肯いた。
+<PAUSE>
+<NAME_PLATE>俺
+「あともうひとつ、
+　個人的な理由もあるけど……」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「個人的な？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。一言でいうと……
+　『お前を応援したかった』から、
+　って感じかな？」
+<PAUSE>
+<NAME_PLATE>
+　俺は曖昧に言って、
+その『個人的な理由』を誤魔化した。
+<PAUSE>
+<NAME_PLATE>
+　今はまだ、これはアンジェには
+言わない方が良いだろう。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「？？　ありがとう？」
+<PAUSE>
+<NAME_PLATE>俺
+「いやぁ、それより、
+　お前の方はどうなんだ？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「私？」
+<PAUSE>
+<NAME_PLATE>
+　話を逸らすついでアンジェに
+聞いてみる。
+<PAUSE>
+<NAME_PLATE>
+　俺の方でも、気になっていた
+ことがあったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「このバイトのことだよ。
+　アスカは社会勉強って言ってたけど、
+　どうしてそんなことを？」
+<PAUSE>
+<NAME_PLATE>
+　わざわざ休みの日に、
+何個もバイトをかけ持ちしている。
+<PAUSE>
+<NAME_PLATE>
+　ＤＳＯの給料が少ないという
+こともないだろうし、何でだろう？
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ああ。それは……もっと、
+　色んなことを知りたかったから」
+<PAUSE>
+<NAME_PLATE>俺
+「色んなこと？」
+<PAUSE>
+<NAME_PLATE>
+　アンジェが少し照れたように
+頬を染めて言う。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「私は、ずっと基地で暮らしてたから。
+　外のこと、もっと知りたくなったんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……」
+<PAUSE>
+<NAME_PLATE>
+　そういえば、
+アスカから聞いた覚えがある。
+<PAUSE>
+<NAME_PLATE>
+　アンジェは幼い頃から米連の
+施設で兵士として育てられた改造人間。
+<PAUSE>
+<NAME_PLATE>
+　戦うことしか知らず、命令を
+聞くだけの人生を長く続けてきた。
+<PAUSE>
+<NAME_PLATE>
+　アスカが所属するＤＳＯにやってきた
+当初は、もっと表情や感情に乏しくて。
+<PAUSE>
+<NAME_PLATE>
+　今のように明るい表情を見せるように
+なったのも、ここ最近なのだという。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、それで社会勉強？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「そうだ。立派な兵士になるためには、
+　戦う力だけじゃなくて、
+　色んな知識が必要……」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「……そう思って、
+　バイトを始めたんだけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「だけど？」
+<PAUSE>
+<NAME_PLATE>
+　アンジェが不思議そうに首をかしげる。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「だけど、それだけじゃなくなった」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「色んな人……現場のおっちゃんや、
+　監督さんたちと話すの楽しい」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「色んなこと新しく知るのが楽しい……」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「そんな……楽しくなるつもり
+　じゃなかったのに、何だか不思議？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか……」
+<PAUSE>
+<NAME_PLATE>
+　俺は笑ってアンジェに肯いた。
+<PAUSE>
+<NAME_PLATE>
+　ただの気まぐれのようなものだと
+思っていたアンジェのバイト。
+<PAUSE>
+<NAME_PLATE>
+　でも実は、彼女にとって
+何か大事なものだったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　となれば、俺はますます
+アンジェのことが応援したくなる。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「だから、今日はありがとだぞ」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ふうまが来てくれたおかげで、
+　いつも通り楽しくバイトできる」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、任せておいてくれよ！
+　俺がしっかり見ててやるから、
+　お前は安心してやりたいことをな！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「うんっ♪」
+<PAUSE>
+<NAME_PLATE>
+　嬉しそうに肯くアンジェを見て
+俺は内心でちょっと苦笑する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（まぁ安心も何も、実際は
+　危険なことなんて何もないんだけどな）
+<PAUSE>
+<NAME_PLATE>
+　俺の『護衛』というのは、あくまで
+アンジェの付き添いをするための口実だ。
+<PAUSE>
+<NAME_PLATE>
+　実際に危険なことは何もない。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ今それを話すと、この後の
+パーティーのことまでバレてしまう。
+<PAUSE>
+<NAME_PLATE>
+　なので、この『護衛』自体も
+サプライズということで、
+<PAUSE>
+<NAME_PLATE>
+　パーティーで種明かしをする時まで
+俺も乗っかっておこう――。
+<PAUSE>
+<NAME_PLATE>
+　などと、俺がのん気に
+考えていた時だった。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>現場のおっちゃんたち
+「おい！？　何だお前らっ！？」
+「ちょっと待て！！」
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺＆アンジェ
+「えっ？」「……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　何かあったのか？
+<PAUSE>
+<NAME_PLATE>
+　それぞれに休憩時間を過ごしていた
+おっちゃんたちが集まっている。
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺＆アンジェ
+「あのー、どうしたんですか？
+　何かおかしなことでも？」
+「………？」
+<PAUSE>
+<NAME_PLATE>
+　俺とアンジェもそこに近寄って
+聞いてみた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>現場のおっちゃん
+「おう触手の嬢ちゃんたち……。
+　いや、何がってほどじゃないんだが」
+<PAUSE>
+<NAME_PLATE>
+　おっちゃんたちは不審そうに
+顔を見合わせる。
+<PAUSE>
+<NAME_PLATE>現場のおっちゃん
+「なんか、妙な奴らがいたんだよ」
+<PAUSE>
+<NAME_PLATE>現場のおっちゃん
+「道の向こうの、建物の陰から
+　ジーっとこっちの現場を覗いてて……」
+<PAUSE>
+<NAME_PLATE>現場のおっちゃん
+「でも俺らが気づいたら、すぐに
+　サっーっていなくなっちゃって……
+　ありゃ一体、何なんだ？」
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：アンジェのバイト先のビアホール＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC072aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc363a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数時間後。
+<PAUSE>
+<NAME_PLATE>
+　俺とアンジェは最後のバイト先である
+ビアホールにやってきた。
+<PAUSE>
+<ACTOR>0,chr_t0356a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「はい、ビールおまちどおさま。
+　ソーセージとポテトも美味しいぞ？」
+<PAUSE>
+//　※立ち絵
+//　【テンタクルディアンドル】アンジェ05立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>お客さん１
+「おっ！　お嬢ちゃんありがとー！
+　沢山持ってきてくれて、力持ちだねー！」
+<PAUSE>
+<NAME_PLATE>お客さん２
+「というかそれどうなってるの？
+　紐みたいなので沢山持ってるけど？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「これは触手……
+　じゃなくてただのコスプレだぞ。
+　ディアンドルというやつだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>お客さんたち
+「わははは！　そっかー、
+　ただのコスプレだったのかー！」
+「力持ちで可愛いね～！」
+<PAUSE>
+<NAME_PLATE>俺
+（それで納得するのか……）
+<PAUSE>
+<NAME_PLATE>
+　酒が入っているのでもう
+細かいことは気にならないのだろう。
+<PAUSE>
+<NAME_PLATE>
+　わいわいと騒ぐお客さんの間を、
+<PAUSE>
+触手と手に沢山の料理やお酒を持った
+アンジェが忙しく立ち働いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　このお店がアスカが企画した
+サプライズパーティーの会場である。
+<PAUSE>
+<NAME_PLATE>
+　今は一般のお客さんも入っているけれど、
+そろそろ入店に制限がかかり、
+<PAUSE>
+<NAME_PLATE>
+　３０分ほどしたら米連ＤＳＯの
+貸し切りになる予定となっている。
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「……ねえふうま、今日はありがと。
+　あの子の『護衛』任務お疲れ様♪」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ【制服】立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>俺
+「おっ、アスカ」
+<PAUSE>
+<NAME_PLATE>
+　皿洗いなどしつつ店内の様子を
+見ていた俺に、今日の仕掛け人が
+こっそり声をかけてくる。
+<PAUSE>
+<NAME_PLATE>アスカ
+「お陰でこっちは準備できたわ。
+　マダムやみんなも裏で待機してる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「で、そっちはどう？　楽しかった？
+　あの子の一日エスコート」
+<PAUSE>
+<NAME_PLATE>俺
+「おう。意外と楽しかったぞ。
+　そんなにキツいバイトもなかったし、
+　あいつとも色々話せたし」
+<PAUSE>
+<NAME_PLATE>
+　一日付き合ったおかげで、
+前より仲良くなれた気がする。
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ふーん？　楽しかったんだぁ。
+　良かったわねぇ……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あ、あいたっ！？
+　お前、なんで自分から話振って
+　不機嫌になってんだよ……！？」
+<PAUSE>
+<NAME_PLATE>
+　急に唇を尖らせたアスカが
+つんつんと俺の肘をつついていた。
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「アハハ！　何でもないわよ。
+　いや、何でもなくはないんだけど
+　……まあ、それはそれとして」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう？」
+<PAUSE>
+<NAME_PLATE>
+　アスカが気を取り直して微笑む。
+<PAUSE>
+<NAME_PLATE>アスカ
+「でも、今日はホントありがとね。
+　あなたが来てくれて、
+　きっとあの子も喜ぶと思う」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。そうだと俺も嬉しいけど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は洗い物の手を止めて店内を見た。
+<PAUSE>
+<ACTOR>0,chr_t0356a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　手と触手に沢山の料理や酒を持った
+アンジェが元気に働いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「やっぱりこういうイベント事は、
+　ちゃんとお祝いしてあげたいからな」
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ん？」
+<PAUSE>
+<NAME_PLATE>
+　アスカが首をかしげて俺を見る。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、何だかんだ言って、毎年俺も
+　蛇子たちにお祝いしてもらってるし……」
+<PAUSE>
+<NAME_PLATE>俺
+「それに、ガキの頃、誕生日のお祝いを
+　してもらって凄く嬉しかったから」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それは……ご両親に？」
+<PAUSE>
+<NAME_PLATE>俺
+「違うよ。うちの親は……
+　まあ、ほとんど家にいなかったから。
+　ずっと時子が親代わりをしてくれて」
+<PAUSE>
+<NAME_PLATE>俺
+「特に親父なんて、任務やら戦いやらで、
+　ガキの頃はほとんど顔も見てなかった」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうだったんだ……。
+　何かごめんなさい」
+<PAUSE>
+<NAME_PLATE>
+　ちょっと神妙な顔になるアスカに
+俺は笑って首を振る。
+<PAUSE>
+<NAME_PLATE>俺
+「いやぁ、昔の話だから。でも……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そんな幼い俺にも、
+誕生日には沢山の贈り物が届いた。
+<PAUSE>
+<NAME_PLATE>
+　父親からではなく、
+時子やふうまの里の人たちから。
+<PAUSE>
+<NAME_PLATE>
+　その嬉しかった記憶があるから、
+今度は俺も何かしてあげたくなった――。
+<PAUSE>
+<NAME_PLATE>
+　それが、昼間アンジェには
+言わなかった俺の『個人的な理由』である。
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふーん……。本当にあなた、
+　お人好しのお坊ちゃんねぇ」
+<PAUSE>
+<ACTOR>0,as_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「まっ、あなたのそういうところ、
+　私は悪くないと思うけどねー♪」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？　なんだよお前、
+　からかうなよ……」
+<PAUSE>
+<NAME_PLATE>
+　妙に楽しそうな顔のアスカが
+俺の肘をつついてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しまったな……。
+<PAUSE>
+<NAME_PLATE>
+　昼間のバイトで疲れすぎて、
+余計なことまで話したかも……。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「あっ。そういえば――」
+<PAUSE>
+<NAME_PLATE>
+　と、そこで俺はふと思い出した。
+<PAUSE>
+<NAME_PLATE>
+　昼間のバイト中にあった、
+ひとつの奇妙な出来事。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「アスカ。念のためというか、
+　確認なんだが……」
+<PAUSE>
+<NAME_PLATE>俺
+「今日の俺の『護衛』って、
+　本当に、ただの口実なんだよな？」
+<PAUSE>
+<NAME_PLATE>俺
+「米連職員を狙う『襲撃者』ってのは、
+　存在しないんだよな？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　アスカが怪訝そうな顔をする。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、昼間、工事現場の
+　バイトで妙なことがあったんだ」
+<PAUSE>
+<NAME_PLATE>
+　俺はアスカに説明する。
+<PAUSE>
+<NAME_PLATE>
+　俺とアンジェが働いている現場を
+監視しているような奇妙な影があった。
+<PAUSE>
+<NAME_PLATE>
+　工事現場以外のバイト先では
+そんな気配はなかったので、
+気のせいかとも思ったけど……。
+<PAUSE>
+<NAME_PLATE>アスカ
+「それは……あの時、あなたに
+　言った通りよ。でも……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私たちにも、敵がいないって
+　わけじゃないし……」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは顔を見合わせた。
+<PAUSE>
+<NAME_PLATE>
+　今日の『護衛』というのは
+ただの口実だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし、もし本当に、
+アンジェや……あるいは俺を狙う
+何者かがいたとしたら……？
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「キャアアアアアアアアアアっ！！」
+<PAUSE>
+<NAME_PLATE>俺＆アスカ
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>
+　突然、激しい悲鳴が上がり、
+店内に妖しい影が飛び込んできた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――――
+<PAUSE>
+//【背景：東京＿新港区歓楽街＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC038aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc392a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　東京・新港区。
+<PAUSE>
+//【背景：ある高級ホテルのプールサイド＿昼】【時間：昼】
+//　※NC113a　汎用ホテルプール＿昼　※新規
+//nc464a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc464a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その一角にある高級ホテルの
+プールサイド。
+<PAUSE>
+<NAME_PLATE>ホテルのボーイ
+「奥様、お待たせしました。
+　ご注文のドリンクで御座います」
+<PAUSE>
+<ACTOR>0,ts_m303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>矢崎玲子
+「あら、ありがとう――」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿水着
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　扇情的なバイオレットの
+水着を着た女がグラスを受け取った。
+<PAUSE>
+<NAME_PLATE>
+　女の名前は矢崎玲子。
+<PAUSE>
+<NAME_PLATE>
+　都内で幾つものサロンや飲食店を
+経営する若き女起業家。
+<PAUSE>
+<NAME_PLATE>
+　そんなプロフィールで知られる
+人物である――“表向き”は。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0357a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ふうま天音
+「……まだ奴に動きはないようだな」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿水着イラスト立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>1,ts_m157b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「うむ。そのようなのだ」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー＿水着イラスト立ち絵
+//　　　＊対魔忍RPGカードより加工流用
+//　※トラジローはカード裏絵を一般倫理で大丈夫な白スク絵に加工。
+<NAME_PLATE>
+　そして、そんな女をひそひそと
+囁き交わしながらそれとなく監視している
+奇妙な二人組の姿があった。
+<PAUSE>
+<NAME_PLATE>
+　五車の対魔忍・ふうま天音と、
+東京キングダム“獣王会”の幹部、
+虎の獣人トラジロー。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍と獣人の少女。
+<PAUSE>
+<NAME_PLATE>
+　この二人がバディを組んでいるのは
+いささか複雑な経緯がある。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そもそもきっかけはアミダハラ監獄で
+発生した偽装脱獄事件であった。
+<PAUSE>
+//【背景：アミダハラ監獄＿地下施設＿昼夜共通】【時間：朝】
+//　※監獄アカデミア_NC012aより流用
+//　※立ち絵
+//　　白熊タロー立ち絵＿怖い方の顔
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※回想解説なので画面をモノクロ処理などお願いします。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc103b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数か月前、何者かの策謀によって
+アミダハラ監獄に収監され、騒ぎを
+起こした“獣王会”幹部・白熊タロー。
+<PAUSE>
+<NAME_PLATE>
+　その混乱に紛れて監獄最深部に
+収監されていた危険犯罪者が姿を消した。
+<PAUSE>
+//　※モノクロ処理演出終了。
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<ACTOR>0,ts_m217a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その者の名は、井河扇舟。
+<PAUSE>
+//　※立ち絵
+//　　井河扇舟
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　井河長老衆の一人であり、
+卓越した毒使いとして知られる女。
+<PAUSE>
+<NAME_PLATE>
+　そして、その扇舟を追っていたのが、
+対魔忍・ふうま天音であった。
+<PAUSE>
+//【イベントＣＧ：REV001a　天音無双】【時間：昼】
+//　※回想解説なので画面をモノクロ処理などお願いします。
+//stv021b
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<EV>stv021b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　敬愛する主君・ふうま弾正の仇を
+追っていた天音は、アミダハラにて
+その手がかりを掴む。
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄に幽閉されていた
+井河扇舟を、何者かが手引きして
+脱獄させたこと。
+<PAUSE>
+//　※モノクロ処理演出終了。
+//【黒画面】
+//【背景：アミダハラ監獄＿昼】【時間：昼】
+//　※免罪の皇女アリア＿nc007aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc212a,IN, 1000
+<ACTOR>0,ti_t005a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その確証を掴んだ天音はアミダハラ
+監獄の支配者・鉄華院カヲルと接触する。
+<PAUSE>
+<NAME_PLATE>
+　天音とカヲルは旧知の間柄。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そこで、カヲルの依頼で脱獄者の捜索を
+行っていたトラジローと引き合わされたのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　カヲルの見立てでは、自分たちと
+天音は同じ相手を追っている。
+<PAUSE>
+<NAME_PLATE>
+　ならば協力して事を進める
+ことができる、と。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　しかし……。
+<PAUSE>
+//【背景：アミダハラ監獄＿所長室＿昼夜共通】【時間：朝】
+//　※鋼殻のアイ_nc014aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc339a,IN, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>トラジロー
+「ふんっ！　よく知らん人間と協力？
+　なぜオレがそんなめんどーなこと
+　しなければならんのだ！」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー01
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0009a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>天音
+「ああ。確かに同意見だ。
+　私のしていることは遊びではない」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>天音
+「よく知らぬ獣人の子供など、
+　足手まといになるばかりだからな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>トラジロー
+「なにをー！？
+　オレが足手まといー！？」
+<PAUSE>
+<NAME_PLATE>天音
+「なんだ。不満でもあるのか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ti_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鉄華院カヲル
+「い、いえ、あなたたち、
+　少しは落ち着いて話しなさい……
+　子供じゃないんだから」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_スーツ
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m204b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カウーラ
+「クハハ！　まったく、所長の
+　知り合いは愉快な奴が多いですねぇ！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊カウーラ02カードイラストを流用
+<NAME_PLATE>白熊タロー
+「あわわ……トラちゃん、
+　ケンカはダメだよー。
+　早くごめんなさいしよー？」
+<PAUSE>
+//　※立ち絵
+//　　白熊タロー立ち絵＿可愛い方の顔
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　と、いきなり一触即発になった
+二人を周りの苦労人たちがなだめている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　トラジローは気性が荒く、
+天音もかつて“山犬”と呼ばれたほどの
+荒くれである。
+<PAUSE>
+<NAME_PLATE>
+　知らぬ者に簡単には気を許さない。
+<PAUSE>
+<ACTOR>0,ti_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カヲル
+「だけど、これが一番効率的なのよ。
+　同じ相手をバラバラに追っても
+　無意味でしょう？」
+<PAUSE>
+<NAME_PLATE>カヲル
+「天音はもちろん、獣人さんたちも
+　間違いなく腕は一流よ」
+<PAUSE>
+<NAME_PLATE>カヲル
+「連携して動いてくれれば
+　これ以上頼もしいことはない。
+　……わかってくれるかしら？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0009a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音＆トラジロー
+「うむむ……」
+「………」
+<PAUSE>
+<NAME_PLATE>
+　不平そうににらみ合う天音と
+トラジロー。
+<PAUSE>
+<NAME_PLATE>
+　しかしアミダハラ監獄の支配者、
+鉄華院カヲルの言葉は無下にできない。
+<PAUSE>
+<NAME_PLATE>
+　やがて二人がしぶしぶ肯く――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そこで、カヲルの隣に控えていた
+看守長カウーラがパンと手を叩いた。
+<PAUSE>
+<ACTOR>0,chr_t0291a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「よし！　荒くれさんたち、
+　話はまとまったかい？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「じゃあ、こっちも話の続きをしよう。
+　新しい手がかり――」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「私がとっ捕まえてきた、
+　『阿用』って馬鹿から得た情報だ」
+<PAUSE>
+//【背景：ナーガ族の娼館ビル＿上層ロビー＿昼夜共通】【時間：夜】
+//　※虜囚市場_nc007aより流用
+//　※立ち絵
+//　　阿用
+//　　　＊モンスターイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc309a,IN, 1000
+<ACTOR>0,ts_m235a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　アミダハラ監獄副看守長・阿用。
+<PAUSE>
+<NAME_PLATE>
+　扇舟の脱獄を手引きした阿用を、
+カウーラはヨミハラで捕獲した。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m050a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m050a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その時、阿用が身を潜めていたのが
+ヨミハラの『ナーガ族』が所有する
+娼館ビルであった。
+<PAUSE>
+//　※立ち絵
+//　　ナーガソルジャー
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ナーガソルジャー
+//　　　　＊モンスターイラストより流用
+//【背景：ある高級ホテルのプールサイド＿昼】【時間：昼】
+//　※NC113a　汎用ホテルプール＿昼　※新規
+//nc464a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc464a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>天音
+（その情報から、
+　あの女へと線が繋がった……）
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿水着イラスト立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>0,ts_m303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>矢崎玲子
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿水着
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　プールサイドで優雅な時間を
+過ごす女を天音は油断なく観察する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　阿用――カウーラが捕えた
+アミダハラ監獄副看守長は、
+大きな情報はもっていなかった。
+<PAUSE>
+<NAME_PLATE>
+　阿用は買収されただけで、
+接触した相手はほんの末端だけ。
+<PAUSE>
+<NAME_PLATE>
+　しかしその相手がヨミハラの
+ナーガ族である事は明らかになり、
+<PAUSE>
+<NAME_PLATE>
+　井河扇舟の脱獄に彼らが
+関わっているのは確実となった。
+<PAUSE>
+<NAME_PLATE>
+　そして、あの矢崎玲子は、
+地上におけるヨミハラナーガ族の
+代理人のような存在らしい。
+<PAUSE>
+<ACTOR>0,chr_t0357a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+（ここまで調べ上げるのに、
+　かなりの苦労を強いられた……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ヨミハラのナーガ族は狡猾で用心深く、
+外部での動きをほとんど掴ませない。
+<PAUSE>
+<NAME_PLATE>
+　そこを、天音とトラジロー、そして
+獣王会の面々は辛抱強く調査を続けて、
+ようやくこの女――
+<PAUSE>
+<ACTOR>0,ts_m303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　矢崎玲子に辿り着いたのだった。
+<PAUSE>
+//【背景：ある高級ホテル＿ロビー＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC039aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc393a,IN, 1000
+<ACTOR>0,ts_m303b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>矢崎玲子
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿私服
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　プールから上がった矢崎玲子が
+私服に着替えてロビーに出る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0357b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音＆トラジロー
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿私服立ち絵（新規）
+//　　　＊対魔忍RPGカードより流用
+//　※立ち絵
+//　　トラジロー01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　同じく水着から着替えた天音と
+トラジローも密かにその後に続く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　昼下がりの高級ホテルである。
+<PAUSE>
+<NAME_PLATE>
+　ロビーの片隅には、待ち合せや
+休憩に使われる小さなラウンジがあった。
+<PAUSE>
+<NAME_PLATE>
+　ロビーにもラウンジにも、
+人の姿はまばら。
+<PAUSE>
+<NAME_PLATE>
+　矢崎玲子は軽やかな足取りで
+ラウンジの中へと入っていく。
+<PAUSE>
+<NAME_PLATE>
+　そして、その奥のソファに腰かけた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m304a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m303b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>矢崎玲子
+「ごめんなさい、
+　お待たせしてしまったかしら？」
+<PAUSE>
+<NAME_PLATE>？？？
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　神田少将
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　対面のソファに座っていた男が
+無言で顔を上げた。
+<PAUSE>
+<NAME_PLATE>
+　厳めしい軍服に身を包んだ、
+張り詰めた気配の男であった。
+<PAUSE>
+<NAME_PLATE>
+　男が何事か口を開く。
+<PAUSE>
+<NAME_PLATE>
+　しかしその声は小さく、
+天音とトラジローが身を隠している
+位置からはとても聞き取れない。
+<PAUSE>
+<NAME_PLATE>天音
+（しかし、どこかで見た顔だ……）
+<PAUSE>
+<NAME_PLATE>
+　軍服に飾られた勲章から、
+それなりの地位の男なのは確かだ。
+<PAUSE>
+<NAME_PLATE>
+　すぐに記録を調べよう――。
+<PAUSE>
+<NAME_PLATE>
+　そう考えつつ、物陰に潜んだ天音は、
+矢崎玲子と男の密談する様子を着々と
+カメラに収めていった。
+<PAUSE>
+//【背景：東京＿新港区歓楽街＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC038aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc392a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　２０分ほど経過した。
+<PAUSE>
+<NAME_PLATE>
+　男と別れてホテルを出た矢崎玲子が
+タクシーを呼び止める。
+<PAUSE>
+<ACTOR>0,ts_m303b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>矢崎玲子
+「じゃあ運転手さん、
+　ひとまず港湾区の方にお願いね」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿私服
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>運転手
+「あいよっ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0357b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「………クルマか。トラジロー、
+　私たちも後を追うぞ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿私服立ち絵（新規）
+//　　　＊対魔忍RPGカードより流用
+//　※立ち絵
+//　　トラジロー01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>トラジロー
+「うむっ！」
+<PAUSE>
+//【背景：東京＿新港区歓楽街２＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC023aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc161b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　新港区・中央道路。
+<PAUSE>
+<NAME_PLATE>
+　矢崎玲子を乗せたタクシーが
+軽快にスピードを上げている。
+<PAUSE>
+<NAME_PLATE>
+　それを追うのは、天音が趣味と任務のために
+フルチューンしたモンスターバイクである。
+<PAUSE>
+<NAME_PLATE>
+　アクセルを握る天音の腰には、
+トラジローが小さな腕でしっかりと
+しがみついている。
+<PAUSE>
+//　※注　バイクで走行中なので立ち絵はなしでお願いします。
+<NAME_PLATE>トラジロー
+「……おい、天音。
+　あの男のマークは完了したぞ」
+<PAUSE>
+<NAME_PLATE>天音
+「なんだ？」
+<PAUSE>
+<NAME_PLATE>
+　爆音を鳴らしてバイクを駆りながら
+天音が背中のトラジローに問い返す。
+<PAUSE>
+<NAME_PLATE>
+　走行中も会話ができるように、
+二人のヘルメットには通信器具が
+取り付けられている。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「さっきの軍服の奴のことだぞ。
+　追跡を開始したって
+　アニキたちから連絡があった」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「これで、あいつがどこに
+　行ったのか丸わかりなのだ！」
+<PAUSE>
+<NAME_PLATE>
+　ホテルのラウンジで矢崎玲子と
+別れた軍服の男。
+<PAUSE>
+<NAME_PLATE>
+　そちらの追跡を獣王会の
+メンバーに依頼したのだった。
+<PAUSE>
+<NAME_PLATE>天音
+「ああ。それは助かる」
+<PAUSE>
+<NAME_PLATE>天音
+「天音が感謝していた――
+　と、一郎太に伝えておいてくれ」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「うむ！　らじゃーなのだ！」
+<PAUSE>
+<NAME_PLATE>
+　背中のトラジローが力強く肯いた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>天音
+（まったく……
+　とんだ早合点だったな）
+<PAUSE>
+<NAME_PLATE>天音
+（彼らが“足手まとい”だなんて、
+　とんでもない）
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　天音が内心で苦笑する。
+<PAUSE>
+<NAME_PLATE>
+　初対面の時、トラジローや獣人たちを
+そう早合点して軽んじたことだ。
+<PAUSE>
+<NAME_PLATE>
+　実際に一緒に動いてみると、
+<PAUSE>
+<NAME_PLATE>
+　鉄華院カヲルの言葉通り、
+彼らが非常に優秀なことがわかった。
+<PAUSE>
+<NAME_PLATE>
+　特に天音がバディを組んだ虎の少女
+トラジローは、一見直情タイプに見えるが、
+<PAUSE>
+<NAME_PLATE>
+　しかし獲物を追い込むために
+じっくりと腰を据える辛抱強さも
+持っており、
+<PAUSE>
+<NAME_PLATE>
+　今回の調査の大きな助けになってくれた。
+<PAUSE>
+<NAME_PLATE>
+　今では、天音は彼ら獣人たちを
+強く信頼するようになっており、
+<PAUSE>
+<NAME_PLATE>
+　こうして“若”の次に大事な愛車の
+後ろに乗せているのも、この虎の
+少女への信頼ゆえであった。
+<PAUSE>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<NAME_PLATE>
+　天音の腰にしがみつくトラジローも
+似たような感慨を抱いているのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　ふと呟くように口を開く。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「……今追っている女が、
+　お前の主の仇なのか、天音？」
+<PAUSE>
+<NAME_PLATE>天音
+「いや……そうではない。
+　あいつはただの中継役だろう」
+<PAUSE>
+<NAME_PLATE>天音
+「しかし、奴の先には、
+　確実に私の主の仇がいる……」
+<PAUSE>
+<NAME_PLATE>
+　天音が仇として追う相手。
+<PAUSE>
+<NAME_PLATE>
+　それはかつての井河長老集の筆頭、
+葉取星舟。
+<PAUSE>
+<NAME_PLATE>
+　井河扇舟の毒手、そして星舟の
+策謀によって天音の主、ふうま弾正は
+命を落とした。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「ふむー？　いや、オレは
+　そこがちょっと納得いかないのだ」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「天音は……まあ、最初に会ったときは、
+　なんだこのえらそーなうんこ人間と思ったが」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「でも、一緒に仕事をしているうちに、
+　なかなかできる奴だとわかった」
+<PAUSE>
+<NAME_PLATE>天音
+「はは。それは光栄だ」
+<PAUSE>
+<NAME_PLATE>
+　獣人の率直な物言いに天音が微笑む。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「うむ。でも……だからこそ、
+　不思議なのだ」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「お前ほどの奴が、なんでふうま弾正の
+　手下なんてやってたんだ？」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「そいつは、身勝手な反乱をして仲間を
+　たくさん死なせた大うんこだと聞いているぞ」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「オレたち獣人だったら、
+　絶対にそんな奴の言うことは聞かない」
+<PAUSE>
+<NAME_PLATE>天音
+「それは………」
+<PAUSE>
+<NAME_PLATE>
+　天音が言葉に詰まった。
+<PAUSE>
+<NAME_PLATE>
+　トラジローの言葉は、
+ある一面から見れば事実である。
+<PAUSE>
+<NAME_PLATE>
+　そして実際、闇の世界での弾正の
+評価はそのように定まっている。
+<PAUSE>
+<NAME_PLATE>
+　……しかし、天音が知る主は
+決してそれだけの人ではなかった。
+<PAUSE>
+<NAME_PLATE>天音
+「あの反乱は……仕方がなかったのだ。
+　そうしなければならないほど、
+　我々は追い詰められた」
+<PAUSE>
+<NAME_PLATE>天音
+「それに……
+　弾正様は非道の人物ではない」
+<PAUSE>
+<NAME_PLATE>天音
+「あえてそう振る舞うことはあったが、
+　本当は、誰よりも大きな心を持っていた」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「ふーん。そうなのか？」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「まあ、天音が言うのなら、
+　そうなのかもしれないな」
+<PAUSE>
+<NAME_PLATE>
+　いまいち納得してない風で
+トラジローが言う。
+<PAUSE>
+<NAME_PLATE>
+　それも仕方がない。
+<PAUSE>
+<NAME_PLATE>
+　後の世の風評などでは、
+その者の本当の姿は見えてこない。
+<PAUSE>
+<NAME_PLATE>天音
+（そう、あの方は――）
+<PAUSE>
+<NAME_PLATE>
+　天音は目を細め、弾正と過ごした
+ある日のことを思い出す。
+<PAUSE>
+//【黒画面】
+//【背景：ふうまの里＿森の中＿昼】【時間：昼】
+//　MISAO_nc011aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc171a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　あれはもう何年も前。
+<PAUSE>
+<NAME_PLATE>
+　まだ“山犬”と呼ばれていた彼女が、
+主・ふうま弾正に稽古をつけて
+もらっていた時のこと。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m147a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0278a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「……はぁ？
+　買い物に付き合え？」
+<PAUSE>
+//　※立ち絵
+//　　若い天音01
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>天音
+「まあ、私は構いませんが……お館様、
+　なんでそんな酔狂なことするんです？」
+<PAUSE>
+<NAME_PLATE>ふうま弾正
+「酔狂？　まあ、そうかもしれんが、
+　俺も一応は親だからな」
+<PAUSE>
+//　※立ち絵
+//　　ふうま弾正01立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>弾正
+「ガキの誕生日プレゼントくらい
+　買ってやってもバチは当たるまい」
+<PAUSE>
+<NAME_PLATE>天音
+「いや、そっちじゃありませんよ」
+<PAUSE>
+<NAME_PLATE>天音
+「自分じゃなくて、『里の者から』って
+　言って若様にプレゼントを贈ること」
+<PAUSE>
+<NAME_PLATE>天音
+「どういうわけです？
+　そんなややこしいことしないで、
+　お館様からって言えばいいでしょうに」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう、この日は、弾正の嫡子である
+小太郎の誕生日の数日前。
+<PAUSE>
+<NAME_PLATE>
+　弾正は、そのためのプレゼントを
+一緒に選んでくれと天音に声をかけた。
+<PAUSE>
+<NAME_PLATE>
+　しかしそのプレゼントは、
+自分からではなく、
+<PAUSE>
+<NAME_PLATE>
+　『里の者から』という名目で
+贈るつもりなのだという。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m147a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0278a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>弾正
+「なに、俺はあいつを
+　甘やかしたくないからな」
+<PAUSE>
+<NAME_PLATE>天音
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　弾正が笑って首を振る。
+<PAUSE>
+<NAME_PLATE>弾正
+「小太郎のあの右眼……」
+<PAUSE>
+<NAME_PLATE>弾正
+「俺の見立てが正しければ、
+　奴は俺など想像もつかない厳しい
+　宿命を背負っているのだろう」
+<PAUSE>
+<NAME_PLATE>弾正
+「それは恐らく、甘やかされたガキには
+　到底受け止めきれないもの……。
+　だから、俺はあいつに甘い顔をしない」
+<PAUSE>
+<NAME_PLATE>弾正
+「甘い顔をするのは、時子や
+　里の者がいれば充分だからな」
+<PAUSE>
+<NAME_PLATE>弾正
+「……とはいえ、俺も自分のガキが
+　可愛くないわけじゃない」
+<PAUSE>
+<NAME_PLATE>
+　弾正が照れたように笑う。
+<PAUSE>
+<NAME_PLATE>
+　だから『里の者から』といって
+小太郎にプレゼントを贈るのだと。
+<PAUSE>
+<NAME_PLATE>天音
+「はぁ。そういうことなら……」
+<PAUSE>
+<NAME_PLATE>天音
+「買い物くらい、いくらでも
+　付き合いますが……しかし弾正様も、
+　めんどくさいことをお考えですね」
+<PAUSE>
+<NAME_PLATE>弾正
+「ははっ！　それを言うな天音、
+　これでも俺は大人ってやつだからな」
+<PAUSE>
+//【背景：東京＿新港区歓楽街２＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC023aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc161b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>天音
+（お館様……）
+<PAUSE>
+<NAME_PLATE>
+　ヘルメットの下で天音が唇を噛む。
+<PAUSE>
+<NAME_PLATE>
+　ふうまの里を愛し、忍の未来を
+誰よりも強く願っていた弾正。
+<PAUSE>
+<NAME_PLATE>
+　何も瑕疵のない人物だったとは思わない。
+<PAUSE>
+<NAME_PLATE>
+　だがそれでも、天音には
+命を賭けるに足る主であった。
+<PAUSE>
+<NAME_PLATE>天音
+（報いを受けさせるぞ、外道ども……）
+<PAUSE>
+//【背景：東京＿新港区歓楽街３＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC003aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc097a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　港湾区繁華街。
+<PAUSE>
+//【背景：東京＿新港区歓楽街３＿廃校＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC004aより流用
+//nc465a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc465a,IN, 1000
+<ACTOR>0,ts_m303b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>矢崎玲子
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿私服
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　タクシーを降りた女は港湾区の中でも
+特に治安の悪い区域へと向かう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　闇勢力の抗争が絶えない危険地帯。
+<PAUSE>
+<NAME_PLATE>
+　女はそこを恐れる様子もなく進み、
+やがて荒れ果てた廃校の中に消えた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0357b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「……何かイヤな予感がするな」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿私服立ち絵（新規）
+//　　　＊対魔忍RPGカードより流用
+//　※立ち絵
+//　　トラジロー01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>トラジロー
+「うむ。同感なのだ……」
+<PAUSE>
+<NAME_PLATE>
+　その後を追う二人が囁きを交わす。
+<PAUSE>
+<NAME_PLATE>
+　女の行動は明らかに不審。
+<PAUSE>
+<NAME_PLATE>天音
+「もう何日も奴に張り付いている。
+　尾行を感づかれていても
+　不思議ではないが……」
+<PAUSE>
+<NAME_PLATE>
+　とするならば、この動きは
+“誘い”ということも考えられる。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「……面白いのだ、天音。
+　この誘い、乗ってやろうだぞ」
+<PAUSE>
+<NAME_PLATE>天音
+「トラジロー……？」
+<PAUSE>
+<NAME_PLATE>
+　トラジローが不敵に笑う。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「向こうから仕掛けてくるなら、
+　むしろ好都合だぞ」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「あいつをぶん殴って、知ってること
+　全部吐かせてやればいいのだ」
+<PAUSE>
+<NAME_PLATE>天音
+「そうだな……」
+<PAUSE>
+<NAME_PLATE>
+　ここ数日の尾行によって
+女の周辺情報は集まっている。
+<PAUSE>
+<NAME_PLATE>
+　もう一歩踏み込んでも良い頃合いだ。
+<PAUSE>
+<NAME_PLATE>天音
+「よし。行こうトラジロー。
+　あの女の身柄を押さえるぞ」
+<PAUSE>
+<NAME_PLATE>
+　静かに肯き合い、天音と
+虎の少女が廃校に足を踏み入れる。
+<PAUSE>
+//【背景：東京＿新港区歓楽街３＿廃校廊下＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC005aより流用
+//nc466a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc466a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　かなり先を歩いているのか
+校内に女の姿は見えない。
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿私服立ち絵（新規）
+//　　　＊対魔忍RPGカードより流用
+//　※立ち絵
+//　　トラジロー01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<GROUP>
+<ACTOR>0,chr_t0357b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　二人はトラジローの鋭敏な鼻と
+聴覚を頼りにその後を追っていく。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「……こっちだぞ天音。
+　あいつ、地下の方に向かっている」
+<PAUSE>
+<NAME_PLATE>天音
+「地下か……」
+<PAUSE>
+<NAME_PLATE>
+　ますます“誘い”の
+匂いが強くなってくるが……？
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして女は、廃校地下の行き止まりの
+部屋で二人を待ち受けていた。
+<PAUSE>
+//【背景：東京＿新港区歓楽街３＿廃校の一室＿昼】【時間：昼】
+//　※監獄アカデミア_NC013aより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm314,1000
+<BG>nc183a,IN, 1000
+<ACTOR>0,ts_m303b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>矢崎玲子
+「あら、いらっしゃい♪」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿私服
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>矢崎玲子
+「あなたたちね？　ここ最近、
+　私の周りをチョロチョロと
+　嗅ぎまわっているドブネズミは」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「――さあ、話しなさい。
+　何の目的で私を探っているのか」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「素直に話せば、娼館に売り飛ばす
+　くらいで許してあげるわよ♪」
+<PAUSE>
+<NAME_PLATE>
+　かつてここで血生臭い何かが
+起こったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　鮮血の跡が散らばる一室の奥に、
+女が悠然と笑って立っていた。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんな女を守護するように。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m234a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m234a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ナーガボーン
+「シャアアアアアア……」
+「シャアアアアアア……」
+「シャアアアアアア……」
+<PAUSE>
+//　※立ち絵
+//　　ナーガボーン
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ナーガボーン
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>天音
+「……なるほど。ここが
+　お前たちの“巣”というわけか」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音＿私服立ち絵（新規）
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>トラジロー
+「ふんっ。ネズミじゃないぞ、
+　オレは立派なトラなのだ！」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　女の周囲、そして二人の退路を
+断つように多数の怪物が現れる。
+<PAUSE>
+<NAME_PLATE>
+　ナーガ族の先兵ナーガボーン。
+<PAUSE>
+<NAME_PLATE>
+　強靭な生命力と肉体で容易く
+人間を狩る恐るべきナーガ族の戦士。
+<PAUSE>
+<NAME_PLATE>
+　しかし天音は全く動じることなく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0357b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「では、こちらも質問させてもらおう」
+<PAUSE>
+<NAME_PLATE>天音
+「お前は誰のために動いている？
+　ホテルで会った男は何者だ？」
+<PAUSE>
+<NAME_PLATE>天音
+「そして、何故ナーガ族は“内調”と
+　連携して動いている……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　鉄華院カヲルの証言、そして天音自身が
+アミダハラで見た『女』の存在から、
+<PAUSE>
+<NAME_PLATE>
+　一連の事件に内調が絡んでいるのは
+予測がついている。
+<PAUSE>
+//　※『女』＝ミランダのこと。マップ16、メイン29章関連。
+<NAME_PLATE>
+　しかし証拠はない。
+<PAUSE>
+<NAME_PLATE>
+　だからこそ、この目の前の女から
+確かな事実を引き出す必要があった。
+<PAUSE>
+<ACTOR>0,ts_m303b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>矢崎玲子
+「はあ！？　なに！？
+　この状況で私に質問だなんて――
+　馬鹿なのあなたたち！！？」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「アハハハハハハ！！
+　いいわ、お話にならない。
+　お前たち、殺してしまいなさい！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>2,ts_m234a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m234a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m234a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーガボーン
+「シャアアアアアアアアアア！！！」
+「シャアアアアアアアアアア！！！」
+「シャアアアアアアアアアア！！！」
+<PAUSE>
+<NAME_PLATE>
+　大袈裟に嘲弄した女がナーガ族の
+戦士に指令を下す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　二人に襲い掛かる凶悪な毒の刃。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<BG>nc183a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0357b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「ふん。やはり小者だな――」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「全く、地下に妙な奴らがいるのは、
+　匂いと音でわかっていたのだ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュ！！　ザシュザシュザシュ！！
+<PAUSE>
+//　※鮮血、戦闘効果など。
+<NAME_PLATE>
+　ナーガボーンの猛毒の刃が天音の
+体を無残に引き裂く――。
+<PAUSE>
+<NAME_PLATE>
+　その寸前、天音は邪眼“動転輪
+（どうてんりん）”を発動させていた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナーガボーン
+「ギィイイイイイイイ！！！！？」
+「ギィイイイイイイイ！！！！？」
+「ギィイイイイイイイ！！！！？」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「えっ！！！？」
+<PAUSE>
+<BG>nc183a,IN, 500
+<ACTOR>0,chr_t0357b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　邪眼を燃え上がらせた天音の
+周囲に引き裂かれた血と肉が乱舞する。
+<PAUSE>
+<NAME_PLATE>
+　動転輪の発動中、天音は体に触れた
+あらゆる物体の運動エネルギーを奪い
+ゼロにすることができる。
+<PAUSE>
+<NAME_PLATE>
+　銃弾は天音の肌の上でピタリと止まり、
+いかなる達人の剣でさえ、天音の肌には
+擦り傷ひとつ付けられない。
+<PAUSE>
+<NAME_PLATE>
+　そして天音は、奪った運動エネルギーを
+自らの力として放つことも可能。
+<PAUSE>
+<NAME_PLATE>
+　天音の放つナイフは銃弾のように加速し、
+軽い一撃で岩をも砕くことができる。
+<PAUSE>
+<NAME_PLATE>
+　つまり――。
+<PAUSE>
+<NAME_PLATE>
+　この一瞬で、天音は己の体に
+突き立てられた刃を全て無効化し、
+<PAUSE>
+<NAME_PLATE>
+　その運動エネルギーをそっくり
+そのままナーガ族の戦士たちに
+お返ししてやったのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さらに――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>矢崎玲子
+「ひぃっ！？　ひひいいいいいいい
+　いいいいいいいいいいっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　ぶちまけられたナーガ族の血と
+臓物を頭からかぶって腰を抜かした
+ようにへたり込む女。
+<PAUSE>
+<NAME_PLATE>
+　その背後に俊敏に回り込んだ虎の
+少女が、鋭い爪を首筋に押し当てていた。
+<PAUSE>
+<ACTOR>1,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「……ちぇっくめいとだぞ。
+　少しでも余計なことしたら、
+　お前は一発であの世行きなのだ」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「あひっ、ひぃいい……
+　いや、やめて、殺さないで……！」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「私は、何も関係ないの……！
+　話すわ、あなたたちの言うとおり、
+　なんでも話すからぁ……！」
+<PAUSE>
+<NAME_PLATE>
+　恐怖で眼に涙をにじませ、
+必死に懇願してくる女。
+<PAUSE>
+<ACTOR>1,ts_m157a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0357b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「んん？　なんだこの人間、
+　とんだ腰抜けヤローだぞ」
+<PAUSE>
+<NAME_PLATE>天音
+「まあ、軽はずみに闇の世界に
+　関わった一般人という所なのだろう」
+<PAUSE>
+<NAME_PLATE>
+　弱々しくへたり込む女に天音が
+ゆっくりと歩み寄る。
+<PAUSE>
+<NAME_PLATE>天音
+「なぜこのような小者にナーガ族が
+　使われているのか理解に苦しむが……」
+<PAUSE>
+<NAME_PLATE>天音
+「しかし、こちらには都合がいい。
+　できるなら私も、無残な拷問など
+　したくはないからな」
+<PAUSE>
+<NAME_PLATE>矢崎玲子
+「えっ、ええっ！　そうよっ！
+　私はただの部外者なの、だから
+　拷問なんて、そんな酷いことは――」
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>天音
+「――！！！？　トラジロー、
+　その女から離れろぉおおっっ！！！」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「えっ？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドオオオオオオオオオオン！！！
+<PAUSE>
+//　※激しい攻撃演出など。
+<NAME_PLATE>
+　薄暗い地下室が轟音で揺れた。
+<PAUSE>
+<NAME_PLATE>
+　呆然とした顔で立ち尽くすトラジロー。
+<PAUSE>
+<NAME_PLATE>
+　それを守るように天音が立ち、
+動転輪を発動させていた。
+<PAUSE>
+<BG>nc183a,IN, 500
+<NAME_PLATE>
+　そして、二人の後ろには、
+<PAUSE>
+<NAME_PLATE>
+　動転輪の範囲から外れた
+運動エネルギーが地下室の床や壁に
+巨大な破壊の跡を残していた。
+<PAUSE>
+<ACTOR>0,ts_m303b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「あら驚いた♪
+　薄汚いドブネズミのわりに、
+　勘がいいのね」
+<PAUSE>
+//　※立ち絵
+//　　矢崎玲子（タクシャカ）＿私服
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　女が笑って立ち上がった。
+<PAUSE>
+<NAME_PLATE>
+　惨めに命乞いしていた面影は
+何一つない。
+<PAUSE>
+<NAME_PLATE>
+　悠然と立つその体の周囲から、
+異様なほどの魔力が滲み出している。
+<PAUSE>
+<NAME_PLATE>
+　天音ほどの達人でさえ、
+今の今までこの女が隠していた
+魔力に気づくことができなかった。
+<PAUSE>
+<NAME_PLATE>天音
+「女、貴様は何者だ……？」
+<PAUSE>
+<NAME_PLATE>？？？
+「ふふふ。あなたは言ったわね？
+　ナーガ族の戦士が
+　なぜ私に使われているのか――」
+<PAUSE>
+<NAME_PLATE>？？？
+「それは、
+　私があの子たちの“長”だから」
+<PAUSE>
+<NAME_PLATE>天音
+「………！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　冷笑を浮かべた女の体が放出される
+膨大な魔力と共に少しずつ形を変えていく。
+<PAUSE>
+<BG>nc183a,IN, 500
+<ACTOR>0,ts_m303c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タクシャカ
+「私の名前は、タクシャカ――。
+　蛇神ナーガ族の三族長の一人。
+　そして――」
+<PAUSE>
+//　※立ち絵
+//　　タクシャカ（武器無し）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>タクシャカ
+「この姿を見た以上、
+　あなたたちは死ぬしかないわね♪」
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

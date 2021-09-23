@@ -1,0 +1,112 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc017aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc279a,IN, 1000
+<ACTOR>0,chr_t0157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ここが噂の『闇の宮殿』かあ。
+　ここまで近づいた対魔忍は
+　たぶん私が最初だよね」
+<PAUSE>
+//　※立ち絵
+//　　さくら＿立ち絵
+//　　　＊【天真影傑】井河さくらを流用。
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらはノマドの本拠地、
+『闇の宮殿』の前までたどり着いていた。
+<PAUSE>
+<NAME_PLATE>
+　ナドラの情報のおかげで、
+警備に見つからず短時間で
+ここまで接近することができた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m170a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m170a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m170a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ノマド兵士
+「……………………」
+<PAUSE>
+//　※立ち絵
+//　　ノマド女戦士＿立ち絵
+//　　　　＊決戦アリーナのモンスターイラストから流用
+//　※三人ほど並べてください。
+<NAME_PLATE>
+　だが入り口には門番が立っている。
+<PAUSE>
+<NAME_PLATE>さくら
+「呪いでみんなダウンしてるかと思ったけど、
+　さすがに見張りはいるなあ」
+<PAUSE>
+<NAME_PLATE>さくら
+「ナドラの話だと
+　闇の宮殿の一部が異世界に
+　繋がってるって話だけど……」
+<PAUSE>
+<NAME_PLATE>さくら
+「ノマドを救うために
+　ちょっと異世界に行きたいから
+　そこまで案内してって頼んでも駄目だよね」
+<PAUSE>
+<NAME_PLATE>さくら
+「イングリッドはもう向こうにいるらしいし、
+　こっちで騒ぎを起こしてる
+　暇はなさそうだし」
+<PAUSE>
+<NAME_PLATE>さくら
+「影に潜って
+　こっそり忍び込むしかないかなあ」
+<PAUSE>
+<NAME_PLATE>
+　そう思って影に潜ろうとしたところで、
+『闇の宮殿』の中が急に騒がしくなった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ノマド兵士
+「敵だ！」
+<PAUSE>
+<NAME_PLATE>ノマド兵士
+「敵が現れたぞ！！」
+<PAUSE>
+<NAME_PLATE>ノマド兵士
+「向こうの世界からだ！！」
+<PAUSE>
+<NAME_PLATE>ノマド兵士
+「迎撃しろ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　などといった声が聞こえ、
+見張りをしていたノマド兵も
+慌てた様子で中に飛び込んでいった。
+<PAUSE>
+<NAME_PLATE>
+　どうやら異世界の敵が
+こっちの世界に出てきたようだ。
+<PAUSE>
+<ACTOR>0,chr_t0157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ちょうどいいか。案内してもらおうっと」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらはするりと影に潜ると、
+迎撃にむかった兵士の後をついていった。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

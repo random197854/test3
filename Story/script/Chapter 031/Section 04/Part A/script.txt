@@ -1,0 +1,454 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：魔界の森＿昼】【時間：昼】
+//　※虜囚市場_nc010aより流用
+//nc373a
+<BGM_PLAY>bgm313,1000
+<BG>nc373a,IN, 1000
+<NAME_PLATE>
+　リーナは再会したイングリッドと共に
+ヒュドラが潜む魔界の森へと入っていった。
+<PAUSE>
+<NAME_PLATE>
+　前を行くのはイングリッドだ。
+リーナはその後をついて行く。
+<PAUSE>
+<NAME_PLATE>
+　自信に満ちた後ろ姿。
+ようやくあの人と一緒に戦える。
+その喜びと興奮が充ち満ちていた。
+<PAUSE>
+<NAME_PLATE>
+　魔界の奥地だけあって、
+野生のモンスターが時折現れるが、
+そんなものは問題にもならなかった。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「でやああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔界ワスプ
+「！！！！！！」
+「！！！！！！」
+「！！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプ立ち絵
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<NAME_PLATE>
+　イングリッドが魔剣ダークフレイムを
+一閃するだけで何匹もの敵が倒されていく。
+<PAUSE>
+<BG>nc373a,IN, 500
+<ACTOR>0,chr_t0021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「たあっ！　てやっ！　そいやっ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔界ワスプ
+「！！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプ立ち絵
+//　　　＊モンスターイラストより流用
+//　※こちらは一匹
+<NAME_PLATE>
+　リーナが少ない魔力で小技を駆使して
+ようやく一匹倒すのとは大違いだ。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc373a,IN, 500
+<ACTOR>0,chr_t0021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「なんて強くて格好いいんだ……」
+<PAUSE>
+<NAME_PLATE>
+　初めて目の当たりにする
+イングリッドの勇姿に見とれてしまう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その一方、たゆまぬ努力で
+確かな実力を身につけたリーナに
+イングリッドも嬉しそうだった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「相変わらず気持ちの良い剣だな。
+　しかも実戦で鍛え上げている。
+　強くなったな、リーナ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「あ、ありがとうございます！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「傭兵団に入ったり武者修行したり
+　色々とやってみました！
+　でもまだまだです！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「うむ。
+　それはあの時と同じ剣だな。
+　ずっと使っているのか」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、ローザマリー家を出るときに、
+　お嬢様に頂きました」
+<PAUSE>
+<NAME_PLATE>
+　今や自在に風を操れるようになった魔剣を
+ぐっと握りしめる。
+<PAUSE>
+<NAME_PLATE>リーナ
+「あの晩、イングリッド様に
+　これが良い剣だと聞いて、
+　後でお嬢様にも色々と伺いました」
+<PAUSE>
+<NAME_PLATE>リーナ
+「一世代前の風の騎士のために打たれた剣で、
+　美しくないという理由で
+　ずっと使われなかったそうです」
+<PAUSE>
+<NAME_PLATE>リーナ
+「だけど私は美しいと思います。
+　この剣で風を操るのも好きです」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そうだろうな。
+　柄に布を巻いているのは？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「正式に称号を得た騎士のみ
+　名の刻印を許されるそうで、
+　今も呪詛に空白があって隠しています」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「お前の名を刻まないのか？
+　もうそれだけの力はあるだろう？」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドに不思議そうにされ、
+リーナはちょっと照れながら答えた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「そ、それは……
+　私はまだ正式な騎士ではありませんし」
+<PAUSE>
+<NAME_PLATE>リーナ
+「これはお嬢様の形見ですから、
+　頂いたそのままで使いたいです」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは納得したように頷いた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「お前は義理堅いな。
+　ローザマリー家は残念なことをした」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい。
+　私が魔界騎士になることが
+　お嬢様へのご恩返しになると思っています」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そうだな……」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　頷くイングリッドを見て、
+彼女が魔界の連合を裏切ったと
+言われていることを思い出した。
+<PAUSE>
+<NAME_PLATE>
+　突然に再会できた喜びで忘れていたが、
+それはイングリッドに憧れて魔界騎士を目指す
+リーナの胸にずっと影を落としていた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「イングリッド様、
+　私からもお聞きしていいですか？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「なんだ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「私はイングリッド様に憧れて
+　イングリッド様のような魔界騎士になりたい
+　と思って、ずっと精進してきました」
+<PAUSE>
+<NAME_PLATE>リーナ
+「なのに、どうしてイングリッド様は
+　連合の剣たるべき魔界騎士を
+　やめてしまったのですか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「どうして人間界で
+　ノマドなどという組織の一員に
+　なったのですか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それは魔界騎士にあるまじき行いでは
+　ないのですか？　イングリッド様！」
+<PAUSE>
+<NAME_PLATE>
+　最初、躊躇いがちだった言葉は
+次第に畳みかけるようになり、
+ついには足を止めて詰問していた。
+<PAUSE>
+<NAME_PLATE>
+　イングリッドも立ち止まり、
+真剣な表情のリーナに向き直った。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「理由は二つだ。
+　一つは仕えるに値するお方に
+　出会ったからだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「エドウィン・ブラック様、
+　あの方に会って私は初めて居所を得た」
+<PAUSE>
+<NAME_PLATE>リーナ
+「エドウィン・ブラック様……
+　それはどんなお方ですか？
+　なにを目指しているのですか？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「私の口からは言えぬ。
+　私もそのお心を全て理解してはいない。
+　それでも我が身を捧げると誓ったのだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「………………」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「もう一つは魔界の安泰のためと言いつつ、
+　９つの有力貴族の思惑に振り回されるだけの
+　魔界騎士に嫌気がさしたからだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「真の魔界騎士とは
+　そんな下らぬ存在ではないはずだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「私は私が信じる道を行く。
+　故に今も魔界騎士を名乗っている」
+<PAUSE>
+<NAME_PLATE>リーナ
+「真の魔界騎士……」
+<PAUSE>
+<NAME_PLATE>
+　その言葉を噛みしめるリーナを見て、
+イングリッドは微かに微笑んだ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ふっ、こんなことは
+　誰にも言ったことがないのだがな。
+　不思議とお前には話したくなる」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様……」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「無論、
+　お前にはお前の魔界騎士の道があろう。
+　それを目指すことだ、リーナ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　一切の迷いのないイングリッドの言葉。
+そして励ましにリーナは強く胸を打たれた。
+<PAUSE>
+//【背景：毒の沼地＿昼】【時間：昼】
+//　※MISAO_nc011aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc171a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　やがて辺りが薄暗くなってきた。
+<PAUSE>
+<NAME_PLATE>
+　鼻を突くような嫌な臭いも漂っている。
+<PAUSE>
+<NAME_PLATE>
+　強大な魔の気配が伝わってくる。
+ヒュドラが棲む毒の沼地はすぐそこだ。
+<PAUSE>
+<NAME_PLATE>
+　二人は茂みに身を隠しながら、
+作戦を確認した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「水辺にいるヒュドラはやっかいだ。
+　不死に近い生命力を発揮するというからな」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>リーナ
+「はい、まずは火攻めにしようと、
+　火種と油の準備をしてきました。
+　私は火の術は使えませんから」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>イングリッド
+「そこは任せろ。
+　まず私が炎の剣で沼地の水を蒸発させる。
+　それで力は半減するだろう」
+<PAUSE>
+<NAME_PLATE>リーナ
+「後は九つもある首と毒のブレスですね」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「毒のブレスの方は頼む。
+　お前の風で散らしてくれ。
+　あてにしているぞ、リーナ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「わ、私の風をですか！？
+　イングリッド様が私をあてに？」
+<PAUSE>
+<NAME_PLATE>
+　憧れの人に
+「あてにしている」などと言われ、
+リーナは嬉しいよりも戸惑ってしまう。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「当たり前だ。
+　でなければ連れてこない」
+<PAUSE>
+<NAME_PLATE>リーナ
+「こ、光栄です」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「首はそうだな、六つは私が引き受けよう。
+　お前は三つ受け持ってくれ。やれるな」
+<PAUSE>
+<NAME_PLATE>
+　リーナがやれることを
+彼女以上に確信している聞き方だった。
+<PAUSE>
+<NAME_PLATE>リーナ
+「は、はい」
+<PAUSE>
+<NAME_PLATE>
+　勇気と自信が湧き上がってくるのを
+感じながらリーナは強く頷いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やがて毒の沼の方から苛立たしげな
+呻り声が聞こえてきた。
+<PAUSE>
+<ACTOR>0,ts_m232a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヒュドラ
+「グアアアアアアアアアアアッ！！」
+「ガャルウウウウウウウウウッ！！」
+「ギャギャギャギャアアアアッ！！」
+<PAUSE>
+//　※立ち絵
+//　　ヒュドラ立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　茂みから覗き見ると、
+毒の沼に浸かったヒュドラが
+九つの首でこちらを威嚇している。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m107a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,ts_m107a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m107a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>毒蛇
+「シャッシャッシャーーーッ！！」
+「シャッシャッシャーーーッ！！」
+「シャッシャッシャーーーッ！！」
+<PAUSE>
+//　※立ち絵
+//　　闇の忍蛇立ち絵
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<NAME_PLATE>
+　その周りには数え切れないほどの毒蛇が
+とぐろを巻いていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「気づかれたか。
+　奇襲が成功するとは思っていなかったがな。
+　行くぞ、リーナ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人は迷うことなく
+ヒュドラとその配下の毒蛇の前に躍り出た。
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

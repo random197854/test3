@@ -1,0 +1,268 @@
+//=======================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：東京キングダム裏町＿夜】【時間：夜】
+//　※対魔忍ムラサキの背景nc014bより流用
+<BGM_PLAY>bgm207,1000
+<BG>nc016a,IN, 3000
+<NAME_PLATE>俺
+「はぁ、はぁ……やっと大人しくなったか……
+　なんなんだこいつは……」
+<PAUSE>
+<NAME_PLATE>
+　ソニアはまさに殺人鬼だった。
+<PAUSE>
+<NAME_PLATE>
+　己の快楽のためだけに襲ってきたソニアは、
+命令に従っているだけの米連兵より凶悪で、
+強靭だった。
+<PAUSE>
+<NAME_PLATE>
+　一応、殺しはしていない。
+<PAUSE>
+<NAME_PLATE>
+　動けなくなるくらいの重傷を負わせて、
+静流の毒花で眠らせたのだ。
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ひいいいいい、
+　全身血まみれで嬉しそうに気絶してるぜ。
+　殺人鬼マジこええ」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+（全くだ……）
+<PAUSE>
+<ACTOR>1,sz_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「結局、彼女と戦うはめになったけど、
+　一体どういうことなの？」
+<PAUSE>
+//　　静流通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　さすがの静流も呆れかえった顔をしている。
+<PAUSE>
+<NAME_PLATE>俺
+「殺人鬼の考えは理解不能ですよ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「理解不能でいいよ。こんな殺人鬼、
+　米連に引き渡してとっとと帰ろうぜ。
+　さもなきゃここに放置だ、放置」
+<PAUSE>
+<NAME_PLATE>静流
+「私もそれでいいと思うけど、
+　判断はふうま君に任せるわ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなると、
+　こいつは米連に消されることになりますね」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「べ、別にいいじゃねえか！」
+<PAUSE>
+<ACTOR>1,sz_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「でも、ふうま君的には後味が悪い……
+　というところかしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そうですね……」
+<PAUSE>
+<NAME_PLATE>静流
+「じゃあ、どうする？」
+<PAUSE>
+<NAME_PLATE>
+　静流はどこか面白がっているようだ。
+俺の答えが分かっているのかもしれない。
+<PAUSE>
+<NAME_PLATE>俺
+「しかたない。
+　いったん里に連れて帰りましょう」
+<PAUSE>
+<NAME_PLATE>静流
+「了解」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、おい、い、いやだぞ？！
+　こんな殺人鬼と一緒に帰るのはごめんだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「里に帰るまでが任務だ。
+　ちょっと、いやかなりイカれているが
+　まだこいつは仲間だ。放っておけない」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「遠足かよ！　ふざけんな！」
+<PAUSE>
+<NAME_PLATE>俺
+「隊長命令だ」
+<PAUSE>
+<NAME_PLATE>
+　嫌だ嫌だと騒ぐ鹿之助は無視して、
+俺は血まみれのソニアをまた抱き上げた。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,sz_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+//　※対魔忍アサギＺＥＲＯの背景NC008aより流用
+<BG>nc054a,NONE
+<TRANSITION>TR26, IN, 1000
+<NAME_PLATE>
+　そして、後日――
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC009aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc006a,NONE
+<TRANSITION>TR26, IN, 1000
+<NAME_PLATE>
+　俺はまた校長室に呼ばれていた。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「今回はすまなかったわね。
+　まんまと米連の内輪もめに乗せられたわ」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　いつも厳しいアサギ先生が俺に謝ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「酷い目に遭いましたよ。
+　そもそものターゲットだった研究者とやらは
+　どうなったんですか？」
+<PAUSE>
+<NAME_PLATE>
+　両方名字みたいな変な名前の日系人は、
+結局現れなかったのだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「消されたみたい。ソニアを殺すのは
+　そのついでだったみたいね」
+<PAUSE>
+<NAME_PLATE>俺
+「対魔忍の俺たちはついでのついでですか。
+　いい迷惑だ」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ええ、いずれこのお礼はするつもりよ」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は笑みを浮かべた。
+あの殺人鬼とは違った意味で怖い笑みだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ところでソニアは？」
+<PAUSE>
+<NAME_PLATE>
+　聞きたくはなかったが、一応聞く。
+<PAUSE>
+<NAME_PLATE>
+　里に連れ帰ってアサギ先生に引き渡したきり
+会っていない。
+<PAUSE>
+<NAME_PLATE>アサギ
+「帰ったわ。もう傷が治ったからって」
+<PAUSE>
+<NAME_PLATE>俺
+「自分を裏切った奴を殺しに行くつもりか」
+<PAUSE>
+<NAME_PLATE>アサギ
+「でしょうね。すごく楽しそうだったわ」
+<PAUSE>
+<NAME_PLATE>俺
+「はは……」
+<PAUSE>
+<NAME_PLATE>
+　あの血まみれの笑顔が目に浮かび、
+背筋がゾワッとする。
+<PAUSE>
+<NAME_PLATE>アサギ
+「それとこれ。手紙。あなたへよ」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が封筒を手渡す。
+<PAUSE>
+<NAME_PLATE>俺
+「俺に？　ソニアから？」
+<PAUSE>
+<NAME_PLATE>
+　嫌な予感しかしない。
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ先生、これ中身は？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「他人のラブレターを読むほど
+　無粋じゃないわ」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「……ラブ、レター」
+<PAUSE>
+<NAME_PLATE>
+　見たくなかったが、封を開ける。
+<PAUSE>
+//【黒画面】
+//※手紙のイメージ背景として使用
+//　※立ち絵
+//　　No.16ソニア立ち絵
+//　　　＊対魔忍RPGカードより流用
+<BG_OUT>1000
+<BGM_PLAY>bgm310,1000
+<ACTOR>3,so_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソニア
+『ふうま、あんたとの殺し合いには、
+　最高にエクスタシーを感じたわ』
+<PAUSE>
+<NAME_PLATE>ソニア
+『いつかまた私を切り裂いてちょうだい。
+　お礼にあなたの心臓を私の爪で貫くわ。
+　またね』
+<PAUSE>
+<NAME_PLATE>
+　手紙には、英語でその様な
+意味が綴られていた。
+<PAUSE>
+<ACTOR>3,so_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　しかも血のキスマーク入りだ。
+<PAUSE>
+<BG>nc006a,NONE
+<TRANSITION>TR26, IN, 1000
+<NAME_PLATE>俺
+「やれやれ、勘弁してくれ……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「大変なのに気に入られたわね」
+<PAUSE>
+<NAME_PLATE>
+　あのアサギ先生が俺に同情していた。
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→エピローグ終了
+//=================================================================

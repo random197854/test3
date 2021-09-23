@@ -1,0 +1,1108 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：海岸1＿昼】【時間：昼】
+//　※波打ち際
+//　※水着のシモベ君_nc014aより流用
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0133a,IN, 1000
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「まったく。
+　気持ちよさそうに寝ちゃって」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ水着＿立ち絵
+//　　＊決戦アリーナ【雷撃の休日】水城ゆきかぜを加工して流用
+<NAME_PLATE>
+　ゆきかぜは眠っている
+ふうまの顔を覗き込んだ。
+<PAUSE>
+<NAME_PLATE>
+　最初は照れくさくて
+狸寝入りをしているのかと思ったが、
+いつの間にか普通に寝ていた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「今日は保護者なのに
+　ほんと役立たずなんだから」
+<PAUSE>
+<NAME_PLATE>
+　などと文句を言いながら、
+ふうまの頬を指でツンツンと突く。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ほーら、起きなさいよ」
+<PAUSE>
+<NAME_PLATE>ふうま
+「う…………、ん…………」
+<PAUSE>
+<NAME_PLATE>
+　ふうまはわずかに眉をひそめるが、
+その程度では起きそうもない。
+<PAUSE>
+<NAME_PLATE>
+　そういう力加減でやっていた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「起きろ、ほら起きろ。
+　さもないと水ぶっかけるわよ」
+<PAUSE>
+<NAME_PLATE>
+　などとツンツン遊んでいると、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「ふうま、寝てるの？」
+<PAUSE>
+//　※立ち絵
+//　　クリア・ローベル＿立ち絵
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「っ！！」
+<PAUSE>
+<NAME_PLATE>
+　戻ってきたクリアに声をかけられ、
+ゆきかぜはパッと指を離した。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+（やだ、変なとこ見られちゃった？）
+<PAUSE>
+<NAME_PLATE>クリア
+「すごい寝てる」
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t008a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なんか食べたらすぐにね。
+　保護者なのにしょうがないやつよね」
+<PAUSE>
+<NAME_PLATE>
+　気恥ずかしさでつい早口になった。
+<PAUSE>
+<NAME_PLATE>クリア
+「いつも色々たいへんだから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まあ……ね」
+<PAUSE>
+<NAME_PLATE>クリア
+「ほっぺたツンツン」
+<PAUSE>
+<NAME_PLATE>
+　クリアはゆきかぜの真似をして、
+ふうまの頬を突いた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+（やっぱり見られてた。恥ずかしい）
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ナイショね」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん、ナイショ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ふうまの寝顔を前に、
+二人でクスクス笑っていると、
+<PAUSE>
+<ACTOR>1,ts_m079a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　カラスもパタパタ戻ってきて、
+こちらはコップで何か飲むような仕草をする。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「喉渇いたの？」
+<PAUSE>
+<ACTOR>1,ts_m079a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「ジュース買いに行きたいって」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ジュース？」
+<PAUSE>
+<NAME_PLATE>
+　ふうまをもう少し寝かせてあげたいけど、
+どうしようと思っていると、
+<PAUSE>
+<NAME_PLATE>クリア
+「ゆきかぜはふうまを見てて。
+　いっしょに行ってくる」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そう？
+　じゃあ気をつけてね」
+<PAUSE>
+<NAME_PLATE>
+　お姉さんっぽいことをしたい年頃だ。
+まあ大丈夫だろう。
+<PAUSE>
+<NAME_PLATE>クリア
+「うん。
+　カラスちゃん、いこ」
+<PAUSE>
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se124
+<NAME_PLATE>
+　二人は仲良く歩いていく。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　女の子たちの気遣いには気づかずに
+ふうまは呑気にすうすう眠り続けていた。
+<PAUSE>
+//【背景：海岸4＿昼】【時間：昼】
+//　※ショップのそば
+//　※監獄戦艦２_背景nc019aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc163a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ところで同じ海岸にある
+とあるビーチサイドカフェでは
+一つの作戦が進行中だった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0342a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　米連の特殊エージェント、
+レティシア・ベルメールは対魔忍と協力し、
+非合法取引の現場を抑えようとしていた。
+<PAUSE>
+//　※立ち絵
+//　　【プールサイドミストレス】レティシア・ベルメール
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　彼女は自分の血液を液体に浸透させて、
+疑似的に己の身体の一部として操る能力、
+アクア・ミストレスの使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　海での作戦にはうってつけだったが、
+カフェのスタッフに変装するためと言われ、
+用意された衣装が問題だった。
+<PAUSE>
+<NAME_PLATE>
+　布地が少ない黒のビキニ、
+鮮やかなグリーンのパレオ、
+さらにハイビスカスの花冠と首飾り。
+<PAUSE>
+<NAME_PLATE>
+　ワイキキビーチでもあるまいし、
+いくらなんでも華やかすぎる恰好で、
+レティシアは内心大いに戸惑っていた。
+<PAUSE>
+<NAME_PLATE>レティシア
+（くっ……
+　こんな人目を引く恰好では
+　任務に支障がでかねないぞ……）
+<PAUSE>
+<NAME_PLATE>
+　プライベートでは地味なので
+こんな風に周りから注目を浴びるのは
+慣れていないし、
+<PAUSE>
+<NAME_PLATE>
+　ナンパ男がやたらと声をかけてきて、
+非情に鬱陶しい。
+<PAUSE>
+<NAME_PLATE>
+　少し前もファンキービーストとかいう
+妙な三人組にしつこくつきまとわれ、
+あやうく能力を使うところだった。
+<PAUSE>
+<NAME_PLATE>レティシア
+（彼女は平気な顔をしている。
+　さすが対魔忍。
+　この手の任務に慣れているようだな）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0235a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>磯咲伊紀
+「トロピカルドリンクのお客様、どうぞ」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチの優等生】磯咲伊紀
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　爽やかな笑顔と共に
+ドリンクをサービスしている彼女は
+磯咲伊紀（いそざきいのり）。
+<PAUSE>
+<NAME_PLATE>
+　レティシアと同じく、
+水を操る水遁の術を得意としている。
+<PAUSE>
+<NAME_PLATE>
+　彼女はやはりとても華やかな水着を
+ごく自然に着こなしていた。
+<PAUSE>
+<NAME_PLATE>
+　注目をたっぷり浴びているのに
+表情や仕草に少しも不自然さがなく、
+ナンパ男もあっさり撃退している。
+<PAUSE>
+<NAME_PLATE>レティシア
+（私は任務中は常にクールでいられる
+　つもりだったが彼女には及ばないな）
+<PAUSE>
+<NAME_PLATE>
+　レティシアは感心していたが、
+<PAUSE>
+<NAME_PLATE>
+　伊紀が平気な顔をしているのは
+見られることに慣れているからではない。
+<PAUSE>
+<NAME_PLATE>
+　彼女にとっては胸に秘めた人、
+ふうま小太郎以外の男などどうでもいいからで、
+内心もクールとはほど遠かった。
+<PAUSE>
+<NAME_PLATE>伊紀
+（ふうまくんとの二人っきりの
+　共同作戦ならよかったのに……）
+<PAUSE>
+<NAME_PLATE>伊紀
+（ああでも、私がこの水着で、
+　ふうまくんもきっと素敵な水着で
+　それで一緒の任務だったりしたら……）
+<PAUSE>
+<NAME_PLATE>伊紀
+（だめ、私ドキドキしすぎて
+　もう任務にならないわ、ああ！
+　ふうまくんもそうよね、きっとそうよね！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そんな二人の思惑とは別に
+裏取引のターゲットが動き始めていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m142a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ターゲット
+「――――――」
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント【曹長】
+//　　　＊モンスターイラストより流用
+//　※二人出してください。
+<NAME_PLATE>レティシア
+（あいつらはそろってスーツか。
+　私たちよりよほど目立っているな）
+<PAUSE>
+//　※立ち絵
+//　　【プールサイドミストレス】レティシア・ベルメール
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　似たようなスーツを着た二人が
+別方向からやってきて同じテーブルに着き、
+何かブツを交換してすぐに別れた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0342a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0235a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レティシア
+「（後を）」
+<PAUSE>
+<NAME_PLATE>伊紀
+「（了解）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　レティシアと伊紀は
+それぞれを尾行しようとするが、
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0342a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レティシア
+（くっ……！
+　パレオが引っかかって動きにくい！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　レティシアは慣れない恰好のため
+動きが不自然になり、敵に気づかれてしまう。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ts_m142a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ターゲット
+「ちっ！」
+「罠か！？」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント【曹長】
+//　　　＊モンスターイラストより流用
+//　※二人出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>
+　ターゲットたちが逃げようとする。
+こうなってはもう尾行は不可能だ。
+<PAUSE>
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0342a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0235a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レティシア
+「しまった。
+　伊紀さん、確保を！」
+<PAUSE>
+<NAME_PLATE>伊紀
+「はい！
+　忍法・水銃撃！」
+<PAUSE>
+<NAME_PLATE>レティシア
+「アクア・ビット！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビシュッ！　ビシュウッ！！
+<PAUSE>
+<NAME_PLATE>ターゲット
+「うがっっ！！」
+「ぐっっ」
+<PAUSE>
+<NAME_PLATE>
+　二人が放った水の技が
+ターゲットをそれぞれ気絶させたが、
+<PAUSE>
+<BG>nc163a,IN, 500
+<ACTOR>0,ts_m141b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>工作員
+「おっと、そこまでだ」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント【伍長】戦闘　
+//　　＊モンスターイラストより流用
+<NAME_PLATE>
+　隠れていた工作員が姿を現した。
+別の組織の人間だろうか。
+両肩から物騒な武器を出している。
+<PAUSE>
+<NAME_PLATE>工作員
+「そいつらが持っていたブツをよこせ。
+　さもないとそこのガキの命を―――」
+<PAUSE>
+<NAME_PLATE>クリア
+「えい」
+<PAUSE>
+//　※立ち絵
+//　　クリア・ローベル＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>工作員
+「げぶうううっ！！」
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc163a,IN, 500
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そこのガキ、つまり偶然近くを歩いていて
+人質に取られそうになったクリアが
+無造作に工作員を昏倒させていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0342a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0235a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レティシア
+「なっ？」
+<PAUSE>
+//　※立ち絵
+//　　【プールサイドミストレス】レティシア・ベルメール
+//　　　＊カードイラストより流用
+<NAME_PLATE>伊紀
+「あの子は……」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチの優等生】磯咲伊紀
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm208,1000
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「悪いやつはくちくする」
+<PAUSE>
+<NAME_PLATE>カラス
+「……！！！　……！！！」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　一緒にいたカラスが気絶した工作員を
+くちばしでガシガシと突いていた。
+<PAUSE>
+<NAME_PLATE>
+　ヤガタラス族のくちばしは毒がある。
+生物のタンパク質を変質させて
+肉体を箱化する猛毒だ。
+<PAUSE>
+<NAME_PLATE>
+　サイボーグらしきその工作員は
+体内の僅かなタンパク質を変質させられ、
+箱とすら言えない歪な形に変っていった。
+<PAUSE>
+<NAME_PLATE>
+　たとえ意識を取り戻しても
+自分ではもう動くこともできないだろう。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0235a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>伊紀
+「あなたは水城さんのところにいる……
+　確かクリアちゃん？」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチの優等生】磯咲伊紀
+//　　　＊カードイラストより流用
+<NAME_PLATE>クリア
+「そう。
+　対魔忍のおしごと？」
+<PAUSE>
+<NAME_PLATE>伊紀
+「そうなの。私は磯咲伊紀。
+　ありがとう、助かったわ」
+<PAUSE>
+<NAME_PLATE>クリア
+「なら、よかった。
+　カラスちゃん、いこ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0235a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>伊紀
+「じゃあね、ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　立ち去る二人に手を振りかけて、
+伊紀はハッとした。
+<PAUSE>
+<NAME_PLATE>
+　こんな小さな子が二人で海に来るわけがない。
+ゆきかぜに連れてきてもらったのだろう。
+ということは―――！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>伊紀
+「あっ、待って！　待って待って
+　もしかして、ふうまくんと一緒に来てるの？
+　どこどこ？　ふうまくんはどこ？」
+<PAUSE>
+<ACTOR>1,chr_t0235a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「……今日はいっしょじゃない。
+　私とゆきかぜとカラスちゃんだけ」
+<PAUSE>
+<NAME_PLATE>伊紀
+「そうなんだ。とても残念だわ。
+　ふうまくんに会ったら私のこと
+　よろしく言っておいてね」
+<PAUSE>
+<NAME_PLATE>クリア
+「……うん」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　二人はトコトコと去っていった。
+<PAUSE>
+<ACTOR>1,chr_t0235a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>伊紀
+「ふうまくん、来てないのね……」
+<PAUSE>
+<NAME_PLATE>
+　ちょっと手違いはあったものの
+裏取引自体は阻止できたし、
+<PAUSE>
+<NAME_PLATE>
+　この後、彼と一緒の時間をすごせたら、
+ほんの少しでいいから二人っきりになれたら、
+最高のフィナーレだったのに。
+<PAUSE>
+<ACTOR>1,chr_t0235a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0342a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>レティシア
+「いったいあの子たちは？」
+<PAUSE>
+//　※立ち絵
+//　　【プールサイドミストレス】レティシア・ベルメール
+//　　＊カードイラストより流用
+<NAME_PLATE>
+　成り行きに呆然としていたレティシアが
+ようやく声をかけてきた。
+<PAUSE>
+<NAME_PLATE>伊紀
+「五車町で世話してる子たちよ。
+　クリアちゃんに、頭が鳥のカラスちゃん。
+　偶然だけど助かったわ」
+<PAUSE>
+<NAME_PLATE>レティシア
+「私のミスだ。すまない。
+　しかしあんな子供たちがいるとは。
+　対魔忍の里は本当にすごいな」
+<PAUSE>
+<NAME_PLATE>伊紀
+「まあね。
+　一番すごいのはふうま君だけど。
+　うふふ」
+<PAUSE>
+<NAME_PLATE>
+　レティシアの称賛の言葉に、
+伊紀はそれが一番大事と付け加えた。
+<PAUSE>
+<NAME_PLATE>レティシア
+「それはもう何度も聞いた。
+　片思いの相手だろう？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>伊紀
+「ち、違うわ！
+　私の運命の相手で、初恋の人で、
+　必ず将来を共にしたい人よ！！」
+<PAUSE>
+<NAME_PLATE>伊紀
+「今はただ陰からひそやかに想っているだけ。
+　それだけなのよ！」
+<PAUSE>
+<NAME_PLATE>
+　暴走しがちな愛に生きる女、
+磯咲伊紀の切ない叫びが
+ビーチに響きわたった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc163a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さて、そんな伊紀から離れていく
+クリアとカラスはと言うと、
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カラス
+「……？　……？」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　クリアが嘘をついたことに
+カラスは不思議そうな顔をしていた。
+<PAUSE>
+<NAME_PLATE>クリア
+「ふうまがいないって言ったわけ？」
+<PAUSE>
+//　※立ち絵
+//　　リリス＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+<NAME_PLATE>クリア
+「あの人、なんだか変。
+　ふうまのことはナイショにする」
+<PAUSE>
+<NAME_PLATE>
+　それがふうまに近づく女を
+とことん警戒する少女、
+クリアの答えだった。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その頃、異世界の未来では―――
+<PAUSE>
+//【背景：荒廃した魔都・東京近郊のビーチ＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC102aより流用
+//451a
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm506,1000
+<BG>nc451a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0341a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0340a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>ハツカゼ
+「むっふーーーー♪」
+<PAUSE>
+//　※立ち絵
+//　　【海辺のつよつよヤタガラス】ハツカゼ
+//　　＊カードイラストより流用
+<NAME_PLATE>
+　ハツカゼは右手で俺の手を
+左手でゆきかぜの手を握って
+ご満悦だった。
+<PAUSE>
+<NAME_PLATE>
+　周りに人がまるっきりいないことを除けば、
+普通にビーチで散歩しているようだ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「すっかりふうまに甘えちゃって」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>ハツカゼ
+「べ、別に甘えてないもん。
+　ふうまはよわよわだから
+　ハツカゼが守ってあげてるの」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「しっかり手を握ってないと
+　ダメだからっ」
+<PAUSE>
+<NAME_PLATE>俺
+「はは、そうだな」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「むっふーーーー♪」
+<PAUSE>
+<NAME_PLATE>
+　俺が苦笑すると、
+ハツカゼはギュッと手に力を込めた。
+<PAUSE>
+<NAME_PLATE>
+　口では生意気なことを言っているが、
+俺と一緒にいられるのが本当に嬉しいようだ。
+<PAUSE>
+<NAME_PLATE>
+　人間のような顔になっただけあり、
+カラスだったときに比べて、
+感情がとても分かりやすい。
+<PAUSE>
+<NAME_PLATE>
+　このハツカゼもこの世界の俺とは
+死に別れている。
+<PAUSE>
+<NAME_PLATE>
+　俺と再会して
+こんなに楽しそうな顔を見るのは、
+ちょっと気恥ずかしく、そして嬉しい。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハーピー
+「キーーー♪、キーーーー♪」
+「キーーー♪、キーーーー♪」
+「キーーー♪、キーーーー♪」
+<PAUSE>
+//　※立ち絵
+//　　ハーピー＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※三体出してください
+<NAME_PLATE>
+　ハツカゼの手下のハーピーたちも
+親分がご機嫌なのが嬉しいらしく
+後ろで楽しげに鳴いていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかし少々うるさい。
+<PAUSE>
+<NAME_PLATE>俺
+「まさかビーチに出没する怪物ってのは
+　このハーピーたちのことじゃないだろうな？」
+<PAUSE>
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハツカゼ
+「むっふーーー！
+　そんなわけないもん！
+　ふうまのばかーー！」
+<PAUSE>
+<NAME_PLATE>
+　俺がちょっとからかうと
+ハツカゼは頬をぷっと膨らませ、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハーピー
+「キッ！　キキッ！！」
+「キッ！　キキッ！！」
+「キッ！　キキッ！！」
+<PAUSE>
+<NAME_PLATE>
+　ハトとツバメとムクドリの三匹も
+俺の背中をガシガシと蹴飛ばした。
+<PAUSE>
+<NAME_PLATE>俺
+「冗談だ冗談」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0341a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0340a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハツカゼ
+「ハーピーはここに住んでいるだけ。
+　あいつらはみんなのビーチを独り占めしてる。
+　だから怒ってるんだ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうね。
+　この子たちは私たちと共存してるわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あいつらは私たちを排除するためだけの
+　ブレインフレーヤーの
+　歪んだユーモアの産物よ」
+<PAUSE>
+<NAME_PLATE>俺
+「あいつらか……」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　改めて未来のビーチを見渡す。
+<PAUSE>
+<NAME_PLATE>俺
+「ここもずいぶん変ったな。
+　さっきまでいたから余計そう感じる」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　広い砂浜には他に誰もおらず、
+海岸にはゴミ一つ落ちていない。
+<PAUSE>
+<NAME_PLATE>
+　その代りに巨大な何かの残骸が放置され、
+赤錆と緑に覆われている。
+<PAUSE>
+<NAME_PLATE>
+　遠くに見えるホテルも
+すべてボロボロに朽ち果てていた。
+<PAUSE>
+<NAME_PLATE>
+　まさしく終末世界だ。
+<PAUSE>
+<NAME_PLATE>
+　人間がいなくなったせいか、
+海はまるで南の島のように透き通っている。
+<PAUSE>
+<NAME_PLATE>俺
+「綺麗すぎて怖いな。
+　俺たちを完全に排除してる感じだ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0341a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0340a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「ここの海にとっては
+　私たちが寄りつかない今の方が
+　いいのかもしれないけどね」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「ここでみんなと遊べないのはヤダもん」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうね。
+　もうすぐ奴らの縄張りよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　向こうで何か動いていた。
+<PAUSE>
+<NAME_PLATE>
+　さっき現在の海でも見かけた、
+そして意外にも女の子とじゃれ合っていた
+カナロアにスィール、
+<PAUSE>
+<NAME_PLATE>
+　それからヨミハラあたりによく出る
+異形の番犬ブレインドッグのようだが、
+何かおかしい、妙にカラフルだ。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだあれは……？」
+<PAUSE>
+<NAME_PLATE>
+　近づくにつれて
+その姿がはっきりしてきて、
+俺は唖然とした。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m281a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m281a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m281a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　カナロアが玩具のスコップ、シャベル、
+バケツを持って、砂浜を穿り返している。
+<PAUSE>
+//　※立ち絵
+//　　ビーチカナロア＿立ち絵
+//　　　＊モンスターイラストを加工して作成
+//　※三体並べてください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m282a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m282a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m282a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　スティールがビキニを着て、頭には花を付け、
+波打ち際を飛んだり泳いだりしている。
+<PAUSE>
+//　※立ち絵
+//　　ビーチスィール
+//　　　＊モンスターイラストを加工して作成
+//　※三体並べてください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m283a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m283a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m283a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ブレインドッグにいたっては、
+サングラスに浮き輪にバットの完全装備で、
+スイカ割りをしている。
+<PAUSE>
+//　※立ち絵
+//　ビーチブレインドッグ
+//　　　＊モンスターイラストを加工して作成
+//　※三体並べてください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　一見、モンスターたちが
+海で楽しげに遊んでいるようだが違う。
+<PAUSE>
+<NAME_PLATE>
+　さっきカナロアとスィールが
+本当に遊んでいるのを見たから分かる。
+<PAUSE>
+<NAME_PLATE>
+　あの連中は人間がすることを
+形だけ真似しているのだ。
+<PAUSE>
+<NAME_PLATE>
+　だからこそグロテスクだった。
+<PAUSE>
+<NAME_PLATE>俺
+「確かに歪みきったユーモアの産物だな」
+<PAUSE>
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ブレインフレーヤーの連中は
+　もしかしたら私たちにもあんな風に」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「普通に生きている真似事をさせて
+　それを見て楽しみたいのかもね」
+<PAUSE>
+<NAME_PLATE>俺
+「ありそうな話だ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「言っとくけど、
+　あいつらは前座だからね。
+　本命はそのあとに出てくるわ」
+<PAUSE>
+<NAME_PLATE>俺
+「だろうな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「ハツカゼたちに気づいたよ！」
+<PAUSE>
+//　※立ち絵
+//　　【海辺のつよつよヤタガラス】ハツカゼ
+//　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　確かに遊びのモノマネを止めて、
+しかもその道具は持ったまま、
+こちらに向かっている。
+<PAUSE>
+<ACTOR>1,chr_t0340a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「よーし、
+　ハツカゼのつよつよなとこを
+　ふうまに見せてやるー！」
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼは俺とゆきかぜの手をパッと離して
+勇ましく身構えた。
+<PAUSE>
+<ACTOR>0,chr_t0341a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それはいいけど、
+　ふうまに言いたい台詞が
+　あるんじゃないの？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハツカゼ
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「言いたい台詞？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ずっと憧れてたんだって。ね？」
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「むふーー。
+　でもでも……」
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼは俺の顔を見上げ、
+なぜかまたモジモジし始めた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ほらほら、早くしないと
+　あいつら来ちゃうわよ」
+<PAUSE>
+<NAME_PLATE>
+　そう急かしつつも、
+ゆきかぜの顔は笑っていた。
+そして俺にも手で何か促す。
+<PAUSE>
+<NAME_PLATE>俺
+「よく分からんが、
+　言いたいことがあるなら言ってくれ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハツカゼ
+「～～～～～～～～～～っ！」
+<PAUSE>
+<NAME_PLATE>
+　ハツカゼは両手をギュッと握って、
+恥ずかしそうにプルプルしていたが、
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「むふーーーーっ！
+　ふ、ふうま、ハツカゼたちの指揮おねがい！」
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

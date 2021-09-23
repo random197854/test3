@@ -1,0 +1,1084 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：青空＿昼】【時間：昼】
+//　※水着のシモベ君_nc013aより流用
+<BGM_PLAY>bgm309,1000
+<BG>nc305a,IN, 1000
+<NAME_PLATE>
+　照りつける夏の太陽。
+<PAUSE>
+<NAME_PLATE>
+　爽やかな波の音。
+<PAUSE>
+<NAME_PLATE>
+　人々の歓声。
+<PAUSE>
+<NAME_PLATE>
+　ここは五車町から一番近い海水浴場だ。
+<PAUSE>
+//【背景：海の家外観＿昼】【時間：昼】
+//　※水着のシモベ君_nc003aより流用
+//nc312a
+<BG>nc312a,IN, 1000
+<NAME_PLATE>さくら
+「いらっしゃいませー！」
+<PAUSE>
+<NAME_PLATE>
+　海の家『貝南亭』に
+さくらの元気な声が響く。
+<PAUSE>
+//【背景：海の家客席＿昼】【時間：昼】
+//　※水着のシモベ君_nc004aより流用
+<BG>chrnc0239a,IN, 1000
+<ACTOR>0,ws_t012a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「オーダー入ります！
+　カレツー！　メンワン！　ヤキバワン！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿下着（水着として流用）
+//　　　＊対魔忍アサギＺＥＲＯの立ち絵を流用
+//【背景：海の家厨房＿昼】【時間：昼】
+//　※水着のシモベ君_nc006aより流用
+//nc313a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG>nc313a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「了解」
+<PAUSE>
+<NAME_PLATE>
+　俺はオーダーに返事をした。
+<PAUSE>
+<NAME_PLATE>
+　カレー二つ、ラーメン一つ、
+焼きそば一つだ。
+<PAUSE>
+<NAME_PLATE>
+　自分でも分かるが声に元気がない。
+<PAUSE>
+<NAME_PLATE>
+　なにしろこの厨房は暑いし、
+注文はひっきりなしにやってくる。
+<PAUSE>
+<NAME_PLATE>
+　まずは手間のかかるラーメンだ。
+麺の玉を一つザルに入れ、鍋に放り込んで、
+タイマーをセットする。
+<PAUSE>
+<NAME_PLATE>
+　茹でている間にお皿を一つ用意し、
+鉄板の焼きそばをよそって、
+青のりと紅ショウガを乗せる。
+<PAUSE>
+<NAME_PLATE>俺
+「ヤキバワンあがったよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「サンキュー！」
+<PAUSE>
+<NAME_PLATE>
+　さくらが向こうから取りに来るが
+それを見ている余裕はない。
+<PAUSE>
+<NAME_PLATE>
+　お皿にご飯をもってルーをかける。
+カレーは二つだ。福神漬けを忘れずに。
+<PAUSE>
+<NAME_PLATE>俺
+「カレツーあがったよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「サンキュー。
+　オーダー追加ね、デンツー、ミソラワン！」
+<PAUSE>
+<NAME_PLATE>俺
+「了解」
+<PAUSE>
+<NAME_PLATE>
+　おでん二つに、味噌ラーメン一つか。
+ラーメンは面倒臭いんだよな。
+<PAUSE>
+<NAME_PLATE>
+　ピピッ、ピピッ、ピピッ♪
+<PAUSE>
+<NAME_PLATE>
+　ほら、タイマーが鳴っている。
+さっきの麺が茹で上がった。
+<PAUSE>
+<NAME_PLATE>
+　丼を用意し、タレを入れ、スープを注ぎ、
+鍋から出した麺を入れて、ネギ、メンマ、
+チャーシュー、ナルトを乗せる。
+<PAUSE>
+<NAME_PLATE>俺
+「メンワンあがったよ」
+<PAUSE>
+<NAME_PLATE>
+　そして新しい麺をお湯に入れる。
+またタイマーセット。
+<PAUSE>
+<NAME_PLATE>俺
+「次なんだっけ？
+　ええと……ああ、おでんだおでん」
+<PAUSE>
+<NAME_PLATE>
+　朝から延々とこんな感じだ。
+<PAUSE>
+<NAME_PLATE>
+　海の家には次から次へとお客が来る。
+<PAUSE>
+<NAME_PLATE>
+　もういくつラーメンだのカレーだのを
+用意したのか分からない。
+<PAUSE>
+<NAME_PLATE>俺
+「このバイトは割に合わないなあ……」
+<PAUSE>
+<NAME_PLATE>
+　熱々のおでんを二皿用意しながら、
+これまたもう何度目か分からない
+愚痴を呟いた。
+<PAUSE>
+<NAME_PLATE>
+　五車学園も今は夏休み。
+<PAUSE>
+<NAME_PLATE>
+　この海の家でのバイトは
+さくらが見つけてきたものだ。
+<PAUSE>
+<NAME_PLATE>
+　付き合ってくれたら、
+報酬として一緒に遊んでいるネトゲの
+超レア装備をくれるという約束だったが、
+<PAUSE>
+<NAME_PLATE>
+　それだけではとても足りない。
+この暑さと忙しさ。俺はかなり後悔していた。
+<PAUSE>
+<NAME_PLATE>俺
+「はあ、デンツーあがったよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「はいはーい♪」
+<PAUSE>
+//【背景：海の家客席＿昼】【時間：昼】
+//　※水着のシモベ君_nc004aより流用
+<UI_DISP>OFF, 500
+<BG>chrnc0239a,IN, 1000
+<ACTOR>0,ws_t012b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>さくら
+「ふうまくん、もうすぐ休憩だよね。
+　今日は賄いじゃなくて、
+　なんか外に食べに行かない？」
+<PAUSE>
+<NAME_PLATE>
+　さくらが給仕の合間に声をかけてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「……いいよ」
+<PAUSE>
+<NAME_PLATE>
+　俺は力なく返事をした。
+あまり物を考える余裕がない。
+<PAUSE>
+<NAME_PLATE>
+　ピピッ、ピピッ、ピピッ♪
+<PAUSE>
+<NAME_PLATE>
+　そんなことよりまた麺が茹で上がっている。
+<PAUSE>
+<ACTOR>0,ws_t012a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「じゃ、後でね！
+　ラーメンにおでん、おまたせしました！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらはスキップするように
+料理を運んでいった。
+<PAUSE>
+<NAME_PLATE>俺
+「あいつは元気だなあ……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　どこからあの元気が出てくるのか。
+羨ましくなる。
+<PAUSE>
+<NAME_PLATE>
+　ともかく休憩まであと少しだ。
+頑張ろう。
+<PAUSE>
+//【背景：海の家遠景＿昼】【時間：昼】
+//　※水着のシモベ君_nc001aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc315a,IN, 1000
+<ACTOR>0,chr_t0240a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>時子
+「よしよし。
+　二人とも真面目に働いているようですね」
+<PAUSE>
+//　※立ち絵
+//　　【サマーバカンス】ふうま時子
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　海の家から少し離れた場所で
+二人を監視するビキニ美女が一人。
+<PAUSE>
+<NAME_PLATE>
+　ふうま家執事、ふうま時子その人である。
+<PAUSE>
+<NAME_PLATE>
+　彼女がここに来ていることを
+海の家にいる二人は知らない。
+<PAUSE>
+<NAME_PLATE>時子
+「泊まりがけでバイトなんて、
+　二人がなにか間違いを犯すのではないかと
+　つい来てしまいましたが」
+<PAUSE>
+<NAME_PLATE>時子
+「今のところ問題はないようです。
+　本当にただのバイトですね」
+<PAUSE>
+<ACTOR>0,chr_t0240a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナンパ男
+「ねえねえ、彼女。どこから来たの？」
+<PAUSE>
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>時子
+「でも、まだ油断は禁物！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ごすっ！
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>ナンパ男
+「ぐっっ」
+<PAUSE>
+<ACTOR>0,chr_t0240a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>時子
+「夏の海は気持ちが開放的になって
+　ちょっとイケナイことを
+　してみたくなるもの」
+<PAUSE>
+<NAME_PLATE>時子
+「さくらちゃんは可愛いですし、
+　あんな大胆な水着を着てますし、
+　お館様といえど、ついふらふらと―――」
+<PAUSE>
+<ACTOR>0,chr_t0240a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m046a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナンパ男
+「一人？　俺と遊ばない？」
+<PAUSE>
+//　※立ち絵
+//　　トロール立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>時子
+「駄目です！
+　そんなことは決してさせません。
+　お館様の執事として断じて！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ばきっ！
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>ナンパ男
+「ぐふっっ」
+<PAUSE>
+<ACTOR>0,chr_t0240a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>時子
+「ふうま時子、影ながら
+　お館様の健全な青春を守らせて
+　いただきます！」
+<PAUSE>
+<NAME_PLATE>
+　時子は拳にグッと力を込める。
+<PAUSE>
+<NAME_PLATE>
+　その瞳がキラリと輝いた。
+<PAUSE>
+<NAME_PLATE>時子
+「あっ、お館様が外に！？
+　そうか、もう休憩時間！
+　でも、さくらちゃんが一緒じゃない？」
+<PAUSE>
+<NAME_PLATE>時子
+「ま、まさか、一人でナンパするつもりでは？
+　そして人けのない場所に連れていって……」
+<PAUSE>
+<ACTOR>0,chr_t0240a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m058a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナンパ男
+「カーノジョ」
+<PAUSE>
+//※立ち絵
+//　　忍熊立ち絵
+//　　　　＊モンスターイラストより流用
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボガッ！！
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>ナンパ男
+「ぎゃふっ！」
+<PAUSE>
+<ACTOR>0,chr_t0240a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>時子
+「いけません！　許しません！！
+　やむを得ませんね。
+　お館様のあとを付けねば」
+<PAUSE>
+<NAME_PLATE>
+　時子はむやみに盛り上がって、
+海の家から一人で出てきた小太郎を
+つけようとしたが、
+<PAUSE>
+<NAME_PLATE>時子
+「なんです、この人たちは？」
+<PAUSE>
+<NAME_PLATE>
+　自分の周りに見知らぬ男たちが、
+何人もひっくり返っているのに気づいた。
+<PAUSE>
+<NAME_PLATE>
+　小太郎を見張っている間に
+時子をナンパしようと近づいてきて、
+<PAUSE>
+<NAME_PLATE>
+　監視に夢中の時子が無意識のうちに
+ぶちのめしていた男たちである。
+<PAUSE>
+<NAME_PLATE>時子
+「なんでこんなとこで寝てるんでしょう？」
+<PAUSE>
+<NAME_PLATE>
+　時子は一瞬だけ怪訝そうな顔になったが、
+ほんの一瞬だけだ。
+<PAUSE>
+<NAME_PLATE>時子
+「いえ、そんなことより
+　お館様を追わないと……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　大切なのはお館様。
+<PAUSE>
+<SE_PLAY>se125
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　自覚もないまま気絶させた
+不幸な男たちをそこに放って、
+時子は尾行を開始した。
+<PAUSE>
+//【背景：海岸1＿昼】【時間：昼】
+//　※水着のシモベ君_nc002aより流用
+//nc314a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm309,1000
+<BG>nc314a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「はあ、つっかれたよなーー」
+<PAUSE>
+<NAME_PLATE>
+　ようやく休憩時間になった俺は
+店の外に出ていた。
+<PAUSE>
+<NAME_PLATE>
+　太陽はカンカン照りだが、
+鍋だの鉄板だので熱気ムンムンの
+厨房よりはマシだ。
+<PAUSE>
+<NAME_PLATE>
+　水着は着てきているものの
+今すぐ泳ぐ元気はない。
+<PAUSE>
+<NAME_PLATE>
+　普通に力尽きて溺れそうだ。
+<PAUSE>
+<NAME_PLATE>
+　というわけで、
+目の保養に水着の女の子を見ていた。
+<PAUSE>
+<NAME_PLATE>
+　眩い陽射しの中、
+色とりどりの水着ではしゃぐ姿が
+やけに眩しい。
+<PAUSE>
+<NAME_PLATE>
+　我ながらおっさんくさいと思うが、
+今日はしょうがない。
+<PAUSE>
+<NAME_PLATE>俺
+「今年の流行はビキニかな。いいね」
+<PAUSE>
+<NAME_PLATE>
+　そういえば、さくらもビキニだ。
+<PAUSE>
+<NAME_PLATE>
+　だが、まだ海の家から出てこない。
+<PAUSE>
+<NAME_PLATE>
+　自分から外に食べに行こうと誘ったくせに、
+ちょっと準備とか言ってグズグズしている。
+<PAUSE>
+<NAME_PLATE>
+　あいつはいつもそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「なにをやってんだか」
+<PAUSE>
+<NAME_PLATE>
+　まあ、そのうち来るだろう。
+<PAUSE>
+<NAME_PLATE>
+　俺は砂浜をブラブラと歩き始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「ん……？」
+<PAUSE>
+<NAME_PLATE>
+　妙に目立つ二人組が向こうからやってくる。
+もちろん二人とも水着姿だが―――
+<PAUSE>
+<ACTOR>1,chr_t0242a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女の子
+「あーあ、海水浴とかつまんねーし、
+　海の怪獣でも出てこねーかにょ！」
+<PAUSE>
+//　※立ち絵
+//　　【望まぬ休暇】レーベ・サフリー
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　一人はワニの浮き輪を抱えている。
+だがワニの口からでかい刃物が見えていた。
+あれは斧だろうか。
+<PAUSE>
+<ACTOR>0,chr_t0134a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女の子
+「いや、それは出てこないだろう」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチウォリアー】ドナ・バロウズ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　もう一人は巨大な武器を
+堂々と持ち歩いている。
+しかも右腕はアンドロイドアームだ。
+<PAUSE>
+<NAME_PLATE>
+　二人とも目を引く美少女だが
+故にビーチでは相当に異彩を放っている。
+誰も近づこうとはしていない。
+<PAUSE>
+<NAME_PLATE>
+　俺も普通なら声をかけたりしないが、
+巨大な武器を抱えた少女の方は
+見覚えがあった。
+<PAUSE>
+<NAME_PLATE>
+　以前、アスカや奈々華先輩と一緒に
+訓練をした米連のドナ・バロウズだ。
+<PAUSE>
+<NAME_PLATE>俺
+「よう、ドナ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「ふうま？　こんな所で奇遇だな」
+<PAUSE>
+<NAME_PLATE>女の子
+「あーん、なにこいつ？
+　結構いい身体してんじょ。
+　ドナの知り合いかにょ？」
+<PAUSE>
+<NAME_PLATE>ドナ
+「対魔忍のふうま小太郎だ」
+<PAUSE>
+<NAME_PLATE>女の子
+「対魔忍？
+　へーー、あの対魔忍か！
+　しゅっげえじょ！」
+<PAUSE>
+<NAME_PLATE>俺
+「どうも」
+<PAUSE>
+<NAME_PLATE>
+　胡散臭げに俺を見ていたワニ少女は
+一転、ジロジロと俺を眺め回し始めた。
+<PAUSE>
+<NAME_PLATE>ドナ
+「彼女はレーベ・サフリー。
+　私と同じ米連の兵士だ」
+<PAUSE>
+<NAME_PLATE>俺
+「二人で海水浴か？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レーベ
+「ハァ！？
+　海水浴とかそんなくっだらねえこと
+　するわけねえじょ」
+<PAUSE>
+<NAME_PLATE>レーベ
+「アタシたちは海の怪獣が出てこないか
+　待ってんだじぇ！」
+<PAUSE>
+<NAME_PLATE>俺
+「海の怪獣？
+　このビーチにそんなのが出るという話は
+　聞いてないが」
+<PAUSE>
+<NAME_PLATE>ドナ
+「いや、それはレーベの願望だ。
+　この近くに米連の基地があるだろう。
+　私たちはそこで訓練をしていたんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ気分転換か」
+<PAUSE>
+<NAME_PLATE>レーベ
+「ちっげーし。
+　米連の男どもがどいつもこいつも
+　すっげえ弱くて話になんねえし」
+<PAUSE>
+<NAME_PLATE>レーベ
+「つまんねーから
+　海の怪獣でも出てこねえかなって、
+　二人でここに来たんだじぇ！」
+<PAUSE>
+<NAME_PLATE>
+　レーベは俺の察しの悪さに
+イライラするように言った。
+<PAUSE>
+<NAME_PLATE>俺
+「そうそう海の怪獣は現れないだろう。
+　あとそのデカい武器を見せびらかして
+　歩くのも止めた方がいいと思うぞ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「私もそう思うが、
+　グラビティは常に持っていないと
+　気持ちが悪いんだ」
+<PAUSE>
+<NAME_PLATE>
+　ドナは少し気まずそうに
+彼女専用の武器を両手で抱えた。
+<PAUSE>
+<NAME_PLATE>レーベ
+「兵士なら当然にょ！
+　お前だって対魔忍だし
+　なんか持ってんだりょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあな」
+<PAUSE>
+<NAME_PLATE>
+　確かに万一の時のために、
+クナイくらいは海パンの中に隠している。
+<PAUSE>
+<NAME_PLATE>レーベ
+「へへっ、そうでなきゃ面白くねえじぇ！」
+<PAUSE>
+<NAME_PLATE>
+　俺が武器を隠し持っていると聞いて、
+レーベはしかめっ面を綻ばせた。
+<PAUSE>
+<NAME_PLATE>ドナ
+「ふうまも訓練かなにかか？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、俺はバイトだ。
+　あそこの海の家でな」
+<PAUSE>
+<NAME_PLATE>レーベ
+「はあ？　なに言ってんだじぇ？」
+<PAUSE>
+<NAME_PLATE>ドナ
+「バイト？
+　お前は対魔忍でふうま一族の当主だろう？
+　社会勉強のためにやってるのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな気の利いた理由じゃない。
+　単に俺の自由になる金がないだけだ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「当主なのにか？」
+<PAUSE>
+<NAME_PLATE>俺
+「当主なのにだ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「そうか。大変なんだな」
+<PAUSE>
+<NAME_PLATE>
+　ドナは同情するような目をしたが、
+レーベはつまらなそうに言った。
+<PAUSE>
+<NAME_PLATE>レーベ
+「へっ、アタシは金のことなんか
+　考えたことねーじぇ！」
+<PAUSE>
+<NAME_PLATE>レーベ
+「米連のつまんねえ研究につきあって
+　毎月毎月、金が振り込まれてっけど、
+　いくらだか知らねーし」
+<PAUSE>
+<NAME_PLATE>レーベ
+「アタシは殺しの研究と
+　武器の改良さえできれば、
+　他のことはどうでもいいじぇ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「私もまあ似たようなものだな。
+　これといった趣味もないし」
+<PAUSE>
+<NAME_PLATE>
+　しかし気にする必要もない程度には
+お金があると言うことだ。
+<PAUSE>
+<NAME_PLATE>
+　羨ましい話だ。
+<PAUSE>
+<NAME_PLATE>レーベ
+「ちぇっ、こんな格好までしたのに
+　なんにも起こらねえで退屈だじぇ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　レーベは武器の入っているワニを
+ブンブン振り回し始めた。
+<PAUSE>
+<NAME_PLATE>
+　色んな意味で危ない奴だな。
+<PAUSE>
+<ACTOR>0,chr_t0134a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ドナ
+「遊ぶことが苦手なタイプなんだ。
+　それで私と気が合うのかもな」
+<PAUSE>
+<NAME_PLATE>俺
+「苦手なのか？
+　それにしてはその戦闘服っぽいデザインの
+　水着はなかなかイケてるぞ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「べ、別にイケてるのを着たわけじゃない。
+　いつもと同じ風でないと
+　落ち着かないだけだ」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうことにしておくか。
+　とりあえず似合ってるぞ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「そういうのもいい。
+　あんまりジロジロ見るな」
+<PAUSE>
+<NAME_PLATE>
+　以前、無頓着だと言っていたが、
+やっぱり水着だと恥ずかしいのか、
+ドナは少し顔を赤くした。
+<PAUSE>
+<NAME_PLATE>ドナ
+「そ、そんなことより、
+　鬼神乙女（ワルキューレ）の件は
+　どうなったんだ？」
+<PAUSE>
+<NAME_PLATE>
+　と無理やり話題を変えてきた。
+嫌なことを聞いてくるな。
+<PAUSE>
+<NAME_PLATE>
+　俺が鬼神乙女（ワルキューレ）の
+勇者（エインフェリア）とやらに
+勝手に選ばれ、
+<PAUSE>
+<NAME_PLATE>
+　総勢１３人の
+若い鬼神乙女（ワルキューレ）に気に入られて
+子種を求められているという件だ。
+<PAUSE>
+<NAME_PLATE>俺
+「どうもなっていない。あのままだ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「いいのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「よくはない気もするが、
+　とりあえず状況の推移を見守るってことで」
+<PAUSE>
+<NAME_PLATE>ドナ
+「ふうん……あ、そうだ。
+　アスカがお返しのチョコを喜んでいたぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなのか。よかった。
+　気が利いてないとか、何にも考えてないとか
+　やたら文句を言われたからな」
+<PAUSE>
+<NAME_PLATE>ドナ
+「それは照れ隠しだ。
+　アスカも素直じゃないからな。
+　お前にもらったと散々自慢された」
+<PAUSE>
+<NAME_PLATE>ドナ
+「箱まで大切にとっているぞ。
+　小物入れに使っている。
+　あれはいい箱だ。私も欲しくなった」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあドナにもと言いたいとこだが、
+　すまん。あれ高くてな。ちょっと無理だ」
+<PAUSE>
+<NAME_PLATE>ドナ
+「いや、いい。
+　高いチョコをもらっても
+　私には味が分からないからな」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだったな。
+　でもアンジェのお菓子作りに
+　付き合ったりしてるんだろう？」
+<PAUSE>
+<NAME_PLATE>ドナ
+「まあ、時々な」
+<PAUSE>
+<NAME_PLATE>俺
+「さっき趣味がないとか言ってたが
+　それは趣味だろう？　実益もかねてるが」
+<PAUSE>
+<NAME_PLATE>ドナ
+「そうか。そうかもな。
+　うん、私の趣味だな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ドナはちょっと嬉しそうな顔をした。
+<PAUSE>
+<ACTOR>1,chr_t0242a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そんな俺たちの話を
+退屈そうに聞いていたレーベが
+唐突に言ってきた。
+<PAUSE>
+<NAME_PLATE>レーベ
+「なあなあ、お前さあ
+　ここでアタシと軽くやり合ってみねえ？
+　対魔忍がどれくれえ強えか知りてーし」
+<PAUSE>
+<NAME_PLATE>俺
+「やり合うって模擬戦のことか？」
+<PAUSE>
+<NAME_PLATE>レーベ
+「アタシはマジでやってもかまわねーけど、
+　ドナのダチだし、
+　それはやめといてやるじぇ」
+<PAUSE>
+<NAME_PLATE>俺
+「それ以前に、こんな観光客だらけの場所で
+　模擬戦なんかやるわけにいかないだろう？」
+<PAUSE>
+<ACTOR>1,chr_t0242a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0134a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドナ
+「私もここでは止めた方がいいと思うぞ」
+<PAUSE>
+<NAME_PLATE>レーベ
+「けっ、ふたりとも真面目だじぇ。
+　つまんねーじょ！」
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：海岸1＿昼】【時間：昼】
+//　※水着のシモベ君_nc002aより流用
+//nc314a
+<BGM_PLAY>bgm509,1000
+<BG>nc314a,IN, 1000
+<ACTOR>0,chr_t0240a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様、ずいぶんと楽しそうに
+　話していますね」
+<PAUSE>
+//　※立ち絵
+//　　【サマーバカンス】ふうま時子
+//　　　　＊カードイラストより流用
+<NAME_PLATE>時子
+「ナンパではなく顔見知りのようですが、
+　何者でしょうか？」
+<PAUSE>
+<NAME_PLATE>
+　お館様が知らない女の子と一緒にいる。
+<PAUSE>
+<NAME_PLATE>
+　可愛い子だ。それも二人。
+<PAUSE>
+<NAME_PLATE>
+　それだけで、もう落ち着いてはいられない。
+<PAUSE>
+<NAME_PLATE>時子
+「五車の外の子は積極的ですし、
+　お館様はどんどん男らしくなっていますし、
+　女の子の方が先に良からぬ気持ちに―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m046a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナンパ男
+「へい、イカス水着じゃん！」
+「美人ちゃん、俺たちと―――」
+<PAUSE>
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラストより流用
+//　　トロール立ち絵
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0240a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「いけません、お館様！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボカボカッッ！！
+<PAUSE>
+<NAME_PLATE>ナンパ男
+「ぎゃっっ！！」
+「ぐふっっ！！」
+<PAUSE>
+<NAME_PLATE>時子
+「もっと近づいて詳しく話を聞かねば」
+<PAUSE>
+<NAME_PLATE>時子
+「万一、お館様を岩場の影に
+　連れ込むようなことをするなら、
+　この時子が身体を張ってでも――はっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　時子はさっと身を固くした。
+<PAUSE>
+<NAME_PLATE>
+　ビーチに似つかわしくない男たちが
+三人に近づいてきていた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――
+<PAUSE>
+//【背景：海岸1＿昼】【時間：昼】
+//　※水着のシモベ君_nc002aより流用
+//nc314a
+<BGM_PLAY>bgm203,1000
+<BG>nc314a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m009a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>米連兵
+「おいおいおい、誰かと思えば
+　米連きっての女兵士様たちじゃねえか」
+<PAUSE>
+//　※立ち絵
+//　　米連兵士(男)
+//　　　　＊カードイラストより流用
+<NAME_PLATE>米連兵
+「ひゅーーー。
+　女兵士様が水着なんか着てやがるぜ！」
+<PAUSE>
+//　　米連特殊部隊兵(男)
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「基地の連中か？」
+<PAUSE>
+<ACTOR>0,chr_t0134a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドナ
+「そうだ」
+<PAUSE>
+//　※立ち絵
+//　　【ビーチウォリアー】ドナ・バロウズ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ドナに小声で聞くと、
+彼女は不愉快そうに頷いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　やはり、俺たち、
+というよりドナとレーベの二人に
+絡んできたのは基地の米連兵たちだった。
+<PAUSE>
+<NAME_PLATE>
+　さっきレーベが弱すぎてつまらないと
+言っていた男たちだろう。
+<PAUSE>
+<NAME_PLATE>
+　観光客をかき分けて走ってくる
+暑苦しい一団がいると思ったら
+こいつらだった。
+<PAUSE>
+<NAME_PLATE>
+　軍人がわざわざビーチでランニング。
+よくある嫌がらせだ。
+<PAUSE>
+<ACTOR>0,chr_t0242a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レーベ
+「いまさら仲良くトレーニングかじぇ？
+　そんなだからお前らくっそ弱えんだじょ」
+<PAUSE>
+//　※立ち絵
+//　　【望まぬ休暇】レーベ・サフリー
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m009a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>米連兵
+「ヒューーーーッ！！
+　やっぱりお強い女兵士様は
+　言うことが違うぜ。なあ！？」
+<PAUSE>
+<NAME_PLATE>米連兵
+「全くだ。訓練もしねえで
+　エロい水着に着替えて男漁りだ。
+　俺たちにゃ真似できねえな」
+<PAUSE>
+<NAME_PLATE>米連兵
+「それで捕まえたのがそいつか。
+　そんな男一人じゃ足りねえだろ。
+　俺たちが相手してやるよ」
+<PAUSE>
+<NAME_PLATE>米連兵
+「こっちの強さは相当なもんだぜ。
+　すぐに足腰立たなくしてやるよ。
+　ギャハハハハハハハ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「はあ……」
+<PAUSE>
+<NAME_PLATE>
+　程度の低い軍隊を絵に描いたような連中で
+頭が痛くなってくる。
+<PAUSE>
+<NAME_PLATE>
+　関係のない俺がそうなのだから、
+当事者の二人は怒り心頭だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,chr_t0134a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0242a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドナ
+「いいだろう。
+　相手をしてもらおうか」
+<PAUSE>
+<NAME_PLATE>レーベ
+「お前らがどれだけ弱いか
+　アタシが教えてやるじぇ！」
+<PAUSE>
+<NAME_PLATE>ドナ
+「レーベ。武器は使うな。
+　こんなクズども素手で十分だ」
+<PAUSE>
+<NAME_PLATE>
+　ドナはグラビティを砂浜に放り出した。
+<PAUSE>
+<NAME_PLATE>レーベ
+「しょーがねえじぇ。
+　ぶっ殺したら面倒だしにょ」
+<PAUSE>
+<NAME_PLATE>
+　レーベも武器の入ったワニを
+こちらは大切そうに下に置いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m009a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>米連兵
+「やる気か、クソ女どもが！」
+<PAUSE>
+<NAME_PLATE>米連兵
+「男もまとめてたたんじまえ！」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　俺も？」
+<PAUSE>
+<NAME_PLATE>
+　と突っ込みたくなったが、
+この状況で一人呑気に見物というわけにも
+いかないか。
+<PAUSE>
+<NAME_PLATE>
+　俺はしょうがなく、
+男たちに向かって身構えた。
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

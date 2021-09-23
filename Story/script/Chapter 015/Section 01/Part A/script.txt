@@ -1,0 +1,470 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+<BG>black,NONE
+//【黒画面】
+//【背景：五車学園＿正門＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　謎の部隊による五車襲撃より数日後―――。
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC009aより流用
+
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<BGM_PLAY>bgm509,1000
+<BG>nc006a,IN, 1000
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「―――というわけで、
+　ゆきかぜ城は守り抜きましたが、
+　あの武装集団の正体は分からずじまいです」
+<PAUSE>
+<NAME_PLATE>俺
+「兵士たちはすべて、
+　公にはとっくの昔に
+　死んだことになっていました」
+<PAUSE>
+<NAME_PLATE>アサギ
+「さながらゾンビ部隊ってとこね」
+<PAUSE>
+<NAME_PLATE>俺
+「ですね。
+　後で知って鹿之助は
+　泣きそうになってました」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「鹿之助は相変わらずね。
+　私と山本部長を襲った連中も同じよ。
+　正体不明」
+<PAUSE>
+<NAME_PLATE>俺
+「やはり……」
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あの連中、
+　ずいぶんとウチを
+　甘く見ていたみたいだけど」
+<PAUSE>
+<NAME_PLATE>アサギ
+「さすがにすぐ身元が分かるようなものを
+　残すほど馬鹿ではなかったみたいね」
+<PAUSE>
+<NAME_PLATE>俺
+「というより、
+　連中を操った黒幕の用心深さかと」
+<PAUSE>
+<NAME_PLATE>アサギ
+「峰舟子と内調。
+　それが黒幕とあなたは考えているのね」
+<PAUSE>
+<NAME_PLATE>俺
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　俺は迷わず頷いた。
+<PAUSE>
+<NAME_PLATE>
+　公式には謎の武装集団による襲撃だが
+状況証拠はすべてあの峰舟子の企みだと
+示している。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生も同じ考えのようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ただ、気になるのは
+　メイジャー脱走の一件です」
+<PAUSE>
+<ACTOR>0,a_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あれは私も頭が痛いわ」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は珍しく本気で
+憂鬱そうな顔をした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　ゆきかぜ城での攻防の最中、
+警備が手薄となった捕虜収容施設が
+襲撃された。
+<PAUSE>
+<NAME_PLATE>
+　警備の対魔忍二名が死亡。
+<PAUSE>
+<NAME_PLATE>
+　捕虜であった米連のサイボーグ、
+メイジャーが脱走。
+<PAUSE>
+<NAME_PLATE>
+　その手引きをした犯人は不明だが―――
+<PAUSE>
+<BG>nc006a,IN, 500
+<NAME_PLATE>俺
+「警備の二人は
+　なんの抵抗もせずに殺されていた。
+　刀を抜いてすらいなかったとか」
+<PAUSE>
+<ACTOR>0,a_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ええ、やったのが、
+　さくらクラスの隠身の達人でもなければ」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生はそこで口ごもった。
+<PAUSE>
+<NAME_PLATE>
+　五車学園を治める者として
+その先を言葉にしたくなかったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生の心情をおもんばかって、
+俺が代わりに続きを口にした。
+<PAUSE>
+<NAME_PLATE>俺
+「五車内部の手引きによるもの。
+　つまり内調と繋がった裏切り者が
+　五車にいる。そう考えざるを得ません」
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふう……考えたくはないわね」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は一つ溜息をついてから、
+気持ちを切り換えようとする口調で状況を
+確認する。
+<PAUSE>
+<NAME_PLATE>アサギ
+「内調は、佐郷文庫を手に入れ損なった
+　あるいはクリア奪還に失敗した代わりに
+　メイジャーを五車から奪ったというわけね」
+<PAUSE>
+<NAME_PLATE>俺
+「二つの襲撃は陽動で、
+　メイジャー奪還こそが内調の
+　本当の目的だったという可能性もあります」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そうね」
+<PAUSE>
+<NAME_PLATE>俺
+「内調にやりかえさないんですか？」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あら、珍しく好戦的ね」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうわけじゃないですが」
+<PAUSE>
+<NAME_PLATE>
+　冗談めかした口調で俺をいさめてから、
+アサギ先生は冷静に言った。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それは部長の仕事。
+　ことは高度に政治的ってやつね。
+　私達は私達の出来ることをするしかない」
+<PAUSE>
+<NAME_PLATE>俺
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　それはその通りだが、
+やはり納得できないものがある。
+<PAUSE>
+<NAME_PLATE>
+　それが顔に出たのだろう、
+アサギ先生は柔らかい声で言った。
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「そんな顔しない。
+　今回はお手柄だったわね、ふうまくん」
+<PAUSE>
+<NAME_PLATE>
+　俺には『お手柄』という感覚はない。
+<PAUSE>
+<NAME_PLATE>
+　結局、裏の裏を取られ
+あの女、峰舟子に敗北したという感覚だ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「あの、聞きたいことがあるんですが……」
+<PAUSE>
+<NAME_PLATE>
+　この敗北感はさておき、
+もう一つ確かめておくべきことがある。
+<PAUSE>
+<NAME_PLATE>
+　佐郷の件の真相だ。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「分かってるわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が皆まで言うより早く、
+アサギ先生は校長室の奥に声をかけた。
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR>1,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se052
+</GROUP>
+<NAME_PLATE>
+　扉が開いて、男が一人入ってくる。
+<PAUSE>
+<NAME_PLATE>
+　見るからに精悍そうなサイボーグだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「紹介するわ。
+　彼は“対魔忍ライブラリー”。
+　五車はじめてのサイボーグ対魔忍よ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「サイボーグ対魔忍……もしかして！？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「若様、お久しぶりです」
+<PAUSE>
+//【黒画面】
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　対魔忍ライブラリー。
+<PAUSE>
+<ACTOR>1,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それは世を忍ぶ仮の姿。
+<PAUSE>
+<NAME_PLATE>
+　死んだはずの“佐郷文庫”である。
+<PAUSE>
+<NAME_PLATE>
+　アサギは米連と内調の目を欺くため、
+紅らの協力を得て、佐郷の死を偽装した。
+<PAUSE>
+<NAME_PLATE>
+　暗殺偽装は見事成功し、
+佐郷は五車で匿われることとなった。
+<PAUSE>
+<NAME_PLATE>
+　そして、米連のサイボーグとしての
+寿命が迫っていた佐郷は、
+<PAUSE>
+<NAME_PLATE>
+　五車で再びサイボーグ化手術を
+受けることを希望した。
+<PAUSE>
+<NAME_PLATE>
+　最新のサイボーグ技術によって
+サイボーグ対魔忍に生まれ変わったのだ。
+<PAUSE>
+<NAME_PLATE>
+　新たな身体には新たな名前が必要となる。
+<PAUSE>
+<NAME_PLATE>
+　その名は“対魔忍ライブラリー”。
+<PAUSE>
+//【背景：五車学園＿地下訓練施設＿演習室（柱なし）昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO＿NC016bより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG>nc090a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――それが数週間前のことだ。
+<PAUSE>
+<NAME_PLATE>
+　佐郷文庫は、五車初のサイボーグ対魔忍
+“対魔忍ライブラリー”として
+生きていくこととなった。
+<PAUSE>
+<NAME_PLATE>
+　本人がそれを望んだ。
+<PAUSE>
+<NAME_PLATE>
+　かつてふうま弾正に仕え、その反乱にも従い
+弾正亡き後も、米連で自らをサイボーグ化して
+五車対魔忍に挑み続けた男。
+<PAUSE>
+<NAME_PLATE>
+　その長きにわたる戦いの果て、
+あの骸佐の反乱に巻き込まれて死んだ娘の
+墓参りをするため、佐郷は米連を抜けた。
+<PAUSE>
+<NAME_PLATE>
+　米連のメンテナンスなしには
+生きていけない機械の身体だ。
+<PAUSE>
+<NAME_PLATE>
+　それは復讐者としてではなく、
+父としての最期の願いのはずだった。
+<PAUSE>
+<NAME_PLATE>
+　そんな男にどんな心の変化があったのか、
+俺のような若造に分かるはずもない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、佐郷は娘さんの墓の前で、
+しばし無言の会話を交わした後、
+俺に忠誠を誓うと言いだした。
+<PAUSE>
+<NAME_PLATE>
+　さすがにちょっと驚いたが、
+ライブラリーとして生まれ変わった佐郷に
+迷いはないようだった。
+<PAUSE>
+<NAME_PLATE>
+　俺にとっては願ってもないことだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、今はふうま宗家の御庭番を
+務めてもらっている。
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>1,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「お館様、よろしいですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、準備はできてるよ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ここは五車学園のグラウンドにある
+地下訓練施設内の巨大な演習室。
+<PAUSE>
+<NAME_PLATE>
+　授業でもお馴染みの
+立体映像とロボットを組み合わせた
+シミュレーションによる訓練施設だ。
+<PAUSE>
+<NAME_PLATE>
+　今日はここで、ライブラリーに
+対魔殺法の稽古をつけてもらっている。
+<PAUSE>
+<NAME_PLATE>
+　弾正の腹心として、米連のサイボーグとして
+そして五車最新のサイボーグ対魔忍として
+百戦錬磨の彼の指導は的確だ。
+<PAUSE>
+<NAME_PLATE>
+　今日まで、あちこちで仕入れた知識と、
+正体不明の魔性の力と、幾ばくかの戦闘経験で
+だましだましやってきたが、
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーに基礎から鍛え直してもらって
+久方ぶりに俺は自分が成長していく充実感を
+味わっていた。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「では、戦闘シミュレーションを開始します」
+<PAUSE>
+//【背景：ある闇の町の繁華街＿夜】【時間：昼】
+//　※陰陽騎士トワコ_nc005aより流用
+//　※立ち絵
+//　　BR-2兼光立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用。
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc042a,IN, 1000
+</GROUP>
+<ACTOR>2,ts_m105a,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>
+　場所がどこかの繁華街に変わって、
+ドローンが姿を現わした。
+<PAUSE>
+<NAME_PLATE>
+　一つ目の人型ドローンで、
+右手に電磁警棒を持っている。
+<PAUSE>
+<NAME_PLATE>
+　全体的に細身で、
+肘や膝の関節駆動部も剥き出しだが、
+軽い分、動きはやたらとなめらかだ。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「今日の相手はこちらです」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+
+<NAME_PLATE>ライブラリー
+「ＢＲ－２兼光。
+　国産の人型ドローン兵器です。
+　通称バトルロイド。ご存じですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「魔界の医療技術と人工知能チップで、
+　本物の兵士のように機敏に動くやつだ。
+　電磁警棒を持っているから警備兵仕様だな」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「さようで。
+　戦闘ソフトは五車町の特別バージョン。
+　お館様の訓練には最適の相手です」
+<PAUSE>
+<NAME_PLATE>俺
+「一応聞いておくが、
+　これも立体映像なのか？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「いえ、本物です」
+<PAUSE>
+<NAME_PLATE>俺
+「あの電磁警棒のレベルは？
+　スタン？　キル？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「スタンモードをマックスで。
+　一般人なら即死。
+　対魔忍でも気絶するレベルです」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃ怖いな」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「油断されれば大怪我をしますので
+　ご注意ください」
+<PAUSE>
+<NAME_PLATE>俺
+「了解」
+<PAUSE>
+//→S102a
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

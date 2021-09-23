@@ -1,0 +1,473 @@
+//☆ゆきかぜイベント【Section１】シナリオ
+//FileNo:S101a
+//シーン名：プロローグ
+
+//【背景：五車町＿ふうま邸前＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC025aより流用
+<BG>nc056a,IN, 3000
+<NAME_PLATE>
+　……
+<PAUSE>
+<NAME_PLATE>
+　………………
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>目覚ましのベル
+「ジリジリジリジリ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>目覚ましのベル
+「ジリジリジリジリジリジリジリジリ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「やかましい！」
+<PAUSE>
+<NAME_PLATE>目覚ましのベル
+「ピタッ――――」
+<PAUSE>
+<NAME_PLATE>
+　…………
+<PAUSE>
+<NAME_PLATE>
+　……………………
+<PAUSE>
+<NAME_PLATE>
+　………………………………
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「…………！！　やばい！　遅刻だ！」
+<PAUSE>
+//【背景：五車町＿町並み＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc078a,NONE
+<TRANSITION>TR01, IN,1000
+<NAME_PLATE>俺
+「くそ。時子。
+　どうして起こしてくれなかったんだ」
+<PAUSE>
+<NAME_PLATE>
+　寝坊した俺は五車学園へひた走っていた。
+<PAUSE>
+<NAME_PLATE>
+　普段なら遅刻どころか、
+授業のサボりも平気な俺だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そんな優雅な生活態度をどうしても
+変えたい時子から
+「次やったら夕飯抜きです」と言い渡された。
+<PAUSE>
+<NAME_PLATE>俺
+「それでか！
+　それで俺を放っておいて出かけたのか！
+　時子！」
+<PAUSE>
+<NAME_PLATE>
+　すでに朝飯も抜きで全力疾走だ。
+<PAUSE>
+<NAME_PLATE>
+　時計を見ると時間ぎりぎり、
+もうすぐ予鈴が鳴る。
+<PAUSE>
+<NAME_PLATE>
+　このまま走り続ければ、
+なんとか間に合うかどうか、というところ。
+<PAUSE>
+<NAME_PLATE>
+　よし、あの角を曲がれば後は一直線――
+<PAUSE>
+<NAME_PLATE>水城ゆきかぜ
+「うわーーー、遅刻遅刻遅刻ーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺が角を曲がろうとしたそのタイミングで、
+道の脇の塀を跳び越えて、
+女がいきなり現れた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちょっ！？　どいてどいてどいて！！」
+<PAUSE>
+<NAME_PLATE>
+　女は俺に向かって落ちてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「無茶言うな！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どかんっ！
+<PAUSE>
+<NAME_PLATE>
+　不意打ちもいいところだ。
+避けられるわけがない。
+<PAUSE>
+<NAME_PLATE>俺
+「おわっっ！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふんぎゃっっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　見事にそいつと激突し、
+二人ともベチャッと地面に尻餅をつく。
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001i,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あいたたたたた……ちょっと！
+　どいてって言ったでしょ。
+　なんでどいてくんないのよ！」
+<PAUSE>
+<NAME_PLATE>
+　俺より運動神経がいいらしく、
+女はすぐに立ち上がって悪態をついた。
+<PAUSE>
+<NAME_PLATE>
+　なぜかそれにバチバチという耳障りな音が
+伴っている。
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なんだ、ふうまじゃない。あんなのも
+　避けられないなんて、独立遊撃隊の隊長って
+　やっぱりお情けなんじゃないの？」
+<PAUSE>
+<NAME_PLATE>
+　嫌みったらしい言葉に顔を上げると、
+見慣れた浅黒い肌の対魔忍がいた。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだお前かよ。
+　あんなとこからいきなり出てきて
+　避けられるか」
+<PAUSE>
+<NAME_PLATE>
+　水城ゆきかぜ。
+次期対魔忍のエースと目される少女だ。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の電遁などとは比較にならない、
+強大な雷を操る雷遁の術使いである。
+<PAUSE>
+<NAME_PLATE>
+　しかし任務で派手にやり過ぎて、
+ついでに破壊した物や施設は数知れず。
+<PAUSE>
+<NAME_PLATE>
+　その性格や胸に難ありだが、
+顔だけはとびきり可愛い“雷撃の対魔忍”だ。
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なにお前って。
+　あんたにお前呼ばわりされる
+　筋合いないんだけど」
+<PAUSE>
+<NAME_PLATE>俺
+「こっちこそ、
+　あんた呼ばわりされる覚えはない」
+<PAUSE>
+<NAME_PLATE>俺
+「学校に行く途中で女の子とぶつかるとか、
+　どんな運命の出会いかと思ったら、
+　よりによってこれだよ……」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「はあ？　なんか言った！？」
+<PAUSE>
+<NAME_PLATE>
+　俺のぼやきに、ゆきかぜはバチバチと
+やかましく身体を帯電させて睨んでくる。
+<PAUSE>
+<NAME_PLATE>俺
+「何も言ってねえよ。
+　朝から絡んでくるな。鬱陶しい」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なにそれ！　絡んできたのはそっち――」
+<PAUSE>
+<NAME_PLATE>
+　キーン、コーン、カーン、コーン♪
+<PAUSE>
+<NAME_PLATE>俺
+「はっ！！」
+<PAUSE>
+<ACTOR>0,yu_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「やばっ！」
+<PAUSE>
+<NAME_PLATE>
+　予鈴が無情に響き渡る。
+遅刻しかけていたのを忘れていた。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは顔を見合わせ、
+正門に向かってダッシュをかけた。
+<PAUSE>
+<UI_DISP>OFF, 500
+<BGM_STOP>3000
+<ACTOR>0,yu_t001d,CENTER, CENTER, OUT, linear, 1000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<UI_DISP>ON, 0
+//【背景：五車学園＿正門前＿朝】【時間：朝】
+//　※対魔忍アサギZEROの背景NC008aより流用
+//　※立ち絵
+//　　対魔忍新兵（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　　対魔忍斥候（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<UI_DISP>ON, 0
+<BG>nc054a,NONE
+<TRANSITION>TR26, IN, 1000
+<GROUP>
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m037a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>俺
+「くそ、駄目だったか」
+<PAUSE>
+<NAME_PLATE>
+　正門にはもう生徒会の門番が待っていて、
+遅刻者にチケットを切ってやろうと、
+待ち受けていた。
+<PAUSE>
+<NAME_PLATE>
+　俺とゆきかぜはそれを物陰から窺う。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>2,ts_m037a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,yu_t001f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「もう、ふうまがあんなとこで
+　グズグズするから」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>俺
+「おい、俺のせいかよ」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「私のせいだっていうの？」
+<PAUSE>
+<NAME_PLATE>俺
+「お前があんなとこから飛び出してこなきゃ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それはこっちの台詞」
+<PAUSE>
+<NAME_PLATE>
+　とまた言い争いになりかけたところで、
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001e,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,s_t001a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「ふうま、おい、ふうま」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>1,h_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「ふうまちゃん、ここここ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　別の物陰から俺を呼ぶ声。
+<PAUSE>
+<NAME_PLATE>
+　誰かと思えば鹿之助と蛇子だ。
+二人は門番に見つからないように、
+こそこそと近寄ってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「お前らも遅刻かよ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ちょっと夜更かししすぎてな」
+<PAUSE>
+<NAME_PLATE>蛇子
+「えへへ、蛇子も。ふうまちゃんも？」
+<PAUSE>
+<NAME_PLATE>俺
+「そんなとこだ。もう一人いるがな」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>0,yu_t001c,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001c,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ゆきかぜちゃん？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「み、水城ゆきかぜ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なによ？」
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「い、いや、なんでもないです」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「なになに？
+　ふうまちゃんとゆきかぜちゃん、
+　一緒に通学してるの？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は何か好奇心を刺激されたらしく、
+目を輝かせて聞いてくる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001h,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>0,yu_t001f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「はあ？　そんなわけないでしょ」
+<PAUSE>
+<NAME_PLATE>俺
+「たまたま一緒になっただけだ。
+　というか道でぶつかっただけだ。
+　しかし、門番が立ってるとは参ったな」
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001f,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そうなんだよ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「蛇子たちもそれで困ってたの。
+　ふうまちゃん、どうしよう？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな。
+　校舎裏の森から忍び込むしかないか」
+<PAUSE>
+<ACTOR>2,s_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「おお、その手があったか」
+<PAUSE>
+<NAME_PLATE>蛇子
+「こんな四人でゾロゾロ大丈夫かしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「それはまあ、うまいこと分散して……
+　いや、それはかえってまずいか……？」
+<PAUSE>
+<NAME_PLATE>
+　校舎裏の森といっても、ここは五車学園。
+無警戒のはずはない。
+<PAUSE>
+<NAME_PLATE>
+　そこには十重二十重のセキュリティが
+設けられている。
+<PAUSE>
+<NAME_PLATE>
+　さて、どうやって忍び込もうかと
+考えていると、
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>0,yu_t001a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「なんでそんな面倒くさいことすんのよ。
+　なんとなく私も隠れちゃったけど、
+　普通に正面突破すればいいじゃない」
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, OUT, linear, 1000
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>
+　ゆきかぜが物陰からヒョイッと躍り出た。
+<PAUSE>
+<ACTOR>0,yu_t002a,CENTER, CENTER, IN, linear, 1000
+<GROUP>
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あんなの楽勝楽勝♪」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっ、待て！」
+<PAUSE>
+<NAME_PLATE>
+　俺は思わずそれを止めようとするが、
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t002a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,ts_m037a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>門番
+「おい、そこに誰か隠れているな！」
+<PAUSE>
+<NAME_PLATE>門番
+「四人もいるぞ！
+　お前ら遅刻だな。
+　大人しく遅刻チケットを受け取れ！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m037a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<GROUP>
+<ACTOR>2,s_t001h,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「うわあ、見つかったぞ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ゆきかぜちゃん、大胆♪」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001h,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section１-ＭＡＰ画面１へ
+//=================================================================

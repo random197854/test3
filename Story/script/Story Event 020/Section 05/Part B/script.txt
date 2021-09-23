@@ -1,0 +1,794 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿裏通り＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc005cより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc129a,IN, 1000
+<ACTOR>0,ts_m241a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>サイエント
+「フハハハ！　どうしたソニア！！
+　殺人とは魂の喜びだ！！
+　共に熱き血に溺れようではないか！」
+<PAUSE>
+//　※立ち絵
+//　　サイエント
+//　　　　＊モンスターイラストを流用
+<ACTOR>1,chr_t0299a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ソニア
+「はぁ。鬱陶しいわねえ。
+　興味ない奴に殺し合いを求められても
+　嬉しくもなんともないんだけど」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「いや、お前もよく似たような
+　ことしてるような……？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m241a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　まあ言動はともかく、
+殺人鬼サイエントは恐るべき敵だった。
+<PAUSE>
+<NAME_PLATE>
+　膨大な資産で作り上げられた
+現代最高品質のサイボーグボディ。
+<PAUSE>
+<NAME_PLATE>
+　全身に無数の武器が仕込まれ、
+それが人間を遥かに超えたパワーと
+スピードで行使される。
+<PAUSE>
+<NAME_PLATE>
+　特にその両腕に仕込まれた
+火炎放射装置には苦しめられた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0300d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くん、どうしよう！
+　もうガーディアンがもたない」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿ガーディアン＋抜刀
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ガーディアン
+「チョコオオオオオオオオ……！」
+<PAUSE>
+<NAME_PLATE>
+　紫水が緊迫した声を出す。
+<PAUSE>
+<NAME_PLATE>
+　俺の妄想が混じって出現したため、
+今日のガーディアンは微妙に弱かった。
+<PAUSE>
+<NAME_PLATE>
+　ドローンや黒服の銃撃から
+俺たちをガードしてくれているが、
+それも装甲が崩れて限界に近い。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。わかってる紫水……！
+　くそ、何かきっかけがあれば……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は容赦なく飛び交う火炎と
+銃弾をかいくぐりながら頭を働かせる。
+<PAUSE>
+<NAME_PLATE>
+　と、その時だった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m141b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒服
+「あがっ！！？」
+「な、なんだっ！？
+　こっちにトラックが――」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　裏通りにド派手なエンジン音が轟いた。
+<PAUSE>
+<NAME_PLATE>
+　俺たちを包囲する黒服やドローンを
+次々と弾き飛ばし、一台の軍用トラックが
+猛烈な勢いで突っ込んでくる。
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「ガハハハハハ！！！
+　迎えが遅れて悪かったなソニア、
+　こっちの準備が色々手間取って――」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストの流用
+<NAME_PLATE>オーク傭兵
+「って、なんだァ！
+　いつもの小僧じゃねえか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「おっさん！！？」
+<PAUSE>
+<NAME_PLATE>
+　トラックの窓から顔を出したのは、
+俺も任務や何やらで何度も世話になってる
+オーク傭兵のおっさん。
+<PAUSE>
+<NAME_PLATE>
+　ソニアの“仕事仲間”とは
+このオークのおっさんだったのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m241a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>サイエント
+「っ！？　仲間だと！？」
+<PAUSE>
+<NAME_PLATE>
+　そして一瞬、サイエントの動きが止まる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　待ち望んでいたチャンスだった。
+<PAUSE>
+<NAME_PLATE>俺
+「今だ！！！　頼む紫水！！」
+<PAUSE>
+<ACTOR>0,chr_t0300d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「うん。了解だよお館くん！」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿ガーディアン＋抜刀
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ガーディアン
+「チョコオオオオオオオオオオオオオオ
+　オオオオオオオオ！！！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　突進するガーディアン。
+<PAUSE>
+<ACTOR>0,ts_m241a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　だがサイエントはすぐにそれに反応、
+両腕から紅蓮の炎を放つ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　チョコ化した今日のガーディアンが
+その熱を食らってはひとたまりもない。
+<PAUSE>
+<NAME_PLATE>
+　一瞬で炎に包まれ、とろとろと
+甘い香りと共に全身が溶けてしまう――。
+<PAUSE>
+<NAME_PLATE>
+　だが、そこまでが俺の計算だ。
+<PAUSE>
+<NAME_PLATE>サイエント
+「なっ！？　この人形――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　溶けたガーディアンの体が大量の
+チョコとなってサイエントに絡みつき、
+その視界と動きを阻害する。
+<PAUSE>
+<NAME_PLATE>
+　そしてその隙に、俺とソニアが
+奴の懐にもぐりこんだ。
+<PAUSE>
+<ACTOR>0,chr_t0299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「行くぞソニア！！！」
+<PAUSE>
+<NAME_PLATE>ソニア
+「アハハ！　面白い手を使うのねえ、
+　あなたにはやっぱり熱く疼いちゃう♪
+　“デッドリーブロウ”！！」
+<PAUSE>
+//　※斬撃、打撃エフェクトなど。
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>サイエント
+「がっ！？　があああぁあぁあああ
+　ああああああっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　俺の戦闘術の師匠である
+対魔忍ライブラリー直伝の剣術。
+<PAUSE>
+<NAME_PLATE>
+　そしてソニアの狂気じみた
+速度の凄まじいナイフ攻撃。
+<PAUSE>
+<NAME_PLATE>
+　それをまともに食らったサイエントが、
+白濁した体液を撒き散らして
+道路の向こう側まで吹っ飛んだ。
+<PAUSE>
+<BG>nc129a,IN, 500
+<ACTOR>0,chr_t0300e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くん、やった！」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿抜刀
+//　　　　＊カードイラストより流用
+<ACTOR>1,ts_m053a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「おいおい！？　しばらく見ねえうちに
+　やるようになったじゃねえか！」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「まぁとにかく後ろに乗れ！！！
+　ずらかるぞ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「おう！！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　おっさんの声に頷き、俺たちは
+トラックの荷台コンテナに飛び乗った。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム＿裏通り＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc005cより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc129a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　激しくブレーキを軋ませて
+小型のトラックがその場を離脱する。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m141b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒服
+「ぐっっ！！？
+　追え、車を用意しろ！！！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　混乱の声を上げる男たち。
+<PAUSE>
+<NAME_PLATE>
+　ターゲットである女が、
+仲間らしきオーク傭兵のトラックで
+連れ去られてしまった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが、そんな配下たちの狼狽を
+一切、気にかける様子もなく――。
+<PAUSE>
+<ACTOR>0,ts_m241a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サイエント
+「フフフ、また逃げるんだねぇ。
+　本当に愚かな女だよ、ソニア……」
+<PAUSE>
+//　※立ち絵
+//　　サイエント
+//　　　　＊モンスターイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>黒服
+「さ、サイエント様！？」
+<PAUSE>
+<NAME_PLATE>
+　ソニアとその仲間の攻撃で
+吹っ飛ばされたサイエントが立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　最高度の自己修復機能によって
+破損した箇所がみるみる再生・復元。
+<PAUSE>
+<NAME_PLATE>
+　そしてさらに、そんなサイエントの
+サイボーグレッグから轟き始める駆動音。
+<PAUSE>
+<NAME_PLATE>
+　時速３００キロでの移動も可能となる
+ハイスピード走行モードである。
+<PAUSE>
+<NAME_PLATE>サイエント
+「本当は君が私に殺されたいのは
+　わかっている――さあ迎えに行くよ、
+　フハハハハハハハハ！！！」
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム＿路上＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC023bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc161a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　東京キングダム・外周道路。
+<PAUSE>
+<NAME_PLATE>
+　俺たちを拾ったおっさんの
+軍用トラックが軽快に速度を上げている。
+<PAUSE>
+//【背景：東京キングダム＿トラック荷台＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc036aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc068b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「しかし驚いたよ。
+　おっさんがソニアと組んでるとは」
+<PAUSE>
+<NAME_PLATE>
+　トラックの荷台コンテナで一息ついた
+俺は運転席のおっさんに声をかけた。
+<PAUSE>
+<NAME_PLATE>
+　そういえば前にもおっさんは
+ソニアと組んで傭兵仕事をしていた。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「あぁ。俺も驚いたぜ！
+　まさか兄ちゃんが一緒だったとは。
+　ソニアが何も言わねえからなぁ」
+<PAUSE>
+//　※オーク傭兵は運転席で運転しているという設定なのでここでは立ち絵なし。
+<ACTOR>0,chr_t0299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソニア
+「言ったじゃない。
+　予定外のことが起きたって」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>オーク傭兵
+「その予定外の内容を言えってんだ！
+　まったく、仕事のしづれえ女だぜ」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「兄ちゃんも気をつけろよ。
+　仕事にはホウレンソウが大切だ」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうだな」
+<PAUSE>
+<NAME_PLATE>
+　歴戦の傭兵だけあって
+色々苦労してそうなおっさんであった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オーク傭兵
+「で、そっちの嬢ちゃんは誰だい？
+　なんか娼婦みたいな格好してるけど」
+<PAUSE>
+<ACTOR>0,chr_t0300e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「私は天宮紫水。
+　彼――お館くんの仲間」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿抜刀
+//　　　　＊カードイラストより流用
+<NAME_PLATE>紫水
+「この服は、お館くんの趣味」
+<PAUSE>
+<NAME_PLATE>ソニア
+「強引に着せられたみたいよ」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「まじかよ！？
+　兄ちゃん、しばらく見ねえうちに
+　でけえ男になったなぁ……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「いやいやいや！？」
+<PAUSE>
+<NAME_PLATE>
+　間違いではないけれど！？
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　――と、おっさんとのやり取りで
+ほのぼのしかけた時。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガチャン！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>俺
+「なっ！！？」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　突然、激烈な揺れと衝撃が
+荷台コンテナに乗った俺たちを襲った。
+<PAUSE>
+//【背景：東京キングダム＿路上＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC023bより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BG>nc161a,IN, 1000
+<ACTOR>0,ts_m241a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>サイエント
+「フハハハハハハ！！
+　もう逃げられないねえソニア！！
+　私にお前の腹の中を見せてみろ！！」
+<PAUSE>
+//　※立ち絵
+//　　サイエント
+//　　　　＊モンスターイラストを流用
+
+<NAME_PLATE>
+　トラックのコンテナ上部で
+殺人サイボーグが哄笑していた。
+<PAUSE>
+<NAME_PLATE>
+　サイエントは常軌を逸した速度で
+オーク傭兵が駆るトラックに追いつき、
+<PAUSE>
+<NAME_PLATE>
+　その荷台コンテナに取り付くと、
+凄まじいパワーでそれをこじ開ける――。
+<PAUSE>
+//【背景：東京キングダム＿トラック荷台＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc036aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BG>nc068b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「あのサイボーグ野郎、
+　追いついてきたのかよ！！？」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿抜刀
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0300e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　コンテナの中で俺たちが身構える。
+<PAUSE>
+<NAME_PLATE>
+　この狭い中に火炎を放射されたら
+危険なことになるが――。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>オーク傭兵
+「ガハハハ！！！
+　なーにビビることはねえ！」
+<PAUSE>
+//　※オーク傭兵は運転席で運転しているという設定なのでここでは立ち絵なし。
+<NAME_PLATE>オーク傭兵
+「兄ちゃんの得意な言い方でいうと、
+　“作戦通り”ってやつさ。
+　――やっちまえ、アルベルタ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「！！！？」
+<PAUSE>
+//【イベントＣＧ：EV000a　アルベルタ狙撃イベントシーン】【時間：夜】
+//　※決戦アリーナの【闇の狙撃手】アルベルタのカードイラストをイベントＣＧ風に加工して表示。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<EV>stv023a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アルベルタ
+「了解したわ、傭兵さん」
+<PAUSE>
+<NAME_PLATE>
+　外周道路を見渡すビルの屋上で、
+青い肌を持つ美女が鋭くうなずいた。
+<PAUSE>
+<NAME_PLATE>
+　米連に協力するエルフ族の狙撃手、
+アルベルタ。
+<PAUSE>
+<NAME_PLATE>
+　彼女が、今回のソニアの“仕事”の
+もう一人の仲間であった。
+<PAUSE>
+<NAME_PLATE>
+　ソニアの暗殺が失敗した際の
+サブプランとして、オーク傭兵が標的を
+この狙撃ポイントまで引き寄せ、
+<PAUSE>
+<NAME_PLATE>
+　米連情報部から借り受けた
+対サイボーグ用の大口径ライフルと
+共に待機したアルベルタが、
+<PAUSE>
+<NAME_PLATE>
+　分厚い頭部装甲ごとサイボーグ
+殺人鬼の脳髄を吹き飛ばす作戦――。
+<PAUSE>
+<NAME_PLATE>アルベルタ
+「――殺人鬼サイエント。
+　あなたの悪行の報いを受けなさい」
+<PAUSE>
+<NAME_PLATE>
+　アルベルタが引き金を引く。
+<PAUSE>
+<SE_PLAY>se036_04
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　東京キングダムの夜に銃声が轟いた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：東京キングダム繁華街４＿夜】【時間：夜】
+//　※監獄アカデミア_NC009b　より流用
+<BGM_PLAY>bgm604,1000
+<BG>nc111a,IN, 1000
+<NAME_PLATE>
+　２０分後。
+<PAUSE>
+<ACTOR>1,ts_m053a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「それじゃあまたどっかで会おうぜ、
+　兄ちゃん、エッチな格好のお嬢ちゃん！
+　今日は巻き込んですまなかったな」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストの流用
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ソニア
+「協力に感謝するわ、ふうま。
+　このお礼は――ふふっ、あとでじっくり。
+　次こそ、あの熱い夜の続きをね♪」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「いや、殺し合いなら勘弁だぞ……。
+　とにかく、おっさん、
+　送ってくれてありがとな！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「二人とも、またね」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　などと言いつつトラックから降りた
+俺と紫水はおっさんたちと別れる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　殺人鬼サイエントの暗殺を成功させた
+おっさんたちは、その後処理に向かうようで、
+<PAUSE>
+<NAME_PLATE>
+　その前に俺と紫水を
+クラブ・ペルソナの前の通りまで
+送ってきてくれたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「さて、ようやく任務完了だな」
+<PAUSE>
+<NAME_PLATE>
+　走り去っていくトラックを見送って、
+俺たちはクラブ・ペルソナへと歩き出す。
+<PAUSE>
+<NAME_PLATE>
+　妙な寄り道をしてしまったが、
+やっと今日の任務を終わらせられそうだ。
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「うん。お疲れさま、お館くん。
+　何だか色々あったね……」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、そうだなぁ。
+　でも俺の任務は毎回こんな感じだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「今日は何だかんだで報酬も貰えたし、
+　悪くなかったと思うぞ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　“報酬”とは、遭遇したときに
+ソニアが口にしていた約束のことだ。
+<PAUSE>
+<NAME_PLATE>
+　絶対ろくでもないものを
+渡されるんだろうな――
+と思っていたが、予想外。
+<PAUSE>
+<NAME_PLATE>
+　ソニアは米連からそれなりの報酬を
+得ているらしく、俺と紫水に気前よく
+お札を渡してくれた。
+<PAUSE>
+<NAME_PLATE>
+　……その額、
+実に俺のお小遣いの半月分である。
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「ふふ。そうだね。
+　『探偵らしい任務になった』って、
+　コロも喜んでる」
+<PAUSE>
+<NAME_PLATE>俺
+「だろ？」
+<PAUSE>
+<NAME_PLATE>
+　紫水も楽しそうに微笑んでいる。
+<PAUSE>
+<NAME_PLATE>
+　その顔が見られただけで、俺も
+悪くない寄り道だったと思えるのだ。
+<PAUSE>
+<NAME_PLATE>紫水
+「あっ。
+　ちょっと待ってて、お館くん」
+<PAUSE>
+<NAME_PLATE>俺
+「どうした？」
+<PAUSE>
+<NAME_PLATE>
+　ふいに紫水が立ち止まった。
+<PAUSE>
+<NAME_PLATE>紫水
+「ちょうどあそこで売ってた。
+　買い物してきていい？」
+<PAUSE>
+<NAME_PLATE>俺
+「買い物？　何を？」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん……。
+　バレンタインの、チョコ」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　恥ずかしそうに小声で言った紫水が、
+近くの雑貨屋に入っていく。
+<PAUSE>
+<NAME_PLATE>
+　そこでは商魂逞しい店主が
+色とりどりのチョコを並べていた。
+<PAUSE>
+<NAME_PLATE>
+　紫水は、さっきソニアから
+受け取った一枚のお札を持って、
+それをうれしそうに選んでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ――」
+<PAUSE>
+<NAME_PLATE>
+　俺はそこでようやく気が付いた。
+<PAUSE>
+<NAME_PLATE>
+　紫水が、ソニアに協力しようと
+言い出した理由。
+<PAUSE>
+<NAME_PLATE>
+　“報酬”のためだ。
+<PAUSE>
+<NAME_PLATE>
+　ソニアが「手伝えば報酬を出す」と
+言ったから。
+<PAUSE>
+<NAME_PLATE>
+　実体化したばかりの紫水に
+手持ちがあるわけがない。
+<PAUSE>
+<NAME_PLATE>
+　だから、ほしいもの――
+バレンタインのチョコを買うため、
+何かをする必要があって。
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「……お待たせ、お館くん」
+<PAUSE>
+<NAME_PLATE>
+　紫水が戻ってくる。
+<PAUSE>
+<NAME_PLATE>
+　その手には、きれいに
+飾り付けられたチョコの包み。
+<PAUSE>
+<NAME_PLATE>紫水
+「あの……恥ずかしいけど、これ。
+　今日はありがとう、楽しかった」
+<PAUSE>
+<NAME_PLATE>紫水
+「これからもずっと、仲良くしてね」
+<PAUSE>
+//→Section５終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

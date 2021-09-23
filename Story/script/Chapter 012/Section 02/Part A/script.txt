@@ -1,0 +1,1088 @@
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車学園＿学食食堂＿昼】【時間：昼】
+//　※妻ネトリ_nc001aより流用
+<BGM_PLAY>bgm307,1000
+<BG>nc027a,IN, 1000
+<NAME_PLATE>
+　本格的な春も近づく、
+とある日の放課後。
+<PAUSE>
+<NAME_PLATE>
+　待ち合わせ場所の学食でノートを広げ、
+俺は一人うんうんと唸っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「うーむ……。まいったぜ、
+　上から下までさっぱりわからねえ……」
+<PAUSE>
+<NAME_PLATE>
+　五車学園は、若き対魔忍の養成機関――
+ではあるものの、一般的な学校と同様に
+学科試験というものがある。
+<PAUSE>
+<NAME_PLATE>
+　点が良ければＯＫ。しかし、
+もし悪ければ『落第』という――
+<PAUSE>
+<NAME_PLATE>
+　俺のような落ちこぼれ学生にとっては、
+まさに地獄と言うべき非情の試練。
+<PAUSE>
+<NAME_PLATE>
+　これを何とか乗りきるため、今日は
+鹿之助や蛇子と一緒に緊急勉強会を
+実施することになっていた。
+<PAUSE>
+<NAME_PLATE>俺
+（でも、こりゃあ……俺ひとりじゃ
+　どうにもならないな。どっちでも
+　いいから、早く戻ってくれよ……）
+<PAUSE>
+<NAME_PLATE>
+　俺が今やっているのは、苦手な上に
+授業をサボりまくっている英語の問題集。
+<PAUSE>
+<NAME_PLATE>
+　マジメに授業に出ている蛇子達に
+教えを乞えば、
+いくらでも答えてくれるだろうけど――。
+<PAUSE>
+<NAME_PLATE>
+　生憎、蛇子はクラス委員の集まり、
+鹿之助は担任のさくら先生に用事を
+言いつけられたとかで――
+<PAUSE>
+<NAME_PLATE>
+　今は俺ひとり、虚しくノートを
+広げてふたりが戻るのを待っている、
+という状況だ。
+<PAUSE>
+<NAME_PLATE>俺
+（大体、試験だけでもピンチなのに、
+　静流先生から山のように宿題を
+　出されたからな……）
+<PAUSE>
+<NAME_PLATE>俺
+（『これを全部やらなきゃ落第よ♪』
+　って……）
+<PAUSE>
+<NAME_PLATE>俺
+（あの先生、絶対俺をイジめて
+　楽しんでいる――）
+<PAUSE>
+<NAME_PLATE>？？？
+「君、そんな問題もわかんないの？
+　そこの問題はＡ。それで、次の
+　選択問題はＢとＤで――」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　あっ、はい。
+　なるほどなるほど……」
+<PAUSE>
+<NAME_PLATE>
+　突然、背後からアドバイスの声が
+降ってきた。的確でわかりやすい。
+回答がすらすら進むぞ。
+<PAUSE>
+<NAME_PLATE>俺
+（……ん？　というか、誰？）
+<PAUSE>
+<NAME_PLATE>
+　いつも教えてくれる蛇子かとも
+思ったが、明らかに声が違う。
+となると――？
+<PAUSE>
+<ACTOR>0,kr_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿制服衣装
+<NAME_PLATE>俺
+「あの……？　どちらさま？」
+<PAUSE>
+<NAME_PLATE>
+　そこにいたのは、見知らぬ女子生徒。
+<PAUSE>
+<NAME_PLATE>
+　めちゃくちゃ可愛い――
+けど、妙に不機嫌そうな顔で
+俺を見下ろしていた。
+<PAUSE>
+<NAME_PLATE>女性
+「誰でもいいでしょ？
+　そんなことより……ふ～ん」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだよ……？」
+<PAUSE>
+<NAME_PLATE>女性
+「別に～？　ただ、驚いただけ。
+　君、独立遊撃隊の隊長だよねぇ」
+<PAUSE>
+<ACTOR>0,kr_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「こーんなおバカでも、
+　隊長になれるんだぁ～って♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はあぁっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　この女、いきなり出てきて
+何を言いやがる――！？
+<PAUSE>
+<NAME_PLATE>女性
+「だってその問題、できなかったら
+　完全に落第レベルの基礎の基礎だし？」
+<PAUSE>
+<ACTOR>0,kr_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「そんなのに手を焼いている人が、
+　隊長さんねぇ？　はぁ……」
+<PAUSE>
+<NAME_PLATE>
+　やれやれ、呆れたぜ……とでも言う
+ように肩をすくめる女性。いい感じに
+イラッとくる動作であった。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いやいやいや！！！
+　俺は全然バカじゃねーし！？
+　というかおバカはそっちだろう！？」
+<PAUSE>
+<ACTOR>0,kr_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「はあ！？　私がおバカ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「おうよ！！　たった一教科で
+　頭の良し悪しを計るなんて、
+　まごう事なきおバカの所行っ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「確かに俺は英語は苦手だけど、
+　それ以外は全部お前より上って
+　絶対の自信あるし～？」
+<PAUSE>
+<NAME_PLATE>女性
+「カッチーン。
+　なによそれ！？　私が君になんか
+　負けるわけないでしょう！？」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ勝負するか？　他の教科で」
+<PAUSE>
+<ACTOR>0,kr_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「い、いいわよ。なんだって」
+<PAUSE>
+<NAME_PLATE>俺
+（よし！！　かかったな！！！
+　狙い通り――っ！！）
+<PAUSE>
+<NAME_PLATE>
+　俺は内心ガッツポーズをした。
+<PAUSE>
+<NAME_PLATE>
+　見るからにプライドの高そうな奴なので、
+こうして煽ってやればこちらが有利な
+勝負に持ち込めると思ったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ勝負は歴史問題。第一問です」
+<PAUSE>
+<ACTOR>0,kr_t002d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女性
+「い、いきなり！？　歴史！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ジャジャン。徳川幕府を開いたのは
+　徳川家康ですが、第１０代将軍は？」
+<PAUSE>
+<ACTOR>0,kr_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「ええっ！？　しょ、将軍！？
+　い、家、家……家のり？」
+<PAUSE>
+<NAME_PLATE>俺
+「ブー。家治です」
+<PAUSE>
+<ACTOR>0,kr_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「もー！！
+　あいつら家多すぎ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「続いて第二問。ジャジャン。
+　米連の第２０代大統領は？」
+<PAUSE>
+<ACTOR>0,kr_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「えっ？　えっと……
+　く、クリントン……？」
+<PAUSE>
+<NAME_PLATE>俺
+「ブッブー。
+　正解はガーフィールドです」
+<PAUSE>
+<ACTOR>0,kr_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「誰よそれ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ハハハハ！！　今のはどちらも
+　どんな初歩の教科書にも載っている
+　基礎中の基礎というべき知識！！」
+<PAUSE>
+<NAME_PLATE>俺
+「こんな問題がわからないとは――
+　どっちが本当のおバカか、
+　これでハッキリしたようだな！！！」
+<PAUSE>
+<NAME_PLATE>
+　楽勝であった。
+この手の特に必要のない知識で
+俺の右に出る奴はなかなかいない。
+<PAUSE>
+<ACTOR>0,kr_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>女性
+「ぐぬぬ……！　そんなの、
+　君が歴史オタクなだけじゃない！！
+　ぜ、ぜんぜん偉くないし！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なにぃ！？
+　まだ負けを認めないってのか！？」
+<PAUSE>
+<NAME_PLATE>女性
+「あったり前でしょー！！？
+　男なんかに負けたりするもんですか！！」
+<PAUSE>
+<NAME_PLATE>俺
+「クク、ならば仕方がない。
+　貴様が泣いて謝るまで、
+　第三第四の問題を――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>蛇子
+「ねーねー。何やってるの、
+　ふうまちゃん。そんな大声出して」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>鹿之助
+「そうだぞ、ふうま。
+　公共の場所では静かに、だ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿制服衣装
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　振り向くと、呆れたような
+顔をしたいつもの二人がいた。
+<PAUSE>
+<NAME_PLATE>
+　そして周りを見回すと
+（なにやってんだあいつら？）みたいな
+顔で他の学生もこっちを見ている。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、いや……違うんだよ。
+　お前らを待っている間に、
+　なんか変な奴に絡まれて――」
+<PAUSE>
+<NAME_PLATE>
+　と、俺は口論中の女子生徒を指差した。
+<PAUSE>
+<ACTOR>2,h_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「変な人って……？
+　その人は先輩だよふうまちゃん」
+<PAUSE>
+<ACTOR>2,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「こんにちは、きらら先輩」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,kr_t002b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女性
+「あっ、蛇子ちゃん。
+　こんにちは。お久しぶりね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なに！？　先輩っ！！？」
+<PAUSE>
+<ACTOR>0,kr_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　女性に気付いた蛇子が挨拶する。
+どうやら蛇子は女性と顔見知りのようだ。
+<PAUSE>
+<ACTOR>2,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうよ、鬼崎きらら先輩。
+　蛇子はクラス委員の集まりで
+　お世話になってるの」
+<PAUSE>
+<NAME_PLATE>
+　と蛇子が、女性――鬼崎きららを
+紹介してくれた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「まったく、ふうまは変なとこで
+　抜けてるよなぁ。ネクタイの色で
+　先輩ってわかるだろ？」
+<PAUSE>
+<NAME_PLATE>俺
+「それは、まあ……確かに」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助まで呆れたように言う。
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>0,kr_t002a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　突然で見落としていたが……
+五車学園では、学年ごとに制服の
+ネクタイが異なっている。
+<PAUSE>
+//<NAME_PLATE>
+//　１年が青、２年が緑、３年が赤。
+//<PAUSE>
+<NAME_PLATE>
+　そして、目の前でむすーっとしている
+鬼崎きららのネクタイの色は赤。
+ということは――。
+<PAUSE>
+<NAME_PLATE>俺
+「せ、先輩……なんですか？」
+<PAUSE>
+<NAME_PLATE>鬼崎きらら
+「ふんっ。今さら畏まらなくてもいいわよ。
+　あんたの本性は、たった今、
+　しーっかり見せて貰ったから」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はあっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　とりつく島もない。この先輩――
+もしかして、かなりの性悪！？
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、それは違うでしょう！？
+　先にそっちが絡んできたから、
+　こっちも売り言葉に買い言葉で――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>3,a_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「あら？　もう集まっているようね。
+　皆、こんにちは。――きららも、
+　彼らに挨拶はすませた？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　俺が言い返そうとした所に、
+アサギ先生がやってきた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「アサギ先生！？
+　こ、こんにちは……というか、
+　きららもって……？」
+<PAUSE>
+<NAME_PLATE>
+　挨拶を返しながら、
+俺は鬼崎きららの方を見る。
+<PAUSE>
+<ACTOR>3,a_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,kr_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　今の口ぶりだと、
+この先輩がここにいるのは、
+アサギ先生の差し金？
+<PAUSE>
+<ACTOR>0,kr_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>きらら
+「……はい、アサギ先生。
+　ふうま君とは少し話しました」
+<PAUSE>
+<NAME_PLATE>
+　憮然とした顔できららが答える。
+<PAUSE>
+<NAME_PLATE>
+　若干含みのある言い方だったが、
+アサギ先生は気にせずに微笑んで。
+<PAUSE>
+<ACTOR>3,a_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふふ、それは良かった。
+　では早速で悪いけど、あなた達
+　独立遊撃隊に頼みがあるわ」
+<PAUSE>
+<ACTOR>3,a_t001a,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？　新しい任務ですか！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は蛇子達と顔を見合わせた。
+色々ありすぎて大変だったヨミハラ潜入以来、
+本格的な任務は久しぶりだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ……。最近、東京キングダムで
+　起きている異変について調べて欲しい。
+　ここにいるきららは、その助っ人ね♪」
+<PAUSE>
+<NAME_PLATE>きらら
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が微笑して、相変わらず
+憮然としてる女性を指し示した。
+<PAUSE>
+<NAME_PLATE>俺
+「はい？　この人が……助っ人？」
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダムの繁華街＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc002aより流用
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc008a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その日の夜――。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　きらら先輩を加えた俺達遊撃隊は、
+早速、異変が起きているという
+東京キングダムにやってきた。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生の話によれば――
+<PAUSE>
+<NAME_PLATE>
+　俺達の今回のターゲットは、
+魔女・エウリュアレー。
+<PAUSE>
+<NAME_PLATE>
+　最近、この“伝説”とも呼ばれた
+魔女が東京キングダムに出現し、
+<PAUSE>
+<NAME_PLATE>
+　均衡していた闇の勢力同士の
+パワーバランスが崩れたのだという。
+<PAUSE>
+<NAME_PLATE>
+　というのも、エウリュアレーは
+古代より魔界を彷徨う伝説の魔女にして、
+絶大な力を持つ神格の魔族。
+<PAUSE>
+<NAME_PLATE>
+　古き神々の呪いで両腕を失い、
+その代わりに“見えざる手”という魔術に
+よって二対の大剣を自在に操り――
+<PAUSE>
+<NAME_PLATE>
+　気まぐれに人間界に出現しては災厄と
+混沌をもたらす、
+<PAUSE>
+<NAME_PLATE>
+　制御不能のトリックスターとして
+知られている。
+<PAUSE>
+<NAME_PLATE>俺
+「今までは、アミダハラの方で
+　隠棲して大人しくしてるって
+　噂だったんだけどな」
+<PAUSE>
+<NAME_PLATE>俺
+「何が目的かわからないが……
+　ここ最近、東京キングダムに
+　出現したってことらしい」
+<PAUSE>
+<ACTOR>1,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふーん。なるほどねー。その、
+　え、え……えるりゃりゃれー」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「エウリュアレー」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「エウリュアレー……について、
+　ふうま、ずいぶん詳しいんだな」
+<PAUSE>
+<NAME_PLATE>俺
+「まあな。
+　俺は彼女のファンだから」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　俺は鹿之助に肯いた。
+伝説の魔女エウリュアレーについては、
+何冊も研究書や伝記が書かれているし、
+<PAUSE>
+<NAME_PLATE>
+　魔女自身も、幾つか魔術書や物語を
+執筆している。
+<PAUSE>
+<NAME_PLATE>
+　どれも興味深い魔術や事件について
+書かれており、俺も愛読しているのだ。
+<PAUSE>
+<ACTOR>0,kr_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「はーん？　そーんな古臭い本
+　読んで何が楽しいってのよ」
+<PAUSE>
+<NAME_PLATE>きらら
+「これだからマニアは――
+　他にやることないのかしら？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なにぃっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　この性悪先輩は、またそういうことを――！
+<PAUSE>
+<ACTOR>0,kr_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「まあまあふうまちゃん、
+　落ち着いて落ち着いて」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　あはは、と笑いながら蛇子が
+宥めてきた。
+<PAUSE>
+<ACTOR>2,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「それに、きらら先輩も。
+　ふうまちゃんの本好きって、
+　けっこう役に立ってるんですよ？」
+<PAUSE>
+<ACTOR>0,kr_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「え……？　そ、そうなの、
+　蛇子ちゃん……？」
+<PAUSE>
+<ACTOR>2,h_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「はい。今まで蛇子たち、
+　ふうまちゃんの本の知識には
+　ずいぶん助けられましたし――」
+<PAUSE>
+<NAME_PLATE>蛇子
+「可哀想ですから、あまりきついこと
+　言わないであげてくださいね♪」
+<PAUSE>
+<ACTOR>0,kr_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「うん……。そうね、
+　ごめんなさい、蛇子ちゃん。
+　そこはもう少し考える」
+<PAUSE>
+<NAME_PLATE>
+　蛇子に諭され、きらら先輩が
+素直に謝った。
+<PAUSE>
+<NAME_PLATE>俺
+（待て待て！？　なぜ蛇子に謝る！？）
+<PAUSE>
+<NAME_PLATE>
+　というか……この先輩、
+俺にだけやけに当たりがキツい気がする……。
+<PAUSE>
+<NAME_PLATE>
+　蛇子や鹿之助には、
+普通の優しい先輩って感じの対応なのに……
+なぜ？
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「ま、まあ、話を戻して――
+　任務のおさらいの続きだな」
+<PAUSE>
+<NAME_PLATE>
+　とは言え、今はそんなことを
+考えても仕方がない。
+<PAUSE>
+<NAME_PLATE>
+　俺は気を取り直して、
+今回の任務について話を再開した。
+<PAUSE>
+//【背景：東京キングダムのある廃墟区画＿夜】【時間：夜】
+//　※陰陽騎士トワコ_nc002aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc134a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　“伝説の魔女”出現による
+東京キングダム騒乱の兆候――。
+<PAUSE>
+<NAME_PLATE>
+　その調査に派遣された対魔忍部隊が、
+唐突に連絡を絶った。
+<PAUSE>
+<NAME_PLATE>
+　今回の任務の主目的は、
+この行方不明になった部隊を捜索し、
+場合によっては救出すること。
+<PAUSE>
+<NAME_PLATE>
+　ただし、相手は得体の知れない
+“魔女”エウリュアレーである。
+<PAUSE>
+<NAME_PLATE>
+　俺達まで被害に遭わないように、
+極力戦闘を避け、危険を感じればすぐに
+撤退するように指令されていた。
+<PAUSE>
+<NAME_PLATE>俺
+「で、ここがその――
+　行方不明になった部隊が
+　最後の定時連絡をした場所だな」
+<PAUSE>
+<GROUP>
+<ACTOR>0,kr_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>二人
+「……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　緊張に顔を強張らせて蛇子と
+きらら先輩が辺りを見回している。
+<PAUSE>
+<NAME_PLATE>
+　……不気味な雰囲気だ。
+<PAUSE>
+<NAME_PLATE>
+　繁華街から数ブロック離れた、
+寂れた廃墟地区。
+<PAUSE>
+<NAME_PLATE>
+　無法者が好き好んで根城に
+しそうな場所だが……しかし、
+辺りに人の気配は全くない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,s_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「お、おい……大丈夫かよふうま。
+　ここ、何か変な感じがするよ……」
+<PAUSE>
+<NAME_PLATE>俺
+「変な感じ……？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、おう……。なんか、肌が
+　ちくちくするっていうか……
+　俺、気持ち悪くなってきた……」
+<PAUSE>
+<NAME_PLATE>俺
+「……」
+<PAUSE>
+<NAME_PLATE>
+　目に見えない何かが、電波に敏感な
+鹿之助の体に影響を与えている……？
+<PAUSE>
+<NAME_PLATE>俺
+「……とにかく、この辺を調べよう。
+　蛇子、何かわかるか？」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>2,h_t004c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ちょっと待って。えっと……？
+　うん、あっちに一人だけ。
+　誰かがいるみたい……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装
+<NAME_PLATE>
+　タコ化した蛇子が廃墟地区の奥の
+闇を指差した。
+<PAUSE>
+<NAME_PLATE>
+　タコ足吸盤の強力な嗅覚で、
+人の匂いをキャッチしたのだ。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>俺
+「よし。まずそこを調べてみよう。
+　皆、警戒は弛めるなよ――」
+<PAUSE>
+<SE_PLAY>se082
+<NAME_PLATE>
+　声をひそめて頷き合うと、俺達は
+廃墟地区の奥へと進んでいった。
+<PAUSE>
+//【背景：東京キングダムのある廃墟区画＿倉庫内＿夜】【時間：夜】
+//　※鋼殻のアイ_背景nc003aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　匂いを辿って廃墟地区の奥――
+その片隅にあった倉庫に侵入した。
+<PAUSE>
+<BG>nc135a,IN, 1000
+<ACTOR>1,s_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+（お、おい……。
+　ふうま、ここって……？）
+<PAUSE>
+<NAME_PLATE>俺
+（ああ……『匂う』な……）
+<PAUSE>
+<NAME_PLATE>
+　息を殺して隣を歩く鹿之助と
+囁き合う。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子の吸盤がキャッチした
+何者かの匂いの事ではない。
+<PAUSE>
+<NAME_PLATE>
+　この倉庫の内部が、明らかに
+不自然なのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（きれいに、手入れされている……）
+<PAUSE>
+<NAME_PLATE>
+　外は朽ち果てた
+廃墟のようになっているのに、
+この中だけは違っている。
+<PAUSE>
+<NAME_PLATE>
+　つまりこの倉庫は、何者かが
+今も利用している――。
+<PAUSE>
+<ACTOR>5,ts_m081a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「……………………………」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍の女
+//　　決戦アリーナのモンスター【対魔忍】九字衆-前-cから流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+（――っ！？）
+<PAUSE>
+<NAME_PLATE>きらら
+（だ、誰かいる――！？）
+<PAUSE>
+<NAME_PLATE>
+　物陰に隠れて進む俺達の向こうに、
+一人の女が立っていた。
+<PAUSE>
+<NAME_PLATE>
+　その場からピクリとも動かず、
+さながら幽鬼のように佇んでいる。
+<PAUSE>
+<NAME_PLATE>蛇子
+（ふ、ふうまちゃん！？
+　あの装束って対魔忍だよね？
+　じゃあ、あの人って――）
+<PAUSE>
+<NAME_PLATE>俺
+（……いや、そうじゃないと思う。
+　姿を消した部隊の人員データは、
+　頭に入っている）
+<PAUSE>
+<NAME_PLATE>
+　対魔忍装束を着ているが、
+行方不明になった部隊の者ではない。
+<PAUSE>
+<NAME_PLATE>
+　では一体、あの女は――？
+<PAUSE>
+<NAME_PLATE>鹿之助
+（お、おぃぃぃいっ！？　なんか
+　それ超コワいんだけどぉおっ！？）
+<PAUSE>
+<NAME_PLATE>俺
+（お、落ち着け鹿之助！　……とにかく、
+　もう少し近づいて調べてみよう。
+　きらら先輩も、それで良いですか？）
+<PAUSE>
+<NAME_PLATE>きらら
+（な、何であんたが決めるのよ……！
+　まあ、それで良いけど……）
+<PAUSE>
+<NAME_PLATE>
+　と俺達は頷き合い、慎重に
+対魔忍装束の女に近づいていく。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<NAME_PLATE>？？？
+『……其は虚ろ――……』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？？」
+<PAUSE>
+<NAME_PLATE>
+　突然、女が口を開いた。
+<PAUSE>
+<NAME_PLATE>
+　小さく囁くような……だが、
+耳元で殷々と響くような奇怪な詠唱――。
+<PAUSE>
+<NAME_PLATE>俺
+（マズい！？　あの女、
+　俺達に気付いて――！？）
+<PAUSE>
+<NAME_PLATE>
+　こっちは完全に気配を
+隠していたはずなのに、どうして――？
+<PAUSE>
+<NAME_PLATE>
+　だが、そんな俺の困惑を
+嘲笑うように女の囁きは続き、やがて――
+<PAUSE>
+<NAME_PLATE>？？？
+『……千の光、万の命を
+　呑み込み、闇は輝く――……』
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+//SE：魔法起動？
+<SE_PLAY>se112
+</GROUP>
+<NAME_PLATE>
+　ブゥゥゥウゥンン……！
+<PAUSE>
+<NAME_PLATE>きらら
+「な、なにこれ！？
+　魔方陣――っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　女の詠唱のような短い囁きが
+終わると同時に――。
+<PAUSE>
+<NAME_PLATE>
+　俺達の足もとに巨大な魔方陣が
+出現し、強烈な光を放ち始めた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいぃいいいぃ！？　
+　超ヤバイ感じなんだけどぉっ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん！？
+　これ、逃げないと――っ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ！！
+　皆、全力で離脱し――」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　最後まで指示を叫ぶ事すらできなかった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>black,NONE
+</GROUP>
+<NAME_PLATE>
+　魔方陣の放つ光に包まれた俺達は、
+一瞬でその中に呑み込まれた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：東京キングダムの地下空間１＿昼夜共通】【時間：夜】
+//　※LILITH_IZM_07_背景nc009aより流用
+<BG>nc133a,IN, 1000
+<GROUP>
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドサッ――！！
+<PAUSE>
+<NAME_PLATE>
+　何もない空間から落とされた。
+<PAUSE>
+<BGM_PLAY>bgm609,1000
+<NAME_PLATE>俺
+「っ！？　イテテテ……」
+<PAUSE>
+<NAME_PLATE>
+　俺は打ち付けた尻をさすりながら
+立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　辺りを見回すと、濃い暗闇の中に
+ぼんやりと線路の跡のようなものが
+見える。
+<PAUSE>
+<NAME_PLATE>
+　どうやらここは、廃棄された
+地下鉄トンネルのようだ。
+<PAUSE>
+<NAME_PLATE>俺
+（バラバラに飛ばされたか……）
+<PAUSE>
+<NAME_PLATE>
+　空間転移の魔術って奴だろう。
+<PAUSE>
+<NAME_PLATE>
+　辺りには、俺以外に誰もいない。
+<PAUSE>
+<NAME_PLATE>俺
+（……なら、まず
+　あいつらを捜さないとな）
+<PAUSE>
+<NAME_PLATE>
+　蛇子と鹿之助、それに……きらら先輩。
+<PAUSE>
+<NAME_PLATE>
+　あれだけ強烈な転移魔術を
+仕込んでいたってことは、
+<PAUSE>
+<NAME_PLATE>
+　やはりあの対魔忍装束の奇妙な女が、
+目指す“魔女”だったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　すぐに皆を捜し、集合して、
+さらに詳しい調査を進めたい。
+<PAUSE>
+<NAME_PLATE>俺
+「………………まあ、でも」
+<PAUSE>
+<NAME_PLATE>俺
+（できるなら、最初は
+　蛇子か鹿之助がいいな……）
+<PAUSE>
+<NAME_PLATE>
+　先にきらら先輩を見つけてしまうと、
+そこから二人きり。
+<PAUSE>
+<NAME_PLATE>
+　また俺、あの人にうるさく
+言われそうだし……。
+<PAUSE>
+<NAME_PLATE>
+　その時。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドサッ――！！
+<PAUSE>
+<NAME_PLATE>きらら
+「きゃ！？　あいたたた……。
+　なによ……。どこよここぉ……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「あっ！？」
+<PAUSE>
+<NAME_PLATE>
+　何もない空間から落ちてきたのは、
+よりにもよって――
+<PAUSE>
+<NAME_PLATE>
+　天敵・鬼崎きらら先輩。
+<PAUSE>
+<NAME_PLATE>
+　そして、さらに厄介な事に。
+<PAUSE>
+<GROUP>
+<ACTOR>6,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+<SE_PLAY>se062
+</GROUP>
+<NAME_PLATE>鬼火
+「グルルルルル……」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　ガーゴイル
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>
+　その背後から次々と出現する、
+無数の魔物の姿――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→S202a

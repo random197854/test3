@@ -1,0 +1,2531 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町＿全景＿深夜】【時間：深夜】
+//　※対魔忍アサギZERO＿NC007dより流用
+//nc231a
+<BG>nc231a,IN, 1000
+<NAME_PLATE>
+　１２月３１日、大晦日。
+<PAUSE>
+<NAME_PLATE>
+　午後１１時。
+<PAUSE>
+<NAME_PLATE>
+　年明けまで、あと１時間という頃。
+<PAUSE>
+//【背景：五車学園＿正門前＿深夜】【時間：深夜】
+//　※対魔忍アサギＺＥＲＯの背景NC008dより流用
+//nc054d
+<BGM_PLAY>bgm208,1000
+<BG>nc054d,IN, 1000
+<NAME_PLATE>
+　五車学園の正門に
+お馴染みのメンバーが集まっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「おっ、みんなもう来てるな」
+<PAUSE>
+<NAME_PLATE>俺
+「今夜は晴れてよかったな。
+　絶好のカウントダウン日和だ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ふうまちゃん、遅いー！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>ゆきかぜ
+「なにグズグズしてたのよ！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「ふうま、ちこく」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>カラス
+「……っ！　……っ！」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供立ち絵
+//　　　＊決戦アリーナより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「やっぱりふうまがビリかよ」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子、ゆきかぜ、クリア
+ヤタガラスの子供のカラス、そして鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　先に来ていた面々が一斉に批難する。
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい。
+　待ち合わせの時間ぴったりだろ？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「ぴったりきてどうすんのよ。
+　こういうときはちょっと早く来るのが
+　当たり前でしょ。非常識！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん、そういうとこ
+　ほんとダメだよねー」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「みんな、まってた」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>3,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カラス
+「……っ！　……っ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なんでこんなギリギリなんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「悪かったな。
+　例によってさくらがグズグズしてさ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>6,ws_t005f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「こらあ！！
+　いきなり私のせいにすんな！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　俺の影に潜んでいたさくらが
+ニュルッと出てきて文句を言う。
+<PAUSE>
+<NAME_PLATE>俺
+「お前が手間取ったからだろ。
+　対魔忍スーツに着替えるだけなのに」
+<PAUSE>
+<ACTOR>6,ws_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ちっちっ。
+　ふうま君わかってないねー」
+<PAUSE>
+<NAME_PLATE>さくら
+「新年のカウントダウンだよ。
+　対魔忍の正装だよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「いつもよりバシッと決めるから
+　時間がかかるに決まってるじゃん」
+<PAUSE>
+<NAME_PLATE>俺
+「だったらもっと早く準備しろ」
+<PAUSE>
+<ACTOR>6,ws_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふっふーん。
+　したけど遅れたのさ」
+<PAUSE>
+<NAME_PLATE>俺
+「偉そうに言うな」
+<PAUSE>
+<ACTOR_OUT>6,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,yu_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「まったくもう。
+　女の子のエスコートも
+　満足にできないんだから」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ゆきかぜちゃん、
+　ふうまちゃんにそれは無理」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「ふうま、気がきかない」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>3,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カラス
+「……っ！　……っ！」
+<PAUSE>
+<NAME_PLATE>
+　さんざんな言われようだ。
+こういうとき男の立場は弱い。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,s_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「なんでもいいから早く行こうぜ。
+　カウントダウンに間に合わなかったら
+　バカみたいだろ」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　唯一の俺の味方、
+だが女子に混ざってもあまり違和感のない
+鹿之助がとりなしてくれた。
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな。行くか」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふうま、遅れた罰としてコレ持って」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが地面に置いてあった
+でかい紙袋を指さした。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ？」
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「サーモンの寒風干し」
+<PAUSE>
+<NAME_PLATE>俺
+「なんでそんなもん」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私こないだ北欧のゲーム大会で
+　優勝したじゃない。見てた？」
+<PAUSE>
+<NAME_PLATE>俺
+「見てたよ」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ありがと。
+　でね、優勝賞品にサーモン１年分が
+　届いたから爺やに作ってもらったの」
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「でも、うちじゃ食べきれないから
+　みんなに配ろうって持ってきたわけ」
+<PAUSE>
+<NAME_PLATE>俺
+「なにも今日持って来なくても」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「つべこべ言わない。
+　ほら、さっさと持って」
+<PAUSE>
+<NAME_PLATE>
+　一匹まるごとの寒風干しが
+紙袋二つに何匹も入っている。
+<PAUSE>
+<NAME_PLATE>
+　ずっしりだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐ……重い」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺たちはぞろぞろと歩き出す。
+<PAUSE>
+<NAME_PLATE>
+　今年は皆で新年のカウントダウンを
+迎えようと待ち合わせたのだ。
+<PAUSE>
+<NAME_PLATE>
+　目的地は御車（みくるま）神社。
+<PAUSE>
+<NAME_PLATE>
+　五車町ができる遙か以前からあった
+古い神社だ。
+<PAUSE>
+<NAME_PLATE>
+　あまりの古さに
+祭神すらはっきりしてはいないものの、
+昔から忍たちに信仰されている。
+<PAUSE>
+<NAME_PLATE>
+　御車は“ごしゃ”とも読めることから
+町の由来にも関わっているらしい。
+<PAUSE>
+<NAME_PLATE>
+　そんな由緒正しい神社で
+新年を迎えると言うことで、
+皆、対魔忍スーツで正装している。
+<PAUSE>
+<NAME_PLATE>
+　さすがにちょっと寒いが。
+<PAUSE>
+//【背景：ふうまの里＿山道＿夜】【時間：夜】
+//　※戦国魔姦_nc010aより流用
+//nc199a
+<BG>nc199a,IN, 1000
+<NAME_PLATE>
+　御車神社は五車学園の裏手の山を
+登った山頂にある。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の足なら１時間もあれば
+余裕でたどり着く。
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「私、こうやってみんなで集まって
+　新年のカウントダウンって初めてなんだ」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>蛇子
+「へー、意外。
+　ゆきかぜちゃんって毎年友達と
+　集まってそうなイメージ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<ACTOR>0,yu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「んーー、そうでもないよ。
+　去年とか私、年越しゲーム実況してたし」
+<PAUSE>
+<NAME_PLATE>俺
+「Ｙ－ｋａｚｅＸちゃんか。
+　それはそれで楽しそうだけどな」
+<PAUSE>
+<ACTOR>0,yu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「まあね。
+　今年はクリアやカラスもいるし、
+　みんなで集まろうかなって。ね？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「うん、みんな、一緒」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>カラス
+「……♪　……♪」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供立ち絵
+//　　　＊決戦アリーナより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>猫
+「にゃあ」
+<PAUSE>
+<ACTOR>5,ws_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「あ、猫がいる」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>俺
+「珍しいな、こんな山道に」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR>0,yu_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「猫で思い出したけど、
+　本当はあの子たちも連れてこようかと
+　思ってたんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「ゆきかぜ城にまだ他に居候がいるのか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うちの居候じゃないけど、
+　忍熊とか忍蛇とかいるでしょ」
+<PAUSE>
+<ACTOR>4,s_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そりゃないだろ。
+　っていうか怖えよ」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「今ごろは冬眠してないか？」
+<PAUSE>
+<ACTOR>0,yu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「してた。冬だしねー♪」
+<PAUSE>
+<ACTOR_OUT>4,RIGHT,linear,1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「昔はふうまちゃんのお屋敷に
+　みんなで集まったりしたよね？」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃまた本当にずっと昔だな」
+<PAUSE>
+<ACTOR>0,yu_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「それってあれ？
+　ふうま一族の集まり的な？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そんなとこ」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「時子さんは？　留守番？」
+<PAUSE>
+<NAME_PLATE>俺
+「今夜、俺が出かけるって言ったら
+　災禍と天音を呼んで盛り上がってるよ」
+<PAUSE>
+<ACTOR>1,h_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「じゃあ、ふうまちゃん逃げ出すしかないね」
+<PAUSE>
+<NAME_PLATE>俺
+「怖くてうちにいられない」
+<PAUSE>
+<ACTOR>0,yu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なさけないなー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「ふうま、だらしない」
+<PAUSE>
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+<NAME_PLATE>俺
+「お目付役三人だぞ、無茶言うな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>5,ws_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「アダルティーな三人に
+　ライブラリーさん、男一人だね。
+　むふふな展開があったりして」
+<PAUSE>
+<NAME_PLATE>俺
+「ないない。
+　料理作らされてたろ、かわいそうに」
+<PAUSE>
+<ACTOR>5,ws_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ないかー」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR>4,s_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ライブラリーさんって、
+　料理できるのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「できるどころかプロ級だ。
+　前にどっかの料理大会で優勝したって
+　言ってたな」
+<PAUSE>
+<ACTOR>0,yu_t001b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「すごい。
+　ライブラリーさん、なんでもできるね」
+<PAUSE>
+<NAME_PLATE>俺
+「おせちもすごいの作ってたぞ。
+　よかったら食べに来るか？
+　酔っ払いがいるかもしれないけど」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それはいやだなー」
+<PAUSE>
+<ACTOR_OUT>4,RIGHT,linear,1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ちょっとねー」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>5,ws_t005c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「そういえばさ、
+　御車神社って元の私の世界だと
+　もうないんだよね」
+<PAUSE>
+<ACTOR>0,yu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なんで？」
+<PAUSE>
+<ACTOR>0,yu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「なんかさ、百年くらい前に
+　そこで謎の敵との一大決戦があったとかで
+　そんとき壊れちゃったんだって」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「おお、謎の敵。
+　宇宙人とか未来人とか異世界人とかか？」
+<PAUSE>
+<NAME_PLATE>俺
+「お前、本当にそういうの好きな」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「大好きだ」
+<PAUSE>
+<ACTOR>5,ws_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「私も好きだけど、謎だから分かんないよ。
+　っていうか、私からすればこっちの世界が
+　異世界で未来だし」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あとは宇宙だけだな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いや、意味わかんないから」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「鹿之助、変」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪　……♪」
+<PAUSE>
+<ACTOR_OUT>3,RIGHT,linear,1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「でも、神社がなくなっちゃうなんて、
+　やっぱり異世界は
+　結構違ったとこがあるのね」
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>5,ws_t005a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>さくら
+「あるねー。
+　だから実物見るの楽しみなんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「それはいいが、
+　そろそろ影に潜った方がいいぞ。
+　きっと上には他にも対魔忍がいるからな」
+<PAUSE>
+<ACTOR>5,ws_t005g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「やっぱ隠れてなきゃまずいかな。
+　んじゃ、ちょっとごめーん」
+<PAUSE>
+//　※若いさくら立ち絵オフ、
+<ACTOR_OUT>5,LEFT,linear,1000
+<NAME_PLATE>
+　さくらは残念そうに俺の影に潜った。
+<PAUSE>
+//【背景：御車神社＿境内＿夜】【時間：夜】
+//　※雷光の退魔師ナナホ＿nc013aより流用
+//nc232a
+<ACTOR_OUT>1,RIGHT,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc232a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　山を登った先にある神社の境内は
+ちょっとした広場になっている。
+<PAUSE>
+<NAME_PLATE>
+　今夜は大晦日とあって、
+篝火が焚かれていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そして思った通り、
+俺たちの他にも対魔忍が来ている。
+<PAUSE>
+//※立ち絵
+//　対魔忍新兵（男)立ち絵
+//　　　　＊カードイラストより流用
+//　対魔忍斥候(男)立ち絵
+//　　　　＊カードイラストより流用
+//【背景：御車神社＿本殿前＿夜】【時間：夜】
+//　※クルースニク_nc010cより流用
+//nc233a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>nc233a,IN, 1000
+<NAME_PLATE>
+　鳥居をくぐり、階段を上がると、
+先客はさらに増えた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m013a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+//　※立ち絵
+//　火遁衆(男)立ち絵
+//　　　　＊カードイラストより流用
+//　風遁衆(男)立ち絵
+//　　　　＊カードイラストより流用
+<WAIT>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+//　※立ち絵
+//　対魔忍新兵（女)立ち絵
+//　　　　＊カードイラストより流用
+//　対魔忍斥候(女)立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「結構、人いるなあ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ねー。
+　みんな考えることは同じだね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>1,s_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「人が多い方がいいだろ。
+　誰もいない夜の神社とか怖えし」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「別に幽霊とかは出ないだろ。
+　神聖な場所なんだから」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「それとこれとは別」
+<PAUSE>
+<NAME_PLATE>蛇子
+「鹿之助ちゃんの怖がり」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「対魔忍、いっぱい」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<ACTOR>3,yu_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「クリア、カラス、
+　はぐれないように注意してね。
+　手つなごっか？」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR_OUT>3,RIGHT,linear,1000
+<ACTOR>4,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クリア
+「へいき。こどもじゃない」
+<PAUSE>
+<NAME_PLATE>カラス
+「……っ！　……っ！」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供立ち絵
+//　　　＊決戦アリーナより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>蛇子
+「知ってる人いるかな？
+　……あ、まりちゃんがいる」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//　　火遁衆(女)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストから流用
+//　　風遁衆(女)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストから流用
+//　※篠原まりを中心に三人並べる
+<NAME_PLATE>
+　集まった対魔忍たちの中に
+土遁使いの篠原まりの姿が見えた。
+友達と一緒に来たようだ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちとクラスは違うが、
+蛇子とは委員長つながりで仲が良い。
+<PAUSE>
+<NAME_PLATE>蛇子
+「まりちゃーん！」
+<PAUSE>
+<NAME_PLATE>まり
+「……！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が伸びをしながら手を振ると、
+向こうも気づいて笑顔で手を振った。
+<PAUSE>
+<NAME_PLATE>
+　俺とも目が合ったので、
+「よお」と軽く手を上げて挨拶する。
+<PAUSE>
+<NAME_PLATE>まり
+「…………♪」
+<PAUSE>
+<NAME_PLATE>
+　まりはこっちに来たそうな顔をしたが、
+横にいた友達に話しかけられたためか、
+ぺこりと頭だけ下げた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,rn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「お前たちも来たのか」
+<PAUSE>
+//　※立ち絵
+//　　凜子通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　声をかけてきたのは、秋山凜子先輩。
+喜瀬蛍先輩、鳳朱華先輩も一緒だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0139a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+//　※立ち絵
+//　　喜瀬蛍
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//　※立ち絵
+//　　鳳朱華
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>蛍
+「みなさん、こんばんは」
+<PAUSE>
+<NAME_PLATE>朱華
+「そっちはずいぶん大勢ね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、凜子先輩！
+　蛍先輩も朱華先輩もこんばんは。
+　はい、みんなで来ました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,rn_t001b,CENTER, CENTER,IN, linear, 1000
+<NAME_PLATE>凜子
+「うむ。一年の計は元旦にあり。
+　対魔忍にとって由緒正しい神社で
+　年明けを迎えるというのは良い心がけだ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ですよねー。
+　でもそっち、凜花先輩がいないですね」
+<PAUSE>
+<NAME_PLATE>
+　確かに“対魔忍に二凜あり”と称される
+紫藤凜花先輩がいない。
+<PAUSE>
+<NAME_PLATE>凜子
+「あいつは夜が苦手なんだ。
+　寒いのもイヤだと言ってな。
+　しょうがない奴だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0139a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>朱華
+「私も別に得意ってわけじゃ
+　ないんだけど……ふああ」
+<PAUSE>
+<NAME_PLATE>
+　朱華先輩があくび交じりで言った。
+<PAUSE>
+<NAME_PLATE>蛍
+「でも今夜は星が綺麗ですよ。
+　ほら、みんな見てください」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<BG>nc234a,IN, 1000
+<NAME_PLATE>
+　蛍先輩につられて上を見ると、
+確かに満天の星空だ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「わーーーー！」
+<PAUSE>
+<NAME_PLATE>クリア
+「星、いっぱい」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪　……♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「とっても綺麗。
+　素敵な新年になりそうですね」
+<PAUSE>
+<NAME_PLATE>凜子
+「そうなるといいな」
+<PAUSE>
+<NAME_PLATE>蛍
+「本当に」
+<PAUSE>
+<BG>nc233a,IN, 1000
+<ACTOR>1,chr_t0139a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朱華
+「ところで、ふうま。
+　その紙袋はなに？
+　なんか魚臭くない？」
+<PAUSE>
+<NAME_PLATE>俺
+「すいません。
+　サーモンの寒風干しです」
+<PAUSE>
+<NAME_PLATE>朱華
+「なんでそんなもの持ってきたの？
+　ふうま一族の大晦日のしきたりとか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ないですよ、そんなしきたり。
+　ゆきかぜのお土産とかで。
+　一ついります？　これ重いんで」
+<PAUSE>
+<NAME_PLATE>朱華
+「いらないわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「凜子先輩は？」
+<PAUSE>
+<ACTOR>1,chr_t0139a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,rn_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「いや、結構だ」
+<PAUSE>
+<NAME_PLATE>俺
+「ですよね……はは……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ht_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛍
+「私は一つもらおうかな。
+　美味しそうだし。
+　ゆきかぜちゃん、もらっていいですか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「もちろん。どうぞどうぞ」
+<PAUSE>
+<NAME_PLATE>蛍
+「ありがとう」
+<PAUSE>
+<NAME_PLATE>俺
+（いい人だ……）
+<PAUSE>
+<NAME_PLATE>
+　蛍先輩は寒風干しを
+一本ひょいっと取り出した。
+<PAUSE>
+<ACTOR>2,ht_t001a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0139a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>朱華
+「ふああ……蛍、いま何時？」
+<PAUSE>
+<NAME_PLATE>蛍
+「１１時４０分です、あと２０分ですね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,rn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「もうすぐだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そのやりとりが聞こえたのか、
+俺の影に潜んでいるさくらが
+こっそり話しかけてきた。
+<PAUSE>
+<NAME_PLATE>さくら
+「ふうま君、ふうま君。
+　私もうちょっと人が少ないとこがいいなあ」
+<PAUSE>
+<NAME_PLATE>さくら
+「カウントダウンのタイミングくらいは
+　私も外に出てたいんだよね」
+<PAUSE>
+<NAME_PLATE>俺
+「みんな、ちょっと場所変えるぞ」
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「え？　なんで？
+　ここでいいじゃない？」
+<PAUSE>
+<NAME_PLATE>
+　俺は無言で自分の影を指さす。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、そっか。
+　凜子先輩、私たち下にいますね」
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,rn_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>凜子
+「ここでカウントダウンをしないのか？」
+<PAUSE>
+<ACTOR>0,yu_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「だってほら、ふうまが魚臭いから。
+　みんなに迷惑だし」
+<PAUSE>
+<NAME_PLATE>俺
+「お前が持ってきた土産だ」
+<PAUSE>
+//【背景：御車神社＿境内＿夜】【時間：夜】
+//　※雷光の退魔師ナナホ＿nc013aより流用
+//nc232a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc232a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺たちは篝火のある広場に戻った。
+<PAUSE>
+<NAME_PLATE>俺
+「さくら、カウントダウンの
+　タイミングで出てこい。
+　それならバレないだろ」
+<PAUSE>
+<NAME_PLATE>さくら
+「オッケー」
+<PAUSE>
+<NAME_PLATE>猫
+「にゃあ」
+<PAUSE>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「またネコ」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　そばの茂みから猫が出てきた。
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なんか猫多くない？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,yu_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「さっきからやたら見かけるね」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>俺
+「このあたりって野良猫が
+　集まる場所だっけ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうだっけ？　知らないけど」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と言っているそばから
+またニャアと一匹現れる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「おいで、おいで」
+<PAUSE>
+//　※立ち絵
+//　　クリア立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>カラス
+「……♪　……♪」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供立ち絵
+//　　　＊決戦アリーナより流用
+<NAME_PLATE>
+　クリアたちが頭を撫でてやるが、
+猫はすぐに本殿の方に行ってしまう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「猫も新年のお祝いしたいんじゃない？」
+<PAUSE>
+<NAME_PLATE>俺
+「来年はネズミ年だからな。
+　今度こそ遅れないように急いでるんだろ」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「あはは、かもね♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「干支の昔話？
+　うわ、懐かしい」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なんかすげえ久しぶりに聞いた」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0088a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クリア
+「むかしばなしって？」
+<PAUSE>
+<ACTOR>0,yu_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「クリアは知らないか。
+　日本にはそういうお話があるの。
+　ええとね、昔々、天の神様が―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　首をかしげるクリアにゆきかぜが
+干支にまつわる昔話を披露する。
+<PAUSE>
+<NAME_PLATE>
+　天の神様が動物たちに
+元旦の朝、早い者勝ちで順番に
+干支を決めると言ったところ、
+<PAUSE>
+<NAME_PLATE>
+　猫だけがネズミに一月二日だと騙されて、
+干支になり損なったというあれだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「ネコ、かわいそう。
+　ネズミ、ひどい」
+<PAUSE>
+<NAME_PLATE>カラス
+「……っ！！　……っ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「でも、おかげでそれからというもの
+　猫はネズミを食べ放題になりましたとさ。
+　めでたしめでたし」
+<PAUSE>
+<NAME_PLATE>俺
+「おかしなオチをつけるな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「みなさんおそろいですねー。
+　初めましての方も、お久しぶりの方も
+　こんばんはですー」
+<PAUSE>
+//　※立ち絵
+//　【初詣の魔女】リリス＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//chr_t0182a
+<NAME_PLATE>
+　突然、巫女さんが声をかけてきた。
+<PAUSE>
+<NAME_PLATE>
+　五車では見たことのない顔で、
+しかも金髪の美少女だ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うお、すげえ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「金髪の巫女さん！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うわっ、可愛いーっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「誰の知り合いだ？」
+<PAUSE>
+<NAME_PLATE>リリス
+「この格好じゃわかりませんか？
+　前にクリスマスの悪霊騒ぎの時に
+　お世話になりましたが。では改めて」
+<PAUSE>
+<NAME_PLATE>リリス
+「魔界では名の通った大魔女――の孫の
+　リリス・アーベル・ビンダーナーゲル。
+　こっちはお供で喋る犬のベリリクです」
+<PAUSE>
+<NAME_PLATE>
+　その長い口上と名前で、
+俺と蛇子が思い出した。
+<PAUSE>
+<NAME_PLATE>蛇子
+「あっ」
+<PAUSE>
+<NAME_PLATE>俺
+「あの時の」
+<PAUSE>
+<NAME_PLATE>リリス
+「そうです。
+　お久しぶりですーー♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「リリスちゃん、久しぶり。
+　ワンちゃんも久しぶり」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「ワンちゃんではない。私はベリリク。
+　古代龍＜エンシェント・ドラゴン＞の……」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うわっ、犬が喋った！？
+　え？　なに？　二人の知り合いなの？」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「……」
+<PAUSE>
+<NAME_PLATE>さくら
+「なになに？　金髪の巫女さん登場？
+　それに喋る犬？」
+<PAUSE>
+<NAME_PLATE>さくら
+「どうなってるの？　なにが起こってるの？
+　私も見たいよ。もう出ちゃうよ！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<ACTOR>0,chr_t0182a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ws_t005a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　さくらが耐えきれずに影から出てくる。
+<PAUSE>
+<ACTOR>1,ws_t005b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「うっわ、ほんとだ。
+　金髪の巫女さんだ。こんなの初めて見た。
+　めちゃくちゃ可愛いね！」
+<PAUSE>
+<NAME_PLATE>リリス
+「ありがとうございますー♪」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0182a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>リリス
+「いつもは大魔女らしい格好の私ですが、
+　今日は巫女らしくビシッと決めてみました。
+　ベリリクも頭の飾りでおそろいですよ」
+<PAUSE>
+<NAME_PLATE>クリア
+「すごく、すてき」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪　……♪」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「巫女さんの服って可愛いよね。
+　こういうのいっぺん着てみたいんだ」
+<PAUSE>
+<NAME_PLATE>さくら
+「私も私も」
+<PAUSE>
+<NAME_PLATE>蛇子
+「女の子の憧れだよね」
+<PAUSE>
+<NAME_PLATE>女子一同
+「ねーーーー」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　盛り上がる女子に、リリスのお供の喋る犬、
+だが実は古代龍（らしい）のベリリクが
+諦めたようにため息を吐いていた。
+<PAUSE>
+<NAME_PLATE>
+　以前、クリスマスの夜に、
+街の恋人たちに恨みを抱く雪だるまの悪霊が
+暴れたことがあった。
+<PAUSE>
+<NAME_PLATE>
+　俺と蛇子はたまたまその街にいて、
+騒ぎに巻き込まれてしまったのだが、
+<PAUSE>
+<NAME_PLATE>
+　その悪霊をとてつもない魔力で
+（制御が怪しかったが）浄化したのが、
+この“伝説の大魔女の孫”のリリスだ。
+<PAUSE>
+<NAME_PLATE>
+　そういった経緯を説明し、
+お互いに自己紹介してから尋ねる。
+<PAUSE>
+<NAME_PLATE>俺
+「なんで巫女なんかやってるんだ？」
+<PAUSE>
+<NAME_PLATE>リリス
+「もちろん魔女修行のためですよ」
+<PAUSE>
+<NAME_PLATE>リリス
+「アミダハラに
+　亡くなったおばあさまのお友達で、
+　ノイさんという魔女がいるのですが」
+<PAUSE>
+<NAME_PLATE>リリス
+「今年の大晦日にこの神社で
+　なにかが起こると教えてもらったんです」
+<PAUSE>
+<NAME_PLATE>リリス
+「それで矢も楯もたまらず、
+　この可愛い巫女の服を用意して、
+　駆けつけた次第ですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「なにかって？」
+<PAUSE>
+<NAME_PLATE>リリス
+「それは自分の目で確かめろって
+　仰ってました」
+<PAUSE>
+<NAME_PLATE>リリス
+「おばあさまのお友達だけに、
+　ノイさんも悪戯好きな方ですから、
+　きっととんでもないことですよ♪」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「まあ、間違いないだろうな」
+<PAUSE>
+<NAME_PLATE>
+　ワクワクした様子のリリスに
+ベリリクはやれやれという顔で頷く。
+<PAUSE>
+<NAME_PLATE>俺
+「とんでもないこと……なあ」
+<PAUSE>
+<NAME_PLATE>
+　去年の正月、異世界に召喚されて、
+福猪の身代わりにさせられたことを
+思い出さずにはいられない。
+<PAUSE>
+<NAME_PLATE>
+　また、どこぞの異世界に飛ばされて、
+今度は福鼠をやらされるのではなかろうか。
+<PAUSE>
+<NAME_PLATE>
+　でなければ、あのクリスマスの悪霊や、
+少しの前のハロウィンの悪霊のようなのが
+現れるとか。
+<PAUSE>
+<NAME_PLATE>俺
+「今度は門松の悪霊とか
+　出てきたりしないだろうな」
+<PAUSE>
+<NAME_PLATE>リリス
+「門松の悪霊ですか？
+　それは見たことがないですね。
+　でも、あんまりすごくないような？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、すごくなくていいから」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「それはないだろう。
+　このあたりは聖なる気に満ちている。
+　ちょっとやそっとの悪霊は入ってこれない」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「ただ、なにか起こりそうな予感はするな」
+<PAUSE>
+<NAME_PLATE>リリス
+「ベリリクの予感は当たりますよ。
+　なにかあったらぜひ知らせてくださいね♪」
+<PAUSE>
+<NAME_PLATE>リリス
+「あ、いけない。
+　もうすぐカウントダウンです。
+　それじゃ、失礼しますーー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　リリスはバタバタと本殿に戻っていった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんか不思議な子だったね。
+　いかにも魔女って感じ」
+<PAUSE>
+<NAME_PLATE>俺
+「すごい素質があるのは間違いない」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t005c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「とんでもないことってなんだろね？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「変なことじゃないといいな」
+<PAUSE>
+<NAME_PLATE>俺
+「全くだ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「おーい。もうすぐ１２時だぞ。
+　１分前だ」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、とりあえずカウントダウンだな」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>2,yu_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「そうだね。じゃ１０秒前から」
+<PAUSE>
+<ACTOR>0,ws_t005b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「オッケー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　もうすぐ年明けだ。
+<PAUSE>
+<NAME_PLATE>
+　ざわついていた神社が
+シーンと静まりかえっていく。
+<PAUSE>
+<NAME_PLATE>
+　そして、１０秒前。
+<PAUSE>
+<NAME_PLATE>
+　俺たち以外の対魔忍も含め、
+神社で一斉にコールが始まった。
+<PAUSE>
+<NAME_PLATE>俺
+「１０」
+<PAUSE>
+<ACTOR>0,h_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「９」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>1,ws_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「８」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「７」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>1,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「６」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<ACTOR>0,ts_m079a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カラス
+「……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>1,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「４」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<ACTOR>0,ws_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「３」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>1,h_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「２」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「１」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ゼロ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　―――――――――
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　ゼロのコール、なぜか俺一人だけだ。
+<PAUSE>
+<NAME_PLATE>
+　他の誰も声を出していない。
+<PAUSE>
+<NAME_PLATE>俺
+「みんな、どうしたんだ？
+　なっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　周りを見てゾッとした。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ws_t005b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜたちはもちろん、
+他の全ての対魔忍が固まっていた。
+<PAUSE>
+<NAME_PLATE>
+　「１」のコールをした時のポーズのまま
+ピクリとも動かない。
+<PAUSE>
+<NAME_PLATE>
+　石になってしまったかのようだ。
+<PAUSE>
+<NAME_PLATE>
+　俺以外の全てが
+石化の術でも食らったのか？
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　いや……これは、違う。
+<PAUSE>
+<NAME_PLATE>
+　世界がまるごと止まっている？
+<PAUSE>
+<NAME_PLATE>
+　音が全く聞こえない。風も流れていない。
+<PAUSE>
+<NAME_PLATE>
+　篝火の炎すら彫像のように
+固まっていた。
+<PAUSE>
+<NAME_PLATE>
+　炎に寄ってきた羽虫まで
+空中でぴたりと静止している。
+<PAUSE>
+<NAME_PLATE>俺
+「時が止まってる？
+　そんなまさか……？」
+<PAUSE>
+<NAME_PLATE>
+　これがリリスの言っていた
+『とんでもないこと』か？
+<PAUSE>
+<NAME_PLATE>
+　確かにそうだが、
+なぜ時間が止まってしまったのか、
+なぜ俺だけ動けるのか。
+<PAUSE>
+<NAME_PLATE>
+　いきなりすぎて
+まったく事態が把握できない。
+<PAUSE>
+<NAME_PLATE>猫の声
+「「「にゃーにゃーにゃーー！！！」」」
+<PAUSE>
+<NAME_PLATE>
+　突然、何匹もの猫の声が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだ？」
+<PAUSE>
+<NAME_PLATE>
+　本殿の方からだ。
+<PAUSE>
+<NAME_PLATE>
+　俺はとにかくそちらに向かった。
+<PAUSE>
+//【背景：御車神社＿本殿前＿夜】【時間：夜】
+//　※クルースニク_nc010cより流用
+//nc233a
+<SE_PLAY>se078
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc233a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　鳥居をくぐり、階段を駆け上がる。
+<PAUSE>
+<NAME_PLATE>
+　何か身体の調子がおかしい気がするが、
+気にしてなどいられない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「やっぱりみんな固まってる！？」
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩を始め、境内にいる全ての対魔忍が
+動かなくなっていた。
+<PAUSE>
+<NAME_PLATE>猫の声
+「「「にゃーにゃーにゃーにゃーー！！」」」
+<PAUSE>
+<NAME_PLATE>
+　動いているのは俺と、猫だけだ。
+<PAUSE>
+<NAME_PLATE>
+　猫たちは円を描くように綺麗に並び、
+天に向かって一斉に吠えている。
+<PAUSE>
+<NAME_PLATE>
+　いったい何が起こっている！？
+<PAUSE>
+<ACTOR>0,chr_t0182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「異世界の魔神さん！！
+　すいませんが帰ってください！！」
+<PAUSE>
+//　※立ち絵
+//　【初詣の魔女】リリス＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//chr_t0182a
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　猫以外の声がした。
+<PAUSE>
+<NAME_PLATE>
+　リリスだ。
+<PAUSE>
+<NAME_PLATE>
+　巫女服に金髪をなびかせ、
+なにか神々しいものに向かって叫んでいる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　時間と空間を歪ませ、次元の彼方から
+こちらの世界に来ようとしているもの。
+<PAUSE>
+<ACTOR>1,ts_m145a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「でかい招き猫？」
+<PAUSE>
+<NAME_PLATE>バステト
+「この世界の巫女よ。偉大なる
+　猫魔神バステトを迎えるがよいにゃ。
+　にゃにゃにゃにゃにゃーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　バステト＿立ち絵
+//　　　　＊モンスターイラストから
+//ts_m145a
+<NAME_PLATE>俺
+「バステトだと！？」
+<PAUSE>
+<NAME_PLATE>
+　エジプト神話に登場する女神で
+確か猫の神様だったはずだ。
+<PAUSE>
+<NAME_PLATE>
+　しかしあれはどう見ても
+黒い巨大な招き猫だ。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「いけません、バステトさん！」
+<PAUSE>
+<NAME_PLATE>リリス
+「あなたみたいに巨大なパワーの魔神さんが
+　そんな無理やり入ってきたら
+　世界のバランスが崩れてしまいます！」
+<PAUSE>
+<NAME_PLATE>リリス
+「すみませんが、邪魔させてもらいます！
+　いでよ、万物を遮る魔法の壁！！
+　パリ・ントワ・レナイバ・リーア！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se075
+<NAME_PLATE>
+　リリスが両手を掲げながら呪文を唱えると、
+光り輝く魔法の壁が現れた。
+<PAUSE>
+<NAME_PLATE>
+　前に会ったときは
+やたらと呪文を失敗していたが、
+だいぶ修行を積んだらしい。
+<PAUSE>
+<BG>nc233a,IN, 500
+<ACTOR>1,ts_m145a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バステト
+「うにゃにゃーーー！！
+　なんだこの壁にゃーーーー！！
+　邪魔にゃ！　入れないのにゃーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　バステトはその魔法の壁に阻まれて
+こちらの世界に来れないでいる。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　猫たちが「ニャアニャア！！」と
+一斉に不満げな声を上げた。
+<PAUSE>
+<ACTOR>0,chr_t0182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「リリス！
+　あれは一体何だ！？」
+<PAUSE>
+<NAME_PLATE>リリス
+「あっ、猪の神獣さん！
+　最後の力を振り絞って
+　助けに来てくれたんですね！！」
+<PAUSE>
+<NAME_PLATE>リリス
+「感謝感激雨アラレです。
+　力を貸してください、お願いします！」
+<PAUSE>
+<NAME_PLATE>俺
+「なに言ってんだ？
+　俺だ、ふうまだ！」
+<PAUSE>
+<NAME_PLATE>リリス
+「えっ？　ふうまさん？
+　でもその姿は？　猪になってますよ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なにっ！？
+　うわあ、なんだこりゃ？！」
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+//ts_m062a
+<ACTOR>2,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　言われて初めて気づいた。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかまた猪に変わっている。
+<PAUSE>
+<NAME_PLATE>
+　今年の正月、身代わりにさせられた
+瑞獣の清麻呂だ。
+<PAUSE>
+<ACTOR>2,ts_m061a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0182a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リリス
+「ふうまさん、正体は神獣だったんですか？
+　あっ！　だからタコの大悪魔の蛇子さんと
+　いつも一緒にいるんですね！」
+<PAUSE>
+<NAME_PLATE>俺
+「違う！　なんでまたこの姿に！？
+　いや、それよりなにが起こってるんだ？
+　あのでかい招き猫はなんだ！？」
+<PAUSE>
+<NAME_PLATE>リリス
+「異世界の魔神バステトさんです！
+　猫さんたちが呼び出そうとしてるんです！」
+<PAUSE>
+<NAME_PLATE>俺
+「猫が！？　なぜ！？」
+<PAUSE>
+<NAME_PLATE>リリス
+「色々とややこしいのです。
+　語るも涙、聞くも涙の話がありまして。
+　すみませんベリリク、お願いします」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「しょうがないな。
+　十二支というのがあるだろう。
+　昔々、天の神様が―――」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっと待てえ！
+　まさか猫が十二支になれなかったのを
+　恨んで出てきたとかじゃないだろうな！」
+<PAUSE>
+<NAME_PLATE>リリス
+「あ、ご存じでしたか」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「話が早くて助かる」
+<PAUSE>
+<NAME_PLATE>俺
+「待て待て待て！
+　なんで今になって出てくるんだ！？
+　第一、あれはただの昔話だろ？」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「ただの昔話でも
+　皆に語られることによって、
+　現実の力を持ってくるものだ」
+<PAUSE>
+<NAME_PLATE>リリス
+「想いが無から有を生み出す。
+　魔法の基本ですね」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「ネズミに騙されて
+　干支になり損なった猫たちの恨みの念が
+　ついに頂点に達したわけだな」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「おりしも来年はネズミ年だ。
+　異世界から猫の魔神を召喚して
+　ネズミ年を猫年に変えるつもりだろう」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「十二支の神獣たちはそれを阻止しようと
+　２３時５９分５９秒から２４時までの時を
+　無限に引き延ばしているようだな」
+<PAUSE>
+<NAME_PLATE>俺
+「それで時が止まっているように見えるのか」
+<PAUSE>
+<NAME_PLATE>リリス
+「私はおばあさま譲りの大魔力と、
+　ベリリクの助けで動けますけどね」
+<PAUSE>
+<NAME_PLATE>俺
+「俺はなんで動けるんだ？
+　それにこの姿は？」
+<PAUSE>
+<NAME_PLATE>リリス
+「さあ？　でも、ふうまさん、
+　なんだか神的なパワーで
+　キラキラしてますよ」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「お前から僅かだが瑞獣の力を感じる。
+　それでそんな姿になっているのだろう。
+　何か身に覚えはないのか？」
+<PAUSE>
+<NAME_PLATE>
+　もちろんある。
+<PAUSE>
+<NAME_PLATE>
+　一年前、俺が瑞獣にさせられたのだ。
+<PAUSE>
+<NAME_PLATE>
+　その福のエネルギーだかが、
+まだ身体に残っていたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　清麻呂の置き土産か。
+ありがたいような、ありがたくないような。
+<PAUSE>
+<NAME_PLATE>リリス
+「このままだと永遠に来年が来ません。
+　今は私が魔法の壁で押さえていますが、
+　さすがにずっとは無理です」
+<PAUSE>
+<NAME_PLATE>リリス
+「バステトさんが無理やり入ってきたら、
+　きっとネズミ神さんと大激突で
+　世界はメチャクチャです」
+<PAUSE>
+<NAME_PLATE>リリス
+「確かにこれは
+　とんでもないことですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「なんて傍迷惑な」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「私たちでなんとかするしかないな」
+<PAUSE>
+<NAME_PLATE>俺
+「なんとかって言ったって……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m145a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　相手は異世界の魔神らしい。
+<PAUSE>
+<NAME_PLATE>
+　戦って勝てる相手とも思えないのだが。
+<PAUSE>
+<NAME_PLATE>バステト
+「にゃにゃ！？
+　邪魔するつもりにゃのか？
+　そうはさせないのにゃ！！」
+<PAUSE>
+<NAME_PLATE>バステト
+「いでよ、我が眷属のものどもよ。
+　あの邪魔者を蹴散らすのにゃーーー！！
+　うにゃにゃにゃにゃああ～～～っ！」
+<PAUSE>
+<NAME_PLATE>
+　バステトがあまり迫力のない咆哮を上げた。
+<PAUSE>
+<NAME_PLATE>リリス
+「あっ、大変です。
+　バステトさん、なにかを呼びましたよ！」
+<PAUSE>
+<NAME_PLATE>
+　こちらの空間がグニャリとゆがみ、
+何者かが飛び出してきた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メルシー
+「にゃああんっ！
+　メルシーだにゃあ！
+　急に呼んだのは誰かにゃあっ！！」
+<PAUSE>
+//　※立ち絵
+//　　メルシー＿立ち絵
+//　　　＊カードイラストより流用
+//chr_t0118a
+<ACTOR>1,chr_t0003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「ニャニャニャ！
+　ここはどこなのかニャ？
+　ボクは寝るところだったのニャ～！」
+<PAUSE>
+//　※立ち絵
+//　　クラクル＿立ち絵
+//　　　＊カードイラストより流用
+//chr_t0003a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0054a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カノン
+「ウニャニャア！！
+　いきなり何事だにゃ！！
+　オレを気安く呼びつけるなにゃ！」
+<PAUSE>
+//　※立ち絵
+//　　クラクル＿立ち絵
+//　　　＊カードイラストより流用
+//chr_t0003a
+<NAME_PLATE>バステト
+「力強き猫たちよ！
+　このバステトと共に戦うのにゃ！
+　そして、猫年を実現するのにゃ！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,chr_t0003a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>メルシー
+「ふにゃにゃあ！？
+　猫神様がいるにゃ！
+　これはすごいのにゃ！」
+<PAUSE>
+<NAME_PLATE>クラクル
+「むむっ、猫の神様がいるニャ？
+　ボクを養ってくれるのかニャ？
+　なら協力するニャ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0054a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カノン
+「んにゃっっ！？　猫神だと？
+　猫年のために戦え？
+　おもしろいにゃ！　やってやるにゃっ！！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>ベリリク
+「どうやらこの世界の猫の眷属のようだな。
+　バステトはまだその身を向こうの世界に
+　置いたままだからな」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「まずはあの連中を使って
+　邪魔者の露払いをするつもりだろう」
+<PAUSE>
+<NAME_PLATE>リリス
+「猫の獣人さんトリオですね。
+　なんだか強そうですね」
+<PAUSE>
+<NAME_PLATE>俺
+「こっちは俺たち以外動けないってのに」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>0,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,chr_t0003a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>メルシー
+「メル、戦うとか面倒くさいにゃあ」
+<PAUSE>
+<NAME_PLATE>クラクル
+「ボクもコタツで丸くなる方が好きにゃ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0054a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カノン
+「オレは戦うぜ。
+　敵はどこのどいつだにゃ！」
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>俺
+「あっちもまだ事態が
+　よく分かってないようだな。
+　よし、先手必勝だ」
+<PAUSE>
+<NAME_PLATE>
+　俺は三人に向かって突進した。
+<PAUSE>
+<NAME_PLATE>
+　この身体になるのは二度目だ。
+使い方も分かっている。
+<PAUSE>
+<NAME_PLATE>
+　巨体猪のパワーによるチャージだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドドドドドドドドドド！！
+<PAUSE>
+<ACTOR>0,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メルシー
+「うにゃっ！
+　すごいのが来るにゃ！？」
+<PAUSE>
+<ACTOR>1,chr_t0003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「おっきい猪だニャ？
+　あっちも神様みたいニャ？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0054a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カノン
+「体当たりか！？
+　このオレにイイ度胸だにゃ！」
+<PAUSE>
+<NAME_PLATE>俺
+「うおおおおおおおおおお！！！」
+<PAUSE>
+<NAME_PLATE>
+　だが、猪体当たりの寸前、
+三人は揃ってジャンプした。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>メルシー＆クラクル＆カノン
+「「「にゃんぱらりー！！」」」
+<PAUSE>
+<NAME_PLATE>俺
+「飛んだっ！？」
+<PAUSE>
+<NAME_PLATE>
+　ひらっ。ひらっ。ひらっ。
+<PAUSE>
+<NAME_PLATE>
+　三人とも見事な宙返りで
+俺の突進を鮮やかに躱す。
+<PAUSE>
+<ACTOR>0,chr_t0182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「すごい！
+　キャット空中三回転ですにゃ！
+　いけない。語尾が移ってしまいました」
+<PAUSE>
+<NAME_PLATE>俺
+「解説してる場合か！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>2,chr_t0054a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カノン
+「斬り刻んでやる！！」
+<PAUSE>
+<ACTOR>0,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メルシー
+「ひっかくにゃ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クラクル
+「猫パ～～ンチ！！」
+<PAUSE>
+<NAME_PLATE>
+　三人が空中から俺に襲いかかってくる。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>俺
+「くっっ！」
+<PAUSE>
+<NAME_PLATE>
+　体当たりを避けられたのを幸い、
+そのままのスピードでなんとか攻撃を躱す。
+<PAUSE>
+<ACTOR>2,chr_t0054a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カノン
+「ふふん。
+　貴様、なかなかやるにゃ！」
+<PAUSE>
+<ACTOR>1,chr_t0003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「強いにゃ！
+　ボクの実力を見せたくなってきたニャ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0118a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「メルはじっとして欲しいのにゃ。
+　ひっかくのが楽なのにゃ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「やばいな……」
+<PAUSE>
+<NAME_PLATE>
+　今の一合で分かってしまった。
+<PAUSE>
+<NAME_PLATE>
+　バステトの力を借りているせいか、
+三人ともすさまじいパワーとスピードだ。
+<PAUSE>
+<NAME_PLATE>
+　この瑞獣の身体をもってしても、
+俺一人ではちょっと敵いそうにない。
+<PAUSE>
+<NAME_PLATE>俺
+「リリス！
+　お前の大魔力でなんとかならないのか！！」
+<PAUSE>
+<ACTOR>0,chr_t0182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「そうしたいのは山々ですが、
+　私はバステトさんがこっちに来ないように、
+　魔法の壁で押さえつけてるので精一杯です」
+<PAUSE>
+<NAME_PLATE>リリス
+「すみませんが頑張ってください！」
+<PAUSE>
+<NAME_PLATE>俺
+「ベリリク！　お前はどうした！
+　実は古代龍なんだろ！」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「覚えていてくれて感謝する。
+　しかし、私はこの静止した世界で
+　リリスを動けるようにするので精一杯だ」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「悪いが一人で戦ってくれ」
+<PAUSE>
+<NAME_PLATE>俺
+「なにい！？」
+<PAUSE>
+<NAME_PLATE>
+　つまり二人とも動けるのに
+動けないということか？
+<PAUSE>
+<NAME_PLATE>リリス
+「さあ、ベリリク、
+　ふうまさんを一緒に応援しましょう。
+　フレーフレーふうまさん！　はい！」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「ん？　私もやるのか。
+　フレーフレー、ふうまさん」
+<PAUSE>
+<NAME_PLATE>リリス
+「がんばれがんばれ―――」
+<PAUSE>
+<NAME_PLATE>俺
+「やかましい！
+　この凸凹コンビが！」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「失礼な」
+<PAUSE>
+<NAME_PLATE>リリス
+「凸凹コンビは酷いですよーー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、そこに聞き覚えのある
+やたらと神々しい笑い声が響きわたった。
+<PAUSE>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「きゃははは！！
+　なんか面白いことになってるー！」
+<PAUSE>
+//　※立ち絵
+//　　ジュノ＿立ち絵
+//　　　　＊モンスターイラストから
+//ts_m095a
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ジュノ！？」
+<PAUSE>
+<NAME_PLATE>
+　半年前、封印の壺から解き放たれ
+俺と米連のアンジェを結婚させようとした、
+６月の女神ジュノだ。
+<PAUSE>
+<ACTOR>0,ts_m095a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m061a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「こないだの超ムカつく人間が
+　瑞獣になってる。だっさーい」
+<PAUSE>
+<NAME_PLATE>
+　さすが性悪でも女神。
+一目で俺のことを見抜いたらしい。
+<PAUSE>
+<NAME_PLATE>
+　当然、事態も把握しているはずだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ジュノ！？
+　助けに来てくれたのか？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「まっさかー。ただのひまつぶし。
+　いつまで経っても新年にならないから、
+　時間の止まった中心を見に来ただけ」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ジュノ、別に干支とかどうでもいいし、
+　好き勝手にやってればーって感じ」
+<PAUSE>
+<NAME_PLATE>俺
+「今度の６月に俺の所に
+　来るつもりじゃないのか！
+　このままじゃ永遠に６月は来ないぞ！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「それはそれで、
+　もう面倒くさい祝福とかしないですむしー」
+<PAUSE>
+<NAME_PLATE>俺
+「ダメだこの女神……」
+<PAUSE>
+<NAME_PLATE>
+　本当に性悪だな。
+<PAUSE>
+<NAME_PLATE>
+　神様なんて所詮こんなもんか。
+<PAUSE>
+<NAME_PLATE>ベリリク
+「ジュノ、久しぶりだな」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m095a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ジュノ
+「え？　ベリリク？
+　うっわ、久しぶりーー♪
+　なんでそんな犬になってるのー？」
+<PAUSE>
+<NAME_PLATE>
+　どうやら知り合いらしい。
+<PAUSE>
+<NAME_PLATE>
+　ジュノが
+ちょっと嬉しそうな顔になっている。
+<PAUSE>
+<NAME_PLATE>ベリリク
+「まあ、色々あってな。
+　それより力を貸してくれないか？
+　このままだと私も困るからな」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「そうなの？
+　ベリリクの頼みならしょうがないかな。
+　でも自分で戦うとか面倒くさいしー」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「一人か二人助っ人を
+　呼んでくれるだけでいい」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「まあそれくらいなら。
+　そのうちなんか奢ってよね。
+　じゃ、誰でもいいからこっちきてー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ジュノが適当な言葉で呼びかけながら、
+神々しい光を発すると、また空間が歪んで、
+助っ人がポンポンポンと出現した。
+<PAUSE>
+<ACTOR>0,chr_t0126a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>颯
+「なっ！？　ここはどこだ！？
+　なんで私はこんな格好をしてるんだ！」
+<PAUSE>
+//　※立ち絵
+//　【射止める花嫁】弓走颯＿立ち絵
+//　　　＊カードイラストより流用
+//chr_t0126a
+<NAME_PLATE>
+　同じ五車学園の対魔忍で、
+名門の弓使い、弓走颯（ゆばしりはやて）。
+<PAUSE>
+<ACTOR>1,chr_t0043a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「ちょっ、いきなりどうなってんだよ！
+　うわあ、これウェディングドレスか？
+　ど、どういうことだ？」
+<PAUSE>
+//　※立ち絵
+//　【二丁拳銃の花嫁】アイナ・ウィンチェスター＿立ち絵
+//　　　＊カードイラストより流用
+//chr_t0043a
+<NAME_PLATE>
+　以前、サマービーチで俺と一緒に、
+淫の氣を浴びるトラブルに巻き込まれた、
+アイナ・ウィンチェスター。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「ここどこ？　それにこの服。
+　あ、またジュノがいる」
+<PAUSE>
+//　※立ち絵
+//　【ジューンブライド】アンジェ＿立ち絵
+//　　　＊カードイラストより流用
+//chr_t0123a
+<NAME_PLATE>
+　そして、半年ぶりのアンジェ。
+<PAUSE>
+<NAME_PLATE>
+　三人とも俺の知り合いだが、
+いきなりこの場に転送されたらしく、
+全員、驚きを隠せないでいる。
+<PAUSE>
+<NAME_PLATE>
+　なにより、あの格好。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なんで全員ウェディングドレスなんだよ！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「きゃはははは！！
+　ジュノが呼べば当然そうなるしー！！」
+<PAUSE>
+<ACTOR>1,chr_t0043a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「うわっ、びっくりした！
+　な、なんだこいつら？
+　周りみんな止まっちまってるし！」
+<PAUSE>
+<ACTOR>0,chr_t0126a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>颯
+「ここは御車神社か？
+　女神に猪、巫女に招き猫？
+　いったいどういう状況だ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「おかしい。
+　ジュノがいるのに、ふうまがいない」
+<PAUSE>
+<NAME_PLATE>俺
+「ここにいるぞ、アンジェ！
+　それに颯！　アイナ！」
+<PAUSE>
+<NAME_PLATE>俺
+「こんな姿をしてるが俺だ。
+　ふうまだ！！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>0,chr_t0126a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>颯
+「ふうまだと！？
+　これはお前の仕業か！！
+　お前が私にこんなものを着せたのか！」
+<PAUSE>
+<ACTOR>1,chr_t0043a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「お、お前、ふうまなのか？
+　ちょっ、バカ見るな！！
+　恥ずかしいだろ！　見るな！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0123a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「ふうま、猪になったの？
+　別にいいけど。また結婚するの？」
+<PAUSE>
+<NAME_PLATE>俺
+「せ、説明は後だ。
+　とにかく時間が止まってる。
+　世界の大ピンチだ」
+<PAUSE>
+<NAME_PLATE>俺
+「相手はあの黒い招き猫と
+　猫の獣人たちだ」
+<PAUSE>
+<NAME_PLATE>俺
+「巫女と白い犬は
+　こっちの味方だが動けない。
+　すまん、助けてくれ！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「分かった」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>1,chr_t0043a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「いきなり世界の大ピンチとか
+　意味がわからねえよ！　こんな格好だし！
+　後でちゃんと説明してもらうからな！」
+<PAUSE>
+<ACTOR>0,chr_t0126a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>颯
+「むむむ。
+　非常事態なのは理解した。
+　だがあまりジロジロ見るな！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0054a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カノン
+「ふふん、三人増えたか。
+　やっと面白くなってきたにゃ！」
+<PAUSE>
+<ACTOR>1,chr_t0003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「ボク、待ちくたびれて
+　眠くなってきたニャ。
+　でもご褒美のために頑張るニャ～」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0118a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「メルもちょっとだけ
+　やる気になってきたにゃ。
+　みんなで気持ちよく戦うにゃっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m145a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バステト
+「にゃにゃにゃ～～～～！！
+　猫の邪魔をするのは許さないにゃあ！」
+<PAUSE>
+<NAME_PLATE>
+　バステトが大きく伸びをすると、
+全身がビカビカと輝き始める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1500
+<BG>white,IN, 1000
+<NAME_PLATE>リリス
+「はわわわわわ！！
+　すさまじい猫パワーです。
+　ダメです、もう限界ですーー！！」
+<PAUSE>
+<SE_PLAY>se044
+<NAME_PLATE>
+　パリーン。
+<PAUSE>
+<BG>nc233a,IN, 500
+<NAME_PLATE>
+　ガラスの割れるような音がして、
+魔法の壁が砕け散った。
+<PAUSE>
+<ACTOR>0,ts_m145a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>バステト
+「にゃおおおおおおおおおん！！」
+<PAUSE>
+<NAME_PLATE>
+　神々しくも可愛らしい雄叫びとともに、
+猫魔神バステトがこちらの世界に入ってきた。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

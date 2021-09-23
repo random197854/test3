@@ -1,0 +1,654 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：荒廃した魔都・東京＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC074bより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc419a,IN, 1000
+<NAME_PLATE>
+　世界は未だ荒廃の只中にあった。
+<PAUSE>
+<NAME_PLATE>
+　アルサールを倒し、テセラックを破壊しても
+ブレインフレーヤーによる支配が続いている。
+<PAUSE>
+<NAME_PLATE>
+　繁栄を誇った町からは人が消え、
+夜になれば感染者がそこを徘徊する。
+<PAUSE>
+<NAME_PLATE>
+　かつての喜び、怒り、悲しみ、楽しみ、
+その全てを失った人の成れの果てとなって。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>感染者
+「あーーー」
+「あーーー」
+<PAUSE>
+//　※立ち絵
+//　　感染者
+//　　　＊モンスターイラストより流用
+//　※二人出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1500
+<ACTOR_OUT>1,RIGHT,linear,1500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m271a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>感染者
+「うーーーーー」
+「うーーーーー」
+「うーーーーー」
+<PAUSE>
+//　※立ち絵
+//　　感染者
+//　　　＊モンスターイラストより流用
+//　※三人出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1500
+<ACTOR_OUT>1,RIGHT,linear,1500
+<ACTOR_OUT>0,CENTER,linear,1500
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「行ったわ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「また増えたみたいね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　感染者の一群が通り過ぎるのを見届け、
+アスカとゆきかぜは物陰から姿を現した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ブレインフレーヤーのＢＣ兵器によって
+未知のウィルスに感染した犠牲者たちだ。
+<PAUSE>
+<NAME_PLATE>
+　知性は完全に喪失し、きわめて凶暴。
+異常な怪力を誇り、血の匂いに敏感で
+１キロ先でもその匂いを嗅ぎつける。
+<PAUSE>
+<NAME_PLATE>
+　生きた人間の肉を特に好むが、
+共食いもごく普通に行われる。
+<PAUSE>
+<NAME_PLATE>
+　感染者に噛まれてウィルスに感染すると
+平均４８時間で“感染者”に変容してしまう。
+治療方法はまだ発見されていない。
+<PAUSE>
+<NAME_PLATE>
+　紫外線に弱いため、活動時間は夜。
+つまり今だった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「夜は危ないって分かってるのに
+　なんだかんだとうろつく奴が多いから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「最近特にね。
+　ひょっとして私たちが
+　サキュラを退治しちゃったから？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あー、それはあるかも」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの問いにアスカは頷いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　サキュラは防御能力に秀でた
+ブレインフレーヤーのガーディアンだ。
+<PAUSE>
+<NAME_PLATE>
+　以前はゆきかぜクラスの攻撃力がなければ、
+ろくに傷もつけられなかったのだが、
+<PAUSE>
+<NAME_PLATE>
+　過去から呼んできたふうまの協力により、
+今では効果的な破壊方法が確立されている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「サキュラみたいにちょっとの足音で
+　気づかれたりとかはないから、感染者は」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だからって安全ってわけ
+　じゃないんだけどね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「物陰からいきなり現れることはあるし、
+　かすり傷一つでアウトだし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それそれ。
+　バカは死ななきゃ治らないっていうけど、
+　死なない上にみんなの迷惑なのよね」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「まあ、こうやって夜中うろついてる
+　私たちが言えたセリフじゃないけど」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まあね」
+<PAUSE>
+<NAME_PLATE>
+　自嘲するようなゆきかぜに
+アスカも笑って肩をすくめた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　音に敏感なサキュラが彷徨いていた時は
+こんな風に雑談をするのも難しかった。
+<PAUSE>
+<NAME_PLATE>
+　かといって星以外に光るもののない
+真っ暗な廃墟を無言で歩き続ける緊張感、
+そのストレスは相当なもので、
+<PAUSE>
+<NAME_PLATE>
+　こうやって話ができるだけでも
+夜の行動が楽になっていた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　もっともそのおかげで、
+彼女たち以外も夜に出歩くようになり、
+<PAUSE>
+<NAME_PLATE>
+　結果として感染者がまた増えているのだから
+物事は上手くいかない。
+<PAUSE>
+<NAME_PLATE>
+　少し歩くと、
+またアスカが口を開いた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「今回は無駄足になりたくないわね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「これで何度目だっけ？」
+<PAUSE>
+<NAME_PLATE>
+　これから二人が訪ねる相手のことだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「四度目よ四度目」
+<PAUSE>
+<NAME_PLATE>アスカ
+「最初にゆきかぜが行って、次に私。
+　それから二人で行って、そんときもダメで、
+　これが四度目よ。諸葛孔明じゃあるまいし」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、それ聞いたことある。
+　なんとかの礼って奴」
+<PAUSE>
+<NAME_PLATE>アスカ
+「三顧の礼ね」
+<PAUSE>
+<ACTOR>1,yu_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「三個？　一個、二個、三個？」
+<PAUSE>
+<NAME_PLATE>
+　教えてもらってもピンと来ず、
+ゆきかぜは首をかしげる。
+<PAUSE>
+<NAME_PLATE>アスカ
+「うん、それ多分字違ってるから」
+<PAUSE>
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「私、歴史シミュレーションとか
+　やらないから」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ゲームの話はしてないんだけど」
+<PAUSE>
+<NAME_PLATE>
+　その突っ込みはスルーして、
+ゆきかぜはふと思い出したことを口にした。
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「似たような話で
+　なんか釣りしてたら賢者が見つかった
+　みたいなのなかった？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それは知らない。そんなのあるの？」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「昔ふうまに聞いた気がする。
+　やっぱり中国の故事だかなんだかで」
+<PAUSE>
+<NAME_PLATE>アスカ
+「へえ、楽で良いわね。
+　今回ダメだったら海も安全になったことだし、
+　どっかで釣りして待ってようかな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「海には来ないんじゃない
+　ずっと山に籠もってるし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「じゃ川釣りね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「釣りは決まりなんだ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜは笑いながら、
+昔、家の近くの川で遊んだことを
+懐かしく思い出した。
+<PAUSE>
+<NAME_PLATE>
+　電撃で魚を捕ろうとしたら、
+川を破壊したらダメと
+クリアやカラスに怒られた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　あの川ももう思い出の中にしかない。
+<PAUSE>
+<NAME_PLATE>
+　そして釣りでもなんでもいいから
+今度こそ彼女を仲間にしたいと、
+そう思った。
+<PAUSE>
+//【背景：荒廃した魔都・東京市場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC078aより流用
+//nc458a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc458a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして翌日。
+<PAUSE>
+<NAME_PLATE>
+　二人は廃墟を抜けた先にある町、
+生きた人間が住む町にたどり着いていた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　元々の町の名はもちろんあったが、
+今ではこう呼ばれている。
+<PAUSE>
+<NAME_PLATE>
+　バロネスシティ。
+荒廃した東京最大の地上の町だ。
+<PAUSE>
+<NAME_PLATE>
+　ここには「東京市場」と呼称される
+一角がある。
+<PAUSE>
+<NAME_PLATE>
+　ブレインフレーヤーの侵略により、
+全てが終わってしまったかに思えた
+未来世界だが、
+<PAUSE>
+<NAME_PLATE>
+　そこでは多くの人々が行きかい、
+様々な商店が立ち並び、活気に溢れている。
+<PAUSE>
+<NAME_PLATE>
+　昨晩、二人が見てきた景色、
+感染者が跋扈する荒廃した東京の街並みとは
+隔世の感があった。
+<PAUSE>
+<NAME_PLATE>
+　無論、それには秘密があり、
+ブレインフレーヤーのお目こぼしを受けている
+理由も愉快なものではなかったが、
+<PAUSE>
+<NAME_PLATE>
+　この黄昏世界を生きる人々にとって、
+もちろん二人にとっても
+貴重な町であることは確かだった。
+<PAUSE>
+<NAME_PLATE>
+　他と同じく、この東京市場でも
+円やドルなどのかつての通貨は
+なんら価値を持たない。
+<PAUSE>
+<NAME_PLATE>
+　金、銀、貴金属、電子機器、各種燃料、
+武器弾薬、食料などの物々交換が
+取引の中心だった。
+<PAUSE>
+<NAME_PLATE>
+　二人はレジスタンスのため、
+ここで物資を調達する必要があった。
+<PAUSE>
+<NAME_PLATE>
+　交換材料はアジトで栽培した食料だ。
+<PAUSE>
+<NAME_PLATE>
+　元ブレインフレーヤーの機械生命体、
+アビゲイルの力で日の当たらない地下でも
+新鮮な食料が作れるようになった。
+<PAUSE>
+<NAME_PLATE>
+　正直、まだ味は今ひとつなのだが、
+こんな世の中ではそれでも貴重品だ。
+<PAUSE>
+<NAME_PLATE>
+　それぞれ手分けして買い物をし、
+入口で落ち合う予定だったのだが、
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「おっそいわねー。
+　どこで道草食ってるのよ」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜが戻ってきて大分経つのに、
+アスカの帰りが遅れている。
+<PAUSE>
+<ACTOR>0,yu_t004d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「まさかウィンドウショッピングとか
+　してないでしょうね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私だってゲーセン寄ってくの
+　我慢したのに……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ゆきかぜはブツブツ言いながら
+アスカを探し始めた。
+<PAUSE>
+<NAME_PLATE>
+　ゲーセンといっても
+昔のように筐体が沢山置いてあって
+どれでも自由にプレイできたりはしない。
+<PAUSE>
+<NAME_PLATE>
+　テレビに繋いだ家庭用ゲーム機を
+決められた時間だけ遊べるというものだ。
+<PAUSE>
+<NAME_PLATE>
+　それでもかつての
+Ｙ－ｋａｚｅＸちゃんにとっては
+夢のような空間だ。
+<PAUSE>
+<NAME_PLATE>
+　寄っていくと大変なことになるので、
+今日は近づかないようにしていた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「う～～～～～～～～～～～～ん」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「あ、いた」
+<PAUSE>
+<NAME_PLATE>
+　とある店の前で
+アスカが険しい顔をしている。
+<PAUSE>
+<NAME_PLATE>
+　なんの店だかは分からないが、
+腕組みして品物を選んでいるようだ。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なにやってるのよ、アスカ。
+　そんな悩んで買うようなものあった？」
+<PAUSE>
+<NAME_PLATE>
+　近づいていって声を掛けると、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「うわあっ、ゆきかぜ！
+　なんでもないなんでもない！」
+<PAUSE>
+<NAME_PLATE>
+　アスカはなぜか大慌てで
+そこから立ち去ろうとする。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんでもないってことはないでしょ？
+　なに探してたの？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ひょいと店を覗き込むと、
+そこにあったのは、
+<PAUSE>
+<NAME_PLATE>
+　化粧水、乳液、洗顔料、クリーム、
+ファンデーション、アイブロー、アイシャドー、
+口紅、グロス、マニュキュア……。
+<PAUSE>
+<NAME_PLATE>
+　メーカーも種類も数もバラバラで、
+新品などはほとんどなく、
+大半は使いかけだったが、
+<PAUSE>
+<NAME_PLATE>
+　こんな荒廃した世の中でも
+綺麗になりたい女性のために、
+<PAUSE>
+<NAME_PLATE>
+　あちこちから精一杯集めた化粧品が
+ずらりと並んでいた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「～～～～～～～っ」
+<PAUSE>
+<NAME_PLATE>
+　アスカを振り返ると
+恥ずかしそうに俯いている。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは思わず噴き出した。
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ぷぷぷっ、なに？
+　アスカこれ買うの？
+　またお化粧する気になったの？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「べ、別に。見てただけよ。
+　いいでしょそれくらい！」
+<PAUSE>
+<NAME_PLATE>
+　さっと目を逸らしたアスカに
+つつつっと近づいて、顔を覗き込む。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いいんじゃない。買いなよ。
+　せっかく若くなって
+　髪とか肌とか綺麗になったんだし」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「またボロッボロになる前に
+　ちゃんとお手入れした方がいいよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「お化粧もちゃーんと。
+　元の姿がふうまにバレる前に。
+　ぷぷぷぷ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「な、なに言ってんのよ。
+　ふうまとか関係―――」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ないわけないでしょ？
+　ふうまのためでしょ？　違うの？」
+<PAUSE>
+<NAME_PLATE>
+　すかさず斬り込むと、
+アスカは耳まで赤くして、
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ……う……そうだけどぉ！
+　その顔やめて。ムカつく！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あはっ、アスカかわいいっ！」
+<PAUSE>
+<NAME_PLATE>
+　プンスカ照れるアスカを
+ゆきかぜはギュッと抱きしめていた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そっかー、ふうまにお化粧したとこ
+　見せたくなっちゃったかー」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「わかるわかる、女の子だもんねー。
+　綺麗になりたいよねー」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「なんなのよ、その言い方！
+　ああもう、くっつかないでよ！
+　鬱陶しい！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ごめんごめん。で、どれ買うの？
+　大人のお化粧の仕方について、
+　お姉さんがアドバイスしてあげよっか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「その上から目線やめろ！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人がじゃれあっていると、
+なぜか化粧品屋の店主が慌てて逃げ出した。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　ザザザザザッッ！！
+<PAUSE>
+<NAME_PLATE>
+　大勢が近づく音がする。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m098a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>警備兵
+「――――――」
+「――――――」
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　警備員
+//　　　＊モンスターイラストより流用
+//   オーク兵
+//　　　＊モンスターイラストより流用
+//　※複数並べてください
+<NAME_PLATE>
+　バロネスシティの警備兵が
+二人を取り囲もうとしていた。
+<PAUSE>
+<NAME_PLATE>
+　数は十人ほど。
+やけに剣呑な雰囲気だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「なにこいつら？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まさかアスカに化粧させないように
+　こんな奴らが？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「なわけないでしょ」
+<PAUSE>
+<NAME_PLATE>
+　緊張感のない二人であった。
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

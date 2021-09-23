@@ -1,0 +1,320 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：アミダハラ＿廃墟街２＿昼】【時間：昼】
+//　※鋼鉄の魔女アンネローゼ_nc023aより流用
+//nc344a
+<BGM_PLAY>bgm313,1000
+<BG>nc344a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m215a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m215a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍傭兵
+「―――ッ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍傭兵
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　対魔忍傭兵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　現れた複数の影――
+対魔忍傭兵が襲いかかってくる。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍傭兵は五車を抜けて
+傭兵として闇の世界に生きる猛者。
+<PAUSE>
+<NAME_PLATE>
+　戦闘や忍の術に長け、
+冷徹に任務を遂行する危険な相手。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれでも、
+彼女たちの前では一枚劣る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0090a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>お諒
+「なんだァ！？
+　あたしらとヤルってのか！！？」
+<PAUSE>
+//　※立ち絵
+//　　人外のお諒
+//　　　＊ＲＰＧカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブオオオオオン！！！
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<NAME_PLATE>
+　グチャ！！！
+<PAUSE>
+<NAME_PLATE>対魔忍傭兵
+「がっ！！？」
+<PAUSE>
+<BG>nc344a,IN, 500
+<NAME_PLATE>
+　三番隊隊長・お諒のバットで
+一人の忍の頭が吹き飛ばされる。
+<PAUSE>
+<ACTOR>0,chr_t0090a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　人外のお諒は“忌子”――
+<PAUSE>
+<NAME_PLATE>
+　異界の神の力を宿すと言われる
+奇怪な姿で生まれ落ちた娘。
+<PAUSE>
+<NAME_PLATE>
+　そんな出自からか膂力、そして
+再生能力は通常の人間を遥かに上回り、
+<PAUSE>
+<NAME_PLATE>
+　魔界の希少鉱物“オリハルコン”で
+作られた金属バットで敵となるあらゆる
+相手を粉砕する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m212b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ローレライ
+「ふんっ。どこの誰だか知らないが、
+　姉御に良いところ見せるチャンスだね！」
+<PAUSE>
+//　※立ち絵
+//　　ローレライ
+//　　　＊カードイラストより流用（エフェクト有りの方）
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ヒュンヒュン！！！
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<NAME_PLATE>
+　ビシャ！！
+<PAUSE>
+<NAME_PLATE>対魔忍傭兵たち
+「ひいいいいっ！！？」
+<PAUSE>
+「っ！！？　がぁぁぁああっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　ローレライの青く半透明の身体が
+にゅるりと変形し、
+<PAUSE>
+<NAME_PLATE>
+　それに巻きつかれた対魔忍傭兵たちが
+壮絶な悲鳴を上げて倒れていく。
+<PAUSE>
+<BG>nc344a,IN, 500
+<ACTOR>0,ts_m212b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　スライミスのギャング少女、
+ローレライ。
+<PAUSE>
+<NAME_PLATE>
+　彼女は水妖の一種、スライミスと
+呼ばれる亜人種であり、その液体で
+構成された身体は変幻自在。
+<PAUSE>
+<NAME_PLATE>
+　体内で強力な酸や毒を生成する
+ことも出来、それによって
+敵対する者を殲滅する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、もう一人。
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「どうした？
+　お前たちはこんなものか――」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音
+//　　　　＊カードイラストより流用
+<NAME_PLATE>対魔忍傭兵たち
+「ぐっ！！？」
+「な、なんという……っ」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍傭兵たちの顔が恐れと
+畏怖に歪んでいた。
+<PAUSE>
+<NAME_PLATE>
+　もと“弾正の執事”ふうま天音。
+<PAUSE>
+<NAME_PLATE>
+　天音は、最強の邪眼“動転輪”を
+一切使うことなく、ただ体術のみで。
+<PAUSE>
+<NAME_PLATE>
+　襲いかかってくる幾人もの忍を
+軽々と打ち倒していた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m215a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m215a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍傭兵
+「ッ――！！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍傭兵
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　対魔忍傭兵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　すると、形勢不利と見たのか
+対魔忍傭兵たちが三人の包囲を解いた。
+<PAUSE>
+<SE_PLAY>se003
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　算を乱して廃墟の中へと
+逃げ込もうとする。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>0,ts_m212b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>お諒
+「なんだァ！？
+　もう終わりか雑魚ども！！」
+<PAUSE>
+<NAME_PLATE>ローレライ
+「これで逃げられると
+　思ってないよなぁ！？」
+<PAUSE>
+<NAME_PLATE>
+　意気揚々と二人が追撃する。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「いや、待て！！！
+　二人とも下がれ、何か来る！！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>ローレライ＆お諒
+「「っ！？」」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se103
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイイイン！！！！
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,ts_m213a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m213a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　廃ビルの屋上から飛来してきた
+何者かによって地面が大きく抉られる。
+<PAUSE>
+<NAME_PLATE>
+　異変を察知した天音の制止がなければ、
+<PAUSE>
+<NAME_PLATE>
+　ローレライとお諒はこの頭上からの
+奇襲をまともに食らっていただろう。
+<PAUSE>
+<NAME_PLATE>ローレライ
+「な、なんだこの野郎どもは――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、さらに。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドッゴオオオオオン！！！
+<PAUSE>
+<NAME_PLATE>お諒
+「なっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　目の前の廃ビルの外壁が弾け飛ぶ。
+<PAUSE>
+<BG>nc344a,IN, 500
+<NAME_PLATE>
+　その中から現れたのは――
+<PAUSE>
+<ACTOR>0,ts_m214a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　FSDクレイオス
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>天音
+「……………多脚戦車か」
+<PAUSE>
+<NAME_PLATE>
+　全身に鋼鉄を纏った兵士――
+強襲型強化外骨格。
+<PAUSE>
+<NAME_PLATE>
+　そして、
+恐竜ほどの巨大さの殺戮兵器。
+<PAUSE>
+<NAME_PLATE>
+　恐るべき敵が
+天音たちの前に姿を現した。
+<PAUSE>
+//→Section１終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

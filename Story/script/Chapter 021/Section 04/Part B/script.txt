@@ -1,0 +1,393 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ会合会場＿昼夜共通】【時間：昼】
+//　※監獄アカデミア＿NC011aより流用
+//　※立ち絵
+//　　米連特殊部隊兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストを流用
+<BGM_PLAY>bgm313,1000
+<BG>nc102b,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガッ！
+<PAUSE>
+<NAME_PLATE>
+　銃声が響きわたる。
+<PAUSE>
+<NAME_PLATE>
+　逃げ場のない銃兵衛は蜂の巣に
+なるはずだった。
+<PAUSE>
+<NAME_PLATE>
+　だが―――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「しょうがねえな」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　彼の瞳が金色に輝き始める。
+<PAUSE>
+<NAME_PLATE>
+　額にも第三の目のような
+シンボルが浮かんだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジレーネ
+「なにっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ジレーネ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　ジレーネは驚愕の声を上げた。
+<PAUSE>
+<NAME_PLATE>
+　弾が当たらない。
+<PAUSE>
+<NAME_PLATE>
+　全て銃兵衛の体を素通りしていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「そんなもんは俺には当たらねえぜ
+　弾がもったいないからやめときな」
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛は涼しい顔でその場に立っている。
+<PAUSE>
+<NAME_PLATE>ジレーネ
+「くそっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ジレーネはチャクラムを放った。
+<PAUSE>
+<NAME_PLATE>
+　超硬度金属製のチャクラムで
+彼女の意志で自在に宙を舞い、
+ダイヤモンドですら容易に切断する。
+<PAUSE>
+<NAME_PLATE>
+　だが、その必殺のチャクラムも
+銃兵衛の体をあっさりとすり抜けた。
+<PAUSE>
+<NAME_PLATE>ジレーネ
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「だから当たらねえっての。
+　人の話を聞かねえ姉さんだな」
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛は呆れ顔で言った。
+<PAUSE>
+<NAME_PLATE>
+　邪眼“金色の丸い眼＜サイクロプス＞”。
+<PAUSE>
+<NAME_PLATE>
+　金属を自在に操る能力。
+<PAUSE>
+<NAME_PLATE>
+　金属製の弾やチャクラムでいくら攻撃しても
+彼の身体をすり抜けていく道理だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、ジレーネとやり合う気はないようで
+銃兵衛はチャクラムも銃弾も完全に無視して、
+カヲルを見やった。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「姉御、俺は先に帰るぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ti_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カヲル
+「勝手にしなさい」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_対魔忍衣装
+<ACTOR>1,si_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「面白い見世物だったわ」
+<PAUSE>
+//　※立ち絵
+//　　水城不知火立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表より流用
+<NAME_PLATE>
+　二人もこれで会合は終わりとばかりに
+立ち上がる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m153a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ジレーネ
+「このごろつきども！！！
+　貴様らに秩序はないのか！？」
+<PAUSE>
+//　※立ち絵
+//　　ジレーネ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<BGM_STOP>1000
+<NAME_PLATE>
+　ジレーネがついに癇癪を起こした。
+<PAUSE>
+<NAME_PLATE>
+　その瞬間、カランカランという音がして
+まだ飛んでいたチャクラムが床に落ちた。
+<PAUSE>
+<NAME_PLATE>ジレーネ
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>
+　ジレーネがやったことではない。
+彼女に気づかれないほど速く落とされたのだ。
+<PAUSE>
+<NAME_PLATE>
+　ハッとした時には、
+冷笑する幻影の魔女の切っ先が
+ジレーネの喉元に向けられていた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m153a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,si_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「闇には闇のルールがあるわ。
+　きんきん騒ぐとみっともないわよ」
+<PAUSE>
+<NAME_PLATE>ジレーネ
+「グッ！？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「すげえ早業だな」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「いいわ。いきなさい。
+　またいつか会いましょう。
+　ギャングスター君」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「おばさんさんきゅー♪」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「お姉さんよ坊や」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　銃兵衛の命がけの軽口に
+幻影の魔女が微笑んだその時、
+<PAUSE>
+<SE_PLAY>se109
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガアアンンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　突然の爆発音。
+<PAUSE>
+<NAME_PLATE>
+　地下からだ。
+<PAUSE>
+<NAME_PLATE>
+　建物が小さく揺れる。
+<PAUSE>
+<ACTOR>0,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ジレーネの部下
+「地下から侵入者です！！！」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストを流用
+<ACTOR>1,ts_m153a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ジレーネ
+「なにっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ジレーネ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>銃兵衛
+「おお、なんか始まったな」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「どうもトラブル続きね」
+<PAUSE>
+<NAME_PLATE>カヲル
+「地下って貴重な物資を集めた倉庫が
+　あったんじゃなかったかしら？
+　行かなくていいの？」
+<PAUSE>
+<NAME_PLATE>ジレーネ
+「くそっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　ジレーネは吐き捨てると、
+部下を連れて慌ただしく地下に消えていった。
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「会合はお開きね。それじゃ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　幻影の魔女も最初からこうなると
+分かっていたかのように去っていく。
+<PAUSE>
+<ACTOR>0,ts_m097a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「さあて、俺たちも帰るとするか。
+　ん？　なんか顔が怖いぜ、ユーリ」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>1,chr_t0200a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　ユーリの少し不満そうな顔に
+銃兵衛が気づいた。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「対魔忍の、
+　それも邪眼使いだったんですね？」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表を流用
+<NAME_PLATE>銃兵衛
+「言ってなかったか？」
+<PAUSE>
+<NAME_PLATE>
+　とぼける銃兵衛にユーリの声が固くなる。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「あなたには護衛など不要です。
+　何故、私を助けたのですか？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「それを聞くのかよ！？
+　まったく困った女だな」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「？？？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「ユーリ、あんたが可愛いからだよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリ
+「えッ？　私が！？
+　命懸けでナンパをしたというのですか！？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「俺は美女にはいつも命懸けだぜ」
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛はニヤリと笑ったが、
+<PAUSE>
+<NAME_PLATE>ユーリ
+「呆れた人ですね」
+<PAUSE>
+<NAME_PLATE>
+　ユーリはぷいっと顔を背けた。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「それよりユーリ、探してる魔科医について
+　聞いたらどうだ？」
+<PAUSE>
+<NAME_PLATE>
+　ナンパ失敗の気配に、
+銃兵衛は無理やり話題を変えて、
+カヲルを指さした。
+<PAUSE>
+<NAME_PLATE>
+　二人のやりとりをニヤニヤと見ていた
+カヲルがギョッと目を剥く。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ti_t001h,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カヲル
+「ちょっと！
+　私をナンパのダシに使ったの？」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_対魔忍衣装
+<NAME_PLATE>銃兵衛
+「一杯奢るから頼むよ、姉御」
+<PAUSE>
+<ACTOR>1,ti_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　掌を合わせて頭を下げる銃兵衛に、
+カヲルは冷たい顔になった。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ti_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「遠慮するわ。
+　こんな男に振り回されて疲れたでしょ。
+　私があなたに一杯奢るわ」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「ありがとうございます。行きましょう」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「お、おい、そりゃねえだろ」
+<PAUSE>
+<NAME_PLATE>
+　カヲルとユーリはスタスタと歩き出す。
+<PAUSE>
+<NAME_PLATE>カヲル
+「………………」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「……………………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　銃兵衛が呼びかけても完全に無視だ。
+<PAUSE>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「二人とも待ってくれよ。ったくよお」
+<PAUSE>
+<NAME_PLATE>
+　ギャングスター金崎銃兵衛は
+いささか情けない顔で二人の後を
+追いかけるのだった。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

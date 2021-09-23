@@ -1,0 +1,1938 @@
+//☆マップ09シナリオ
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　………
+<PAUSE>
+//【背景：ヨミハラ＿裏路地＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+<BGM_PLAY>bgm603,1000
+<BG>nc062a,IN, 1000
+<NAME_PLATE>女
+「ひいぃいいいいいいっ！！？？
+　来ないでっ！　いやあぁぁぁあああっ！！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャ！！！
+<PAUSE>
+<NAME_PLATE>
+　逃げ惑う女の顔に凶爪が振り下ろされた。
+<PAUSE>
+//　※鮮血などの演出お願いします。
+<NAME_PLATE>
+　迸る鮮血。
+<PAUSE>
+<BG>nc062a,IN, 500
+<SE_PLAY>se010
+<NAME_PLATE>
+　顔面の半分をごっそり抉られた女が
+断末魔の叫びを上げて地面に転がった。
+<PAUSE>
+<NAME_PLATE>
+　半ば意識を失った体がビクンビクンと
+血溜まりの中で不規則に跳ねる。
+<PAUSE>
+<ACTOR>0,ts_m033a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m033a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>？？？
+「………」
+<PAUSE>
+//　※立ち絵
+//　　異界の原住民
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　異界の原住民
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　それを見下ろしているのは
+明らかに人とは違う異形の怪物だ。
+<PAUSE>
+<NAME_PLATE>
+　歪に発達した巨体、浅黒く爛れた
+扁平な顔、魚類や両生類のような
+意思を感じさせない無機質な眼球。
+<PAUSE>
+<NAME_PLATE>
+　魔族や鬼族など、闇の町に潜む
+どの人外の種族とも違っている。
+<PAUSE>
+<NAME_PLATE>
+　いま女を襲った怪物は、この世界の
+生物とは全く存在の異なる“何か”であった。
+<PAUSE>
+<ACTOR>2,ts_m021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>男
+『……手間をかけさせてくれたな、
+　水妖の娘よ』
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>女
+「あがっ……い、いや……
+　やめて……」
+<PAUSE>
+<NAME_PLATE>
+　現れた魔術師らしき男を見て
+半死半生の女が擦れた声で哀願する。
+<PAUSE>
+<NAME_PLATE>
+　しかし男は、そんな声に耳を貸す
+様子もなく懐から妖しげな装飾が入った
+ナイフを取り出すと。
+<PAUSE>
+//　※鮮血などの演出お願いします。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>2,CENTER,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グチャ――！！
+<PAUSE>
+<NAME_PLATE>女
+「あがああぁあああああああああああ
+　あああああああああああっ！！？」
+<PAUSE>
+<NAME_PLATE>男
+『……………』
+<PAUSE>
+<NAME_PLATE>
+　女の下腹部に刃が突き立てられた。
+<PAUSE>
+<NAME_PLATE>
+　膨らんだお腹が上下に切り裂かれ、
+その中からズルリと不定形の肉塊が
+引き出される。
+<PAUSE>
+<NAME_PLATE>女
+「ひいぃいいいいっ！！？　あがっ、
+　あぁぁぁぁぁああぁあああ……っ！！」
+<PAUSE>
+<NAME_PLATE>
+　水妖の胎児である。
+<PAUSE>
+<NAME_PLATE>
+　女は妖魔と呼ばれる魔族と妖精の間に
+位置する種族であり、そのお腹には
+水妖の子を孕んでいた。
+<PAUSE>
+<BG>nc062a,IN, 500
+<ACTOR>2,ts_m021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　魔術師の男は取り出したそれを吟味し、
+やがて満足したように容器に収めた。
+<PAUSE>
+<NAME_PLATE>男
+『………待たせたな、息子達よ。
+　いつも通りに処理をしろ』
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,500
+<GROUP>
+<ACTOR>0,ts_m033a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m033a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「ＵＲＵＵＵＵＵＵＵＵＵＵＵＵＵ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　異界の原住民
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　異界の原住民
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se132
+<NAME_PLATE>
+　男の許しを得た怪物達が
+腹を切り裂かれた女の体に食らいつく。
+<PAUSE>
+<NAME_PLATE>
+　ぐちゃぐちゃびちゃびちゃという
+肉を噛みちぎる音。
+<PAUSE>
+<NAME_PLATE>
+　すでに息絶えているのか、もはや
+女の体はピクリとも動かない。
+<PAUSE>
+<NAME_PLATE>
+　怪物達は肉の軟らかい箇所から
+牙を立て、地面に溢れた血も啜るように
+“ご馳走”を平らげていく――。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc062a,IN, 1000
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+「…………………………」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　＊カードイラスト　ナーサラより流用
+<NAME_PLATE>
+　そんな陰惨な光景を、異国風の
+少女が闇の中からじっと見つめていた。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>3,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　………
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通＿雨】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034bより流用
+<BG>nc122b,IN, 1000
+<NAME_PLATE>
+　地下都市・ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　東京の地下３００メートルにある闇の町は、
+にわかに降り出した雨で白く煙っていた。
+<PAUSE>
+<NAME_PLATE>
+　通常の雨ではなく“過去に降った雨”だ。
+<PAUSE>
+<NAME_PLATE>
+　地上に降った雨が何年もかけて地中を伝い、
+このヨミハラまで達して再び街を濡らす。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>4,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「全く、忌々しい雨ね……」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<NAME_PLATE>
+　そんな雨のヨミハラで、深くフードを
+被って姿を隠すようにして歩く女がいた。
+<PAUSE>
+<NAME_PLATE>
+　彼女は“探偵”だ。
+<PAUSE>
+<NAME_PLATE>
+　五車の対魔忍総隊長・井河アサギと
+同じ顔を持つ女。
+<PAUSE>
+<NAME_PLATE>
+　しかし当然ながら本人ではない。
+<PAUSE>
+<NAME_PLATE>
+　彼女は、井河アサギの細胞から
+生み出された“クローン”である。
+<PAUSE>
+<NAME_PLATE>
+　元特務機関“Ｇ”の
+サイボーグソルジャー。
+<PAUSE>
+<NAME_PLATE>
+　ある事情から“Ｇ”に拾われ、最新最強の
+サイボーグアームの移植を受けたものの、
+彼らの強引なやり方に疑念を抱き、出奔――
+<PAUSE>
+<NAME_PLATE>
+　現在は“Ｇ”の手の届かない
+ヨミハラに潜みつつ、何でも屋兼
+探偵として日々を送っている。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（まあ、その探偵稼業も上手く
+　いってるとは言い難いけれど……）
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが雨に濡れながら
+ため息をつく。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　今彼女が引き受けているのは、
+近頃巷を騒がしている猟奇事件だ。
+<PAUSE>
+//【背景：ヨミハラ＿裏路地＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+<BG>nc062a,IN, 1000
+<NAME_PLATE>
+　数日前――
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラのスラム地区の路地裏で
+女妖魔の死体が発見された。
+<PAUSE>
+<NAME_PLATE>
+　全身の肉を鋭い歯で食い散らされた
+ような異様かつ凄惨な死体である。
+<PAUSE>
+<NAME_PLATE>
+　殺された妖魔は妊婦であり、
+その腹部は切り開かれて
+中身が空になっていた――。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通＿雨】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034bより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc122b,IN, 1000
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　暴力や殺人が日常茶飯事の闇の町と
+言えど、ここまで陰惨な事件は珍しい。
+<PAUSE>
+<NAME_PLATE>
+　縄張りを荒らされて激怒した
+スラムの顔役が彼女に依頼し、
+捜査が開始された。
+<PAUSE>
+<NAME_PLATE>
+　――が、数日ほど調べても
+これと言った手がかりは得られない。
+<PAUSE>
+<NAME_PLATE>
+　この日も散々闇の街を歩いた末、
+全くの無駄足で事務所に戻る所であった。
+<PAUSE>
+//【背景：ヨミハラ＿繁華街＿雨】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC035bより流用
+<BG>nc127b,IN, 1000
+<NAME_PLATE>
+　ヨミハラ・繁華街。
+<PAUSE>
+<NAME_PLATE>
+　娼館や安酒場が並ぶ猥雑な通りの片隅に、
+彼女がアジトとして使っている事務所がある。
+<PAUSE>
+//【背景：黒画面】
+<BG_OUT>1000
+<NAME_PLATE>クローンアサギ
+「あら……？」
+<PAUSE>
+<NAME_PLATE>
+　事務所の前まで行くと、中から
+ぎゃーぎゃー騒ぐ声が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>声１
+「だーかーら、私は子供じゃないと
+　言っておるだろう！　いい加減怒るぞ！」
+<PAUSE>
+<NAME_PLATE>声２
+「そうは言ってもここは危険な街だからな。
+　小さな子が一人でいたら心配だ」
+<PAUSE>
+<NAME_PLATE>声２
+「さあ、お母さんはどこだい？
+　私が一緒に捜しに行ってあげよう」
+<PAUSE>
+<NAME_PLATE>声１
+「ムキー！　話を聞け～っ！！！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　一人の声は心当たりがないが、
+片方はよく知る声である。
+<PAUSE>
+<NAME_PLATE>
+　やれやれとため息をつきながら
+クローンアサギはドアを開けた。
+<PAUSE>
+//【背景：ヨミハラ＿クローンアサギの事務所＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc003cより流用
+//新規 nc215a
+<SE_PLAY>se052
+<BG>nc215a,IN, 1000
+<NAME_PLATE>クローンアサギ
+「……何を騒いでいるの、亜希。
+　ドアの外まで聞こえたわよ」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<GROUP>
+<ACTOR>5,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>4
+</GROUP>
+<NAME_PLATE>ふうま亜希
+「おお、戻ったか探偵」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊カードイラスト　ふうま亜希より流用
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女の子
+「なに！？　そっちが探偵！？
+　じゃあこいつは何なんだ！？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　＊カードイラスト　ミリアムより流用（使い魔クロ無し）
+<NAME_PLATE>亜希
+「私か？　ただの留守番だ」
+<PAUSE>
+<NAME_PLATE>女の子
+「留守番！！？」
+<PAUSE>
+<NAME_PLATE>
+　女の子がガーンという顔をする。
+<PAUSE>
+<NAME_PLATE>
+　どうやら事務所にいた亜希を
+探偵と勘違いしていたらしい。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「正確には勝手に居着かれている、
+　という感じだけど」
+<PAUSE>
+<NAME_PLATE>
+　苦笑したクローンアサギが補足する。
+<PAUSE>
+<ACTOR_OUT>6,RIGHT,linear,1000
+<ACTOR>5,chr_t0164a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　ふうま亜希は、以前の仕事で
+知り合った剣客対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　五車に属しているが、その邪眼の
+強力さから周囲に恐れられ、単独で
+任務を行うことが多いらしい。
+<PAUSE>
+<NAME_PLATE>
+　当人も人付き合いにはあまり
+興味がないようだが、不思議と
+クローンアサギとは馬が合い、
+<PAUSE>
+<NAME_PLATE>
+　こうしてヨミハラに来た際は
+この事務所を根城と決め込み、
+勝手に居着いているのだった。
+<PAUSE>
+<ACTOR>5,chr_t0164a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女の子
+「な、なんだそれはっ！？
+　人の家に勝手に住みつくなんて、
+　お前はじょーしきがないのかっ！？」
+<PAUSE>
+<NAME_PLATE>亜希
+「うむ。そう言われると
+　私も少々つらいのだが……
+　これもやむを得ないことなのだ」
+<PAUSE>
+<NAME_PLATE>亜希
+「だって別のアジト探すの面倒だし」
+<PAUSE>
+<NAME_PLATE>女の子
+「お、おいっ！？　いいのか探偵！
+　今こいつ面倒って言ったぞっ！？」
+<PAUSE>
+<NAME_PLATE>
+　再びぎゃーぎゃー騒ぎ出す二人に
+クローンアサギがやれやれと笑う。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「まあ気にしてないわ。見ての通り
+　スペースは余ってるし、亜希には
+　時々仕事も手伝ってもらってる」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「それより、あなたのこと。
+　私に何か御用かしら」
+<PAUSE>
+<ACTOR>4,chr_t0116a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女の子
+「おっ、そうそう！
+　お前が探偵ならば話が早い。
+　私は依頼人なのだっ！」
+<PAUSE>
+<NAME_PLATE>女の子
+「迷子になったわたしの使い魔、
+　クロを見つけてきて欲しいのだ！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「使い魔……？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「うむっ！　ゆえあってこんな姿に
+　なっているが本当のわたしは
+　偉大なる魔女！　ミリアムだ！！」
+<PAUSE>
+<NAME_PLATE>
+　呆気にとられる二人を前に、
+女の子がえっへんと胸を張った。
+<PAUSE>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR>6,chr_t0091b,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　女の子――魔女ミリアムの話は
+次のようなものだった。
+<PAUSE>
+<NAME_PLATE>
+　ミリアムはノマドに属する魔女。
+<PAUSE>
+<NAME_PLATE>
+　だが今回は仲間に知られることなく
+済ませたい案件だという。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「使い魔のクロが変な奴らに
+　連れて行かれたようなのだ」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムにはシロとクロという
+二匹の使い魔がいる。
+<PAUSE>
+<NAME_PLATE>
+　その時、シロとクロの二匹は
+ミリアムから離れて遊びに行っていた。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「シロの話だと、そこで変なフードを
+　被った連中にクロがさらわれた
+　らしくて――な、シロ？」
+<PAUSE>
+<NAME_PLATE>シロ
+「きゅっっ！」
+<PAUSE>
+<NAME_PLATE>
+　ふよふよと空中に浮かぶ変な生き物
+――使い魔のシロが元気に鳴く。
+<PAUSE>
+<NAME_PLATE>
+　こちらのシロはとっさに隠れたので、
+妙な連中に捕まらず難を逃れたらしい。
+<PAUSE>
+<NAME_PLATE>
+　そして、シロから話を聞いた
+ミリアムは困り果てた。
+<PAUSE>
+<NAME_PLATE>
+　連れ去られたクロのことは心配だ。
+<PAUSE>
+<NAME_PLATE>
+　しかしこんな事をノマドの連中に
+相談すると絶対バカにされる……。
+<PAUSE>
+<NAME_PLATE>
+　そこでミリアムは、金次第で何でも
+引き受けると噂の探偵に依頼しようと
+考えたのだった。
+<PAUSE>
+<ACTOR>6,chr_t0091b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>4,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「話はわかったわ……けど
+　驚いたわね、あなたが魔女なんて」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「確かに、ただの女の子じゃないとは
+　思ったけれど」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ふふーん。わたしのスゴさに気付くとは
+　あっちのデカ女と違って見る目があるな！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「今はちょっと魔力が減っているが、
+　それでもそこらの魔術師には負けない
+　ちょースゴい力を持っているからな！」
+<PAUSE>
+<NAME_PLATE>
+　再びえっへんと胸を張るミリアムに
+亜希が申し訳なさそうに言う。
+<PAUSE>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR>5,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「そうだったのか……。
+　いや、さっきは子供扱いして
+　済まなかった、魔女ミリアム殿」
+<PAUSE>
+<NAME_PLATE>亜希
+「君があまりに小さくて可愛いから……
+　こう、『守ってあげなきゃ！』って
+　胸がきゅーっとなってしまって……」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「お、お前……？
+　何か妙な性癖でもあるのか……？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「とにかく、わかったならそれで良い！
+　わたしは子供扱いされるのが嫌いだから
+　以後は気をつけるのだぞ！」
+<PAUSE>
+<NAME_PLATE>亜希
+「うむ、承知した！」
+<PAUSE>
+<NAME_PLATE>亜希
+「じゃあ仲直りと言うことで、
+　改めて、こう……頭をなでなでして
+　いいかな……えへへ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「全然わかってないじゃないか！！？
+　もーかんべんならんっ、
+　こいつに噛みつけシロ！！」
+<PAUSE>
+<NAME_PLATE>シロ
+「ガルルルッ！！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ドタバタと騒ぎ始める亜希とミリアム。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　そんな二人を見ながらクローン
+アサギが軽くため息をついた。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　五分後。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　事務所を出ると雨は止んでいた。
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは、亜希とミリアムを
+連れてゲート前の広場を歩いていた。
+<PAUSE>
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「引き受けてくれて助かったぞ探偵！
+　報酬ははずむぞっ！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　＊カードイラスト　ミリアムより流用（使い魔クロ無し）
+<ACTOR>4,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「気にしないで。ちょうど
+　情報屋と会うことになっていたから、
+　ついでのようなものよ」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<NAME_PLATE>ミリアム
+「ふむ？　まあクロを
+　見つけてくれれば何でもいいぞ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　三人が向かっているのはクローンアサギが
+懇意にしている情報屋の所。
+<PAUSE>
+<NAME_PLATE>
+　事務所を出る前、改めて
+情報屋に調査を依頼しておいた。
+<PAUSE>
+<NAME_PLATE>
+　さらわれた使い魔が闇マーケットなどに
+売り出されてないかどうか。
+<PAUSE>
+<NAME_PLATE>
+　運が良ければ、この調査だけで
+使い魔を見つけることができるだろう。
+<PAUSE>
+<ACTOR>4,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「でも……自分の使い魔でしょう？
+　居場所は察知できないの？」
+<PAUSE>
+<NAME_PLATE>
+　使い魔と術者は魔力によって
+繋がっていると聞く。ならば
+居場所くらいわかると思うのだが。
+<PAUSE>
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「うーむ。確かに普通ならば、
+　そのくらい簡単だ。しかし、
+　今回ばかりはムリなのだ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「どういうこと？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「いや、わたしにもよくわからん。
+　わからんが……近頃、街中一帯に
+　妙な魔力が充満していてな……」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「それに紛れてクロの気配がまるで
+　見えなくなってしまっている……」
+<PAUSE>
+<NAME_PLATE>
+　しきりに首を捻りながら
+ミリアムが言う。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「妙な魔力……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　どういうことだろうか？
+<PAUSE>
+<NAME_PLATE>
+　魔術師でない自分にわかるはずも
+ないが……しかし、街中に広がる
+不穏な気配は確かに彼女も感じていた。
+<PAUSE>
+<NAME_PLATE>
+　と、そこでミリアムが
+反対側を向いた。
+<PAUSE>
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「………ところで、
+　お前はなんでいるのだ？」
+<PAUSE>
+<ACTOR>5,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「私か？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊カードイラスト　ふうま亜希より流用
+<NAME_PLATE>
+　ごく当然という顔で
+亜希も二人に同行している。
+<PAUSE>
+<NAME_PLATE>亜希
+「ふふん。そうだな、
+　私は保護者のようなものだ」
+<PAUSE>
+<NAME_PLATE>亜希
+「この辺りは治安が悪い。
+　ミリアムちゃんにイタズラする悪漢が
+　出ないように守ってあげなければ！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「だから私はスゴくてえらくて
+　強い魔女だと言っておろうが！！
+　ええいシロ、このデカ女を食い殺すのだ！」
+<PAUSE>
+<NAME_PLATE>シロ
+「ガルルルル！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　街中でぎゃーぎゃー騒ぎ始める二人。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（引き受けない方が良かったかしら……？）
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ＿とあるバー＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　三人は繁華街の外れにある
+うらぶれた酒場にやってきた。
+<PAUSE>
+<NAME_PLATE>
+　ここがクローンアサギが懇意にしている
+情報屋との待ち合わせ場所だ。
+<PAUSE>
+<ACTOR>7,ts_m069a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「よう。来たな、サイボーグ探偵」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　難民姿の男が自分のテーブルに
+クローンアサギ達を招く。
+<PAUSE>
+<NAME_PLATE>
+　この周辺一帯で重宝がられている
+月島と名乗る情報屋である。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「なんだか小汚い格好をした
+　情報屋だのう」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　＊カードイラスト　ミリアムより流用（使い魔クロ無し）
+<NAME_PLATE>月島
+「ヒヒヒ、それが良いのさお嬢ちゃん。
+　こうした難民の格好ならスラムの
+　どこにいたって怪しまれない」
+<PAUSE>
+<NAME_PLATE>月島
+「逆にフォーマルな姿が求められる
+　場所にネタがあるなら、こっちも
+　それなりの服を着るって寸法さ」
+<PAUSE>
+<NAME_PLATE>亜希
+「なるほど。人を見た目で
+　判断する愚か者は多いからな」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊カードイラスト　ふうま亜希より流用
+<NAME_PLATE>ミリアム
+「お前もわたしを思いっきり
+　見た目で判断してたけどな……」
+<PAUSE>
+<NAME_PLATE>
+　三人と簡単に挨拶を交わした
+月島は、早速依頼の話に入った。
+<PAUSE>
+<ACTOR>7,ts_m069a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>4,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>月島
+「さて、簡単な方からいこうか。
+　さっき頼まれた件だ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「彼女の使い魔の話ね。
+　どう、闇マーケットに出ていた？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<NAME_PLATE>月島
+「いや、生憎だったな。
+　俺が調べた限り、その使い魔とやらが
+　売り出されていた記録はない」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そう……」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「むぅ。空振りであったか……」
+<PAUSE>
+<NAME_PLATE>
+　残念であるが仕方がない。
+<PAUSE>
+<NAME_PLATE>
+　別のルートがあるのか、そもそも
+売買が目的ではなかったということだろう。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「じゃあ、こっちの使い魔の子が見た
+　っていう怪しい集団については？」
+<PAUSE>
+<NAME_PLATE>
+　使い魔シロが目撃したという、
+魔術師のようなフードを被った一団だ。
+<PAUSE>
+<NAME_PLATE>月島
+「それは何とも言えないな。
+　情報が少なすぎる、ただ――」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ただ？　なに？」
+<PAUSE>
+<NAME_PLATE>月島
+「ヒヒヒ……それは後にしておこう。
+　色々と順序立てて話した方が良さそうだ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「？　勿体ぶる男ね……。
+　わかったわ、話を進めましょう。
+　私が頼んでいた件ね」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギがため息を
+ついて先を促す。
+<PAUSE>
+<NAME_PLATE>
+　月島が自分のペースでしか
+話をしないのは有名だ。
+<PAUSE>
+<NAME_PLATE>
+　次の話は――いま彼女が調べている、
+路地裏で起きた猟奇事件について。
+<PAUSE>
+<NAME_PLATE>月島
+「ご注文の画像データだ。
+　苦労したんだぜぇ、
+　あっちこっちに頭を下げてな」
+<PAUSE>
+<NAME_PLATE>
+　恩着せがましく笑いながら月島が
+クローンアサギの手元に数十枚の
+プリントされた画像を投げる。
+<PAUSE>
+<NAME_PLATE>亜希
+「画像データ？　なんだそりゃ？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「監視カメラの映像よ。
+　現場付近に怪しい奴がうろついて
+　なかったかチェックする」
+<PAUSE>
+<NAME_PLATE>
+　受け取った画像を確認しながら
+クローンアサギが答えた。
+<PAUSE>
+<NAME_PLATE>
+　治安が極度に悪いヨミハラでは、
+店舗主や各地区の顔役の自衛意識が高い。
+<PAUSE>
+<NAME_PLATE>
+　なので表通りや店舗前はある程度
+カメラによる監視網が敷かれている。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（逆に監視網から外れたスラムや裏通りは、
+　完全な無法地帯となっているが）
+<PAUSE>
+<NAME_PLATE>
+　その映像データを手に入れて欲しい、
+と彼女は月島に依頼していた。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「まあ、現場は表通りから外れてるから、
+　そこまで期待は出来ないけれど……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　渡された画像は、映像データから
+人が通過した場面を抜き出したものだ。
+<PAUSE>
+<NAME_PLATE>
+　深夜とはいえ人通りはそれなりにあって、
+そのうちの誰が怪しいかは絞れない。
+<PAUSE>
+<NAME_PLATE>
+　手間はかかるが、ひとつひとつ
+しらみつぶしに当たっていくしか
+ないだろうか……？
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>シロ
+「きゅ～～～～っ！！？
+　きゅっ、きゅっきゅっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、使い魔のシロが騒ぎ始めた。
+<PAUSE>
+<NAME_PLATE>
+　テーブルの上に広げられた
+一枚の画像を示し、興奮したように
+パタパタとその上を飛び回る。
+<PAUSE>
+<ACTOR>6,chr_t0091b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「な、なんだっ！？　いきなり
+　どうしたというのだシロ！？」
+<PAUSE>
+<NAME_PLATE>シロ
+「きゅっきゅっ！　きゅ～っ！！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「なにぃっ！？
+　それはまことかシロ！！？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………？」
+<PAUSE>
+<NAME_PLATE>亜希
+「なんだ？　ミリアムちゃん、
+　その子は何て言ってるんだ」
+<PAUSE>
+<NAME_PLATE>
+　ふんふんと盛んに肯きながら
+シロの鳴き声に耳を傾けるミリアムに
+亜希が聞いた。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「いや、それがだな……。
+　クロをさらった『怪しいヤツら』が
+　その写真に、映っているらしい……」
+<PAUSE>
+<NAME_PLATE>亜希
+「はあ！？」
+<PAUSE>
+<NAME_PLATE>
+　急いでシロが示した画像を見る。
+<PAUSE>
+<NAME_PLATE>
+　確かに、通りを歩く魔術師らしき
+怪しげな一団がちらりと映っていた。
+<PAUSE>
+<ACTOR>6,chr_t0091b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>5,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「ちょ、ちょっと待て！？
+　なんで使い魔をさらった奴の話が？
+　こっちの事件には関係ないだろう！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<ACTOR>7,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>月島
+「いや、案外そうとも言えないぜ？
+　さっき俺が言いかけてたのも、
+　実は『そいつら』のことさ」
+<PAUSE>
+<ACTOR>4,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「何ですって……？」
+<PAUSE>
+<NAME_PLATE>
+　ニタリと笑った月島が、
+勿体ぶった口ぶりで語り始めた。
+<PAUSE>
+<NAME_PLATE>月島
+「俺の場合『そいつら』に気付いたのは
+　あんたらの依頼で闇マーケットを
+　調べた時だ」
+<PAUSE>
+<NAME_PLATE>
+　数ヶ月前から、売りに出された
+使い魔や精霊、魔獣を買い漁っていた
+一団がいたらしい。
+<PAUSE>
+<NAME_PLATE>
+　それも特に、強力な魔力を秘めた
+生物ばかり選んで買っている。
+<PAUSE>
+<NAME_PLATE>
+　金に糸目はつけない、まさに
+常軌を逸した買い占めであった。
+<PAUSE>
+<NAME_PLATE>月島
+「その集団ってのが、世界を破滅に
+　導くっていうイカれた邪神を崇拝する
+　狂信者の集まりさ」
+<PAUSE>
+<NAME_PLATE>月島
+「確か名前は『深淵の眠り』教団――」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「狂信者の集団……」
+<PAUSE>
+<NAME_PLATE>
+　さほど不思議なことでもない。
+ここヨミハラには、その手の頭の
+ネジが飛んだ連中が山ほどいる。
+<PAUSE>
+<NAME_PLATE>月島
+「まぁそれだけなら、イカれた連中が
+　またとち狂ったことを始めたんだな、
+　で済ますこともできた。しかし――」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「監視映像に、そいつらの姿が
+　映っていた……」
+<PAUSE>
+<NAME_PLATE>月島
+「ヒヒ、ご名答――」
+<PAUSE>
+<NAME_PLATE>
+　こうなれば話は違ってくる。
+<PAUSE>
+<NAME_PLATE>月島
+「お前さんも知っているだろう？
+　あそこで殺された妖魔は孕んでいた。
+　そして、妖魔の胎児は――」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……強力な魔術の触媒になる」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは不意に
+ゾクリと寒気を覚えた。
+<PAUSE>
+<NAME_PLATE>
+　クロをさらったのも、魔力の
+強い生物を買い漁っていたのも
+同じ理由だろうか。
+<PAUSE>
+<NAME_PLATE>
+　魔力の強い生物ほど、強力な
+魔術を行使できる触媒となる――。
+<PAUSE>
+<NAME_PLATE>月島
+「このふたつを念頭に調べると、
+　さらに面白いことが見えてくる」
+<PAUSE>
+<NAME_PLATE>月島
+「ここ一ヶ月の間、そのお嬢ちゃんの
+　使い魔のように急に姿を消した精霊や
+　魔獣、果ては魔術師が何人もいる」
+<PAUSE>
+<NAME_PLATE>月島
+「ヨミハラはイカれた街だから
+　大して騒ぎになっちゃいないが……」
+<PAUSE>
+<NAME_PLATE>月島
+「だが、それも全て『こいつら』の
+　仕業だとしたら……？　ヒヒヒ」
+<PAUSE>
+<NAME_PLATE>月島
+「今見えている事件は、
+　さらに大きな“何か”の一部、
+　そんな気がしてこねえか……？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　不穏な予感に襲われ、クローンアサギは
+改めて手元の画像を見た。
+<PAUSE>
+<NAME_PLATE>
+　通りを歩く、魔術師のような
+姿の怪しげな一団、そして――
+<PAUSE>
+//【背景：ヨミハラ＿裏路地＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc062a,IN, 1000
+//　※立ち絵
+//　　ナーサラ
+//　　　　＊カードイラスト　ナーサラより流用
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ほぼ同じ時刻、同じ場所、異国風の
+奇妙な装束を着た少女がカメラに映っていた。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ＿地下道＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<ACTOR_OUT>3,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc126a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ヨミハラ地下。
+<PAUSE>
+<NAME_PLATE>
+　廃棄された地下道の奥にその施設はあった。
+<PAUSE>
+//【背景：教団施設＿広間＿夜】【時間：夜】
+//　※姫騎士シャロン_nc015aより流用
+<BG>nc184a,IN, 1000
+<ACTOR>2,ts_m021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『ゥ～～ンゥ～～ムウグ～～アゥオ～～
+　ホゥフ～～ンクン～～～～ムゥゥウ～』
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　殷々と響く詠唱の声。
+<PAUSE>
+<NAME_PLATE>
+　蝋燭の灯りに奇怪な者達の影が揺れる。
+<PAUSE>
+<NAME_PLATE>
+　フードを被った魔術師達。
+<PAUSE>
+<NAME_PLATE>
+　そして、人とは明らかに異なる奇怪な生物。
+<PAUSE>
+<NAME_PLATE>
+　次元の淵に眠る、おぞましき異界の神――。
+<PAUSE>
+<NAME_PLATE>
+　それを奉じる者達が、今日も禍々しい
+“供物”の儀式を始めようとしていた。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>2,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　――そんな施設広間のさらに奥。
+<PAUSE>
+//【背景：教団施設＿研究室＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc030aより流用
+<BG>nc075a,IN, 1000
+<NAME_PLATE>？？？
+「ぴっ、ぴ～～っ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガチャン、ガチャガチャ、ドサッ！
+<PAUSE>
+<NAME_PLATE>
+　何度も体当たりをして檻を地面に
+落とし、その拍子に出来た隙間から
+何とか外に這い出した。
+<PAUSE>
+<ACTOR>8,chr_t0091c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クロ
+「ぴっ、ぴっ……」
+<PAUSE>
+//　※立ち絵
+//　　使い魔クロ
+//　　　　＊カードイラスト　ミリアムの立ち絵からクロだけ切り抜きなどして流用
+<NAME_PLATE>
+　ふよふよとした丸い姿が
+空中に浮き上がる。
+<PAUSE>
+<NAME_PLATE>
+　怪しげな一団にさらわれた
+ミリアムの使い魔・クロであった。
+<PAUSE>
+<NAME_PLATE>クロ
+「ぴぴっ？　ぴ～っ……」
+<PAUSE>
+<NAME_PLATE>
+　ここはどこ！？　何なのー！？　と、
+ビクビクしながらクロが辺りを見回す。
+<PAUSE>
+<NAME_PLATE>
+　さらわれてすぐに檻に入れられ、
+それからずっと閉じ込められていた。
+<PAUSE>
+<NAME_PLATE>
+　辺りに人がいなくなった隙を見て、
+やっと檻から脱出できたのだが――
+<PAUSE>
+<NAME_PLATE>
+　改めて見回すと、寒気がするような
+グロテスクな部屋だった。
+<PAUSE>
+<NAME_PLATE>
+　所狭しと培養槽のようなポッドが
+設置され、闇に妖しい光を放っている。
+<PAUSE>
+<NAME_PLATE>
+　その中に入っているのは、人と
+魚の合いの子のような奇怪な生き物。
+<PAUSE>
+<NAME_PLATE>
+　あるいは魔界にすら存在しないような
+体中から触手を生やした醜悪な肉塊――
+<PAUSE>
+<NAME_PLATE>
+　明らかに何か常軌を逸した、
+冒涜的な研究が行われている場所だった。
+<PAUSE>
+<NAME_PLATE>クロ
+「ぴぃっ！？　ぴぃ～……！？」
+<PAUSE>
+<NAME_PLATE>
+　怖い！　怖すぎる……！
+<PAUSE>
+<NAME_PLATE>
+　こんな所に捕まっていたら、
+何をされるかわからない……。
+<PAUSE>
+<NAME_PLATE>
+　あまりの怖さにブルブル震えながら、
+クロはこっそりとその部屋をあとにした。
+<PAUSE>
+//【背景：教団施設＿広間＿夜】【時間：夜】
+//　※姫騎士シャロン_nc015aより流用
+<BG>nc184a,IN, 1000
+<NAME_PLATE>クロ
+「………？？」
+<PAUSE>
+<NAME_PLATE>
+　部屋を出た先は広間になっていた。
+<PAUSE>
+<ACTOR_OUT>8,CENTER,linear,1000
+<NAME_PLATE>
+　大勢の人が蠢く気配。
+<PAUSE>
+<NAME_PLATE>
+　どうやらここで何かをしていたので、
+檻を壊す音が聞き咎められなかったようだ。
+<PAUSE>
+<ACTOR>2,ts_m021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔術師
+『ゥ～～ンゥ～～ムウグ～～アゥオ～～
+　ホゥフ～～ンクン～～～～ムゥゥウ～』
+<PAUSE>
+<NAME_PLATE>
+　中央に魔術師がいた。
+<PAUSE>
+<NAME_PLATE>
+　呻くようにして奇妙な呪文を唱えている。
+<PAUSE>
+<NAME_PLATE>
+　その前には、古びた魔術書らしき
+ものが置かれた豪奢な祭壇。
+<PAUSE>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<NAME_PLATE>魔術師
+『――――――――』
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　手に持った杯を傾け、ドロドロした
+血のように赤い液体を魔術書に滴らせた、
+まさにその時。
+<PAUSE>
+<SE_PLAY>se086
+<NAME_PLATE>
+　――ＨＹＡＡＡＡＡＡＡＡＡＡＡＡ
+ＡＡＡＡＡＡＡＡＡＡＡＡ！！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クロ
+「ぴぴぃっ！？」
+<PAUSE>
+<NAME_PLATE>
+　血も凍るような壮絶な叫びが響き渡った。
+<PAUSE>
+<NAME_PLATE>
+　しかし、それを発したのは“本”である。
+<PAUSE>
+<NAME_PLATE>
+　ドロドロの液体を注がれた魔術書の、
+あるはずのない口から凄まじい絶叫が
+迸り――
+<PAUSE>
+<NAME_PLATE>
+　それに共鳴するように空間がひび割れ、
+地鳴りのような響きと共に“裂け目”が
+開き、その向こう側の世界から――
+<PAUSE>
+<ACTOR>8,ts_m135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『――――――――――』
+<PAUSE>
+//　※立ち絵
+//　　深淵から覗く巨眼
+//　　　　＊ボスモンスターイラストより流用
+<SE_PLAY>se057
+<NAME_PLATE>
+　ゴゴゴゴゴゴゴゴゴ……！
+<PAUSE>
+<NAME_PLATE>
+　おぞましく巨大な“何か”が、
+こちらの世界を覗き込んでいた。
+<PAUSE>
+<NAME_PLATE>
+　あまりにも非人間的な存在感、
+名状しがたい“恐怖”そのものが、
+少しずつこちら側に浸食する。
+<PAUSE>
+<NAME_PLATE>クロ
+「ぴ～～～～～～～～～～～
+　～～～～～～～っ！！？？？」
+<PAUSE>
+<NAME_PLATE>
+　クロが恐怖のあまり
+パタパタと羽を痙攣させる。
+<PAUSE>
+<NAME_PLATE>
+　怖い怖すぎる、あれだけは
+本当にマズイ……。
+<PAUSE>
+<ACTOR_OUT>8,CENTER,linear,1000
+<NAME_PLATE>
+　早くこんな所から逃げ出して、
+ご主人様の所に戻らないと……。
+<PAUSE>
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「侵入者……？
+　不審……何者……？」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　＊カードイラスト　ナーサラより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クロ
+「ぴぃいいいっッ！？？？？」
+<PAUSE>
+<NAME_PLATE>
+　突然、クロの前に
+立ち塞がった少女がいた。
+<PAUSE>
+<NAME_PLATE>
+　限界であった。
+<PAUSE>
+<NAME_PLATE>
+　ぴいっと一声鳴くと、クロは
+その場でぽてっと気を失った。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>3,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　同じ頃。
+<PAUSE>
+//【背景：ヨミハラ＿地下道＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc126a,IN, 1000
+<SE_PLAY>se057
+<NAME_PLATE>
+　ゴゴゴゴゴゴゴゴゴ……！！
+<PAUSE>
+<NAME_PLATE>
+　奇怪な地鳴りの響く中、
+クローンアサギ達は地下道を駆けていた。
+<PAUSE>
+<NAME_PLATE>
+　月島の情報によれば、この奥に
+例の狂信者達の本拠地があるという。
+<PAUSE>
+<ACTOR>5,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「しかし……
+　一体なんなんだ、この音は！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊カードイラスト　ふうま亜希より流用
+<NAME_PLATE>
+　怪訝そうな亜希の声に、珍しく
+緊張した面持ちのミリアムが答える。
+<PAUSE>
+<ACTOR>5,chr_t0164a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「わからんが……通路の奥から
+　恐ろしいまでの魔力の流れを感じる。
+　どうなっておるのだ……！？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　＊カードイラスト　ミリアムより流用（使い魔クロ無し）
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<NAME_PLATE>
+　魔女ならぬクローンアサギにも、
+地下道を充満する凄まじい魔力は
+感じることができた。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　“何か異常な事が起きている”――
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　そんな確信めいた予感が
+通路を駆ける三人の脚を急がせる。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　が、その時――。
+<PAUSE>
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「……？」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　＊カードイラスト　ナーサラより流用
+<NAME_PLATE>クローンアサギ
+「！？　お前は――！！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>3,CENTER,linear,500
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガキィイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　反射的に突き出したサイボーグアームが
+何か硬い触手のようなものに弾かれる。
+<PAUSE>
+<NAME_PLATE>
+　出会い頭の接触だった。
+<PAUSE>
+<NAME_PLATE>
+　曲がり角を曲がった途端、向こうから
+駆けてきた奇妙な少女とぶつかった。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「例の現場にいた女！！？
+　どうしてここに――
+　やっぱり連中の仲間なの！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「敵……？　敵ならば、応戦……」
+<PAUSE>
+<NAME_PLATE>
+　少女が小さく呟くと、マントの下から
+うねうねした触手が湧き出した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「っ！？　な、なんだ
+　この娘の魔力――違うぞ！！
+　こやつ、人間ではないっ！」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムが愕然として少女を見る。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「人間じゃない……？
+　魔族か？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「違う違うっ！！！
+　力の大元の形質は魔族も人間も
+　大して変わりはない！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「こやつはそんなレベルじゃない！
+　この世界のモノじゃなくて……
+　恐らく、別次元の“何か”……」
+<PAUSE>
+<ACTOR>3,chr_t0008a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>5,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>亜希
+「へえ……？」
+<PAUSE>
+<NAME_PLATE>
+　楽しそうに笑った亜希が刀を抜く。
+<PAUSE>
+<NAME_PLATE>亜希
+「別次元の誰かさんは、
+　なんでこんな所にいるんだい？」
+<PAUSE>
+<NAME_PLATE>？？？
+「……危険………この先、侵入禁止……」
+<PAUSE>
+<NAME_PLATE>亜希
+「は？？　なんだ……？」
+<PAUSE>
+<NAME_PLATE>
+　話が通じない。
+<PAUSE>
+<ACTOR_OUT>5,RIGHT,linear,1000
+<ACTOR>3,chr_t0008a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　少女の表情は全く変わらず、
+その言葉も断片的でひどく曖昧だ。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ナーサラのいた、世界の＠×％■、
+　目を覚ました」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「壁、崩壊……人、大勢死ぬ……
+　破滅……危険……」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「壁？　破滅……？」
+<PAUSE>
+<NAME_PLATE>
+　途中に奇怪な言語が挟まり、
+やはり意味は上手く掴めない。
+<PAUSE>
+<NAME_PLATE>
+　しかしクローンアサギは、
+月島が語っていた狂信者達の
+目的を思い出した。
+<PAUSE>
+<NAME_PLATE>
+『その集団ってのが、世界を破滅に
+　導くっていうイカれた邪神を
+　崇拝する狂信者の集まりさ』――。
+<PAUSE>
+<NAME_PLATE>
+　ならば、この少女は奴らが
+崇拝するという邪神のしもべ……？
+<PAUSE>
+<NAME_PLATE>亜希
+「ふむ。よくわからないが……、
+　通せんぼは止めてくれないか。
+　私達はこの先に用がある」
+<PAUSE>
+<NAME_PLATE>亜希
+「別次元か何か知らないが、
+　可愛い子に痛いことはしたくない」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　少女は動かない。
+<PAUSE>
+<NAME_PLATE>
+　ただ三人の動きを警戒するように
+うねうねと触手を蠢かせている。
+<PAUSE>
+<NAME_PLATE>亜希
+「そうか……」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　それを見た亜希が諦めたように
+ため息をつき、一歩踏み出した時。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>7,chr_t0091c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クロ
+「ぴ～～～～～～～～～～～～～～～っ！？」
+<PAUSE>
+//　※立ち絵
+//　　使い魔クロ
+//　　　　＊カードイラスト　ミリアムの立ち絵からクロだけ切り抜きなどして流用
+<ACTOR>7,chr_t0091c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>6,chr_t0091b,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「クロ！？　クロではないか！？」
+<PAUSE>
+<NAME_PLATE>
+　少女のマントから黒い影が飛び出し、
+ミリアムの頭上をくるくると回る。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「なにっ！？　敵じゃない！？
+　いい人！？　捕まって怖いところを
+　その子に助けてもらった……！？」
+<PAUSE>
+<NAME_PLATE>亜希
+「へっ？　なんだ……？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………？」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムの言葉に二人の緊張が緩む。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　すると――。
+<PAUSE>
+<ACTOR>3,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「敵じゃない？　なら、警戒解除……」
+<PAUSE>
+<NAME_PLATE>
+　異界の少女ナーサラが、するすると
+触手を戻し、マントの中に収容した。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>3,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数分後。
+<PAUSE>
+//【背景：ヨミハラ＿地下道＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc126a,IN, 1000
+<NAME_PLATE>
+　ナーサラの言葉は断片的でわかりにくい。
+<PAUSE>
+<NAME_PLATE>
+　なので、助けられた時にクロが聞いた
+話をミリアムを通して二人に語る、という
+ややこしい手順で事情が説明された。
+<PAUSE>
+<ACTOR>6,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「えーと？　じゃあ何か？
+　お主も、異界の邪神を呼ぶって言う、
+　連中の行いを止めようとしてたのか？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　＊カードイラスト　ミリアムより流用
+//　※クロが戻ったので、これ以降ミリアム立ち絵にもクロが戻ります。
+<ACTOR>6,chr_t0091a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「肯定。＠×％■、危険。
+　目を覚ますと、こちらの世界、滅ぶ」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは別次元からこちらの
+世界にやってきた異界生物だ。
+<PAUSE>
+<NAME_PLATE>
+　そして＠×％■というのも、
+もともとはあちらの存在とのこと。
+<PAUSE>
+<NAME_PLATE>
+（ちなみに＠×％■は、こちらの
+　言語では上手く発音することが
+　できないらしい）
+<PAUSE>
+<NAME_PLATE>ミリアム
+「次元侵略者という奴だな。
+　わたしのお師匠さまのお師匠さまも
+　昔そういう奴らと戦ったと聞いた」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「そう。でもナーサラ、
+　その行為に同意しない」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「多数の人間、様々な生活、興味深い。
+　もっと知りたい、滅ぼすのダメ……」
+<PAUSE>
+<NAME_PLATE>
+　それが、ナーサラの行動理由。
+<PAUSE>
+<ACTOR_OUT>6,RIGHT,linear,1000
+<NAME_PLATE>
+　狂信者達の動きを察知したナーサラは、
+それを止めようと動いていた。
+<PAUSE>
+<NAME_PLATE>
+　しかし反撃されたり逃げられたりで、
+ついに最悪の事態に至ってしまった……。
+<PAUSE>
+<ACTOR>5,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>亜希
+「なんだいなんだい！？
+　めちゃくちゃ良い子じゃないか！！
+　さっきは斬ろうとしてゴメンな……」
+<PAUSE>
+<NAME_PLATE>亜希
+「それにこんなに可愛いし……うふふ。
+　どうだい？　飴ちゃん舐める？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「お前、見境なく愛でにいくな……。
+　この子は異界生物だぞ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「飴ちゃん？
+　ぺろぺろ、おいしい。有益」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「舐めるのかい！？
+　お主、意外と素直だな……」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ふむ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ナーサラの話だと、次元侵略者はすでに
+こちら側に侵入を開始しているらしい。
+<PAUSE>
+<NAME_PLATE>
+　そしてナーサラ自身は、施設で見つけた
+クロを安全な場所に置いてから、改めてそれを
+阻止するために戦うつもりだと言っていた。
+<PAUSE>
+<ACTOR>4,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「それで……亜希、ミリアム、
+　二人はこれからどうする？」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　クロが見つかったのでミリアムの
+目的は達成されたし、亜希はそもそも
+ついてきただけだ。
+<PAUSE>
+<NAME_PLATE>
+　この先に進む理由は特にない。
+<PAUSE>
+<NAME_PLATE>
+　相手は強大な次元侵略者、
+生きて戻れるかもわからない。
+<PAUSE>
+<ACTOR>5,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「そりゃ当然、
+　ナーサラちゃんを守って戦うさ」
+<PAUSE>
+<NAME_PLATE>亜希
+「小さい子や可愛い子を守るのが
+　対魔忍の使命って奴だからね」
+<PAUSE>
+<NAME_PLATE>
+　少しも迷うことなく亜希が言った。
+<PAUSE>
+<ACTOR>6,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「た、対魔忍だったのかお前……！？
+　いや、まあそれは、
+　今は別にいいけど……」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍に何か思うところがあるのか、
+ミリアムがちょっとイヤな顔をしてから。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「そうだなぁ……。
+　わたしの知らんところで
+　世界が破滅されても困るしな」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「今回だけは特別だ！
+　偉大なるわたしも手を貸してやろう！」
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅっ！」
+「ぴっ～～っ！」
+<PAUSE>
+<NAME_PLATE>
+　シロ、そしてご主人と合流して
+元気を取り戻したクロも勇ましく鳴く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「ふっ。聞くまでもなかったわね」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギも同じであった。
+<PAUSE>
+<NAME_PLATE>
+　顔役からの依頼は、惨殺事件の
+犯人を特定したことで達成されている。
+<PAUSE>
+<NAME_PLATE>
+　だけど、ここで帰るつもりは毛頭ない。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（それは……
+　私が“アサギ”だから……？）
+<PAUSE>
+<NAME_PLATE>
+　“オリジナル”から受け継いだ
+正義の魂ゆえなのか――それは
+彼女自身にもわからない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、いつの間にか彼女の中に、
+譲れない何かが確かにあった。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「――私達も行くわ、ナーサラ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「別次元の怪物相手にどこまで
+　できるかわからないけど――
+　まあ、少しは役に立つと思う」
+<PAUSE>
+<ACTOR>4,chr_t0116a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>3,chr_t0008a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「了承。感謝……
+　ナーサラ、一緒に戦う」
+<PAUSE>
+<NAME_PLATE>
+　心なしか嬉しそうにナーサラが肯く。
+<PAUSE>
+<SE_PLAY>se057
+<NAME_PLATE>
+　地下道の奥から響いてくる鳴動は、
+刻一刻と大きさを増していた。
+//→プロローグ終了
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

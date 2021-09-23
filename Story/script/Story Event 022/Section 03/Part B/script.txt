@@ -1,0 +1,131 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：首都圏新外郭放水路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC031aより
+<BGM_PLAY>bgm509,1000
+<BG>nc119a,IN, 1000
+<GROUP>
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t001f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええ～い、控えぃ控えおろう！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ここにおわす御方をどなたと心得るっ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+//　　ふうま小太郎立ち絵＿対魔忍衣装帯刀
+//　※普通は主人公は出しませんが、セリフのように助さん角さんなので、ここは並びで出してください。
+<NAME_PLATE>
+　俺と鹿之助は高らかに口上を始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ぶーーーーー」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（タコ化）
+<NAME_PLATE>
+　黄門様―――ではない蛇子は
+ますます仏頂面になった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m069a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m071a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>武装難民
+「ああん？　なんだ手前ら！！
+　頭おかしいんじゃ―――あっ！！」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　武装難民
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルズドッグ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>武装難民
+「やばい！　あのタコ女だ！」
+<PAUSE>
+<NAME_PLATE>武装難民
+「クソ墨ぶっかけられるぞ！
+　逃げろっ！」
+<PAUSE>
+<NAME_PLATE>デビルズドッグ
+「キャンキャン！！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<SE_PLAY>se054
+<NAME_PLATE>
+　蛇子に気がついた連中は血相を変え、
+あっという間に散り散りになっていった。
+<PAUSE>
+<NAME_PLATE>
+　番犬のデビルズドッグまでが
+戦わずに尻尾を巻いて逃げ出していく。
+<PAUSE>
+<NAME_PLATE>
+　何度かここに来ているうちに、
+蛇子のタコ墨の厄介さは連中にも
+すっかり知れ渡っているのだった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>俺
+「蛇子、ナイス！」
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「やっぱここ一番は蛇子だよなー」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺と鹿之助はグイッと親指を立てた。
+<PAUSE>
+<ACTOR>0,h_t004f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「んもーーー！！　失礼しちゃう！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子はプンプン。
+<PAUSE>
+<ACTOR>0,u_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「お前ら、顔パスかよ……」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　佐那先輩は呆れ顔だ。
+<PAUSE>
+<NAME_PLATE>
+　ともあれ、タコ姫様のご威光で、
+俺たちは無事、地下道を抜けたのだった。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

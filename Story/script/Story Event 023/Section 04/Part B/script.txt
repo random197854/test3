@@ -1,0 +1,245 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・東京近郊のビーチ＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC102aより流用
+//451a
+<BGM_PLAY>bgm313,1000
+<BG>nc451a,IN, 1000
+<ACTOR>1,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「ふうま、ハツカゼはなにする？
+　なんでもやってやるぞーー！
+　むっふーー！」
+<PAUSE>
+//　※立ち絵
+//　　【海辺のつよつよヤタガラス】ハツカゼ
+//　　＊カードイラストより流用
+<NAME_PLATE>
+　ハツカゼはやる気マンマンで
+羽を勢いよく震わせていた。
+<PAUSE>
+<NAME_PLATE>
+　そう言われても、
+大人になったハツカゼになにができるのか
+まだよく分からない。
+<PAUSE>
+<ACTOR>1,chr_t0340a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0341a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふふっ」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜを見ると「好きにしていいわよ」
+という顔で笑っていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m282a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m281a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m283a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　つまり、あの連中は見た目は醜悪だが
+それほどの脅威ではないのだろう。
+<PAUSE>
+//　※立ち絵
+//　　ビーチカナロア＿立ち絵
+//　※立ち絵
+//　　ビーチスティール＿立ち絵
+//　※立ち絵
+//　　ビーチブレインドッグ＿立ち絵
+//　※三体べてください。
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「よし、ハツカゼ。
+　お前がつよつよなところを見せてくれ。
+　好き勝手にあいつらをやっつけろ！」
+<PAUSE>
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「りょーかーい！
+　ハトちゃん、スズメちゃん、ムクドリちゃん。
+　ついてこい、れっつごーー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　俺が敵をビシッと指さすと、
+ハツカゼは待ってましたばかりに空に上がった。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハーピー
+「クケーーーーーーー！」
+「クケーーーーーーー！」
+「クケーーーーーーー！」
+<PAUSE>
+//　※立ち絵
+//　　ハーピー＿立ち絵
+//　　　＊カードイラストより流用
+//　※三体出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ハーピーたちがその後を追っていく。
+<PAUSE>
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「適当ねー。
+　マーメイドが出て来たら
+　ちゃんと頼むわよ」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ゆきかぜは苦笑しつつ俺に釘を刺し、
+ハツカゼたちのフォローに走り出した。
+<PAUSE>
+<NAME_PLATE>
+　どうやらそのマーメイドとやらが
+俺を未来に呼んだ原因のようだ。
+<PAUSE>
+<NAME_PLATE>
+　さて、元気よく飛び出したハツカゼは、
+<PAUSE>
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「くらえーー。
+　サマーブラックウイング！！」
+<PAUSE>
+<SE_PLAY>se133
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　黒々とした瘴気を纏った羽で
+敵をバシバシ殴ったり、
+<PAUSE>
+<NAME_PLATE>ハツカゼ
+「メルトストリーム！
+　死んじゃえ、ばかーーー！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どす黒い瘴気の風を
+容赦なく敵に吹き付けたりと、
+<PAUSE>
+<NAME_PLATE>
+　可愛らしい見た目とは裏腹に、
+成長したヤタガラス族に相応しい
+エグい攻撃で敵を倒している。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>1,ts_m044a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m044a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハーピー
+「キキーーーーーーーーッ！！」
+「キキーーーーーーーーッ！！」
+「キキーーーーーーーーッ！！」
+<PAUSE>
+//　※立ち絵
+//　　ハーピー＿立ち絵
+//　　　＊カードイラストより流用
+//　※三体出してください
+<NAME_PLATE>
+　ハーピーたちも鋭い鉤爪を駆使し、
+三位一体のコンビネーションを発揮して
+なかなかに強い。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「へえ、やるもんだな」
+<PAUSE>
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「元気なのはいいけど、
+　まだ危なっかしいのよね」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ＿立ち絵
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　俺の声が聞こえたのか、
+ゆきかぜが雷撃で敵を倒しながら、
+愚痴っぽく答えた。
+<PAUSE>
+<NAME_PLATE>
+　確かにさっきから自分の闘いより、
+気まぐれに動き回るハツカゼのフォローに
+なんやかんやと忙しそうだ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その様子は現在のゆきかぜが
+あれこれカラスの世話をしていたのと
+変わりがなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハツカゼ
+「むっふーーー！！
+　ハツカゼだいしょうりーーー！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ともかく、元気なハツカゼを中心にして
+悪趣味なビーチモンスター軍団を蹴散らすと、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se130
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザバアアアアアアアアアアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　静かだった海から激しい水飛沫が上がった。
+<PAUSE>
+<BG>nc451a,IN, 500
+<ACTOR>0,ts_m284a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マーメイド
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　マーメイド＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　現れたのは、
+醜悪さもここに極まれりといった姿の
+マーメイドだった。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

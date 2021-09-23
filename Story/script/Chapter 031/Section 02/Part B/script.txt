@@ -1,0 +1,216 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ地下坑道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC032aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc120a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「でやああああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュウウッッ！！
+<PAUSE>
+<NAME_PLATE>魔界ワスプクイーン
+「！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプクイーン立ち絵
+<BG>nc120a,IN, 500
+<NAME_PLATE>
+　リーナは躊躇うことなく群れに突っ込み、
+その女王を一刀両断にした。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m067a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m067a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m067a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔界ワスプ
+「ガチガチガチガチガチ！！！」
+「ガチガチガチガチガチ！！！」
+「ガチガチガチガチガチ！！！」
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプ立ち絵
+//　※何体か出してください。
+<NAME_PLATE>
+　一瞬で女王を殺され、
+激しい怒りにかられた魔界ワスプたちが
+リーナにどっと群がる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　どれだけ腕の立つ剣士であっても、
+そんな大群では対処の仕様がない。
+<PAUSE>
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「リ、リーナさん、危ない！！」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　エレーナの眠りの術も間に合わない。
+<PAUSE>
+<NAME_PLATE>リーナ
+「はぁあああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　凄まじい気合の声が響きわたった。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　魔剣サクラブロッサムから疾風が生まれ、
+リーナを中心に嵐が巻き起こる。
+<PAUSE>
+<NAME_PLATE>
+　渦巻く斬風の中で
+魔界ワスプはなすすべもなく翻弄され、
+ズタズタに切り裂かれていく。
+<PAUSE>
+<BG>nc120a,IN, 500
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「あわわわわ！！
+　み、みんな眠ってくださ～～～い！！」
+<PAUSE>
+<NAME_PLATE>
+　ようやく発動したエレーナの魔法が
+斬風を逃れた魔界ワスプを次々と眠らせ、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「うせろっ！　雑魚どもっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの炎の剣の駄目押しで、
+まだ残っていた何匹かが逃げ出していった。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　眠って地面に落ちた魔界ワスプは
+女戦士達がしっかりととどめを刺す。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>リーナ
+「はぁはぁはぁはぁはぁ……」
+<PAUSE>
+<NAME_PLATE>
+　群れをほとんど一人で倒したリーナは
+荒い呼吸を繰り返していた。
+<PAUSE>
+<NAME_PLATE>
+　その顔はひどく強ばっていて、
+強引な風の技で自分の身体も傷ついていた。
+<PAUSE>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「リーナ、焦りすぎだ」
+<PAUSE>
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はっ！
+　イ、イングリッド様……」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドに声をかけられ、
+リーナはようやく我に返る。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「少し落ち着け。
+　お前がそんなでは私が困る」
+<PAUSE>
+<NAME_PLATE>リーナ
+「は、はい……
+　申し訳ありません……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　自分を恥じるようにリーナは項垂れた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「みんな、少し休むぞ。
+　エレーナ、リーナの傷を診てやってくれ」
+<PAUSE>
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「え？　は、はい……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　エレーナが怖々と近づいてきて、
+リーナに治癒の魔法を使い始めた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「すまない。エレーナ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「い、いえ……あの、リーナさん。
+　ヒュドラと……なにかあったんですか？
+　イングリッド様も？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>リーナ
+「…………」
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「少しな。
+　昔のことだ。気にするな」
+<PAUSE>
+<NAME_PLATE>
+　答えられないリーナの代わりに、
+イングリッドがなんでもないことのように
+言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>リーナ
+（イングリッド様……）
+<PAUSE>
+<NAME_PLATE>
+　リーナはその心遣いに感謝し
+昔のこと、イングリッドと初めて会った
+ころのことを思い出していた。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

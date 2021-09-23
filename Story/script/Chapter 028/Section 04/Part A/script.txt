@@ -1,0 +1,256 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム＿港湾地区倉庫内部＿夜】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc047a,IN, 1000
+<ACTOR>0,as_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ふうま！
+　そのゆきかぜっぽい女は何者なの！？」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカはいつになく怖い顔をしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　無理もない。
+<PAUSE>
+<NAME_PLATE>
+　今のこの状況、
+俺たちはＤＳＯの秘密施設に
+侵入しようとしている不審者だし、
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アスカは戦闘用の手足を付けている。
+つまり任務中だ。
+<PAUSE>
+<NAME_PLATE>
+　あのトランクの中身も
+ただの代物ではないだろう。
+<PAUSE>
+<NAME_PLATE>
+　こうやって問い質してくれているのも、
+知っている顔があったからにすぎない。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ちょっと説明するのが
+　難しいんだが……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「難しくてもしてもらうわよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そんな得体の知れない女と
+　ＤＳＯの施設に忍び込むなんて
+　いくらふうまでも見逃せないわ」
+<PAUSE>
+<NAME_PLATE>
+　アスカの目付きが変わった。
+<PAUSE>
+<NAME_PLATE>
+　返答次第では容赦しないと言う顔だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「待ってくれ！
+　ここがＤＳＯの施設だなんて
+　今の今まで知らなかったんだ」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そ、そうだぜ！
+　俺たちもビックリしてるんだ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「でもその女は知ってたみたいよ」
+<PAUSE>
+<NAME_PLATE>
+　じろりとゆきかぜを睨む。
+<PAUSE>
+<NAME_PLATE>
+　“鋼鉄の死神”の威圧をものともせず
+ゆきかぜは冷ややかに言った。
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「アスカ、そのトランクに入っている
+　“遺物”を渡して」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍１
+<NAME_PLATE>
+　アスカの眉が苛立たしげにピクリとした。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あんたみたいな正体不明の女に
+　アスカ呼ばわりされる覚えは無いんだけど、
+　渡したらどうするつもり？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「破壊する」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そんなこと言われて渡すと思う？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「力尽くでも」
+<PAUSE>
+<NAME_PLATE>アスカ
+「へえ、この“鋼鉄の死神”に向かって
+　ずいぶんと高圧的な態度ね。
+　気に入らないわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　アスカがじわりと殺気立った。
+ゆきかぜもそれを真正面から受け止める。
+<PAUSE>
+<NAME_PLATE>
+　まずい！
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>
+　俺は慌てて二人の間に割って入った。
+<PAUSE>
+<ACTOR>0,as_t001c,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「ま、待て、アスカ！
+　こいつは本当にゆきかぜだ！
+　未来からきたゆきかぜなんだ！」
+<PAUSE>
+<ACTOR>0,as_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「はあ？　未来？
+　なに言ってるの？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「タイムトラベラーなんだよ。
+　タイムトラベラー！　ほんとだって！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助も必死に弁解しようとする。
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「タイムトラベラーって
+　あんたたち、どうかしてるんじゃないの？」
+<PAUSE>
+<NAME_PLATE>
+　アスカの険しい表情は変わらない。
+いや、いっそう不審を滲ませている。
+<PAUSE>
+<NAME_PLATE>俺
+「信じられないだろうが本当だ。
+　お前も最初、ゆきかぜだって思ったんだろ？
+　未来から来たから大人なんだよ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そりゃ一瞬そうだと思ったけど……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「じゃあ、その未来のゆきかぜが
+　なにしにこの時代に来たのよ？
+　なんで“遺物”を壊したがってるの？」
+<PAUSE>
+<NAME_PLATE>
+　俺と鹿之助の後ろにいるゆきかぜを
+胡散臭げに見て言う。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それは……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そのへんは俺たちも
+　よく分かんねえんだよな。
+　“遺物”がどうとかいうのも今知ったし」
+<PAUSE>
+<ACTOR>0,as_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「はあ？
+　そんなんで信じられるわけないでしょ！
+　なんであんたたち信じてるの？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なにか説明してくれることを期待して、
+ゆきかぜを振り返ったが、口を噤んだままだ。
+<PAUSE>
+<NAME_PLATE>
+　アスカが現れる前よりも冷徹な顔になって
+手首の装置をちらりと見た。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,chr_t0277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「時間がない」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ戦闘立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「どいて」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは俺たちを横に押しのけて、
+再びアスカと向かい合う。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おい、待てって！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「やめろよ、ゆきかぜ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはもう俺たちを見ていない。
+<PAUSE>
+<NAME_PLATE>
+　その体に鋭い電気がほとばしっている。
+<PAUSE>
+<ACTOR>0,chr_t0277b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,as_t002d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「問答無用ってことね。
+　いいわ、未来のゆきかぜっていうなら
+　その実力を見せてもらおうじゃない」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカも躊躇うことなく戦闘態勢に入った。
+<PAUSE>
+<NAME_PLATE>
+　ダメだ、もう止められない。
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

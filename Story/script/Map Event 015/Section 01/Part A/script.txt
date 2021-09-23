@@ -1,0 +1,1468 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：五車学園全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<SE_PLAY>se144
+<NAME_PLATE>
+　ミーンミーン……
+ジジジジジジ……
+<PAUSE>
+<NAME_PLATE>
+　山間の五車学園にも、
+容赦ない日差しが降り注ぐ、
+夏休みのある日。
+<PAUSE>
+//【背景：五車学園廊下＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC011aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc005a,IN, 1000
+<SE_PLAY>se021
+<NAME_PLATE>
+　キーンコーン……
+<PAUSE>
+<NAME_PLATE>生徒たち
+「ふー、おわった！　あっちー」
+<PAUSE>
+<NAME_PLATE>生徒たち
+「このあと稲毛屋行こうぜ！」
+<PAUSE>
+<NAME_PLATE>
+　今日は登校日だ。
+<PAUSE>
+<NAME_PLATE>
+　午前中で授業は終わり、
+生徒たちは続々と下校していく。
+<PAUSE>
+<NAME_PLATE>
+　が、俺はその流れに逆らって、
+重い足取りで教室へと向かう。
+このあと補習授業があるのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「めんどくせえな……」
+<PAUSE>
+<NAME_PLATE>
+　すれちがう生徒たちからは、楽しそうな
+休みの間の報告などが聞こえてくる。
+<PAUSE>
+<NAME_PLATE>女子
+「ねえねえ、インソタ見たよ！
+　東京行った時の写真！
+　めっちゃいいねついてたじゃん！」
+<PAUSE>
+<NAME_PLATE>女子
+「ありがと！
+　そういうあんたも、最近けっこう
+　バズり気味じゃない？」
+<PAUSE>
+<NAME_PLATE>女子
+「えへへ、なんか最近急に
+　いいねもらえるようになってさ」
+<PAUSE>
+<NAME_PLATE>俺
+（インソタ……最近流行ってる、
+　写真投稿用のＳＮＳか）
+<PAUSE>
+<NAME_PLATE>
+　ＳＮＳ、
+ソーシャルネットワーキングサービス。
+<PAUSE>
+<NAME_PLATE>
+　一人ひとりがアカウントを持ち、
+写真やテキストを投稿したり、
+人の投稿を見たりできるウェブサービスだ。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の卵とはいえ年頃の女子たち。
+こんな田舎に住んでいても、
+流行には敏感らしい。
+<PAUSE>
+<NAME_PLATE>女子
+「でも今は、
+　あんまり目立つとこわいじゃん？
+　例のさ……」
+<PAUSE>
+<NAME_PLATE>女子
+「あーオバケ？
+　あんなのただの噂だよー」
+<PAUSE>
+<NAME_PLATE>俺
+「最近どいつもこいつもＳＮＳだな。
+　いいねがいくつ貰えたとか、
+　何が面白いのかさっぱりわからん」
+<PAUSE>
+<ACTOR>0,h_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「ふうまちゃん、ＳＮＳ放置だもんね」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服
+<NAME_PLATE>俺
+「お、蛇子！？」
+<PAUSE>
+<NAME_PLATE>
+　どうやら心の声が口に出ていたらしい。
+下校する途中の蛇子が声をかけてきた。
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「お疲れさま！
+　忘れ物でもしたの？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちげーよ。これから補習だ」
+<PAUSE>
+<ACTOR>0,h_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あー、なるほど。
+　ふうまちゃんサボってたもんね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「違うぞ！　任務で……」
+<PAUSE>
+<NAME_PLATE>
+　と言いかけたが、
+任務で授業を休んでいたのは蛇子も同じだ。
+<PAUSE>
+<NAME_PLATE>
+　その合間を縫って勉強したか、
+サボっていたか、
+それだけが俺と蛇子の違いである。
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「ま、まあいい。それよりＳＮＳだっけか」
+<PAUSE>
+<NAME_PLATE>
+　突っ込まれないうちに、
+慌てて話を戻す。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺もいくつかのＳＮＳに登録しているが、
+めったに自分で投稿することはない。
+<PAUSE>
+<NAME_PLATE>
+　最初はそれなりに投稿したりもしたのだが、
+ほとんど誰からも反応されないので、
+だんだんとつまらなくなり、
+<PAUSE>
+<NAME_PLATE>
+　今はもっぱら蛇子達の投稿を見たり、
+どこからともなく流れてくる、ちょっと
+エッチな画像を眺めているくらいである。
+<PAUSE>
+<ACTOR>0,h_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、せっかくフォローしたのに
+　全然投稿しないんだもん」
+<PAUSE>
+<NAME_PLATE>俺
+「俺なんかがせっせと投稿しても
+　誰も見ないだろ」
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あら、蛇子が見るわ！」
+<PAUSE>
+<NAME_PLATE>俺
+「それに俺、映える写真とか撮らないし」
+<PAUSE>
+<ACTOR>0,h_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そんなに気負わなくても、
+　なんとなく撮った写真が
+　バズることもあるのよ」
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「何を隠そう私も最近、
+　知らない人からいいねもらえることが
+　多くなってて……うふふ」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子があ？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が載せる写真といえば、
+よくわからない創作料理とか、
+買った服の写真とかだ。
+<PAUSE>
+<NAME_PLATE>
+　こう言っては何だが、
+あまり人気が出るようなものではない。
+<PAUSE>
+<NAME_PLATE>
+　そんな俺の疑問もどこ吹く風で、
+蛇子はうっとりと宙を眺めている。
+<PAUSE>
+<NAME_PLATE>蛇子
+「うふふ……
+　このまま、ネットの人気者に
+　なれちゃったりして……」
+<PAUSE>
+<ACTOR>0,h_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「なーんて、そんなわけないか。
+　対魔忍がネットであんまり有名に
+　なるのもまずいもんね」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう……」
+<PAUSE>
+<NAME_PLATE>
+　脳裏に浮かんだのは、
+Ｙ－ｋａｚｅＸちゃんのことだが、
+まあ、あれはいいか。
+<PAUSE>
+<ACTOR>0,h_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「それに今は例の怪談もあるし、
+　バズるのはちょっと怖いわよね」
+<PAUSE>
+<NAME_PLATE>俺
+「例の怪談？」
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「知らないの？　ネットのお化けの話」
+<PAUSE>
+<NAME_PLATE>
+　俺がうなずくと、蛇子は楽しそうに
+「ネットの怪談」について語りだした。
+<PAUSE>
+<ACTOR>0,h_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「最近ね、
+　ＳＮＳ上での人気ユーザーを襲う
+　お化けが出るらしいの」
+<PAUSE>
+<NAME_PLATE>俺
+「ネット上にお化け？　なんじゃそりゃ」
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「詳しくは謎に包まれてるわ。
+　ウイルスか、ハッカーの仕掛けた悪戯か、
+　心霊現象か」
+<PAUSE>
+<NAME_PLATE>蛇子
+「襲われると壊れたみたいに
+　意味不明なことばかり呟くようになって」
+<PAUSE>
+<ACTOR>0,h_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「最後には、精神に支障をきたして
+　廃人になるらしいわよ」
+<PAUSE>
+<ACTOR>0,h_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「通称『デザイア』。
+　ネットの欲望の権化って、
+　誰かが名付けたらしいわ。うー怖い」
+<PAUSE>
+<NAME_PLATE>
+　怖いと言いながらも、
+蛇子はなんだか楽しそうに肩をすくめている。
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……」
+<PAUSE>
+<NAME_PLATE>
+　俺は大きくため息をついた。
+<PAUSE>
+<NAME_PLATE>俺
+「くだらん。全力でくだらん。
+　ネットのやりすぎだぞ蛇子」
+<PAUSE>
+<ACTOR>0,h_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「もう！　ふうまちゃんったら、
+　情緒がないわね！」
+<PAUSE>
+<NAME_PLATE>俺
+「情緒の問題か？」
+<PAUSE>
+<ACTOR>0,h_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「じゃ蛇子帰るから。
+　ふうまちゃんは補習頑張ってね！」
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子はそう言い残して去っていった。
+いつしか生徒たちもいなくなり、
+俺は廊下にひとり残される。
+<PAUSE>
+<NAME_PLATE>俺
+「おっと。もう補習が始まるな」
+<PAUSE>
+<NAME_PLATE>
+　時計を見て、
+俺が教室へ歩き出そうとしたとき。
+<PAUSE>
+<NAME_PLATE>？？？
+「マスター」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<GROUP>
+<BG>nc005a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>0,chr_t0168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　なんとなく聞き覚えのある声。
+振り向けば、薄紫の髪をなびかせ、
+機械じみたスーツを纏った少女がいた。
+<PAUSE>
+<NAME_PLATE>俺
+「君は……」
+<PAUSE>
+<NAME_PLATE>Ａ－６６・ルーナ
+「お久しぶりです、マスター」
+<PAUSE>
+//　※立ち絵
+//　　Ａ－６６・ルーナ
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ルーナ！？」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　名前を呼ばれて微笑む、
+この子の名前はルーナ。
+正式名称はＡ－６６・ルーナという。
+<PAUSE>
+<NAME_PLATE>
+　米連の兵器アルテミスを
+制御するためだけに、
+人工的に作られた女の子である。
+<PAUSE>
+<NAME_PLATE>
+　６５人もの“失敗”を経てようやく
+完成した彼女は、倫理的にはともかく、
+技術的には傑作といっていい存在であり、
+<PAUSE>
+<NAME_PLATE>
+　普段は基地で厳重に管理されているが、
+それでも闇勢力から狙われることも多いとか。
+<PAUSE>
+<NAME_PLATE>
+　俺が彼女と出会ったのも、
+仮面の対魔忍とアスカからの依頼で、
+護衛を手伝った経緯からなのだが。
+<PAUSE>
+<NAME_PLATE>俺
+「どうして五車学園に……？」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「マスターと、補習に参加します」
+<PAUSE>
+<NAME_PLATE>俺
+「補習」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「はい。補習」
+<PAUSE>
+<NAME_PLATE>
+　何を言っているのかわからず、
+咄嗟に聞き返してしまった。
+<PAUSE>
+<NAME_PLATE>
+　繰り返すが、この子は米連で造られた
+半人工生命体で、
+兵器アルテミスの制御装置。
+<PAUSE>
+<NAME_PLATE>
+　その彼女が、補習？　五車学園で？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>高坂静流
+「ルーナは、一般擬態訓練の一環で
+　補習に参加することになったの。
+　仲良くしてあげてね」
+<PAUSE>
+//　※立ち絵
+//　　【チョコ教師】高坂静流
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「静流先生！」
+<PAUSE>
+<NAME_PLATE>
+　ルーナの肩をぽんと叩き、
+今日の補習を担当してくれる、
+静流先生が現れた。
+<PAUSE>
+<NAME_PLATE>
+　彼女は第一線の現役対魔忍にして、
+五車学園の英語教師でもある。
+<PAUSE>
+<NAME_PLATE>俺
+「一般擬態訓練って？」
+<PAUSE>
+<ACTOR>1,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0168a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「私はアルテミスの制御装置に過ぎませんが、
+　稼働するのが戦場ばかりとは限りません」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「例えば、町で人に紛れて
+　隠れなければならないような場面、
+　一般人のふりをして敵地に近づく場面など」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「そういう時に浮いてしまわぬよう、
+　同世代の一般人の生活を
+　体験しておく必要があるとのことです」
+<PAUSE>
+<NAME_PLATE>静流
+「だからって、普通の学校へ
+　入るわけにもね？」
+<PAUSE>
+<NAME_PLATE>俺
+「それで五車学園へってことですか。
+　だけど米連基地にも
+　学校くらいあるんじゃ？」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「それは、私の希望からです。
+　学校へ行くならば、あの時助けてくれた
+　マスターがいる学校へ行きたいと……」
+<PAUSE>
+<NAME_PLATE>静流
+「うふふ。
+　やるわねふうまくん」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、まあ……」
+<PAUSE>
+<NAME_PLATE>
+　ルーナの感情の薄い目で、
+まっすぐに好意を語られると、
+茶化すこともできず戸惑ってしまう。
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se021
+<NAME_PLATE>
+　キーンコーン……
+<PAUSE>
+<NAME_PLATE>静流
+「あら時間だわ。
+　じゃあ二人とも、補習に行きましょうか」
+<PAUSE>
+//【背景：五車学園バーチャル施設＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC015aより流用
+<SE_PLAY>se082
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc002a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「ここは……」
+<PAUSE>
+<NAME_PLATE>
+　静流先生についていくと、
+そこは教室ではなく、戦闘演習などに使う
+バーチャルルームだった。
+<PAUSE>
+<NAME_PLATE>俺
+「英語の補習じゃないんですか？」
+<PAUSE>
+<ACTOR>1,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「その予定だったんだけどね、
+　ちょうどここが空いてたし
+　情報処理の補習に変えようと思って」
+<PAUSE>
+//　※立ち絵
+//　　【チョコ教師】高坂静流
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「情報処理？　静流先生が？」
+<PAUSE>
+<NAME_PLATE>静流
+「あら、こう見えても知識はあるのよ。
+　今どきの潜入捜査任務には、
+　サイバー技術は欠かせないの」
+<PAUSE>
+<NAME_PLATE>静流
+「まあ、敵の端末から機密情報を抜いたり、
+　敵のアカウントを乗っ取って、
+　オンラインで潜入捜査する程度だけどね」
+<PAUSE>
+<NAME_PLATE>俺
+（……程度？）
+<PAUSE>
+<NAME_PLATE>
+　静流先生には、絶対に
+私物の端末を見せるのはやめておこうと、
+俺は心に誓う。
+<PAUSE>
+<NAME_PLATE>静流
+「それに、米連出身のルーナに
+　英語を教えてもね」
+<PAUSE>
+<NAME_PLATE>俺
+「それは確かに。でも情報処理なんて
+　もっと得意なんじゃないか？　ルーナ」
+<PAUSE>
+<ACTOR>1,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0168a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「いいえ。私の脳のリソースは、
+　アルテミスの制御に大半を
+　費やしていますから」
+<PAUSE>
+//　※立ち絵
+//　　Ａ－６６・ルーナ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ルーナ
+「それ以外の知識は、
+　普通の人相当か、それ以下です」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなのか……」
+<PAUSE>
+<NAME_PLATE>静流
+「というわけで！　始めるわよ」
+<PAUSE>
+<NAME_PLATE>
+　静流先生がぱん、と手を打つ。
+<PAUSE>
+<NAME_PLATE>静流
+「今日はＶＲ＜バーチャルリアリティ＞を
+　利用した、最新のオンラインショッピング
+　事情について学びましょう」
+<PAUSE>
+<NAME_PLATE>静流
+「バーチャル空間への接続方法については、
+　二人とも大丈夫よね」
+<PAUSE>
+<NAME_PLATE>俺
+「もちろんです」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「大丈夫」
+<PAUSE>
+<NAME_PLATE>静流
+「オッケー。
+　それじゃ、始めましょうか」
+<PAUSE>
+//【背景：バーチャル空間＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC016bより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ヴオン――
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc090a,IN, 1000
+<NAME_PLATE>
+　俺たちが接続の準備を終え、
+静流先生がシステムを立ち上げると、
+周囲の景色が変わる。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「これが、オンラインモール？」
+<PAUSE>
+//　※立ち絵
+//　　Ａ－６６・ルーナ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「これ、バーチャル戦闘用システムと
+　同じ背景ですよね？」
+<PAUSE>
+<ACTOR>0,chr_t0168a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「これから行くオンラインモールは、
+　軍事用の技術――バーチャル戦闘システムを
+　応用して造られてるの」
+<PAUSE>
+//　※立ち絵
+//　　【チョコ教師】高坂静流
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「戦闘システムを？　買い物に？」
+<PAUSE>
+<NAME_PLATE>静流
+「そう。実際の衝撃やダメージ、
+　動きを再現する高度なエンジンを
+　応用することで」
+<PAUSE>
+<NAME_PLATE>静流
+「実際の商品を手に取って試着できるって、
+　特にファッション通販の分野では
+　注目されてるのよ」
+<PAUSE>
+<NAME_PLATE>静流
+「それなりの設備が必要だから、
+　普及はまだ先になりそうだけど……」
+<PAUSE>
+<NAME_PLATE>
+　静流先生が空間に四角を描くと、
+Ａ４ほどの大きさのウインドウが出現する。
+<PAUSE>
+<NAME_PLATE>
+　これはこの世界の入力装置みたいなものだ。
+静流先生はそこに、
+アドレスをてきぱきと打ち込んでいく。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>静流
+「百聞は一見に如かず。
+　さあ行きましょう」
+<PAUSE>
+//【背景：バーチャル店舗＿昼】【時間：昼】
+//　※水着のシモベ君_nc010aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc316a,IN, 1000
+<NAME_PLATE>俺
+「おおっ！？」
+<PAUSE>
+<BGM_PLAY>bgm309,1000
+<NAME_PLATE>
+　静流先生の操作で、
+殺風景だった戦闘用バーチャル空間は、
+<PAUSE>
+<NAME_PLATE>
+　本物のショッピングモールさながらの
+風景に変わった。
+<PAUSE>
+<NAME_PLATE>
+　バッグを売る店、夏らしく水着を売る店、
+それを飾る南国風の植え込み。
+<PAUSE>
+<NAME_PLATE>
+　ガラス張りの天井から差し込む日差し、
+それが肌を焼く感覚までが再現されている。
+<PAUSE>
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「わあ……☆」
+<PAUSE>
+//　※立ち絵
+//　　【一般擬態モード】ルーナ
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「その服は！？」
+<PAUSE>
+<NAME_PLATE>
+　ルーナはいつのまにか、
+さっきの戦闘スーツ姿から、
+涼しそうな夏服姿になっていた。
+<PAUSE>
+<NAME_PLATE>静流
+「さっそくオンライン試着してもらったわ。
+　どう？　本当に着てるみたいでしょ」
+<PAUSE>
+<NAME_PLATE>ルーナ、
+「はい、すごいです」
+<PAUSE>
+<NAME_PLATE>静流
+「今回は、あらかじめ試着する服を
+　選んでおいたんだけど、
+　よく似合ってるわね♪」
+<PAUSE>
+//　※ここでは立ち絵なし
+<NAME_PLATE>静流
+「おまけにこのロケーションは、
+　天気や気温、湿度まで自由に変えられるから
+　着る予定に合わせて服を試せるってわけ」
+<PAUSE>
+<NAME_PLATE>俺
+「あらゆる場面に対応した
+　バーチャル戦闘システムが、
+　こんな形で応用されるのか……」
+<PAUSE>
+<NAME_PLATE>静流
+「ところでふうまくん、
+　どうしてさっきからそっち向いてるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いえ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<GROUP>
+<BG>nc316a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>1,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺は思い切って静流先生の姿に視線を戻す。
+<PAUSE>
+<NAME_PLATE>静流
+「先生のこの服どうかしら？」
+<PAUSE>
+//　※立ち絵
+//　　【夏の女教師】高坂静流
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「え、えーっと……」
+<PAUSE>
+<NAME_PLATE>
+　上品な装飾のついた、
+白いノースリーブブラウス。
+<PAUSE>
+<NAME_PLATE>
+　――なのだが、
+静流先生が着ると大変なことになっている。
+<PAUSE>
+<NAME_PLATE>
+　着る人の体型にあわせて伸縮するよう、
+物理演算されているらしいが――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+（あんな薄布で支えきれるのか！？
+　横なんてはみ出しそうだし、
+　もし破れたりなんかしたら……）
+<PAUSE>
+<NAME_PLATE>
+　バーチャルでその心配はないと
+わかっていても、つい危ない場面を
+想像してしまう。
+<PAUSE>
+<NAME_PLATE>俺
+「――に、
+　似合ってます……」
+<PAUSE>
+<NAME_PLATE>静流
+「ありがと♪
+　髪型も自動で変えてくれるなんて凄いわね。
+　今度の潜入はこれでいこうかしら」
+<PAUSE>
+<NAME_PLATE>
+　男子の繊細な状況を知ってか知らずか、
+静流先生は楽しそうにくるくる回りながら
+鏡に映る自分の姿を眺めている。
+<PAUSE>
+<NAME_PLATE>静流
+「あ、二人も欲しいものがあったら
+　買っていいわよ」
+<PAUSE>
+<NAME_PLATE>俺
+（補習授業と言いつつ、
+　静流先生が買い物したかったんじゃ……）
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　一方ルーナも服が気に入ったようだ。
+珍しく興奮したような表情で、
+食い入るように鏡を見つめている。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「マスターは、試着しないのですか」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、俺はいいよ」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「バーチャルだから、恥ずかしくないです」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうわけじゃ……」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「じゃあ、私はこれを購入します。
+　買い物かご、決済？」
+<PAUSE>
+<NAME_PLATE>
+　ルーナが声をかけると、
+目の前にさきほど静流先生が出したのと
+同じようなウインドウが現れる。
+<PAUSE>
+<NAME_PLATE>俺
+（こういうのがなければ、
+　バーチャルだってこと忘れそうだな。
+　普通に買い物に来たみたいだ）
+<PAUSE>
+<NAME_PLATE>
+　ルーナはウインドウをタップしながら、
+決済処理を進めていった。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「やった、購入できました」
+<PAUSE>
+<NAME_PLATE>
+　ルーナが最後のボタンを押すと、
+「ありがとうございました」という
+声と共にウインドウは消え、
+<PAUSE>
+<NAME_PLATE>
+　最後に、その服を着たルーナの写真と、
+可愛らしいハート型のバナーボタンが出た。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「『コーデをＳＮＳにアップしますか』？
+　なんだろう……ＹＥＳ、ぽちっ」
+<PAUSE>
+<NAME_PLATE>
+　ルーナがボタンをタッチすると、
+写真がどこかへ飛んでいき、
+代わりにいくつかのハートマークが浮かんだ。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ今の？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ＳＮＳ連携機能ね」
+<PAUSE>
+<NAME_PLATE>静流
+「購入したアイテムの着用写真を
+　ＳＮＳにアップして、
+　他のユーザーに見てもらうことができるの」
+<PAUSE>
+<NAME_PLATE>俺
+「へえ」
+<PAUSE>
+<NAME_PLATE>静流
+「ユーザーは実際に買った人の着こなしを
+　参考にできるし、」
+<PAUSE>
+<NAME_PLATE>静流
+「それでいいなと思った人が購入すれば、
+　お店も売り上げが上がる。
+　ＷＩＮ－ＷＩＮてわけね」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど。よくできてやがる。
+　あのハートマークは？」
+<PAUSE>
+<NAME_PLATE>
+　ハートマークはさっきから現れては消え、
+治まる気配がない。
+<PAUSE>
+<ACTOR>1,chr_t0244a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0243a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>静流
+「あれは見た人が
+　『いいね』を押してくれたしるしよ」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「いいね……？」
+<PAUSE>
+<NAME_PLATE>静流
+「手軽に賞賛を贈れる素敵な機能ね。
+　ＳＮＳの写真が素敵だと思ったり、
+　共感したらここのハートボタンを押すの」
+<PAUSE>
+<NAME_PLATE>
+　静流先生はウインドウを立ち上げて、
+ＳＮＳの画面を見せる。
+そこにはルーナの着用写真が写っていた。
+<PAUSE>
+<NAME_PLATE>
+　写真の下にあるハートボタンを押すと、
+またルーナの周りにフワッとハートが舞った。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「うふふ。ありがとう。いいね、うれしい」
+<PAUSE>
+<NAME_PLATE>
+　ルーナは無邪気に喜んでいて、
+こちらまで顔がほころんでくる。
+<PAUSE>
+<NAME_PLATE>静流
+「だけど、気をつけて。
+　いいねをもらう気持ちよさにハマりすぎて、
+　もっともっとと求めすぎると、」
+<PAUSE>
+<NAME_PLATE>静流
+「どんどんＳＮＳに依存して
+　いいねのために何でもするような、
+　危険な精神状態になることもあるから」
+<PAUSE>
+<NAME_PLATE>俺
+「いいねのために？
+　金がもらえるわけでもないのに？」
+<PAUSE>
+<NAME_PLATE>静流
+「そう。お金がもらえるわけでもないのに。
+　いいね依存症とでも言うべきかしら、
+　みんな褒められることに飢えてるのね」
+<PAUSE>
+<NAME_PLATE>
+　などと話している間にも、
+ルーナへのいいねが止まらない。
+<PAUSE>
+<NAME_PLATE>
+　まるでルーナの全身から、
+ハートの湯気が噴き出しているようだ。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「わわわ……」
+<PAUSE>
+<NAME_PLATE>俺
+「ルーナ、大人気だな」
+<PAUSE>
+<NAME_PLATE>
+　わかる気はする。
+白と水色の清楚なワンピースは、
+ルーナの淡いロングヘアとよく合っていて、
+<PAUSE>
+<NAME_PLATE>
+　大きなつばの白い帽子が、
+夏らしい爽やかさを演出している。
+<PAUSE>
+<NAME_PLATE>静流
+「よく似合ってるものね。
+　さて、私もこれを購入しようっと♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　静流先生が決済画面を立ち上げた、
+そのときだった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「？？　先生。
+　何か変な声がしませんか？」
+<PAUSE>
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「何か、うなってる？」
+<PAUSE>
+<NAME_PLATE>
+　穏やかな南国風のＢＧＭに混ざり、
+人とも獣ともつかない声が、
+微かに聞こえてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それはだんだんと明瞭になり――
+やがて言葉が聞こえてくる。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>声
+「イイネ……イイネ……」
+<PAUSE>
+<NAME_PLATE>声
+「イイネ……ウラヤマシイ……」
+<PAUSE>
+<NAME_PLATE>声
+「ナンデアンナコガ……
+　ワタシヨリブスノクセニ……
+　ワタシノホウガ…イケテルノニ…」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なんだ！？」
+<PAUSE>
+<NAME_PLATE>
+　オンラインモールに他のユーザーが
+いるのかと思ったが、
+人の姿は見えない。
+<PAUSE>
+<NAME_PLATE>
+　しかしその声はルーナに向かい、
+あからさまな怨嗟を投げかけていた。
+<PAUSE>
+<NAME_PLATE>
+　それもひとつではない。
+大勢の声が口々に呟いているのだ。
+<PAUSE>
+<NAME_PLATE>
+　声色は様々だが、男より女、
+それも若い声が多いように思えた。
+<PAUSE>
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「分析不能、
+　この現象、おばけ、ですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ネット空間におばけがいるかよ！」
+<PAUSE>
+<NAME_PLATE>
+　しかし、姿は見えず怨嗟の声だけが
+響くというこの状況、
+まさに心霊現象と呼ぶにふさわしい。
+<PAUSE>
+<ACTOR>0,chr_t0243a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0244a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「いいえ、いるかもよ。
+　死霊ではなくて生霊がね」
+<PAUSE>
+<NAME_PLATE>静流
+「ネット空間は、
+　妬みや僻みが生まれやすい場所だから」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、だけど……」
+<PAUSE>
+<NAME_PLATE>
+　日差しの向き、服の繊維一本まで
+再現されるほど計算された空間で、
+そんなものが出現する余地があるだろうか。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>声
+「ミツケタ」
+<PAUSE>
+//　※立ち絵
+//　　ＡＩデザイア
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ルーナ
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>
+　突然。
+ルーナの目の前に女が現れた。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「お化け！？」
+<PAUSE>
+<NAME_PLATE>
+　華奢ですらりとした女だ。
+しかし生気は感じられず、
+その表情はノイズで隠されている。
+<PAUSE>
+<NAME_PLATE>
+　その細い体の周りを、
+天球儀のような幾重もの輪が
+回りながら取り巻いている。
+<PAUSE>
+<NAME_PLATE>女
+「＝＝＝＝」
+<PAUSE>
+//　※白背景か、光の軌跡のようなエフェクトがあれば出してください
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　そして、その天球儀が光ったかと思うと、
+一本のビームとなり、
+ルーナの顔に向かって放たれる。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「きゃっ！？」
+<PAUSE>
+<NAME_PLATE>
+　ルーナは素早くしゃがみこんで避けたが、
+女はなおもルーナを見つめている。
+<PAUSE>
+<BG>nc316a,IN, 500
+<ACTOR>0,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>静流
+「攻撃プログラム？！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>声
+「ミツケタ……バズッテルコ……」
+<PAUSE>
+「ダサイクセニ……」
+<PAUSE>
+「オンナッテダケデズルイ……」
+<PAUSE>
+<NAME_PLATE>
+　よく見ると、この女が喋っている
+わけでもないようだ。
+<PAUSE>
+<NAME_PLATE>
+　声がいくつも重なり合い、
+女の周囲を唸りながら渦巻いているのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（「バズってる」とか「ズルイ」とか、
+　「ダサいくせに」とか、
+　妙に生々しいというか……）
+<PAUSE>
+<NAME_PLATE>俺
+「……！！！
+　もしかしてこいつが……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ふうまくん、心当たりがあるの？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は蛇子から聞いたネットの怪談、
+通称“デザイア”のことを二人に話した。
+<PAUSE>
+<NAME_PLATE>俺
+「馬鹿げた話だと思って、
+　気にしてなかったんですけど」
+<PAUSE>
+<ACTOR>0,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「なるほど……。
+　お化けの正体見たりってところね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　目の前のお化け――デザイアは、
+スリムで引き締まったボディに
+布地の少ないスーツ、謎の装飾をまとい、
+<PAUSE>
+<NAME_PLATE>
+　ランウェイを歩くコレクションモデルの
+ような自信に満ちた立ち姿で、
+ルーナの前に佇んでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「おいお前、いったいどこの誰だ？」
+<PAUSE>
+<NAME_PLATE>デザイア
+「＝＝＝＝」
+<PAUSE>
+<NAME_PLATE>
+　当然、デザイアは答えない。
+<PAUSE>
+<NAME_PLATE>俺
+「ルーナの情報を狙ってきた、
+　どこかの国のハッカーとか？
+　それにしちゃトガった見た目ですが」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0244a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「その線は薄いわね。
+　ネットのセキュリティは完璧だし」
+<PAUSE>
+<ACTOR>0,chr_t0243a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「“アルテミス”を切り離した状態の
+　私にハッキングをかけたところで、
+　情報など得られません」
+<PAUSE>
+<NAME_PLATE>俺
+「ふーむ……」
+<PAUSE>
+<NAME_PLATE>
+　ならば本当にネットを彷徨う
+生霊だとでもいうのか。
+<PAUSE>
+<NAME_PLATE>俺
+「とにかく危険な奴だ。
+　いったんここを出て、
+　オフラインにしましょう」
+<PAUSE>
+<NAME_PLATE>
+　模擬戦闘システムのものを流用したという
+この空間。
+<PAUSE>
+<NAME_PLATE>
+　当然、危険がないよう改造されているし、
+お金のやりとりがされる場であるから、
+セキュリティも完璧なはずだ。
+<PAUSE>
+<NAME_PLATE>
+　そこを何らかの方法で破られた――
+<PAUSE>
+<NAME_PLATE>
+　となれば、とりあえずここを離脱し、
+サイトの管理者か、
+サイバー警察にでも連絡するのが――
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0244a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>静流
+「うーん、そうねえ……」
+<PAUSE>
+<NAME_PLATE>静流
+「いいえ。授業を続行するわ。
+　今日の課題は、協力して
+　こいつを倒すことにしましょうか」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええっ！？」
+<PAUSE>
+<NAME_PLATE>静流
+「最初は、安全なネットショッピングに
+　ついて学んでもらえればいいと
+　思ってたけど」
+<PAUSE>
+<NAME_PLATE>静流
+「サイバー捜査中にハッカーや
+　ウイルスと遭遇するなんてよくあること。
+　その訓練だと思えばいいわ」
+<PAUSE>
+<NAME_PLATE>俺
+「それにしても、急に難易度が
+　上がりすぎじゃないですか？
+　補習の一授業なのに……」
+<PAUSE>
+<NAME_PLATE>静流
+「そうね。
+　じゃ、倒したらこの先の分まで、
+　まとめて単位をあげるわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「う……」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　まとめて単位を貰えるということは、
+夏休み中は、これ以上補習に
+来なくてよくなるというわけだ。
+<PAUSE>
+<NAME_PLATE>
+　存分に本を貪り、深夜までゲームをし、
+たまに川や山で遊んだりして、
+のんびり過ごす日々――
+<PAUSE>
+<ACTOR>0,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「やる気になった？」
+<PAUSE>
+<NAME_PLATE>俺
+「頑張りますよ！」
+<PAUSE>
+<NAME_PLATE>
+　我ながら現金だと思うが、
+俄然やる気になった俺は、
+改めてデザイアに対峙する。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（しかし、一体どういう
+　存在なのかわからないからな……）
+<PAUSE>
+<ACTOR>0,ts_m199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　さっきの攻撃を見るに、
+この空間の安全リミッターは、
+奴の手によって破られている。
+<PAUSE>
+<NAME_PLATE>
+　ならば、模擬戦闘空間と同じように、
+物理攻撃が通るはずだ。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>
+　俺はとりあえず手近にあった、
+服のハンガーをデザイアに投げてみる。
+<PAUSE>
+<NAME_PLATE>
+　彼女の体を取り巻く輪が反応し、
+ハンガーを弾こうとする――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィン！！
+<PAUSE>
+<NAME_PLATE>俺
+「うおおっ！？」
+<PAUSE>
+<NAME_PLATE>
+　それだけではない。
+弾かれたハンガーは的確に俺の目を狙い、
+スピードを増して飛んでくる。
+<PAUSE>
+<BG>nc316a,IN, 500
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「マスター、あぶない」
+<PAUSE>
+<SE_PLAY>se050
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　咄嗟にルーナが飛び出して、
+俺を突き飛ばして守ってくれた。
+が――
+<PAUSE>
+<SE_PLAY>se010
+<NAME_PLATE>
+　凶器と化したハンガーは、
+ルーナの肩に激突。
+ルーナはそのまま床に倒れた。
+<PAUSE>
+<BG>nc316a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「大丈夫かルーナ！」
+<PAUSE>
+<NAME_PLATE>
+　と、慌てて抱き起こすと、
+ルーナはぱっと目を開ける。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「Ｔ＠０７？｜ｐ＋Ｄ５……」
+<PAUSE>
+<NAME_PLATE>
+　しかしその目は虚ろに宙を見て、
+口からは意味不明な言葉が流れた。
+<PAUSE>
+<NAME_PLATE>俺
+「ルーナ！？」
+<PAUSE>
+<ACTOR>0,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「デザイアの攻撃に当たったら、
+　自分のデータがバグるみたいね」
+<PAUSE>
+<NAME_PLATE>静流
+「下手したらログアウトできなくなるわ。
+　気を付けて」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな危ない奴と補習で戦えって！？」
+<PAUSE>
+<NAME_PLATE>静流
+「あら、ますます戦わなきゃいけないわ。
+　放っておいて、
+　一般人に被害が出てもいいの？」
+<PAUSE>
+<NAME_PLATE>俺
+「う……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それはそうだ。
+ＳＮＳにハマっている蛇子たちに
+被害が出ないとも限らない。
+<PAUSE>
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「マスター。すみません
+　あの敵の攻撃は危険なようです」
+<PAUSE>
+<NAME_PLATE>俺
+「ルーナ！」
+<PAUSE>
+<NAME_PLATE>
+　腕の中のルーナは正気を取り戻し、
+立ち上がって俺を守ろうとする。
+<PAUSE>
+<NAME_PLATE>ルーナ
+「今回はリカバリできましたが、
+　何度も受けたら壊れてしまうかも。
+　どう戦いますか？　マスター」
+<PAUSE>
+<NAME_PLATE>俺
+「どう戦うか……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし相手の正体がわからない以上、
+これといった作戦は練りにくい。
+<PAUSE>
+<NAME_PLATE>俺
+（いや、敵もだが……）
+<PAUSE>
+<NAME_PLATE>
+　“アルテミス”のないルーナに、
+どんな戦い方ができるのか。
+それが何より重要だ。
+<PAUSE>
+<NAME_PLATE>
+　などと考えていると――
+<PAUSE>
+<ACTOR>0,ts_m199a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>デザイア
+「＝＝＝＝！！」
+<PAUSE>
+//　※立ち絵
+//　　ＡＩデザイア
+//　　　　＊モンスターイラストより流用
+//【背景：歪んだネット空間＿昼】【時間：昼】
+//　※彷徨う淫らなルナティクス＿nc025aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc052a,IN, 1000
+<NAME_PLATE>
+　デザイアが咆哮したかと思うと、
+周囲の景色がねじ曲がり、渦を巻き、
+やがてブラックホールのような空間となる。
+<PAUSE>
+<ACTOR>0,ts_m199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デザイア
+「＝＝＝＝」
+<PAUSE>
+//　※立ち絵
+//　　ＡＩデザイア
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「どうやらゆっくり作戦を練ってる時間は
+　なさそうだな」
+<PAUSE>
+<NAME_PLATE>
+　とりあえず戦いながら、
+敵とルーナの能力を見極めていくしかないか。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0243a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「戦闘ですね、マスター」
+<PAUSE>
+//　※立ち絵
+//　　【一般擬態モード】ルーナ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「ああ、なるべく攻撃を
+　受けないように気をつけろ」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「はい、マスター」
+<PAUSE>
+<NAME_PLATE>
+　俺も立ち上がり、ルーナと共に構える。
+するとデザイアはそれに応えるように、
+咆哮した。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

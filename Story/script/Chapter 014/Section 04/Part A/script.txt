@@ -1,0 +1,639 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：センザキ＿繁華街裏通り＿ナイトクラブ内の裏＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+//nc062a
+<BGM_PLAY>bgm203,1000
+<BG>nc062a,IN, 1000
+<ACTOR>0,ay_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「久しぶりね。当主様」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//ay_t001a～
+<NAME_PLATE>
+　あやめが俺の前に出てきた。
+<PAUSE>
+<NAME_PLATE>
+　すでに武器を奪い、
+ホールドアップさせている。
+<PAUSE>
+<NAME_PLATE>
+　その上でなお、ゆきかぜが銃を
+突きつけていた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いつでも撃てるからね」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵_対魔忍
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//既存
+<NAME_PLATE>
+　いつでも撃たせろと言わんばかりの顔だ。
+<PAUSE>
+<NAME_PLATE>
+　あやめが俺を遠くから狙っていたことに加え
+アサギ先生に佐郷文庫の狙撃を依頼されたと
+聞かされ、平静ではいられないようだ。
+<PAUSE>
+<NAME_PLATE>
+　俺は頷き、あやめさんと顔を合わせた。
+<PAUSE>
+<NAME_PLATE>俺
+「お久しぶり、あやめさん」
+<PAUSE>
+<ACTOR>0,ay_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>あやめ
+「あら、顔が元に戻ってるわ。
+　いつの間にか治癒系の忍法にでも
+　目覚めたの？」
+<PAUSE>
+<NAME_PLATE>
+　さっき用心棒たちにボコボコにされた俺が
+もう治っているのを見て言った。
+<PAUSE>
+<NAME_PLATE>
+　あの連中は俺があやめに命令させて、
+店に下がらせている。
+<PAUSE>
+<NAME_PLATE>俺
+「目抜けの俺にも色々とあってね」
+<PAUSE>
+<ACTOR>0,ay_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>あやめ
+「そのようね。
+　スナイパーの私があなたの捕虜になるなんて
+　これ以上ないほどの屈辱だわ」
+<PAUSE>
+<NAME_PLATE>俺
+「大事なことだから、直接聞くためだ」
+<PAUSE>
+<NAME_PLATE>あやめ
+「何かしら？」
+<PAUSE>
+<NAME_PLATE>
+　俺はさっき聞いたことをもう一度、
+目の前にいるあやめに聞いた。
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ校長の依頼で佐郷文庫を
+　暗殺したのか？」
+<PAUSE>
+<NAME_PLATE>あやめ
+「ええ、彼女の依頼で狙撃した」
+<PAUSE>
+<NAME_PLATE>
+　あやめは躊躇うことなく答えた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　銃を持ったゆきかぜの手がピクッとする。
+<PAUSE>
+<NAME_PLATE>
+　俺はそれを制して、
+<PAUSE>
+<NAME_PLATE>俺
+「そうか、安心した」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,yu_t002c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「え！？　あ、安心！？
+　どういうことよ、ふうま！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アサギ先生がこの人に暗殺を
+　依頼したのよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ゆきかぜ。あやめさんは
+　こう言ったんだ。“狙撃した”と」
+<PAUSE>
+<ACTOR>1,yu_t002f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「同じことじゃない！」
+<PAUSE>
+<NAME_PLATE>俺
+「違う。そうだろう？　紅？」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　気配などまるで感じなかったが、
+俺は背後を振り返った。
+<PAUSE>
+<ACTOR>2,chr_t0006c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心願寺紅
+「さすがだ、ふうま」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//既存
+<NAME_PLATE>
+　闇に潜んでいた紅が姿を現した。
+<PAUSE>
+<NAME_PLATE>
+　吸血鬼の血を引く碧い瞳が
+俺を静かに見据えていた。
+<PAUSE>
+//【黒画面】
+//【背景：NC049b　五車町-水城家外観＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿NC049bより流用
+//nc146b
+<ACTOR_OUT>2,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm603,1000
+<BG>nc146b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、五車町―――。
+<PAUSE>
+<NAME_PLATE>
+　水城家屋敷、ゆきかぜの城に
+五車へ侵入した兵士たちの姿があった。
+<PAUSE>
+<GROUP>
+<ACTOR>3,ka_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ra_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　歩兵部隊のみならず、
+六機もの強化外骨格が稼働している。
+<PAUSE>
+<NAME_PLATE>兵士
+「雷電を先頭に立てろ」
+<PAUSE>
+//　※立ち絵
+//　　神田旅団兵士立ち絵
+//　　　　＊対魔忍アサギ３より流用
+//ka_t001a～
+<NAME_PLATE>兵士
+「一番厄介だという“雷撃の対魔忍”は
+　内調の工作で不在なはずだ」
+<PAUSE>
+<NAME_PLATE>雷電兵
+『こいつの装甲もブチ破るって忍者か？』
+<PAUSE>
+//　※立ち絵
+//　　PEX-88式改 雷電立ち絵
+//　　　　＊対魔忍アサギ３より流用
+//ri_t001a～
+<NAME_PLATE>雷電兵
+『本当かよ』
+<PAUSE>
+<NAME_PLATE>雷電兵
+『さあな？
+　だが留守ってんなら余裕だな』
+<PAUSE>
+<NAME_PLATE>歩兵
+「城を守る“不死の対魔忍”は相手にするな」
+<PAUSE>
+<NAME_PLATE>歩兵
+「雷電の装甲に有効な攻撃手段は
+　持っていないが、
+　こちらの攻撃も無効らしい」
+<PAUSE>
+//　※立ち絵
+//　　神田旅団兵士立ち絵
+//　　　　＊対魔忍アサギ３より流用
+//ka_t001a～
+//【黒画面】
+//【背景：センザキ＿繁華街裏通り＿ナイトクラブ内の裏＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+//nc062a
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc062a,IN, 1000
+<ACTOR>2,chr_t0006j,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>紅
+「カッコ良くなったな……」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//既存
+<NAME_PLATE>
+　紅がポツリとなにか言った。
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<ACTOR>2,chr_t0006d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「い、いや、なんでもない……」
+<PAUSE>
+<NAME_PLATE>
+　久しぶりに会った紅は
+妙に落ち着かないように見えた。
+<PAUSE>
+<NAME_PLATE>
+　俺の記憶では、いつも凜としていて
+高嶺の花的な空気を纏っていたのだが。
+<PAUSE>
+<NAME_PLATE>
+　腹心のあやめがあっさり俺に捕まって
+多少は戸惑っているのだろうか。
+<PAUSE>
+<NAME_PLATE>俺
+「紅、答えてくれ！」
+<PAUSE>
+<ACTOR>2,chr_t0006j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「な、なにをだ？」
+<PAUSE>
+<NAME_PLATE>
+　紅はビクッとした。
+<PAUSE>
+<NAME_PLATE>俺
+「佐郷さんは死んでないのか？」
+<PAUSE>
+<ACTOR>2,chr_t0006c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「井河アサギから聞いていないのか？」
+<PAUSE>
+<NAME_PLATE>
+　紅は少し意外そうに確認してくる。
+<PAUSE>
+<NAME_PLATE>俺
+「なにも。だから紅を訪ねた」
+<PAUSE>
+<ACTOR>2,chr_t0006g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「すまない。答える立場にない」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺の視線から逃れるように紅が目を伏せる。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>1,yu_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ふうま！？　どういうことなの！？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが口を挟んできた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なにがなんだか分かんないわよ。
+　いい加減ちゃんと説明して！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵_対魔忍
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//既存
+<NAME_PLATE>俺
+「そうだな……」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　俺はゆきかぜに、というよりも
+紅に聞かせるため、
+<PAUSE>
+<NAME_PLATE>
+　先の一件のあらましと、その後の独自調査、
+それに基づいた推論を語った。
+<PAUSE>
+<UI_DISP>OFF, 500
+<BG_OUT>1500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　佐郷を政府に送り届けるという任務。
+<PAUSE>
+<NAME_PLATE>
+　その身柄を引き渡す相手は内調だった。
+<PAUSE>
+<NAME_PLATE>
+　だがもし、あのまま内調の手に渡していれば
+米連のサイボーグ技術を研究するために
+佐郷は内調でモルモットにされていただろう。
+<PAUSE>
+<NAME_PLATE>
+　だからアサギ校長は佐郷の暗殺を演出した。
+<PAUSE>
+<NAME_PLATE>
+　佐郷を追う米連と内調の目を欺くため。
+<PAUSE>
+<BG>nc062a,IN, 500
+<ACTOR>2,chr_t0006c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そしてアサギ校長が偽装工作を依頼した
+相手が心願寺紅であったと。
+<PAUSE>
+<NAME_PLATE>俺
+「同じふうま一門を助けるとあれば、
+　義に篤いお前なら引き受けたはずだ」
+<PAUSE>
+<NAME_PLATE>紅
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//既存
+<NAME_PLATE>
+　なにも答えない紅に、俺はさらに続ける。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG_OUT>1500
+<ACTOR>5,ts_m099a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　内調の峰が接触してきたこと。
+<PAUSE>
+<NAME_PLATE>
+　心願寺紅とアサギ校長が共謀して
+佐郷を暗殺したと煽ってきたこと。
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+<BG>nc062a,IN, 500
+<NAME_PLATE>俺
+「だが俺はそこで悟った。
+　もし本当にあの暗殺に
+　紅が関与しているとしたら……」
+<PAUSE>
+<ACTOR>2,chr_t0006c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「紅、お前が義に反して
+　佐郷を暗殺するはずがないと」
+<PAUSE>
+<NAME_PLATE>紅
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「だとしたら、
+　峰は俺になにかをさせようとしている。
+　ならば逆にそれに乗ってみようってね」
+<PAUSE>
+<NAME_PLATE>俺
+「そして、ゆきかぜ、お前だ」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>1,yu_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺は紅からゆきかぜに視線を移した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「え？　わ、わたし？」
+<PAUSE>
+<NAME_PLATE>
+　聞き役に回っていたゆきかぜは
+いきなり名前を出されてビクッとした。
+<PAUSE>
+<ACTOR>1,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「峰は恐ろしいほど
+　俺たちのことを知っている」
+<PAUSE>
+<NAME_PLATE>俺
+「峰はお前の名前を一切出さずに、
+　今回の任務にはゆきかぜが最適だと
+　俺が判断するように誘導した」
+<PAUSE>
+<NAME_PLATE>俺
+「俺は峰の誘導を看破しつつ、
+　敢えてそれにも乗った」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それで私だけを連れて……」
+<PAUSE>
+<ACTOR>1,yu_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　ゆきかぜは納得しかけたが、
+いきなりハッとして、
+<PAUSE>
+<ACTOR>1,yu_t001f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ああっ！！
+　じゃあ、最高の戦力がどうこうってのは
+　口からでまかせだったのね！！」
+<PAUSE>
+<ACTOR>1,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「そうじゃない。
+　お前なら敵の罠に乗るだけの力量があると
+　判断してのことだ」
+<PAUSE>
+<ACTOR>1,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「むーーー。
+　なんか上手いこと言いくるめられてる
+　気がするけど……いいわ。それで？」
+<PAUSE>
+<NAME_PLATE>
+　矛を収めたゆきかぜに促され、続ける。
+<PAUSE>
+<NAME_PLATE>俺
+「俺は考えた。
+　お前が任務に同行することによって
+　峰はどう得する？　なにが狙いだ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<ACTOR>1,yu_t001c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,chr_t0006c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紅
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//既存
+<NAME_PLATE>あやめ
+「……………………」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//ay_t001a～
+<NAME_PLATE>
+　ゆきかぜだけでなく、紅、あやめも
+俺の次の言葉を待っている。
+<PAUSE>
+<NAME_PLATE>俺
+「答えは簡単。クリアだ」
+<PAUSE>
+<ACTOR>1,yu_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「え？　クリア！？」
+<PAUSE>
+<NAME_PLATE>紅
+「コードネーム“タイプヒーロー”か」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが驚くのは当然だが、
+紅もクリアのことは知っていたようだ。
+<PAUSE>
+<ACTOR>1,yu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>俺
+「クリアを使って
+　アサギ校長を暗殺しようとした首謀者。
+　それはおそらく峰と内調だ」
+<PAUSE>
+<NAME_PLATE>俺
+「もしかしたらクリアの体のどこかに
+　その証拠があるのかもしれない」
+<PAUSE>
+<NAME_PLATE>俺
+「だから峰は、内調は何としても
+　クリアを奪還したいんだと思う」
+<PAUSE>
+<ACTOR>1,yu_t001f,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ちょっと！？
+　そこまで読んでおいて、
+　私をクリアから引き離したの！？」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵_対魔忍
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//既存
+<NAME_PLATE>俺
+「引き離したわけじゃない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「結果的にそうなってるじゃないの！
+　今は私がクリアの面倒を見てるのよ！！」
+<PAUSE>
+<ACTOR>1,yu_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>俺
+「大丈夫だ。
+　俺が最も信用する戦力を城に置いている。
+　城の爺さんだけじゃ不安だからな」
+<PAUSE>
+//【黒画面】
+//【背景：NC049b　五車町-水城家外観＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿NC049bより流用
+//nc146b
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm313,1000
+<BG>nc146b,IN, 1000
+<GROUP>
+<ACTOR>3,ka_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ra_t002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>歩兵
+「よし！　前進だ」
+<PAUSE>
+//　※立ち絵
+//　　神田旅団兵士立ち絵
+//　　　　＊対魔忍アサギ３より流用
+//ka_t001a～
+<NAME_PLATE>雷電兵
+『へへ！　出て来いロートルの忍者ども』
+<PAUSE>
+//　※立ち絵
+//　　PEX-88式改 雷電立ち絵
+//　　　　＊対魔忍アサギ３より流用
+//ri_t001a～
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　歩兵の先陣を切って、
+六機の強化外骨格が進行する。
+<PAUSE>
+<NAME_PLATE>
+　彼らに立ちはだかる影。
+<PAUSE>
+<NAME_PLATE>きらら
+「ちょっと待ったアーーー！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍
+//既存
+<GROUP>
+<SE_PLAY>se003
+<ACTOR>6,kr_t003a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　巨大リボンとツインテールの隙間から
+見える鬼の角。
+<PAUSE>
+<NAME_PLATE>
+　その身に纏うは凍てつく冷気。
+<PAUSE>
+<NAME_PLATE>
+　忍法と冷気の力を操る
+ハイブリッド対魔忍―――
+<PAUSE>
+<NAME_PLATE>きらら
+「鬼崎きらら、見参！！」
+<PAUSE>
+<ACTOR_OUT>6,CENTER,linear,1000
+<GROUP>
+<ACTOR>7,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>8,h_t002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うおおおおおお！
+　ほ、ほんとに悪い奴ら来たぞ！？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+//既存
+<NAME_PLATE>蛇子
+「私たちを信じて任せてくれたんだから、
+　やる気満々よね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+//既存
+<NAME_PLATE>
+　鹿之助、蛇子の姿もあった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>8,RIGHT,linear,1000
+</GROUP>
+<ACTOR>6,kr_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「この悪党ども！！
+　ここは私たちが一歩も通さないわよ！！」
+<PAUSE>
+//→S402a
+<ACTOR_OUT>6,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

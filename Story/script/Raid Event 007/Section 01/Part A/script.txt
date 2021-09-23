@@ -1,0 +1,1808 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：あるボスの館＿夜】【時間：夜】
+//　※カーラTheBloodLord＿nc002aより流用
+<BG>nc172a,IN, 1000
+<NAME_PLATE>
+　某日―――。
+<PAUSE>
+//【背景：あるボスの部屋＿夜】【時間：夜】
+//　※カーラTheBloodLord＿nc003bより流用
+<BGM_PLAY>bgm209,1000
+<BG>nc173a,IN, 1000
+<NAME_PLATE>
+　彼女を買ったのはミスターＳと
+呼ばれる男だった。
+<PAUSE>
+<NAME_PLATE>
+　男は魔界由来のドラッグ、
+魔薬を扱う闇組織のボスとして、
+<PAUSE>
+<NAME_PLATE>
+　またそれ以上に、筋金入りの
+サディストとして知られていた。
+<PAUSE>
+<NAME_PLATE>
+　ミスターＳの歪んだ欲望の餌食に
+なった女は数知れない。
+<PAUSE>
+<NAME_PLATE>
+　女優、アイドルなど表社会の人間、
+敵対組織の女幹部、彼を追っていた女捜査官、
+街でたまたま見つけた少女、人妻。
+<PAUSE>
+<NAME_PLATE>
+　彼が興味をもった女たちは捕らえられ、
+ありとあらゆる調教、拷問、陵辱を尽くされ、
+生きて彼の館を出ることがなかった。
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>0,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「あ……ああ……」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「ぐふふふふ、そんなに震えて
+　ワシが怖いか？　ん？　ん？」
+<PAUSE>
+<NAME_PLATE>六穂
+「わ、私に……
+　なにを……するつもりなの？」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「それを言ってしまってはつまらんじゃろう。
+　これからお前の体に教え込んでやるわい。
+　時間をかけて、ゆっくりとな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「ひいっ……い、いやあ……
+　やめて……許して……おねがい……」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「お前には人であることを忘れるほどの
+　痛みと悦びを与えてやろう。
+　これは誓いのキスじゃ―――じゅぶうぅ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「ンッ！？　ンンッッッ！
+　ンッンッ、んんーーーーーーーっ！！」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「じゅるっ、じゅるっ、ぶぢゅるるっ。
+　おうおう、可愛い奴じゃのう。
+　唾液もまるで蜜のような―――」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「んぶっ、がっ！？　おがっっ！！
+　ぐぐぐああああああああああっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　嬉々として彼女の唇を貪っていた
+ミスターＳの身体がいきなり跳ねた。
+<PAUSE>
+<SE_PLAY>se105
+<NAME_PLATE>
+　そのままひっくり返り、
+まるで瘧にかかったようにガクガクと
+床でのたうち回り始める。
+<PAUSE>
+<ACTOR>0,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「あれあれえ、どうしたの？
+　ボクに痛みと悦びを与えてくれるんじゃ
+　なかったの？」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「ぎっ、ぎざまっ……わ、わぢにっ……
+　なにをっ、は、腹が、やげるううっ！！」
+<PAUSE>
+<NAME_PLATE>六穂
+「あはは、惜しい。
+　焼けてるんじゃなくて、腐ってるんだよ。
+　このボクの毒でね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミスターＳ
+「ど、ど、どぐうううっ！？
+　ぐぎぃぎゃあああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　絶叫する男からおぞましい腐臭が立ち上り、
+その肉がグズグズと崩れていく。
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクの唾、美味しかったでしょ？
+　あなたも色々とやってきたみたいだけど、
+　生きたまま人を腐らせたことはあった？」
+<PAUSE>
+<NAME_PLATE>ミスターＳ
+「ごぶっ、おぶっ、えぶぶっ、ぽぼっ
+　ぶぶぶぶっ、えぶおぶ、びゅびゅう！！！」
+<PAUSE>
+<NAME_PLATE>六穂
+「残念。もう喋れないんだ。
+　でも、脳みそが腐るのは最後だから
+　じっくり味わって逝くといいよ」
+<PAUSE>
+<NAME_PLATE>六穂
+「さてと、ボクはもう帰ろうかな。
+　キスであっさり殺しちゃったけど、
+　ＳＭとか面倒だしね。バイバイ」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍、柳六穂（やなぎむつほ）は、
+彼女の毒で腐っていくミスターＳを見下ろして
+満足げな笑みを浮かべた。
+<PAUSE>
+//【黒画面】
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+//　※対魔忍アサギＺＥＲＯの背景NC008aより流用
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その任務の話が来たのは、
+対魔忍の里が襲撃を受けた後のことだ。
+<PAUSE>
+<NAME_PLATE>
+　メイジャーが脱走していたことを知り、
+独自にその行方を探ろうとしていた矢先だ。
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC009aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc006a,IN, 1000
+<NAME_PLATE>俺
+「柳先輩のサポート役として
+　東京キングダムに？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<ACTOR>1,a_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「急な話で悪いんだけど、
+　彼女のパートナーにはあなたが
+　ぴったりだと思って」
+<PAUSE>
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　アサギ先生の横には、五車学園を卒業した
+柳六穂先輩がいる。
+<PAUSE>
+//　※立ち絵
+//　　　柳　六穂　立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　顔を合わせるのは初めてだが、
+対魔忍屈指の毒使いの家系の出で、
+斥候、潜入、暗殺の名手だ。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0135a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>六穂
+「独立遊撃隊の噂は聞いているよ。
+　よろしくね」
+<PAUSE>
+<NAME_PLATE>
+　先輩はその恐るべき能力と経歴とは裏腹に
+気さくに握手を求めてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「こちらこそ。
+　俺も柳先輩の活躍の噂は聞いています」
+<PAUSE>
+<NAME_PLATE>六穂
+「六穂でいいよ。敬語もいらない。
+　堅苦しいのは苦手だからね。
+　ところで―――」
+<PAUSE>
+<NAME_PLATE>
+　俺が握手に応えると、
+先輩―――六穂は意味ありげに
+手にギュッと力を込めてきた。
+<PAUSE>
+<NAME_PLATE>六穂
+「この手は毒手だよ。
+　君、ボクが怖くないの？」
+<PAUSE>
+<NAME_PLATE>俺
+「まさかパートナーにいきなり毒を
+　食らわせたりはしないだろう？」
+<PAUSE>
+<NAME_PLATE>
+　多少ビビりつつも敬語をやめて答える。
+慌てて手を離すような無礼はできない。
+<PAUSE>
+<NAME_PLATE>六穂
+「なーるほど。
+　ボクと組む資格はあるみたいだ」
+<PAUSE>
+<NAME_PLATE>六穂
+「でも、もし余計なことをしたら、
+　ボクの毒の餌食になっちゃうかもね？」
+<PAUSE>
+<NAME_PLATE>
+　冗談とも本気ともつかないことを言い、
+今のところ毒ではないらしい手を
+離してくれた。
+<PAUSE>
+<ACTOR>0,chr_t0135a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,a_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>俺
+「アサギ先生、六穂のサポートということは、
+　東京キングダムに暗殺のターゲットが？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「米連、それも特務機関Ｇと魔界の技術を
+　取引している闇の組織“マッスル団”の
+　ボス“マッスルジョー”がターゲットよ」
+<PAUSE>
+<NAME_PLATE>俺
+「また米連がらみですか……」
+<PAUSE>
+<NAME_PLATE>
+　俺のげんなりした顔を見て、
+アサギ先生はくすりと笑った。
+<PAUSE>
+<ACTOR>1,a_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それもあって、あなたを選んだの」
+<PAUSE>
+<NAME_PLATE>俺
+「特務機関Ｇつながりと言うことは、
+　どうせまた話をもってきたのは
+　例の仮面のマダムですよね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そういうこと。
+　東京キングダムに着いたら、
+　まずはＤＳＯの関係者に会ってちょうだい」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そこで任務に必要な情報とアイテムを
+　もらう手筈になってるわ」
+<PAUSE>
+<NAME_PLATE>俺
+「関係者って誰なんです？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「会えば分かるわ」
+<PAUSE>
+<NAME_PLATE>
+　多分あいつだろう。
+<PAUSE>
+<NAME_PLATE>
+　鋼鉄の対魔忍、甲河アスカ。
+<PAUSE>
+<NAME_PLATE>
+　また面倒くさいことになりそうだ。
+<PAUSE>
+<NAME_PLATE>六穂
+「なんだか君も色々とあるみたいだね。
+　でもまあ、楽しくやろうよ」
+<PAUSE>
+<NAME_PLATE>
+　憂鬱な気分になった俺と対照的に
+六穂は妙に面白がっているように見えた。
+<PAUSE>
+//【背景：東京キングダム全景＿昼】【時間：夜】
+//　※対魔忍アサギ３の背景nc001aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc007a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――数日後。
+<PAUSE>
+//【背景：東京キングダム路地裏＿夜】【時間：夜】
+//　※対魔忍アサギ３の背景nc031aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc008a,IN, 1000
+<ACTOR>0,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺と六穂は東京キングダムに到着していた。
+<PAUSE>
+<NAME_PLATE>
+　すでに何度となく訪れたことがあるため、
+街中を魔界の者たちが普通に歩いている
+光景には慣れた。
+<PAUSE>
+//<NAME_PLATE>
+//　しかし、さくらと傭兵のバイトで騙された/り
+//正月には猪と身体を交換させられたり、
+//ヤタガラスにロリ誘拐犯扱いされたり、
+//<PAUSE>
+//<NAME_PLATE>
+//　挙げ句の果てには、骸佐に殺されたりと、
+//この街ではろくな目にあわない。
+//<PAUSE>
+//<NAME_PLATE>
+//　しかも今回は米連がらみの任務だ。
+//その関係者とやらはまだ現れないが、
+//ずっと現れないで欲しい気分だ。
+//<PAUSE>
+<NAME_PLATE>六穂
+「ねえねえ、
+　あの二人、どういう関係だと思う？」
+<PAUSE>
+//　※立ち絵
+//　　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ＤＳＯとの約束の場所で待っていると、
+六穂がいきなり話しかけてきた。
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※立ち絵
+//　　魔族傭兵（女）
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<GROUP>
+<ACTOR>2,ts_m091a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　指さしているのは、
+この街ではお馴染みの魔族の男女だ。
+<PAUSE>
+<NAME_PLATE>俺
+「傭兵のカップルじゃないのか？」
+<PAUSE>
+<NAME_PLATE>六穂
+「恋人かな？」
+<PAUSE>
+<NAME_PLATE>俺
+「かもな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「リア充とか。
+　死んじゃうといいのにね～♪」
+<PAUSE>
+<NAME_PLATE>
+　笑いながら物騒なことを言う。
+<PAUSE>
+<NAME_PLATE>
+　ここに来るまでに多少はトラブルもあり、
+六穂の毒使いとしての実力は把握している。
+<PAUSE>
+<NAME_PLATE>
+　体内であらゆる毒を生成、変質させる忍法。
+さらにそれを体液として
+分泌することも可能なのだ。
+<PAUSE>
+<NAME_PLATE>
+　半面、性格はとらえどころがない。
+<PAUSE>
+<NAME_PLATE>
+　最初に会ったときは、毒使いらしからぬ
+気さくな性格かと思ったが、少し違うようだ。
+<PAUSE>
+<NAME_PLATE>
+　任務中は必要以上のことは喋らず、
+俺がいてもいなくても、
+どうでもよさそうに見える。
+<PAUSE>
+<NAME_PLATE>
+　それでいて、ふと思い出したかのように、
+今のような毒のあるセリフを吐く。
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクが殺してこようか？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、だめだろ。
+　こんなところで騒ぎを起こすつもりか」
+<PAUSE>
+<NAME_PLATE>六穂
+「あのリア充じゃないよ。
+　今回のターゲットだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、そっちか」
+<PAUSE>
+<NAME_PLATE>六穂
+「米連の人、どこかで死んでるんじゃない？
+　ボク一人で殺せばすぐすむよ」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ここでＤＳＯと合流するのは
+　アサギ先生の指示だ。俺も会いたくないが、
+　もうちょっと待て」
+<PAUSE>
+<NAME_PLATE>六穂
+「君は真面目だねーー」
+<PAUSE>
+<NAME_PLATE>
+　六穂は肩をすくめて、退屈しのぎなのか、
+手甲に仕込まれている針をシュッ、シュッと
+出し入れし始めた。
+<PAUSE>
+<NAME_PLATE>
+　それはまあいいとして
+よくないのは巨象をも数秒で殺す猛毒を
+普通に手から分泌させていることだ。
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さすがに止めさせようと思ったとき、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゾクッッ！！
+<PAUSE>
+<NAME_PLATE>俺
+「っっ！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、背筋に氷柱を
+押し当てられたかのような気がした。
+<PAUSE>
+<NAME_PLATE>
+　凄まじい殺気だ。
+<PAUSE>
+<NAME_PLATE>
+　誰かが俺を狙っている？
+<PAUSE>
+<NAME_PLATE>六穂
+「あーあ。退屈」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　六穂は気づいていない？？
+<PAUSE>
+<NAME_PLATE>
+　なぜ！？
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>4,as_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「やっほー。待った？」
+<PAUSE>
+//　※立ち絵
+//　　制服アスカ　立ち絵
+//　　　　　＊対魔忍RPGカードより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　いきなり背後から声がかかった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「やだ、うわっとかそんなに驚いた？
+　どうしたの？　今すごい緊迫感あったよ」
+<PAUSE>
+<ACTOR>4,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　どこからともなく現れたのは
+よく知った顔、甲河アスカだ。
+<PAUSE>
+<NAME_PLATE>
+　そして殺気も消えていた。
+<PAUSE>
+<NAME_PLATE>
+　なんだ今のは？
+気のせいだったのか？
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ、お前か……」
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「なあに、その顔。
+　せっかく今日は制服で来てあげたのに。
+　どう？　可愛い？」
+<PAUSE>
+<ACTOR>4,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　制服姿のアスカは自慢げにその場でくるりと
+回ってみせた。
+<PAUSE>
+<NAME_PLATE>俺
+「別に……」
+<PAUSE>
+<ACTOR>4,as_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「またまた。無理しちゃって。
+　あ、それともウェディングドレスの方が
+　良かった？　アンジェみたく？」
+<PAUSE>
+<NAME_PLATE>俺
+「その件ではずいぶんと世話になったな」
+<PAUSE>
+<NAME_PLATE>
+　少し前のことだが、こいつのせいで、
+俺は名前も知らず、会ったこともなかった
+アンジェと危うく結婚するところだった。
+<PAUSE>
+<ACTOR>4,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そんな大したことしてないし。
+　アンジェ、また一緒にご飯食べたいって
+　言ってたよ」
+<PAUSE>
+<NAME_PLATE>
+　アスカは俺の皮肉をカラカラと受け流す。
+まるきり反省していない。
+<PAUSE>
+<ACTOR>4,as_t005a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>六穂
+「ふ～～ん。
+　その子、友達なんだ？」
+<PAUSE>
+<NAME_PLATE>
+　六穂が妙に含みのある口調で聞いてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「違う違う。
+　こんな奴、全然友達じゃない。
+　友達のわけがない」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あ～～～ひどい。
+　今まで結構ピンチを助けてあげたのに。
+　この恩知らず」
+<PAUSE>
+<NAME_PLATE>俺
+「余計なピンチを押し付けられたことの方が
+　多いだろうが。この疫病神」
+<PAUSE>
+<ACTOR>4,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あなたが出張ってくるっていうから、
+　ただのお使いに私が来てあげたのに」
+<PAUSE>
+<NAME_PLATE>俺
+「ちっとも嬉しくないわ。
+　来るならアンジェの方が良かった。
+　あいつのおにぎりは美味いからな」
+<PAUSE>
+<ACTOR>4,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「わ、私だっておにぎりくらい握れるわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「どうせ強く握りすぎて
+　いつもガチガチの餅になるとかいう
+　オチだろうが」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ちょっ！？
+　な、なんで知ってるのよ！
+　アンジェに聞いたの？」
+<PAUSE>
+<NAME_PLATE>俺
+「聞かなくたってそれくらい想像できる。
+　お前を見ていればな」
+<PAUSE>
+<ACTOR>4,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「む～～～～なんか腹立つ」
+<PAUSE>
+<NAME_PLATE>六穂
+「そんなことよりさあ、
+　君、約束のものは持ってきたの？」
+<PAUSE>
+<NAME_PLATE>六穂
+「ず～～っと待ってたから、
+　早くして欲しいんだけど」
+<PAUSE>
+<NAME_PLATE>
+　六穂がイライラしたように口を挟んだ。
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あっ、ごめんなさい。
+　自己紹介もまだだったわね。
+　私はＤＳＯの甲河アスカ。あなたは―――」
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクの名前なんかどうでもいいよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「え？」
+<PAUSE>
+<NAME_PLATE>俺
+「柳六穂、俺の先輩だ。
+　俺は彼女のサポート役だ」
+<PAUSE>
+<ACTOR>4,as_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あ、そうなんだ。よろしくね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>六穂
+「…………」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ええと……で、これが約束の活動資金と
+　米連開発の最新鋭サプリ」
+<PAUSE>
+<NAME_PLATE>
+　六穂の反応に戸惑ったような顔をしつつ、
+アスカはスーツケースを差し出した。
+<PAUSE>
+<NAME_PLATE>俺
+「最新鋭サプリ？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>4,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「マッスル団のボス、マッスルジョーは
+　健康食品マニアなんだって」
+<PAUSE>
+<NAME_PLATE>
+　ケースを開けると、かなりの大金と
+サプリボトルがいくつか入っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「魔界の技術を扱っている闇の組織のボスが
+　健康食品マニアとは妙な話だな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「マッスルなんとかって名前もね。
+　でもＤＳＯが入手した確実な情報よ」
+<PAUSE>
+<NAME_PLATE>
+　なるほど。活動資金はともかく
+餌として米連の最新サプリが必要なため
+ＤＳＯとの共同作戦となったのか。
+<PAUSE>
+<NAME_PLATE>アスカ
+「そいつ、自分の健康のために
+　女の子を孕ませては、その赤ちゃんを
+　引っ張り出して食べてるって噂よ」
+<PAUSE>
+<NAME_PLATE>俺
+「……酷いな」
+<PAUSE>
+<ACTOR>4,as_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「酷いでしょ。クズ中のクズでしょ。
+　絶対に許せないわ」
+<PAUSE>
+<NAME_PLATE>
+　アスカは憤りを込めて機械の拳をミシッと
+握りしめたが、六穂はふんと鼻を鳴らす。
+<PAUSE>
+<NAME_PLATE>六穂
+「昔から胎児はいい薬になってきたからね。
+　珍しいことじゃないよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「あなた女でしょ。酷いと思わないの！」
+<PAUSE>
+<NAME_PLATE>
+　キッと噛みつくアスカを見て、
+六穂はからかうように肩をすくめる。
+<PAUSE>
+<NAME_PLATE>六穂
+「さあ、生まれたときから毒漬けにされてきた
+　ボクには赤ん坊なんて望むべくもないからね
+　無理やりだろうが孕めるだけマシさ」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「生まれたときから毒漬け？」
+<PAUSE>
+<NAME_PLATE>六穂
+「あらゆる毒を身体で覚えて体内で
+　作れるようになるためにね」
+<PAUSE>
+<ACTOR>4,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　アスカは『どういうこと？』と言いたげに
+俺を見た。
+<PAUSE>
+<NAME_PLATE>俺
+「六穂は代々の毒使いの一族なんだ。
+　俺も詳しくは知らないが、
+　毒を少しずつ飲んで、能力を磨くらしい」
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクは歴代でもまれに見る
+　強い毒の持ち主らしくてね」
+<PAUSE>
+<NAME_PLATE>六穂
+「一族の男相手でも子供は
+　まず無理だろうって言われてるよ」
+<PAUSE>
+<ACTOR>4,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　六穂の境遇を聞いて、
+アスカは気まずそうに口ごもった。
+<PAUSE>
+<NAME_PLATE>六穂
+「そんな目で見なくてもいいよ。
+　君も普通の身体じゃないようだし」
+<PAUSE>
+<NAME_PLATE>六穂
+「もっとも、できそこないの女同士で
+　慰めあいたいとは思わないけどね」
+<PAUSE>
+<ACTOR>4,as_t005f,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「なっ！？
+　そんな言い方しなくてもいいでしょ！」
+<PAUSE>
+<NAME_PLATE>六穂
+「だったらどんな言い方をすれば
+　君のお気に召すのか教えて欲しいな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「なんですって！」
+<PAUSE>
+<ACTOR>4,as_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「二人ともよさないか。
+　任務のことに話を戻すぞ」
+<PAUSE>
+<NAME_PLATE>
+　ギスギスする二人を俺はいさめる。
+<PAUSE>
+<NAME_PLATE>
+　六穂は今のやりとりなどなかったかのように
+暗殺計画を披露し始めた。
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクがたてた計画はこうさ」
+<PAUSE>
+<NAME_PLATE>六穂
+「ふうまが奴隷商人になりすまして、
+　マッスルジョーと繋がりのある奴隷商人に
+　金を渡して渡りをつけてもらう」
+<PAUSE>
+<NAME_PLATE>六穂
+「そして、このサプリを手みやげに、
+　ボクをボスの新しい奴隷として売り込む」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「おいちょっと待て……」
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクはマッスルジョーと接触して、
+　どうせボクを犯そうとするだろうから、
+　そのときに毒の忍法で暗殺する」
+<PAUSE>
+<NAME_PLATE>六穂
+「ふうまは奴隷として潜入したボクを
+　適当にサポートしてくれればいいよ」
+<PAUSE>
+<ACTOR>4,as_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「待てと言ったろうが」
+<PAUSE>
+<NAME_PLATE>六穂
+「ん？　どうしたの？」
+<PAUSE>
+<NAME_PLATE>
+　俺が止めるのもきかず、
+得々と話し終えた六穂が聞き返してくる。
+<PAUSE>
+<NAME_PLATE>俺
+「そんなやり方は危険すぎる。
+　奴隷としてどんな目にあうのか分からない。
+　別のプランを考えるべきだ」
+<PAUSE>
+<NAME_PLATE>六穂
+「それがいつものボクのやり方だよ。
+　この前も娼婦になって
+　一人始末してきたばかりさ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私も反対よ。
+　赤ちゃんを食べるヘンタイ野郎の
+　奴隷だなんて危険過ぎるわ」
+<PAUSE>
+<NAME_PLATE>六穂
+「君にできなくてもボクにはできるのさ。
+　わざと男に抱かれながら、
+　そいつをこの身体の毒で殺すことがね」
+<PAUSE>
+<NAME_PLATE>六穂
+「もちろん、アサギ先生も承認済みだよ。
+　お上品な君たちの趣味には
+　合わないみたいだけどね」
+<PAUSE>
+<NAME_PLATE>
+　妙に突っかかってくるな。
+今までこんな態度はとらなかったのに。
+<PAUSE>
+<NAME_PLATE>俺
+「趣味に合うとか合わないとかじゃない。
+　アサギ先生がいつも単独行動の六穂に
+　俺をつけたのは考えあってのことだろう」
+<PAUSE>
+<NAME_PLATE>俺
+「ともかく性急にことを運ぶべきじゃない。
+　情報収集も必要だし、まずは宿を取って
+　話し合うべきだ」
+<PAUSE>
+<ACTOR>4,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「私もそれに賛成」
+<PAUSE>
+<NAME_PLATE>六穂
+「慎重なんだねえ。
+　まあ、パートナーの言うことだし
+　宿でひと休みするのもいいかもね」
+<PAUSE>
+//【背景：ホテルの一室＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc003cより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0118a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というわけで、俺たちは宿をさだめて、
+三人で打ち合わせしようとしたのだが、
+<PAUSE>
+<ACTOR>0,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「ボク、別のプランとかには興味ないから、
+　決まったら呼んでよ」
+<PAUSE>
+//　※立ち絵
+//　　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<GROUP>
+<SE_PLAY>se052
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　六穂はそう言うなり、
+さっさと自分の部屋に行ってしまった。
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>アスカ
+「私、嫌われちゃったかな」
+<PAUSE>
+//　※立ち絵
+//　　制服アスカ　立ち絵
+//　　　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　さっきの言い争いを気にしているのか、
+珍しくしょげたように言う。
+<PAUSE>
+<NAME_PLATE>俺
+「お前のせいじゃない。間が悪かったんだ」
+<PAUSE>
+<ACTOR>4,as_t005j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「……ありがと」
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、いいのか？
+　任務は金とサプリを
+　俺に渡すってだけなんだろ？」
+<PAUSE>
+<NAME_PLATE>
+　なんとなく、アスカもマッスルジョーを
+暗殺する作戦に参加する流れになっている。
+<PAUSE>
+<ACTOR>4,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「気にしないで。
+　私がそうしたいからするだけよ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか。感謝するよ」
+<PAUSE>
+<ACTOR>4,as_t005j,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「も、もう、いいってば。
+　そんな改まって頭下げなくても」
+<PAUSE>
+<NAME_PLATE>
+　ちゃんと礼を言われるのは苦手らしく、
+アスカは照れたように頬を染めた。
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ほら、打ち合わせ打ち合わせ」
+<PAUSE>
+<NAME_PLATE>俺
+「こういうのはどうだ？」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　六穂はいなくなってしまったが、
+俺はさっきの初期プランに少し修正を加えた
+プランを提案した。
+<PAUSE>
+<NAME_PLATE>
+　つまり六穂を潜入させるが、
+それは奴隷ではなく使用人としてで、
+マッスル団の本拠地のマッピングが目的だ。
+<PAUSE>
+<NAME_PLATE>
+　いきなりボスに接近するのではないので
+それより危険は少ない。
+<PAUSE>
+<NAME_PLATE>
+　また、マッピングだけなら、
+潜入してそれほど長くない時間で達成できる。
+<PAUSE>
+<NAME_PLATE>
+　それが出来たら、臨時の傭兵を雇い、
+強化した戦力でマッスル団本拠地に攻め込む。
+<PAUSE>
+<NAME_PLATE>
+　その際は、敵をなるべく一箇所に誘い出し、
+六穂の毒ガス攻撃で一網打尽にする。
+<PAUSE>
+<NAME_PLATE>
+　そして、光学迷彩能力で透明化したアスカが
+マッスル団ボス“マッスルジョー”に
+接近して暗殺する。
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「いいんじゃない。
+　ボスにトドメをさすのが私になっちゃって、
+　彼女、嫌がるかもしれないけど」
+<PAUSE>
+<NAME_PLATE>俺
+「安全性と確実性を考えればこっちだ。
+　どうも六穂は先走っているみたいだからな」
+<PAUSE>
+<ACTOR>4,as_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「でも、彼女を説得するのは
+　あなたがやってよね。私には無理だから」
+<PAUSE>
+<NAME_PLATE>俺
+「それはまあ……難題だな」
+<PAUSE>
+<ACTOR>4,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「頑張ってね」
+<PAUSE>
+<NAME_PLATE>
+　しかし、六穂のサポート役としては
+頑張らねばなるまい。
+<PAUSE>
+<NAME_PLATE>
+　俺は話をするため、六穂の部屋に向かった。
+<PAUSE>
+//【背景：ホテルの一室＿夜】【時間：夜】
+//　※監獄戦艦3の背景nc011aより流用
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<SE_PLAY>se052
+<BG_OUT>2000
+</GROUP>
+<NAME_PLATE>
+　しかし―――
+<PAUSE>
+<BG>nc038b,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「いない！？」
+<PAUSE>
+<NAME_PLATE>
+　部屋は真っ暗で、誰もいない。
+<PAUSE>
+<NAME_PLATE>
+　六穂が使った痕跡すらない。
+<PAUSE>
+<ACTOR>4,as_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふうま、大変！
+　お金もサプリもなくなってる！」
+<PAUSE>
+//　※立ち絵
+//　　制服アスカ　立ち絵
+//　　　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　アスカが飛び込んでくる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>
+　金の一部、マッスルジョーと繋がりのある
+奴隷商人に渡す予定の賄賂の額と、
+手みやげのサプリが消えていたそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「一人で初期プランを実行するつもりか！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「止めなきゃ」
+<PAUSE>
+<NAME_PLATE>俺
+「もちろんだ」
+<PAUSE>
+//【背景：マッスル団本拠地のビル＿夜】【時間：夜】
+//　※鋼殻のアイ_nc004bより流用
+<GROUP>
+<ACTOR_OUT>4,CENTER,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　だが気づくのが遅すぎた。
+<PAUSE>
+<NAME_PLATE>
+　マッスルジョーと繋がりのある奴隷商人から
+すでに六穂をマッスル団に売ったと
+知らされた。
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　ともかく、マッスル団の本拠地に向かう。
+<PAUSE>
+<BG>nc174a,IN, 1000
+<NAME_PLATE>
+　胎児を食らうという悪のボスらしからぬ、
+近代的なインテリジェントビルだ。
+<PAUSE>
+<NAME_PLATE>
+　入り口には完全武装の警備兵が
+ずらりと並んでいる。
+<PAUSE>
+//　※立ち絵
+//　　警備兵立ち絵
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ダークガード＿汎用立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<ACTOR>5,ts_m052a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>6,ts_m098a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「思ったより警備が厳重だな……」
+<PAUSE>
+<NAME_PLATE>
+　普段からこんなに守りを固めているのか？
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,as_t005h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ねえ、彼女そんなに一人で
+　やりたいのかな？」
+<PAUSE>
+//　※立ち絵
+//　　制服アスカ　立ち絵
+//　　　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　警備の様子を伺いつつ、
+アスカが別のことを聞いてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「単身で乗り込んでの暗殺はお手の物だが、
+　アサギ先生は今回、
+　俺をわざわざ同行させた」
+<PAUSE>
+<NAME_PLATE>俺
+「戦力として役立つ対魔忍じゃなくて俺をだ。
+　きっと六穂一人じゃ不安だって
+　危惧しているんだ」
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そう言われたの？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうとしか考えられないさ」
+<PAUSE>
+<NAME_PLATE>
+　六穂もそれを感じていたからこそ、
+かえって一人でやろうとしたのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　だとしたら、ますますマズい。
+<PAUSE>
+<ACTOR>4,as_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「じゃあ、どうする？」
+<PAUSE>
+<NAME_PLATE>
+　俺は少し考え、言った。
+<PAUSE>
+<NAME_PLATE>俺
+「予定通り傭兵を募るしかない。
+　六穂からマッピング情報が得られないのが
+　厳しいけどな」
+<PAUSE>
+<ACTOR>4,as_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「へえ、ちょっと意外。
+　今すぐ殴り込もうって言うかと思った」
+<PAUSE>
+<NAME_PLATE>俺
+「一緒になって先走ってどうする。
+　ここは確実に六穂をサポートだ」
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「了解。
+　近くにそういう連中が集まる店が
+　あるのを知ってるわ」
+<PAUSE>
+<NAME_PLATE>
+　しかし、傭兵を集めるのには
+数日は要するだろう。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　その間、六穂が無事でいてくれるのを
+祈るしかない。
+<PAUSE>
+<NAME_PLATE>俺
+「六穂、無茶は禁物だぞ……」
+<PAUSE>
+<NAME_PLATE>
+　六穂がいる敵の本拠地をもう一度見て、
+そこを立ち去ろうとすると、
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se016
+<NAME_PLATE>
+　シャキン！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っっ！？」
+<PAUSE>
+<NAME_PLATE>
+　後ろからいきなり首筋に冷たいものが
+押し当てられた。
+<PAUSE>
+<BGM_PLAY>bgm609,1000
+<NAME_PLATE>？？？
+「ねえ、こんなところでなにしてるの？」
+<PAUSE>
+//　※立ち絵
+//　　ソニア立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　この声、それにこの殺気。
+<PAUSE>
+<NAME_PLATE>
+　まさか！？
+<PAUSE>
+<NAME_PLATE>俺
+「お、お前……ソニアか！？」
+<PAUSE>
+<ACTOR>7,so_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソニア
+「うふふ、嬉しい。
+　私のこと覚えていてくれたのね」
+<PAUSE>
+<NAME_PLATE>
+　艶めかしくも冷たい吐息が
+突きつけられた刃と一緒になって
+ひたひたと俺の首をくすぐる。
+<PAUSE>
+<NAME_PLATE>
+　あのときの殺気は気のせいでなかった。
+この女だったのだ。
+<PAUSE>
+<ACTOR>7,so_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>4,as_t005d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ソニアってあの？
+　私が気配に気づかないなんて……」
+<PAUSE>
+<NAME_PLATE>
+　元米連のこの殺人鬼のことは
+アスカも知っていたようだ。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか俺の背後に忍び寄っていた
+ソニアの手並みに驚愕している。
+<PAUSE>
+<NAME_PLATE>ソニア
+「あなたのことは知ってるわ。
+　米連のサイボーグの死角に入るなんて
+　お手の物よ。動かないでね」
+<PAUSE>
+<ACTOR>4,as_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　動けるわけがない。俺もアスカも。
+<PAUSE>
+<NAME_PLATE>
+　一歩でも動いたら、首を掻き切られそうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>？？？
+「おいおい、挨拶に来たんじゃねえのかよ。
+　よう、ひさしぶりだな、小僧！」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+///　　　　＊決戦アリーナのモンスターイラストの流用
+//　　　　　オーク傭兵の色違い
+<NAME_PLATE>
+　またしても聞き覚えのある声に
+目だけそちらに向けると、
+<PAUSE>
+<ACTOR>8,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「お、おっさん？」
+<PAUSE>
+<NAME_PLATE>
+　この街で、さくらと傭兵をしたとき、
+俺たちと一緒にファウストに騙されて、
+最後は共に戦ったオーク傭兵のおっさんだ。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「今日はあのさくらって
+　元気な対魔忍の嬢ちゃんはいねえのか？
+　しかし、両手に花で楽しそうだな！」
+<PAUSE>
+<NAME_PLATE>俺
+「どこが両手に花だよ……」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「グハハハハ、相変わらずだな。
+　ソニア、冗談もほどほどにしとけよ。
+　小僧、本気で嫌がってるぜ」
+<PAUSE>
+<ACTOR>8,ts_m053a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>7,so_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ソニア
+「私も本気だもの。
+　あなたを見たら、また体が疼いちゃって」
+<PAUSE>
+<NAME_PLATE>
+　首の皮一枚だけスッと斬られる感触がして、
+ソニアは俺から離れてくれた。
+<PAUSE>
+<NAME_PLATE>ソニア
+「私のラブレターは読んでくれた？」
+<PAUSE>
+<NAME_PLATE>俺
+「……読んだよ」
+<PAUSE>
+<NAME_PLATE>ソニア
+「嬉しいわ」
+<PAUSE>
+<ACTOR_OUT>8,RIGHT,linear,1000
+<ACTOR>4,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「……ええと、どういう仲？」
+<PAUSE>
+<NAME_PLATE>
+　アスカが不審げに俺たちを見やる。
+<PAUSE>
+<NAME_PLATE>俺
+「俺を殺すか、
+　俺に殺されたいかしたいそうだ」
+<PAUSE>
+<NAME_PLATE>ソニア
+「あなたに肉を切り裂かれた痛みと快感が
+　今もこの身体に残ってるわ。
+　すごく良かったんだもの」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「うわあ……」
+<PAUSE>
+<NAME_PLATE>
+　艶めかしく身をくねらせるソニアに
+アスカは完全に引いていた。
+<PAUSE>
+<NAME_PLATE>ソニア
+「あなたとも殺りあいたいわ。
+　米連に身体を玩具にされた女同士」
+<PAUSE>
+<NAME_PLATE>俺
+「気に入られてるようだぞ」
+<PAUSE>
+<ACTOR>4,as_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「嬉しくないなーー」
+<PAUSE>
+<NAME_PLATE>ソニア
+「つれないのね」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「ガハハハ！！！
+　あのさくらといい、小僧の周りには
+　本当に面白え女が集まってくるな」
+<PAUSE>
+<ACTOR>4,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「このオークのおじさんは？」
+<PAUSE>
+<NAME_PLATE>俺
+「前にこの街でちょっとな。
+　一緒に戦ったことがある。
+　凄腕の傭兵だ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「へえ」
+<PAUSE>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR>8,ts_m053a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「よろしくな、サイボーグの嬢ちゃん。
+　両手両足が機械か？　惚れ惚れするな。
+　その制服もすげえ似合ってるぜ」
+<PAUSE>
+<ACTOR>4,as_t005b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ありがとっ♪」
+<PAUSE>
+<NAME_PLATE>
+　サイボーグの手足に加えて、
+俺が褒めなかった制服を褒められて、
+アスカはにんまりとした。
+<PAUSE>
+<ACTOR>4,as_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「おっさん、調子いいな。
+　この街を出たんじゃなかったのかよ」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「へへっ。マッスル団のマッスルジョーが
+　高値の報酬で傭兵を集めているって
+　裏情報を聞いちまったらな」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「え……？」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「このソニアも俺と一緒でな。
+　偶然、宿が一緒になって、マッスルジョーの
+　傭兵になるってんで意気投合したわけだ」
+<PAUSE>
+<ACTOR_OUT>8,LEFT,linear,1000
+<ACTOR>7,so_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ソニア
+「で、マッスル団のアジトに向かってたら、
+　あなたを見かけたの」
+<PAUSE>
+<NAME_PLATE>俺
+「待ってくれ。
+　マッスルジョーが高額で傭兵を
+　募集してるのか？」
+<PAUSE>
+<ACTOR_OUT>4,RIGHT,linear,1000
+<ACTOR>8,ts_m053a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「ちょっと聞いたことがねえような高値だぜ。
+　どこぞの組織と正面切ってやるんじゃねえか
+　ってもっぱらの噂だ」
+<PAUSE>
+<NAME_PLATE>俺
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　マッスルジョーが傭兵を募集している？
+<PAUSE>
+<NAME_PLATE>
+　ということは、もしや―――
+<PAUSE>
+<NAME_PLATE>俺
+「おっさん、ソニア。
+　マッスルジョーじゃなく俺に雇われてくれ。
+　金はたっぷりと出す」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「おいおい、いきなりどうした？
+　そりゃ構わねえけどよ、相手は誰だよ？」
+<PAUSE>
+<NAME_PLATE>俺
+「マッスルジョーだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーク傭兵
+「ああん？　どういうこった！？」
+<PAUSE>
+<NAME_PLATE>
+　きょとんとするおっさんに、
+俺たちがマッスルジョーを狙っていたこと、
+仲間が一人すでに侵入していることを伝える。
+<PAUSE>
+<NAME_PLATE>ソニア
+「なんだ。
+　あなたもあの健康マニアを殺すつもりなの」
+<PAUSE>
+<NAME_PLATE>俺
+「俺も？
+　お前、マッスルジョーの傭兵になる
+　つもりじゃなかったのか？」
+<PAUSE>
+<NAME_PLATE>ソニア
+「もちろんそのつもりよ。
+　でも、闇組織のボスが健康マニアだなんて
+　ちょっと許せなくて」
+<PAUSE>
+<NAME_PLATE>ソニア
+「傭兵として働いて、お金をもらったら、
+　帰るついでにサクッと殺ってやろうって
+　思ってたの」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「おいおい、ひでえ話だな。
+　傭兵の風上にもおけねえぜ、そいつぁ」
+<PAUSE>
+<NAME_PLATE>ソニア
+「私、殺人鬼だもの」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「ったく。しかし、そういうつもりなら
+　俺も小僧につくとしようか。
+　この間の礼もあるしな」
+<PAUSE>
+<NAME_PLATE>俺
+「助かるよ、おっさん。
+　ソニアは？」
+<PAUSE>
+<NAME_PLATE>ソニア
+「別にいいわよ。
+　あなたと一緒に戦うのは
+　あれはあれで興奮するしね」
+<PAUSE>
+<NAME_PLATE>俺
+「よし、すぐに突入する」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>8,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,as_t005d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「えっ！？
+　もっと傭兵はいた方が良いんじゃないの？」
+<PAUSE>
+//　※立ち絵
+//　　制服アスカ　立ち絵
+//　　　　　＊対魔忍RPGカードより流用
+<ACTOR>4,as_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「状況は変わった。六穂が危ないんだ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どういうこと？」
+<PAUSE>
+<NAME_PLATE>俺
+「マッスルジョーが急に
+　傭兵を集めているなんて
+　タイミングが良すぎだろ？」
+<PAUSE>
+<ACTOR>4,as_t005h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「それはそうね……」
+<PAUSE>
+<NAME_PLATE>俺
+「こういう場合は最悪のケースを考える。
+　暗殺計画がマッスルジョーに
+　漏れているってな」
+<PAUSE>
+<ACTOR>4,as_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「そして残念だけど、
+　この予想はおそらく当たっている」
+<PAUSE>
+<ACTOR>4,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「わかった。
+　こういうときはあなたの判断を
+　信用するわ」
+<PAUSE>
+<NAME_PLATE>俺
+「よし、行くぞ！」
+<PAUSE>
+//【背景：マッスル団本拠地＿地下監獄＿昼夜共通】【時間：昼】
+//　※監獄アカデミア＿NC012aより流用
+<GROUP>
+<ACTOR_OUT>4,CENTER,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc103a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　マッスル団本拠地。
+その地下監獄―――。
+<PAUSE>
+//　※立ち絵
+//　　マッスルジョー＿立ち絵
+//　　　　＊モンスターイラストから
+<BGM_PLAY>bgm206,1000
+<ACTOR>9,ts_m108a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そこに金属の彫刻を思わせる
+巨躯の男がいた。
+<PAUSE>
+<NAME_PLATE>
+　剥き出しの肉体は筋肉の塊であり、
+その銀色の肌は鈍い光沢を放っている。
+<PAUSE>
+<NAME_PLATE>
+　常に帯電しているのであろう、
+鋼の体表には小刻みな電気火花が走っていた。
+<PAUSE>
+<NAME_PLATE>
+　マッスル団団長、
+マッスルジョーその人である。
+<PAUSE>
+<NAME_PLATE>
+　異形の金属魔人は山盛りのサプリを
+ボリボリと貪り食いながら、
+スマホで何事かを話していた。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「ええ、情報は確かでした。感謝しますよ」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「恐ろしい小娘です。
+　触れられただけで
+　部下はあっという間に死んだ」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「そう。今は私だけです。
+　ええ、大丈夫ですよ。ご心配なく」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「はい、取引はＯＫですよ。
+　情報に感謝しますよ、峰さん。
+　それではまた……」
+<PAUSE>
+<NAME_PLATE>
+　マッスルジョーは電話を切り、
+またサプリを口の中に放り込んだ。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「ボリボリッボリッ、これは素晴らしい。
+　全身に力がみなぎってくる。
+　ますます健康になりそうです」
+<PAUSE>
+<ACTOR>9,ts_m108a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「そんなに健康になりたいの？」
+<PAUSE>
+//　※立ち絵
+//　　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+
+<NAME_PLATE>
+　六穂がマッスルジョーに相対している。
+<PAUSE>
+<NAME_PLATE>
+　すでに奴隷のふりなどしていない。
+<PAUSE>
+<NAME_PLATE>
+　彼女の口元には薄笑いが浮かび、
+足下には無数の死体が転がっている。
+<PAUSE>
+<NAME_PLATE>
+　毒殺されたマッスルジョーの部下たち、
+そのすべてが苦悶の表情を浮かべていた。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「もちろんですよ。
+　健全な身体には
+　健全な心が宿るというでしょう？」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「究極の健康体。それが私なのです。
+　ボリッボリッボリッ―――ゴクン、美味い」
+<PAUSE>
+<NAME_PLATE>六穂
+「女の子を無理やり孕ませて、
+　その赤ちゃんを食べたりするのに？」
+<PAUSE>
+<NAME_PLATE>
+　六穂はまだ笑みを浮かべていた。
+敵の答えを期待しているようにも見える。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「それはデマですよ。
+　奴隷を孕ませるのは本当ですがね」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「胎児を捧げるのです。
+　この健全な身体の代償としてね」
+<PAUSE>
+<NAME_PLATE>六穂
+「健全な身体の代償？　胎児を捧げる？」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「ええ、私は悪魔と契約して、
+　この身体を得たのですよ」
+<PAUSE>
+<NAME_PLATE>
+　マッスルジョーはそれを誇るかのように
+拳を握った両腕を上にグイッと持ち上げ、
+金属の筋肉を膨れあがらせてみせた。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「私に毒など無駄です。
+　ごらんなさい、この美しい健康体を」
+<PAUSE>
+<NAME_PLATE>六穂
+「つまらないな」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,500
+<ACTOR>9,ts_m108a,LEFT, CENTER, NONE, linear, 500
+<NAME_PLATE>
+　そう呟いた直後、
+六穂は一瞬でマッスルジョーの懐に
+入っていた。
+<PAUSE>
+<NAME_PLATE>
+　音もなく接敵して毒殺する。
+柳一族に伝わる神速の殺法である。
+<PAUSE>
+<NAME_PLATE>
+　ポーズを取ったままの腕に触れ、
+肉を腐らせる強力な毒を
+“健全な身体”とやらに注入する。
+<PAUSE>
+<NAME_PLATE>六穂
+「はい、おしまい」
+<PAUSE>
+<NAME_PLATE>
+　六穂は冷たく言い放ってから、
+すぐにも腐り始めるであろう敵から
+身を引こうとした。
+<PAUSE>
+//掴む効果音
+<NAME_PLATE>マッスルジョー
+「いけませんね」
+<PAUSE>
+<NAME_PLATE>
+　その腕をマッスルジョーの豪腕が
+むんずと掴んだ。
+<PAUSE>
+<NAME_PLATE>六穂
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　六穂の表情が僅かに曇った。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「無駄だと言ったでしょう。対魔忍の小娘。
+　毒など、この私の完全無欠の健康ボディには
+　効きませんよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「くっ！？」
+<PAUSE>
+<SE_PLAY>se001
+<NAME_PLATE>
+　六穂は腕を掴まれたまま、
+マッスルジョーの顎に蹴りを入れる。
+<PAUSE>
+<NAME_PLATE>
+　無論、毒をたっぷりと分泌させてだ。
+しかし、それも効いていないようだ。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「愚かですねえ」
+<PAUSE>
+<NAME_PLATE>
+　マッスルジョーは六穂の腕を離すと、
+握った拳を彼女の腹にめり込ませた。
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「ぐふううっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　力を入れていたようには見えないのに、
+巨大なハンマーで叩かれたような衝撃に
+六穂は身体をくの字に折り曲げて吹っ飛んだ。
+<PAUSE>
+<NAME_PLATE>六穂
+「げほっ……げっ……ぐほっ……ぐぐっ」
+<PAUSE>
+<NAME_PLATE>
+　毒の混じった血を吐きながら、
+六穂は地べたをのたうち回る。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「なんという薄汚れた身体でしょう。
+　あなたは毒にまみれていますね」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「だが健全な身体の私なら
+　あなたを孕ませることが出来ますよ」
+<PAUSE>
+<NAME_PLATE>六穂
+「よ、余計な……お世話だ……
+　悪魔に捧げる子供なんか……げふっ……
+　絶対に……孕むもんかっ……」
+<PAUSE>
+<NAME_PLATE>
+　六穂は目に激しい怒りを込め、
+ヨロヨロと立ち上がった。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「いいえ、絶対に孕んでもらいますよ。
+　さあ、その前に少し運動をしましょうか」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「腕を折り、足を折り、肋骨を砕き、
+　目をくり抜き、耳を引き裂く」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「あなたが喜んで私を受け入れるように
+　説得を試みましょう」
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクの毒で……殺してやる……」
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>9,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

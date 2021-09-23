@@ -1,0 +1,1025 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【背景：ヨミハラ路地裏＿袋小路＿昼夜共通】【時間：夜】
+//　※魔法少女イスカ＿nc005cより流用
+<BGM_PLAY>bgm313,1000
+<BG>chrnc0299b,IN, 1000
+<NAME_PLATE>
+　俺たちが駆けつけたとき
+ケイリーは大技を放った直後だった。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスが飛ばしてくれたドローンで
+今までの攻防はチェックしている。
+<PAUSE>
+<ACTOR>0,ts_m266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ライトニングとかいうレトロな忍者風の
+暗殺者は俺たちが現れた驚きから立ち直り、
+今は悠然と構えている。
+<PAUSE>
+<NAME_PLATE>俺
+「佐那先輩、あいつを抑えてください。
+　蛇子と鹿之助はフォローを。
+　俺はケイリーを見てくる」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子＆鹿之助
+「了解っ」
+「了解っ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（タコ化）
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「まかせときな！」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵（抜刀）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　三人はライトニングに向かっていく。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se108_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>佐那
+「おらおらおらあああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　まずは佐那先輩が斬りかかった。
+<PAUSE>
+<NAME_PLATE>
+　次いで蛇子と鹿之助が牽制に加わる。
+<PAUSE>
+<BG>chrnc0299b,IN, 500
+<GROUP>
+<ACTOR>0,s_t002f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「タコ足四刀流！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>鹿之助
+「電遁の術“スパーク”！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m266b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「助っ人というには力不足だな」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング＿雷
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<WAIT>500
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　やるな。
+<PAUSE>
+<NAME_PLATE>
+　ライトニングは三人がかりの攻撃を
+巧みに捌いている。
+<PAUSE>
+<NAME_PLATE>
+　というより、蛇子と鹿之助が
+敵の素早い動きについていけない。
+<PAUSE>
+<BG>chrnc0299b,IN, 500
+<GROUP>
+<ACTOR>0,s_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「わっ、速いっっ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「くっそ、追いつけねえっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m266b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「三人がかりでこれではな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ライトニングの二刀が煌めいた。
+<PAUSE>
+<NAME_PLATE>
+　狙いは鹿之助と蛇子だ。
+<PAUSE>
+<NAME_PLATE>鹿之助＆蛇子
+「…………」
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　まずい、二人とも全く反応できていない。
+<PAUSE>
+<BG>chrnc0299b,IN, 500
+<ACTOR>0,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「ちいっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィンッ！　ギィンッ！！
+<PAUSE>
+<NAME_PLATE>
+　死神の鎌のように二人の首に伸びた刀を
+佐那先輩がすんでの所で弾いた。
+<PAUSE>
+<BG>chrnc0299b,IN, 500
+<GROUP>
+<ACTOR>0,s_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「きゃあっっ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人はそこでようやく気づいて青ざめる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>1,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「二人とももっと離れな！
+　近づくとやばいよ！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「は、はいっ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「りょりょ、了解っ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人は言われたとおりに距離を取る。
+<PAUSE>
+<ACTOR>1,u_t007a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m266b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「その方がいい。
+　貴様一人の方がまだ楽しめる」
+<PAUSE>
+<NAME_PLATE>佐那
+「ほざけっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　佐那先輩とライトニングの刀が
+激しく火花を散らす。
+<PAUSE>
+<NAME_PLATE>
+　まともに接近戦ができるのは
+佐那先輩だけか。
+<PAUSE>
+<NAME_PLATE>
+　だが、なんだ！？
+<PAUSE>
+<BG>chrnc0299b,IN, 500
+<ACTOR>1,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「やあっっ！！　たああっっ！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　佐那先輩の剣も少し鈍い気がする。
+<PAUSE>
+<NAME_PLATE>
+　さっき峠金鬼と一騎打ちをしたときの
+気迫が感じられない。
+<PAUSE>
+<NAME_PLATE>
+　攻撃を躊躇っているような。
+<PAUSE>
+<BGM_STOP>1000
+<BG>chrnc0299b,IN, 500
+<ACTOR>1,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「ちっ、マズいねこりゃ！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm313,1000
+<BG>chrnc0299b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その様子に疑問を抱きつつも、
+俺はケイリーのそばに寄っていった。
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫か？」
+<PAUSE>
+<ACTOR>0,km_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「うん、大丈夫。ありがとう！
+　まだ私も戦えるよ！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ通常立ち絵
+//　　　※カードイラストより表情差分を新規作成
+<NAME_PLATE>
+　ケイリーはグッと拳を握ったが、
+そのアンドロイドアームがすでに
+ぴしぴしと嫌な放電をしている。
+<PAUSE>
+<NAME_PLATE>俺
+「慌てるな。
+　雷遁をフルパワーで使って
+　手足にガタが来はじめてるだろう」
+<PAUSE>
+<ACTOR>0,km_t001j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「ちょ、ちょっとだけ」
+<PAUSE>
+<NAME_PLATE>俺
+「下手に強がるな。正直に言え。
+　さっきのはあと何回くらいいける？」
+<PAUSE>
+<ACTOR>0,km_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「う～～～～、あと二回。
+　でも、もしかしたら一回！
+　ごめん！」
+<PAUSE>
+<ACTOR>0,km_t001j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「それにケイリーアタックは
+　もう躱されちゃったから自信ない」
+<PAUSE>
+<NAME_PLATE>俺
+「なあにやりようはある」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　長所と短所は表裏一体。
+<PAUSE>
+<NAME_PLATE>
+　あいつは雷と風を同時に使う。
+そこにつけいる隙がある。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子、ケイリーは大丈夫だ！」
+<PAUSE>
+<ACTOR>0,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「了解。
+　行くよタコ墨！！
+　ぶっふうううううううううううううう！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（タコ化）
+<ACTOR>0,h_t005f,CENTER, CENTER, NONE, linear, 0
+<WAIT>500
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG_OUT>500
+<SE_PLAY>se084
+<NAME_PLATE>
+　蛇子が今日二度目のタコ墨を大噴射した。
+<PAUSE>
+<NAME_PLATE>
+　あたり一面が墨の霧で包まれる。
+<PAUSE>
+<NAME_PLATE>ライトニング
+「ぬうっ、小細工をっ！」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング＿風
+//　　　＊モンスターイラストより流用
+<BG>chrnc0299b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m266c,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ライトニングは風を使って散らしつつ、
+いったん後方に下がった。
+<PAUSE>
+<NAME_PLATE>
+　三人も俺とケイリーの近くまで引いて、
+態勢を立て直す。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「あの人、すごく速い！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「雷と風を両方使う忍者とか反則だろ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0326c_1j,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「あの姿ははったりじゃないようだね」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵（抜刀）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　まだ残っている墨の霧ごしに奴を見つめ、
+その出方を窺いながら佐那先輩に尋ねる
+<PAUSE>
+<NAME_PLATE>俺
+「佐那先輩、攻撃を躊躇っていましたが、
+　どこか不調でも？」
+<PAUSE>
+<NAME_PLATE>佐那
+「さすがに目がいいね。
+　さっきの決闘で刀がヤバいことになってる」
+<PAUSE>
+<NAME_PLATE>佐那
+「鬆が入っちまったみたいで
+　対魔粒子がうまく乗らない。
+　もう次元斬は使えそうにないね。悪い」
+<PAUSE>
+<NAME_PLATE>俺
+「真空斬りはいけますか？」
+<PAUSE>
+<ACTOR>0,chr_t0326c_1b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「それはまあなんとか。
+　ただ本気で撃てるのはあと一回だね」
+<PAUSE>
+<NAME_PLATE>俺
+「十分です。
+　全員の力を結集してあたります」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は佐那先輩、蛇子、鹿之助、ケイリー、
+そしてドロレスに作戦を伝えた。
+<PAUSE>
+<ACTOR>0,chr_t0326c_1d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「悪くない手だ。
+　いっちょお前に賭けさせてもらうよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「私も、ふうまちゃん！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「タイミングは任せるぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ドロレス
+「わ、私も頑張る……ウヒヒ、燃える展開」
+<PAUSE>
+<NAME_PLATE>
+　四人は口々に返事をしたが、
+ケイリーだけが答えを躊躇っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした、ケイリー？」
+<PAUSE>
+<ACTOR>0,km_t001j,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「私それって責任重大だよね。
+　ちゃんとやれるかどうか自信ないよ」
+<PAUSE>
+<NAME_PLATE>
+　いつもの思いきりの良さが嘘のように
+弱々しい目をしている。
+<PAUSE>
+<NAME_PLATE>
+　きっと自信がないだけではない。
+<PAUSE>
+<NAME_PLATE>
+　自分の出来不出来が仲間の生死に直結する。
+そんな状況が初めてなのだろう。
+<PAUSE>
+<NAME_PLATE>
+　だがここが踏ん張りどころだ。
+<PAUSE>
+<NAME_PLATE>俺
+「やれる。
+　アスカは俺に頼れと言ったんだろ。
+　俺もアスカに送られてきたお前を信じている」
+<PAUSE>
+<NAME_PLATE>俺
+「やつの雷に対抗できるのはお前だけだ。
+　頼んだぞ、ケイリー」
+<PAUSE>
+<NAME_PLATE>
+　俺はケイリーのアンドロイドアームの
+手を握りしめた。
+<PAUSE>
+<ACTOR>0,km_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「う、うん、わかった！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ケイリーが俺の手を握り返し、
+その瞳に強い光が蘇った。
+<PAUSE>
+<ACTOR>0,ts_m266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「相談は終わったか？」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ライトニングが二刀を構えた。
+忌々しいほど余裕たっぷりだ。
+<PAUSE>
+<NAME_PLATE>
+　今までの手合わせで
+俺たちなどいつでも倒せると
+思っているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　だが、こう言われたらどうする？
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>俺
+「ああ、終わった。
+　どうもあんたは手強いからな。
+　時間稼ぎをして援軍を待つことにした」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ライトニング
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「みんなが来たら全員でタコ殴りだ。
+　嫌なら引いてくれてもいいぞ。
+　むしろその方がありがたい」
+<PAUSE>
+<NAME_PLATE>俺
+「もちろんメルメは保護させてもらうがな。
+　ちなみに俺たちは対魔忍だ」
+<PAUSE>
+<NAME_PLATE>ライトニング
+「くっ……やはり対魔忍か。
+　闇に生き闇に死す忍にあるまじき
+　派手な振る舞い、苦々しく思っていたぞ」
+<PAUSE>
+<NAME_PLATE>
+　その声にじわと怒りがこもる。
+<PAUSE>
+<NAME_PLATE>俺
+「その姿もそうだがアナクロだな。
+　対魔忍は多様性がウリでね」
+<PAUSE>
+<NAME_PLATE>ライトニング
+「ほざけっっ！！
+　対魔忍ごときまとめて始末するのは
+　造作もない！！」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング＿雷＆風
+//　　　＊モンスターイラストより流用
+//　※雷と風を同時に使っているような差分をお願いします。
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m266d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチバチバチバチバッッ！！
+ブオオオオオオオオオオオオッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ライトニングは雷と風を同時に呼び起こした。
+<PAUSE>
+<NAME_PLATE>
+　奴の周りを渦巻く雷が吹き荒れる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　よし、かかった。
+<PAUSE>
+<NAME_PLATE>
+　援軍を待つというはったりに乗せられて
+大技で一気に仕留めようとしてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「やばい、みんな散れっっ！！」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺の合図で散開する。
+<PAUSE>
+<NAME_PLATE>
+　ついでに悲鳴も上げてもらう。
+<PAUSE>
+<ACTOR>0,h_t005d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃあああああああ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「やばいやばいやばいっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「くっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,km_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「うわあーーーーーーー！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>ドロレス
+「ぷぷぷ……みんな上手い」
+<PAUSE>
+<ACTOR>0,ts_m266d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「無駄だ無駄だ！！
+　この雷風地獄からは逃れられんぞ！！
+　ハァアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　逃げ惑う俺たちを一網打尽にしようと、
+奴は動きを止めて術のパワーを上げ始めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ドロレス、今だ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「りょ、了解。
+　スイッチオン、じゃなくてオフ、ウヒヒ」
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　街の明かりが一斉に消えた。
+<PAUSE>
+<NAME_PLATE>
+　俺がはったりの無駄話をしている間に
+ドロレスに周囲一帯のシステムをできるだけ
+ハッキングしてもらったのだ。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラは地下都市だ。
+<PAUSE>
+<NAME_PLATE>
+　真っ暗闇とまではいかなかったが、
+一気に周囲が暗くなった。
+<PAUSE>
+<ACTOR>0,ts_m266d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「また小細工か！」
+<PAUSE>
+<NAME_PLATE>
+　その通り。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,h_t005j,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「ぷぴゅーーーっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　蛇子の狙いすましたタコ墨水鉄砲が
+奴の顔面を直撃した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m266d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「ぬうっっ！！　こんなものっ！！」
+<PAUSE>
+<NAME_PLATE>
+　まず視角嗅覚を封じ、
+慌てて墨を取り除こうとする奴に、
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「バンビーノ・スパーク！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装（小鹿）
+<EFFECT_FLASH>WHITE, 500
+<ACTOR>0,s_t005c,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチッッイッ！！
+<PAUSE>
+<NAME_PLATE>
+　横合いから飛び出した電気小鹿が
+耳のあたりを引っぱたいた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m266d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「くあっっ！！
+　なんだっ！？　なにをしたっ！？」
+<PAUSE>
+<NAME_PLATE>
+　三半規管を直撃され、感覚を乱されて、
+ライトニングの身体がぐらりと揺れた。
+<PAUSE>
+<NAME_PLATE>
+　激しく渦を巻いていた雷風も
+術の集中を狂わされて、制御が怪しくなる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,s_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「へへっ！
+　俺のスーパーな静電気さ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m266d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「せ、静電気だと！？
+　そんなものでやられるか！
+　お前らがどこにいようが一網打尽に―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,u_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「させるか！！
+　真空・金剛鬼哭！！！
+　どりゃあああああああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵（抜刀）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバアアアアアアアアアアアッッ！！
+<PAUSE>
+<NAME_PLATE>
+　佐那先輩渾身の真空斬り。
+<PAUSE>
+<NAME_PLATE>
+　それも刀を砕きながらの斬風が
+ライトニングの風を消し去った。
+<PAUSE>
+<BG_OUT>500
+<ACTOR>0,ts_m266b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「なっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング＿雷
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,km_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「もいっかいいけええ！！
+　アトミックボルト！！！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ_戦闘立ち絵②_統合1
+<NAME_PLATE>
+　雷を纏ったケイリーの手が飛ぶ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,km_t008c,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se030_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチイイイイイイイイイイッッ！！
+<PAUSE>
+<NAME_PLATE>
+　今日二回目のアトミックボルトが
+残った雷も相殺した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「ぐっっ！！　まさかっ！」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「丸裸になったな」
+<PAUSE>
+<NAME_PLATE>ライトニング
+「ば、馬鹿め！
+　ただ技を封じただけで―――はっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　覆面から覗く顔が恐怖に歪んだ。
+<PAUSE>
+<NAME_PLATE>
+　そう、まだ残っている。
+<PAUSE>
+<ACTOR>0,km_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「皆殺しミサイル＆滅殺マシンガン！
+　全弾発射あああああああああ！！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ_戦闘立ち絵①_統合4ミサイル
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,km_t004d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ケイリーが残っていた脚部ミサイルを
+全て放出した。
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ_戦闘立ち絵①_統合5マシンガン
+<NAME_PLATE>
+　指先のマシンガンも最後まで撃ち尽くす。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,km_t003d,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガガガガガガガガガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　その攻撃の全てが雷も風も失った
+ライトニングの身体に吸い込まれていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>ライトニング
+「ぐああああああああああああああああ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　爆発と着弾の嵐の中で
+ライトニングは絶叫していた。
+<PAUSE>
+<NAME_PLATE>
+　黒ずくめの身体はバラバラに吹っ飛び、
+その部分部分までもが粉微塵と化していく。
+<PAUSE>
+<BGM_STOP>1000
+<BG>chrnc0299b,IN, 1000
+<NAME_PLATE>
+　ドロレスがまた明かりをつけたときには
+もはや原形もとどめていなかった。
+<PAUSE>
+<NAME_PLATE>
+　その剣技でも能力でも一対一でなら、
+俺たちの誰よりも上だったかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　だが奴は己の力に溺れ、
+暗殺者の任務を忘れて闘いを楽しもうとした。
+<PAUSE>
+<NAME_PLATE>
+　その奢りゆえの敗北だ。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,km_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「いやったーーーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ通常立ち絵
+//　　　※カードイラストより表情差分を新規作成
+<NAME_PLATE>
+　真っ先にケイリーが歓声を上げた。
+<PAUSE>
+<NAME_PLATE>
+　ぴょんぴょん跳ね回って大喜びしている。
+<PAUSE>
+<NAME_PLATE>
+　おいおい、そんなことしたら―――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と思うそばから、フルパワーの連続で
+ガタが来はじめていた足の力が抜けた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>ケイリー
+「うわわわっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「危ない」
+<PAUSE>
+<NAME_PLATE>
+　こうなる気がしていたので、
+ケイリーの身体を支えてやる。
+<PAUSE>
+<NAME_PLATE>俺
+「調子に乗りすぎだ」
+<PAUSE>
+<ACTOR>0,km_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「えへへ、ごめんごめん」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーはペロッと舌を出した。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「でも、すごいね！
+　対魔忍の連係攻撃って
+　あんな威力があるんだね」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「それにマシンガンとかミサイルって
+　強い相手には牽制にしか使えないと思ってた。
+　それでとどめをさせるなんてビックリだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「武器も技も使い様だ。
+　アスカはもっと色々やってくるぞ」
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「よーし、もっと勉強しなくちゃ」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーはやはり様子がおかしくなっている
+アンドロイドアームの拳をグッと握った。
+<PAUSE>
+<NAME_PLATE>俺
+「その前に反省だがな」
+<PAUSE>
+<ACTOR>0,km_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「え？　ま、まさか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ＤＳＯには全部伝えるからな。
+　アスカにも、マダムにも」
+<PAUSE>
+<ACTOR>0,km_t001f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>ケイリー
+「そんなあああーーーーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーは絶叫した。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後―――。
+<PAUSE>
+<NAME_PLATE>
+　魔草を利用していた悪徳企業の一件は
+対魔忍の扱いとなり、いずれ手入れが入る
+ことになった。
+<PAUSE>
+<NAME_PLATE>
+　魔草使いのメルメは今回のお礼にと、
+約束のハチサン一箱をただで送ったそうだ。
+<PAUSE>
+<NAME_PLATE>
+　もちろんご禁制の品なのでこっそりと。
+佐那先輩は大喜びしていた。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは“椅子の人”がやれて満足。
+このところ世話になりっぱなしだ。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーはアスカとマダムに大目玉を食らい、
+大反省したようだ。
+<PAUSE>
+<NAME_PLATE>
+　そして……。
+<PAUSE>
+//【背景：五車町全景＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC007cより流用
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm208,1000
+<BG>nc162a,IN, 1000
+<WAIT>1000
+<BG>nc417a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0326d_4c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,chr_t0327a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>佐那
+「いらっしゃいませ」
+<PAUSE>
+//　※立ち絵
+//　　【ミストレス】上月佐那02＿ドレス（剣鞘なし)
+//　　　＊カードイラストより流用
+<NAME_PLATE>ケイリー
+「いらっしゃいませ～～～♪」
+<PAUSE>
+//　※立ち絵
+//　　【電遁乙女】ケイリー・マイヤーズ
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　ケイリーはこの件がきっかけで、
+佐那先輩の店でバイトすることになった。
+<PAUSE>
+<NAME_PLATE>佐那
+「お、良い笑顔だね。その調子だよ」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うん！
+　私まだまだ知らないことがいっぱい。
+　もっともっと勉強するぞ～～！」
+<PAUSE>
+<NAME_PLATE>
+　今は給仕の仕方とか、
+酔客のあしらい方を勉強しているらしい。
+<PAUSE>
+<NAME_PLATE>
+　何ごとも経験と言えなくもないが、
+いいのかそれで。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　この危なっかしい研修生は
+まだまだ目が離せそうにない。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

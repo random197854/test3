@@ -1,0 +1,797 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：町外れの広場＿ホワイトアウト】【時間：夜】
+//　※監獄アカデミア_NC002bより流用
+//nc366a
+<BGM_PLAY>bgm314,1000
+<BG>nc366a,IN, 1000
+<NAME_PLATE>俺
+「さ、さむっ……」
+<PAUSE>
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「これじゃ近づくどころか、
+　ここに長くとどまるのも危険だよ」
+<PAUSE>
+//　※立ち絵
+//　　穂希なお＿対魔忍スーツ衣装
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　降雪機ヨトゥンヘイムの親機は、
+町外れの広場に設置されている。
+<PAUSE>
+<NAME_PLATE>
+　はずなのだが、その近辺は
+激しい吹雪と冷気で真っ白になっていて、
+近づくこともままならない。
+<PAUSE>
+<NAME_PLATE>俺
+「位置はミナサキに聞いてきて分かってる。
+　遠隔攻撃できればいいんだが……」
+<PAUSE>
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「じゃあ僕がやってみるよ」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩が、
+光線銃“バルドル”を構えて進み出る。
+<PAUSE>
+<NAME_PLATE>なお
+「狙い撃つ……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　なお先輩の放ったレーザーが、
+ヨトゥンヘイムの方へと線を描く――が。
+<PAUSE>
+<BG>nc366a,IN, 500
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「――だめだ」
+<PAUSE>
+<NAME_PLATE>なお
+「今のバルドルの光じゃ、
+　吹雪に拡散されてあの機械まで届かない」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は悔しそうに銃を握りしめる。
+<PAUSE>
+<NAME_PLATE>
+　なお先輩の光がフルパワーなら、
+軽々とヨトゥンヘイムを貫くだろうが、
+ここは日光の届かない地下深く。
+<PAUSE>
+<NAME_PLATE>
+　充分に蓄光しておいたエネルギーも、任務と
+道中で見かけた子機を撃ち落とすので
+ほとんど使ってしまったのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（他に遠隔攻撃できそうなのは……）
+<PAUSE>
+<NAME_PLATE>俺
+「静流先生の薔薇の蔓なら……！」
+<PAUSE>
+<NAME_PLATE>
+　静流先生は木遁の術で植物を操る。
+かなりの遠距離でも、蔓を伸ばせば
+届くのではないかと思ったが。
+<PAUSE>
+<ACTOR>0,sz_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ダメね。
+　やってみたけど、ヨトゥンヘイムに
+　届く前に凍って枯れてしまったわ」
+<PAUSE>
+//　※立ち絵
+//　　高坂静流戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より流用
+<NAME_PLATE>静流
+「近づけば近づくほど寒いうえ、
+　吹雪が激しい。
+　植物なんてコケぐらいしか生きられないわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「そうか……。
+　じゃあさくら、影から何とか……
+　あれ、さくらは？」
+<PAUSE>
+<NAME_PLATE>
+　一緒に来ていたはずの、
+さくらの姿が見えない。
+<PAUSE>
+<NAME_PLATE>さくら
+「な、なに？　さむいよふうまくーーん！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら
+//　　　　＊アサギZERO立ち絵より流用
+<NAME_PLATE>
+　すると、さくらが影から
+顔だけをひょこっとのぞかせる。
+<PAUSE>
+<NAME_PLATE>俺
+「お前なあ、ずっと俺の影に
+　隠れてたのかよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「だって寒いんだもん！！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「一応、なんとか影から近づいて
+　攻撃できないか考えてみたよ。
+　だけど、そもそもろくに影もないし」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、それはそうだな……」
+<PAUSE>
+<NAME_PLATE>
+　俺はホワイトアウトした広場を見渡す。
+<PAUSE>
+<NAME_PLATE>
+　ただでさえ地下で薄暗い上、
+照明も吹雪に白く隠されて、
+俺たちの足元に弱々しい影ができる程度。
+<PAUSE>
+<NAME_PLATE>
+　ヨトゥンヘイムの傍まで
+伝っていけそうな影など見当たらない。
+<PAUSE>
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「影を作ることくらいなら、
+　できるかもしれないけど……」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は遠慮がちに言う。
+<PAUSE>
+<NAME_PLATE>なお
+「ダメージを与えるほどのパワーは
+　残っていないけど、普通に光は出せる。
+　ただ……」
+<PAUSE>
+<NAME_PLATE>
+　だからってどうすればいいのか、
+となお先輩は目を伏せる。
+<PAUSE>
+<NAME_PLATE>
+　さくらが影を伝ってヨトゥンヘイムに
+近づけたとして、外へ出た瞬間に
+全身凍り付いてしまうだろう。
+<PAUSE>
+<NAME_PLATE>
+　なお先輩もそれをわかっているので、
+さくらに行けとは言えないのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（まてよ……）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、さすがに危険すぎるか）
+<PAUSE>
+<NAME_PLATE>さくら
+「なになにふうまくん、
+　何か思いついたの！？」
+<PAUSE>
+<NAME_PLATE>
+　鋭いさくらは、俺がためらっているのを
+見抜いて影からつついてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、却下だ」
+<PAUSE>
+<NAME_PLATE>さくら
+「えー、言うだけでも言ってみなよ！
+　それがダメでも、
+　他の作戦を考えるヒントになるかもよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな……」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0169b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,sz_t001d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　それは確かにそうかもしれない、
+と、俺は静流先生となお先輩を近くに呼び、
+作戦会議を始める。
+<PAUSE>
+<NAME_PLATE>俺
+「……で、なお先輩に影を作ってもらって。
+　さくらは静流先生に……」
+<PAUSE>
+<NAME_PLATE>静流
+「ちょっとちょっとふうまくん。
+　それはさくらちゃんが危険すぎない？」
+<PAUSE>
+<NAME_PLATE>
+　静流先生が俺の話を遮る。
+<PAUSE>
+<NAME_PLATE>静流
+「稼げるとしてもほんのわずかな時間だし、
+　予想より寒ければ失敗する危険もあるわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ですよねえ。
+　やっぱりリスクが高すぎますか」
+<PAUSE>
+<NAME_PLATE>なお
+「僕も厳しいと思う。
+　何か他の方法を……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ws_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ううん、私やってみるよ！」
+<PAUSE>
+<NAME_PLATE>
+　危険すぎるからやめようという
+俺たちの話の方向をぶった切り、
+さくらが元気よく言う。
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい、一歩間違えたら死ぬぞ！？」
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「このままじっとしてても死んじゃうよー！？
+　だったらちょっとでも、
+　何かやってみたほうがいいじゃない！」
+<PAUSE>
+<NAME_PLATE>俺
+「確かにそれはそうだが……」
+<PAUSE>
+<NAME_PLATE>
+　さくらは自信ありげな目で、
+こちらをじっと見つめている。
+<PAUSE>
+<NAME_PLATE>俺
+「本当に大丈夫かさくら？」
+<PAUSE>
+<ACTOR>0,ws_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「大丈夫だって！
+　こういうときはどーんと度胸だよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「わかった……、
+　だが危険だと思ったらすぐに戻るんだぞ」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらのやる気に押し切られ、
+結局、俺の作戦は決行されることになった。
+<PAUSE>
+<NAME_PLATE>
+　まず、最初になお先輩が歩み出る。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,chr_t0169b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「これが最後の蓄光だから、
+　絶対失敗できないよ。
+　準備はいい？」
+<PAUSE>
+<NAME_PLATE>さくら
+「はーい！」
+<PAUSE>
+<NAME_PLATE>静流
+「オッケーよ」
+<PAUSE>
+<NAME_PLATE>なお
+「よし、いくよ……！！
+　バルドル、ありったけの光を！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　なお先輩が『バルドル』に残された、
+最後の光を解き放つ。
+<PAUSE>
+<NAME_PLATE>なお
+「輝け、照らせっ！」
+<PAUSE>
+<NAME_PLATE>
+　一条の光が吹雪を貫く。
+それになお先輩が術をかけると、あたりは
+雲間から日が差したように明るくなった。
+<PAUSE>
+<NAME_PLATE>なお
+「ふうま！」
+<PAUSE>
+<NAME_PLATE>
+　俺はなお先輩が持ってきていた
+プレゼント箱を受け取ると、
+光に大きく掲げる。
+<PAUSE>
+<NAME_PLATE>
+　さんさんと降る光を浴びて、
+地面にはくっきりと、
+プレゼント箱の四角く黒い影。
+<PAUSE>
+<NAME_PLATE>俺
+「今だ！　さくら、いくぞ！！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「まかせて！」
+<PAUSE>
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　さくらが影に飛び込んだのを確かめると、
+俺は全力でその箱を
+ヨトゥンヘイムの方向へぶん投げる。
+<PAUSE>
+<NAME_PLATE>
+　さくらはプレゼント箱の影に乗り、
+一瞬でヨトゥンヘイムの傍に接敵成功――
+<PAUSE>
+<BG>nc366a,IN, 500
+<ACTOR>0,ws_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「影の中からプレゼントフォーユー、
+　なんちゃって！」
+<PAUSE>
+<NAME_PLATE>
+　しかし飛び出したそこは極寒の地獄。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビキィッ！
+<PAUSE>
+<NAME_PLATE>
+　体に吹き付けた雪が、
+一瞬で凍りつき、さくらの動きを奪う。
+<PAUSE>
+<NAME_PLATE>俺
+「だめか…！？」
+<PAUSE>
+<ACTOR>0,sz_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「大丈夫！　すぐに払うわ！」
+<PAUSE>
+<NAME_PLATE>
+　次に飛び出したのは静流先生だ。
+素早く木遁の術を発動し、
+さくらに向けて何やら命令を発する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　すると、凍り付いたさくらの体から、
+パラパラと氷が落ち、
+再びさくらは生気を取り戻した。
+<PAUSE>
+<NAME_PLATE>
+　静流先生はあらかじめさくらに
+ギンゴケというコケを纏わせておき――
+<PAUSE>
+<NAME_PLATE>
+　それを木遁の術で動かして、
+氷を払わせたのだ。
+<PAUSE>
+<ACTOR>0,sz_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ギンゴケはありふれたコケよ。
+　ここヨミハラにもたくさん生えてるわ。
+　だけど南極でも生きられるほど強いの」
+<PAUSE>
+<NAME_PLATE>静流
+「近くに生えてるギンゴケを総動員して、
+　さくらちゃんの肌に纏わせたわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（しかし、寒さを完全に防げるわけじゃない。
+　チャンスは一瞬――）
+<PAUSE>
+<NAME_PLATE>俺
+「今ださくら！」
+<PAUSE>
+<ACTOR>0,ws_t008d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「オッケーふうまくん！」
+<PAUSE>
+<NAME_PLATE>さくら
+「奥義“影九魔ッ（カゲクマ）”！！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら＿奥義発動
+//　　　　＊対魔忍アサギZERO立ち絵より流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ws_t014d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　自由になったその一瞬で、
+さくらが忍法を発動――
+足元の影がせり上がり、大きな熊となる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　熊はさくらを守るように膨らむと、
+右から左から、力まかせに
+ヨトゥンヘイムを殴り、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ヨトゥンヘイムはまるでおもちゃのように、
+あっけなくグシャグシャに潰れてしまった。
+<PAUSE>
+<BG>nc366a,IN, 500
+<NAME_PLATE>俺
+「やったか！？」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,ws_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「うん！
+　やったよふうまくん！　……ふあっ……」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら
+//　　　　＊アサギZERO立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらは急に力が抜けたように、
+その場にうずくまってしまう。
+<PAUSE>
+<NAME_PLATE>
+　コケに守られたとはいえ、
+極寒の中活動して消耗し、
+体が冷え切ってしまったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「さくら！」
+<PAUSE>
+<NAME_PLATE>
+　冷気が治まり、雪が冷たい霧となって
+視界をぼんやり染める中、
+俺はさくらに駆け寄った。
+<PAUSE>
+<ACTOR>0,sz_t001g,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>静流
+「大変。ふうまくん、
+　さくらちゃんを店まで連れて帰ってあげて！
+　ちゃんと温めながらね」
+<PAUSE>
+//　※立ち絵
+//　　高坂静流通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より流用
+<NAME_PLATE>俺
+「は、はい」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、けど各地に飛び散った子機たちは？」
+<PAUSE>
+<NAME_PLATE>
+　そう“親機”ヨトゥンヘイムを壊しても、
+まだ各地で子機たちが冷気と雪を
+吐き出しているはずである。
+<PAUSE>
+<ACTOR>0,sz_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「そっちはリリスちゃんと
+　アンリードに任せてあるわ」
+<PAUSE>
+<NAME_PLATE>静流
+「親機を壊したから、これ以上増えないし
+　じきに片付くでしょう」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど、それは大丈夫そうだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　空を飛ぶ魔女のリリスと、
+銃使いのアンリード。
+<PAUSE>
+<NAME_PLATE>
+　飛び回る子機を殲滅するには、
+ぴったりの組み合わせだ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ならば安心ということで、
+俺はさくらを抱いて店まで急ぎ戻る。
+<PAUSE>
+//【背景：少し離れた場所＿ホワイトアウト】【時間：夜】
+//　※監獄アカデミア_NC002bより流用
+//nc366a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc366a,IN, 1000
+<ACTOR>0,ts_m231a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ネイス
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ネイス
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ネイス
+「対魔忍、か」
+<PAUSE>
+<NAME_PLATE>ネイス
+「…………ふふ。
+　ボスがなんと仰るかな」
+<PAUSE>
+//【背景:黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後。
+<PAUSE>
+<NAME_PLATE>
+　さくらは無事に回復したが、
+随分と体力を消耗していた。
+<PAUSE>
+<NAME_PLATE>
+　静流先生の店で休んでから
+帰るということで、俺となお先輩は
+先に帰路につくことになった。
+<PAUSE>
+//【背景：電車＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc047aより流用
+//nc367a
+<BGM_PLAY>bgm506,1000
+<BG>nc367a,IN, 1000
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「あのさくらさん、
+　只者ではない強さだったね」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお通常立ち絵＿制服衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>なお
+「忍法までさくら先生と同じようだったけど
+　一体何者なんだい？」
+<PAUSE>
+<NAME_PLATE>俺
+「それは……
+　俺もよくわかんないですけど……」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩に興味津々に尋ねられ、
+俺は必死にシラを切り通していた。
+<PAUSE>
+<NAME_PLATE>なお
+「ふうん？
+　ずいぶん君と仲が良いみたいだったけど」
+<PAUSE>
+<NAME_PLATE>俺
+「別にそんなことないですよお？」
+<PAUSE>
+<NAME_PLATE>なお
+「おまけに君の家に
+　住んでいるらしいじゃない」
+<PAUSE>
+<NAME_PLATE>
+　目を逸らす俺の顔を覗き込みながら、
+なお先輩がジトリと言う。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うっ……！？
+　それはその、ちょっと彼女にも
+　事情があって……あるらしくて」
+<PAUSE>
+<NAME_PLATE>俺
+（そんなことまで知ってるのか！？
+　さては静流先生が言ったな。
+　あの人は余計なことを……）
+<PAUSE>
+<NAME_PLATE>なお
+「まったく君も隅に置けないな」
+<PAUSE>
+<NAME_PLATE>なお
+「ま、今回は彼女のおかげで助かったけどね。
+　クリスマス衣装にあえてトナカイを
+　選ぶセンスはユニークだけど」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらのことを褒めながらも、
+なお先輩はつんと窓の外を向く。
+<PAUSE>
+<NAME_PLATE>俺
+（なんでちょっとトゲトゲした感じなんだ？）
+<PAUSE>
+<NAME_PLATE>
+　この先輩のことは、
+相変わらずよくわからない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（やれやれ……
+　さくらのことがバレたらどうするか、
+　そろそろ本気で考えておかないとな……）
+<PAUSE>
+//【背景：近隣都市まえさき市駅前＿昼】【時間：昼】
+//　※シオンの背景nc005aを加工（メイン４章で使用※まえさき市と表示）を流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc039a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして数日後の、
+クリスマス当日。
+<PAUSE>
+<NAME_PLATE>
+　俺は元気になったさくらに呼び出され、
+まえさき市の駅前で待ち合わせしている。
+<PAUSE>
+<NAME_PLATE>俺
+（さくらのやつまだかよ……）
+<PAUSE>
+<NAME_PLATE>
+　約束の時間は過ぎ、
+連絡しても既読はつかない。
+<PAUSE>
+<NAME_PLATE>俺
+（アソビステーション５の抽選も外れるし、
+　寒い中待たされるし、
+　ろくなクリスマスじゃないな……！）
+<PAUSE>
+<NAME_PLATE>
+　やや日が傾いてきた駅前は、
+電車が着くたびにカップルが嬉しそうに
+歩いて来て、俺のイライラに火を注ぐ。
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ごめんごめーん！
+　ちょっと混んでて遅くなっちゃった！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら通常立ち絵＿制服衣装
+//　　　　＊対魔忍アサギZEROより流用
+<NAME_PLATE>
+　すると、街の方角から、
+さくらが小走りにやってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよ。この寒い中呼び出して」
+<PAUSE>
+<NAME_PLATE>
+　俺はわざと目をあわせずに言う。
+<PAUSE>
+<NAME_PLATE>さくら
+「だって、早く渡したかったんだもん！
+　はい、クリスマスプレゼント！」
+<PAUSE>
+<NAME_PLATE>
+　さくらが差し出したのは、
+大きな紙袋である。
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は袋の中の箱を見て――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「これは！？
+　今日発売のアソビステーション５
+　じゃないか！？」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「えへへ。
+　実はこっそり応募しておいた
+　抽選予約が当たっててさ」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「まさか当たると思わなかったから、
+　慌ててお金貯めたんだよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「マジか……それを俺にくれるのか！？
+　いや待てよ、また怪しい偽物
+　掴まされたんじゃないだろうな」
+<PAUSE>
+<NAME_PLATE>
+　俺は去年のクリスマスに巻き込まれた、
+偽“モンバコ”騒動のことを思い出す。
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「違うよ！
+　今度はちゃんと、全国チェーンの
+　ガマダ電機で抽選予約したもん！」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか。じゃ大丈夫だな。
+　しかし、それってすごい倍率だっただろ。
+　俺がもらっていいのか？」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「えへへ。日頃の感謝の印かな？」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「……あ、でも二人用のゲームは、
+　私と一緒に遊んでね！？」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　さくらはてへっと笑って、
+照れたように肩をすくめてみせる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うおおお！」
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間、俺は感動のままに、
+思いっきりさくらに抱きついていた。
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとう、ありがとうさくら！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「ちょ、ちょっと！　ふうまくん！」
+<PAUSE>
+<NAME_PLATE>俺
+「帰ったらさっそくやろう！
+　もちろん二人用のやつだ！
+　今夜は寝かせないぜ！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「な、何言ってるのさ！？
+　ふうまくんってばっ！？」
+<PAUSE>
+<NAME_PLATE>
+　さくらは手をばたつかせていたが、
+やがてすっと大人しくなり、
+<PAUSE>
+<NAME_PLATE>さくら
+「も、もう……みんな見てるよ……☆」
+<PAUSE>
+<NAME_PLATE>
+　周りを気にしながらも、
+そっと俺の背中に手を回したのだった。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,500 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ繁華街＿路地裏＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc031aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc009a,IN, 1000
+<ACTOR>0,ts_m263a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔術師
+「行けミノタウロス！
+　奴を八つ裂きにしろっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ダークチェイサー
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,ts_m260a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m260a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔獣たち
+「ＵＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯＯＯッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ミノタウロス
+//　　　＊モンスターイラストより流用
+//　　ミノタウロス
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>沢北
+「ま、魔女様っ！！
+　――お逃げ下さい！！！
+　この場は、私がなんとしても！」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　＊モンスターイラストより流用
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「何を言っているの。
+　そんな体の部下を見捨てるほど
+　私は情の薄い女じゃないわ。それに――」
+<PAUSE>
+//　※立ち絵
+//　　水城不知火立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>幻影の魔女
+（……退路は塞がれている。
+　逃げようにも逃げられないわね）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　路地の反対側を塞ぐように
+淫魔族幹部アンブローズが立っている。
+<PAUSE>
+<NAME_PLATE>
+　アンブローズは女であれば
+誰でも虜にするチャームの力を持ち、
+<PAUSE>
+<NAME_PLATE>
+　それだけでなく雄大な体躯を活かした
+格闘術の達人としても知られている。
+<PAUSE>
+<NAME_PLATE>
+　万全な状態ならともかく、
+今の魔女がどれだけ対抗できるか――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「フフ、まあいいわ……。
+　ここで死ぬのであれば、
+　それは私の定め」
+<PAUSE>
+<NAME_PLATE>幻影魔女
+「でも、覚悟しておくのねあなたたち。
+　一人でも多く道連れにしてあげるわよ♪」
+<PAUSE>
+<NAME_PLATE>沢北
+「ま、魔女様っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　配下の男をかばうように前に立った
+魔女の体から強大な魔力が沸き上がる。
+<PAUSE>
+<NAME_PLATE>
+　と同時に、下腹部の傷口から激痛と
+共にごぼりと生温かい鮮血が溢れ出す。
+<PAUSE>
+<NAME_PLATE>
+　傷口に深く刻まれた呪いが、
+再び彼女の体を蝕んでいく。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+（そう、構わないわ……。
+　ここで果てるのが、
+　私への“罰”だと言うのなら――）
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　下腹部を襲う激痛に瞳を恍惚とさせた
+魔女がゆっくりと術を行使する――
+だが、その直前。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「あら？　私があなたを討ちに来た？」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「ふふん。見くびらないで欲しいわね。
+　――アチョオオオオオオオオッ！！」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ビュンッ！！！！
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドゴオオオオオオオオオオオオン！！！
+<PAUSE>
+//　※打撃演出など
+<NAME_PLATE>
+　それは超スピードで繰り出された
+きりもみドロップキックであった。
+<PAUSE>
+<NAME_PLATE>魔獣
+「ＵＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯッ！！？？？」
+<PAUSE>
+<NAME_PLATE>
+　その巨大な影は、驚きで
+目を丸くする魔女の眼前を横切って、
+<PAUSE>
+<NAME_PLATE>
+　こちらに突進する魔獣の体に突き刺さり、
+吹き飛ばし、あっさりと一撃でＫＯした。
+<PAUSE>
+<BG>nc009a,IN, 500
+<ACTOR>0,ts_m263a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔術師
+「なっ！！！？　アンブローズ、
+　き、貴様なにを――がはっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ダークチェイサー
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>ミレイユ＆ミーティア
+「え、えいっ！！」
+「てやっ！　アンブローズ様、
+　これでいいんですか！？」
+<PAUSE>
+//　※立ち絵
+//　　ミレイユ01（ＨＲ）
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　ミーティア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>幻影の魔女
+「えっ……！？」
+<PAUSE>
+<BG>nc009a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0111a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0113a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　動揺し、さらに攻撃を仕掛けようとしていた
+魔術師たちの背後に二人の若い淫魔がいた。
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>
+　杖や催眠術を使って、虚を突かれた
+魔術師たちを次々に昏倒させていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「ええ、良い働きよ子猫ちゃん！
+　――さあ、あとはこちらの仕上げね！」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「私の必殺ＱＵＥＥＮ　ＫＵＮＧ－ＦＵの冴え
+　目に焼き付けなさいっ！！
+　ハアアア！！　アチョオオオ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔獣たち
+「ＵＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯッ！！？？？」
+<PAUSE>
+//　※立ち絵
+//　　ミノタウロス
+//　　　＊モンスターイラストより流用
+//　　ミノタウロス
+//　　　＊モンスターイラストより流用
+//　※打撃演出など
+<NAME_PLATE>
+　怪鳥の如き叫びと共に
+アンブローズの巨体が華麗に舞う。
+<PAUSE>
+<NAME_PLATE>
+　その稲妻のような格闘術によって
+狂暴な魔獣たちが一体、
+また一体と崩れ落ちていく。
+<PAUSE>
+<BG>nc009a,IN, 500
+<NAME_PLATE>沢北
+「ま、魔女様……これは……」
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「ええ。どうやら、
+　彼は敵ではなかったようね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　術の発動を解いた魔女が、微かな
+安堵の笑みを浮かべてうなずいた。
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ繁華街＿路地裏＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc031aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc009a,IN, 1000
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アンブローズ
+「さあ、これでわかったでしょう！？
+　“あいつ”にも伝えておきなさい、
+　おバカさんたち！！」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>アンブローズ
+「あなたたちが何をしようと勝手だけれど、
+　私には私の仁義がある」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「つまり、彼女の命を狙うのは、
+　このアンブローズを敵にするという事。
+　――覚えておきなさい！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカッ！！！
+<PAUSE>
+<NAME_PLATE>魔術師
+「あぐぅっ！？
+　こ、後悔するなよ愚か者ども……」
+<PAUSE>
+//　※立ち絵
+//　　ダークチェイサー
+//　　　＊モンスターイラストより流用
+<SE_PLAY>se023
+<BG>nc009a,IN, 500
+<NAME_PLATE>
+　鋭い一撃をみぞおちに入れられ、
+苦悶のうめきと共に魔術師が昏倒する。
+<PAUSE>
+<NAME_PLATE>
+　これが最後の一人。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　突然現れたアンブローズと
+その仲間によって、あっという間に
+魔女を追う追跡者は撃退された。
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,si_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「……アンブローズ。
+　ありがとう、と言うべきかしらね」
+<PAUSE>
+//　※立ち絵
+//　　水城不知火立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　そんなアンブローズに魔女が声をかけた。
+<PAUSE>
+<NAME_PLATE>
+　腕を吹き飛ばされた配下には
+魔力による簡単な治療を行った。
+<PAUSE>
+<NAME_PLATE>
+　新しく腕を生やせるかはわからないが、
+出血で死ぬことはないだろう。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「あら？　必要ないわよ魔女さん。
+　奴らにも言ったけれど、
+　私は己の仁義を通しに来たの」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「仁義……？　私につくことが？」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「違うわ。
+　私は誰の味方でもない。
+　ただ“美しくないもの”の敵よ」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「外見のことじゃない。
+　その心の在り様のこと」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「……そもそも、私は
+　“あいつ”のことが嫌いなの♪」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「ふふっ。あなたらしいわね」
+<PAUSE>
+<NAME_PLATE>
+　魔女が苦笑した。
+<PAUSE>
+<NAME_PLATE>
+　いま彼女の側につくことは、
+危険ばかり大きく得るものは何もない。
+<PAUSE>
+<NAME_PLATE>
+　しかしそんな損得勘定は抜き。
+<PAUSE>
+<NAME_PLATE>
+　まっすぐに己の義侠心を貫くのが、
+淫魔族幹部アンブローズという男である。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+（でも、これで状況が少し変わる……）
+<PAUSE>
+<NAME_PLATE>
+　まだ、楽にはなれないってことね――
+と自嘲気味に彼女は思う。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　襲撃を受け、配下を失い、
+それを己の愚かさの“罰”だと考えた。
+<PAUSE>
+<NAME_PLATE>
+　そして一瞬だけ、
+全てを投げ出しそうになった。
+<PAUSE>
+<NAME_PLATE>
+　しかし彼女には、
+まだやるべきことが残されていたようだ。
+<PAUSE>
+<NAME_PLATE>ミーティア
+「あ、あの……！　ちゃんと
+　ご挨拶するのは初めてなんですけれど、
+　幻影の魔女様ですよね……？」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「え？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0111a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0113a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そこに、アンブローズの後ろで
+もじもじしていた若い淫魔二人が
+声をかけてきた。
+<PAUSE>
+<NAME_PLATE>ミーティア
+「あっ！　私はミーティアといいます！
+　こっちは友達のミレイユで……」
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「あわわ……じ、実は私たち、
+　魔女様の大ファンで……！」
+<PAUSE>
+<NAME_PLATE>ミレイユ
+「どうしたら魔女様みたいな
+　凄い淫魔になれるんだろうって、
+　いっつも皆で話していて……！」
+<PAUSE>
+<NAME_PLATE>ミーティア
+「そうなんですっ！
+　そ、それで、よろしければ、
+　このしっぽの先にサインを……」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「あ、あらあら……？」
+<PAUSE>
+<NAME_PLATE>
+　ガチガチに緊張しつつも
+二人の淫魔はきらきらとした
+憧れの目を彼女に向けてくる。
+<PAUSE>
+<NAME_PLATE>
+　普段は少数の配下としか
+行動していなかったので知らなかったが、
+<PAUSE>
+<NAME_PLATE>
+　突出した魔力と美貌を持つ彼女は
+いつの間にか若い淫魔の間で
+憧れの存在になっていたようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「はいはい、
+　挨拶はあとよ二人とも！」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「話はゆっくりできる場所で――
+　ちょうどこの区画を抜けた辺りに
+　良いお店を知っているわ」
+<PAUSE>
+<NAME_PLATE>
+　それは行きつけの溶岩エステの
+オーナーから紹介されたお店。
+<PAUSE>
+<NAME_PLATE>
+　アンブローズ好みのイイ男が
+バーテンをしている小さなバーである。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「私がいれば“奴ら”も
+　今は手を出せないでしょう。
+　どう、一緒にくる？」
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,si_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「……ええ。甘えさせてもらうわ。
+　もちろん、お店はあなたのおごりで♪」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「あら図々しい。
+　でも、少しはいつもの調子が
+　戻ってきたようね♪」
+<PAUSE>
+<NAME_PLATE>
+　気心の知れた笑みをかわす
+幻影の魔女とアンブローズ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se082
+<NAME_PLATE>
+　そして二人は、
+配下たちと連れ立って
+薄暗い路地裏から姿を消した。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

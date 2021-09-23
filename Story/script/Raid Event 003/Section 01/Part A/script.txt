@@ -1,0 +1,611 @@
+//☆レイド03(旧：マップ02)シナリオ部分
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//シーン説明：
+//【黒画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：隣町まえさき市＿街中駅前＿昼】【時間：昼】
+//　※僕のエルフお姉さん＿街中駅前.pngより流用
+<BGM_PLAY>bgm307,1000
+<BG>nc089a,IN, 3000
+<NAME_PLATE>
+　休日の昼下がり――
+<PAUSE>
+<NAME_PLATE>
+　神村舞華は五車町を離れ、
+隣のまえさき市までやってきていた。
+<PAUSE>
+<ACTOR>0,ma_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>神村舞華
+（うひょ～！！
+　激カワのアイテム大量ゲット！！
+　久しぶりに爆買いしてやったぜっ！！）
+<PAUSE>
+//　※立ち絵
+//　　神村舞華立ち絵＿ギャル衣装
+//　　　対魔忍アリーナカードイラストを流用
+<NAME_PLATE>
+　舞華の周りには沢山の買い物袋が
+置かれている。
+<PAUSE>
+<NAME_PLATE>
+　お気に入りのショップがセールをやって
+いたので、つい調子に乗って買いまくって
+しまったのだ。
+<PAUSE>
+<NAME_PLATE>舞華
+（まあ、たまにはハメ外してもいいよな！
+　こんな格好だって、五車の方では
+　できないんだし……）
+<PAUSE>
+<NAME_PLATE>
+　“こんな格好”とは、舞華の今の服装の
+こと。
+<PAUSE>
+<NAME_PLATE>
+　普段の硬派な装いとは正反対の、
+いかにも“ギャル”という感じの
+派手派手なファッションだ。
+<PAUSE>
+<NAME_PLATE>舞華
+（向こうでこんな格好してたら、
+　学園の奴らがうるせえからなぁ）
+<PAUSE>
+<NAME_PLATE>舞華
+（ったく、別に良いじゃねえか、
+　俺がどんな服着てたってよぉ！！）
+<PAUSE>
+<NAME_PLATE>
+　ちょっと不平そうに唇を尖らせる舞華。
+<PAUSE>
+<NAME_PLATE>
+　実は舞華は、女の子らしい可愛い小物や
+ギャルファッションが大好きである。
+<PAUSE>
+<NAME_PLATE>
+　しかし学園では硬派で通しているため、
+それを大っぴらに楽しむことができない。
+<PAUSE>
+<NAME_PLATE>
+　なので舞華は、休日になると学園の皆が
+あまりやってこない隣町までくり出し、
+<PAUSE>
+<NAME_PLATE>
+　こうして好きなファッションで思う存分
+楽しむのを、密かな趣味としていた。
+<PAUSE>
+<NAME_PLATE>舞華
+（まっ、せっかくの休みなんだし、
+　つまらねえ愚痴はこれくらいにするか！）
+<PAUSE>
+<NAME_PLATE>舞華
+（今日は目一杯楽しんだわけだし……
+　学園の奴らと顔を合わせないうちに、
+　とっとと撤収するかな）
+<PAUSE>
+<NAME_PLATE>
+　などと考えつつ、駅前のコンビニで
+舞華が休憩していたところ――
+<PAUSE>
+<NAME_PLATE>怪しい男
+「あ～ら、こんな所にカワイイ子が
+　いるわねぇ。あなた、今お暇？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「あぁ！？　なんだ、てめぇ！？」
+<PAUSE>
+<NAME_PLATE>
+　怪しげな業界人そのものといった
+風体の男である。
+<PAUSE>
+<NAME_PLATE>
+　男は、舞華の凄味のある視線にも
+全く動じることなく、
+<PAUSE>
+<NAME_PLATE>怪しい男
+「あら～、ダメダメ♪
+　あなた凄くカワイイんだから、
+　そんな恐い顔しちゃ勿体ないわよぉ」
+<PAUSE>
+<NAME_PLATE>舞華
+「おっ、俺が、カワイイだと……！？」
+<PAUSE>
+<NAME_PLATE>怪しい男
+「ええ。ファッションも決まってるし、
+　学園でも凄くモテるでしょう？」
+<PAUSE>
+<NAME_PLATE>舞華
+「い、いやぁ……？　そんなこと、
+　あるかも、だけど……」
+<PAUSE>
+<NAME_PLATE>
+　舞華が、珍しくしどろもどろになっている。
+<PAUSE>
+<NAME_PLATE>
+　あまり言われたことのない褒め言葉に、
+動揺を隠せないようだ。
+<PAUSE>
+<NAME_PLATE>舞華
+「そ、それで……てめえ、
+　俺に何の用なんだよ……！？」
+<PAUSE>
+<NAME_PLATE>怪しい男
+「うふふ♪　それは聞いてのお楽しみ。
+　さあ、向こうでお話ししましょう――？」
+<PAUSE>
+//【黒画面】
+<ACTOR>0,ma_t002a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　三日後――
+<PAUSE>
+//【背景：五車学園＿校舎内校長室＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC009aより流用
+<BG>nc006a,NONE
+<TRANSITION>TR26, IN, 1000
+<BGM_PLAY>bgm506,1000
+<ACTOR>1,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「実は、あなた達独立遊撃隊にお願いしたい
+　ことがあるの」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　放課後、俺を呼び出したアサギ校長は、
+挨拶もそこそこにそう切り出した。
+<PAUSE>
+<NAME_PLATE>俺
+「任務ですね。
+　それで、今回はどういう……？」
+<PAUSE>
+<NAME_PLATE>
+　俺は恐る恐るアサギ校長に尋ねた。
+<PAUSE>
+<NAME_PLATE>
+　アサギ校長の表情は、
+どこか気がかりな風で表情を曇らせている。
+<PAUSE>
+<NAME_PLATE>
+　うーむ……
+<PAUSE>
+<NAME_PLATE>
+　今までの任務と同様、今回も面倒なことに
+なりそうな予感がガンガンするぞ……
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。あなたは、神村舞華さんを
+　知っているわね？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、同じクラスですから」
+<PAUSE>
+<ACTOR>1,a_t001c,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>1000
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　神村舞華は、俺のクラスメイトだ。
+<PAUSE>
+<NAME_PLATE>
+　前はあいつのヤンキー丸出しの言動を
+敬遠していたのだが、
+<PAUSE>
+<NAME_PLATE>
+　実技試験で同じチームになったことを
+きっかけに、それなりに親しく話すように
+なった。
+<PAUSE>
+<NAME_PLATE>
+　乱暴そうな見た目や言動に反して、
+話してみると意外と良い奴である。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG>nc006a,NONE
+<TRANSITION>TR26, IN, 1000
+<NAME_PLATE>俺
+「あいつがどうかしたんですか？」
+<PAUSE>
+<NAME_PLATE>
+　するとアサギ校長は、心配そうに
+小さくため息を吐いて――
+<PAUSE>
+<ACTOR>1,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「どうやら彼女は、行方不明になって
+　いるらしいの」
+<PAUSE>
+<NAME_PLATE>アサギ
+「この数日間、自宅にも戻っておらず、
+　友人も連絡が付かないと――」
+<PAUSE>
+<NAME_PLATE>俺
+「なんですって……？」
+<PAUSE>
+//【黒画面】
+//【背景：近隣都市まえさき市妖しい繁華街地区２＿夜】【時間：夜】
+//　※陰陽騎士トワコの背景nc005aより流用
+<ACTOR>1,a_t001c,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<WAIT>1000
+<UI_DISP>ON, 0
+<BG>nc042a,NONE
+<TRANSITION>TR26, IN, 1000
+<BGM_PLAY>bgm206,1000
+<NAME_PLATE>
+　その日の夜。
+隣町まえさき市の歓楽街――
+<PAUSE>
+<ACTOR>2,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「ふーん。それで、
+　舞華ちゃんを探しにきたのね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　ここに来るまでの道中、蛇子達にも事情を
+簡単に説明した。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに、このまえさき市の歓楽街が、
+舞華が最後に目撃された場所である。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ俺は正直、大袈裟だと思うけどな」
+<PAUSE>
+<NAME_PLATE>俺
+「いなくなったって言っても、あいつ
+　ヤンキーだろ？　どっかで夜遊びでも
+　してるんじゃないか」
+<PAUSE>
+<ACTOR>2,h_t002c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,s_t001f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「な、何てこと言うんだ、ふうまっ！！
+　神村さんはそんないい加減な人じゃ
+　ないぞ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　と、なぜか鹿之助に盛大に食って
+かかられた。
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？　お前、やけに庇うじゃないか」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「べ、別に庇ってなんかないぞ！！
+　ただお前が、神村さんを侮辱するような
+　ことを言うから……」
+<PAUSE>
+<NAME_PLATE>俺
+「ふーん……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「な、なんだよ……？」
+<PAUSE>
+<NAME_PLATE>俺
+「そう言えばお前、前にも舞華のこと、
+　熱く語ってたよな」
+<PAUSE>
+<NAME_PLATE>
+　憧れの存在とか、あんな風になりたいとか、
+ずいぶんな熱の入れようだった。
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱりお前、あいつに
+　惚れてるんじゃないのかー？」
+<PAUSE>
+<NAME_PLATE>
+　真っ赤になっている鹿之助が面白いので、
+さらに追及してみた。
+<PAUSE>
+<ACTOR>3,s_t001i,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ちっ、ちげーよっ！！
+　俺はただ、神村さんが凄く良い人って
+　言いたいだけで――」
+<PAUSE>
+<NAME_PLATE>俺
+「良い人ねえ？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そ、そうだぞ！　この前だって、
+　雨の日に、濡れた捨て猫に傘さして
+　あげてるの見たし……」
+<PAUSE>
+<NAME_PLATE>俺
+「昔の少女マンガかよ」
+<PAUSE>
+<ACTOR>2,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あっ、蛇子も見た。
+　舞華ちゃん、お年寄りの手を引いて
+　横断歩道を一緒に渡ってたよ」
+<PAUSE>
+<NAME_PLATE>俺
+「あいつ、どんだけ良いところ
+　目撃されてるんだよ……」
+<PAUSE>
+<NAME_PLATE>
+　もしかしたら、そこら中で密かに
+善行を積んでいるのかもしれない。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ俺だって、舞華が良い奴なのは
+　否定しないぜ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「そうだよな！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ただ……あいつの強さは、
+　俺達の世代ではトップクラスだからな」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍としての素質は、“雷遁の術”で
+名高い水城ゆきかぜと並ぶとも言われている。
+<PAUSE>
+<NAME_PLATE>俺
+「そんな奴が、その辺のチンピラに
+　捕まったりしないだろうし」
+<PAUSE>
+<NAME_PLATE>
+　だから、夜遊びでもしてるのか、
+と推察したのだが。
+<PAUSE>
+<ACTOR>3,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「うっ……た、確かに……」
+<PAUSE>
+<ACTOR>2,h_t002g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子は逆に心配だわ。
+　舞華ちゃん、どうしたんだろう？」
+<PAUSE>
+<NAME_PLATE>
+　三人で話しているうちに、舞華が最後に
+目撃された繁華街へと到着した。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、とりあえず情報を集めるか。
+　この辺を手分けして――しばらくしたら
+　また集合しよう」
+<PAUSE>
+//【黒画面】
+//【背景：近隣都市まえさき市妖しい繁華街地区＿夜】【時間：夜】
+//　※堕ちる人妻の背景nc008bより流用
+<GROUP>
+<ACTOR>3,s_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,h_t002g,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<WAIT>1000
+<UI_DISP>ON, 0
+<BG>nc041a,NONE
+<TRANSITION>TR26, IN, 1000
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　二時間後――
+<PAUSE>
+<NAME_PLATE>
+　手分けして聞き込みをした俺達は、
+路地裏の細い通りに集合していた。
+<PAUSE>
+<GROUP>
+<ACTOR>3,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「なるほど。少し事情が見えてきたな……」
+<PAUSE>
+<NAME_PLATE>
+　三人が集めてきた情報をまとめると、
+次のような感じになる。
+<PAUSE>
+<NAME_PLATE>
+　三日前の夕方、舞華と怪しげな男が
+繁華街を歩いているのを目撃されている。
+<PAUSE>
+<NAME_PLATE>
+　また気になることに、
+行方不明になっているのは
+舞華だけじゃないらしい。
+<PAUSE>
+<NAME_PLATE>
+　この近辺では、最近、何人も
+姿を消している者がいるとのこと。
+<PAUSE>
+<NAME_PLATE>
+　そして、姿を消している者の共通点は、
+皆戦闘能力に優れていること。
+<PAUSE>
+<NAME_PLATE>
+　それから、一度姿を消した者が、まったく
+別人のような性格になって戻ってきた、
+という噂もあるらしい、などなど……
+<PAUSE>
+<NAME_PLATE>蛇子
+「いなくなっているのは、
+　舞華ちゃんだけじゃなかったのね」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。こいつは、考えてたより厄介な
+　事件かもしれないな」
+<PAUSE>
+<NAME_PLATE>
+　特に『別人のような性格になった』と
+いう情報が気になった。
+<PAUSE>
+<NAME_PLATE>
+　それが本当なら、
+この件にはろくでもない奴が
+関わっていることになる……
+<PAUSE>
+<ACTOR>3,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「お、おいっ！！
+　大丈夫なのかよ、ふうま！？
+　俺、猛烈に嫌な予感がしてきたぞ！！」
+<PAUSE>
+<NAME_PLATE>
+　気の早い鹿之助が
+もうビクビクし始めていた。
+<PAUSE>
+<GROUP>
+<ACTOR>3,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,h_t002c,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　と、そこに――
+<PAUSE>
+<NAME_PLATE>フュルスト
+「おやおや。あなた達でしたか。
+　こそこそと私のことを嗅ぎ回っている
+　という輩は――」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<ACTOR>4,f_t001a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「――お前は！？？」
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>
+　突然のことだった。
+<PAUSE>
+<NAME_PLATE>
+　路地の暗がりから染み出したように、
+俺達の前に長身の男が立っていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひいいいいいいっ！？　何か出たっ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「こ、この人はっ――！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「――魔科医師・フュルストか」
+<PAUSE>
+<NAME_PLATE>
+　以前、『室井先生』として学園に
+潜入していたノマドの大幹部。
+<PAUSE>
+<NAME_PLATE>
+　骸佐をそそのかしたのもこの男だろうと
+目されている、要警戒対象だ。
+<PAUSE>
+<ACTOR>4,f_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「ホホホ……。
+　お久しぶりですね、我が教え子達。
+　お元気そうで何よりですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「黙れ。耳が腐るぜ」
+<PAUSE>
+<NAME_PLATE>
+　相変わらずイヤミったらしい男である。
+<PAUSE>
+<NAME_PLATE>俺
+「そんなことより、今の言葉――。
+　この辺りで流行っている失踪事件は、
+　お前の仕業なのか？」
+<PAUSE>
+<ACTOR>4,f_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「私の仕業？　さて、どうでしょうか？」
+<PAUSE>
+<NAME_PLATE>
+　俺の詰問を、フュルストはとぼけた顔で
+受け流した。
+<PAUSE>
+<NAME_PLATE>俺
+「そうか。なら、とっ捕まえるだけだ！
+　お前には、骸佐に関しても聞きたいことが
+　山ほどある」
+<PAUSE>
+<NAME_PLATE>
+　俺は蛇子と鹿之助に視線で合図を送る。
+<PAUSE>
+<NAME_PLATE>
+　どういうつもりか知らないが、こいつが
+自分から表に出てきたのは好機である。
+<PAUSE>
+<NAME_PLATE>フュルスト
+「おやおや？　物騒な子達ですねぇ」
+<PAUSE>
+<NAME_PLATE>
+　しかしフュルストは、
+全く動じる気配もなく――
+<PAUSE>
+<ACTOR>4,f_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「ホホホ。ですが、ちょうど良いですね。
+　実は私も、“これ”の仕上がりを試す
+　相手が欲しかった所です」
+<PAUSE>
+<NAME_PLATE>
+　そう優雅に笑って、背後の暗がりに
+向けて声をかけた。
+<PAUSE>
+<NAME_PLATE>フュルスト
+「出てきなさい――“舞華”。
+　あちらの三人があなたの敵――。
+　遠慮せず、片付けてしまいなさい」
+<PAUSE>
+<ACTOR>4,f_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「まっ、舞華……！？」
+<PAUSE>
+<NAME_PLATE>
+　予想外過ぎる言葉だった。
+<PAUSE>
+<NAME_PLATE>
+　そして、驚きから動きが止まった
+俺達の目の前に――
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「あぁ。わかったぜ、“マスター”。
+　俺は、このガキどもを
+　ぶっ殺せばいいんだな……？」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　不機嫌そうな顔で現れた対魔忍スーツの女
+――神村舞華が、俺達に武器を向けた。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→プロローグ終了
+//=================================================================

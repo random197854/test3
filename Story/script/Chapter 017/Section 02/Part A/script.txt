@@ -1,0 +1,438 @@
+//=========================================//========================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：炎上する屋敷過去＿夜】【時間：夜】
+//　※戦国魔姦_nc004aより流用
+//※冒頭、鎮守の森まで行くまでに仲間とはぐれるくだりを入れました。
+//　背景、立ち絵はSection１と同じ物を使っています。
+<BGM_PLAY>bgm406,1000
+<BG>nc194a,IN, 1000
+<ACTOR>0,t_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様、安心して時子の背に
+　おつかまりください」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>小太郎
+「う、うん」
+<PAUSE>
+<NAME_PLATE>
+　時子の背に小太郎の身体が乗った。
+<PAUSE>
+<NAME_PLATE>
+　その重さ以上に、ふうまの未来が
+時子の背にずしりとかかる。
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「何も恐れることはございません。
+　そこで寝てしまってもいいですよ」
+<PAUSE>
+<NAME_PLATE>小太郎
+「だ、大丈夫。
+　時子がいるから怖くない」
+<PAUSE>
+<NAME_PLATE>
+　肩越しに振り返ったその面持ちは
+懸命に怯えを隠そうとしていた。
+<PAUSE>
+<NAME_PLATE>時子
+「それでこそ、ふうまのお館様です」
+<PAUSE>
+<NAME_PLATE>
+　時子は優しく微笑み、立ち上がった。
+<PAUSE>
+<ACTOR>0,t_t007b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「では、まいります」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　時子は風のごとく走り出した。
+<PAUSE>
+<NAME_PLATE>
+　焼け落ちるふうま宗家屋敷を後にし
+井河忍軍の囲みを突破するために。
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　付き従うふうまの忍は残り僅かだ。
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//  　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<ACTOR>1,ts_m013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河忍者
+「いたぞ！！　ふうまどもだ！！」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　敵はすぐに現れた。
+<PAUSE>
+<NAME_PLATE>
+　屋敷の炎がその姿を闇に浮かび上がらせる。
+<PAUSE>
+<NAME_PLATE>
+　井河の忍は数を頼みに、
+包囲を狭めてくる。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま忍者
+「時子様！
+　ここは我らにお任せを！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうまくノ一
+「お館様をお頼みします！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>時子
+「頼みます！！」
+<PAUSE>
+<NAME_PLATE>
+　時子は一瞬も躊躇うことなく、
+配下にその場を任せた。
+<PAUSE>
+<NAME_PLATE>
+　多勢に無勢、
+その先にある運命を
+お互いに知っていながら。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>小太郎
+「弥太！　月影！！」
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「若様、ご安心めされよ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうまくノ一
+「ご褒美は後ほど！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　彼らは怯むことなく
+敵の群れに飛び込んでいった。
+<PAUSE>
+<NAME_PLATE>
+　しかし追っ手は容赦なく彼らを追い詰める。
+<PAUSE>
+<NAME_PLATE>井河忍軍
+「火だ！！　火を使え！！
+　森に火を付けて奴らをあぶり出せ！！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR>4,ts_m096a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま忍者
+「うぬう！
+　火遁のなんたるかも知らぬ馬鹿どもめ！！
+　行くぞ、岩丸！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうま忍者
+「おうよ、篝火！！
+　ふうまの術の神髄、
+　奴らに馳走してくれるわ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　敵を引きつけるため、大声をあげ、
+あえて目立つように、果敢に斬り込んでいく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>小太郎
+「ああ、みんな！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「お館様！！
+　振り返ってはなりません！！」
+<PAUSE>
+<NAME_PLATE>小太郎
+「ううっ……」
+<PAUSE>
+<BG_OUT>1000
+<BGM_STOP>1000
+<NAME_PLATE>
+　一人、また一人と、
+ふうま忍者たちは散り散りになっていった。
+<PAUSE>
+<NAME_PLATE>
+　自らを盾として敵を足止めし、
+あるいは逃走の渦中で乱戦となって。
+<PAUSE>
+<NAME_PLATE>
+　全てはふうまの主を守るため、
+ふうまの未来を繋ぐために。
+<PAUSE>
+<NAME_PLATE>
+　鎮守の森まで逃げのびたとき、
+時子と小太郎の傍らには
+仲間は誰も残っていなかった。
+<PAUSE>
+//【背景：ふうまの里＿森＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿nc010aより流用
+<UI_DISP>OFF, 0
+<WAIT>1500
+<BGM_PLAY>bgm509,1000
+<BG>nc048a,IN, 1000
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>時子
+「お館様、ここで少しお休みください」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>小太郎
+「う、うん……」
+<PAUSE>
+<NAME_PLATE>
+　時子はまるで背中に張り付くように
+しがみついていた小太郎を下ろした。
+<PAUSE>
+<NAME_PLATE>
+　背中がふっと軽くなった瞬間、
+<PAUSE>
+<ACTOR>0,t_t007h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「うっ……」
+<PAUSE>
+<NAME_PLATE>
+　強烈なめまいが襲ってきて、
+時子はその場に膝を突きそうになる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>小太郎
+「あ、姉上っ！」
+<PAUSE>
+<ACTOR>0,t_t007d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「だ、大丈夫です。
+　少し息が切れただけでございます」
+<PAUSE>
+<NAME_PLATE>
+　小太郎がつい「姉上」と呼んだことを
+咎め立てせず、時子は穏やかに微笑んだ。
+<PAUSE>
+<NAME_PLATE>小太郎
+「でも、大丈夫？
+　どこかやられたんじゃないの？」
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「ご安心ください。
+　どこもやられてはおりませぬ」
+<PAUSE>
+<NAME_PLATE>小太郎
+「本当？」
+<PAUSE>
+<NAME_PLATE>時子
+「お館様に嘘は申しませぬ。
+　さあ、少し休みましょう」
+<PAUSE>
+<NAME_PLATE>小太郎
+「うん……」
+<PAUSE>
+<NAME_PLATE>
+　時子は小太郎を座らせ、
+自らも小太郎を守るように腰を下ろした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ふうまの屋敷を包囲していた敵の輪は
+ひとまず突破していた。
+<PAUSE>
+<NAME_PLATE>
+　屋敷のある方角はまだ赤く燃えているものの
+この鎮守の森まで火が届くほどではない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、安心できる状況ではなかった。
+<PAUSE>
+<NAME_PLATE>
+　森に逃げこみ、幼い小太郎を休ませて、
+時子自身も一息吐くことができたものの、
+敵は探索の手を広げている。
+<PAUSE>
+<NAME_PLATE>
+　四方八方から追撃の部隊が
+迫っている状況だ。
+<PAUSE>
+<NAME_PLATE>
+　その証拠に、闇深い森のそこかしこで、
+追っ手が持つ松明の炎が揺れていた。
+<PAUSE>
+<NAME_PLATE>
+　ユラユラと揺れる炎は
+まるで人ではなく鬼火が彼女たちを
+探しているかのようだ。
+<PAUSE>
+<NAME_PLATE>小太郎
+「……時子」
+<PAUSE>
+<NAME_PLATE>
+　小太郎が不安げに時子を見上げている。
+<PAUSE>
+<NAME_PLATE>
+　その小さな身体が小刻みに震えていた。
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様、寒いですか？」
+<PAUSE>
+<NAME_PLATE>小太郎
+「……少しだけ」
+<PAUSE>
+<ACTOR>0,t_t007e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「では、時子の胸でお温まりください」
+<PAUSE>
+<NAME_PLATE>小太郎
+「……っっ」
+<PAUSE>
+<NAME_PLATE>
+　時子が両手を広げると、
+小太郎は彼女の胸に飛び込んで来た。
+<PAUSE>
+<ACTOR>0,t_t007d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「お館様……」
+<PAUSE>
+<NAME_PLATE>
+　ふうまの未来を担う、
+しかしまだ小さな身体を
+時子は精一杯抱きしめた。
+<PAUSE>
+<NAME_PLATE>
+　彼女の胸の中で
+小太郎の震えはおさまっていく。
+<PAUSE>
+<NAME_PLATE>時子
+（まだ里で戦っているものたちがいるはず。
+　彼らと合流しなければ……）
+<PAUSE>
+<NAME_PLATE>
+　今も町のあちこちから
+戦いの音が絶えず聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　どうにかして味方と合流しなければ
+小太郎をふうまの里から脱出させることは
+叶わないだろう。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様……
+　どうか時子から離れないでください」
+<PAUSE>
+<NAME_PLATE>
+　幼い当主は無言で頷くと、
+自分から彼女の身体を離した。
+<PAUSE>
+<NAME_PLATE>小太郎
+「もう大丈夫、寒くない」
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　時子の胸に涙の跡がついていたが、
+彼女はそれに気づかないふりをした。
+<PAUSE>
+<NAME_PLATE>
+　この過酷な状況にもかかわらず、
+小太郎は泣きわめくこともなく、
+足手まといにならぬようにしている。
+<PAUSE>
+<NAME_PLATE>
+　ふうまの当主として必死に。
+<PAUSE>
+<NAME_PLATE>時子
+（どんなことをしても
+　この子を守らなければならない）
+<PAUSE>
+<NAME_PLATE>時子
+（たとえこの命にかえても）
+<PAUSE>
+<NAME_PLATE>
+　散っていった配下たち同様、
+時子もまた悲壮な決意を固めた。
+<PAUSE>
+<NAME_PLATE>
+　だが、それを嘲笑うかのように、
+敵の気配が急速に近づいてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>6,ts_m014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>井河くノ一
+「いたぞ！　ここだ！！！」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>井河くノ一
+「当主のガキと二人だけだ！！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>時子
+「来るがいい！！　井河者ども！！」
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

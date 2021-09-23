@@ -1,0 +1,446 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+<NAME_PLATE>
+　再び“二車忍軍支配地域”。
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc042a,IN, 1000
+<ACTOR>0,f_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホホホホホ！！
+　それでは悲劇の始まりです！
+　恐れ震えなさい脆弱なる人間ども！」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　哄笑するフュルスト、
+いつの間にかその片腕に深い傷が
+穿たれていた。
+<PAUSE>
+<NAME_PLATE>
+　そしてその傷からぼたぼたと
+大量に溢れ出した鮮血が、
+<PAUSE>
+<NAME_PLATE>
+　もう一方の手に持った、禍々しい
+瘴気をまとった古い魔術書に降りかかり、
+不穏な破滅の色に染めていく。
+<PAUSE>
+<NAME_PLATE>
+　すると――。
+<PAUSE>
+<NAME_PLATE>？？？
+『ＨＹＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！！』
+<PAUSE>
+<GROUP>
+<ACTOR>0,g_t003d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kn_t009d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐＆紅
+「なっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（武器）
+//　　　　RPG用新規イラストより流用
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装（武装）
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　口の無いはずの“魔術書”から
+凄まじい絶叫が響き渡った。
+<PAUSE>
+<NAME_PLATE>
+　魂まで凍らせるような狂気の叫び、
+それに呼応するように周辺に
+黒々とした無数のゲートが開いていく。
+<PAUSE>
+<NAME_PLATE>
+　そこから姿を見せるのは、
+“こちら”には存在しないはずの
+醜くおぞましい怪物の群れ――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m171a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m172a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>異界生物
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+<PAUSE>
+//　※立ち絵
+//　キラーカナロア＿立ち絵
+//　　　　＊カロナアの色違いバージョン
+//　※立ち絵
+//　デススィール＿立ち絵
+//　　　　＊スィールの色違いバージョン
+<NAME_PLATE>
+　己の血を闇に捧げることで、
+フュルストは異界生物を召喚した。
+<PAUSE>
+<NAME_PLATE>
+　彼の手にある魔術書は、そのため――
+異界の力を操るために手間暇かけて
+作り出した禁断の祭具であった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>街の住民
+「ぎゃああああああああああああ！！！」
+「やめろっ、こっちに来るなああああああ
+　あああああああああああっ！！！」
+<PAUSE>
+<NAME_PLATE>異界生物
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+<PAUSE>
+<NAME_PLATE>
+　悲鳴と鮮血がナイトクラブ前の
+通りにあふれた。
+<PAUSE>
+<NAME_PLATE>
+　二車の忍だけではない。
+<PAUSE>
+<NAME_PLATE>
+　怪物たちは、恐る恐る様子を
+窺っていた街の住人にも襲い掛かり、
+無差別な殺戮を繰り広げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,g_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「てめえええっ！！！？
+　なにしてやがるフュルスト！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,f_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホホホホホホ！！！
+　ただの一方的な殺戮ですよ」
+<PAUSE>
+<ACTOR>0,f_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「あなたが苦労して築いた
+　縄張りとやらを一夜で殲滅する」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「この私に牙を剥いたのだから、
+　これぐらいの報いは当然のこと」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「……おっと、そういえば、
+　あなたも前に似たようなことを
+　していましたよねぇ？」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「クフフフフフフフ、
+　どうですか、ご自分がまさに
+　それをされたご気分はっ！！？」
+<PAUSE>
+<ACTOR>0,f_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「まことに、心が打ち震える
+　良き光景ではありませんか！！？」
+<PAUSE>
+<NAME_PLATE>
+　舞台役者のように大仰に
+手を広げて語る闇の魔科医。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その命に従うように、
+凶悪な怪物の群れが闇の街に
+破壊と殺戮を撒き散らす。
+<PAUSE>
+<ACTOR>0,g_t003c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「ぐぅっ！！！？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「このイカれ野郎が――
+　権左、この魚どもをぶち殺せ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,o_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「御意っ！」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　即座に権左が動く。
+<PAUSE>
+<NAME_PLATE>
+　土遁の術“捲土往来”によって
+地中を高速で移動し、
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一瞬で異界生物の前に回り込み、
+次々に剛槍で貫いた。
+<PAUSE>
+<BG>nc042a,IN, 500
+<NAME_PLATE>
+　と、同時に。
+<PAUSE>
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「真空の刃は全てを切り裂く。
+　――絶技・旋風陣！！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅ＳＲ01（魔性）
+//　　　　＊ＲＰＧカードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオオオオオ！！
+<PAUSE>
+<NAME_PLATE>異界生物
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+<PAUSE>
+<NAME_PLATE>
+　突然発生した小型の竜巻が
+人々を襲う怪物たちを巻き込み、
+ズタズタに切り裂いていく。
+<PAUSE>
+<BG>nc042a,IN, 500
+<ACTOR>0,kn_t009f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「――骸佐！　悪いが
+　お前との戦いは水入りだ！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（武器）
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>紅
+「こんな暴虐、黙って
+　見過ごしてなるものか！
+　心願寺紅、義によって参戦する！」
+<PAUSE>
+<NAME_PLATE>紅
+「篝！　私と共に人々を守れ！
+　あやめはあの男を！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>篝
+「りょ、了解です紅様っ！」
+<PAUSE>
+//　※立ち絵
+//　　篝
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>あやめ
+『かしこまりました、紅様』
+<PAUSE>
+//　※あやめは狙撃をしている設定なのでここで立ち絵は出ません。
+<NAME_PLATE>
+　何よりも“義”を重んじる紅、
+そしてその忠実な臣下たちが動く。
+<PAUSE>
+<ACTOR>0,g_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ああ……。そりゃあ
+　こっちも願ったりだぜ紅！！」
+<PAUSE>
+<ACTOR>0,g_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「俺も、今はてめえの
+　相手をしている暇はねえ！！
+　――死ねえええ腐れ禿野郎！」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「ホ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>500
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グチャ！！　ドン、グチュッ！
+<PAUSE>
+//　※斬撃、鮮血エフェクトなど。
+<NAME_PLATE>
+　銃声。
+<PAUSE>
+<NAME_PLATE>
+　あやめの銃弾が正確にフュルストの
+心臓、そしてその他の急所の臓器を射貫き、
+鮮血と共に吹き飛ばす。
+<PAUSE>
+<NAME_PLATE>
+　同時に骸佐の斬馬刀“猪助”。
+<PAUSE>
+<NAME_PLATE>
+　人の背丈ほどのその豪刀が唸りを上げ、
+闇の魔科医の首から上を一瞬で斬り飛ばす。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　通常であれば。
+<PAUSE>
+<NAME_PLATE>
+　心臓と首を吹き飛ばされれば
+いかに魔族とて深刻なダメージは
+避けられない。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<BG>nc042a,IN, 500
+<NAME_PLATE>フュルスト
+「ホホホホホホホ！！
+　まことに愚かな限りですねえ！！
+　この程度ですか人間とは！！」
+<PAUSE>
+//　※首を斬られているので立ち絵はなしです。
+<NAME_PLATE>あやめ
+『！！？』
+<PAUSE>
+<ACTOR>0,g_t003d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「なんだと！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>500
+<NAME_PLATE>
+　ぶちゅぶりゅぢゅるぢゅるぢゅる
+じゅるぶちゅぶちゅぶちゅうぅっ！！！
+<PAUSE>
+<NAME_PLATE>
+　斬り落とされた男の頭部がバチンと
+弾けて醜くおぞましい触手となり、
+<PAUSE>
+<NAME_PLATE>
+　斬りかかった骸佐の体に絡みつき、
+それを引き裂こうと凄まじい力で
+締め付けた。
+<PAUSE>
+<NAME_PLATE>骸佐
+「がああああああああっ！！！？」
+<PAUSE>
+<NAME_PLATE>紅
+「骸佐！！？」
+<PAUSE>
+<NAME_PLATE>
+　全身の骨をへし折られる激痛に
+咆哮する骸佐、それを見下ろす
+フュルストの頭と心臓が、
+<PAUSE>
+<NAME_PLATE>
+　うぞうぞと腐臭と肉汁を
+撒き散らして瞬く間に再生する。
+<PAUSE>
+<BG>nc042a,IN, 500
+<ACTOR>0,f_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「クフフフ。
+　惚れ惚れしますねえ、
+　これが異界の力――」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+//　※首が再生したので立ち絵が戻ります。
+<NAME_PLATE>
+　元通りになった顔で
+フュルストがにんまりと笑う。
+<PAUSE>
+<NAME_PLATE>
+　肉体再生、転送、そして
+触手による攻撃能力も。
+<PAUSE>
+<NAME_PLATE>
+　あの“魔術書”を手にしたことで、
+フュルストが行使できる魔力は
+何十倍にも膨れ上がっていた。
+<PAUSE>
+<ACTOR>0,f_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「そして、更なる力を
+　私が手にするためには――
+　ニールセン！　オロバス！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m244a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m225a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ニールセン
+「はっ！！」
+<PAUSE>
+//　※立ち絵
+//　　沙無羅威ニールセン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>オロバス
+「フュルスト様！！」
+<PAUSE>
+//　※立ち絵
+//　　オロバス立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　フュルストが高らかに
+配下の者どもに号令する。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　その手が指し示す先には、
+人々を殺戮から救うために戦う
+心願寺紅の姿がある。
+<PAUSE>
+<ACTOR>0,f_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「まさかと思いましたが、
+　あれは“あの方”の
+　血に連なるもの――」
+<PAUSE>
+<ACTOR>0,f_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「クフフ、これは何という僥倖！
+　今すぐあの娘を捕らえなさい！！」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「命さえあれば構わない！！
+　手足をもいでもひっ捕らえろ！！」
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

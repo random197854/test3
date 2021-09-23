@@ -1,0 +1,145 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：カジノ廊下＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc003a
+<BGM_PLAY>bgm313,1000
+<BG>nc017a,IN, 1000
+<ACTOR>0,chr_t0352a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「忍法・惑い花粉」
+<PAUSE>
+//　※立ち絵
+//　　【真夏バニー】高坂静流＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　静流は人の目には見えないほどの
+細かい花粉をドローンに向かって撒いた。
+<PAUSE>
+<NAME_PLATE>
+　無論、ただの花粉ではない。
+<PAUSE>
+<NAME_PLATE>
+　視覚聴覚などのセンサーを不調にさせる
+微粒子が含まれている。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m129a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m129a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m105a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>警備ドローン
+「？？？？？？？？？」
+「？？？？？？？？？」
+「？？？？？？？？？」
+<PAUSE>
+//　※立ち絵
+//　　BR-2兼光＿立ち絵
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　警備ドローン＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ドローンたちは静流の姿を見失って、
+グルグルとその場を動き回り始めた。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc017a,IN, 500
+<ACTOR>0,chr_t0352a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「あとで直してあげるわね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　そうニッコリ笑いかけてから、
+静流はメンテナンスルームのロックを解除し、
+素早く中に忍び込んだ。
+<PAUSE>
+//【背景：メンテナンスルーム＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc006a
+//nc457a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc457a,IN, 1000
+<ACTOR>0,chr_t0352a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+「これは相当なものね」
+<PAUSE>
+//　※立ち絵
+//　　【真夏バニー】高坂静流＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　想像していた以上に
+本格的な設備がそろっている。
+<PAUSE>
+<NAME_PLATE>
+　五車町にある同種の施設に匹敵、
+いや、それ以上に金をかけていそうだ。
+<PAUSE>
+<NAME_PLATE>
+　さすがヨミハラ屈指のカジノオーナーの
+メンテナンスルームだけのことはある。
+<PAUSE>
+<NAME_PLATE>
+　逆に言えば、これだけのものを
+バニーＫは必要としているということだ。
+<PAUSE>
+<NAME_PLATE>
+　災禍が言うように、彼女はここで頻繁に
+身体の調整を行っているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　だが、半年前から発作が起きているのは、
+それが上手くいっていないということか。
+<PAUSE>
+<NAME_PLATE>
+　それとも何か別の理由が。
+<PAUSE>
+<ACTOR>0,chr_t0352a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「とにかく調べさせてもらいましょう」
+<PAUSE>
+<NAME_PLATE>
+　静流はマシンを立ち上げ、
+バニーＫのデータを呼び出した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>静流
+「これは―――！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その内容に驚いた時。
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「貴様、何をしている！」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>静流
+「っ！！」
+<PAUSE>
+<NAME_PLATE>
+　バニーＫが現れていた。
+<PAUSE>
+//→Section３終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

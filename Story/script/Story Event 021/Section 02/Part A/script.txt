@@ -1,0 +1,278 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：黒画面】
+<NAME_PLATE>
+　俺たちは宿へ引き返し、
+ノマド兵たちとの戦いを、
+蛇子と鹿之助に報告。
+<PAUSE>
+<NAME_PLATE>
+　念のため成美さんの虫に
+宿の外を見張ってもらい、
+その夜はゆっくり休むことにした。
+<PAUSE>
+<NAME_PLATE>
+　そして翌朝――
+<PAUSE>
+//【背景：民宿の食堂＿昼】【時間：朝】
+//　※処女のシモベ君＿nc004aより流用
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0239a,IN, 1000
+<GROUP>
+<ACTOR>0,s_t003b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「おいしーい！
+　お魚がすっごく新鮮ね！」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>鹿之助
+「露天風呂、すごかったよな。
+　おかげで今朝は気分爽快だぜ！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　俺と蛇子、鹿之助は、
+元気に宿の朝食をかっ喰らっていた。
+<PAUSE>
+<NAME_PLATE>
+　そして、その横で。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「ふふ、虫たちも美味しいって言ってるわ♪」
+<PAUSE>
+//　※立ち絵
+//　　相馬成美
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　皿を畳に置き、虫たちに
+魚を分け与える成美さん。
+どうにも食欲が失せる光景である。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0317a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メイ
+「今日はダンス大会の本番だからね。
+　しっかり食べておかないと。
+　……すみません、おかわりください」
+<PAUSE>
+//　※立ち絵
+//　　【やる気強制フォーム】メイ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　そしてメイが淡々と
+２回目のおかわりを頼んでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「メイ、同じ宿だったんだな」
+<PAUSE>
+<NAME_PLATE>メイ
+「島に宿泊施設は多くないからね。
+　出場者は皆ここに泊まってる
+　みたいだよ」
+<PAUSE>
+<NAME_PLATE>
+　ほら、とメイが窓の外を指さす。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　庭では他の参加者たちが
+ストレッチをしたり、ダンスを
+おさらいしたりしていた。
+<PAUSE>
+<NAME_PLATE>俺
+「ほんとだ。皆けっこう本気なんだな。
+　俺たちこんなのんびりしてて
+　勝てるのか……」
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「大丈夫よ。
+　みっちり練習してきたんだから。
+　あとは本番に向けて、気持ちを――」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>窓の外の声
+「キャーッ！！！！！！」
+<PAUSE>
+<NAME_PLATE>窓の外の声
+「いたたっ！　やめてっ！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、窓の外で悲鳴が起こった。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　あわてて窓に駆け寄ってみると、
+練習していた参加者たちが一斉に
+逃げ惑ったり、何か振り払ったりしている。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ！？
+　急にどうしたんだ！！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうま、行ってみようぜ！」
+<PAUSE>
+//【背景：民宿の外観＿昼】【時間：朝】
+//　※姫神さま以下略_nc006aより流用
+//nc401a
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc401a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>参加者たち
+「キャーッ！！」
+「猫が！！　猫が襲ってくるううう！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m194b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194b,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0316a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルシー
+「フニャー！！！！
+　ガンギマリハッピーにゃあああ！！」
+<PAUSE>
+//　※立ち絵
+//　　【新生活応援】メルシー
+//　　　＊カードイラストより流用
+<NAME_PLATE>猫たち
+「シャー！！！」
+「キシャ―！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　ネコマタ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　急いで外に出てみると、なんと
+メルシー率いる猫軍団が
+牙を剥いて参加者たちを襲っていた。
+<PAUSE>
+<NAME_PLATE>
+　爪で引き裂かれ、牙で噛みちぎられ、
+血まみれになった参加者たちが
+逃げまどう姿は阿鼻叫喚の地獄絵図である。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,h_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ネコちゃんたち！！
+　なんで参加者さんたちを襲ってるの！？」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>俺
+「メルシー！
+　おいやめろって！」
+<PAUSE>
+<NAME_PLATE>
+　猫たちを指揮しているのは
+魔族ケットシーのメルシーらしい。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はメルシーのところへ飛び込み、
+腕を強く引っ張った。
+<PAUSE>
+<ACTOR>0,chr_t0316a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルシー
+「フニャー！！！！
+　なんにゃ？
+　ふーまじゃないかにゃー！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「うわ！！？
+　お前、また魔界マタタビに
+　手を出してるのか！？」
+<PAUSE>
+<NAME_PLATE>
+　振り返ったメルシーは、
+一目でわかるほどひどい興奮状態で、
+その身からはむっとする匂いがした。
+<PAUSE>
+<NAME_PLATE>
+　魔界マタタビは猫たちに強烈な
+依存性のある魔界の植物で、彼女たちは以前
+これの中毒になってしまったことがある。
+<PAUSE>
+<NAME_PLATE>
+　しかし、薬を得て解毒した後は、
+立ち直るべくリハビリを頑張っている、
+と聞いていたのだが。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「なんでこんな島に魔界マタタビが……」
+<PAUSE>
+<ACTOR>0,s_t003f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふうま！
+　とにかく今は参加者を助けようぜ！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち絵＿制服衣装
+<NAME_PLATE>俺
+「ああ、そうだな。
+　みんなで猫たちを捕獲するんだ！」
+<PAUSE>
+<ACTOR>1,h_t001f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「オッケーふうまちゃん！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0317a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0219a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>成美
+「なんでこうなったのかは、
+　後でたっぷり聞かせてもらいましょう」
+<PAUSE>
+<NAME_PLATE>メイ
+「まさか猫と戦うことになるとはね。
+　ま、スーツの性能を試すには、
+　いろんな敵と戦闘できるのは良いな」
+<PAUSE>
+<NAME_PLATE>
+　俺たちはそれぞれに武器を構え、
+すっかりキマった猫たちに対峙する。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0316a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルシー
+「ギニャー！！！
+　お前らもハッピーになれにゃーー！！！！」
+<PAUSE>
+//→S202a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

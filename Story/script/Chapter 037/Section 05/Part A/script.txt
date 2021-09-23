@@ -1,0 +1,1251 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：アウルボザ山１＿昼】【時間：昼】
+//　※対魔聖甲アリス_nc019aより流用
+<BG>nc372a,IN, 1000
+<NAME_PLATE>
+　イングリッド、カルメラ、ベオウルフ、
+三人の魔界騎士に認められたリーナは、
+<PAUSE>
+<NAME_PLATE>
+　原初の魔界騎士の祭壇があるという
+アウルボザ山の麓にやってきていた。
+<PAUSE>
+<NAME_PLATE>
+　数多くの危険なモンスターが生息し、
+土地の者も滅多に近づかないという。
+<PAUSE>
+<NAME_PLATE>
+　それを証明するかのように、
+試練の山は黒々とそびえ立っている。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あの山のてっぺんか。
+　よし、行くぞ！」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リーナが一歩足を踏み出した途端、
+まるで山がそれを咎めたかのように
+地面がグラグラと揺れだした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>2,ts_m072a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m072a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m072a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルワーム
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　そこから這い出てきたのは、
+魔界では穴ワームとも呼ばれている
+デビルワームの群れだ。
+<PAUSE>
+//　※立ち絵
+//　　デビルワーム＿立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m067a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m067a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m067a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔界ワスプ
+「ガチガチガチガチガチ」
+「ガチガチガチガチガチ」
+「ガチガチガチガチガチ」
+<PAUSE>
+<NAME_PLATE>
+　さらに耳障りな歯音と羽音を立てて
+魔界ワスプも大量に飛んでくる。
+<PAUSE>
+<NAME_PLATE>
+　どちらもヨミハラの地下でお馴染みだが、
+一回りは大きく、凶暴そうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「さっそく現れたな。
+　悪いが通してもらうぞ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは臆することなく、
+サクラブロッサムを引き抜いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m067a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m067a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m067a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔界ワスプ
+「ガチガチガチガチガチ」
+「ガチガチガチガチガチ」
+「ガチガチガチガチガチ」
+<PAUSE>
+<NAME_PLATE>
+　まずは魔界ワスプだ。
+<PAUSE>
+<NAME_PLATE>
+　複眼を赤々と燃え上がらせながら
+ブーンと高速で一斉に迫ってくる。
+<PAUSE>
+<NAME_PLATE>
+　以前、ヒュドラ討伐の途中で会った時は、
+冷静さを欠いて自分自身も傷ついてしまったが、
+今のリーナは違う。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「くらえ！！
+　チェリーフラーリィ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　まずは得意技だ。
+<PAUSE>
+<NAME_PLATE>
+　サクラブロッサムを与えられ、
+色々試していて最初に編み出したものだ。
+<PAUSE>
+<NAME_PLATE>
+　真の力を引き出せるようになった今では
+その威力も大幅に跳ね上がっている。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「はぁっ！　はっっ！！
+　はぁああああああああっっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　空中で×字を斬るように繰り出した剣から
+小さな竜巻が幾つも生まれ、
+<PAUSE>
+<NAME_PLATE>
+　それが刃と化した大量の花びらを乗せて、
+敵の群れに襲い掛かっていく。
+<PAUSE>
+<NAME_PLATE>
+　リーナは斬風を自在に操り、
+魔界ワスプの羽だけを切り裂いて、
+バタバタと地面に落としていった。
+<PAUSE>
+<BG>nc372a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「よしっ、次はお前たちだっ！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　地べたで蠢くことしかできない
+魔界ワスプは無視して横を走り抜け、
+<PAUSE>
+<NAME_PLATE>
+　巨大な身体を競うようにうねらせる
+デビルワームたちの只中に飛び込んだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m072a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m072a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m072a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルワーム
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　もちろんこの連中も
+全て相手にしていたらきりがない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「いくぞっ！
+　ブロッサムステップ！！
+　てやあっ！　たああっ！！　はああっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　好き勝手にのたくる敵の動きを風で読み、
+その間を右に左に素早くかいくぐりながら
+剣を素早く振るう。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスに言わせると
+犬から逃げ回ってるみたいな動きらしいが、
+<PAUSE>
+<NAME_PLATE>
+　リーナ的には花びらが風に吹かれて
+華麗に軽やかに舞い踊るように、
+<PAUSE>
+<BG>nc372a,IN, 500
+<NAME_PLATE>
+　進むのに邪魔な相手だけを斬り倒して、
+どんどん山を登っていった。
+<PAUSE>
+//【背景：アウルボザ山２＿昼】【時間：昼】
+//　※姫騎士シャロン_nc008aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc104a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m034a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m034a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>金色の巨人
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+<PAUSE>
+//　※立ち絵
+//　　異界のゴーレム＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　複数出してください
+<NAME_PLATE>
+　山の中腹に現れたのは
+見たことのない金色の巨人たちだった。
+<PAUSE>
+<NAME_PLATE>
+　身長３メートルほどの巨人で
+岩とも金属ともつかない光沢のある身体は
+いかにも硬そうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「こいつは知らない相手だな。
+　祭壇を守るガーディアンか？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>金色の巨人
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　見かけよりは素早い動きで
+リーナに近づいて拳を突き出してくる。
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc104a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はっっ！！
+　たああああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リーナはそれを体捌きで躱しつつ、
+相手の懐にすかさず飛び込んで、
+風を纏った刃で胴を撫で斬りにした。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギャリギャリギャリギャリッッ！！
+<PAUSE>
+<NAME_PLATE>
+　恐ろしく耳障りな音がして、
+よく分からない材質の胴体がごっそり削れた。
+だがあまり堪えていないらしい。
+<PAUSE>
+<BG>nc104a,IN, 500
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>金色の巨人
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+<PAUSE>
+<NAME_PLATE>
+　敵はそれがどうしたと言わんばかりに
+腕をぶんと大きく振り回してきた。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　リーナはそれを飛び退いて躱し、
+敵集団からひとまず距離を取った。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「メチャクチャ硬いな。
+　こいつら全部剣で壊すのは大変そうだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>2,ts_m034a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m034a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>金色の巨人
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+「ＧＹＹＹＹＹＹＹＹＹ！！」
+<PAUSE>
+<NAME_PLATE>
+　巨人たちはどれも同じ調子で唸りながら
+ずんっ、ずんっとリーナに近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　今の攻撃はどちらも単調だったし、
+あまり頭は良くなさそうだ。
+<PAUSE>
+<NAME_PLATE>
+　金属生命体の類いではなく
+与えられた命令にただ従って攻撃する
+ゴーレムのようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　となれば―――
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私にはハイジのような魔眼はないが。
+　風よ！」
+<PAUSE>
+<NAME_PLATE>
+　風をセンサーにして
+相手の動き、その魔力の伝わり方から、
+その核となる部分に当たりをつけ、
+<PAUSE>
+<NAME_PLATE>リーナ
+「そこかっっ！　千突き！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガッッ！！
+<PAUSE>
+<NAME_PLATE>
+　一番それっぽい場所を
+立て続けに突いてみた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc104a,IN, 500
+<NAME_PLATE>
+　金色の身体全体に
+細かいひび割れがパッと広がり、
+敵は砂のように崩れていった。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「よし！
+　私の風はお前の弱点を
+　全て見通しているぞっ！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　この間言われたことを真似しつつ、
+リーナは残ったゴーレムを蹴散らしていった。
+<PAUSE>
+//【背景：アウルボザ山３＿昼】【時間：昼】
+//　※虜囚市場_nc010aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc373a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、ついに現れた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m186a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　苦手な犬だ。
+<PAUSE>
+<NAME_PLATE>
+　フェンリルパピーの群れだ。
+いるわいるわ、３０匹はいる。
+<PAUSE>
+<NAME_PLATE>フェンリルパピー
+「ガルルルルルルルルッ！！」
+「ガルルルルルルルルッ！！」
+「ガルルルルルルルルッ！！」
+<PAUSE>
+//　※立ち絵
+//　　フェンリルパピー
+//　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「くっ、出たな犬め。
+　きっと出てくる気がしていたぞ。
+　さ、さあ来い！」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　闘志を奮い起こし、
+サクラブロッサムを握りしめる。
+<PAUSE>
+<NAME_PLATE>
+　とにかく敵の数が多い。
+一斉に飛びかかって来られては厄介だ。
+<PAUSE>
+<NAME_PLATE>
+　まずは出鼻を挫く。
+<PAUSE>
+<NAME_PLATE>リーナ
+「でやあああああああっっ！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　リーナはさっきと同じように
+チェリーフラーリィを繰り出したが、
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m186a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フェンリルパピー
+「ウォオンッ！！」
+「ウォオンッ！！」
+「ウォオンッ！！」
+<PAUSE>
+<SE_PLAY>se003
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　連中は統制の取れた動きで、
+花びらの斬風が届く外まで一斉に身を引いた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「なっ！？」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　仕留めたのは、動きが遅かった２匹だけだ。
+<PAUSE>
+<BG>nc373a,IN, 500
+<NAME_PLATE>
+　そしてリーナが技を出し切ったタイミングで
+左右から別の２匹が飛びかかってくる。
+<PAUSE>
+<SE_PLAY>se003
+<GROUP>
+<ACTOR>0,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フェンリルパピー
+「ガオオオオオオンッ！！」
+「ガオオオオオオンッ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「たああっ！　そいやっっ！！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバッッ、ズバアッッ！！
+<PAUSE>
+<BG>nc373a,IN, 500
+<NAME_PLATE>
+　リーナはそれを迎え撃ち、
+空中で立て続けに２匹を斬り落としたが、
+そいつらは囮だった。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m186a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フェンリルパピー
+「ゴォオオオオオオオッ！！」
+「ゴォオオオオオオオッ！！」
+「ゴォオオオオオオオッ！！」
+<PAUSE>
+<NAME_PLATE>
+　残った連中はリーナの周囲を取り囲み、
+四方から冷気のブレスを吹きかけてきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ちょこざいなっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リーナはブレスの射線から身を躱しつつ、
+剣を振って風のシールドを張った。
+<PAUSE>
+<NAME_PLATE>
+　しかし前後左右から一斉に襲い来る
+大量の冷気を全て遮断することはできない。
+<PAUSE>
+<BG>nc373a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「くっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　刺すような痛みが全身を走った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m186a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フェンリルパピー
+「グルウウッ……グルルゥ……」
+「グルウウッ……グルルゥ……」
+「グルウウッ……グルルゥ……」
+<PAUSE>
+<NAME_PLATE>
+　犬たちは嫌な唸り声を上げながら、
+すぐに次の攻撃を仕掛けるでもなく
+リーナの出方を窺っている。
+<PAUSE>
+<NAME_PLATE>
+　どうやらジワジワと
+嬲り殺しにするつもりのようだ。
+<PAUSE>
+<NAME_PLATE>
+　最初のチェリーフラーリィの
+間合いを読んだのも、
+予め偵察を出していたのかもしれない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「狡猾な犬どもめ。
+　そんな手にやられるか。
+　私の風を甘く見るな！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは犬たちが密集している一角に
+迷わず突っ込んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　長期戦を狙っている奴らは
+リーナを迎え撃とうとはせずに
+また散開して逃げようとする。
+<PAUSE>
+<NAME_PLATE>リーナ
+「させるか！
+　テイルウィンドッッ！！」
+<PAUSE>
+<NAME_PLATE>
+　両足に風の力を乗せて加速し、
+一気に連中の懐に飛び込む。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「でやああああああああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　大きく薙ぎ払う斬風で
+驚いている５匹ほどを斬り捨てた。
+<PAUSE>
+<BG>nc373a,IN, 500
+<NAME_PLATE>
+　だがまだ２０匹はいる。
+受けに回ってはまずい。
+このまま一気に―――。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m045a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m045a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m045a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フレイムハーピー
+「クケーーー、クケーーーー！！」
+「クケーーー、クケーーーー！！」
+「クケーーー、クケーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　フレイムハーピー
+//　　＊モンスターイラストより流用
+//　※複数出してください
+<NAME_PLATE>リーナ
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>
+　リーナに闘いの主導権を
+握らせまいとするかのように、
+フレイムハーピーの群れが現れた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<NAME_PLATE>
+　こちらも１０匹以上はいる。
+そして上空から火炎攻撃を仕掛けてきた。
+<PAUSE>
+<BG>nc373a,IN, 500
+<NAME_PLATE>リーナ
+「くっ！　こいつらっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リーナはやむなく犬たちの追撃を諦め、
+ハーピーの炎を剣風で防ぎつつ、
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　今が好機だと飛びかかってきた
+迂闊な犬を３匹ほど斬り落とした。
+<PAUSE>
+<BG>nc373a,IN, 500
+<NAME_PLATE>リーナ
+「くあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　だがその強引な動きのせいで、
+また周囲から吹きかけられた冷気のブレスに
+体力を奪われてしまう。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「このままではジリ貧だ。
+　ここはサクラブロッサムの真の力で！」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リーナは百花繚嵐フォームに変ろうとしたが、
+凍傷の痛みが本来の素早さを奪っていた。
+<PAUSE>
+<ACTOR>0,ts_m045a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フレイムハーピー
+「キィイイイイイイイイイッ！！」
+<PAUSE>
+<NAME_PLATE>
+　フレイムハーピーの一匹が急降下。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　身体ごと剣にぶつかってきて、
+サクラブロッサムを奪われてしまう。
+<PAUSE>
+<BG>nc373a,IN, 500
+<NAME_PLATE>リーナ
+「しまった！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m186a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フェンリルパピー
+「ガオッォオオオオッ！」
+「ガオッォオオオオッ！」
+「ガオッォオオオオッ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　ここぞと見たフェンリルパピーが
+一斉に飛びかかろうとしている。
+<PAUSE>
+<ACTOR>0,chr_t0021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ちいっ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　もう一振りの愛刀、
+セルヴィアにもらった風の魔剣で
+迎え撃とうとするが、一手遅い。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　駄目だ、やられる！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「グアアアアアアアアアアアアアアアアアア
+　アアアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　凄まじい雄叫びが響きわたり、
+巨大な黒い影が後ろから襲ってきた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「くっっ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは思わず身体を強ばらせたが、
+その黒い影はリーナを飛び越え、
+<PAUSE>
+<NAME_PLATE>
+　逆にフェンリルパピーたちを
+数匹まとめて蹴散らしていた。
+<PAUSE>
+<NAME_PLATE>ジェロ
+「がるるうううううううんっ！！」
+<PAUSE>
+<NAME_PLATE>
+　昔よく聞いた吠え声。
+<PAUSE>
+<NAME_PLATE>
+　今も一番怖くて、だが懐かしい
+黒い魔犬がそこにいた。
+<PAUSE>
+<ACTOR>0,chr_t0021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ジェロ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、その主の姿も。
+<PAUSE>
+<ACTOR>0,chr_t0276a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「結局、わたくしの助けが必要なのだから。
+　これから魔界騎士になろうというのに
+　本当にダメダメね、リーナ」
+<PAUSE>
+//　※立ち絵
+//　　セルヴィア・ローザマリー＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>リーナ
+「お嬢様！」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「リーナと遊んでいいのは
+　わたくしのジェロだけですわ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「さっさと消えなさい、この駄犬ども！
+　ローザ・プリズム！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se112
+<NAME_PLATE>
+　薔薇の形をした結晶から眩い光が放たれ、
+援軍に怯んだフェンリルパピーたちを
+次々と射貫く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0021a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私の剣を返せ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リーナもさっきのフレイムハーピーを倒し、
+サクラブロッサムを取り戻した。
+<PAUSE>
+<BG>nc373a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m186a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m186a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フェンリルパピー
+「ガルルルルゥゥ！」
+「ガルルルルゥゥ！」
+「ガルルルルゥゥ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>1,ts_m045a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m045a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m045a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フレイムハーピー
+「キィイイィイイイッ！！」
+「キィイイィイイイッ！！」
+「キィイイィイイイッ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　敵は散開して態勢を立て直す。
+地上と空とでそれぞれあと１０匹ほどだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0021a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>セルヴィア
+「あの飛んでいる連中が邪魔ですわね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「あいつらは私の風で―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーナが上空に向けて
+大技を放とうとしたその時だ。
+<PAUSE>
+//【背景：空背景＿昼】【時間：昼】
+//　※魔法少女カナタ_背景nc015aより流用
+<UI_DISP>OFF, 500
+<BG>nc305a,IN, 500
+<ACTOR>0,chr_t0020a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リリス
+「カツ・テニア・タルミサ・イール！！」
+<PAUSE>
+//　※立ち絵
+//　　リリス＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　すごく聞き覚えのある声が響きわたり、
+数十はあるマジックミサイルの雨が
+ハーピーの群れをまとめて串刺しにした。
+<PAUSE>
+<NAME_PLATE>
+　空からいきなり現れたのは、
+<PAUSE>
+<BG>nc305a,IN, 500
+<ACTOR>0,chr_t0020a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「リリス！？」
+<PAUSE>
+<NAME_PLATE>リリス
+「そうです、リリスです。
+　リーナさん、応援に来ましたよ！」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「いったいどこから現れたんですの？」
+<PAUSE>
+<NAME_PLATE>リリス
+「原初の魔界騎士の試練を受けるというので、
+　リーナさんに頑張れって言うために
+　ずっと祭壇のところで待ってました！」
+<PAUSE>
+<NAME_PLATE>リリス
+「そしたらなんか下が騒がしくなってきたので、
+　見に来たんですよ！」
+<PAUSE>
+<NAME_PLATE>ベリリク
+「だからちゃんと行き先を聞いておけと
+　言ったのに。待ちくたびれてしまった」
+<PAUSE>
+<NAME_PLATE>リリス
+「リーナさんのピンチを助けられたのですから
+　そういうことは言いっこなしです！」
+<PAUSE>
+//【背景：アウルボザ山３＿昼】【時間：昼】
+//　※虜囚市場_nc010aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG>nc373a,IN, 1000
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「みんなありがとう。もう大丈夫だ。
+　よーしいくぞ、サクラブロッサム！！」
+<PAUSE>
+//　※立ち絵
+//　　【百花繚嵐】リーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　想像もしていなかった救援に
+リーナの心は熱く震えた。
+<PAUSE>
+<NAME_PLATE>
+　サクラブロッサムも鮮やかに輝いて、
+真の力を解放する。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その力の前には
+残っていたフェンリルパピーなど
+なんの障害にもならなかった。
+<PAUSE>
+//【背景：試練の祭壇＿外観＿昼】【時間：昼】
+//　※姫騎士シャロン_nc010a
+//nc448a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc448a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　二人と一匹を加え、
+その後も現れた敵を倒し続け、
+ついにその場所にたどり着く。
+<PAUSE>
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ここが試練の祭壇……」
+<PAUSE>
+//　※立ち絵
+//　　【百花繚嵐】リーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　いったいいつから存在しているのか
+分からないほど古い建物だ。
+<PAUSE>
+<NAME_PLATE>
+　長い間、誰も入らなかった様子で、
+扉も固く閉ざされていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0020a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリス
+「ものすごい魔力で封印されてますね」
+<PAUSE>
+//　※立ち絵
+//　　リリス＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>セルヴィア
+「いったいどうやって中に？」
+<PAUSE>
+//　※立ち絵
+//　　セルヴィア・ローザマリー＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>リーナ
+「あっ！」
+<PAUSE>
+<NAME_PLATE>
+　扉が勝手に開き始めた。
+<PAUSE>
+<NAME_PLATE>
+　イングリッド、カルメラ、ベオウルフ、
+三人の魔界騎士にかけてもらった魔法に
+反応したようだ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　リーナは覚悟を決めて中に入った。
+<PAUSE>
+//【背景：試練の祭壇＿内部＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc013a
+//nc449a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc449a,IN, 1000
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「これは……」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　建物の中は強い魔力に満ちていた。
+<PAUSE>
+<NAME_PLATE>
+　石造りの祭壇が真ん中に置かれ、
+周囲には何体もの騎士の彫像が並んでいる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0020a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリス
+「歴代の魔界騎士のみなさんでしょうか？」
+<PAUSE>
+//　※立ち絵
+//　　リリス＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>セルヴィア
+「思ったより少ないですわね」
+<PAUSE>
+//　※立ち絵
+//　　セルヴィア・ローザマリー＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　セルヴィアの言う通りだった。
+<PAUSE>
+<NAME_PLATE>
+　彫像の数は１００体ほどだろうか。
+長い魔界の歴史から考えれば少ない。
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士という存在が
+どれだけ稀少だったか窺える。
+<PAUSE>
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あっ、イングリッド様」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　建ち並ぶ彫像のなかにその姿を見つけた。
+そばにはカルメラやベオウルフの像もある。
+<PAUSE>
+<NAME_PLATE>
+　その横に自分の像が並ぶことになるのか、
+ならないのか。
+<PAUSE>
+<NAME_PLATE>
+　自分は本当の魔界騎士になれるのか、
+なれないのか。
+<PAUSE>
+<NAME_PLATE>
+　リーナの身体がブルッと震えた。
+<PAUSE>
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「行ってきます」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0020a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリス
+「リーナさん、頑張ってください！
+　大勝利を信じてますよ！」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「しっかりおやりなさい、リーナ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はい！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは二人の励ましを受け、
+祭壇の中央で光っている水晶に触れた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　眩い光がそこから溢れ出し、
+その中でリーナの姿はフッと消えた。
+<PAUSE>
+//【背景：次元の狭間＿昼夜兼用】【時間：昼】
+//　※彷徨う淫らなルナティクス＿nc025aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc052a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リーナは不可思議な空間にいた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　周りには何もない。
+<PAUSE>
+<NAME_PLATE>
+　ぼんやりとした世界がただ広がっている。
+<PAUSE>
+<NAME_PLATE>
+　足をついている感覚はあるが
+地面があるのかないのかもはっきりしない。
+<PAUSE>
+<NAME_PLATE>
+　まだ何も決まっていない混沌の只中に
+いきなり放り出されたようだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ここで私は何をすればいいんだ？
+　原初の魔界騎士の試練とはいったい？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その問いに答えるかのように
+どこからともなく声が
+おそらくは原初の魔界騎士の声が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>原初の魔界騎士
+『魔界騎士にならんと欲する者よ。
+　そなたは戦わなければならない』
+<PAUSE>
+<NAME_PLATE>原初の魔界騎士
+『おのれの心と、おのれの弱さと、
+　おのれ自身と』
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「おのれ自身と？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　リーナしかいなかった世界に
+もう一人の姿が浮かび上がってきた。
+<PAUSE>
+//　※立ち絵
+//　　影リーナ＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あれは……私？」
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,280 @@
+//☆第8章【Section３】シナリオ
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：東京キングダム＿路地裏＿夜】【時間：夜】
+<BGM_PLAY>bgm605,1000
+<BG>nc062a,IN, 1000
+<NAME_PLATE>俺
+「ふう……ここなら一息つけそうだな」
+<PAUSE>
+<NAME_PLATE>
+　飲食店を脱出したものの、
+闇の街は白いモヤとゾンビ化した住人で、
+埋め尽くされていた。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは面倒なゾンビどもを避けながら、
+表通りから離れた路地裏に転がり込む。
+ここまでは、白いモヤもやってきていない。
+<PAUSE>
+<NAME_PLATE>俺
+「それで、黄泉秋津だったか。
+　あんたが骸佐の所に案内してくれるのか」
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「ええ。マダムとはそういう契約ね」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<NAME_PLATE>俺
+「契約？
+　お前、あの仮面女の手下じゃないのか？」
+<PAUSE>
+<NAME_PLATE>秋津
+「はあ！？　手下！？
+　失礼なこと言わないで！」
+<PAUSE>
+<NAME_PLATE>
+　秋津の顔にバカにしたような、
+うんざりしたような色が浮かぶ。
+<PAUSE>
+<NAME_PLATE>秋津
+「ただのケーヤクよ、ケーヤク」
+<PAUSE>
+<NAME_PLATE>秋津
+「だいたい私は誇り高き魎魔忍よ？
+　人の下につくなんて、
+　情けないことするわけないじゃない」
+<PAUSE>
+<NAME_PLATE>俺
+「魎魔忍……？」
+<PAUSE>
+<NAME_PLATE>
+　そう言えば、秋津に助けられた時も、
+彼女は自分で魎魔忍と名乗っていた。
+<PAUSE>
+<NAME_PLATE>秋津
+「ふふーん。やっぱり気になる？
+　そりゃ気になるわよね？」
+<PAUSE>
+<NAME_PLATE>
+　秋津の顔に得意げな色が浮かぶ。
+<PAUSE>
+<NAME_PLATE>秋津
+「あんた達、人間界の忍？　対魔忍だっけ？
+　からすれば、そりゃあもう聞き逃せない、
+　気になって気になって仕方ない話――」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、その話はいい」
+<PAUSE>
+<NAME_PLATE>秋津
+「え？」
+<PAUSE>
+<NAME_PLATE>俺
+「今は骸佐を追うのが先だ。
+　りょうま……なんだっけ？
+　よくわからないが、その話は後にしよう」
+<PAUSE>
+<NAME_PLATE>秋津
+「えっ？　そ、そうなの……？
+　気にならない……？
+　あんたたちも忍でしょ……？」
+<PAUSE>
+<NAME_PLATE>
+　秋津の表情は今度は困惑に変わる。
+ゾンビを一刀両断したときの印象とは違い、
+なんというか、話し好きのようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、俺はそれほど……
+　蛇子、鹿之助、気になるか？」
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「うーん。足の数は多いけど、
+　蛇子とは戦闘スタイルが違うからなあ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>0,h_t002c,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「足じゃないわよ！
+　これは魔装具と言って……」
+<PAUSE>
+<NAME_PLATE>
+　秋津は不思議な装備から生えた、
+四本の機械腕をガチャガチャさせてみせる。
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「鹿之助は？」
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え？　何？
+　ローマニン？　痛み止めか何か？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>0,s_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「もういいわよ！」
+<PAUSE>
+<NAME_PLATE>秋津
+「あとで聞きたいって言っても、
+　話してあげないからね！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ、聞いてほしかったのか？」
+<PAUSE>
+<NAME_PLATE>秋津
+「ちっ、違うわよ！！！
+　そんなわけないでしょ？
+　まったく、これだから人間界の忍者は……」
+<PAUSE>
+<NAME_PLATE>
+　秋津はまだブツブツ言っているが、
+今はそれどころではないのも事実だ。
+<PAUSE>
+<NAME_PLATE>俺
+「それで、骸佐の居場所なんだが」
+<PAUSE>
+<NAME_PLATE>俺
+「あいつは今、ＣＤウィルスを奪い、
+　複数の米連組織に追われているはずだ」
+<PAUSE>
+<NAME_PLATE>俺
+「本人もそれを知って、
+　厳重に身を隠しているだろう。
+　お前は、潜伏場所を知っているのか？」
+<PAUSE>
+<NAME_PLATE>秋津
+「そんなの知らないわ」
+<PAUSE>
+<NAME_PLATE>俺
+「おい、それじゃあどうやって……」
+<PAUSE>
+<NAME_PLATE>秋津
+「術を使って追えばいいでしょ」
+<PAUSE>
+<NAME_PLATE>俺
+「術……？
+　忍術か？」
+<PAUSE>
+<NAME_PLATE>
+　秋津も、何か忍の力を持っているのか。
+<PAUSE>
+<NAME_PLATE>秋津
+「ふん。興味ないんでしょ。
+　まあ、今から探すから」
+<PAUSE>
+<NAME_PLATE>
+　秋津は小さな機械のようなものを
+取り出して見せた。
+<PAUSE>
+<NAME_PLATE>秋津
+「魔装具“影蜘蛛”――。
+　あんた、マダムから言われたもの、
+　持ってきたでしょう？　貸して」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ」
+<PAUSE>
+<NAME_PLATE>
+　俺は背負っていた鞄から、
+しおれた袋を取り出す。
+<PAUSE>
+<NAME_PLATE>俺
+「ほら、これだ。
+　体操着で良いよな？」
+<PAUSE>
+<NAME_PLATE>
+　仮面女は電話で、
+『骸佐が身につけていたものを持ってきて』
+と指示してきた。
+<PAUSE>
+<NAME_PLATE>
+　そこで俺は学園に残されていた、
+骸佐の体操着を持ってきたのだ。
+<PAUSE>
+<NAME_PLATE>秋津
+「体操着って！？　バッチイわね……
+　まあ、対象のＤＮＡが取れれば、
+　何でもいいんだけど」
+<PAUSE>
+<NAME_PLATE>
+　ぶつぶつ言いながら、
+秋津は骸佐の体操着を切り刻み、
+機械の中心にある投入口に放り込む。
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　すると――
+<PAUSE>
+<NAME_PLATE>俺
+「……？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ええっ！？　な、なんだこれ！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「機械から小さいクモちゃんが！？」
+<PAUSE>
+<NAME_PLATE>
+　機械の外観が崩れ落ち、
+何百匹もの機械仕掛けの蜘蛛に変わった。
+<PAUSE>
+<NAME_PLATE>
+　そして、カサカサと小さな音を立てながら、
+表通りの方へと移動していく。
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「ふん。さっそく匂いを嗅ぎつけたみたいね。
+　あの子達の後についていけば、
+　いずれターゲットに追いつくわ」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど、凄いな。
+　これがお前の忍法ってやつか……？」
+<PAUSE>
+<NAME_PLATE>秋津
+「そ、そうよ！！　なに！？
+　やっぱり私の――、
+　魎魔忍の話を聞きたくなった！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それは後でいい。
+　それよりクモを追って行こう。
+　見失っては元も子もない」
+<PAUSE>
+<NAME_PLATE>秋津
+「あー、もう！！
+　わかってるわよっ！！」
+<PAUSE>
+<NAME_PLATE>
+　なにやらプンプンと頬を膨らませながら、
+機械仕掛けの蜘蛛を追う秋津。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうま！　俺たちも行こう！」
+<PAUSE>
+<NAME_PLATE>俺
+「おう！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３-ＭＡＰ画面１へ

@@ -1,0 +1,650 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//シーン開始。
+//【背景：五車町＿さくら並木＿夜】【時間：夜】
+//　　※対魔忍アサギZERO_nc076bより流用
+//nc399b
+<BGM_PLAY>bgm313,1000
+<BG>nc399b,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>刺客
+「………………」
+「………………」
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜剣士＞立ち絵
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<NAME_PLATE>
+　刺客たちはパッと散って、
+アサギの周囲を取り囲んだ。
+<PAUSE>
+<NAME_PLATE>
+　連係の取れた動き。
+受けに回っては不利だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,a_t012d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ふっ」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+//　　※刀は抜いてない状態
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　アサギは臆せず、
+一番腕が立ちそうな刺客に突っ込んだ。
+<PAUSE>
+<NAME_PLATE>
+　ただし刀は抜かずに。
+<PAUSE>
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「舐めるなっ！　でやあっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　そいつは無手のアサギに
+迷わず剣を振り下ろしてきた。
+<PAUSE>
+<NAME_PLATE>
+　想像していたよりは鋭い剣だ。
+火遁使いらしく炎が刃を包んでいる。
+だがそれだけだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「はっっ！」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ｂ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<SE_PLAY>se003
+<BG>nc399b,IN, 500
+<NAME_PLATE>
+　アサギは炎の刃を余裕をもって躱すと、
+首に右の回し蹴りを叩き込んだ。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>刺客
+「がっっ！」
+<PAUSE>
+<NAME_PLATE>
+　頸椎が砕ける感触が伝わってきた。
+中枢神経が断裂。即死だ。
+<PAUSE>
+<BG>nc399b,IN, 500
+<GROUP>
+<ACTOR>0,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>刺客
+「たああっ！！」
+「死ねえええっ！！」
+<PAUSE>
+<NAME_PLATE>
+　今度は左右から二人が
+斬りかかって来る。
+<PAUSE>
+<NAME_PLATE>
+　どちらも忍法は使っていない。
+いきなり一人やられて焦ったか。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,a_t014c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ふっ……」
+<PAUSE>
+<NAME_PLATE>
+　アサギは右足を地に付けぬまま
+迫り来る剣の腹をパンパンと軽く蹴った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>刺客
+「ぐはっっ！」
+「ぐはっっ！」
+<PAUSE>
+<NAME_PLATE>
+　剣の軌道を逸らされ、
+そいつらは互いの刃を
+食い込ませて絶命する。
+<PAUSE>
+<BG>nc399b,IN, 500
+<GROUP>
+<ACTOR>0,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>刺客
+「ぬうっっ！！」
+「ひ、怯むな。相手は一人だ！」
+<PAUSE>
+<NAME_PLATE>
+　あっという間に三人倒され、
+残りの十人は動揺している。
+<PAUSE>
+<NAME_PLATE>
+　それが命取りだ。
+<PAUSE>
+<NAME_PLATE>刺客
+「くそっ―――」
+「これでも―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,a_t012e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「甘いっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シュシュッ！！　グサグサッ！！
+<PAUSE>
+<NAME_PLATE>刺客
+「ぐっ！！」
+「がっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　悠長に飛び道具系の忍法、
+おそらく火遁か風遁を使おうとしていた
+二人を投げクナイで沈める。
+<PAUSE>
+<BG>nc399b,IN, 500
+<GROUP>
+<ACTOR>0,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　残りは八人。
+いや、一人少ない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ズズズズズ―――。
+<PAUSE>
+<ACTOR>0,a_t012c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「……っ！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　足元から伝わる微かな振動。
+アサギはタイミングを合わせ跳んだ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　土遁使いの地中からの一撃が
+アサギが立っていた場所に噴き上がる。
+<PAUSE>
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「ぬっ！？」
+<PAUSE>
+<NAME_PLATE>
+　だがアサギは空中にいる。
+土遁使いは慌ててまた潜ろうとするが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>アサギ
+「遅いっ！」
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　そいつの頭を蹴り飛ばす。
+<PAUSE>
+<NAME_PLATE>
+　顔が前から後ろに半周以上回って
+土遁使いは首から上を出したまま絶命した。
+<PAUSE>
+<BG>nc399b,IN, 500
+<GROUP>
+<ACTOR>0,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>刺客
+「きょ、距離を取れ！」
+「態勢を立て直すぞ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,a_t012e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「させるか！
+　ゆくぞっっ！　対魔殺法“刀脚”！！」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ｂ（ラッシュエフェクト差分）＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　完全に連係の崩れた敵集団の懐に
+アサギは迷わず飛び込んだ。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサギ
+「はっっ！　はっっ！　はああっ！！」
+<PAUSE>
+<NAME_PLATE>刺客
+「ぐあっ！！」
+「ぎゃあっっ！！」
+「ごふうっ！」
+<PAUSE>
+<NAME_PLATE>
+　一蹴一殺。
+<PAUSE>
+<NAME_PLATE>
+　“刀脚”の呼び名の如く、
+まるで脚に斬られるかのように
+刺客はばたばたと倒れていく。
+<PAUSE>
+<NAME_PLATE>
+　しかもアサギの動きに翻弄され、
+敵は忍法はおろか剣もろくに振るえない。
+<PAUSE>
+<NAME_PLATE>
+　一対十三だったにも拘わらず、
+闘いは一方的なものとなった。
+<PAUSE>
+<BG>nc399b,IN, 500
+<ACTOR>0,a_t015d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「やあっ！　たああっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　だがアサギは攻撃を緩めなかった。
+一人一人、冷静に、確実に、
+その命を奪う。
+<PAUSE>
+<BG>nc399b,IN, 500
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「お、おのれ……
+　アサギ……アサギぃい……！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「残りはお前一人だ」
+<PAUSE>
+<NAME_PLATE>刺客
+「ば、化物め。
+　食らえ。風遁の術・斬風ぅう！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　最後の一人は忍法を使ってきた。
+渾身の力で振り下ろした刃が風を呼び
+かまいたちが襲いかかる。
+<PAUSE>
+<BG>nc399b,IN, 500
+<ACTOR>0,a_t015d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「はあっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　右の回し蹴り。
+<PAUSE>
+<NAME_PLATE>
+　爪先が大気を鋭く切り裂いた。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュウウッ！！
+<PAUSE>
+<NAME_PLATE>
+　敵を遙かに上回る斬風が生まれた。
+<PAUSE>
+<NAME_PLATE>
+　それは向かってきたかまいたちを呑み込み、
+真空の渦となって相手に逆流した。
+<PAUSE>
+<NAME_PLATE>刺客
+「ぎゃああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　凄まじい悲鳴。
+<PAUSE>
+<NAME_PLATE>
+　アサギの斬風を加えて
+勢いを増したかまいたちは
+刺客をズタズタに切り裂いた。
+<PAUSE>
+<NAME_PLATE>
+　静けさが戻ってくる。
+誰一人として生き残ってはいない。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc399b,IN, 500
+<ACTOR>0,a_t012d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「数だけでは私に勝てない」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　刺客として覆面をしていても、
+太刀筋を見れば、忍法を見れば、
+それが誰だか分かる。
+<PAUSE>
+<NAME_PLATE>
+　井河家の者たちだ。
+刺客となった彼らを倒したことに後悔はないが
+一抹の哀れみを感じずにはいられない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、それこそが敵の狙い、
+アサギに隙を作らせる罠だった。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m121a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鴉野魎馬
+「その通り」
+<PAUSE>
+//　※立ち絵
+//　　鴉野魎馬立ち絵
+//　　　＊モンスターイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサギ
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　暗闇から現れたのは、
+鴉野魎馬（からすのりょうま）。
+<PAUSE>
+<NAME_PLATE>
+　井河家長老衆に仕え、
+亡者や死霊を自在に操る異能系忍法、
+“死霊舞”の使い手。
+<PAUSE>
+<NAME_PLATE>
+　魎馬はアサギの一瞬の気の緩みにつけこみ、
+背後から彼女を羽交い締めにした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>アサギ
+「くっっ、魎馬っ！」
+<PAUSE>
+<NAME_PLATE>魎馬
+「これで終わりだ、アサギ！！！」
+<PAUSE>
+<NAME_PLATE>
+　身動きのできないアサギに
+魎馬は喜悦する。
+<PAUSE>
+<NAME_PLATE>魎馬
+「この時を待ち望んでいたぜ。
+　我が死霊の贄となるがいい！
+　忍法・死霊舞！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m123a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m123a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m123a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>死霊
+「ＵＯＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＯＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＯＯＯＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+//　※立ち絵
+//　　死霊立ち絵
+//　　　＊モンスターイラストを流用
+//　※複数出してください
+<NAME_PLATE>
+　アサギが倒した刺客たちの身体から
+黒いもやのような形をした死霊が
+次々と現れた。
+<PAUSE>
+<NAME_PLATE>
+　その数は十三。
+<PAUSE>
+<NAME_PLATE>アサギ
+「貴様、まさか！？」
+<PAUSE>
+<NAME_PLATE>魎馬
+「その通り。
+　こいつらは最初からこうする
+　つもりだったのさ」
+<PAUSE>
+<NAME_PLATE>魎馬
+「何しろたった今殺されたんだ。
+　お前の命を吸いとりたくて、
+　ピチピチしてやがるぜ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「外道が！」
+<PAUSE>
+<NAME_PLATE>魎馬
+「その生意気な面もこれで見納めだ。
+　こいつの命を喰らい尽くせ！」
+<PAUSE>
+<NAME_PLATE>死霊
+「ＵＯＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＯＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＯＯＯＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+<NAME_PLATE>
+　十三の死霊は先を争うように
+アサギに群がった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>アサギ
+「ぐっ……かっ……がはっ……」
+<PAUSE>
+<NAME_PLATE>
+　アサギの顔に刻まれていく。
+いや顔だけではない。身体全部にだ。
+<PAUSE>
+<NAME_PLATE>
+　肌の水分が失われ、その下の肉が削られ、
+手足があっという間に棒のようになる。
+<PAUSE>
+<NAME_PLATE>
+　乳房は張りを失って萎み、
+黒髪も次々と抜けていって、
+急速に老いていく。
+<PAUSE>
+<NAME_PLATE>
+　死霊に生命エネルギーそのものを
+奪われているのだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「あ……ぁあ……ぁ……」
+<PAUSE>
+<NAME_PLATE>
+　苦悶の呻きも途切れ途切れになる。
+<PAUSE>
+<BG>nc399b,IN, 500
+<ACTOR>0,ts_m121a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魎馬
+「クハハハハハハハハ！！
+　これで扇舟様や星舟様がお喜びになる！
+　五車は俺たちのものだ！」
+<PAUSE>
+<NAME_PLATE>魎馬
+「ババアになった気分はどうだ？
+　最高の気分だろうが！？
+　もうすぐそれも感じられなくなるぜ！」
+<PAUSE>
+<NAME_PLATE>
+　狂気すら滲ませながら、
+魎馬の嘲笑が高まっていく。
+<PAUSE>
+<NAME_PLATE>アサギ
+「フッ」
+<PAUSE>
+<NAME_PLATE>
+　干からびたアサギが
+にやりと笑みを浮かべた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「やはり婆様が動いたという事か」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　突然の張りのある声。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魎馬
+「なに！？？？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ぱしゃんっ―――。
+<PAUSE>
+<NAME_PLATE>
+　魎馬が捕まえていたアサギが
+いきなり透明になったかと思うと、
+水音を立てて霧散した。
+<PAUSE>
+<NAME_PLATE>
+　呼び出したはずの十三の死霊も
+全て消え去っている。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,a_t012a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「フフフ」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ戦闘立ち絵Ａ＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+//　　※刀は抜いてない状態
+<NAME_PLATE>魎馬
+「アサギ！？」
+<PAUSE>
+<NAME_PLATE>
+　目の前には元のままの姿の
+アサギが立っていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魎馬
+「そんな！？　幻覚だと？
+　いつそんな忍法を会得した？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「たった今だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m121a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魎馬
+「くっ、舐めるな！」
+<PAUSE>
+<NAME_PLATE>
+　動揺しつつも
+魎馬は手練れの対魔忍だ。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　すぐに刀に手をかけ、
+抜き身で眼前のアサギを斬ろうとした。
+<PAUSE>
+<NAME_PLATE>
+　だがそれが叶うことはなかった。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　背後から薙刀が現れ一閃。
+<PAUSE>
+<NAME_PLATE>
+　魎馬の首が飛んだ。
+<PAUSE>
+<BG>nc399b,IN, 500
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>水城不知火
+「それも幻覚。
+　ごめんなさいね」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　幻影不知火。
+<PAUSE>
+<NAME_PLATE>
+　そう呼ばれる対魔忍がそこに立っていた。
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

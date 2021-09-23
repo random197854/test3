@@ -1,0 +1,675 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ地下＿魔獣牧場＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc036a,IN, 1000
+<ACTOR>0,ts_m229a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『ＭＩＹＵＵＵＵＵＵＵＵＵＵＵＵＵ
+　ＵＵＵＵＵＵＵＵＵＵＵＵ……！』
+<PAUSE>
+//　※立ち絵
+//　　皇帝スライム
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　少女の前に立ち塞がる巨大な影。
+<PAUSE>
+<NAME_PLATE>
+　それは全身を毒々しい色に染め、
+凶悪な貌を持つ奇怪な軟体生物だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「か、怪物っ！！？
+　危ないナーサラちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　目立ってはいけない立場だが、
+しかし今はそんなことを
+言っている場合ではない。
+<PAUSE>
+<NAME_PLATE>
+　女の子が襲われて怪我でもする前に、
+あの怪物をやっつけないと――。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「？？　いじめちゃダメ。
+　みゅみゅは友達」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ヒュン！！
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ケイリー
+「ふえっ！？　わあああっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　とっさに助けに入ったケイリー。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　だがその足が、どこからともなく
+伸びてきた紐のようなものでふわりと
+掴まれ、逆さまに吊り上げられた。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「な、なにこれぇ！？
+　あわわ……って言うか、
+　怪物に顔がふたつあるーー！？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m229b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「みゅ？」
+<PAUSE>
+//　※立ち絵
+//　　皇帝スライム＿本当の顔
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　ぽこっと怪物のお腹辺りから
+丸っこい可愛い顔が出現した。
+<PAUSE>
+<NAME_PLATE>
+　実はこの生物、上部の凶悪な顔は
+外敵を追い払うための擬態であり、
+本当の顔は下にあった。
+<PAUSE>
+<NAME_PLATE>
+『皇帝スライム』。
+<PAUSE>
+<NAME_PLATE>
+　魔界の湿地などに住む希少な魔獣で、
+高い知能と温和な性格を持っている。
+<PAUSE>
+<NAME_PLATE>
+　この洞窟――鬼族の魔獣牧場では、
+魔獣たちの生活を見守る牧羊犬のような
+仕事をしており、
+<PAUSE>
+<NAME_PLATE>
+　オフの時間は洞窟を出て
+ぶらりと地下道を散歩するのが日課。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんな散歩の途中で同じく
+お散歩中のナーサラと顔を合わせ、
+友達になったという経緯である。
+<PAUSE>
+<ACTOR>0,ts_m229b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「みゅみゅ。おて」
+<PAUSE>
+<NAME_PLATE>みゅみゅ
+「みゅー！」
+<PAUSE>
+//　※立ち絵
+//　　皇帝スライム＿本当の顔
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　皇帝スライムがちょこんとお手をする。
+<PAUSE>
+<NAME_PLATE>
+　完全にナーサラに懐いていて、
+危害を加える様子は全くない。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「え、ええ……？
+　じゃあこの殺気は……！？」
+<PAUSE>
+<NAME_PLATE>
+　ゾクっと背筋を震わせるケイリー。
+<PAUSE>
+<NAME_PLATE>
+　殺気の主は皇帝スライムではなかった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それは彼女の背後から――。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「亜希もダメ。その人、いい人。
+　切るの不可」
+<PAUSE>
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「えっ？　ほんと？
+　危ないロリコン犯じゃなくて？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「わわっ！！？
+　さ、さっきのバーにいた人！？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　吊り下げられたケイリーの首筋で、
+亜希の刀がピタリと止まった。
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ地下＿魔獣牧場＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm604,1000
+<BG>nc036a,IN, 1000
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>亜希
+「あー、なるほど。君は
+　ヨミハラの見学をしてたのか」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>亜希
+「いや、私はてっきり、
+　変な奴がナーサラちゃんを
+　狙ってるんだと思ってね」
+<PAUSE>
+<NAME_PLATE>
+　刀を収めた亜希がてへへと
+笑って頭をかく。
+<PAUSE>
+<NAME_PLATE>
+　さすが剣客というべきか、
+もうすっかり酒が抜けている。
+<PAUSE>
+<NAME_PLATE>
+　酒場で不審な気配に気づいた
+亜希は密かに二人を追跡して、
+<PAUSE>
+<NAME_PLATE>
+　そして今、ケイリーの説明で
+やっと誤解が解けたという所であった。
+<PAUSE>
+<ACTOR>0,chr_t0164a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0280a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「ごめんなさーい……。
+　こっそり付いて行ったりして」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>ケイリー
+「ナーサラちゃんの後ろで街を見て回るのが、
+　つい楽しくなっちゃって」
+<PAUSE>
+<NAME_PLATE>亜希
+「まあ、そうだね。
+　君の気持ちはわかるよ」
+<PAUSE>
+<NAME_PLATE>亜希
+「ナーサラちゃんの後ろ姿は、
+　つい尾行したくなる可愛さ
+　だからね、でへへ……」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（え、えぇ……？）
+<PAUSE>
+<NAME_PLATE>
+　ごく当たり前のように
+おかしなことを言われ、
+ケイリーが目を白黒させる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　当のナーサラは、そんな
+二人の会話を気にすることもなく。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m229b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「みゅみゅ。
+　今日のおやつ、角砂糖」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>みゅみゅ
+「みゅ！　みゅみゅ～」
+<PAUSE>
+//　※立ち絵
+//　　皇帝スライム＿本当の顔
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　仲良しの皇帝スライム、
+みゅみゅにポシェットから出した
+おやつをあげている。
+<PAUSE>
+<NAME_PLATE>
+　一時の緊迫感はなくなり、
+すっかり平和な光景であった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<NAME_PLATE>
+　ピピピピピ……。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+『――ちょっとケイリー！！
+　あんたどこほっつき歩いてるの！』
+<PAUSE>
+<NAME_PLATE>アスカ
+『先に宿に戻ってなさいって
+　言っておいたでしょ！？』
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「あっ！？　アスカぁ！？」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーの端末が鳴って、
+プンプンしているアスカの声。
+<PAUSE>
+<NAME_PLATE>
+　宿に戻ったらケイリーが不在で、
+慌てて連絡してきたらしい。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「ご、ごめんねー。ちょっと、
+　街を見て回るのが楽しくて……」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「というか、早かったねアスカ、
+　もう用事は終わったの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+『用事？　あー、あいつ、
+　意外に勘が良くて逃げられ……
+　って、もうそれは良いから！』
+<PAUSE>
+<NAME_PLATE>アスカ
+『とにかく早く戻ってきなさい！
+　変な連中に捕まんないように。
+　エッチなことされるわよ！』
+<PAUSE>
+<NAME_PLATE>ケイリー
+「はーい」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーが渋々通信を切る。
+<PAUSE>
+<NAME_PLATE>
+　楽しかった自由見学の時間も、
+そろそろ終わりのようだ。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「さっき話していた、
+　一緒に来たっていう先輩か？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うんっ！　アスカっていうの。
+　私のこと心配して、
+　早く戻って来いって、えへへ」
+<PAUSE>
+<NAME_PLATE>
+　照れたようにケイリーが笑う。
+<PAUSE>
+<NAME_PLATE>
+　先ほど亜希に事情を説明した時、
+二人は簡単に自己紹介を済ませていた。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーがＤＳＯに所属する
+人工の忍法使いであること。
+<PAUSE>
+<NAME_PLATE>
+　一方の亜希は、
+五車の対魔忍であること。
+<PAUSE>
+<NAME_PLATE>
+　そして、ケイリーは、
+更なる忍法の制御を学ぶため、
+<PAUSE>
+<NAME_PLATE>
+　これから五車の里に派遣され、
+お世話になる予定であることなど――。
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0280a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ケイリー
+「じゃあ、ナーサラちゃん！
+　今日は黙ってついて来てゴメン！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「もしよかったら、
+　また一緒に街を歩かせて？
+　今度はちゃんと姿を出したまま！」
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「うん。ケイリー、友達。
+　また一緒に歩く」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「あはっ、嬉しい！！
+　じゃあ亜希さんとみゅみゅも、
+　今日はありがとう！　またねー♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m229b,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「ああ。五車に行ったら、
+　うちの家の連中にも会うといいよ。
+　皆、良い奴だから」
+<PAUSE>
+<NAME_PLATE>みゅみゅ
+「みゅー！」
+<PAUSE>
+<NAME_PLATE>
+　明るく笑う亜希たちに見送られ、
+ケイリーは魔獣牧場を後にした。
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ街の広場＿雨】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034bより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc122b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ヨミハラ・繁華街。
+<PAUSE>
+//【背景：ヨミハラ繁華街３＿雨】【時間：夜】
+//　※対魔忍アサギZERO_NC035bより流用
+<BG>nc127b,IN, 1000
+<SE_PLAY>se096
+<NAME_PLATE>
+　ザアアアアアアア……。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーが地下道から出ると、
+街には雨が降っていた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「わわっ！　そっか、
+　これがヨミハラの雨……」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　一日に何度か、あるいは数日に一度、
+地下３００メートルの街に降る通り雨。
+<PAUSE>
+<NAME_PLATE>
+　それは地上に降った雨がここまで
+しみ込んで落ちてきたものだ。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの住人はもう慣れっこに
+なっていて、小雨の中を全く気にせず
+歩いていたりする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、その中には。
+<PAUSE>
+<ACTOR>0,ts_m220c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミレーヌ
+「え、えっと……。
+　あかまきがみあおまきがみ
+　きまきみゃみ……あっ、間違えた」
+<PAUSE>
+//　※立ち絵
+//　　異界霊ミレーヌ
+//　　　　＊モンスターイラスト
+<NAME_PLATE>ミレーヌ
+「と、というかミリアム先生。
+　このレッスン、ほんとに魔術の
+　習得に役立つのですか……？」
+<PAUSE>
+<ACTOR>1,chr_t0279b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「うむ、役に立つとも！
+　呪文の詠唱には正確な発音と
+　集中力が必須なのだからな！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム03＿眼鏡差分
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミリアム
+「さあ我が弟子よ、
+　めげずに最初からもう一度！」
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅっ」
+「ぴぴ～っ！！」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「は、はい先生……！
+　えっと、あかまきかみ、
+　あおまきみゃみきまきまみ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「ふむ。
+　預ける教師を間違えたかしら？」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　料理店を出て魔科医との取引に向かう
+ミリアムたちも雨の中を歩いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+（あうー。でも、
+　私はダメなんだよなー雨の中）
+<PAUSE>
+<NAME_PLATE>
+　一方、ケイリーは軒下で
+雨宿りをしながら困った顔。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーのアンドロイドアームと
+レッグは、まだ調整途中の試作品だ。
+<PAUSE>
+<NAME_PLATE>
+　防水処理が万全ではなく、
+これだけの雨でも不調になり、
+動作が怪しくなっている。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（うーん、どうしよう。
+　このまま行ったら漏電して
+　壊れちゃいそうだし……）
+<PAUSE>
+<NAME_PLATE>ケイリー
+（でも、ここでグズグズしてたら
+　アスカに怒られちゃうかも……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　上機嫌でナーサラたちと
+別れたばかりなのに、
+出鼻をくじかれた形である。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<NAME_PLATE>？？？
+「――困っているようだな。
+　ならばこれを使うと良い」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「えっ！」
+<PAUSE>
+<NAME_PLATE>
+　驚いて顔を上げる。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ちんまりした角のある
+魔族の少女が、可愛らしいドヤ顔で
+こちらに傘を差し出していた。
+<PAUSE>
+<NAME_PLATE>女の子
+「なに、遠慮することはない。
+　困った民草を助けるのは
+　魔界騎士の務めであるからなっ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>0,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0280a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「魔界騎士さん……！？
+　あ、ありがとう……でも、
+　それじゃあなたがずぶ濡れに……」
+<PAUSE>
+<NAME_PLATE>
+　見たところ、女の子が
+持っている傘は一本だけである。
+<PAUSE>
+<NAME_PLATE>女の子
+「気にするな！　いい女は雨に
+　濡れるものだとイングリッド様も
+　前に仰って……くしゅ！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「あっ」
+<PAUSE>
+<NAME_PLATE>
+　女の子が派手にくしゃみをした。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女の子
+「あっ、いやいや！？
+　これは違うぞ、別に私は寒くない！
+　と、とにかく――」
+<PAUSE>
+<NAME_PLATE>女の子
+「以前、おまえと同じような
+　機械の体の者と共闘したことがある。
+　これはその礼だ！」
+<PAUSE>
+<NAME_PLATE>女の子
+「それじゃあ風邪ひくなよ、
+　さらばだ！！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うんっ！　魔界騎士さん、
+　ありがとーーーっ！！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　魔界騎士の女の子は、
+降りしきる雨の中をドヤ顔で去っていく。
+<PAUSE>
+<ACTOR>1,chr_t0280a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ケイリー
+「うわー、すごいっ！！
+　すごくかわいくてカッコいい！」
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士と言えば――。
+<PAUSE>
+<NAME_PLATE>
+　ノマドに属するイングリッドのように、
+危険で恐ろしいという知識しかなかった。
+<PAUSE>
+<NAME_PLATE>
+　でもあの子は違っていた。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（資料で見ていたのと、
+　実際の世界は全然違う――）
+<PAUSE>
+<NAME_PLATE>
+　それは、
+あの魔界騎士の少女だけでなく。
+<PAUSE>
+<NAME_PLATE>
+　今日、彼女がこの街で出会った、
+ギャングたち、淫魔族、獣人、
+鬼族、そして不思議な女の子……。
+<PAUSE>
+<NAME_PLATE>
+　そのどれもが、あらかじめ
+抱いていたイメージとは違っていて。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（研究所の外の世界は、
+　なんて不思議で面白い……！）
+<PAUSE>
+<NAME_PLATE>ケイリー
+「――うん！
+　五車の里に行くのが、
+　もっと楽しみになってきた！」
+<PAUSE>
+<NAME_PLATE>
+　わくわくと胸を弾ませたケイリーが、
+元気一杯に雨の中へと踏み出した。
+<PAUSE>
+//→エピローグ終了
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

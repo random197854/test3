@@ -1,0 +1,650 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：ヨミハラスラム１＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC108aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc453a,IN, 1000
+<ACTOR>0,chr_t0361g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「うふふ。もう実体もない彼は
+　私のように武器やゴーレムは使わないわ」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器+ゴーレム
+//　　　＊カードイラストより流用
+<NAME_PLATE>ワイト
+「あの香炉を触媒に魔術を操るだけ。
+　少しはまともな闘いができるわよ。
+　せいぜい頑張りなさい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「お黙りなさい！」
+<PAUSE>
+//　※立ち絵
+//　　【プリティローズ】セルヴィア・ローザマリー
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レイス
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　レイス
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　お喋りな肉叩き女を怒鳴りつけ、
+こちらはひたすら無言の香炉幽霊に
+身構えたところで、
+<PAUSE>
+<ACTOR>0,chr_t0361f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「っっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器+ゴーレム
+//　　　＊カードイラストより流用
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　見物を決め込むつもりだったワイトが
+ハッと顔色を変えてその場を飛び退いた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　直後―――。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　凄まじい斬撃がそこを駆け抜けた。
+<PAUSE>
+<BG>nc453a,IN, 500
+<ACTOR>0,ob_t007f,CENTER, CENTER, IN, linear, 1000
+//<ACTOR> 朧の立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>朧
+「ふん、躱したね」
+<PAUSE>
+//　※立ち絵
+//　　朧戦闘立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,500
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「朧様！？」
+<PAUSE>
+//　※立ち絵
+//　　【プリティローズ】セルヴィア・ローザマリー
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ob_t007f,CENTER, CENTER, IN, linear, 1000
+//<ACTOR> 朧の立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>
+　彼女の窮地に現れたのは愛犬ジェロでも
+もしかしたら来ないかと期待していたリーナ
+でもなく、元々ここで会うつもりの朧だった。
+<PAUSE>
+<NAME_PLATE>朧
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　朧は助けたセルヴィアを見ようともせず、
+ワイトだけを睨んでいる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0361f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「貴様、どういうつもり！？」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器+ゴーレム
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　そしてワイトはノマドの大幹部の出現に
+なぜかセルヴィア以上に驚いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ob_t007f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「何を舐めた口を聞いている？
+　ここは私のナワバリだ」
+<PAUSE>
+<NAME_PLATE>朧
+「死霊卿の犬が私に断りなく
+　何をしてるんだい？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0361f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「貴様っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ワイトが声を荒げた次の瞬間、
+朧の身体がふっと揺れた。
+<PAUSE>
+<NAME_PLATE>
+　とセルヴィアが認識した時には、
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギンッ、ガギンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　一瞬でワイトに接近した朧が
+その鉤爪でスズメバチゴーレムを
+粉砕していた。
+<PAUSE>
+<BG>nc453a,IN, 500
+<ACTOR>0,chr_t0361b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「くっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　セルヴィアと同じように、
+ワイトは朧の動きに全く対応できない。
+<PAUSE>
+<NAME_PLATE>
+　突然、喉元に突きつけられた鉤爪に
+愕然としている。
+<PAUSE>
+<ACTOR>0,ob_t007f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「私のナワバリで何をしてるんだって
+　聞いてるんだよ」
+<PAUSE>
+<NAME_PLATE>朧
+「耳を右から左に穴を通して、
+　もっとよく聞こえるようにしてやろうかい？」
+<PAUSE>
+<NAME_PLATE>
+　今、脅されていないセルヴィアですら、
+知っていることを話してしまいそうになる
+恐ろしい声で朧は言った。
+<PAUSE>
+<NAME_PLATE>ワイト
+「くっ……」
+<PAUSE>
+<NAME_PLATE>
+　瞬きするほどの間に間合いに入られ
+ゴーレムもあっさり破壊されたワイトは
+悔しそうに歯噛みしていたが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0361b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「こんなことをして
+　ただですむと思わないで！
+　私は行く！　その女を始末しなさい！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ありきたりな捨て台詞を言い放つと
+さっと身を翻して逃げていった。
+<PAUSE>
+<NAME_PLATE>
+　朧がそれを放っておいたのは不思議だが、
+そんなことよりもう一体のレイスだ。
+<PAUSE>
+<NAME_PLATE>
+　こちらは残って相手をするつもりだ。
+<PAUSE>
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「おいでなさい！」
+<PAUSE>
+<NAME_PLATE>
+　セルヴィアは再び身構える。
+しかしそんな必要はなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ob_t007f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「その女を始末しろ？
+　ふん、馬鹿が」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　そんな言葉が聞こえたかと思うと、
+また朧の姿がふっと揺れ、
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間には
+レイスの背後に移動していた。
+<PAUSE>
+<ACTOR>0,ts_m311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レイス
+「！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　レイス
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　レイスは驚きながらも香炉を揺らして
+何か魔術を使おうとしたようだったが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>朧
+「消えな」
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　今度は脅しの言葉もなくただ一言。
+後ろからばっさりとレイスを切り裂いた。
+<PAUSE>
+<NAME_PLATE>レイス
+「ギャアアアアアアアア！！」
+<PAUSE>
+<BG>nc453a,IN, 500
+<NAME_PLATE>
+　今まで何も喋らなかったレイスは
+最期に派手な悲鳴を発して消えていった。
+<PAUSE>
+<ACTOR>0,ob_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「幽体だけの死に損ないが
+　死者を操るレイスとかお笑いぐさだね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　朧の凄まじい手並みに
+セルヴィアは唖然とするばかりだ。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+（これは格が違いますわね。
+　さすがノマドの大幹部……）
+<PAUSE>
+<NAME_PLATE>
+　“接近しての暗殺なら朧様の独壇場”
+<PAUSE>
+<NAME_PLATE>
+　尊敬するイングリッドと同格の大幹部を
+リーナはそう評していたが
+まさにそんな戦いぶりだった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,ob_t005a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0360a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「朧様、ありがとうございます。
+　おかげで助かりましたわ」
+<PAUSE>
+<ACTOR>0,ob_t004c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「別にそんなつもりはないね。
+　私はナワバリを守っただけさ」
+<PAUSE>
+<NAME_PLATE>
+　礼を言うセルヴィアに
+朧は面倒くさそうに鼻を鳴らしたが、
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「リーナが仰っていたとおり
+　とても照れ屋なお方ですのね」
+<PAUSE>
+<NAME_PLATE>
+　セルヴィアがそう言うと、
+今度は居心地の悪そうな表情になった。
+<PAUSE>
+<ACTOR>0,ob_t004h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「ちっ、誰が照れ屋だ。
+　リーナの言うことなんか
+　信用するんじゃないよ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「失礼いたしました。
+　ですが悪名高い―――
+　あえてこう言わせていただきますが」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「悪名高い朧様がこのスラムで
+　子供たちの保護に熱心であることは
+　もうよく知っておりますわ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「今回もたくさんの寄付を
+　本当にありがとうございました」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「これからわたくし朧様のように
+　ヨミハラの貧しい子供たちを救う活動の
+　お手伝いをさせていただきたいのです」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「それを許していただけますでしょうか？」
+<PAUSE>
+<NAME_PLATE>朧
+「ふん、勝手にしな」
+<PAUSE>
+<NAME_PLATE>
+　朧はそう吐き捨てて去っていった。
+それが照れ隠しなのは明らかだった。
+<PAUSE>
+<NAME_PLATE>
+　セルヴィアはそんな朧の後ろ姿に
+深く頭を下げていた。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿路地裏＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc031aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc009a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　セルヴィアと別れ、
+アジトに帰る途中―――。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>朧
+「ぐっっ……」
+<PAUSE>
+//　※立ち絵
+//　　朧通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　朧は胸を押さえた。
+<PAUSE>
+<NAME_PLATE>朧
+「ぐぐ……うっ……ぐうっ……」
+<PAUSE>
+<NAME_PLATE>
+　その顔が苦痛に歪む。
+<PAUSE>
+<NAME_PLATE>
+　闘いではどんな痛みをも
+ものともしないノマドの大幹部がだ。
+<PAUSE>
+<NAME_PLATE>
+　そこにあるべきものがない痛み。
+空虚さがもたらす痛み。
+<PAUSE>
+<NAME_PLATE>
+　この痛みは―――！
+<PAUSE>
+<NAME_PLATE>朧
+「うぐぐっ……
+　さっさと……出てきなっ！」
+<PAUSE>
+<ACTOR>0,chr_t0361f,CENTER, CENTER, IN, linear, 1000
+//<ACTOR> ワイトの立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>ワイト
+「さっきのあれはどういうつもり？」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器+ゴーレム
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　朧の背後からワイトが現れた。
+<PAUSE>
+<NAME_PLATE>
+　その手に紫色の炎がある。
+<PAUSE>
+<NAME_PLATE>
+　かつて死霊卿に奪われた朧の魂だ。
+<PAUSE>
+<NAME_PLATE>
+　奴はそれで朧を支配している。
+<PAUSE>
+<NAME_PLATE>
+　ご丁寧にもそれをワイトに
+貸し与えたようだ。
+<PAUSE>
+<NAME_PLATE>
+　ワイトがあの魂の炎を握りつぶせば
+朧は死ぬ。
+<PAUSE>
+<NAME_PLATE>
+　それを百も承知した上で
+朧はありったけの侮蔑の表情を
+浮かべてやった。
+<PAUSE>
+<NAME_PLATE>朧
+「わ、私にかなわないからって
+　ご主人様に泣きついたのかい？」
+<PAUSE>
+<NAME_PLATE>ワイト
+「私の問いに答えなさい」
+<PAUSE>
+<NAME_PLATE>
+　ワイトは魂の炎を少し握った。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>朧
+「うぐうっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　朧はその場でのたうち回りたくなるのを、
+泣いて許しを請いたくなるのを、
+<PAUSE>
+<NAME_PLATE>
+　魂を奪われた身体にも
+まだ残っている矜持で必死に堪える。
+<PAUSE>
+<NAME_PLATE>朧
+「わ、私はナワバリを守っただけだ！
+　見過ごせば……わ、私がイングリッドに
+　疑われるっっ！！」
+<PAUSE>
+<NAME_PLATE>ワイト
+「もっともらしい答えね。
+　一応は信用してあげるわ」
+<PAUSE>
+<NAME_PLATE>ワイト
+「でも私を死霊卿の犬と言ったことは許せない。
+　私があなたの姿になることなど簡単なのよ。
+　それが分かっていないようね」
+<PAUSE>
+<NAME_PLATE>
+　ギリッ、ギリギリッ―――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>朧
+「ぐぐぐっ……ぐうっ……！
+　し、死霊卿にそうしろって言われたのかい！
+　そんな勝手ができるのかい、ワイト！」
+<PAUSE>
+<NAME_PLATE>ワイト
+「くっ。
+　どこまでも減らず口を―――」
+<PAUSE>
+<NAME_PLATE>
+　この女が私的な怒りを優先させるか、
+死霊卿の犬としての役割を守るか、
+五分五分というところだったが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その均衡は場違いに明るい声によって
+あっさりと破られていた。
+<PAUSE>
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あっ、いた。朧様ーー！」
+<PAUSE>
+//　※立ち絵
+//　【桜嵐舞闘】リーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リーナだ。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　向こうから近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　ワイトにはまだ気づいていないようだが、
+<PAUSE>
+<ACTOR>0,chr_t0361f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ワイト
+「あ、あれは！？
+　屍の王＜レイスロード＞が仰っていた
+　妙な魔界騎士？」
+<PAUSE>
+<NAME_PLATE>朧
+「くくくっ、
+　あのリーナの間の悪さには
+　あんたなんかじゃ太刀打ちできないよ」
+<PAUSE>
+<NAME_PLATE>
+　朧は魂の痛みに苦しみながら、
+さらにワイトを嘲笑してやった。
+<PAUSE>
+<NAME_PLATE>ワイト
+「ちっ！」
+<PAUSE>
+<NAME_PLATE>
+　ご主人様にあのリーナは相手にするなとでも
+言い含められていたのだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ワイトは舌打ちして
+またも忌々しげに姿を消した。
+<PAUSE>
+<NAME_PLATE>
+　所詮は死霊卿の取り巻きの一人、
+三下のレイスだ。
+<PAUSE>
+<NAME_PLATE>朧
+「ぐっっ！」
+<PAUSE>
+<NAME_PLATE>
+　しかし朧もその場に膝をついていた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「朧様っ！！」
+<PAUSE>
+<NAME_PLATE>
+　リーナが慌てて駆け寄ってきて、
+朧の身体を抱き起こす。
+<PAUSE>
+<NAME_PLATE>リーナ
+「大丈夫ですか、朧様！
+　なにがあったんですか？
+　しっかりしてください！」
+<PAUSE>
+<NAME_PLATE>朧
+「なんともない。
+　ちょっと飲み過ぎただけだよ。
+　一人で立てる。離しな！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　やたらと世話を焼こうとするリーナを
+朧は邪険にはね除けた。
+<PAUSE>
+<ACTOR>0,ob_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ワイトが魂への攻撃をやめたらしく、
+さっきまでの苦痛も消えていた。
+<PAUSE>
+<ACTOR>0,ob_t004f,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0337a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「そうですか。ただの飲み過ぎですか。
+　ああ良かった。刺客にでも襲われたのかと。
+　安心しました」
+<PAUSE>
+<NAME_PLATE>
+　心から彼女を気遣う声だ。
+<PAUSE>
+<NAME_PLATE>
+　直属の部下でもないくせに、
+朧とイングリッドの仲が良くないと
+知っているくせに実に煩わしい。
+<PAUSE>
+<NAME_PLATE>
+　しかしそんなリーナが
+妙なタイミングで出てきたので
+助かったのも確かだ。
+<PAUSE>
+<ACTOR>0,ob_t004c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「なんで私を探してたんだい？」
+<PAUSE>
+<NAME_PLATE>
+　朧がぶっきらぼうに尋ねると、
+リーナはいつもの裏表のない顔で言った。
+<PAUSE>
+<NAME_PLATE>リーナ
+「セルヴィアお嬢様を助けていただいたと
+　聞いて一言お礼をと」
+<PAUSE>
+<ACTOR>0,ob_t004f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「自分のナワバリを守っただけさ。
+　いちいち礼だのなんだの鬱陶しいよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「でも朧様はお嬢様の命の恩人です」
+<PAUSE>
+<ACTOR>0,ob_t004c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「まだイベントは続いてるんだろ。
+　さっさと戻りな。
+　スラムにはクソガキがいくらでもいるんだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい。
+　色々とありがとうございました」
+<PAUSE>
+<NAME_PLATE>
+　リーナはさっき助けてやったセルヴィアと
+同じように深く深く頭を下げる。
+<PAUSE>
+<NAME_PLATE>朧
+「ふん……お互い様さ」
+<PAUSE>
+<NAME_PLATE>
+　そんな言葉が思わず口を出た。
+<PAUSE>
+<NAME_PLATE>リーナ
+「え？　なにがです？」
+<PAUSE>
+<ACTOR>0,ob_t004g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>朧
+「いいから行きな！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　赤面するのを感じながら、
+朧はリーナをしっしっと追い払った。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,390 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：東京キングダム＿二車支配地域＿裏通り＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc024aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc065a,IN, 1000
+<ACTOR>0,o_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「おらぁッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左戦闘立ち絵
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m023a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>傭兵
+「っ………！！？」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵(男)立ち絵
+//　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<WAIT>1000
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　刺客らしき男の脳天を、
+権左の槍が打ち砕く。
+<PAUSE>
+<NAME_PLATE>
+　男は声もなく絶命した。
+最後に残ったのは、黒い服に身を包んだ
+覆面の男である。
+<PAUSE>
+<BG>nc065a,IN, 500
+<ACTOR>0,o_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「さて、最後の一人になったな」
+<PAUSE>
+<ACTOR>0,o_t003b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>暗殺者
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　＊モンスターイラストより流用
+<NAME_PLATE>権左
+「お前ら、
+　『大博徒』の爺さんを襲ったやつらか？」
+<PAUSE>
+<NAME_PLATE>暗殺者
+「……………」
+<PAUSE>
+<ACTOR>0,o_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「ま、当然答えねえわな」
+<PAUSE>
+<ACTOR>0,o_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「その刃、毒が塗ってあるな？
+　それも忍の使う毒だ。
+　色でわかるぜ」
+<PAUSE>
+<NAME_PLATE>暗殺者
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　男は答えることなく、
+毒が塗られたと言われたその刃を
+権左に突き立てようとした。
+<PAUSE>
+<NAME_PLATE>権左
+「おっと」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se003
+<WAIT>500
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　権左は少し体を逸らして回避すると、
+槍の柄を刺客の足に引っ掛けて転ばせる。
+<PAUSE>
+<NAME_PLATE>暗殺者
+「……………！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,o_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「やめとけって。
+　もう勝負は見えてんだろ」
+<PAUSE>
+<NAME_PLATE>
+　権左は男の動きを奪うと、
+槍の切っ先を突きつけた。
+<PAUSE>
+<NAME_PLATE>権左
+「さあ、たっぷり話してもらうぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「待て！　これを見ろ！！！」
+<PAUSE>
+<NAME_PLATE>
+　すると、権左の背後から、
+別の声がした。
+<PAUSE>
+<ACTOR>0,o_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「なんだ？　まだ隠れてたのかよ。
+　何人こようと同じ……」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左通常立ち絵
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,o_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　言いながら振り返った権左の表情が変わる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　新手の刺客がその毒剣を
+突きつけているのは、
+あの花売りの少女であった。
+<PAUSE>
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「武器を捨てろ。
+　さもなくばこのガキを殺すぞ」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　＊モンスターイラストより流用
+<NAME_PLATE>花売りの少女
+「う、うう……権左さん……」
+<PAUSE>
+<NAME_PLATE>権左
+「おいおいおい正気か？」
+<PAUSE>
+<NAME_PLATE>権左
+「それで脅しのつもりかよ。
+　ガキ一人殺したところで、
+　俺はなんにも困らねえぜ」
+<PAUSE>
+<NAME_PLATE>
+　刺客は答えず、毒の刃を
+じりじりと少女の首に突きつける。
+<PAUSE>
+<ACTOR>0,ts_m152a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,o_t002c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>権左
+「おいやめとけって」
+<PAUSE>
+<ACTOR>1,o_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「関係ねえガキの命なんて、
+　脅しにもならねえって言ってるだろ！？」
+<PAUSE>
+<NAME_PLATE>刺客
+「武器を捨てろ」
+<PAUSE>
+<ACTOR>1,o_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「…………」
+<PAUSE>
+<NAME_PLATE>刺客
+「…………」
+<PAUSE>
+<ACTOR>1,o_t002h,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>権左
+「くそ！　分かったよ」
+<PAUSE>
+<ACTOR>1,o_t001c,RIGHT, RIGHT, IN, linear, 500
+<SE_PLAY>se141
+<NAME_PLATE>
+　ガラン。
+<PAUSE>
+<NAME_PLATE>
+　槍が無造作に地面に転がった。
+次の瞬間、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドッ。
+<PAUSE>
+<NAME_PLATE>
+　転んでいた刺客が素早く立ち上がり、
+権左の背に刃を突き立てた。
+<PAUSE>
+<BG>nc065a,IN, 500
+<NAME_PLATE>権左
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>刺客
+「ケケケ！　やったぜ！　いいザマだ！
+　“槍の権左”がとんだ甘ちゃんだな！！」
+<PAUSE>
+<NAME_PLATE>刺客
+「この毒は効くぜ。
+　ま、対魔忍ならあんたもよく知ってるか」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,o_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「……俺は武器を捨てたぜ。
+　その子を解放しろよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「ああ勿論だ。
+　ほら行けよ、もう用は無え！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>花売りの少女
+「キャッ！！」
+<PAUSE>
+<SE_PLAY>se010
+<NAME_PLATE>
+　男に蹴り飛ばされて、
+少女の小さな体は路地の向こうまで
+吹っ飛んだ。
+<PAUSE>
+<NAME_PLATE>
+　権左はそれを見届けると――
+<PAUSE>
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>刺客
+「なに！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,o_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　どこから取り出したのか、
+権左の手には小型の爆弾が握られていた。
+<PAUSE>
+<NAME_PLATE>権左
+「甘ちゃんはどっちだったかな」
+<PAUSE>
+<NAME_PLATE>刺客
+「まずい……！！！」
+<PAUSE>
+<NAME_PLATE>
+　刺客が飛び退くよりも早く。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドォン……。
+<PAUSE>
+<NAME_PLATE>
+　権左は刺客たちもろとも自爆していた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方。
+二車のアジトでは。
+<PAUSE>
+//【背景：二車のアジト＿昼夜兼用】【時間：昼】
+//　※対魔忍アサギ３_nc035aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc096a,IN, 1000
+<ACTOR>0,g_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ちっ……
+　あいつら、何をやってるんだ」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐通常立ち絵
+<NAME_PLATE>
+　骸佐がひとり、
+苛立った様子で外を見つめていた。
+<PAUSE>
+<NAME_PLATE>骸佐
+<ACTOR>0,g_t001a,CENTER, CENTER, NONE, linear, 0
+「揃いも揃って連絡を絶つなど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m063a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>楽尚之助
+「失礼します、お館様」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　そこへ扉が開き、尚之助が入ってきて
+一礼する。
+<PAUSE>
+<ACTOR>0,ts_m063a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,g_t001e,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「尚之助！
+　お前に任せた連中は、
+　連絡も寄越さずに何をやってやがる？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　尚之助は答えない。
+<PAUSE>
+<NAME_PLATE>
+　無言で一歩、一歩と骸佐のもとへ進む。
+<PAUSE>
+<ACTOR>1,g_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「尚之助？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　尚之助は骸佐の間合いの
+一歩手前で立ち止まった。
+<PAUSE>
+<ACTOR>1,g_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「そうか……」
+<PAUSE>
+<NAME_PLATE>
+　骸佐はそれを見て、
+全てを察したように頷く。
+<PAUSE>
+<ACTOR>1,g_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「では、こうだな」
+<PAUSE>
+<ACTOR>1,g_t003a,RIGHT, RIGHT, IN, linear, 500
+<NAME_PLATE>
+　骸佐は愛用の斬馬刀“猪助”を抜き、
+尚之助に向けた。
+<PAUSE>
+<NAME_PLATE>尚之助
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　尚之助も腰の刀に手をかける。
+<PAUSE>
+//【黒画面】
+<BG_OUT>1000
+<NAME_PLATE>尚之助
+「お命頂戴します」
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

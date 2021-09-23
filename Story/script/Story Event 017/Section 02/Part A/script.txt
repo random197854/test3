@@ -1,0 +1,543 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+<NAME_PLATE>
+　そもそも、なぜ俺たちが
+妙なタコ生物と戦うことになったのか。
+<PAUSE>
+<NAME_PLATE>
+　――話は１時間ほど前に遡る。
+<PAUSE>
+//【背景：センザキ＿表通り＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC046bより流用
+<BG>nc144a,IN, 1000
+<NAME_PLATE>
+　センザキは首都圏有数の犯罪都市である。
+<PAUSE>
+<NAME_PLATE>
+　“顔役”と呼ばれる代表者を中心に
+闇組織のボスたちが団結・合議を行い、
+街を裏側から緩やかに支配している。
+<PAUSE>
+<NAME_PLATE>
+　そんなボスたちの締め付けがあるので
+比較的治安は保たれているが、
+<PAUSE>
+<NAME_PLATE>
+　それでも闇の街である以上、
+一般人が気軽に立ち入れる場所ではない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、この夜。
+<PAUSE>
+<NAME_PLATE>
+　そんなセンザキの街は賑やかな
+お祭りムードに沸き立っていた。
+<PAUSE>
+//【黒画面】
+//【背景：センザキ＿繁華街２＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc111a,IN, 1000
+<ACTOR>0,chr_t0266a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>蛇子
+「わわっ！？　見て見てふうまちゃん♪
+　街中がキラキラしてるわよ～」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】相州蛇子
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「ああ。凄い盛り上がりだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大通りに入った途端、
+俺たちは思わず息を呑んだ。
+<PAUSE>
+<NAME_PLATE>
+　ただでさえ賑やか繁華街の通りが、
+派手なイルミネーションでピカピカに
+飾り付けられている。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんな通りを歩くのは
+珍妙な衣装を着こんだ人々。
+<PAUSE>
+<NAME_PLATE>
+　街中がおもちゃ箱をひっくり
+返したような賑やかさであった。
+<PAUSE>
+<NAME_PLATE>
+　――１０月末日。ハロウィン。
+<PAUSE>
+<NAME_PLATE>
+　この日、センザキでは街を上げての
+盛大なハロウィンイベントが行われていた。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、こんなデカい
+　イベントを主催するなんて
+　銃兵衛も大したもんだなぁ」
+<PAUSE>
+<NAME_PLATE>
+　そう、このハロウィンイベントを
+主催しているのは、俺や蛇子の
+幼馴染である金崎銃兵衛だ。
+<PAUSE>
+<NAME_PLATE>
+　元ふうまの対魔忍であり、
+現在はセンザキの“顔役”として
+この街を取り仕切っている。
+<PAUSE>
+<NAME_PLATE>
+　何やらセンザキでは、少し前、
+ストリートチルドレンが被害者となった
+痛ましい事件があった。
+<PAUSE>
+<NAME_PLATE>
+　そんな子供たちを元気づけるため、
+今回、派手派手なハロウィンイベントを
+計画したとのこと。
+<PAUSE>
+<ACTOR>0,chr_t0266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「子供たちのためなんて流石ね。
+　銃兵衛ちゃん、
+　昔からしっかりしてたから♪」
+<PAUSE>
+<NAME_PLATE>俺
+「確かになぁ。
+　おちゃらけているようで、
+　何事もそつがないっていうか」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　近隣の街から一般人が多く訪れているのも、
+“顔役が主催”という安心感があるためだ。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛はそれだけ、
+この地域で信頼を勝ち得ているのだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、とにかく、
+　せっかく銃兵衛が誘ってくれたんだ。
+　今日は楽しんでいこうぜ！」
+<PAUSE>
+<ACTOR>0,chr_t0266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「うふふ。そうよねえ。
+　蛇子も、思い切って
+　こんな衣装着てきちゃったし♪」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が自分の衣装を差して
+うきうきした顔で微笑む。
+<PAUSE>
+<NAME_PLATE>
+　蛇子は可愛らしい
+ハロウィン魔女のコスプレ。
+<PAUSE>
+<NAME_PLATE>
+　そして俺も包帯ぐるぐる巻きの
+ミイラ男の仮装。
+<PAUSE>
+<NAME_PLATE>
+　俺たちどちらとも、なかなか
+気合が入ったハロウィン衣装であった。
+<PAUSE>
+<NAME_PLATE>
+　そして、その一方で。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t003e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ちくしょー！！
+　うらやましいぜ、お前ら！
+　俺だって忘れ物さえしなければ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣裳
+<NAME_PLATE>
+　と、悔しがっている制服姿の鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助も気合を入れて特撮ヒーローの
+衣装を用意していたらしいのだが、
+<PAUSE>
+<NAME_PLATE>
+　出かける前にお母さんに手伝いを頼まれ、
+慌ててそれを片付けているうちに、
+衣装をカバンに入れ忘れてしまったとのこと。
+<PAUSE>
+<NAME_PLATE>俺
+「ま、まあ今回は仕方がないだろ。
+　センザキから戻るわけにもいかないし」
+<PAUSE>
+<ACTOR>0,s_t003g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そうなんだよなぁ。
+　今から五車に戻ったら
+　イベント終わっちゃうもんなぁ」
+<PAUSE>
+<NAME_PLATE>
+　残念そうな顔の鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　俺たちが住む五車町はド田舎にある。
+センザキまで電車で何時間もかかるのだ。
+<PAUSE>
+<ACTOR>0,s_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「くそー！！　今日は俺も
+　対魔ライダーブラックのコスで
+　ビシって決めるつもりだったのに～！」
+<PAUSE>
+<NAME_PLATE>俺
+「た、たいまらいだー……？？」
+<PAUSE>
+<NAME_PLATE>
+　何やらそんな特撮番組が
+最近始まったらしい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう言えば居候の若いさくらが
+きゃーきゃー言いながら視聴してた。
+<PAUSE>
+<ACTOR>0,chr_t0266a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「じゃあ鹿之助ちゃん、
+　近くにドソキがあるから、
+　そこで何か買ってくる？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「蛇子もちょっと
+　おトイレ借りに行きたかったし」
+<PAUSE>
+<ACTOR>1,s_t003c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「あー。そうだなぁ。
+　変なパーティーグッズでも、
+　何もないよりはマシかな？」
+<PAUSE>
+<ACTOR>1,s_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「んじゃあ俺たち
+　ちょっとドソキに行ってくるよ。
+　ふうまはここで待っててくれ！」
+<PAUSE>
+<NAME_PLATE>俺
+「おう。了解」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鹿之助と蛇子が近くにある
+安売り店に向かう。
+<PAUSE>
+<NAME_PLATE>
+　俺は通りの様子を眺めながら
+二人が戻るのを待つことになった。
+<PAUSE>
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女の人
+「はーい、トリックオアトリート！
+　お菓子は沢山あるからね～♪」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<ACTOR>0,ts_m126c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>若い男
+「あっ。姉御ちがうっす！
+　トリックオアトリートは
+　お菓子を貰う方が言うワードっす」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「センザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをキャンディやお菓子などハロウィン風に修正
+<NAME_PLATE>女の人
+「あれ、そうだったっけ？
+　まあ何でもいいでしょ！
+　とにかくみんな並んで並んで～！」
+<PAUSE>
+<NAME_PLATE>子供たち
+「はーい！！
+　エリカお姉ちゃんありがとー♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「へー……」
+<PAUSE>
+<NAME_PLATE>俺
+（なるほど。子供たちが主役の
+　イベントってのは本当みたいだな）
+<PAUSE>
+<NAME_PLATE>
+　通りの向こう側では、
+ボランティアらしき若い男女が
+お菓子やおもちゃを配り歩いていた。
+<PAUSE>
+<NAME_PLATE>
+　そこに集まる街の子供たちも、
+思い思いのハロウィン衣装を着て
+皆楽しそうな笑顔である。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　と、そこで――。
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　なんだあれ……？」
+<PAUSE>
+<NAME_PLATE>
+　俺は奇妙なことに気づいた。
+<PAUSE>
+<NAME_PLATE>
+　お菓子を貰っている子供の一人が、
+何だかぼやけているように見える。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　見間違いかな？
+<PAUSE>
+<NAME_PLATE>
+　そう思って何度見直しても、
+やっぱりその子供の姿はぼやけている。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ」
+<PAUSE>
+<NAME_PLATE>女の子
+「ムフフ。大漁大漁……」
+<PAUSE>
+<NAME_PLATE>
+　俺がこっそり観察していると、
+その子は両手いっぱいにお菓子を抱えて
+こそこそと路地裏に入っていく。
+<PAUSE>
+<NAME_PLATE>俺
+「………」
+<PAUSE>
+<NAME_PLATE>
+　俺もそのあとについて路地裏を
+のぞき込む。すると――。
+<PAUSE>
+<ACTOR>0,chr_t0268a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「やったー！！
+　スゴいぞこの魔法のステッキ！
+　子供に化けてお菓子をもらい放題だ！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「お前かよ！？」
+<PAUSE>
+<NAME_PLATE>
+　そこにいたのは、
+ヤタガラス族の娘・ミナサキ。
+<PAUSE>
+<NAME_PLATE>
+　あっちこっちで金儲けを企てて
+騒動を起こしてる有害小動物である。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「わわっ！？　お、親分、
+　いつの間にそこに！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いつの間に！じゃねーよ。というかお前、
+　いま女の子に化けてお菓子もらってただろ」
+<PAUSE>
+<NAME_PLATE>俺
+「どうやってやったんだよ。
+　お前に変身能力なんてないだろ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ふっふっふ。そういう先入観で
+　ものを言うのが親分の愚かなところだね！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ヤタガラス族には
+　無限のパワーがあるからね。
+　変身ぐらいお茶の子さいさいさ！」
+<PAUSE>
+<NAME_PLATE>俺
+「あァ！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「ぴえっ！？」
+<PAUSE>
+<NAME_PLATE>
+　首根っこをつかんで睨んでやると、
+ミナサキはふてくされたように白状する。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「この杖の力だよ！
+　さっき知らないおじさんに
+　魔法の杖をもらったの！」
+<PAUSE>
+<NAME_PLATE>俺
+「魔法の杖？」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキが言うには、
+その辺の道端で謎のおじさんから
+不思議な杖を貰ったらしい。
+<PAUSE>
+<NAME_PLATE>
+　その杖を使うと、ハロウィンの日限定で
+誰かに幻を見せたり、その他にも色々と
+不思議なことができるのだという。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ねー！？
+　すごいアイテムでしょ？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ボクが良い子だから神様が
+　プレゼントしてくれたのかなぁ？
+　ムフフフー」
+<PAUSE>
+<NAME_PLATE>俺
+「いやお前、
+　よくそういう怪しいものを
+　ホイホイ使う気になるな……」
+<PAUSE>
+<NAME_PLATE>
+　どう考えても何かの罠だろうに。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、それはともかく、
+　お前には今から説教だな」
+<PAUSE>
+<NAME_PLATE>俺
+「人を騙してお菓子を
+　もらおうなんて言語道断。
+　ほら、そこに正座しろ！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「むぐぐ……うるさいやい！
+　ふうまの説教なんか聞いてられるかい！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「キャー！！　犯罪者！！
+　ロリコンの変態よ！
+　誰か助けてーーー！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、ミナサキが黄色い悲鳴を上げた。
+<PAUSE>
+<NAME_PLATE>
+　ここは繁華街のど真ん中だ。
+<PAUSE>
+<NAME_PLATE>
+　悲鳴を聞きつけた街の人たちが
+こちらにやってくる気配。
+<PAUSE>
+<NAME_PLATE>俺
+「お、お前！？
+　誰がロリコン犯罪者だ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「というかお前みたいな
+　変な魔族を掴まえてたって、
+　誰も俺がロリコンだとは――」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「クク、甘々だねおやびん！！
+　今日のボクにはこれがあるのさ。
+　えーい、魔法のステッキ！」
+<PAUSE>
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　チャララーンという謎の効果音と共に
+ミナサキの姿が女の子に変化した。
+<PAUSE>
+//　※ミナサキが変身したので、この辺りでミナサキ立ち絵は消す感じでお願いします。
+<NAME_PLATE>
+　５歳くらいの可愛らしい女の子だ。
+<PAUSE>
+<NAME_PLATE>
+　どこをどう見ても普通の人間の子供、
+それを俺が押さえつけてる形である。
+<PAUSE>
+<NAME_PLATE>
+　あっ。これはマズい。
+<PAUSE>
+<NAME_PLATE>
+　こんなところを人に見られたら――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング１
+「うおおおおおおおっ！！？
+　大変だ！！？　可愛い幼女を
+　掴まえている変態がいるぞ！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵立ち絵
+//　　　　＊モンスターイラスト流用
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラスト流用
+<NAME_PLATE>ギャング２
+「くっ！？　あんな小さい子を
+　毒牙にかけるとは――許せねえ！！
+　とっちめてやる！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ちがうううううううう！！？」
+<PAUSE>
+<NAME_PLATE>
+　イベントの見回りでもしていたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　義侠心に厚いギャングたちが
+ドタバタとこっちにやってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>女の子（ミナサキ）
+「わっはっはっは、親分敗れたり！
+　ロリコン犯罪者として
+　タイーホされるが良い！！」
+<PAUSE>
+//→S202a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

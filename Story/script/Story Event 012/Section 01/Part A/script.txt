@@ -1,0 +1,468 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム港湾地区＿夜】【時間：夜】
+//　※対魔忍アサギ３の背景nc019aより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc013a,IN, 1000
+<NAME_PLATE>
+　東京キングダム・港湾地区。
+<PAUSE>
+<NAME_PLATE>
+　俺はひとり闇の中を軽快に駆けていた。
+<PAUSE>
+<NAME_PLATE>俺
+「ははははははっ！！
+　誰がお前らにつかまるかばーか！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークたち
+「おのれええええっ！！
+　追え！！　殺せえええええっっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　ブラックマフラー団と呼ばれる
+広域奴隷商人グループの摘発・殲滅任務の
+真っ最中であった。
+<PAUSE>
+<NAME_PLATE>
+　いま血相を変えて追跡してきてるのは、
+その構成員のチンピラオークたち。
+<PAUSE>
+<NAME_PLATE>
+　俺は人知れず奴らのアジトに潜入し、
+その秘密取引帳簿を手に入れようと
+探っていたところ、
+<PAUSE>
+<NAME_PLATE>
+　ふとした手違いで奴らに見つかり、
+やむなく一時撤退という事になった次第。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（まあ、今までの俺なら
+　『うおぉぉ！？　やべえええええっ！！』
+　とか言って震え上がった場面だが……）
+<PAUSE>
+<NAME_PLATE>
+　悠々と逃走しながら
+俺はにやりと笑って考える。
+<PAUSE>
+<NAME_PLATE>
+　今はそんなことはあり得ない。
+まったくの余裕綽々だ。
+<PAUSE>
+<NAME_PLATE>
+　これまで何度となく困難な任務を
+潜り抜け、近頃はまじめに戦闘訓練も
+積んでいる。
+<PAUSE>
+<NAME_PLATE>
+　今の俺はこんなチンピラどもに
+追われようと少しも焦る理由はなく、
+常に冷静沈着で――
+<PAUSE>
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオークチーフ
+「ぬぅぅんっ！！　図に乗るな小僧、
+　死ねええええええええっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>俺
+「へっ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブオォッン！！！
+<PAUSE>
+<NAME_PLATE>
+　背後からこちらに迫ってくる
+荒々しい風切り音。
+<PAUSE>
+<NAME_PLATE>
+　チンピラのボスらしきハイオークが
+投擲した巨大なバトルアックスだった。
+<PAUSE>
+<NAME_PLATE>俺
+「お、おいおいっ！！？？
+　ちょっと待て待てええええっ！？？」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガッギィインンン！！
+<PAUSE>
+<NAME_PLATE>
+　とっさに地面に転がるように避けると、
+俺の頭上を通過したそれは激烈な金属音を
+響かせてビルの外壁に突き刺さる。
+<PAUSE>
+<NAME_PLATE>
+　と、思った次の瞬間。
+<PAUSE>
+<NAME_PLATE>
+　ガラガラと斧が突き刺さったビルの
+外壁が崩れ落ち、俺の行く手を無数の
+瓦礫で塞いでいた。
+<PAUSE>
+<BG>nc013a,IN, 500
+<NAME_PLATE>俺
+（うおおおおぉおぉっ！！？
+　こいつはやべええええ……！！？）
+<PAUSE>
+<NAME_PLATE>
+　それを見て思わず震え上がる俺。
+<PAUSE>
+<NAME_PLATE>
+　前言撤回、なんだかんだ言って
+闇の住人達のパワーは恐ろしい。
+<PAUSE>
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオークチーフ
+「ゲヒヒ……。
+　追いかけっこは終わりのようだな小僧」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……。驚いたぜ。
+　まさかブラックマフラー団に
+　あんたみたいな猛者がいようとは」
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、ここで焦りを見せても
+つけ入られるだけである。
+<PAUSE>
+<NAME_PLATE>
+　俺は余裕の顔で立ち上がって
+取り囲むオークたちと対峙した。
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「ゲッヒッヒッヒ。
+　わが団を侮るなよ小僧？」
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「闇にきらめく漆黒の
+　マフラー・ホワイト総統閣下の元、
+　一騎当千の強者で固めておるわい」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？　そうか？
+　その割にはノマドに
+　ペコペコしてるって噂だけど……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークチーフ
+「むぐぅ！？」
+<PAUSE>
+<NAME_PLATE>
+　ギクッとオークたちが焦った顔をした。
+<PAUSE>
+<NAME_PLATE>俺
+「中華連合系の残党にも押されてるって
+　話だし、それどころか――」
+<PAUSE>
+<NAME_PLATE>俺
+「最近出てきた新興組織に縄張りを
+　取られてひいひい言ってるっていう
+　情報も……」
+<PAUSE>
+<NAME_PLATE>
+　その“新興組織”とは五車を抜けた
+骸佐たちのことなので、俺の立場から
+すると少し複雑なのだが。
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「うっ、うるせえっ！！！
+　俺たちは意外とコンパクトな
+　組織運営が売りなんだよっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ハイオークたち
+「そうだそうだ！」
+「俺たちは負けてねえ！！」
+「働き方改革だ馬鹿野郎！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>俺
+「そ、そうか」
+<PAUSE>
+<NAME_PLATE>
+　わいわいと騒いで抗弁してくる
+オークたち。
+<PAUSE>
+<NAME_PLATE>
+　何だかよくわからないが
+闇の世界も色々大変なのだろう。
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「と、とにかくだ！！！
+　帳簿に手を突っ込まれたとあっちゃ
+　総統に申し訳が立たねえ！！」
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「てめえがどこの差金か、
+　じっくり体に聞いてやるぜ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「っ――」
+<PAUSE>
+<NAME_PLATE>
+　殺意に目をギラつかせたオークたちが
+じりじりと包囲を狭めてくる。
+<PAUSE>
+<NAME_PLATE>
+　奴らは人間を遥かに超えた魔力や
+膂力を持つ闇の住人だ。
+<PAUSE>
+<NAME_PLATE>
+　背後は瓦礫で塞がれて逃げ場はない。
+<PAUSE>
+<NAME_PLATE>
+　いかにも絶体絶命という状況だが――。
+<PAUSE>
+<NAME_PLATE>俺
+「クク、しかし……
+　それができれば良いけどな？」
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「ああァ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　気色ばむオークたちに向かって、
+にやりと笑う俺、次の瞬間――。
+<PAUSE>
+//　※ＳＥ　爆発音
+//　※演出　画面揺れ点滅など遠くで爆弾がさく裂した風でお願いします。
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークたち
+「なっ、なんだぁ！？？」
+「爆発！？　アジトの方角だぞ！！」
+<PAUSE>
+<NAME_PLATE>
+　辺りに響き渡る轟音。
+<PAUSE>
+<NAME_PLATE>
+　オークたちがざわめいた。
+<PAUSE>
+<NAME_PLATE>
+　爆発音の出どころは、連中が
+アジトにしている廃ビルの近く。
+<PAUSE>
+<NAME_PLATE>
+　そこに、俺の端末に女の子の
+声で通信が入る。
+<PAUSE>
+<NAME_PLATE>？？？
+『ひょえええええっ！！？
+　ふうま君、爆発、火薬、
+　思ったより超大きいっっ！！』
+<PAUSE>
+<NAME_PLATE>俺
+「―――卯奈！！　作戦は！？」
+<PAUSE>
+<NAME_PLATE>？？？
+『せ、成功だよーっ！！
+　金庫の中の書類、ぜんぶゲット！！！
+　あと爆弾でアジト攪乱！！』
+<PAUSE>
+<NAME_PLATE>俺
+「良し！！！」
+<PAUSE>
+<NAME_PLATE>
+　通信の相手は、今回の任務の
+パートナー・望月卯奈。
+<PAUSE>
+<NAME_PLATE>
+　俺があえてオークたちに見つかることで
+注意を惹いて囮となり、
+<PAUSE>
+<NAME_PLATE>
+　追跡でアジトが手薄になったところを
+潜入担当の卯奈に
+動いてもらうという段取りだ。
+<PAUSE>
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオークチーフ
+「て、てめえええっ！！？
+　俺たちをハメやがったのかあああ
+　ああああっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR>1,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ハイオーク１
+「クソ！！　アジトに充分な
+　人員さえ確保できていれば！！？」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ハイオーク２
+「俺たちの人手不足を逆手に取るとは、
+　大した策士じゃねえかこの野郎！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、人手不足は
+　特に考えてなかったけど……」
+<PAUSE>
+<NAME_PLATE>
+　闇の世界も色々大変なんだな、
+と俺は改めて思った。
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「と、ともあれっ！！
+　こうなっちゃ仕方がねえ、
+　てめえだけは何としてもぶっ殺して――」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR_OUT>1,LEFT,linear,500
+<ACTOR_OUT>2,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>？？？
+「――そうはさせませんっ！！
+　えいっ！！　土遁・土劉破
+　（どとん・どりゅうは）！！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークたち
+「おごーーーーーーー！！！？？」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ハイオーク＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　突然オークたちの足元の地面が隆起し、
+数人がまとめて吹っ飛ばされる。
+<PAUSE>
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオークチーフ
+「なっ、なんだァア！！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「まりちゃん先輩さすがです。
+　では私も――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークたち
+「いだっ！！　いだだだだだだだだ
+　だだだだだだっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　それは無数の折り鶴だった。
+<PAUSE>
+<NAME_PLATE>
+　混乱しているオークたちに襲い掛かり、
+あっという間に傷だらけにする。
+<PAUSE>
+<NAME_PLATE>俺
+「―――良いタイミングだ、
+　まり、舞！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり＆舞
+「はいっ、ふうまさん！！」
+「作戦通りです」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　すたっと２人の女の子が
+俺の左右に降り立った。
+<PAUSE>
+<NAME_PLATE>
+　俺が囮となってオークたちを
+引き付けたあと、それを殲滅する
+ために用意していた伏兵。
+<PAUSE>
+<NAME_PLATE>
+　土遁の対魔忍・篠原まり。
+<PAUSE>
+<NAME_PLATE>
+　紙気（しき）使い・七瀬舞。
+<PAUSE>
+<NAME_PLATE>
+　この二人も、今回の任務における
+俺の頼れるパートナーだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオークチーフ
+「ぬぐぐ……！
+　小娘が二人増えたからって
+　何だってんだっ！！？」
+<PAUSE>
+<NAME_PLATE>ハイオークチーフ
+「構わねえ、ガキどもを
+　まとめてぶっ殺せええええっ！！」
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

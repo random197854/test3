@@ -1,0 +1,1009 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC007aより流用
+<BG>nc162b,IN, 1000
+<NAME_PLATE>
+　ある日の五車町。
+<PAUSE>
+//【背景：五車町＿稲毛屋＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc078a,IN, 1000
+<NAME_PLATE>
+　コツコツと靴底を擦り減らして
+調べ回るのが捜査の本道――。
+<PAUSE>
+<NAME_PLATE>
+　ガキの頃に見たドラマでおじさん刑事が
+よくそう言って若手に説教していたが、
+<PAUSE>
+<NAME_PLATE>
+　今俺たちがしているのも、まさに
+そんな地味でコツコツとした調査だった。
+<PAUSE>
+<ACTOR>1,h_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「はぁー疲れた。ひとまずこれで、
+　５８名の聞き取り調査完了ですね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服
+<ACTOR>0,ko_t003c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>死々村孤路
+「（……うん。でも残りは８４名。
+　まだまだ先は長い）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路(立ち絵)_制服_刀装備
+<NAME_PLATE>俺
+「そして今のところ、これと言って
+　成果はなし、か。まあ、めげずに
+　やっていくしかないですね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>穂稀なお
+「ああ。僕としては、君のトラブル
+　メーカーの素質に期待しているんだけど。
+　そろそろ何か起こらないかい？」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_制服立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト差分より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,h_t001e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「そうよふうまちゃん。頑張って
+　事件か犯人を吸い寄せてくれないと」
+<PAUSE>
+<ACTOR>0,ko_t003c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（本気出さないとおやつ抜きだよ？）」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それは俺の頑張りで
+　どうにかなるものなんです……？」
+<PAUSE>
+<NAME_PLATE>
+　皆の軽口に俺も苦笑して返す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　いま俺と蛇子、そしてなお先輩と
+コロ先輩による五車風紀隊は、
+例の殺人鬼に関する捜査を行っていた。
+<PAUSE>
+<NAME_PLATE>
+　五車に潜む悪。
+<PAUSE>
+<NAME_PLATE>
+　“人遁の術”――他人の身体に
+潜る術を使い、何年にもわたって密かに
+殺人を続けていたであろう凶悪犯罪者。
+<PAUSE>
+<NAME_PLATE>
+　そのあとを追うための捜査、
+いわゆるアリバイ調べである。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　少し前の放課後、俺やコロ先輩が
+図書室に閉じ込められ、
+<PAUSE>
+<NAME_PLATE>
+　図書室の図書子さん――天宮紫水の
+協力でそこから脱出した際。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは殺人鬼に遭遇し、そして
+あと一歩のところまで追いつめた。
+<PAUSE>
+<NAME_PLATE>
+　結局、奴の狡猾な術によって
+逃げられてしまったのだが、
+それでも大きな手がかりを得た。
+<PAUSE>
+<NAME_PLATE>
+　ひとつは、奴が“人遁の術”という
+希少な忍法の使い手であること。
+<PAUSE>
+<NAME_PLATE>
+　もうひとつは、学園の図書室に
+容易く出入りできる――つまり、
+ほぼ確実に五車の関係者であること。
+<PAUSE>
+<BG>nc078a,IN, 1000
+<NAME_PLATE>
+　そこまでわかれば、
+あとは根気勝負である。
+<PAUSE>
+<NAME_PLATE>
+　図書室の事件があった日、
+学園関係者で所在（アリバイ）が
+確認できない人物を割り出し、
+<PAUSE>
+<NAME_PLATE>
+　その素性や忍法、
+背後関係について調べ上げる。
+<PAUSE>
+<NAME_PLATE>俺
+（まあ、実際のところ、
+　うんざりするような調査だけどな）
+<PAUSE>
+<NAME_PLATE>
+　なにしろ数が多い。
+<PAUSE>
+<NAME_PLATE>
+　さっき蛇子やコロ先輩も言っていたように、
+アリバイのはっきりしなかった
+生徒や先生は合わせて１００人以上。
+<PAUSE>
+<NAME_PLATE>
+　それをひとりひとり丹念に
+調べるのだから、時間もかかるし
+手間もかかる。
+<PAUSE>
+<NAME_PLATE>俺
+（……でも、音を上げていられない）
+<PAUSE>
+<NAME_PLATE>
+　奴は罪もない者を幾人も殺めた
+凶悪な殺人鬼――だけでなく、
+<PAUSE>
+<NAME_PLATE>
+　佐郷鶴――対魔忍ライブラリーの娘を
+手中にし、その生命や肉体を好き勝手に
+弄んでいる可能性もある。
+<PAUSE>
+<NAME_PLATE>
+　絶対に逃がしてはいけない相手。
+<PAUSE>
+<NAME_PLATE>
+　なので俺たちは、めげそうに
+なりながらも地道な調査を積み重ね、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そして今、この日の調査が
+ひと段落したところで、稲毛屋で
+軽く休憩をしていたのだった。
+<PAUSE>
+<ACTOR>0,kr_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼崎きらら
+「――あれ！？
+　ふうまに……蛇子ちゃん、
+　それに、なおにコロちゃん！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_制服
+<NAME_PLATE>俺
+「あっ！　きらら先輩――」
+<PAUSE>
+<NAME_PLATE>
+　その時、学園の方から
+制服姿のきらら先輩がやってきた。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,kr_t002d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「きらら先輩だ！　こんにちはー、
+　いま帰りですか？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服
+<ACTOR>0,kr_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「う、うん。いま、
+　委員会が終わって帰るところ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,kr_t002a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>きらら
+「……で、そっちこそ何してるの？
+　ふうまと、なおやコロちゃんが
+　一緒にいて」
+<PAUSE>
+<NAME_PLATE>俺
+「あれ？　きらら先輩、
+　なお先輩たちと知り合い
+　だったんですか？」
+<PAUSE>
+<NAME_PLATE>きらら
+「知り合いっていうか友達よ。
+　同じ学年だし」
+<PAUSE>
+<NAME_PLATE>俺
+「へー。そうだったんですね」
+<PAUSE>
+<NAME_PLATE>
+　この三人が友人関係だったとは。
+<PAUSE>
+<NAME_PLATE>
+　意外なところにつながりがあるものだ。
+<PAUSE>
+<ACTOR>0,kr_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「おや？　きららは、
+　僕とふうま君の関係が気になるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　くすっと妖しく笑った
+なお先輩が俺に腕を絡めてくる。
+<PAUSE>
+<ACTOR>0,kr_t002h,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「は、はあ？　別に気になんか
+　ならないけどぉ――でもなによ！？」
+<PAUSE>
+<NAME_PLATE>きらら
+「その言い方だと、あんたたち、
+　何か特別な関係でもあるみたいじゃない！」
+<PAUSE>
+<NAME_PLATE>なお
+「そりゃ特別だよ」
+<PAUSE>
+<NAME_PLATE>なお
+「だってここ最近、僕らはずっと、
+　ひとに言えないような秘密のことを
+　一緒にやっているわけだから――」
+<PAUSE>
+<NAME_PLATE>なお
+「ね？　ふうまくん♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「はあ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なお先輩！？」
+<PAUSE>
+<NAME_PLATE>
+　なに誤解を招くようなことを！
+<PAUSE>
+<NAME_PLATE>
+　確かにここ最近ずっと、
+他人には言えないような“捜査”を
+一緒にやっているけれど。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「……ふうまちゃん。
+　蛇子も気になるわね、
+　その秘密のことって」
+<PAUSE>
+<NAME_PLATE>俺
+「なんでだよ！？
+　お前もずっと一緒だろ！？」
+<PAUSE>
+<NAME_PLATE>
+　なぜか蛇子までじとーっという
+目で俺を見る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ko_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弧路
+「（ふふ。からかったりしたら
+　ダメだよ、なお）」
+<PAUSE>
+<NAME_PLATE>弧路
+「（私たちは風紀隊の任務をしている
+　ところよ、きらら）」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩！」
+<PAUSE>
+<NAME_PLATE>
+　風紀隊の良心ことコロ先輩が
+すっとフォローしてくれた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,kr_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「あっ、そっか……。
+　そう言えば、なおとコロちゃんは
+　風紀隊だったわよね」
+<PAUSE>
+<ACTOR>0,kr_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「たしか今、危険な連続殺人犯を
+　追っているっていう……」
+<PAUSE>
+<NAME_PLATE>
+　納得したようにきらら先輩が肯いた。
+<PAUSE>
+<ACTOR>0,kr_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「でも、どうしてふうまが一緒なの？
+　蛇子ちゃんは風紀隊のメンバーだけど、
+　ふうまは違うでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい。それはそうなんですけど、
+　成り行きって言うか……」
+<PAUSE>
+<NAME_PLATE>俺
+「俺の方でも、どうしてもそいつを
+　捕まえないといけない事情があって」
+<PAUSE>
+<NAME_PLATE>きらら
+「ふーん。そうなんだ……」
+<PAUSE>
+<NAME_PLATE>
+　するときらら先輩は、
+少し何事か考えるような顔をして。
+<PAUSE>
+<ACTOR>0,kr_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「――ね！？　それじゃあ皆、
+　私もなにか手伝ってあげよっか！？」
+<PAUSE>
+<ACTOR>0,kr_t002i,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「まあ、私もヒマじゃないんだけどね！
+　でも可愛い後輩がどうしてもって言うなら、
+　ちょっとくらい力を貸してあげても――」
+<PAUSE>
+<ACTOR>0,kr_t002i,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「いや、それには及ばないよ」
+<PAUSE>
+<ACTOR>0,kr_t002d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「えぇ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あっさり却下されて、
+きらら先輩がガーンという顔をする。
+<PAUSE>
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「ヒマじゃないのに
+　無理して来られても申し訳ないしね」
+<PAUSE>
+<NAME_PLATE>なお
+「それに、きららは何でも氷漬けに
+　しちゃうから可愛くないんだよ」
+<PAUSE>
+<ACTOR>1,ko_t003c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（証拠が凍ると面倒よね）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kr_t002f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「な、何よそれ！？
+　それじゃ私が脳筋みたいじゃない！」
+<PAUSE>
+<NAME_PLATE>俺
+（う、うーん……？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　残念ながら、きらら先輩が脳筋で
+あることは俺も否定できない……。
+<PAUSE>
+<NAME_PLATE>
+　いや、いつも世話になっているので
+フォローしたいところではあるけれど。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「大体、きららは胸が大きすぎるんだよ。
+　それだと捜査をするのに目立って仕方ない」
+<PAUSE>
+<NAME_PLATE>なお
+「ほら？　実際ふうまだって僕みたいな
+　可愛いおっぱいの方が好きだよね♪」
+<PAUSE>
+<NAME_PLATE>俺
+「は……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　す、好き嫌いの話でしたっけ……？
+<PAUSE>
+<ACTOR>0,kr_t002f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「そ、そんなことないわよ！！
+　大きいとか小さいとか、ふうまは
+　そんなの気にしないわよね！？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、それは……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,h_t001e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん。そこのところ、
+　蛇子もはっきり聞きたいわね」
+<PAUSE>
+<ACTOR>0,ko_t003b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（私も私も♪）」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩まで！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　妙に真剣な顔の女の子たちが
+こちらに詰め寄ってくる。
+<PAUSE>
+<NAME_PLATE>
+　これは、慎重に言葉を選ばないと
+大変なことになりそうだ……。
+<PAUSE>
+//【黒画面】
+//【背景：五車学園＿校門前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　同じ頃、五車学園―――
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC009aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc006a,IN, 1000
+<ACTOR>0,a_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「なんですって？
+　あの女が五車にやってくる……？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３から流用
+<NAME_PLATE>
+　常に冷静沈着な彼女には珍しく
+不快そうな声を上げる。
+<PAUSE>
+<NAME_PLATE>
+　五車学園校長、井河アサギ。
+<PAUSE>
+<ACTOR>0,a_t001e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　その前に立つ壮年の男は、
+政府と対魔忍を繋ぐ事務方のトップ、
+<PAUSE>
+<NAME_PLATE>
+　内務省公共安全庁、
+調査第三部＜セクションスリー＞の部長、
+山本信繁である。
+<PAUSE>
+<NAME_PLATE>山本
+「内務大臣からの要請でな。
+　彼女――内調の峰を乗せたヘリが、
+　まもなくこちらに到着する」
+<PAUSE>
+//　※立ち絵
+//　　山本立ち絵＿スーツ衣装
+//　　　　＊対魔忍アサギＺＥＲＯから流用
+<ACTOR>0,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「随分と急な話ね」
+<PAUSE>
+<NAME_PLATE>
+　気に入らないわ――そう言外に
+言うようにアサギが眉をひそめる。
+<PAUSE>
+<NAME_PLATE>山本
+「だろうな、
+　私も聞かされたばかりだ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　内調（内閣情報調査局）と言えば、
+幾多の謀略事案の黒幕として暗躍する
+毒蛇の巣とも言うべき剣呑な組織。
+<PAUSE>
+<ACTOR>0,ts_m099a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　その中でも、局長である峰舟子の
+得体の知れなさは際立っている。
+<PAUSE>
+<NAME_PLATE>
+　正体不明、年齢不詳。
+<PAUSE>
+<NAME_PLATE>
+　一説には３０年前の台湾危機当時から
+暗躍しているとの噂もある妖怪じみた女。
+<PAUSE>
+<NAME_PLATE>
+　そんな彼女が
+なぜこのタイミングで――？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc006a,IN, 500
+<ACTOR>0,a_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「目的は……
+　表向きの用件は何かしら？」
+<PAUSE>
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>山本
+「視察だよ。学園地下にある
+　演習施設を見学したいそうだ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ふっ。白々しい」
+<PAUSE>
+<NAME_PLATE>
+　それが真意のわけがない。
+<PAUSE>
+<NAME_PLATE>
+　何か別の目的を隠すダミーだろう。
+<PAUSE>
+<NAME_PLATE>アサギ
+「断れないの？」
+<PAUSE>
+<ACTOR>1,ya_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「難しいな。内務大臣の要請だ。
+　それに建前上、彼らは
+　協力組織でもある」
+<PAUSE>
+<ACTOR>1,ya_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「………そうね」
+<PAUSE>
+<NAME_PLATE>
+　受け入れるしかない――ならば、
+こちらはどう対応するべきか。
+<PAUSE>
+<NAME_PLATE>
+　アサギは鋭く目を細め、
+幾つもの思案を巡らせ始めた。
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿斉藤家邸宅前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC062aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc258a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「さて、次はこの家か」
+<PAUSE>
+<NAME_PLATE>
+　稲毛屋前できらら先輩と別れた
+俺たちは、住宅街の外れの一軒家まで
+やってきていた。
+<PAUSE>
+<NAME_PLATE>
+　（結局、大きい小さいの話は
+全力で言葉を選んで誤魔化した）
+<PAUSE>
+<NAME_PLATE>
+　ともあれ、この家の住人が
+次の『アリバイのない』調査先だ。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>俺
+「斉藤……斉藤半次郎先生か。
+　かなりの変人先生だよな」
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎は、五車学園で
+現代社会を担当している教師である。
+<PAUSE>
+<NAME_PLATE>
+　授業自体はわかりやすくて
+俺は嫌いではないのだが、
+学園の中では変人という評判だ。
+<PAUSE>
+<ACTOR>0,h_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「うーん。蛇子、
+　斉藤先生ちょっぴり苦手かも」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服
+<NAME_PLATE>俺
+「どうして？」
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「なんだか冷たいっていうか、
+　蛇子たちのこと、ぜんぜん
+　興味ないような感じだし……」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。確かに、
+　そういう空気のある人だよな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　五車学園は学校でありつつ、
+同時に対魔忍の養成機関でもある。
+<PAUSE>
+<NAME_PLATE>
+　それゆえ教師と学生の間には目的を
+同じくする仲間意識のようなものがあり、
+<PAUSE>
+<NAME_PLATE>
+　さくら先生や紫先生のように、
+とても親身になって指導してくれる
+先生が多い。
+<PAUSE>
+<NAME_PLATE>
+　だけど、斉藤先生は少し違っている。
+<PAUSE>
+<NAME_PLATE>
+　蛇子の言う通り生徒たちから
+どことなく距離を置いていて、
+ただ淡々と観察しているような……。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、だからと言って
+　怪しいってことはないけどな」
+<PAUSE>
+<NAME_PLATE>俺
+「そもそも斉藤先生は“四腕の術”の
+　使い手ってわかってるし」
+<PAUSE>
+<ACTOR>0,ko_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弧路
+「（しわんのじゅつ？）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路(立ち絵)_制服_刀装備
+<NAME_PLATE>俺
+「第３、第４の腕を生やすって忍法です」
+<PAUSE>
+<NAME_PLATE>俺
+「斉藤先生はそこまでじゃないみたい
+　ですけど、歴史的には３０本ほど
+　腕を生やせた人もいたって話ですね」
+<PAUSE>
+<ACTOR>0,ko_t003a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「うぇ……それは、
+　絶望的に美しくない……」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_制服立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト差分より流用
+<NAME_PLATE>
+　その姿を想像したのか、
+なお先輩が渋い顔をする。
+<PAUSE>
+<NAME_PLATE>なお
+「ただ、忍法がわかっている以上、
+　その先生は“白”だね」
+<PAUSE>
+<NAME_PLATE>なお
+「――それが、
+　ちゃんと確認できるならば」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ。そうなりますね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　殺人鬼が使う忍法は“人遁の術”――
+<PAUSE>
+<NAME_PLATE>
+　しかし五車のデータベースに
+それに該当する人物がいない以上、
+<PAUSE>
+<NAME_PLATE>
+　殺人鬼が、己の使う忍法を偽って
+申告している可能性も充分にある。
+<PAUSE>
+<NAME_PLATE>
+　（実際、忍にとって己の使う術は
+命綱となるので、偽って申告、もしくは
+隠し玉を残している例は少なくない）
+<PAUSE>
+<NAME_PLATE>
+　その辺りを確認するのも、
+今回の俺たちの調査の目的だ。
+<PAUSE>
+<SE_PLAY>se143
+<NAME_PLATE>
+　ピンポーン。
+<PAUSE>
+<NAME_PLATE>
+　なお先輩が呼び鈴を鳴らすが応答がない。
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「いないみたいですね。
+　斉藤先生、お出かけしてるのかな？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「仕方がない。
+　いったん出直しましょうか」
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「どうして？
+　留守なら留守で好都合じゃないか」
+<PAUSE>
+<NAME_PLATE>なお
+「家の主がいないなら、
+　自由にたっぷり調査ができる」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なお先輩はごく当然という顔で
+ドアノブに手をかける。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっ！？　なお先輩、
+　また無断侵入するつもりですか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「この前それでトラブルになった
+　ばかりじゃないですか！？」
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　数日前のことである。
+<PAUSE>
+<NAME_PLATE>
+　今日と同じくアリバイ調査で訪れた
+お宅になお先輩が無断侵入しようとして、
+<PAUSE>
+<NAME_PLATE>
+　その時、ちょうど戻ってきた家の主に
+見つかって大げんかになったのだった。
+<PAUSE>
+<BG>nc258a,IN, 500
+<ACTOR>1,h_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子、ワンちゃんに
+　噛まれそうになりました……」
+<PAUSE>
+<ACTOR>0,ko_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（その人、
+　犬の散歩で出かけてたのよね）」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そのこと、さくら先生にも
+　伝わって怒られちゃったし……」
+<PAUSE>
+<NAME_PLATE>弧路
+「（次はないわよ！　って言ってた）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「そうですよ！
+　これでまた見つかったりしたら！」
+<PAUSE>
+<NAME_PLATE>
+　前回は厳重注意で済んだが、
+次はそうはいかないだろう。
+<PAUSE>
+<NAME_PLATE>
+　風紀隊の活動が制限される、
+なんてこともあるかもしれない。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「気にしない気にしない」
+<PAUSE>
+<NAME_PLATE>なお
+「今は捜査が最優先さ。
+　事件が片付いたら怒ってる人には
+　まとめて謝りに――おや？」
+<PAUSE>
+<SE_PLAY>se052
+<NAME_PLATE>
+　がちゃ……。
+<PAUSE>
+<NAME_PLATE>
+　あっさりとドアノブが回る。
+<PAUSE>
+<NAME_PLATE>なお
+「ふむ、鍵がかかってない――？
+　これはますます都合が良い」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なお先輩……！？」
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　躊躇なく玄関に入るなお先輩。
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　俺たちは慌ててそのあとを追った。
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿斉藤家玄関＿昼】【時間：昼】
+//　※堕ちる人妻＿nc004aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc116b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　やはり中には人の気配はない。
+<PAUSE>
+<NAME_PLATE>
+　だけど――。
+<PAUSE>
+<NAME_PLATE>俺
+（？？　何だここは……？）
+<PAUSE>
+<NAME_PLATE>
+　足を踏み入れた瞬間に
+奇妙な違和感。
+<PAUSE>
+<NAME_PLATE>
+　一見したところ、
+ごく普通の住居である。
+<PAUSE>
+<NAME_PLATE>
+　しかし甘ったるいような生温かい
+空気に全身を包まれたような……。
+<PAUSE>、
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>なお
+「っ！？
+　ぅ………うぐ…………」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_制服立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト差分より流用
+<NAME_PLATE>俺
+「なお先輩っ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　突然、先に玄関に入った
+なお先輩が膝を折って呻く。
+<PAUSE>
+<NAME_PLATE>
+　そして、そのまま――
+<PAUSE>
+<ACTOR>0,ko_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弧路
+「（なお……！？）」
+<PAUSE>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バタン！！
+<PAUSE>
+<NAME_PLATE>
+　しゅるしゅるしゅる――！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　顔を真っ青にしたなお先輩の身体が倒れ、
+何か強烈な力に引っ張られるように、
+家の奥へと引きずり込まれていく。
+<PAUSE>
+<NAME_PLATE>俺
+「敵襲か！？　とにかく、
+　先輩を助けないと――」
+<PAUSE>
+<ACTOR>0,h_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「待ってふうまちゃん、上！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　ゾクっと背筋に冷たい悪寒。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<BG_OUT>500
+<NAME_PLATE>
+　反射的に身をかわすと、
+そこに天井から振ってきた
+異形の何かが爪を振り下ろす。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se007
+<NAME_PLATE>
+　ガチィィンン！！！
+<PAUSE>
+<BG>nc116b,IN, 500
+<ACTOR>0,ts_m196a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ＧＩＳＨＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+//　※立ち絵
+//　　忍蜘蛛立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>俺
+「忍蜘蛛！！？」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍によって育成された
+対魔の力を有する戦闘蜘蛛だ。
+<PAUSE>
+<NAME_PLATE>
+　こんな奴が、家を守っている
+ということは――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ko_t003g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弧路
+「（来る！　気を付けて二人とも！）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の囁きと同時に天井から
+幾つもの影が襲いかかってきた。
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

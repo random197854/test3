@@ -1,0 +1,959 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿繁華街１＿夜】【時間：夜】
+//　※対魔忍紅_NC004aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc061a,IN, 1000
+<NAME_PLATE>
+　デビルランタン王は強力な敵だが、
+そればかりに集中してはいられない。
+<PAUSE>
+<NAME_PLATE>
+　まず周囲の被害を抑える必要があるからだ。
+<PAUSE>
+<ACTOR>0,chr_t0160a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「Ｓｕｐｅｒ　Ｆｒｅｅｚｅ！！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】鬼崎きらら
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビッキイイイイインン！！！
+<PAUSE>
+<NAME_PLATE>
+　逃げ惑う子供たちと燃え盛る炎を
+隔てるように幾つもの氷柱が隆起する。
+<PAUSE>
+<NAME_PLATE>
+　冷気の力によって周囲の延焼を
+食い止めるのがきらら先輩の役割だ。
+<PAUSE>
+<BG>nc061a,IN, 500
+<NAME_PLATE>子供たち
+「うわあっ！？　氷っ！？」
+「お、お姉ちゃんすごい！！？
+　ありがとうっ！」
+<PAUSE>
+<ACTOR>0,chr_t0160a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「どういたしまして！
+　さあ颯ちゃんミナサキちゃん、
+　子供たちを避難させて！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0267a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0268a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>颯
+「了解です、きらら先輩っ！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】弓走颯
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミナサキ
+「はいはーい。こっちこっち～。
+　じゃあ、おっちゃんたち、
+　こっちに皆を逃がせばいいんだよね？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ミナサキ
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>気のいいギャングたち
+「おうっ！！
+　大助かりだぜ嬢ちゃんたちっ！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵立ち絵
+//　　　　＊モンスターイラスト流用
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラスト流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　颯とミナサキは子供たちを
+安全な場所に避難させる役目である。
+<PAUSE>
+<NAME_PLATE>
+　さっきの気のいいギャングたちとも協力し、
+逃げ惑う人々を巧みに誘導する。
+<PAUSE>
+<ACTOR>0,chr_t0160a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「そっちはどう紅っ！？　大丈夫！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「問題ない！！
+　細かいタコどもは私たちに任せておけ！
+　――絶技・旋風陣！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】心願寺紅
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>1000
+<GROUP>
+<ACTOR>0,ts_m126c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エリカ・ブラックモア
+「まったく、紅！！？
+　なんなのよこいつら！！
+　えいっ！　“バレットレイン”！」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤス
+「あちちっ！　こいつら、
+　熱くて相手するの大変っす！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「センザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをキャンディやお菓子などハロウィン風に修正
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m210a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルランタン
+『タコーーー！！！？』
+『タコーーー！！！？』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　紅、そして、紅や銃兵衛の友人だという
+二人組が大通りから駆けつけていた。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタン王に合体しなかった
+タコ生物も大量にいる。
+<PAUSE>
+<NAME_PLATE>
+　魔界の炎・タコフレイムを吐いて
+暴れ回るその連中を押さえるのが、
+紅たちこの三人の役割。
+<PAUSE>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<NAME_PLATE>俺
+「よしっ！！
+　ひとまず向こうは大丈夫だな――」
+<PAUSE>
+<NAME_PLATE>
+　そんな周囲の状況を窺いつつ、
+俺は自分たちの戦いに集中する。
+<PAUSE>
+<NAME_PLATE>
+　本体・デビルランタン王と対峙するのは、
+俺と銃兵衛、そして蛇子と鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　戦ってすぐに判明したことだが、
+デビルランタン王は俺の予測を遥かに
+上回る強敵であった。
+<PAUSE>
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯ！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン王
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<BG>nc061a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m097a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t014d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助＆銃兵衛
+「ひいいいいいっ！！？
+　ぼ、帽子が燃える……っ」
+「ったく、厄介な相手だぜ……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+//　※立ち絵加工　パーティー用の『とんがり帽子』の装着をお願いします。
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　デビルランタン王は分厚い
+甲冑を身に着け、常に体の周囲に
+超高温の魔界の炎を纏っている。
+<PAUSE>
+<NAME_PLATE>
+　それに阻まれ、鹿之助の手裏剣、
+それに銃兵衛の銃撃すらも
+大きなダメージは与えられていない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「どうしようふうまちゃん！！？
+　やっぱり蛇子もタコ化して
+　攻撃に参加して――」
+<PAUSE>
+//　　※立ち絵
+//　　【ハロウィン】相州蛇子
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「そうだな……。
+　もう子供たちもほとんど避難したし、
+　タコ化して大丈夫そうだが」
+<PAUSE>
+<NAME_PLATE>俺
+「ただ、それでも
+　手詰まりなのは違いない……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　蛇子がタコ化したとしても、
+超高温の炎を纏うデビルランタン王に
+接近戦を挑むのは難しい。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩の冷気攻撃が一番
+効果的だろうけど、今消火や救助の手を
+止めると被害が大きくなってしまう。
+<PAUSE>
+<NAME_PLATE>
+　幸いなことに俺たちの攻撃で
+デビルランタン王の動きを抑えることは
+できている。
+<PAUSE>
+<NAME_PLATE>
+　ここは時間を稼いで消火や
+救助が完了するのを待つのが得策か……？
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　――と、俺がそんな
+思案を巡らせている時だった。
+<PAUSE>
+<NAME_PLATE>？？？
+「はーっはっはっはーっ！
+　お困りのようだな諸君！！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？？」
+<PAUSE>
+<NAME_PLATE>
+　な、なんだ……！！？
+<PAUSE>
+<NAME_PLATE>
+　突然、場違いなほどの能天気な
+声が辺りに響き渡った。
+<PAUSE>
+<NAME_PLATE>
+　声の出どころは、燃え盛る炎に
+赤々と照らされたとあるビルの屋上。
+<PAUSE>
+<NAME_PLATE>
+　俺がそちらを見上げると――。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,chr_t0162a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>謎のロボ
+「はーっはっはっはーっ！
+　ハッキング盗聴してたら
+　丁度いい試運転のチャンス――」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ルネ１
+//　　　　＊カードイラストより流用
+<NAME_PLATE>謎のロボ
+「――じゃなくて！！
+　子供たちの呼びかけに応えて
+　いざ参上！！」
+<PAUSE>
+<NAME_PLATE>謎のロボ
+「絶対無敵の正義ロボ！！！
+　ジェネラルハロウィン・ルネ、
+　只今見参だ～～～～っ！！！！」
+<PAUSE>
+<SE_PLAY>se137
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シャキーーン！！！！
+<PAUSE>
+<NAME_PLATE>
+　ビルの屋上に現れた変なロボが
+得意げにカッコいいポーズをとった。
+<PAUSE>
+<NAME_PLATE>俺たち
+「ええええええっ！！！？」
+<PAUSE>
+<NAME_PLATE>デビルランタン王
+『Ｔ、ＴＡＣＯ……？』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あっけにとられる俺たち。
+<PAUSE>
+<NAME_PLATE>
+　さすがのデビルランタン王も
+不思議そうに首をひねっている。
+そんな中――。
+<PAUSE>
+<ACTOR>0,s_t014b,CENTER, CENTER, IN, linear, 1000
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うおおぉおおっ！！！？
+　ロボ！？　あれロボか！？
+　かっけええええええええっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　特撮やロボが大好きな鹿之助が
+ひとり大盛り上がりの様子。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0162a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「おや？　熱きロボ魂を持った
+　少年がいるようだね！！
+　感心感心！！」
+<PAUSE>
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「さあ、子供たちよ！！
+　私が来たからにはもう安心だ！
+　とうっ、出でよ涼風一陣！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「ひひーーーーーん！！！」
+<PAUSE>
+<NAME_PLATE>
+　ぱからぱからぱからっ！！
+<PAUSE>
+<NAME_PLATE>
+　ビルから飛び降りる変なロボ、
+すると――。
+<PAUSE>
+<NAME_PLATE>
+　どこからともなく駆けてきた
+変なロボ馬が登場、ガチーンという
+カッコいい合体音を響かせて。
+<PAUSE>
+<ACTOR>0,chr_t0265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「ふっーふっふっ！
+　これぞ人馬一体の境地なり！！
+　どうだ、かっこいいだろぉー！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ルネ２（騎乗）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ロボ馬
+「ひひーーーーーん！！」
+<PAUSE>
+<NAME_PLATE>俺
+「え、ええぇ……？？」
+<PAUSE>
+<NAME_PLATE>デビルランタン王
+『Ｔ、ＴＡＣＯＯ……』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うおおおおおおおっ！！？
+　すげええええええええええっ！！
+　人馬合体超燃えるううううっ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「う、馬に乗る
+　必要はあるのかしら……？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「ひゃははは！
+　俺は意外とこういうの好きだぜ」
+<PAUSE>
+<NAME_PLATE>
+　思わず戦いも忘れて呆然とする
+デビルランタン王と俺たち。
+<PAUSE>
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「ハイヨー！　突撃だ涼風一陣よ！！
+　ハロウィンの平和を乱す輩に
+　目にもの見せてやるのだーーっ！！」
+<PAUSE>
+<NAME_PLATE>ロボ馬
+「ひひーーーんっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ぱからぱからぱからっ！！
+<PAUSE>
+<NAME_PLATE>
+　意気揚々とロボ馬をいななかせる
+ジェネラルハロウィン。
+<PAUSE>
+<NAME_PLATE>
+　俺たちが呆然としてる中、
+猛スピードでデビルランタン王に
+突っ込んでいく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯ……！？　ＴＡＣＯＯ
+　ＯＯＯＯＯＯＯＯＯＯＯＯ！！！』
+<PAUSE>
+<NAME_PLATE>
+　はっと我に返ったデビルランタン王が
+それを迎え撃つために炎を吐いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<BG>nc061a,IN, 500
+<ACTOR>0,chr_t0265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「むぐぅうっ！？？
+　なんのこれしきぃいぃいいっ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+（おおっ！？　あの変なロボ、
+　意外と凄いのか！！？）
+<PAUSE>
+<NAME_PLATE>
+　コミカルな見た目であんまり強そうでも
+なかったジェネラルハロウィン。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし今――。
+<PAUSE>
+<NAME_PLATE>
+　俺たちが固唾をのんで見守る前で、
+あの強烈な魔界の炎を正面から受け止め、
+そして耐え抜き、
+<PAUSE>
+<NAME_PLATE>
+　その槍の切っ先をデビルランタン王の
+身体に届かそうとしている――。
+<PAUSE>
+<NAME_PLATE>俺
+（こ、これは……ひょっとしたら、
+　ひょっとするのかっ！！？）
+<PAUSE>
+<ACTOR>0,chr_t0265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「ハロウィンの敵、討ち取ったりー！
+　行くぞ、涼風一陣！！
+　ＨＷドライブ全力全開～～～っ！！」
+<PAUSE>
+<NAME_PLATE>ロボ馬
+「ひひーーーーーんっ！！！
+　ひん？　ぶる、ぶるるっ――」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>
+　唐突にロボ馬が足踏みしたと思ったら、
+あさっての方向に爆走し始めた。
+<PAUSE>
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「あ、あれ？　なにか不具合っ！？
+　あっあっあっ！？　ひぇえぇぇ
+　えぇぇええええっ！！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガーーーーーーーン！！！
+<PAUSE>
+<BG>nc061a,IN, 500
+<ACTOR>0,chr_t0265b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「きゅう～」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ルネ２＿裏（大破）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「ジェネラルーーーーー！！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「なにしに来たんだ
+　あいつは～～～～～～～っ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　ツッコミが追い付かないとは
+まさにこのことだ。
+<PAUSE>
+<NAME_PLATE>
+　ロボ馬の暴走に巻き込まれた
+ジェネラルハロウィンは近くの
+ビルの外壁に激突・大破。
+<PAUSE>
+<NAME_PLATE>
+　操縦者らしい女の子は無様に
+お尻を晒すというオチとなった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯ！！！！！』
+<PAUSE>
+<NAME_PLATE>
+　ジェネラルハロウィンが倒れたことで
+さらにデビルランタン王が勢いづく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0266b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「！！？　危ないふうまちゃん！！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】相州蛇子＿タコ化
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「お、おい、蛇子っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　こちらに向かって吐き出される
+強烈な魔界の炎――。
+<PAUSE>
+<NAME_PLATE>
+　蛇子が俺を庇うように一瞬で
+両足をタコ化して前に出る。
+<PAUSE>
+<NAME_PLATE>
+　再生できるタコ足で炎を
+カバーする狙いか――しかし、
+それはあまりに無謀すぎる。
+<PAUSE>
+<NAME_PLATE>俺
+「ば、馬鹿！　そんなことしたら、
+　お前の体までこんがり焼けて――！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<NAME_PLATE>銃兵衛＆鹿之助
+「蛇子っ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　タコ化した蛇子の体が青い炎に
+包まれる――その直前。
+<PAUSE>
+<BG>nc061a,IN, 500
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『Ｔ、ＴＡＣＯ……！？
+　ＴＡＣＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯっ！！！！』
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パアアアアアアアアアアアン！！！
+<PAUSE>
+//　※注　合体を解いたのでデビルランタン王の立ち絵消えます。
+<NAME_PLATE>俺
+「へっ？？」
+<PAUSE>
+<NAME_PLATE>
+　突然、辺りに響き渡る破裂音。
+<PAUSE>
+<NAME_PLATE>
+　なぜかデビルランタン王が、
+急に合体を解いたと思ったら――。
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m210a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルランタンたち
+『ママー！』
+『ママー！』
+『ママー！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0266b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「え、えぇっ！！？
+　なにこれーーーーーっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】相州蛇子＿タコ化
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　謎の光景が出現していた。
+<PAUSE>
+<NAME_PLATE>
+　炎を吐くのを止めたタコ生物たちが、
+きゃあきゃあと楽しそうに騒ぎながら
+蛇子の周りに集まっている。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「わ、若……？
+　あれは一体なんなんだ……？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、よくわからんが……
+　ママーって言ってるよな……？」
+<PAUSE>
+<NAME_PLATE>俺
+「同じタコ足の蛇子を、
+　仲間だと思ってる……？」
+<PAUSE>
+<NAME_PLATE>
+　そう言えば前にも似たような理由で
+変な奴に懐かれたような。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ええーーっ！？
+　蛇子ママじゃないよ～っ！？」
+<PAUSE>
+<NAME_PLATE>デビルランタンたち
+『ママー♪』
+『ママー♪』
+『アソンデーアソンデー♪』
+<PAUSE>
+<NAME_PLATE>
+　嬉しそうにはしゃぎながら
+蛇子にまとわりつくタコ生物たち。
+<PAUSE>
+<NAME_PLATE>
+　何だかよくわからないが、
+もう暴れ回る気はないようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0160a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「えっ、なに？
+　あれで解決したの……？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】鬼崎きらら
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「あっ。きらら先輩。
+　お疲れさまです」
+<PAUSE>
+<ACTOR>0,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紅
+「い、意味がわからない……」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】心願寺紅
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　タコ生物が大人しくなったので、
+イベント広場の各所で戦っていた
+面々が集まってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　みんな狐に摘まれたような
+微妙な表情で――そして、
+その後ろでは。
+<PAUSE>
+<ACTOR>0,chr_t0265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「はっ、はーはっはっ！
+　少しばかり不覚を取ってしまったが、
+　やっぱり正義は勝ーーつ！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ルネ２（騎乗）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ジェネラルハロウィン・ルネ
+「――では少年よ！！
+　いつまでもロボ魂を忘れぬようにな、
+　さらばだっ！　ハイヨー！！」
+<PAUSE>
+<NAME_PLATE>ロボ馬
+「ひひーーーーん！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ぱからぱからぱからっ！！
+<PAUSE>
+<ACTOR>0,s_t014b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ジェネラルーーーっ！！
+　ありがとう、忘れないよ～～！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、いつの間にか自己修復したらしい
+変なロボと鹿之助の間に謎の友情が
+芽生えているようであった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　かくして、センザキの街を巻き込んだ
+ハロウィンの騒動も無事に幕を下ろした。
+<PAUSE>
+//【背景：センザキ＿倉庫街＿昼】【時間：昼】
+//　※対魔忍アサギ2_nc009aより流用
+<NAME_PLATE>
+　後日――。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<BG>nc130a,IN, 1000
+<NAME_PLATE>
+　事件の調査が行われ、
+幾つかのことが明らかになった。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンは、ある密輸業者が
+所有する倉庫に保管されていて、
+<PAUSE>
+<NAME_PLATE>
+　米連本土に密輸して
+売りさばこうとしていたところ、
+<PAUSE>
+<NAME_PLATE>
+　ちょっとした手違いで大脱走、
+今回の騒ぎになったらしい。
+<PAUSE>
+<NAME_PLATE>
+　現在はアサギ校長の指揮のもと、
+その密輸業者の摘発も完了。
+<PAUSE>
+<NAME_PLATE>
+　魔界の希少種であるため、
+デビルランタンは魔界の海に
+返される事となった。
+<PAUSE>
+<NAME_PLATE>
+　いや、そうなったのだが……。
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿稲毛屋＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC019aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　五車町。稲毛屋前。
+<PAUSE>
+<NAME_PLATE>
+　朝の通学路にきゃあきゃあという
+能天気な声が響いていた。
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<ACTOR>0,h_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「も～～っ！！？
+　学校までついてこないでーっ！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m210a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルランタンたち
+『ママー♪』
+『ママー♪』
+『アソンデーアソンデー♪』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　蛇子とタコ生物の集団がドタドタと
+俺たちの前を駆けていく。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンは魔界の海に
+返されるはずだったが……。
+<PAUSE>
+<NAME_PLATE>
+　予定を変更して、しばらくの間
+五車で預かることになった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　理由は、なぜかタコたちが蛇子に
+懐いて離れないため。
+<PAUSE>
+<NAME_PLATE>
+　なのでタコたちは現在、蛇子の家で
+元気に仲良く暮らしているという……。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「うーむ……。
+　大変だな、蛇子の奴も」
+<PAUSE>
+<ACTOR>0,s_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「あいつ、どんどん
+　魚くさい女になっていくなぁ」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣裳
+<ACTOR>1,chr_t0112a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「え、なにあれ？　蛇子のこども？」
+<PAUSE>
+//　※立ち絵
+//　　水城ゆきかぜ（制服）
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,h_t001f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「もー！　ふうまちゃん、みんな、
+　見てないで何とかして～～っ！！」
+<PAUSE>
+<NAME_PLATE>
+　平和な朝の五車町に、
+蛇子とタコたちの声がこだました。
+<PAUSE>
+//→Section５終了
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

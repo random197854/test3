@@ -1,0 +1,1179 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：舞姫島＿浜辺＿昼】【時間：昼】
+//　※水着のシモベ君_nc014aより流用
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0133a,IN, 1000
+<NAME_PLATE>
+　穏やかな春のある日。
+俺たちは日本海に浮かぶ、
+とある小島を訪れていた。
+<PAUSE>　
+<NAME_PLATE>俺
+「ここが『舞姫島』か……
+　聞いていた通り、
+　ほんとになんにもない島だな」
+<PAUSE>
+<NAME_PLATE>
+　船着き場を出ると、目に映るのは砂浜と
+海に突き出た岩山。
+<PAUSE>
+<NAME_PLATE>
+　人工物はというと、堤防の上を走る道路と、
+遠くに小さな集落が見えるくらいだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t003g,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t001d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「うっぷ、酔った……」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　後ろから、鹿之助が口を押さえながら
+よろよろとついてくる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>相州蛇子
+「鹿之助ちゃん大丈夫！？
+　船の中でもずっと吐いてたもんね……」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>鹿之助
+「俺は乗り物弱いんだってば……。
+　船なんてもうイチコロだよ。
+　蛇子はタコだから平気だろうけどさ……」
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「確かに乗り物酔いはしないわね。
+　船は特に」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,h_t001a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　タコだからかどうかは分からないが、
+蛇子は至って元気なようで、
+両手をいっぱいに広げて深呼吸している。
+<PAUSE>
+<ACTOR>1,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん、いい空気にステキな景色！
+　インソタに上げる写真撮りたくなっちゃう」
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい、任務で来てるんだぞ。
+　情報漏洩はご法度だからな」
+<PAUSE>
+<ACTOR>1,h_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「もう！　わかってるわよ。
+　あ、みてみて！　猫ちゃんがいっぱーい♪」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　砂浜の横に作られた小さな港には
+漁船が泊まり、桟橋には猫たちが
+十匹ほども集まってくつろいでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「漁村に猫はつきものだな。
+　俺たちよりいい魚食ってそうだ」
+<PAUSE>
+<NAME_PLATE>
+　日だまりに寝転がる猫たちは、
+どいつも野良とは思えないほど
+丸々とした体つきをしている。
+<PAUSE>
+<ACTOR>0,h_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あらふうまちゃん知らないの？
+　この舞姫島では特に猫を大切にする
+　風習があるらしいわよ」
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「だから猫たちも人間に慣れてて、
+　ほら、近づいても逃げないの。
+　あーんカワイイ♪　そのままそのまま♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子はスマホカメラを構えながら、
+猫たちににじり寄って激写し始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ、ほんとにわかってるのかよ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うっぷ……」
+<PAUSE>
+<NAME_PLATE>
+　猫に夢中の蛇子と、
+まだ気持ち悪そうな鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　そんな二人を眺めながら、
+俺は改めて任務の内容を思い出す。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数日前、
+五車学園・校長室。
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※アサギZERO_NC009aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc006a,IN, 1000
+<ACTOR>0,a_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「ふうまくん、『舞姫島』って知ってる？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　俺は独立遊撃隊の隊長として、
+対魔忍総隊長にして校長のアサギ先生から、
+呼び出されていた。
+<PAUSE>
+<NAME_PLATE>俺
+「舞姫島……？
+　いや……、聞いたことないです」
+<PAUSE>
+<NAME_PLATE>
+　俺が首をかしげると、
+アサギ先生はふっと微笑んだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「まあ、そうでしょうね。
+　日本海に浮かぶ小さな島よ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「主な産業は漁業、
+　人口は二百人程度で平均年齢は７２歳。
+　まあ、よくある過疎の島のひとつね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「島の名所は、アマノウズメを祀る
+　『宇津女神社』と、その近くにある
+　『天岩戸洞窟』」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ここでは古くから、
+　アマノウズメ神話にあやかって
+　踊りをささげるお祭りが行われていて、」
+<PAUSE>
+<NAME_PLATE>アサギ
+「かつては観光客が大勢訪れる盛大な
+　お祭りだったらしいけど、それも
+　過疎化で何年も開催されていないそうよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アマノウズメ神話といえば、
+有名な日本神話のひとつで、
+<PAUSE>
+<NAME_PLATE>
+　太陽神・天照大神が
+天岩戸の中に引きこもり、
+世界が闇に包まれてしまったとき、
+<PAUSE>
+<NAME_PLATE>
+　アマノウズメが天岩戸の前で
+面白おかしい踊りを披露してみせ、
+<PAUSE>
+<NAME_PLATE>
+　それを見た神々が大盛り上がり、
+アマテラスは何事かと興味を抑えきれずに
+天岩戸を開けた――という物語だ。
+<PAUSE>
+<NAME_PLATE>
+　なんとも愉快で心和むエピソードゆえ、
+日本中で親しまれている有名な
+神話のひとつである。
+<PAUSE>
+<NAME_PLATE>
+　だが、有名な神話ゆえに、
+天岩戸と呼ばれる岩や洞窟は、
+全国に多く存在している。
+<PAUSE>
+<NAME_PLATE>
+　そんなところも含めて、
+「よくある島」なのだろう。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「そんな舞姫島で近年、
+　微弱ながら瘴気が観測されている」
+<PAUSE>
+<NAME_PLATE>俺
+「瘴気……？
+　その島でですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「東京キングダムやヨミハラのような
+　人魔入り混じる場所ならともかく、
+　そんな辺境の島で瘴気……か」
+<PAUSE>
+<NAME_PLATE>俺
+「となると、その原因として
+　考えられそうなのは――」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そう」
+<PAUSE>
+<NAME_PLATE>
+　俺の目を見てアサギ先生が頷いた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「その島で、
+　魔界の門が開いている可能性がある」
+<PAUSE>
+<NAME_PLATE>アサギ
+「魔界の門が新しく生まれているのか、
+　古いものが活性化しているのか、
+　それとも全く別の要因なのか――」
+<PAUSE>
+<NAME_PLATE>アサギ
+「いずれにせよ放置はしておけない。
+　そこで、あなたたち独立遊撃隊に、
+　その調査に行ってほしい」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど、わかりました。
+　天岩戸に魔界の門、
+　いかにもありそうな話ですね」
+<PAUSE>
+<NAME_PLATE>
+　魔界の門が眠る場所には、
+何らかの神話や逸話が
+残されていることが多いのだ。
+<PAUSE>
+<NAME_PLATE>
+　五車の近くにも魔界の門の痕跡があったが、
+そこには鬼を従えた悪の城主の
+言い伝えがあった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「そう、魔界の門があるとすれば、
+　その天岩戸洞窟が怪しいと思う。
+　そんな広い島でもないしね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「だけど天岩戸洞窟は島の聖域だとかで、
+　ずっと立ち入り調査を断られ続けていたの」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「あー、じゃあ、
+　こっそり乗り込んで……ですか？」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「いいえ。
+　今回はその島で開かれるダンス大会に
+　参加してきてほしい」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ダンス大会ぃ！？」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　あまりに突飛な話に、
+俺は思わず転びそうになった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「なんでも島出身の有名なダンサーが、
+　アマノウズメにあやかった島おこしとして
+　企画したんだそうよ」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はあ……
+　でもなんで魔界の門の調査に、
+　ダンス大会なんですか……？」
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ダンス大会の優勝者には、
+　賞金のほかに、特別に
+　天岩戸洞窟への入洞が許可される」
+<PAUSE>
+<NAME_PLATE>俺
+「！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「これならば堂々と天岩戸の調査ができる。
+　またとない機会だわ」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど……」
+<PAUSE>
+<NAME_PLATE>俺
+「でも、それって
+　優勝しなきゃいけないわけですよね」
+<PAUSE>
+<NAME_PLATE>俺
+「俺、ダンスとかは自信ないですけど。
+　たぶん、蛇子も鹿之助も」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「そこは大丈夫。
+　頼れる協力者をつけておいたわ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「協力者？」
+<PAUSE>
+//【背景：舞姫島＿浜辺＿昼】【時間：昼】
+//　※水着のシモベ君_nc014aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0133a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして――
+“協力者”である彼女も船着き場を出て、
+ゆっくりと俺たちの方へ歩いてくる。
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相馬成美
+「ここが舞姫島ね。きれいな景色♪
+　珍しい虫に会えそうだわ。ふふ……」
+<PAUSE>
+//　※立ち絵
+//　　相馬成美
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　それに応えるように、
+彼女の肩に乗った大きな虫が、
+ギギギ……と鳴き声を立てた。
+<PAUSE>
+<NAME_PLATE>
+　相馬成美さん。
+<PAUSE>
+<NAME_PLATE>
+　プロの対魔忍であり、
+虫を操る“蟲遁”の使い手である。
+<PAUSE>
+<NAME_PLATE>
+　蟲遁とは、特殊なフェロモンによって
+虫を自由に操り、戦闘から斥候まで
+様々な用途に使役する忍術だ。
+<PAUSE>
+<NAME_PLATE>
+　自然豊かな島での調査任務には、
+まさに適任ということで、
+今回の“協力者”に選ばれたのだが、
+<PAUSE>
+<NAME_PLATE>
+　彼女が協力者に選ばれた理由は
+もうひとつ。
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「成美さん、新入生歓迎イベント見てました！
+　チアダンス、すっごく素敵だったわ！
+　さすが第一線で活躍する対魔忍ですね！」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>成美
+「ふふ、ありがと♪
+　ダンスなんて初めてだったけど、
+　特訓した甲斐があったわ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0219a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　もともと、俺たち五車学園の生徒と、
+成美さんが顔を合わせる機会は
+あまりなかった。
+<PAUSE>
+<NAME_PLATE>
+　普通の虫だけでなく危険な魔蟲も飼育する
+成美さんは、五車の中心からは
+少し離れたところに住んでいて、
+<PAUSE>
+<NAME_PLATE>
+　任務などの用事がない限り、
+あまり町中には姿を現さないからだ。
+<PAUSE>
+<NAME_PLATE>
+　だが、そんな彼女が先日、
+学生たちの間で一躍有名人となる。
+<PAUSE>
+<NAME_PLATE>
+　学校の新入生歓迎イベントの一環として、
+現役の対魔忍がチアガール衣装を着て踊る、
+という企画に参加したからだ。
+<PAUSE>
+<NAME_PLATE>
+　成美さんはその美貌と
+プロ顔負けのチアダンスで、
+新入生はもちろん、在校生たちをも魅了し、
+<PAUSE>
+<NAME_PLATE>
+　「将来、成美さんと一緒に任務がしたい！」
+などと意気込む者も大勢現れ、
+学生の間でちょっとした時の人となった。
+<PAUSE>
+<NAME_PLATE>
+　そのダンスの実力がアサギ先生の
+目にとまり、今回の任務の
+協力者に選ばれたというわけだ。
+<PAUSE>
+<NAME_PLATE>
+　ダンス大会には成美さんがエントリーし、
+俺たちはその付き添いとして
+島に入ることになっているので、
+<PAUSE>
+<NAME_PLATE>
+　もはや協力者というより、
+今回の任務の主役である。
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>成美
+「ダンス大会の任務だって聞いてから、
+　また特訓したのよ。
+　楽しみにしてて」
+<PAUSE>
+<NAME_PLATE>蛇子
+「すっごく楽しみです！
+　成美さんなら優勝間違いなしだわ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「おい……、
+　迎え、来たみたいだぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　覇気のない鹿之助の声に振り向くと、
+砂浜沿いの道路に
+一台の車が停まっていた。
+<PAUSE>
+<NAME_PLATE>
+　島には電車もバスもないので、
+港からは車で送迎してもらうことに
+なっていたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ほんとだ。
+　成美さん、蟲をおとなしくさせといて
+　くださいよ」
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「はいはい、一般人を威嚇する
+　趣味はないから安心して♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　などと話している間に、
+運転席から降りた若い女性が、
+こちらに向かって駆け寄ってくる。
+<PAUSE>
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女性
+「お待たせしましたー！！！
+　えっと、五車町からの参加者さんだね！」
+<PAUSE>
+//　※立ち絵
+//　　CA001b　アマノウズメ立ち絵イラスト差分
+//　　　＊『アマノウズメ』モンスターイラストより流用
+<NAME_PLATE>ＡＣＯ
+「舞姫島へはるばるようこそ！
+　私がダンス大会主催のＡＣＯだよ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「よ、よろしく」
+<PAUSE>
+<NAME_PLATE>
+　陽気な笑顔をまっすぐ向けられ、
+俺は少し戸惑いながら
+差し出された手を握った。
+<PAUSE>
+<NAME_PLATE>
+　彼女がこのダンスイベントを企画した、
+島出身のダンサー、ＡＣＯ（アコ）である。
+<PAUSE>
+<NAME_PLATE>
+　十代からアメリカで修業し、若くして
+数々の有名アーティストのＰＶに出演。
+最近では振付も行うなど、
+<PAUSE>
+<NAME_PLATE>
+　知る人ぞ知る若手一流ダンサーの
+一人であるらしい。
+<PAUSE>
+<NAME_PLATE>
+　流行に疎い俺は、この任務を受けるまで
+彼女の事を知らなかったのだが――
+<PAUSE>
+<ACTOR>0,ts_m255b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「わー、ほんもののＡＣＯさんだ！」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「私の事知ってくれてるの？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「はい、インソタフォローしてます！
+　新作のＰＶも観ました！
+　超ステキだったー！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は以前からファンだったらしく、
+本物の彼女に会えて感激している。
+<PAUSE>
+<ACTOR>1,h_t001g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「こう言ったら失礼かもですけど、
+　ＡＣＯさんが島の出身だなんて意外でした」
+<PAUSE>
+<NAME_PLATE>蛇子
+「もっとこう、東京生まれＮＹ育ち、
+　みたいなイメージあったから……」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「あはは、よく言われるよー！」
+<PAUSE>
+<ACTOR>1,h_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ＡＣＯ
+「私もデビューしたばっかりのころは、
+　田舎者って思われたくないからって、
+　この島のことは言わなかったしね」
+<PAUSE>
+<NAME_PLATE>
+　確かに、ＡＣＯさんの服装は
+ストリート風とでも言うのだろうか、
+辺鄙な島のイメージとはかけ離れている。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m255b,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ＡＣＯ
+「私の実家、この島唯一の神社――
+　あそこにある宇津女（うづめ）神社でね」
+<PAUSE>
+<NAME_PLATE>
+　ＡＣＯさんは岬のふもとあたりを指さした。
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「つまり跡取り娘なんだけど、
+　どうしてもダンサーになりたくて、
+　島を飛び出しちゃったの」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「親は最初、大反対してたけど、
+　今じゃめっちゃ応援してくれててさー」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「最近になって、何もできなかった親と地元に
+　なんか恩返しができたらなって
+　思うようになって」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「それで考えたのが、
+　この島おこしダンスイベントってわけ！」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「いやー、誰も来てくれなかったら
+　どうしよってドキドキだったよ～！
+　来てくれてほんとアリガト！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ＡＣＯさんは屈託のない笑顔で、
+また俺たちの手を順番に握った。
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+（ＡＣＯさん、気さくでいい人ね！
+　ますますファンになりそう！）
+<PAUSE>
+<NAME_PLATE>
+　蛇子が俺に耳打ちする。
+<PAUSE>
+<NAME_PLATE>俺
+（ああ、しかも神社の跡取りか）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　最悪ダンスで優勝できなかったら、
+なんとか天岩戸洞窟に入れてくれないか、
+お願いしてみるとしよう。
+<PAUSE>
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ＡＣＯ
+「さて、大会は明日だから、
+　今日は宿へ案内するね！
+　みんな車に乗って乗って！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t003g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うっぷ、また乗り物かあ……」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　まだ気持ち悪そうにしている鹿之助の
+背をさすりながら、俺たちは
+ＡＣＯさんのワゴン車に乗り込んだ。
+<PAUSE>
+//【背景：民宿＿外観＿昼】【時間：昼】
+//　※姫神さま以下略_nc006aより流用
+//nc401a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc401a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺たちを乗せたワゴン車は、
+古い民家を改装したという、
+小さな民宿の前で停まった。
+<PAUSE>
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ＡＣＯ
+「とうちゃーく！　ここが今日の宿だよ！」
+<PAUSE>
+//　※立ち絵
+//　　CA001b　アマノウズメ立ち絵イラスト差分
+//　　　＊『アマノウズメ』モンスターイラストより流用
+<NAME_PLATE>ＡＣＯ
+「じゃ、私はまだまだ他の参加者を
+　迎えにいかなきゃだから」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「本番は明日の夕方、
+　会場は神社の特設ステージだよ。
+　遅れないように来てね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺たちを降ろすと、ＡＣＯさんの車は
+また港へと慌ただしく去っていった。
+<PAUSE>
+<NAME_PLATE>宿の主人
+「ようこそようこそ」
+<PAUSE>
+<NAME_PLATE>
+　するとガラリと宿の戸が開き、
+高齢の男性が出てきて迎えてくれる。
+この宿のご主人だろうか。
+<PAUSE>
+<NAME_PLATE>宿の主人
+「島にお客さんが来てくれるなんざ
+　ずいぶん久しぶりじゃあ。
+　さっそくお部屋に案内しますでな」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、どうも。
+　よろしくお願いします」
+<PAUSE>
+<NAME_PLATE>宿の主人
+「兄ちゃんええのう、女の子３人も連れて。
+　遠慮せんと部屋でよろしく
+　やってくれてええからのう！」
+<PAUSE>
+<NAME_PLATE>俺
+「はい……え！？」
+<PAUSE>
+<NAME_PLATE>
+　いきなり際どい話を振られ、
+俺がとっさに三人の女の子（？）の
+顔色を振り返っていると。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>宿の女将
+「こらじいさま！」
+<PAUSE>
+<NAME_PLATE>
+　今度は女将とおぼしき老婦人が、
+ぽかりと主人の頭をはたいた。
+<PAUSE>
+<NAME_PLATE>宿の女将
+「お客様に下世話な話をするもんじゃないよ。
+　さっきの女の子にも
+　ちょっかい出そうとしてまったく……」
+<PAUSE>
+<NAME_PLATE>宿の主人
+「す、すまん……
+　久しぶりのお客さんだもんで」
+<PAUSE>
+<NAME_PLATE>宿の女将
+「すいませんねえお客様がた、
+　ご案内しますからどうぞどうぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「す、すみません……」
+<PAUSE>
+<NAME_PLATE>
+　老婦人に案内され、
+俺たちは古い宿の中へと入った。
+<PAUSE>
+//【背景：民宿＿客室＿昼】【時間：昼】
+//　※姫神さま以下略_nc015aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0184a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>宿の女将
+「お夕食は７時ですからね。
+　それまでおくつろぎくださいな」
+<PAUSE>
+<NAME_PLATE>宿の女将
+「自慢の露天風呂も沸かしてありますから、
+　ぜひ入ってみてくださいね」
+<PAUSE>
+<NAME_PLATE>
+　女将はてきぱきと宿の説明をし、
+襖を閉めて去っていった。
+<PAUSE>
+<NAME_PLATE>俺
+「７時か……まだ２時だ。
+　夕食までは５時間もあるな。
+　どうするか……」
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子はお風呂に行ってこようかな！
+　人のいないうちに吸盤も洗っておきたいし。
+　露天風呂、気になるー♪」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>
+　タコ化しなくても、
+吸盤って汚れるんだろうか。
+と思ったが、なんとなく聞きづらい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「私は島の珍しい虫に会いに行きたいわ。
+　ふうま、付き合いなさい」
+<PAUSE>
+//　※立ち絵
+//　　相馬成美
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えっ俺！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いってこいよ、ふうまー。
+　俺はまだ気持ち悪いから、
+　部屋で休ませてもらう……」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　鹿之助はよろよろと座布団を引き寄せると、
+頭をうずめて倒れ込んでしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「え、えっと……」
+<PAUSE>
+<NAME_PLATE>成美
+「二人は用事があるみたいだし。
+　さ、行きましょう」
+<PAUSE>
+<NAME_PLATE>
+　成美さんは嬉しそうに笑う。
+どうやら拒否権はないようだ。
+<PAUSE>
+<NAME_PLATE>
+　まだ気持ち悪そうな鹿之助と、
+いそいそと風呂の支度をする蛇子を置いて、
+俺と成美さんは散策に出ることになった。
+<PAUSE>
+//【背景：民宿＿露天風呂＿昼】【時間：昼】
+//　※姫神さま以下略_nc014aより流用
+//nc402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc402a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>蛇子
+「わあー！　立派な露天風呂！」
+<PAUSE>
+//　※裸でいる設定なので立ち絵なし
+<NAME_PLATE>蛇子
+「だけど一応、誰もいないことを
+　確かめてから……と……
+　ん？？？」
+<PAUSE>
+<NAME_PLATE>
+　湯気の中にうっすらと、
+複数の人影が見える。
+<PAUSE>
+<NAME_PLATE>蛇子
+（なあんだ、人がいるのかあ。
+　残念だけど、後でまた……）
+<PAUSE>
+<NAME_PLATE>
+　しかし、蛇子の嗅覚は、
+ふと違和感に気づく。
+<PAUSE>
+<NAME_PLATE>蛇子
+（人……じゃ、ない？）
+<PAUSE>
+<NAME_PLATE>
+　はたしてよくよく見てみると、
+その先客は――
+<PAUSE>
+<NAME_PLATE>メルシー
+「い～い湯だにゃあぁぁ～♪
+　これはヤクも抜けるってもんだにゃぁ～♪」
+<PAUSE>
+//　※立ち絵
+//　　メルシー
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR>0,ts_m194c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>猫たち
+「ニャー」
+「ニャー」
+<PAUSE>
+//　※立ち絵
+//　　ネコマタ
+//　　　＊モンスターイラストより流用
+//　　　＊メルシーと一緒に複数並べてください
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「ね、猫ちゃん！？」
+<PAUSE>
+<NAME_PLATE>
+　露天風呂でとろけているのは、
+ネコの魔族・メルシーと、
+たくさんの猫たちであった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>メルシー
+「ん？　だれかいるんだにゃあ？」
+<PAUSE>
+<NAME_PLATE>メルシー
+「お、五車の対魔忍じゃないかにゃあ。
+　お前も湯治かにゃあ？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ケットシーのメルシーちゃん！
+　と、猫ちゃんたち！
+　こ、ここのお客さんなの……？」
+<PAUSE>
+<NAME_PLATE>メルシー
+「そうにゃ。薬のリハビリに湯治にゃ」
+<PAUSE>
+<NAME_PLATE>メルシー
+「ここは猫が大切にされてるから、
+　とっても居心地いいにゃ」
+<PAUSE>
+<NAME_PLATE>メルシー
+「ついでにダンス大会で賞金がっぽりにゃ、
+　最高にゃ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m194c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>猫たち
+「ニャー」
+「ニャー」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そ、そうなのね……
+　ごゆっくり……」
+<PAUSE>
+<NAME_PLATE>蛇子
+（残念だけど、
+　タコ化は後にしようっと……）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+//【背景：浜辺ぞいの森＿夕方】【時間：夕方】
+//　※先生を孕ませよう_nc001bより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc178b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、
+浜辺にほど近い森の中。
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「まあ、大きなハサミムシ。
+　山奥の五車とは全然違うわね。
+　見てふうまくん、とってもかわいいわ♪」
+<PAUSE>
+//　※立ち絵
+//　　相馬成美
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「かわいい……かどうかはともかく、
+　たしかにデカいですね……」
+<PAUSE>
+<NAME_PLATE>
+　成美さんが頭を指で撫でると、
+ハサミムシは嬉しそうに尻尾（？）を振る。
+<PAUSE>
+<NAME_PLATE>
+　さっきからずっとこの調子である。
+<PAUSE>
+<NAME_PLATE>
+　成美さんは石をひっくり返したり、
+木をつついたりしては、
+珍しい虫に目を輝かせていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（やれやれ……
+　早く帰って、俺も露天風呂に
+　入りたいぜ……）
+<PAUSE>
+<NAME_PLATE>
+　などと思っていると、俺の足に
+ちくりとした痛みが走る。
+<PAUSE>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「あら、ノミがそっちへいったわ。
+　ふうまくん捕まえてちょうだい」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「無理ですよぉ！？」
+<PAUSE>
+<NAME_PLATE>
+　気づけば俺たちの周りには、
+大きなハサミムシやムカデ、何かの幼虫など、
+あらゆる虫がうじゃうじゃ集まってきていた。
+<PAUSE>
+<NAME_PLATE>俺
+（みんな成美さんの蟲遁に惹かれて来たのか？
+　すごい、すごいけど……）
+<PAUSE>
+<NAME_PLATE>
+　特別虫が苦手なつもりではないが、
+毛虫や蟻の大群に囲まれると、
+さすがに背筋が寒くなる。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、帰りたい……」
+<PAUSE>
+<NAME_PLATE>成美
+「何か言った？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いえ。そのー、一応任務ですし、
+　明日に備えて早めに宿に戻ってですね……」
+<PAUSE>
+<NAME_PLATE>成美
+「あら、現地の味方を増やすのも
+　重要な仕事じゃなくて？」
+<PAUSE>
+<NAME_PLATE>俺
+「“味方”ですか……」
+<PAUSE>
+<NAME_PLATE>
+　俺は苦笑いしながら、
+靴に登ろうとしてくる蟻の群れを
+こっそり振り払った。
+<PAUSE>
+<NAME_PLATE>俺
+（成美さんと一緒に仕事をした若手は
+　その戦いっぷりがトラウマになって
+　しまうこともあるとの噂だが）
+<PAUSE>
+<NAME_PLATE>俺
+（こんな虫たちが敵を食い荒らしていく
+　ところを見たら無理もないだろうな）
+<PAUSE>
+<NAME_PLATE>
+　なんとなく、本人も
+見た目の怖い虫ばかり選んで
+使役しているような気がする。
+<PAUSE>
+<NAME_PLATE>
+　もっとこう、チョウチョとかミツバチとか、
+可愛らしい虫でもいいと思うのだが。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>成美
+「……ん？」
+<PAUSE>
+<NAME_PLATE>
+　ふと成美さんの動きが止まる。
+<PAUSE>
+<NAME_PLATE>俺
+「どうしたんですか？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>成美
+「浜の方で何か異変があるみたい」
+<PAUSE>
+<NAME_PLATE>俺
+「なんでわかるんですか？」
+<PAUSE>
+<NAME_PLATE>成美
+「この子が知らせてくれたの」
+<PAUSE>
+<NAME_PLATE>
+　そう言う成美さんの手には、
+黒く平たい体に長い触角を持つ、
+親指ほどの大きさの虫が乗っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「その虫は、ゴ……！？」
+<PAUSE>
+<NAME_PLATE>成美
+「フナムシよ。上陸した時にフナムシの群れを
+　手なずけておいたんだけど、
+　この子はその一匹」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なるほど。
+　でも異変って一体……」
+<PAUSE>
+<NAME_PLATE>成美
+「そこまではわからない。
+　とにかく行ってみましょう」
+<PAUSE>
+<NAME_PLATE>
+　俺と成美さんは互いに頷くと、
+気配を殺して浜辺へと向かった。
+<PAUSE>
+//【背景：砂浜＿夕方】【時間：夕方】
+//　※水着のシモベ君_nc014bより流用
+//nc403a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc403a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>魔族１
+「おい、全員上がったか？」
+<PAUSE>
+//　※立ち絵
+//　　アサシン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>魔族２
+「船を隠せ。チンケな島だが
+　見つかると厄介だ」
+<PAUSE>
+//　　魔族傭兵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　夕陽に染まる砂浜に到着してみると、
+はたしてそこには、
+ものものしく武装した魔族たちの集団がいた。
+<PAUSE>
+<NAME_PLATE>
+　２０人ほどはいるだろうか。
+リーダーらしき男の指示で、
+ボートを岩陰に隠しているようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「あれは……？！
+　なんで魔族が！？」
+<PAUSE>
+<NAME_PLATE>成美
+「しっ、隠れてふうまくん」
+<PAUSE>
+//　※立ち絵
+//　　相馬成美
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リーダーは警戒している様子で、
+辺りを注意深く見回している。
+俺は手近な岩に隠れようとしたが、
+<PAUSE>
+<NAME_PLATE>俺
+「わっ――」
+<PAUSE>
+<NAME_PLATE>
+　岩陰には
+成美さんを慕って？　大量のフナムシの
+群れがいて俺は思わず声を出してしまった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔族１
+「誰だ！？」
+<PAUSE>
+<NAME_PLATE>俺
+（しまった！）
+<PAUSE>
+<NAME_PLATE>魔族１
+「なんだ、この島の人間か？
+　運の悪い奴らだ。
+　見られたからには死んでもらう」
+<PAUSE>
+<NAME_PLATE>
+　魔族たちは武器を手に、
+じりじりとこちらに迫ってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0219a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「仕方ないわね、やるわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「はい！」
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

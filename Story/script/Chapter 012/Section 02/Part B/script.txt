@@ -1,0 +1,186 @@
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　――というのが、
+ここに至るまでの経緯。
+<PAUSE>
+//【背景：東京キングダムの地下空間１＿昼夜共通】【時間：夜】
+//　※LILITH_IZM_07_背景nc009aより流用
+<BGM_PLAY>bgm404,1000
+<BG>nc133a,IN, 1000
+<NAME_PLATE>俺
+「クソ！！　しつこいんだよ！！」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se033
+</GROUP>
+<NAME_PLATE>
+　――ザシュ！！
+<PAUSE>
+<NAME_PLATE>ガーゴイル
+「ＧＵＲＲＲＲＲＲＲＲ！！？！？」
+<PAUSE>
+//　※立ち絵
+//　　ガーゴイル
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>
+　背後から追いすがってくる魔物を
+振り向きざまに切り伏せる。
+<PAUSE>
+<NAME_PLATE>
+　離れ離れになってしまった蛇子と
+鹿之助の姿を求めて、
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　俺ときらら先輩は、地下鉄トンネルの
+奥へと駆けていた。
+<PAUSE>
+<ACTOR>0,kr_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「あれれ～？　大丈夫、隊長さん。
+　もう息が上がっちゃってるけど――」
+<PAUSE>
+<NAME_PLATE>きらら
+「追いつけないなら、もうちょっと
+　ゆっくり走ってあげよっか～？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　ニヤニヤしながら先に立って
+走るきらら先輩が声をかけてくる。
+<PAUSE>
+<NAME_PLATE>
+　相変わらず、とんでもない
+強さと身体能力である。
+<PAUSE>
+<NAME_PLATE>
+　俺の倍以上の魔物を撃退しながら、
+息ひとつ乱さず悠々と駆けていて、
+俺を煽る余裕すらある。
+<PAUSE>
+<NAME_PLATE>
+　一方の俺は、
+それに置いてかれないようにするのが
+精一杯だ。
+<PAUSE>
+<NAME_PLATE>俺
+「へ、へえ……？　先輩、
+　心配してくれてるんですか……？
+　意外と親切だったんですね」
+<PAUSE>
+<ACTOR>0,kr_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「心配？　ぜーんぜん♪」
+<PAUSE>
+<ACTOR>0,kr_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「ただ、君のことはアサギ先生に
+　頼まれてるから、死なれたりしたら
+　ちょっと困るし～？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「そういうこと！？」
+<PAUSE>
+<NAME_PLATE>
+　俺自身の事はどうでもいいらしい。
+ある意味、全くぶれない先輩である。
+<PAUSE>
+<NAME_PLATE>きらら
+「ねえねえ、どうする～？
+　君がもうムリ～って言うなら、
+　一休みしてあげてもいいけど？」
+<PAUSE>
+<NAME_PLATE>俺
+「……いえ、休む必要ないです。
+　俺、意地でもついていくんでっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ついそう言い返していた。
+<PAUSE>
+<NAME_PLATE>
+　いつもの俺なら、
+こんな非合理な事はしない。限界以上に
+ムリをするなんてバカげている。でも――。
+<PAUSE>
+<NAME_PLATE>俺
+（ここまで煽られて黙って
+　いられるかよぉおぉおっ！！！）
+<PAUSE>
+<ACTOR>0,kr_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「へ～？　なかなか言うじゃん♪
+　じゃあ、お言葉に甘えて――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええっ！？　ちょ、ちょっと！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　クスッと笑ったきらら先輩が
+スピードを上げる。ぐんぐん差が
+広がっていく。
+<PAUSE>
+<NAME_PLATE>俺
+（まだ速くなるのかよっ！！？）
+<PAUSE>
+<NAME_PLATE>
+　だが、今さら弱音は吐けない。
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　俺は歯を食い縛って、疾走する
+きらら先輩の後についていった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、ふいに――
+<PAUSE>
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc035a,IN, 1000
+<ACTOR>0,kr_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「！？　何よこれぇ！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「はぁ、はぁ……ど、洞窟……？」
+<PAUSE>
+<NAME_PLATE>
+　突然の事だった。
+<PAUSE>
+<NAME_PLATE>
+　ぬるっと何か薄い皮膜のようなものに
+触れた感覚があったかと思うと――
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間、俺達は奇妙な洞窟のような
+場所に立ちつくしていた。
+<PAUSE>
+<ACTOR>0,kr_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「ど、どうなってるの……？」
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

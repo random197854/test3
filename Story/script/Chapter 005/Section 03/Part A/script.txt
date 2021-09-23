@@ -1,0 +1,382 @@
+//☆第五章【Section３】シナリオ
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//=================================================================
+//【背景：次元の狭間】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm603,1000
+<BG>nc052a,IN, 1000
+<NAME_PLATE>
+　突然あたりの風景をかき消すように出現した
+巨大な渦の中で、俺たちは身構えていた。
+<PAUSE>
+<NAME_PLATE>凜子
+「侵入者とやらの姿が見えないが……！？」
+<PAUSE>
+//　※立ち絵
+//　　凜子戦闘立ち絵_対魔忍衣装
+<GROUP>
+<ACTOR>2,ws_t005f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「あいつ、いつもこうやって
+　幻影を見せて惑わすの！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>俺
+「幻影！？　それにしちゃあ……！！」
+<PAUSE>
+<NAME_PLATE>
+　話している間にも、俺たちは渦の奥に
+どんどん引き込まれていく――
+<PAUSE>
+//【背景：宇宙空間】【時間：不明】
+<GROUP>
+<ACTOR>2,ws_t005f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG>nc055a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわぁ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ws_t005e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>凜子
+「う、宇宙だと？！！」
+<PAUSE>
+//　※立ち絵
+//　　凜子戦闘立ち絵_対魔忍衣装
+<NAME_PLATE>さくら
+「大丈夫だよ！　落ち着いて」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>俺
+「た、確かに息ができる………？！
+　侵入者ってのは何者なんだ？！」
+<PAUSE>
+<NAME_PLATE>さくら
+「タコだよ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「タコぉ！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「うん。頭がタコの怪物だよ」
+<PAUSE>
+<NAME_PLATE>俺
+「頭がタコか……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子ではなさそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「魔族か何かなのか？」
+<PAUSE>
+<ACTOR>2,ws_t005c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「わかんない……。バスケの授業中、体育館に
+　突然現れたんだ。だから、体育館にいた君も
+　怪しいと思っちゃったんだけど」
+<PAUSE>
+<NAME_PLATE>俺
+「体育館か………待てよ」
+<PAUSE>
+<NAME_PLATE>俺
+「凜子先輩……ちょっと訊きたいんですが」
+<PAUSE>
+<ACTOR>2,ws_t005a,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,rn_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>凜子
+「なんだ？」
+<PAUSE>
+<NAME_PLATE>俺
+「この世界にやって来る前、
+　体育館にいませんでしたか？」
+<PAUSE>
+<NAME_PLATE>凜子
+「ああ……」
+<PAUSE>
+<NAME_PLATE>俺
+「やはりか……」
+<PAUSE>
+<NAME_PLATE>俺
+（体育館がこの世界への
+　入り口になっているという事なのか？）
+<PAUSE>
+//【背景：次元の狭間】【時間：不明】
+<GROUP>
+<ACTOR>2,ws_t005a,LEFT, LEFT, OUT, linear, 300
+<ACTOR>1,rn_t001a,RIGHT, RIGHT, OUT, linear, 300
+</GROUP>
+<BG>nc052a,IN, 300
+<GROUP>
+<ACTOR>2,ws_t005c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>凜子
+「またかっ！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「今度は何を見せようっていうの？！」
+<PAUSE>
+//【背景：マグマの世界】【時間：夜】
+<GROUP>
+<ACTOR>2,ws_t005c,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG>nc053a,IN, 300
+<GROUP>
+<ACTOR>2,ws_t005d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「うきゃ！？　なにここ！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>凜子
+「凄い熱気だ……これも幻影なのか？」
+<PAUSE>
+//　※立ち絵
+//　　凜子通常立ち絵_対魔忍衣装
+<NAME_PLATE>
+　今度は灼熱のマグマが流れる荒涼とした
+原野が現れた。原始の地球か、
+魔界の奥にあるという灼熱の地か。
+<PAUSE>
+<ACTOR>2,ws_t005e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「土の臭いがリアルだね……魔界、って感じ」
+<PAUSE>
+<ACTOR>1,rn_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>凜子
+「瘴気まで感じるぞ……」
+<PAUSE>
+<NAME_PLATE>俺
+（本当にこれが幻なのか？
+　だとしたら幽霊城なんぞ目じゃない、
+　相当な使い手だぞ）
+<PAUSE>
+<NAME_PLATE>俺
+「……いや、むしろ、これは現実だという
+　可能性も……」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ws_t005d,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,rn_t001e,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m030a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m030a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>羅刹オーク１
+「おい、おまえら何だ！？」
+<PAUSE>
+//　※立ち絵
+//　　羅刹オーク立ち絵
+<NAME_PLATE>羅刹オーク２
+「突然現れやがったぞ！？
+　どこから入ってきた！？」
+<PAUSE>
+//　※立ち絵
+//　　羅刹オーク立ち絵
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　突然現れたのはオークの群れだ。
+しかも、闇の街で見掛けるオークとは違う。
+<PAUSE>
+<NAME_PLATE>俺
+「あれは……」
+<PAUSE>
+<NAME_PLATE>さくら
+「弟くん、知り合いなの？」
+<PAUSE>
+<NAME_PLATE>俺
+「なわけないだろっ！？
+　本でしか見た事がないが、
+　こいつらは“羅刹オーク”だと思う」
+<PAUSE>
+<NAME_PLATE>さくら
+「らせつオーク？」
+<PAUSE>
+<NAME_PLATE>凜子
+「私も聞いた事がある。
+　魔界にいるオークの中でも、
+　頂点に立つ戦士の氏族“羅刹オーク”」
+<PAUSE>
+<NAME_PLATE>凜子
+「普通のオークとは段違いの強さを誇り、
+　残忍で凶暴だという話だ」
+<PAUSE>
+<NAME_PLATE>羅刹オーク２
+「おお、女だ！　女がいるじゃねえか！！」
+<PAUSE>
+<NAME_PLATE>
+　羅刹オークたちは、舌なめずりをしながら
+凜子先輩をじろじろと見た。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m030a,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ts_m030a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<GROUP>
+<ACTOR>2,ws_t005b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「羅刹オークね……へえ、面白そう♪」
+<PAUSE>
+<NAME_PLATE>俺
+「面白そうって……つまりこれは
+　幻影なんかじゃなく、本当に魔界に
+　飛ばされたって事なんだぞ！？」
+<PAUSE>
+<NAME_PLATE>凜子
+「五車学園にいるよりは
+　楽しめそうじゃないか」
+<PAUSE>
+<NAME_PLATE>俺
+「凜子せ……姉ちゃんまで！」
+<PAUSE>
+<NAME_PLATE>
+　まったく異常な事態だというのに、
+二人は余裕の風だ。
+<PAUSE>
+<NAME_PLATE>俺
+（これが最前線で
+　名を馳せる対魔忍ってやつかよ……
+　全く頼もしいぜ）
+<PAUSE>
+<GROUP>
+<ACTOR>2,ws_t005b,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,rn_t001a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<ACTOR>0,ts_m031a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>羅刹オークロード
+「おう、どうした！？」
+<PAUSE>
+//　※立ち絵
+//　　羅刹オークロード立ち絵
+<NAME_PLATE>
+　羅刹オークの群れをかき分け、
+ひときわ目立つ鉄仮面姿のヤツが顔を出す。
+羅刹オークのリーダーだろうか？
+<PAUSE>
+<ACTOR>0,ts_m031a,CENTER, CENTER, OUT, linear, 500
+<GROUP>
+<ACTOR>2,ts_m030a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m030a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>羅刹オーク１
+「ボス！　人間がいたんでさあ！」
+<PAUSE>
+<NAME_PLATE>羅刹オーク２
+「へへ、女もいやすぜ……どうしやすか？」
+<PAUSE>
+<NAME_PLATE>羅刹オークロード
+「ふうむ」
+<PAUSE>
+<NAME_PLATE>
+　ボスらしきオークは
+こちらをじろりと一瞥する。
+<PAUSE>
+<NAME_PLATE>羅刹オークロード
+「全員好きなように殺せ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>羅刹オークたち
+「「ヒャッホオォォ！！！！」」
+<PAUSE>
+<NAME_PLATE>
+　ボスの命令に、羅刹オークたちは
+歓喜の声をあげたかと思うと、次の瞬間には、
+群れから凶悪な殺気が膨れ上がる。
+<PAUSE>
+<NAME_PLATE>羅刹オーク２
+「へ、へへ、俺はこっちの女をヤるぜ」
+<PAUSE>
+<NAME_PLATE>羅刹オーク１
+「いいけど、どうせどっちもヤるんだろうがよ」
+<PAUSE>
+<NAME_PLATE>羅刹オーク２
+「へへ、そうだな」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m030a,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ts_m030a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<GROUP>
+<ACTOR>2,ws_t005a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,rn_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「どーする？　凜子さん」
+<PAUSE>
+<NAME_PLATE>凜子
+「まあ、ひとつ肩慣らしといこう。
+　いずれ侵入者と戦わねばならんだろうしな」
+<PAUSE>
+<NAME_PLATE>
+　自分たちを殺す相談をされているというのに
+二人はまったく動じた様子もない。
+<PAUSE>
+<NAME_PLATE>俺
+（鹿之助がいたら「ひぃいいい」って
+　叫びが聞こえるところだがな……）
+<PAUSE>
+<NAME_PLATE>
+　とにかく、仲間が頼もしいのは助かる。
+そして俺は俺の役割を果たすのみだ。
+<PAUSE>
+<NAME_PLATE>俺
+「凜……姉ちゃん、
+　奴らは集団戦闘を熟知しています。
+　俺たちを分断しようとするはずなので……」
+<PAUSE>
+<NAME_PLATE>凜子
+「三人が離れぬようにと言うのだな？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい！」
+<PAUSE>
+<ACTOR>1,rn_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>凜子
+「フフ、道理だな。了解した」
+<PAUSE>
+<NAME_PLATE>俺
+「さくらせんせ……さくら！
+　影遁の術で、回り込もうとする敵を
+　撹乱してくれ！」
+<PAUSE>
+<ACTOR>2,ws_t005b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「にゃるほど！　合点承知だよ！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ws_t005b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,rn_t001b,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ts_m031a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>羅刹オークロード
+「作戦会議なんかしても無駄だぜ？
+　あんたらはここでエサに
+　なるんだからなぁ……！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ts_m031a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３-ＭＡＰ画面１へ

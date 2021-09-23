@@ -1,0 +1,1058 @@
+//*****************************************************
+//☆第一章//【Section１】
+//
+//FileNo:S101a
+//シーン名：プロローグ
+//
+// 仮想空間座標設定
+//<SCREEN_SIZE>1280, 720
+//*****************************************************
+//【背景：魔都・東京全景＿夜】//【時間：夜】
+<BG>nc001a,IN, 3000
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　闇の存在・魑魅魍魎が跋扈する近未来・日本。
+<PAUSE>
+<NAME_PLATE>
+　人魔の間で太古より守られてきた
+“互いに不干渉”という暗黙のルールは、
+人が外道に堕してからは綻びを見せはじめ、
+<PAUSE>
+<NAME_PLATE>
+　人魔結託した犯罪組織や企業が暗躍、
+時代は混沌へと凋落していった。
+<PAUSE>
+<NAME_PLATE>
+　しかし正道を歩まんとする人々も
+無力ではない。
+<PAUSE>
+<NAME_PLATE>
+　時の政府は人の身で『魔』に対抗できる
+“忍のもの”たちからなる集団を組織し、
+人魔外道の悪に対抗したのだ。
+<PAUSE>
+<NAME_PLATE>
+　人は彼らを“対魔忍”と呼んだ――――
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<BG_OUT>3000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（……対魔忍、か）
+<PAUSE>
+<NAME_PLATE>
+　……
+<PAUSE>
+<NAME_PLATE>？？？
+「おい、起きろ」
+<PAUSE>
+<NAME_PLATE>俺
+（古来より特別な力を持つ忍びの一族……
+　しかし、俺は……）
+<PAUSE>
+//【背景：五車学園＿グラウンド＿昼】//【時間：昼】
+<BG>nc003a,IN, 1000
+<NAME_PLATE>二車骸佐
+「起きろっつってんだよ目抜けがァ！」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>俺
+「ぐっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　脇腹に鋭い痛みを感じ、
+俺はまどろみから引き戻される。
+<PAUSE>
+<BGM_PLAY>bgm307,1000
+<ACTOR>0,g_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「相変わらずだな、ふうまよぉ」
+<PAUSE>
+<NAME_PLATE>
+　目を開けると見知った男たちに
+取り囲まれていた。同級生や先輩、そして、
+その中心で毒づいているのは――
+<PAUSE>
+<NAME_PLATE>俺
+「骸、佐……」
+<PAUSE>
+<NAME_PLATE>
+　この男、名を二車骸佐（にしゃがいざ）。
+俺の同級生にして、
+同じ一門に育った幼馴染でもある。
+<PAUSE>
+<ACTOR>0,g_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「仮にもふうま宗家の当主様が、
+　お日様浴びてお昼寝かぁ？」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな事を言うためにわざわざ来たのか？」
+<PAUSE>
+<NAME_PLATE>
+　この骸佐の二車家は、対魔忍の
+一派・ふうま一門の頭目衆のひとつだ。
+<PAUSE>
+<NAME_PLATE>
+　そして俺のふうま家は、その筆頭。
+つまり俺は、由緒正しきふうま宗家の当主に
+して、対魔忍だ……一応は。
+<PAUSE>
+<NAME_PLATE>
+　そして、いまだ武家の慣習を残す
+対魔忍の世界においては、二車家は
+ふうま家の家来ということになる。
+<PAUSE>
+<NAME_PLATE>
+　このとおり、家来のあるべき姿とは
+程遠い態度だが――
+<PAUSE>
+<NAME_PLATE>骸佐
+「ああ、そうだよ！！　いつまで
+　昼行灯でいるつもりだ、ってな。邪眼も
+　操れぬ“目抜け”当主様がよおッ！？」
+<PAUSE>
+<NAME_PLATE>
+　邪眼。視線そのものに魔が宿る能力。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍たちは皆、魔のものに対抗できる
+特殊な能力を持っているが、
+ふうま一門には、この邪眼を使う者が多い。
+<PAUSE>
+<NAME_PLATE>
+　見たものを石化させる、
+見たものを魅了して操るなど
+その力は様々だが、
+<PAUSE>
+<NAME_PLATE>
+　代々の当主はほとんどが強力な邪眼を
+持っていたという。亡き父も邪眼使いだった
+し、この骸佐も邪眼使いである。
+<PAUSE>
+<NAME_PLATE>
+　だが俺は――
+生まれながらに右目が開かず、
+邪眼の力が覚醒する事もなかった。
+<PAUSE>
+<NAME_PLATE>
+　そんな俺を“目抜け”当主と侮蔑する者は
+多く、骸佐もそのひとりである。
+<PAUSE>
+<NAME_PLATE>俺
+「……そう言われても、どうしようも
+　ないんでな。愚痴なら時子に言ってくれ」
+<PAUSE>
+<NAME_PLATE>俺
+「おっと、学園では時子先生だな。
+　俺のことはほっておいてくれよ」
+<PAUSE>
+<ACTOR>0,g_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ふざけるな！！　“目抜け”がッ！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　脇腹に強烈な蹴りを喰らって
+一瞬視界が白くなる。
+<PAUSE>
+<ACTOR>0,g_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「目だけじゃなくて腑も抜けてやがる。
+　俺と戦ってみろよ、あァ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ。何をそんなに苛ついている？」
+<PAUSE>
+<NAME_PLATE>取り巻き男１
+「骸佐様、こいつ余裕ぶってますぜ！」
+<PAUSE>
+<NAME_PLATE>取り巻き男２
+「殴られてもなーんもできねぇ
+　腰抜けのくせに！　ギャハハ！！」
+<PAUSE>
+<ACTOR>0,g_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「お前ら黙れ！」
+<PAUSE>
+<NAME_PLATE>
+　骸佐の一喝で、取り巻きたちは
+水を打ったように静まる。
+<PAUSE>
+<ACTOR>0,g_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「いいか！？　ふうまは対魔忍随一の一門だ。
+　どこにも属さねえし政府の犬でもねえッ！」
+<PAUSE>
+<ACTOR>0,g_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「だが肝心な当主様が
+　腰抜けの能なし野郎ときてる！？
+　これが苛つかずにおれるか糞がッ！！？」
+<PAUSE>
+<NAME_PLATE>
+　やれやれ、と俺はゆっくり起き上がった。
+<PAUSE>
+<NAME_PLATE>俺
+「政府の犬か。なら何でお前は
+　ここにいる骸佐？」
+<PAUSE>
+<ACTOR>0,g_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「何ィッ！？」
+<PAUSE>
+<NAME_PLATE>
+　骸佐は俺の胸ぐらを掴み、
+今にも殴りかからんばかりの形相で
+睨んでくる。
+<PAUSE>
+<NAME_PLATE>
+　だが、こいつとは長い付き合いだ。
+こんなとき、どう対応すればいいかも
+わかっている。俺はつとめて淡々と語った。
+<PAUSE>
+<NAME_PLATE>俺
+「いい加減諦めろ。俺たちの親父が健在
+　だった頃とは違う。ふうまは負けたんだ。
+　今の俺たちは、ただ自分たちの身を……」
+<PAUSE>
+<ACTOR>0,g_t002i,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「うるせえッッ！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　容赦ない拳が俺の頬を殴る。
+<PAUSE>
+<ACTOR>0,g_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「けっ、負け犬根性が
+　染みついてやがるなッ！！！！
+　これでも喰らいやがれ――」
+<PAUSE>
+<NAME_PLATE>？？？
+「待ちなさい！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>骸佐
+「あァ！？」
+<PAUSE>
+<ACTOR>0,g_t002c,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「蛇子……」
+<PAUSE>
+<ACTOR>1,h_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　この女は相州蛇子（あいしゅうへびこ）。
+<PAUSE>
+<NAME_PLATE>
+　ふうま一門の下忍の出だが、
+小さい頃から優秀で、今では俺たちの
+クラスの学級委員長を務めている。
+<PAUSE>
+<ACTOR>1,h_t001a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,g_t002b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「よお、委員長か。
+　これから面白いとこなんだ」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>相州蛇子
+「ふうまちゃんに用があるの。
+　譲ってくれないかしら？」
+<PAUSE>
+<ACTOR>2,g_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「断る。俺はコイツと
+　話つけてるとこなんだよ。帰れ」
+<PAUSE>
+<ACTOR>1,h_t003c,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 2000
+<NAME_PLATE>蛇子
+「墨吐くわよ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子タコ化立ち絵＿制服衣装
+<ACTOR>2,g_t002i,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ぐ……ッ！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の足がうねうねと形を変え、
+大きな吸盤をつけたタコ足に変化した。
+<PAUSE>
+<NAME_PLATE>俺
+（見慣れた風景だが……何度見ても奇怪だな）
+<PAUSE>
+<NAME_PLATE>
+　蛇子の能力は“獣遁の術”。
+それも、他の生物の力を借りて
+変化する“獣化忍”と呼ばれるもので、
+<PAUSE>
+<NAME_PLATE>
+　彼女が変化するのは――そう、タコだ。
+<PAUSE>
+<NAME_PLATE>俺
+「『蛇子』なのにタコになるとは、
+　相変わらずよく分からん女だ」
+<PAUSE>
+<ACTOR>1,h_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子は代々ウチの女が継ぐ名前なの！
+　ひいおばあちゃんの代までは、
+　大蛇になったらしいよ」
+<PAUSE>
+<NAME_PLATE>俺
+「お前が初めてタコになったときは
+　家じゅう大爆笑だったらしいな」
+<PAUSE>
+<ACTOR>1,h_t003g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「もう、その話しないでよ！　お母さんなんか
+　蛇子を妊娠中にタコ食べ過ぎたんだとか
+　言って泣いてたけどね」
+<PAUSE>
+<NAME_PLATE>
+　一方の骸佐たちは、
+蛇子を避けるように固まっている。
+<PAUSE>
+<NAME_PLATE>
+　蛇子のタコ墨は学園内では有名で、
+体についたが最後、三日三晩臭いが
+取れないと恐れられているのだ。
+<PAUSE>
+<ACTOR>2,g_t002e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「糞ッ……おい蛇子！
+　目抜けに忠誠誓っても無駄だぞ！？」
+<PAUSE>
+<ACTOR>1,h_t003c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「別にそんなんじゃないわよ。
+　骸佐ちゃんこそ、相変わらず家柄とか
+　一門とかにこだわってるのね」
+<PAUSE>
+<ACTOR>2,g_t002e,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.3,125
+<NAME_PLATE>骸佐
+「！？　俺をちゃん付けで呼ぶなッ！？」
+<PAUSE>
+<NAME_PLATE>
+　と言いながらも、骸佐は蛇子を睨んで
+引き下がる。
+昔からどうも蛇子には弱いらしい。
+<PAUSE>
+<ACTOR>2,g_t002i,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ちっ……雑魚にかまってる暇はねえ。
+　行くぞお前ら！」
+<PAUSE>
+<NAME_PLATE>
+　骸佐の声に、取り巻きたちは
+飽きたとばかり校舎の方へ歩き出す。
+<PAUSE>
+<ACTOR>2,g_t002e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ふうま！　お前に期待するのはやめた！！
+　いいか、俺の邪魔をするなよ、
+　すれば殺す！！！」
+<PAUSE>
+<ACTOR>2,g_t002e,LEFT, LEFT, OUT, linear, 1000
+<NAME_PLATE>
+　骸佐は捨て台詞を残して、
+取り巻きとともに去っていった。
+<PAUSE>
+<ACTOR>1,h_t003c,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「助かったよ蛇子」
+<PAUSE>
+<NAME_PLATE>蛇子
+「骸佐ちゃん、今日もカリカリしてたわね。
+　何があったの？」
+<PAUSE>
+<NAME_PLATE>俺
+「いつものイチャモンだ。やれやれだな。
+　ところで蛇子は何の用だ？」
+<PAUSE>
+<ACTOR>1,h_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あっ、そうそう。時子先生に頼まれたの。
+　ふうまちゃんを連れて来てって」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,300
+<NAME_PLATE>俺
+（うっ……）
+<PAUSE>
+<NAME_PLATE>
+　そういえば、今日は補講をすると
+言われていた……気がする。
+<PAUSE>
+<NAME_PLATE>俺
+「すまんが別の用事を思い出した」
+<PAUSE>
+<NAME_PLATE>
+　俺はそそくさと身を反し、
+その場を離れようとするが、
+<PAUSE>
+<EFFECT_QUAKE>HORIZONTAL,1,125
+<NAME_PLATE>
+　なにやらべたりとした感触が
+腕に張りついたかと思うと、
+そのまま身体を捕らえられてしまった。
+<PAUSE>
+<ACTOR>1,h_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「逃げられると思ってるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子！！　吸盤はよせ、気持ち悪い」
+<PAUSE>
+<ACTOR>1,h_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「気持ち悪いとは失礼ね♪」
+<PAUSE>
+<NAME_PLATE>
+　と言いながら、蛇子のタコ足は俺の体を
+ホールドして放そうとしない。頬をぺたぺた
+と撫でる吸盤が気持ち悪いことこの上ない。
+<PAUSE>
+<NAME_PLATE>俺
+「やめろ蛇子！！
+　わかった、わかった行くから！」
+<PAUSE>
+<NAME_PLATE>
+　その言葉で、やっとタコ足の拘束が緩んだ。
+<PAUSE>
+<ACTOR>1,h_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「わかってくれればいいのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれだな……」
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 0
+//【黒画面】
+<GROUP>
+<ACTOR>1,h_t003a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<WAIT>1500
+//【背景：五車学園地下訓練施設】//【時間：昼】
+<BG>nc002a,IN, 3000
+<GROUP>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,t_t001a,LEFT, LEFT, IN, linear, 1000
+<BGM_PLAY>bgm307,1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>ふうま時子
+「蛇子ちゃんありがとう。
+　お館様を連れて来てくれて」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+<NAME_PLATE>
+　五車学園の地下にある訓練場。
+<PAUSE>
+<NAME_PLATE>
+　ここはリアルな任務を想定して、
+あらゆるシチュエーションでの訓練が
+できるように作られた施設だ。
+<PAUSE>
+<NAME_PLATE>
+　実戦訓練がないときには、
+こうして補講や自習、読書などに
+開放されている。
+<PAUSE>
+<NAME_PLATE>俺
+「さっさと補講とやらを始めてくれ」
+<PAUSE>
+<ACTOR>2,t_t001l,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「お館様？
+　遅れておいてその態度はいただけませんよ」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「じゃあ、蛇子は見学してるわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>
+　蛇子はそう言って、
+訓練場の片隅に座り込んだ。
+<PAUSE>
+<NAME_PLATE>俺
+「は？　何でお前が俺の補講を
+　見学するんだよ？？」
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん、ヒマ潰し？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちっ。見世物じゃねえぞ」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふふふ。本当はね、ふうまちゃんを
+　連れてきたお駄賃に、時子先生が稲毛屋の
+　アイスを奢ってくれる約束なんだ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「稲毛屋の……アイス、だと！？」
+<PAUSE>
+<NAME_PLATE>
+　稲毛屋とは五車町にある駄菓子屋で、
+かつては房術を巧みに操ったという婆さんが
+ひとりでやっている。
+<PAUSE>
+<NAME_PLATE>
+　小さな店だが、
+五車町の数少ない娯楽の一つだ。
+<PAUSE>
+<NAME_PLATE>
+　そこで出されるソフトクリームは絶品。
+五車学園の生徒の間では、何かというと
+賭けの賞品にされるほど大人気である。
+<PAUSE>
+<NAME_PLATE>俺
+「俺もいいだろう時子！？」
+<PAUSE>
+<ACTOR>2,t_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「はい。ただし、
+　補講がちゃんと終わったらですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「やった！！！」
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ほんと子供ね、ふうまちゃ……」
+<PAUSE>
+//【背景：五車学園地下訓練施設＿警報】//【時間：昼】
+//　※対魔忍アサギZEROの背景NC015bより流用
+<GROUP>
+<BGM_STOP>0
+<SE_PLAY>se002
+<BG>nc002b,NONE
+<ACTOR>2,t_t001e,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,h_t001e,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 3000
+</GROUP>
+<NAME_PLATE>
+　そのとき、突然けたたましい警報が
+鳴り響いた。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ！？」
+<PAUSE>
+<NAME_PLATE>時子
+「これは……襲撃の警報です！！！」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+<BGM_PLAY>bgm303,1000
+<NAME_PLATE>
+　無意識だろうか、
+時子は俺をかばうようにして身構える。
+<PAUSE>
+<NAME_PLATE>俺
+「襲撃！？　この五車学園にか！？」
+<PAUSE>
+<NAME_PLATE>時子
+「ええ、演習の予定はありません」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり本物の襲撃か……ふむ」
+<PAUSE>
+<NAME_PLATE>
+　サイレンは鳴りやまない。
+ひと気のない地下に、
+やたら響く音が不安を煽った。
+<PAUSE>
+<ACTOR>2,t_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「状況を確認してきます。
+　二人はここを動かないように、いいですね」
+<PAUSE>
+<NAME_PLATE>俺
+「はい」
+<PAUSE>
+<ACTOR>2,t_t001c,LEFT, LEFT, OUT, linear, 1000
+<NAME_PLATE>
+　時子はつとめて冷静に言い置くと、
+地上への階段を駆け上がっていった。
+<PAUSE>
+<ACTOR>1,h_t001e,RIGHT, CENTER, NONE, linear, 1000
+<ACTOR>1,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「対魔忍だらけの学園に襲撃とは
+　いい度胸ね。どこの勢力かしら？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>俺
+「……興味あるな」
+<PAUSE>
+<NAME_PLATE>
+　地上からは、
+時子が防護扉を閉めた音がする。
+俺はそれを聞き届けて――
+<PAUSE>
+<NAME_PLATE>俺
+「よし、蛇子。俺たちも行くぞ」
+<PAUSE>
+<ACTOR>1,h_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「はぁ！？　時子先生が
+　ここを動くなって言ったじゃない」
+<PAUSE>
+<NAME_PLATE>俺
+「馬鹿を言うな！　こんな面白……もとい
+　非常事態にじっとしていられるか！」
+<PAUSE>
+<NAME_PLATE>俺
+「五車学園においては生徒であろうと
+　俺たちは対魔忍だろ？」
+<PAUSE>
+<ACTOR>1,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「活き活きしちゃってもう……。
+　怒られても知らないわよ？」
+<PAUSE>
+<NAME_PLATE>
+　そういう蛇子の目も、
+いたずらっぽく輝いている。
+<PAUSE>
+<NAME_PLATE>俺
+「お前も興味津々なんだろう？」
+<PAUSE>
+<ACTOR>1,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うふふ。ま、少し覗くくらいなら……ね？」
+<PAUSE>
+<ACTOR>1,h_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　蛇子はにこりと笑みを浮かべると、
+ばさりと制服を脱ぎすてる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,125
+<NAME_PLATE>俺
+（………！？）
+<PAUSE>
+<ACTOR>1,h_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「じゃ、さっそく行きましょうか！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　一瞬どきりとしたが、蛇子はちゃっかり
+制服の下に対魔忍スーツを着込んでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「やる気満々じゃねえか。
+　よし、時子にバレる前に行くぞ！」
+<PAUSE>
+<ACTOR>1,h_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「オッケー！」
+<PAUSE>
+//【背景：五車学園＿グラウンド＿昼】//【時間：昼】
+<BGM_STOP>2000
+<ACTOR>1,h_t002b,CENTER, CENTER, OUT, linear, 1000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<WAIT>1500
+<BGM_PLAY>bgm313,1000
+<BG>nc003a,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+「オラアアアア！！！」
+<PAUSE>
+<NAME_PLATE>
+「うわああっ！！　応援頼む！！」
+<PAUSE>
+<NAME_PLATE>
+「くそっ！　対応しきれん！」
+<PAUSE>
+<NAME_PLATE>
+「あっちにも現れたぞ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「これは……！？」
+<PAUSE>
+<NAME_PLATE>
+　グラウンドの様相はさっきと一変していた。
+<PAUSE>
+<NAME_PLATE>
+　舞い上がる土埃、叫び声、
+刃のぶつかる音――
+<PAUSE>
+<NAME_PLATE>
+　グラウンドだけではない。校舎や校庭、
+あらゆる場所で戦闘が起きている。
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>蛇子
+「ふうまちゃん、危ない！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おっと」
+<PAUSE>
+<NAME_PLATE>
+　俺のすぐ脇をかすめていったのは、
+陸上のハードル、そしてトンカチ、
+続いて三角コーン。
+<PAUSE>
+<NAME_PLATE>
+　あらゆるものが武器として
+使われているらしい。
+こんな戦い方をするのは――
+<PAUSE>
+<ACTOR>0,h_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「敵は対魔忍よ！
+　対魔忍同士で戦ってるわ！？
+　一体どういうことなの？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、反乱だな。
+　ふむ………こいつは面白いな」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「面白がってる場合じゃないでしょ！
+　いったい誰がそんなことを……？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「うわああああああああああああ！！！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「こ、今度はなんだ！？
+　何か来るぞ蛇子！？」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　何かが砂埃を巻き上げ、
+悲鳴とともに猛スピードで近づいてくる。
+<PAUSE>
+<NAME_PLATE>？？？
+「うああああああああああああああ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「おまえは！？」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>上原鹿之助
+「ふうまああああ！！！
+　蛇子おおおおお！！！
+　助けてくれええええええ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　見るも無残な顔で泣きついてきたのは、
+小柄な男子生徒。
+<PAUSE>
+<NAME_PLATE>
+　名を上原鹿之助（うえはらしかのすけ）と
+いう。幼く見えるが、こいつも俺の同級生だ。
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍１
+「待て！」
+<PAUSE>
+<NAME_PLATE>
+//　※立ち絵
+//　　対魔忍新兵（男)立ち絵
+<NAME_PLATE>鹿之助
+「ひいぃぃっ！　た、助けてくれ！
+　俺は戦闘向きじゃないんだってば！」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍２
+「黙れ！　仲間にならぬなら抹殺あるのみだ」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男)立ち絵
+<NAME_PLATE>
+　鹿之助は一応電遁の術使いなのだが、
+本人の言う通り戦いはてんでダメだ。
+<PAUSE>
+<NAME_PLATE>
+　ハデに雷を操る“雷”遁の術とは違い、
+電遁の術は生命体に存在する僅かな電気を
+操るのが主体だ。
+<PAUSE>
+<NAME_PLATE>
+　なにかと便利ではあるが、
+おおよそ戦闘向きの忍法ではないと
+言われている。
+<PAUSE>
+<NAME_PLATE>
+　もっとも、こいつの対魔忍としての問題は
+能力よりも性格にあるような気がするが。
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「あー、こいつを仲間にしても
+　役には立たんぞ」
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m037a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>反乱の対魔忍１
+「なんだぁ？　余裕ぶっこきやがって……
+　ん？　お前らは……」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍は俺の顔を見ると、
+仮面の奥底の目をにやりと細めた。
+<PAUSE>
+<NAME_PLATE>俺
+（こいつ、どこかで……）
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍１
+「おーい！　腰抜け当主様とタコ女が
+　こんな所にいたぞ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「！！　貴様ら、
+　骸佐の取り巻きの奴らか……！」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍２
+「うるさい！　我らは“ふうま正義派”だ。
+　堕落し、政府の犬と成り下がった現体制を
+　討伐すべく立ち上がった」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍２
+「我々に従うなら共に戦え。
+　従わない場合はこのチビと一緒に抹殺する」
+<PAUSE>
+<NAME_PLATE>俺
+「正義派ね……」
+<PAUSE>
+<NAME_PLATE>
+　俺は昼間の骸佐のセリフを思い出す。
+<PAUSE>
+<NAME_PLATE>俺
+「仮にもふうまの忍びであるお前らが
+　“反乱軍”の一味とはな。
+　当主に無断で反乱とはどういうつもりだ？」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍１
+「許可なら取ったぜ。我らの頭領が、
+　ついさっきな」
+<PAUSE>
+<NAME_PLATE>俺
+（ついさっきだと？）
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<TRANSITION>TR14, OUT, 1000
+<BG>black, NONE
+<ACTOR>2,ts_m037a,LEFT, LEFT, OUT, linear, 0
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, OUT, linear, 0
+<UI_DISP>ON, 0
+<NAME_PLATE>骸佐
+「いいか、俺の邪魔をするなよ、
+　すれば殺す！！！」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+//【背景：五車学園＿グラウンド＿昼】//【時間：昼】
+<UI_DISP>OFF, 0
+<BG>nc003a,NONE
+<TRANSITION>TR14, IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（あれがその通達だったという事か……）
+<PAUSE>
+<NAME_PLATE>俺
+「つまり、この反乱の首謀者は骸佐なのか？」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍１
+「雑魚が知る必要はない！
+　従うか死ぬか、選べ」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男)立ち絵
+<NAME_PLATE>
+　対魔忍は大きな刀の切っ先を
+まっすぐ俺に向ける。しかし、
+何をされようと答えは決まっている。
+<PAUSE>
+<GROUP>
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,s_t001e,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「悪いが軽挙妄動に従うつもりはないな」
+<PAUSE>
+<NAME_PLATE>蛇子
+「蛇子も同感よね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>鹿之助
+「お、俺もだぞ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>反乱の対魔忍２
+「雑魚どもが。後悔するぞ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男)立ち絵
+<NAME_PLATE>
+　対魔忍たちの身がにわかに殺気を帯びる。
+<PAUSE>
+<NAME_PLATE>
+　元々血の気の多い奴らだ。
+タガが外れた今、彼らは放たれた獣である。
+<PAUSE>
+<NAME_PLATE>
+　俺たち三人を血まみれにするのが
+待ちきれないとばかりに、
+ひとりが舌なめずりをした。
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍２
+「タコに静電気野郎に能無しか。
+　いいサンドバッグだぜ！！」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍１
+「へ、蛇子は殺すなよ？
+　殺すのはお楽しみの後だぜ」
+<PAUSE>
+//<NAME_PLATE>反乱の対魔忍１
+//「へ、蛇子は殺すなよ？　殺すのは
+//　お楽しみの後だぜ。目抜けの死体の前で
+//　たっぷり犯してやるんだ」
+//<PAUSE>
+<NAME_PLATE>反乱の対魔忍２
+「ああ、チビの癖にイイおっぱいしてやがる、
+　揉みまくってひーひー言わせてやりてえって
+　前から思ってたぜ」
+<PAUSE>
+<NAME_PLATE>
+　獣たちが飢えていたのは
+血にだけではないらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子、お前随分慕われていたようだぞ」
+<PAUSE>
+<ACTOR>1,h_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ぞっとするわね」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はこともなげに肩をすくめた。
+一方で慌てふためいているのは鹿之助である。
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「おおおおいふうまあああ！！
+　呑気に話してる場合かよ！？
+　どうやって逃げるんだ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「逃げるわけないだろう。蛇子、鹿之助。
+　俺のいう通りに動け。
+　そうすれば簡単に勝てる」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうん、言ってくれるわね♪
+　じゃあ頼むわよ、ふうまちゃん！
+　鹿之助ちゃん！！」
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「へ！？　俺を戦力に入れるなよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ鹿之助、お前だけでもあいつらに
+　従ったらいいだろ。
+　止めないぜ。その方が安全だろうしな」
+<PAUSE>
+<NAME_PLATE>
+　しかし、鹿之助は泣きそうな眉を
+精一杯吊り上げ、
+震える手を握りしめて俺の目を見上げた。
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ば、馬鹿言うな！　俺は正義の対魔忍
+　なんだ。こ、こ、殺されたって
+　悪の手先になんかなるかよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ふ……その覚悟があるなら
+　お前は立派な戦力さ」
+<PAUSE>
+<ACTOR>2,s_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「けど……さ、静電気で
+　どうやって戦うんだよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「それはお前が忍法の使い方を
+　分かっていないからだ。
+　お前の電遁の術は、充分に戦闘で使える」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「忍法の使い方……！？」
+<PAUSE>
+<NAME_PLATE>反乱の対魔忍１
+「おらおらぁ、今生の別れは済んだかぁ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちっ、説明してる時間は無い！
+　いいから俺の言う通りに戦え！　行くぞ！」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「オッケー！　頼んだわよ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひぃいいいい！！！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+//→Section１-戦闘１へ
+<GROUP>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>3000
+//※エンド命令
+<SCENARIO_END>
+//=================================================================

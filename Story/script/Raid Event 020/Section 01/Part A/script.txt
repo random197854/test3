@@ -1,0 +1,1970 @@
+//☆レイド20シナリオ
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：山奥の企業施設＿外観１＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC003b　より流用
+//nc394a
+<BG>nc394a,IN, 1000
+<NAME_PLATE>
+　三月のある夜のこと。
+<PAUSE>
+//【背景：山奥の企業施設＿森の中１＿夜】【時間：夜】
+//　※先生を孕ませよう_nc001c　より流用
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm509,1000
+<BG>nc178a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺たちは、樹々のうっそうと
+生い茂るとある森の中にいた。
+<PAUSE>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>望月卯奈
+「えっと……みんな、こっちだよ！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「ふうま、
+　あっちにイヤな気配がするぞ！」
+<PAUSE>
+<NAME_PLATE>相州蛇子
+「ふうまちゃん、気を付けて！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　などと俺たちは
+小声で囁き交わしながら森の中を進む。
+<PAUSE>
+<NAME_PLATE>
+　今回の任務は、この山中にある
+警備厳重な企業施設への隠密潜入だ。
+<PAUSE>
+<NAME_PLATE>
+　今俺たちが踏み込んでいる山林全体が、
+実はその企業が所有する極秘の研究施設。
+<PAUSE>
+<NAME_PLATE>
+　当然、部外者は立ち入り厳禁。
+<PAUSE>
+<NAME_PLATE>
+　山の中の至るところで、警備兵や
+ドローン、監視カメラやセンサー類が
+鋭く目を光らせている。
+<PAUSE>
+<NAME_PLATE>
+　なので今回、俺は潜入を得意とする
+メンバーに助力を頼んでいた。
+<PAUSE>
+<NAME_PLATE>
+　まず、その一人目――。
+<PAUSE>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　新コスチュームの
+うさぎの対魔忍・望月卯奈。
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　卯奈はうさぎの力を宿した
+“獣遁使い”の学生対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　優れた聴覚と高い瞬発力を持つ
+斥候・潜入任務のスペシャリスト。
+<PAUSE>
+<NAME_PLATE>
+　ただちょっと寂しいのに弱く、
+単独任務だと能力を発揮しきれない
+という評価もあるようだが、
+<PAUSE>
+<NAME_PLATE>
+　今回はチームでの行動なので
+その点は問題ないだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　さらに、いつもの遊撃隊の二人、
+蛇子と鹿之助。
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<NAME_PLATE>
+　単純な戦闘ではまだ
+一線級には遠い二人であるが、
+<PAUSE>
+<NAME_PLATE>
+　今回のような潜入や隠密の場面では
+その実力をいかんなく発揮する。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の“電遁の術”は、
+山中に張り巡らされた電子機器の
+警備網を無力化し、
+<PAUSE>
+<NAME_PLATE>
+　また、蛇子のタコ足にある吸盤は、
+敵の接近を察知する優秀な匂いの
+センサーだ。
+<PAUSE>
+<NAME_PLATE>
+　二人の潜入分野における評価は
+非常に高く、最近では先輩対魔忍の
+任務に協力したりもしているらしい。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、さらにもう一人――。
+<PAUSE>
+<NAME_PLATE>俺
+「……みんな、
+　くれぐれも気をつけろよ」
+<PAUSE>
+<NAME_PLATE>俺
+「今回の任務、情報の出どころが
+　不審だから注意しろって
+　アサギ先生も言ってたしな……」
+<PAUSE>
+<NAME_PLATE>
+　俺の囁きに同行する皆がうなずく。
+<PAUSE>
+<NAME_PLATE>
+　今回の任務は、とある企業が不法に
+入手した魔界の技術を開発している
+疑いがあり、その調査である。
+<PAUSE>
+<NAME_PLATE>
+　だが、そこで――。
+<PAUSE>
+<NAME_PLATE>
+　今日の任務の“もう一人”のメンバーが、
+ニヤっと笑って俺の耳元で囁いた。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>綴木みこと
+「……にししっ。
+　そうだよねえ、ふうま先輩っ♪」
+<PAUSE>
+//　※立ち絵
+//　　綴木みこと
+//　　　　＊カードイラストより流用
+<NAME_PLATE>みこと
+「“アサギ先生の指示”なんだから、
+　しっかり注意しないと……♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ぐっ。お、おう……」
+<PAUSE>
+<NAME_PLATE>
+　君もなかなか役者やのう――という
+ニヤニヤ顔で俺を見上げてくる少女。
+<PAUSE>
+<NAME_PLATE>
+　そう、今回の任務では、
+俺は他の仲間に話していない
+“ある秘密”があった。
+<PAUSE>
+<NAME_PLATE>
+　俺と、この少女――
+綴木みことに関する秘密。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それは――。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数日前。
+<PAUSE>
+//【背景：五車学園＿校門前＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC008aより流用
+<UI_DISP>OFF, 0
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　昼下がりの五車学園。
+<PAUSE>
+//【背景：五車学園＿グラウンド＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC012aより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm208,1000
+<BG>nc003a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「くそー。いよいよ追い込まれたぜ。
+　“おいしいバイト”なんて、
+　そうそう転がってないよなぁ……」
+<PAUSE>
+<NAME_PLATE>
+　その時の俺は、スマホを片手に
+一人ぶつぶつとぼやいていた。
+<PAUSE>
+<NAME_PLATE>
+　その原因は、いつもと同じく
+お小遣い不足の金欠――。
+<PAUSE>
+<NAME_PLATE>
+　なのだが、今回はいつもより緊急に
+お金をゲットする必要があったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（ぐうぅ。まさかバレンタインに
+　こんな罠があったとは。これは
+　まじでお菓子業界の策略だぜ……）
+<PAUSE>
+<NAME_PLATE>
+　つまりホワイトデーのお返し
+問題であった。
+<PAUSE>
+<NAME_PLATE>
+　今年、例年にないチョコフィーバーで
+女子から貰いまくってしまった俺。
+<PAUSE>
+<NAME_PLATE>
+　当然、チョコをくれた女の子たちに
+そのお返しをしたいところである。
+<PAUSE>
+<NAME_PLATE>
+　だが俗説では男子がお返しする場合、
+三倍上等なお菓子を贈るという
+謎の風習があるらしい。
+<PAUSE>
+<NAME_PLATE>
+　哀しいことに、時子による厳しい
+お小遣い体制でやりくりしている俺に
+そんな余裕があるはずもなく……。
+<PAUSE>
+<NAME_PLATE>
+　やむなく“おいしいバイト”を
+探して頭を悩ませているのであった。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに、鹿之助も今年は
+俺と同じくらいチョコを貰えたが、
+<PAUSE>
+<NAME_PLATE>
+　ああ見えてわりと良いとこの子なので
+お小遣いが多く、余裕で乗り切れるとのこと。
+<PAUSE>
+<NAME_PLATE>俺
+「うーん。やっぱり、
+　ＴＨＥ・限界集落の五車には
+　良いバイトはないなぁ」
+<PAUSE>
+<NAME_PLATE>俺
+「ていうか、お店自体が
+　あんまりないからなぁ……」
+<PAUSE>
+<NAME_PLATE>
+　スマホでバイト情報を
+検索しながら頭を抱える俺。
+<PAUSE>
+<NAME_PLATE>
+　いちおう稲毛屋という候補も
+あるにはある。
+<PAUSE>
+<NAME_PLATE>
+　でも稲毛屋のバイトは五車の学生の
+間では『命に関わる最後の手段』と
+恐れられていて、
+<PAUSE>
+<NAME_PLATE>
+　見返りも大きいが代償もそれ以上に大きく、
+うかつに関わってはいけない禁じ手らしい。
+<PAUSE>
+<NAME_PLATE>
+　実際、夏休みに稲毛屋でバイトを
+したらしいクラスメイトの磯咲伊紀が、
+<PAUSE>
+<NAME_PLATE>
+　夏休み明けの数日間、廃人状態で
+その辺をうろうろしていたのが
+目撃されている。
+<PAUSE>
+<NAME_PLATE>
+　……さすがに
+そんなバイトは怖すぎる。
+<PAUSE>
+<NAME_PLATE>俺
+「うーむ。そうなると、
+　五車の外で見つけるしか……」
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>
+　俺が見ていたスマホの画面が
+突然、大きく乱れ、勝手に
+アプリが立ち上がったかと思うと。
+<PAUSE>
+<NAME_PLATE>？？？
+『にししっ♪　もしやふうま先輩、
+　割のいい仕事をお探しですかー？』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわぁっ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は思わずのけぞった。
+<PAUSE>
+<NAME_PLATE>
+　これは……スマホが壊れた、
+いや、誰かに乗っ取られた……！？
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「へへ～っ。
+　見事に侵入大成功ー♪」
+<PAUSE>
+//　※立ち絵
+//　　綴木みこと
+//　　　　＊カードイラストより流用
+<NAME_PLATE>みこと
+「せーんぱい、そのスマホ、
+　セキュリティがばがばだから、
+　気をつけないとだめだよ～？」
+<PAUSE>
+<NAME_PLATE>みこと
+「あっ。でも、今わたしが
+　ついでに直してあげたから、
+　しばらくは大丈夫だけど♪」
+<PAUSE>
+<NAME_PLATE>俺
+「おまえ……綴木みこと！！？」
+<PAUSE>
+<NAME_PLATE>
+　仰天する俺の前に悪戯っぽく笑う
+細身の女の子が立っていた。
+<PAUSE>
+<NAME_PLATE>
+　今俺のスマホで勝手に立ち上がった
+通話ソフトに表示されたのと同じ顔。
+<PAUSE>
+<NAME_PLATE>
+　可愛らしい顔にＡＲ用ゴーグルを装着し、
+カタカタと虚空で指を躍らせている。
+<PAUSE>
+<NAME_PLATE>
+　綴木（つづるぎ）みこと。
+<PAUSE>
+<NAME_PLATE>
+　俺と同じ学年、
+隣のクラスの学生対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　“電子の申し子”ともいわれる
+ハッキングと情報操作の達人である。
+<PAUSE>
+<NAME_PLATE>俺
+「み、みこと……！？
+　侵入ってことは、今、
+　俺のスマホを弄ったのはお前か！？」
+<PAUSE>
+<NAME_PLATE>みこと
+「そうだよ～♪　センパイ、
+　何かどんよりした顔でスマホ見てて、
+　わたしが声かけても反応しないし～」
+<PAUSE>
+<NAME_PLATE>みこと
+「だから、
+　ちょっとイタズラしちゃった、
+　ごめんねっ！　にししっ♪」
+<PAUSE>
+<NAME_PLATE>みこと
+「あっ。さっきも言ったけど、
+　セキュリティを強化してあげた以外は
+　何もしてないから、安心して♪」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……。
+　いやまあ、何もしてないなら
+　別にいいけど……」
+<PAUSE>
+<NAME_PLATE>みこと
+「うんっ！　してないよー♪
+　センパイ秘蔵のえっちな動画フォルダを
+　ちょっとのぞいただけ！」
+<PAUSE>
+<NAME_PLATE>みこと
+「せんぱーい、やっぱり大きな
+　おっぱいの子が好きなんだねえ。
+　わたしちょっとショックだよぉ……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「お、おまえー！！？」
+<PAUSE>
+<NAME_PLATE>
+　やっぱり油断も隙もない。
+<PAUSE>
+<NAME_PLATE>
+　みことは、持ち前のハッキング
+能力でどこからともなく様々な
+情報を入手してくることから、
+<PAUSE>
+<NAME_PLATE>
+　学園内でも秘密の
+“情報屋”として恐れられたり
+重宝がられたりしているのだった。
+<PAUSE>
+<NAME_PLATE>みこと
+「あははっ！　うそうそー♪
+　のぞいてないから安心して！
+　今のはカマをかけただけ」
+<PAUSE>
+<NAME_PLATE>みこと
+「センパイの女の子の好みぐらい、
+　いつも一緒にいる人たちを見れば
+　何となくわかるしー♪」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、別に俺は、
+　大きいのも小さいのも両方……
+　って、それはもういい！」
+<PAUSE>
+<NAME_PLATE>
+　俺は気を取り直して話を変えた。
+<PAUSE>
+<NAME_PLATE>
+　学内のあらゆる情報に精通する
+といわれる綴木みことである。
+<PAUSE>
+<NAME_PLATE>
+　放っておくとどんどん
+話を引っかき回されてしまう。
+<PAUSE>
+<NAME_PLATE>俺
+「そ、それで……なんの用だよ！
+　お前、わざわざ俺をからかいに
+　来たわけじゃないんだろ」
+<PAUSE>
+<NAME_PLATE>みこと
+「あー。そうなんですよ。
+　ふうま先輩が、なにやら
+　お金に困っていると聞いてね」
+<PAUSE>
+<NAME_PLATE>みこと
+「良かったらわたしが、
+　“おいしいバイト”を紹介して
+　あげよっかなーって！」
+<PAUSE>
+<NAME_PLATE>俺
+「バイト？　お前が……」
+<PAUSE>
+<NAME_PLATE>
+　確かに俺はバレンタインの
+お返しのためにバイトを探していた。
+<PAUSE>
+<NAME_PLATE>
+　みことは、学内の噂などから
+それを聞きつけたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　しかし、こいつが
+紹介するバイトとは……？
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>みこと
+「……実はね、ふうま先輩。
+　わたしは、学園の任務の他に、
+　こっそり“世直し”をやっているんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？」
+<PAUSE>
+<NAME_PLATE>
+　思わず口を開けてしまう。
+<PAUSE>
+<NAME_PLATE>
+　そんな俺にみことが悪戯っぽく
+目を輝かせながら、
+その“世直し”について説明する。
+<PAUSE>
+//【背景：雰囲気背景＿悪徳企業ビル＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯの背景　NC039bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0142a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　みことがやっているのは、
+得意のハッキング技術を活かした
+世直し義賊“電脳ネズミ小僧”。
+<PAUSE>
+<NAME_PLATE>
+　世にはびこる悪徳企業のデータに侵入し、
+それをバラまいたり売り払ったりして、
+手ひどく懲らしめているという。
+<PAUSE>
+<NAME_PLATE>
+　そして今回、俺にも
+その活動を手伝って欲しい、と。
+<PAUSE>
+<NAME_PLATE>
+　それがみことが俺に言った、
+“おいしいバイト”――。
+<PAUSE>
+//【背景：五車学園＿グラウンド＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC012aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc003a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「おいおい、お前……？
+　そんな無茶なこと、
+　一人でこっそりやってるのか？」
+<PAUSE>
+<NAME_PLATE>
+　思わず呆れたように俺が言うと、
+みことは不平そうに唇を尖らせて。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「ええっ？　当然でしょう！？
+　ちょっとくらい無理したって、
+　ガンガン能力を使っていかないと！」
+<PAUSE>
+<NAME_PLATE>みこと
+「そうじゃなかったら、
+　軽く見られるだけだもんっ！！」
+<PAUSE>
+<NAME_PLATE>みこと
+「忍法が使えない落第生って――。
+　そういうの、ふうまセンパイも
+　よくわかるでしょうっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「う、うーむ……」
+<PAUSE>
+<NAME_PLATE>
+　みことの勢いに押され、
+俺は思わず小さく唸る。
+<PAUSE>
+<NAME_PLATE>
+　今当人が言ったように、みことは、
+対魔忍ながらまだ忍法に覚醒していない、
+学園の評価でいえば“落第生”。
+<PAUSE>
+<NAME_PLATE>
+　それを持ち前の頭脳と負けん気、
+卓越した空間認識能力によって、
+<PAUSE>
+<NAME_PLATE>
+　得意としていたハッキング技術を
+達人レベルまで鍛え上げた。
+<PAUSE>
+<NAME_PLATE>
+　忍法が使えない“目抜け”ながら
+何とか部隊の指揮をしている俺とは、
+ある意味では似たもの同士。
+<PAUSE>
+<NAME_PLATE>
+　同学年のみことが俺を『先輩』と
+呼ぶのも、そういう点で親近感を
+抱いているかららしい。
+<PAUSE>
+<NAME_PLATE>俺
+「みこと。お前、
+　誰かに何か言われたのか？」
+<PAUSE>
+<NAME_PLATE>
+　俺はふと思いついて聞いてみた。
+<PAUSE>
+<NAME_PLATE>
+　突然“義賊”とか言い出すからには、
+何かきっかけがありそうだ。
+<PAUSE>
+<NAME_PLATE>みこと
+「そ、それは……ちょっと前、
+　一緒に任務をした先輩に……」
+<PAUSE>
+<NAME_PLATE>俺
+「先輩……？」
+<PAUSE>
+<NAME_PLATE>みこと
+「うん。あなたは忍法が
+　使えないんだから下がってなさい！
+　って言われて……」
+<PAUSE>
+<NAME_PLATE>みこと
+「なにそれーって感じだよね！？」
+<PAUSE>
+<NAME_PLATE>みこと
+「そりゃあ確かに、あの時は
+　ちょっと調子に乗って前に出過ぎて、
+　危なかったりはしたけれど……」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　ってことはお前、その先輩に
+　助けてもらったりしたのか？」
+<PAUSE>
+<NAME_PLATE>
+　その流れで、戦闘で
+前に出過ぎたことを叱られた、と。
+<PAUSE>
+<NAME_PLATE>みこと
+「ま、まあ……結果的には。
+　でも！　そこまで
+　言わなくていいと思わない！？」
+<PAUSE>
+<NAME_PLATE>みこと
+「わたしだって、戦いのときも、
+　戦い以外だって、ぜーんぜん、
+　たくさん役に立てるんだから！」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど……。じゃあ、
+　その先輩を見返してやるために
+　義賊とやらを始めたのか」
+<PAUSE>
+<NAME_PLATE>
+　俺がつぶやくと、みことが
+我が意を得たりと大きくうなずく。
+<PAUSE>
+<NAME_PLATE>みこと
+「そう！！　それで、
+　ついに特大のネタを見つけたの！」
+<PAUSE>
+<NAME_PLATE>みこと
+「この仕事を成功させれば、
+　あの口うるさい先輩も絶対に
+　ぎゃふんと言っちゃうはず！」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ……？」
+<PAUSE>
+//【背景：山奥の企業施設＿外観１＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC003b　より流用
+//nc394a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc394a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　みことが入手した
+“特大のネタ”――。
+<PAUSE>
+//【背景：山奥の企業施設＿外観２＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC011a　より流用
+//nc395a
+<UI_DISP>OFF, 0
+<BG>nc395a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　それは、東京近郊のとある
+企業施設で行われているという、
+極秘の技術研究であった。
+<PAUSE>
+//【背景：山奥の企業施設＿実験室１＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC007a　より流用
+//nc396a
+<UI_DISP>OFF, 0
+<BG>nc396a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　中華連合系企業“ハイシェン”
+所有の秘密研究施設。
+<PAUSE>
+<NAME_PLATE>
+　そこで、不法に入手した
+魔界技術の研究が秘密裏に進められている
+疑惑があるのだという。
+<PAUSE>
+<NAME_PLATE>
+　この情報を得てみことは奮い立った。
+<PAUSE>
+<NAME_PLATE>
+　今までの“義賊”活動とは
+比較にならない巨大な相手、
+巨大な秘密。
+<PAUSE>
+<NAME_PLATE>
+　これを証明・告発すれば
+大スクープになるし、
+報奨金が出ればお金にもなる。
+<PAUSE>
+<NAME_PLATE>
+　なにより悪の企業の活動を
+潰すのは対魔忍の役目である。
+<PAUSE>
+//【背景：五車学園＿グラウンド＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC012aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc003a,IN, 1000
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>みこと
+「ふうま先輩、こういう潜入任務の
+　経験豊富みたいだし――だから、
+　手伝ってもらおうと思ったの！」
+<PAUSE>
+<NAME_PLATE>みこと
+「それが“おいしいバイト”♪」
+<PAUSE>
+<NAME_PLATE>みこと
+「この仕事が成功したら、
+　センパイのお小遣い一年分ぐらい
+　余裕ゲットできるかもよ～？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「い、一年分っ！？
+　それはかなり魅力的だが……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はいったん冷静になって考える。
+<PAUSE>
+<NAME_PLATE>
+　魔界技術に関わる施設ともなれば
+相応の警備を敷いているだろうし……。
+<PAUSE>
+<NAME_PLATE>
+　それに、みことの行動は“義賊”
+――つまり五車の任務ではない。
+<PAUSE>
+<NAME_PLATE>
+　五車組織のフォローを得られず、
+最悪、規律違反としてペナルティを
+受ける可能性もある。
+<PAUSE>
+<NAME_PLATE>
+　いくら正義の行動
+（そして高額なバイト代のため）とはいえ、
+かなりリスクが大きいように思えるが……。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「へーきへーき♪
+　こんな企業施設の侵入くらい、
+　わたし、今まで何回もやってきたし」
+<PAUSE>
+<NAME_PLATE>みこと
+「それに、ミッションは
+　難しい方がワクワクするからね～♪
+　センパイもそう思うでしょ！」
+<PAUSE>
+<NAME_PLATE>俺
+「むぅぅ……わかったよ。
+　お前の“義賊”活動とやらに、
+　俺も協力する」
+<PAUSE>
+<NAME_PLATE>俺
+「勿論、バイト代のこともあるけど――
+　俺が断ったらお前一人でもやるだろう？
+　さすがにそれは心配だ」
+<PAUSE>
+<NAME_PLATE>
+　『力を認めさせたい』――。
+<PAUSE>
+<NAME_PLATE>
+　同じ“落第生”として、
+そんなみことの気持ちはよくわかる。
+<PAUSE>
+<NAME_PLATE>
+　だから俺は、こいつを
+放っておけなくなったのだ。
+<PAUSE>
+<NAME_PLATE>みこと
+「ほほう？　ふうまセンパイ、
+　今度はわたしの心配ですかー♪
+　さっすがモテモテの人は違いますな～」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いやお前……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そんな俺の気持ちを知ってか知らずか、
+みことは相変わらずにやにやと
+小悪魔っぽく笑うのであった。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――というのが、
+俺とみことの間の“秘密”。
+<PAUSE>
+//【背景：山奥の企業施設＿地下ケーブル＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc033a　より流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm509,1000
+<BG>nc020a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（ぐぅぅ……。
+　なんとも後ろめたいぜ……）
+<PAUSE>
+<NAME_PLATE>
+　今回の任務の詳しい事情は、
+蛇子や卯奈たちには話してない。
+<PAUSE>
+<NAME_PLATE>
+　みことは、「皆にも話した方が
+いいんじゃない？」と言っていたのだが、
+俺がそれを止めたのだ。
+<PAUSE>
+<NAME_PLATE>
+　今回の目的では、
+そちらの方が話が早い。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、仲間に隠し事を
+しているのはどうにも気が咎める。
+<PAUSE>
+<NAME_PLATE>
+　――と、俺がこっそり罪悪感で
+胃を痛くしている一方で。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「よしっ！　できたー！
+　お宝情報ゲットだぜっ！」
+<PAUSE>
+//　※立ち絵
+//　　綴木みこと
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「おおーっ！？
+　すごいピコピコ言ってる！
+　何だかわからないけど超すげえ！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<NAME_PLATE>蛇子
+「みことちゃん、さすがよね！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「すごいすごい！！
+　みことちゃん、尊敬だよ～」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「へへ～♪　それほどでも～」
+<PAUSE>
+<NAME_PLATE>
+　と、みことの鮮やかなハッキングの
+手並みに一同が大盛り上がりしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ここは、企業敷地から外部へと
+繋がる地下ケーブル施設。
+<PAUSE>
+<NAME_PLATE>
+　ここからみことがデータに侵入し、
+本丸である研究施設の内部を探ろう
+という狙いである。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「ねえ、ふうまセンパイ！
+　やっぱりこの施設怪しいよ。
+　地下に公表されてない変な施設がある」
+<PAUSE>
+<NAME_PLATE>みこと
+「セキュリティが厳重で
+　ここからじゃ危険すぎて深くまで
+　入れなかったけど――」
+<PAUSE>
+<NAME_PLATE>みこと
+「って、どうしたのセンパイ？
+　出勤前の人生に疲れたサラリーマン
+　みたいな顔になってるけど」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「い、いや、俺のことはいい！
+　とにかく――」
+<PAUSE>
+<NAME_PLATE>俺
+「ここからじゃダメなら、
+　予定通り直接調べに行くしかないな。
+　みんな、気をつけて進もう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺たちはうなずき合い、地下
+ケーブル施設からさらに奥へと進む。
+<PAUSE>
+//【背景：黒画面】
+//【背景：山奥の企業施設＿通路１＿夜】【時間：夜】
+//　※鋼殻のアイ_nc015a　より流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc019a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　企業施設内部。
+<PAUSE>
+<NAME_PLATE>
+　みことのハッキングで施設の
+詳細な地図を入手していたおかげで、
+<PAUSE>
+<NAME_PLATE>
+　俺たちはほとんど苦労なく
+施設の奥へと進むことができた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「お～っ。やっぱり
+　みことのテクはスゴイなぁ。でも、
+　俺たちこんな楽していいのかなぁ？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<NAME_PLATE>蛇子
+「何だか申しわけない感じよねえ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　蛇子と鹿之助が顔を見合わせる。
+<PAUSE>
+<NAME_PLATE>
+　安全なルートの割り出しだけでなく、
+センサーや監視カメラの乗っ取りなど、
+<PAUSE>
+<NAME_PLATE>
+　施設に侵入してからというもの、
+みことのハッキング無双という状態だ。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「にししっ。良いって良いって！
+　こういう施設の中こそ、
+　わたしの技術の出番だしね～」
+<PAUSE>
+//　※立ち絵
+//　　綴木みこと
+//　　　　＊カードイラストより流用
+<NAME_PLATE>みこと
+「まあ、ここはわたしに任せて
+　みんなはのんびりついてきてよ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「お、おう……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「じゃあお言葉に甘えて……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　再び顔を見合わせる蛇子と鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　そこに――。
+<PAUSE>
+<NAME_PLATE>俺
+「皆、遅れてすまなかったな。
+　もう進んで大丈夫だ」
+<PAUSE>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「みんな、ただいまだよ～」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ひそひそと声をひそめながら
+俺と卯奈が合流する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あっ。
+　ふうまちゃんたちおかえりー。
+　どうだった、帰り道は？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。幾つか目星と、もしもの
+　時の“仕掛け”を作っておいた」
+<PAUSE>
+<NAME_PLATE>
+　小声で聞いてくる蛇子に俺は答える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　みことが地下施設への
+セキュリティを攻略している間、
+<PAUSE>
+<NAME_PLATE>
+　耳が鋭敏な卯奈を護衛に借りて
+退路の確認をしてきたのだった。
+<PAUSE>
+<NAME_PLATE>みこと
+「ふーん。帰り道……？
+　そんなに気にしなくても、今の
+　調子なら楽勝で脱出できそうだけど」
+<PAUSE>
+<NAME_PLATE>俺
+「あぁ。何事もなく
+　終わればそれが一番だ」
+<PAUSE>
+<NAME_PLATE>俺
+「でも、こういう任務には
+　よく“万が一”が起こるからな。
+　その時の備えだよ」
+<PAUSE>
+<NAME_PLATE>みこと
+「経験者は語るってやつですか？
+　まあ、了解しました。
+　それより――」
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「はいっ、ふうまセンパイ。
+　それから、みんな。
+　ゴールへのトビラが開いたよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　小さくうなずいたみことが
+壁面の端末から一歩下がる。
+<PAUSE>
+<NAME_PLATE>
+　行く手を塞いでいた隔壁が上がり、
+地下施設への通路が姿を見せた。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+//【背景：山奥の企業施設＿研究室１＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC012a　より流用
+//【背景：山奥の企業施設＿研究室２＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC013a　より流用
+<UI_DISP>OFF, 0
+//nc397a
+<BGM_PLAY>bgm203,1000
+<BG>nc397a,IN, 1000
+<WAIT>1000
+<BG>nc179a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「これは……
+　予想以上だったな……」
+<PAUSE>
+<NAME_PLATE>
+　地下深くに隠された研究施設。
+<PAUSE>
+<NAME_PLATE>
+　慎重に警備を避け、そこに
+辿り着いた俺は思わず顔を硬くする。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0307a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ひ、ひえぇ……ふうま、
+　なんだよこの怪物たち……？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「ああっ、だめっ！
+　こういうコワいの見ると、
+　私、またおしっこが……」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あうう、すごいイヤな匂い……。
+　蛇子、吐いちゃいそう……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿対魔忍衣裳
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺だけでなく、他の仲間も
+一様に顔を青ざめさせていた。
+<PAUSE>
+<NAME_PLATE>
+　施設の至る所にヒトと“何か”の
+合成らしき強化人間のポッドが林立し、
+<PAUSE>
+<NAME_PLATE>
+　さらに奥では、その“何か”を
+パーツとして組み込んだ、異形の
+強化外骨格の開発が進められている。
+<PAUSE>
+<NAME_PLATE>
+　それは、魔界の医療技術と
+人間の科学技術の融合。
+<PAUSE>
+<NAME_PLATE>
+　みことが事前に掴んだ情報通り――
+いや、その何倍もおぞましい
+“魔”の研究施設であった。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「ややや、やった……！？
+　ふうまセンパイ、これ大発見、
+　大スクープだよねっ！？」
+<PAUSE>
+<NAME_PLATE>みこと
+「じゃ、じゃあ早速始めるね！
+　こんな危ない研究データ、
+　ぜんぶ引っ張り出して……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　声を震わせたみことが勢い込んで
+端末に取り付き、指を躍らせ始める。
+<PAUSE>
+<NAME_PLATE>
+　だが、その時――。
+<PAUSE>
+//【背景：黒画面】
+//【背景：山奥の企業施設＿外観１＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC003b　より流用
+//nc394a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc394a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　中華連合系企業“ハイシェン”
+所有、山奥の秘密研究施設。
+<PAUSE>
+//【背景：山奥の企業施設＿外部の作戦用コンテナ＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc036a　より流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm203,1000
+<BG>nc068b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その敷地に人目を避けるように
+設置された特殊作戦用コンテナ車。
+<PAUSE>
+<NAME_PLATE>
+　その中で、幾人もの傭兵と技術者が
+モニタをにらんで作業を続けている。
+<PAUSE>
+<NAME_PLATE>
+　そして、彼らを指揮しているのが、
+瞳に強い知性の輝きを湛えた
+オークの大男であった。
+<PAUSE>
+<ACTOR>1,ka_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>傭兵
+「――ボス、始まりましたぜ！
+　“ネズミ”の野郎、
+　まんまと仕掛けに食いついた！」
+<PAUSE>
+//　※立ち絵
+//　　神田旅団兵士
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m253a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ルイス“Ｔｈｅ　Ｓｈａｍａｎ”
+「ああ。計画通りだな」
+<PAUSE>
+//　※立ち絵
+//　　ルイス“The Shaman”
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m253a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　彼の名は、
+ルイス“Ｔｈｅ　Ｓｈａｍａｎ”。
+<PAUSE>
+<NAME_PLATE>
+　歴戦の兵士として闇の街で名を馳せる
+オーク傭兵・アルフォンスの弟。
+<PAUSE>
+<NAME_PLATE>
+　兄のアルフォンスは主に
+東京の闇の街で活動をしているが、
+<PAUSE>
+<NAME_PLATE>
+　弟のルイスは海外の紛争地域の
+傭兵仕事で戦果を挙げ、最近、
+この日本へとやってきた。
+<PAUSE>
+<NAME_PLATE>
+　“Ｔｈｅ　Ｓｈａｍａｎ”の
+二つの名の通り、
+火や風を操る熟練の精霊使いであり、
+<PAUSE>
+<NAME_PLATE>
+　また同時に、“もうひとつ”の
+特殊技能によって知られていた。
+<PAUSE>
+<NAME_PLATE>
+　それは――。
+<PAUSE>
+<NAME_PLATE>ルイス“Ｔｈｅ　Ｓｈａｍａｎ”
+「では、こちらも仕事に入ろう。
+　ネズミ狩りのスタートだ」
+<PAUSE>
+<NAME_PLATE>
+　静かに呟いたルイスの両腕から、
+闇に淡く輝く無数の光の粒が発生した。
+<PAUSE>
+//【背景：黒画面】
+//【背景：山奥の企業施設＿研究室２＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC013a　より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc179a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　特殊ＡＲゴーグルに投影された
+操作盤に指を走らせ、ハッキングを
+開始したみこと――。
+<PAUSE>
+<NAME_PLATE>
+　だが、その表情が一瞬で
+凍り付いた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>みこと
+「えぇっ！？
+　な、なにこれ――」
+<PAUSE>
+//　※立ち絵
+//　　綴木みこと
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　同時に――。
+<PAUSE>
+<SE_PLAY>se002_01
+<NAME_PLATE>
+　ビー、ビー、ビー！！！！！
+<PAUSE>
+<NAME_PLATE>俺
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　地下施設に鳴り響く警報。
+<PAUSE>
+<NAME_PLATE>
+　静寂に満ちていた施設全体が、
+突然、危険な喧騒に包まれる。
+<PAUSE>
+<NAME_PLATE>
+　さらに――。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチン！！！！
+<PAUSE>
+<SE_PLAY>se010
+<NAME_PLATE>みこと
+「あうぅっ！？」
+<PAUSE>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「み、みことちゃんっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　小さく悲鳴を上げて尻もちを
+ついたみことに卯奈が駆け寄った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その頭部に装着した
+ウサ耳型アンテナがバチバチと
+異常な反応を示している。
+<PAUSE>
+<NAME_PLATE>みこと
+「う、うそ……、
+　信じられない……」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おい！？
+　どうしたんだ、みこと！？」
+<PAUSE>
+<NAME_PLATE>
+　真っ青になったみことが、
+震える声で呟いた。
+<PAUSE>
+<NAME_PLATE>みこと
+「逆ハッキング……」
+<PAUSE>
+<NAME_PLATE>みこと
+「いま……誰かが、
+　わたしの中に入ってきた……」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……？」
+<PAUSE>
+<NAME_PLATE>
+　みことが勢い込んで
+研究データを抜き取ろうと
+地下施設の端末にアクセスした――。
+<PAUSE>
+<NAME_PLATE>
+　そこに罠が
+仕掛けられていたのだという。
+<PAUSE>
+<NAME_PLATE>
+　この施設のネットワークには、
+すでに何者かが先に侵入していて、
+<PAUSE>
+<NAME_PLATE>
+　至る所に巧妙なセキュリティホールを
+仕込んでいた。
+<PAUSE>
+<NAME_PLATE>
+　みことが“らくしょー”と
+余裕たっぷりで通ってきた
+地下施設までの潜入ルート。
+<PAUSE>
+<NAME_PLATE>
+　それも、先に侵入した
+“誰か”が事前に用意していたもの。
+<PAUSE>
+<NAME_PLATE>
+　つまり、みことと俺たちは、
+<PAUSE>
+<NAME_PLATE>
+　何者かの巧妙な仕掛けによって、
+この地下施設まで誘導された。
+<PAUSE>
+<NAME_PLATE>みこと
+「このトラップの張り方……、
+　わたし、知ってる……」
+<PAUSE>
+<NAME_PLATE>みこと
+「……“Ｔｈｅ　Ｓｈａｍａｎ”」
+<PAUSE>
+<NAME_PLATE>みこと
+「わたしの、
+　ハッキングの師匠……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はあ！！？」
+<PAUSE>
+<NAME_PLATE>
+　呆然としたみことの
+言葉によれば――。
+<PAUSE>
+<NAME_PLATE>
+　“Ｔｈｅ　Ｓｈａｍａｎ”とは、
+海外紛争地域のテロリスト相手に
+電子戦で暴れまくった凄腕のハッカー。
+<PAUSE>
+<NAME_PLATE>
+　まるで電子の神に仕えているようだ――
+という評判から、“Ｔｈｅ　Ｓｈａｍａｎ”
+という異名がついた。
+<PAUSE>
+<NAME_PLATE>
+　みことは、独学で
+ハッキングの技術を習得したが、
+<PAUSE>
+<NAME_PLATE>
+　その時にお手本にしたのが、
+伝説級の凄腕“Ｔｈｅ　Ｓｈａｍａｎ”の
+ハッキング技法。
+<PAUSE>
+<NAME_PLATE>
+　その“師匠”と
+よく似たアタックの方法で、
+<PAUSE>
+<NAME_PLATE>
+　今、何者かがみことに
+攻撃を仕掛けてきたのだという。
+<PAUSE>
+<NAME_PLATE>？？？
+『……おやおや。
+　俺を知っているのか、子鼠』
+<PAUSE>
+<NAME_PLATE>みこと
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　バチバチと異常な反応を示す
+みことのハッキング用の頭部端末。
+<PAUSE>
+<NAME_PLATE>
+　そこから男の静かな声が囁く。
+<PAUSE>
+<NAME_PLATE>？？？
+『お前がこの施設を
+　探っていたのはわかっていた』
+<PAUSE>
+<NAME_PLATE>？？？
+『そして、ちょうど俺たちも
+　この施設に探していたものがあった』
+<PAUSE>
+<NAME_PLATE>？？？
+『だから子鼠――』
+<PAUSE>
+<NAME_PLATE>？？？
+『悪いが、お前たちを
+　利用させて貰うことにした』
+<PAUSE>
+<SE_PLAY>se002_01
+<NAME_PLATE>
+　ビー、ビー、ビー！！！
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「はうぅっ！！？
+　ええっ、なにこれ……」
+<PAUSE>
+<NAME_PLATE>
+　再び荒れ狂う警報とエラー音。
+<PAUSE>
+<NAME_PLATE>
+　みことのゴーグルに表示された
+情報が次々に更新され、現実とは
+異なる姿に書き換えられていく――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「みこと！？
+　どうしたんだ……！？」
+<PAUSE>
+<NAME_PLATE>みこと
+「わたしが、抜き取ろうとした
+　ここのデータが、あっという間に
+　消されて……それに……」
+<PAUSE>
+<NAME_PLATE>みこと
+「今、この施設は……、
+　わたしたちの他に、
+　何者かの部隊に攻撃されている……」
+<PAUSE>
+<NAME_PLATE>みこと
+「それが全部、わたしたちの
+　せいにされていく……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　情報の改竄だ。
+<PAUSE>
+<NAME_PLATE>
+　現在、この施設は何者かの
+部隊に侵入・攻撃を受けている。
+<PAUSE>
+<NAME_PLATE>
+　それがすべて、俺たち――
+対魔忍部隊の攻撃であると。
+<PAUSE>
+<NAME_PLATE>
+　“Ｔｈｅ　Ｓｈａｍａｎ”の手によって、
+施設内全ての情報が
+急速に書き換えられている――。
+<PAUSE>
+<NAME_PLATE>？？？
+『では、さらばだ子鼠。
+　なかなかいい腕だったが、
+　まだアマチュアレベルだな』
+<PAUSE>
+<NAME_PLATE>
+　ビーーーーーーーー！！！
+<PAUSE>
+<NAME_PLATE>みこと
+「あうっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　苦悶の顔でみことが自分の頭から
+ハッキング用端末をむしり取った。
+<PAUSE>
+<NAME_PLATE>
+　もう使い物にならない。
+<PAUSE>
+<NAME_PLATE>
+　“Ｔｈｅ　Ｓｈａｍａｎ”のアタックで
+内部をズタズタにされている。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「ど、どうしよう……。
+　こんな、大変なことに……」
+<PAUSE>
+<NAME_PLATE>
+　みことが呆然とつぶやいた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　“Ｔｈｅ　Ｓｈａｍａｎ”によって施設の
+セキュリティレベルが上げられた。
+<PAUSE>
+<NAME_PLATE>
+　今ごろ警備兵や警備ドローンが
+一団となって向かってきているはずだ。
+<PAUSE>
+<NAME_PLATE>
+　そしてもうひとつ。
+<PAUSE>
+<NAME_PLATE>
+　“Ｔｈｅ　Ｓｈａｍａｎ”が自分たちの
+侵入と攻撃を対魔忍のものと
+見せかけようとしている。
+<PAUSE>
+<NAME_PLATE>
+　これが成功したら大ごとになる。
+<PAUSE>
+<NAME_PLATE>
+　中華連合から対魔忍組織への
+報復があるだろうし、
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の暴走と政府が認識すれば
+大きな政治問題にもなるだろう。
+<PAUSE>
+<NAME_PLATE>
+　非常に重い失態だ。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>みこと
+「ご、ごめんなさいみんな！！」
+<PAUSE>
+<NAME_PLATE>
+　湧き上がる悔しさ、
+そして無力感だろう。
+<PAUSE>
+<NAME_PLATE>
+　目に一杯の涙を溜めたみことが
+俺たちに頭を下げていた。
+<PAUSE>
+<NAME_PLATE>みこと
+「わたし……
+　こんな施設らくしょーだ
+　なんて調子に乗って……」
+<PAUSE>
+<NAME_PLATE>みこと
+「色んなことを、甘く見て……
+　なにも、ぜんぜん、
+　気が付かなかった……」
+<PAUSE>
+<NAME_PLATE>みこと
+「みんな、敵のてのひらの
+　上だったのに……」
+<PAUSE>
+<NAME_PLATE>みこと
+「うう……こんなことに、
+　みんなまで巻き込んで……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「お、おいおい！！？
+　どうしたんだよみこと！
+　お前が謝ることじゃないだろ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そ、そうよみことちゃん。
+　巻き込んだって言われても、
+　これは任務だし……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「……違うの」
+<PAUSE>
+<NAME_PLATE>みこと
+「任務じゃない。
+　これは、わたしの独断……」
+<PAUSE>
+<NAME_PLATE>蛇子＆鹿之助
+「えっ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　声を詰まらせながら
+みことが告白した。
+<PAUSE>
+<NAME_PLATE>
+　今回の“任務”が、
+実は五車の指令ではなく、
+みことの独断であること。
+<PAUSE>
+<NAME_PLATE>
+　自分が良い所を見せようとして、
+みんなを巻き込んだ。
+<PAUSE>
+<NAME_PLATE>
+　独断で対魔忍組織に不利益を
+与えるようなことをした以上、
+重い処分は避けられない。
+<PAUSE>
+<NAME_PLATE>
+　自分だけでなく、
+一緒にきた皆も――。
+<PAUSE>
+<NAME_PLATE>
+　そして、ここで当然、
+俺も一枚噛んでたことが皆にバレる。
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え、ええ……？
+　みことはともかく、
+　ふうまはバイト代……？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お前、それはちょっと
+　どうかと思うぞ」
+<PAUSE>
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「もー。ふうまちゃん、
+　お金なら蛇子が貸したのに」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ぐっ！？　い、いや、
+　これには事情が……」
+<PAUSE>
+<NAME_PLATE>
+　いつもの仲間の容赦ない
+ダメ出しにダメージを受ける俺。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そんな中、みことが
+思いつめたように顔を上げる。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「こんなことになった以上、
+　みんなに嫌われても仕方がない」
+<PAUSE>
+<NAME_PLATE>みこと
+「でも、やったことの責任はとるわ」
+<PAUSE>
+<NAME_PLATE>みこと
+「……わたしの技術で、絶対に
+　みんなをここから脱出させる」
+<PAUSE>
+<NAME_PLATE>みこと
+「それから……もし、
+　生きてここを出られたら……」
+<PAUSE>
+<NAME_PLATE>みこと
+「独断で任務を行った責任も、
+　ぜんぶわたしがとる」
+<PAUSE>
+<NAME_PLATE>みこと
+「処分を受けるのはわたしだけ……
+　そうアサギ先生にお願いする」
+<PAUSE>
+<NAME_PLATE>みこと
+「絶対に、みんなに
+　これ以上の迷惑はかけない」
+<PAUSE>
+<NAME_PLATE>
+　悲壮にそうつぶやき、壊れた
+ハッキング端末を予備に切り替える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが、そんなみことに――。
+<PAUSE>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「わーーーーんっ！！
+　なにいってるんだよーーっ！？」
+<PAUSE>
+<NAME_PLATE>卯奈
+「そんなことでみことちゃんを
+　キライになったりするわけ
+　ないだろーーーーーーーっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>みこと
+「卯奈……！？」
+<PAUSE>
+<NAME_PLATE>
+　半泣きで抱き着いたのは、
+みことのクラスメイトでもある卯奈だった。
+<PAUSE>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「ちょっとびっくりしたけど、
+　ぜんぜん平気っ！！」
+<PAUSE>
+<NAME_PLATE>卯奈
+「処分を受けるなら私も一緒！！
+　ここまで一緒に来たんだもん！
+　それで何とも思わない！」
+<PAUSE>
+<NAME_PLATE>卯奈
+「――友達だから！！！」
+<PAUSE>
+<NAME_PLATE>卯奈
+「だから、そんな思いつめた
+　顔しないでーーーーっ！！！
+　うわーーーーーんっ！！！」
+<PAUSE>
+<NAME_PLATE>みこと
+「う、うな……」
+<PAUSE>
+<NAME_PLATE>
+　友達大好きの卯奈である。
+<PAUSE>
+<NAME_PLATE>
+　みことのピンチについ
+感極まってしまったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　そして卯奈は、
+ぱっと俺の方を向いて。
+<PAUSE>
+<NAME_PLATE>卯奈
+「ふうまくん！！？
+　どうにかならないの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……。
+　方法はなくはないが……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は卯奈に言って、
+みことの方に顔を向ける。
+<PAUSE>
+<NAME_PLATE>俺
+「みこと。あの“Ｔｈｅ　Ｓｈａｍａｎ”って
+　ハッカーには勝てるか？」
+<PAUSE>
+<NAME_PLATE>俺
+「奴が書き換えたデータを、
+　もう一度上から書き換える」
+<PAUSE>
+<NAME_PLATE>
+　そうすれば、対魔忍組織の
+政治的立場の悪化は避けられる。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「む、ムリだよ……。
+　あのひとの腕は、
+　わたしの数段上……」
+<PAUSE>
+<NAME_PLATE>みこと
+「みんなの脱出のカバーと、
+　それを一緒にやるなんて、
+　絶対に手が追い付かない……」
+<PAUSE>
+<NAME_PLATE>俺
+「俺たちのカバーはいらない。
+　お前はデータの書き換えに集中する。
+　それなら勝てるか？」
+<PAUSE>
+<NAME_PLATE>みこと
+「えっ……？」
+<PAUSE>
+<NAME_PLATE>
+　問い返すみことに
+俺はニヤリと笑って肯く。
+<PAUSE>
+<NAME_PLATE>俺
+「なに。ここにいる
+　俺たちだって捨てたもんじゃない。
+　それなりに修羅場を潜ってるからな」
+<PAUSE>
+<NAME_PLATE>俺
+「お前の支援がなくたって、
+　何とかここを脱出してみせる。
+　なっ、みんな！？」
+<PAUSE>
+<NAME_PLATE>
+　それが、みことが
+密かに抱える問題であった。
+<PAUSE>
+<NAME_PLATE>
+　みことは「自分の力を証明したい」
+という意識が強く、またそれだけの
+実力を持っているため、
+<PAUSE>
+<NAME_PLATE>
+　味方に頼ることを忘れたり、
+一人で前に出過ぎたりしてしまう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だけど、今ここには仲間がいる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「おうっ！　もちろんだぜ！
+　来るときは楽過ぎて退屈してたんだ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「みことちゃん、
+　蛇子も良い所見せちゃうわよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「うんうんっ！　よーし！
+　今度は私たちが
+　みことちゃんを助けるよっ！」
+<PAUSE>
+<NAME_PLATE>みこと
+「みんな……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　やる気満々の表情を見せる蛇子たち。
+<PAUSE>
+<NAME_PLATE>
+　三人はもともと潜入任務が得意であり、
+俺もこういう“万が一”の場合には
+備えていた。
+<PAUSE>
+<NAME_PLATE>
+　脱出は十分に可能。
+<PAUSE>
+<NAME_PLATE>
+　あとは、みことが
+“Ｔｈｅ　Ｓｈａｍａｎ”との電子戦に
+勝つだけだ。
+<PAUSE>
+<ACTOR>0,chr_t0308a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みこと
+「……わかった、やるよっ！！
+　脱出のことはみんなに任せる！
+　それでわたしは、あいつを……！」
+<PAUSE>
+<NAME_PLATE>俺
+「よしっ！　頼むぞみこと！！
+　みんな、行こう！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子＆鹿之助＆卯奈
+「了解っ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺たちが顔を見合わせて肯く。
+<PAUSE>
+<NAME_PLATE>
+　セキュリティの強固な
+地下施設からの脱出が始まった。
+<PAUSE>
+//→プロローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

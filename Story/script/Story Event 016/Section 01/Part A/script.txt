@@ -1,0 +1,994 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　無法都市ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　それは東京の地下３００メートルにある
+広大なジオフロントだ。
+<PAUSE>
+<NAME_PLATE>
+　闇の住民が闊歩するその街では、
+大小無数の事件に事欠かない。
+<PAUSE>
+<NAME_PLATE>
+　全住人を震撼させた謎の熱病の流行、
+その収束後に行われた
+敵味方無礼講の大納涼祭。
+<PAUSE>
+<NAME_PLATE>
+　悪党たちのパラダイスは
+今日も活気に満ちあふれている。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラで一、二を争う大カジノ
+『ラビリンス』などその最たるものだ。
+<PAUSE>
+<NAME_PLATE>
+　今回の任務はそこが舞台だった。
+<PAUSE>
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「おお、すごい……」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　カジノ『ラビリンス』のホール。
+その毒々しいまでの華やかさに圧倒される。
+<PAUSE>
+<NAME_PLATE>
+　目が痛くなるほどに煌びやかな照明。
+その下で湯水のように飛び交うチップ。
+<PAUSE>
+<NAME_PLATE>
+　一癖も二癖もありそうなヨミハラの
+住人たちの怒号と喧騒が混ざり合い、
+奇妙なＢＧＭのようにホールに響いている。
+<PAUSE>
+<NAME_PLATE>
+　ここでは住む場所もない極貧のオークが
+一晩で億万長者になることもあれば、
+<PAUSE>
+<NAME_PLATE>
+　名のある組織を束ねていたボスが
+翌朝には身ぐるみをすべて剥がされて
+路地裏に転がされることもある。
+<PAUSE>
+<NAME_PLATE>
+　健全とはほど遠い街で一攫千金を求めて、
+迷宮に自ら入り込んだ愚か者たち。
+<PAUSE>
+<NAME_PLATE>
+　その歓喜、あるいは絶望が
+泡のように生まれては消えていく。
+<PAUSE>
+<NAME_PLATE>
+　それがここ、ラビリンスだ。
+<PAUSE>
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　任務で来ているとは言え、
+この手の場所に全く縁が無い俺が
+しばし唖然としていると、
+<PAUSE>
+<ACTOR>0,ts_m203a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「―――♪」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール立ち絵
+//　　　　＊新規イラスト
+<NAME_PLATE>
+　マスコットキャラのピエロが
+ひょこひょこと楽しげに現れた。
+確かミスター・フールという名前だ。
+<PAUSE>
+<NAME_PLATE>
+　彼は器用にジャグリングをしながら、
+『いらっしゃいませ』と俺に仕草で示す。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、その後ろから、
+バニーガールたちが俺を出迎えた。
+<PAUSE>
+<NAME_PLATE>バニーガールたち
+「「「「「旦那様、
+　いらっしゃいませーー♪」」」」」
+<PAUSE>
+//　※立ち絵
+//　　舞華＿立ち絵
+//　　　＊【バニー】神村舞華３より流用
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+//　　蛍＿立ち絵
+//　　　＊【バニー】喜瀬蛍３流用
+//　　深月＿立ち絵
+//　　　※【バニー】星乃深月２より流用
+<GROUP>
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0252a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<WAIT>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<WAIT>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おお！」
+<PAUSE>
+<NAME_PLATE>
+　思わず声が出た。
+<PAUSE>
+<NAME_PLATE>
+　俺に先行して潜入してもらった
+舞華、きらら先輩、蛍先輩、
+そしてまとめ役の卒業生、深月先輩だ。
+<PAUSE>
+<NAME_PLATE>
+　バニーガールになっていると
+聞いてはいたが、実際にどんな格好かまでは
+知らなかった。
+<PAUSE>
+<NAME_PLATE>
+　てっきりお揃いのバニー衣装だと
+思っていたのに一人一人で違っている。
+<PAUSE>
+<ACTOR>0,chr_t0251a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　舞華は赤のバニー。
+<PAUSE>
+<NAME_PLATE>
+　バニーガールと聞いてパッと頭に浮かぶ
+米連の雑誌モデルのような姿で、
+黒の網タイツがやたらとセクシーだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　きらら先輩は青のバニー。
+<PAUSE>
+<NAME_PLATE>
+　こちらもオーソドックスだが、ウサギの耳が
+片方だけ折れていたり、ストッキングも
+片方だけだったりと捻っている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0253a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　蛍先輩はピンクのバニー。
+<PAUSE>
+<NAME_PLATE>
+　まさかの逆バニーだ。
+もちろん大事なところは隠しているが、
+胸からお腹のあたりは完全に見えている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0254a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　深月先輩は黒のバニー。
+<PAUSE>
+<NAME_PLATE>
+　今回、一番の年上なので、
+他の三人に比べて落ち着いたデザイン
+と見せて一番肌を出している。さすが卒業生。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　とまあ、華やかなバニー軍団に
+俺が見とれていると、
+<PAUSE>
+<ACTOR>0,ts_m203a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「？？？？」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール立ち絵
+//　　　　＊新規イラスト
+<NAME_PLATE>
+　ミスター・フールがニコニコしながら、
+『さあどの子にしますか？』と
+ジェスチャーで尋ねてきた。
+<PAUSE>
+<NAME_PLATE>
+　そう、ラビリンスでは
+男の客はサービスで好きなバニーガールを
+一人選べるのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「これは迷うなあ……」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0252a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　バニーらしいバニーの
+舞華や、きらら先輩もいいし、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　童顔で逆バニーの蛍先輩や
+オトナの魅力の深月先輩もいい。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　実際、こんなの選べるはずがないのだが、
+俺は―――
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、彼女を」
+<PAUSE>
+<ACTOR>0,chr_t0253a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　蛍先輩を指名した。
+<PAUSE>
+<NAME_PLATE>蛍
+「ありがとうございます、旦那様♪」
+<PAUSE>
+<NAME_PLATE>
+　蛍先輩はクラッと来そうな愛らしい笑顔で
+俺の腕を迷わずとった。
+<PAUSE>
+<NAME_PLATE>
+　むぎゅっ☆
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　子供っぽい顔とはアンバランスな胸が
+俺の腕に、布が小さいので殆ど直に当たる。
+<PAUSE>
+<NAME_PLATE>俺
+（これは、役得だなあ……）
+<PAUSE>
+<NAME_PLATE>
+　つい顔がにやけそうになるのを堪える。
+<PAUSE>
+<NAME_PLATE>
+　今日は軍資金もアサギ先生から
+たっぷりともらっている。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　さあ、任務開始だ。
+<PAUSE>
+//※ここからきらら視点
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>きらら
+（なによ、あのだらしない顔！
+　あんなんでちゃんと任務なんかできるの？）
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<NAME_PLATE>
+　鼻の下を伸ばしたふうまに
+鬼崎きららはイライラしていた。
+<PAUSE>
+<NAME_PLATE>
+　蛍を選ぶのは予定通りなのだが、
+分かっていても頭にくる。
+<PAUSE>
+<NAME_PLATE>きらら
+（この私がこんな恥ずかしい格好してるのに）
+<PAUSE>
+<NAME_PLATE>きらら
+（そりゃ蛍はすごく可愛いし、
+　あのバニーはめちゃくちゃセクシーだけど！
+　バカ！　スケベ！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今回の任務はこのラビリンスのオーナーが
+握っている秘密情報を手に入れることだ。
+<PAUSE>
+<NAME_PLATE>
+　オーナーは闇社会でも有名な
+魔界の美術品マニアだ。
+<PAUSE>
+<NAME_PLATE>
+　その一つ、魔神の彫像のなかに
+『未発見の魔界の門の場所』が
+記された古文書が収まっているらしい。
+<PAUSE>
+<NAME_PLATE>
+　今は滅びた魔界貴族がいざという時に
+人間界に逃れるため、一族の秘密として
+美術品の中に隠したのだという。
+<PAUSE>
+<NAME_PLATE>
+　本物なら対魔忍として見過ごせない。
+<PAUSE>
+<NAME_PLATE>
+　だが、ラビリンスは
+ヨミハラのど真ん中にある。
+<PAUSE>
+<NAME_PLATE>
+　ノマドや龍門の息はかかっていないが、
+周りはすべて敵だと思っていい。
+<PAUSE>
+<NAME_PLATE>
+　可能な限り騒ぎを起こさずに
+任務を遂行したい。
+<PAUSE>
+<NAME_PLATE>
+　何人かで先行偵察を行ったところ、
+オーナー室に彼だけが入れる特別室があり、
+そこに美術品が保管されていると分かった。
+<PAUSE>
+<NAME_PLATE>
+　その特別室はオーナーの指紋や網膜といった
+生体認証を使った
+セキュリティで守られている。
+<PAUSE>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　となれば、きららの変わり身の術の出番だ。
+<PAUSE>
+<NAME_PLATE>
+　彼女がオーナーに変身すれば、
+どんな生体認証だろうが容易に突破できる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ただ、肝心のオーナーに会うことが
+容易ではなかった。
+<PAUSE>
+<NAME_PLATE>
+　オーナーは常にオーナー室にいて、ホールに
+姿を現すことは一度もなく、下っ端の
+バニーガールなどとは顔も会わせない。
+<PAUSE>
+<NAME_PLATE>
+　そこで、ふうまが客としてやって来て、
+カジノがひっくり返るほどの荒稼ぎをし、
+<PAUSE>
+<NAME_PLATE>
+　泡を食ったオーナーに出てきてもらい、
+そこをきららが変わり身する計画となった。
+<PAUSE>
+<ACTOR>0,chr_t0253a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ふうまが蛍を選んだのはそのためだ。
+<PAUSE>
+<NAME_PLATE>
+　彼女のテレキネシスを使えば
+ルーレットやサイコロでイカサマのし放題だ。
+<PAUSE>
+<NAME_PLATE>
+　蛍は今まで触れたものの重力操作しか
+できなかったのだが、
+<PAUSE>
+<NAME_PLATE>
+　真面目にコツコツと訓練をして、
+軽い物なら遠隔操作できるようになったのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+（その努力は買うし、
+　イカサマ作戦は悪くないと思うけどさ……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛍
+「うわあっ！！　すごいすごい！！
+　また当たった！」
+<PAUSE>
+//　※立ち絵
+//　　蛍＿立ち絵
+//　　　＊【バニー】喜瀬蛍３流用
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ふうま
+「よーし、やっとツキが来始めたぞ！
+　いっちょ大勝負いくか！！」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+<NAME_PLATE>蛍
+「はい！
+　いっちゃってください！！」
+<PAUSE>
+<NAME_PLATE>
+　二人がルーレットの台ではしゃいでいる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　どうやら勝ったようだ。
+<PAUSE>
+<NAME_PLATE>
+　と思ったら、今度は悲鳴が上がる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ふうま
+「あーーー！！　くそーーーー！！！
+　あと一つ、一つだったのに」
+<PAUSE>
+<NAME_PLATE>蛍
+「ここで引いちゃだめです。
+　まだいけますいけます！！」
+<PAUSE>
+<NAME_PLATE>ふうま
+「だよな！！
+　よし、倍プッシュだ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「バカ丸出し……」
+<PAUSE>
+<NAME_PLATE>
+　作戦前、ふうまが偉そうに言っていた。
+<PAUSE>
+//※回想セリフ
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ふうま
+「イカサマでずっと勝ち続けるのは
+　さすがに怪しすぎます」
+<PAUSE>
+<NAME_PLATE>ふうま
+「まずは普通に勝ったり負けたりして、
+　カジノに俺がカモだと思わせてから、
+　ピンポイントでイカサマを使います」
+<PAUSE>
+<NAME_PLATE>ふうま
+「その兼ね合いが腕の見せ所ですね。
+　まあ、任せてください。
+　そういう演技には自信があります」
+<PAUSE>
+//※回想セリフ終わり
+<UI_DISP>OFF, 500
+<BG>nc155a,IN, 1000
+<GROUP>
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>ふうま
+「うおぉおおおおお！！
+　きたきたきたーーーー！！！」
+<PAUSE>
+<NAME_PLATE>蛍
+「きゃーーーーーー♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「……ちっとも演技に見えない」
+<PAUSE>
+<NAME_PLATE>きらら
+（それに蛍ってば、
+　あんなにくっつかなくても
+　いいと思うのよね）
+<PAUSE>
+<NAME_PLATE>きらら
+（あの顔であの身体って反則だし
+　なによ、ふうまのあの顔。
+　デレデレしちゃって）
+<PAUSE>
+<NAME_PLATE>きらら
+（ああもう。
+　なんなのよあいつーー！）
+<PAUSE>
+<ACTOR>0,chr_t0252a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「鬼崎さん、スマイルスマイル。
+　顔が怖くなってますよ」
+<PAUSE>
+//　　深月＿立ち絵
+//　　　※【バニー】星乃深月２より流用
+<NAME_PLATE>
+　いつの間にか近づいてきていた
+深月がきららに声をかけた。
+<PAUSE>
+<NAME_PLATE>きらら
+「あっ……す、すいません」
+<PAUSE>
+<NAME_PLATE>
+　任務中に先輩に注意されてしまった。
+きららは思わず赤面する。
+<PAUSE>
+<NAME_PLATE>
+　深月は五車学園の卒業生で、
+バニー四人のうちで一番の年上、
+そしてすご腕の風遁使いだ。
+<PAUSE>
+<NAME_PLATE>
+　最近は元クラスメイトで
+毒使いの柳六穂とコンビを組んで、
+難しい任務をいくつも成功させている。
+<PAUSE>
+<NAME_PLATE>
+　噂通りの戦闘能力と分析能力も
+さることながら、スケベなカジノの客を
+あしらったりするのがすごく上手い。
+<PAUSE>
+<NAME_PLATE>
+　お尻を撫でられた瞬間、
+反射的に凍らせたくなるきららとは大違いだ。
+<PAUSE>
+<NAME_PLATE>
+　それでいて黙って耐えているわけでもなく
+笑顔のまま、さりげなく風で気絶させて
+医務室に放り込んだりしている。
+<PAUSE>
+<NAME_PLATE>
+　さすが卒業生は違うなあと
+きららは素直に感心してしまう。
+<PAUSE>
+<NAME_PLATE>きらら
+「深月先輩は流石ですね。
+　私、イヤらしい男とか大嫌いで
+　もうイライラしっぱなしです」
+<PAUSE>
+<NAME_PLATE>深月
+「あはは、私だって男の人の相手は
+　あんまり得意じゃないですよ。
+　むしろ苦手な方かな」
+<PAUSE>
+<NAME_PLATE>きらら
+「そうなんですか？」
+<PAUSE>
+<NAME_PLATE>深月
+「五車学園にいるときは高坂先生に
+　よく補習をしてもらってました。
+　六穂とか私よりずっと得意ですしね」
+<PAUSE>
+<NAME_PLATE>きらら
+「パートナーの六穂先輩、
+　今回は一緒じゃないんですね」
+<PAUSE>
+<NAME_PLATE>
+　きららが何気なく言うと、
+深月はクスクスと笑い出した。
+<PAUSE>
+<NAME_PLATE>深月
+「あの子、一人だけ騙して
+　暗殺するのとかは上手いけれど、
+　こういうカジノとか大っ嫌いだから」
+<PAUSE>
+<NAME_PLATE>深月
+「そこら中に毒を撒きたくなるって。
+　駄目でしょ？」
+<PAUSE>
+<NAME_PLATE>きらら
+「それは……駄目ですね」
+<PAUSE>
+<NAME_PLATE>深月
+「鬼崎さんは今回の要なんですから
+　リラックスリラックス。
+　まだ作戦は始まったばかりですよ」
+<PAUSE>
+<NAME_PLATE>きらら
+「は、はい……」
+<PAUSE>
+<NAME_PLATE>
+　深月はきららの背中をぽんと叩いて、
+今度は舞華の方に向かっていく。
+<PAUSE>
+<NAME_PLATE>深月
+「神村さんも顔が怖くなってますね。
+　ふうまさんだからなのかなあ。
+　六穂を連れてこなくてほんと正解」
+<PAUSE>
+<NAME_PLATE>
+　そんな呟きが聞こえ、
+やはりふうまに苛ついているらしい舞華が
+深月に注意されていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0251a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「す、すいません！　深月先輩！」
+<PAUSE>
+//　※立ち絵
+//　　舞華＿立ち絵
+//　　　＊【バニー】神村舞華３より流用
+<NAME_PLATE>
+　舞華はきらら以上に恐縮していた。
+<PAUSE>
+<NAME_PLATE>
+　普段からヤンキーの舞華だが
+深月には一目も二目も置いている。
+<PAUSE>
+<NAME_PLATE>
+　以前、ここヨミハラで
+彼女が姉御と慕う火遁使いの眞田焔が
+攫われたことがある。
+<PAUSE>
+<NAME_PLATE>
+　“蜘蛛の貴婦人”という高位魔族が率いる
+土雲（つちぐも）という組織の仕業だった。
+<PAUSE>
+<NAME_PLATE>
+　その救出に深月が尽力したため、
+姉御の恩人として感謝しているのだった。
+<PAUSE>
+<ACTOR>0,chr_t0251a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0254a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「まだ始まったばかり。
+　舞華さん、頑張りましょう」
+<PAUSE>
+<NAME_PLATE>舞華
+「了解っす！」
+<PAUSE>
+<NAME_PLATE>
+　舞華は直立不動で答えている。
+バニーガールがその格好はどうかと思うが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>きらら
+（私もちゃんとやらなきゃ）
+<PAUSE>
+<NAME_PLATE>
+　気持ちを切り換えて、
+ふうまの様子を見直すと、
+今まさに大勝負のようだった。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかふうまの前に
+すごい量のチップが置かれていて、
+周りに人だかりが出来ている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,hu_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま
+「よーし来い来い来い！！」
+<PAUSE>
+<NAME_PLATE>蛍
+「え？　うそ、うそ、ほんとに？
+　ほんとに当たっちゃう！？」
+<PAUSE>
+<NAME_PLATE>
+　一瞬の間があって―――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ふうま
+「おっしゃーーーーーー！！！」
+<PAUSE>
+<NAME_PLATE>蛍
+「きゃああああああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人の歓声が聞こえなくなるほどの
+すごいどよめきがホールに響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　いくら勝ったのかは分からないが、
+ラビリンス始まって以来の大勝ちということは
+周りの反応を見れば分かる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>きらら
+（へえ、うまくやったわね……）
+<PAUSE>
+<NAME_PLATE>
+　ふうまが言っていたように
+自分をカモに見せかけての大勝利なのだろう。
+きららは少しだけ感心した。
+<PAUSE>
+<NAME_PLATE>きらら
+（これでオーナーが現れてくれれば
+　後は私の出番なんだけど……）
+<PAUSE>
+<NAME_PLATE>
+　ちょっと様子がおかしい。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m141a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒服
+「お客様、こちらに来ていただけますか？」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　ふうまの周りを黒服が取り囲んでいる。
+<PAUSE>
+<NAME_PLATE>
+　先行して潜入していたきららには分かる。
+あいつらはサイボーグだ。
+<PAUSE>
+<NAME_PLATE>ふうま
+「大当たりの記念に
+　オーナーに会わせてくれるのかな？」
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+<NAME_PLATE>黒服
+「説明は別室で。
+　他のお客様のご迷惑になりませんように」
+<PAUSE>
+<NAME_PLATE>ふうま
+「しょうがないな」
+<PAUSE>
+<NAME_PLATE>
+　ふうまは特に抵抗もせずに、
+サイボーグの黒服に連れて行かれる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m203a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「―――♪♪♪」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール立ち絵
+//　　　　＊新規イラスト
+<NAME_PLATE>
+　ピエロのミスター・フールが
+『面白いことが始まりそうだ』という仕草で
+ひょこひょことついて行く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m141a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>黒服
+「おい、お前」
+<PAUSE>
+<ACTOR>1,chr_t0253a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛍
+「はい、なんでしょう？」
+<PAUSE>
+//　　蛍＿立ち絵
+//　　　＊【バニー】喜瀬蛍３流用
+<NAME_PLATE>黒服
+「お前もちょっと来てもらおうか」
+<PAUSE>
+<NAME_PLATE>蛍
+「私もですか？　分かりました」
+<PAUSE>
+<NAME_PLATE>
+　蛍も別の黒服に連れて行かれる。
+ふうまとは違う場所のようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+（なんかまずい気配ね……）
+<PAUSE>
+//　※立ち絵
+//　　きらら＿立ち絵
+//　　　＊【バニー】鬼崎きらら３より流用
+<NAME_PLATE>
+　きららは超小型通信機のスイッチを入れた。
+カメラ内蔵のそれを
+彼女たち全員が付けている。
+<PAUSE>
+<NAME_PLATE>
+　五車の技術を駆使して作られたそれは
+通信など御法度のラビリンスの身体検査でも
+絶対に見破れない。
+<PAUSE>
+<NAME_PLATE>
+　ふうまはそれを介して
+きららたちに指示を行うことになっていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「ちょっと、ふうま！
+　イカサマがバレたんじゃないの？」
+<PAUSE>
+<NAME_PLATE>ふうま
+『かもしれません』
+<PAUSE>
+<NAME_PLATE>きらら
+「そいつらサイボーグよ。
+　一人で大丈夫なの？　私も行く？」
+<PAUSE>
+<NAME_PLATE>ふうま
+『きらら先輩は今回の作戦の要です。
+　下手に動かないでください。
+　俺一人でなんとかしてみます』
+<PAUSE>
+<NAME_PLATE>きらら
+「ああもう、了解」
+<PAUSE>
+<NAME_PLATE>
+　イライラしながら通信を切ると、
+ホールから舞華の姿が消えている。
+<PAUSE>
+<NAME_PLATE>
+　きっとふうまか蛍の後を追ったのだろう。
+<PAUSE>
+<NAME_PLATE>きらら
+（まっずいわね。
+　あの子、私と違って加減を知らないし、
+　そこらじゅう燃やしかねないわ）
+<PAUSE>
+<NAME_PLATE>
+　どうすべきか一瞬迷うきららに
+まだホールにいる深月から通信が入る。
+<PAUSE>
+<NAME_PLATE>深月
+『鬼崎さん、動かないで。
+　私たちはここで待機です』
+<PAUSE>
+<NAME_PLATE>
+　さっき優しく注意してくれたときとは違う
+有無を言わせない先輩の声だ。
+<PAUSE>
+<NAME_PLATE>きらら
+「……了解」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　きららはやむなくそう返事をした。
+<PAUSE>
+//【背景：カジノ倉庫＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc047a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺は黒服に取り囲まれ、
+ホールから少し離れた人けのない倉庫に
+連れてこられていた。
+<PAUSE>
+<ACTOR>0,hu_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+（やっぱり、ただ大勝ちしただけじゃ、
+　オーナー登場とはならないか）
+<PAUSE>
+//　※立ち絵
+//   小太郎汎用立ち絵＿対魔忍スーツ_帯刀
+<NAME_PLATE>俺
+（まあでも、こういう展開も
+　予想はしていたけどな）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m141a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒服
+「おいてめえ、
+　舐めた真似をしてくれたな」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>黒服
+「ラビリンスじゃイカサマは御法度だ。
+　どうなるか分かってるんだろうな？」
+<PAUSE>
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　お客様扱いをやめて、
+黒服たちは俺にすごんできた。
+<PAUSE>
+<NAME_PLATE>俺
+「残念。バレてたか。
+　うまくいったと思ったんだけどな」
+<PAUSE>
+<NAME_PLATE>黒服
+「その減らず口が叩けないようにしてから
+　イカサマの手口を吐かせてやるぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「それを教える代わりに
+　儲けはあんたたちと
+　山分けってのはどうだ？」
+<PAUSE>
+<NAME_PLATE>黒服
+「そいつは悪くねえな。
+　だがテメエを袋にしてからだ」
+<PAUSE>
+<NAME_PLATE>黒服
+「五体満足で帰れると思うなよ」
+<PAUSE>
+<NAME_PLATE>俺
+「一人でなんとかするって
+　きらら先輩に言っちゃったし、
+　頑張るしかないか」
+<PAUSE>
+<NAME_PLATE>
+　相手はサイボーグだがここはカジノの中だ。
+まず重火器は使ってこないだろう。
+<PAUSE>
+<NAME_PLATE>
+　むしろ少しでもオーナーを
+知っていそうな連中と接触できて
+好都合と思おう。
+<PAUSE>
+<NAME_PLATE>
+　俺は迷わず刀を抜いた。
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,670 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム繁華街３＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc015a　より流用
+<BGM_PLAY>bgm506,1000
+<BG>nc123a,IN, 1000
+<NAME_PLATE>俺
+「そ、それで紫水、
+　どっかで別の服を買うよ」
+<PAUSE>
+<NAME_PLATE>俺
+「それ、やっぱり……
+　スケスケで恥ずかしいよな？」
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「でもお館くん、お金ある？」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「うっ。ない……」
+<PAUSE>
+<NAME_PLATE>紫水
+「じゃあ大丈夫。
+　少し恥ずかしいけれど……でも、
+　お館くんが考えた衣装だし」
+<PAUSE>
+<NAME_PLATE>紫水
+「……こういう服、好きなの？」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、まあ……はい」
+<PAUSE>
+<NAME_PLATE>
+　俺の妄想から出現した衣装だ。
+大好きに決まっていた。
+<PAUSE>
+<NAME_PLATE>紫水
+「ふふ。うん、大丈夫……」
+<PAUSE>
+<NAME_PLATE>紫水
+「コロも『探偵にはスケベが必要』って
+　言ってる」
+<PAUSE>
+<NAME_PLATE>俺
+「め、面目ない……。
+　って紫水、
+　コロ先輩と話ができるのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「確か、前に体を借りたときは
+　話せてなかったよな？」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん。今回はできるみたい。
+　なぜかわからないけど」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか……。それも、
+　『声が届くようになった』ことの
+　影響かな？」
+<PAUSE>
+<NAME_PLATE>
+　などと話しながら俺たちは
+闇の街の通りを歩く。
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の力で実体を得た紫水が
+相棒となり、改めて任務の続行である。
+<PAUSE>
+<NAME_PLATE>紫水
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　紫水が俺の隣を歩いている。
+<PAUSE>
+<NAME_PLATE>
+　図書室にいる時と同じく
+物静かな様子で――。
+<PAUSE>
+<NAME_PLATE>
+　だけどその表情は明るい。
+<PAUSE>
+<NAME_PLATE>
+　うれしそうに目を細め、
+バレンタインに賑わう闇の街を
+見つめている。
+<PAUSE>
+<NAME_PLATE>俺
+「……なんだか、ごめんな。
+　いや、そのエッチな衣装のこと
+　だけじゃなくて」
+<PAUSE>
+<NAME_PLATE>紫水
+「どうしたの？」
+<PAUSE>
+<NAME_PLATE>
+　俺がつぶやくと、紫水が
+不思議そうにこちらを見る。
+<PAUSE>
+<NAME_PLATE>俺
+「うん。この前言ったことだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺、お前に外の世界を見せるって言った」
+<PAUSE>
+<NAME_PLATE>
+　俺は紫水に約束した。
+<PAUSE>
+<NAME_PLATE>
+　図書室の住人である彼女に、
+外の世界を見せてやる、と。
+<PAUSE>
+<NAME_PLATE>
+　だけど、俺が何かをする前に、
+コロ先輩の力を借りて、
+<PAUSE>
+<NAME_PLATE>
+　紫水は自分で外に出る方法を
+見つけ出した。
+<PAUSE>
+<NAME_PLATE>紫水
+「なんだ。そんなこと」
+<PAUSE>
+<NAME_PLATE>
+　紫水は、気にしないでいいよ、
+と言うように微笑む。
+<PAUSE>
+<NAME_PLATE>紫水
+「私はお館くんを守護する存在。
+　それ以外は求めていない」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。
+　そうかも知れないけど……」
+<PAUSE>
+<NAME_PLATE>
+　それでも俺は悔しいのだ。
+<PAUSE>
+<NAME_PLATE>
+　実体を得て街を歩く彼女が、
+こんなにも楽しそうだから。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ！　その次だな」
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くん？」
+<PAUSE>
+<NAME_PLATE>
+　気を取り直して俺が言うと、
+紫水が首をかしげてこちらを見る。
+<PAUSE>
+<NAME_PLATE>俺
+「今の状態だって、
+　やっぱり無理がある」
+<PAUSE>
+<NAME_PLATE>
+　一つの体に
+二つの魂を入れていること。
+<PAUSE>
+<NAME_PLATE>
+　それが重なれば、どんな無理が
+起こるかわからない。
+<PAUSE>
+<NAME_PLATE>俺
+「結局は、コロ先輩がいなければ
+　何もできないわけだし……」
+<PAUSE>
+<NAME_PLATE>俺
+「だからいつか、紫水一人でも
+　外に出られるように……」
+<PAUSE>
+<NAME_PLATE>
+　それができた時。
+<PAUSE>
+<NAME_PLATE>
+　やっと俺は『約束を果たした』と
+胸を張って言えると思う。
+<PAUSE>
+<NAME_PLATE>紫水
+「……ふふっ。そうだよね」
+<PAUSE>
+<NAME_PLATE>俺
+「紫水？」
+<PAUSE>
+<NAME_PLATE>
+　ふいに紫水がくすくすと
+微笑んでいた。
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くん。コロが拗ねてるよ」
+<PAUSE>
+<NAME_PLATE>紫水
+「『それじゃ私がお邪魔みたいー』って」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「コロ先輩！？
+　いや、そんなことは……！」
+<PAUSE>
+<NAME_PLATE>
+　俺は慌てて紫水の中にいる
+コロ先輩に弁明する。
+<PAUSE>
+<NAME_PLATE>
+　それはあくまで先のことで。
+<PAUSE>
+<NAME_PLATE>
+　今はコロ先輩に感謝しかない。
+<PAUSE>
+<NAME_PLATE>紫水
+「うん、大丈夫……。
+　『冗談だよー』って笑ってる」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、あぁ……」
+<PAUSE>
+<NAME_PLATE>
+　俺と紫水は顔を見合わせて微笑む。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　エッチな衣装のせいで
+幾分ぎこちなかった空気が、
+少しずつほぐれてきたようだった。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム繁華街４＿夜】【時間：夜】
+//　※監獄アカデミア_NC009b　より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc111a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　次の目的地、クラブ・ペルソナに
+向かうため、俺たちは表通りに出た。
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くん見て。
+　この辺り、何だか楽しそう」
+<PAUSE>
+<NAME_PLATE>俺
+「あぁ。
+　見事にバレンタイン一色だな」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは表通りの賑わいに
+目を向ける。
+<PAUSE>
+<NAME_PLATE>
+　道端でチョコを販売していたり、
+バレンタインにちなんだサービスを
+している娼館や酒場があったりと、
+<PAUSE>
+<NAME_PLATE>
+　闇の街らしからぬ浮ついた
+空気に満ちていた。
+<PAUSE>
+<NAME_PLATE>紫水
+「魔族やギャングの人も、
+　チョコを送ったりするのかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「さあな。
+　人によるだろうけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「闇の街の連中は、
+　金になりそうなイベントなら何でも
+　乗っかるって感じじゃないかな」
+<PAUSE>
+<NAME_PLATE>
+　そういう無駄に商売根性のある
+小動物コンビを俺もよく知っている。
+<PAUSE>
+<NAME_PLATE>紫水
+「ふーん……。
+　お館くんは、チョコ貰った？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えっ！？　お、おう。
+　今年は、それなりに……」
+<PAUSE>
+<NAME_PLATE>紫水
+「なんで動揺してるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや……。
+　そんなことないですよ……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今年は記録的にたくさん
+チョコを貰えました――。
+<PAUSE>
+<NAME_PLATE>
+　とは何となく言いにくい。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ俺の場合、
+　身内以外は大体チョコゼロだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「前なんか、変な魔族のガキに
+　チョコを売りつけられたし」
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「魔族の？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。
+　リリムとミナサキっていう
+　アホアホ小動物コンビ」
+<PAUSE>
+<NAME_PLATE>紫水
+「……………っ」
+<PAUSE>
+<NAME_PLATE>俺
+「紫水、どうした？」
+<PAUSE>
+<NAME_PLATE>
+　そのとき紫水が、
+ふっと顔をほころばせた。
+<PAUSE>
+<NAME_PLATE>紫水
+「知ってるよ。
+　その子たちのこと……」
+<PAUSE>
+<NAME_PLATE>俺
+「知ってる？　ああ。
+　俺の中から見てたってこと？」
+<PAUSE>
+<NAME_PLATE>
+　よく考えてみれば、
+紫水は俺の中にいる存在だ。
+<PAUSE>
+<NAME_PLATE>
+　俺が体験したことを
+一緒に見ているのかもしれない。
+<PAUSE>
+<NAME_PLATE>紫水
+「ううん」
+<PAUSE>
+<NAME_PLATE>
+　紫水が首を振った。
+<PAUSE>
+<NAME_PLATE>紫水
+「私は、外のことはわからない」
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くんの中にいるときは、
+　眠っているような感じだから……」
+<PAUSE>
+<NAME_PLATE>俺
+「眠っている？」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん。
+　ずっと夢を見ているみたいに、
+　ぼんやりしてて……」
+<PAUSE>
+<NAME_PLATE>紫水
+「それで、外のことがわかるのは、
+　図書室にいるとき」
+<PAUSE>
+<NAME_PLATE>紫水
+「それに、“あいつ”……
+　あの黒い子供が近くにいるとき」
+<PAUSE>
+<NAME_PLATE>紫水
+「それから、今は、
+　コロの近くにいるときも」
+<PAUSE>
+<NAME_PLATE>俺
+「そっか。じゃあ……
+　『前世』の知り合いってことか」
+<PAUSE>
+<NAME_PLATE>
+　俺の中からじゃないとすると、
+自然とそういうことになる。
+<PAUSE>
+<NAME_PLATE>紫水
+「うん。友だち……。
+　よく一緒に遊んだり、
+　お館くんに悪戯したりした」
+<PAUSE>
+<NAME_PLATE>俺
+「へえ……」
+<PAUSE>
+<NAME_PLATE>
+　少し意外だった。
+<PAUSE>
+<NAME_PLATE>
+　物静かな紫水が、あの騒々しい
+アホコンビと友達だったとは。
+<PAUSE>
+<NAME_PLATE>
+　でもそれくらい性格が違う方が、
+逆にウマが合ったのかもしれない。
+<PAUSE>
+<NAME_PLATE>紫水
+「会いたいな、またみんなに。
+　また一緒に遊びたい」
+<PAUSE>
+<NAME_PLATE>紫水
+「みんなは、私のこと、
+　覚えてないと思うけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「……覚えてなくても、
+　きっと大丈夫だろ」
+<PAUSE>
+<NAME_PLATE>紫水
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　紫水が小さく首をかしげる。
+<PAUSE>
+<NAME_PLATE>俺
+「俺も、紫水のこと、
+　何も覚えていなかった」
+<PAUSE>
+<NAME_PLATE>俺
+「でも、またこうして仲良くなれた」
+<PAUSE>
+<NAME_PLATE>俺
+「あいつらとだって、
+　きっと同じだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「また友達になれる。
+　俺が保証する」
+<PAUSE>
+<NAME_PLATE>
+　ただ、それには……。
+<PAUSE>
+<NAME_PLATE>
+　やっぱり紫水を自由にして
+あげないといけない。
+<PAUSE>
+<NAME_PLATE>
+　俺の中から出て、どこでも
+自由に遊びに行けるように。
+<PAUSE>
+<NAME_PLATE>紫水
+「うんっ。そうだね……。
+　ありがとう、お館くん」
+<PAUSE>
+<NAME_PLATE>
+　紫水が嬉しそうに目を細めた。
+<PAUSE>
+<NAME_PLATE>紫水
+「私、意外とわがままだった」
+<PAUSE>
+<NAME_PLATE>紫水
+「何もいらないと思ってたのに、
+　本当は、欲しいものばかり……」
+<PAUSE>
+<NAME_PLATE>俺
+「それでいいよ。
+　その方が俺もうれしい」
+<PAUSE>
+<NAME_PLATE>
+　“俺を守るための存在”――
+それだけでは寂しすぎる。
+<PAUSE>
+<NAME_PLATE>
+　紫水がどんな運命を背負っているか、
+まだ俺にはわからない。
+<PAUSE>
+<NAME_PLATE>
+　だけど、俺のためだけでなく、
+彼女自身のためにも生きてほしい。
+<PAUSE>
+<NAME_PLATE>
+　そんなことを俺は思ったのだ。
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くんは、お館くんだね」
+<PAUSE>
+<NAME_PLATE>紫水
+「すごく変わったようで、
+　でも、なにも変わってない」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうなのかな……？」
+<PAUSE>
+<NAME_PLATE>
+　微笑んだ紫水にそう言われ、
+俺は照れて頭をかいた。
+<PAUSE>
+<NAME_PLATE>
+　よくわからないけど、
+凄く褒められたような気がする。
+<PAUSE>
+<NAME_PLATE>紫水
+「でも、それなら私も……」
+<PAUSE>
+<NAME_PLATE>俺
+「紫水？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　何か思いついたように紫水が
+きょろきょろと辺りを見る。
+<PAUSE>
+<NAME_PLATE>
+　自分のひらひらの衣装を探って何かを
+確認し、困った顔で首をかしげる。
+<PAUSE>
+<NAME_PLATE>俺
+「どうしたんだ？
+　何か気になることでも――」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>？？？
+「そりゃ気になっているわよ？
+　あなたが、いつ私を
+　殺しに来てくれるのか――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、耳元で女の囁き。
+<PAUSE>
+<NAME_PLATE>
+　そして首元に押し付けられた
+ぞっとするような冷たい刃。
+<PAUSE>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫水
+「お館くん……！」
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫だ！！
+　こいつは、俺の知り合い――
+　何やってるんだよ、ソニア！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソニア
+「フフフフフ……お久しぶりねぇ、
+　ふうま小太郎」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺の声に女が答える。
+<PAUSE>
+<NAME_PLATE>
+　この囁き声、冷たい殺気、
+気配もなく獲物に近づく暗殺の技。
+<PAUSE>
+<NAME_PLATE>
+　間違えるはずがない。
+<PAUSE>
+<NAME_PLATE>
+　殺人鬼ソニア。
+<PAUSE>
+<NAME_PLATE>
+　以前の任務で知り合った、
+人と殺し合うことでオーガズムを得る
+という危ない女。
+<PAUSE>
+<NAME_PLATE>ソニア
+「なにって言われても――
+　見たらわかるでしょう？」
+<PAUSE>
+<NAME_PLATE>ソニア
+「今、仕事の途中」
+<PAUSE>
+<NAME_PLATE>ソニア
+「暗殺に失敗して逃げてたら
+　知った顔が見えたから、
+　声をかけてあげたのよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はぁ！？
+　お前、今なんて――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　仕事中？　暗殺に失敗して、
+逃げているところ――？
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m141b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒服
+「いたぞ！！
+　あの女を逃がすな！！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン兵器
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　ドローンドッグ
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ドローンワスプ
+//　　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ダダダダダダダダ！！！！
+<PAUSE>
+<NAME_PLATE>
+　突然、こちらに放たれる銃弾。
+<PAUSE>
+<NAME_PLATE>
+　屈強な黒スーツの男たちと大量の
+ドローン兵器が通りに姿を見せる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「お、お館くん！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ソニア、お前、
+　どういうことだよこれは！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソニア
+「アハハハハハハハ！！
+　そう怖い顔しないで、
+　一緒に楽しみましょう？」
+<PAUSE>
+//→S302a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

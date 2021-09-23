@@ -1,0 +1,1230 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：ビーチ１＿昼】【時間：昼】
+//　※俺と冴子さんと寝取られメール_背景nc011aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc166a,IN, 1000
+<NAME_PLATE>
+　ここは都内から一時間ほどにある
+海水浴場・エドシマ海岸。
+<PAUSE>
+//　※注：ビーチの名前を仮でつけています。湘南や江の島などのイメージです。
+<NAME_PLATE>
+　関東有数のナンパスポットとしても
+知られるこの砂浜に、ひときわ目を惹く
+三人の“美少女”の姿があった。
+<PAUSE>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「うう、なお先輩……俺、
+　なんか変じゃないですか？」
+<PAUSE>
+//　※立ち絵
+//　　【水着】上原鹿之助03
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「やっぱりこういう可愛い格好は、
+　ちょっと恥ずかしい……」
+<PAUSE>
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>穂稀なお
+「あはは、何を言ってるんだい。
+　おかしいも何も、相変わらず
+　鹿之助君はめちゃくちゃ可愛いよ！」
+<PAUSE>
+//　※立ち絵
+//　　【水着】穂稀なお
+//　　　　＊なお先輩水着立ち絵イラストより流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>藍野のぞみ
+「そうそう、鹿之助君！　そんなに
+　可愛いんだから、恥ずかしがってちゃ
+　もったいないよ～♪」
+<PAUSE>
+//　※立ち絵
+//　　藍野のぞみ（自然R)
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「うう……というか俺、可愛いより、
+　カッコいい男になりたいんですけどぉ……」
+<PAUSE>
+<NAME_PLATE>
+　と、恥ずかしそうにもじもじしている
+可愛らしい水着姿の“美少女”。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0345a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　いや、実は“彼女”は女子ではない。
+<PAUSE>
+<NAME_PLATE>
+　上原鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　五車学園の対魔忍学生。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の名家・上原家の嫡男という
+れっきとした男子である。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（うう、そうだよ……）
+<PAUSE>
+<NAME_PLATE>鹿之助
+（その名家の“しきたり”がなければ、
+　俺もこんな格好はしてないのに……！）
+<PAUSE>
+<NAME_PLATE>
+　と内心で嘆く鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が可愛らしい女物の水着を
+着ているのは、上原家に古来より続く
+“しきたり”が理由である。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　昔は男児の死亡率が高く、
+それを避けるためのまじないという
+理由もあったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　上原家の嫡男は病魔の目を欺くために
+幼い頃より“女”として育てられる。
+<PAUSE>
+<NAME_PLATE>
+　その“しきたり”が今も
+上原家には残っていて、鹿之助が
+持っている私服は全て女物。
+<PAUSE>
+<NAME_PLATE>
+　当然、水着も可愛い女物しか
+持っていない。
+<PAUSE>
+<NAME_PLATE>
+　なので今まで、ふうま小太郎などの
+友人に海やプールに誘われても、
+あれこれと口実を付けて断っていた。
+<PAUSE>
+<NAME_PLATE>
+（ふうまに女の子の格好を
+　からかわれると恥ずかしいため）
+<PAUSE>
+<NAME_PLATE>
+　しかし、今年――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「まあ、ふうま君ならともかく、
+　僕らが一緒なら何も恥ずかしくないだろ？」
+<PAUSE>
+<NAME_PLATE>なお
+「鹿之助君も久しぶりのビーチなんだし、
+　思いっきり楽しむといいよ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そ、そうですよね……！　今日は
+　誘ってくれてありがとうございます、
+　なお先輩！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が気を取り直して笑う。
+<PAUSE>
+<NAME_PLATE>
+　今年、鹿之助がこのビーチに来たのは、
+彼の私服事情を知る“同士”である、
+先輩の穂稀なおが誘ってくれたためである。
+<PAUSE>
+<NAME_PLATE>なお
+「ふふっ。それにしても、
+　いい潮風だねえ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,na_t001a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　周囲のナンパ男たちの視線を一身に集め、
+優雅に微笑むスレンダーな
+水着姿の“美少女”。
+<PAUSE>
+<NAME_PLATE>
+　実は“彼女”も
+れっきとした男子であった。
+<PAUSE>
+<NAME_PLATE>
+　風紀隊隊長・穂稀なお。
+<PAUSE>
+<NAME_PLATE>
+　“可愛いものが好き”という理由で
+女物の服を着ている女装男子。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助と女装の理由は異なるが、
+女子の服装に詳しいということで
+たびたび相談に乗ってあげていて――。
+<PAUSE>
+<NAME_PLATE>
+　今回も、鹿之助がしばらく
+海で遊んでいないというのを聞いて、
+<PAUSE>
+<NAME_PLATE>
+　「じゃあ僕らと一緒に行く？」と
+持ちかけたのだった。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「でも、驚きましたよ。
+　なお先輩とのぞみ先輩が
+　知り合いだったなんて」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「まーね！　なおちゃんと
+　わたしは無二の親友……っていうか、
+　可愛い男の子は全員友達だから！」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「もちろん、もう鹿之助君とも
+　マブダチだよー！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>なお
+「やれやれ。相変わらず、
+　のぞみの話は大げさなんだから」
+<PAUSE>
+<NAME_PLATE>なお
+「鹿之助君も、のぞみの言うことは
+　話半分ぐらいに聞けばいいからね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あはは……いや、俺も嬉しいですよ。
+　のぞみ先輩と友達になれて」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>のぞみ
+「うふふ、だよねー♪
+　鹿之助君はわかってるな～」
+<PAUSE>
+<NAME_PLATE>
+　もう一人の“美少女”が快活に笑う。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0347a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　言うまでもなく、
+“彼女”も正真正銘の男の子。
+<PAUSE>
+<NAME_PLATE>
+　五車学園・藍野のぞみ。
+<PAUSE>
+<NAME_PLATE>
+　水遁使いの対魔忍学生。
+<PAUSE>
+<NAME_PLATE>
+　なおと同じく可愛いもの好きだが、
+こちらはさらに過激派だ。
+<PAUSE>
+<NAME_PLATE>
+　女装の楽しさを広めたいと常々考えており、
+美少年、美男子を見かけると口説き落として
+女装趣味に引きずり込むのが日課。
+<PAUSE>
+<NAME_PLATE>
+　以前から鹿之助にも目を付けていて
+何度か声をかけたこともあった。
+<PAUSE>
+<NAME_PLATE>
+　そんな事情で顔見知りだった二人だが、
+今回、なおの“女装仲間”ということで
+一緒にビーチにやってきて、
+<PAUSE>
+<NAME_PLATE>
+　改めて仲良くなった次第である。
+<PAUSE>
+<ACTOR>1,chr_t0347a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>のぞみ
+「でもさー。わたし、
+　前から気になってたんだよね。
+　キミの女装に関する態度っ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「えぇ？　な、なんですか……？」
+<PAUSE>
+<NAME_PLATE>
+　のぞみにグっと詰め寄られて
+鹿之助が言いよどむ。
+<PAUSE>
+<NAME_PLATE>
+　男子とわかっていても、
+こんなに可愛い先輩に顔を寄せられると、
+ついドキドキしてしまう。
+<PAUSE>
+<NAME_PLATE>のぞみ
+「いやぁ、鹿之助君、
+　女の子の服は苦手って言ってるでしょ？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「まあ、そうですね。
+　どっちかっていうと、ヒーローっぽい、
+　カッコいい服の方が良いかなって……」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「んー。でもねー？
+　本当は、鹿之助君も
+　可愛い服が好きなんじゃない？」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「だって、好きじゃなかったら、
+　女の子の服着てもこーんなに
+　可愛くならないと思うんだけどな～？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>なお
+「ふむ？　いい推理だね、のぞみ。
+　実は僕もその点は気になっていた」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「なお先輩まで！？
+　え、えぇ……いや、別に
+　そんなことないですよ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「イヤじゃないですけど、やっぱり
+　ちょっと恥ずかしいし……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ていうか……！？
+　の、のぞみ先輩、
+　顔が近いです……あわわ」
+<PAUSE>
+<NAME_PLATE>
+　ドギマギして言う鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　美少女な先輩に悪戯っぽく笑いかけられて
+顔を寄せられ、上から下まで
+女物の水着姿を見つめられる。
+<PAUSE>
+<NAME_PLATE>
+　凄く恥ずかしくて体が熱い……
+けれど、確かに、のぞみが言うように
+ちょっとだけ嬉しいような気分も……？
+<PAUSE>
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>のぞみ
+「あっ。ごめんごめんっ！
+　キミを恥ずかしがらせるつもりは
+　なかったんだけどねー」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「まー、なんていうか、
+　鹿之助君が可愛すぎて♪」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「は、はぁ……」
+<PAUSE>
+<NAME_PLATE>
+　ニッコリと笑ってのぞみが一歩下がる。
+<PAUSE>
+<NAME_PLATE>
+　一見明るく爽やかでありながら、
+なかなかとんでもない先輩のようだ。
+<PAUSE>
+<NAME_PLATE>のぞみ
+「じゃあとりあえず！　鹿之助君に
+　“可愛い”の凄さを知ってもらうために、
+　今日は色々冒険してみよう！」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「ビーチでナンパでもされて、
+　皆にチヤホヤされたら、ちょーっとは
+　わかってもらえるかな～？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「は、はぁ……ってナンパ！？」
+<PAUSE>
+<NAME_PLATE>
+　予想外の単語に
+またドギマギしてしまう鹿之助。
+<PAUSE>
+<NAME_PLATE>のぞみ
+「そうそう。
+　あれも意外と楽しい……あっ、
+　ちょうど良いのが来たよ、鹿之助君」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナンパ男１
+「チュース。
+　楽しそうじゃん彼女たち、
+　なに話してんの？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　魔族傭兵（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ナンパ男２
+「ヤベエ！　チョー可愛いじゃん、
+　三人ともレベル高えー！」
+<PAUSE>
+<NAME_PLATE>
+　会話に入るタイミングを窺って
+いたのだろう、ビーチのナンパ男が
+三人に声をかけてくる。
+<PAUSE>
+<NAME_PLATE>
+　群を抜いた“美少女”である三人は、
+しばらく前からビーチの注目の的に
+なっていたのだ。
+<PAUSE>
+<NAME_PLATE>のぞみ
+「あはは！　ありがとー♪
+　じゃあお兄さんたち、
+　わたしたちと遊んでくれるの？」
+<PAUSE>
+<NAME_PLATE>ナンパ男１
+「おう、遊ぶ遊ぶ！！
+　ていうかこの子、ノリが良くて
+　めっちゃカワイイな……」
+<PAUSE>
+<NAME_PLATE>ナンパ男２
+「いや、俺はあっちのクールな子かな。
+　神秘的で超イケてるぜ！」
+<PAUSE>
+<NAME_PLATE>ナンパ男３
+「俺はあの気弱そうな小さい子が
+　一番だな、グヘヘ……」
+<PAUSE>
+<NAME_PLATE>ナンパ男４
+「とにかく三人とも最高だぜ！
+　まあ、全員胸がないのは残念だけど」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「ちょっとそこ！
+　いま余計なこと言ったなー！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、あっという間にナンパ男たちと
+打ち解けてワイワイし始めるのぞみ。
+<PAUSE>
+<NAME_PLATE>
+　潜入工作員そこのけの
+凄まじいコミュ力であった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「え、えぇ……？
+　いいんですか、なお先輩！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、俺たち、男の子なのに
+　ナンパをされるなんて……！？」
+<PAUSE>
+<NAME_PLATE>
+　一方、あわあわと動揺する鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　女装でビーチに来てみたものの、
+ナンパされるなんて思ってもみなかった。
+<PAUSE>
+<NAME_PLATE>なお
+「うーん。でも、のぞみが
+　ああなったら止まらないからなぁ」
+<PAUSE>
+<NAME_PLATE>なお
+「ふうま君とは、また違った意味での
+　トラブルメーカーというか」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「は、はぁ……」
+<PAUSE>
+<NAME_PLATE>なお
+「まあ、向こうが変なことしたら
+　僕がやっつけてあげるし、
+　鹿之助君も気軽に楽しめばいいよ」
+<PAUSE>
+<NAME_PLATE>なお
+「適当に相手をして、トロピカルドリンクでも
+　奢らせたりして――」
+<PAUSE>
+<NAME_PLATE>なお
+「そういうのも
+　ビーチならではの貴重な体験だしね。
+　さあ、行こうか鹿之助君」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「あぁ！？　なお先輩！？」
+<PAUSE>
+<NAME_PLATE>
+　よほど肝が据わっているのか、
+それともナンパ慣れしているのか、
+<PAUSE>
+<NAME_PLATE>
+　なおはクールに微笑みつつ、平気な顔で
+のぞみやナンパ男たちに合流する。
+<PAUSE>
+<ACTOR>0,chr_t0345a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　となれば、鹿之助も
+それについていく他はなく……。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（うう、男にナンパされるなんて、
+　この夏の俺、どうなっちゃうの……！？）
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………。
+<PAUSE>
+<NAME_PLATE>
+　一方そのころ。
+<PAUSE>
+//【背景：ビーチから少し離れた暗がり＿昼】【時間：昼】
+//　※処女のシモベ君＿nc003aより流用
+//nc452a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc452a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ビーチから少し離れた暗がりに
+怪しく蠢く幾つかの影がある。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m021a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「………いたな、あそこだ」
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　アサシン立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>？？？
+「あぁ。あの……
+　“女の格好をした”……」
+<PAUSE>
+<NAME_PLATE>？？？
+「いい機会だ、奴らは
+　我らに気づいておらぬ……」
+<PAUSE>
+<NAME_PLATE>？？？
+「クク。愚かな、
+　浮かれているようだ……」
+<PAUSE>
+<NAME_PLATE>？？？
+「支度にかかるぞ……。全ては、
+　高貴なる“あの方”のため……」
+<PAUSE>
+<NAME_PLATE>？？？
+「あぁ。完全なる抹殺を……」
+<PAUSE>
+//　※注　暗殺者は実際はルル・マンハッタンを狙っているが、
+//　　　　“女の格好をした”で鹿之助が狙いだとミスリードさせています。
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………。
+<PAUSE>
+<NAME_PLATE>
+　１時間ほどあと。
+<PAUSE>
+//【背景：ビーチ１＿海の家＿昼】【時間：昼】
+//　※水着のシモベ君_nc003aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc312a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ビーチの片隅にある海の家。
+<PAUSE>
+<ACTOR>0,ts_m285a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>店員１
+「はーい、お待たせ～♪
+　こちら『貝南亭』特製、フルーツ
+　たっぷりのトロピカルジュースよぉ～」
+<PAUSE>
+//　※立ち絵
+//　　オーククイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※オーク立ち絵をドラッグクイーン風に加工。
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0347a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>のぞみ
+「わーっ！？　すごくおいしそう！
+　ありがとうございますー！」
+<PAUSE>
+//　※立ち絵
+//　　藍野のぞみ（自然R)
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m287a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m286a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>店員２＆店員３
+「はいはい、次はこれね。
+　ビーチ名物アツアツたこ焼きよ」
+「おいしいわよぉ」
+<PAUSE>
+//　※立ち絵
+//　　忍熊クイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　トロールクイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※忍熊、トロール立ち絵をドラッグクイーン風に加工。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「おっ。きたきた！
+　やっぱりこういうところで食べる
+　ジャンクな料理は最高だね♪」
+<PAUSE>
+//　※立ち絵
+//　　【水着】穂稀なお
+//　　　　＊なお先輩水着立ち絵イラストより流用
+<NAME_PLATE>鹿之助
+「いや、あの……？」
+<PAUSE>
+//　※立ち絵
+//　　【水着】上原鹿之助03
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「今の店員さんたち、
+　なんかすごくなかったですか……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鹿之助たちのテーブルにフードと
+ドリンクを持ってきてくれた店員たち。
+<PAUSE>
+<NAME_PLATE>
+　ドラッグクィーン風というのだろうか。
+明らかに常人とは異なる凄まじい
+存在感を放っていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「んー、そうかな？
+　まあ夏のビーチには色んな人が
+　いるからね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そ、そういうものですか……？」
+<PAUSE>
+<NAME_PLATE>
+　今のは『色んな人がいる』で
+済むレベルなのだろうか……。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いや、それはそれとして――
+　俺、ビーチでナンパされるなんて
+　初めてだったんですけど」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「これ、意外と悪くないですね！
+　色々おごってもらえたし！」
+<PAUSE>
+<NAME_PLATE>
+　買ってもらったドリンクを片手に
+ほくほくして言う鹿之助。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　今、鹿之助たちはナンパ男たちと
+バイバイして一休みしている所である。
+<PAUSE>
+<NAME_PLATE>
+　ビーチということで気が大きく
+なっているのか、ナンパ男たちは
+気前よく色々なものを奢ってくれた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0347a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>のぞみ
+「そう！　つまり――
+　それなんだよね鹿之助君！
+　わたしが伝えたかったこと！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　我が意を得たりというように
+のぞみが身を乗り出してくる。
+<PAUSE>
+<NAME_PLATE>のぞみ
+「可愛い子猫をイジメる人は少ないし、
+　むしろみんな、進んで
+　お世話してあげたいと思うよね？」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「それが“可愛い”の凄さだよ！
+　相手に敵意を抱かれることなく、
+　利益を得ることができる――」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「これは、潜入任務とかでも
+　大いに役に立つ能力だからね」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「わたしは趣味だけでなく
+　対魔忍として役に立つためにも、
+　自分の“可愛い”を磨いている――」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「そして今日、その良さを鹿之助君にも
+　わかって欲しかったのさ！」
+<PAUSE>
+<ACTOR>1,chr_t0347a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「！？　そうだったんですね、
+　先輩にはそんな深い考えが……！」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「ふふん♪　“可愛い”という事について、
+　少しは考えが変わったかな、鹿之助君！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「はっ、はい……！　確かに、
+　そう考えれば、女の子の格好も、
+　実は悪くないのかも……？」
+<PAUSE>
+<NAME_PLATE>のぞみ
+（ふふ、ヨシヨシ……）
+<PAUSE>
+<NAME_PLATE>のぞみ
+（これでまた一人、可愛い男の子が
+　女装沼の入り口に……♪）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,na_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+（うーん。また、のぞみが
+　いい加減なこと言ってるなぁ）
+<PAUSE>
+<NAME_PLATE>
+　たこ焼きをパクつきながら
+なおが呆れた顔をする。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　こうやって巧みに出まかせを並べて、
+のぞみは何人もの可愛い男子を
+女装の道へと引き込んでいた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0345a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,na_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「まあ、可愛いことに
+　恩恵があるのは確かだけどね。
+　でもそれ以上にリスクもある」
+<PAUSE>
+<NAME_PLATE>なお
+「気軽にそれを武器にしない方がいいよ、
+　鹿之助君。特に一人の時とかは――あっ、
+　それより、次は焼きそば頼んでいい？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「は、はい……！　というか
+　なお先輩、意外と食べるんですね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やせの大食いというやつなのだろう。
+<PAUSE>
+<NAME_PLATE>
+　見ているこちらが気持ち良いくらいの早さで
+なおはパクパクと料理を平らげている。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0345a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「じゃあ俺、店員さんを呼んで――
+　って、わあぁっ！？
+　マズイ！　あの人たち！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、鹿之助がビーチの方を見て
+慌てたような声を出す。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「お、俺、ちょっと隠れてます！
+　あの人たちが来たら、ここに
+　俺はいなかったってことで！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,na_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0347a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>のぞみ
+「鹿之助君？」
+<PAUSE>
+<NAME_PLATE>なお
+「あの人たち？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　バタバタと逃げるように
+その場から駆け去る鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　すると、それに続いて
+二人の前に姿を見せたのは――。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<GROUP>
+<ACTOR>0,chr_t0344b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,hr_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒田巴
+「ああ、やっぱり！
+　こんな所で奇遇ですね。
+　なお先輩、のぞみ先輩！」
+<PAUSE>
+//　※立ち絵
+//　　【水着】黒田巴02（ボールなし）
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　【水着】蓮魔零子（ボールなし）
+//　　　　＊蓮魔零子_水着イラストより流用
+//　※可能であればボール無し差分を作成してここではボールは出さない風でお願いします。
+<NAME_PLATE>蓮魔零子
+「やあ。お前たちも来てたんだな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>なお＆のぞみ
+「巴！？　蓮魔先生！？」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍学生・黒田巴。
+<PAUSE>
+<NAME_PLATE>
+　そして五車学園教官の蓮魔零子。
+<PAUSE>
+<NAME_PLATE>
+　どうやら鹿之助は彼女たちの姿を
+見かけて慌てて逃げていったらしい。
+<PAUSE>
+<NAME_PLATE>なお
+「こっちこそ驚きましたよ。
+　こんな所で五車の人に会うなんて――
+　お二人はバカンスですか？」
+<PAUSE>
+<NAME_PLATE>零子
+「いや、この近くで任務があってな。
+　それを片付けたので
+　息抜きがてらやってきた」
+<PAUSE>
+<NAME_PLATE>零子
+「そうだよな、巴？」
+<PAUSE>
+<NAME_PLATE>巴
+「ふふっ♪　はい、先生♪」
+<PAUSE>
+<NAME_PLATE>なお
+「？？　そ、そうなんですか……」
+<PAUSE>
+<NAME_PLATE>
+　なんだろう、この雰囲気は……？
+と、なおが微妙に困惑した顔になる。
+<PAUSE>
+<NAME_PLATE>
+　蓮魔零子は優秀な教官であり、
+黒田巴も熱心な対魔忍学生である。
+<PAUSE>
+<NAME_PLATE>
+　なのだが……しかし、巴が
+熱烈すぎるほど零子を慕っていること、
+<PAUSE>
+<NAME_PLATE>
+　そして、零子のどこか中性的で
+艶のある振る舞いから、
+<PAUSE>
+<NAME_PLATE>
+　巴と零子の間には、いつも妖しい
+雰囲気が漂っているように思えて……。
+<PAUSE>
+<NAME_PLATE>零子
+「しかし、お前たちは二人なのか？
+　もう一人ここにいたように見えたが」
+<PAUSE>
+<NAME_PLATE>なお
+「あっ。いや、今日は
+　僕たち二人で来たんですよ」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「そ、そうそう！　先生、
+　多分それ見間違いですよー！」
+<PAUSE>
+<NAME_PLATE>零子
+「ふむ。そうだったか」
+<PAUSE>
+<NAME_PLATE>
+　二人が口裏を合わせると、
+零子はあっさりと引き下がる。
+<PAUSE>
+<NAME_PLATE>
+　ちらりと見えた“もう一人”には
+あまり関心がないらしい。
+<PAUSE>
+<NAME_PLATE>
+　……というより零子の関心は、
+全く別のところにあったようだ。
+<PAUSE>
+<NAME_PLATE>零子
+「いや、お前たちが“二人”なら、
+　それは凄く都合が良い」
+<PAUSE>
+<NAME_PLATE>零子
+「何しろこちらも“二人”――
+　人数がちょうど合うからな」
+<PAUSE>
+<NAME_PLATE>巴
+「ふふ♪　そうですね、先生♪」
+<PAUSE>
+<NAME_PLATE>なお
+「えっ、えっ？　せ、先生、
+　なにを言ってるんです……？」
+<PAUSE>
+<NAME_PLATE>
+　巴と零子の視線がネットリと
+なおとのぞみの体に絡みつく。
+<PAUSE>
+<NAME_PLATE>
+　それはまるで、二人の体の
+何かを値踏みしているようで……。
+<PAUSE>
+<NAME_PLATE>巴
+「いえ、先生と私は、一緒に
+　“楽しむ”方を探していたんです」
+<PAUSE>
+<NAME_PLATE>巴
+「先生と私二人でも“楽しむ”ことは
+　できるんですが……」
+<PAUSE>
+<NAME_PLATE>巴
+「でもやっぱり、“楽しむ”には
+　人数が多い方が良いですからね」
+<PAUSE>
+<NAME_PLATE>零子
+「ああ。それに、この二人なら
+　“楽しむ”のにピッタリの体つきだ」
+<PAUSE>
+<NAME_PLATE>なお
+「た、楽しむ……？？」
+<PAUSE>
+<NAME_PLATE>のぞみ
+「な、何のこと……っていうか、
+　なおちゃん、わたし、なにか
+　アブない予感がプンプンと……」
+<PAUSE>
+<NAME_PLATE>巴
+「フフ。何も怖いことないですよ。
+　さあ先輩たちも一緒に、
+　私たちと楽しみましょう……♪」
+<PAUSE>
+//【背景：黒画面】
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0132a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方そのころ。
+<PAUSE>
+<ACTOR>0,chr_t0345a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふぅ。危なかったぜ……！
+　まさかこんな所に蓮魔先生たちが
+　来てるなんて……」
+<PAUSE>
+//　※立ち絵
+//　　【水着】上原鹿之助03
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ひと気のないビーチの外れに
+逃げ込んでほっとひと息の鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　女装仲間のなおたちならともかく、
+他の五車の人にこんな格好を
+見られるわけにはいかないのだ。
+<PAUSE>
+<NAME_PLATE>鹿之助
+（せっかくこんな五車から遠くの
+　ビーチまで来たのになぁ。
+　ついてないぜ）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　とにかく巴と零子が去るまで、
+ここで隠れているしかない――などと
+鹿之助が考えているとき。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>？？？
+「見つけたわよ、そこのあなた！」
+<PAUSE>
+<NAME_PLATE>？？？
+「フフフ、おバカさんね！
+　こんな所に一人でいるなんて、
+　襲ってくれと言ってるようなものじゃない！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「だ、誰だ――って、
+　さっきの店員さん！！？」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助を取り囲んだ三つの怪しい人影。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m287a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m286a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m285a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　それは、さっき鹿之助が休憩していた
+海の家『貝南亭』の店員たちであった。
+<PAUSE>
+<NAME_PLATE>？？？
+「ウフフ、店員……？　そうねえ、
+　おバカな人間の目には、アタシたちが
+　ただの店員に見えるでしょうね」
+<PAUSE>
+//　※立ち絵
+//　　オーククイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　忍熊クイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　トロールクイーン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※オーク、忍熊、トロール立ち絵をドラッグクイーン風に加工。
+<NAME_PLATE>鹿之助
+「いや、ただの店員には
+　ぜんぜん見えなかったけど……」
+<PAUSE>
+<NAME_PLATE>
+　ドラッグクィーン風の衣装を着た
+オーク、熊、トロールだ。
+<PAUSE>
+<NAME_PLATE>
+　明らかに存在感が凄すぎる。
+<PAUSE>
+<NAME_PLATE>
+　しかし謎の一団は鹿之助の
+つぶやきをスルーして堂々と続ける。
+<PAUSE>
+<NAME_PLATE>？？？
+「だけど！　それはあくまで
+　人間界に進出する足がかり――
+　つまり世を忍ぶ仮の姿！」
+<PAUSE>
+<NAME_PLATE>？？？
+「アタシたちの正体はＦ・Ｂ・Ｑ！！！
+　（ファンキー・ビースト・クイーンズ）」
+<PAUSE>
+<NAME_PLATE>？？？
+「美しきアンブローズ様の配下、
+　誇り高きエリート淫魔族よ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「い、淫魔族！？　っていうか、
+　アンブローズって前に五車に来た、
+　なんかすごい人……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が思い出す。
+<PAUSE>
+//【背景：黒画面】
+//【背景：森の中＿昼】【時間：昼】
+//　※先生を孕ませよう_nc001aより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc299a,IN, 1000
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+//　※立ち絵
+//　　アンブローズ
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　アンブローズとは、以前、
+ポンコツ夢魔リリムを連れ戻しに
+五車にやってきた淫魔族の大幹部だ。
+<PAUSE>
+<NAME_PLATE>
+　女なら誰でも魅惑するチャームの
+力を持つ恐るべき強敵だったが、
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の可愛さから女と誤認、
+その隙をつかれて敗退。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助を美しさを競うライバルと
+勝手に認定して帰っていった。
+<PAUSE>
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0132a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+「そうよ、上原鹿之助……。
+　アタシたちは、
+　とても納得できないの……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「っ！！？」
+<PAUSE>
+<ACTOR>0,ts_m288a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ザッ、ザッ、ザッと完璧な
+モンローウォークで新たな怪人物が
+鹿之助の前にやってくる。
+<PAUSE>
+<NAME_PLATE>クィーンたち
+「ルル姉さん！」
+「待ってました！！」
+「どんだけー！」
+<PAUSE>
+<NAME_PLATE>
+　熱狂するクィーンたち。
+<PAUSE>
+<NAME_PLATE>
+　どうやらこの怪人は
+かなり格上の淫魔のようである。
+<PAUSE>
+<NAME_PLATE>ルル・マンハッタン
+「あのアンブローズ様が、
+　人間ごときをお認めになるはずがない」
+<PAUSE>
+//　※立ち絵
+//　　ルル・マンハッタン
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ルル・マンハッタン
+「――勝負よ、上原鹿之助！
+　あなたが本当はどれくらい美しいか、
+　アタシが確かめてあげる！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「えええぇえぇぇぇっ！！？」
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

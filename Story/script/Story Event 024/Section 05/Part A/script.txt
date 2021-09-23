@@ -1,0 +1,223 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,ts_m297a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「お集まりの皆様にご紹介いたします。
+　イングリッド様とは大変繋がりの深いお方、
+　ノマドのドロレス様にございます」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵（武器なし）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>バニーＫ
+「今宵はイングリッド様の命が尽き果てる日。
+　是非、ドロレス様にも見て頂きたいと思い、
+　ご招待させていただきました」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0352a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドロレス
+「お……お姉ちゃあん……」
+<PAUSE>
+//　※立ち絵
+//　　【脱部屋】ドロレス＿立ち絵
+//　　　＊カードイラストより流用
+//　※【真夏バニー】高坂静流＿立ち絵
+//　　　＊カードイラストより流用
+//　※二人並べて出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「貴様……」
+<PAUSE>
+//　※立ち絵
+//　　【兎装の魔界騎士】イングリッド＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　バニーＫが恭しく紹介したが、
+イングリッドの呟きが全員に聞こえるほど
+ホールは静まりかえっていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　バニーＫが越えてはいけない一線を
+越えてしまったと思ったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士の怒りの巻き添えを恐れたか、
+一人残らず動けなくなっている。
+<PAUSE>
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　だがイングリッド当人は
+ドロレスを見た瞬間はともかく、
+今は戸惑いの方が大きくなっていた。
+<PAUSE>
+<NAME_PLATE>イングリッド
+（ドロレスを人質にするのに
+　高坂静流が手を貸しただと？）
+<PAUSE>
+<NAME_PLATE>
+　バニーＫによる暗殺計画を阻止したいと
+彼女の所にやってきた対魔忍がだ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+（高坂静流め、どういうつもりだ？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0352a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>静流
+「ふふ……」
+<PAUSE>
+<NAME_PLATE>
+　うっすらと笑みを浮かべたその顔は
+何を考えているのか分からない。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「お、お、お姉ちゃん……
+　へ、ヘルプぅ……」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスも助けを求めているわりには
+あまり怯えている様子がない。
+<PAUSE>
+<NAME_PLATE>
+　そもそも殆ど家に籠もりっぱなしの上、
+ヨミハラ屈指の呪いの使い手であるドロレスを
+どうやって人質にしたのか。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m297a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「ではイングリッド様。
+　そろそろ始めましょうか」
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バニーＫ
+「もちろんお相手はこの私、
+　バニーＫがつとめさせていただきます」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　イングリッドの戸惑いをよそに
+バニーＫはついに時は来たとばかりに
+剣を抜いて近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　一対一の決闘を望んでいるようだ。
+それはやぶさかではないが―――。
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0353a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「バニーＫ、お前は何者だ？」
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「なに？」
+<PAUSE>
+<NAME_PLATE>
+　思わず出た言葉に
+バニーＫの足がぴたりと止まった。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「こんなお膳立てをしてもらって悪いが
+　貴様が私に纏わりついてくる理由が分からん。
+　私には敵も味方も多いのでな」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「どうせ私に倒されるのであれば、
+　その前に正体くらいは教えていけ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「その仮面を外したらどうだ？
+　下に素顔があるのならな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>バニーＫ
+「わ、私の正体だと！？」
+<PAUSE>
+<NAME_PLATE>
+　バニーＫはなぜか驚いたように聞き返し、
+サイボーグの身体もぶるぶる震え始める。
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「ぐっ……ぐぐっ……
+　私の正体……正体……だと……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　彼女の心当たりがないイングリッドに
+憤っているのかと思ったが、
+どうも様子がおかしい。
+<PAUSE>
+<NAME_PLATE>
+　まるで自分の正体を必死に
+思いだそうとしているかのようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0352a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドロレス
+「おふっ、お姉ちゃん、煽る煽る♪」
+<PAUSE>
+<NAME_PLATE>
+　人質に取られているはずのドロレスも
+面白そうな声をしている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やはりなにか妙だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m297b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0353a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「お前は私を恨んでいるのだろう？
+　違うのか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>バニーＫ
+「だ、黙れイングリッド！
+　私は貴様を殺したいだけだ！！
+　そのために生きてきた！　死ね！！」
+<PAUSE>
+<NAME_PLATE>
+　結局、正体を明かすことなく
+バニーＫは激昂して襲いかかってきた。
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,257 @@
+//=================================================================
+//FileNo:S105a
+//=================================================================
+//【背景：東京キングダム裏町＿霧＿夜】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm709,1000
+<BG>nc016b,IN, 1000
+<ACTOR>1,h_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「タコ化四刀流っ！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ザシュウウッ……！
+<PAUSE>
+<ACTOR>1,h_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「鹿之助ちゃん！　左っ！」
+<PAUSE>
+<ACTOR>1,h_t005f,CENTER, CENTER, OUT, linear, 500
+<ACTOR>1,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「よ、よし！
+　電遁の術“スパーク”！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t002c,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se030
+<BG>nc016b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>ゾンビ姉御
+「ゴオオオオオオオオアアアアアッ！！？」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビ姉御
+<ACTOR>1,s_t002c,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　二人の攻撃が、
+一体、また一体とゾンビを撃退していく。
+<PAUSE>
+<NAME_PLATE>
+　がむしゃらに暴れるだけのゾンビたちは、
+学生とはいえ対魔忍の敵ではなかった。
+<PAUSE>
+<NAME_PLATE>
+　しかし――
+<PAUSE>
+<ACTOR>1,ts_m054a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゾンビ
+「ゴアアアアアアアアッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+<NAME_PLATE>鹿之助
+「うわあっ！　また湧いてきやがった！」
+<PAUSE>
+<NAME_PLATE>
+　倒しても倒しても、
+新しいゾンビが、次々にモヤの向こうから
+現れる。
+<PAUSE>
+<ACTOR>1,ts_m055a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゾンビ姉御
+「オオオオオオオオオアアアッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビ姉御
+<NAME_PLATE>
+　また、一度倒したと思ったゾンビも、
+しばらく経ったらむくっと起き上がり、
+また襲いかかってくる有様だ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「もー！！　なんなの！？
+　これじゃキリがないわ！！」
+<PAUSE>
+<NAME_PLATE>
+　一向に敵の数は減らない。
+それどころか、俺たちはすっかり、
+ゾンビの群れに囲まれていた。
+<PAUSE>
+<ACTOR>1,ts_m055a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「ああ、このままじゃ危険だ。
+　一気に包囲を破りたいが……蛇子？」
+<PAUSE>
+<ACTOR>1,h_t005j,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>蛇子
+「あーもう、臭いぃ！！
+　ベタベタしてキモチ悪いいいい！！
+　来ないで、蛇子の吸盤は敏感なんだから！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装
+<ACTOR>1,h_t005j,CENTER, CENTER, OUT, linear, 500
+<ACTOR>1,s_t001d,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>鹿之助
+「ひいぃいぃぃぃぃ！！
+　みんなしてこっち見るなぁ！！！！
+　顔が恐すぎるんだよぉぉ！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>1,s_t001d,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>俺
+「おいおい、
+　落ち着いてくれよ！？」
+<PAUSE>
+<NAME_PLATE>
+　ゾンビの強さはそれほどでもないはずだが、
+この異様な状況が、二人のメンタルに
+相当なダメージを与えているようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「頼りにならないな、おい！！
+　――しかし困ったな」
+<PAUSE>
+<NAME_PLATE>
+　たいして強くないとはいえ、
+これだけの数のゾンビを俺一人で
+破るのは難しい。
+<PAUSE>
+<NAME_PLATE>俺
+「なんとか二人を正気に戻さないと……
+　おい、蛇子！？　鹿之助！？」
+<PAUSE>
+<ACTOR>1,h_t005b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ぞ、ゾンビタコも……ありかもっ！
+　あはは！」
+<PAUSE>
+<ACTOR>1,h_t005b,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>1,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そ、そうだ、ゾンビになったら
+　ゾンビは怖くない……！　ははは！」
+<PAUSE>
+<NAME_PLATE>俺
+「やばい、肉体の前に、
+　精神がゾンビ化しそうだ――ん！？」
+<PAUSE>
+<ACTOR>1,s_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　その時――
+<PAUSE>
+<GROUP>
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ザシュ――ッ！！
+<PAUSE>
+<NAME_PLATE>
+　モヤの中に、幾筋もの刃筋がきらめいた。
+<PAUSE>
+<NAME_PLATE>ゾンビたち
+『グガアアアアアアアアアアアアア！！！？』
+<PAUSE>
+<NAME_PLATE>
+　ゾンビ達が腐った血を噴いて崩れ落ちる。
+<PAUSE>
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　その向こうに立っていたのは、
+黄金の剣を背負った仏像のごとき人影、
+いや、少女――
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m055a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゾンビ
+「ゴアアアゴオオアアアア！？？！！」
+<PAUSE>
+<NAME_PLATE>ゾンビ姉御
+「オオオオオオオアオオアオオアオオ！？」
+<PAUSE>
+<NAME_PLATE>
+　ゾンビたちが一斉にそちらへ向き直るも、
+少女は表情を変えることなく、
+無言でその背の剣を動かした。
+<PAUSE>
+<SE_PLAY>se004
+<NAME_PLATE>
+　カシャリ――
+<PAUSE>
+<NAME_PLATE>少女
+「――」
+<PAUSE>
+<NAME_PLATE>
+　キラ、キラとモヤに斬撃が反射する。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<ACTOR>0,ts_m055a,LEFT, LEFT, OUT, linear, 500
+<ACTOR>2,ts_m054a,RIGHT, RIGHT, OUT, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドシャアッ！
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間、ゾンビの塊は地面に
+崩れ落ちていた。
+<PAUSE>
+<NAME_PLATE>俺
+（す、すごい――
+　あれだけの数のゾンビを一瞬で！？）
+<PAUSE>
+<ACTOR>1,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「ふん――」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<NAME_PLATE>俺
+「だ、誰なんだお前は？」
+<PAUSE>
+<NAME_PLATE>少女
+「誰だ、とはずいぶんな言い草ね。
+　助けてくれた恩人に向かって、
+　お礼の一つも言えないの？」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……？」
+<PAUSE>
+<NAME_PLATE>少女
+「私は秋津。
+　魎魔忍の黄泉秋津よ」
+<PAUSE>
+<NAME_PLATE>俺
+「魎魔……何だ？」
+<PAUSE>
+<NAME_PLATE>黄泉秋津
+「マダムの使いでやってきたわ。
+　あんた達が取引相手ね？」
+<PAUSE>
+<NAME_PLATE>俺
+（何だ？　こいつは……
+　魎魔忍……？　とは……？）
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>1,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section１終了
+//☆第8章【Section２】シナリオ

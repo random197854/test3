@@ -1,0 +1,173 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：東京キングダム＿港湾地区の廃ビル１階＿夜】【時間：夜】
+<BGM_PLAY>bgm313,1000
+<BG>nc015a,IN, 1000
+<ACTOR>0,ws_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「せええええええいっ！！」
+<PAUSE>
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿対魔忍衣装
+<GROUP>
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドガアァアアアアンンンンンッ！！！！！
+<PAUSE>
+<NAME_PLATE>
+　さくらの一撃で、
+ドローンが派手に吹っ飛び、
+壁に打ちつけられる。
+<PAUSE>
+<NAME_PLATE>
+　歴戦の傭兵達の手で、ドローンは次々と
+破壊され、状況は優勢になっていた。
+<PAUSE>
+<NAME_PLATE>
+　中でもさくらは抜群の活躍を見せている。
+<PAUSE>
+<NAME_PLATE>さくら
+「とおっ！　てやっ！　あたーーーっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se035
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドォン！！　グァァン！！　バキィィン！！
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「これで四…五……八機目か！！
+　あの姉ちゃん、可愛い顔して
+　なかなかやるよなあ！！」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+<NAME_PLATE>オーク傭兵
+「テストで実力はわかっていたが、
+　まさかここまでとはなぁ……」
+<PAUSE>
+<NAME_PLATE>
+　と、俺の隣で唸るのは、
+さくらのテストをした、あのオーク傭兵だ。
+<PAUSE>
+<NAME_PLATE>
+　その目はもはや小娘を見るそれではなく、
+戦友か好敵手でも見るような、
+小憎らしさを滲ませている。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「お前、あの姉ちゃんの相棒だろ？
+　それにしちゃあカラッキシだなぁ！！
+　もっと頑張れよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、悪かったな……」
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+（うるせえな！
+　こっちにはこっちの事情があるんだよ！！）
+<PAUSE>
+<NAME_PLATE>
+　俺は内心で反論しながら、
+オークを睨み返す。
+<PAUSE>
+<NAME_PLATE>
+　“荷物”の中身を探りに行く隙を窺おうと、
+俺は積極的に戦闘に参加していなかったのだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし皮肉にもさくらの活躍で、
+そのチャンスはないまま、
+戦闘はすんなり終わったようだ。
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ただいま～！　ふうま君、生きてた？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>俺
+「なんとかな。お前も頑張ったじゃないか」
+<PAUSE>
+<NAME_PLATE>さくら
+「あっ！　見てくれた～？
+　まあ高級ディナーのためだからね、
+　頑張っちゃった！」
+<PAUSE>
+<NAME_PLATE>
+　えへんと胸を張るさくらに、
+隣のオーク傭兵が笑って声をかける。
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,ts_m053a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「よう！　大したもんだな姉ちゃん！
+　俺も何年も傭兵やってるが、
+　こんなに強えメスガキは初めてだぜ」
+<PAUSE>
+<ACTOR>0,ws_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「わっ？　ほんと～？
+　おじさん、見る目あるね～！！」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「本当も本当だぜ！」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「こっちのシャバい坊主にも、
+　戦い方を教えてやったらどうだ？！
+　なんならベッドの上でな！　ガハハハハ！」
+<PAUSE>
+<ACTOR>0,ws_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「きゃ～！！
+　おじさん、えっち～！！」
+<PAUSE>
+<NAME_PLATE>
+　意外と気のよいオーク傭兵と、
+さくらはすっかり意気投合しているらしい。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ……
+　緊張感のない奴らだぜ……）
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t002b,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>2,ts_m053a,LEFT, LEFT, OUT, linear, 1000
+</GROUP>
+//【背景：東京キングダム＿港湾地区＿夜】【時間：夜】
+<BG>nc013a,IN, 1000
+<NAME_PLATE>
+　戦闘が終了し、傭兵たちはぞろぞろと
+建物の外へ出てきた。
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+「敵勢ノ撃退ヲ確認シタ！」
+<PAUSE>
+//　※立ち絵
+//　　ファウスト＿汎用立ち絵
+<NAME_PLATE>ファウスト
+「タダチニ護送ヲ再開スル！！
+　総員、配置ニツケ！！」
+<PAUSE>
+<NAME_PLATE>
+　その指示に応え、俺たちも、
+急いで持ち場へと戻った。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ts_m051a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３終了

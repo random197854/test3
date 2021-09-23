@@ -1,0 +1,1095 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：リリムの魔草畑＿昼】【時間：昼】
+//　※対魔忍ユキカゼ_nc008aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc117a,IN, 1000
+<ACTOR>0,chr_t0348a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（ふうま君、リリムをお願い）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　コロ先輩はそう言うなり、
+オルクスに単身闘いを挑んでいく。
+<PAUSE>
+<NAME_PLATE>
+　一目で強敵と見なしたか。
+<PAUSE>
+<ACTOR>0,chr_t0348b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（逸刀流・居合）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路（居合）＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>オルクス
+「ほう」
+<PAUSE>
+//　※立ち絵
+//　　オルクス＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィインッッ！！
+<PAUSE>
+<NAME_PLATE>
+　奴が掲げた左腕のガントレットが
+耳障りな音を鳴らした。
+<PAUSE>
+<BG>nc117a,IN, 500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「魂による斬撃か。
+　少しは楽しめそうだな」
+<PAUSE>
+<NAME_PLATE>
+　目に見えない魂の斬撃をいきなり防いだ？
+<PAUSE>
+<NAME_PLATE>
+　なんて奴だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「コロ先輩！！
+　爪の周りの魔氣に気をつけて。
+　触れただけで人を腐らせます！！」
+<PAUSE>
+<ACTOR>0,chr_t0348b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（分かった）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩はいったん距離をとり、
+再び果敢に攻め込んでいく。
+<PAUSE>
+<NAME_PLATE>孤路
+「（はっ、はああっ！！）」
+<PAUSE>
+<NAME_PLATE>オルクス
+「フハハハハハ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィンッ！　ギィンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　奴の左腕がコロ先輩の見えない斬撃を
+次々と防いでいく。
+<PAUSE>
+<BG>nc117a,IN, 500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「ではこちらから行くぞ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　触れただけでも腐るという爪が
+振り下ろされる。
+<PAUSE>
+<NAME_PLATE>リリム
+「ころちゃん危ない！」
+<PAUSE>
+<NAME_PLATE>孤路
+「（っ！！）」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc117a,IN, 500
+<NAME_PLATE>
+　コロ先輩は普段よりも
+一歩も二歩も余計に後ろに下がって、
+それを躱した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズザアアアアアアッッ！！
+<PAUSE>
+<NAME_PLATE>
+　奴の爪に当たってもいないのに、
+近くにあった魔草が腐っていく。
+<PAUSE>
+<ACTOR>0,chr_t0348b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（強い）」
+<PAUSE>
+<NAME_PLATE>
+　さすがに声は聞こえなかったが、
+コロ先輩の口がそう動くのが分かった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　確かに強い。
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の気配を読んでいるのか、
+奴は見えない斬撃を完全に防いでいる。
+<PAUSE>
+<NAME_PLATE>
+　対するコロ先輩は
+奴の爪に刀を合わせるどころか、
+<PAUSE>
+<NAME_PLATE>
+　その周りに漂う魔氣までも
+完全に避けなければならない。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「フフフフフ！！」
+<PAUSE>
+<NAME_PLATE>
+　しかもライブラリーに脇腹を
+かなり深くやられたはずなのに、
+その影響が微塵も感じられない。
+<PAUSE>
+<NAME_PLATE>
+　そうか。腹にベタベタと張り付けた
+あの魔草のせいで痛みを感じていないのか。
+<PAUSE>
+<NAME_PLATE>
+　なら肉体には無理がかかっているはずだ。
+そこにつけ込むことができれば。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「やばいやばい！
+　あいつの魔氣、超ヤバいよ！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびん、早くなんとかしないと！
+　ころちゃん大ピンチだよ！」
+<PAUSE>
+<NAME_PLATE>
+　さっきコロ先輩に助けられたリリムが
+俺の腕を掴んでグイグイと急かした。
+<PAUSE>
+<NAME_PLATE>
+　こういうとき、
+真っ先に逃げそうなタイプだが、
+さすがに友達は見捨てられないらしい。
+<PAUSE>
+<NAME_PLATE>
+　なら、こいつの力も借りるか。
+<PAUSE>
+<NAME_PLATE>俺
+「分かってる。
+　このままじゃやられる。
+　リリム、手伝ってくれ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「わ、私が！？　無理無理無理！！」
+<PAUSE>
+<NAME_PLATE>
+　リリムは掴んでいた俺の手を
+パッと離した。
+<PAUSE>
+<NAME_PLATE>リリム
+「あんなヤバい魔氣を使う奴と
+　ガチバトルとか無理！
+　そういうのは脳筋対魔忍の仕事！」
+<PAUSE>
+<NAME_PLATE>俺
+「お前は夢魔だろうが。
+　奴を眠らせるとか
+　夢に引きずり込むとかできないのか？」
+<PAUSE>
+<NAME_PLATE>リリム
+「無茶言うな！　あんな興奮してるやつ
+　私の夢に乗っかってくるわけないだろ。
+　最近、夢魔っぽいことしてないんだぞ！」
+<PAUSE>
+<NAME_PLATE>俺
+「しろよ！　ああもう、ったく！
+　ほんの一瞬くらっとさせるだけでいい。
+　それくらいなんとかしろ！」
+<PAUSE>
+<NAME_PLATE>リリム
+「うう……
+　そ、それくらいならなんとか。
+　あんまり自信ないけど……」
+<PAUSE>
+<NAME_PLATE>
+　完全な逃げ腰で言う。
+<PAUSE>
+<NAME_PLATE>俺
+「なくてもやれ。
+　もうすぐコロ先輩が大技を使う。
+　そのタイミングで一緒に仕掛けるぞ」
+<PAUSE>
+<NAME_PLATE>リリム
+「な、なんでころちゃんが
+　大技を使うって分かるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「動きを見てれば分かるんだよ
+　何度も一緒に戦ってきたからな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　コロ先輩は奴の周りを
+魔氣の間合いの外になるように動きながら、
+次の攻撃のタイミングを計っている。
+<PAUSE>
+<NAME_PLATE>
+　ぴんと張り詰めたその背中が
+「（私に合わせて何かお願い）」と
+雄弁に語っていた。
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「そ、そういうの見て分かるとか、
+　おやびん、す、すごく変態っぽい。
+　な、なんちゃって」
+<PAUSE>
+<NAME_PLATE>
+　リリムは震えた声で言った。
+<PAUSE>
+<NAME_PLATE>
+　お馴染みの俺への悪口だが、
+それで必死に恐怖を抑えているのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「いつもの調子が戻ってきたな。
+　やるぞ」
+<PAUSE>
+<NAME_PLATE>リリム
+「りょりょ、りょうかい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0348b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（…………）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩がチラリとこちらを見た。
+俺がそれに頷くと、
+<PAUSE>
+<NAME_PLATE>孤路
+「（っっ！！）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　コロ先輩は奴の周りの移動から一転して、
+その間合いに鋭く飛び込んだ。
+<PAUSE>
+<NAME_PLATE>
+　そして俺が予想したとおり、
+奴に向かって大技を仕掛けていく。
+<PAUSE>
+<ACTOR>0,chr_t0348c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（逸刀流・死屍累々）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路（死屍累々）＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「フハハハハ！！　無駄だあ！！」
+<PAUSE>
+//　※立ち絵
+//　　オルクス＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　オルクスがコロ先輩の人魂斬撃の嵐を
+防ぎにかかったその瞬間、
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩っ！！」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺も刀を抜いて突っ込んでいく。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「雑魚が！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺など全く問題にしていない顔だ。
+だがそれでいい。今だ―――。
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「ゆ、夢の世界にごあんなーい！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オルクス
+「ぬおあっ！？」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の見えない斬撃ですら
+完全に防ぎきったオルクスだったが、
+<PAUSE>
+<NAME_PLATE>
+　リリムにどんな白昼夢を見せられたのか、
+一瞬クラッとした。
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズババババババッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の見えない斬撃が
+無防備な奴の身体を斬り刻み、
+<PAUSE>
+<NAME_PLATE>オルクス
+「うぐっっ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「でやあああっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　次いで俺が
+ライブラリーが傷つけた奴の脇腹を
+さらに深く抉っていた。
+<PAUSE>
+<NAME_PLATE>オルクス
+「ぐぁああああああああああああああっ！」
+<PAUSE>
+<NAME_PLATE>
+　魔草でも抑えきれない痛みに
+オルクスは凄まじい悲鳴を上げて
+その場にがくりと膝をついた。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc117a,IN, 500
+<NAME_PLATE>俺
+「撤退します！」
+<PAUSE>
+<ACTOR>1,chr_t0348a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（了解）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の大技をまともに食らったのに
+致命傷ではないようだ。
+<PAUSE>
+<NAME_PLATE>
+　そんな奴の相手をこれ以上していられない。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,chr_t0349a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「え？　なになに？
+　逃げるの？　もうトンズラ？？
+　そいつ倒さないの？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだ！　早く逃げろ！！」
+<PAUSE>
+<NAME_PLATE>孤路
+「（急いで）」
+<PAUSE>
+<NAME_PLATE>リリム
+「が、がってん。
+　逃げることにかけちゃあ、
+　このリリムちゃんは―――うわあ！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,500
+<SE_PLAY>se010
+<NAME_PLATE>
+　逃げだそうとしたリリムが
+いきなり転んでいた。
+<PAUSE>
+<NAME_PLATE>
+　あんならしくない格好のせいで、
+スカートの裾に足を引っかけたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「バカ、何やってんだ！」
+<PAUSE>
+<NAME_PLATE>孤路
+「（リリム！）」
+<PAUSE>
+<NAME_PLATE>リリム
+「好きで転んだわけじゃないよ！！
+　ひいいい！！　来る来る来る！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「お、おのれ……きさまらぁあ……」
+<PAUSE>
+<NAME_PLATE>
+　全身血まみれのオルクスが
+憤怒の形相で立ち上がり、
+逃げ遅れたリリムに近づいていく。
+<PAUSE>
+<NAME_PLATE>オルクス
+「まずは、お前からだ！」
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびん！！　ころちゃん！！
+　助けてーーーーー！！」
+<PAUSE>
+<NAME_PLATE>オルクス
+「死ねええ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ちいっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　気がついた時には
+奴とリリムの間に身体を割り込ませていた。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　しかし、叩きつけるように振った刀は
+魔氣の爪にあっさり弾かれ、
+<PAUSE>
+<NAME_PLATE>オルクス
+「どけえいっ！！」
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　さらに繰り出された一撃が
+俺の身体に向かって傲然と迫ってくる。
+<PAUSE>
+<NAME_PLATE>
+　俺は身体を横に倒して、
+地面を思いっきり蹴って飛び退くが、
+<PAUSE>
+<NAME_PLATE>
+　駄目だ、間に合わない、やられる。
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>孤路
+「（はあっっ！！）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路（居合）＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　コロ先輩が横合いから
+さらに割って入ってきた。
+<PAUSE>
+<NAME_PLATE>オルクス
+「小賢しい！！」
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　だがオルクスは左腕を振り回し、
+見えない居合いもろとも
+コロ先輩を力任せに薙ぎ払った。
+<PAUSE>
+<BG>nc117a,IN, 500
+<NAME_PLATE>孤路
+「（がっっ！！）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩はボールのように飛ばされ、
+数メートル先の木に激しく激突し、
+ズルズルと崩れ落ちた。
+<PAUSE>
+<NAME_PLATE>リリム
+「ころちゃん！」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩！」
+<PAUSE>
+<NAME_PLATE>
+　そのままピクリとも動かない。
+気絶しただけか？　やられたのか？
+<PAUSE>
+<NAME_PLATE>
+　だが、それ以上
+気にする余裕は俺にもなかった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ぐあああああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　腹を横から捻じ切られるような
+凄まじい痛みが俺を襲っていた。
+<PAUSE>
+<NAME_PLATE>リリム
+「おやびんもっ！？」
+<PAUSE>
+<NAME_PLATE>
+　さっきの一撃、コロ先輩のおかげで
+まともに食らうことはなかったが、
+脇腹を掠っていたようだ。
+<PAUSE>
+<NAME_PLATE>
+　ただそれだけで
+横っ腹の肉がグズグズと腐り始めていた。
+<PAUSE>
+<NAME_PLATE>
+　しかも、それを抑え込もうと、
+魔性の力、黒々とした闇が溢れ出し、
+脇腹のあたりで激しくのたくっている。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐぐ……ぐうっ……うっぐうっ……」
+<PAUSE>
+<NAME_PLATE>
+　魔氣の毒と、魔性の力のせめぎ合い、
+その狭間の身を焼くような苦しみで、
+俺は地べたに転がったまま動けなくなる。
+<PAUSE>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「どういう事だ？
+　俺の魔氣を受けて何故腐れ死なん？」
+<PAUSE>
+<NAME_PLATE>
+　気絶することもできない痛みの向こうで、
+奴が不思議そうに言っている。
+<PAUSE>
+<NAME_PLATE>オルクス
+「まあいい。
+　この爪で串刺しにして
+　腐るまで魔氣を注げばすむことよ」
+<PAUSE>
+<NAME_PLATE>
+　オルクスが俺にとどめを刺そうと
+近づいてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ぐぐ……ぐうっ……」
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「ま、まままま、待てコラーーー！！！
+　そ、それ以上近づくなこのボケーーー！！
+　このカゴをよく見ろコンチクショー！！」
+<PAUSE>
+<NAME_PLATE>
+　なんと、あのリリムが俺を守るため、
+ブルブルと震えながら奴の前に
+立ちはだかっていた。
+<PAUSE>
+<NAME_PLATE>リリム
+「ここ、この中には
+　と、とっておきの超破壊爆弾が
+　入ってるんだぞ！」
+<PAUSE>
+<NAME_PLATE>リリム
+「そ、そ、それ以上近づいたら、
+　今すぐ爆発させてやるぞこらあ！！」
+<PAUSE>
+<NAME_PLATE>オルクス
+「超破壊爆弾？」
+<PAUSE>
+<NAME_PLATE>リリム
+「そ、そうだ！！　すごいんだぞ！！
+　もうあたり一面どかーんだぞ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オルクス
+「グハハハハハハハハハハハ！！」
+<PAUSE>
+<NAME_PLATE>
+　リリム渾身のハッタリだったが、
+オルクスは弾かれたように笑い出した。
+<PAUSE>
+<NAME_PLATE>
+　当たり前だ。
+<PAUSE>
+<NAME_PLATE>俺
+「も……もうちょっと……
+　上手な嘘をつけ……下手すぎだろ……」
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「そ、そんなこと言ったってえ……」
+<PAUSE>
+<NAME_PLATE>
+　リリムは涙目で俺を振り返った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オルクス
+「グハハハハハハハッハ！！」
+<PAUSE>
+<NAME_PLATE>
+　オルクスは馬鹿笑いをしながら
+俺とリリムに近づいてくる。
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「おいこら！
+　近づくなって言ってるだろ！
+　ほ、ほんとに爆発させるぞ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「なら淫魔の小娘、お前から死ね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　オルクスが右手の腐爪を
+ゆっくりと持ち上げていく。
+<PAUSE>
+<NAME_PLATE>リリム
+「ひいいっっ！」
+<PAUSE>
+<NAME_PLATE>
+　リリムが頭を抱えてしゃがみ込んだ
+その時だった。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc117a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴン！！！
+<PAUSE>
+<NAME_PLATE>オルクス
+「っっ！」
+<PAUSE>
+<NAME_PLATE>
+　奴の頭がいきなり
+ガクンと前に揺さぶられた。
+<PAUSE>
+<NAME_PLATE>
+　後ろから何かで
+ぶん殴られたような動きだ。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「なんだ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　オルクスは不思議そうに
+左手で後頭部を押さえた。
+<PAUSE>
+<NAME_PLATE>
+　その手がベットリと血に染まる。
+<PAUSE>
+<NAME_PLATE>リリム
+「え？　え？　え？　え？」
+<PAUSE>
+<NAME_PLATE>
+　リリムは頭を抱えたまま、
+わけが分からないという顔で
+顔面血まみれの奴を見上げた。
+<PAUSE>
+<NAME_PLATE>俺
+「み、見えない……爆弾って言え……」
+<PAUSE>
+<NAME_PLATE>リリム
+「え？　そんなの知らないよ？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いいから……！」
+<PAUSE>
+<NAME_PLATE>
+　俺が呻き声で頼むと、
+リリムはやけっぱちになって
+言い放った。
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「ど、どうだ見たか！！
+　って、見えないよな！
+　うん全然見えない！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「それが天才爆弾魔リリムちゃんの
+　見えない爆弾の力だ！！
+　ぬはははははははは！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その下手なハッタリの間も
+どかっ、どかっ、どかっ、どかっと、
+奴の頭は滅多打ちにされている。
+<PAUSE>
+<NAME_PLATE>オルクス
+「おのれぇええええええっ！！」
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　痛みを感じてないようだが、
+さすがに鬱陶しくなったのか、
+奴は魔氣の爪をぶうんと振り回した。
+<PAUSE>
+<BG>nc117a,IN, 500
+<ACTOR>1,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「ひゃあああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ひっくり返った声を上げて、
+姿を現したのは、やはりあむだった。
+<PAUSE>
+<NAME_PLATE>
+　石遁の術で存在を消し、あのデカい
+バールのようなもので殴ってくれていたが、
+今ので集中が切れたようだ。
+<PAUSE>
+<ACTOR>1,chr_t0269a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0349a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「だ、誰？
+　見えない爆弾人間？」
+<PAUSE>
+<NAME_PLATE>あむ
+「違います。お館様をいつも影に隠れて
+　お守りするふうま宗家御庭番、
+　壱番隊筆頭、石川あむです」
+<PAUSE>
+<NAME_PLATE>リリム
+「い、いつも影に隠れてお守り。
+　それすなわち、おやびんのストーカー？」
+<PAUSE>
+<NAME_PLATE>あむ
+「違いますよー」
+<PAUSE>
+<NAME_PLATE>
+　あむはこの状況で余裕があった。
+なるほど、そういうことか。
+<PAUSE>
+<NAME_PLATE>俺
+「あむ……助かった……」
+<PAUSE>
+<NAME_PLATE>あむ
+「はい、間一髪でした。
+　間に合ってよかったです」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オルクス
+「死出の旅にか？
+　この道化どもめが。
+　貴様らまとめて腐らせてくれるわ！」
+<PAUSE>
+<NAME_PLATE>
+　オルクスは右手を高く掲げた。
+おそらく魔氣を全開にしようとしたのだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　だが、その身体から溢れ出したのは、
+魔氣ではなく炎だった。
+<PAUSE>
+<NAME_PLATE>
+　奴の身体に幾つもの炎の線が走り、
+その炎が全身に広がっている。
+<PAUSE>
+<NAME_PLATE>オルクス
+「な、なんだこれは！？
+　俺の身体が燃えている？」
+<PAUSE>
+<BG>nc117a,IN, 500
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「あなたも違ってますよ。
+　草のヤリ過ぎで気付いてませんね。
+　もう死んでいることに！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オルクス
+「なんだと！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　次の瞬間、キャンプファイヤーで
+積み上げた薪が不意に崩れ落ちるように、
+<PAUSE>
+<NAME_PLATE>
+　オルクスの身体がバラバラになり、
+その炎が大きくなった。
+<PAUSE>
+<BG>nc117a,IN, 500
+<ACTOR>0,ts_m104c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー（水晶化）＿立ち絵
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　対魔忍ライブラリー＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　燃え上がる炎を受け、
+ライブラリーが虚空から姿を現す。
+<PAUSE>
+<NAME_PLATE>
+　オルクスを斬り刻み、
+気づかないうちに倒していた
+左右のブレードが鮮やかに赤熱していた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オルクス
+「き……貴様……は……」
+<PAUSE>
+<NAME_PLATE>
+　首だけになったオルクスは
+最期に何か言おうとしたようだが、
+それも叶わずに炎の中に消えていった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>リリム
+「ああああああああ～～～～～。
+　なんだか分かんないけど助かった～～～～。
+　もう絶対死ぬと思った～～～～～」
+<PAUSE>
+<NAME_PLATE>
+　リリムはへなへなと
+その場に尻餅をついた。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「リリム殿、
+　お怪我はございませんか？」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーはそのリリムの手を引いて
+起こしてやっている。
+<PAUSE>
+<NAME_PLATE>リリム
+「う、うん。私は何とも。
+　あ、そうだ！　ころちゃんは！？
+　ころちゃん大丈夫？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0348a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0269a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>孤路
+「（……私は平気）」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】死々村孤路＿立ち絵
+//　　　＊カードイラストより流用
+//　　石川あむ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>あむ
+「コロさんなら大丈夫ですよ。
+　もう意識を取り戻しました。
+　ただの打撲のようです」
+<PAUSE>
+<NAME_PLATE>孤路
+「（あの魔氣を食らってたら危なかった）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩も無事だったようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「はーーー、よかっったあーー！」
+<PAUSE>
+<NAME_PLATE>
+　リリムは胸をなで下ろし、
+そこでようやく俺のことを思い出したらしく、
+<PAUSE>
+<NAME_PLATE>リリム
+「はっ、おやびん！！
+　さっき一人だけあのヤバいのを食らってた！
+　じゃあ、おやびん一人だけお陀仏！？」
+<PAUSE>
+<NAME_PLATE>リリム
+「ああ、おやびん！　おやびん！！
+　さようなら、おやびん！
+　おやびんのことは多分忘れないよ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「勝手に殺すな……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はよろよろと立ち上がった。
+<PAUSE>
+<NAME_PLATE>
+　確かに一人だけ魔氣を食らっていたが、
+かすり傷だったし、
+<PAUSE>
+<NAME_PLATE>
+　魔性の力の方が上回っていたらしく、
+なんとか回復していた。
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリム
+「おやびん、生きてる？　なんで？」
+<PAUSE>
+<NAME_PLATE>俺
+「回復力には多少自信がな」
+<PAUSE>
+<NAME_PLATE>
+　また「あれが治るとか、おやびん変態」
+とでも言うかと思ったが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「うわあああああああああんん！！」
+<PAUSE>
+<NAME_PLATE>
+　リリムは俺に体当たりするように
+しがみついてきた。
+<PAUSE>
+<NAME_PLATE>リリム
+「生きてるなら生きてるって言えよ！！
+　おやびんのばかーーー！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「すごく怖かったんだぞ！！
+　ばかばかばかあ！！
+　うわあああああああああああんんん！！」
+<PAUSE>
+<NAME_PLATE>
+　よほど怖かったらしく、
+俺の胸で普通にわんわん泣いていた。
+<PAUSE>
+<NAME_PLATE>俺
+「悪かった悪かった。
+　まあ全員無事で良かった。
+　お前も珍しく役に立ったぞ」
+<PAUSE>
+<NAME_PLATE>
+　意外と可愛いところがあるなと思いつつ、
+慰めてやると、
+<PAUSE>
+<NAME_PLATE>リリム
+「えぐっ、えぐっ、えぐっ……。
+　じゃあ、おやびんを助けたご褒美に
+　ここの魔草を焼くのはなしね」
+<PAUSE>
+<NAME_PLATE>
+　ここぞとばかりにおねだりしてきた。
+なんだ嘘泣きか。
+<PAUSE>
+<NAME_PLATE>俺
+「それは別の話だ。
+　っていうかもう燃えてるぞ。
+　あいつがいい火種になって」
+<PAUSE>
+<ACTOR>0,chr_t0349a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「ああーーーーーー！！
+　燃えてる！　燃えてる！　私の魔草が！
+　そんなああああああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　いい感じに燃え上がっている魔草畑に
+リリムは今日一番の悲鳴を上げた。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――
+<PAUSE>
+//【背景：リリムの魔草畑＿昼】【時間：昼】
+//　※対魔忍ユキカゼ_nc008aより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm314,1000
+<BG>nc117a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そんなリリムを見つめる影が二つあった。
+<PAUSE>
+<NAME_PLATE>
+　高位淫魔イシュタルの配下の淫魔たちだ。
+<PAUSE>
+<NAME_PLATE>淫魔
+「本当にあの落ちこぼれが
+　“王の子”の居場所を知っているのか？」
+<PAUSE>
+<NAME_PLATE>淫魔
+「イシュタル様が
+　弟君の記憶から得た情報だから確かだ」
+<PAUSE>
+<NAME_PLATE>淫魔
+「しかし五車に匿われているとは厄介だな」
+<PAUSE>
+<NAME_PLATE>淫魔
+「フフ、我らに潜入できぬ場所などない」
+<PAUSE>
+<NAME_PLATE>
+　淫魔たちはそんな言葉を交わし合うと、
+日の光を避けるかのように消えていった。
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,402 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：五車町山中＿ゆきかぜの家＿エントランス＿夜（消灯）】【時間：夜】
+//　※対魔忍アサギZERO＿NC050cより流用
+<SE_PLAY>se095
+<NAME_PLATE>
+　ギィィィイ、ガチャーン……！
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<BG>nc147a,IN, 1000
+<NAME_PLATE>俺
+「はぁはぁ……やれやれだぜ……」
+<PAUSE>
+<NAME_PLATE>
+　扉を開けた先は、
+エントランスのような豪奢な空間だった。
+<PAUSE>
+<NAME_PLATE>
+　まさに貴族の城という雰囲気。
+<PAUSE>
+<NAME_PLATE>
+　調度品のひとつひとつが高級そうで、
+中世の城を改装したホテルにでも来た
+気分になる。
+<PAUSE>
+<NAME_PLATE>俺
+「あの変なカカシは、
+　やり過ごせたみたいだな……」
+<PAUSE>
+<NAME_PLATE>
+　分厚い扉を閉めて、鍵も下ろした。
+<PAUSE>
+<NAME_PLATE>
+　カカシの集団はしばらく外で
+騒いでいたが、今は静かになっている。
+<PAUSE>
+<ACTOR>0,h_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「でも、外に出るとまた襲われそうね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服（タコ化）
+<NAME_PLATE>俺
+「ああ、なら先に進めば良いさ。
+　あのカカシを操ってる奴の正体も
+　知りたいしな」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜとクリアの事もある。
+あの二人に勝てる奴が
+そうそういるとも思えないが……
+<PAUSE>
+<NAME_PLATE>
+　万が一、
+変な奴に捕らえられでもしてたら
+放っておけない。
+<PAUSE>
+<ACTOR>0,h_t003c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t003e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うぅ、なんだよそれ、
+　超恐いんだけど……。
+　だ、だれかいないですかー……？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服
+<NAME_PLATE>
+　鹿之助が恐る恐る声を出す……が、
+エントランスは静まり返ったまま。
+<PAUSE>
+<NAME_PLATE>俺
+（だけど、それもおかしいよな）
+<PAUSE>
+<NAME_PLATE>俺
+「――おい。誰だか知らないが、
+　見てるんだろ！？」
+<PAUSE>
+<ACTOR>0,h_t003d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃん？」
+<PAUSE>
+<NAME_PLATE>
+　俺は一歩前に出てエントランスの
+奥に向けて声を張った。
+<PAUSE>
+<NAME_PLATE>俺
+「入り口のドアの鍵が開いてたのは、
+　俺たちを招き入れたって事だろう」
+<PAUSE>
+<ACTOR>0,h_t003c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　あのカカシを放った誰かは、
+きっとどこかで俺達を見ている。
+<PAUSE>
+<NAME_PLATE>俺
+「こそこそしてないで、
+　いい加減出てきたらどうだ！？」
+<PAUSE>
+<ACTOR>1,s_t003d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「おっ、おいふうまっ！？
+　そんな大胆発言して大丈夫――」
+<PAUSE>
+<NAME_PLATE>
+　すると、突然――。
+<PAUSE>
+<NAME_PLATE>？？？
+『カンラカラカラ――
+　小賢しい事をぬかしおるわ、
+　盗っ人の小僧めがッ！！！』
+<PAUSE>
+<ACTOR>0,h_t003d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　エントランスに響き渡る朗々とした声。
+しかし、まだその姿は見えない――。
+<PAUSE>
+<NAME_PLATE>俺
+「クク、盗賊……？　違うね！！
+　俺達は冒険者だっ！！」
+<PAUSE>
+<ACTOR>0,h_t003f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ちょ、ちょっとふうまちゃん！
+　なんでここでややこしい事を！？」
+<PAUSE>
+<NAME_PLATE>？？？
+『ほお！？　冒険者とな――』
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　声の主が嘲笑する気配。
+<PAUSE>
+<NAME_PLATE>
+　それに続き、エントランス中央の
+床から闇が湧き上がり、それは
+やがて一つの形を成して――。
+<PAUSE>
+<ACTOR>2,ts_m093a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『――笑止！！
+　笑止なり盗っ人小僧ッ！！！』
+<PAUSE>
+//　※立ち絵
+//　　冥界の執事立ち絵
+//　　　＊対魔忍RPGモンスターイラストより流用
+<NAME_PLATE>？？？
+『この水城の城に挑む愚かさ、
+　その身に教えてやらねばなるまいな！！』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいぃいぃいいっ！？
+　でっ、出たぁあぁぁあああぁあああ
+　あああああっっ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服
+<NAME_PLATE>蛇子
+「ええぇええっ！！？
+　おっ、オバケの人……！！？」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助だけじゃなく蛇子も
+驚きに目を見開いている。
+<PAUSE>
+<NAME_PLATE>
+　……まあ当然だろう。
+<PAUSE>
+<NAME_PLATE>
+　俺達の前に現れたのは幽霊――
+と言うより、むしろ完全に悪霊。
+<PAUSE>
+<NAME_PLATE>
+　全身を黒タキシードで固めた、
+奇怪極まるドクロ男だった。
+<PAUSE>
+<NAME_PLATE>俺
+「やっと出てきたか……。
+　外のカカシを操ってたのも、
+　あんただな？」
+<PAUSE>
+<NAME_PLATE>？？？
+『いかにも――』
+<PAUSE>
+//　※立ち絵
+//　　冥界の執事立ち絵
+//　　　＊対魔忍RPGモンスターイラストより流用
+<NAME_PLATE>
+　朗々と響き渡るドクロ男の声。
+<PAUSE>
+<NAME_PLATE>
+　地獄から届くようでありながら、
+からりとした明るさもある奇妙な
+声であった。
+<PAUSE>
+<NAME_PLATE>俺
+「俺はふうま！
+　――あんたは何者だ！？」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『カンラカラカラ――！
+　わしは“冥界の執事”にて、
+　この城を守る鬼なり――ッ！！！！』
+<PAUSE>
+<NAME_PLATE>俺
+「冥界の執事……？
+　それに、ここを守っている……？？」
+<PAUSE>
+<NAME_PLATE>俺
+（ゆきかぜの敵じゃないのか……？
+　というか水城家の執事って、
+　確か……）
+<PAUSE>
+<NAME_PLATE>
+　ドクロ男の言葉に、何か俺の記憶に
+引っかかるものがあった。
+そして、一方のドクロ男も――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>冥界の執事
+『こ、小僧ッ！？
+　貴様、今ふうまと言ったか！？』
+<PAUSE>
+<NAME_PLATE>俺
+「え？　ああ、そうだが……」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『なんと、冒険者という名乗りは
+　偽りであったか！！？　小賢しい！』
+<PAUSE>
+<NAME_PLATE>俺
+「いや、偽りって言うか、
+　その場のノリって言うか……」
+<PAUSE>
+<NAME_PLATE>
+　俺の弁明にも耳を貸さず、
+ドクロ男はさらにヒートアップする。
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『――逆賊ふうまが何の用だ！？
+　よもや弾正の手先か！？』
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？　弾正……？」
+<PAUSE>
+<NAME_PLATE>
+　弾正というのは、ふうまの先代当主――
+俺のクソオヤジの事である。
+<PAUSE>
+<NAME_PLATE>
+　だけどあいつは、もう何年も前の
+反乱で死んでいる……。
+<PAUSE>
+<NAME_PLATE>俺
+「ちょ、ちょっと待て！？
+　確かに弾正は俺のオヤジだけど……」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『だ、弾正の息子とな！？
+　ヌヌヌ……逆賊の息子が
+　ゆきかぜお嬢様を奪いにきたか！！』
+<PAUSE>
+<NAME_PLATE>俺
+「最後まで話を聞け！！
+　弾正はもうとっくに死んでるよ！
+　俺は関係ない！！」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『――死んでいる！？
+　ハハァ、そういう事であったか。
+　貴様の魂胆は読めたぞ小僧ッ！！』
+<PAUSE>
+<NAME_PLATE>俺
+「はぁ？　魂胆？」
+<PAUSE>
+<NAME_PLATE>
+　ドクロ男はカンラカラカラと
+高らかに笑う。
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『弾正めの仇をとるため、水城の
+　財産に目を付けたのであろう！！？』
+<PAUSE>
+//<NAME_PLATE>冥界の執事
+//『そのためにゆきかぜ様を浚い――
+//　あの愛らしく控え目なお胸に
+//　あんな事やこんな事まで――』
+<NAME_PLATE>冥界の執事
+『ヌヌヌ……許さん！！
+　なんたる悪辣な陰謀――
+　絶対に許さぬぞ小僧ッ！！！』
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「いやちょっと待てぇえぇっ！！
+　少しはこっちの話も――って、
+　なんだ！？」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,500
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se057
+</GROUP>
+<GROUP>
+<ACTOR>3,ts_m094a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m094a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ゴゴゴゴゴゴゴ――！！！
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>
+　城全体が揺れている。
+冥界の執事の怒りに共鳴するように、
+あちこちの調度品が宙を舞い始め――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,s_t003d,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「おっ、おいおいおい！！？
+　どどどどーすんだよふうま！
+　むっちゃ怒ってるぞあのオバケっ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服
+<NAME_PLATE>俺
+「どうもこうも！？　あいつ、
+　俺の話ぜんぜん聞かないんだよ！！」
+<PAUSE>
+<ACTOR>0,h_t003g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「はぁ……。だから
+　イヤな予感したのよね……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服（タコ化）
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m093a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>冥界の執事
+『カンラカラカラ――！
+　肉片に変えてやるぞ小僧ども！！』
+<PAUSE>
+<NAME_PLATE>俺
+「だから、聞けえぇええぇえっ！！
+　俺たちはゆきかぜの友達だ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ふうまの俺がダメでも蛇子は
+　どうだ！？　女友達だぞ！！！」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『女友達――！？
+　そのような戯れ言が通じるか！！』
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『大体、そんな妖怪タコ娘が
+　ゆきかぜ様のご学友のはずがない！！』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「し、失礼ねっっ！！！　蛇子と
+　ゆきかぜちゃんは仲良しだもん！」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『黙れ黙れ――ッ！！
+　頭足綱、鞘形亜綱、八腕形上目の
+　タコ目の娘がっ！！！』
+<PAUSE>
+<NAME_PLATE>蛇子
+「も、もう！？　エッチ！！
+　タコの分類列挙しないで！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なぜそれで恥ずかしがる！？
+　ま、まあ……ひとまず戦うぞっ！」
+<PAUSE>
+<NAME_PLATE>
+　身構える俺達に、宙に舞い上がった
+調度品や家具が襲いかかってきた。
+<PAUSE>
+//→S302a
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,245 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿路地裏＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc031aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc009a,IN, 1000
+<NAME_PLATE>俺
+「ぐっ！？　こいつら――
+　人食い武装難民か！？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0266a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t015d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子＆鹿之助
+「ひ、人食い！？」
+「なんだそりゃあ！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】相州蛇子
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣裳
+//　※立ち絵加工　パーティー用の『とんがり帽子＋鼻眼鏡』の装着をお願いします。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m131a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m131a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　人食い武装難民は、闇の街を
+根城にする武装難民が飢餓や狂気のあまり
+人食い外道に堕ちた姿である。
+<PAUSE>
+//　※立ち絵
+//　　人食い武装難民
+//　　　　＊モンスターイラスト流用
+//　※立ち絵
+//　　人食い武装難民
+//　　　　＊モンスターイラスト流用
+<NAME_PLATE>
+　通常の武装難民より狂暴で力もあるが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それでも、対魔忍や魔族ほどの
+強さは持っていないはず――
+<PAUSE>
+<ACTOR>0,ts_m131a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>人食い武装難民１
+「ヒャハハハハハハ！！
+　なんだいそのへっぴり腰はァ！！？」
+<PAUSE>
+//　※立ち絵
+//　　人食い武装難民
+//　　　　＊モンスターイラスト流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイイイン！！！
+<PAUSE>
+//　※戦闘エフェクトなどお願いします。
+<NAME_PLATE>俺
+「あがっ！！！？」
+<PAUSE>
+<BG>nc009a,IN, 500
+<ACTOR>0,chr_t0266a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「ふうまちゃん！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（こいつら、なんて手練れだ！！？）
+<PAUSE>
+<NAME_PLATE>
+　信じがたい強さであった。
+<PAUSE>
+<NAME_PLATE>
+　最近では俺も地道に修行を重ね、
+それなりに戦えるようにはなっている。
+<PAUSE>
+<NAME_PLATE>
+　そんな俺の一撃をあっさり弾き返し、
+凄まじい体さばきで背後に回って――。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいいいっ！！？
+　ふ、ふうまが捕まったぁ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m131a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m131a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>人食い武装難民たち
+「ヒャハハ！　おっと動くなァ！
+　このあんちゃんの首がとぶぜぇ！？」
+「ひゃ、ひゃははは……！」
+<PAUSE>
+//　※立ち絵
+//　　人食い武装難民
+//　　　　＊モンスターイラスト流用
+//　※立ち絵
+//　　人食い武装難民
+//　　　　＊モンスターイラスト流用
+<NAME_PLATE>俺
+「……………っ」
+<PAUSE>
+<NAME_PLATE>
+　奴の持つナイフが、ピタリと
+俺の首筋に押し当てられていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0266a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0268a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「人食いって人を食べちゃうの？
+　じゃあ、ふうまちゃんが！？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「や、やめろー！！　親分なんて
+　多分おいしくないぞー！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ミナサキ
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,s_t015d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そうだ蛇子！　お前のタコ化した
+　足をあげて許してもらうってのは！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「えええええええっ！！！？
+　あれ再生するけどすっごく痛いのよ！？」
+<PAUSE>
+<NAME_PLATE>
+　突然の恐るべき事態に蛇子たちも
+パニックになっている様子。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m131a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>人食い武装難民１
+「ヒャハハハハハハ！！
+　愉快な反応じゃねえかお前ら！！！
+　さぁて、これからどうしてやるか――」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>人食い武装難民１
+「って、なんかあれだな？
+　あんた、意外と冷静な感じだね」
+<PAUSE>
+<NAME_PLATE>
+　人食い武装難民の一人が、
+急に素に戻ったような調子で俺に言う。
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　だってお前、銃兵衛だろ。
+　で、あっちのもう一人は紅」
+<PAUSE>
+<NAME_PLATE>俺
+「わざと間違った道順を教えて、
+　俺たちを引っかけた」
+<PAUSE>
+<NAME_PLATE>蛇子たち
+「えっ？？」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　そもそも、この辺をうろつく
+武装難民がこんなに強いはずがない。
+<PAUSE>
+<NAME_PLATE>
+　変声器で声を変えているようだが、
+体さばきにどこか見覚えがあったし、
+<PAUSE>
+<NAME_PLATE>
+　大体、紅に関しては笑い方の演技が
+下手すぎて騙される以前の問題であった。
+<PAUSE>
+<NAME_PLATE>人食い武装難民１
+「クク。なんだ、バレてたのかよ。
+　さすがに若は目端が利くなぁ――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se085
+<NAME_PLATE>
+　二人は観念した様子で
+ばさりと武装難民の衣装を脱いだ。
+<PAUSE>
+<ACTOR>0,ts_m097a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「よう！　久しぶりだな蛇子！」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>銃兵衛
+「そっちは初めましてだな、
+　ちっちゃい兄ちゃん。
+　それと変な魔族のお嬢ちゃん」
+<PAUSE>
+<ACTOR>1,chr_t0161a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紅
+「い、いや、皆、すまない。
+　銃兵衛に乗せられて
+　つい悪ふざけをしてしまった」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】心願寺紅
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子たち
+「あーーーーーっ！！！？」
+<PAUSE>
+//→Section３終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,210 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：近隣都市まえさき市＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc262a,IN, 1000
+<ACTOR>1,ts_m151a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河影臣
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　井河影臣立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>井河影臣
+（なかなかやるじゃネエか）
+<PAUSE>
+<NAME_PLATE>
+　まずは部下に戦わせて、
+斉藤半次郎の戦闘スタイルを、
+忍法を観察する。
+<PAUSE>
+<NAME_PLATE>
+　それが彼のやり方だ。
+<PAUSE>
+<NAME_PLATE>井河影臣
+（まあ、調査通りだな）
+<PAUSE>
+<NAME_PLATE>
+　腕を二本生やす異能系忍法。
+<PAUSE>
+<NAME_PLATE>
+　珍しいが、
+知っていればどうってことはない。
+<PAUSE>
+<NAME_PLATE>井河影臣
+（この程度の男が
+　五車を揺るがす“連続殺人鬼”なのか？
+　意外っちゃあ意外だな）
+<PAUSE>
+<NAME_PLATE>井河影臣
+（余程の幸運で
+　罪を積み上げてきたって事か？）
+<PAUSE>
+<NAME_PLATE>井河影臣
+（そんな事はどうでも良いけどよ）
+<PAUSE>
+<NAME_PLATE>
+　暗殺者に余計な思考はいらない。
+<PAUSE>
+<NAME_PLATE>
+　シンプルであれ。
+<PAUSE>
+<NAME_PLATE>
+　影臣はそういう男だった。
+<PAUSE>
+<ACTOR>1,ts_m151a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,ts_m150a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「去れ。畜群に興味はない」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　斉藤がまた例の言葉を使って言った。
+<PAUSE>
+<NAME_PLATE>
+　“奴隷の群れ”を指すだかで、
+お気に入りのフレーズのようだ。
+<PAUSE>
+<NAME_PLATE>井河影臣
+（いけ好かねえヤロウだぜ）
+<PAUSE>
+<NAME_PLATE>井河影臣
+「４本腕の体術の達人。
+　それがあんたの全てか？」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「予習をしてきたのだろう？
+　この三人はそれを生かせなかったようだが」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「予習と来たか。
+　さすが五車学園の先生は言うことが違うな」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「私の授業を受ける資格がある者は
+　数えるほどしかいないがね」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「他はみんなそのチクグンか？
+　まあいいさ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「…………」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「俺にとっちゃ、
+　あんたが少々物足りない相手ってだけでね」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「今までにもっと恐ろしい忍法使いを
+　何人も暗殺してきたもんでな」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「五車を揺るがす連続殺人鬼。
+　いったいどんな奴かと期待してたのによ。
+　がっかりだぜ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「その愚鈍なお喋りはまだ続くのかな。
+　私はこれを早く済ませて帰りたいのだがね」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「そいつはいい考えだ。
+　仕事は早く済ませるに限る。
+　ことに殺しはよ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「ふう」
+<PAUSE>
+<NAME_PLATE>
+　斉藤は見るからに失望したような顔で
+わざとらしく首を振った。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「なんだよその『ふう』ってのは？」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「君とは意見が合いそうにないと思ってね。
+　殺人をそのように単純に捉えているとは。
+　いいかね、そもそも殺人には二つの―――」
+<PAUSE>
+<NAME_PLATE>
+　能書きを喋り出そうとする斉藤に向かって、
+影臣はお返しで大げさに手を振ってやった。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「ああ、いいいい。
+　あんたのご高説に興味はねえんだ。
+　これっぽっちもな」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「…………」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「俺は俺の流儀で、シンプルに
+　与えられた命令を完遂させてもらうぜ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「では早く来たまえ。時間の無駄だ」
+<PAUSE>
+<NAME_PLATE>
+　斉藤はさも退屈そうな顔で、
+だが四本の腕を油断なく構えた。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「そいつは同感だぜ！」
+<PAUSE>
+<NAME_PLATE>
+　だが、さっきやられた三人のように
+馬鹿正直に突っ込んで行ったりはしない。
+<PAUSE>
+<NAME_PLATE>
+　彼は油断をしない男だ。
+<PAUSE>
+<NAME_PLATE>
+　使えない部下たちの次は、
+内調から与えられた手駒、ドローンを放つ。
+<PAUSE>
+<NAME_PLATE>
+　用心深く、確実に斉藤を殺すために。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「いけ！　ガラクタども！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローンワスプ
+「ＢＵＵＵＵＵＵＵＵＮＮＮ」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ワスプ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>ドローン・ドッグ
+「ＧＵＲＵＵＵＵＵＵＵＵＵ」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ドッグ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>斉藤半次郎
+「やれやれ」
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

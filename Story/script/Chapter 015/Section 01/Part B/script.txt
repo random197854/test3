@@ -1,0 +1,195 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車町＿全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC007aより流用
+<BG>nc162b,IN, 1000
+<NAME_PLATE>
+　同時刻―――。
+<PAUSE>
+//【背景：五車町外縁部＿昼】【時間：昼】
+//　※MISAO_nc002aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc114c,IN, 1000
+<NAME_PLATE>
+　五車町外縁部。
+<PAUSE>
+<NAME_PLATE>
+　田畑が広がる田舎道。
+<PAUSE>
+<NAME_PLATE>
+　常人には感知することのできない
+五車の結界のすぐ外に二つの影があった。
+<PAUSE>
+<ACTOR>0,ts_m063a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「本当にこの先に彼が向かったのですか？」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>
+　銀糸を流したような長髪。
+女と見まごうばかりの美麗な顔立ち。
+<PAUSE>
+<NAME_PLATE>
+　照りつける夏の陽射しすら
+自然に避けて通るような、涼しげな佇まい。
+<PAUSE>
+<NAME_PLATE>
+　神速の抜刀術“隼の術”の使い手、
+楽尚之助（がくしょうのすけ）である。
+<PAUSE>
+<ACTOR>1,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>三郎
+「大五郎の嗅覚は犬の三千倍。
+　確かだわ」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>
+　少し苛立ったように答えたのは、
+やはり夏とは無縁そうな色白の制服少女、
+鬼蜘蛛三郎（おにぐもさぶろう）だ。
+<PAUSE>
+<NAME_PLATE>
+　彼女が大五郎と呼んだ巨大な鬼蜘蛛、
+玄武岩から鋭い鑿で削りだしたような
+厳つい魔獣の背にちょこんと座っている。
+<PAUSE>
+<NAME_PLATE>
+　一見、良家の子女のような優しげな顔立ちに
+鬼蜘蛛が持つ無数の目を移したかのような
+赤い瞳が光っていた。
+<PAUSE>
+<NAME_PLATE>尚之助
+「最悪の展開ですね」
+<PAUSE>
+<NAME_PLATE>三郎
+「何故？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「これより先は五車の領域だからです」
+<PAUSE>
+<NAME_PLATE>
+　わかりきったことをという顔で
+尚之助が言った。
+<PAUSE>
+<NAME_PLATE>
+　二人が立つ位置より一歩でも先に進めば
+五車の領域となる。
+<PAUSE>
+<NAME_PLATE>
+　反乱した二車の幹部が
+五車の領域に侵入したと知れれば
+大騒ぎとなること必然である。
+<PAUSE>
+<NAME_PLATE>三郎
+「知っているわ」
+<PAUSE>
+<NAME_PLATE>
+　三郎は「だからなに？」と言わんばかりの
+不思議そうな顔をした。
+<PAUSE>
+<NAME_PLATE>三郎
+「私は任務を果たすのみよ」
+<PAUSE>
+<NAME_PLATE>尚之助
+「そうですが、
+　五車の連中に見つかれば
+　任務どころではなくなりますよ」
+<PAUSE>
+<NAME_PLATE>三郎
+「大五郎と私なら大丈夫。
+　隠れながら移動できるから」
+<PAUSE>
+<NAME_PLATE>尚之助
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　尚之助は三郎に分からないように
+微かに溜息をついたようだった。
+<PAUSE>
+<NAME_PLATE>尚之助
+「私はあなたのように
+　土の中を移動できません」
+<PAUSE>
+<NAME_PLATE>三郎
+「だから尚兄はここで待ってて。
+　行こ、大五郎」
+<PAUSE>
+<NAME_PLATE>
+　三郎は鬼蜘蛛の背をポンポンと叩いた。
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＨＹＡ！」
+<PAUSE>
+<SE_PLAY>se131
+<NAME_PLATE>
+　尖った岩のような蜘蛛の足が一斉に動き、
+地面に穴を開け始める。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>尚之助
+「待ちなさい三郎！！！」
+<PAUSE>
+<NAME_PLATE>
+　尚之助はさすがに少し慌てて
+三郎を止めようとするが、
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>
+　彼女を乗せた鬼蜘蛛は
+あっという間に土の中に消えていく。
+<PAUSE>
+<ACTOR>0,ts_m063a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>尚之助
+「三郎！？
+　くれぐれも戦闘は避けてください！
+　我々の任務は“彼”を連れ戻すことです！」
+<PAUSE>
+<NAME_PLATE>三郎
+『分かってる。
+　じゃ、いってくるね』
+<PAUSE>
+<NAME_PLATE>
+　土の中からくぐもった声が返ってきた。
+<PAUSE>
+<NAME_PLATE>
+　敵地に潜入するというのに、
+ちょっと散歩に行くような調子だ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>尚之助
+「見つかればすぐに引きますよ！
+　分かっていますね！？」
+<PAUSE>
+<NAME_PLATE>
+　もう返事はなかった。
+<PAUSE>
+<NAME_PLATE>
+　あの巨体が潜ったのが嘘のように、
+そこはただの地面に戻っていた。
+<PAUSE>
+<NAME_PLATE>尚之助
+「やれやれ……」
+<PAUSE>
+<NAME_PLATE>
+　一人になった尚之助は深い溜息を吐いた。
+<PAUSE>
+<NAME_PLATE>尚之助
+「隠密は苦手ですが仕方ありませんね……」
+<PAUSE>
+<NAME_PLATE>
+　尚之助は三郎を追って、
+五車の領域へと足を踏み入れた。
+<PAUSE>
+//→Section１終了
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

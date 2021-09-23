@@ -1,0 +1,703 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：荒廃した魔都・東京＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC074aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc419b,IN, 1000
+<NAME_PLATE>
+　無事、バロネスシティを出た二人。
+<PAUSE>
+<NAME_PLATE>
+　しかし、ゆきかぜは文句たらたらだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あーーうざっ！
+　なんなのよバロネスのやつ！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「私たちが敵対するつもりか
+　確認したかったってとこじゃないの」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「あと、あんた態度悪すぎ。
+　もうちょっと抑えなさいよ。
+　私、ヒヤヒヤしたわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あいつ嫌いなの」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私だってそうよ」
+<PAUSE>
+<NAME_PLATE>
+　ギガースとの話し合いを全部やらされて、
+アスカは自分の方が大変だったという顔をした。
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「やっぱりこないだの一件が
+　私たちの仕業だってバレてる？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そりゃね。
+　あそこのレイダーを皆殺しにした
+　わけじゃないもの」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そりゃそうよね。
+　あーあ、やっときゃよかった」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは残念そうに
+首の後ろを両手で抱えた。
+<PAUSE>
+<NAME_PLATE>
+　普段は沈着冷静なレジスタンスの闘士なのに、
+アスカと二人だけだとわりと雑なことを言う。
+<PAUSE>
+<NAME_PLATE>アスカ
+「それができれば苦労しないって。
+　あの時はふうまもいたし、
+　っていうか、そっちが目的だし」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうでしたそうでした」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはおどけたように肩をすくめた。
+アスカは軽く溜息を吐いてから、
+<PAUSE>
+<NAME_PLATE>アスカ
+「人間とブレインフレーヤー両方と
+　取引してるバロネスにとっては」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私たちレジスタンスとも表だって
+　事を構えたくはないはずよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「たまたま電気が欲しかったって
+　思ってくれたんじゃない？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だといいんだけど。
+　あと変なのがいたわね。
+　なのなのうるさい機械生命体」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜがまた眉をひそめる。
+アスカも面倒くさそうな顔になった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「いたわね。
+　見た感じ、砲撃タイプってのが」
+<PAUSE>
+<NAME_PLATE>アスカ
+「無邪気を装ってるのか、
+　ほんとにそうなのか分からないけど。
+　とりあえず鬱陶しかったわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ほんと鬱陶しかった！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは激しく同意してから、
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そういえば、
+　あいつも女性型だったわね。
+　アビゲイルと同じで」
+<PAUSE>
+<NAME_PLATE>アスカ
+「やっぱり気になる？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なるわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ブレインフレーヤーの連中は
+　私たち人間の、まして女の子の容姿に
+　なんて興味ないはずじゃない？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「なのよね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あんな女性型の戦闘用ロボットを
+　やたらと作ってたとも思えないんだけど
+　どちらも自我に目覚めてる」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「人形に魂が宿るじゃないけど、
+　そういう形とか関係あるのかな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そのへんも帰ったら
+　アビゲイルに聞いてみないとね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ゆきかぜは頷き、
+ふと思い出したように、
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>ゆきかぜ
+「そういえばバロネスのやつ、
+　ふうまのことは何も聞いてこなかったけど、
+　気づかれてないよね？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それは大丈夫でしょ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「レイダーに追いかけられてたときも、
+　ふうま全然目立ってなかったし、
+　誰も覚えてないわよ」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ふうまが『俺の力を見せてやる！』みたいな
+　無双キャラじゃなくて良かったね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうまが？」
+<PAUSE>
+<NAME_PLATE>
+　俺の力を見せてやる！
+と無双している姿を想像して、
+アスカの顔が思わず緩んだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ないない。全然似合わない。
+　たとえ力があってもそんなことしなさそう」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あはは、そうだね」
+<PAUSE>
+<NAME_PLATE>
+　いくら実力をつけても
+昼行灯な雰囲気の男を思い出し、
+二人は笑いながら荒野を行くのだった。
+<PAUSE>
+//【背景：荒廃した魔都・東京線路＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC079aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc428a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　二人は使われなくなった線路を歩いていた。
+<PAUSE>
+<NAME_PLATE>
+　そろそろ物資を渡すことになっている
+レジスタンスの仲間が現れるはずだ。
+<PAUSE>
+<ACTOR>1,yu_t004c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あっ！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　前を歩いていたゆきかぜが
+突然、声を上げた。
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「どうしたの？　来たの？」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<BGM_PLAY>bgm506,1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「野いちごみっけた。
+　あそこにいっぱい生えてる」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは嬉しそうに
+線路脇の茂みを指さした。
+<PAUSE>
+<NAME_PLATE>
+　確かに野いちごが
+赤々と実を付けている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「よくそういうの見つけるわね。
+　さすが元野生児」
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「野生児って言うな。
+　このへんちょうどいいし、
+　せっかくだから少し休まない？」
+<PAUSE>
+<NAME_PLATE>
+　と尋ねつつ、答えを聞く前に
+もう野いちごを取りに行っている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうね。
+　じゃコーヒーでも淹れるわ」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「お願い」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカは荷物を下ろすと
+火をおこし、お湯を沸かして、
+コーヒーを淹れ始めた。
+<PAUSE>
+<NAME_PLATE>
+　といっても本物のコーヒーはもう稀少だ。
+タンポポを使って作った代用コーヒーだ。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが見つけた野いちごも
+この世界では貴重な甘味だった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ゆきかぜー、コーヒーできたわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ン～～～、酸っぱい♪」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが両手いっぱいの野いちごを抱え
+口をすぼめながら戻ってきた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「酸っぱいの？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちょっと若かったみたい。
+　でも美味しいよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「じゃ、いただきます。
+　ぱくっ、なにこれすっぱ～～～い！！」
+<PAUSE>
+<NAME_PLATE>
+　アスカも一つつまんで
+しかめっ面になった。
+<PAUSE>
+<NAME_PLATE>
+　びっくりするほど酸っぱい。
+でも奥の方に甘い味が確かにある。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、でも美味しいね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でしょ？
+　こういうのジャムにすると
+　もっと美味しいのよね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ジャムか。
+　砂糖がいっぱいあればねー」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あればねー」
+<PAUSE>
+<NAME_PLATE>
+　これでジャムを作って
+トーストにバターと一緒に塗ったら
+どんなに美味しいだろう。
+<PAUSE>
+<NAME_PLATE>
+　昔は当たり前の食事だったが、
+今では夢のまた夢だ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「私さ、甘い物食べ過ぎて
+　体重の心配とか
+　もう一回してみたいのよね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あっ、してみたいしてみたい。
+　いいなそれ、すごく平和って気がする」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　タンポポコーヒーと野いちごで
+二人がささやかな休憩をしていると、
+<PAUSE>
+<NAME_PLATE>
+　約束していたレジスタンスの仲間が、
+線路の向こうから歩いてきた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m215a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m270a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レジスタンス（男）
+「アスカ、ゆきかぜ、待たせたな」
+<PAUSE>
+//　※立ち絵
+//　　レジスタンス
+//　　　＊カードイラストより流用
+//　　対魔忍傭兵
+//　　　＊カードイラストより流用
+//　※並べて出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,yu_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あ、ちょうどいいところに。
+　コーヒー飲む？　野いちごもあるわよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レジスタンス（女）
+「えっ？　野いちご？
+　食べます食べます」
+<PAUSE>
+<NAME_PLATE>
+　二人のうちの一人、
+女対魔忍がパッと顔を輝かせる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「はい」
+<PAUSE>
+<ACTOR>1,yu_t004b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「すごい酸っぱいわよ」
+<PAUSE>
+<NAME_PLATE>レジスタンス（女）
+「酸っぱいんですか？
+　いただきます。ぱく。
+　うわすっぱ～～～い、でもおいしー！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でしょでしょ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「奥の方がちょ～っとだけ甘いのよね」
+<PAUSE>
+<NAME_PLATE>レジスタンス（女）
+「逆にそれが嬉しいですね。
+　ン～～スッパ甘い♪」
+<PAUSE>
+<NAME_PLATE>
+　三人は大盛り上がりだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　甘い物を前にすると、
+レジスタンスの闘士がただの女の子に
+なってしまうのだった。
+<PAUSE>
+<NAME_PLATE>
+　やってきたもう一人、生真面目そうな男が
+こいつらしょうがねえなあという顔で、
+<PAUSE>
+<ACTOR>0,ts_m270a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レジスタンス（男）
+「ごほん。
+　二人とも約束の物資は？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、ごめんごめん。
+　ちゃんと調達しておいたわよ」
+<PAUSE>
+<NAME_PLATE>
+　二人はバロネスシティで手に入れた
+物資を手渡した。
+<PAUSE>
+<NAME_PLATE>レジスタンス（男）
+「感謝する。
+　お前たちはまた例の所にか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まあね」
+<PAUSE>
+<NAME_PLATE>レジスタンス（男）
+「この先、ビルの崩壊が酷くなっている。
+　気をつけた方がいい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　男が二人に警告した。
+<PAUSE>
+<NAME_PLATE>
+　ブレインフレーヤーに破壊され、
+保守する者もいなくなった多くのビルは
+次々に崩壊している。
+<PAUSE>
+<NAME_PLATE>
+　おかげで近づくこともままならず、
+かつての線路脇に野いちごが生えるほど
+野生の侵食が進んでいる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「また始まったかー。
+　定期的に来るのよね。
+　じゃあ地下を抜けていこうか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうね。
+　地下を抜ければ数日は短縮できるし
+　迂回してたら時間がかかってしょうがないわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m215a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m270a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レジスタンス（男）
+「地下は感染者の巣窟だ。
+　お前たちなら大丈夫だと思うが
+　くれぐれも注意してくれ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ありがと。
+　あなたたちも気をつけて帰って」
+<PAUSE>
+<NAME_PLATE>レジスタンス（女）
+「了解です。
+　野いちご、ごちそうさまでした」
+<PAUSE>
+//【背景：荒廃した魔都・地下通路＿昼夜共通】【時間：昼】
+//　※LILITH_IZM_07_背景nc009aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc133a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数時間後―――。
+<PAUSE>
+<NAME_PLATE>
+　二人はビル崩壊の危険がある地上を避け、
+地下を進んでいた。
+<PAUSE>
+<NAME_PLATE>
+　廃墟となった東京の下を
+いまだに網の目のように走っている
+かつての地下鉄の線路である。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　地上では雑談が絶えなかった二人も
+ここではじっと黙っていた。
+<PAUSE>
+<NAME_PLATE>
+　地下では音が響く上、昼間の太陽を避けて、
+感染者が至るところに潜んでいるからだ。
+<PAUSE>
+<NAME_PLATE>
+　口を閉じ、足音を殺し、
+慎重に地下の闇を進んで行く二人だったが、
+<PAUSE>
+<NAME_PLATE>アスカ
+「…………！」
+<PAUSE>
+<NAME_PLATE>
+　先を行くアスカがふいに足を止めた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　『なに？』と口に出さず尋ねるゆきかぜも
+すぐにその理由に気づいた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　前方から唸り声が聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　風の使い手であり、音にも敏感なアスカは
+ゆきかぜより早くそれを察知したのだ。
+<PAUSE>
+<NAME_PLATE>感染者
+「ああーーーーー！！」
+「ううーーーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　感染者だ。
+それもかなりの数だ。
+<PAUSE>
+<NAME_PLATE>
+　声は急速に大きくなっていく。
+それから激しい足音も。
+<PAUSE>
+<NAME_PLATE>
+　どうやら雄叫びを上げながら
+こちらに走ってきているようだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「ギィイイイイイイイイイイイイイイッ！！」
+<PAUSE>
+<NAME_PLATE>
+　しかも黒板を爪でひっかくような
+耳障りな雄叫びまで混じっている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あの声、バーバリアン？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「面倒ね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　バーバリアンは感染者の中から
+一定の割合で発生する変異体だった。
+<PAUSE>
+<NAME_PLATE>
+　外観は感染者以上に化物じみていて、
+より凶暴化している。
+<PAUSE>
+<NAME_PLATE>
+　感染者と違い、
+音以外にも視覚が鋭敏になり
+暗闇の中でも獲物を認識する。
+<PAUSE>
+<NAME_PLATE>
+　その上、紫外線に耐性があり、
+昼間でも血肉を求めて彷徨っている。
+<PAUSE>
+<NAME_PLATE>
+　言うなれば、
+感染者たちのボスといったところだ。
+<PAUSE>
+<NAME_PLATE>
+　そのバーバリアンが
+感染者を大量に引き連れて、
+急速に近づいてきている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「なんでこっちに
+　真っ直ぐ向かってくるわけ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私たち血なんか流してないし
+　さっきからお喋りもしてないのに」
+<PAUSE>
+<NAME_PLATE>アスカ
+「知らないわよ」
+<PAUSE>
+<NAME_PLATE>
+　二人は愚痴りつつも警戒態勢を取る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m301a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>バーバリアン＆感染者
+「ギィイイイイイイイイイイイイイイッ！！」
+「ああーーーーーー！！」
+「ううーーーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　バーバリアン
+//　　　＊モンスターイラストより流用
+//　　感染者
+//　　　＊モンスターイラストより流用
+//　　※感染者は複数出してください
+<NAME_PLATE>
+　来た。
+<PAUSE>
+<NAME_PLATE>
+　厄介なバーバリアンを先頭に、
+感染者の群れが二人の前に現れた。
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

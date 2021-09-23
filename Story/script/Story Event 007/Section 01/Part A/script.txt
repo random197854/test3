@@ -1,0 +1,278 @@
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：ビーチ＿昼】【時間：昼】
+//　※監獄戦艦２_背景nc019aより流用
+<BGM_PLAY>bgm309,1000
+<BG>nc163a,IN, 1000
+<NAME_PLATE>
+　青い空、きらめく波、
+はるか遠くの水平線――
+<PAUSE>
+<NAME_PLATE>
+　ここは島ひとつをまるごと使った、
+美しい高級ビーチリゾートである。
+<PAUSE>
+//【背景：ビーチへの出口＿昼】【時間：昼】
+//　※姫騎士シャロン_nc014aより流用
+<BG>nc164a,IN, 1000
+<NAME_PLATE>アイナ・ウィンチェスター
+「うう……」
+<PAUSE>
+//　※立ち絵なし
+<NAME_PLATE>アイナ
+「ううう……」
+<PAUSE>
+<ACTOR>0,chr_t0131a,CENTER, CENTER, IN, linear, 1000
+//アイナ立ち絵：ファイル名：chr_t0131a
+<NAME_PLATE>アイナ
+「何だよこれ、小さすぎだろぉ……」
+<PAUSE>
+//　※立ち絵
+//　　アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ホテルからビーチへと降りるデッキ。
+<PAUSE>
+<NAME_PLATE>
+　彼女は何度も、
+浜辺へ踏み出そうとしては引き返し、
+ガラスに映る姿を見て赤面していた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「この格好でビーチに出るのかよ……
+　ちゃんとサイズ確かめて借りるんだったぜ」
+<PAUSE>
+<NAME_PLATE>
+　紐を多用したデザインのビキニは、
+彼女の豊満な身体には小さすぎて、
+今にも弾け飛びそうだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「～～～いや、これも仕事だ！
+　躊躇ってる場合かよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　彼女は自分に喝を入れ、
+砂浜へと一歩を踏み出した――。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：ビーチ＿昼】【時間：昼】
+//　※監獄戦艦２_背景nc019aより流用
+<BGM_PLAY>bgm309,1000
+<BG>nc163a,IN, 1000
+<NAME_PLATE>俺
+「ふ～～、綺麗な海だなー！
+　こりゃ気楽な任務になりそうだ」
+<PAUSE>
+<NAME_PLATE>
+　夏の始まりのある日。
+俺は南の島へと降り立った。
+<PAUSE>
+<NAME_PLATE>
+　米連の領内だが、日本からも近いこの島は、
+島ひとつを贅沢に使った、
+会員制高級リゾートだ。
+<PAUSE>
+<NAME_PLATE>
+　会員になるには厳しい審査があり、
+資産、地位はもちろん、人脈までもが
+チェックされるのだという。
+<PAUSE>
+<NAME_PLATE>
+　で、なんでそんな所に、
+俺がいるのかというと。
+<PAUSE>
+<NAME_PLATE>俺
+（最近、このリゾートを訪れたきり、
+　帰って来ない人が続出している――か）
+<PAUSE>
+<NAME_PLATE>
+　そんな話が、半年ほど前から、
+金持ちたちの間で、
+密かに問題になっていたらしい。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ国外のこと、
+大々的に踏み込むわけにもいかず、
+対魔忍に偵察の依頼があったのである。
+<PAUSE>
+<NAME_PLATE>俺
+（しっかし、まさか親父が
+　ここの会員だったなんてな）
+<PAUSE>
+<NAME_PLATE>俺
+（あのクソ親父、こんなとこで
+　コソコソ楽しんでやがったのか）
+<PAUSE>
+<NAME_PLATE>俺
+（ま、おかげで俺も、
+　こうしてノーチェックで入れたわけだが）
+<PAUSE>
+<NAME_PLATE>
+　厳重に警備されたこの島に、
+どうやって調査員を潜入させるか、
+アサギ校長たちが頭を悩ませていたが、
+<PAUSE>
+<NAME_PLATE>
+　なんと俺の父――故・ふうま弾正が、
+ここの会員権を持っていたことが発覚。
+<PAUSE>
+<NAME_PLATE>
+　弾正の死後、会員権は自動的に引き継がれ、
+俺のものになっていたというのだ。
+<PAUSE>
+<NAME_PLATE>
+　そんなわけで、俺は怪しまれることもなく、
+堂々とここに乗り込めたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「とはいえ怪しいところは、
+　なさそうだがなあ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「ま、一応調査に来たんだし、
+　少し歩いてみるか……
+　……ん？」
+<PAUSE>
+<NAME_PLATE>チャラい男
+「ヒューッ！
+　お姉さん、いい体してんねぇ♪」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「やめろよ、寄るなって！」
+<PAUSE>
+//　※立ち絵
+//　　アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<BGM_PLAY>bgm203,1000
+<GROUP>
+<ACTOR>0,chr_t0131a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　騒がしい声に振り向くと、
+ひとりの女性が、数人の男に
+絡まれている。
+<PAUSE>
+<NAME_PLATE>ガラの悪い男
+「水着もエッロ！！！　たっまんね！」
+<PAUSE>
+<NAME_PLATE>チャラい男
+「眼帯ってのがちょっとマニアックだけど、
+　それもまたオッケーだ！」
+<PAUSE>
+<NAME_PLATE>アイナ
+「マニアッ……
+　いや、これは……」
+<PAUSE>
+<NAME_PLATE>
+　どうやらナンパらしい。
+男たちは女を囲んで逃げられないようにし、
+下卑た笑いを浴びせかけている。
+<PAUSE>
+<NAME_PLATE>俺
+（ナンパか。
+　どこにでも無粋な連中はいるもんだ）
+<PAUSE>
+<NAME_PLATE>ガラの悪い男
+「ひとりなんでしょ？　俺達と遊ぼうぜ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「だ、だから、俺はそういうんじゃ……」
+<PAUSE>
+<NAME_PLATE>チャラい男
+「照れちゃって～。
+　その水着、絶対誘ってるじゃん！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「ち、違う！　これは……！
+　やめろ！　触るなって！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　男たちは女の水着に手をかけたり、
+肌をつついたりし始めた。
+<PAUSE>
+<NAME_PLATE>俺
+（おいおい、やりすぎだろ……）
+<PAUSE>
+//砂の上を走るSE se125
+<SE_PLAY>se125
+<NAME_PLATE>
+　さすがに見過ごせず、
+俺は男たちの方に早足で近づく。
+<PAUSE>
+<NAME_PLATE>俺
+「おい、やめとけよ。
+　その子嫌がってるだろ」
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ガラの悪い男
+「なんだテメェ？　やんのかコラァ！」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se050
+</GROUP>
+<NAME_PLATE>俺
+「おっと」
+<PAUSE>
+<NAME_PLATE>
+　振り向きざまに肩を突き飛ばされ、
+俺はとっさによろめく。
+<PAUSE>
+<NAME_PLATE>俺
+「こんな所でナンパする連中だ、
+　話してわかるわけはないと思ったが」
+<PAUSE>
+<NAME_PLATE>チャラい男
+「ん？　何？　喧嘩売ってんの？」
+<PAUSE>
+<NAME_PLATE>俺
+「しかたない。
+　ま、こいつらの相手くらいなら、
+　俺でもなんとかできるだろう」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ガラの悪い男
+「ウゼェェェェ！！
+　ボコんぞコラァァァ！！」
+<PAUSE>
+<NAME_PLATE>
+　頭に血が上ったナンパ男たちは、
+一斉に俺に向かってくる――。
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

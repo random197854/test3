@@ -1,0 +1,1169 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：蜘蛛の貴婦人の部屋＿夜】【時間：夜】
+//　※対魔忍紅_NC012aを流用
+<BGM_PLAY>bgm313,1000
+<BG>nc125a,IN, 1000
+<NAME_PLATE>
+　決戦が始まった。
+<PAUSE>
+<ACTOR>0,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>燐
+「雷遁・雷激光剣っっ！！！
+　はあああああああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　先手必勝。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se107_01
+<NAME_PLATE>
+　三人のうち最も強力な攻撃力を持つ燐が、
+まず斬りかかった。
+<PAUSE>
+<NAME_PLATE>
+　蒼い残光を虚空に煌めかせ、
+電輝の剣が振り下ろされる。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「たわけが」
+<PAUSE>
+//　※立ち絵
+//　　蜘蛛の貴婦人＿立ち絵
+//　　　　＊モンスターイラストから
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイインッッ！！
+<PAUSE>
+<NAME_PLATE>
+　深月にも視認できなかったほどの
+神速の斬撃が跳ね返された。
+<PAUSE>
+<BG>nc125a,IN, 500
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>
+　蜘蛛の貴婦人は
+八本ある脚を巧みに使って、
+雷激光剣を軽々と弾いたのだ。
+<PAUSE>
+<NAME_PLATE>燐
+「くっ！」
+<PAUSE>
+<NAME_PLATE>
+　鋼鉄すら易々と切り裂く電光の刃でも
+歯が立たないほどの硬い脚。
+<PAUSE>
+<NAME_PLATE>
+　しかも普通なら触れただけで
+敵に食らわせることのできる
+電撃のダメージすらない。
+<PAUSE>
+<NAME_PLATE>
+　脚を地面に突き立てることで、
+避雷針のように電気を散らしているのだ。
+<PAUSE>
+<NAME_PLATE>
+　燐の攻撃が完全に防がれるとは、
+深月もさすがに想像していなかったが、
+それをのんびり見ていたわけではない。
+<PAUSE>
+<NAME_PLATE>深月
+「上原さん下がって！　風遁―――」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>蜘蛛の貴婦人
+「遅いわ」
+<PAUSE>
+<NAME_PLATE>深月
+「えっ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,500
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　燐に加勢しようとした矢先。
+<PAUSE>
+<NAME_PLATE>
+　敵は蜘蛛の脚を蠕動させ、
+そら恐ろしい早さで接近してくると、
+術を放とうとした深月の足を払った。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>深月
+「きゃっっっ！！」
+<PAUSE>
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>
+　人型の生物ではあり得ない
+蜘蛛そのものの奇怪な動きに
+深月は転倒してしまう。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「そなたは後で吸ってやるつもりじゃったが、
+　もう興味が失せたわ。
+　妾の毒で死ぬがよい」
+<PAUSE>
+<NAME_PLATE>
+　深月を見下ろし、
+蜘蛛の貴婦人がカッと口を開いた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　おぞましい牙の生えた口から
+ブシュウッと毒液が吐き出される。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「っっっ！！」
+<PAUSE>
+<BG>black,IN, 500
+<NAME_PLATE>
+　風でガードする間もない。
+深月は思わず目を閉じてしまう。
+<PAUSE>
+<NAME_PLATE>
+　しかし、毒液はかかってこない。
+<PAUSE>
+<SE_PLAY>se114
+<NAME_PLATE>
+　代わりに、深月ではない何かに
+ビシャッと当たった音がした。
+<PAUSE>
+<BG>nc125a,IN, 500
+<NAME_PLATE>深月
+「えっ！？」
+<PAUSE>
+<ACTOR>2,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「これが毒だって？　面白い冗談だね」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　目を開けると、
+六穂が間に立ちはだかり、
+深月の代わりに毒液を受け止めていた。
+<PAUSE>
+<NAME_PLATE>深月
+「柳さん！？」
+<PAUSE>
+<NAME_PLATE>六穂
+「委員長、早く立って！」
+<PAUSE>
+<NAME_PLATE>深月
+「は、はい！」
+<PAUSE>
+<NAME_PLATE>
+　深月は素早く身体を起こす。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「ぬっ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は不快そうに眉をひそめた。
+<PAUSE>
+<NAME_PLATE>六穂
+「ほら、お返しだよ！」
+<PAUSE>
+<NAME_PLATE>
+　六穂が口を窄めた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　プシューーーーッ！！
+<PAUSE>
+<NAME_PLATE>
+　今度は六穂の口から水鉄砲のように
+毒液が吐き出された。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「ちっ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,500
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　蜘蛛の貴婦人は
+それを受け止めようとはせず、
+穢らわしそうに身を引いて躱した。
+<PAUSE>
+<ACTOR>2,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「あれえ、どうしたの？
+　ボクと毒の強さ比べをする
+　自信がないのかな？」
+<PAUSE>
+<ACTOR>1,ts_m117a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「薄汚れた虫けらめが」
+<PAUSE>
+<NAME_PLATE>
+　六穂に逃げたことを嘲られ、
+蜘蛛の貴婦人は苛立たしげな顔になった。
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>1,ts_m117a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　その合間に
+深月と六穂は距離を取って、
+体勢を立て直す。
+<PAUSE>
+<NAME_PLATE>
+　最初の攻撃を防がれた燐も
+二人のそばに素早く戻ってきた。
+<PAUSE>
+<NAME_PLATE>深月
+「柳さん、大丈夫ですか？」
+<PAUSE>
+<NAME_PLATE>六穂
+「まあ、なんとかね。
+　でも委員長たちは
+　あれを浴びない方がいいね」
+<PAUSE>
+<NAME_PLATE>
+　六穂は軽く頭を振っている。
+<PAUSE>
+<NAME_PLATE>
+　顔色が悪い。
+<PAUSE>
+<NAME_PLATE>
+　平気で受け止めたように見えて、
+やはり毒が効いているようだ。
+<PAUSE>
+<NAME_PLATE>燐
+「高坂の言うとおりだったな。
+　私の剣を完全に受け止めるとは」
+<PAUSE>
+<NAME_PLATE>
+　燐の口調もいつになく重い。
+<PAUSE>
+<NAME_PLATE>燐
+「ノマドの大幹部に匹敵する。
+　いや、それ以上かもしれない」
+<PAUSE>
+<NAME_PLATE>深月
+「そんな……」
+<PAUSE>
+<NAME_PLATE>
+　これまでずっと
+深月たちをサポートしてきた
+燐が戦慄している。
+<PAUSE>
+<NAME_PLATE>
+　今までの敵とは桁が違う。
+<PAUSE>
+<NAME_PLATE>
+　それほどの相手に
+どうやって立ち向かえばいいのか。
+<PAUSE>
+<NAME_PLATE>
+　深月の心にじわりと恐怖がわき上がる。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「妾に逆らう愚かさに今ごろ気づいたとて、
+　もう遅いわ」
+<PAUSE>
+<NAME_PLATE>
+　深月たちの恐れを感じ取ったか、
+蜘蛛の貴婦人の声に喜びが混じった。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「そなたたちはこれが欲しいのじゃろう？
+　ほれ、取り返したかったら
+　取り返してみるがよい」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は、
+ぶら下がっていた糸玉の一つを落とすと、
+脚の先でその表面をスパリと切り裂いた。
+<PAUSE>
+//　※立ち絵
+//　　眞田焔立ち絵
+//　　　＊対魔忍RPGカードより流用
+//　※立ち絵は変だが記号として。
+<NAME_PLATE>
+　中に入っていたのは、
+両手両足を縮めた眞田焔だ。
+<PAUSE>
+<NAME_PLATE>
+　目を閉じたまま、
+まるで死んだように固まっている。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「眞田先輩！！」
+<PAUSE>
+<NAME_PLATE>
+　呼びかけるが、返事はない。
+<PAUSE>
+<NAME_PLATE>
+　けれど、よく見れば
+肌には赤みが残っていて、
+胸も僅かにだが上下していた。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「大分精気を吸ってやったが、
+　まだ生きておるぞ。
+　死ぬとまずいからのう」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「妾がこやつを食すさまを
+　見せてやろうか？　ん？」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「それとも虫けらは虫けららしく
+　コソコソと逃げ帰るか？
+　それも良かろうて」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は挑発するように、
+脚の先で焔の身体をチクチクとつついた。
+<PAUSE>
+<NAME_PLATE>深月
+「くっ」
+<PAUSE>
+<NAME_PLATE>
+　深月はなにも言い返せない。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　最大の攻撃力をもつ
+燐の雷激光剣はあっさり防がれた。
+<PAUSE>
+<NAME_PLATE>
+　六穂は自分を助けるため、
+毒をまともに食らってしまった。
+<PAUSE>
+<NAME_PLATE>
+　深月もこんな部屋の中では
+風の力を最大限に発揮できない。
+<PAUSE>
+<NAME_PLATE>
+　攻め手が思い浮かばない。
+<PAUSE>
+<NAME_PLATE>
+　リーダーとして指示を出せない
+不甲斐なさに歯噛みする。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その時、燐が言った。
+<PAUSE>
+<ACTOR>0,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「星乃、お前のもう一つの武器を生かせ」
+<PAUSE>
+<NAME_PLATE>深月
+「私のもう一つの武器？」
+<PAUSE>
+<NAME_PLATE>燐
+「分析力だ。
+　それを買ってお前をリーダーに選んだ」
+<PAUSE>
+<NAME_PLATE>深月
+「分析力……」
+<PAUSE>
+<NAME_PLATE>
+　六穂も深月を勇気づける。
+<PAUSE>
+<ACTOR>0,chr_t0044a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>六穂
+「その分析力で
+　ボクの毒も生かして欲しいな、委員長」
+<PAUSE>
+<NAME_PLATE>深月
+「柳さん……」
+<PAUSE>
+<NAME_PLATE>六穂
+「この前ちょっと言われたんだ。体内で
+　生み出す“毒”の特性を使い分ければ、
+　凄い忍法になるってね」
+<PAUSE>
+<NAME_PLATE>
+　六穂は敵の毒を中和しながら、
+精一杯の笑みを浮かべた。
+<PAUSE>
+<NAME_PLATE>深月
+「それって、例のふうまさんにですか？」
+<PAUSE>
+<NAME_PLATE>六穂
+「さあね。
+　まずはここをなんとかしてからさ」
+<PAUSE>
+<NAME_PLATE>深月
+「わかりました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>
+　深月は力強く頷いて、
+蜘蛛の貴婦人をしっかりと見つめた。
+<PAUSE>
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「虫けらどもが
+　なにやら張り切っておるわ」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「よかろう。
+　妾の館までたどり着けた褒美じゃ。
+　せいぜいあがくがよいわ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は悠然と構えている。
+<PAUSE>
+<NAME_PLATE>
+　すぐに深月たちを
+攻撃するつもりはなさそうだ。
+<PAUSE>
+<NAME_PLATE>
+　自分が倒されるとは
+露ほども思っていない顔だ。
+<PAUSE>
+<NAME_PLATE>
+　殺そうと思えばいつでも殺せると
+考えているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　確かにそれだけの実力差が
+あるかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　でも、だからこそ、
+蜘蛛の貴婦人のその驕りを勝利に
+結びつけなければならない。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　ここでの勝利とは敵を倒すことか？
+<PAUSE>
+<NAME_PLATE>
+　そうじゃない。
+焔を助け出すことだ。
+<PAUSE>
+<NAME_PLATE>
+　焔が捕らえられていた糸玉は
+蜘蛛の貴婦人がわざわざ探し出してくれた。
+<PAUSE>
+<NAME_PLATE>
+　そしてもう一つ。
+<PAUSE>
+<NAME_PLATE>
+　さっき蜘蛛の貴婦人は
+燐の斬撃は正面から防いだのに、
+六穂の毒は自分で避けていた。
+<PAUSE>
+<NAME_PLATE>
+　なぜか？
+<PAUSE>
+<NAME_PLATE>
+　やはり生物である以上、
+毒が全く効かないということは
+ないのではないだろうか。
+<PAUSE>
+<NAME_PLATE>
+　幼い頃からあらゆる毒への耐性を
+身につけてきた六穂が死ぬことはないまでも
+敵の毒に苦しんでいるように。
+<PAUSE>
+<NAME_PLATE>
+　それならば―――
+<PAUSE>
+<ACTOR>4,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「二人とも聞いてください」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　深月は蜘蛛の貴婦人に背を向け、
+風で声が漏れないようにしつつ、
+六穂と燐に作戦を伝えた。
+<PAUSE>
+<NAME_PLATE>
+　後ろから攻撃してくるようなことは
+絶対にないと確信していた。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,chr_t0044a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>六穂
+「いい作戦だね」
+<PAUSE>
+<NAME_PLATE>燐
+「了解した」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　二人は躊躇うことなく、
+深月の策を受け入れてくれた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「どうするか決まったのかえ？」
+<PAUSE>
+//　※立ち絵
+//　　蜘蛛の貴婦人＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　蜘蛛の貴婦人は
+人間が籠の中の昆虫を見るような目で
+深月たちを見ていた。
+<PAUSE>
+<NAME_PLATE>深月
+「はい、決まりました！
+　お待たせしました！」
+<PAUSE>
+<NAME_PLATE>
+　あえてにっこりと笑って、
+頭まで下げる。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「おかしな虫けらじゃ。
+　せいぜい妾を楽しませてみよ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>4,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,chr_t0044a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「行きます！」
+<PAUSE>
+<NAME_PLATE>燐
+「調子に乗るのもそこまでだ！」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　深月と燐は同時に走り出した。
+<PAUSE>
+<NAME_PLATE>
+　なんの小細工もせず、
+互いの武器を大上段に構えて、
+真っ直ぐに突っ込んで行く。
+<PAUSE>
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「逃げ出さなかったことは
+　褒めてやろうぞ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は動かなかった。
+<PAUSE>
+<NAME_PLATE>
+　深月たちを褒める余裕を発揮して、
+正面から迎え撃とうとする。
+<PAUSE>
+<NAME_PLATE>
+　思った通りだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「やあっっ！！」
+<PAUSE>
+<NAME_PLATE>燐
+「でやあああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　深月は広げた扇を刃にして、
+燐はさっきと同じ雷激光剣で斬りつける。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「無駄じゃ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<NAME_PLATE>
+　深月と燐の同時攻撃を
+蜘蛛の貴婦人はまたも脚で受け止めた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>燐
+「押し込めえっ！！」
+<PAUSE>
+<NAME_PLATE>深月
+「はいっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人は互いの武器に力を込める。
+<PAUSE>
+<NAME_PLATE>
+　激しい火花が飛び散るが、
+八本の脚はびくともしない。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「くだらぬ。
+　一匹が二匹に増えたところで変わらぬ」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人はつまらなそうに言ったが、
+これは陽動だ。
+<PAUSE>
+<BG>nc125a,IN, 500
+<ACTOR>3,chr_t0135a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>六穂
+「ボクを忘れてないかい？」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　二人が大げさな攻撃をしている間に、
+六穂が敵の背後に回り込んでいた。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「ずっと匂っておるわ。
+　このたわけが」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は想定内という態度で、
+毒が効かない六穂に今度は糸を吐き出した。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se117
+<ACTOR_OUT>3,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>六穂
+「それはどっちかな！！」
+<PAUSE>
+<NAME_PLATE>
+　六穂は一瞬で拘束されるが、
+それこそが狙いだった。
+<PAUSE>
+<NAME_PLATE>六穂
+「忍法っ、死毒の華！！」
+<PAUSE>
+<SE_PLAY>se084
+<NAME_PLATE>
+　グルグル巻きにされた身体から
+紫色の毒がぶわっと湧き上がった。
+<PAUSE>
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「小癪な」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は
+またもそれを避けようとする。
+<PAUSE>
+<NAME_PLATE>
+　しかし、さっきの毒水鉄砲と違って、
+今度の毒霧は意思を持っているかのように、
+蜘蛛の貴婦人に襲いかかった。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「ぬうっ！」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人がぐらっとふらついた。
+<PAUSE>
+<NAME_PLATE>
+　立ちくらみでも起こしたかのように、
+八本の脚を使って身体を支えようとする。
+<PAUSE>
+<NAME_PLATE>
+　六穂に生成してもらったのは、
+対蜘蛛用の最も強力な毒だ。
+<PAUSE>
+<NAME_PLATE>
+　それですら、蜘蛛の貴婦人を
+わずかにふらつかせる程度の効果しかない。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　けれど、それで十分だった。
+<PAUSE>
+<ACTOR>4,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「忍法！　豪風旋刃！！」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<SE_PLAY>se027
+<NAME_PLATE>
+　深月がすかさず忍法を放った。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　部屋の中で大竜巻を起こす。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se074_01
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<BG>white,IN, 500
+<NAME_PLATE>
+　ブオォオオオオオオオオオオオオッッ！！！
+<PAUSE>
+<NAME_PLATE>
+　寝室は嵐のような状態となった。
+<PAUSE>
+<NAME_PLATE>
+　暴風が吹き荒れ、椅子やソファが浮き上がり
+天蓋付きベッドも派手にひっくり返って、
+部屋をメチャクチャにしていく。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「妾の部屋で、このような狼藉を」
+<PAUSE>
+<NAME_PLATE>
+　今までで一番不愉快そうに呻いているが、
+さしもの蜘蛛の貴婦人も風に飛ばされまいと、
+脚を床に突き刺して耐えることしかできない。
+<PAUSE>
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　その嵐の最中―――
+<PAUSE>
+<NAME_PLATE>燐
+「もらった！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<BG>nc125a,IN, 500
+<SE_PLAY>se003
+<NAME_PLATE>
+　燐が飛び上がり、
+風で舞い上がった眞田焔を
+すかさずキャッチした。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人の顔色が変わった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se119
+</GROUP>
+<NAME_PLATE>
+　燐は焔を抱えて着地すると、
+迷わず部屋を飛び出す。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se078
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「蜘蛛の貴婦人さん、
+　あなたには敵わないので、
+　眞田さんだけ連れて帰ります」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蜘蛛の貴婦人
+「なっ！？」
+<PAUSE>
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「この糸はもうちょっと
+　工夫したほうがいいよ。あと、
+　今日のおやつがなくなって残念でした」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se074_01
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　六穂も蜘蛛の糸を自分の毒で溶かし、
+嘲りの台詞とともに遁走している。
+<PAUSE>
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　最後に深月が二度、三度と
+置き土産の竜巻をまた起こして、
+<PAUSE>
+<NAME_PLATE>深月
+「おじゃましました！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<SE_PLAY>se078
+</GROUP>
+<NAME_PLATE>
+　念のために挨拶してから、
+一目散に逃げ出した。
+<PAUSE>
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>蜘蛛の貴婦人
+「おのれええええ、
+　虫けらどもがああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人が喚いているが、
+あの部屋はしばらく大嵐だ。
+<PAUSE>
+<NAME_PLATE>
+　当分は出てこれない。
+<PAUSE>
+<NAME_PLATE>
+　深月たちは、焔の救出だけを目論み、
+見事、蜘蛛の貴婦人を出し抜いたのだった。
+<PAUSE>
+//【背景：ヨミハラ下水道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<UI_DISP>OFF, 0
+<WAIT>2000
+<BG>nc126a,IN, 1000
+<SE_PLAY>se078
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm306,1000
+<NAME_PLATE>蜘蛛の貴婦人
+「まてえええええええええええっっ！！
+　またぬかああああああああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　蜘蛛の貴婦人＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　下水道の向こうから
+怒り心頭の叫びが急速に近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　部屋の嵐が収まってから
+深月たちを追いかけてきた蜘蛛の貴婦人だ。
+<PAUSE>
+<NAME_PLATE>
+　さっきまでの余裕は完全に消え去り、
+憤怒の形相だ。
+<PAUSE>
+<ACTOR>4,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「蜘蛛の貴婦人さん
+　追いかけてきたんですね」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　深月は長く真っ直ぐ伸びた
+地下道の端で彼女を迎え撃った。
+<PAUSE>
+<NAME_PLATE>
+　一緒に逃げたはずの燐や六穂、
+それに救い出した焔の姿はどこにもない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、激昂した蜘蛛の貴婦人は
+そんなことにも気づかぬ様子だ。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<ACTOR>1,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「おのれおのれ！！
+　よくも妾をたばかってくれたな！！」
+<PAUSE>
+<NAME_PLATE>深月
+「ごめんなさい」
+<PAUSE>
+<NAME_PLATE>深月
+「眞田先輩だけ助けて逃げるのは、
+　最初から作戦のうちにあったんです。
+　あなたはすごく強いと聞いてましたので」
+<PAUSE>
+<NAME_PLATE>
+　深月はぺこりと頭を下げた。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「いまさら何を言うても遅いわ！
+　おのれは妾自ら嬲り殺しじゃ！
+　生まれてきたことを後悔させてやるわ！」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は怒りを剥き出しにして、
+八本の脚をギャリギャリと擦り合わせた。
+<PAUSE>
+<NAME_PLATE>深月
+「それはちょっと嫌なので、
+　もう一つごめんなさい。
+　先に謝っておきます」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蜘蛛の貴婦人
+「ぬう、なにがじゃ！」
+<PAUSE>
+<NAME_PLATE>
+　落ち着いた様子の深月に
+ペースを乱されるのか、
+蜘蛛の貴婦人は律儀に聞き返す。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>深月
+「逃げるつもりだったってことは、
+　それを追いかけてくる相手に対応するのも
+　作戦のうちなんです」
+<PAUSE>
+<NAME_PLATE>深月
+「深追いする敵を討つための
+　ささやかな作戦だったんですけど」
+<PAUSE>
+<NAME_PLATE>深月
+「まさか蜘蛛の貴婦人さんが
+　引っかかるなんて」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蜘蛛の貴婦人
+「なんじゃと！？」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人はぎくりとしたようだった。
+<PAUSE>
+<NAME_PLATE>深月
+「神村さん、お願いします！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>5,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se119
+</GROUP>
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>舞華
+「やっと出番か！　焔の姉御を助けるためなら
+　この俺が出張らねえわけにはいかねえだろ！
+　なあ！」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　物陰から威勢よく現れたのは、
+神村舞華（かみむらまいか）だ。
+<PAUSE>
+<NAME_PLATE>
+　まだ五車学園の学生でありながら、
+最高クラスの火炎を操る対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　出撃前に、静流が言っていた隠し球で、
+さらわれた焔を火遁の大先輩として
+大いに慕っているそうだ。
+<PAUSE>
+<NAME_PLATE>舞華
+「ようようよう！
+　てめえが蜘蛛の貴婦人とかぬかす
+　糞野郎か！」
+<PAUSE>
+<NAME_PLATE>舞華
+「焔の姉御に
+　色々とやらかしてくれたそうだな」
+<PAUSE>
+<NAME_PLATE>舞華
+「おかげで今日の俺の炎は一味違うぜ。
+　ここでたっぷり食らっていきな！！」
+<PAUSE>
+<NAME_PLATE>
+　舞華は荒々しいヤンキー口調で
+啖呵を切った。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se015
+</GROUP>
+<NAME_PLATE>
+　途端、全身から炎が噴き出し、
+ゴォオオオオッとすさまじい勢いで
+燃え上がった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蜘蛛の貴婦人
+「っっ！」
+<PAUSE>
+<NAME_PLATE>
+　灼熱の炎に、蜘蛛の化物である貴婦人は
+本能的な恐怖を抱いたようだ。
+<PAUSE>
+<NAME_PLATE>
+　端正な顔が完全に引きつり、
+八本の脚もガチガチに固まっている。
+<PAUSE>
+<NAME_PLATE>
+　その姿は捕虫網に捉えられた蜘蛛に似て
+どこか哀れだった。
+<PAUSE>
+<NAME_PLATE>
+　しかし、深月は静かに告げた。
+<PAUSE>
+<NAME_PLATE>深月
+「この水路は直線。
+　対魔忍最高級の火力からは
+　逃げられません」
+<PAUSE>
+<NAME_PLATE>深月
+「蜘蛛の貴婦人さん、
+　私たちを追いかけた時点で
+　あなたは負けていたんです」
+<PAUSE>
+<NAME_PLATE>深月
+「申し訳ありませんが、さよならです」
+<PAUSE>
+<NAME_PLATE>舞華
+「愚麗寧怒＜グレネイド＞！！！」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,500
+<SE_PLAY>se040_02
+<NAME_PLATE>
+　舞華は冥途バズーカと名付けた大筒を構え、
+超高熱の爆炎弾を発射した。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<BG>white,IN, 500
+<NAME_PLATE>
+　ドッォオオオオオオオオオオオオッ！！！
+<PAUSE>
+<NAME_PLATE>
+　下水道の端から端まで
+赤く埋め尽くされるほどの爆炎。
+<PAUSE>
+<NAME_PLATE>
+　逃げ場のない蜘蛛の貴婦人の身体は
+一瞬にして灼熱の炎に包まれた。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「ぐぎゃああああああああっっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　凄まじい悲鳴が上がった。
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は恐怖で強ばった脚を束ねて
+必死に炎を防ごうとする。
+<PAUSE>
+<NAME_PLATE>
+　しかし、あれだけの強度を誇った脚も
+美しかった顔も超高熱であぶられ、赤熱化し、
+パリパリと細かいひびが入っていく。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「お……おのれえ……わ、わらわが……
+　こんな……こんなことで……」
+<PAUSE>
+<BG>nc126a,IN, 500
+<ACTOR>5,ma_t001a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>舞華
+「がんばるじゃねえか！
+　深月先輩、仕上げにいっちょう頼むぜ！」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,500
+<ACTOR>4,chr_t0146a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>深月
+「風遁・火旋風！！」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　深月は扇を勢いよく振り下ろした。
+<PAUSE>
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブォオオオオオオオオッ！！
+<PAUSE>
+<GROUP>
+<SE_PLAY>se037
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<BG>white,IN, 500
+<NAME_PLATE>
+　炎が燃えさかる下水道を突風が吹き抜ける。
+<PAUSE>
+<NAME_PLATE>
+　それはまるでふいごのようになって、
+熱量が一気に跳ね上がった。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「この虫けらどもがぁああああああああ
+　あああああああっっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　断末魔の叫びとともに
+蜘蛛の貴婦人は粉々に砕け散った。
+<PAUSE>
+<NAME_PLATE>
+　それは土雲の最期でもあった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後、眞田焔は意識を取り戻し、
+土雲に捕らわれていた他の人間たちも
+全て救出された。
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人の死によって、
+ヨミハラの勢力図は
+書き換えられることになる。
+<PAUSE>
+<NAME_PLATE>
+　彼女に死をもたらした
+対魔忍、星乃深月。
+<PAUSE>
+<NAME_PLATE>
+　そして、独立遊撃隊の名は
+闇の世界に轟くこととなった。
+<PAUSE>
+//→Section５終了
+<UI_DISP>OFF, 500
+<WAIT>2000
+<SCENARIO_END>

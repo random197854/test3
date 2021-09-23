@@ -1,0 +1,343 @@
+﻿//☆ストーリー04【Section２】シナリオ
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//シーン説明：
+//【背景：五車町＿ふうま邸の居間＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC026aより流用
+<BG>nc056a,IN, 1000
+<BGM_PLAY>bgm307,1000
+<NAME_PLATE>俺
+（参ったな……大見得を切ってしまったが、
+　どうしたものか）
+<PAUSE>
+<NAME_PLATE>
+　鹿之助と別れた俺は、ひとり悩みながら
+家へ戻って来た。
+<PAUSE>
+<NAME_PLATE>
+　執念深いあいつらのことだ、
+明日また絶対に絡んでくる。
+<PAUSE>
+<NAME_PLATE>俺
+（自分で買っても、この小さな町では
+　すぐにバレるし）
+<PAUSE>
+<NAME_PLATE>
+　時子は教師でもあるから、
+俺が五車学園を卒業するまでは、
+そういう特別扱いはなし、と言われている。
+<PAUSE>
+<NAME_PLATE>俺
+（うーーーーん……
+　困った、困ったぞ……）
+<PAUSE>
+<NAME_PLATE>俺
+「ただいま……」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se052
+<BG>nc081a,IN, 1000
+</GROUP>
+<NAME_PLATE>
+　うまい策も浮かばないまま玄関を上がると、
+居間からコーヒーのいい香りがする。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0076a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,t_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま時子
+「おかえりなさい、お館様」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+<NAME_PLATE>ふうま災禍
+「あっ若様、おかえりなさいませ。
+　なんだかお元気がないようですが、
+　風邪ですか？」
+<PAUSE>
+//　※立ち絵
+//　　【抱擁のバレンタイン】ふうま災禍
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「災禍！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0076a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　この女性は、ふうま災禍。
+<PAUSE>
+<NAME_PLATE>
+　俺の父・ふうま弾正の秘書を務めていたが、
+弾正が五車に反乱を起こすと、
+それは一族のためにはならないと決別。
+<PAUSE>
+<NAME_PLATE>
+　その後は俺を新当主として仕えていて、
+ふうまの持つ書庫や土地の管理など、
+事務方の仕事を担ってくれている。
+<PAUSE>
+<NAME_PLATE>
+　執事である時子に遠慮しているのか、
+はたまた任務や業務で忙しいのか、
+この本宅には、たまに姿を見せる程度だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、今なにより気になるのは、
+手元に見えるハートの包み。
+<PAUSE>
+<NAME_PLATE>俺
+「災禍、それはもしかして……！」
+<PAUSE>
+<NAME_PLATE>災禍
+「ええ、ちょうど今日は、
+　バレンタインですからね♪
+　若様にチョコをと」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おおおおおおおお！！
+　ありがとう災禍！！」
+<PAUSE>
+<NAME_PLATE>
+　最大の難問が、
+こんなにあっさり解決されるとは。
+俺は天を仰いでガッツポーズをする。
+<PAUSE>
+<NAME_PLATE>災禍
+「そんなに喜んでいただけるなんて、
+　災禍も嬉しいですわ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　笑顔の災禍から、
+チョコを受け取ろうとした――そのとき。
+<PAUSE>
+<ACTOR>0,chr_t0076a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,t_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>時子
+「お待ちください」
+<PAUSE>
+<NAME_PLATE>俺
+「ど、どうした時子？」
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>時子
+「先日のテストの点、
+　それにこのところの生活態度」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>俺
+「ぎくっ」
+<PAUSE>
+<ACTOR>1,t_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>時子
+「気づいていないと思っていましたか？
+　私が寝たのを見計らって、
+　夜中にゲームをしていたこと」
+<PAUSE>
+<NAME_PLATE>災禍
+「まあ、それはいけませんね若様。
+　お正月休みはとっくに終わったのですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「う、ううっ……」
+<PAUSE>
+<NAME_PLATE>
+　まずい、雲行きが怪しくなってきた。
+<PAUSE>
+<ACTOR>1,t_t001l,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>時子
+「成績と生活態度が改まるまで、
+　チョコはお預けということで……」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そんなあ！！
+　頼むよ時子！！！」
+<PAUSE>
+<NAME_PLATE>
+　あまりに悲壮な俺の顔を見かねてか、
+災禍がそっと割って入る。
+<PAUSE>
+<NAME_PLATE>災禍
+「まあまあ時子。
+　せっかく用意したことですし」
+<PAUSE>
+<ACTOR>1,t_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>時子
+「でも……」
+<PAUSE>
+<NAME_PLATE>災禍
+「では、チョコは差し上げるのではなく、
+　奪って頂くというのはどうでしょう」
+<PAUSE>
+<NAME_PLATE>俺
+「奪っ……？」
+<PAUSE>
+<ACTOR>1,t_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>時子
+「なるほど、
+　それはいいですね災禍」
+<PAUSE>
+<NAME_PLATE>
+　女二人は微笑み合っているが、
+ただただ不穏な予感しかしない。
+<PAUSE>
+<NAME_PLATE>災禍
+「今から隠れる私を見つけて、
+　チョコを奪いとることができたら、
+　この高級チョコは若様のものです」
+<PAUSE>
+<NAME_PLATE>時子
+「ついでにこの前の点数と、生活態度も
+　チャラにしてあげましょう。
+　いわば追試のようなものですね」
+<PAUSE>
+<NAME_PLATE>俺
+「くっ……。
+　対魔忍のバレンタインは厳しいぜ……」
+<PAUSE>
+//【背景：五車学園＿正門＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC008aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<BGM_STOP>1000
+<WAIT>1000
+<BG>nc105a,IN, 3000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm502,1000
+<NAME_PLATE>俺
+「やれやれ……。
+　大変な事になったな」
+<PAUSE>
+<NAME_PLATE>
+　災禍に遅れること１０分ほど。
+<PAUSE>
+<NAME_PLATE>
+　俺は災禍の痕跡を追跡し、
+気づけば学校の近くまで戻ってきていた。
+<PAUSE>
+<NAME_PLATE>俺
+（災禍の痕跡は……学校の中へ？）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、フェイクだな。
+　ここで途絶えていることから考えて、
+　郊外へ向かった可能性が濃厚か……）
+<PAUSE>
+<NAME_PLATE>
+　と、俺が推理を巡らせていると。
+<PAUSE>
+<NAME_PLATE>？？？
+「ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<NAME_PLATE>
+　後ろから女子の声がし、
+微かな期待とともに振り返ってみると。
+<PAUSE>
+<ACTOR>2,ts_m059a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女子
+「いいところにいたわ。
+　あんた、今日帰り際に、
+　凜子先輩と話してたわよね」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女）
+//　　　　＊モンスターイラストより流用
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「？　え？？」
+<PAUSE>
+<GROUP>
+<ACTOR>3,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m059a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　気づけば、女生徒数人に取り囲まれている。
+同じクラスの女子から、上級生まで、
+その顔触れは様々。こいつらの共通点は――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あーーっ！
+　凜子先輩のファンクラブの連中か……！」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>凜子様ファンクラブ会員１
+「連中とはなによ！
+　それより今日の廊下でのことよ」
+<PAUSE>
+<NAME_PLATE>凜子様ファンクラブ会員２
+「まさかと思うけど……
+　あんたも凜子先輩狙いなんじゃ
+　ないでしょうね？」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ！？
+　あれは、ちょっと挨拶してただけで……」
+<PAUSE>
+<NAME_PLATE>凜子様ファンクラブ会員３
+「バレンタインは抜け駆け禁止って
+　取り決めてたのに、
+　あんたのせいで台無しじゃない」
+<PAUSE>
+<NAME_PLATE>凜子様ファンクラブ会員１
+「そもそもあんた、
+　最近凜子先輩に馴れ馴れしいわよね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はア！？」
+<PAUSE>
+<NAME_PLATE>俺
+（確かに、異次元騒ぎの一件以来、
+　若いさくらの様子を聞きに来たり、
+　距離は縮まっている気がするが……）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「おいおい、誤解だぞ。
+　凜子先輩はあくまで先輩として……」
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>凜子様ファンクラブ会員１
+「言い訳無用！」
+<PAUSE>
+<NAME_PLATE>凜子様ファンクラブ会員２
+「男が凜子先輩に近づくなんて汚れるわ！」
+<PAUSE>
+<NAME_PLATE>凜子様ファンクラブ会員１
+「みんな！
+　凜子先輩に近づく汚物を成敗するわよ！」
+<PAUSE>
+<NAME_PLATE>凜子様ファンクラブ会員３
+「不埒な男は殲滅よ！
+　もぎ取りの刑よ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「酷いなおい！？」
+<PAUSE>
+<NAME_PLATE>
+　もはや何を言っても無駄そうだ。
+嫉妬の権化と化した女子たちは、
+得物を手に襲いかかってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//=================================================================

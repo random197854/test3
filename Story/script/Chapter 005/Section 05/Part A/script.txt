@@ -1,0 +1,186 @@
+//☆第五章【Section５】シナリオ
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+//
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm303,1000
+<BG>nc054a,IN, 1000
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「あっちの世界でこいつらに捕まってたって、
+　どういうことだ！？」
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「酷い世界だったぜ……
+　元からいた種族は、全部このタコ野郎に
+　殺されるか奴隷にされていたんだ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なんだと！？」
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, OUT, linear, 500
+<ACTOR>0,ts_m032a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブレインフレーヤー
+『お、落ち着き給え！　そいつらは
+　悪いブレインフレーヤーなのだ』
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『このアルサールは違う！
+　私は環境保全運動家、君たちの味方だ！』
+<PAUSE>
+//　※立ち絵
+//　　ブレインフレーヤー立ち絵
+<NAME_PLATE>俺
+「って事らしいぜ、鹿之助。
+　元々いた生物を大事にするんだとよ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「嘘だ！！　俺聞いたんだからな。タコ野郎は
+　最初、味方のふりしてやって来たって！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「テクノロジーをくれるとか言って
+　油断してたら突然襲われたって！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ブレインフレーヤー
+『…………！！』
+<PAUSE>
+<NAME_PLATE>俺
+「……ほう」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほどな。帝国主義時代の侵略者どもと
+　同じ手法か。環境保全運動家ってのは
+　さしずめ宣教師ってところだな」
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『……うう………』
+<PAUSE>
+<NAME_PLATE>
+　ブレインフレーヤーはじりじりと後退る。
+<PAUSE>
+<ACTOR>0,ts_m032a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,rn_t002b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>凜子
+「タコ如きに操れるほど
+　対魔忍は甘くないぞ？」
+<PAUSE>
+//　※立ち絵
+//　　凜子戦闘立ち絵_対魔忍衣装
+<NAME_PLATE>俺
+「しかし、こいつを倒すと元の世界に……」
+<PAUSE>
+<ACTOR>1,rn_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「止めてくれるな弟よ」
+<PAUSE>
+<NAME_PLATE>
+　私情を排して、純然たる悪を
+斬らねばならぬ――。凜子先輩の顔には、
+そんな正義の決意が滲んでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、俺も気持ちは同じですがね……！」
+<PAUSE>
+<NAME_PLATE>
+　まあ、似たような世界なのだ。
+時子や蛇子に会えなくなるのは寂しいが、
+なんとか、うまくやっていけるだろう。
+<PAUSE>
+<ACTOR>2,ws_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「やっぱり悪いタコは抹殺だね♪」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>ブレインフレーヤー
+『クゥッ………』
+<PAUSE>
+<NAME_PLATE>
+　俺たち四人の刃が、
+一斉にブレインフレーヤーに向けられる。
+<PAUSE>
+<GROUP>
+<ACTOR>1,rn_t002b,LEFT, LEFT, OUT, linear, 500
+<ACTOR>2,ws_t004d,CENTER, CENTER, OUT, linear, 500
+</GROUP>
+<ACTOR>0,ts_m032a,RIGHT, CENTER, NONE, linear, 500
+<NAME_PLATE>ブレインフレーヤー
+『ク……クウッ……クフ……』
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『クフフフ……
+　クフハハハハ！！！』
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『所詮は下等生物。黙って私の環境保全に
+　従っていれば奴隷として
+　飼ってやったものを』
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『物わかりのいい奴隷がいれば便利だと
+　思ったのですがね……まあ、代わりは
+　いくらでも探せるでしょう！！！』
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『＠×％■？＄＃●＊＊………』
+<PAUSE>
+<NAME_PLATE>
+　ブレインフレーヤーは、
+何か奇怪な言葉を発した。
+<PAUSE>
+//【背景：次元の狭間】【時間：昼】
+<ACTOR>0,ts_m032a,CENTER, CENTER, OUT, linear, 500
+<BG>nc052a,IN, 1000
+<NAME_PLATE>俺
+「また次元移動か！？」
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『ククククク！！
+　もうそんな面倒な事はしませんよ！！』
+<PAUSE>
+//　※立ち絵
+//　　ブレインフレーヤー立ち絵
+<ACTOR>0,ts_m032a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブレインフレーヤー
+『出でよ！　我が番犬！！』
+<PAUSE>
+//　※立ち絵
+//　　ブレインドッグ立ち絵
+<ACTOR>0,ts_m032a,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>1,ts_m035a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m035a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「犬！？　これが！？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>ブレインフレーヤー
+『さあ、エサですよ番犬たち！！！』
+<PAUSE>
+<NAME_PLATE>凜子
+「させるかっ……！！！
+　貴様もろとも八つ裂きにしてやる！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>1,ts_m035a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,ts_m035a,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//　※立ち絵
+//　　凜子戦闘立ち絵_対魔忍衣装
+//→Section５-ＭＡＰ画面１へ

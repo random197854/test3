@@ -1,0 +1,1289 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車学園＿地下の古代神殿２＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC068aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc290a,IN, 1000
+<ACTOR>0,am_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「波遁の術“他力本願”」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<NAME_PLATE>
+　紫水はエオスをキッと睨み付けた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ガーディアン
+「ウララァアアアアアアアアア！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ガーディアンがエオスに突撃をかける。
+<PAUSE>
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　(精神)エオス立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　エオスはそれをチラリと見ただけだ。
+<PAUSE>
+<NAME_PLATE>
+　人間などに自分を傷つけることはできないと
+完全に高をくくっている。
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「ウラアッッ！！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　ガーディアンは無防備なエオスの右頬を
+思いきり殴り付けた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボガァアアアアアアアアアアアッ！！
+<PAUSE>
+<NAME_PLATE>エオス
+「！！！！！！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　エオスは見事にぶっ飛ばされた。
+<PAUSE>
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グルグルと滑稽なほど回転して
+背後の壁に思いきり叩きつけられる。
+<PAUSE>
+<NAME_PLATE>
+　壁が盛大に崩れて、
+赤色の戦士はその瓦礫に埋もれた。
+<PAUSE>
+<NAME_PLATE>エオス
+「！？」
+<PAUSE>
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　己が主を奉る神殿の瓦礫から
+エオスが驚きの表情を浮かべて立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　人間だろうが眷属のガーディアンだろうが
+触れただけで相手が朽ち果てる自分に
+攻撃が当たるはずがないという顔だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「波動のエネルギーを具現化したのが
+　私の“ガーディアン”」
+<PAUSE>
+<NAME_PLATE>紫水
+「生命エネルギーそのもの。
+　ウシャスの加護は私には効かない」
+<PAUSE>
+<NAME_PLATE>
+　紫水が冴え冴えとした声で言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「！！！！！！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　エオスは怒りの形相に変わり、
+両手を勢いよく突き出してきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ビシュウウウウウッ！！
+<PAUSE>
+<NAME_PLATE>
+　ガーディアンたちを蹴散らした
+無数の触手が紫水に迫る。
+<PAUSE>
+<NAME_PLATE>紫水
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　紫水は一歩も動かなかった。
+<PAUSE>
+<NAME_PLATE>
+　動いたのはガーディアンだ。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>ガーディアン
+「ウララアアアアッッ！！」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシンッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ガーディアンの腕が
+触手をまとめて弾き飛ばす。
+<PAUSE>
+<BG>nc290a,IN, 500
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　エオスがまた驚きに目を剥いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「私には効かないと言った」
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「ウラーァアアアアアッッ！！
+　ウラウラウラウラウラアアアアッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ガーディアンがエオスに突撃した。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se108_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　繰り出される触手を次々と弾き飛ばしながら
+目にも止まらぬ両腕のラッシュを叩きつける。
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「ウラウラウラウラウラウラウラウラ
+　ウラアアアアアアアアアアーーーーッ！！」
+<PAUSE>
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「！！！！！！！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　エオスはそれを全く防ぐことができない。
+<PAUSE>
+<NAME_PLATE>
+　何発も何発も食らい続ける。
+<PAUSE>
+<NAME_PLATE>
+　赤道色の身体にヒビが入り始めた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（なんだ……！？）
+<PAUSE>
+<NAME_PLATE>
+　神格の怪物相手に圧倒的な力を見せる紫水。
+<PAUSE>
+<NAME_PLATE>
+　だがその豪勇を見つめながら
+俺は言いようのない違和感を覚えていた。
+<PAUSE>
+<NAME_PLATE>
+　底しれぬ邪悪な意思のようなものを。
+<PAUSE>
+<NAME_PLATE>
+　あいつは遙かに格下の俺たちに
+いきなり背後から奇襲を仕掛けるような奴だ。
+<PAUSE>
+<NAME_PLATE>
+　そんな奴が黙ってこのままやられるか？
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>俺
+（またなにか小細工を！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はハッとして周囲を見渡した。
+<PAUSE>
+<NAME_PLATE>
+　壁、天井、そして床。
+<PAUSE>
+<NAME_PLATE>
+　どこかに妙なところがないかと
+目を皿のようにして探す。
+<PAUSE>
+<NAME_PLATE>俺
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　エオスの足から伸びた触手が
+広間を大きく迂回して、ゆっくりと
+だが確実に紫水の背後に回り込んでいる。
+<PAUSE>
+<NAME_PLATE>
+　奴は紫水にやられるふりをして、
+最初と同じように、いやより狡猾に
+逆転の一手を伸ばしていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　それに気がついた時には、
+触手はぐいと鎌首をもたげ、
+紫水の背中に向かって伸びていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「紫水！！！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>black,IN, 1000
+<NAME_PLATE>
+　叫ぶと同時に身体が動いた。
+<PAUSE>
+<NAME_PLATE>
+　伸びる触手と紫水との間に
+自分の肉体を強引に割り込ませる。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グザッッッッ！！
+<PAUSE>
+<NAME_PLATE>俺
+「ぐっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　触手が脇腹に食い込むのが分かった。
+<PAUSE>
+<NAME_PLATE>
+　凄まじい生命エネルギーの奔流が
+俺に注ぎ込まれてくる。
+<PAUSE>
+<NAME_PLATE>
+　苦痛はなかった。
+<PAUSE>
+<NAME_PLATE>
+　ただ自分が消えていく感覚があった。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc290a,IN, 500
+<ACTOR>0,am_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くん！？」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<NAME_PLATE>
+　意識を失う寸前、
+紫水の声が聞こえたような気がした。
+<PAUSE>
+//※以下、エオス視点で※
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc290a,IN, 1000
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>エオス
+「…………！！！」
+<PAUSE>
+//　※立ち絵
+//　　(精神)エオス立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　もう一匹のゴミムシが邪魔をしてきた。
+<PAUSE>
+<NAME_PLATE>
+　小癪にもこのエオスの逆転の一手を見抜き、
+仲間のゴミムシを守ろうとしたのだ。
+<PAUSE>
+<NAME_PLATE>
+　愚かなことだ。
+<PAUSE>
+<NAME_PLATE>
+　所詮、ゴミムシなど塵にしてしまえばすむ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　さっきから調子に乗っている
+雌のゴミムシも同じだ。
+<PAUSE>
+<NAME_PLATE>
+　暁紅の女神ウシャスの加護を受けた
+このエオスに触れることができたのは驚いたが
+昔からそういう変わり種はいる。
+<PAUSE>
+<NAME_PLATE>
+　適当にやられたふりをしてやって
+ゴミムシが勝利を確信したところを塵にして
+絶望面を見てやりたかったのだが。
+<PAUSE>
+<NAME_PLATE>
+　まったく興醒めなゴミムシどもだ。
+<PAUSE>
+<NAME_PLATE>
+　まあいい。
+この雄のゴミムシを塵にしてから
+もう一匹を始末するだけだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>エオス
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　おかしい。
+<PAUSE>
+<NAME_PLATE>
+　なぜこのゴミムシは塵と化さないのだ？
+<PAUSE>
+<NAME_PLATE>
+　なぜこのエオスの力に耐えている。
+<PAUSE>
+<NAME_PLATE>
+　なんだ？
+<PAUSE>
+<NAME_PLATE>
+　閉じていたゴミムシの右目が開く？
+<PAUSE>
+<NAME_PLATE>
+　なんだあれは？
+<PAUSE>
+<BG>black,IN, 1000
+<NAME_PLATE>
+　闇！？
+<PAUSE>
+<NAME_PLATE>
+　底なしの闇！？
+<PAUSE>
+<NAME_PLATE>
+　まさか！？
+<PAUSE>
+<NAME_PLATE>
+　あれは深淵の力！？
+<PAUSE>
+<NAME_PLATE>
+　馬鹿な！？　なぜゴミムシにこんな力が！？
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッ！！
+<PAUSE>
+<NAME_PLATE>エオス
+「ッッ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　渦巻く深淵から現れた闇の刃が
+エオスの肉体を切り裂いた。
+<PAUSE>
+<NAME_PLATE>
+　暁紅の女神ウシャスの加護を受けた
+身体が本当に損傷する。
+<PAUSE>
+<NAME_PLATE>
+　そんなまさかっ！？
+<PAUSE>
+<BG>nc290a,IN, 500
+<NAME_PLATE>
+　無敵の自分を傷つけることができる
+ゴミムシがいるとは！？
+<PAUSE>
+<NAME_PLATE>
+　こいつは本当にゴミムシか！？
+<PAUSE>
+<NAME_PLATE>
+　こいつはいったいなんなんだ！？
+<PAUSE>
+<NAME_PLATE>
+　ま、まさかこいつは――！？
+<PAUSE>
+<NAME_PLATE>エオス
+「ハッッッ！」
+<PAUSE>
+<GROUP>
+<BG>nc290a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　雌のゴミムシが狙いを定めていた。
+<PAUSE>
+<NAME_PLATE>
+　闇の刃でざっくりと削られた傷口から
+生命エネルギーの拳を叩き込もうとしている。
+<PAUSE>
+<NAME_PLATE>
+　まずい！！
+<PAUSE>
+<NAME_PLATE>
+　今あれを食らったら！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エオス
+「ィイイイイイイイイイ！！！」
+<PAUSE>
+<ACTOR>0,am_t011e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「消えて」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<NAME_PLATE>ガーディアン
+「ウラウラウラウラウラウラ
+　ウラララアアアアアアアアアアアアッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　生まれて初めて感じた恐怖と共に、
+エオスは粉々に砕け散っていった。
+<PAUSE>
+//※エオス視点ここまで※
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>紫水
+「……くん！　お館くん！」
+<PAUSE>
+<NAME_PLATE>俺
+「う……うう……」
+<PAUSE>
+//【背景：五車学園＿地下の古代神殿２＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC068aより流用
+<BG>nc290a,IN, 1000
+<ACTOR>0,am_t011c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫水
+「お館くん！！」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<NAME_PLATE>俺
+「し、紫水か……」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>
+　俺が左目を開けたとき、
+今にも泣きそうな顔をした紫水の顔があった。
+<PAUSE>
+<NAME_PLATE>俺
+「お、お、俺は生きているのか……？」
+<PAUSE>
+<ACTOR>0,am_t011a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「うん」
+<PAUSE>
+<NAME_PLATE>俺
+「エオスは？」
+<PAUSE>
+<NAME_PLATE>紫水
+「倒した。
+　助けてくれてありがとう」
+<PAUSE>
+<NAME_PLATE>
+　俺は床の上に正座をした紫水の膝を枕に
+寝かされていた。
+<PAUSE>
+<NAME_PLATE>
+　触手に貫かれた脇腹の傷も
+紫水が治してくれたようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「俺に出来る事をしただけだ……」
+<PAUSE>
+<ACTOR>0,am_t011f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「お館くんはいつもそうだね」
+<PAUSE>
+<NAME_PLATE>俺
+「どうして俺をお館くんって呼ぶんだ？」
+<PAUSE>
+<ACTOR>0,am_t011a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「話せば長い」
+<PAUSE>
+<NAME_PLATE>俺
+「時間ならたっぷり……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　「ある」と言いかけた俺だが、
+そうは問屋が卸さないのだった。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,ts_m173a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>短気な図書委員さん
+「うごおおおおおおおおッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　短気な図書委員さん
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　あの図書委員さんが
+ここまでやって来ていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「邪魔しないで」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>ガーディアン
+「ウラッ！！」
+<PAUSE>
+<NAME_PLATE>
+　図書委員さんの攻撃を
+ガーディアンが片腕で軽く弾き返した。
+<PAUSE>
+<NAME_PLATE>俺
+「紫水、この人を殺してはダメだ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は膝枕から立ち上がって言った。
+<PAUSE>
+<ACTOR>0,am_t011d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「分かってる。
+　彼は何者かに操られている」
+<PAUSE>
+<NAME_PLATE>俺
+「どうして分かる！？」
+<PAUSE>
+<NAME_PLATE>紫水
+「彼の体の中に見える。
+　“別の生命エネルギー”が」
+<PAUSE>
+<NAME_PLATE>俺
+「図書委員の中に！？　見えるのか！？」
+<PAUSE>
+<NAME_PLATE>紫水
+「おそらく人の中にもぐれる忍法。
+　そいつが図書委員を操っている」
+<PAUSE>
+<NAME_PLATE>紫水
+「コロに身体を貸してもらえなければ
+　見えなかった。ようやく分かった」
+<PAUSE>
+<NAME_PLATE>紫水
+「殺さないように彼を止める」
+<PAUSE>
+<ACTOR>0,am_t011c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　そう言った直後、
+紫水はハッとした表情になり、
+ガーディアンで自分を防御した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガンッッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ガーディアンの頭部がいきなり爆発した。
+<PAUSE>
+<NAME_PLATE>俺
+「なにっ！？」
+<PAUSE>
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　しかしガーディアンは無傷だ。
+<PAUSE>
+<NAME_PLATE>
+　今は実体があるが、
+その本質は波遁の術による
+生命エネルギーの塊だ。
+<PAUSE>
+<NAME_PLATE>
+　爆発で傷つくわけがない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし俺は沼津の最期を思い出していた。
+<PAUSE>
+<NAME_PLATE>
+　そうか！　そういうことか！！
+<PAUSE>
+<NAME_PLATE>
+　沼津を爆殺した奴は
+姿を隠してそばにいたのでも、
+遠くにいたのでもなかった。
+<PAUSE>
+<NAME_PLATE>
+　奴は沼津の中にいたのだ！
+<PAUSE>
+<NAME_PLATE>俺
+「紫水！！！
+　図書委員の中にいる奴は殺人鬼だ！！！」
+<PAUSE>
+<ACTOR>0,am_t011b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「殺人鬼？？」
+<PAUSE>
+<NAME_PLATE>俺
+「逃がすな！！！
+　できれば生け捕りにしてくれ！！！」
+<PAUSE>
+<ACTOR>0,am_t011d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「了解」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが次の瞬間、
+<PAUSE>
+<ACTOR>0,ts_m173a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>短気な図書委員さん
+「あぅあぁああああぁああああ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　図書委員さんは、いや中にいる殺人鬼は
+踵を返して逃げ出した。
+<PAUSE>
+<NAME_PLATE>俺
+「追うぞ！！」
+<PAUSE>
+<NAME_PLATE>紫水
+「わかった」
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：五車学園＿地下の古代神殿１＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC067aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc289a,IN, 1000
+<ACTOR>0,ts_m173a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se078
+<NAME_PLATE>短気な図書委員さん
+「あうっ！　はふっ！　ひほっふはっ！」
+<PAUSE>
+//　※立ち絵
+//　　短気な図書委員さん
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>斉藤半次郎
+（走れ！！　もっと早く走れ！！）
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎は図書委員の身体の中から、
+必死にその手足を動かそうとしていた。
+<PAUSE>
+<NAME_PLATE>短気な図書委員さん
+「ひふっ！　はひっ！　ほひっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　意識を失った図書委員は彼の操り人形で、
+多少の痛みなど無視させることができる。
+<PAUSE>
+<NAME_PLATE>
+　だからと言って、
+肉体がもともと持っている能力を
+それほど大きくさせられるわけではない。
+<PAUSE>
+<NAME_PLATE>
+　隠れるには肉が多くて具合がいいが、
+逃げるにはこの身体はあまりに鈍重だ。
+<PAUSE>
+<NAME_PLATE>短気な図書委員さん
+「あひっ、あひっ、はひっっっ！」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（この肉ぶくれのうすのろめ！！）
+<PAUSE>
+//【黒画面】
+//　※体内を示す背景として。
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>black,IN, 1000
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「まずい！！　こいつはまずいぞ！！！」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　斉藤半次郎は激しく動揺していた。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「一体どこから現れたんだ！！！
+　見たこともない生徒だ……何者だ！？」
+<PAUSE>
+<NAME_PLATE>
+　本能で感じ取った。
+<PAUSE>
+<NAME_PLATE>
+　あの少女はやばい奴だと。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「逃げなければ……早く逃げなければ！！」
+<PAUSE>
+//【背景：五車学園＿図書室迷宮＿消灯】【時間：昼】
+//　※対魔忍アサギZERO_NC065bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc288b,IN, 1000
+<ACTOR>0,am_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「逃さない」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<NAME_PLATE>
+　正体不明の少女がもう追いついてきた。
+<PAUSE>
+<NAME_PLATE>
+　そして得体の知れない
+上半身だけの木偶人形を繰り出してくる。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（だまれ畜群少女が！
+　これでも食らって死ねえええっっ！！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　斉藤半次郎は図書委員の内側から
+カウンターの爆発を連続で食らわせてやった。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボカボカボカアアアンッッ！！
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（見たかこのっ――）
+<PAUSE>
+<BG>nc288b,IN, 500
+<ACTOR>0,am_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「無駄。効かない」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（なっにぃいいいいっっ！！）
+<PAUSE>
+<NAME_PLATE>
+　少女はかすり傷一つ負っていない。
+<PAUSE>
+<NAME_PLATE>
+　なにをどうやったのか
+木偶人形が爆発を全て弾いている。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（なんなのだあの少女は！？
+　なんなのだあの木偶人形は！？）
+<PAUSE>
+<NAME_PLATE>紫水
+「波遁の術“以心伝心”」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（っ！？）
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　木偶人形が豪腕を振り上げた。
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎は図書委員の身体の中で
+反射的に身を縮めたが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボシュウウウウウウウッ！！！
+<PAUSE>
+<NAME_PLATE>
+　木偶人形は拳を床に叩きつけ、
+そこから噴き上がった正体不明のエネルギーが
+肉の鎧を素通りして彼にぶち当たった。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「うっげええええええええ！？」
+<PAUSE>
+<BG>nc288b,IN, 500
+<SE_PLAY>se012
+<NAME_PLATE>
+　斉藤は図書委員の身体から弾き出され、
+まず本棚に思いきり叩きつけられて、
+次いで崩れた本棚の下敷きにされる。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「痛ええええええ！！！？
+　な、何てパワーだ！！？」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「年貢の納め時」
+<PAUSE>
+<NAME_PLATE>ふうま
+「やったか！　紫水！！」
+<PAUSE>
+<NAME_PLATE>
+　あのふうまの小僧まで近づいてくる。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「くそ、こんなところで……」
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎はいよいよ追い詰められていた。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：五車学園＿図書室迷宮＿消灯】【時間：昼】
+//　※対魔忍アサギZERO_NC065bより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc288b,IN, 1000
+<NAME_PLATE>
+　俺がようやく追いつくと、
+図書委員さんが倒れていて、
+紫水の前の本棚が崩れていた。
+<PAUSE>
+<NAME_PLATE>
+　暗くてよく見えないが、
+本棚に別の何者かが下敷きになっている。
+<PAUSE>
+<NAME_PLATE>俺
+「紫水！　やったのか！」
+<PAUSE>
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「本棚の下にいる」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<NAME_PLATE>
+　紫水は言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイツが連続殺人犯だ。
+<PAUSE>
+<NAME_PLATE>
+　風紀隊が追っている殺人鬼。
+<PAUSE>
+<NAME_PLATE>
+　五車に潜む巨悪。
+<PAUSE>
+<NAME_PLATE>
+　その殺人鬼が目の前にいるのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「紫水、少しでも動けば
+　容赦なく攻撃してくれ」
+<PAUSE>
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「わかった」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「お前は何者だ！？」
+<PAUSE>
+<NAME_PLATE>
+　崩れた本棚に埋もれ、
+奴はピクリとも動かない。
+<PAUSE>
+<NAME_PLATE>
+　そのふりをしているのかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　俺はスマホのライトをＯＮにして
+まず殺人鬼の正体を確かめようとした。
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>
+　スマホのライトを遙かに上回る明かりが
+俺たちを照らし出した。
+<PAUSE>
+<BG>nc288a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は反射的にそちらを見た。
+<PAUSE>
+<ACTOR>0,m_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫
+「無事だったかふうま！？」
+<PAUSE>
+//　※立ち絵
+//　　八津紫立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　明かりの中にいるのは紫先生。
+そして先生率いる対魔忍部隊だ。
+<PAUSE>
+<NAME_PLATE>
+　図書室の異変に気づいて来てくれたのだ。
+<PAUSE>
+<NAME_PLATE>
+　これでようやく――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「しまった！」
+<PAUSE>
+<GROUP>
+<BG>nc288a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>
+　俺はガバッと本棚の方を見た。
+<PAUSE>
+<NAME_PLATE>
+　やられた！
+<PAUSE>
+<NAME_PLATE>
+　殺人鬼が消えている。
+<PAUSE>
+<NAME_PLATE>
+　奴の能力は他人の身体に潜ること。
+<PAUSE>
+<NAME_PLATE>
+　俺が目を逸らしたほんの一瞬に
+助けにきた対魔忍の誰かに潜り込んだのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「紫水！　奴はどこだ！」
+<PAUSE>
+<ACTOR>0,am_t011b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「身体を次々と移っていく
+　生命エネルギーが見えた。
+　でももう見えない。逃げられた」
+<PAUSE>
+<NAME_PLATE>俺
+「畜生っ！！」
+<PAUSE>
+<ACTOR>0,am_t011d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「私も姿を消す。
+　ごめんね、お館くん」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　紫水はすまなそうに言い、
+ふっと身体の力を抜いたかと思うと、
+<PAUSE>
+<ACTOR>0,ko_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（…………）」
+<PAUSE>
+<NAME_PLATE>
+//　※立ち絵
+//　　死々村孤路(立ち絵)_制服_刀装備人魂なし
+<NAME_PLATE>
+　そこにはコロ先輩が立っていた。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：五車学園前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　――後日。
+<PAUSE>
+//【背景：五車学園＿図書室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC058aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc182a,IN, 1000
+<NAME_PLATE>
+　結局、殺人鬼は取り逃がしてしまった。
+<PAUSE>
+<NAME_PLATE>
+　正体を確かめることもできなかった。
+<PAUSE>
+<NAME_PLATE>
+　分かったのは
+他人の身体に潜るという奴の忍法だけ。
+<PAUSE>
+<NAME_PLATE>
+　それを“人遁の術”という。
+<PAUSE>
+<NAME_PLATE>
+　もちろん五車のデータベースで調べたが、
+該当する人物は誰もいなかった。
+<PAUSE>
+<NAME_PLATE>
+　女神ウシャスを祀る神殿は再び封印され
+破壊された図書室も元に戻された。
+<PAUSE>
+<NAME_PLATE>
+　仮初めの平和が戻り、
+俺はまたそこに通っている。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ただ、一つだけ変化があった。
+<PAUSE>
+//【イベント絵：REV001a　主人公と紫水】【時間：昼】
+<BGM_PLAY>bgm604,1000
+<EV>stv017a,IN, 1000
+<NAME_PLATE>紫水
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　天宮紫水を図書室でごく普通に
+見るようになったのだ。
+<PAUSE>
+<NAME_PLATE>
+　といっても、見えるのは俺だけだが。
+<PAUSE>
+<NAME_PLATE>
+　自分から俺の前に姿を現すこともあり、
+周りに人がいないときは話したりもする。
+<PAUSE>
+<NAME_PLATE>
+　殺人鬼には逃げられてしまったが、
+図書子さん、紫水とそんな風な仲になったのは
+大きな収穫だ。
+<PAUSE>
+<NAME_PLATE>
+　あれ以来、殺人鬼の捜査にも
+協力してくれている。
+<PAUSE>
+<NAME_PLATE>
+　最後の詰めを誤ったことを
+紫水も悔しく思っているようだ。
+<PAUSE>
+<NAME_PLATE>
+　今のところ、紫水のことを知っているのは、
+俺とコロ先輩だけだが、
+<PAUSE>
+<NAME_PLATE>
+　同じく図書室少女である七瀬舞さんと
+友達になりたいそうだ。
+<PAUSE>
+<NAME_PLATE>
+　さぞかし気が合うだろう。
+<PAUSE>
+<NAME_PLATE>紫水
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　そんな紫水は今日も閲覧用のソファに
+ちょこんと座って本を読んでいた。
+<PAUSE>
+<NAME_PLATE>
+　絵になる光景だ。
+<PAUSE>
+<NAME_PLATE>
+　それを見ることができるのが
+俺だけというのも嬉しい。
+<PAUSE>
+<NAME_PLATE>
+　などと思いながらしばらく見ていると、
+紫水がふと俺に気づいた。
+<PAUSE>
+//【イベント絵：REV001b　主人公と紫水＿差分１】【時間：昼】
+<EV>stv017b,NONE
+<NAME_PLATE>紫水
+「あ……お館くん」
+<PAUSE>
+<NAME_PLATE>俺
+「また来たよ」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん……
+　私が読んでるとこ見てた？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっとだけな」
+<PAUSE>
+<NAME_PLATE>紫水
+「声かけてくれればいいのに」
+<PAUSE>
+<NAME_PLATE>俺
+「邪魔しちゃ悪いと思ってな。
+　あと読んでる姿が絵になるから」
+<PAUSE>
+<NAME_PLATE>紫水
+「……そう」
+<PAUSE>
+<NAME_PLATE>
+　紫水はちょっと恥ずかしそうに頷いた。
+<PAUSE>
+<NAME_PLATE>
+　図書室の幽霊のようだった図書子さんが
+こんな風に普通の女の子のような反応を
+してくれるのも大きな変化だ。
+<PAUSE>
+<NAME_PLATE>俺
+「なに読んでたんだ？」
+<PAUSE>
+<NAME_PLATE>紫水
+「これ」
+<PAUSE>
+<NAME_PLATE>
+　紫水は本の表紙を俺に見せた。
+<PAUSE>
+<NAME_PLATE>
+　『初恋』とあった。
+作者はツルゲーネフだ。
+<PAUSE>
+<NAME_PLATE>俺
+「女の子っぽいな」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん」
+<PAUSE>
+<NAME_PLATE>俺
+「どんな話なんだ？」
+<PAUSE>
+<NAME_PLATE>紫水
+「１６才の少年がワガママな女の子に恋をして
+　初恋だからその子に振り回されるのも
+　とても楽しくて」
+<PAUSE>
+<NAME_PLATE>紫水
+「でもある時、その子が別の誰かに
+　恋してるのを知ってしまって
+　すごくショックを受けて」
+<PAUSE>
+<NAME_PLATE>紫水
+「最後にはそれが少年の父親だったって
+　分かるってそんな話」
+<PAUSE>
+<NAME_PLATE>俺
+「それが初恋？」
+<PAUSE>
+<NAME_PLATE>紫水
+「そう、初恋」
+<PAUSE>
+<NAME_PLATE>俺
+「面白いのか？」
+<PAUSE>
+<NAME_PLATE>紫水
+「わりと好き。少年の父親が死ぬ間際に言う
+　『女の愛を恐れよ。この幸福を。
+　この毒を恐れよ』ってセリフとか」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……」
+<PAUSE>
+<NAME_PLATE>
+　文学少女の好みは分からない。
+<PAUSE>
+<NAME_PLATE>
+　いや、紫水については
+分からないことだらけだが。
+<PAUSE>
+<NAME_PLATE>
+　前世の雫とか、魂の記憶とか、
+運命を共にする者とか、肝心な部分については
+何も話してはくれない。
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くん……？」
+<PAUSE>
+<NAME_PLATE>俺
+「紫水、この図書室は好きか？」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん、とても」
+<PAUSE>
+<NAME_PLATE>俺
+「だろうな。
+　まあ、それはそれでいいんだが……」
+<PAUSE>
+<NAME_PLATE>紫水
+「……？」
+<PAUSE>
+<NAME_PLATE>俺
+「あのな。
+　俺にはまだ君のことが
+　ちゃんと理解できてないけど」
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くんの運命だから話せない」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それはいいんだ。
+　そうじゃなくてな」
+<PAUSE>
+<NAME_PLATE>紫水
+「……？」
+<PAUSE>
+<NAME_PLATE>俺
+「君がこの図書室の住人なら、
+　俺が外の世界も見せてやる」
+<PAUSE>
+<NAME_PLATE>俺
+「本の外の世界も最高だぞ」
+<PAUSE>
+<NAME_PLATE>紫水
+「同じ事を言った」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>紫水
+「何でもない」
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　そして紫水はまた本に目を落とした。
+<PAUSE>
+<NAME_PLATE>
+　その横顔には
+うっすらと笑みが浮かんでいた。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,306 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町＿山畔家跡＿夜】【時間：夜】
+//　※TentacleandWitches_nc016bより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc221a,IN, 1000
+<NAME_PLATE>
+　―――ずるっ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　屋敷に向って走り出した途端、
+地面に足を取られた。
+<PAUSE>
+<NAME_PLATE>
+　突然、硬い地面が泥沼に変化したのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「くっっ！」
+<PAUSE>
+<NAME_PLATE>
+　上体が泳ぎ、
+つんのめるように前に倒れ込む。
+<PAUSE>
+<NAME_PLATE>
+　しかし、こんな展開を
+全く予想していなかったわけではない。
+<PAUSE>
+<NAME_PLATE>
+　地面に両手を突き、
+自分からごろんと前に回転して
+その勢いで素早く立ち上がった。
+<PAUSE>
+<ACTOR>0,h_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、平気！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>俺
+「大丈夫だ。だけど気をつけろ。
+　俺たちの行動を予測しての二重の罠。
+　泥化した地面は間違いなく泥使いの仕業だ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「見て！　あそこ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子が指さした先で、
+泥沼と化した地面が湧きたっている。
+<PAUSE>
+<NAME_PLATE>俺
+「泥使いか！？」
+<PAUSE>
+<ACTOR>1,ts_m139a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>泥使い
+「グフフフフ。
+　独立遊撃隊の隊長などと所詮は青二才よ」
+<PAUSE>
+//　※立ち絵
+//　　沼津彦四郎立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　現れたのは身長２メートルを超す巨漢。
+思いきり腹が出たハゲオヤジだ。
+<PAUSE>
+<NAME_PLATE>泥使い
+「やあ、学生の諸君、ご機嫌よう」
+<PAUSE>
+<NAME_PLATE>
+　俺たちを良く知っているような口調で
+話しかけてくるが、
+<PAUSE>
+<NAME_PLATE>なお
+「誰？」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>孤路
+「（誰？）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>蛇子
+「誰かしら？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>俺
+「誰だおっさん？」
+<PAUSE>
+<NAME_PLATE>
+　誰も知らない。
+初めて見る顔だ。
+<PAUSE>
+<NAME_PLATE>沼津
+「沼津だ！！！
+　五車の有能なる用務員さんを忘れたのか！？
+　この恩知らずどもめ！？」
+<PAUSE>
+<NAME_PLATE>
+　男は顔を真っ赤にして喚き散らした。
+<PAUSE>
+<NAME_PLATE>
+　用務員の沼津？
+<PAUSE>
+<NAME_PLATE>俺
+「あーー！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そういえば……」
+<PAUSE>
+<NAME_PLATE>孤路
+「（知らない）」
+<PAUSE>
+<NAME_PLATE>なお
+「そんな人いたっけ？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「先輩、聞こえてますよ！」
+<PAUSE>
+<NAME_PLATE>
+　俺と蛇子はなんとなく思い出したが、
+先輩二人はまるっきりのようだ。
+<PAUSE>
+<NAME_PLATE>沼津
+「こらあガキ共っっっ！！
+　いつも学園のために働いている
+　用務員さんの顔も覚えていないのか！」
+<PAUSE>
+<NAME_PLATE>なお
+「僕は可愛くないものが嫌いでね。
+　君のような泥まみれの汚い男なんか
+　見た瞬間に忘れているよ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（魂の色が汚い）」
+<PAUSE>
+<NAME_PLATE>蛇子
+「先輩先輩」
+<PAUSE>
+<NAME_PLATE>俺
+「それはちょっと言い過ぎじゃ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>沼津
+「貴様らぁあああああああ！！！」
+<PAUSE>
+<NAME_PLATE>
+　沼津は憤怒の形相だ。
+<PAUSE>
+<NAME_PLATE>
+　けれど、確かいつも上下ジャージだったし、
+はげ頭も帽子で隠していた。
+今とは違いすぎる。
+<PAUSE>
+<NAME_PLATE>
+　だが、よく見れば、
+今も上半身は裸だが、下はジャージだ。
+<PAUSE>
+<NAME_PLATE>
+　それに鋼鉄の手甲とブーツをつけている。
+あれが泥使いとしての出立ちなのだろうか。
+変わってるな。
+<PAUSE>
+<NAME_PLATE>沼津
+「この沼津彦四郎様を怒らせたことを
+　後悔させてやる！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「待て待て！！
+　オッサンが連続殺人犯なのか？」
+<PAUSE>
+<NAME_PLATE>沼津
+「さあなアッ！！！
+　だが俺はお前が許せないんだぜ！！」
+<PAUSE>
+<NAME_PLATE>
+　沼津は俺をビシリと指さした。
+<PAUSE>
+<NAME_PLATE>俺
+「え！？　お、俺！？」
+<PAUSE>
+<NAME_PLATE>沼津
+「そうだ！
+　ここは俺の叔父の家さ！
+　大好きだった叔父のな！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど、そういう事か……」
+<PAUSE>
+<NAME_PLATE>
+　佐那先輩が教えてくれた。
+<PAUSE>
+<NAME_PLATE>
+　この屋敷の主、山畔は
+ふうまと井河の戦いに巻き込まれて
+死んだと。
+<PAUSE>
+<NAME_PLATE>
+　あの頃、俺はほんのガキだったが、
+ふうまの当主であったのは間違いない。
+<PAUSE>
+<NAME_PLATE>
+　ましてあの戦いで
+殺された人間の縁者にとっては、
+俺が生きているだけで許せないだろう。
+<PAUSE>
+<NAME_PLATE>蛇子
+「じゃあ、用務員さんは
+　連続殺人犯とは無関係？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（そうとは言えない）」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩の言う通り。
+　あのオッサンは事件に関係している」
+<PAUSE>
+<NAME_PLATE>なお
+「ふうまくんの存在が事態を動かしたのは
+　間違いないけどね」
+<PAUSE>
+<NAME_PLATE>
+　先輩たちが期待した通りだ。
+<PAUSE>
+<NAME_PLATE>
+　俺にとっては全く嬉しくない状況だ。
+<PAUSE>
+<NAME_PLATE>沼津
+「グフフフフフフ。
+　お喋りは終わりだ。ガキ共！
+　用務員さんの強さを思い知らせてやる！！」
+<PAUSE>
+<NAME_PLATE>沼津
+「泥遁の術“泥人形”！！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　ボコッ、ボコッ、ボコボコボコッ！！
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m140a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m140a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>泥人形
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+//　※立ち絵
+//　　泥戦士（泥人形の色変え）立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　昼間と同じ、泥人形が次々と出現した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>沼津
+「そしてぇえええ！！！
+　集まれ！！　鬼火ぃいいいいい！！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>3,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「ガルガルガルウウウウウウウッ！！」
+「クケケエーーーーーーーッ！！」
+「ギャギギイイイイイイイッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+//　※立ち絵
+//　　鬼火立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　魔術トラップの鬼火も迫ってくる。
+<PAUSE>
+<NAME_PLATE>なお
+「来るよ！」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩の合図のもと、
+俺たちは一斉に戦闘態勢を取った。
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

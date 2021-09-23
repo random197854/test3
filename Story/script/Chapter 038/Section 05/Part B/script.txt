@@ -1,0 +1,793 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ＿米連の地下施設＿隠し通路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc033aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc020a,IN, 1000
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「ギギ……なんだぁ！？
+　誰が誰をぶち殺すだってえぇ！！？」
+<PAUSE>
+//　※立ち絵
+//　　アイアンサイド
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>亜希
+「くっ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希03
+//　　　　＊カードイラスト　ふうま亜希03より流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイィイン！　ガキイン！！
+<PAUSE>
+//　※激しい攻撃効果（複数）など。
+<NAME_PLATE>
+　暴風のようなアイアンサイドの
+攻撃が亜希を襲っていた。
+<PAUSE>
+<BG>nc020a,IN, 500
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「対魔忍と聞きゃあ、なおさら
+　念入りにすり潰してやらねえとなぁ！
+　このクソがぁ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギイインッ！！
+<PAUSE>
+//　※激しい攻撃効果など。
+<NAME_PLATE>亜希
+「ぐううぅっ！？」
+<PAUSE>
+<NAME_PLATE>
+　その猛攻をかろうじて
+受け止めて亜希が大きく呻く。
+<PAUSE>
+<BG>nc020a,IN, 500
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アイアンサイドの攻撃は単純で、
+技と呼べるようなものは何もない。
+<PAUSE>
+<NAME_PLATE>
+　だが、そのパワーそのものが
+恐るべき脅威だった。
+<PAUSE>
+<NAME_PLATE>亜希
+（この化け物……パワーだけなら
+　確実に上級魔族以上だね……）
+<PAUSE>
+<NAME_PLATE>
+　アイアンサイドは魔界医療による
+違法な人体改造を繰り返し、
+鬼や魔獣の遺伝子を取り込むことで、
+<PAUSE>
+<NAME_PLATE>
+　人間を遥かに超える異常なパワーと
+俊敏性、そして、強大な鋼の如き
+肉体を手に入れた。
+<PAUSE>
+<NAME_PLATE>亜希
+（そう……パワーと同じくらい、
+　このタフさが厄介だ……）
+<PAUSE>
+<NAME_PLATE>
+　分厚い筋繊維が岩石のように膨張、
+積み重なっているアイアンサイドの肉体。
+<PAUSE>
+<NAME_PLATE>
+　その肌は半端な攻撃では傷一つ
+付けられない。つまり――。
+<PAUSE>
+<NAME_PLATE>
+　“与えたかすり傷を致命傷に変える”
+亜希の邪眼・死裂が使えない。
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「おらァ！！！
+　とっととくたばれええええっ！！」
+<PAUSE>
+<NAME_PLATE>亜希
+「っ！！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイイイイン！！！！
+<PAUSE>
+<BG>nc020a,IN, 500
+<ACTOR>0,chr_t0091d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「亜希！！！？
+　お、おい、おぬし大丈夫か！？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム01
+//　　　　＊カードイラスト　ミリアム01より流用
+//　※シロとクロが敵を牽制に行っているのでシロとクロなしの差分でお願いします。
+<ACTOR>1,ns_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミニナーサラ２
+「亜希、危険」
+<PAUSE>
+<NAME_PLATE>
+　顔色を変えて叫ぶミリアムと
+ミニナーサラ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アイアンサイドは強大な敵だ。
+<PAUSE>
+<NAME_PLATE>
+　亜希が万全でも苦戦するであろう相手、
+しかも今は汚染によって体中の
+細胞が傷ついている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「……あぁ、大丈夫だよ、
+　ミリアムちゃん、ナーサラちゃん。
+　私には、“奥の手”がある」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「あァ！！？」
+<PAUSE>
+<NAME_PLATE>
+　吹き飛ばされた亜希が口から
+鮮血を溢れさせながら立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　手に握った刀を横にして、
+その刀身に己の邪眼を映し出す。
+<PAUSE>
+<NAME_PLATE>亜希
+「この技は……禁じ手だ。
+　でも、皆がいれば使うことができる」
+<PAUSE>
+<NAME_PLATE>
+　己自身に“死裂”の暗示をかけることで、
+痛みや死の恐怖から解放された
+バーサク状態となる。
+<PAUSE>
+<NAME_PLATE>
+　人間の身体限界を超える戦闘ができるが、
+その代償として、肉体をひどく破損し、
+自滅に陥ることも多くある諸刃の剣。
+<PAUSE>
+<NAME_PLATE>
+　死裂使いの多くは、この技を使って
+自らの“鬼”に呑まれて自滅した。
+<PAUSE>
+<NAME_PLATE>
+　しかし今の亜希には、何があろうと
+背中を守ってくれる仲間がいる。
+<PAUSE>
+<NAME_PLATE>
+　だから今、甚大なリスクを承知で
+彼女はその技を使う――。
+<PAUSE>
+<NAME_PLATE>亜希
+「ありがたく思えよ外道！！
+　お前に、私の全部を見せてやる！！
+　ああああああああああああああっ！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「ギギ……しゃらくせえぇクソが！！
+　ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡッ！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>ミリアム＆ミニナーサラ
+「あ、亜希！！？」
+「……！」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギイイイイイイン！！！！
+<PAUSE>
+<NAME_PLATE>
+　激突する二つの影。
+<PAUSE>
+<NAME_PLATE>
+　そして、次の瞬間――。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<NAME_PLATE>
+　大量の鮮血と共に、凄まじい
+断末魔の叫びが通路に響き渡った。
+<PAUSE>
+//【背景：ヨミハラ＿米連の地下施設＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用 
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc047a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――がああああああああああああああ
+ああああああああああああああああああ
+あああああああっ！！！！？
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クローンアサギ
+「――――！！？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『オヤオヤ……？』
+<PAUSE>
+//　※立ち絵
+//　　ファウスト
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　通路から届いた絶叫に二人が
+ピクリと反応した。
+<PAUSE>
+<NAME_PLATE>
+　ここは通路を抜けた先にある倉庫区画。
+<PAUSE>
+<NAME_PLATE>
+　激しく戦闘しながらファウストと
+クローンアサギはこの場所まで
+移動していた。
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『……ドウヤラ、
+　私ノ雇イ主ガヤラレタヨウダ』
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そうらしいわね。
+　……あなたは、どうするの？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「このまま続けても、
+　結果は見えていると思うけれど」
+<PAUSE>
+<NAME_PLATE>ファウスト
+『……クク、ソウカモナ』
+<PAUSE>
+<NAME_PLATE>ファウスト
+『雇イ主ガ死ンダ以上、
+　私モ、戦ウ理由ハナイガ――』
+<PAUSE>
+<NAME_PLATE>
+　ファウストが微かに笑う。
+<PAUSE>
+<NAME_PLATE>
+　その周辺には破壊されたドローンや
+パワードスーツが大量に散らばっている。
+<PAUSE>
+<NAME_PLATE>
+　サイボーグ傭兵ファウストは
+巧みにドローン部隊を指揮して戦ったが、
+<PAUSE>
+<NAME_PLATE>
+　それら全てを覆すほど、目の前の
+フードを纏った女の強さは圧倒的だった。
+<PAUSE>
+<NAME_PLATE>ファウスト
+『………最新最強ノ
+　サイボーグ兵器“ネメシス”』
+<PAUSE>
+<NAME_PLATE>ファウスト
+『ソノ使イ手ガ、マサカ、
+　コンナトコロニ現レルトハナ――』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「あなた……？」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが目を細める。
+<PAUSE>
+<NAME_PLATE>
+　“ネメシス”の情報はごく限られた
+一部の者しか知らないはず。
+<PAUSE>
+<NAME_PLATE>
+　ということは、この女傭兵も
+“Ｇ”と何か関りが……？
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……いえ、今はいいわ。
+　それより、あなたには一つ恩がある」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あなたが大人しく退くなら、
+　ここは見逃してもいい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『ホウ……？』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それは、クローンアサギが
+亜希を助けに入った瞬間のことだ。
+<PAUSE>
+<NAME_PLATE>
+　亜希の頭に銃を突きつけていた
+ファウストが、一瞬、引き金を
+引くのを止めたように見えた。
+<PAUSE>
+<NAME_PLATE>
+　何のつもりかは知らないが、
+あの一瞬のお陰で、
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは亜希の
+救援に間に合うことができた。
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『……クク、ナルホド。
+　善行ハ、シテオクモノダナ』
+<PAUSE>
+<NAME_PLATE>
+　サイボーグ傭兵が笑って、
+注意深く両手の銃を下ろす。
+<PAUSE>
+<NAME_PLATE>ファウスト
+『アレハ……オ前タチガ近ヅク
+　気配ガアッタノデナ。
+　“丁度イイ機会”ト思ッタマデ』
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「いい機会……？」
+<PAUSE>
+<NAME_PLATE>ファウスト
+『ナニ、コチラノ話ダ。
+　……デハ、オ言葉ニ甘エヨウ』
+<PAUSE>
+<NAME_PLATE>ファウスト
+『覚エテオクゾ、
+　“ネメシス”ノ使イ手、
+　縁ガアレバ、マタ会オウ――』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　奇怪な電子音で笑ったファウストが
+施設の闇の中に姿を消した。
+<PAUSE>
+<NAME_PLATE>
+　そして、
+一人残ったクローンアサギは。
+<PAUSE>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「…………これで良いの、
+　ナーサラ？」
+<PAUSE>
+<ACTOR>1,ns_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミニナーサラ３
+「肯定。悪い空気、もうギリギリ」
+<PAUSE>
+<NAME_PLATE>
+　コートの中で彼女分の
+ミニナーサラが顔を曇らせていた。
+<PAUSE>
+<NAME_PLATE>
+　ミニナーサラが浄化できる
+汚染の量が限界に近づいていた。
+<PAUSE>
+<NAME_PLATE>
+　これ以上戦い続ければ、
+クローンアサギの体も汚染に蝕まれる。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんなこちらの苦しい事情を
+察してるのかいないのか。
+<PAUSE>
+<NAME_PLATE>
+　ファウストは劣勢に追い込まれながら
+徹底的に守りを固めて戦闘を膠着させた。
+<PAUSE>
+<NAME_PLATE>
+　まるでクローンアサギが汚染で
+倒れるのを待つように。
+<PAUSE>
+<NAME_PLATE>
+　そこでクローンアサギは――。
+<PAUSE>
+<NAME_PLATE>
+　亜希を救った“恩”を口実に、
+ファウストを撤退させたのだった。
+<PAUSE>
+<NAME_PLATE>ミニナーサラ３
+「残念、機械の人と引き分け」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「仕方がないわ。戦闘力以上に、
+　厄介な相手――」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが苦笑する。
+<PAUSE>
+<NAME_PLATE>
+　戦場での駆け引きに精通した、
+歴戦の傭兵のしたたかさを
+見せつけられた気分だった。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「でも、これでひと段落ね」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「さあナーサラ、戻りましょう、
+　私たちの仲間のところへ――」
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　それが、東京地下で発生した
+放射能汚染事件の顛末であった。
+<PAUSE>
+//【背景：ヨミハラ＿米連の地下施設＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用 
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc047a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後、探偵クローンアサギから
+ノマドの魔界騎士リーナに情報が渡り、
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラ近くに密かに基地を建造するという
+特務機関Ｇの企みは潰えることとなった。
+<PAUSE>
+<NAME_PLATE>
+　地下施設の放射能汚染も表沙汰となり、
+その処理のため政府を含む各勢力から
+多くの人員が投入された。
+<PAUSE>
+<NAME_PLATE>
+　その際、後処理のための仲介をした
+ノマドに大量のカネが流れ込み、さらに
+組織力を高める要因になった――
+<PAUSE>
+<NAME_PLATE>
+　との黒い噂もあったが、
+その真偽は明らかにされていない。
+<PAUSE>
+<NAME_PLATE>
+　ともあれ、組織の垣根を超えた
+大がかりな事故処理プロジェクトが発足し、
+地下施設の汚染は収束に向かい始めている。
+<PAUSE>
+<NAME_PLATE>
+　グィネヴィアの父・ボルティゲルンの
+命を賭けた願いは果たされたのだった――。
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ繁華街＿とあるバー＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一か月後。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>1,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>高坂静流
+「はーい！　皆さんご注目～♪
+　今日からうちで働いてくれる新人さんを
+　紹介するわね！　どうぞ～！」
+<PAUSE>
+//　※立ち絵
+//　　高坂静流02
+//　　　　＊カードイラスト　高坂静流（チョコ教師）より流用
+<ACTOR>0,ts_m293b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「は、はい……！
+　グィネヴィアと言います！
+　皆さん、よろしくお願いしますっ！」
+<PAUSE>
+//　※立ち絵
+//　　グィネヴィア＿メイド服
+//　　　＊対魔忍RPGイラストより流用
+<NAME_PLATE>
+　メイド服姿のグィネヴィアが
+恥ずかしそうに頬を染めて頭を下げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ここはヨミハラ繁華街の片隅。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍であり、なぜかヨミハラの
+町内会長も務める高坂静流が
+経営する小さなバー。
+<PAUSE>
+<NAME_PLATE>
+　この店が、クローンアサギが
+『良い店を知っている』と言っていた、
+グィネヴィアへの紹介先のお店だった。
+<PAUSE>
+<ACTOR>1,chr_t0292a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「ひゅーひゅー！　似合ってるよー、
+　グィネヴィアちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希03
+//　　　　＊カードイラスト　ふうま亜希03より流用
+<ACTOR>0,chr_t0279a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「うむ！　さすがはわたしの
+　教え子というところだなっ！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム03
+//　　　　＊カードイラスト　ミリアム03より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「新人バイト、初日が大事」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ02
+//　　　　＊カードイラスト　ナーサラ02より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m293b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「あはは……はい、
+　ありがとうございます、皆さん！」
+<PAUSE>
+<NAME_PLATE>
+　照れたように微笑むグィネヴィア。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　声をかけてくるのは、バイト初日の
+お祝いに駆けつけた探偵事務所の面々。
+<PAUSE>
+<NAME_PLATE>
+　彼女と、彼女の父を絶望から
+救ってくれた、大切な恩人たちである。
+<PAUSE>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「あんた、何か大変だったんだってね。
+　気持ちの方は、もう大丈夫……？」
+<PAUSE>
+//　※立ち絵
+//　　フランシス02
+//　　　　＊カードイラスト　フランシス02より流用
+<ACTOR>1,ts_m293b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「あっ、はい……」
+<PAUSE>
+<NAME_PLATE>
+　大柄な美女が優しく声をかけてくる。
+<PAUSE>
+<NAME_PLATE>
+　彼女は元マフィアのボス、
+鬼ギャルのフランシス。
+<PAUSE>
+<NAME_PLATE>
+　グィネヴィアが依頼に行ったときは
+不在だったが、彼女も事務所の
+居候の一人らしい。
+<PAUSE>
+<NAME_PLATE>
+　彼女は彼女で何かトラブルに
+遭遇していたらしく、ぺたぺたと
+顔や体に沢山の絆創膏が貼られていた。
+<PAUSE>
+//　※注　フランシスも出かけた先で事件に巻き込まれていた風。
+//　　　　もし鬼関係で何か話が繋がりそうでしたら前振りとして拾っていただければと思います。
+<NAME_PLATE>グィネヴィア
+「そうですね……。
+　私は、もう大丈夫です……」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「確かに、お父さんと、
+　もう会えないのは寂しいけど……」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「でも……最期まで、
+　一緒にいられましたから――」
+<PAUSE>
+<NAME_PLATE>
+　胸を刺す寂しさを堪えて、
+グィネヴィアがにっこりと笑う。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　一か月前のことである。
+<PAUSE>
+<NAME_PLATE>
+　地下施設から帰還後、ただちに
+病院に搬送されたボルティゲルンは、
+<PAUSE>
+<NAME_PLATE>
+　懸命な治療も虚しく、
+二週間後に死亡した。
+<PAUSE>
+<ACTOR>0,ts_m293b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+（でも……最期まで、
+　お父さんは笑っていた……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　娘の暮らすヨミハラを、
+命を懸けて守ったこと。
+<PAUSE>
+<NAME_PLATE>
+　その誇りを胸に、ボルティゲルンは
+笑顔で去っていった。
+<PAUSE>
+<NAME_PLATE>
+　だからグィネヴィアも、
+胸がつぶれるほど哀しいけれど……
+今は前を向くことができる。
+<PAUSE>
+<NAME_PLATE>
+　探偵の勧めに従いこのお店で
+働き始めたこと。
+<PAUSE>
+<NAME_PLATE>
+　そして父と娘ふたりの夢だった
+“魔女”を目指すため、ミリアムの
+二人目の弟子になったことも、
+<PAUSE>
+<NAME_PLATE>
+　彼女のそんな決意の表れであった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<GROUP>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m293b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「くぅ～っ、そっかー……！
+　あんた凄く健気で良い子だねえ、
+　グィネヴィアちゃん！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「――気に入った！！
+　今日は朝まで、あたしと一緒に
+　飲み明かそう！！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「哀しいことやつらいこと、
+　そんなのはお酒で忘れるのが一番だよ！」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「え、えぇ……？
+　いえ、私、お仕事中で……」
+<PAUSE>
+<NAME_PLATE>
+　鬼ギャルの妄言をきっかけに、
+一同がぎゃーぎゃーと騒ぎ出す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「そうだ、飲もう！！
+　働かなくったって、別に良い
+　じゃないかグィネヴィアちゃん！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「いや、良くはないわよ？」
+<PAUSE>
+<ACTOR>0,chr_t0279a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「そ、そうだぞ、この酔っ払いども！
+　わたしの弟子を変な道に引き込むなっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0248a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「労働と飲酒、大いなる矛盾。
+　興味深い」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「まったく、この子たちは――。
+　気にしないでねグィネヴィア」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ02（浴衣）
+//　　　　＊カードイラスト　クローンアサギ02（浴衣）より流用
+
+<NAME_PLATE>クローンアサギ
+「あなたのペースで行きなさい。
+　これからも、じっくり前を見て――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m293b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「あはは……はい！
+　頑張ります、探偵さん……！」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギの言葉に、
+グィネヴィアが明るい笑顔を見せた。
+<PAUSE>
+//→Section５終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

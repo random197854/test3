@@ -1,0 +1,501 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：魔都・東京＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC001aより流用
+//新規　nc187a
+<BG>nc187a,IN, 1000
+<NAME_PLATE>
+　魔都・東京。
+<PAUSE>
+<NAME_PLATE>
+　今日も夜空に星はなく、
+人と魔の欲望だけが地上に煌めく街。
+<PAUSE>
+//【背景:新港区行き地下鉄＿車内＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC036aより流用
+//新規　nc188a
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm203,1000
+<BG>nc188a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　拡大を続ける闇の都の最奥部、
+新港区に向かう地下鉄に彼女はいた。
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　チンピラ、破落戸、荒くれ者、
+いずれも脛に傷持つ乗客どもに囲まれながら、
+一人、澄んだ瞳を持つ少女。
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　星乃深月（ほしのみつき）。
+<PAUSE>
+<NAME_PLATE>
+　“扇嵐の対魔忍”の異名を持つ
+風遁の使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　彼女は今、ある男を尾行していた。
+<PAUSE>
+//　※立ち絵
+//　　ボスルク立ち絵
+//　　　＊決戦アリーナ_オーク奴隷商人立ち絵より流用
+//新規　ts_m114a
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　名はボスルク。
+<PAUSE>
+<NAME_PLATE>
+　オークの奴隷商人である。
+<PAUSE>
+<NAME_PLATE>
+　男は醜く肥満した身体を
+窮屈そうにスーツに押し込んで、
+四人がけの座席を一人で占領していた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>
+　その傍らには、当然のように
+強面のボディーガードたちが立っている。
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+//　　ハイオーク立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<NAME_PLATE>
+　縦も横もボスルクの二倍以上はあり、
+その巨躯と悪相を存分に発揮して、
+周囲を威圧していた。
+<PAUSE>
+<NAME_PLATE>
+　無用のトラブルを恐れてか
+彼らに近づこうとする者はいない。
+<PAUSE>
+<NAME_PLATE>
+　深月もそういった乗客を壁にして
+息をひそめ、気配を殺している。
+<PAUSE>
+<NAME_PLATE>
+　まだ尾行は気づかれてはいない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかし―――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+（ああもう）
+<PAUSE>
+<ACTOR>4,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　深月の左後方にいる
+任務とはなんの関係もない男が
+怪しげな動きをしている。
+<PAUSE>
+//　※立ち絵（痴漢）
+//　　ギャング立ち絵
+//　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　さっきから深月の様子を伺っていたが、
+深月に手を伸ばしてきていた。
+<PAUSE>
+<NAME_PLATE>
+　お尻に触ろうというのだ。
+<PAUSE>
+<NAME_PLATE>
+　そういう気配を“風”で感じた。
+<PAUSE>
+<NAME_PLATE>深月
+（また出ましたね）
+<PAUSE>
+<NAME_PLATE>
+　痴漢だ。
+それももう三人目だ。
+<PAUSE>
+<NAME_PLATE>深月
+（なんでこう後から後から）
+<PAUSE>
+<NAME_PLATE>
+　痴漢は絶対に許せない。
+<PAUSE>
+<NAME_PLATE>
+　普段なら二度と
+そんなことを考えないように、
+全力でお仕置きをする。
+<PAUSE>
+<NAME_PLATE>
+　けれど、今は尾行中。
+目立つわけにはいかない。
+<PAUSE>
+<NAME_PLATE>深月
+（しょうがないですね）
+<PAUSE>
+<NAME_PLATE>
+　もちろん、しょうがないので、
+黙って痴漢に耐える―――
+なんてことはありえない。
+<PAUSE>
+<NAME_PLATE>
+　深月は風遁の術で
+身体に伸びてくる不埒な手の気配を察し、
+それに触れられる前に、
+<PAUSE>
+<NAME_PLATE>深月
+「っ！！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　問答無用で風の一撃！
+<PAUSE>
+<NAME_PLATE>痴漢
+「うぐっ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<SE_PLAY>se023
+</GROUP>
+<NAME_PLATE>
+　痴漢はあっさり昏倒して、
+糸の切れた人形のように崩れおちた。
+<PAUSE>
+<NAME_PLATE>
+　当然、目立たないように
+呻き声などは風で消している。
+<PAUSE>
+<NAME_PLATE>深月
+（不届き者は寝ていなさい）
+<PAUSE>
+<NAME_PLATE>
+　と、そのへんに転がしておく。
+<PAUSE>
+<NAME_PLATE>
+　なにしろこの地下鉄、
+床で浮浪者が普通に寝ていたりするので、
+一人二人増えてもたいして変わらない。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m115a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>
+　奴隷商人が怪しんだ様子もない。
+<PAUSE>
+<NAME_PLATE>深月
+（よし、大丈夫）
+<PAUSE>
+<NAME_PLATE>
+　ホッとして、また監視を続ける。
+<PAUSE>
+<NAME_PLATE>
+　そうやって何人か黙らせると、
+さすがに深月に恐れをなしたのか、
+手を出してくる者はいなくなった。
+<PAUSE>
+<NAME_PLATE>深月
+（やっと静かになりましたね）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ようやく落ち着けると安心していると、
+<PAUSE>
+//　※立ち絵（痴漢被害者）
+//　　ギャング姉御立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※立ち絵（痴漢）
+//　　魔族傭兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<GROUP>
+<ACTOR>5,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>4,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>5
+</GROUP>
+<NAME_PLATE>
+　別の所に痴漢が現れていた。
+<PAUSE>
+<NAME_PLATE>
+　ついさっき乗ってきた女性が
+後ろの男にお尻を撫で回されている。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「あっ！」
+<PAUSE>
+<NAME_PLATE>
+　余りに露骨な触り方に
+深月は思わず声を出してしまった。
+<PAUSE>
+<NAME_PLATE>
+　奴隷商人とそのボディーガードが
+こちらを気にするのが見えた。
+<PAUSE>
+<NAME_PLATE>深月
+（いけない）
+<PAUSE>
+<NAME_PLATE>
+　ハッとして連中から顔を背けるが、
+そうしている間も痴漢は続いている。
+<PAUSE>
+<NAME_PLATE>
+　もう尾行より
+そちらが気になってしょうがない。
+<PAUSE>
+<NAME_PLATE>女性
+「うっ……ぅう……くっ」
+<PAUSE>
+//　※立ち絵（痴漢被害者）
+//　　ギャング姉御立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　彼女は深月のように抵抗することも、
+誰かに助けを求めることもできず、
+ただ耐えている。
+<PAUSE>
+<NAME_PLATE>
+　痴漢はそれで調子に乗って、
+彼女にぴったり身体を押し付け、
+ますます行為をエスカレートさせている。
+<PAUSE>
+<NAME_PLATE>深月
+（今は尾行中……尾行中……
+　目立ったら駄目……目立ったら駄目……）
+<PAUSE>
+<NAME_PLATE>
+　深月は自分に言い聞かせる。
+<PAUSE>
+<NAME_PLATE>
+　頭では分かっている。
+<PAUSE>
+<NAME_PLATE>
+　だけど―――
+<PAUSE>
+<NAME_PLATE>
+　その時、女性と目が合った。
+<PAUSE>
+<NAME_PLATE>女性
+「……っっ！」
+<PAUSE>
+<NAME_PLATE>
+　彼女は顔を背けた。
+<PAUSE>
+<NAME_PLATE>
+　見られたことを恥じるように、
+痴漢されている自分が悪いと言うかのように。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　カッと頭に血が上った。
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「やめなさいっ！！」
+<PAUSE>
+<NAME_PLATE>
+　気がつけば、大声を出していた。
+<PAUSE>
+<NAME_PLATE>
+　もう我慢できない。
+<PAUSE>
+<NAME_PLATE>
+　痴漢許すまじ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>5,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>4,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>5
+</GROUP>
+<NAME_PLATE>
+　ズンズンと近づいていき、
+深月に驚いているその頭に
+ブンッと扇を振り下ろす。
+<PAUSE>
+<NAME_PLATE>深月
+「この不埒者っ！！」
+<PAUSE>
+<SE_PLAY>se100
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ただの扇ではない。
+閉じれば棍棒に、開けば刃になる
+愛用の武器だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,RIGHT,linear,500
+<SE_PLAY>se023
+</GROUP>
+<NAME_PLATE>痴漢
+「ぐがっっ！！」
+<PAUSE>
+//　※立ち絵（痴漢）
+//　　魔族傭兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　脳天にきつい一撃を食らって、
+痴漢は床にぶっ倒れた。
+<PAUSE>
+<NAME_PLATE>深月
+「大丈夫ですか？
+　ごめんなさい。
+　すぐに助けてあげられなくて」
+<PAUSE>
+<NAME_PLATE>
+　深月は女性を気遣うが、
+<PAUSE>
+<NAME_PLATE>女性
+「なんなのあんた？
+　人の商売を邪魔しないでくれる？」
+<PAUSE>
+//　※立ち絵（痴漢被害者）
+//　　ギャング姉御立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　返ってきたのは、
+まったく予想外の言葉だった。
+<PAUSE>
+<NAME_PLATE>深月
+「え？」
+<PAUSE>
+<NAME_PLATE>女性
+「どこから来たのかしらないけど、
+　余所者が余計なことするんじゃないよ」
+<PAUSE>
+<NAME_PLATE>深月
+「ええっ！？」
+<PAUSE>
+<NAME_PLATE>
+　商売？　邪魔？？
+<PAUSE>
+<NAME_PLATE>
+　どういうこと？
+<PAUSE>
+<NAME_PLATE>
+　混乱する深月をよそに
+その女性は倒れた男の懐をまさぐり、
+財布を取り出すと、
+<PAUSE>
+<NAME_PLATE>女性
+「お代はもらってくよ」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>5,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、次の駅で降りていってしまった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「ええーーーーーっ！？」
+<PAUSE>
+<NAME_PLATE>
+　なにがなんだか分からない。
+<PAUSE>
+<NAME_PLATE>
+　実は彼女は娼婦で、
+客の要望で痴漢プレイをしていたのだった。
+<PAUSE>
+<NAME_PLATE>
+　初心な深月には
+想像もできないことだったが。
+<PAUSE>
+<NAME_PLATE>
+　だが、そんなことより―――
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<BGM_STOP>1000
+<NAME_PLATE>深月
+「あっっ！」
+<PAUSE>
+<NAME_PLATE>
+　呆然としていた深月だったが、
+また地下鉄が動き出すと、尾行中だったこと
+目立ってはいけなかったことを思い出す。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大丈夫だったか確認しようとして、
+迂闊にもターゲットの方を見てしまった。
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<ACTOR>1,ts_m115a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ボスルク
+「！？」
+<PAUSE>
+//　※立ち絵
+//　　ボスルク立ち絵
+//　　　＊決戦アリーナ_オーク奴隷商人立ち絵より流用
+<NAME_PLATE>
+　しかも、本人と目が合う。
+<PAUSE>
+<NAME_PLATE>深月
+（あ、いけない！）
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　ハッと顔を背けたがもう遅い。
+<PAUSE>
+<NAME_PLATE>
+　奴隷商人が顎をしゃくり、
+ボディーガードが彼女に近づいてきた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ボディーガード
+「おい、さっきから
+　うちの旦那を気にしてやがるな」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<NAME_PLATE>ボディーガード
+「てめえ、何者だ！？」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<NAME_PLATE>
+　何者だと聞いているが、
+話を聞くつもりなどないようだ。
+<PAUSE>
+<NAME_PLATE>
+　ボディーガードは有無を言わさず
+深月に襲いかかってきた。
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

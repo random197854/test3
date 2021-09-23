@@ -1,0 +1,1470 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：アミダハラ＿大通り＿朝】【時間：朝】
+//　※鋼鉄の魔女アンネローゼ_nc008aより流用
+<BG>nc271a,IN, 1000
+<NAME_PLATE>
+　一夜明けて。
+<PAUSE>
+<NAME_PLATE>
+　凜子は美樹に案内されて
+朝のアミダハラを歩いていた。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<GROUP>
+<ACTOR>0,on_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>美樹
+「ここはシンサイの大通り。
+　アミダハラのちょうど真ん中ですね」
+<PAUSE>
+//　　音無美樹＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　護衛の他に、観光案内などもするらしく、
+美樹が慣れた様子で説明してくれる。
+<PAUSE>
+<NAME_PLATE>凜子
+「なかなか賑わっているな」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<NAME_PLATE>
+　道路が凸凹しているのが気になるが、
+たくさんの出店が並び、人通りも多い。
+<PAUSE>
+<NAME_PLATE>
+　怪しげなヤクザ者や魔族が
+街中を普通に歩いているのは
+東京キングダムあたりと同じだが、
+<PAUSE>
+<NAME_PLATE>
+　それに観光客が混じっているため、
+あちらが悪の巣窟という印象なのに対し、
+こちらは街全体に華やいだ雰囲気がある。
+<PAUSE>
+<NAME_PLATE>美樹
+「このあたりはアミダハラでは
+　安全な方なんですよ。
+　観光客もいっぱい来ますし」
+<PAUSE>
+<NAME_PLATE>
+　美樹は自慢げに言ったが、
+<PAUSE>
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンッ！　パンパンッ！！
+<PAUSE>
+<NAME_PLATE>
+　言っているそばから
+どこからか銃声が聞こえてきて
+凜子はぎくりとする。
+<PAUSE>
+<NAME_PLATE>
+　『テメエまた男を連れ込みやがって！』
+<PAUSE>
+<NAME_PLATE>
+　『それがどうした！　この甲斐性無しが！』
+<PAUSE>
+<NAME_PLATE>
+　『ぶっ殺してやる！』
+<PAUSE>
+<NAME_PLATE>
+　『やれるもんならやってみな！』
+<PAUSE>
+<NAME_PLATE>
+　男と女が罵り合う声がして、
+パンパンと互いに撃ち合う音が続く。
+<PAUSE>
+<NAME_PLATE>美樹
+「痴話喧嘩かな。
+　朝から元気だなー」
+<PAUSE>
+<NAME_PLATE>
+　美樹は平然としていた。
+<PAUSE>
+<NAME_PLATE>
+　いつもの日常という顔だ。
+<PAUSE>
+<NAME_PLATE>
+　実際、アミダハラの住人は
+誰一人、気にしていない。
+<PAUSE>
+<NAME_PLATE>
+　驚いているのは、
+凜子も含め、外から来た人間だけだ。
+<PAUSE>
+<NAME_PLATE>凜子
+「これもアミダハラ名物か」
+<PAUSE>
+<ACTOR>0,on_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「そうですね♪」
+<PAUSE>
+<NAME_PLATE>
+　凜子が呆れもし、
+感心もしながら歩いていると、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　　魔族傭兵(男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　　オーク傭兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※三人並べてください。
+<GROUP>
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m022a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　ギャング、魔族傭兵、そしてオークと、
+見るからに怪しげな三人が近づいてきた。
+<PAUSE>
+<NAME_PLATE>ギャング
+「よう美樹。
+　昨夜は大活躍だったそうじゃねえか。
+　武装難民どもを無傷で蹴散らしたって？」
+<PAUSE>
+<NAME_PLATE>美樹
+「まあねー。でも私の手柄じゃなくて、
+　この人のおかげなんだ。
+　忍法を使う剣士さんなんだよ」
+<PAUSE>
+<NAME_PLATE>
+　どうやら知り合いのようだ。
+<PAUSE>
+<NAME_PLATE>
+　三人組は「ほう」という顔になった。
+<PAUSE>
+<ACTOR_FRONT>2
+<NAME_PLATE>魔族傭兵
+「そいつはすげえ。
+　それにえらい美人だな」
+<PAUSE>
+<ACTOR_FRONT>0
+<NAME_PLATE>ギャング
+「そんな格好してるくせに
+　どうも色気がねえ美樹とは大違いだ」
+<PAUSE>
+<NAME_PLATE>美樹
+「あー、ひどい。
+　こんな健康優良戦闘美少女にむかって」
+<PAUSE>
+<ACTOR_FRONT>2
+<NAME_PLATE>魔族傭兵
+「そう自分で言っちまうあたりがな」
+<PAUSE>
+<ACTOR_FRONT>0
+<NAME_PLATE>ギャング
+「まったくだ」
+<PAUSE>
+<NAME_PLATE>美樹
+「ぶぶーー」
+<PAUSE>
+<ACTOR_FRONT>1
+<NAME_PLATE>オーク
+「よう綺麗なねえちゃん、
+　俺たちゃ仕事あがりでよ。
+　これから一緒に飲まねえか？」
+<PAUSE>
+<NAME_PLATE>
+　気さくに誘ってきたのはオークだ。
+<PAUSE>
+<NAME_PLATE>
+　さすがに初めての経験で凜子も戸惑う。
+<PAUSE>
+<NAME_PLATE>凜子
+「いや、私は……」
+<PAUSE>
+<NAME_PLATE>美樹
+「ダメダメ。
+　これからアンネローゼさんとこ
+　連れてくんだから」
+<PAUSE>
+<NAME_PLATE>オーク
+「なんでえ、アンネローゼの客かよ。
+　凄腕のはずだぜ」
+<PAUSE>
+<ACTOR_FRONT>0
+<NAME_PLATE>ギャング
+「そりゃやべえな。
+　尻でも触ったら、
+　即、真っ二つにされそうだ」
+<PAUSE>
+<NAME_PLATE>美樹
+「もうバッサリだよ。バッサリ。
+　みじん切りでちょちょいのちょいだよ」
+<PAUSE>
+<NAME_PLATE>
+　美樹が勝手に請け負っている。
+<PAUSE>
+<NAME_PLATE>凜子
+「いや、そこまでは……」
+<PAUSE>
+<ACTOR_FRONT>2
+<NAME_PLATE>魔族傭兵
+「ちっ、しょうがねえな。
+　俺たちゃ桃源郷にいるからよ。
+　後で顔出せよな」
+<PAUSE>
+<ACTOR_FRONT>0
+<NAME_PLATE>ギャング
+「じゃあな！」
+<PAUSE>
+<ACTOR_FRONT>1
+<NAME_PLATE>オーク
+「綺麗なねえちゃんも待ってるぜ！」
+<PAUSE>
+<NAME_PLATE>美樹
+「行けたらねー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　何ごともなく去っていく男たちに
+美樹は手を振っていた。
+<PAUSE>
+<NAME_PLATE>
+　あんな荒くれ男たちと
+完全に馴染んでいる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,on_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>凜子
+「この街は長いのか？」
+<PAUSE>
+<NAME_PLATE>美樹
+「そんなでもないです。
+　行方不明のお兄ちゃんを探しに、
+　一年くらい前からです」
+<PAUSE>
+<NAME_PLATE>凜子
+「行方不明、それは大変だな。
+　見つかったのか？」
+<PAUSE>
+<NAME_PLATE>美樹
+「まだです。
+　でも気長に探してます」
+<PAUSE>
+<NAME_PLATE>美樹
+「頼りになる探偵さんもいますし。
+　アンネローゼさんっていうんですけど」
+<PAUSE>
+<NAME_PLATE>凜子
+「アンネローゼ……。
+　ひょっとしてアンネローゼ・ヴァジュラか？
+　魔女剣客の？」
+<PAUSE>
+<NAME_PLATE>美樹
+「ご存じでしたか。そうです。
+　やっぱりアンネローゼさん有名なんだな」
+<PAUSE>
+<NAME_PLATE>凜子
+「噂は聞いたことがある」
+<PAUSE>
+<NAME_PLATE>
+　伝説の魔刀・金剛夜叉を
+佩びた凄腕の魔女剣客。
+<PAUSE>
+<NAME_PLATE>
+　アンネローゼ・ヴァジュラ。
+<PAUSE>
+<NAME_PLATE>
+　またの名を“鋼鉄の魔女”
+<PAUSE>
+<NAME_PLATE>凜子
+「一度、会ってみたいとは思っていた」
+<PAUSE>
+<NAME_PLATE>美樹
+「よかった。
+　きっと剣豪さん同士、気が合いますよ」
+<PAUSE>
+//【背景：アミダハラ＿アンネローゼの家全景＿朝】【時間：朝】
+//　※鋼鉄の魔女アンネローゼ_nc005aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc272a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そのアンネローゼの館は
+大通りから外れた静かな区画にあった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,on_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>美樹
+「ここですここです」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>凜子
+「洒落た建物だな」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<NAME_PLATE>
+　古いレンガ作りの
+大正風味を思わせる二階建てだ。
+<PAUSE>
+<NAME_PLATE>
+　ニューヨークのアパートのように
+通りから登る階段があり、
+二階が入り口になっている。
+<PAUSE>
+<NAME_PLATE>
+　門には『アンネローゼ探偵社』と
+書かれた看板があった。
+<PAUSE>
+<NAME_PLATE>美樹
+「このへんは高級住宅街です。
+　私も住んでみたいんですけど、
+　家賃とか高くて」
+<PAUSE>
+<ACTOR>0,on_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「今、アンネローゼさん呼びますから、
+　ちょっと待ってくださいね」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　美樹はパタパタと階段を登って、
+呼び鈴を押そうとしたが、
+そこで素っ頓狂な声をあげた。
+<PAUSE>
+<NAME_PLATE>美樹
+「うそお。
+　アンネローゼさん留守だ！」
+<PAUSE>
+<NAME_PLATE>凜子
+「いないのか？」
+<PAUSE>
+<NAME_PLATE>美樹
+「そうみたいです。
+　書き置きが残ってます」
+<PAUSE>
+<NAME_PLATE>美樹
+「急な依頼があってとかなんとか。
+　うわ、連絡先も書いてない。
+　きっと秘密の依頼だ」
+<PAUSE>
+<NAME_PLATE>
+　美樹はがっくりと肩を落とし、
+階段を降りてきた。
+<PAUSE>
+<ACTOR>0,on_t001h,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>美樹
+「凜子さん、ごめんなさい。
+　アンネローゼさん、朝苦手だから、
+　絶対いると思ったんですけど」
+<PAUSE>
+<NAME_PLATE>凜子
+「いや、美樹は悪くない。
+　なら、どうするかな。
+　とりあえず宿でも決めるか」
+<PAUSE>
+<ACTOR>0,on_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「あっ、待ってください。じゃあ、
+　ノイお婆ちゃんのとこに案内します。
+　アミダハラで一番のお土産屋さんなんです」
+<PAUSE>
+//【背景：アミダハラ＿魔法堂前＿朝】【時間：朝】
+//　※鋼鉄の魔女アンネローゼ_nc010aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc273a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　それから２０分ほど歩くと、
+その土産屋にたどり着いた。
+<PAUSE>
+<NAME_PLATE>
+　さきほどのハイソなエリアと違って、
+下町のような雑然とした雰囲気がある。
+<PAUSE>
+<ACTOR>0,chr_t0141a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「魔法堂……」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<NAME_PLATE>
+　それが店の名前のようだ。
+<PAUSE>
+<ACTOR>0,chr_t0141a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,on_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>美樹
+「ノイお婆ちゃん、魔女ですから」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　美樹はあっさりと言って、扉を開けた。
+<PAUSE>
+//【背景：アミダハラ＿魔法堂店内＿朝】【時間：朝】
+//　※鋼鉄の魔女アンネローゼ_nc011aより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se052
+<BG>nc274a,IN, 1000
+<GROUP>
+<ACTOR>0,on_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>美樹
+「おっじゃましまーす！」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>凜子
+「御免」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　小さな店は雑多な品物で溢れていた。
+<PAUSE>
+<NAME_PLATE>
+　クッキー、まんじゅう、キーホルダー、
+ストラップ、置物、タペストリーといった
+どこの観光地にもある土産物。
+<PAUSE>
+<NAME_PLATE>
+　恋を叶えるお守り、健康になる護符、
+盗難よけの腕輪、幸運の呪符といった
+恐らくは本当に効果がある魔術グッズ。
+<PAUSE>
+<NAME_PLATE>
+　ハーブ、薬草、スパイスの入った瓶。
+干したコウモリやトカゲなどの乾物も
+棚にずらりと並んでいる。
+<PAUSE>
+<NAME_PLATE>
+　悪党もいれば、観光客もいる。
+そんなアミダハラを象徴したような
+カオスな品揃えだ。
+<PAUSE>
+<ACTOR>0,n_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ノイ
+「二人ともようやく来たね」
+<PAUSE>
+//　※立ち絵
+//　　ノイ＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　奥にいた老婆、
+店主のノイが声をかけてきた。
+<PAUSE>
+<NAME_PLATE>
+　機械の足がついている座椅子に
+ちょこんと座っている。
+<PAUSE>
+<NAME_PLATE>
+　二人を待っていたような顔だ。
+<PAUSE>
+<NAME_PLATE>美樹
+「あれ？
+　私、ノイお婆ちゃんのとこに来るって
+　約束とかしてた？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「してないさ。けど、あんたたちが来るのは
+　とっくの昔に分かってたよ。
+　ワシの占いでね」
+<PAUSE>
+<NAME_PLATE>
+　首をかしげる美樹に、
+ノイは自慢げに言った。
+<PAUSE>
+<NAME_PLATE>美樹
+「そうなんだ。さすが！」
+<PAUSE>
+<NAME_PLATE>凜子
+「占い？」
+<PAUSE>
+<NAME_PLATE>美樹
+「ノイお婆ちゃんはアミダハラで
+　一番の魔術師なんですよ」
+<PAUSE>
+<NAME_PLATE>ノイ
+「なあに。
+　ただ長いこと生きてるってだけさ」
+<PAUSE>
+<NAME_PLATE>
+　ノイは柔和に微笑んだが、
+凜子を見て、少し残念そうに言った。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,n_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ノイ
+「それにしても、やっぱり来ちまったかい。
+　占いが当たっても嬉しくないねえ」
+<PAUSE>
+<ACTOR>0,n_t001b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「ノイ殿と仰られたか。
+　その占いとは一体？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,n_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ノイ
+「そう慌てるんじゃないよ。
+　まあこれでも飲んで落ち着くんだね」
+<PAUSE>
+<NAME_PLATE>
+　老婆が軽く手を動かすと、
+湯気を立てるティーカップが三つ
+奥の方からフワフワと近づいてきた。
+<PAUSE>
+<NAME_PLATE>
+　ごく普通に使われる魔法に驚きつつ、
+凜子はカップを手に取る。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,on_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>美樹
+「これひょっとして
+　ノイお婆ちゃん特性の魔法茶？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「ただのカモミールティーだよ」
+<PAUSE>
+<NAME_PLATE>美樹
+「あ、ほんとだ。普通の味」
+<PAUSE>
+<NAME_PLATE>ノイ
+「お茶なんて普通で十分だよ。
+　遠慮しないで嬢ちゃんも飲みな」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「頂戴します」
+<PAUSE>
+<NAME_PLATE>
+　礼を言って、凜子も口を付ける。
+<PAUSE>
+<NAME_PLATE>
+　確かにごく普通の味だが、
+その甘い香りは凜子の逸る気持ちを
+少しだけ落ち着かせてくれた。
+<PAUSE>
+<NAME_PLATE>
+　凜子はカップをテーブルに置き、
+改めてノイに挨拶した。
+<PAUSE>
+<NAME_PLATE>凜子
+「秋山凜子と申します。
+　五車の対魔忍です。
+　故あってアミダハラにやってきました」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>美樹
+「ぶふうっ！
+　対魔忍！　あの対魔忍！？」
+<PAUSE>
+<NAME_PLATE>
+　美樹は口に含んでいたお茶を噴き出し、
+驚きに目を見張る。
+<PAUSE>
+<NAME_PLATE>ノイ
+「なにやってんだい。
+　相変わらず落ち着きがないねえ」
+<PAUSE>
+<ACTOR>1,on_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>美樹
+「だって対魔忍だよ、対魔忍！
+　ちょっと前、アミダハラ監獄に忍び込んで、
+　大暴れしたって。凜子さん、本当？」
+<PAUSE>
+<NAME_PLATE>凜子
+「うむ……本当だ」
+<PAUSE>
+<NAME_PLATE>
+　その忍び込んで大暴れした当人は頷いた。
+<PAUSE>
+<ACTOR>1,on_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>美樹
+「すごい。本物の対魔忍！
+　私、初めて見ました！！」
+<PAUSE>
+<NAME_PLATE>ノイ
+「それもただの対魔忍じゃないよ」
+<PAUSE>
+<NAME_PLATE>ノイ
+「凄腕も凄腕。
+　斬鬼の異名を持つ逸刀流の達人だよ。
+　それで間違いないかい？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「未だ修行中の身ではありますが」
+<PAUSE>
+<NAME_PLATE>
+　初めて会ったばかりのノイに
+自分のことをスラスラと言われる。
+<PAUSE>
+<NAME_PLATE>
+　凜子が来るのを予期していたことといい、
+アミダハラで一番の魔術師というのは
+本当のようだ。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,on_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>美樹
+「ノイお婆ちゃん、
+　そんなことまで占いで分かるの？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「ほっほっほ。
+　ワシの占いは天地万物の全てを
+　見渡せるのさ」
+<PAUSE>
+<ACTOR>1,on_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>美樹
+「さすが！」
+<PAUSE>
+<NAME_PLATE>ノイ
+「なんてね。
+　そんななんでもかんでも
+　分かりゃしないよ」
+<PAUSE>
+<NAME_PLATE>ノイ
+「その嬢ちゃんを狙ってる男が
+　前にうちに来たんだよ。
+　それでちょっと調べたのさ」
+<PAUSE>
+<NAME_PLATE>
+　さらりと告げられた言葉に
+凜子は思わず腰を浮かせる。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「もしや村雲源之助が！？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「そう名乗ってたね。
+　嬢ちゃんと同じ、逸刀流の剣客だ」
+<PAUSE>
+<NAME_PLATE>凜子
+「……あの男が」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,on_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>美樹
+「ノイお婆ちゃん、どういうこと？
+　凜子さんを狙ってるって？？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「そう慌てなさんな。
+　それを教えてやるために、
+　あんたたちを待ってたんだからね」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,n_t001a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　魔女は柔らかな口調で二人を落ち着かせ、
+自分もお茶を一口飲んでから話し始めた。
+<PAUSE>
+<ACTOR>0,n_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ノイ
+「一月ほど前だったかねえ。
+　あの男がうちにやってきたのは」
+<PAUSE>
+<NAME_PLATE>ノイ
+「長いこと店をやってるけど、
+　鬼の面をつけた客なんて始めてさ。
+　そりゃ驚いたよ」
+<PAUSE>
+<NAME_PLATE>美樹
+「鬼の面って？」
+<PAUSE>
+<NAME_PLATE>凜子
+「奴はいつも鬼の面を被っている。
+　自分の顔を見られたくないからだろうが」
+<PAUSE>
+<NAME_PLATE>
+　その鬼面の下が腐りかけていたことを
+凜子は思い出した。
+<PAUSE>
+<NAME_PLATE>ノイ
+「あれは能でいう
+　顰（しかみ）の面だね」
+<PAUSE>
+<NAME_PLATE>凜子
+「しかみ？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「顔を顰めるの“しかみ”だよ。
+　危害を加える悪しき鬼の役に使うのさ」
+<PAUSE>
+<NAME_PLATE>凜子
+「危害を加える悪しき鬼……」
+<PAUSE>
+<NAME_PLATE>ノイ
+「そんなもんを自分から被ってるんだ。
+　そりゃ業の深さは筋金入りだろうよ。
+　そういう男は嫌いじゃないけどね」
+<PAUSE>
+<NAME_PLATE>ノイ
+「で、どこで聞いたんだか、
+　ワシに魔法をかけて欲しいと
+　言ってきてね」
+<PAUSE>
+<NAME_PLATE>ノイ
+「我が身を魔性に変えてくれとさ。
+　人の限界を超えて強くなりたいんだと」
+<PAUSE>
+<NAME_PLATE>美樹
+「え？　ノイお婆ちゃん、
+　そんなことできるの？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「できるかできないかって言ったら、
+　そりゃできるよ。
+　長いこと魔女をやってればね」
+<PAUSE>
+<NAME_PLATE>美樹
+「それでやったの？
+　あいた！」
+<PAUSE>
+<NAME_PLATE>
+　勢い込んで聞いた美樹の顔を
+ノイがペチンとはたく。
+<PAUSE>
+<ACTOR>0,n_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ノイ
+「やるわけないだろ。
+　ワシを誰だと思ってるのさ」
+<PAUSE>
+<NAME_PLATE>美樹
+「だ、だよね……ごめん」
+<PAUSE>
+<ACTOR>0,n_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ノイ
+「あの男にも言ったんだけどね。
+　そんなことして強くなったって
+　後がないってさ」
+<PAUSE>
+<NAME_PLATE>ノイ
+「聞く耳持たないって感じだったね。
+　そんときは分からなかったけど、
+　よっぽと嬢ちゃんと戦いたいんだろうねえ」
+<PAUSE>
+<NAME_PLATE>
+　ノイは残念そうに首を振った。
+<PAUSE>
+<NAME_PLATE>凜子
+「ノイ殿、して源之助は今どこに？」
+<PAUSE>
+<NAME_PLATE>美樹
+「そうそう、
+　今どこだか分かんないの？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「ワシでダメだったんだ。
+　バルド・バルドのとこだろうねえ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,on_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>美樹
+「バルド・バルド！！」
+<PAUSE>
+<NAME_PLATE>
+　溜息を吐くようなノイの言葉に
+美樹が仰天する。
+<PAUSE>
+<ACTOR>0,on_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「何者だ？　魔術師か？」
+<PAUSE>
+<ACTOR>0,on_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「アミダハラで二番目の魔術師です。
+　ノイお婆ちゃんと違って
+　すっごい悪い魔術師なんです！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,n_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ノイ
+「ワシだって別に良い魔術師を
+　やってるつもりはないけどね。
+　あの男はちょっと節操がないねえ」
+<PAUSE>
+<NAME_PLATE>美樹
+「町外れに自分の塔を建てて
+　そこで魔術の人体実験を
+　やりまくりって噂です」
+<PAUSE>
+<NAME_PLATE>ノイ
+「ま、実際いろいろ
+　やってるんだろうね。
+　若いうちはありがちなことさ」
+<PAUSE>
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　バルド・バルド。
+<PAUSE>
+<NAME_PLATE>
+　独立遊撃隊が残した報告書に
+その名があったことを思い出す。
+<PAUSE>
+<NAME_PLATE>
+　強力なガーディアンを操る魔術師で、
+魔術研究のためなら人を人とも思わぬ
+男らしいとも。
+<PAUSE>
+<ACTOR>0,n_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ノイ
+「あの男はバルドの魔術で、
+　人として許されないところまで
+　踏み込むつもりなんだろうね」
+<PAUSE>
+<NAME_PLATE>ノイ
+「あんなお面じゃなく、
+　本物の鬼になりたいのさ」
+<PAUSE>
+<NAME_PLATE>ノイ
+「嬢ちゃんに勝つために人間をやめてね。
+　馬鹿な話だよ」
+<PAUSE>
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,on_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>美樹
+「その村雲源之助と戦うために
+　凜子さんはアミダハラに？」
+<PAUSE>
+<NAME_PLATE>凜子
+「逸刀流は魔を討つための対魔忍の剣だ。
+　あの男が鬼になるというのなら、
+　私は対魔忍としてあの男を斬るのみだ」
+<PAUSE>
+<NAME_PLATE>
+　凜子は静かに決意を固め、
+源之助の佩刀であった落椿村正を
+強く握りしめた。
+<PAUSE>
+//【背景：魔術師の部屋＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO＿NC059aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc186a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その頃。
+<PAUSE>
+<NAME_PLATE>
+　町外れのバルド・バルドの館。
+<PAUSE>
+<NAME_PLATE>
+　そこに村雲源之助、
+そして陽炎の姿があった。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,ts_m163a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m113a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>バルド・バルド
+「なるほど。
+　君の望みはよく分かった。
+　今の君の状態もね」
+<PAUSE>
+//　※立ち絵
+//　　バルド通常立ち絵＿魔術師衣装
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>源之助
+「魔術師バルド・バルド。
+　この身を魔性に変えることができるのか。
+　やってくれるのか。返答はいかに？」
+<PAUSE>
+//　※立ち絵
+//　　村雲源之助＿立ち絵
+//　　　　＊モンスターイラストから
+<ACTOR>1,ts_m113c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「できるかできないかで言えば
+　共にイエスだよ。源之助君」
+<PAUSE>
+<NAME_PLATE>源之助
+「おお！」
+<PAUSE>
+<NAME_PLATE>陽炎
+「……！」
+<PAUSE>
+//　※立ち絵
+//　　陽炎＿立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト（新規）より流用
+<NAME_PLATE>源之助
+「ならばやってくれ。
+　金ならありったけ払う。
+　もはや俺には必要ない」
+<PAUSE>
+<ACTOR>1,ts_m113d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「まあ、待ちたまえ。
+　私も魔術の資金には困っていない。
+　素材集めには苦慮しているがね」
+<PAUSE>
+<NAME_PLATE>源之助
+「素材？」
+<PAUSE>
+<ACTOR>1,ts_m113c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「私が魔術をかけるに見合う素材、
+　つまり生きた人間だよ」
+<PAUSE>
+<NAME_PLATE>源之助
+「む……」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「君が求める類いの魔術をかけることは
+　私にとってはたやすい。
+　君は今以上の痛みを味わうだろうがね」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「その痛みに耐えることができれば、
+　人間を越えることができる。
+　魔術師としてそれは保証する」
+<PAUSE>
+<ACTOR>1,ts_m113d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「だが、剣士としての君と同じく、
+　私にも魔術師として悲願がある」
+<PAUSE>
+<ACTOR>1,ts_m113c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「そのための実験であれば協力する。
+　私がかけた魔術によって君がどうなるか
+　それ自体に興味があるのでね」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「君が耐えきれずに死んだときは
+　死体をとことん調べさせてもらう。
+　その際は人の尊厳など一切考慮しない」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「それでもよければ
+　君との契約に同意しよう」
+<PAUSE>
+<NAME_PLATE>源之助
+「望むところだ」
+<PAUSE>
+//　※立ち絵
+//　　村雲源之助＿立ち絵
+//　　　　＊モンスターイラストから
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m163a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　源之助は迷わず答えた。
+<PAUSE>
+<NAME_PLATE>源之助
+「逸刀流の剣士として
+　秋山凜子を倒すことが俺の望み。
+　後は煮るなり焼くなり好きにしろ」
+<PAUSE>
+<ACTOR>0,ts_m163a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0223a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>陽炎
+「源之助殿！
+　お考え直しください！」
+<PAUSE>
+<NAME_PLATE>源之助
+「もう言うな、陽炎。
+　俺が真の剣鬼となる様を
+　そこで見ていろ」
+<PAUSE>
+<NAME_PLATE>陽炎
+「源之助殿……」
+<PAUSE>
+<NAME_PLATE>源之助
+「これまでよく俺に
+　ついてきてくれた。
+　礼を言う」
+<PAUSE>
+<NAME_PLATE>
+　それは陽炎の欲しかった言葉では
+なかったろう。
+<PAUSE>
+<NAME_PLATE>
+　しかし、彼女は涙を堪えつつ頷いた。
+<PAUSE>
+<NAME_PLATE>陽炎
+「……はい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m113c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バルド・バルド
+「契約成立だね。では」
+<PAUSE>
+<NAME_PLATE>
+　二人のやりとりを
+退屈そうに見ていたバルドが指を鳴らすと、
+青白い肌をした女が現れた。
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「私が古代魔術で生み出した不死者。
+　ガーディアンだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m155a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ガーディアン
+「お呼びで御座いますか？」
+<PAUSE>
+//　※立ち絵
+//　　不死者立ち絵
+//　　　　＊決戦アリーナの魔女イラストを流用
+<NAME_PLATE>バルド・バルド
+「お前の心臓が必要になった。
+　すぐに出してくれるかね」
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「承知致しました」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　常軌を逸した主の命令に
+不死者の女は迷うことなく左胸に手を突き刺し
+自ら心臓を取り出していく。
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「あっ……あぁぁ……」
+<PAUSE>
+<NAME_PLATE>
+　生者にあらざるその瞳に
+妖しげな恍惚が浮かぶ。
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「我が……主よ……これを……」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「すまないね」
+<PAUSE>
+<NAME_PLATE>ガーディアン
+「……かはっ」
+<PAUSE>
+<NAME_PLATE>
+　バルドが心臓を受け取った瞬間、
+ガーディアンは法悦にも似た吐息を漏らし、
+グズグズに崩れていった。
+<PAUSE>
+<NAME_PLATE>
+　びくっ、びくっ、びくっ。
+<PAUSE>
+<NAME_PLATE>
+　残ったどす黒い心臓が
+バルドの掌で不気味に蠢いている。
+<PAUSE>
+<BG>nc186a,IN, 500
+<ACTOR>0,ts_m163a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>源之助
+「それをどうする？」
+<PAUSE>
+<NAME_PLATE>
+　さすがに慄然とする源之助に、
+<PAUSE>
+<ACTOR>0,ts_m163a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m113a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>バルド・バルド
+「今からこれを君の胸に埋め込む」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「不死者のための心臓をまだ生きている人間、
+　それも強靱な意志を持つ対魔忍に使ったら
+　どうなるか、それを調べたくてね」
+<PAUSE>
+<NAME_PLATE>源之助
+「俺の意志は保たれるのだろうな？」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「それも含めての実験だよ。
+　君はまだ死んでいないのだから
+　君の意思次第といったところだろうね」
+<PAUSE>
+<ACTOR>1,ts_m113h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「運悪く意志をなくしてしまったら、
+　私の人形として使わせてもらうよ」
+<PAUSE>
+<NAME_PLATE>陽炎
+「おのれっ！　魔術師！
+　そんなことは私がさせない！」
+<PAUSE>
+<NAME_PLATE>源之助
+「よせ、陽炎。
+　俺も死霊傀儡の使い手だ。
+　人形となって果てるも一興よ」
+<PAUSE>
+<NAME_PLATE>陽炎
+「源之助殿……」
+<PAUSE>
+<ACTOR>1,ts_m113c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「では、実験開始だ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　バルドが心臓を源之助の胸にあてがった瞬間
+まるでそれ自体が意思を持っているかのように
+心臓は彼の胸にギリギリと食い込み始めた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>源之助
+「グアアアアアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　凄まじい声が響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　源之助のこれまで生涯で
+一度たりとも上げたことがないであろう
+魂からの絶叫だった。
+<PAUSE>
+<NAME_PLATE>
+　不死者の心臓によって、
+生きたまま人間以外のものに
+変えられているのだ。
+<PAUSE>
+<NAME_PLATE>源之助
+「グギギギギギギイイイイイイイイッ！！」
+<PAUSE>
+<NAME_PLATE>
+　源之助は激しくのたうち回った。
+<PAUSE>
+<ACTOR>0,chr_t0223a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>陽炎
+「源之助殿……源之助殿……」
+<PAUSE>
+<NAME_PLATE>
+　もがき苦しむ源之助の傍らで
+陽炎は必死に祈っていた。
+<PAUSE>
+<NAME_PLATE>
+　祈ることで、
+源之助の苦痛を少しでも減らそうと
+するかのように。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>源之助
+「グググググググッッッッッ！！
+　し、死なぬ！！
+　こんなことで俺は死なぬっっ！！」
+<PAUSE>
+<ACTOR>0,ts_m113i,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バルド・バルド
+「これはすごい！！
+　すさまじい意思の力だ！！
+　二つの心臓が一つになっていく！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>源之助
+「ぐあぁあああああああああああっっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0223a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>陽炎
+「源之助殿っ……
+　どうか……どうか……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　生か死か、それ以外か。
+<PAUSE>
+<NAME_PLATE>
+　禁忌の実験がいかなる結果をもたらすのか。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　それは誰にも分からなかった。
+<PAUSE>
+//【背景：アミダハラ＿魔法堂店内＿朝】【時間：朝】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc274a,IN, 1000
+<ACTOR>0,n_t001c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ノイ
+「…………！」
+<PAUSE>
+//　※立ち絵
+//　　ノイ＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　ノイの眉がピクリと動いた。
+<PAUSE>
+<ACTOR>0,n_t001c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「ノイ殿？　いかがなされたか？」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<ACTOR>0,n_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ノイ
+「いやね。
+　やっぱりこうなったかってね」
+<PAUSE>
+<NAME_PLATE>凜子
+「……？」
+<PAUSE>
+<NAME_PLATE>ノイ
+「まあいいさ。
+　それよりその刀、対魔忍の嬢ちゃんに
+　あってないねえ」
+<PAUSE>
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+<NAME_PLATE>美樹
+「そうなの？
+　すごく斬れそうだけど？」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>ノイ
+「斬れすぎるんだよ。
+　そりゃ間違いなく妖刀だね。
+　そんなのを好き好んで使ってるのかい？」
+<PAUSE>
+<NAME_PLATE>凜子
+「この落椿村正は
+　元は村雲源之助の物です」
+<PAUSE>
+<NAME_PLATE>凜子
+「私の石切兼光は今、彼奴の手元に。
+　望んでこうなったわけではないですが」
+<PAUSE>
+<NAME_PLATE>ノイ
+「絡み合った縁ってやつだね。
+　けど、それは嬢ちゃんに
+　災いをもたらすかもしれないよ」
+<PAUSE>
+<NAME_PLATE>ノイ
+「よかったら代わりを貸そうか？
+　店の奥を探せば嬢ちゃんに見合う名刀の
+　一つや二つはあるだろうさ」
+<PAUSE>
+<NAME_PLATE>凜子
+「お気遣い感謝します。
+　しかし、互いに佩刀を代えることと
+　なったのも何かの運命と存じます」
+<PAUSE>
+<NAME_PLATE>凜子
+「最後にこの落椿村正を研いだ
+　今は亡き御仁の想いもあります。
+　決戦の地へはこの刀で」
+<PAUSE>
+<NAME_PLATE>
+　落椿村正の行く末を案じていた
+研ぎ師の老人の言葉を思い出し、
+凜子はカチリと金打を鳴らした。
+<PAUSE>
+<NAME_PLATE>ノイ
+「そう言うと思ったよ。
+　剣士の性ってやつかねえ」
+<PAUSE>
+<NAME_PLATE>
+　ノイは諦めたように首を振った。
+<PAUSE>
+<NAME_PLATE>
+　そして、つと店先を見やる。
+<PAUSE>
+<NAME_PLATE>ノイ
+「やれやれ。
+　客人が来たようだよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「……！！」
+<PAUSE>
+<NAME_PLATE>美樹
+「お客さん？
+　うわーーーっ！！　変なのがいる！！」
+<PAUSE>
+//【背景：アミダハラ＿魔法堂前＿朝】【時間：朝】
+//　※鋼鉄の魔女アンネローゼ_nc010aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>nc273a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+//　※立ち絵
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　ガーゴイル
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　店先に魔物が集まっていた。
+<PAUSE>
+<NAME_PLATE>
+　鬼火にガーゴイルだ。
+<PAUSE>
+//【背景：アミダハラ＿魔法堂店内＿朝】【時間：朝】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>nc274a,IN, 1000
+<ACTOR>0,n_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ノイ
+「ありゃバルドの使い魔だね。
+　嬢ちゃんがここにいるのを知って
+　送ってきたのさ」
+<PAUSE>
+//　※立ち絵
+//　　ノイ＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>ノイ
+「さすがにワシの店に押し入るような
+　馬鹿はしてこないね」
+<PAUSE>
+<NAME_PLATE>ノイ
+「けど、店先にあんなのに居座られちゃ、
+　商売あがったりだよ」
+<PAUSE>
+<ACTOR>0,n_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>凜子
+「ご迷惑をおかけします」
+<PAUSE>
+<NAME_PLATE>凜子
+「源之助が私との対決を望んでいる以上、
+　奴らは私の様子を探るための斥候でしょう。
+　ならば蹴散らすまでです」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,on_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>美樹
+「凜子さん、昨日のお返しです。
+　私も一緒に戦います」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹戦闘＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　美樹がすかさずマシンガンを手にしたが、
+<PAUSE>
+<NAME_PLATE>凜子
+「助太刀無用！」
+<PAUSE>
+//　　秋山凜子立ち絵
+//　　　＊対魔忍RPG01のカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se085
+<NAME_PLATE>
+　凜子はバサッと服を脱いだ。
+<PAUSE>
+<ACTOR>0,rn_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　現れたのは対魔忍スーツの秋山凜子だ。
+<PAUSE>
+<NAME_PLATE>
+　その凜々しい姿に、
+ノイと美樹が歓声をあげる。
+<PAUSE>
+<NAME_PLATE>美樹
+「うわあ♪」
+<PAUSE>
+<NAME_PLATE>ノイ
+「格好いいねえ！」
+<PAUSE>
+<ACTOR>0,rn_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「秋山凜子、参る！！」
+<PAUSE>
+<NAME_PLATE>
+　ついに自らの意志で妖刀・落椿村正を抜き
+凜子は店先に飛び出した。
+<PAUSE>
+//→S302a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

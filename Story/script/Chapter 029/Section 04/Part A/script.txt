@@ -1,0 +1,387 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：避暑地＿砂浜＿昼】【時間：昼】
+//　※姫神さま以下略_nc012aより流用
+<BGM_PLAY>bgm401,1000
+<BG>chrnc0242a,IN, 1000
+<NAME_PLATE>
+　二週間後。
+<PAUSE>
+<ACTOR>0,chr_t0278a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「ふぁ。くだらねえ……」
+<PAUSE>
+//　※立ち絵
+//　　若い天音
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　退屈だった。
+<PAUSE>
+<NAME_PLATE>
+　砂浜に座って大あくびをしている天音。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その視線の先にいるのは、
+波打ち際で戯れる幼子――
+ふうまの嫡男・小太郎と、
+<PAUSE>
+<NAME_PLATE>
+　その遊び相手をしている
+“みつ”という名のくノ一。
+<PAUSE>
+<NAME_PLATE>小太郎
+「えーと、みつ？
+　およぐときの足はこうでいいの？」
+<PAUSE>
+<ACTOR>0,ts_m004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>みつ
+「はい若様♪　お上手ですよ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)
+//　　　＊モンスターイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ここはふうまの里から
+少し離れた避暑地の砂浜だ。
+<PAUSE>
+<NAME_PLATE>
+　この近辺もふうまの勢力圏であり、
+弾正は毎年この時期、土地の有力者と
+会合を行っている。
+<PAUSE>
+<NAME_PLATE>
+　そして、そのついでとばかりに、
+小太郎とその守役の時子や天音も
+この避暑地にやってきて、
+<PAUSE>
+<NAME_PLATE>
+　短い夏の休暇を楽しんでいるのだった。
+<PAUSE>
+<ACTOR>0,chr_t0278a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+（ふぁ……しかし、
+　平和すぎてバカになるな……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　小太郎の守役を任じられてから二週間。
+<PAUSE>
+<NAME_PLATE>
+　まるで危険など起こらず、
+やることと言えば忍者ごっこの
+付き合いくらい。
+<PAUSE>
+<NAME_PLATE>
+　日課である鍛錬を忘れれば、
+一瞬で体が鈍ってしまいそうだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,t_t007a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0278a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>時子
+「退屈そうですね、天音」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>天音
+「お前か……」
+<PAUSE>
+<NAME_PLATE>
+　同じ守役の少女がやってきて、
+天音の隣に腰かける。
+<PAUSE>
+<NAME_PLATE>天音
+「まぁ、そりゃそうだろう。
+　私は戦しかできない馬鹿な山犬だ。
+　こんな役目は似合わない」
+<PAUSE>
+<ACTOR>0,t_t007e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「あら、そうですか？」
+<PAUSE>
+<NAME_PLATE>時子
+「でも天音、近頃はちゃんと
+　若様にお付き合いしてるようですが」
+<PAUSE>
+<NAME_PLATE>天音
+「む……っ」
+<PAUSE>
+<NAME_PLATE>
+　時子が微笑んで天音を見る。
+<PAUSE>
+<NAME_PLATE>
+　確かに最近、特に文句も言わず
+小太郎や骸佐との忍者ごっこに
+付き合うようになっていた。
+<PAUSE>
+<NAME_PLATE>天音
+「そりゃ……役目だからな。
+　そうでもなけりゃ、
+　あんなガキどもの相手なんて」
+<PAUSE>
+<NAME_PLATE>
+　ちょっと唇を尖らせて天音が答える。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　この二週間で、
+時子との関係も少しだけ変わった。
+<PAUSE>
+<ACTOR>0,t_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それまで天音は、
+時子を良い子ぶって大人に取り入るだけの
+いけ好かない子供だと思っていた。
+<PAUSE>
+<NAME_PLATE>
+　だが同じ守役として近くで接すると、
+それは違っていた。
+<PAUSE>
+<NAME_PLATE>天音
+（こいつはこいつで、
+　なにか重いものを抱えている……）
+<PAUSE>
+<NAME_PLATE>
+　守役としての日々の務めを
+完璧にこなしたあとで、
+<PAUSE>
+<NAME_PLATE>
+　毎夜、天音と同等以上の
+激しい鍛錬を重ねているようだ。
+<PAUSE>
+<NAME_PLATE>
+　時子自身、まだ幼い少女と
+言っていい年齢にも関わらず、
+恐るべき覚悟で務めに向き合っている。
+<PAUSE>
+<NAME_PLATE>
+　そういう厳しい生き方を、
+自らに課している。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　――それがわかった後では。
+<PAUSE>
+<NAME_PLATE>
+　今まで時子に抱いていた小さな反感も、
+綺麗にどこかへ消えていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,t_t007a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0278a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>時子
+「天音は、若様のことが
+　嫌いなのですか？」
+<PAUSE>
+<NAME_PLATE>
+　そんな時子が、
+天音に問いかけてくる。
+<PAUSE>
+<NAME_PLATE>天音
+「別に……嫌いなことはないさ。
+　ただ、どうでもいいって言うか……」
+<PAUSE>
+<NAME_PLATE>
+　いや、そうだろうか――
+と天音は内心で思う。
+<PAUSE>
+<NAME_PLATE>
+　本当は、弾正と血の繋がりのある
+小太郎が羨ましかったのかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　だから必要以上に冷たく当たった。
+<PAUSE>
+<NAME_PLATE>時子
+「でも若様は、
+　天音と仲良くなりたいそうです」
+<PAUSE>
+<NAME_PLATE>時子
+「『どうしたらいいの？』って
+　私に相談されました」
+<PAUSE>
+<NAME_PLATE>天音
+「クク。なんだそりゃ……？
+　こっちがあれだけ冷たく当たったのに」
+<PAUSE>
+<NAME_PLATE>天音
+「つくづく甘いお坊ちゃまだ」
+<PAUSE>
+<NAME_PLATE>時子
+「優しい子なのです。
+　素直で優しい――私の自慢の弟」
+<PAUSE>
+<NAME_PLATE>天音
+「……そうだな」
+<PAUSE>
+<NAME_PLATE>
+　天音が苦笑してうなずいた。
+<PAUSE>
+<NAME_PLATE>
+　小太郎の大らかな優しさ――。
+<PAUSE>
+<NAME_PLATE>
+　あまり似たところのない親子だが、
+そこだけは父である弾正と共通だ。
+<PAUSE>
+<NAME_PLATE>天音
+「……わかったよ。
+　できる限り仲良くする。
+　それでいいだろう？」
+<PAUSE>
+<ACTOR>0,t_t007e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「はいっ。若様も喜びます♪」
+<PAUSE>
+<NAME_PLATE>
+　時子が嬉しそうに微笑んだ。
+<PAUSE>
+<ACTOR>0,t_t007a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>天音
+「だが、いいのか時子？」
+<PAUSE>
+<NAME_PLATE>天音
+「そうなったら――
+　私の方がお前より若様と
+　仲良くなるかもしれないぞ？」
+<PAUSE>
+<ACTOR>0,t_t007d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「！！？　それは……！」
+<PAUSE>
+<NAME_PLATE>
+　天音が冗談めかして言うと、
+珍しく時子が年相応の
+うろたえた顔を見せる。
+<PAUSE>
+<NAME_PLATE>
+　天音は、そんな時子を
+愉快そうに笑って見つめ――
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「きゃあぁあああああっ！！？」
+<PAUSE>
+<ACTOR>0,t_t007b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>天音＆時子
+「！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　突然の悲鳴に二人が顔を上げる。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,ts_m123a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m123a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　死霊
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　死霊
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　波打ち際に亡者のような幾つもの
+妖しき影が揺らめいていた。
+<PAUSE>
+<NAME_PLATE>
+　それが枯れ枝のような手を伸ばし、
+小太郎の遊び相手をしていた
+くノ一の身体を掴んでいる。
+<PAUSE>
+<NAME_PLATE>みつ
+「わ、若様、だめですっ！！！
+　こちらに来てはなりませ――ぐぅっ！？
+　ひぃいいいいいいいいっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)
+//　　　＊モンスターイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>小太郎
+「み、みつっ！！
+　うわぁぁぁあぁあぁぁっ！？」
+<PAUSE>
+<NAME_PLATE>
+　幼子の顔が恐怖で歪む。
+<PAUSE>
+<NAME_PLATE>
+　妖しき影に捕まれた箇所から
+くの一の身体がやせ細り、
+やがて砂のように崩壊する――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,t_t007b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0278a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>時子
+「――若様っ！？」
+<PAUSE>
+<NAME_PLATE>天音
+「くっ！？　襲撃か――っ」
+<PAUSE>
+<NAME_PLATE>
+　時子と天音も即座に動く。
+<PAUSE>
+<NAME_PLATE>
+　だが、そんな二人の
+行く手を遮るように――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m122a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜魔性＞
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　対魔忍＜魔性＞
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>時子
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>天音
+「なんだ、こいつら――」
+<PAUSE>
+<NAME_PLATE>
+　禍々しい黒の装束を纏った
+忍の集団が姿を現した。
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,147 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ繁華街＿路地裏＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC035aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc127a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング
+「て、手前ら。
+　逆らうつもりか！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>ギャング
+「や、やっちまいな！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンパン……パンパン……パン！！
+<PAUSE>
+<NAME_PLATE>
+　追い剥ぎたちは銃をぶっ放すが、
+ろくに狙いが定まっていない。
+<PAUSE>
+<NAME_PLATE>
+　というより、
+銃の反動に振り回されている。
+<PAUSE>
+<NAME_PLATE>
+　やっちまうどころか、
+立っているのもやっとの様子だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0213a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「なんだかみんな元気ないねー」
+<PAUSE>
+//　※立ち絵
+//　　さくら＿立ち絵
+//　　　＊【春の新作】井河さくらのカードイラストを流用
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>オーク
+「例の熱病にかかってんのさ。
+　商売熱心な奴らだぜ。
+　しかし病人をやるのは気が進まねえな」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストの流用
+//　　　　　オーク傭兵の色違い
+<NAME_PLATE>
+　オークは顔の傷跡をポリポリとかきながら、
+面倒臭そうに言った。
+<PAUSE>
+<NAME_PLATE>さくら
+「だねえ。じゃあ、こうしよう。
+　忍法・影糸縛り～～～！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　さくらは新品のハイヒールで
+地面をパシンと軽く踏んだ。
+<PAUSE>
+<SE_PLAY>se117
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シュルルッッッ！！
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　地面を糸のように影が伸びていき、
+追い剥ぎたちの身体にまで這い上がって
+巻き付いた。
+<PAUSE>
+<NAME_PLATE>ギャング
+「な、なんだこいつはっ！？」
+<PAUSE>
+<NAME_PLATE>ギャング
+「動けねえっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　さして影の糸に力を入れなくても、
+病人のギャングたちはもう身動きができない。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<ACTOR>1,chr_t0213a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「そのうち動けるようになるから。
+　具合が悪いときは、家でお布団かぶって
+　おとなしく寝てた方がいいよ。じゃあね」
+<PAUSE>
+<NAME_PLATE>さくら
+「おっちゃん、終わったよ。行こう」
+<PAUSE>
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>オーク
+「？？？？？？」
+<PAUSE>
+<NAME_PLATE>
+　オークはなぜか顔を疑問でいっぱいにして
+さくらを見ていた。
+<PAUSE>
+<NAME_PLATE>さくら
+「どうしたの？」
+<PAUSE>
+<NAME_PLATE>オーク
+「お前、影を使うのか？」
+<PAUSE>
+<NAME_PLATE>さくら
+「そうだよ？　珍しいでしょ？」
+<PAUSE>
+<NAME_PLATE>オーク
+「いや、珍しいとかじゃなくてな。
+　ま、まあいい。早くナドラのとこに行くぞ」
+<PAUSE>
+<SE_PLAY>se082
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　何を不思議がっているのかわからないが、
+オークはさかんに首をかしげながら
+また歩き出した。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

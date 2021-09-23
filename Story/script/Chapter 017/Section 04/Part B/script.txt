@@ -1,0 +1,343 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//シーン説明：
+//※２日目　昼
+//【黒画面】
+//【背景：汎用田舎のあぜ道＿昼】【時間：昼】
+//　※MISAO_nc002aより流用
+<BGM_PLAY>bgm406,1000
+<BG>nc114c,IN, 1000
+<ACTOR>0,t_t007b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「お館様、骸佐様！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子-少女時代汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　時子は幼子二人を両手で抱え込んだ。
+<PAUSE>
+<NAME_PLATE>小太郎＆骸佐
+「「っっ！！」」
+<PAUSE>
+<NAME_PLATE>
+　二人はギュッと時子にしがみつく。
+<PAUSE>
+<ACTOR>1,ts_m121a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魎馬
+「馬鹿が！！
+　そんなガキ二人抱えて
+　この俺と戦うつもりか！！」
+<PAUSE>
+//　※立ち絵
+//　　鴉野魎馬立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうま忍者
+「馬鹿は貴様だ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　ふうまの一人が怒声を発して、
+土遁の術を使った。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,NONE
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガカアアアアアンッ！！！
+<PAUSE>
+<NAME_PLATE>
+　時子たちと魎馬の間の地面が
+盛大に噴き上がり、辺りが見えなくなるほどの
+土煙が広がった。
+<PAUSE>
+<NAME_PLATE>魎馬
+「ちいっ、目くらましだと！！」
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「お前の相手など我々で十分よ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　別の一人がすかさず火遁の術を放つ。
+<PAUSE>
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ごぉおおおおおおっ！！
+<PAUSE>
+<NAME_PLATE>
+　炎が生き物のように伸びて、魎馬を襲う。
+<PAUSE>
+<NAME_PLATE>魎馬
+「くっっ！！
+　この雑魚どもがっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　魎馬は苛立ちの声を発し、
+しかし大きく飛び退いて、
+火炎から身を躱した。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>2,ts_m004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうまくノ一
+「ここは我らが！
+　時子さまはお二人を連れて早く！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>時子
+「頼みます！！」
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　時子は躊躇うことなく、
+この場を部下に任せ、
+小太郎と骸佐を抱えたまま走り出した。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>ふうま忍者
+「左近、右近！
+　お前たちがお供しろ！！
+　必ずお守りするのだ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>3,ts_m003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>左近＆右近
+「「はっっ！！」」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ふうま火遁衆(女)立ち絵
+//　　　＊モンスターイラストを流用
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ここまで最も怪我の少なかった
+火遁使いの双子が時子に付き従う。
+<PAUSE>
+<NAME_PLATE>魎馬
+「このガキが！　行かせるか！」
+<PAUSE>
+<GROUP>
+<ACTOR>5,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ふうま忍者
+「邪魔はさせぬ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうまくノ一
+「ふうまの底力、見せてやる！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　時子を追おうとする魎馬たちを
+残ったふうまは一丸となって
+足止めしようとする。
+<PAUSE>
+<NAME_PLATE>
+　全ては時子たちをアサギの元へと
+行かせるため。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m121a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魎馬
+「雑魚どもが調子にのるな！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぶわあ～～～～～～～～～っ。
+<PAUSE>
+<NAME_PLATE>
+　突然、魎馬の全身から
+黒いもやのようなものが湧きだした。
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「な、なんだ！？」
+<PAUSE>
+<NAME_PLATE>ふうまくノ一
+「怪しげな術を！」
+<PAUSE>
+<NAME_PLATE>魎馬
+「お前たちは手を出すな。
+　こいつらは俺が皆殺しにする」
+<PAUSE>
+<NAME_PLATE>
+　魎馬が部下に命令し、
+突き出した手をユラユラと動かし始めた。
+<PAUSE>
+<NAME_PLATE>
+　黒いもやが人がゆっくり歩く程の早さで
+ふうまたちへ伸びていく。
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「なにをする気か知らんが、
+　そんなものに捕まるとでも――うっっ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<SE_PLAY>se023
+<NAME_PLATE>
+　黒いもやを躱そうとした一人が、
+ガクッと膝を突いた。
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「な、なんだこれは……！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　地面から現れた、別の黒いもやが
+その足にねっとりと絡みついている。
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「うぐっっ……こ、これは……」
+<PAUSE>
+<NAME_PLATE>
+　大地からむらむらと溢れ出るもやに
+全員が動きを止められていた。
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「う……動けん……
+　力が……吸われている？」
+<PAUSE>
+<NAME_PLATE>魎馬
+「違うな。
+　吸っているのはお前らの命だ」
+<PAUSE>
+<NAME_PLATE>ふうまくノ一
+「ひぃいいいいいいっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　もやに捕まったくノ一が悲鳴を上げた。
+<PAUSE>
+<NAME_PLATE>
+　とうの昔に死を覚悟したくノ一が
+叫ばざるを得ないほどのおぞましい変化が
+その身体に生じていた。
+<PAUSE>
+<NAME_PLATE>
+　顔に皺が刻まれ、
+手も足も、いや皮膚の下の肉全てが
+急速に老化するかのように萎んでいる。
+<PAUSE>
+<NAME_PLATE>
+　黒いもやが、ふうまたちの命を
+搾り取っているのだ。
+<PAUSE>
+<NAME_PLATE>
+　魎馬はその一人に近づいた。
+<PAUSE>
+<NAME_PLATE>魎馬
+「あのチビは何を企んでいる？」
+<PAUSE>
+//　※立ち絵
+//　　鴉野魎馬立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>ふうま忍者
+「き……貴様ぁ……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>魎馬
+「ふん」
+<PAUSE>
+<NAME_PLATE>
+　しわがれた声を面白くもなさそうに聞き、
+魎馬はパチンと指を鳴らした。
+<PAUSE>
+<SE_PLAY>se120
+<NAME_PLATE>
+　ボフッ。
+<PAUSE>
+<NAME_PLATE>
+　黒い瘴気がそのふうまを完全に包み込み、
+生命エネルギーの全てを奪われて、
+塵のように消滅した。
+<PAUSE>
+<NAME_PLATE>魎馬
+「アサギに会って何をするつもりだ？」
+<PAUSE>
+<NAME_PLATE>ふうま忍者
+「忠義を……知らぬ……し、痴れ者が……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>魎馬
+「ふうまの雑魚が」
+<PAUSE>
+<SE_PLAY>se120
+<NAME_PLATE>
+　ボフッ。
+<PAUSE>
+<NAME_PLATE>
+　また一人、瘴気に命を食い尽くされる。
+<PAUSE>
+<NAME_PLATE>ふうまくノ一
+「お……やかた……さま……
+　どう……か……ごぶじ……で……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(女)立ち絵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>魎馬
+「聞くだけ無駄か」
+<PAUSE>
+<SE_PLAY>se120
+<NAME_PLATE>
+　ボフッ……ボフッ……ボフッ……
+<PAUSE>
+<NAME_PLATE>
+　残り全てのふうまが
+一斉にこの世から消えた。
+<PAUSE>
+<NAME_PLATE>魎馬
+「ふうまの残党が何を企んでいるにしろ
+　アサギに会わせなければ良いだけのこと」
+<PAUSE>
+<NAME_PLATE>魎馬
+「奴らを追うぞ。
+　どうせ五車学園に向かうはずだ。
+　ふふふ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　赤い鬼面の下で魎馬が笑った。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

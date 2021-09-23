@@ -1,0 +1,449 @@
+//☆ストーリー02【Section１】シナリオ
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：五車町＿ふうま邸リビング＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC026aより流用
+<BGM_PLAY>bgm307,1000
+<BG>nc081a,IN, 3000
+<NAME_PLATE>
+　まず自己紹介をしておこう――
+<PAUSE>
+<NAME_PLATE>
+　俺の名前は、ふうま小太郎。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の養成機関・五車学園に
+通う男子学生だ。
+<PAUSE>
+<NAME_PLATE>
+　生まれが『ふうま』という
+対魔忍の名家であるせいか、
+学園では一目置かれることも多いが……
+<PAUSE>
+<NAME_PLATE>
+　実際のところ、
+俺なんて大したやつではない。
+<PAUSE>
+<NAME_PLATE>
+　他よりちょっと違ったことが
+できるというだけの、
+どこにでもいる平凡な学生だ――
+<PAUSE>
+<NAME_PLATE>俺
+「ふぅ。
+　やはりコーヒーはブラックに限るな……」
+<PAUSE>
+<NAME_PLATE>
+　いつもと同じ朝、
+いつもと同じ一日の始まりだ。
+<PAUSE>
+<NAME_PLATE>
+　俺がリビングで食後のコーヒーを
+楽しんでいると、
+スーツ姿の女性がやってくる。
+<PAUSE>
+<ACTOR>0,t_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま時子
+「お館様、おはようございます」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+//　　　　＊決戦アリーナの新時子立ち絵より流用
+<NAME_PLATE>俺
+「ああ。おはよう、時子」
+<PAUSE>
+<NAME_PLATE>
+　この理知的な美女は、ふうま時子。
+<PAUSE>
+<NAME_PLATE>
+　代々ふうまに仕える家柄の生まれで、
+幼い頃から執事として俺を
+サポートしてくれている。
+<PAUSE>
+<NAME_PLATE>
+　見ての通り超絶の美人であり、
+対魔忍としての能力も優れている。
+<PAUSE>
+<NAME_PLATE>
+　俺が家族のように信頼する女性である。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし珍しいな。
+　時子がこんなに遅く起きるなんて」
+<PAUSE>
+<NAME_PLATE>
+　いつもは俺より遙かに早く起きて、
+朝の準備をしているのに。
+<PAUSE>
+<ACTOR>0,t_t001h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「あっ！？　そ、それは――」
+<PAUSE>
+<NAME_PLATE>
+　すると時子は、
+急に恥ずかしそうに目を伏せた。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様が……いえ、あなたが、
+　ずっと寝かせてくれなかったから……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ああ！！　そういうことか！！」
+<PAUSE>
+<NAME_PLATE>
+　そう言えばそうだった。
+<PAUSE>
+<NAME_PLATE>
+　昨日の晩は、
+つい調子に乗って時子を愛しすぎてしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「悪かったな。時子も仕事があるのに」
+<PAUSE>
+<ACTOR>0,t_t001j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「いえ、良いんですよ。あなたとの時間なら、
+　どんなに忙しくても捻出しますから……」
+<PAUSE>
+<NAME_PLATE>俺
+「クク、そうか。時子は可愛い奴だな」
+<PAUSE>
+<NAME_PLATE>
+　今の会話でもわかる通り、
+時子は俺の執事であると同時に愛人でもある。
+<PAUSE>
+<NAME_PLATE>
+　二人でこの屋敷で暮らすうちに、
+いつの間にか
+男女の仲になってしまったというわけだ。
+<PAUSE>
+<NAME_PLATE>俺
+「そういうことなら今夜も可愛がってやる。
+　楽しみにしておいてくれよ、時子？」
+<PAUSE>
+<NAME_PLATE>
+　俺はそう時子に笑いかけつつ立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　そろそろ学園に向かう時間である。
+<PAUSE>
+<ACTOR>0,t_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「あっ。待ってください、お館様――。
+　こちら、本日のお小遣いです」
+<PAUSE>
+<NAME_PLATE>
+　慌てたように言って、
+時子が札束を手渡してきた。
+<PAUSE>
+<NAME_PLATE>俺
+「――ん？　ああ、助かるよ」
+<PAUSE>
+<NAME_PLATE>
+　俺は本日のお小遣い１００万円を
+受け取った。
+<PAUSE>
+<ACTOR>0,t_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「いつも通り少額ですが、まだお館様は
+　学生の身ですので。今日一日、
+　何とかやりくりをお願いしますね」
+<PAUSE>
+<NAME_PLATE>俺
+「わかってるよ、時子」
+<PAUSE>
+<NAME_PLATE>
+　俺がふうま宗家を継ぐに当たって
+相続した資産は、およそ５００億。
+<PAUSE>
+<NAME_PLATE>
+　そんな莫大な資産を所有する俺だが、
+時子の言う通りまだ学生だ。
+<PAUSE>
+<NAME_PLATE>
+　毎日使えるお金は、
+時子からお小遣いという形で
+渡されることになっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ行ってくるぞ」
+<PAUSE>
+<ACTOR>0,t_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「はい♪
+　行ってらっしゃいませ、お館様――」
+<PAUSE>
+<ACTOR>0,t_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　俺は可愛らしい愛人の声を背に屋敷を出る。
+<PAUSE>
+<NAME_PLATE>
+　制服のポケットには１００万円の札束。
+<PAUSE>
+<NAME_PLATE>
+　１００万くらい、ちょっと派手に遊べば
+なくなってしまう子供のお小遣いである。
+<PAUSE>
+<NAME_PLATE>
+　しかし時子の言う通り、
+学生の身分であれば贅沢は言えない。
+<PAUSE>
+<NAME_PLATE>俺
+（そうだな……。今日もクラス全員に
+　稲毛屋のアイスでもおごってやるか）
+<PAUSE>
+<NAME_PLATE>
+　そんなことを考えつつ、
+俺は学園へと向かった。
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<WAIT>1000
+//=================================================================
+//=================================================================
+//FileNo:S102a
+//シーン名：楽しい学園生活
+//【背景：NC008a　五車学園＿朝】【時間：朝】
+//　※対魔忍アサギZEROの背景NC008aより流用
+<BGM_PLAY>bgm307,1000
+<BG>nc054a,NONE
+<TRANSITION>TR26, IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　五車学園・校門前――
+<PAUSE>
+<NAME_PLATE>
+　五車町は対魔忍の隠れ里である。
+<PAUSE>
+<NAME_PLATE>
+　そこにある五車学園も、
+次代の対魔忍を鍛えるための
+育成機関としての顔を持っている。
+<PAUSE>
+<NAME_PLATE>女子学生１
+「あっ！？　ふうま先輩だっ！！」
+<PAUSE>
+<NAME_PLATE>女子学生２
+「おはようございま～す！！
+　今日も修行日和ですねっ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺が登校していると、
+学生達が次々と挨拶をしてくる。
+<PAUSE>
+<NAME_PLATE>
+　女子が大半だが、
+中には熱心な俺のファンらしい男子もいる。
+<PAUSE>
+<NAME_PLATE>
+　その学年も、
+同級生・先輩・下級生、と様々だ。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。おはよう」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女子学生１
+「きゃ～っ！！
+　会長にこっち見て挨拶されちゃた～！！」
+<PAUSE>
+<NAME_PLATE>女子学生２
+「ずる～い！！　生徒会長！！
+　わたしもわたしも～！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。おはよう」
+<PAUSE>
+<NAME_PLATE>女子学生たち
+「きゃ～っ！！　感激～っ！！」
+<PAUSE>
+<NAME_PLATE>
+　感極まったように黄色い声を上げる
+女子生徒達。
+<PAUSE>
+<NAME_PLATE>
+　中には
+「うお～っ！！　会長、自分感動っす」と
+野太い声を出している男子もいる。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ。
+　挨拶ぐらいで騒がしいことだな……）
+<PAUSE>
+<NAME_PLATE>
+　毎日のことなので、
+俺も慣れっこになっているが。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに俺は、
+この五車学園の生徒会長である。
+<PAUSE>
+<NAME_PLATE>
+　昨年の生徒会選挙では、
+支持率１５０％のぶっちぎりで当選――
+<PAUSE>
+<NAME_PLATE>俺
+（１００％を越えているのは、
+　複数名記載禁止のルールを守らず……
+<PAUSE>
+<NAME_PLATE>俺
+（俺の名前だけを重複投票する生徒が
+　あとを絶たなかったためだ）
+<PAUSE>
+<NAME_PLATE>
+　また、生徒会に立候補したのも
+俺の意志ではなく周囲から
+熱心に推されたためである。
+<PAUSE>
+<NAME_PLATE>
+　皆が推すなら仕方がないか、
+と俺はそつなく務めをこなし、
+<PAUSE>
+<NAME_PLATE>
+　現在、生徒会に対する満足度は
+前代未聞の２００％を越えていた。
+<PAUSE>
+<NAME_PLATE>俺
+「お前ら、
+　授業が始まるから俺はそろそろ行くぞ。
+　握手ならまた後でしてやるから」
+<PAUSE>
+<NAME_PLATE>女子生徒たち
+「は～いっ♪」
+<PAUSE>
+<NAME_PLATE>
+　俺は苦笑して女子生徒たちに言う。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか俺の前には
+握手待ちの列ができ、
+即席の握手会の様相を呈していた。
+<PAUSE>
+<NAME_PLATE>
+　まあ、これも毎朝恒例の
+イベントのようなものである。
+<PAUSE>
+<NAME_PLATE>俺
+（ったく、俺は静かに学園生活を
+　送りたいだけなんだがな……）
+<PAUSE>
+<NAME_PLATE>
+　目立ちたくないのに、
+自然と目立ってしまう。
+<PAUSE>
+<NAME_PLATE>
+　当たり前のことしかしていないのに、
+自然と輝いてしまう。
+<PAUSE>
+<NAME_PLATE>
+　これもまた、俺の生まれ持った
+才のなせる業ってやつか――
+<PAUSE>
+<NAME_PLATE>俺
+（な～んて、そんな自惚れはしないけどな！）
+<PAUSE>
+<NAME_PLATE>
+　あくまで俺は、
+ちょっと変わったことができる
+というだけの平凡な学生なのだから――
+<PAUSE>
+//【黒画面】
+//【背景：NC012a　五車学園＿グラウンド＿朝】【時間：朝】
+//　※対魔忍アサギZEROの背景NC012aより流用
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<WAIT>1000
+<UI_DISP>ON, 0
+<BG>nc003a,NONE
+<TRANSITION>TR26, IN, 1000
+<NAME_PLATE>
+　午後になって体育の授業が始まった。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍育成学園らしく、
+体育の授業は実戦を想定した戦闘訓練である。
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<ACTOR>0,g_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>二車骸佐
+「おい、ふうまっ！！
+　俺と勝負しやがれっ！！」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「骸佐か――」
+<PAUSE>
+<NAME_PLATE>
+　俺の前に精悍な顔つきの男子学生が立った。
+<PAUSE>
+<NAME_PLATE>
+　こいつの名前は、二車骸佐。
+<PAUSE>
+<NAME_PLATE>
+　二車家は代々ふうまに仕える家系で、
+俺と骸佐も幼い頃からの付き合いだ。
+<PAUSE>
+<NAME_PLATE>
+　ある意味、
+幼馴染みと言ってもいい間柄なのだが……
+<PAUSE>
+<NAME_PLATE>
+　何が気にくわないのか、
+骸佐はことあるごとに俺に突っかかってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「勝負はいいが……
+　俺も、そろそろウンザリしているんだ」
+<PAUSE>
+<NAME_PLATE>
+　骸佐と勝負したところで結果は見えている。
+<PAUSE>
+<NAME_PLATE>
+　訓練とは言え、
+意味のないことをするのは気が進まない。
+<PAUSE>
+<NAME_PLATE>俺
+「これで最後にしてくれよ。
+　なんなら俺のことが気にくわない連中、
+　まとめて相手してもいい」
+<PAUSE>
+<ACTOR>0,g_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「なんだとぉ！？　てめえ、本気か！？」
+<PAUSE>
+<NAME_PLATE>俺
+「それなりに。怖じ気づいたか？」
+<PAUSE>
+<NAME_PLATE>
+　俺が苦笑すると、
+単純な骸佐はカーっと顔を赤くした。
+<PAUSE>
+<ACTOR>0,g_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「じょ、上等じゃねえか……っ！！」
+<PAUSE>
+<ACTOR>0,g_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>骸佐
+「これが最後の勝負ってやつだ！！
+　俺とてめえ、どっちが上か
+　ハッキリさせてやるぜっ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ。そのセリフも、
+　何度も聞いたんだけどな）
+<PAUSE>
+<ACTOR>0,g_t003e,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section１-戦闘１へ
+//=================================================================

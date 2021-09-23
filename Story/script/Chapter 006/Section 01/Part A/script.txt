@@ -1,0 +1,420 @@
+//☆第六章【Section１】シナリオ部分
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+<BG>nc056a,IN, 1000
+//【背景：五車町＿ふうま邸前＿昼】【時間：朝】
+<NAME_PLATE>
+　ある日の朝――
+<PAUSE>
+//【背景：五車町＿ふうま邸洗面室入浴中＿昼夜共通】【時間：朝】
+<BGM_PLAY>bgm503,1000
+<BG>nc057a,IN, 1000
+<NAME_PLATE>俺
+「～～♪　……♪」
+<PAUSE>
+//【背景：五車町＿五車町＿ふうま邸風呂場＿昼】【時間：朝】
+<BG>nc058a,IN, 1000
+<NAME_PLATE>俺
+「デデンがデンデンデン……♪」
+<PAUSE>
+<NAME_PLATE>俺
+「っはー、極楽極楽♪
+　やっぱり朝風呂は最高だな」
+<PAUSE>
+<NAME_PLATE>
+　ヒノキの香りの湯気を堪能しつつ、
+俺はデタラメな歌を口ずさんでいた。
+<PAUSE>
+<SE_PLAY>se025
+<NAME_PLATE>
+　……ガタッ……ドタドタン……
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<NAME_PLATE>
+　何やら騒がしい足音が、
+俺の鼻歌を遮る。
+<PAUSE>
+<NAME_PLATE>俺
+「朝から何だ？
+　しかもなんとなく、こっちに近づいて
+　来ているような……」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se026
+<EFFECT_QUAKE>HORIZONTAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　バンッ！！！
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「ちこくー！　遅刻だってば！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら通常立ち絵＿制服衣装
+<NAME_PLATE>俺
+「さ、さくら！？
+　何いきなり開けてるんだ！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「ふうまちんがなかなか出て来ないからっ！！
+　私朝シャン派なのっ！　早く出てよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「おっ、お前なあ……居候の身で……」
+<PAUSE>
+<NAME_PLATE>
+　さくらといっても、
+五車学園のさくら先生……ではない。
+<PAUSE>
+<NAME_PLATE>
+　先日信じられない事件で知り合い、
+別の次元から時空移動してきた、
+『若い』さくらである。
+<PAUSE>
+<NAME_PLATE>
+　いわば別次元の同一人物というべきか。
+<PAUSE>
+<NAME_PLATE>
+　次元移動する化け物と戦っているうち、
+色々あって帰れなくなってしまった彼女を、
+とりあえず家に居候させてやっているのだが。
+<PAUSE>
+<NAME_PLATE>さくら
+「ふうまちんも遅刻しちゃうよ！？
+　何呑気に湯船つかってるのさ！
+　……はは～ん？」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「さてはこの超絶可愛いさくらちゃんの裸を、
+　どさくさに紛れて覗き見るつもりだね？
+　このド変態くん！？」
+<PAUSE>
+<NAME_PLATE>俺
+「何言ってんだ……。
+　お前、こっちの五車学園に通うつもりか？」
+<PAUSE>
+<NAME_PLATE>俺
+「こっちではこっちの、井河さくらが
+　教師をしてるんだぞ」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「あ……！
+　えっと、じゃあ変装して……」
+<PAUSE>
+<NAME_PLATE>俺
+「バレるにきまっとるだろうが！
+　というかそれ以前に、
+　今日は日曜日。学校は休みだ」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「あちゃー！　なーんだ！
+　それを早く言ってよ！　なははは」
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ…………）
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　さくら先生のあの性格は、
+学生時代から変わらないようだ。
+俺は濡れた頭を抱える。
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「さくら……お前、何でじっとしてるんだ？
+　わかったらゆっくり二度寝でもして……」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「いやあ、ふうま君ってば、
+　意外に良い体してるんだなって♪
+　目の保養目の保養♪」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ～～？！　どっちが変態だよ！！！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「あは♪　減るもんじゃなしい♪」
+<PAUSE>
+<NAME_PLATE>俺
+「減るわ！　俺の心の平穏が減る！
+　出て行け変態！！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「とりあえず写真とっとこ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「おい、やめろって！！」
+<PAUSE>
+<NAME_PLATE>
+　スマホを構えるさくらに、俺は思わず
+湯船から立ちあがって手を伸ばす。
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「キャーッ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ、撮ったら湯船に沈めるぞ！？」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>
+　俺がさくらの手首を掴んだ――そのとき。
+<PAUSE>
+<NAME_PLATE>？？？
+「おほん……」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+<ACTOR>0,t_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「わわ、時子さん！？」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にそこに立っていたのか。
+時子の大きな咳払いに、俺たちは慌てて
+居住まいを正す。
+<PAUSE>
+<ACTOR>0,t_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ふうま時子
+「さくら先せ……さくらちゃん、
+　お館様で遊ばないであげてください」
+<PAUSE>
+<NAME_PLATE>さくら
+「あはは……スイマセン。
+　つい、からかうと面白くて……」
+<PAUSE>
+<NAME_PLATE>俺
+「あのな……で、時子。
+　何か用か？」
+<PAUSE>
+<ACTOR>0,t_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「アサギ校長から呼び出しです。
+　至急学校へ来るようにと」
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ校長先生から？」
+<PAUSE>
+<NAME_PLATE>
+　日曜日に呼び出しとは、
+何か事件があったのだろうか。
+<PAUSE>
+<ACTOR>0,t_t001e,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　俺はきょとんとするさくらを横目に、
+慌てて風呂を飛び出すと、
+濡れた足をパンツに突っ込むのだった。
+<PAUSE>
+//【黒画面】
+//場面転換。
+//【背景：カオス・アリーナ地下監獄＿昼夜共通】【時間：？？】
+<BGM_STOP>1000
+<BG_OUT>2000
+<WAIT>2000
+<BG>nc059a,IN, 1000
+<NAME_PLATE>？？？
+「…………っん……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は息のつまるような湿気と、
+土の臭いの中で目を覚ました。
+<PAUSE>
+<NAME_PLATE>
+　薄暗い空間。
+無造作にぶらさげられた灯りが、
+剥き出しの土壁を映し出している。
+<PAUSE>
+<ACTOR>0,h_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「う……ん？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>蛇子
+「ここ……どこ？
+　蛇子は……どうして？」
+<PAUSE>
+<NAME_PLATE>
+　ぼんやりする頭、定まらない視界。
+何が起きたのか、
+蛇子は把握できなかった。
+<PAUSE>
+<NAME_PLATE>蛇子
+「とにかく、帰らなくちゃ……」
+<PAUSE>
+<NAME_PLATE>
+　辛うじて自分の身体を確かめるも、
+対魔忍スーツに乱れはない。
+得物の小太刀も身につけている。
+<PAUSE>
+<NAME_PLATE>
+　しかし頭は朦朧とし、
+体にも思うように力が入らない。
+<PAUSE>
+<NAME_PLATE>？？？
+『こっちよ……』
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　どこからか、誘う声が聞こえる。
+朦朧とする意識の中、その声だけが
+やけに耳に響く。
+<PAUSE>
+<NAME_PLATE>？？？
+『こっちよ。さあ、来なさい』
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>蛇子
+「――……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はゆっくりと立ち上がり、
+歩き始める。
+まるで声に導かれるように。
+<PAUSE>
+<NAME_PLATE>？？？
+『そう――いい子ね…………』
+<PAUSE>
+//【黒画面】
+<BG_OUT>1000
+<NAME_PLATE>
+　長い地下の通路を、進む――進む。
+<PAUSE>
+<NAME_PLATE>
+　やがて――
+<PAUSE>
+//【白画面】
+<NAME_PLATE>
+　ワアアアアアッ……
+<PAUSE>
+//【背景：カオス・アリーナ＿アリーナ＿昼夜共通】【時間：？？】
+<BG>nc060a,IN, 3000
+<NAME_PLATE>
+　突然、辺りの景色が開ける。
+溢れんばかりの光と歓声に、
+蛇子は思わず目を細めた。
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「……ここは！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　古代ローマの闘技場を思わせる場所だ。
+客席は男たちで埋め尽くされ、
+下卑た言葉を叫びながら熱狂していた。
+<PAUSE>
+<ACTOR>0,h_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アナウンス
+『大変お待たせいたしましたァ！！
+　本日は、新たな戦士のお披露目です！！！』
+<PAUSE>
+<NAME_PLATE>観客達
+「待ってたぜェェ！」
+<PAUSE>
+<NAME_PLATE>アナウンス
+『皆さんご存知、我ら闇に生きる者の仇敵！
+　そう！！！　かの憎き対魔忍が一人！！
+　その名は蛇子！　対魔忍・蛇子ォオオ！！』
+<PAUSE>
+<NAME_PLATE>観客達
+「ウォオオオオオオッ！！！！！」
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「戦士……！？　わ、私のこと……！？
+　何がどうなってるの……！？」
+<PAUSE>
+<NAME_PLATE>アナウンス
+『まずはエキシビジョンマッチです！！！
+　蛇子嬢は、はたしてカオス・アリーナに
+　相応しい戦士であるのか！！？』
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>アナウンス
+『手始めに相手をするのは……
+　こいつらだッッ！！』
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク
+//　　//　　＊対魔忍RPG用に新デザイン
+//　　フレイムオーク
+//　　//　　＊ハイオークの色違いバージョン
+<GROUP>
+<ACTOR>2,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　アナウンスに乗って、異形の化け物たちが
+向かい側から入場してくる。
+<PAUSE>
+<NAME_PLATE>アナウンス
+『お馴染み、殺戮と凌辱の達人！
+　血飛沫と断末魔に生きる、
+　イカれたハイオークの戦士達！！！』
+<PAUSE>
+<NAME_PLATE>ハイオーク
+「へへへ……こいつは御馳走だ。
+　ウマそうな対魔忍娘じゃねえか」
+<PAUSE>
+<NAME_PLATE>
+　ハイオークたちは、舌なめずりをしながら、
+一歩一歩とこちらへ進み出る。
+<PAUSE>
+<NAME_PLATE>蛇子
+「な、なに……？！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はまだモヤがかかったような頭を振り、
+得物を抜いて構える。
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（武器装備）
+<GROUP>
+<ACTOR>2,ts_m043a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,h_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「一体何だっていうの……！？」
+<PAUSE>
+<NAME_PLATE>アナウンス
+『敗北すれば可愛い蛇子ちゃんの惨劇必至！！
+　果たして彼女の運命はッ！？』
+<PAUSE>
+<NAME_PLATE>アナウンス
+『それでは……エキシビジョン、
+　ファイッッッッ！！！』
+<PAUSE>
+<ACTOR>0,h_t002e,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>観客達
+「ウォォオオオオオオオーーー！！！！！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<BG_OUT>3000
+</GROUP>
+//<SCENARIO_END>
+//→Section１-ＭＡＰ画面１へ

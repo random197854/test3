@@ -1,0 +1,293 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：森の空き地＿夜】【時間：夜】
+//　※MISAO_nc011cより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc037a,IN, 1000
+<ACTOR>0,am_t013b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「波遁の術“他力本願”！！」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ガーディアン
+「ウラララァアアアアアアアアア！！！」
+<PAUSE>
+<NAME_PLATE>シャドウ
+「ギャアアアアアアアッ！！」
+<PAUSE>
+//　※立ち絵
+//　　シャドウ＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ガーディアン
+「ウラウラウラァアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>嫉妬せし闇
+「グギィイイイイッ！！」
+<PAUSE>
+//　※立ち絵
+//　　嫉妬せし闇
+//　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　少女が操るガーディアンの力は
+圧倒的だった。
+<PAUSE>
+<NAME_PLATE>
+　闇の化物たちが次々と消滅していく。
+<PAUSE>
+<NAME_PLATE>
+　まるで闇が光にかき消されるように、
+異形の敵の群れをものともしない。
+<PAUSE>
+<NAME_PLATE>俺
+「あの力、波遁（はとん）の術か？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　俺も本でしか読んだことのない
+レア中のレア忍法だ。
+<PAUSE>
+<NAME_PLATE>
+　生命エネルギーを操り、
+それを具現化する秘術。
+<PAUSE>
+<NAME_PLATE>
+　それならば闇の化物に
+効果的なのも納得だが……。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,am_t013d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>少女
+「くっ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少年
+「ふふ……」
+<PAUSE>
+//　※立ち絵
+//　　黒斗（吸血鬼差分）
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　少女の顔は次第に険しくなり、
+少年のように見える奴の顔は
+余裕たっぷりだ。
+<PAUSE>
+<NAME_PLATE>
+　倒しても倒しても新しい闇の化物が
+奴の影から現れてくるのだ。
+<PAUSE>
+<NAME_PLATE>少年
+「その力、いつまで続くかな？
+　君の仮初めの光がいくら強くても、
+　僕の闇を消し去ることはできないよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t013b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「……お館くん、逃げて」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？
+　俺一人だけ逃げるなんて！」
+<PAUSE>
+<ACTOR>0,am_t013e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>少女
+「私は大丈夫！
+　お館くんさえ生きていれば！」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな！？」
+<PAUSE>
+<NAME_PLATE>
+　さっき会ったばかりの
+名前も知らない少女。
+<PAUSE>
+<NAME_PLATE>
+　だけど俺は覚えていなくとも
+きっと俺と関係があるに違いない。
+<PAUSE>
+<NAME_PLATE>
+　なにより俺のために戦ってくれる人を
+見捨てて逃げるのは嫌だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　幼い頃、大切なふうまの配下たちが
+俺のために次々と散っていった。
+<PAUSE>
+<NAME_PLATE>
+　あんな思いはもうしたくない。
+<PAUSE>
+<ACTOR>0,hu_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「俺も戦うぞ！
+　忍法は使えないけどこの頭がある！
+　それで君をフォローする」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「知ってる！　だから逃げて！」
+<PAUSE>
+<NAME_PLATE>俺
+「知ってる？」
+<PAUSE>
+<NAME_PLATE>
+　どういうことだ！？
+<PAUSE>
+<NAME_PLATE>
+　この子は俺の何を知ってるんだ？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少年
+「そう、それが意外にも厄介だ。
+　因果を引き寄せる君の存在と同様にね。
+　だからここで断ち切らせてもらうよ」
+<PAUSE>
+<NAME_PLATE>
+　あいつが俺に掌を向けた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,am_t013c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>少女
+「お館くん！　逃げて！！」
+<PAUSE>
+<NAME_PLATE>
+　少女の悲痛な叫び。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　ゴォオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　闇の奔流が俺に向かってきた。
+少女のガーディアンでも消しきれない。
+<PAUSE>
+<NAME_PLATE>
+　巨大な闇に呑み込まれそうになった瞬間、
+<PAUSE>
+<NAME_PLATE>？？？
+「でやああああああああああああっっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【潜入装備】ふうま亜希03
+//　　　※カードイラストより流用
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　天地を切り裂くような気合。
+<PAUSE>
+<NAME_PLATE>
+　そして凄まじい衝撃。
+<PAUSE>
+<BG>nc037a,IN, 500
+<NAME_PLATE>
+　俺を貪ろうとしていた闇が
+一瞬にして消し飛んでいた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えっ！？　うわあっ！！」
+<PAUSE>
+<NAME_PLATE>
+　何が起こったか分からないまま
+俺の身体がひょいと持ち上げられた。
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま亜希
+「なにやってんだよ小太郎！？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、亜希姉？　なんで？」
+<PAUSE>
+<NAME_PLATE>亜希
+「小太郎をペロペロするために
+　決まってるだろ」
+<PAUSE>
+<NAME_PLATE>亜希
+「そしたら災禍のとこだって言うし、
+　迎えに行ったら変なのに襲われてるし」
+<PAUSE>
+<NAME_PLATE>亜希
+「なんだか分からないけど逃げるよ。
+　あの可愛さゼロのガキはヤバい！
+　ヤバすぎる！！」
+<PAUSE>
+<NAME_PLATE>
+　俺を抱えていたのは、
+近所に住んでいるふうまの親戚筋、
+亜希姉こと、ふうま亜希だった。
+<PAUSE>
+<NAME_PLATE>
+　ちょくちょくうちにやって来ては、
+小遣いをくれたり、遊んでくれたりする。
+<PAUSE>
+<NAME_PLATE>
+　飄々としているが一族屈指の剣客で、
+かすり傷一つを致命傷に変える強力な邪眼、
+“死裂”の使い手でもある。
+<PAUSE>
+<NAME_PLATE>
+　その亜希姉が迷わず逃げ出すとは。
+<PAUSE>
+<NAME_PLATE>俺
+「待って、亜希姉！！
+　あの子を一人になんて出来ない！」
+<PAUSE>
+<NAME_PLATE>亜希
+「あの子！？
+　どこにそんなのがいるんだよ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<GROUP>
+<BG>nc037a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>
+　俺は亜希姉に抱っこされたまま、
+後ろを見た。
+<PAUSE>
+<NAME_PLATE>俺
+「いない？」
+<PAUSE>
+<NAME_PLATE>
+　またあの子の姿が消えている。
+<PAUSE>
+<NAME_PLATE>
+　残っているのはあいつだけだ。
+<PAUSE>
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少年
+「ほらこれだ。
+　僕の力を奪っただけのことはあるね。
+　ただ処分するだけでも一苦労だよ」
+<PAUSE>
+<NAME_PLATE>
+　あいつが肩をすくめ、何か言っていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だがその言葉は俺には聞こえなかった。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

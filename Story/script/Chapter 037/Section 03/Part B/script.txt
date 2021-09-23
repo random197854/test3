@@ -1,0 +1,642 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：カルメラの館＿大広間＿昼】【時間：昼】
+//　※LILITH＿ZIM＿06＿nc011aより流用
+//nc439a
+<BGM_PLAY>bgm506,1000
+<BG>nc439a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「大掃除のお手伝いですか？」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　まずは掃除の手伝いから。
+<PAUSE>
+<NAME_PLATE>
+　その言葉にリーナはきょとんとした。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カルメラ
+「今ちょっと人手が足りなくてね。
+　お願いできる？」
+<PAUSE>
+//　※立ち絵
+//　　カルメラ＿立ち絵
+//　　　＊決戦アリーナイラストより流用
+<NAME_PLATE>カルメラ
+（どう？　魔界騎士になろうなんて子は
+　こんな雑用を言いつけられたことは
+　ないでしょう？）
+<PAUSE>
+<NAME_PLATE>カルメラ
+（プライドが傷ついた？
+　ちょっとでも嫌そうな顔をしたら
+　それを理由に叩きだしてあげるわ）
+<PAUSE>
+<NAME_PLATE>
+　カルメラはそう思ったのだが、
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、分かりました。
+　まずはこの大広間からでいいですか？」
+<PAUSE>
+<NAME_PLATE>カルメラ
+（え？　やる気？）
+<PAUSE>
+<NAME_PLATE>
+　リーナは毛筋ほどの不満も見せず、
+あっさり頷いた。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「え、ええ……かまわないわよ。
+　じゃあ、うちのメイド長に
+　魔法のモップを借りて―――」
+<PAUSE>
+<NAME_PLATE>
+　言ったカルメラの方が戸惑いつつ、
+そこまで口にすると、今度は顔を輝かせて、
+<PAUSE>
+<NAME_PLATE>リーナ
+「えっ？
+　魔法のモップを使わせて
+　頂けるんですか？」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「当たり前じゃない。
+　まさか手でやるつもりだったの？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、そのつもりでした！」
+<PAUSE>
+<NAME_PLATE>カルメラ
+（なんなのこの子？）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　どうにも違和感を覚えつつ、
+魔法のモップを持ってこさせる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「では始めます」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「い、いいわよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「魔法のモップよ！
+　うわ、すごいっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーナは別に珍しくもなんともない
+魔法のモップに喜び、大広間の掃除を始めた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「とわああああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　その顔はどう見ても楽しんでいて、
+妙なかけ声まで発している。
+<PAUSE>
+<ACTOR>0,kl_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カルメラ
+（ふうん、風を使うのね）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大広間を右に左に動き回るリーナの周りに
+うっすらと風の流れができていた。
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの弟子だと言うから
+てっきり炎を使うかと思っていたが
+ちょっと意外だ。
+<PAUSE>
+<ACTOR>0,kl_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カルメラ
+（すごく綺麗な風の流れだけど、
+　なんであんなに魔力を抑えてるのかしら？
+　よく分からない子ね）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>リーナ
+「うりゃああああああああああああ！」
+<PAUSE>
+<NAME_PLATE>
+　首をかしげるカルメラをよそに
+リーナは大広間を隅々まで掃除している。
+放っておいたらずっと続けていそうだ。
+<PAUSE>
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カルメラ
+「あーー、
+　それくらいでいいわよ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>リーナ
+「はい、分かりました。
+　さすが魔法のモップ。
+　掃除がものすごい楽ですね！」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「そう？　良かったわね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「カルメラ様、次はなにを？」
+<PAUSE>
+<NAME_PLATE>
+　今度は向こうから聞いてきた。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「次？
+　じゃあ、わたしの部屋を片付けて
+　ベッドメイキングも頼もうかしら」
+<PAUSE>
+<NAME_PLATE>リーナ
+「分かりました！」
+<PAUSE>
+//【背景：カルメラの館＿寝室＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc015aより流用
+//nc440a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc440a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「～～～～♪　～～～～♪」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　大広間のモップがけに続いて
+部屋の片付け。
+<PAUSE>
+<NAME_PLATE>
+　こんなことを命じられるとは
+全く思っていなかったリーナだが、
+やり始めたら妙に楽しくなってきた。
+<PAUSE>
+<NAME_PLATE>リーナ
+（なんだかお嬢様のところで
+　働いていたころを思い出すな。
+　うん、腕は鈍っていないようだぞ）
+<PAUSE>
+<NAME_PLATE>リーナ
+（片付けといっても
+　最初からお部屋はすごく綺麗だし）
+<PAUSE>
+<NAME_PLATE>リーナ
+（ジェロが隠れていて
+　いきなり脅かして来たりもしないし、
+　これはすごく楽だなっ）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m016a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カルメラ
+「あの子、どう見る？」
+<PAUSE>
+//　※立ち絵
+//　　カルメラ＿立ち絵
+//　　　＊決戦アリーナイラストより流用
+<NAME_PLATE>
+　カルメラは昔から家のこと一切を
+任せてきたメイド長に小声で尋ねた。
+<PAUSE>
+<NAME_PLATE>メイド長
+「とても慣れていますね」
+<PAUSE>
+//　※立ち絵
+//　　闇の侍女＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>カルメラ
+「やっぱりそう思う？
+　私がこんなことやらせると予想して、
+　イングリッドが予め仕込んだのかしら？」
+<PAUSE>
+<NAME_PLATE>メイド長
+「それは私にはなんとも。
+　楽しんでやっていますがそつがない。
+　部下に欲しいくらいです」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「あなたがそこまで言う？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そんな会話をしている間に、
+リーナは片付けをちゃちゃっと終えていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「カルメラ様、
+　こんなものでいいでしょうか？」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「ええ、問題ないわ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「次は何を？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カルメラ
+（まだやる気！？）
+<PAUSE>
+<NAME_PLATE>カルメラ
+「そ、そうね……
+　じゃあ、最後に私にお茶を淹れてくれる？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「お茶ですね。分かりました。
+　メイド長、台所に案内してもらえますか？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m016a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メイド長
+「では、こちらに」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kl_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カルメラ
+（あの子、いったい何しにきたのかしら？）
+<PAUSE>
+//【背景：カルメラの館＿食堂＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc008aより流用
+//nc441a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc441a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「カルメラ様、どうぞ」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リーナは昔はセルヴィアに
+今はイングリッドにしているように
+お茶を丁寧に淹れて出した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,kl_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カルメラ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　カルメラ＿立ち絵
+//　　　＊決戦アリーナイラストより流用
+<NAME_PLATE>
+　カルメラはカップを手に取り、
+柔らかな湯気の立つそれを一口。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「……美味しい」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それは良かったです」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カルメラ
+「なんなのよあなたは！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　カップをテーブルに置いて、
+カルメラはさっきからの困惑をぶつけた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「え？　なんなのよとは？」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「あなた原初の魔界騎士の試練を
+　受けるために来たんじゃないの？
+　なんでこんなに雑用が上手なの！？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「なんでと言われても、
+　昔よくやっていたので」
+<PAUSE>
+<NAME_PLATE>
+　リーナは正直に答えるが、
+カルメラはますます不思議そうな顔で、
+<PAUSE>
+<NAME_PLATE>カルメラ
+「昔よくやっていた？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい。
+　ローザマリー家でセルヴィアお嬢様に
+　お仕えしていました」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「あのローザマリー家で？
+　どういうこと？
+　あなた生まれはどこ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「どことも分かりません。
+　私は雑種の魔族ですから」
+<PAUSE>
+<NAME_PLATE>
+　普通の魔族なら、
+まして魔界騎士になろうという者なら
+決して言わないことを平然と口にした。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　「何言ってるのこの子」という顔で
+カルメラはしばし呆気にとられていたが、
+<PAUSE>
+<NAME_PLATE>カルメラ
+「え？　じゃあもしかして
+　会った時からずっと魔力が少ないのは」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「わざと魔力を抑えてたんじゃなくて
+　元々その程度ってこと？」
+<PAUSE>
+<NAME_PLATE>
+　その侮辱しているような問いにも、
+リーナはあっさりと頷く。
+<PAUSE>
+<NAME_PLATE>リーナ
+「仰る通りです。
+　修行によって少しは高まりましたが……」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「信じられない。
+　そんな魔力でよくも魔界騎士に
+　なろうなんて―――」
+<PAUSE>
+<NAME_PLATE>
+　勢いでそこまで口走って、
+そのリーナがイングリッドの紹介で
+ここまで来たことをはたと思い出す。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「待って、それをあのイングリッドが
+　認めたのよね？
+　だから私のところに来たのよね？」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「向こうじゃイングリッドは
+　あなたが魔界騎士を名乗るのを
+　もう許してたのよね？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、そうです。
+　ですがやはり原初の魔界騎士の試練を受けて、
+　正式な魔界騎士になりたいと」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カルメラ
+「ちょ、ちょっと来なさい！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　カルメラは立ち上がると、
+もはや意味不明の存在と化したリーナを
+さっきの大広間に引っ張っていった。
+<PAUSE>
+//【背景：カルメラの館＿大広間＿昼】【時間：昼】
+//　※LILITH＿ZIM＿06＿nc011aより流用
+//nc439a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc439a,IN, 1000
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>カルメラ
+「さあ、リーナ。
+　本気の一撃を私に放ってみなさい」
+<PAUSE>
+//　※立ち絵
+//　　カルメラ＿立ち絵
+//　　　＊決戦アリーナイラストより流用
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>リーナ
+「よろしいのですか？」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>カルメラ
+「それを見せにきたのでしょう。
+　その少ない魔力でいったいなにができるのか
+　見せてもらうわ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「分かりました。では―――」
+<PAUSE>
+<NAME_PLATE>
+　リーナはここに来てようやく
+剣を抜いて構えた。
+<PAUSE>
+<NAME_PLATE>
+　その桜色の刀身の輝きに
+カルメラは見覚えがあった。
+<PAUSE>
+<NAME_PLATE>カルメラ
+（あれはサクラブロッサム？
+　イングリッドに貰ったのかしら？
+　でもあんな弱い魔力で使いこなせるの？）
+<PAUSE>
+<NAME_PLATE>リーナ
+「でやあああああああああっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カルメラ
+（えっ？　速っ）
+<PAUSE>
+<NAME_PLATE>
+　剣を振り下ろす速さに
+少しだけ驚いた次の瞬間、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブォオオオオオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　その弱い魔力と剣速が合わさって
+いきなり桜吹雪を伴う大嵐が巻き起こった。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「なっ！？
+　ニーヴェオ！　ニーヴェア！！」
+<PAUSE>
+<NAME_PLATE>
+　久しく感じたことのなかった戦慄が
+背筋を駆け上がった。
+<PAUSE>
+<NAME_PLATE>
+　カルメラは反射的に“双貌”の由来でもある
+顔のついた二つの大盾を掲げていた。
+<PAUSE>
+<NAME_PLATE>
+　本気で防がなければ危ない。
+それほどの一撃だった。
+<PAUSE>
+<BG>nc439a,IN, 500
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「失礼致しました」
+<PAUSE>
+<NAME_PLATE>
+　カルメラを驚かせるどころか、
+一瞬とはいえ恐怖させた少女は
+ぺこりと頭を下げていた。
+<PAUSE>
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カルメラ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　カルメラはしばし呆然としていたが、
+パッと顔を輝かせた。
+<PAUSE>
+<NAME_PLATE>カルメラ
+「あなた、面白いわ！　すごく面白い！
+　こんな変な魔族見たことないわ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうですか。よく言われます。
+　ありがとうございます」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「私の認可ね。
+　いいわ、与えてあげる。
+　お安い御用よ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　カルメラはいそいそと
+リーナを認める魔法をかけ始めた。
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士として知ってはいたが、
+それを誰かにかけることなど
+まずないだろうと思っていた魔法だ。
+<PAUSE>
+<GROUP>
+<ACTOR>1,kl_t001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カルメラ
+「なんだか楽しくなってきたわ。
+　ものすごい変わり種の魔界騎士が
+　生まれそう。頑張りなさいね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、頑張ります」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「あなたいいわ。すごくいい。
+　あのイングリッドの下に置いとくなんて
+　もったいないくらいよ」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「ねえ原初の魔界騎士の試練が終わったら
+　私のところに来ない？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「いえ、そういうわけには。
+　私はもうノマドでイングリッド様に
+　仕えていますし」
+<PAUSE>
+<NAME_PLATE>カルメラ
+「そんなのいいじゃないの。
+　私あなたがとても気に入ってしまったわ。
+　うちに来なさいよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「え、ええーーーー！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　カルメラは突然、
+リーナのスカウトを始めた。
+<PAUSE>
+<NAME_PLATE>
+　大掃除の手伝いより、
+試練を受ける資格があるかのテストより、
+<PAUSE>
+<NAME_PLATE>
+　そのスカウトを断ることの方が
+リーナにとってはよほど大変であった。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

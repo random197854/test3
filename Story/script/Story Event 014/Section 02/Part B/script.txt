@@ -1,0 +1,503 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車学園＿図書室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO＿NC058aより流用
+//nc182a
+<BGM_PLAY>bgm304,1000
+<BG>nc005a,IN, 1000
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「土遁・金剛拳！！」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　まりの拳が唸りを上げて迫ってきた。
+<PAUSE>
+<NAME_PLATE>
+　土遁で鉄よりも硬くした拳だ。
+<PAUSE>
+<NAME_PLATE>
+　あんなものを食らったら一撃でお陀仏だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、真っ直ぐな性格の
+まりの攻撃は分かりやすい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「どわあっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は体を捌いて躱しつつ、
+まりから大きく距離を取った。
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「紙気・飛び鶴！！」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞立ち絵
+//　　　＊カードイラストより流用
+<SE_PLAY>se139
+<NAME_PLATE>
+　そんな俺を追い込むように、
+舞の折り鶴が風を切り裂いて飛んでくる。
+<PAUSE>
+<NAME_PLATE>俺
+「ひいっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ただの折り紙だが舞の手にかかれば、
+剃刀よりも鋭い刃と同じだ。
+<PAUSE>
+<NAME_PLATE>
+　人の身体くらい簡単に貫いてしまう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　校内で抜刀などしたくなかったが、
+俺はやむなく折り鶴に向かって刀を振った。
+<PAUSE>
+<NAME_PLATE>
+　スッ。
+<PAUSE>
+<NAME_PLATE>
+　折り鶴はクイッと軌道を変え、
+刀を避けて俺をさらに狙ってくる。
+<PAUSE>
+<NAME_PLATE>
+　だがそれはこっちも予想していた。
+まず迎撃など出来ないだろうと。
+<PAUSE>
+<NAME_PLATE>俺
+「だあっっっ！！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc005a,IN, 500
+<NAME_PLATE>
+　俺は刀を振った勢いを利用して
+自分から前に飛び込むように床を転がり、
+折り鶴の追撃を辛くも躱した。
+<PAUSE>
+<NAME_PLATE>
+　折り鶴は床に落ちるでもなく、
+スーッと舞の方に戻っていき、
+滞空したまま狙いを定めている。
+<PAUSE>
+<NAME_PLATE>俺
+（やばい……）
+<PAUSE>
+<NAME_PLATE>
+　冷や汗が止まらない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　今の二人の攻撃。完全に本気だった。
+<PAUSE>
+<NAME_PLATE>
+　逆に俺は、明らかに様子がおかしい
+何かに操られているとしか思えない二人に
+手出しができないでいる。
+<PAUSE>
+<NAME_PLATE>
+　というか、実のところあの二人は
+俺が本気になったところで敵う相手ではない。
+<PAUSE>
+<NAME_PLATE>
+　学校の中なので、
+二人が忍術の威力を抑えているのと、
+<PAUSE>
+<NAME_PLATE>
+　今までの付き合いで攻撃を読んで
+なんとかしのいでいるだけだ。
+<PAUSE>
+<NAME_PLATE>
+　しかも、二人の背後には――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女子生徒
+「ちっ、よけた」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女)立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR>1,ts_m087a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女子生徒
+「ふうまのくせに生意気」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（女)立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ts_m014a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女子生徒
+「少しでも隙を見せたら斬り刻んでやる」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(女)
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>女子生徒
+「いいえ、私が消し炭にする」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　知り合いでもなんでもない女子が
+俺を殺そうと手ぐすね引いて待っている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「なんなんだ、この状況は……」
+<PAUSE>
+<NAME_PLATE>
+　今までも妙なことが起こったが、
+今回のこれは本当にわけが分からない。
+<PAUSE>
+<NAME_PLATE>
+　本当に突然、
+まりや舞を始めとする女子が
+俺を殺そうとしているのだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「ふうまさん、意外と動きが素早いですね」
+<PAUSE>
+<NAME_PLATE>舞
+「ふうまさんは私たちのことをよく見てる。
+　それで動きを読んでる」
+<PAUSE>
+<NAME_PLATE>まり
+「よく見てるなんてイヤらしい。
+　やっぱり女の敵です、スケベです。
+　スうまさんです」
+<PAUSE>
+<NAME_PLATE>舞
+「万死に値する」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「そ、それは誤解だ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は言ったが、
+二人とも全く聞く耳を持たない。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>まり
+「舞ちゃん、スうまさんを
+　逃げられないようにして」
+<PAUSE>
+<NAME_PLATE>舞
+「わかった。
+　紙気・絶対隔離領域」
+<PAUSE>
+<NAME_PLATE>
+　舞の両手の袖からザーッと
+大量の紙がこぼれ落ちた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は反射的に身構えたが、
+紙束は俺ではなく廊下の両端に拡がり、
+<PAUSE>
+そこに壁を作った。
+<PAUSE>
+<BG>white,IN, 1000
+<NAME_PLATE>
+　さらに窓にもビッシリと張り付いて、
+どこからも逃げられないように俺を取り囲む。
+<PAUSE>
+<NAME_PLATE>
+　これでは袋の鼠だ。まずい。
+<PAUSE>
+<NAME_PLATE>まり
+「さすが舞ちゃん。完璧。
+　スうまさん、もう逃げられませんよ」
+<PAUSE>
+<NAME_PLATE>舞
+「覚悟してください。これは天罰です」
+<PAUSE>
+<NAME_PLATE>俺
+「て、天罰！？
+　ちょ、ちょっと待て！
+　いったいどういうことだ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　思わず問い返したその時、
+<PAUSE>
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリバリバリバリッッ！！！
+<PAUSE>
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　凄まじい閃光が目の前を駆け抜け、
+廊下の前後を塞いでいた紙壁に
+大穴を開けていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「嘘っ！？　舞ちゃんの紙が？」
+<PAUSE>
+<NAME_PLATE>舞
+「誰っ！？」
+<PAUSE>
+<NAME_PLATE>
+　誰だか分からないが逃げるチャンスだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺は迷わず二人に背を向け、
+空いた紙の穴から向こうの廊下に飛び出した。
+<PAUSE>
+<BG>nc005a,IN, 1000
+<NAME_PLATE>
+　だが、そこにいたのは――
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あっ、ふうま！」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>俺
+「ゆきかぜっ！」
+<PAUSE>
+<NAME_PLATE>
+　背筋が凍り付いた。
+<PAUSE>
+<NAME_PLATE>
+　まさかここでゆきかぜか！？
+<PAUSE>
+<NAME_PLATE>
+　なぜかウェディングドレスを着ているが、
+もし他の女子と同じように
+豹変したらアウトだ。
+<PAUSE>
+<NAME_PLATE>
+　雷撃の対魔忍から逃げられるわけがない。
+<PAUSE>
+<NAME_PLATE>
+　俺は一歩も動けなくなった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふうま……？」
+<PAUSE>
+<NAME_PLATE>俺
+「ゆきかぜ……？？」
+<PAUSE>
+<NAME_PLATE>
+　だが、ゆきかぜが
+俺を殺そうとする様子はない。
+<PAUSE>
+<NAME_PLATE>
+　それどころか珍しく不安そうに、
+俺の反応を窺うような顔をしている。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふうま、私にプロポーズしたくならない？」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？　なるわけないだろ。
+　それより俺を殺したくならないのか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「はあ？　なるわけないでしょ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺＆ゆきかぜ
+「「はっ！」」
+<PAUSE>
+<NAME_PLATE>
+　二人同時に息を呑んだ。
+<PAUSE>
+<NAME_PLATE>
+　どうやらお互いに
+妙なことになっているようだ。
+<PAUSE>
+<NAME_PLATE>
+　そしてどうやら
+お互いだけは正気のようだ。
+<PAUSE>
+<NAME_PLATE>男子生徒
+「ゆきかぜーー！　結婚してくれーーー！！」
+<PAUSE>
+<NAME_PLATE>女子生徒
+「スうま、殺してやるーーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの後ろからはおかしくなった男子が
+俺の後ろからはおかしくなった女子が迫る。
+<PAUSE>
+<NAME_PLATE>俺
+「お互いわけがわからないが！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「逃げるわよ！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシュウッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは紙で塞がれた窓を
+雷撃でぶち破り、
+そこから逃げだそうと俺の手を取った。
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　ぐにゃああ―――。
+<PAUSE>
+<NAME_PLATE>
+　手を繋いだ俺たちを中心に
+空間が歪んでいく。
+<PAUSE>
+<NAME_PLATE>
+　この“持っていかれる“感じは
+覚えがある。
+<PAUSE>
+<NAME_PLATE>
+　いつかブレインフレーヤーに
+仕掛けられたのと同じ空間転移の前兆だ
+<PAUSE>
+<NAME_PLATE>俺
+「飛ばされるぞ！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふうまあっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが俺の手を強く握りしめる。
+<PAUSE>
+<NAME_PLATE>
+　ふっ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは音もなくその場から消えた。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――――
+<PAUSE>
+<BG>nc005a,IN, 1000
+<BGM_PLAY>bgm203,1000
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「あれ？　私たちなにやってるんだろ？」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり
+//　　　　＊カードイラストより流用
+<NAME_PLATE>舞
+「確か、ふうまさんを追いかけて……？」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>まり
+「そうそう、ふうまさんを追いかけて？
+　あれれ？　ふうまさんは？」
+<PAUSE>
+<NAME_PLATE>舞
+「いない。
+　今ゆきかぜさんと一緒にいた気がするけど」
+<PAUSE>
+<NAME_PLATE>まり
+「いた気がするね？　でも消えちゃった」
+<PAUSE>
+<NAME_PLATE>舞
+「うん、消えちゃった」
+<PAUSE>
+<NAME_PLATE>まり
+「どうなってるの？」
+<PAUSE>
+<NAME_PLATE>舞
+「さあ？」
+<PAUSE>
+<NAME_PLATE>
+　首をかしげる二人。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ふうまを殺そうとしていた女子たち。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜにプロポーズしていた男子たち。
+<PAUSE>
+<NAME_PLATE>
+　彼らは何も覚えていなかった。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

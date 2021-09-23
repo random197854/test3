@@ -1,0 +1,809 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ジョンの館＿廊下＿夜】【時間：夜】
+//　※発情エクソシスト_nc012cより流用
+//nc357a
+<BGM_PLAY>bgm314,1000
+<BG>nc356a,IN, 1000
+<ACTOR>0,s_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ううう……。
+　出られないとかマジかよ」
+<PAUSE>
+<NAME_PLATE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　半泣きの鹿之助がこちらに戻ってきた。
+さて、どうするか。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「やっぱりあの魔術師のところに
+　行くべきでしょうね」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（それが近道。
+　彼がここの元凶のはず）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<ACTOR>0,ko_t008c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「あいつを倒せば蛇子も元に戻って
+　この家からも出られるのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「そういう単純な話だといいんだが」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あのシュヴァリエが
+昔振った男は嫌などと言わずに
+付いてきてくれたら。
+<PAUSE>
+<NAME_PLATE>
+　せめて何か聞こうと思って、
+電話をかけてみたが繋がらない。
+位置情報すら拾えない。
+<PAUSE>
+<NAME_PLATE>
+　念のため持ってきている
+アナログコンパスを見てみると、
+針がクルクル回って止まらない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ko_t008c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ひええ……
+　俺たち今、どこにいるんだよ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（館の中。それしか言えない）」
+<PAUSE>
+<NAME_PLATE>俺
+「会いに行くしかないか」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「お兄ちゃん、
+　パパのところに行くの？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　ミレーヌが不安そうに
+俺を見上げている。
+<PAUSE>
+<NAME_PLATE>
+　見た目は蛇子だが
+俺は幼い子供に話しかけるように
+しゃがんで目線を合わせた。
+<PAUSE>
+<NAME_PLATE>俺
+「大切な用があるんだ。
+　一緒に行ってくれるか？」
+<PAUSE>
+<ACTOR>0,h_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子（ミレーヌ）
+「う、うん……」
+<PAUSE>
+<NAME_PLATE>
+　ひやりとするその手を
+今度は俺の方から握る。
+<PAUSE>
+<NAME_PLATE>
+　ミレーヌは躊躇いがちに
+俺の手を握り返してきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、館の主、
+魔術師ジョンの部屋を目指したのだが、
+<PAUSE>
+//【背景：ジョンの館＿廊下２＿夜】【時間：夜】
+//　※彷徨う淫らなルナティクス＿nc010cより流用
+//nc359a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc359a,IN, 1000
+<ACTOR>0,s_t001e,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>鹿之助
+「な、なあ……
+　さっきと廊下の感じが違うよな。
+　あんなとこに階段なんかなかったよな」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>俺
+「なかったな……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さっき執事に案内された時にはなかった
+扉、階段、分かれ道。
+<PAUSE>
+<NAME_PLATE>
+　明らかに屋敷の構造が変わっていた。
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（迷路になっている？）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「俺たちを来させないように
+　してるみたいですね」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うう……
+　なんかもう迷ってるぜ、俺たち」
+<PAUSE>
+<NAME_PLATE>俺
+「ミレーヌ、
+　パパがどこにいるか分かるか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「……ごめんなさい」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　ミレーヌは悲しそうに首を振る。
+<PAUSE>
+<NAME_PLATE>
+　本当に分からないのか、
+俺たちを行かせないようにしているのか。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（私が霊気の強い場所を探してみる）」
+<PAUSE>
+<NAME_PLATE>俺
+「頼みます」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが不自然に曲がっている廊下、
+階段の下にある別の一つの通路、
+突き当たりの螺旋階段。
+<PAUSE>
+<NAME_PLATE>
+　俺たちはグルグルと歩き回る。
+確かに外から見たときは大きな館だったが
+こんなに広いはずがない。まさに迷路だ。
+<PAUSE>
+<ACTOR>0,ko_t008e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（駄目みたい。ごめん）」
+<PAUSE>
+<NAME_PLATE>俺
+「もうどこにいるかも分からないな」
+<PAUSE>
+<ACTOR>0,ko_t008e,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t001g,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「どうすんだよぉ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>蛇子（ミレーヌ）
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　どれくらい歩いたのかも分からない。
+距離や時間の感覚すら怪しくなってきた。
+<PAUSE>
+<NAME_PLATE>
+　途方に暮れて立ち止まっていると、
+あの執事がまた現れた。
+<PAUSE>
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>執事
+「お客様、どうかなされましたか？」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　良すぎるタイミングに驚いたが、
+ここの客として自然に話しかける。
+<PAUSE>
+<NAME_PLATE>俺
+「ご主人にお会いしたいんだけど、
+　部屋の場所が分からなくてさ。
+　悪いけどまた連れて行ってくれるか？」
+<PAUSE>
+<NAME_PLATE>執事
+「お断りさせていただきます。
+　主はとてもお忙しいお方、ことに今夜は。
+　お引き取りくださいませ」
+<PAUSE>
+<NAME_PLATE>
+　予想通りの返事だ。
+連れて行ってくれそうにない。
+<PAUSE>
+<NAME_PLATE>
+　何らかの脅しが効くとも思えないし、
+ここで執事と戦っても意味はない。
+<PAUSE>
+<NAME_PLATE>俺
+「忙しいってのは
+　今日は大切な儀式だからか？」
+<PAUSE>
+<NAME_PLATE>執事
+「さようでございます」
+<PAUSE>
+<NAME_PLATE>俺
+「それじゃ邪魔するわけにもいかないな」
+<PAUSE>
+<NAME_PLATE>執事
+「はい。
+　それまでゆるりとお過ごしくださいませ。
+　ミレーヌ様もお部屋にお戻りを」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t002g,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子（ミレーヌ）
+「……っ！
+　お、お兄ちゃん……行こう」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　ずっと大人しく俺に手を引かれていた
+ミレーヌが俺を引っ張った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ko_t008c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>孤路
+「（そうしたほうがいい）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>鹿之助
+「は、早く戻ろうぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあミレーヌの部屋に行こうか」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「うん……こっち」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　またミレーヌに手を引かれて歩く。
+<PAUSE>
+<NAME_PLATE>
+　ちらりと振り返ると、
+執事の姿はもう消えていた。
+<PAUSE>
+<NAME_PLATE>
+　来た廊下を少し戻り、
+さっきまでなかった階段を上り、
+その突き当たりの扉を開ける。
+<PAUSE>
+//【背景：ジョンの館＿ミレーヌの部屋＿夜】【時間：夜】
+//　※発情エクソシスト_nc004bより流用
+//nc360a
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm203,1000
+<BG>nc360a,IN, 1000
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>蛇子（ミレーヌ）
+「ここがミレーヌのお部屋」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>俺
+「可愛らしい部屋だな」
+<PAUSE>
+<ACTOR>0,h_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子（ミレーヌ）
+「外の人をつれてくるのは、
+　お兄ちゃんたちが初めて」
+<PAUSE>
+<NAME_PLATE>
+　ミレーヌはにっこりと笑った。
+心なしか落ち着いた様子だ。
+<PAUSE>
+<ACTOR>0,h_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子（ミレーヌ）
+「ミレーヌ、いつもこのお部屋。
+　お家からも出たことがないの」
+<PAUSE>
+<NAME_PLATE>俺
+「ずっとこの家に？」
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「パパがね、ミレーヌは綺麗なままで
+　いなさいって……だから」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「なんかすげえ邪なあれを感じないか？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　確かに。
+<PAUSE>
+<NAME_PLATE>
+　生贄には無垢な処女が云々というのは
+この手の話の定番だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ko_t008c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>孤路
+「（儀式のことを聞いてくれる？）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子（ミレーヌ）
+「……っ」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩が俺に頼むと、
+ミレーヌはビクッとした。
+<PAUSE>
+<NAME_PLATE>
+　蛇子に憑依している霊だからか、
+魂遁使いのコロ先輩が怖いようだ。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,h_t002d,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「パパの儀式について
+　ミレーヌはなにか知ってる？」
+<PAUSE>
+<ACTOR>1,h_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子（ミレーヌ）
+「パパはね……“偉大なもの”を
+　呼び出そうとしているの……」
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「ミレーヌの１３才の誕生日に……
+　パパの……お手伝いをするの……
+　そう決まってるの……」
+<PAUSE>
+<NAME_PLATE>
+　ミレーヌはこっくりこっくりし始めた。
+言葉もはっきりしなくなっていく。
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「儀式の時間は……もうすぐ……
+　夜の１２時の……鐘が……鳴ったら……」
+<PAUSE>
+<NAME_PLATE>俺
+「鐘が鳴ったら？」
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「ミレーヌ……パパに……」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>俺
+「ミレーヌ？　ミレーヌ！？」
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　駄目だ。眠ってしまった。
+<PAUSE>
+<NAME_PLATE>
+　ゆすっても目を覚まさない。
+死んだように深く眠っている。
+<PAUSE>
+<NAME_PLATE>
+　儀式について話させるのを
+何かが邪魔しているようだった。
+<PAUSE>
+<NAME_PLATE>
+　今夜の１２時、何が起こるのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　それとも、それはもう１５０年前の今日に
+起こってしまったことなのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　肝心な部分が分からない。
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩、日記に変化は？」
+<PAUSE>
+<ACTOR>0,ko_t008e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（さっきと変わっていない）」
+<PAUSE>
+<NAME_PLATE>
+　日記を開いていたコロ先輩は首を振った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「で、どうすんだよ？」
+<PAUSE>
+<NAME_PLATE>俺
+「１２時になるのを待つしかないな。
+　今が何時なのかも分からないが」
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ko_t008c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（それまでここで休憩？）」
+<PAUSE>
+<NAME_PLATE>俺
+「それまでかはともかく、
+　少し休憩しましょう。
+　ここは安全のようですし」
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「安全ったって、
+　館に閉じ込められてるんだぜ。
+　あーあ、この窓から出られたらなあ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鹿之助は窓の方に歩いて行く。
+外は真っ暗な夜だ。
+<PAUSE>
+<NAME_PLATE>
+　窓も開かないだろうと思っていたが、
+鹿之助が手をかけると普通に開いた。
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え？　開いた？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　鹿之助は拍子抜けしたように
+そこからから顔を出し、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うわあああああっっ！！！」
+<PAUSE>
+<ACTOR>0,s_t001h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　大声を上げて仰け反った。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした鹿之助！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は駆け寄り、そして絶句した。
+<PAUSE>
+//【背景：ジョンの館＿外の風景＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc038aより流用
+<UI_DISP>OFF, 500
+<BG>nc234a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　窓の外には視界いっぱいの星空が
+拡がっていた。
+<PAUSE>
+<NAME_PLATE>
+　そして、それしかなかった。
+<PAUSE>
+<NAME_PLATE>
+　下を向いても地上は見えず、
+果てしなく拡がる闇に包まれている。
+<PAUSE>
+<NAME_PLATE>
+　まるで屋敷自体がどこか異界の空にでも
+彷徨っているような有様だった。
+<PAUSE>
+<UI_DISP>OFF, 500
+<BG>nc360a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「本格的に閉じ込められたようだな」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（とても良くない状況）」
+<PAUSE>
+<NAME_PLATE>孤路
+「（早くしないとあの人たちと同じように
+　永遠にここで彷徨うことになるか
+　さもなくば―――）」
+<PAUSE>
+<NAME_PLATE>俺
+「１２時に行われる異界のものを
+　呼び出す儀式の生贄にされる？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（多分）」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「な、なあ、この窓から
+　外に出たらどうにかならないかな？」
+<PAUSE>
+<NAME_PLATE>
+　一番ビビっているくせに
+なかなか大胆なことを言う。
+<PAUSE>
+<NAME_PLATE>孤路
+「（止めた方がいい。
+　なにが起るか分からない）」
+<PAUSE>
+<NAME_PLATE>俺
+「あえて実験台になるなら止めないぞ」
+<PAUSE>
+<ACTOR>1,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「なるかよ！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鹿之助が勢いよく窓を閉めた
+その時だった。
+<PAUSE>
+//【背景：ジョンの館＿ミレーヌの部屋＿夜】【時間：夜】
+//　※発情エクソシスト_nc004bより流用
+//nc360a
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　ミレーヌが不意に起き上がった。
+<PAUSE>
+<NAME_PLATE>
+　目を覚ましたのかと思ったが、違う。
+<PAUSE>
+<NAME_PLATE>
+　瞼は開いているが、その目は虚ろだ。
+なにも見ていない。
+<PAUSE>
+<NAME_PLATE>
+　そして夢遊病者のようにフラフラと
+部屋から出て行こうとしている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「お、おい、ミレーヌ！」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（待って。
+　このままついて行こう）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「このまま？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（私たちが闇雲に動いても迷うだけ。
+　彼女の導きに従った方がいい）」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,s_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「でも、俺たちをどこに連れてく
+　つもりなんだよ……」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺たちは眠っているように歩く
+ミレーヌの後を追った。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、たどり着いたその先は、
+<PAUSE>
+//【背景：ジョンの館＿拷問室＿昼夜兼用】【時間：夜】
+//　※LILITH＿ZIM＿06＿nc016aを流用
+//nc361a
+<BG>nc361a,IN, 1000
+<NAME_PLATE>
+　地下の拷問部屋だった。
+<PAUSE>
+<NAME_PLATE>
+　そこには磔台、拘束椅子、手枷足枷、
+鉄の処女などの拷問具が所狭しと並んでいた。
+<PAUSE>
+<NAME_PLATE>
+　どれも黒々とした血の染みがこびり付き、
+<PAUSE>
+部屋中におぞましい死の匂いが漂っていた。
+<PAUSE>
+<ACTOR>0,s_t001h,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいいいいいいっ！！
+　やばいやばいやばいっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　鹿之助は総毛立ち、
+<PAUSE>
+<ACTOR>1,ko_t008h,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（気持ち悪い）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　コロ先輩も顔面蒼白だった。
+<PAUSE>
+<ACTOR>1,ko_t008e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>孤路
+「（ここで責め殺されて死んだ
+　悪霊が渦を巻いている）」
+<PAUSE>
+<NAME_PLATE>俺
+「なんでこんなとこに俺たちを？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　俺たちを連れてきたミレーヌは
+夢現のままボーッとしていたが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子（ミレーヌ）
+「いやあああああああああああああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、目を覚ますと、
+髪を振り乱して甲高い悲鳴を上げ始めた。
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「こわいこわいこわい！！
+　ここはいや！　いやあああああ！！！」
+<PAUSE>
+<ACTOR>0,ko_t008g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（動き出す）」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガチャッ！　ガチャガチャッ！！
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うわぁあああああああああ！！！」
+<PAUSE>
+<NAME_PLATE>
+　ミレーヌの悲鳴に呼び覚まされたかのように
+拷問具たちが一斉に動き始めた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m223a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m223a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m223a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>拷問具の悪霊
+「アアアアアアアアアアアアア！！！」
+「グアアアアアアアアアアアッッ！！」
+「キィイイイイイイイイイイイイッッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鉄の処女＿立ち絵
+//　　　　　＊新規デザイン
+//　※複数出してください。
+<NAME_PLATE>
+　責め殺された悪霊たちが
+拷問具に取り憑いている。
+その姿が俺にも見える。
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「いやいやいやぁああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>拷問具の悪霊
+「オマエノ……セイデ……」
+「ワレワレハ……殺サレタ……」
+「苦シメラレタ……オマエノセイデ……」
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「ごめんなさい……ごめんなさい……」
+<PAUSE>
+<NAME_PLATE>拷問具の悪霊
+「殺シテ……ヤル……」
+「俺タチト……同ジヨウニ……」
+「オマエタチモ……苦シメ……苦シメ……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>拷問具の悪霊
+「苦シメエエエエエエエエエエエエ！！」
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

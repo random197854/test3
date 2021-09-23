@@ -1,0 +1,2029 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：コンビニ前＿夜】【時間：夜】
+//　※僕のエルフお姉さん_街中駅前_夜より流用
+//nc382a
+//　※立ち絵
+//　　オーク兵立ち絵
+//　　　　＊モンスターイラストより流用
+//　　オーク傭兵立ち絵
+//　　　　＊モンスターイラストより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc382a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m022a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　オークだ。
+<PAUSE>
+<NAME_PLATE>
+　ぎらつく赤い目、潰れて上を向いた鼻、
+大きく裂けた口、そこからはみ出た牙。
+<PAUSE>
+<NAME_PLATE>
+　直立した豚のようなその姿。
+<PAUSE>
+<NAME_PLATE>
+　よく知っている。
+<PAUSE>
+<NAME_PLATE>
+　ラノベや漫画、ゲームではお馴染みの
+すぐやられてしまう雑魚だ。
+<PAUSE>
+<NAME_PLATE>
+　だけどこれは現実。
+<PAUSE>
+<NAME_PLATE>
+　現実に現れたオークは、本物のオークは、
+紛れもない怪物だった。
+<PAUSE>
+<NAME_PLATE>
+　その怪物が近づいてくる。
+<PAUSE>
+<NAME_PLATE>オーク
+「面倒をかけてくれたな、このガキ」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああぁ……」
+<PAUSE>
+<NAME_PLATE>俺
+（駄目だ、殺される！）
+<PAUSE>
+<NAME_PLATE>
+　分かっているのに動けない。
+<PAUSE>
+<NAME_PLATE>
+　息ができない。
+身体が強ばって動かない。
+声も上げられない。
+<PAUSE>
+<NAME_PLATE>
+　俺を殺しにくるオークを
+見ていることしかできない。
+<PAUSE>
+<NAME_PLATE>オーク
+「なあに痛えのは一瞬だ。
+　じっくり味わって死ね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　片方のオークが斧を振り上げ、
+俺の頭に振り下ろしてきた。
+<PAUSE>
+<NAME_PLATE>
+　それが変にゆっくりと見えたその時。
+<PAUSE>
+<NAME_PLATE>？？？
+「はああっ！」
+<PAUSE>
+//　※立ち絵
+//　　アサギ立ち絵
+//　　　＊【無刀魔滅】井河アサギ05より流用
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　闇を切り裂くような声と共に、
+横合いから一筋の閃光が走り、
+オークが吹っ飛んでいた。
+<PAUSE>
+<BG>nc382a,IN, 1000
+<ACTOR>0,chr_t0296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　一人の美しい女性が
+俺とオークの間に立ちはだかっている。
+<PAUSE>
+<NAME_PLATE>オーク
+「なっ！？　女っ！？」
+「その格好！　対魔忍か！？」
+<PAUSE>
+<NAME_PLATE>
+　オークたちが騒ぎ始める。
+もう俺など気にも留めていない。
+<PAUSE>
+<NAME_PLATE>俺
+「たいま……にん？」
+<PAUSE>
+<NAME_PLATE>
+　その名は知っていた。
+<PAUSE>
+<NAME_PLATE>
+　魔と対決するという忍者。
+<PAUSE>
+<NAME_PLATE>
+　この世には本当にそういう人がいて、
+超常的な力を持っていて、
+<PAUSE>
+<NAME_PLATE>
+　世界を守るために
+あのオークのような魔物と戦っている。
+<PAUSE>
+<NAME_PLATE>
+　だけどそれは遠い世界の出来事。
+<PAUSE>
+<NAME_PLATE>
+　オークと同じように、
+俺にとってはフィクションと変わらない存在。
+<PAUSE>
+<NAME_PLATE>
+　そのはずだった。
+<PAUSE>
+<NAME_PLATE>対魔忍の女性
+「立ちなさい！」
+<PAUSE>
+<NAME_PLATE>
+　現実に現れた対魔忍が俺に言った。
+<PAUSE>
+<NAME_PLATE>対魔忍の女性
+「その子を連れて逃げて！　早く！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　エレオノール立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　この人を連れて逃げろ？
+<PAUSE>
+<NAME_PLATE>
+　俺が？
+<PAUSE>
+<NAME_PLATE>
+　なにもできない俺が？
+<PAUSE>
+<NAME_PLATE>
+　フィクションならきっとモブキャラの俺が？
+<PAUSE>
+<NAME_PLATE>
+　どうしてこんなことになってしまったんだ。
+<PAUSE>
+<NAME_PLATE>
+　この人に出会ってしまったせいか？
+<PAUSE>
+<NAME_PLATE>
+　どうしてこんなことに―――
+<PAUSE>
+//【黒画面】
+//【背景：主人公の住んでいる街＿外観】【時間：昼】
+//　※ゆずみなつ_nc021aより流用
+//nc383a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc383a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　この町は東京のベッドタウンとして作られた
+人口２万人ほどの、
+どうということのない町だ。
+<PAUSE>
+<NAME_PLATE>
+　建物のほとんどが住宅街で、
+コンビニやスーパーを除いて
+大規模な商業施設も少ない。
+<PAUSE>
+<NAME_PLATE>
+　外部から入ってくる人間が少ないから、
+治安はそれほど悪くないかわりに、
+特に驚くようなことも起きない。
+<PAUSE>
+<NAME_PLATE>
+　ここで生まれ育った俺は
+今日までごく平凡に生きてきた。
+<PAUSE>
+<NAME_PLATE>
+　友達と喧嘩くらいはしたけれど、
+本物の犯罪に巻き込まれたり、
+<PAUSE>
+<NAME_PLATE>
+　ましてや誰かに殺されそうになることなど、
+ただの一度もなかった。
+<PAUSE>
+//【背景：通学路】【時間：昼】
+//　※ゆずみなつ_nc008aより流用
+//nc384a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc384a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その日もいつもと同じ。
+<PAUSE>
+<NAME_PLATE>
+　昨日の夜更かしのせいで寝坊して、
+朝は学校まで走る羽目になり、
+<PAUSE>
+//【背景：学校正門】【時間：昼】
+//　※先生を孕ませよう_nc003aより流用
+//nc385a
+<BG>nc385a,IN, 1000
+<NAME_PLATE>
+　なんとか予鈴ギリギリで間に合い、
+遅刻せずにはすんで、
+<PAUSE>
+//【背景：学校教室】【時間：昼】
+//　※先生を孕ませよう_nc009aより流用
+//nc386a
+<BG>nc386a,IN, 1000
+<NAME_PLATE>
+　好きな授業はそこそこ真面目に、
+そうでないものは適当に過ごし、
+<PAUSE>
+//【背景：学校部室】【時間：夜】
+//　※LILITH_IZM_05_nc001c
+//nc387a
+<BG>nc387a,IN, 1000
+<NAME_PLATE>
+　放課後は文芸部という名の
+漫画＆ラノベ読み放題部で
+オタク仲間とだべったり、
+<PAUSE>
+<NAME_PLATE>
+　締め切りが近いのに執筆が進まないでいる
+オリジナル小説を弄り回したりして、
+<PAUSE>
+<NAME_PLATE>
+　最終下校時刻には
+外はすっかり暗くなっていた。
+<PAUSE>
+//【背景：学校正門】【時間：夜】
+//　※先生を孕ませよう_nc003bより流用
+//nc385b
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc385b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>友達
+「じゃあな」
+<PAUSE>
+<NAME_PLATE>俺
+「また明日」
+<PAUSE>
+<NAME_PLATE>友達
+「ちゃんと原稿仕上げろよ」
+<PAUSE>
+<NAME_PLATE>俺
+「分かってるよ」
+<PAUSE>
+<NAME_PLATE>
+　友達と別れ、家に帰る。
+<PAUSE>
+<NAME_PLATE>
+　どうということのない一日。
+<PAUSE>
+<NAME_PLATE>俺
+「腹減ったな。
+　コンビニにでも寄ってくか」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（……そうだ。あの時、コンビニに
+　行こうなんて思わなければ、
+　彼女に会うこともなかった）
+<PAUSE>
+//【背景：児童公園】【時間：夜】
+//　※ゆずみなつ_nc013cより流用
+//nc388a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc388a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　学校からコンビニまでは
+児童公園を通り抜けるのが早い。
+<PAUSE>
+<NAME_PLATE>
+　もうあたりはすっかり暗く、
+公園で遊んでいる子供もいない。
+<PAUSE>
+<NAME_PLATE>
+　無人の公園はなんとなく不気味だ。
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　足早に通り抜けようとすると、
+中に入れるドーム型の遊具の内側で
+人影が動くのが見えた。
+<PAUSE>
+<NAME_PLATE>俺
+「……！？」
+<PAUSE>
+<NAME_PLATE>
+　誰かいる。
+<PAUSE>
+<NAME_PLATE>
+　こんな時間に？
+<PAUSE>
+<NAME_PLATE>
+　ひょっとしてかくれんぼしていて、
+取り残された子供かもしれない。
+<PAUSE>
+<NAME_PLATE>
+　小さい頃、そういう経験がある。
+<PAUSE>
+<NAME_PLATE>
+　誰にも見つけてもらえず
+気がついたら真っ暗になって、
+怖くて帰れなくなったのだ。
+<PAUSE>
+<NAME_PLATE>
+　万が一のことがあったら大変だ。
+俺は恐る恐る近づいて、中を覗き込んだ。
+<PAUSE>
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　エレオノール立ち絵
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわあ！」
+<PAUSE>
+<NAME_PLATE>
+　そこにいたのは子供ではなかった。
+<PAUSE>
+<NAME_PLATE>
+　大人の女性だ。
+<PAUSE>
+<NAME_PLATE>
+　それも蒼い瞳で、褐色の肌で、白い髪で、
+そして長い耳をして―――えええ？？
+<PAUSE>
+<NAME_PLATE>俺
+「ダ、ダークエルフ？　本物？
+　いやでもまさか。コ、コスプレ？」
+<PAUSE>
+<NAME_PLATE>
+　彼女はラノベや漫画から飛び出てきた
+ダークエルフそのままの姿をしていた。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダムやヨミハラ、
+嘘みたいだが魔界と繋がっている場所には
+本物がいるという話を聞いたことがある。
+<PAUSE>
+<NAME_PLATE>
+　俺はもちろん行ったことなどないし、
+知り合いで行った者もいない。
+<PAUSE>
+<NAME_PLATE>
+　だからそこにいた彼女が
+本物かどうかも分からなかったけれど、
+<PAUSE>
+<NAME_PLATE>
+　その姿は今までどんなフィクションで見た
+ダークエルフよりも綺麗だった。
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………？」
+<PAUSE>
+<NAME_PLATE>
+　彼女はいきなり現れ、いきなり大声を出した
+俺に驚くでもなく、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　大人が入るには小さすぎるドームの中で
+どこかボンヤリとした目で俺を見ていた。
+<PAUSE>
+<NAME_PLATE>
+　近所の公園にいるダークエルフ。
+あまりに現実味がなかった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>俺
+「な、なにしてるんですか？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「水……」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「綺麗な水……欲しい……」
+<PAUSE>
+<NAME_PLATE>
+　夢の中で囁くように言った。
+<PAUSE>
+<NAME_PLATE>
+　琴線にそっと触れてくるような
+繊細な声だった。
+<PAUSE>
+<NAME_PLATE>俺
+「喉が渇いてるんですか？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　首を振る。違うようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「綺麗な水が欲しいんですね？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　コクンと頷いた。
+<PAUSE>
+<NAME_PLATE>俺
+「水飲み場ならあそこですよ」
+<PAUSE>
+<NAME_PLATE>
+　俺がそう促すと、
+彼女はドームから出て立ち上がった。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「うわあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺より背が高く、
+信じられないくらい手足が長い。
+<PAUSE>
+<NAME_PLATE>
+　顔もすごく小さくて、
+スタイルはまるでモデルのようだ。
+<PAUSE>
+<NAME_PLATE>
+　ブーツと長手袋、それに
+ビキニのようなものを着けているだけで、
+ほとんど裸のような姿だ。
+<PAUSE>
+<NAME_PLATE>
+　なのにイヤらしさは少しも感じない。
+感じてはいけないような神秘性がある。
+<PAUSE>
+<NAME_PLATE>
+　夜の明かりに淡く照らされる姿は
+まるで妖精のようだ。
+<PAUSE>
+<NAME_PLATE>俺
+（こんな綺麗な人、見たことない。
+　やっぱり本物のダークエルフ？
+　でもなんでこんな町のこんな公園に？）
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「綺麗な水……どこ？」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい。こっちです」
+<PAUSE>
+<NAME_PLATE>
+　見とれていた俺は
+彼女を公園の水飲み場に案内した。
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「………？？」
+<PAUSE>
+<NAME_PLATE>
+　でも使い方が分からないみたいで
+首をかしげている。
+<PAUSE>
+<NAME_PLATE>
+　俺は蛇口を捻って、水を出してあげたが、
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「この水……違う……」
+<PAUSE>
+<NAME_PLATE>俺
+「違う？　なにがですか？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　彼女は答えない。
+<PAUSE>
+<NAME_PLATE>
+　ただ悲しそうに俺を見つめるだけだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　こんな綺麗な人にそんな顔をされると、
+なんだか放っておけない気持ちになる。
+<PAUSE>
+<NAME_PLATE>
+　この水じゃだめなのだろうか？
+ああそうか、水道水には塩素とか
+含まれてるからな。
+<PAUSE>
+<NAME_PLATE>
+　確かに水道水なんて
+綺麗なダークエルフさんには相応しくない。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあミネラルウォーターとかかな。
+　そのへんの自販機で……
+　自販機、分かります？」
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………？」
+<PAUSE>
+<NAME_PLATE>
+　彼女は首をかしげる。
+分からないみたいだ。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、付いてきて下さい」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは小さく頷き、
+迷子の子供のように俺の後を付いてきた。
+<PAUSE>
+//【背景：住宅街】【時間：夜】
+//　※魔法少女フェアリーナイツ_nc005cより流用
+//nc389a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc389a,IN, 1000
+<NAME_PLATE>
+　公園から通りに出る。
+<PAUSE>
+<NAME_PLATE>
+　ここをちょっと行った先に自販機がある。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　エレオノール立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺は彼女を振り返った。
+<PAUSE>
+<NAME_PLATE>
+　まるで体重がないかのように
+ふわふわと軽やかに歩いている。
+<PAUSE>
+<NAME_PLATE>
+　その幻想的な姿は
+俺が生まれ育ったこの町には
+あまりにも不釣り合いだ。
+<PAUSE>
+<NAME_PLATE>
+　彼女だけが別世界の住人のようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ここです自販機。
+　ミネラルウォーターは……あ、あった。
+　俺がおごりますよ」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「ミネラルウォーター……」
+<PAUSE>
+<NAME_PLATE>
+　オウム返しに言う彼女に
+俺はミネラルウォーターを買い、
+キャップを開けてあげたが、
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「この水……違う……」
+<PAUSE>
+<NAME_PLATE>
+　返事は同じだった。
+<PAUSE>
+<NAME_PLATE>
+　口を付けようともしない。
+<PAUSE>
+<NAME_PLATE>
+　悲しい顔をするだけだ。
+<PAUSE>
+<NAME_PLATE>俺
+「なにがどう違うんですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「どういう水が欲しいのか、
+　それでなにをしたいのかとか
+　教えてもらえると嬉しいんですが」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　俺は尋ねたが、
+彼女はひどく辛そうな表情で首を振るだけ。
+<PAUSE>
+<NAME_PLATE>
+　俺の言葉が通じていなかったり、
+自分でも説明できないとかではなく、
+<PAUSE>
+<NAME_PLATE>
+　なんというか
+なにか言いたいことがあるのに、
+それを口にすることができなくて、
+<PAUSE>
+<NAME_PLATE>
+　俺に「ごめんなさい」と
+ずっと謝っているような気がする。
+<PAUSE>
+<NAME_PLATE>
+　俺はそう感じた。
+<PAUSE>
+<NAME_PLATE>
+　そしてさっき会ったばかりの彼女のために
+どうにかして綺麗な水を探してあげたい。
+<PAUSE>
+<NAME_PLATE>
+　フィクションから
+俺の平凡な世界にやって来たような
+ダークエルフさんの力になりたい。
+<PAUSE>
+<NAME_PLATE>
+　強くそう思った。
+<PAUSE>
+<NAME_PLATE>俺
+「綺麗な水、綺麗な水……あ、そうか！
+　自然の水じゃないと駄目なんですね？
+　ですよね、ダークエルフですものね！」
+<PAUSE>
+<NAME_PLATE>俺
+「このすぐ近くの神社に
+　名水百選に選ばれた湧き水があるんです。
+　そこに行きましょう！」
+<PAUSE>
+<NAME_PLATE>
+　俺は彼女に手を差し出した。
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは俺が伸ばした手を
+不思議そうに見ている。
+<PAUSE>
+<NAME_PLATE>
+　つい調子に乗ってしまった自分が
+カーッと恥ずかしくなり、
+<PAUSE>
+<NAME_PLATE>俺
+「す、すいません。子供じゃあるまいし、
+　別に俺が手を引かなくても―――うわっ！」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺が引っ込めようとした手を
+ダークエルフさんがとっていた。
+<PAUSE>
+<NAME_PLATE>
+　小さくて柔らかい手。
+<PAUSE>
+<NAME_PLATE>
+　夢でも幻でもない、現実に俺の目の前にいる
+ダークエルフさんの手。
+<PAUSE>
+<NAME_PLATE>俺
+「え、ええと、あの……その……
+　な、名前、聞いてもいいですか？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「名前……？」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんはまた首をかしげた。
+<PAUSE>
+<NAME_PLATE>
+　言いたくないというより
+名前まで忘れてしまったような顔だ。
+<PAUSE>
+<NAME_PLATE>
+　きっとなにか事情があるんだろう。
+でもそんなことはどうでもいい。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃ、じゃあダークエルフさんって
+　呼んでもいいですか？
+　もしイヤじゃなければですけど……」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは頷いた。
+その無垢な瞳で俺をじっと見て。
+<PAUSE>
+<NAME_PLATE>
+　胸の奥がキュンとなった。
+<PAUSE>
+<NAME_PLATE>俺
+「い、行きましょう。
+　ダークエルフさん！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　それから名水が湧き出る神社まで
+何を話したのかよく覚えていない。
+<PAUSE>
+<NAME_PLATE>
+　ただダークエルフさんと一緒にいるのが、
+手を繋いで歩いているのが嬉しくて、
+<PAUSE>
+<NAME_PLATE>
+　まるで目を覚ましているのに
+夢の中にいるような気分で、
+<PAUSE>
+<NAME_PLATE>
+　学校のこととか書きかけの小説のこととか
+とりとめなく喋っていたように思う。
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは頷くだけだったが、
+俺にはそれで十分だった。
+<PAUSE>
+//【背景：神社】【時間：夜】
+//　※姫神さま以下略_nc013bより流用
+//nc379b
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc379b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「ダークエルフさん、ここです」
+<PAUSE>
+<NAME_PLATE>俺
+「なんとかの名水百選に選ばれたとかで、
+　この町の数少ない名所って言えば名所です。
+　普通に飲めるんですよ」
+<PAUSE>
+<NAME_PLATE>
+　その小さな神社は林の中にあり、
+すぐそばに湧き水があって
+小川になって流れている。
+<PAUSE>
+<NAME_PLATE>
+　昔、なんとかいう偉いお坊さんが
+ここで手を洗ったという由来があり、
+地元では洗手稲荷と呼ばれている。
+<PAUSE>
+<NAME_PLATE>
+　たまに水をくみに来ている人がいるが、
+俺はこんな機会でもなければ来ない。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　エレオノール立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ダークエルフさんは小川に近づいて、
+その流れに両手を浸した。
+<PAUSE>
+<NAME_PLATE>
+　今までとは反応が違う。
+これならいけるかと思ったが、
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「これは……良い水。
+　でも……足りない……」
+<PAUSE>
+<NAME_PLATE>
+　残念そうに言う。
+<PAUSE>
+<NAME_PLATE>俺
+「足りない？　なにがですか？」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「足りない……」
+<PAUSE>
+<NAME_PLATE>
+　よく分からないが、足りないようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「この水でも駄目ですか……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　水道水でもだめ。
+ミネラルウォーターでもだめ。
+自然の名水でもだめ。
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんが求めている
+綺麗な水とはなんなんだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱりあれかな。水の妖精の力に
+　溢れてるとかそういう話かな。
+　さすがにそれは分からないなあ」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんも答えてくれない。
+<PAUSE>
+<NAME_PLATE>
+　ちょっとお手上げだ。
+<PAUSE>
+<NAME_PLATE>
+　ぐーーー。
+<PAUSE>
+<NAME_PLATE>
+　いきなり俺の腹が鳴った。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「？？？」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんが怪訝そうな顔をした。
+<PAUSE>
+<NAME_PLATE>
+　そういえば何か食べ物を買いに、
+コンビニに行くところだった。
+<PAUSE>
+<NAME_PLATE>俺
+「ごめんなさい、ダークエルフさん。
+　ちょっとコンビニに行ってもいいですか？
+　俺、腹減っちゃって……」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「コンビニ……」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは小川に浸していた手を
+すらりと上げた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　掌から零れる水滴がキラキラと輝いていた。
+<PAUSE>
+//【背景：コンビニ店内＿夜】【時間：夜】
+//　※ゆずみなつ_nc006aより流用
+//nc390a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc390a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺はダークエルフさんを
+駅前のコンビニに連れて行った。
+<PAUSE>
+<NAME_PLATE>
+　もちろんその姿は人目を引き、
+店員や他の客が驚いていた。
+<PAUSE>
+<NAME_PLATE>
+　俺も普通なら驚く側だが今日は違う。
+<PAUSE>
+<NAME_PLATE>
+　俺がダークエルフさんを連れてきたのだ。
+なんだかちょっと気分がいい。
+<PAUSE>
+<NAME_PLATE>俺
+「ダークエルフさん、
+　あんまんでいいですか？」
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「あんまん……」
+<PAUSE>
+//　※立ち絵
+//　　エレオノール立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ダークエルフはそう繰り返しただけだが、
+ＯＫだと思った。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、あんまん二つ。
+　俺がおごりますよ」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+//【背景：駅前＿夜】【時間：夜】
+//　※僕のエルフお姉さん_街中駅前_夜より流用
+//nc382a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc382a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「ダークエルフさん、
+　そこに座って食べましょう」
+<PAUSE>
+<NAME_PLATE>
+　俺は店の外に出ると、
+コンビニの明かりの下の縁石に
+腰を下ろした。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんも俺に倣って、
+俺の横にちょこんと座る。
+<PAUSE>
+<NAME_PLATE>俺
+「はいどうぞ。
+　熱いから気をつけて下さい」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺があんまんを手渡すと、
+ダークエルフさんはその熱さに目を丸くする。
+<PAUSE>
+<NAME_PLATE>
+　妖精のようなダークエルフさんが
+俺たち人間と同じように長い指であんまんを
+アチアチとやっているのが不思議だ。
+<PAUSE>
+<NAME_PLATE>俺
+「いただきます、ぱく」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「……ぱくっ」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは俺の真似をするように
+あんまんに口を付けた。
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「……！！」
+<PAUSE>
+<NAME_PLATE>
+　あんこが熱かったのか、
+またビクッとしたが、
+すぐにその顔がふにゃっと緩んだ。
+<PAUSE>
+<NAME_PLATE>
+　甘くて美味しい物を食べたときの顔。
+俺たちと同じだ。
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「ぱくぱく……もぐもぐ……」
+<PAUSE>
+<NAME_PLATE>
+　綺麗な水はともかく、
+意外とお腹が空いていたらしい。
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは幸せそうに
+あんまんを頬張っている。
+<PAUSE>
+<NAME_PLATE>
+　なんだか俺も楽しくなってしまう。
+<PAUSE>
+<NAME_PLATE>俺
+「あははっ。
+　ダークエルフさんも
+　お腹が空いてたんですね♪」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「もぐもぐ……もぐもぐ……」
+<PAUSE>
+<NAME_PLATE>
+　学校帰りに女の子とコンビニに寄って
+買い食いするなんて初めてだ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　だけどそんな浮かれた気分は
+一瞬にして破られることになった。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ダークエルフ
+「……！」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　突然、ダークエルフさんが立ち上がり、
+怯えたように後ずさった。
+<PAUSE>
+<NAME_PLATE>
+　食べかけのあんまんが手から離れ、
+地面に落ちる。
+<PAUSE>
+<NAME_PLATE>俺
+「どうしたんですか、ダークエルフさん？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「こんなとこにいやがったぜ」
+「手間かけさせやがって」
+<PAUSE>
+<NAME_PLATE>
+　濁った太い声が聞こえた。
+<PAUSE>
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵立ち絵
+//　　　　＊モンスターイラストより流用
+//　　オーク傭兵立ち絵
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR>0,ts_m022a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そこにオークが立っていた。
+<PAUSE>
+<NAME_PLATE>
+　ぎらつく赤い目、潰れて上を向いた鼻、
+大きく裂けた口、そこからはみ出た牙。
+<PAUSE>
+<NAME_PLATE>
+　直立した豚のような不気味な姿。
+<PAUSE>
+<NAME_PLATE>
+　よく知っている。
+<PAUSE>
+<NAME_PLATE>
+　ラノベや漫画、ゲームではお馴染みの
+すぐにやられてしまう雑魚だ。
+<PAUSE>
+<NAME_PLATE>
+　だけどそこにいるオークは、
+本物のオークはまるで違った。
+<PAUSE>
+<NAME_PLATE>
+　人間など一捻りにしそうな巨体。
+凶暴極まりないその顔、その目付き。
+<PAUSE>
+<NAME_PLATE>
+　恐ろしいモンスターがそこにいた。
+<PAUSE>
+<NAME_PLATE>
+　なぜこんなところに、
+こんな町にオークがいるんだ！？
+<PAUSE>
+<NAME_PLATE>オーク
+「おいガキ、テメエがその女を
+　連れ回してたのか？」
+<PAUSE>
+<NAME_PLATE>
+　赤い目が俺をぎろりと睨み付けた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ひっ！」
+<PAUSE>
+<NAME_PLATE>
+　それだけで身体が凍り付く。
+<PAUSE>
+<NAME_PLATE>
+　怖い。
+<PAUSE>
+<NAME_PLATE>
+　気が遠くなるほど怖い。
+<PAUSE>
+<NAME_PLATE>
+　今すぐここから逃げ出したい。
+<PAUSE>
+<NAME_PLATE>
+　だけど身体は強ばり、全く動かない。
+<PAUSE>
+<NAME_PLATE>
+　ガキって俺のことか？
+<PAUSE>
+<NAME_PLATE>
+　オークが俺に話しかけてきた？　なぜ？
+<PAUSE>
+<NAME_PLATE>
+　連れ回したってダークエルフさんのことか？
+<PAUSE>
+<NAME_PLATE>
+　あの恐ろしい顔。
+まさか俺に怒っているのか！？
+<PAUSE>
+<NAME_PLATE>オーク
+「ふざけたまねしやがって。
+　どこのもんだ？　いや素人か？
+　まあいい。礼はさせてもらうぜ」
+<PAUSE>
+<NAME_PLATE>オーク
+「街の外での殺しは後が面倒じゃねえか？」
+<PAUSE>
+<NAME_PLATE>オーク
+「適当に始末しときゃ構わねえよ」
+<PAUSE>
+<NAME_PLATE>オーク
+「それもそうだな。手早く済ませろ」
+<PAUSE>
+<NAME_PLATE>オーク
+「おう」
+<PAUSE>
+<NAME_PLATE>
+　斧を持ったオークが俺に近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　今の会話は聞こえていたが、
+頭がそれを理解してくれない。
+<PAUSE>
+<NAME_PLATE>
+　違う、本当は理解していたが、
+感情がそれを拒否していた。
+<PAUSE>
+<NAME_PLATE>
+　殺す？　始末する？
+<PAUSE>
+<NAME_PLATE>
+　俺を殺す気なのか？
+<PAUSE>
+<NAME_PLATE>
+　どうして！？
+<PAUSE>
+<NAME_PLATE>
+　俺が何をしたって言うんだ？
+<PAUSE>
+<NAME_PLATE>
+　なんで俺を殺すんだ。いやだ！
+<PAUSE>
+<NAME_PLATE>オーク
+「面倒をかけてくれたな、このガキ」
+<PAUSE>
+<NAME_PLATE>俺
+「あああああ……」
+<PAUSE>
+<NAME_PLATE>
+　本当に殺す気だ。あの斧で殺す気だ。
+いやだ。死にたくない。やめてください
+お願いします。俺はなにもしてません。
+<PAUSE>
+<NAME_PLATE>
+　死にたくない、やめてくれ怖い、
+嘘だオークなんて、リアルなのかこれ？
+<PAUSE>
+<NAME_PLATE>
+　なんで俺が？　いやだ怖い、
+死にたくない死にたくない……。
+<PAUSE>
+<NAME_PLATE>オーク
+「なあに痛えのは一瞬だ。
+　じっくり味わって死ね」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああ……あああ……」
+<PAUSE>
+<NAME_PLATE>俺
+（駄目だ、殺される！）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　オークの斧が振り下ろされた次の瞬間。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍の女性
+「はああっ！」
+<PAUSE>
+//　※立ち絵
+//　　アサギ立ち絵
+//　　　＊【無刀魔滅】井河アサギ05より流用
+<NAME_PLATE>
+　巨体がいきなり横に吹っ飛んだ。
+<PAUSE>
+<BG>nc382a,IN, 1000
+<ACTOR>0,chr_t0296a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺を殺そうとしていたオークの代わりに
+凜々しい女性がそこに立っていた。
+<PAUSE>
+<NAME_PLATE>オーク
+「なっ！？　女っ！？」
+「その格好！　対魔忍か！？」
+<PAUSE>
+<NAME_PLATE>
+　オークたちが騒ぎ始める。
+もう俺など見てもいない。
+<PAUSE>
+<NAME_PLATE>俺
+「たいま……にん？」
+<PAUSE>
+<NAME_PLATE>対魔忍の女性
+「立ちなさい！」
+<PAUSE>
+<NAME_PLATE>
+　その人が言った。
+<PAUSE>
+<NAME_PLATE>対魔忍の女性
+「その子を連れて逃げて！　早く！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　斬りつけるような鋭い声に
+俺はおろおろとダークエルフさんを見上げた。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　怯えている。
+<PAUSE>
+<NAME_PLATE>
+　だけど一人では逃げられないみたいだ。
+<PAUSE>
+<NAME_PLATE>
+　俺を見ている。
+<PAUSE>
+<NAME_PLATE>
+　救いを求めるような目で。
+<PAUSE>
+<NAME_PLATE>
+　なんの力もない俺を、なにもできない俺を。
+<PAUSE>
+<NAME_PLATE>俺
+「ダークエルフさん！！」
+<PAUSE>
+<NAME_PLATE>
+　気がついたら立ち上がり、
+ダークエルフさんの手を掴んでいた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　そして逃げ出す。
+<PAUSE>
+<NAME_PLATE>オーク
+「待て、このガキ！」
+<PAUSE>
+「逃がさねえぞ！！」
+<PAUSE>
+<NAME_PLATE>対魔忍の女性
+「あなたたちの相手は私よ！」
+<PAUSE>
+<NAME_PLATE>
+　後ろでそんな声が聞こえた。
+<PAUSE>
+<NAME_PLATE>
+　恐ろしい闘いが始まる音も。
+<PAUSE>
+//【背景：商店街＿夜】【時間：夜】
+//　※ゆずみなつ_nc017c流用
+//nc391a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc391a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「はぁっはあっはあっああっ！」
+<PAUSE>
+<NAME_PLATE>
+　心臓が早鐘のように鳴っている。
+<PAUSE>
+<NAME_PLATE>
+　さっきから何度も転びかける。
+<PAUSE>
+<NAME_PLATE>
+　だけど怖くて足を止められない。
+<PAUSE>
+<NAME_PLATE>
+　後ろを振り返ることもできない。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「はっ、はっ、はっ、はっ」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんもひどく苦しそうだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それを気遣う余裕もない。
+頭の中はグルグルと回っていた。
+<PAUSE>
+<NAME_PLATE>
+　なにをやってるんだ、俺は？？
+こんなことしてどうするつもりだ！？
+<PAUSE>
+<NAME_PLATE>
+　あのオークは本物だ。
+本物のモンスターだ。
+<PAUSE>
+<NAME_PLATE>
+　俺を殺そうとした。
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんを探している。
+もしかしたら俺のことも。
+<PAUSE>
+<NAME_PLATE>
+　それにあの人。
+いきなり現れて助けてくれた。
+あの人はなんなんだ！？
+<PAUSE>
+<NAME_PLATE>
+　対魔忍だって？　本物の対魔忍？
+本当にそんなのがいたのか？
+<PAUSE>
+<NAME_PLATE>
+　だけど本物だとしてもアニメのように
+正義の味方とは限らない。
+<PAUSE>
+<NAME_PLATE>
+　いきなり連れて逃げろって、
+言うことを聞いてどうするんだ？？
+<PAUSE>
+<NAME_PLATE>
+　俺に何ができる？
+できることなんかなにもない。
+<PAUSE>
+<NAME_PLATE>
+　俺がダークエルフさんを守れるはずがない。
+逃げられるはずがない。
+<PAUSE>
+<NAME_PLATE>
+　きっと捕まってしまう。
+今度こそ殺されてしまう。
+<PAUSE>
+<NAME_PLATE>
+　いやだ、死にたくない。
+<PAUSE>
+<NAME_PLATE>
+　死にたくない。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「はっ、はっ、はっ、はっ」
+<PAUSE>
+<NAME_PLATE>
+　なのにこの手が離せない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　くそっ？　どうする？？
+<PAUSE>
+<NAME_PLATE>
+　もう限界だ、走れない。無理だ。
+<PAUSE>
+<NAME_PLATE>
+　どうしたらいい？　どうしたらいい？
+<PAUSE>
+<NAME_PLATE>俺
+「はあっはあっはっはっ……あっ！！」
+<PAUSE>
+<NAME_PLATE>
+　今度、大きなショッピングセンターが
+できる予定の工事現場が目に入った。
+<PAUSE>
+<NAME_PLATE>俺
+「ダークエルフさん、こっちです！」
+<PAUSE>
+<NAME_PLATE>ダークエルフ
+「……！！」
+<PAUSE>
+//【背景：工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018b流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc066a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「はぁ……はぁ……はぁはぁ……」
+<PAUSE>
+<NAME_PLATE>
+　暗い工事現場の物陰に隠れ、
+必死に息をひそめる。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「はぁ……はぁ……はぁ………」
+<PAUSE>
+//　※立ち絵
+//　　エレオノール立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ダークエルフさんがそばで震えている。
+<PAUSE>
+<NAME_PLATE>俺
+「さ、さっきのあの人が
+　きっとまた助けに来てくれます。
+　そ、それまでここでじっとしてましょう」
+<PAUSE>
+<NAME_PLATE>
+　そんな自分でも信じていないことを
+言うしかない。
+<PAUSE>
+<NAME_PLATE>
+　あの女の人が正義の対魔忍で
+あいつらをやっつけてくれたら。
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんのことも
+なんとかしてくれたら。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だけどそんな都合の良い願いは
+次の瞬間、あっさりと打ち砕かれた。
+<PAUSE>
+<ACTOR>0,ts_m071a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔犬
+「ガルルッ、ガルルルッ！！」
+<PAUSE>
+//　※立ち絵
+//　　デビルズドッグ立ち絵
+//　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ひいっっ！」
+<PAUSE>
+<NAME_PLATE>
+　工事現場に化物のような犬が入ってきた。
+<PAUSE>
+<NAME_PLATE>
+　ドーベルマンによく似た、
+でもその体は一回りも二回りも大きくて
+口から不気味な煙まで吐いている。
+<PAUSE>
+<NAME_PLATE>
+　どう見ても普通の犬じゃない。
+あれは魔犬だ。
+<PAUSE>
+<NAME_PLATE>
+　そして、その後ろから、
+覆面をして銃や刀を手にした
+一目でその筋と分かる男たちも。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤクザ
+「よーしよしよし。よく見つけた」
+「こんなとこに隠れてやがったか」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　　＊モンスターイラストより流用
+//　　ギャング立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　あいつらの仲間だ。
+俺たちを探していたのだ。
+<PAUSE>
+<NAME_PLATE>
+　人間のように見えるけれど、
+きっと人殺しなど何とも思わない連中だ。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああああ……」
+<PAUSE>
+<NAME_PLATE>
+　身体がガクガクと震え出す。
+<PAUSE>
+<NAME_PLATE>
+　駄目だ。逃げられない。
+<PAUSE>
+<NAME_PLATE>
+　もう終わりだ。
+<PAUSE>
+<NAME_PLATE>
+　ここで殺される。
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「舐めた真似をしてくれたな。このガキ」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一人が俺の胸ぐらを掴み、
+いきなり腹を殴った。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐうっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG_OUT>1000
+<SE_PLAY>se023
+<NAME_PLATE>
+　息ができなくなり、その場に崩れ落ちる。
+<PAUSE>
+<NAME_PLATE>
+　痛い、苦しい。怖い。
+<PAUSE>
+<NAME_PLATE>俺
+「うぐぐぐぐううう……」
+<PAUSE>
+<NAME_PLATE>
+　だめだ。
+<PAUSE>
+<NAME_PLATE>
+　やっぱり殺される。
+<PAUSE>
+<NAME_PLATE>
+　いやだ死にたくない。
+<PAUSE>
+<NAME_PLATE>
+　死にたくない。
+<PAUSE>
+<BG>nc066a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤクザ
+「それくらいにしておけ。
+　街の外でカタギを殺すとあとあと面倒だ」
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「やりゃしねえよ。
+　馬鹿のオークじゃねえ」
+<PAUSE>
+<NAME_PLATE>俺
+「え……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やらない？　殺さない？
+<PAUSE>
+<NAME_PLATE>
+　俺を殺さないのか？　本当に？
+<PAUSE>
+<NAME_PLATE>
+　じゃあ助かるのか？
+<PAUSE>
+<NAME_PLATE>
+　このまま見逃してくれるのか？
+<PAUSE>
+<NAME_PLATE>
+　死なずに済むのか？
+<PAUSE>
+<NAME_PLATE>
+　よかった。よかった。ああ……。
+<PAUSE>
+<NAME_PLATE>
+　俺の胸は喜びでいっぱいになったが、
+<PAUSE>
+<NAME_PLATE>俺
+「はっ！」
+<PAUSE>
+<NAME_PLATE>
+　じゃあ、ダークエルフさんは！？
+<PAUSE>
+<NAME_PLATE>
+　ハッとして上を見る。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダークエルフ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ダークエルフさんは
+今までで一番悲しそうな顔をしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だけど俺にはなにもできない。
+<PAUSE>
+<NAME_PLATE>
+　そんな力もない、勇気もない。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>俺
+「ダークエルフさん、
+　俺……なんの力もなくて……
+　ごめんなさい……ごめんなさい……」
+<PAUSE>
+<NAME_PLATE>
+　涙がボロボロと溢れてきた。
+<PAUSE>
+<NAME_PLATE>
+　ここまで引っ張ってきたくせに、
+殺されそうになったらすぐ
+ダークエルフさんのことを忘れて、
+<PAUSE>
+<NAME_PLATE>
+　助かったと思った途端、
+安堵した自分が情けなくて。
+<PAUSE>
+<BG>nc066a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤクザ
+「なんだこのガキ、泣いてやがるぜ」
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「放っておけ」
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「おいガキ、
+　この女は東京キングダムの娼館から
+　逃げ出したんだ」
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「俺たちはそれを捕まえに来たってわけだ。
+　この女が気に入ったんなら店に来な。
+　割引くらいはしてやるぜ。くはははは」
+<PAUSE>
+<NAME_PLATE>俺
+「う……うう……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　ヤクザたちに嘲笑され、
+これから娼館に連れて行かれるという
+ダークエルフさんのことを思い、
+<PAUSE>
+<NAME_PLATE>
+　それでも地べたにうずくまって
+泣くことしかできない。
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<BG>nc066a,IN, 500
+<NAME_PLATE>ダークエルフ
+「綺麗な水……見つけた……」
+<PAUSE>
+<NAME_PLATE>俺
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　思わず顔を上げた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺の涙がふわりと浮かび、
+両手を広げたダークエルフさんの胸に
+吸い込まれていく。
+<PAUSE>
+<NAME_PLATE>
+　その体が眩い光に包まれ、そして―――
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>エレオノール
+「私はエレオノール。
+　あなたの涙で力を取り戻せました。
+　ありがとう」
+<PAUSE>
+<NAME_PLATE>俺
+「俺の……涙？」
+<PAUSE>
+<NAME_PLATE>
+　エレオノールさんは頷き、微笑んだ。
+<PAUSE>
+<NAME_PLATE>
+　さっきまでのどこか夢を見ているような
+淡い微笑みとは違う。
+<PAUSE>
+<NAME_PLATE>
+　強い意思を感じさせる、
+優しくて温かい微笑み。
+<PAUSE>
+<NAME_PLATE>エレオノール
+「少し待っていてください」
+<PAUSE>
+<NAME_PLATE>
+　エレオノールさんは俺に言い、
+ヤクザたちを見据えた。
+<PAUSE>
+<NAME_PLATE>エレオノール
+「あなたたち、許しません」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤクザ
+「こ、このアマ！　力を！」
+「しかたねえ、大人しくさせろ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレオノール
+「涙の雫よ、我が意に従え」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　エレオノールさんが瞬きをした。
+<EFFECT_FLASH>WHITE, 1000
+<PAUSE>
+<NAME_PLATE>
+　青い瞳から涙が溢れ、
+それが五つの大きな水玉となって
+浮遊し始める。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤクザ
+「ちいっ！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンパンパンパン！
+<PAUSE>
+<NAME_PLATE>
+　ヤクザの一人が発砲した。
+<PAUSE>
+<NAME_PLATE>
+　生まれて初めての銃声に驚く間もなく、
+水玉が素早く動いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレオノール
+「無駄です」
+<PAUSE>
+<NAME_PLATE>
+　エレオノールさんが静かに告げる。
+撃たれたのになんともない。
+水玉で銃弾を防いだらしい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m071a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔犬
+「グアアアアアアアアアアッ！！」
+<PAUSE>
+//　※立ち絵
+//　　デビルズドッグ立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　次に魔犬が飛びかかってきたが、
+エレオノールさんは軽く手を振っただけだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　三つの水玉が素早く宙を走り、
+魔犬を空中でボコボコに打ち付けた。
+<PAUSE>
+<NAME_PLATE>魔犬
+「ギャウウンッ！！」
+<PAUSE>
+<BG>nc066a,IN, 500
+<NAME_PLATE>
+　魔犬は悲鳴を上げて地面に落ちると、
+そのまま子犬のように丸まって震え出す。
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「ぐうううっ……ううう……」
+「うがが……い、息が……ぐぐぐ……」
+<PAUSE>
+<NAME_PLATE>俺
+「っ！」
+<PAUSE>
+<NAME_PLATE>
+　呻き声にハッとヤクザたちを見ると、
+顔に水がベッタリとへばり付いていた。
+<PAUSE>
+<NAME_PLATE>
+　ヤクザたちは顔を真っ赤にして
+その水を引き剥がそうとしているが、
+指がすり抜けていくばかりだ。
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>
+　呆然とする俺の前で
+ヤクザたちは口からブクブクと泡を吐き、
+白目を向いてひっくり返っていった。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレオノール
+「命を奪うことはしません。
+　ですがもう私には構わないでください」
+<PAUSE>
+<NAME_PLATE>
+　エレオノールさんは悲しそうに言った。
+<PAUSE>
+<NAME_PLATE>
+　ヤクザたちを殺さなかったとはいえ
+人を傷つけるために水の力を使ったことを
+悲しんでいるような顔だった。
+<PAUSE>
+<NAME_PLATE>俺
+「エレオノールさん、すごい……」
+<PAUSE>
+<NAME_PLATE>エレオノール
+「ありがとうございます。でも本当に
+　私を助けてくれたのはあなたです。
+　どれだけ感謝しても―――」
+<PAUSE>
+<NAME_PLATE>
+　微笑みかけたエレオノールさんの顔が
+さっと強ばった。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレオノール
+「っ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ヤクザたちが入ってきた方を見据え、
+水玉を盾のように浮遊させて身構える。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>黒騎士パーシヴァル
+「役に立たない連中だ。
+　私が来るまでの時間稼ぎもできない上、
+　ダークエルフの力まで蘇らせるとは」
+<PAUSE>
+//　※立ち絵
+//　　黒騎士パーシヴァル＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>エレオノール
+「黒騎士パーシヴァル……」
+<PAUSE>
+<NAME_PLATE>
+　エレオノールさんの声は震えていた。
+<PAUSE>
+<NAME_PLATE>
+　黒騎士、そうとしか言い様がなかった。
+<PAUSE>
+<NAME_PLATE>
+　全身をくまなく覆った真っ黒い甲冑。
+右手にブロードソード、
+左手にナイトシールド。
+<PAUSE>
+<NAME_PLATE>
+　ファンタジーの世界から抜け出てきたような
+凶悪極まりない黒騎士がそこにいた。
+<PAUSE>
+<NAME_PLATE>ヤクザ
+「パ、パーシヴァル様……」
+<PAUSE>
+<NAME_PLATE>
+　意識を取り戻したヤクザが助けを求めて
+黒騎士に這いずっていったが、
+<PAUSE>
+<NAME_PLATE>黒騎士パーシヴァル
+「邪魔だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　黒騎士は躊躇うことなく
+ヤクザの首を跳ね飛ばした。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　さらに気絶していた他のヤクザ、
+怯えていた魔犬まで惨殺していく。
+<PAUSE>
+<NAME_PLATE>
+　剣が肉を切り裂く音、
+飛び散る血飛沫、鼻を突く匂い、
+もう限界だった。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>俺
+「うげええええええええええ」
+<PAUSE>
+<NAME_PLATE>
+　黒騎士を見た瞬間から、
+悲鳴を上げまいと口に手を入れていたが、
+ついに耐えきれずにドッと吐いていた。
+<PAUSE>
+<BG>nc066a,IN, 500
+<NAME_PLATE>黒騎士パーシヴァル
+「小僧、そこでじっとしていろ。
+　このダークエルフのあとで
+　八つ裂きにしてやる」
+<PAUSE>
+<NAME_PLATE>
+　赤い血に染まった黒兜の下で、
+黒騎士の瞳が俺をじっと見据えた。
+<PAUSE>
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレオノール
+「早く！　逃げてください！」
+<PAUSE>
+<NAME_PLATE>
+　エレオノールさんが俺に叫ぶ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「あ、あああ……ああ……」
+<PAUSE>
+<NAME_PLATE>
+　だけど身体が麻痺したように動かない。
+<PAUSE>
+<NAME_PLATE>
+　動くことができない。
+<PAUSE>
+<ACTOR>0,ts_m239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　怖い。
+<PAUSE>
+<NAME_PLATE>
+　あの黒騎士が怖い。
+<PAUSE>
+<NAME_PLATE>
+　オークよりも、ヤクザよりも。
+<PAUSE>
+<NAME_PLATE>
+　なのに目を離すことができない。
+どこにも逃げられない。
+<PAUSE>
+<NAME_PLATE>
+　蛇に睨まれた蛙だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0295a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレオノール
+「あの人は殺させません！」
+<PAUSE>
+<NAME_PLATE>
+　逃げることもできない俺を守るため、
+エレオノールさんが黒騎士に立ちはだかった。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

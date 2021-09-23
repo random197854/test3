@@ -1,0 +1,744 @@
+//FileNo:S001a
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　ヨミハラへ下る、少し前のこと。
+<PAUSE>
+//【背景：ふうま自室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC027aより流用
+<BG>nc071a,IN, 1000
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>俺
+「うーーむ……」
+<PAUSE>
+<NAME_PLATE>
+　俺は、床に積み上げた本を
+全てめくり終え、ため息をついた。
+<PAUSE>
+<NAME_PLATE>俺
+「やはり魔性に関する資料は少ないか」
+<PAUSE>
+<NAME_PLATE>
+　俺は桐生佐馬斗に言われたことが気になり、
+“魔性”についての情報を漁っていた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、学校や家の書庫にある本は、
+忍者や忍法についてのものがほとんど。
+<PAUSE>
+<NAME_PLATE>
+　魔族や魔性についての本は多くなく、
+ほとんどが読破済みである。
+<PAUSE>
+<NAME_PLATE>俺
+「忍者の町なんだし、当然といえば当然か」
+<PAUSE>
+<NAME_PLATE>俺
+「となると魔性のことは、魔族に聞くのが
+　一番なんだろうが……」
+<PAUSE>
+<NAME_PLATE>
+　俺の知り合いの魔族といえば、
+無骨な傭兵オークに、いたずらな小悪魔ども。
+お世辞にも博識そうな奴らではない。
+<PAUSE>
+<NAME_PLATE>俺
+「……うむ、
+　心当たりがないなら探すしかあるまい」
+<PAUSE>
+<NAME_PLATE>
+　俺は本を部屋の隅に寄せると、
+ある女子に連絡を取る。
+<PAUSE>
+//【背景：東京キングダム闇市場＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc015aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BGM_STOP>1000
+<WAIT>1000
+<BG>nc123a,IN, 1000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　数日後。
+<PAUSE>
+<NAME_PLATE>
+　東京湾に浮かぶ廃棄都市、
+東京キングダム。
+<PAUSE>
+<NAME_PLATE>
+　いつしか裏社会、そして魔のものたちの
+跋扈する魔都となったこの町には、
+闇商人達による市場が立っている。
+<PAUSE>
+<NAME_PLATE>俺
+「悪いな獅子神、つきあわせて」
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>獅子神自斎
+「気にしないで。
+　私もちょうど任務が終わって、
+　五車へ帰るところだったし」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>
+　魔界の珍品が並ぶこの市場ならば、
+魔について書かれた書物もあるかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、一人歩きには危険な町である。
+そこで俺は、
+獅子神に護衛を頼んだのだ。
+<PAUSE>
+<NAME_PLATE>自斎
+「どう？
+　探し物は見つかりそう？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、期待できそうだぜ――っと！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,700
+<BG>nc123a,NONE
+<TRANSITION>TR01, IN,800
+<ACTOR>1,h_t002b,CENTER, CENTER, IN, linear, 700
+</GROUP>
+<NAME_PLATE>
+　期待に胸を躍らせた瞬間、
+後ろからぐいと服を引っ張られる。
+<PAUSE>
+<NAME_PLATE>相州蛇子
+「ふうまちゃんふうまちゃん！！
+　あれ何かしら！
+　蛇子の足みたい！」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　テンション高めな蛇子が指差すのは、
+極彩色の奇妙なフルーツが並んだ露天商だ。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、あれはテンタクルフルーツだな。
+　魔界の熱帯地方に生息する植物だ。
+　少し熟した方が甘くて美味いとか」
+<PAUSE>
+<ACTOR>1,h_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「食べれるの！？　買ってみようかしら」
+<PAUSE>
+<NAME_PLATE>俺
+「やめとけ――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,700
+<BG>nc123a,NONE
+<TRANSITION>TR01, IN,800
+<ACTOR>2,s_t001e,CENTER, CENTER, IN, linear, 700
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「なあなあふうま見ろよ！
+　ちっちゃい首がいっぱい並んでるぜ！？
+　ほほほ本物なのか！？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「あー、
+　多分あれは羅刹オークの獲物だ。
+　狩った敵の首を加工して小さくするらしい」
+<PAUSE>
+<ACTOR>2,s_t001h,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひええええ！？
+　怖すぎるだろぉぉ！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子と鹿之助は、好奇心まるだしの目で
+あたりを見回している。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,700
+<BG>nc123a,NONE
+<TRANSITION>TR01, IN,800
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 700
+</GROUP>
+<NAME_PLATE>俺
+「悪いな獅子神、騒がしくて」
+<PAUSE>
+<NAME_PLATE>自斎
+「楽しそうで良いじゃない。
+　私はいつも一人だから……」
+<PAUSE>
+<NAME_PLATE>
+　獅子神は俺達と同じ学生だが、
+その能力から『人に迷惑をかける』といって、
+一人でいることが多い。
+<PAUSE>
+<NAME_PLATE>
+　偶然一緒に事件に巻き込まれるまで、
+俺も名前を知らなかったくらいだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「だけど困ったもんよね、
+　ふうまちゃんの好奇心にも！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「魔術の本が欲しいからって、
+　こんな危ない所まで、
+　獅子神さんを付き合わせて？」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよ蛇子。
+　やけにつっかかるな」
+<PAUSE>
+<NAME_PLATE>俺
+「そもそもお前ら二人は、
+　勝手についてきたんだろ？」
+<PAUSE>
+<ACTOR>1,h_t002c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,s_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「へっへ、鈍いなふうま。
+　蛇子は怒ってるんだぜ♪
+　ふうまが獅子神とデートなんてするから」
+<PAUSE>
+<ACTOR>1,h_t002i,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「ち、ちがっ！？」
+<PAUSE>
+<ACTOR>1,h_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「何言ってるのよ鹿之助ちゃん！！？」
+<PAUSE>
+<ACTOR>1,h_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「デートじゃないぞ。
+　俺が獅子神に護衛を頼んだんだ」
+<PAUSE>
+<ACTOR>2,s_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「なんだ、違うのかよ。
+　じゃあなんで俺達に黙って、
+　こんなトコへ来るんだ？」
+<PAUSE>
+<NAME_PLATE>俺
+「それは……えーと、
+　獅子神と一緒に巻き込まれた事件の話、
+　しただろ？」
+<PAUSE>
+<ACTOR>1,h_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「迷宮に閉じ込められたって話よね」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。
+　あんな事件がまたないとは限らないし、
+　魔術関連の知識を深めたいと思ってな」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「それで、一緒に事件に巻き込まれた、
+　獅子神を誘ったってことか」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。別に隠してたわけじゃないさ」
+<PAUSE>
+<ACTOR>2,s_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ふーん。まあ、
+　ふうまの知識にはいつも助けられてるから、
+　文句はないけどさ！」
+<PAUSE>
+<NAME_PLATE>自斎
+「私もこの前助けられたよ。
+　二人もそうなんだね」
+<PAUSE>
+<NAME_PLATE>俺
+（獅子神、楽しそうだ。
+　蛇子と鹿之助がついてきて、
+　逆に良かったかもな）
+<PAUSE>
+<NAME_PLATE>俺
+「……ん？
+　あれは……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<BG>nc123a,NONE
+<TRANSITION>TR01, IN,500
+</GROUP>
+<NAME_PLATE>
+　ふと一軒の店で足が止まる。
+そこには見覚えのある男の姿があった。
+<PAUSE>
+<ACTOR>3,zk_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゾクト
+「はいはい、いらっしゃいませ。
+　何かご入り用で――あ」
+<PAUSE>
+//　※立ち絵
+//　　ゾクト立ち絵
+//　　　　＊対魔忍ユキカゼ１より流用
+<ACTOR>3,zk_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「よ、よお……」
+<PAUSE>
+<ACTOR>3,zk_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゾクト
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　微妙な空気が流れる。
+<PAUSE>
+<ACTOR>3,zk_t001c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゾクト
+「て、て、てめえ！
+　なにしにきやがった！！！」
+<PAUSE>
+<NAME_PLATE>ゾクト
+「こんなところまで追って来たのか！！？
+　あのときはマダムに雇われただけだって
+　言っただろうが？！」
+<PAUSE>
+<NAME_PLATE>俺
+「いや待て、そうじゃなくて――」
+<PAUSE>
+<NAME_PLATE>
+　こいつは以前蛇子がさらわれた時、
+カオス・アリーナの女主人に雇われて、
+俺達を案内した魔族・ゾクト。
+<PAUSE>
+<NAME_PLATE>
+　その時に色々あって、少なからず
+遺恨があるわけで……。
+<PAUSE>
+<NAME_PLATE>
+　ゾクトは銃を構えようとするが、
+獅子神の方が早かった。
+<PAUSE>
+<ACTOR>3,zk_t001d,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se004
+<NAME_PLATE>自斎
+「動けば殺す。二度は言わない」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゾクト
+「ひえっ！？」
+<PAUSE>
+<NAME_PLATE>
+　獅子神の刃がゾクトの首に突き付けられる。
+<PAUSE>
+<NAME_PLATE>俺
+「待ってくれ獅子神！
+　荒事をしにきた訳じゃない」
+<PAUSE>
+<NAME_PLATE>
+　その言葉を聞いて獅子神の殺気が緩むが、
+刃はゾクトの首元に当てて離さない。
+<PAUSE>
+<NAME_PLATE>ゾクト
+「じゃ、じゃあ一体何なんだよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「聞きたいことがあるだけなんだ」
+<PAUSE>
+<ACTOR>3,zk_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゾクト
+「き、聞きたいこと？
+　なんでも話すから、
+　とにかくこの女を何とかしてくれよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「獅子神」
+<PAUSE>
+<NAME_PLATE>
+　獅子神はうなずいて刃を下ろす。
+<PAUSE>
+<ACTOR>3,zk_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゾクト
+「全く恐ろしいガキどもだ……。
+　で、聞きたいことってのは？」
+<PAUSE>
+<NAME_PLATE>俺
+「魔性の力、
+　つまり魔族の力の源についてだ」
+<PAUSE>
+<NAME_PLATE>俺
+「何か情報――詳しい人物とか、
+　そういう書物を扱ってる店は知らないか」
+<PAUSE>
+<ACTOR>3,zk_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゾクト
+「さあなあ。悪いが専門外だ。
+　そんな魔術師や錬金術師が読むような、
+　小難しいモン……あ、いや待てよ」
+<PAUSE>
+<NAME_PLATE>俺
+「心当たりがあるのか？」
+<PAUSE>
+<NAME_PLATE>ゾクト
+「ああ、会った事はないんだが、
+　詳しそうな奴が近くにいたな……
+　無論、タダじゃねえぜ？」
+<PAUSE>
+<NAME_PLATE>自斎
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　調子が戻って来たゾクトに、
+獅子神が再び殺気を向ける。
+<PAUSE>
+<ACTOR>3,zk_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゾクト
+「ひぃっ！？」
+<PAUSE>
+<ACTOR>3,zk_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゾクト
+「分かった！　教える！！！
+　教えるから、その怖い女を
+　どこかにやってくれよ！！」
+<PAUSE>
+<NAME_PLATE>自斎
+「わかればいいのよ」
+<PAUSE>
+<NAME_PLATE>俺
+（やっぱり獅子神に来てもらって
+　正解だったな……）
+<PAUSE>
+//【背景：東京キングダム高級住宅街＿夜】【時間：夜】
+//　※MonstersSurvive_nc016bより流用
+<ACTOR_OUT>3,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc110a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　闇の市場を抜けると、
+静かな通りに出た。
+<PAUSE>
+<NAME_PLATE>俺
+（小綺麗な家が多いな……
+　闇商売で儲ける奴がいれば、
+　高級住宅街もできるというわけか）
+<PAUSE>
+<NAME_PLATE>
+　俺達は、一軒の家の前で立ち止まる。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「この家ね、
+　錬金術師のアトリエっていうのは」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,h_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,s_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「蛇子、錬金術師に会うの初めて！
+　どんな人かしら」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「きっと偏屈なじーさんだぜ」
+<PAUSE>
+<NAME_PLATE>
+　ゾクトが教えてくれたところによると。
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,500
+<ACTOR_OUT>2,RIGHT,linear,500
+<TRANSITION>TR14, OUT, 1000
+</GROUP>
+<NAME_PLATE>ゾクト
+「この先に錬金術師がアトリエを構えてる。
+　魔界じゃ爵位を持ってるとかいう噂だし、
+　それなりに詳しいんじゃないか」
+<PAUSE>
+<NAME_PLATE>ゾクト
+「ま、俺も聞いた話だ。
+　あんまアテにはすんなよ」
+<PAUSE>
+//【背景：東京キングダム高級住宅街＿夜】【時間：夜】
+//　※MonstersSurvive_nc016bより流用
+<BG>nc110a,NONE
+<TRANSITION>TR14, IN,1000
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「確かに、錬金術師なら
+　博識そうね」
+<PAUSE>
+<NAME_PLATE>俺
+「さっそく行ってみるか。
+　えーと、すみませーー……」
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>自斎
+「！！！
+　みんな、伏せろ！」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ＢＡＤＡＤＡＤＡＤＡＤＡＤＡ！！！！
+<PAUSE>
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>
+　思わず伏せると、
+銃声とともに、弾丸の嵐が
+頭上をかすめていく。
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだ！？」
+<PAUSE>
+<GROUP>
+<ACTOR>4,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>5,ts_m039a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング１
+「死ねェ！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>鹿之助
+「ひぃぃ！？　いきなり何だよ！？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>ギャング２
+「親父さんの仇だ！！
+　オラァァァ！！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ＢＡＤＡＤＡＤＡＤＡＤＡ！！！！
+<PAUSE>
+<NAME_PLATE>
+　全くの問答無用とばかりに、
+再び弾丸の雨が降り注ぐ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「おおおおいふうま、
+　俺達だれかの父ちゃん
+　殺しちゃったのか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「これだけ戦ってくると、
+　ありえないとも言いきれないが」
+<PAUSE>
+<NAME_PLATE>
+　物影からそっと覗き見ると、
+襲ってきたのはチンピラ然とした男達である。
+<PAUSE>
+<ACTOR>2,s_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「でも、だからって
+　大人しく討たれるわけにはいかないわよ！」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子汎用立ち絵＿対魔忍衣装（タコ化）
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　と、蛇子はタコ化して戦闘態勢に入る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「同意見だわ。
+　どうする？　ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな……
+　幸い相手の人数は多くない。
+　弾が切れるのを待って反撃するしか――」
+<PAUSE>
+<NAME_PLATE>
+　そのとき、背後でギィと音がした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<SE_PLAY>se095
+<ACTOR>5,chr_t0100a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「何事？　喧しいこと」
+<PAUSE>
+//　※立ち絵
+//　　【桃華の賢者】シュヴァリエ
+//　　　＊カードイラストから流用
+<NAME_PLATE>
+　騒ぎを聞いて、
+家の主人が出てきたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、いや、これは――」
+<PAUSE>
+<NAME_PLATE>
+　すると、
+襲撃者たちの矛先は一斉に女へと向く。
+<PAUSE>
+<NAME_PLATE>ギャング３
+「出たな親玉め！」
+<PAUSE>
+<NAME_PLATE>ギャング１
+「よくも親父さんを！！」
+<PAUSE>
+<ACTOR>5,chr_t0100a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>6,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「待て、撃つな。
+　お前が錬金術師のシュヴァリエだな？」
+<PAUSE>
+//　※立ち絵
+//　　チンピラのリーダー
+//　　　　＊ふうま下忍(男)のイラストを流用
+<NAME_PLATE>
+　はやる襲撃者たちを制し、
+リーダー格と思しき男が前に出た。
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「はて。
+　我が名を囀る羽虫が迷い込んだかしら」
+<PAUSE>
+<NAME_PLATE>
+　女は動じた様子もなく、
+視線だけを動かして男を見る。
+<PAUSE>
+<NAME_PLATE>ギャング２
+「ふざけるな！
+　この対魔忍どもに毒を撒かせただろう！」
+<PAUSE>
+<NAME_PLATE>ギャング１
+「そのせいで親父があんなことに！」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「シュヴァリエは知らないわ」
+<PAUSE>
+<NAME_PLATE>俺
+（おいおい、どうなってんだこりゃ？）
+<PAUSE>
+<NAME_PLATE>鹿之助
+（なんか誤解されてないか？）
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「錬金術師シュヴァリエ、俺と勝負しろ。
+　何ならそこのガキ対魔忍も混ぜて、
+　５対１でもいいぜ」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「冗談じゃないわ。
+　暴れたいなら他所でやって頂戴」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「しらばっくれてんじゃねえ！
+　あんなことできるのは、
+　この辺じゃお前しかいないんだ」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「対魔忍どもが訪ねてきたのが何よりの証拠。
+　おおかた報酬を受け取りに来たってとこか」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「報酬……？」
+<PAUSE>
+<NAME_PLATE>
+　話が見えないが、男達の剣幕に、
+荒事に慣れたこの町の住人も、
+何事かと足を止め始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「おい、何だか知らないが、
+　落ち着いて話を……」
+<PAUSE>
+<ACTOR>6,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「ウルセェ！！！
+　こうなりゃ丸ごと引き裂いてやる！！
+　――……ＧＲＵＵＯＯＯＯ……」
+<PAUSE>
+<NAME_PLATE>俺
+「！？
+　な、なんだ……」
+<PAUSE>
+<NAME_PLATE>ギャング２
+「よーし、いいぜ！
+　やっちまえ！！」
+<PAUSE>
+<NAME_PLATE>
+　男は突然低い唸り声を上げると、
+仮面を投げ捨て――
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se062_01
+<ACTOR>6,ts_m074a,CENTER, CENTER, NONE, linear, 0
+</GROUP>
+<NAME_PLATE>ギャングのリーダー
+『ヴァウォォオオオオオ！！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　ワーウルフ
+//　　　＊モンスターイラストから流用
+<NAME_PLATE>鹿之助
+「な、なんだこいつ！？
+　急にオオカミに……！？」
+<PAUSE>
+<NAME_PLATE>俺
+「聞いたことがあるぞ。
+　人に化ける魔界の……」
+<PAUSE>
+<NAME_PLATE>俺
+「ワーウルフだ！！！！
+　この男、ワーウルフだったのか！？」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+『ウゥアオオォォオオオ！！！！！！』
+<PAUSE>
+<NAME_PLATE>俺
+「まずい！　
+　蛇子、鹿之助、戦闘態勢だ！！！！」
+<PAUSE>
+<ACTOR_OUT>6,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→プロローグ終了

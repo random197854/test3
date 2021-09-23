@@ -1,0 +1,271 @@
+//☆ストーリー09【Section５】シナリオ
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：和室＿夜】【時間：夜】
+//　※戦国魔姦_nc018aを流用
+<BGM_PLAY>bgm314,1000
+<BG>nc198b,IN, 1000
+<NAME_PLATE>？？？
+「ここか！？　火元はッ！？」
+<PAUSE>
+<NAME_PLATE>
+　ゴオォォォォ……
+<PAUSE>
+<SE_PLAY>se103
+<EFFECT_QUAKE>VERTICAL,2.0,500
+<NAME_PLATE>
+　ドォォォン！！！！
+<PAUSE>
+//　※立ち絵
+//　　炎王
+//　　　＊モンスターイラストから流用
+<ACTOR>0,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「！？」
+<PAUSE>
+//　　※立ち絵
+//　　アスタロト
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　天井をぶち抜いて降りてきた赤い巨体は、
+轟音を立てながら着地。
+<PAUSE>
+<NAME_PLATE>
+　その姿に、さすがのアスタロトも
+呆気に取られる。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「な、何よコレ……？」
+<PAUSE>
+<NAME_PLATE>
+　それは消防車を思わせる、
+赤塗りの巨大なロボット。
+<PAUSE>
+<NAME_PLATE>
+　しかし、魔界暮らしのアスタロトは、
+消防車など知るわけもなく、
+ただ奇怪な巨体に驚くばかりだ。
+<PAUSE>
+<NAME_PLATE>炎王
+「ヨミハラ消防１課１班所属！
+　ＳＢ－００１、通称“炎王”！
+　魔界騎士から通報を受けて参上した！！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「しょうぼう……？」
+<PAUSE>
+<NAME_PLATE>炎王
+「そうだ！
+　きみから強力な火の匂いがするぞ！」
+<PAUSE>
+<NAME_PLATE>
+　炎王はそう言って、
+拳をアスタロトに向けると、
+間髪入れずに放水する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se136
+<NAME_PLATE>
+　ブシャアアアッ！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスタロト
+「！？」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc198b,IN, 500
+<ACTOR>0,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>炎王
+「無法のヨミハラだが、火に関しては例外だ。
+　地下都市でひとたび大火災が起これば、
+　煙と炎で、街が死滅してしまうからな」
+<PAUSE>
+<NAME_PLATE>炎王
+「誰からの通報でも、即座に出動し、
+　火を！　消す！
+　それがヨミハラ消防だ」
+<PAUSE>
+<NAME_PLATE>
+　平静を取り戻したアスタロトは、
+彼の語りには耳を貸さず、
+じっとその動きを観察する。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「なるほど、誰かが中で動かしているのね。
+　人間なの？」
+<PAUSE>
+<NAME_PLATE>炎王
+「魔族だ！
+　これは人間から奪った機械人形だ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「人間どもの使う“科学”の力って奴ね。
+　面白いわ♪」
+<PAUSE>
+<NAME_PLATE>炎王
+「ヨミハラにおいて火付けは大罪！！！
+　女、お前の炎は、
+　この炎王が消してくれるぞ！！！」
+<PAUSE>
+<SE_PLAY>se040_02
+<NAME_PLATE>
+　炎王はポーズをつけると、
+ふたたびアスタロトに放水口を向ける。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「私の獄炎を消そうっていうの？
+　おもしろいじゃない♪」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　すっかり余裕を取り戻したアスタロトは、
+やってみなさいとばかりに、
+獄炎を召喚して炎王に放つ。
+<PAUSE>
+//【背景：和室（炎上）＿夜】【時間：夜】
+//　※戦国魔姦_nc018bを流用
+<BG>nc198a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se015
+<NAME_PLATE>
+　ゴオッ！
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>
+　魔界の鋼をも溶かすアスタロトの獄炎は、
+一瞬で部屋を覆い尽くし、
+炎王のボディも液体に変えてしまう。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　かと思われたが。
+<PAUSE>
+<ACTOR>0,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>炎王
+「はっはっは！
+　これは消火し甲斐のある炎だ！！」
+<PAUSE>
+//　※立ち絵
+//　　炎王
+//　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　炎の中から、傷一つない炎王が現れた。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「なんですって……？」
+<PAUSE>
+//　　※立ち絵
+//　　アスタロト
+//　　　　＊カードイラストより流用
+<NAME_PLATE>炎王
+「炎王の体は、米連と日本の消防当局が
+　共同開発した超耐火ボディなのだ！」
+<PAUSE>
+<NAME_PLATE>炎王
+「高熱の火災現場を掻い潜って、
+　いち早く火元に駆けつけるためにな！」
+<PAUSE>
+<NAME_PLATE>
+　炎王は胸を張り、腕を上げて
+その赤く光るボディを見せつけた。
+<PAUSE>
+<NAME_PLATE>炎王
+「火付盗賊は昔から火あぶりと決まっている！
+　大人しく縄につけ！！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「消火するのに火刑？
+　おもしろいわね。やってみなさい♪」
+<PAUSE>
+<NAME_PLATE>炎王
+「応ッ！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドォン！
+<PAUSE>
+<NAME_PLATE>
+　炎王の大きな腕が、
+今度は直接アスタロトに襲いかかる。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　アスタロトは炎の中に隠れ、
+傷を逃れたが、
+<PAUSE>
+<SE_PLAY>se134
+<NAME_PLATE>
+　シュウッ！！！
+<PAUSE>
+<NAME_PLATE>
+　間髪入れず、炎王の放水が
+その炎を消しにかかる。
+<PAUSE>
+<ACTOR>0,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>炎王
+「ははははは！
+　炎王は放水ばかりではない！
+　その腕力も超強力！」
+<PAUSE>
+<NAME_PLATE>炎王
+「火災の中、いかなる障害物も排除して
+　火元へとまっすぐ進むためだ！」
+<PAUSE>
+<NAME_PLATE>炎王
+「邪魔をする者は、
+　臓物をぶちまけて死ぬ事になる！」
+<PAUSE>
+<ACTOR>0,ts_m128a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0156a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「臓物ぶちまけちゃ、
+　火あぶりにできないわよ？」
+<PAUSE>
+<NAME_PLATE>炎王
+「臓物ぶちまけたのちに火あぶりだ！！！」
+<PAUSE>
+<NAME_PLATE>
+　なんとも残酷な事を言う炎王だが、
+アスタロトは嬉しそうに笑う。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「素敵ねえ♪　面白いわ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「火には滅法強い奴って、
+　あなたのことね炎王？」
+<PAUSE>
+<NAME_PLATE>炎王
+「ふふ、いかにも。
+　君も随分強力な炎を持っているようだ。
+　火あぶりの前に名前を聞いておこうか」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「私はアスタロト。獄炎のアスタロトよ」
+<PAUSE>
+<NAME_PLATE>炎王
+「アスタロトか！
+　久々に楽しい消火活動ができそうだな」
+<PAUSE>
+<NAME_PLATE>炎王
+「きみの炎と、私の消火！
+　どちらが強いか勝負だ！！！」
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,255 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム繁華街＿夜】【時間：夜】
+//　※対魔忍アサギ３の背景nc002aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc008a,IN, 1000
+<NAME_PLATE>
+　東京キングダムに到着。
+<PAUSE>
+<NAME_PLATE>俺
+「さて、いよいよですね。
+　今日は護衛よろしくお願いします」
+<PAUSE>
+<ACTOR>0,ko_t008b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（うん。任せて）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　衣服を対魔忍スーツに変じた
+コロ先輩がにっこりとうなずく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今日、俺たちが果たす任務は二つ。
+<PAUSE>
+<NAME_PLATE>
+　一つは、ここ東京キングダムの
+高級娼館に潜入している対魔忍から、
+<PAUSE>
+<NAME_PLATE>
+　近頃この街を騒がす“五強”なる
+新興組織群に関する調査データを
+受け取ること。
+<PAUSE>
+<NAME_PLATE>
+　もう一つは、五車が米連のＤＳＯ
+（防衛科学研究室）と共同で進めている
+訓練施設の強化に関するデータを、
+<PAUSE>
+<NAME_PLATE>
+　ＤＳＯと密かに関りを持つ
+“クラブ・ペルソナ”のマダムに届けること。
+<PAUSE>
+<NAME_PLATE>
+　どちらもお使い程度の簡単な任務で、
+危険はほとんどないだろう。
+<PAUSE>
+<NAME_PLATE>
+　俺と護衛役のコロ先輩という
+少数での遂行なのはそのためだ。
+<PAUSE>
+<NAME_PLATE>俺
+「特に戦いになることもなさそうですし、
+　今日は気楽にいきましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そうは言っても闇の町ですし
+　油断はできないですけど……って、
+　コロ先輩？　どうしました？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,ko_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（……………あっ）」
+<PAUSE>
+<NAME_PLATE>
+　ぱっとコロ先輩が顔を上げる。
+<PAUSE>
+<NAME_PLATE>
+　なぜか今、じーっと俺の方を見て
+ボソボソと何事か囁いていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　ただでさえ声の小さいコロ先輩だ。
+<PAUSE>
+<NAME_PLATE>
+　今のような囁きだと全く
+何を言っているのかわからない。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ko_t008b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>孤路
+「（えーと？　ふふ、そうだね）」
+<PAUSE>
+<NAME_PLATE>孤路
+「（大丈夫。何でもないよ。
+　それより早く進も）」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はあ……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　よくわからないが、
+とりあえず何でもないらしい。
+<PAUSE>
+<NAME_PLATE>
+　俺は首をかしげながら、
+ニコニコと進むコロ先輩の後に続く。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム繁華街２＿夜】【時間：夜】
+//　※陰陽騎士トワコの背景nc005aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc042a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　東京キングダム・繁華街。
+<PAUSE>
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<NAME_PLATE>俺
+（い、一体、
+　これはどういうこと……？）
+<PAUSE>
+<NAME_PLATE>
+　隣を歩くコロ先輩のことである。
+<PAUSE>
+<NAME_PLATE>俺
+「あのー？　やっぱり、
+　何か俺の顔についてたりします？」
+<PAUSE>
+<ACTOR>0,ko_t008b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（ううん。何でもない）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「はぁ……」
+<PAUSE>
+<NAME_PLATE>
+　と、聞いた時には
+「何でもない」と答えるのだが、
+そのまたすぐ後に。
+<PAUSE>
+<ACTOR>0,ko_t008a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>孤路
+「じー……」
+<PAUSE>
+<NAME_PLATE>孤路
+「…………ぼそぼそ」
+<PAUSE>
+<ACTOR>0,ko_t008b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>孤路
+「（……うふふっ）」
+<PAUSE>
+<NAME_PLATE>俺
+「…………？？」
+<PAUSE>
+<NAME_PLATE>俺
+（な、なんなんだろう……？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なんだかよくわからない。
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩は、ふと俺をじーと見たと
+思ったら、時々ボソボソと何か囁いたり、
+くすくすと笑ったり。
+<PAUSE>
+<NAME_PLATE>
+　でも俺が聞き返すと、
+「何でもない」と答えてくる。
+<PAUSE>
+<NAME_PLATE>俺
+（こ、これは……
+　何か新しい遊びなのか……？）
+<PAUSE>
+<NAME_PLATE>
+　蛇子じゃないんだから、
+コロ先輩がいきなり珍妙なことを
+始めたりはしないと思うけど……？
+<PAUSE>
+<NAME_PLATE>俺
+「う、うーむ……？」
+<PAUSE>
+<NAME_PLATE>
+　なぜかじーっとこちらを見つめる
+コロ先輩に困惑しながら、
+俺はさらに繁華街の奥へと進む。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム娼館通り１＿夜】【時間：夜】
+//　※対魔忍ムラサキ_nc014bより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc016a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、俺とコロ先輩は高級娼館が
+立ち並ぶ一角にやってきた。
+<PAUSE>
+<NAME_PLATE>
+　この通りの奥にある娼館が
+一つ目の任務の目的地だ。
+<PAUSE>
+<NAME_PLATE>俺
+（でも、なんだこれ……？）
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の奇行に気を取られて
+あまり意識してなかったが、今日、
+この街の空気はどこか変だった。
+<PAUSE>
+<NAME_PLATE>
+　バレンタインで浮かれムードのはずが、
+妙にピリピリしているというか、
+殺気立ってるというか……。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ギャング
+「あ゛ぁン！？
+　お前らこの辺で見ん顔ぢゃのう！！？
+　どこぞの鉄砲玉かァ！？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ギャング姉御
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>孤路
+「（……！）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　突然、俺たちの前に目を血走らせた
+ギャング集団が立ちふさがった。
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,515 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ地下下水道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC044aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc126a,IN, 1000
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「しょうがない、やるよ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「そうこなくっちゃっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>ナーサラ
+「了解」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　亜希、フランシス、ナーサラの三人は
+素早く身構えたが、
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「…………っ」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　ついさっきアサシン四人を怯えさせた
+ユーリは顔面蒼白で棒立ちになっている。
+<PAUSE>
+<NAME_PLATE>亜希
+「ユーリ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリ
+「は、はいっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　亜希に名前を呼ばれ、
+ぎこちなく小太刀を両手で構える。
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>亜希
+「どうしたの？　大丈夫？」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「だ、大丈夫です。すいません。
+　私、ちょっとその、ミミズが大嫌いで……」
+<PAUSE>
+<NAME_PLATE>
+　グネグネと蠢く巨大ミミズから
+目を背けつつ声を強ばらせる。
+<PAUSE>
+<NAME_PLATE>亜希
+「ミミズが苦手！？　分かった。
+　じゃあ、私と犬をやって！
+　ナーサラちゃんとフランシスはミミズを！」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「わ、分かりました！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「まかせてっっ！！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ミミズ担当、承知」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m071a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m071a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルズドッグ
+「ガルルウウウウウウウッ！！」
+「ギャウウウウウウウンッ！！」
+<PAUSE>
+//　※立ち絵
+//　　デビルズドッグ
+//　　　　＊モンスターイラストを流用
+//　※複数出してください。
+<NAME_PLATE>
+　二匹のデビルズドッグが
+涎を撒き散らしつつ、
+まずユーリに跳びかかった。
+<PAUSE>
+<NAME_PLATE>
+　彼女だけが怯えていたからだろう。
+無論、それは間違いだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「ひゅっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>700
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　鋭い吐息と共に小太刀が閃くと、
+顎を広げたままの犬の頭が二つ、
+ごとりと床に落ちた。
+<PAUSE>
+<BG>nc126a,IN, 500
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「その調子！
+　はっっ、はあっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>600
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　亜希の双頭刃も唸りを上げ、
+決して弱くないデビルズドッグが
+次々と開きになっていく。
+<PAUSE>
+<BG>nc126a,IN, 500
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「うっわ。
+　二人ともマジ凄腕っ！！」
+<PAUSE>
+<NAME_PLATE>
+　マフィアのボスとして荒事に慣れている
+フランシスは二人の強さに驚愕していた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　元々ミミズが苦手という理由がなくとも、
+少々切っても堪えないデビルワームは
+剣が得物の亜希とユーリには相性が悪い。
+<PAUSE>
+<NAME_PLATE>
+　しかも、亜希の邪眼は暗示により
+肉体が精神に引きずられるという能力なので、
+そもそもの知能が低い怪物には効きにくい。
+<PAUSE>
+<NAME_PLATE>
+　ユーリの魅眼もまた怪物には効果が薄く、
+武器だけで相手をするのは不利だ。
+<PAUSE>
+<NAME_PLATE>
+　なら最初から相手はしない。
+化物の相手が得意な二人に任せる。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラをやたらと愛でるだけではない
+亜希の的確な采配だった。
+<PAUSE>
+<NAME_PLATE>
+　当然、ミミズ担当になったフランシスも
+その力を遺憾なく発揮していた。
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ドデカミミズはアタシに任せて！
+　でりゃあああああああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>デビルワーム
+「ＧＲＹＹＹＹＹＹＹＹＹＹＹ！！！」
+<PAUSE>
+<NAME_PLATE>
+　彼女がデコ金棒を振り下ろす度に、
+デビルワームは激しく身体をくねらせた。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　誰も聞いたことのないような
+悲鳴を上げた頭が次の瞬間には消し飛び、
+まだ動いている胴体も潰されていく。
+<PAUSE>
+<BG>nc126a,IN, 500
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　敵が敏感だろうが鈍感だろうが
+その肉体を問答無用で粉砕していく
+恐るべき鬼のパワーだった。
+<PAUSE>
+<NAME_PLATE>フランシス
+「おらおらおらああああああああああ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「メチャクチャなパワーだな」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はい、さすが鬼族ですね」
+<PAUSE>
+<NAME_PLATE>
+　亜希は半ば呆れつつ、
+ユーリは心から嬉しそうに、
+担当の犬を仕留めていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、ナーサラはというと、
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「クルクル、ヒラヒラ、パクパク♪」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>
+　化物の群れの中で
+一人楽しくダンスするように
+スカートを軽やかにひらめかせていた。
+<PAUSE>
+<NAME_PLATE>
+　それだけでミミズだろうが犬だろうが
+ボコッ、ボコッと肉体が大きくえぐれていく。
+<PAUSE>
+<NAME_PLATE>
+　アサシンの銃弾を止めたときと同様、
+スカートを触手にして瞬時に敵を
+捕食している。まさに異次元の強さだ。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「そこそこ、美味しい」
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「食べているのですか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「ナーサラちゃんだからね。
+　強い！　可愛い！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「マジで可愛いは正義って感じ。
+　ヤバすぎ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　四人の強さは圧倒的だったが、
+倒しても倒しても新たな敵が現れてきた。
+<PAUSE>
+<NAME_PLATE>
+　というより敵は
+自分たちの縄張りに侵入した
+彼女らを排除しようとしていた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「これ、きりが無いなあ」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「やはりいったん引いた方が」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「撤退、賛成」
+<PAUSE>
+<NAME_PLATE>亜希
+「でも、どっちに逃げたら？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「みんなあっち！
+　あっちに行こう！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、フランシスが道を示した。
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>亜希
+「え？　なんで？　道分かるの？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「分かんないけど、
+　あっちなんか敵が少ないし！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「私が道を作るから！
+　どけどけどけえええええ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se108
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　フランシスは返事を待たずに、
+金棒を振り回しながら走り始めた。
+<PAUSE>
+<NAME_PLATE>
+　進行方向にいたデビルズドッグが
+次々と吹き飛ばされ、退路が作られていく。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ユーリ
+「ここはフランシスさんの後に！」
+<PAUSE>
+<NAME_PLATE>亜希
+「そうだね！
+　ナーサラちゃん、逃げるよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「とんずら、ＧＯ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　三人はフランシスの後を追った。
+<PAUSE>
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　敵は追いかけてこない。
+どうやら逃がしてくれるようだ。
+<PAUSE>
+<NAME_PLATE>
+　そのまま走り続けると、
+やがて周りの景色が変わった。
+<PAUSE>
+//【背景：鬼武衆地下牧場＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007a
+<BGM_PLAY>bgm509,1000
+<BG>nc036a,IN, 1000
+<NAME_PLATE>
+　一見、そこは自然の洞窟のようだった。
+だが、よく見ると違う。
+<PAUSE>
+<NAME_PLATE>
+　そこかしこに魔法的な柵が作られていて、
+その柵の中に色々な魔獣が種類ごとに
+集められている。
+<PAUSE>
+<NAME_PLATE>
+　つまり洞窟を利用した牧場だった。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「あれ、ここ当たり？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>フランシス
+「え？　マジ？
+　ほんと、なんか色々いる。
+　あはは、ラッキー？？」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　三人をここまで引っ張ってきた
+フランシスは不自然な笑みを浮かべていた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ユーリ
+「フランシスさん、
+　もしかして道を知っていたのですか？」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>亜希
+「うん、なんか知ってて
+　ここに連れてきたっぽいね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「し、知らない知らない。
+　昔、放浪している時に
+　こういう地下水道をよく使ったから」
+<PAUSE>
+<NAME_PLATE>フランシス
+「それでなんかこっちかなーって
+　勘で言ってみただけ」
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「じーーー」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「ほ、ほんとだって！
+　ほら、せっかく着いたんだから、
+　カトブレパスを探さない？」
+<PAUSE>
+<NAME_PLATE>
+　どう見ても誤魔化している様子で
+フランシスは一同を促した。
+<PAUSE>
+//→Section３終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

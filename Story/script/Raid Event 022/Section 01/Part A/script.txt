@@ -1,0 +1,3090 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：五車学園＿正門＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　その日、俺は久しぶりに
+桐生佐馬斗（きりゅうさばと）先生に
+呼ばれた。
+<PAUSE>
+<NAME_PLATE>
+　元ノマドの天才魔科医だったが、
+自分を捕らえた紫先生にベタ惚れし、
+先生の気を引きたい一心で、
+<PAUSE>
+<NAME_PLATE>
+　その優れた、というより常軌を逸した
+魔界の医療技術を対魔忍に提供して、
+なんだかんだで重宝がられている。
+<PAUSE>
+<NAME_PLATE>
+　俺も一度死んで生き返ったときに
+身体を診てもらったことがあり、
+<PAUSE>
+<NAME_PLATE>
+　魔性の力にえらく興味をもたれ、
+危うく新しい実験材料にされかかった。
+<PAUSE>
+<NAME_PLATE>
+　その桐生先生からの呼び出しだ。
+やはり不安になる。
+<PAUSE>
+//【背景：五車学園＿桐生の地下実験室】【時間：昼】
+//　※対魔忍アサギZERO_NC041aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc099a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「失礼します……」
+<PAUSE>
+<ACTOR>0,ki_t001b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>桐生
+「フハハハハハハハハハ！
+　愛する紫よ！
+　お前の気持ちは分かっているぞ」
+<PAUSE>
+//　※立ち絵
+//　　桐生佐馬斗通常立ち絵＿魔科医衣装
+//　　　＊対魔忍アサギ３の立ち絵から流用
+<NAME_PLATE>桐生
+「そうやってわざと姿を隠して
+　俺の気を引くつもりだな。
+　可愛いやつめ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　地下研究室の大型スクリーンには
+五車学園内のカメラ映像が
+いくつも映し出されていた。
+<PAUSE>
+<NAME_PLATE>
+　紫先生を探しているようだ。
+普通にストーカーだが、この人の
+変人ぶりからするとむしろ平凡なくらいだ。
+<PAUSE>
+<NAME_PLATE>俺
+「あのう……桐生先生……」
+<PAUSE>
+<ACTOR>0,ki_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>桐生
+「どこだ、どこにいる！？　紫！
+　必ず見つけ出して抱擁してやる。
+　この俺の両手いっぱいの愛でな！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「帰ろうかな……」
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「なにか御用ですか？」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　タコの玩具のようなものを持った、
+白衣の少女が現れた。
+<PAUSE>
+<NAME_PLATE>
+　いつもこの地下研究室にいるのは
+桐生先生だけなので少し驚く。
+<PAUSE>
+<NAME_PLATE>俺
+「君は？」
+<PAUSE>
+<NAME_PLATE>リノア
+「リノア・セリング。
+　桐生先生の助手です」
+<PAUSE>
+<NAME_PLATE>俺
+「助手？」
+<PAUSE>
+<NAME_PLATE>
+　そういえば、米連から数学の天才少女が
+やってきたという話を聞いた。
+<PAUSE>
+<NAME_PLATE>
+　てっきり科学技術スタッフにでもなると
+思っていたが、まさか桐生先生の助手とは。
+<PAUSE>
+<NAME_PLATE>リノア
+「お名前とご用件をお願いします」
+<PAUSE>
+<NAME_PLATE>俺
+「ふうま小太郎、
+　桐生先生に呼ばれたんだけど……」
+<PAUSE>
+<NAME_PLATE>リノア
+「確認します」
+<PAUSE>
+<NAME_PLATE>
+　リノアは抱えていたピンクのタコを
+俺に向けた。
+<PAUSE>
+<NAME_PLATE>
+　どうやら何かのメカらしく、
+表面にチカチカと文字や記号が表示され、
+<PAUSE>
+<NAME_PLATE>リノア
+「確認しました。
+　今、先生をお呼びします」
+<PAUSE>
+<NAME_PLATE>俺
+「お呼びしますって言ったって」
+<PAUSE>
+<NAME_PLATE>桐生
+「フハハハハハハハハ！
+　紫、どこだ、どこだああああああ！！」
+<PAUSE>
+<NAME_PLATE>リノア
+「ラプラス、コマンド“サンダー”
+　逆算開始」
+<PAUSE>
+<NAME_PLATE>
+　リノアは桐生先生の方を向くと、
+タコを頭上に掲げた。
+<PAUSE>
+<NAME_PLATE>
+　笑っていたタコの表情が
+しかめっ面、泣き顔、怒り、また笑いと
+次々に変わっていき、
+<PAUSE>
+<NAME_PLATE>リノア
+「アタック」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチイイッッ！！
+<PAUSE>
+<NAME_PLATE>桐生
+「ぎゃあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　部屋でいきなり小さな雷が発生して、
+桐生先生に落ちた。
+<PAUSE>
+<BG>nc099a,IN, 500
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<ACTOR>0,ki_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>桐生
+「な、なんだ、なにごとだ？
+　なぜいきなりこの俺様に落雷が！？」
+<PAUSE>
+<NAME_PLATE>
+　さすがの桐生先生も仰天する。
+そりゃそうだろう。俺も驚いた。
+<PAUSE>
+<ACTOR>0,ki_t001e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0336a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リノア
+「私です、桐生先生」
+<PAUSE>
+<ACTOR>0,ki_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>桐生
+「リノア！！
+　貴様、俺の下僕の分際で、
+　またそのタコのインチキ魔法を使ったな！」
+<PAUSE>
+<NAME_PLATE>桐生
+「俺に不意打ちを食らわせていいのは
+　この世で紫だけだと何度も言っただろうが！」
+<PAUSE>
+<NAME_PLATE>リノア
+「私は下僕ではなくて助手。
+　ラプラスはタコではなくてクラゲ」
+<PAUSE>
+<NAME_PLATE>リノア
+「インチキ魔法ではなく
+　逆算による事象の再現です
+　何度も言っています」
+<PAUSE>
+<NAME_PLATE>
+　どうもよくあることらしい。
+桐生先生にリノアは平然と言った。
+<PAUSE>
+<NAME_PLATE>桐生
+「そんなことはどうでもいい！
+　俺は紫を探しているのだ！」
+<PAUSE>
+<NAME_PLATE>桐生
+「なぜその邪魔をする！？
+　まさか紫に何か含められたのか！」
+<PAUSE>
+<NAME_PLATE>リノア
+「違います。
+　ふうま小太郎さんが来ています」
+<PAUSE>
+<ACTOR>0,ki_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>桐生
+「ふうまあ？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ……どうも」
+<PAUSE>
+<ACTOR>0,ki_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>桐生
+「貴様、何しに来た！」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、先生に呼ばれたんですが……」
+<PAUSE>
+<ACTOR>0,ki_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>桐生
+「俺が？　貴様を？」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　桐生先生はしばらくポカンとしていたが、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ki_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>桐生
+「フハハハハハハハ！
+　そういえばそうだったな！
+　死ぬ程どうでもいい案件だから忘れていた」
+<PAUSE>
+<NAME_PLATE>桐生
+「貴様、今すぐアーカムバイオ製薬の
+　八王子ラボに行ってこい！」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　なにしに？」
+<PAUSE>
+<ACTOR>0,ki_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>桐生
+「実験サンプルとその検査結果の
+　回収に決まっているだろうが！」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ……」
+<PAUSE>
+<NAME_PLATE>
+　またお使いのようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし、アーカムバイオ製薬といえば、
+表向きは米連に軍事用薬物を提供している
+製薬会社だが、
+<PAUSE>
+<NAME_PLATE>
+　裏では不死の兵士の研究をしていたり、
+魔草の密輸を企んでいたりと、
+色々と良からぬ事件を起こしている。
+<PAUSE>
+<NAME_PLATE>
+　何度か対魔忍の手入れもあったものの、
+米連と深い繋がりがあることから、
+<PAUSE>
+<NAME_PLATE>
+　結局はトカゲの尻尾切りに終わり、
+会社自体はしぶとく生き残っている。
+<PAUSE>
+<NAME_PLATE>
+　そんなところに行かされるとは、
+桐生先生のいかがわしい実験を
+手伝わされるのだろうか。
+<PAUSE>
+<ACTOR>0,ki_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>桐生
+「なんだその辛気臭い顔は。
+　これは井河アサギに頼まれた案件だ。
+　だから貴様などに頼むのだ」
+<PAUSE>
+<NAME_PLATE>桐生
+「五車のヘリを使わせてやるから
+　とっとと行ってこい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なるほど。
+そういうことなら問題はなさそうだ。
+<PAUSE>
+<NAME_PLATE>
+　桐生先生が面倒くさがって
+自分で行きたがらないのも分かる。
+<PAUSE>
+<NAME_PLATE>俺
+「分かりました」
+<PAUSE>
+<ACTOR>1,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「桐生先生、
+　私も彼について行きます」
+<PAUSE>
+<NAME_PLATE>
+　俺たちのやりとりを黙って聞いていた
+リノアが言った。
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<ACTOR>1,chr_t0336a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ki_t001g,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>桐生
+「馬鹿め！
+　この俺の下僕である貴様に
+　そんな自由があると思うか！」
+<PAUSE>
+<NAME_PLATE>リノア
+「下僕ではなく助手です。
+　それと良かったらどうぞ。
+　今日の紫先生の行動予知です」
+<PAUSE>
+<NAME_PLATE>
+　リノアはポケットから書類を取り出して、
+桐生先生に差し出した。
+<PAUSE>
+<ACTOR>0,ki_t001e,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>桐生
+「なにっ！　紫の行動予知だと！
+　そんなものがあるならなぜ早く見せない！
+　この愚か者めが！！」
+<PAUSE>
+<ACTOR>0,ki_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>桐生
+「今の時間、紫は、紫は―――
+　裏山で演習か！　とんだ盲点だ！
+　フハハハハハハ！　待っていろ、俺の紫！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　桐生先生は高笑いしながら
+紫先生を求めて行ってしまった。
+<PAUSE>
+<ACTOR>1,chr_t0336a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>リノア
+「じゃあ、私たちも行きましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「う、うん」
+<PAUSE>
+<NAME_PLATE>
+　あの桐生先生を振り回している。
+なんだかすごい子だな。
+<PAUSE>
+//【背景：移動するヘリ内＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ３_nc036aより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc068b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ともあれ、俺は五車学園所有のヘリに
+リノアと一緒に乗り込んだ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「やっと解放されました。
+　桐生先生とずっと一緒にいると疲れますから」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「だろうね」
+<PAUSE>
+<NAME_PLATE>
+　俺は念のため対魔忍スーツに着替えたが、
+彼女は白衣のままだ。
+<PAUSE>
+<NAME_PLATE>
+　さっき謎の雷を発生させたクラゲメカも
+持ってきている。
+<PAUSE>
+<NAME_PLATE>リノア
+「ふうまさん、
+　ちゃんとお話しするのは初めてですね」
+<PAUSE>
+<NAME_PLATE>リノア
+「私、ふうまさんに
+　ずっと興味があったんです」
+<PAUSE>
+<NAME_PLATE>俺
+「俺に？」
+<PAUSE>
+<NAME_PLATE>
+　まず男性としての興味ではないだろうなと
+思いつつ先を促すと、
+<PAUSE>
+<NAME_PLATE>リノア
+「独立遊撃隊の計算を越えた活躍、
+　それにふうまさん自身、
+　どちらも興味深いです」
+<PAUSE>
+<NAME_PLATE>リノア
+「報告書を読ませてもらいましたが、
+　ふうまさんは一度死んで
+　生き返ったことがあるんですよね」
+<PAUSE>
+<NAME_PLATE>リノア
+「それも忍術とかではなしに。
+　桐生先生でなくても徹底的に
+　研究したい素材です」
+<PAUSE>
+<NAME_PLATE>
+　俺を見る目がキラキラしている。
+どうも褒めているらしい。
+<PAUSE>
+<NAME_PLATE>
+　あの変人の桐生先生の
+助手などをしているわけだ。
+<PAUSE>
+<NAME_PLATE>俺
+「君はなんでまた五車町に？」
+<PAUSE>
+<NAME_PLATE>リノア
+「はい、私は―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　数学者であった亡き父親の跡を継いで、
+幼くして飛び級で大学に入った彼女は、
+その天才を早くから注目され、
+<PAUSE>
+<NAME_PLATE>
+　卒業後は米連のとある研究機関で、
+世界のある瞬間の状態を再現することにより、
+その瞬間の事象をも再現可能にする研究――
+<PAUSE>
+<NAME_PLATE>
+　もう少し詳しく説明されたのだが、
+途中から俺にはチンプンカンプンで、
+とにかく先進的な研究を行っていたそうだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし米連がそういった研究の裏で
+ろくでもないことをしているのは
+いつものことで、
+<PAUSE>
+<NAME_PLATE>
+　リノアも母親を人質に取られ、
+人界と魔界を繋ぐゲートの研究を
+無理やりさせられることになった。
+<PAUSE>
+<NAME_PLATE>
+　意に沿わない研究ではあったが、
+彼女の天才は魔への理解を深めていき、
+停滞していた研究を一気に発展させ、
+<PAUSE>
+<NAME_PLATE>
+　その過程で、
+例えば魔法の『落雷』などの事象を
+星の配置から逆算し、
+<PAUSE>
+<NAME_PLATE>
+　逆引き的にそれを
+魔法ではなく事象として
+再現することを可能にした。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は研究の急速な発展を危険視し
+魔界技術の根絶を目的とするＤＳＯと協力して、
+その研究を極秘にぶち壊し、
+<PAUSE>
+<NAME_PLATE>
+　リノアとその母親を米連から救い出し、
+二人は五車で保護されることになった。
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「そのシステムを実装したプロトタイプが
+　この子、ラプラスです」
+<PAUSE>
+<NAME_PLATE>
+　リノアはクラゲメカを掲げてみせた。
+唯一残った研究成果だそうだ。
+<PAUSE>
+<NAME_PLATE>
+　名前の由来は物理学でいう
+『ラプラスの悪魔』だろう。
+<PAUSE>
+<NAME_PLATE>
+　宇宙のある時点での物理的状態を
+完全に把握、分析することができ、
+<PAUSE>
+<NAME_PLATE>
+　そこから未来、あるいは過去の
+全ての事象を計算で把握できるという
+超越的な存在だ。
+<PAUSE>
+<NAME_PLATE>
+　後に発達した量子力学により
+ラプラスの悪魔は否定されたわけだが、
+<PAUSE>
+<NAME_PLATE>
+　そういった人間の理論を
+さらに超越したことが起こるのが魔界だ。
+<PAUSE>
+<NAME_PLATE>
+　確かにその研究成果による
+ロボットの名前には相応しい。
+<PAUSE>
+<NAME_PLATE>俺
+「桐生先生に落とした雷もそれで？」
+<PAUSE>
+<NAME_PLATE>リノア
+「落雷という事象を逆算で再現しました。
+　決して魔法ではありません」
+<PAUSE>
+<NAME_PLATE>リノア
+「私には対魔忍の対魔粒子のような
+　すごい力はありませんから」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、そういうシステムを
+　作れること自体が十分にすごいと思うよ」
+<PAUSE>
+<NAME_PLATE>リノア
+「ありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　リノアはぺこりと頭を下げる。
+ラプラスにも一緒に頭を下げさせていた。
+<PAUSE>
+<NAME_PLATE>俺
+「さっき桐生先生に渡してた
+　紫先生の行動予知ってのは？」
+<PAUSE>
+<NAME_PLATE>リノア
+「それもラプラスのシステムの応用です」
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、そういう紫先生の情報を
+　桐生先生に教えるのはまずくないか？」
+<PAUSE>
+<NAME_PLATE>リノア
+「私が教えたことで予知も変化しました。
+　見てください」
+<PAUSE>
+<NAME_PLATE>
+　リノアがラプラスを操作すると、
+その変化した予知内容が
+ホログラフィック表示された。
+<PAUSE>
+<NAME_PLATE>
+　なるほど、紫先生の行動予知場所に
+桐生先生が現れて、
+<PAUSE>
+<NAME_PLATE>
+　毎度毎度、お仕置きをされるところまで
+しっかり予知されていた。
+<PAUSE>
+<NAME_PLATE>俺
+「はーー、今日これから桐生先生は
+　紫先生に五回ちょっかいを出して、
+　毎回ボコボコにされるのか。大変だな」
+<PAUSE>
+<NAME_PLATE>リノア
+「ラプラスを使わなくても
+　普通に予想できますけどね」
+<PAUSE>
+<NAME_PLATE>俺
+「ごもっとも」
+<PAUSE>
+<NAME_PLATE>リノア
+「『桐生が嫌になったら私に押し付けていい』
+　と紫先生には言われてますし」
+<PAUSE>
+<NAME_PLATE>リノア
+「私にはまったく理解できませんが、
+　桐生先生もボコボコにされて嬉しそうなので
+　いいんじゃないでしょうか？」
+<PAUSE>
+<NAME_PLATE>リノア
+「予知では五回目は死んでますが、
+　また生き返るみたいですし、
+　問題ありません」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな」
+<PAUSE>
+<NAME_PLATE>
+　ちょっぴり楽しそうなリノアに
+俺は笑って頷いた。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その十日前。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラで一つの事件が起っていた。
+<PAUSE>
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ３_nc017aより流用
+<UI_DISP>OFF, 0
+<BG>nc279a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数ある闇の組織のうちの最大勢力、
+ノマドが管理する倉庫が何者かに襲われたのだ。
+<PAUSE>
+//【背景：ノマドの倉庫＿昼夜共通】【時間：昼】
+//　※鋼殻のアイ_背景nc003aより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm314,1000
+<BG>nc135a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「クラウディア、
+　まさかお前がやられるとは……」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　魔界騎士リーナは友人たちの骸を前に
+いつになく険しい表情をしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　警備の兵が皆殺しにされ、
+“龍の心臓”を始めとする
+貴重な物資が奪われた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エレーナ
+「や、やはり……外傷はどこにも……
+　け、剣や魔法などのちょ、直接的な手段で
+　倒されたのではないようです……」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　仲間たちの遺体を診ていた
+魔術師のエレーナが声を震わせる。
+<PAUSE>
+<NAME_PLATE>
+　全員、元の顔が分からなくなるほどの
+苦悶の表情を浮かべて死んでいたのだ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「間接的な手段……
+　例えば呪いとかか？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「か、かもしれません。
+　本部に連れて帰って、
+　詳しい検査をしてみなければ……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そちらの方は任せる。
+　ドロレスにも協力してもらってくれ。
+　私は犯人の足取りを追う」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「わ、わかりました……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「どこの誰かは知らないが許さん。
+　皆の仇、必ず討ってやる」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーナは仲間の苦しみを思って、
+拳を固く握りしめた。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC034aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc122a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　それから数日。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　倉庫を襲撃した犯人の手がかりは
+ほとんど得られていない。
+<PAUSE>
+<NAME_PLATE>
+　現場の状況から
+どうやら単独犯であるということ。
+<PAUSE>
+<NAME_PLATE>
+　エレーナの検死により
+肉体ではなく精神にダメージを
+受けたらしいということ。
+<PAUSE>
+<NAME_PLATE>
+　全員の鼓膜が損傷していたことから、
+音を使った術、あるいは武器が
+用いられたのではないかということ。
+<PAUSE>
+<NAME_PLATE>
+　分かったのはそれくらいで、
+肝心の犯人の行方、正体は不明のままだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ノマドの一員である以上、
+生と死は常に隣り合わせだ。
+<PAUSE>
+<NAME_PLATE>
+　友人を殺された怒りで
+我を忘れたりすることはない。
+<PAUSE>
+<NAME_PLATE>
+　だがその無念を晴らしたいという想いは
+日増しに強くなっている。
+<PAUSE>
+<NAME_PLATE>
+　ノマドの倉庫が襲われたことは、
+もう街中に知れ渡っていた。
+<PAUSE>
+<NAME_PLATE>
+　普段陽気なリーナの険しい顔に
+住人たちもどこかピリピリしている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　犯人は奪った品をどこかで
+売りさばこうとするはずだ。
+<PAUSE>
+<NAME_PLATE>
+　リーナはその手の情報に詳しい
+とある探偵事務所に調査を依頼していた。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ2_nc003cより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc215a,IN, 1000
+<ACTOR>1,chr_t0248a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>クローンアサギ
+「来たわね、リーナ」
+<PAUSE>
+//　※立ち絵
+//　　【夏祭り】クローンアサギ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　あの最強の対魔忍、井河アサギのクローン、
+それがこの探偵事務所の主だ。
+<PAUSE>
+<NAME_PLATE>
+　自分でクローンと言っているあたり、
+なかなか気骨のある人物だと思えるし、
+探偵の能力にも定評がある。
+<PAUSE>
+<ACTOR>1,chr_t0248a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「その顔では良い報告は聞けなそうだな」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>クローンアサギ
+「そう先走らないで。
+　中でゆっくり話しましょう」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「リーナか、
+　今日も険しい顔をしておるな。
+　まったくお前らしくない」
+<PAUSE>
+//　※立ち絵
+//　　【自己流女教師】ミリアム＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リーナとは顔見知りの魔女、
+ミリアムが顔を出してきた。
+<PAUSE>
+<NAME_PLATE>
+　数十年前、対魔忍に身体を小さくされ、
+元の身体に戻るためにノマドにいたが、
+最近はここに入り浸っている。
+<PAUSE>
+<NAME_PLATE>リーナ
+「しょうがないだろう。
+　犯人の手がかりが得られないんだから
+　それよりなんだ、その変な格好は？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「変とか言うな。
+　私は私で色々とやることがあるのじゃ。
+　無論、頼まれた件はちゃんと調べておる」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0292a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま亜希
+「私たち対魔忍としても。
+　ヨミハラがこうピリピリしてるのは
+　ちょっと心配なんだ。なんとかしないとね」
+<PAUSE>
+//　※立ち絵
+//　　【潜入装備】ふうま亜希＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>フランシス
+「街全体がこんな空気じゃ
+　お酒だって気持ちよく飲めないもん。
+　ねー、ナーサラ、嫌だよね」
+<PAUSE>
+//　※立ち絵
+//　　【カチコミギャル】フランシス＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「街がウツウツ、それはそれで興味深い。
+　でもナーサラ、楽しくない」
+<PAUSE>
+//　※立ち絵
+//　　【フラフラ娘】ナーサラ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　やはり居候の対魔忍、ふうま亜希。
+元マフィアのボスの鬼、フランシス。
+<PAUSE>
+<NAME_PLATE>
+　そして最近知ったのだが
+異世界生物のナーサラが出てきた。
+<PAUSE>
+<NAME_PLATE>
+　これが探偵事務所の面々だ。
+カオスなメンバーだが不思議な一体感がある。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「では、調査結果を聞かせてくれ」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「待て。
+　ミレーヌ、客がきたぞ。
+　さあ、お茶とお菓子の用意じゃ」
+<PAUSE>
+//　※立ち絵
+//　　【自己流女教師】ミリアム＿立ち絵
+//　　　＊カードイラストより流用
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,ts_m220c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミレーヌ
+「はい、ミリアム先生」
+<PAUSE>
+//　※立ち絵
+//　　異界霊ミレーヌ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　初めて見る顔だ。
+霊体らしく身体が少し透けている。
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「隣の客はよく柿食う客だ、客が柿食や飛脚が
+　柿食う、飛脚が柿食や客も柿食う、
+　客も飛脚もよく柿食う客飛脚！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「なんだ？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　儚げな少女が妙な言葉を唱えると、
+ポット、カップ、お茶菓子がお盆に乗って
+ふわふわと飛んできてテーブルに置かれた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミレーヌ
+「やりました！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「うむ、まずまずじゃ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0248a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0292a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「ちょっとドキドキしたわ」
+<PAUSE>
+<NAME_PLATE>亜希
+「ミレーヌちゃん、やったね！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「やるじゃん、ミレーヌ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ぱちぱち」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m220c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミレーヌ
+「えへへ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リーナそっちのけで喜んでいる六人に
+きょとんとしながら、
+<PAUSE>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ええと、誰だ？」
+<PAUSE>
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「幽霊のミレーヌだ。
+　今、私が魔法を教えている」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「だから私はこんな格好をしておるのじゃ。
+　教師は教師らしくな、ふふん」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m220c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミレーヌ
+「ミレーヌです。
+　よろしくお願いします」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ノマドの魔界騎士のリーナだ。
+　よろしくな。
+　今の柿がどうとかいうのは何だ？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m220c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「練習用のテレキネシスの呪文じゃ。
+　次は寿限無と外郎売を予定しておる」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「外郎売は難しいです」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　なんだかよく分からないリーナだが、
+緊張感のない面々と、お茶とお菓子で
+重苦しい気持ちが少しだけほぐれる。
+<PAUSE>
+<NAME_PLATE>
+　だが、アサギの報告が始まると、
+またその表情は険しくなっていった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「盗品は市には出ていないわ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「でも犯人の目星はついた。
+　あなたもよく知っている相手」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あなたがヨミハラの治安維持のため、
+　たびたび仕事を妨害した相手、
+　魔界ブローカーのアザンよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「アザン！　あいつか！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「盗まれた物資は貴重ではあるけれど、
+　ヨミハラの闇市で買えないことはないわ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ノマドの倉庫を襲って
+　兵士を皆殺しにするリスクを
+　負うほどじゃない」
+<PAUSE>
+<NAME_PLATE>リーナ
+「つまりわざと。
+　私に対する当てつけか？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「おそらくね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そのために私の友人を。
+　おのれ卑劣な……」
+<PAUSE>
+<NAME_PLATE>
+　リーナの瞳に怒気が宿る。
+<PAUSE>
+<NAME_PLATE>リーナ
+「それで奴の居場所は分かったのか？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「聞いてどうするの？
+　まさか今から乗り込むつもり？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「…………」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「気持ちは分かるけど自重すべきよ。
+　相手は相当手練で危険な相手だわ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「正直、居場所が分かったのも
+　怪しいと思ってるわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0279a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0292a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「うむ、お前が自分の正体と居場所を突き止め、
+　乗り込んでくるのを計算した上で、
+　わざと情報をリークしたふしがあるな」
+<PAUSE>
+<NAME_PLATE>亜希
+「普通に考えて罠が待ち受けてるよね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「アタシもそう思う。
+　真正面から殴り込みってアタシも好きだけど、
+　ちょっとヤバヤバって感じ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「猪突猛進、危険」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　皆が口々に言ってくる。
+そんな心配をさせる顔をしていたようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「無茶はしないから安心しろ。
+　まずは本部に帰って対策を練るつもりだ。
+　奴の居場所を教えてくれ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「その言葉、信用するわよ」
+<PAUSE>
+<NAME_PLATE>
+　アサギは居場所を教えてくれた。
+ヨミハラの郊外にある屋敷だ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「分かった。ありがとう。
+　ミレーヌ、美味しいお茶をありがとうな。
+　魔法の修行、頑張るんだぞ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーナは探偵事務所を出て行った。
+残された面々は一様に不安げだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m220c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミレーヌ
+「リーナさん、大丈夫でしょうか」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「と思いたいけど」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0279a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0292a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「あやつは思いきりの良さが身上だからな」
+<PAUSE>
+<NAME_PLATE>亜希
+「そこがあのイングリッドとはタイプが
+　全く違う魔界騎士の強さなんだろうけど」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「忠告、無駄？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「多分ね。
+　でも止めたって行く奴は行くし、
+　アタシたちにはどうしようもないよ」
+<PAUSE>
+//【背景：ヨミハラ住宅街＿昼夜共通】【時間：昼】
+//　※陰陽騎士トワコ_nc007bより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc045a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「ノマドではなく
+　私自身が目をつけられていたとは。
+　なんという不覚」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>リーナ
+「やはりこれは私が私の責任で
+　奴を成敗するしかないな。
+　待っていろよ、アザン」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　探偵チームが心配したとおり、
+リーナは迷うことなく
+アザンの居場所を目指していた。
+<PAUSE>
+<NAME_PLATE>
+　怒りに駆られてでも、
+友を殺された復讐のためでもない、
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士としての決然たる意思で、
+アザンを倒すつもりだった。
+<PAUSE>
+//【背景：アザンの住処＿昼夜共通】【時間：昼】
+//　※対魔忍紅_NC010aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc207a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「見たところ護衛もなにもいないが
+　怪しい気配がプンプンしているな」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アザンの屋敷にたどり着いたリーナだが、
+さすがに真正面から乗り込んだりはしない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　まずは物陰に身をひそめ、
+風を使って遠巻きに様子を伺う。
+<PAUSE>
+<NAME_PLATE>
+　中の様子は分からないが、
+見張りの一人もいないのが逆に怪しい。
+<PAUSE>
+<NAME_PLATE>
+　やはりこれはリーナを誘い出すための
+罠という気がする。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あとはアザン本人がいるかどうかだが、
+　こればっかりは入ってみないと
+　わからないな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「でも私を嵌めるための罠だとしたら、
+　犬が出てきそうだな。
+　犬は……嫌だな」
+<PAUSE>
+<NAME_PLATE>
+　最近、少しだけ犬には慣れてきたし、
+元々、魔犬も機械犬も彼女の敵ではないが、
+苦手というのはそれとは別だ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「よし、仮に犬が１０匹出てきたとして、
+　まずはワンワン吠えてくる前に遠間から
+　チェリーフラーリィで足止めしよう」
+<PAUSE>
+<NAME_PLATE>
+　犬がいきなり出てきても驚かないように、
+ちゃんと戦えるように気持ちを整えていると、
+<PAUSE>
+<NAME_PLATE>リーナ
+「おや、誰か来たぞ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女騎士
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器携帯）
+//　　　＊新規デザインイラスト
+<NAME_PLATE>
+　一人の少女が颯爽と姿を現し、
+館に近づいていく。
+<PAUSE>
+<NAME_PLATE>
+　短くまとめた金髪、
+紋章の入った揃いの剣と盾という
+見るからに良家の騎士という風情だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「誰だろう？
+　あの物腰、かなりの手練れのようだが。
+　アザンの仲間にしては雰囲気が凜々しいな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　少女は隠れているリーナには気づかずに
+屋敷の様子を伺い始めた。
+<PAUSE>
+<NAME_PLATE>
+　でも、動きがぎこちない。
+あまりそういうことに慣れていない様子だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「大丈夫かな。
+　あんなに近づいたら……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう呟いた次の瞬間、
+屋敷の扉がバタンと開いた。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>2,ts_m024a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m024b,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m071a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>犬モンスター
+「ガルウウウウウウウウウウッ！！」
+「グアアアアアアアアアアアッ！！」
+「ウォオオオオオオオンンンッ！！」
+<PAUSE>
+//　※立ち絵
+//　　ナイトドッグ立ち絵
+//　　　＊モンスターイラストより流用
+//　　ブラッドドッグ立ち絵
+//　　　＊モンスターイラストより流用
+//　　デビルズドッグ立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m186a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m035a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>犬モンスター
+「ガルガルガルガルガルガルッ！！」
+「ワンワンワンワンワンワンッ！」
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　フェンリルパピー立ち絵
+//　　　＊モンスターイラストより流用
+//　ブレインドッグ＿立ち絵
+//　　　＊モンスターイラストより流用
+//　ドローン・ドッグ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　犬だ！　２０匹はいる！
+それも色んな種類！
+<PAUSE>
+<NAME_PLATE>リーナ
+「うわっ、すごい沢山の犬！」
+<PAUSE>
+<NAME_PLATE>
+　リーナはびっくりして
+思わず尻餅をついてしまうが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女騎士
+「犬？
+　こんなものでわたくしを
+　止められるとお思いですか！」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵
+//　　　＊新規デザインイラスト
+//　※基本の抜刀絵
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　少女は少しも臆することなく、
+剣をスラリと抜いて、
+たった一人で犬たちと戦い始めた。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「なんて勇敢なんだ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>少女騎士
+「はっ、はあっ、はあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　少女は勇敢なだけではなかった。
+<PAUSE>
+<NAME_PLATE>
+　一目で正統派と分かる剣術で、
+犬たちの急所を巧みに切り裂き、
+その数を次々と減らしていく。
+<PAUSE>
+<BG>nc207a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「見事な腕だ。
+　何者だか分からないが
+　目的は同じようだな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ちょうどいい。
+　だいぶ数が減ったことだし、
+　一緒に戦わせてもらおう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　あの騎士と共に戦いたくなって、
+リーナは物陰から飛び出したのだが、
+<PAUSE>
+<ACTOR>0,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女騎士
+「この犬を操っているのはあなたですか！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「うわっ！」
+<PAUSE>
+<NAME_PLATE>
+　目の覚めるような鋭い突きが繰り出され、
+リーナは慌ててそれを剣で逸らした。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイインッッ！
+<PAUSE>
+<NAME_PLATE>
+　二人の剣が激しく触れあい、
+火花が散った。
+<PAUSE>
+<BG>nc207a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>少女騎士
+「わたくしの剣を防いだ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「私が犬を操るわけがないだろう！」
+<PAUSE>
+<NAME_PLATE>少女騎士
+「では何者です！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「私はリーナ、ノマドの魔界騎士だ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　名乗りながら、
+そばにいた一番犬っぽくない犬、
+ブレインドッグを仕留める。
+<PAUSE>
+<BG>nc207a,IN, 500
+<ACTOR>0,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女騎士
+「リーナ？　ノマドの魔界騎士？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　少女は驚きつつも、すごく犬っぽい犬、
+デビルズドッグの首を跳ねた。
+<PAUSE>
+<BG>nc207a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「お前はアザンを倒しにきたのだろう。
+　私もだ。協力するぞ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは互いの後ろを守り合うため、
+そして自分は味方だという意思表示のため、
+少女に背を向けて構えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「分かりました。
+　わたくしはアデルハイトと申します！」
+<PAUSE>
+<NAME_PLATE>
+　後ろで少女が名乗る声を聞きながら、
+リーナはサクラブロッサムを振り下ろした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「くらえ！　チェリーフラーリィ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　剣が大気を裂き、疾風を生み出し、
+桜色に染まった刀身から生じる花びらが
+無数の刃となって敵を襲った。
+<PAUSE>
+<NAME_PLATE>
+　五匹ほどの犬がまとめて
+ズタズタに切り裂かれた。
+<PAUSE>
+<BG>nc207a,IN, 500
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「よし！」
+<PAUSE>
+<ACTOR>1,ts_m277a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「風の技？　それにあの剣は？」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトは一瞬だけ驚いたようだが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m024a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>犬モンスター
+「ガルウウウウウウッッ！！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「無駄です！
+　やあぁっ！！　はっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その隙を突こうと飛びかかってきた犬を
+盾で受け止め、その身が空中にあるうちに
+剣で突き殺している。
+<PAUSE>
+<NAME_PLATE>
+　派手さはないが、
+理にかなった堅実な守りと攻めだ。
+一撃に込められた魔力も相当なものだ。
+<PAUSE>
+<BG>nc207a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m024a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m024b,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m071a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>犬モンスター
+「ガルウウウウウウウウウッッ！！」
+「グァアアアアアアアアアッ！！」
+「ウォオオオオオオンッ！！」
+<PAUSE>
+<NAME_PLATE>
+　犬たちは二人の周囲を取り囲み
+威嚇するように吠え立てながら、
+<PAUSE>
+<NAME_PLATE>
+　互いに連携し、時にフェイントや、
+仲間を囮にする狡猾さすら発揮して、
+次々と襲いかかってきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「やっ！　たあっっ！　そいやあっ！！」
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アデルハイト
+「えいっ！　やあっ！　はっっ！！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リーナとアデルハイトは互いを守りつつ、
+冷静に確実に数を減らしていったが、
+<PAUSE>
+<BG>nc207a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「くそっ、なんなんだ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m029a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン・ドッグ
+「―――――――――」
+「―――――――――」
+「―――――――――」
+<PAUSE>
+//　※立ち絵
+//　ドローン・ドッグ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　唯一、機械仕掛けの犬、
+ドローン・ドッグだけが倒しきれない。
+<PAUSE>
+<NAME_PLATE>
+　首を跳ねても、胴体を真っ二つにしても、
+部品同士がガチャガチャッとくっついて、
+しつこく攻撃してくる。
+<PAUSE>
+<NAME_PLATE>
+　苦手な犬が、機械の身体を
+バラバラにしても何度でも蘇ってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「な、なんだこいつらは！
+　機械なのにゾンビか！　これだから犬は！
+　いいかげんやられろ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナが焦り始めたその時だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「ならばわたくしの魔眼で！」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（魔眼）
+//　　　＊新規デザインイラスト
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m277c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　アデルハイトの右目が輝いた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「魔眼？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「私の魔眼からは
+　何人たりとも逃れられません！」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトは光り輝く目で
+ゾンビのようなドローン・ドッグを
+キッと見据える。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「なるほど、機械の犬と見せかけて、
+　魔術によって操られたゴーレムですね。
+　姑息な真似を」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ゴーレムならばその核を破壊するのみ。
+　はあっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　稲妻のような突き。
+<PAUSE>
+<NAME_PLATE>
+　その一撃でドローン・ドッグは
+ガシャッと崩れて、もう動かなくなった。
+<PAUSE>
+<BG>nc207a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「すごい」
+<PAUSE>
+<NAME_PLATE>
+　感動してしまうリーナの前で
+アデルハイトは残るドローン・ドッグも
+次々と仕留めていった。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　犬たちを全滅させた二人は
+館にも突入するが、中は無人だった。
+<PAUSE>
+<NAME_PLATE>
+　やはりリーナを誘い出すための
+罠だったようだ。
+<PAUSE>
+<NAME_PLATE>
+　確かにあれだけの数の犬。
+実はゴーレムだったドローン・ドッグ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　リーナだけだったら
+もっと手こずっただろう。
+<PAUSE>
+//【背景：アザンの住処＿昼夜共通】【時間：昼】
+//　※対魔忍紅_NC010aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc207a,IN, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リーナ
+「すごい魔眼だな。それに見事な腕だ。
+　感動してしまったぞ」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>1,ts_m277a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「そちらも……お見事でした」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵
+//　　　＊新規デザインイラスト
+<NAME_PLATE>
+　リーナの称賛の言葉に、
+アデルハイトはなぜか戸惑っているようだった。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「先ほどノマドの魔界騎士と
+　仰っていましたが……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうだ。
+　私はノマドの魔界騎士リーナ。
+　イングリッド様にお仕えしている」
+<PAUSE>
+<NAME_PLATE>
+　胸を張ってそう答えると
+アデルハイトの顔に驚きが広がる。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「イングリッド様に……？
+　はっ、その桜色の剣はもしや？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「これは魔剣サクラブロッサム、
+　イングリッド様に頂戴したものだ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「魔剣サクラブロッサム……」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトはリーナを見つめ、
+何か色々考えているようだったが、
+<PAUSE>
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　おもむろに剣を鞘に収めると、
+きりりと姿勢を正して言った。
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器携帯）
+//　　　＊新規デザインイラスト
+<NAME_PLATE>アデルハイト
+「わたくしは魔界から
+　アザンを追ってきました。
+　ですが人間界のことには不慣れです」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「リーナさんもアザンを追っているとのこと。
+　よろしければご一緒させていただけますか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「もちろんだ。アデルハイト。
+　ハイジと呼んで良いか？」
+<PAUSE>
+<NAME_PLATE>
+　リーナはにっこり笑って
+握手を求めようとしたが、
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「お断りします。
+　その呼ばれ方は嫌いなのです」
+<PAUSE>
+<NAME_PLATE>
+　そうきっぱり言われてしまい、
+決まりが悪くなって手を引っ込めた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「そ、そうか、わかった。
+　じゃあ、よろしく」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「よろしくお願いします」
+<PAUSE>
+<NAME_PLATE>
+　こうしてリーナはアデルハイトと共に
+アザンを追うことになった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それが三日前のことだ。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿俯瞰】【時間：昼】
+//　※鋼殻のアイ_nc001aより流用
+//nc433a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc433a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして今。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿入口】【時間：昼】
+//　※鋼殻のアイ_nc004aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc174b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　二人はヨミハラから地上に出て、
+アーカムバイオ製薬の八王子ラボに来ていた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　アザンがここを狙っているらしいとの
+情報を手に入れたからだ。
+<PAUSE>
+<NAME_PLATE>
+　あの後、イングリッドには事情を報告し、
+一人で先走ったことをしっかり叱られ、
+<PAUSE>
+<NAME_PLATE>
+　ノマドの魔界騎士として
+アザンに目をつけられた責任を果たすため、
+ちゃんと許可を得て行動している。
+<PAUSE>
+<NAME_PLATE>
+　そしてドロレスに協力してもらって、
+自分は犬に惨殺されたという偽情報を流し、
+<PAUSE>
+<NAME_PLATE>
+　アザンに目的を果たしたと思わせて、
+泳がせていたところだった。
+<PAUSE>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ここがアーカムバイオ製薬か」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>リーナ
+「ドロレスの話では
+　色々と良からぬ研究をしているらしい。
+　なるほど、いかにもアザンが現れそうだ」
+<PAUSE>
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「そうですね。
+　人間なのに魔力を持つ―――
+　ええと、なんといいましたか？」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器携帯）
+//　　　＊新規デザインイラスト
+<NAME_PLATE>
+　この三日間、行動を共にして
+だいぶ息が合ってきたアデルハイトが
+聞いてくる。
+<PAUSE>
+<NAME_PLATE>リーナ
+「対魔忍だな」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「そう、その対魔忍が持ち込んだ
+　なにかのサンプルを狙っているとか。
+　いったいなんでしょう？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「さあ。
+　でも対魔忍も色々やっているからな。
+　なにか大切なものだろう」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　リーナのその答えに
+アデルハイトは訝しげな顔になる。
+<PAUSE>
+<NAME_PLATE>リーナ
+「どうした？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「リーナさんは、いえノマドは
+　対魔忍と敵対しているのですよね？
+　それにしては友人のような口ぶりですので」
+<PAUSE>
+<NAME_PLATE>
+　それを非難しているような口調だったが、
+リーナはありのままに答える。
+<PAUSE>
+<NAME_PLATE>リーナ
+「確かに対魔忍とは対立関係にある。
+　だが顔を合わせれば即殺し合いを
+　始めるような殺伐とした間柄ではない」
+<PAUSE>
+<NAME_PLATE>リーナ
+「時に協力し合うこともあるし、
+　イングリッド様が一目置く対魔忍もいる。
+　私も個人的にだが友人がいるしな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「もちろんいざ闘いとなれば
+　躊躇うつもりはない。それが理だ」
+<PAUSE>
+<NAME_PLATE>
+　甲河アスカ、黒田巴、ケイリー・マイヤーズ、
+そして大きな借りを作った井河さくら。
+ひょんなことで出会った者たちを思い出す。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「そういうものなのですか。
+　それが人間界でのやり方なのですね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「人間界のというか、
+　イングリッド様のやり方だな。
+　私はそれをとても気に入っている」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それが流儀であれば
+　わたくしも従いましょう」
+<PAUSE>
+<NAME_PLATE>
+　そのやり方をどう思ったのかは分からないが、
+アデルハイトは抑えた口調で言った。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ただ魔界騎士を名乗るリーナさんが
+　殺されたふりをして敵を騙し討ちにするのは
+　正直いかがなものかと思いますが……」
+<PAUSE>
+<NAME_PLATE>
+　さっきの問いと違って、
+こちらはもっとはっきり納得がいかない
+という顔だった。
+<PAUSE>
+<NAME_PLATE>リーナ
+「相手は犬を大量に用意するような卑怯者だ。
+　それくらいはありだろう」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それくらいは……ですか」
+<PAUSE>
+<NAME_PLATE>リーナ
+「なにか言いたそうだな？
+　闘いの前にモヤモヤを抱えていると
+　良くないぞ。遠慮なく言ってくれ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「では、申し訳ありませんが……」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトはそう前置きしてから、
+妙に強い口調で言い始めた。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ここ数日一緒に過ごさせて頂いて
+　リーナさんの振る舞いには
+　わたくし色々と思うところがあります」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「そのなんだかよく分からない格好とか
+　街中でいきなり歌い出すところとか、
+　魔界騎士に相応しいとは思えません」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ええ、そうか？
+　すごく私らしいと思うけどな」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「“私らしい”とはなんですか！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「魔界騎士たるもの
+　常に己を律せねばなりません！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「あのイングリッド様に認められた
+　お方なら尚更です
+　リーナさんはちゃらんぽらんすぎます！」
+<PAUSE>
+<NAME_PLATE>
+　喋っているうちに
+だんだん早口になっていき、
+最後はすごい声で言われた。
+<PAUSE>
+<NAME_PLATE>
+　リーナがちょっと驚いていると、
+アデルハイトはハッと我に返ったように、
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「失礼致しました。
+　わたくしのような未熟者がこのようなことを。
+　お詫び致します」
+<PAUSE>
+<NAME_PLATE>
+　すぐさま頭を下げられたが、
+リーナは気にしていなかった。
+<PAUSE>
+<NAME_PLATE>リーナ
+「別に構わないぞ。
+　私は生まれは雑種だし、魔力は少ないし、
+　剣だってほとんど我流だ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「魔界騎士を名乗ることは
+　イングリッド様に許して頂いたが」
+<PAUSE>
+<NAME_PLATE>リーナ
+「その正しい作法やなにやらは
+　実はよく分かってないからな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「アデルハイトは名門の生まれだろう？
+　そういうことに詳しそうだ。
+　気づいたことがあったら言ってくれ」
+<PAUSE>
+<NAME_PLATE>
+　今さら生まれに劣等感を抱いたり、
+魔力の少なさを嘆いたりすることはないが、
+ちゃんとした魔界騎士になりたいとは思う。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「恐れ入ります」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトは感情的になってしまった
+自分を恥じるようにまた頭を下げた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「じゃあそういうことで、
+　そろそろ潜入するか」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「え？　待ってください。
+　それは夜になるのを待った方が」
+<PAUSE>
+<NAME_PLATE>リーナ
+「慎重だな。
+　私の風とお前の魔眼で
+　警備の穴は丸見えだろう？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それでもです。
+　さっそく言わせていただきますが、
+　リーナさんは行き当りばったりすぎます」
+<PAUSE>
+<NAME_PLATE>リーナ
+「私の経験からすると、
+　あまり予定をきっちりたてると
+　イレギュラーに対応しにくいんだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「なにごとも臨機応変が一番だぞ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「物事には限度があります」
+<PAUSE>
+<NAME_PLATE>
+　眉をひそめるアデルハイトを見て、
+リーナは三日前のことをふと思い出した。
+<PAUSE>
+<NAME_PLATE>リーナ
+「あれ？
+　じゃあこないだ屋敷に突撃したときも
+　計算ずくだったのか？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「当然です」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そのわりにあっさり犬に見つかってたな」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「あ、あれは……
+　わたくし人間界は不慣れでしたし」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それはあまり関係ないと思うぞ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「そ、そうかもしれませんが、
+　というか、リーナさん見てらしたんですか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「見てたというか、私は犬が苦手だから
+　うわーっと出てきたときにそなえて
+　気持ちの準備をしていたんだ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「なんなんですかそれは！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　などと突入前の打ち合わせをしていると、
+<PAUSE>
+<NAME_PLATE>
+　ブーーーン。
+ブロロロロロロロ―――
+<PAUSE>
+<NAME_PLATE>
+　頭上でヘリコプターの音がした。
+アーカムバイオ製薬のビルに
+着陸しようとしている。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿ヘリポート】【時間：昼】
+//　※陰陽騎士トワコ_nc009aより流用
+//nc434a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc434a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「やっと到着したな」
+<PAUSE>
+<NAME_PLATE>
+　五車町から数時間。
+<PAUSE>
+<NAME_PLATE>
+　俺たちはアーカムバイオ製薬の
+ビル屋上にあるヘリポートに降り立った。
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「到着時間、予知と一致しました」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リノアがラプラスにすかさず
+データを記録していた。
+<PAUSE>
+<NAME_PLATE>
+　ヘリで移動中、俺と話している間も
+よく弄っていた。習慣になっているらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「サンプルと検査結果を回収するって話だけど、
+　いったいなんなんだろうな。
+　わざわざヘリまで使わせて」
+<PAUSE>
+<NAME_PLATE>リノア
+「言ってませんでしたか？
+　対魔忍の天野（あまの）レナさんですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「え……？
+　それって半年ほど前
+　任務中に行方不明になった？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>リノア
+「はい。
+　でも先日突然現れたんです。
+　任務中の記憶をなくして」
+<PAUSE>
+//【黒画面】
+//　※キャラ説明のための背景
+//　※立ち絵
+//　　天野レナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0338a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　天野レナ。石遁の術の使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　石を自在に操り、無数の石つぶてによる
+単純だが強力無比な攻撃や
+ストーンゴーレムの操作を得意とする。
+<PAUSE>
+<NAME_PLATE>
+　自分を石の鎧で守ることもでき、
+攻防堅固な対魔忍と言われている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが、彼女は任務中に行方不明となった。
+<PAUSE>
+<NAME_PLATE>
+　仲間が捜索しても行方が分からず、
+その生存が危ぶまれていたのだが、
+<PAUSE>
+<NAME_PLATE>
+　つい先日、一人で歩いていたところを
+保護されたのだという。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿検査室】【時間：昼】
+//　※ぽよぽよおっぱいサマ_nc007aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc295a,IN, 1000
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リノア
+「レナさんが敵に捕らわれていたのは
+　間違いありません」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>リノア
+「ただ、その間の記憶が曖昧で、
+　どうやって脱出したのかも
+　分かっていません」
+<PAUSE>
+<NAME_PLATE>
+　俺は検査室のカプセルの中で
+眠らされた状態の天野レナを見上げた。
+<PAUSE>
+<NAME_PLATE>俺
+「それは洗脳や改造を
+　受けている可能性があるな」
+<PAUSE>
+<NAME_PLATE>リノア
+「アサギ先生もそう考えられて、
+　五車町に戻す前に
+　ここで各種精密検査を受けていたんです」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど。
+　で、検査結果は？」
+<PAUSE>
+<NAME_PLATE>
+　リノアは受け取った検査結果を
+一通り見て答えた。
+<PAUSE>
+<NAME_PLATE>リノア
+「これには異常なしとあります」
+<PAUSE>
+<NAME_PLATE>俺
+「異常なしか……」
+<PAUSE>
+<NAME_PLATE>リノア
+「ただ念のため、ここでは目覚めさせずに
+　輸送用のカプセルに入れたまま連れて帰って」
+<PAUSE>
+<NAME_PLATE>リノア
+「五車で桐生先生のさらなる検査の後、
+　問題なしと判断されたら
+　目覚めてもらうことになります」
+<PAUSE>
+<NAME_PLATE>俺
+「それが賢明だな。
+　だから運ぶヘリが必要だったんだな」
+<PAUSE>
+<NAME_PLATE>俺
+「しかし生きた人間をサンプル扱いとは
+　相変わらずだな、桐生先生は」
+<PAUSE>
+<NAME_PLATE>リノア
+「桐生先生も五車にとっては
+　生きたサンプルのようなものですし」
+<PAUSE>
+<NAME_PLATE>
+　毒舌ではなく、
+本心からそう思っている様子だ。
+<PAUSE>
+<NAME_PLATE>
+　やっぱりちょっと変わっている。
+もっとも天才とはそんなものだろう。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿入口】【時間：夜】
+//　※鋼殻のアイ_nc004bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc174a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　天野レナを五車に輸送するにあたっては
+色々と細かい手続きや準備が必要らしく、
+<PAUSE>
+<NAME_PLATE>
+　その日はアーカムバイオ製薬に泊まり、
+帰るのは翌日ということになった。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿スタッフルーム】【時間：夜】
+//　※鋼殻のアイ_nc005cより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc153a,IN, 1000
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リノア
+「それについては私は違う意見です」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>リノア
+「確かに対魔粒子とエネルギーの
+　相互関係に関しては」
+<PAUSE>
+<NAME_PLATE>リノア
+「ココティエが提唱したデモンダイヤグラムに
+　従う結果が観測されていますが」
+<PAUSE>
+<NAME_PLATE>リノア
+「対魔粒子の放出という
+　瞬間的な遷移に関しては」
+<PAUSE>
+<NAME_PLATE>リノア
+「小谷＝シモンズの不等式が示す対魔粒子の
+　存在確率αΩの影響を無視できず、
+　従って――」
+<PAUSE>
+<NAME_PLATE>俺
+（楽しそうにややこしい話をしているな）
+<PAUSE>
+<NAME_PLATE>
+　リノアは知り合いの科学者達と
+対魔忍と忍法に関する話（多分）に夢中だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　最初、甲河アスカの対魔超粒子砲が
+どうのこうのと始まったから、
+少しだけ興味をもって耳を傾けたのだが、
+<PAUSE>
+<NAME_PLATE>
+　話し始めて一分としないうちに、
+俺には全く意味が分からない
+科学呪文の応酬と化した。
+<PAUSE>
+<NAME_PLATE>俺
+（気分転換でもしてくるか）
+<PAUSE>
+<NAME_PLATE>
+　ここでは落ち着いて読書もできない。
+俺は無言で席を立った。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿廊下】【時間：夜】
+//　※漂流艦獄クロノス_nc003aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc017a,IN, 1000
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>リノア
+「ふうまさん、待ってください」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　スタッフルームを出て、
+さてどこに行くかなと考えたところで、
+リノアが俺の後を追ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「どうかしたか？」
+<PAUSE>
+<NAME_PLATE>リノア
+「今夜ここでなにか起こると
+　ラプラスが予知しています」
+<PAUSE>
+<NAME_PLATE>リノア
+「何が起こっても大丈夫なように、
+　私とふうまさんは一緒にいた方がいいです」
+<PAUSE>
+<NAME_PLATE>俺
+「なにかって？」
+<PAUSE>
+<NAME_PLATE>リノア
+「そこまでは。
+　不確定要素が多すぎて」
+<PAUSE>
+<NAME_PLATE>俺
+「よく分からないが、なにか起こるか。
+　まるで占いだな」
+<PAUSE>
+<NAME_PLATE>リノア
+「違います。
+　事象の観測と理論に基づく予知です」
+<PAUSE>
+<NAME_PLATE>
+　俺が軽口を叩くと
+リノアはきっぱりと否定した。
+そこは譲れないらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「分かった。
+　でももっと早く言ってくれ。
+　こっちも心の準備とかあるから」
+<PAUSE>
+<NAME_PLATE>リノア
+「記録ではふうまさんはただのお使いでも
+　なにかとトラブルに巻き込まれるので
+　今日もそのつもりと考えていました」
+<PAUSE>
+<NAME_PLATE>俺
+「勘弁してくれ」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なんて嫌な信用のされ方だと
+思ったその時、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>男の声
+「ぎゃああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　廊下の向こうから声が聞こえた。
+<PAUSE>
+<NAME_PLATE>
+　ラプラスの予知、大当たりか。
+<PAUSE>
+<NAME_PLATE>俺
+「さっそくなにか起ったらしいな」
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「はい、行きましょう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　俺たちは悲鳴の聞こえた方に
+向かって走り出した。
+<PAUSE>
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その先で見たものは―――
+<PAUSE>
+<BG>chrnc0061a,IN, 1000
+<NAME_PLATE>
+　天井まで飛び散った血飛沫、
+廊下の血の海で転がる一つの死体。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そのそばに立つ、二人の女だった。
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+//　　アデルハイト＿立ち絵
+//　　　＊新規デザインイラスト
+<NAME_PLATE>
+　二人は驚いたように俺たちを見ている。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リノア
+「敵……！？」
+<PAUSE>
+<NAME_PLATE>
+　リノアもさっと警戒する。
+<PAUSE>
+<NAME_PLATE>
+　そして俺は―――
+<PAUSE>
+<NAME_PLATE>俺
+「リーナ！？
+　なぜこんなところに！」
+<PAUSE>
+<NAME_PLATE>
+　二人のうちの一人、
+見覚えのある方に思わず尋ねていた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「なにっ！？
+　なぜ私の事を知っている！」
+<PAUSE>
+<NAME_PLATE>俺
+「何回か会ってるだろ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうだったか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「ふうまさん、お知り合いですか？」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「ノマドの魔界騎士だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リノア
+「魔界騎士！？」
+<PAUSE>
+<NAME_PLATE>
+　リノアは反射的にラプラスを掲げて
+戦闘態勢を取ろうとするが、
+<PAUSE>
+<NAME_PLATE>俺
+「慌てるな。
+　まともに戦って勝てる相手じゃない」
+<PAUSE>
+<NAME_PLATE>リノア
+「ですが……」
+<PAUSE>
+<NAME_PLATE>俺
+「分かってる」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はリノアを背中にかばいつつ、
+二人と向かい合った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　リーナはともかく、
+女騎士の方は明らかに疑いの目で
+俺を見ている。
+<PAUSE>
+<NAME_PLATE>俺
+「俺のことを覚えていないのか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「うーん。
+　どこかで見たような顔だが……」
+<PAUSE>
+<NAME_PLATE>
+　リーナは首をかしげる。
+そんなに印象に残らない顔か？
+<PAUSE>
+<NAME_PLATE>
+　彼女に会ったのは確か三回。
+最初はヨミハラでハイオークに襲われている
+ところを助けてもらった。
+<PAUSE>
+<NAME_PLATE>
+　ただあの時は、
+俺と鹿之助と蛇子の三人兄妹で
+母親を探していると大嘘を吐いている。
+<PAUSE>
+<NAME_PLATE>
+　二度目はヤタガラスの子供を
+誘拐した犯人だと勘違いされた。
+誤解はすぐに解けたが。
+<PAUSE>
+<NAME_PLATE>
+　三度目は夏の浜辺で。
+ラップ大会で歌っているのを見た。
+だがあれは俺が見ただけだ。
+<PAUSE>
+<NAME_PLATE>
+　どれも俺を思い出してもらうのに
+あまり良いエピソードではない気がする。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　それならば―――
+<PAUSE>
+<NAME_PLATE>俺
+「俺はふうま。
+　ドロレスから聞いていないか？
+　ゲーム大会で会った男だ」
+<PAUSE>
+<NAME_PLATE>俺
+「ほらこれ、ドロレスからもらった
+　ブロマイドと連絡先だ」
+<PAUSE>
+<NAME_PLATE>
+　こんなこともあろうかと、
+対魔忍スーツのポケットに入れておいた
+イングリッドのブロマイドを見せる。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>リーナ
+「あっ！
+　それは私が作ったイングリッド様の
+　ブロマイド！」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　そうなの？」
+<PAUSE>
+<NAME_PLATE>少女騎士
+「イングリッド様の？」
+<PAUSE>
+<NAME_PLATE>リノア
+「ブロマイド？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「お前がドロレスの友達のふうまか！
+　聞いている。うん、聞いているぞ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは好意的な表情になるが、
+ここで気を許すわけにはいかない。
+<PAUSE>
+<NAME_PLATE>俺
+「魔界騎士のお前がなぜこんな所にいる？
+　これはお前たちがやったのか？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そんな不埒なことをするか。
+　魔界騎士をなんだと思ってる」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ノマドにちょっかいを出した
+　魔界ブローカーのアザンという男を
+　追ってきたんだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「このアデルハイトも同じだ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　名門魔族といった雰囲気の女騎士は
+俺を油断なく見据えたまま目礼する。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>リーナ
+「奴がここに侵入して追いかけてきたが
+　見失ってしまった」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そこにこの死体だ。
+　きっと奴の仕業だろう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「嘘は吐いてないと判断します」
+<PAUSE>
+<NAME_PLATE>
+　ラプラスでなにかを調べたのか、
+リノアが俺の後ろで囁いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　おそらくそれは正しい。
+リーナは魔界騎士の名に違わぬ強者だが、
+そういう嘘が吐けるタイプではない。
+<PAUSE>
+<NAME_PLATE>俺
+「魔界ブローカーのアザン。
+　そいつがここに忍び込んだのか？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「そうだ。今ここには
+　対魔忍の大切なサンプルがあるそうだな。
+　奴はそれを狙っている」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「な！？　どうしてそれを？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「情報がダダ漏れですね」
+<PAUSE>
+<NAME_PLATE>俺
+「ノマドには超スゴ腕のハッカーが
+　いるからな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「あれ？　ということはもしかして
+　ドロレスの友達のお前は対魔忍なのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「……そうだ」
+<PAUSE>
+<NAME_PLATE>
+　どう答えるべきか一瞬迷ったが、
+ここは正直に答える。
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうか！
+　そういうことだったのかー！
+　ドロレスやるなー！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「あの、リーナさん……
+　今はそんな場合では……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「なんだか魔界騎士らしくないですね」
+<PAUSE>
+<NAME_PLATE>
+　ますます嬉しそうな顔をするリーナに
+それぞれの連れが脱力しているが、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リノア
+「ふうまさん！」
+<PAUSE>
+<NAME_PLATE>
+　リノアの声がさっと緊張した。
+<PAUSE>
+<NAME_PLATE>リノア
+「そのアザンという魔界ブローカーが
+　ここに進入しているのなら、
+　急いでサンプルを確認しないと！」
+<PAUSE>
+<NAME_PLATE>
+　そう言って、
+リノアは天野レナが眠らされている
+部屋にすぐさま行こうとするが、
+<PAUSE>
+<NAME_PLATE>俺
+「待て！
+　そんな奴がわざわざここで
+　こんな殺しをするのは不自然だ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうやって慌てた誰かが
+　サンプルの位置を確認しに行くのを
+　狙っているのかもしれない」
+<PAUSE>
+<NAME_PLATE>リノア
+「あ……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「なるほど。
+　そういう考え方もあるな」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「冷静な判断ですね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「その仮定に基づいて、
+　ラプラスに侵入者の行動予知を
+　させてみます」
+<PAUSE>
+<NAME_PLATE>
+　リノアはまたラプラスを操作し始めた。
+さすが天才、行動が早い。
+<PAUSE>
+<NAME_PLATE>リノア
+「予知、出ました。
+　これが侵入者の現在位置です」
+<PAUSE>
+<NAME_PLATE>俺
+「よし。
+　リーナ、それとアデルハイトと言ったな。
+　悪いが一緒に来てもらうぞ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「もちろんだ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「本当に対魔忍と
+　協力することになりましたね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　リーナは少しも迷うことなく、
+アデルハイトは成り行きに困惑した様子で
+それぞれ頷いた。
+<PAUSE>
+//【背景：アーカムバイオ製薬＿倉庫】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc047a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　地下倉庫。
+<PAUSE>
+<NAME_PLATE>
+　そこがアザンが潜伏していると
+ラプラスが予知した場所だ。
+<PAUSE>
+<NAME_PLATE>
+　確かに誰かが潜んでいるような
+いや、危険が迫っている予感がする。
+<PAUSE>
+<NAME_PLATE>俺
+（どこだ……？）
+<PAUSE>
+<NAME_PLATE>
+　十分に警戒しつつ、
+倉庫に足を踏み入れた直後、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ぐっっ……」
+<PAUSE>
+<NAME_PLATE>
+　突然の激しい目眩と
+吐き気に襲われた。
+<PAUSE>
+<NAME_PLATE>
+　頭の中をメチャクチャに
+掻き回されるような強烈な不快感。
+<PAUSE>
+<ACTOR>1,chr_t0336a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リノア
+「うっっ！」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>0,ts_m277b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「くあっ！」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵
+//　　　＊新規デザインイラスト
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se010
+<NAME_PLATE>
+　リノアがその場にしゃがみ込み、
+アデルハイトも苦しそうに片膝を突く。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「でやあああああああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ただ一人、リーナだけは
+裂帛の気合と共に剣を振り下ろしていた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビュウウウッッ！！
+<PAUSE>
+<NAME_PLATE>
+　大気が鋭く切り裂かれ、
+俺たちの周りに風のシールドを作り出す。
+<PAUSE>
+<BG>nc047a,IN, 500
+<NAME_PLATE>
+　途端、謎の不快感がすーっと弱まった。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「アザン！
+　この魔界騎士リーナに
+　お前の音波攻撃は通用しないぞ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナはきりりと引き締まった顔で、
+倉庫の奥に向かって叫んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m278b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アザン
+「リーナだと！！」
+<PAUSE>
+//　※立ち絵
+//　　アザン＿立ち絵（非戦闘）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　驚いたような声が返ってきて、
+口に怪しげなマスクを付けた
+禿頭の魔族アザンが姿を現した。
+<PAUSE>
+<NAME_PLATE>アザン
+「貴様！
+　犬どもの餌になったのでは
+　なかったのか！」
+<PAUSE>
+<ACTOR>0,ts_m278b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「残念だったな。あれは嘘だ。
+　私は犬が嫌いなだけだ。
+　まんまと引っかかって尻尾を出したな！」
+<PAUSE>
+<ACTOR>0,ts_m278a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アザン
+「おのれ！
+　ならばここで始末してくれるわ！」
+<PAUSE>
+//　※立ち絵
+//　　アザン＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※基本の抜刀絵
+<NAME_PLATE>
+　アザンはマスク越しに怒号を発すると、
+黒く波打つ大剣を手にした。
+<PAUSE>
+//→プロローグ終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

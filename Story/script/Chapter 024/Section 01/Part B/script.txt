@@ -1,0 +1,362 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc262a,IN, 1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「――何よあんたたち？」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>チンピラ１
+「へっへっへ。さあねえ？
+　それより自分の心配を
+　した方がいいんじゃねえのか？」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　魔族傭兵立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　チンピラたちが二タニタと笑って
+エリカとヤスを取り囲んでいた。
+<PAUSE>
+<NAME_PLATE>
+　その手元にはナイフや拳銃などの
+凶器がチラついている。
+<PAUSE>
+<NAME_PLATE>
+　平和な話し合いに来たのでは
+ないのは間違いなさそうだ。
+<PAUSE>
+<NAME_PLATE>チンピラ１
+「おい、よく見りゃ
+　結構ツラの良いメスじゃねえか。
+　楽しむ前に殺っちまうなよ？」
+<PAUSE>
+<NAME_PLATE>チンピラ２
+「ヒッヒッヒ、
+　言われるまでもねえ。
+　いつも通り早い者勝ちだ」
+<PAUSE>
+<NAME_PLATE>チンピラ３
+「ああ、滾るぜ。
+　内臓ごとぶっ壊れるまで
+　掻き回してやる、ヒヒ……」
+<PAUSE>
+<NAME_PLATE>
+　じわりと――。
+<PAUSE>
+<NAME_PLATE>
+　男たちが距離を詰めてくる。
+<PAUSE>
+<NAME_PLATE>
+　粗野な表情、口ぶりとは裏腹に
+その動きは統制が取れている。
+<PAUSE>
+<NAME_PLATE>
+　過剰に下卑た言葉や態度も
+相手を萎縮させるための計算か。
+<PAUSE>
+<NAME_PLATE>
+　明らかに路上での荒事に
+慣れた者たちの素振りであった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　だが。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「あはっ！　バッカじゃないのー？」
+<PAUSE>
+<NAME_PLATE>エリカ
+「そんなどっかで聞いたような
+　脅し文句で私がビビると思った？
+　古臭いというかオヤジ臭いというか」
+<PAUSE>
+<NAME_PLATE>チンピラ１
+「ああァ！？」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　路上での喧嘩慣れしているのは
+エリカも同じ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se006
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>チンピラ２
+「！！！？
+　ぎゃああああああああっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>チンピラ１
+「なっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、一人のチンピラの
+背中から鮮血が噴きあがった。
+<PAUSE>
+<NAME_PLATE>
+　ナイフを振り上げエリカに
+襲い掛かろうとして――
+<PAUSE>
+<NAME_PLATE>
+　その瞬間に、頭上から小さな
+円盤のようなものが突き刺さったのだ。
+<PAUSE>
+<BG>nc262a,IN, 1000
+<NAME_PLATE>チンピラ１
+「て、てめええっ！！？
+　やりやがったなああああああっ！！！」
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+“ツイン・サキュラーソー”
+<PAUSE>
+<NAME_PLATE>
+　髪留めに取り付けたアンテナから
+脳波によって操作する遠隔武器。
+<PAUSE>
+<NAME_PLATE>
+　エリカは、チンピラたちの気配を
+察したと同時にこのドローン型の
+武器を頭上に移動させ、
+<PAUSE>
+<NAME_PLATE>
+　いつでも襲撃に対応できるように
+準備を整えていたのだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m126b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヤス
+「――ですよねぇ。
+　魔獣やでっかいカニならまだしも、
+　人間相手にビビらないっす」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>チンピラ３
+「あがっ！？」
+<PAUSE>
+<NAME_PLATE>
+　傭兵助手のヤスであった。
+<PAUSE>
+<NAME_PLATE>
+　エリカのドローン攻撃で混乱した
+隙をついて、見事な一本背負いで
+チンピラの一人を打ち倒す。
+<PAUSE>
+<NAME_PLATE>
+　ひ弱そうな見た目に反して
+ヤスもなかなかの使い手のようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m090a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>チンピラ
+「――糞がっ！？
+　こんなの聞いてねえぞっ！！」
+<PAUSE>
+<NAME_PLATE>
+　次々に倒されていくチンピラたち。
+<PAUSE>
+<SE_PLAY>se078
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　それを見て顔色を変えた
+リーダーらしき男が身をひるがえす。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「あっ！！？　待ちなさい！！
+　――ヤス、こっちは頼んだわよ！」
+<PAUSE>
+<NAME_PLATE>ヤス
+「りょ、了解っす！」
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se078
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　エリカがそのあとを追った。
+<PAUSE>
+<NAME_PLATE>
+　逃がしたりはしない。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら――
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>エリカ
+（あいつ、
+　絶対何か知ってるでしょ！？）
+<PAUSE>
+<NAME_PLATE>
+　連中は明らかにエリカたちを
+狙って絡んできた。
+<PAUSE>
+<NAME_PLATE>
+“連続失踪事件の調査をしている”
+エリカたちのことを狙って。
+<PAUSE>
+<NAME_PLATE>
+　ならば、あのリーダーの男は
+何か手がかりを持っている――？
+<PAUSE>
+<NAME_PLATE>？？？
+「――――――」
+<PAUSE>
+<NAME_PLATE>エリカ
+「えっ！？」
+<PAUSE>
+<ACTOR>0,ts_m090a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>チンピラ１
+「じゃ、邪魔だどけえええええっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　路地の出口を人影がよぎった。
+<PAUSE>
+<NAME_PLATE>
+　構わず戦斧を振り回して
+突進するチンピラのリーダー。
+<PAUSE>
+<NAME_PLATE>エリカ
+「ば、ばかっ！！？
+　そこのあなた、危ない！！！」
+<PAUSE>
+<NAME_PLATE>
+　エリカが顔をこわばらせた。
+<PAUSE>
+<NAME_PLATE>
+　小さく華奢な人影だった。
+<PAUSE>
+<NAME_PLATE>
+　このままではあの男の戦斧が
+頭上に振り下ろされ――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>チンピラ１
+「あがっ！！！？
+　ぎゃあああああああああっ！！！
+　俺の腕があああああっ」
+<PAUSE>
+<NAME_PLATE>エリカ
+「っ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　ビシャ！！！
+<PAUSE>
+//　※鮮血エフェクトなど。
+<NAME_PLATE>
+　戦斧が地面を転がり、半分ほど
+切断された手首から鮮血が迸った。
+<PAUSE>
+<NAME_PLATE>
+　激痛で立っていられないのか、
+リーダーの男はうずくまったまま
+獣のように唸っている。
+<PAUSE>
+<SE_PLAY>se023
+<BG>nc262a,IN, 1000
+<NAME_PLATE>エリカ
+「あ、あなたは……」
+<PAUSE>
+<NAME_PLATE>
+　人影がエリカの前に立った。
+<PAUSE>
+<NAME_PLATE>
+　それは、ぞっとするほどの
+美貌を持った銀髪の少女。
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「――私はミランダ。
+　ミランダ・クローゼット」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>？？？
+「私も、あなたと同じです」
+<PAUSE>
+<NAME_PLATE>エリカ
+「えっ？　な、なんのこと……」
+<PAUSE>
+<NAME_PLATE>
+　左手に握った小ぶりのナイフ、
+片方の目を覆う眼帯――。
+<PAUSE>
+<NAME_PLATE>
+　可憐な、優雅とすら言えるような、
+微笑みと物腰、その振る舞い。
+<PAUSE>
+<NAME_PLATE>
+　何もかもが場違いだった。
+<PAUSE>
+<NAME_PLATE>
+　上流階級のサロンにいても
+不思議はない令嬢風の少女。
+<PAUSE>
+<NAME_PLATE>
+　それが、血を滴らせるナイフを片手に
+闇の街・センザキの路地裏に佇んでいる。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「――あなたも“例の事件”を
+　調べているのでしょう？」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「この街――センザキで起きている、
+　子供たちの連続失踪事件――」
+<PAUSE>
+<NAME_PLATE>
+　あっけにとられるエリカに
+少女が微笑んだ。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「私も、その事件を調べています」
+<PAUSE>
+//→Section１終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

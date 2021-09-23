@@ -1,0 +1,287 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>俺
+「くっ――！！
+　皆あのドアの中だっ！！！」
+<PAUSE>
+//【背景：東京キングダム＿さびれたバー＿昼夜共通＿閉店】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045bより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc100a,IN, 1000
+<SE_PLAY>se059
+<NAME_PLATE>
+　ガチャン！！！！
+<PAUSE>
+<NAME_PLATE>
+　背後で扉が閉まり、鈍い音を
+響かせて錠が下ろされる。
+<PAUSE>
+<NAME_PLATE>
+　そこは開店前らしい薄暗く
+さびれたバー。
+<PAUSE>
+<NAME_PLATE>
+　俺たちを招き入れた人物は、
+その薄闇の片隅に立っていた。
+<PAUSE>
+<ACTOR>0,ts_m074a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「久しぶりだな、対魔忍」
+<PAUSE>
+//　※立ち絵
+//　　ワーウルフ＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「ひょぇええええええええええ
+　えええええええっ！！！？
+　けもっ！？　けものおぉお！！！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>舞
+「獣人……！？」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>まり
+「わわっ！？　前が見えないよ！？
+　卯奈ちゃん抱きつかないで～っ！」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　うさぎの力を宿しているためか
+獣が苦手なのだろう。
+<PAUSE>
+<NAME_PLATE>
+　震えあがった卯奈がぴょ～んと
+まりの顔に抱きついていた。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、大丈夫だぞ卯奈。
+　この人――っていうかこの
+　ワーウルフは俺の知り合いだ」
+<PAUSE>
+<NAME_PLATE>卯奈
+「そうなの！！？」
+<PAUSE>
+<NAME_PLATE>
+　さっき声を聴いてすぐに思い出した。
+<PAUSE>
+<NAME_PLATE>
+　以前ＣＤガスの件に絡んで知り合った
+ギャングのリーダーが獣人化した姿。
+<PAUSE>
+<NAME_PLATE>
+　その後も何度か顔を合わせ、淫魔族に
+連れていかれそうになったきらら先輩を
+助けてもらったこともある。
+<PAUSE>
+<NAME_PLATE>ワーウルフ
+「おっと。
+　これは失礼した――」
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「すまねえなお嬢ちゃん達」
+<PAUSE>
+//　※立ち絵
+//　　ギャングのリーダー
+//　　　　＊ふうま下忍(男)のイラストを流用
+<NAME_PLATE>ギャングのリーダー
+「荒事が近いと思って獣化していたが、
+　あんたらには少し刺激が強かったようだ」
+<PAUSE>
+<NAME_PLATE>
+　卯奈たちの反応を見て
+ワーウルフが獣人化を解いた。
+<PAUSE>
+<NAME_PLATE>
+　獣そのものの姿をしているが、
+中身は意外と紳士のようだ。
+<PAUSE>
+<NAME_PLATE>卯奈
+「ふぁぁ……！？
+　怖いけものと、違う……？」
+<PAUSE>
+<NAME_PLATE>舞
+「獣人といえば
+　ウルフガイシリーズですね。
+　色々過激でした」
+<PAUSE>
+<NAME_PLATE>まり
+「はわわ……卯奈ちゃんの手で
+　眼鏡がずり落ちて……っ、
+　めがねめがね……」
+<PAUSE>
+<NAME_PLATE>
+　ようやく卯奈も落ち着きを取り戻し、
+獣人登場の混乱も収まったようだった
+（メガネを探している一人以外）。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム＿さびれたバー＿昼夜共通＿閉店】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc100a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　とりあえず俺は３人に
+ワーウルフのことを簡単に紹介した。
+<PAUSE>
+<NAME_PLATE>
+　以前闇の町で起こった事件で
+知り合いになったこと。
+<PAUSE>
+<NAME_PLATE>
+　ギャング団の一味ではあるが
+意外と人情にもろく悪い奴ではないこと。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<NAME_PLATE>
+　すると――闇の住人と身近で話す
+機会などめったにないせいだろうか、
+一転して３人は人狼に興味津々の様子。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0119a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「す、すごいです！！　ふうまさん
+　獣人の方ともお知り合いなんですねっ！
+　尊敬しちゃいます！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>卯奈
+「怖い獣じゃないんですね！？
+　じゃあ友達になりましょう！
+　私は望月卯奈っ！　よろしくー！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞
+「むつ五郎さんの著作によれば、
+　人狼を手なずけるにはこうして
+　高圧的に見下ろしながら――お手」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「わんっ。――い、いややめろっ！
+　近づくな！　俺は蛇子さん以外の
+　女に興味はねえっ！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m038a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　意外と女慣れしてないワーウルフが
+３人の女子に囲まれてしどろもどろに
+なっていた。
+<PAUSE>
+<NAME_PLATE>俺
+（そういえば蛇子に懐いてたな、
+　この獣人……）
+<PAUSE>
+<NAME_PLATE>
+　タコの獣遁使いである蛇子を
+半獣半人の仲間だと思っているようだ。
+<PAUSE>
+<NAME_PLATE>
+　ここにいる卯奈も同じく獣遁使いだが、
+耳しか獣化してないので
+物足りないのかもしれない。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ皆、俺に先に話をさせてくれ。
+　――さっきはありがとう。
+　危ないところを助けてもらった」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「お、おぅ。良いってことよ……。
+　別に大したことはしちゃいねえ」
+<PAUSE>
+<NAME_PLATE>俺
+「そんなことないさ。
+　あのままだと俺たちも
+　危ないことになってたしな」
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、気になる所ではあった。
+なぜ闇の住人である彼が、わざわざ
+俺たちを助けてくれたのだろう？
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　しかし、俺がそれを尋ねる前に。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　ドカッ！！　ガチャン！！！
+<PAUSE>
+<NAME_PLATE>トロールたち
+「グル……グオォオオオ……」
+<PAUSE>
+//　※注
+//　トロール立ち絵なし　唸り声だけ聞こえている状況です。
+//【背景：東京キングダム＿さびれたバー＿昼夜共通＿閉店】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045bより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc100a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0207a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「ふわぁっ！！？
+　な、なにこの物音っ！？」
+<PAUSE>
+<NAME_PLATE>舞
+「近くの建物……でしょうか」
+<PAUSE>
+<NAME_PLATE>俺
+「これは――
+　追っ手の連中が手当たり次第に
+　家探ししてるんだろう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　薄い壁越しに隣の建物に大勢が
+踏み込んだ物音が聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　どうやらこの場所も安全とは
+言えないようだ。
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャングのリーダー
+「ちっ！！　ここじゃ
+　大して時間も稼げねえか……」
+<PAUSE>
+<NAME_PLATE>ギャングのリーダー
+「こっちに抜け道がある！！
+　ついてこい対魔忍、
+　話は走りながらしてやるよ！！」
+<PAUSE>
+//→S302a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

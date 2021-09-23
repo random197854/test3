@@ -1,0 +1,302 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「この不届き者どもが！！
+　せいやああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシッッ！！
+<PAUSE>
+<NAME_PLATE>ギャング
+「ぐああっ！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊モンスターイラストより流用
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>リーナ
+「とりゃあっ！　はっ、えいやっっ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシバシバシッッ！！
+<PAUSE>
+<NAME_PLATE>ギャング
+「うげえっ！」
+<PAUSE>
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラストより流用
+<BG>nc122a,IN, 500
+<SE_PLAY>se024
+<NAME_PLATE>
+　リーナはサクラブロッサムを
+容赦なく振るい、ギャングたちを
+次々と倒していく。
+<PAUSE>
+<NAME_PLATE>
+　だが殺すつもりはない。峰打ちだ。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「うわあ、メチャクチャ強い」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　さっき介入しないと言ったばかりの
+リーナの大介入にケイリーが驚いている。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「ええと、どうしようかな。
+　せっかくだから手伝おうかな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　これもヨミハラ体験だとばかりに
+ケイリーが飛び込んできた。
+<PAUSE>
+<ACTOR>1,chr_t0280a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「とりゃー助太刀参上！！」
+<PAUSE>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「手伝ってくれるのか！！
+　ありがとう！　だが殺すなよ！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うん、分かった！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャング
+「なんだこのアマ！！
+　でしゃばりやがると―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「エレクトリックパーンチ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチッッ！！
+<PAUSE>
+<NAME_PLATE>ギャング
+「がっっ！！」
+<PAUSE>
+<BG>nc122a,IN, 500
+<SE_PLAY>se023
+<NAME_PLATE>
+　ケイリーのアンドロイドアームで
+殴られたギャングが仰向けにぶっ倒れた。
+<PAUSE>
+<NAME_PLATE>
+　自分でエレクトリックと言うだけあり、
+拳が当たった瞬間、スタンガンのような
+電気火花が飛び散った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0280a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「電気を使うのか。やるな！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「ありがとっ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「とりゃっ！　せいやっ！　はああっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシッッ、バシッ、バシバシッ！！
+<PAUSE>
+<NAME_PLATE>ギャング
+「ぐはあっっ！！」
+<PAUSE>
+<BG>nc122a,IN, 500
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「そりゃっ！！　とおっ！　もらったあっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチッ！　バチバチバチッ！！
+<PAUSE>
+<NAME_PLATE>ギャング
+「げぶううっ！！」
+<PAUSE>
+<BG>nc122a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0280a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　出会ったばかりの二人だが
+かけ声の調子がよく似ていて
+息も妙に合っていた。
+<PAUSE>
+<NAME_PLATE>
+　それでギャングを半分ほども倒すと、
+人間とオーク、双方のリーダーが音を上げた。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m007a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ギャング
+「ああもう止め！　止め止め！！
+　降参よ！　降参！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ギャング
+「こっちも降参だ！
+　魔界騎士と本気でやり合うつもりはねえ！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク立ち絵
+//　　　　＊モンスターイラストより流用
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　ヨミハラの住人だけあって
+引き際はちゃんと心得ている。
+<PAUSE>
+<NAME_PLATE>
+　白旗を揚げたギャングたちに
+リーナは仁王立ちで説教を始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「お前たち、組織同士の争いなら、
+　他に迷惑がかからないようにやれ。
+　それがマナーというものだぞ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m007a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m043a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング
+「分かったわよ。
+　突然しゃしゃり出てきて鬱陶しいわね」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ギャング
+「毎度毎度、うるさい女だぜ」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク立ち絵
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ぶつくさ言っているが、
+どちらも毒気を抜かれたようで、
+小競り合いを再開する気はないようだ。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「こうやってヨミハラの治安を守ってるんだ。
+　すごいなあ」
+<PAUSE>
+<NAME_PLATE>
+　自分も一枚噛んだケイリーが
+感心したように頷いている。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「では、さらばだ！
+　ケイリー、よかったらノマドに
+　遊びにくるといい。歓迎するぞ！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うん、ありがと。考えとくね！」
+<PAUSE>
+<NAME_PLATE>
+　颯爽と帰っていく
+リーナの後ろ姿を見ながら、
+ケイリーは色々と納得という顔をしていた。
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0280a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ケイリー
+「あれが魔界騎士リーナ。
+　アスカが言ってたけど、
+　やっぱりちょっと変わってるかも」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「でもなんかすごくカッコいい。
+　私、好きになれそう」
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「リーナ、ノマド第二の魔界騎士、
+　とても興味深い」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>
+　実は流れ弾などいくら食らっても平気な
+ナーサラも興味津々で呟いていた。
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

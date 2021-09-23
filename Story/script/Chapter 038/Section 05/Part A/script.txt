@@ -1,0 +1,341 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ＿米連の地下施設＿隠し通路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc033aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc020a,IN, 1000
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「あぁ！？　何だてめえらァ！？」
+<PAUSE>
+//　※立ち絵
+//　　アイアンサイド
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「亜希！　このサイボーグと
+　ドローンたちは私が引き受けたわ！
+　ミリアム、亜希をお願い！」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊カードイラスト　クローンアサギより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『クク、面白イ……』
+<PAUSE>
+//　※立ち絵
+//　　ファウスト
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「お、おう、了解したぞ探偵！
+　シロ、クロ、あっちの敵を攪乱しろ！
+　――大丈夫か亜希！？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム01
+//　　　　＊カードイラスト　ミリアム01より流用
+<NAME_PLATE>シロ＆クロ
+「きゅっ！」「ぴぴーー！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「た、探偵！？　それに、
+　ミリアムちゃんたちも……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希03
+//　　　　＊カードイラスト　ふうま亜希03より流用
+<NAME_PLATE>
+　メンテナンス通路は
+一気に混戦状態に入っていた。
+<PAUSE>
+<NAME_PLATE>
+　大勢の声と銃声が乱れ飛ぶ。
+<PAUSE>
+<NAME_PLATE>
+　亜希の窮地を救ったクローンアサギは
+ドローン部隊を率いるファウストと対決。
+<PAUSE>
+<ACTOR>0,chr_t0091d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして、敵に向けてシロとクロを放った
+ミリアムが慌てたように亜希を助け起こす。
+<PAUSE>
+<NAME_PLATE>亜希
+「み、みんな、どうしてここに……？
+　それに、ここは……
+　ひどい汚染地帯なのに……」
+<PAUSE>
+<NAME_PLATE>
+　亜希が体を起こして呻く。
+<PAUSE>
+<NAME_PLATE>
+　見たところ探偵もミリアムも、
+放射能汚染に苦しんでいる様子はない。
+<PAUSE>
+<NAME_PLATE>
+　一体、どういうことだ……？
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ああ。ここの情報は、
+　スラムの住人たちが話してくれた」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム01＿シロとクロなし
+//　　　　＊カードイラスト　ミリアム01より流用
+//　※シロとクロが敵を牽制に行っているのでシロとクロなしの差分でお願いします。
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>ミリアム
+「チンピラたちを締め上げたら、
+　向こうも考えが変わったらしくてな」
+<PAUSE>
+<NAME_PLATE>
+　“裏業者”の情報を知るスラムの住人も、
+その凶悪な首領・アイアンサイドを恐れて
+口をつぐんでいた。
+<PAUSE>
+<NAME_PLATE>
+　しかし探偵たちの強さを目の当たりにし、
+そこにわずかな希望を見出したのだ。
+<PAUSE>
+<ACTOR>0,chr_t0091d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「それから、ここの空気汚染については
+　ナーサラがなんとかしてくれた」
+<PAUSE>
+<NAME_PLATE>亜希
+「ナーサラちゃんが……？」
+<PAUSE>
+<NAME_PLATE>
+　亜希が怪訝な顔をする。
+<PAUSE>
+<NAME_PLATE>
+　そういえばナーサラの姿が見えない。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「うむ。なんか小さくなって、
+　わたしや探偵を守ってくれている」
+<PAUSE>
+<ACTOR>1,ns_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミニナーサラ
+「肯定。悪い空気、危ない。
+　ナーサラが食べて処理」
+<PAUSE>
+//　※立ち絵
+//　　ＳＤナーサラ
+//　　　　＊ナーサラのＳＤイラストをデザインチームで描き起こしてください。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「うわあああああっ！？
+　な、ナーサラちゃんが………
+　小さい？？？？」
+<PAUSE>
+<NAME_PLATE>ミニナーサラ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　体の痛みも忘れて驚愕した。
+<PAUSE>
+<NAME_PLATE>
+　なんとミリアムのポケットから、
+ぴょこっと小さいナーサラが顔を出したのだ。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「いや、こいつ、信じられんほど
+　妙な体をしているからな」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「わたし用と、探偵用。
+　それぞれ用に体を分割して小さくなって、
+　周りの空気を浄化してくれている」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「まあ、さすがにこの姿だと戦うことは
+　できんらしいが」
+<PAUSE>
+<NAME_PLATE>亜希
+「えっ、ええぇっ……？」
+<PAUSE>
+<NAME_PLATE>
+　困惑してミニナーサラを見る亜希。
+<PAUSE>
+<NAME_PLATE>
+　確かに目に見えないほどの微細な触手が
+ポケットのミニナーサラから出現し、
+ミリアムの周囲を包んでいる。
+<PAUSE>
+//　※注　この微細な触手は設定上のものでＳＤイラストでは描写しなくて（可愛さ優先）大丈夫です。
+<NAME_PLATE>
+　この微細な触手で、汚染された
+空気を“食べて”いるのだ。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ほれ。おぬしの分もあるぞ、
+　ミニナーサラ」
+<PAUSE>
+<ACTOR>2,ns_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミニナーサラ２
+「亜希の周りの悪い空気食べる。
+　ぱくぱく」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「ぶーーーーっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　自分用のミニナーサラを
+手渡された亜希が鼻血を出した。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「お、おい亜希！？
+　どうした、おぬし体が――」
+<PAUSE>
+<NAME_PLATE>亜希
+「い、いや……
+　小さいナーサラちゃんが、
+　あまりに殺人的に可愛くて……」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「お、おう……そうか……」
+<PAUSE>
+<NAME_PLATE>ミニナーサラ１＆２
+「興味深い」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「でもありがとう……！
+　やっぱり、みんながいれば
+　何も怖くないね！」
+<PAUSE>
+<NAME_PLATE>
+　鼻血を拭って亜希が立ち上がる。
+<PAUSE>
+<NAME_PLATE>
+　ミニナーサラによる汚染中和が
+始まったこともある。
+<PAUSE>
+<NAME_PLATE>
+　だがそれ以上に、いつもの仲間と
+合流したことで体に元気が戻ってきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その時。
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅっ」「ぴーー！？」
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイアンサイド
+「ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡッ！！！！」
+<PAUSE>
+<NAME_PLATE>亜希
+「ぐっ！！！？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「シロ、クロ！！？」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイイイイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　急襲してきたアイアンサイドの
+巨大な刃を亜希の刀が受け止めていた。
+<PAUSE>
+<NAME_PLATE>
+　必死に攪乱を続けていたシロとクロで
+あったが、さすがにアイアンサイドの
+パワーに対抗できるはずもない。
+<PAUSE>
+<NAME_PLATE>
+　二匹は軽々と吹き飛ばされ、
+それに続いてアイアンサイドが
+亜希とミリアムに襲いかかったのだ。
+<PAUSE>
+<BG>nc020a,IN, 500
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「ギギギギ……まったく、
+　忌々しいクソどもだぜ。
+　全員まとめてすり潰してやるよ――」
+<PAUSE>
+<NAME_PLATE>亜希
+「ぐぅぅうぅうっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　噛み締めた奥歯から血がにじむ。
+<PAUSE>
+<NAME_PLATE>
+　亜希は渾身の力でアイアンサイドの
+巨大な鉄塊のような刃を押し返していく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「亜希！？　おぬし、まだ体が――」
+<PAUSE>
+<NAME_PLATE>亜希
+「大丈夫だ！　ミリアムちゃん、
+　そこに倒れてるおじさんを頼む！」
+<PAUSE>
+<NAME_PLATE>亜希
+「グィネヴィアちゃんのお父さんだから、
+　治療をして！　なんとしてでも
+　死なせないで！！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「う、うむ……というか、この男、
+　本当に死にかけではないか！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ミリアムが大慌てで意識のない
+ボルティゲルンに走り寄る。
+<PAUSE>
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「ギギ……こりゃ笑えるなぁ。
+　くたばり損ないのクソが、
+　一人で俺とやるってのかぁ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「ああ。いくらでもやってやる」
+<PAUSE>
+<NAME_PLATE>
+　刀を握りしめた亜希が不敵に笑った。
+<PAUSE>
+<NAME_PLATE>亜希
+「私は、対魔忍・ふうま亜希！！
+　お前のような外道をぶち殺すのが
+　仕事だからな――！」
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

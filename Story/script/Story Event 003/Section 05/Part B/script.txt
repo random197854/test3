@@ -1,0 +1,469 @@
+//FileNo:S505a
+//シーン名：エピローグ
+//【背景：東京キングダム＿港湾地区の廃ビル１階＿夜】【時間：夜】
+<BG>nc015a,IN, 1000
+<BGM_PLAY>bgm321,1000
+<ACTOR>0,chr_t0084a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「隼の術・超絶技巧――“舞零華”ッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ＺＥＲＯアサギ立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<NAME_PLATE>
+　激しい戦いの末、アサギさんの
+必殺の一撃が神獣の体を切り裂いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<ACTOR>1,ts_m062a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>清麻呂
+「グオオオオオオオオオオオオオオ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　哀しげに咆吼する大猪。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se081
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ドスーンと地響きを立てて、
+山のような巨体が崩れ落ちた。
+<PAUSE>
+<ACTOR>0,chr_t0084a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「なかなか手強かったわね……。
+　言動はアレだったけど」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。一歩間違えばこっちが
+　危なかったな。言動はアレだけど」
+<PAUSE>
+<NAME_PLATE>
+　構えを解いて俺とアサギさんは息を整える。
+<PAUSE>
+<NAME_PLATE>
+　神格の大猪というだけあって、
+清麻呂は破格の戦闘力を持っていた。
+<PAUSE>
+<NAME_PLATE>
+　窮屈な室内という不利をものともせず
+俺達に襲いかかり、
+<PAUSE>
+<NAME_PLATE>
+　俺の援護でその猛攻をしのいだ
+アサギさんが、一瞬の隙に奥義を叩き込む――
+<PAUSE>
+<NAME_PLATE>
+　という、まさに紙一重の勝利だった。
+<PAUSE>
+<BGM_PLAY>bgm606,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m062a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>清麻呂
+「グオオォ……まさか我が敗れるとは……。
+　しかし、これも定めである」
+<PAUSE>
+<NAME_PLATE>清麻呂
+「望みを言うが良い、人間よ。
+　我の内に眠る福の力で、
+　そなたの望みを叶えてやろう……」
+<PAUSE>
+<NAME_PLATE>
+　倒れた清麻呂が息も絶え絶えに言う。
+<PAUSE>
+<NAME_PLATE>俺
+「それじゃ……アサギさん、
+　俺が願いを使っていいか？」
+<PAUSE>
+<NAME_PLATE>
+　俺が聞くと、アサギさんは
+『当然』と言うように微笑んだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。私が稲毛屋のおばあさんに
+　頼まれたのは、このイノシシが
+　凶獣に変わるのを阻止すること」
+<PAUSE>
+<NAME_PLATE>アサギ
+「福のエネルギーは君の好きに使いなさい。
+　……といっても、使い道は決まってると
+　思うけど」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。決まってますね」
+<PAUSE>
+<NAME_PLATE>
+　俺の望みとは、もちろん、
+『自分の次元に帰ること』――。
+<PAUSE>
+<NAME_PLATE>俺
+「できるか、清麻呂？
+　俺は、元の世界に帰りたい」
+<PAUSE>
+<NAME_PLATE>清麻呂
+「容易いことである。いざ――」
+<PAUSE>
+<NAME_PLATE>
+　瀕死の清麻呂が肯くと、
+巨体に眠る福のエネルギーを解放した。
+<PAUSE>
+//【背景：次元の狭間】【時間：夜】
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<EFFECT_FLASH>WHITE, 2000
+<BG>nc052a,NONE
+<SE_PLAY>se057
+</GROUP>
+<NAME_PLATE>
+　ゴゴゴゴゴゴ……
+<PAUSE>
+<NAME_PLATE>
+　大気を揺らす奇怪な唸りと共に、
+巨大なエネルギーの渦が出現した。
+<PAUSE>
+<NAME_PLATE>アサギ
+「これが……別次元への……？」
+<PAUSE>
+<ACTOR>1,ts_m062a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>清麻呂
+「……さあ、門は開いた。
+　ここに飛び込めば、お前は元の次元へと
+　戻れるだろう……」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。ありがとう、清麻呂……
+　って言うのも変だよな」
+<PAUSE>
+<NAME_PLATE>俺
+「そもそも俺は、お前のせいで
+　こんな所に連れてこられたんだから」
+<PAUSE>
+<NAME_PLATE>清麻呂
+「まあ、それはもういいじゃん。
+　結果的に帰れるんだしさ」
+<PAUSE>
+<NAME_PLATE>俺
+「お前が言うな」
+<PAUSE>
+<NAME_PLATE>
+　あと口調をほいほい変えるな。
+<PAUSE>
+<NAME_PLATE>清麻呂
+「ごほん。では……我も、ここで消える」
+<PAUSE>
+<NAME_PLATE>清麻呂
+「福の力は使い果たした。
+　次に我が現れるのは、
+　干支が一回りした時となろう……」
+<PAUSE>
+<NAME_PLATE>俺
+「……言い残すことはあるか？」
+<PAUSE>
+<NAME_PLATE>
+　体が消えかけている清麻呂に俺は尋ねた。
+<PAUSE>
+<NAME_PLATE>俺
+（考えてみれば、こいつも不憫な奴だ……）
+<PAUSE>
+<NAME_PLATE>
+　福のエネルギーのために勝手に召喚され、
+追い回される。
+<PAUSE>
+<NAME_PLATE>
+　少しくらい言動が変でも
+許してあげるべきかもしれない。
+<PAUSE>
+<NAME_PLATE>清麻呂
+「何もない……。我はただ、定めに従い
+　消え去るのみ。だが……ひとつだけ、
+　心残りがあるとすれば……」
+<PAUSE>
+<NAME_PLATE>俺
+「あるとすれば……？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>清麻呂
+「我も人の子の如く……女優と婚約して
+　月旅行とかしたかった…………がくっ」
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1500
+<ACTOR_OUT>1,CENTER,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「清麻呂ーーーーーーーっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　寂しげに言い残し、
+神格の大猪・清麻呂の体は消滅した。
+<PAUSE>
+<BGM_PLAY>bgm503,1000
+<NAME_PLATE>俺
+「………………まあ、それはそれとして」
+<PAUSE>
+<ACTOR>0,chr_t0084a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「……色々こじらせた奴だったわね」
+<PAUSE>
+<NAME_PLATE>
+　複雑な表情でため息をつく俺とアサギさん。
+<PAUSE>
+<NAME_PLATE>
+　今日はずっと、変な奴らに
+振り回されてばかりの気がする。
+<PAUSE>
+<NAME_PLATE>俺
+「ともあれ……ありがとう、アサギさん。
+　今日はすごく世話になったよ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ふふ、気にしないで。
+　私は私のやることをやっただけ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「君の方こそ、よかったわね。
+　元の世界に戻れることができて」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ」
+<PAUSE>
+<NAME_PLATE>
+　別れの挨拶というやつだろう。
+アサギさんが差し出した手を、
+俺も固く握り返した。
+<PAUSE>
+<NAME_PLATE>俺
+「なんか惜しい気もしますね。
+　せっかく知り合えたのに、
+　もうお別れなんて」
+<PAUSE>
+<NAME_PLATE>
+　この若いアサギさんとは、
+文字通り住む世界が違う。
+<PAUSE>
+<NAME_PLATE>
+　今別れたら、
+もう二度と会うことはないだろう。
+<PAUSE>
+<NAME_PLATE>アサギ
+「わからないわよ？
+　最近、変な力を持った魔族や存在が
+　増えているから――」
+<PAUSE>
+<NAME_PLATE>アサギ
+「君がこちらに来たり、
+　私がそっちに行ったり、
+　そういうことがまた起こるかも知れない」
+<PAUSE>
+<NAME_PLATE>俺
+「アハハ、だったら面白いですね」
+<PAUSE>
+<NAME_PLATE>俺
+（んっ？　そう言えば――）
+<PAUSE>
+<NAME_PLATE>
+　アサギさんのその言葉で、
+思い出したことがあった。
+<PAUSE>
+<NAME_PLATE>俺
+「色々あって機会がなかったけど……
+　俺、アサギさんに聞きたいことが」
+<PAUSE>
+<NAME_PLATE>
+　すると、突然意識が遠のいていく。
+まるで地上から何かに
+吸い上げられるような感覚。
+<PAUSE>
+<NAME_PLATE>アサギ
+「えっ？　何かしら――」
+<PAUSE>
+<NAME_PLATE>
+　さくらの事を、アサギさんの妹の事を
+聞こうとして俺の意識は
+完全に闇に吸い込まれた。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+<NAME_PLATE>？？？
+「お～い、ふうま君！
+　いつまで寝てるの～？」
+<PAUSE>
+//【背景：五車町＿ふうま邸若いさくらの部屋＿朝】【時間：朝】
+<BG>nc107a,IN, 1000
+<NAME_PLATE>俺
+「うぅ……あ、あれ……？
+　ここは……？」
+<PAUSE>
+<BGM_PLAY>bgm309,1000
+<ACTOR>2,ws_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「お！？　やっと起きたね～！
+　まったく、どういうことだね君！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服衣装
+//　　　　＊対魔忍アサギZEROから流用
+<NAME_PLATE>さくら
+「あれだけ皆で初日の出見るって
+言ってたのに、一人で寝落ちして！」
+<PAUSE>
+<NAME_PLATE>俺
+「あ……？　いや……」
+<PAUSE>
+<NAME_PLATE>
+　俺は体を起こした。
+<PAUSE>
+<NAME_PLATE>
+　そこは見慣れたふうま邸の、
+居候・さくらの部屋だ。
+<PAUSE>
+<NAME_PLATE>
+　目の前には、付けっぱなしのゲーム機。
+<PAUSE>
+<NAME_PLATE>
+　床に散らばるお菓子や雑誌。
+<PAUSE>
+<NAME_PLATE>
+　何もかも、俺があっちに行く前の
+様子と同じである。
+<PAUSE>
+<NAME_PLATE>俺
+「夢……だったのか？」
+<PAUSE>
+<NAME_PLATE>
+　安堵のため息をつく。
+<PAUSE>
+<ACTOR>2,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「はい？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。実は俺、さっきまで
+　異次元で大イノシシになって、
+　皆に追いかけ回されていた」
+<PAUSE>
+<NAME_PLATE>さくら
+「は～～～～～～～～～～～～～～～～？」
+<PAUSE>
+<NAME_PLATE>さくら
+「ふうまくん、君は一体なんて
+　おかしな初夢を見ているのかね？」
+<PAUSE>
+<NAME_PLATE>俺
+「はは、確かに――」
+<PAUSE>
+<NAME_PLATE>
+　夢…………だと思う。多分。
+<PAUSE>
+<NAME_PLATE>
+　寝ている間に異次元に行ったなんてより、
+そっちの方がしっくりくる。
+<PAUSE>
+<NAME_PLATE>
+　でも――。
+<PAUSE>
+<ACTOR>2,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ま、顔でも洗ってきなさいな。
+　時子さんとお雑煮作ったから、
+　一緒に食べよ！」
+<PAUSE>
+<NAME_PLATE>
+　そう言ってリビングに戻りかけたさくらを、
+俺は呼び止めた。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、さくら待って。その前に」
+<PAUSE>
+<NAME_PLATE>さくら
+「ん～？　なになに？」
+<PAUSE>
+<NAME_PLATE>俺
+「大したことじゃないんだけど
+　……お前、今って楽しいか？」
+<PAUSE>
+<ACTOR>2,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「は～～～～～～？
+　君は、いきなり何を言い出すのさ」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、お前、違う次元に
+　放り込まれたわけだからな。
+　困ってないかなって――」
+<PAUSE>
+<ACTOR>2,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「いやいや！　そんなの、
+　楽しいに決まってるじゃん！」
+<PAUSE>
+<NAME_PLATE>俺
+「おっ。本当に……？」
+<PAUSE>
+<NAME_PLATE>さくら
+「うんっ♪　まあ、そりゃ最初は、
+　ちょっと困ったけどね～」
+<PAUSE>
+<NAME_PLATE>さくら
+「でも今は、ふうま君や時子さんと
+　一緒にいれてすごく楽しい！」
+<PAUSE>
+<NAME_PLATE>俺
+「そっか……。
+　“あの人”も元気そうだったし
+　似たもの姉妹ってやつなのかな」
+<PAUSE>
+<NAME_PLATE>さくら
+「あの人？」
+<PAUSE>
+<NAME_PLATE>
+　俺の呟きを聞いて、
+さくらが不思議そうに首を傾げた。
+<PAUSE>
+<NAME_PLATE>俺
+「……おう。昨日見た夢の話だよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「はいはい。いつまでも寝惚けてないで
+　さっさと顔を洗ってきなさい！」
+<PAUSE>
+<ACTOR>2,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「さてと、私は時子さんにお願いして
+　お雑煮のゆりね、
+　いっぱい入れてもらおう♪」
+<PAUSE>
+<NAME_PLATE>
+　楽しそうに笑って、
+さくらはリビングに戻っていった。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>俺
+「おい待て！
+　ゆりねは俺の方が多くだからな！」
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

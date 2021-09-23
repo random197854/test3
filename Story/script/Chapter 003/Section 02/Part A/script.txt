@@ -1,0 +1,371 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//=================================================================
+//【黒画面】
+//<SCREEN_SIZE>1280, 720
+<NAME_PLATE>
+　数日後。
+<PAUSE>
+//【背景：五車学園＿校門＿夕方】【時間：夕方】
+<BGM_PLAY>bgm604,1000
+<BG>nc054b,IN, 1000
+<ACTOR>2,s_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「幽霊城の調査かぁー、
+　なかなか楽しそうな任務だね！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>上原鹿之助
+「ゆ、幽霊城……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　俺は、蛇子と鹿之助を伴って
+再度調査に出発した。
+<PAUSE>
+<NAME_PLATE>
+　学校からほど近いとはいえ、この前の
+権左のこともある。事前に計画を立て、
+装備も万全にして出かける。
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「なあー、何もわざわざ夜に行かなくっても
+　いいんじゃないか？」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「なによ、夜に行くからこそムードが
+　出るんじゃない♪」
+<PAUSE>
+<ACTOR>2,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「うええー……お、俺、
+　トイレ行きたくなっちゃったよ……」
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい。今からびびっててどうすんだよ。
+　なに、ちょっとした肝試しだ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「肝試しって……」
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫だ。学園も近いし、もし何かあっても、
+　俺たち４人いれば何とかなるさ」
+<PAUSE>
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「４人？」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひぃいい！？　俺たち３人だぞ！？
+　もぉぉぉそういうのやめろよぉ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「違う違う。本当に４人なんだよ。
+　そうですよね？　先生」
+<PAUSE>
+<NAME_PLATE>
+　俺の言葉に、鹿之助の影がぬるっと揺らめく。
+<PAUSE>
+<ACTOR>0,sa_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「バレたか☆」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<ACTOR>2,s_t001e,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うひゃあああああああ……って
+　さくら先生！？」
+<PAUSE>
+<NAME_PLATE>俺
+「忍法使ってまでついてきて……
+　本当に幽霊好きですね……」
+<PAUSE>
+<NAME_PLATE>さくら
+「にゃはは♪　お姉ちゃん……
+　校長先生には内緒にしてくれたまえよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれだ……」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 500
+<ACTOR>0,sa_t002b,CENTER, CENTER, OUT, linear, 500
+<ACTOR>1,h_t002d,RIGHT, RIGHT, OUT, linear, 500
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　まあ、さくら先生が居てくれれば
+なんだかんだ心強い。俺たちは
+日の暮れかかった道を、山へと向かった。
+<PAUSE>
+//【背景：城跡への道＿夜】【時間：夜】
+<WAIT>2000
+<BGM_PLAY>bgm605,1000
+<BG>nc030a,IN, 1000
+<NAME_PLATE>
+　山道にさしかかる頃には
+すっかり暗くなっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「いよいよ雰囲気出てきたな……」
+<PAUSE>
+<NAME_PLATE>
+　狭い山道。
+道を知っている俺が先頭を歩く。
+<PAUSE>
+<NAME_PLATE>
+　……ザー……て…り…ザザッ…
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　誰か何か言ったか？」
+<PAUSE>
+<ACTOR>1,h_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あっごめん、ラジオの音なの！」
+<PAUSE>
+<NAME_PLATE>
+　背後からの声に振り向くと、
+蛇子がラジオをいじっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「ラジオぉ？」
+<PAUSE>
+<ACTOR>1,h_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「いいでしょう？
+　これ鹿之助ちゃんに借りたの」
+<PAUSE>
+<NAME_PLATE>俺
+「何でラジオなんか持ってきたんだ？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「天気予報を聞くのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「スマホで見ればいいだろ」
+<PAUSE>
+<ACTOR>1,h_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「甘いわね～。
+　こんな山奥ではスマホは圏外よ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「結局こういう昔ながらのが
+　いちばん頼りになるんだって、
+　蛇子のおばあちゃんも言ってたんだから！」
+<PAUSE>
+<NAME_PLATE>
+　そう言いながら、
+蛇子は必死に周波数を合わせている。
+<PAUSE>
+<NAME_PLATE>
+　と、そのとき、冷たいものが
+俺のまぶたを濡らした。
+<PAUSE>
+<ACTOR>1,h_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,sa_t002e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>さくら
+「ありゃ、雨」
+<PAUSE>
+<NAME_PLATE>俺
+「ラジオで天気を聞くまでも無かったな」
+<PAUSE>
+<ACTOR>0,sa_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「いよいよ気分出てきたって感じ♪
+　……でも何だか嫌な雨かも？」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうですね。確かに嫌な感じがする……
+　蛇子は雨好きなんだけどなあ」
+<PAUSE>
+<NAME_PLATE>
+　雨は霧のような細かい粒で、
+俺たちの体をじっとりと包んでいった。
+<PAUSE>
+<ACTOR>0,sa_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「そっか、蛇子ちゃんは
+　タコの獣化忍だもんね。水は平気かぁ。
+　変わってて面白いよね！」
+<PAUSE>
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん、でも蛇子は、さくら先生みたいな
+　カッコイイ忍法がよかったって泣いた頃も
+　ありましたよぉ」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「今はまあまあ気に入ってますけど」
+<PAUSE>
+<ACTOR>0,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「対魔忍ひとりにはひとつの忍法。
+　こればっかりは選べないからね」
+<PAUSE>
+<ACTOR>0,sa_t002a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+<NAME_PLATE>俺
+（ひとりにひとつの忍法……か）
+<PAUSE>
+<NAME_PLATE>
+　今でもときどき夢に見ることがある。ある日
+突然右目が開き、俺の邪眼能力が目覚める。
+そしてその能力は、かつてない何か……
+<PAUSE>
+<NAME_PLATE>俺
+（諦めの悪いことだ。
+　そもそも右目が開かないのに、
+　邪眼が目覚めるなんざ……）
+<PAUSE>
+<NAME_PLATE>俺
+「………」
+<PAUSE>
+<ACTOR>0,sa_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あっ……さくら先生」
+<PAUSE>
+<ACTOR>0,sa_t002h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「あちゃ、そうだった……
+　あー、ごめんねふうま君、配慮が……」
+<PAUSE>
+<ACTOR>1,h_t002g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　俺が黙っているのを気まずく思ったのか、
+二人がばつの悪そうな顔をする。
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい、やめてくれよ」
+<PAUSE>
+<NAME_PLATE>俺
+「こう見えても俺は邪眼がないお陰で
+　ここを鍛えるキッカケになったと
+　思ってるんだ」
+<PAUSE>
+<NAME_PLATE>
+　俺はアタマを指差して、
+明るくおどけてみせる。
+<PAUSE>
+<NAME_PLATE>俺
+「なあ鹿之助。……鹿之助？」
+<PAUSE>
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あれっ、鹿之助ちゃんは？」
+<PAUSE>
+<NAME_PLATE>
+　一番後ろをついてきていたはずの鹿之助が
+いない。
+<PAUSE>
+<NAME_PLATE>俺
+「あれ？　あいつ……
+　はぐれるなって言ったのに…」
+<PAUSE>
+<ACTOR>0,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「こわくなって逃げ帰ったんじゃないの？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「トイレ行って迷ったとか……」
+<PAUSE>
+<NAME_PLATE>俺
+「あーくそ…仕方ないな」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「探しに行ってあげるのね、ふうまちゃん？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ほっとく」
+<PAUSE>
+<ACTOR>1,h_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「えっ！？　鹿之助ちゃん、ビビりすぎて
+　死んじゃうかもしれないわよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「そのくらいで死ぬかよ。
+　あいつ方向感覚だけはいいし大丈夫だろ」
+<PAUSE>
+<NAME_PLATE>
+　電遁体質と関係あるのかどうか
+わからないが、
+<PAUSE>
+<NAME_PLATE>
+　いつも「なんとなくこっち」とかいう
+感覚だけで辿りつけてしまうのが
+鹿之助なのだ。
+<PAUSE>
+<ACTOR>1,h_t002g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「動物に食べられちゃうとかさぁ……」
+<PAUSE>
+<NAME_PLATE>俺
+「動物ったって、このあたりじゃ警備の忍熊や
+　忍蛇だろ、対魔忍が襲われる事は
+　ないですよね？　さくら先生」
+<PAUSE>
+<NAME_PLATE>
+　動物を活用するのは古来よりの知恵だが、
+対魔忍は現在でも能力ある動物を発見し、
+調教し、拠点防衛などに活用しているのだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんなアニマル対魔忍たちの
+世話をしているのは、
+このさくら先生なのである。
+<PAUSE>
+<ACTOR>0,sa_t002e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「えっ…………」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「えっ……とは？」
+<PAUSE>
+<ACTOR>0,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「だ、大丈夫だよ！　あの子たち私がいれば
+　すごくフレンドリーだもん！」
+<PAUSE>
+<NAME_PLATE>俺
+「いなければ……？」
+<PAUSE>
+<ACTOR>0,sa_t002h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「えっ…………」
+<PAUSE>
+
+<BGM_STOP>1000
+<NAME_PLATE>
+　……………
+<PAUSE>
+<NAME_PLATE>俺
+「………さ、先に進むぞ！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<GROUP>
+<ACTOR>0,sa_t002h,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section２-ＭＡＰ画面１へ

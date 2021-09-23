@@ -1,0 +1,358 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車学園＿地下の古代神殿２＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC068aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc290a,IN, 1000
+<NAME_PLATE>
+　俺たちは広間のような場所に出た。
+<PAUSE>
+<NAME_PLATE>
+　ついに神殿の最奥にまで
+たどり着いたようだ。
+<PAUSE>
+<NAME_PLATE>
+　その証拠にそこは
+ガーディアンたちで溢れている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m123a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m123a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>死霊
+「ＧＵＯＯＯＯＯＯＯ！！！」
+「ＧＵＯＯＯＯＯＯＯ！！！」
+「ＧＵＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+//　※立ち絵
+//　　死霊立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<GROUP>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m112a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m112a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゴーレムナイト
+「――――――」
+「――――――」
+「――――――」
+<PAUSE>
+//　　ゴーレムナイト立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　もうすでに見飽きた感のある
+死霊とゴーレムナイトの一群。それはいい。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　問題はそいつらを率いるように
+待ち構えていた赤肌の女戦士だ。
+<PAUSE>
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　(精神)エオス立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　白い炎が燃え上がるような髪。
+鋼の意志を感じさせる深く蒼い瞳。
+<PAUSE>
+<NAME_PLATE>
+　筋骨隆々たる赤銅色の身体に
+鋼色の鎧を力強く身に纏い、
+両腕からは武器と思しき触手を伸ばしている。
+<PAUSE>
+<NAME_PLATE>
+　「あれが？」と尋ねるまでもない。
+あいつが上級ガーティアンのエオスだ。
+<PAUSE>
+<NAME_PLATE>俺
+「何だよあれ。完全に人間離れしてるな……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「暁紅の女神の眷属。でも神格の存在」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵
+<NAME_PLATE>俺
+「マジかよ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　だが、俺が以前会った女神ジュノや
+猫魔神バステトといった連中と
+同種のプレッシャーを感じる。
+<PAUSE>
+<NAME_PLATE>
+　人間がまともに戦うことなどできず、
+口車に乗せて
+帰ってもらうしかなかった奴らだ。
+<PAUSE>
+<NAME_PLATE>俺
+「あんなのとどうやって……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「後ろ避けて！」
+<PAUSE>
+<SE_PLAY>se050
+<NAME_PLATE>
+　紫水がハッとした声を出して
+俺を右に突き飛ばした。
+<PAUSE>
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺はわけが分からないままそちらに飛び、
+紫水も反対側に飛ぶ。
+<PAUSE>
+<BGM_STOP>1000
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビシュッッ！！
+<PAUSE>
+<NAME_PLATE>
+　間一髪。
+<PAUSE>
+<NAME_PLATE>
+　俺と紫水が立っていた場所を
+後ろから空恐ろしい速さで触手が貫いた。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<BG>nc290a,IN, 1000
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかエオスの触手が
+俺たちの後ろにまで回り込んでいて、
+不意打ちを仕掛けてきたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「神様みたいな奴が不意打ちかよ！」
+<PAUSE>
+<NAME_PLATE>
+　だが、驚いたのはそれだけではなかった。
+<PAUSE>
+<NAME_PLATE>エオス
+「……………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>black,IN, 1000
+<SE_PLAY>se098
+<NAME_PLATE>
+　仁王立ちしたままのエオスの触手が
+敵味方関係なく襲っていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　触手に触れた敵は一瞬で
+朽ち果てるように消滅している。
+<PAUSE>
+<NAME_PLATE>死霊
+「！！！！！！！！！！！！」
+「！！！！！！！！！！！！」
+「！！！！！！！！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　死霊立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　死霊は生前の姿に
+一瞬だけ戻ったかと思うと、
+すぐに腐敗して塵と化す。
+<PAUSE>
+<NAME_PLATE>ゴーレムナイト
+「！！！！！！！！！！！！」
+「！！！！！！！！！！！！」
+「！！！！！！！！！！！！」
+<PAUSE>
+//　　ゴーレムナイト立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　ゴーレムナイトはあっという間にその表面を
+植物や苔が覆い、それらが朽ち果て、
+ゴーレムナイト自身もひび割れて砕け散る。
+<PAUSE>
+<NAME_PLATE>
+　おそらくは紫水の波遁の術と同じように
+生命エネルギーをぶつけているのだろうが、
+それによって滅ぶ様は遙かに衝撃的だ。
+<PAUSE>
+<BG>nc290a,IN, 500
+<ACTOR>0,am_t010b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「くっ………」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵
+<NAME_PLATE>
+　紫水が低く呻いた。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍スーツの肩の辺りがボロボロになり、
+その下の肌が炭化したように黒ずんでいる。
+<PAUSE>
+<NAME_PLATE>
+　俺を突き飛ばした分、回避が遅れて、
+そこに触手を食らったのだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「紫水！！」
+<PAUSE>
+<NAME_PLATE>紫水
+「だ、大丈夫……かすっただけ」
+<PAUSE>
+<NAME_PLATE>
+　紫水はそこに掌を当てた。
+<PAUSE>
+<NAME_PLATE>
+　生命エネルギーが注ぎ込まれ
+黒ずんでいた肌がなんとか元に戻る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「糞ッ！！！」
+<PAUSE>
+<NAME_PLATE>
+　俺がボーッとしていたせいだ。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　俺は激しい怒りにかられ、
+すぐそばでグネグネしていた触手に
+斬りつけていた。
+<PAUSE>
+<BG>nc290a,IN, 500
+<NAME_PLATE>
+　だが、ダメージを与えるどころか、
+刀は一瞬で錆びて朽ちてしまう。
+<PAUSE>
+<NAME_PLATE>俺
+「攻撃が通用するどころか
+　触れる事も出来ないって事か！？」
+<PAUSE>
+<ACTOR>0,am_t010d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「さがっていて。本気出す」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、わかった！」
+<PAUSE>
+<NAME_PLATE>
+　ここでも俺は役に立たない。
+<PAUSE>
+<NAME_PLATE>
+　役立たずにできることは
+紫水の邪魔をしないように
+身を引くことだけだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エオス
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　(精神)エオス立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+<NAME_PLATE>
+　幸いエオスは最初の不意打ちを除いては、
+ことさら俺たちを攻撃する素振りもなく、
+<PAUSE>
+<NAME_PLATE>
+　ずっと同じ位置に突っ立ったまま、
+眷属であるはずの周りのガーディアンを
+倒すことに勤しんでいる。
+<PAUSE>
+<NAME_PLATE>
+　奴にとって、俺たちなど
+それくらい取るに足らない
+存在なのかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　だが、これまでの経験上、
+だからこそ神格の存在を
+人間が出し抜くことができるのだ。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「紫水！　頼む！」
+<PAUSE>
+<NAME_PLATE>紫水
+「波遁の術“他力本願”」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵強化
+<BGM_PLAY>bgm320,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　紫水の背筋を貫いて噴火するように
+虹色の波動エネルギーがほとばしり出るのが
+見えた。
+<PAUSE>
+<NAME_PLATE>
+　そしてそれは実体をもった
+エネルギーとして具現化する。
+<PAUSE>
+<BG>nc290a,IN, 500
+<ACTOR>0,am_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　上半身だけのゴーレムのような
+ガーディアンが紫水の背後に出現していた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ガーディアン
+「ウラァアアアアアアアアアアアアッ！！」
+<PAUSE>
+//※そのだより
+//　何かかけ声が欲しかったので「ウラ」でやりましたが適当に変更してください
+<NAME_PLATE>
+　ガーディアンは奥の間を揺るがすような
+凄まじい雄叫びを上げる。
+<PAUSE>
+<ACTOR>0,am_t011e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「これが私の本気」
+<PAUSE>
+<NAME_PLATE>紫水
+「実体がないとこの子は出せない。
+　コロに感謝」
+<PAUSE>
+<NAME_PLATE>俺
+「やっちまえ！　紫水！」
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

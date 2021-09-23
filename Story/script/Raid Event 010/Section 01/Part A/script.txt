@@ -1,0 +1,1141 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：五車町の町中＿夕方】【時間：夕方】
+//　※姫神さま以下略_nc003bより流用
+<BG>nc023c,IN, 1000
+<NAME_PLATE>
+　ある晩秋の夕暮れ。
+<PAUSE>
+<NAME_PLATE>
+　俺は閉館時間まで図書室を物色した後、
+ひとり家路についていた。
+<PAUSE>
+<NAME_PLATE>俺
+「さむっ……
+　だいぶ日が暮れるのも早くなってきたな」
+<PAUSE>
+<NAME_PLATE>
+　山あいの五車町には、街より一足早く、
+冬の気配が訪れようとしていた。
+<PAUSE>
+<NAME_PLATE>
+　一陣の木枯らしが、静まりかえった山と
+色褪せた田畑を撫でていく――
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>俺
+（――……何かいつもと違うな？）
+<PAUSE>
+<NAME_PLATE>
+　俺は微かな違和感を感じる。
+<PAUSE>
+<NAME_PLATE>俺
+（そうだ、虫の声がしないんだ）
+<PAUSE>
+<NAME_PLATE>
+　静かすぎるのだ。
+いつもなら、うるさいくらいに
+虫たちの歌声が響いているのに。
+<PAUSE>
+<NAME_PLATE>俺
+（もしかして誰か潜んでる？
+　敵襲か？）
+<PAUSE>
+<NAME_PLATE>
+　以前にも、骸佐の手の者が勝手に
+襲撃してきたことがあったが、
+ライブラリーの活躍で事なきを得た。
+<PAUSE>
+<NAME_PLATE>
+　もっとも俺はさくらたちと川遊びしたり、
+棚田でゆきかぜに驚かされて泥まみれに
+なったりしていて、
+<PAUSE>
+<NAME_PLATE>
+　襲撃のことは後から知ったのだが……。
+<PAUSE>
+<NAME_PLATE>俺
+（しかし、敵にしては殺意を感じないな。
+　ははーん、さては）
+<PAUSE>
+<NAME_PLATE>俺
+「ゆきかぜ、隠れてるんだろ。出てこいよ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は風に向かって呼びかける。
+<PAUSE>
+<NAME_PLATE>俺
+「悪いけどゲームの誘いなら明日にしてくれ。
+　今日は任務中にたまった宿題をやるって、
+　時子に約束しちまってなー」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの悔しがる顔を思い浮かべながら、
+俺がゆっくり歩いていると、
+案の定、人の気配が近づいて来て――
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>甲河アスカ
+「何よ！
+　このアスカちゃんがわざわざ
+　来てあげたのに！」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の女学生】甲河アスカ
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「アスカ！？」
+<PAUSE>
+<NAME_PLATE>
+　光学迷彩を脱ぎ去り、
+空中から突然現れたのは、
+意外な人物だった。
+<PAUSE>
+<NAME_PLATE>
+　サイボーグアーム＆レッグを持つ、
+鋼鉄の対魔忍・甲河アスカ。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍といっても、五車の住人ではなく、
+米連の支援を受けているらしく、
+こうして光学迷彩なんかも使う。
+<PAUSE>
+<ACTOR>0,as_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「失礼しちゃうわね、もう！」
+<PAUSE>
+<NAME_PLATE>
+　そのアスカはなぜか不機嫌そうである。
+<PAUSE>
+<NAME_PLATE>俺
+（人違いされて怒ったのか？
+　だけど姿を隠していたのはそっちだし、
+　そんなに怒るほどのことか……？）
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよ、いきなり機嫌悪いな。
+　五車町で堂々と姿現したりして、
+　大丈夫なのか？」
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ああ、それは大丈夫よ。
+　ちゃんとアサギ……さんの許可も得てるし」
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ先生の？　じゃ、つまり」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そ、正式な依頼ってこと。
+　マダムからのね」
+<PAUSE>
+<NAME_PLATE>
+　マダム――仮面の対魔忍は、
+米連でそれなりの地位をもつらしい一方、
+闇の町で情報屋なんかもしている謎多き女だ。
+<PAUSE>
+<NAME_PLATE>
+　色々と因縁はありつつ、今は一応
+協力することもある関係となっている。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>俺
+「それじゃアサギ先生を通せばいいだろ。
+　いつもみたいに」
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「それが急ぎなのよねー。
+　だからこうして私が直接来たの」
+<PAUSE>
+<NAME_PLATE>
+　アスカの話によると。
+<PAUSE>
+<NAME_PLATE>アスカ
+「この近くの山中に、密かに米連の兵器が
+　運び込まれているの。
+　あ、もちろん許可は得た上でよ？」
+<PAUSE>
+<NAME_PLATE>
+　兵器は地方の米軍基地で稼働していたが、
+調子が悪くなり、メンテの為に
+東京に近い大型基地へ輸送されていた。
+<PAUSE>
+<NAME_PLATE>
+　しかし輸送中、中華連合系のヤクザ組織が、
+その奪取を狙っているという情報が
+もたらされたのだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「それで急遽ルートを変えて、
+　この五車の山の中に一旦留め置かせて
+　もらってるってわけ」
+<PAUSE>
+<NAME_PLATE>俺
+「中華連合系の組織か――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　中華連合系といえば、
+つまり骸佐一味にシマを奪われた龍門と
+その下部組織だが。
+<PAUSE>
+<NAME_PLATE>俺
+（金銭的にも面子的にも、
+　なりふり構っていられなくなって、
+　米連の兵器を狙う連中も出てきたか）
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「だけどヤクザごときを退けるのに、
+　わざわざ五車を頼らなくても。
+　米連だけで対処できるんじゃないのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ただのヤクザだけが相手ならね」
+<PAUSE>
+<NAME_PLATE>俺
+「そうじゃないってことか」
+<PAUSE>
+<NAME_PLATE>
+　相手はただのヤクザだけじゃない……、
+そして対魔忍を頼る理由となると。
+<PAUSE>
+<NAME_PLATE>俺
+「“魔”が関わっていると？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「情報によるとね。
+　敵は“魔獣”を使うって話よ」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほどな」
+<PAUSE>
+<NAME_PLATE>
+　魔のものの相手は対魔忍の専門分野だ。
+<PAUSE>
+<NAME_PLATE>俺
+「理由はわかった。けどなんで俺？
+　もっと適任いるだろ。
+　それこそゆきかぜとかさ……」
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「！！
+　なんでもいいでしょ！
+　選ばれたんだから喜びなさいよ！」
+<PAUSE>
+<ACTOR>0,as_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　アスカはなぜか、
+あからさまにムッとしている。
+<PAUSE>
+<NAME_PLATE>俺
+「さっきから何怒ってるんだよ。
+　戦力的に考えてもだな……」
+<PAUSE>
+<NAME_PLATE>
+　魔獣といえば、人間界の獣とは
+比べ物にならないほどの力や獰猛さを
+持つ者が多い。
+<PAUSE>
+<NAME_PLATE>
+　戦闘派の対魔忍の方が相応しいだろう。
+まさにゆきかぜや、紫先生のような。
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「大丈夫よ。
+　ちゃんと厳密に隠してあるから、
+　実際に戦いになる可能性は低いわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「一晩、そこで見張りの番を
+　してもらえばいいだけ。
+　何かあればすぐ救援が来る事になってるし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あんまり派手な人に頼んで、
+　かえって騒ぎになったら元も子もないし。
+　ほら、対魔忍って短気な人が多いでしょ」
+<PAUSE>
+<NAME_PLATE>俺
+（お前が言うかよ……）
+<PAUSE>
+<ACTOR>0,as_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「もっと自信持ちなさいよ。
+　あんた魔獣にも詳しいんでしょ！」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、五車の蔵書のお陰で
+　人より知識はあるけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「怪しいなあ、その依頼ホントなのか？」
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「疑うっていうの！？
+　――あっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　アスカは反論しようとしたが、
+ハッと何かに気づいて光学迷彩で姿を消した。
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　すると、家の方から足音がし、
+時子が走ってくる。
+<PAUSE>
+<ACTOR>1,t_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま時子
+「お館様ー！
+　今、アサギ先生からの依頼で……」
+<PAUSE>
+//　※立ち絵
+//　　時子通常立ち絵＿女教師衣装
+<NAME_PLATE>アスカ
+『ほらね！』
+<PAUSE>
+<NAME_PLATE>
+　俺は見えない手に頭を小突かれた。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後――。
+<PAUSE>
+<NAME_PLATE>
+　時子から改めて依頼の話を聞き、
+俺が名指しされていることもわかった。
+<PAUSE>
+<NAME_PLATE>
+　そこまで言うならば仕方ない。
+俺はアスカと共に、
+兵器が隠してあるという場所へ向かった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<WAIT>1500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして夜。
+<PAUSE>
+//【背景：岩陰＿夜】【時間：夜】
+//　※姫騎士シャロン_nc006cより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc204a,IN, 1000
+<NAME_PLATE>
+　兵器を収納してあるというコンテナは、
+山中の岩陰に隠してあった。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、光学迷彩機能のある
+特殊なシートで覆われており、
+まったく視認できないのだが。
+<PAUSE>
+<NAME_PLATE>
+　俺とアスカは、その透明化したコンテナの
+横に並んで座っていた。
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　無言である。
+<PAUSE>
+<NAME_PLATE>
+　最初はぼそぼそと世間話をしたが、
+そんなもので潰せるほど、
+夜は短くない。
+<PAUSE>
+<NAME_PLATE>
+　すぐに話題は途切れ、
+あとは僅かな星明かりが照らす山影を
+じっと見つめるだけの時間が続いた。
+<PAUSE>
+<NAME_PLATE>俺
+（ヒマな任務だな……
+　まあ、何か起こるよりはずっといいけどな）
+<PAUSE>
+<NAME_PLATE>
+　このまま朝まで何ごともなければ、
+仮面の対魔忍たちが迎えに来て、
+一気に基地へと向かう手筈になっている。
+<PAUSE>
+<NAME_PLATE>
+　徹夜に慣れているという意味では、
+なるほど俺に向いた任務だったかも
+しれないなどと思う。
+<PAUSE>
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　隣を見れば、アスカも退屈そうに
+地面の石ころをいじっている。
+その横顔は年相応の女の子だ。
+<PAUSE>
+<NAME_PLATE>俺
+（……訊いてみるか）
+<PAUSE>
+<NAME_PLATE>
+　俺はかねてから気になっていたことを
+訊いてみることにする。
+<PAUSE>
+<NAME_PLATE>俺
+「なあ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「なに？」
+<PAUSE>
+<NAME_PLATE>俺
+「“甲河”ってさ、
+　井河と並ぶあの名門の甲河家だろ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「昔はそうだったらしいわね」
+<PAUSE>
+<NAME_PLATE>俺
+「らしいって、お前の一族じゃないのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうよ。
+　だけど一族はだいぶ前にいなくなったから」
+<PAUSE>
+<NAME_PLATE>
+　地面の石ころをいじったまま、
+アスカは顔も上げずにさらりと答える。
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱりそうか……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　五車の記録で読んだことがあった。
+甲河はノマドの襲撃を受けて、
+甚大な被害を受けたと。
+<PAUSE>
+<NAME_PLATE>
+　確か、弾正の反乱、
+そしてふうまの里が襲撃を受けた、
+その数年後の出来事だ。
+<PAUSE>
+<NAME_PLATE>俺
+（アスカも、見た目通りなら
+　多分俺とそう変わらない年齢だ。
+　やはり子供の頃に一族を失ったことになる）
+<PAUSE>
+<NAME_PLATE>俺
+「悪い事を訊いたな」
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「別に」
+<PAUSE>
+<NAME_PLATE>アスカ
+「小さい頃のことだから、
+　あんまり覚えてないし」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか……」
+<PAUSE>
+<NAME_PLATE>
+　それ以上訊くのはやめておいた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺もあの時、
+ふうまの家が襲撃を受けた時――
+<PAUSE>
+<NAME_PLATE>
+　何が起きて、誰がどうなった、
+そんな事は確かに覚えていない。
+全ては後から知った事だ。
+<PAUSE>
+<NAME_PLATE>
+　だが幼かったとはいえ、
+否、幼かったからこそか。
+<PAUSE>
+<NAME_PLATE>
+　心をガリガリ削がれるような、
+無慈悲な不安と恐ろしさだけは、
+今でも脳裏に焦げ付いている。
+<PAUSE>
+<NAME_PLATE>俺
+（アスカも同じなんだろうか……
+　いや）
+<PAUSE>
+<NAME_PLATE>俺
+（ふうまを襲ったのは同じ対魔忍。
+　しかもきっかけを作ったのはふうまの方だ。
+　一方で甲河を襲ったのは魔族……）
+<PAUSE>
+<NAME_PLATE>
+　そして、甲河の生き残りは、
+俺の知る限りアスカ一人。
+<PAUSE>
+<NAME_PLATE>
+　そのことこそが、襲撃事件の現実を
+突き付けてくるような気がした。
+<PAUSE>
+<NAME_PLATE>俺
+（……アスカ）
+<PAUSE>
+<NAME_PLATE>
+　アスカは再び無言で、
+地面の石ころを転がしている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　再び沈黙。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか星影は消え、
+辺りには雨の匂いが立ちこめていた。
+<PAUSE>
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　と、アスカが突然立ち上がる。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうま！
+　私、ちょっと見回りしてくるわ。
+　コンテナの見張りよろしくね」
+<PAUSE>
+<NAME_PLATE>俺
+「おう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　アスカはさっと光学迷彩に身を隠し、
+森の中へ消えた。
+<PAUSE>
+//【背景：岩陰＿夜】【時間：夜】
+//　※姫騎士シャロン_nc006cより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc204a,IN, 1000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　山の天気は変わりやすい。
+<PAUSE>
+<NAME_PLATE>
+　小粒の雨が辺りを濡らし、
+木の葉を叩く音が聞こえ始めた。
+<PAUSE>
+<NAME_PLATE>俺
+（傘をさす訳にもいかないし……
+　これは地味に辛いな）
+<PAUSE>
+<NAME_PLATE>
+　雨は服を濡らし、
+じりじりと体温を奪って行く。
+<PAUSE>
+<NAME_PLATE>
+　横を見れば、
+不自然に濡れていない場所がある。
+光学迷彩シートに包まれたコンテナだ。
+<PAUSE>
+<NAME_PLATE>俺
+（米連の秘密兵器か……
+　結構な大きさだが、一体何なんだろうな）
+<PAUSE>
+<NAME_PLATE>
+　俺の悪い虫がうずく。
+<PAUSE>
+<NAME_PLATE>俺
+（アスカの仕事につきあわされてるんだ。
+　ちょっと見てもバチは当たらないよな？）
+<PAUSE>
+<NAME_PLATE>
+　それに、この光学迷彩シートに入れば
+雨が避けられる。
+つまりこれは雨宿りだ、臨機応変な行動だ。
+<PAUSE>
+<NAME_PLATE>
+　などと頭で言い訳しつつ、
+手探りで光学迷彩シートをめくると、
+米連仕様の特殊なコンテナが見え――
+<PAUSE>
+<NAME_PLATE>俺
+（これは……！？）
+<PAUSE>
+<NAME_PLATE>
+　俺はその扉を見てぎょっとした。
+暗証番号式の金属製の錠がついているのだが、
+それがまるで溶けたように壊されているのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「どういうことだ……！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は気を引き締め、
+扉を開けてコンテナの中へ入る。
+<PAUSE>
+//【背景：コンテナの中＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc036aより流用
+<SE_PLAY>se087
+<WAIT>500
+<BG>nc068a,IN, 1000
+<NAME_PLATE>
+　中には仄かな灯りがあった。
+<PAUSE>
+<NAME_PLATE>
+　そしてコンテナの奥には、
+大きなＸ字のように見える四枚の板を
+背負った少女が座っている。
+<PAUSE>
+//　※立ち絵
+//　　Ａ－６６・ルーナ
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「女の子！？」
+<PAUSE>
+<NAME_PLATE>
+　俺が思わず声を上げると、
+それに反応したように、少女の目が
+ゆっくりとこちらを見た。
+<PAUSE>
+<ACTOR>2,chr_t0168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女の子
+「――……起動時間ですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ……」
+<PAUSE>
+<NAME_PLATE>Ａ－６６・ルーナ
+「初対面と認識します。
+　私はＡ－６６・ルーナ。
+　アルテミスを制御する為の個体です」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「あなたの名前は？」
+<PAUSE>
+<NAME_PLATE>俺
+「えっと、ふうまだけど……君は？
+　運ばれるのは兵器じゃなかったのか？！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　するとそこへ――
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,as_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふうま！！
+　どういうこと！？」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アスカが戻ってきてしまった。
+何やら慌てた様子である。
+<PAUSE>
+<NAME_PLATE>俺
+「それがコンテナの鍵が破壊されていて……」
+<PAUSE>
+<ACTOR>0,as_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ふうまが壊したんじゃないの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「違う！
+　それより慌てた様子でどうした？」
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「敵よ。
+　敵の部隊がまっすぐこっちに向かってる！
+　この場所がわかったのかしら！？」
+<PAUSE>
+<NAME_PLATE>俺
+「……なるほど、そうか」
+<PAUSE>
+<ACTOR>0,as_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「何がなるほどなの！？」
+<PAUSE>
+<NAME_PLATE>
+　壊された鍵、このタイミングでの襲撃。
+<PAUSE>
+<NAME_PLATE>俺
+「何者かがコンテナの鍵を破壊して、
+　敵の部隊を呼んだんじゃないかとな」
+<PAUSE>
+<ACTOR>0,as_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ずっと見張ってたのに？？
+　誰も来なかったじゃない」
+<PAUSE>
+<NAME_PLATE>
+　確かに、俺達二人で見張っている間、
+少しでも誰か近づけばわからないはずはない。
+<PAUSE>
+<NAME_PLATE>
+　つまり――
+<PAUSE>
+<NAME_PLATE>俺
+「何者か――例えば魔獣が、
+　初めからコンテナ内に潜んでたとしたら」
+<PAUSE>
+<NAME_PLATE>俺
+「敵が魔獣を使うってのは、敵に潜入させた
+　スパイからの情報なんだろ？」
+<PAUSE>
+<NAME_PLATE>俺
+「だったら米連内に龍門系のスパイが
+　いる可能性だってあるんじゃないのか？」
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「否定できないわね。
+　でもだからって、コンテナに魔獣を
+　潜ませるなんて無茶よ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「魔獣って、ナイトドッグとか、
+　魔界ワスプとかそういうのでしょ？
+　そんなの隠しておけるわけないじゃない」
+<PAUSE>
+<NAME_PLATE>俺
+「わからんぞ。
+　とにかく警戒を――」
+<PAUSE>
+<NAME_PLATE>？？？
+『ケケっ！！　対魔忍ってのは勘が良いねえ』
+<PAUSE>
+<NAME_PLATE>
+　突然、
+どこからかしゃがれた男の声がする。
+<PAUSE>
+<ACTOR>0,as_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？　だれだ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どこにいるの！？
+　出てきなさいよ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は隅々まで目をこらすが、
+コンテナに全く人の気配はない。
+<PAUSE>
+<NAME_PLATE>？？？
+『お前の目の前にいるだろうが』
+<PAUSE>
+<NAME_PLATE>俺
+「なに……？」
+<PAUSE>
+<ACTOR>2,chr_t0168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺の目の前にいるのは、
+ルーナと名乗る少女だけ。
+<PAUSE>
+<NAME_PLATE>
+　俺はスマホのライトをつけると、
+彼女の体を隅々まで照らす。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　艶々としたスーツの、
+ところどころから覗くピンクの肌。
+その太股の内側に――
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>俺
+「！！　なんだ……！？」
+<PAUSE>
+<NAME_PLATE>
+　ホクロにしては妙に細長い点。
+それが、ライトで照らされた瞬間、
+うねうねと煽るように蠢いた。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだこれ！？　虫！？」
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>？？？
+『虫じゃねえ！！？
+　偉大なる魔蛭一族だ！！！』
+<PAUSE>
+<NAME_PLATE>
+　確かに声はそこから聞こえる。
+こいつが喋っているのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「まさかこいつが魔獣か！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「き、気持ち悪い……！
+　さっさと叩き潰すわよ」
+<PAUSE>
+<NAME_PLATE>魔蛭
+『おおっと、
+　そうはいくかよ！』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ひゃ！？」
+<PAUSE>
+<NAME_PLATE>
+　虫もとい魔蛭はびよん、とジャンプすると、
+俺とアスカの間をすり抜けて、
+コンテナの外へと飛び出た。
+<PAUSE>
+//【背景：岩陰＿夜】【時間：夜】
+//　※姫騎士シャロン_nc006cより流用
+<SE_PLAY>se054
+<BG>nc204a,IN, 1000
+<NAME_PLATE>俺
+「逃げたか！？
+　どこへ行きやがった！？」
+<PAUSE>
+<NAME_PLATE>
+　外は暗すぎて、
+とても小さなヤツを見つけることは
+できなかった。
+<PAUSE>
+<NAME_PLATE>魔蛭
+『こっちだよノロマども！！！』
+<PAUSE>
+<NAME_PLATE>
+　地面に目を走らせる俺達を笑うように、
+後ろから声がする。
+<PAUSE>
+//【背景：川辺＿夜】【時間：夜】
+//　※処女のシモベ君＿nc005cより流用
+<SE_PLAY>se054
+<BG>nc216a,IN, 1000
+<NAME_PLATE>
+　声のする方には、小さな川が流れている。
+<PAUSE>
+<ACTOR>0,as_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「この川に逃げ込んだの！？」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「アスカ、気をつけろ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　水面が何かおかしい。
+と、小川の水がぶくぶくと不自然に波打つ。
+<PAUSE>
+<NAME_PLATE>魔蛭
+『ジュフフフフ……』
+<PAUSE>
+//　※立ち絵
+//　　魔蛭
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　水の塊が、まるで意志を持ったかのように
+起きあがったかと思うと――
+<PAUSE>
+<SE_PLAY>se114
+<ACTOR>3,ts_m136a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それは目や口、爪の形を成し、
+さながら水の怪物となった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「な、何これ！」
+<PAUSE>
+<NAME_PLATE>魔蛭
+『ヒャハハハ！
+　これが俺様の神髄よ！！！』
+<PAUSE>
+<NAME_PLATE>魔蛭
+『お前達を始末してあの機械女を奪えば、
+　報酬はたんまりだ！』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「水の魔獣を呼んだってわけ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや違う、良く見ろ！
+　あいつが操ってるんだ」
+<PAUSE>
+<NAME_PLATE>
+　よくよく見ると、目のように見えるのは
+さっきのヒルのような魔獣だ。
+<PAUSE>
+<NAME_PLATE>
+　そいつがウネウネと動きながら、
+喋っているのである。
+<PAUSE>
+<NAME_PLATE>魔蛭
+『ご明察だぜ。スッピンじゃ
+　踏み潰されて終わりの虫けらだが、
+　水を纏えば誰にも負けねェ』
+<PAUSE>
+<NAME_PLATE>魔蛭
+『って誰が虫けらだ！！？
+　俺は偉大なる魔蛭の一族だコラア！！！』
+<PAUSE>
+<NAME_PLATE>アスカ
+「………ヒルが喋るだけで驚いたけど、
+　性格も相当ひん曲がっているようね」
+<PAUSE>
+<NAME_PLATE>
+　さすがはアスカ、
+すでに冷静さを取り戻していた。
+<PAUSE>
+<NAME_PLATE>俺
+「油断するなよ。
+　こいつは意外に厄介かもしれない」
+<PAUSE>
+<NAME_PLATE>
+　鍵を壊したのは恐らくこいつだ。
+<PAUSE>
+<NAME_PLATE>俺
+（スパイの手を借りてコンテナに潜りこみ、
+　ルーナの身体にでも潜んで、
+　機会を伺っていた……ってとこか）
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　なるほど米連も、大規模な襲撃は
+警戒しても、ヒル一匹には
+気づかなかったとみえる。
+<PAUSE>
+<ACTOR>0,as_t003f,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se016
+<NAME_PLATE>アスカ
+「こんな下等生物、
+　さっさと切り捨てて終わりよ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se114
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシャアッ！！！！
+<PAUSE>
+<NAME_PLATE>
+　言うが早いか、アスカのブレードが
+水の魔獣の顔を切り裂く。
+<PAUSE>
+<BG>nc216a,IN, 500
+<NAME_PLATE>
+　しかし。
+<PAUSE>
+<ACTOR>2,ts_m136a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔蛭
+『ケケケ！！！
+　ただの水斬ってどうすんだよー？』
+<PAUSE>
+<NAME_PLATE>
+　魔獣はすぐ元の姿に戻り、
+馬鹿にしたような声が山に木霊する。
+<PAUSE>
+<NAME_PLATE>俺
+「ダメだアスカ、
+　あいつ本体を狙わないと……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「狙ってるわよ！
+　だけどちっちゃい上にヌルヌルして……！
+　えいっ！　てえっ！！！」
+<PAUSE>
+<SE_PLAY>se108_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブンッ。ヒュンッ。
+<PAUSE>
+<NAME_PLATE>
+　アスカは目を狙ってブレードを振るうが、
+水の中を自在に動くヒルに
+全て避けられてしまう。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>0,as_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ああもう！
+　ヒル相手の戦闘なんてしたことないもの！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「こうなったら皆殺しミサイルでっ……」
+<PAUSE>
+<NAME_PLATE>
+　アスカがアンドロイド・アームに仕込んだ
+ミサイルを発射しようとするのを、
+俺は慌てて止める。
+<PAUSE>
+<NAME_PLATE>俺
+「無駄だアスカ！
+　奴は水で守られていて爆風も火も届かない！
+　ミサイルは温存しておいてくれ」
+<PAUSE>
+<ACTOR>0,as_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「う……そうね。だけどどうしたら……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>2,ts_m136a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔蛭
+『観念したかぁ？
+　……おっと』
+<PAUSE>
+<NAME_PLATE>魔蛭
+『そっちのお姉ちゃんは、
+　コンテナの中で大人しくしてな！』
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,400
+<GROUP>
+<BG>nc204a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>3,chr_t0168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　振り向くと、コンテナから
+ルーナがゆっくり歩み出てきていた。
+<PAUSE>
+//　※立ち絵
+//　　Ａ－６６・ルーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「ルーナ！
+　駄目よ、あなたが出てきちゃ……！」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「緊急事態と認識しました。
+　兵装アルテミス起動、
+　ふうまを臨時のマスターに設定します」
+<PAUSE>
+<NAME_PLATE>俺
+「な、俺！？
+　マスターって……」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<SE_PLAY>se076
+<NAME_PLATE>
+　意外な展開に戸惑っていると、
+今度は川の向こう側から、
+ガサガサと藪をかき分ける音がする。
+<PAUSE>
+<NAME_PLATE>アスカ
+「まずい、
+　敵の部隊に追いつかれたわ！」
+<PAUSE>
+<SE_PLAY>se054
+<GROUP>
+<ACTOR>3,ts_m098a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m098a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　やがて暗がりの中から、
+武装した一団が姿を現した。
+<PAUSE>
+//　※立ち絵
+//　　警備兵立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>アスカ
+「どうする？　ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「アスカは敵の部隊を迎え撃ってくれ。
+　この魔獣は俺が何とかする」
+<PAUSE>
+<NAME_PLATE>アスカ
+「わかった！」
+<PAUSE>
+<SE_PLAY>se003
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカは川向こうへ飛び立つと、
+光学迷彩で姿を消し、
+武装した一団へ襲いかかる。
+<PAUSE>
+<GROUP>
+<BG>nc216a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>俺
+（さて、こっちは――）
+<PAUSE>
+<ACTOR>3,chr_t0168a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルーナ
+「マスター。指示を」
+<PAUSE>
+<NAME_PLATE>
+　武装した集団と水の魔物を前にして、
+恐ろしいほど落ち着いた目で問いかける。
+<PAUSE>
+<NAME_PLATE>俺
+「ルーナって言ったな。
+　戦えるか？」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　マスター云々については今は置いておいて、
+彼女が俺に力を貸してくれるなら、
+それに頼ってみよう。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃ、あの水の魔獣の、目を狙ってくれ。
+　いけるか！？」
+<PAUSE>
+<NAME_PLATE>ルーナ
+「了解」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>2,ts_m136a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔蛭
+『ケッ！　何ごちゃごちゃ話してやがる。
+　二人ともすぐ川に沈めてやるぜ！！！』
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,239 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//シーン説明：
+//=================================================================
+//【背景：五車学園＿校舎内校長室＿昼】//【時間：昼】
+<BG>nc006a,IN
+<BGM_PLAY>bgm207,1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キィン……ガキィィン……
+<PAUSE>
+<GROUP>
+<ACTOR>2,a_t003b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t005a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>骸佐
+「ハァッ……ッハァ……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「どうした？　もう終わりか？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　骸佐とアサギ先生は変わらぬ速さで
+打ち合っていたが、
+骸佐の動きは明らかに鈍りはじめていた。
+<PAUSE>
+<NAME_PLATE>骸佐
+「ハァッ……ッくそっ！」
+<PAUSE>
+<NAME_PLATE>
+　息が上がり、明らかに疲労している。
+<PAUSE>
+<NAME_PLATE>骸佐
+「ちょこまかと……
+　すばしっこいババアだ……」
+<PAUSE>
+//　※立ち絵
+//　　骸佐夜叉髑髏化立ち絵＿夜叉髑髏化衣装（武器装備）
+<NAME_PLATE>アサギ
+「いい加減あきらめて降伏しろ」
+<PAUSE>
+<NAME_PLATE>
+　翻ってアサギ先生はといえば、
+呼吸ひとつ乱れていない。
+余裕の様子で次の攻撃を待っている。
+<PAUSE>
+<NAME_PLATE>
+　骸佐を殺す気はないのだろう、
+あくまで疲弊させて諦めさせるつもりか。
+<PAUSE>
+<NAME_PLATE>
+　しかし、俺は骸佐の行動に
+少し違和感を覚えていた。
+<PAUSE>
+<NAME_PLATE>俺
+（アサギ先生が、まともに打ち合って
+　勝てる相手じゃないことは
+　骸佐だってわかってるはずだ）
+<PAUSE>
+<NAME_PLATE>
+　玉砕するつもりなら、そもそも乱戦を
+起こしてまで他の対魔忍たちを遠ざける
+必要もないわけで――
+<PAUSE>
+<NAME_PLATE>俺
+（なんだろう、何かある。
+　何かもう一つ、裏が……）
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生も、
+何か別の違和感に気づいたらしい。
+<PAUSE>
+<ACTOR>2,a_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「いったい何をした？
+　君から僅かな瘴気を感じるぞ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「う……るせえぞ、ババア……」
+<PAUSE>
+<ACTOR>2,a_t003f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「強化改造の類か？　いや、魔薬の類だな。
+　答えなさい。誰に提供してもらった？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「……っ、ハア……ッ……、だから……
+　上から目線はやめろって
+　言ってんだババアッ！！！？」
+<PAUSE>
+<ACTOR>2,a_t003d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「！！？」
+<PAUSE>
+<SE_PLAY>se013
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　骸佐が渾身の力で刀を振り上げる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「オオオオオオオオオッっ！！！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　雄叫びを上げる骸佐の体から、
+黒い瘴気が溢れ出した。
+<PAUSE>
+<NAME_PLATE>俺
+（何だこれは……！？
+　さっきとは全く違う……！！
+　アサギ先生の言う魔薬の力なのか！？）
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子、鹿之助、構えろ！
+　強烈なのが来るぞ……！！！」
+<PAUSE>
+<NAME_PLATE>骸佐
+「死ねえええええええええッ！！！」
+<PAUSE>
+<ACTOR>2,a_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「なにっ！？」
+<PAUSE>
+<SE_PLAY>se013
+<EFFECT_FLASH>WHITE, 500
+<NAME_PLATE>
+　瘴気をまとった大太刀が、
+校長室を切り裂く……！
+<PAUSE>
+<NAME_PLATE>俺
+（いかにアサギ先生でも、
+　あれは受けきれない……！）
+<PAUSE>
+<NAME_PLATE>
+　誰の目にもそう見えただろう。
+しかし、動きを止めたのは骸佐のほうだった。
+<PAUSE>
+<NAME_PLATE>骸佐
+「……ッ？　う……！？」
+<PAUSE>
+<NAME_PLATE>
+　…………
+<PAUSE>
+<NAME_PLATE>
+　一瞬の静寂ののち。
+骸佐の甲冑に亀裂が入り、そして――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「……う……ぐ、ぎゃアアアアアっ！！！！」
+<PAUSE>
+<ACTOR>1,g_t005a,RIGHT, RIGHT, OUT, linear, 1000
+<NAME_PLATE>
+　砕け散る。
+<PAUSE>
+<ACTOR>2,a_t003b,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>アサギ
+「まったく……手間をかけさせてくれるわね」
+<PAUSE>
+<NAME_PLATE>
+　骸佐が動きを止めた一瞬の隙に、
+アサギ先生が何度も甲冑に打ち込み、
+破壊したのだ。
+<PAUSE>
+<NAME_PLATE>骸佐
+「ば、馬鹿なっ………
+　俺の、“夜叉髑髏”……っ……」
+<PAUSE>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,125
+<NAME_PLATE>
+　骸佐の全身からは血飛沫が噴き出し、
+そのまま校長室の床へ崩れ落ちた。
+<PAUSE>
+<NAME_PLATE>
+　しかしアサギ先生は骸佐に一瞥もせず、
+校長室の入り口に視線を向けた。
+<PAUSE>
+<ACTOR>2,a_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あなたが黒幕でしたか？　室井先生」
+<PAUSE>
+//　※立ち絵
+//　　アサギ戦闘立ち絵＿対魔忍衣装
+<BGM_STOP>1500
+<ACTOR>2,a_t003e,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>室井
+「いやあ、お見事お見事」
+<PAUSE>
+//　※立ち絵
+//　　室井通常立ち絵＿校医衣装
+<ACTOR>0,mu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「室井先生……！？」
+<PAUSE>
+<NAME_PLATE>
+　そこに立っていたのは、
+校医の室井先生だった。
+<PAUSE>
+<BGM_PLAY>bgm206,1000
+<ACTOR>0,mu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>室井
+「対魔粒子を強化する薬を
+　彼に与えたんですが……所詮は人間、
+　肉体のほうが追いつかなかったようですね」
+<PAUSE>
+<NAME_PLATE>
+　先生は柔和な笑みのまま、
+ゆっくりと血まみれの骸佐に歩み寄る。
+<PAUSE>
+<ACTOR>0,mu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>室井
+「それに引き換え貴女は素晴らしい。
+　いやはや人間にしておくのは
+　惜しい強さです、井河アサギ♪」
+<PAUSE>
+<NAME_PLATE>
+　そう笑いかける室井先生の体からは、
+どす黒い瘴気が溢れ出ていた。
+<PAUSE>
+<NAME_PLATE>俺
+「室井先生……あなたは一体……！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ふうま君！　下がって！！」
+<PAUSE>
+//→Section４終了
+<BGM_STOP>2000
+<ACTOR>0,mu_t001b,CENTER, CENTER, OUT, linear, 1000
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<SCENARIO_END>

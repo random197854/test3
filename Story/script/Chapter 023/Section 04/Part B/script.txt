@@ -1,0 +1,303 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車学園＿地下の古代神殿１＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC067aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc289a,IN, 1000
+<ACTOR>0,am_t010b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くんは下がっていて」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵
+<NAME_PLATE>俺
+「そうだな。
+　一緒に戦ってやりたいが、
+　足手まといになるだけだ」
+<PAUSE>
+<NAME_PLATE>紫水
+「私をちゃんと見ていて。
+　力がわいてくるから」
+<PAUSE>
+<NAME_PLATE>俺
+「分かった。頼む」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　紫水は力強く頷くと
+コロ先輩に借りた身体で
+躊躇うことなく敵に突進していく。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m123a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m123a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>死霊
+「ＧＵＯＯＯＯＯＯＯ！！！」
+「ＧＵＯＯＯＯＯＯＯ！！！」
+「ＧＵＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+//　※立ち絵
+//　　死霊立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+//　※何体か出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m112a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m112a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゴーレムナイト
+「――――――」
+「――――――」
+「――――――」
+<PAUSE>
+//　　ゴーレムナイト立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+//　※何体か出してください
+<NAME_PLATE>
+　死霊とゴーレムナイトが紫水を
+迎え撃とうとする。
+<PAUSE>
+<NAME_PLATE>
+　ざっと見てさっきの二倍はいる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが、紫水はさっきの倍以上の
+スピードで疾駆していた。
+<PAUSE>
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「対魔殺法“波拳”」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　あっという間に敵の間合いに入り、
+低い姿勢から滑り込むような掌底の一撃。
+<PAUSE>
+<NAME_PLATE>ゴーレムナイト
+「！！！！！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　紫水の動きにまったく反応できず
+ゴーレムナイトが何かの冗談のように
+粉々に粉砕された。
+<PAUSE>
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「はっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　紫水は流れるような動きから、
+今度は死霊の群れに向かって
+右の回し蹴りを放った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se006
+<NAME_PLATE>死霊
+「！！！！！！！！」
+「！！！！！！！！」
+「！！！！！！！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボボボボボッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ローソクの炎を勢いよく吹き消すように、
+蹴りに当たる端から死霊が消滅していく。
+<PAUSE>
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「やっっっ！！　たああっっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　見る見るうちに敵の数が減っていく。
+<PAUSE>
+<NAME_PLATE>
+　まるで無双系のゲームを見ているようだ。
+<PAUSE>
+<NAME_PLATE>
+　波遁の術の力は圧倒的だった。
+<PAUSE>
+<NAME_PLATE>
+　教えられてようやく分かったが、
+紫水の打撃は敵に当たってはいない。
+<PAUSE>
+<NAME_PLATE>
+　波遁の術が生み出した波動エネルギーが
+打撃そのものが当たる前に敵を粉砕している。
+<PAUSE>
+<NAME_PLATE>
+　待てよ、波動エネルギーだって？
+<PAUSE>
+<NAME_PLATE>俺
+「そうか！　思い出したぞ！」
+<PAUSE>
+<ACTOR>0,am_t010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「？」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水通常立ち絵＿普段着（パーカー）
+<NAME_PLATE>
+　思わず大声を出した俺を
+紫水が怪訝そうに見た。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その瞬間にも左右にバッと開いた手が
+両側からの敵を吹き飛ばしている。
+<PAUSE>
+<NAME_PLATE>紫水
+「なにを思い出したの？」
+<PAUSE>
+<NAME_PLATE>
+　紫水は余裕たっぷりに尋ねながら、
+死霊をニ、三匹まとめて消滅させた。
+<PAUSE>
+<NAME_PLATE>
+　まだ敵は残っているが、
+尋ねられたので俺は勢い込んで答える。
+<PAUSE>
+<NAME_PLATE>俺
+「ガーディアンに女神の加護があるとしたら、
+　暁紅の女神ウシャスの加護だ」
+<PAUSE>
+<NAME_PLATE>俺
+「ウシャスは夜明けの光を司る、
+　つまり死と復活の神様だ」
+<PAUSE>
+<NAME_PLATE>俺
+「だから波遁の術で“波動エネルギー”
+　つまり“生命エネルギー”を操る紫水の力が
+　こんなに通用するんだな！」
+<PAUSE>
+<NAME_PLATE>紫水
+「それは図書室で得た知識？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだ！
+　確か……桃知保武の『五車神伝文書』に
+　記載があった！」
+<PAUSE>
+<ACTOR>0,am_t010f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「その通り」
+<PAUSE>
+<NAME_PLATE>
+　紫水は初めてにこりと笑顔を見せた。
+<PAUSE>
+<NAME_PLATE>
+　俺はそれに驚きつつも、
+思わず率直にこう言っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「へえ、笑うと可愛いな」
+<PAUSE>
+<ACTOR>0,am_t010c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫水
+「っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　紫水はパッと俺から顔を背け
+まるで格闘ゲームの溜め攻撃のように
+腰を落としてプルプルと力を入れてから
+<PAUSE>
+<NAME_PLATE>紫水
+「てやァアアアアアアアアアアア！！！」
+<PAUSE>
+<NAME_PLATE>
+　半分ひっくり返った声で
+掌底打ちを繰り出した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m123a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m123a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>死霊
+「！！！！！！！！！！！」
+「！！！！！！！！！！！」
+「！！！！！！！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　死霊立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+//　※何体か出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m112a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m112a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゴーレムナイト
+「！！！！！！！！！！！」
+「！！！！！！！！！！！」
+「！！！！！！！！！！！」
+<PAUSE>
+//　　ゴーレムナイト立ち絵
+//　　　　＊対魔忍ＲＰＧのモンスターイラストより流用
+//　※何体か出してください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボボボボボボボボボボボボボッッ！！
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc289a,IN, 1000
+<NAME_PLATE>
+　紫水の掌から放たれた
+生命エネルギーの凄まじい奔流が
+まだ残っていた敵を一掃した。
+<PAUSE>
+<NAME_PLATE>俺
+「最後はまとめて撃破か。お見事」
+<PAUSE>
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「さ、先を急ぐ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　紫水はちょっと照れた様子で
+そそくさと奥へ進んで行った。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

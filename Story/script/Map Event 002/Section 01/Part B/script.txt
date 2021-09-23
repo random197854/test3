@@ -1,0 +1,452 @@
+﻿//FileNo:S002a
+//シーン名：エピローグ
+//シーン説明：
+//※特定のマップをクリアする、
+//　ないし期間が来るとエピローグが開放
+//※１日目　夜
+<BG>nc111a,IN, 1000
+<BGM_PLAY>bgm207,1000
+//【背景：まえさき市繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<NAME_PLATE>
+　高度なタコ足センサーをもつ蛇子と、
+バイト中だった仲間、それに大魔女とともに、
+俺は雪の悪霊を追い詰めていた。
+<PAUSE>
+<ACTOR>0,h_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「どこへ逃げても無駄よ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵（タコ化）＿制服衣装
+<NAME_PLATE>俺
+「覚悟しやがれ悪霊！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m060a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>雪の悪霊
+『ク……ふざけるな！
+　ゾロゾロ女引き連れやがって！
+　爆発しろ！　蒸発しろ！』
+<PAUSE>
+//　※立ち絵
+//　　雪の悪霊
+<NAME_PLATE>俺
+「はあ！？
+　誤解を招くようなこと言うな！
+　そ、そこにオス犬もいるだろうが！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>5,chr_t0080b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベリリク
+『犬ではなく古代龍だ。
+　それとメスだぞ』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,800
+<NAME_PLATE>俺
+「え、マジか」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR>2,chr_t0080a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「それより悪霊が逃げようとしてます！
+　ダール・マサール・コロン！」
+<PAUSE>
+//　※立ち絵
+//　　【魔女だってクリスマス】リリス
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　リリスが呪文をつぶやくと、
+逃げようとしていた悪霊がすっ転ぶ。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>雪の悪霊
+『いて！　クソッ！！』
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0081a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0083a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>凜子
+「逃がさんぞ、僻みがましい悪霊め！」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス】秋山凜子
+//　　　＊カードイラストより流用
+<NAME_PLATE>まり
+「お覚悟ですっ！」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス娘】篠原まり
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　凜子の刃が唸り、
+まりの土遁をまとった拳が、
+雪だるまに迫る。
+<PAUSE>
+<NAME_PLATE>雪の悪霊
+『ヒィ……やめろォォ！！！
+　サンタさんなんて大嫌いだァァ！！』
+<PAUSE>
+//　※立ち絵
+//　　雪の悪霊
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>凜子
+「その体をただの雪塊にしてやろう」
+<PAUSE>
+<NAME_PLATE>まり
+「いいえ、
+　木端微塵の粉雪にしてやりましょう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>雪の悪霊
+『やめてくれ！　悪かったァ！！
+　許してくれ！
+　なんでもしますから！！』
+<PAUSE>
+<ACTOR>1,ts_m060a,CENTER, CENTER, IN, linear, 1000
+<BGM_STOP>1000
+<NAME_PLATE>雪の悪霊
+『とでも言うと思ったかァ？
+　これでもくらえェェェェ！！！！！
+　フウウオォォォォ………』
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se074
+//※強い風が吹く音
+</GROUP>
+<NAME_PLATE>
+　悪霊が大きく口を開いたかと思うと、
+灰色の冷たい吹雪が吹きだす。
+<PAUSE>
+<NAME_PLATE>俺
+「うわっ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「きゃあっ！？」
+<PAUSE>
+<NAME_PLATE>
+　咄嗟の事に、俺達はまともに
+その吹雪にのまれてしまう。
+<PAUSE>
+<BGM_PLAY>bgm605,1000
+<NAME_PLATE>俺
+（な、なんだこの感じ……！？）
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふ……ふうまちゃん、
+　なんだかすごく……
+　寂しい気持ちがする！」
+<PAUSE>
+<NAME_PLATE>俺
+「お、俺もだ……」
+<PAUSE>
+<NAME_PLATE>
+　灰色の荒野に自分だけが放り出され、
+遠くの街からさざめく笑い声が聞こえる、
+そんな絶望にも似た悲しさ。
+<PAUSE>
+<NAME_PLATE>雪の悪霊
+『ハ……ハハハ！
+　貴様らも呑まれるがいい！
+　この冷たい息に！！』
+<PAUSE>
+<NAME_PLATE>雪の怨霊
+『お前らの妬みや劣等感を、
+　呼び起こしてやる！
+　俺だけ不幸なんて許すもんか！』
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ……！
+　どこまでも捻くれたヤツだな！
+　蛇子！　のまれるなよ！　……蛇子？」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,h_t003g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふふ、うふふ……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「タコになる女なんて、
+　どんなに優秀でかわいくたって、
+　所詮はゲテモノよね……」
+<PAUSE>
+<NAME_PLATE>俺
+「ダメだ、自信満々にこじらせてやがる！
+　……うっ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺の胸にも重たい何かが圧し掛かる。
+<PAUSE>
+<NAME_PLATE>俺
+（『目抜け』『不甲斐ない当主』。
+　そうだ、誰も俺になんか期待していない。
+　その証拠に骸佐だって――）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、飲み込まれてたらだめだ。
+　これはあいつの攻撃なんだ。
+　冷静になれ――）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そのとき。
+やわらかな光のカーテンが辺りを包み込んだ。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se075
+<EFFECT_FLASH>WHITE, 2000
+</GROUP>
+<ACTOR>2,chr_t0080a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「アーベン・リムル・
+　ヘムンクト・ヴァリア・ルア――
+　“聖夜の慈愛”！！！」
+<PAUSE>
+//　※立ち絵
+//　　【魔女だってクリスマス】リリス
+//　　　＊カードイラストより流用
+<NAME_PLATE>リリス
+「よしっ、やっと成功です！」
+<PAUSE>
+<NAME_PLATE>
+　光は、さっきから隅でぶつぶついっていた
+リリスを中心に広がっている。
+<PAUSE>
+<NAME_PLATE>俺
+「リリス……
+　ずっと呪文唱えてたのか！？」
+<PAUSE>
+<NAME_PLATE>
+　何度かの失敗の末、
+やっと成功したリリスの魔法。
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>
+　彼女の強大な魔力が、
+クリスマスの慈愛となってあたりを包み込み、
+俺達の心を溶かしていく。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　それは、雪だるまに取り憑いていた、
+恨みの心をも暖め――
+<PAUSE>
+<ACTOR>1,ts_m060a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>雪の悪霊
+『ナ……なんだコレは！！！
+　体が、体が溶けるゥゥッ！！！』
+<PAUSE>
+<NAME_PLATE>
+　原動力を失った雪だるまは、
+その姿を保てなくなっていく。
+<PAUSE>
+<NAME_PLATE>蛇子
+「雪だるまちゃんから、
+　何だか別の声が聞こえるわ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>？？？
+『クリスマスはいつも留守番だったけど、
+　父さんがお菓子を買って来てくれるのが
+　楽しみだったな……』
+<PAUSE>
+<NAME_PLATE>？？？
+『クリスマスに振られたけど、
+　正月に友達が集まって慰めてくれたんだ……
+　友情のありがたみを感じたな……』
+<PAUSE>
+<NAME_PLATE>俺
+「これは……」
+<PAUSE>
+<BGM_PLAY>bgm606,1000
+<NAME_PLATE>
+　雪だるまの体から、蛍のような小さな光が、
+ぽつぽつと浮き上がっては消えていく。
+<PAUSE>
+<NAME_PLATE>俺
+「怨念たちが楽しい思い出を取り戻して、
+　浄化されているのか……？」
+<PAUSE>
+<NAME_PLATE>ベリリク
+『そのとおりだ。
+　誰の心にも悲しい思い出はあるが、
+　楽しい思い出を持たぬ者もまたいない』
+<PAUSE>
+<NAME_PLATE>ベリリク
+『リリスの慈愛の魔法によって、
+　怨念の主たちがそれを取り戻したのだろう』
+<PAUSE>
+<NAME_PLATE>雪の悪霊
+『畜生畜生！　クリスマスのバカヤローめ！！
+　覚えてやがれ、
+　来年こそは、来年こそはァァ！』
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,2000
+<NAME_PLATE>
+　悪霊はみるみる痩せ細り、
+とうとう憑依を保てなくなると、
+ぱっと空に散った。
+<PAUSE>
+<NAME_PLATE>
+　そしてにわかに空気が冷たくなり、
+ひらひらと雪が舞いだす。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>蛇子
+「雪だわ！
+　あいつが独占してた雪が降り出したのね」
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0081a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0083a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm307,1000
+<NAME_PLATE>凜子
+「ふう、一件落着だな。
+　これは、バイトも忙しくなりそうだ！
+　急いで戻るぞ篠原！」
+<PAUSE>
+<NAME_PLATE>まり
+「はい、凜子先輩！
+　魔女さん、ありがとう。
+　ふうま君、蛇子ちゃん、またね！」
+<PAUSE>
+<NAME_PLATE>
+　そう言うと、
+凜子とまりはバイトへ戻って行く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「初雪よ！
+　ロマンチックねふうまちゃん！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……
+　しかし雪、どんどん強くなってないか？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　などと話している間にも、
+降り出した雪はどんどん勢いを増し――
+<PAUSE>
+//【背景：まえさき市繁華街＿ホワイトアウト＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+//　※監獄アカデミア_NC009bをベースに猛吹雪でホワイトアウト寸前風に加工したもの。
+<BGM_STOP>1000
+<BG>nc112a,IN, 1000
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se074
+</GROUP>
+<NAME_PLATE>俺
+「うおおおお！？　寒っ！」
+<PAUSE>
+<NAME_PLATE>
+　雪はあっという間に猛吹雪となり、
+街を覆い尽くした。
+<PAUSE>
+<BGM_PLAY>bgm710,1000
+<ACTOR>5,chr_t0080b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベリリク
+『あいつが貯め込んだ冷気と雪が、
+　一気に放出されたみたいだな。
+　これは魔界の大雪原並みの寒さだ』
+<PAUSE>
+//　※立ち絵
+//　　ベリリク
+//　　　＊【魔女だってクリスマス】リリスカードより切り出し流用
+<ACTOR>5,chr_t0080b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,chr_t0080a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリス
+「よかったわ！　これでちゃんと冬が来るし、
+　私も一人前の大魔女に一歩近づけそう。
+　ありがとう、タコの大悪魔とそのお供さん」
+<PAUSE>
+//　※立ち絵
+//　　【魔女だってクリスマス】リリス
+//　　　＊カードイラストより流用
+<NAME_PLATE>蛇子
+「だから悪魔じゃないってぇ……」
+<PAUSE>
+<NAME_PLATE>
+　なにやら誤解したままのようだが、
+魔女リリスは礼儀正しく頭を下げる。
+<PAUSE>
+<NAME_PLATE>リリス
+「この雪なら、ソリに乗れるわ！
+　リュージュ・ボブス・レイ！！！」
+<PAUSE>
+<NAME_PLATE>
+　リリスはソリを召喚すると、
+嬉しそうに乗りこんでいる。
+<PAUSE>
+<NAME_PLATE>ベリリク
+『おいやめとけリリス、
+　こんな猛吹雪で乗ったりしたら……』
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se074
+</GROUP>
+<NAME_PLATE>リリス
+「きゃーーーっ！？」
+<PAUSE>
+<NAME_PLATE>
+　ベリリクが止めるより早く、
+リリスの乗ったソリは、
+猛吹雪に吹っ飛ばされていく。
+<PAUSE>
+<NAME_PLATE>ベリリク
+『まったくあの子は……
+　君たちありがとう、またな！
+　おーい待てリリス！』
+<PAUSE>
+<ACTOR_OUT>5,RIGHT,linear,1000
+<NAME_PLATE>
+　ベリリクもリリスを追って雪の中へ消えた。
+<PAUSE>
+<NAME_PLATE>俺
+「伝説の大魔女か……とても信じられないが、
+　確かにあれは凄まじすぎる魔力だった。
+　いまいち制御がおぼつかないようだったが」
+<PAUSE>
+<NAME_PLATE>俺
+「使いこなせばとてつもない強さだろうな。
+　魔界にはあんな奴がゴロゴロしてるのか？
+　ちょっとワクワクするな蛇子……蛇子？」
+<PAUSE>
+<NAME_PLATE>
+　ふと隣を見ると蛇子が、
+うつらうつらと船を漕いでいる。
+<PAUSE>
+<NAME_PLATE>蛇子
+「タコの……限界温度より……気温低いよね
+　……ｚｚｚ」
+<PAUSE>
+<NAME_PLATE>俺
+「おま、何冬眠に入ろうとしてんだ！？
+　死ぬぞ！？　起きろって！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「うへへぇ……」
+<PAUSE>
+<NAME_PLATE>
+　俺は冷凍ダコになりかけた蛇子を背負い、
+吹雪の中を駅へと引き返すのだった。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

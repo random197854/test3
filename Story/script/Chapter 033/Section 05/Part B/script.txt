@@ -1,0 +1,2130 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc042a,IN, 1000
+<ACTOR>0,ts_m225a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ニールセン
+「シャアアアアアアアア！！！」
+<PAUSE>
+//　※立ち絵
+//　　沙無羅威ニールセン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR>1,ts_m244a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>オロバス
+「オレ、フュルスト様のため、働く！
+　女、捕らえる！！　手足潰す！
+　オオオオオオオオオオオオオオ！」
+<PAUSE>
+//　※立ち絵
+//　　オロバス立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「くっ、私を……？　面白い！
+　やれるものならやってみろっ！！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅ＳＲ01（魔性）
+//　　　　＊ＲＰＧカードイラストを流用
+//【イベントＣＧ：EV001a　紅ＶＳフュルスト軍団】【時間：夜】
+//　※紅REV001より流用
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 500
+<EFFECT_FLASH>WHITE, 1000
+<EV>stv024a,IN, 500
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ギィイイイイイイイイイ！！！
+<PAUSE>
+<NAME_PLATE>
+　紅の二刀と襲撃者の刃が激しく
+ぶつかり合う。
+<PAUSE>
+<NAME_PLATE>
+　ニールセンの妖刀・天ノ弱による
+斬撃を卓越した剣技で弾き返し、
+<PAUSE>
+<NAME_PLATE>
+　鋼鉄の魔獣オロバスの突進を
+二刀によって発生させた旋風でいなし、
+<PAUSE>
+<NAME_PLATE>
+　さらに襲いかかるフュルストの触手、
+牙を剥く異界生物の群れを、
+<PAUSE>
+<NAME_PLATE>
+　目にも留まらぬ体さばきで
+次々に捉え、切り裂いていく――。
+<PAUSE>
+<NAME_PLATE>紅
+「――悪党！　何もかも貴様らの
+　思い通りになると思うなよ！
+　ハアアアアアアアアアア！！！」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<WAIT>500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギイイン！！　ザシュ！！！！
+<PAUSE>
+<NAME_PLATE>
+　闇の街の夜に血風が舞う。
+<PAUSE>
+<EV>stv024a,IN, 500
+<NAME_PLATE>
+　鮮烈なまでの強さであった。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の名門・心願寺現当主の
+名に恥じぬ獅子奮迅の戦いぶり。
+<PAUSE>
+<NAME_PLATE>
+　紅はたった一人で、
+襲来する三人の強敵に立ち向かい、
+それを圧倒した。
+<PAUSE>
+<NAME_PLATE>
+　――いや、実はこの戦いぶりは
+紅一人で成し得たものではない。
+<PAUSE>
+<NAME_PLATE>紅
+「あやめ！　次の敵の動きは！？」
+<PAUSE>
+//【イベントＣＧ：EV000a　あやめ狙撃イベントシーン】【時間：夜】
+//　※対魔忍紅_ev001aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<EV>stv008a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>あやめ
+「１０秒後に右後ろの死角から
+　剣士の刃、私が牽制します！
+　紅様は構わず前に――」
+<PAUSE>
+<NAME_PLATE>あやめ
+「それから篝！　７秒後、
+　地下から来る触手を迎え撃って！」
+<PAUSE>
+<NAME_PLATE>紅＆篝
+『了解っ！』
+<PAUSE>
+<NAME_PLATE>
+　あやめの声に反応して二人が動く。
+<PAUSE>
+<NAME_PLATE>
+　風の流れによって
+数秒後の未来を正確に察知する
+あやめの異能“風読み”。
+<PAUSE>
+<NAME_PLATE>
+　その力を持つ彼女が司令塔となり、
+そして援護をすることで、
+<PAUSE>
+<NAME_PLATE>
+　紅はいかなる戦場においても
+鬼神の強さを発揮することができる。
+<PAUSE>
+<NAME_PLATE>
+　紅と心願寺一門の強さは、
+この主従の信頼関係から
+生まれているのであった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<BG>nc042a,IN, 1000
+<NAME_PLATE>
+　触手を操りつつ戦場を観察する
+フュルストもその事実に気が付いた。
+<PAUSE>
+<ACTOR>0,f_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「――ふぅむ。どうにも
+　あの狙撃手が邪魔ですねえ」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<ACTOR>0,f_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「オロバス！　目標変更です！
+　まずはあの女を殺しなさい！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オロバス
+「フュルスト様！　オレ、目標変更！
+　オオオオオオオオオオオオオ！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　咆哮したオロバスが持ち前の
+跳躍力で一気にあやめが潜む
+ビルの屋上へと飛翔する。
+<PAUSE>
+//【背景：東京キングダム＿ビル屋上＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc002aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc158a,IN, 1000
+<ACTOR>0,ts_m244a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>オロバス
+「オオオオオオオオオオオオオオオ
+　オオオオオオオオオ！！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>あやめ
+「っ！！？」
+<PAUSE>
+//　※伏せている状態なのでここはあやめの立ち絵なしです。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドオオオオオオオオオオン！！！
+<PAUSE>
+<NAME_PLATE>
+　轟音と共に瓦礫と土煙が舞う。
+<PAUSE>
+<NAME_PLATE>
+　あやめの伏せていた狙撃地点に
+鋼鉄の魔獣の突撃で大穴が開いた。
+<PAUSE>
+<BG>nc158a,IN, 500
+<ACTOR>0,ay_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「嘘でしょう！？
+　こ、この化け物――」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ戦闘立ち絵＿対魔忍衣装（ハンドガン）
+<NAME_PLATE>
+　ハンドガンを手にビル屋上を
+転がるように駆けるあやめ。
+<PAUSE>
+<NAME_PLATE>
+　ギリギリで奇襲は回避したが――
+しかしライフルは奴の強靭な
+両脚で踏み砕かれた。
+<PAUSE>
+<NAME_PLATE>
+　もう紅たちを援護することはできない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オロバス
+「女、殺す！　殺す、殺す！！
+　オオオオオオオオオオオオオオ！」
+<PAUSE>
+<NAME_PLATE>
+　蒼白になったあやめを
+鋼鉄の魔獣が猛然と追い詰める。
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc042a,IN, 1000
+<ACTOR>0,kn_t009d,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>紅
+「あやめ！！？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（武器）
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>
+　紅が顔を強張らせて叫ぶ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だがこちらも迂闊に動けない。
+<PAUSE>
+<NAME_PLATE>
+　何故なら、目の前の敵――
+フュルストとニールセンが
+異様な動きを見せているからだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ニールセン
+「ぐうぅうぅうぅうぅうぅぅうぅぅ
+　ぅううぅうぅうぅううっ！」
+<PAUSE>
+<NAME_PLATE>
+　獰猛に唸るニールセン、
+その全身をどす黒く禍々しい瘴気が
+隙間なく取り巻いていた。
+<PAUSE>
+<NAME_PLATE>
+　その瘴気の発生源は、当然、
+フュルストが持つ例の魔術書だ。
+<PAUSE>
+<ACTOR>0,f_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホホ。こちらも
+　出し惜しみなしで行きましょう」
+<PAUSE>
+<ACTOR>0,f_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「“あの方”の娘とあれば、
+　これくらいのおもてなしで
+　当たるのが礼儀というもの――」
+<PAUSE>
+<ACTOR>0,f_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「さあ、その身を闇に捧げなさい！！
+　“魔人ニールセン”！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>紅
+「っ！！！？」
+<PAUSE>
+<ACTOR>0,ts_m245a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+『オオオオオオオオオオオオオオオオ
+　オオオオオオオオオオオッ！！！！！』
+<PAUSE>
+//　※ニールセンの立ち絵消えます。変身して徐々に魔人になっている風。
+<NAME_PLATE>
+　咆哮と共に瘴気に包まれた
+ニールセンの体が変異していく。
+<PAUSE>
+<NAME_PLATE>
+　瘴気を吸い込み黒々と膨れ上がる
+肉体、頭部には四本の角、そして
+妖刀を握った手がそれと一体化し、
+<PAUSE>
+<NAME_PLATE>
+　溶岩の如く荒々しく脈動する
+巨大な一本の剣と化す。
+<PAUSE>
+<NAME_PLATE>篝
+「な、なんですあれ……？」
+<PAUSE>
+//　※立ち絵
+//　　篝
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　恐れ知らずが自慢の篝の顔が
+恐怖に凍り付いていた。
+<PAUSE>
+<NAME_PLATE>
+　がくがくと足が震え、
+無意識のうちに後ずさる。
+<PAUSE>
+<NAME_PLATE>
+　膨大な魔の力を宿した、
+人とはかけ離れた異形の存在。
+<PAUSE>
+<NAME_PLATE>
+　“魔人”の誕生――。
+<PAUSE>
+<NAME_PLATE>魔人ニールセン
+「ガアアアアアアアアアアア！！」
+<PAUSE>
+//　※立ち絵
+//　　魔人ニールセン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「ぐっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　一瞬の激突であった。
+<PAUSE>
+<NAME_PLATE>
+　一合、二合と、
+紅と魔人の剣が打ち合わされる。
+<PAUSE>
+<NAME_PLATE>
+　だが魔人のパワーは圧倒的。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュ！！　ギィイイイイン！！
+<PAUSE>
+//　※斬撃、鮮血効果など。
+<NAME_PLATE>
+　魔人の剣が紅の脇腹を抉り、
+さらに反撃しようとした刀も弾かれ、
+そのまま体ごと後方に吹き飛ばされる。
+<PAUSE>
+<NAME_PLATE>紅
+「あがっ！！？　ぐぅぅうぅうぅ
+　ううううううううっ！！！」
+<PAUSE>
+<BG_OUT>1000
+<SE_PLAY>se044
+<NAME_PLATE>
+　ガチャーーーーーーーーン！！
+<PAUSE>
+<NAME_PLATE>
+　娼館のガラス窓をぶち破って
+その中に突っ込む紅の体。
+<PAUSE>
+<NAME_PLATE>
+　ビクビクと痙攣しながら、
+ボロ切れのように倒れ伏す。
+<PAUSE>
+<BG>nc042a,IN, 500
+<ACTOR>0,ts_m245a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔人ニールセン
+「グルルル……」
+<PAUSE>
+<NAME_PLATE>篝
+「く、紅様っ！！？
+　あ、あわわ……」
+<PAUSE>
+<NAME_PLATE>
+　恐怖に凍り付く篝の前で、
+ピクリとも動かない紅に向かって
+魔人がゆっくりと歩を進めていく。
+<PAUSE>
+//【背景：東京キングダム＿ビル屋上＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc002aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc158a,IN, 1000
+<ACTOR>0,ay_t003f,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>あやめ
+「紅さまっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ戦闘立ち絵＿対魔忍衣装（ハンドガン）
+<NAME_PLATE>
+　主の窮地にあやめが悲鳴を上げた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　オロバスとの戦い自体は、
+あやめは優勢に進めていた。
+<PAUSE>
+<NAME_PLATE>
+　“風読み”による先読み能力は
+近接戦においても効果を発揮する。
+<PAUSE>
+<NAME_PLATE>
+　あやめは華麗にオロバスの攻撃を
+回避し、急所や装甲の継ぎ目を狙って
+何発も銃弾を撃ち込んだ。
+<PAUSE>
+<NAME_PLATE>
+　あと一歩の所まで追い込んだ。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれも、常に一手先を
+読み続けられる冷静さがあればこそ。
+<PAUSE>
+<NAME_PLATE>
+　主の危機を察した瞬間、
+あやめの集中は完全に乱れた。
+<PAUSE>
+<ACTOR>0,ts_m244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オロバス
+「オオオオオオオオオオオオオオ！！
+　女、潰す！！　潰す、潰す！」
+<PAUSE>
+//　※立ち絵
+//　　オロバス立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>あやめ
+「くっ！！！？」
+<PAUSE>
+<NAME_PLATE>あやめ
+（し、しまった――！！！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　迫る鉄槌のダメージから少しでも
+守ろうとあやめが体を丸めたとき。
+<PAUSE>
+<NAME_PLATE>？？？
+「おやおや。
+　こんな脳筋野郎にやられるとは、
+　あんたも焼きが回ったな、あやめ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガキンガキンガキィンガキン
+ガキイイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　突然、屋上のコンクリートを
+ぶち破って突き出した無数の槍が、
+<PAUSE>
+<NAME_PLATE>
+　あやめの銃撃で損傷していた
+オロバスの甲冑をたたき割り、
+深々と貫いていた。
+<PAUSE>
+<BG>nc158a,IN, 500
+<NAME_PLATE>オロバス
+「敵襲！？　オオオオオオオオオオオ
+　オオオオオオオオオ！！！！？」
+<PAUSE>
+<NAME_PLATE>
+　跳躍したところを打ち落とされ、
+怒りの咆哮を残して地上へと
+落下していくオロバス。
+<PAUSE>
+<NAME_PLATE>
+　代わりにコンクリートの中から
+槍を構えて姿を現したのは。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ay_t003d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,o_t003a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>あやめ
+「権左君……！！
+　どうして、あなた……」
+<PAUSE>
+<ACTOR>0,ay_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「おっと。勘違いするなよ、あやめ。
+　俺はあんたを助けたわけじゃねえ」
+<PAUSE>
+<NAME_PLATE>権左
+「俺たちの縄張りで好き勝手やってる
+　クソどもが我慢ならなかっただけ――」
+<PAUSE>
+<NAME_PLATE>権左
+「そうでしょう？　お館様」
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc042a,IN, 1000
+<ACTOR>0,g_t005a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>骸佐
+「おおおおおおおおおおっ！！
+　このクソハゲがああああああああ
+　あああああああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　骸佐夜叉髑髏化立ち絵＿夜叉髑髏化衣装（武器装備）
+<NAME_PLATE>フュルスト
+「ホ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　触手に全身の骨を砕かれ、
+圧死したかと思われた二車骸佐が
+髑髏の甲冑を纏って立ち上がっていた。
+<PAUSE>
+<NAME_PLATE>
+　骸佐が持つ邪眼“夜叉髑髏”。
+<PAUSE>
+<NAME_PLATE>
+　戦いで敗れ去った亡者たちの
+怨念を身に纏い自らを強化する力。
+<PAUSE>
+<NAME_PLATE>
+　骸佐は、その恨みの甲冑の内側から
+自らの体に幾つもの『楔』を打ち込み、
+<PAUSE>
+<NAME_PLATE>
+　へし折られた全身の骨を強引に繋ぎ、
+激痛に血反吐をまき散らしながら
+刀を握り、闇の魔科医へと疾走する。
+<PAUSE>
+<NAME_PLATE>骸佐
+「――フュルストっ！！！
+　てめえの相手はこの俺だろうが
+　ああぁあああああああああっ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュウウウウウウ！！！
+<PAUSE>
+//　※斬撃、鮮血効果など
+<NAME_PLATE>フュルスト
+「ぐぅうぅっ！！？
+　こ、この虫けらが……！！！」
+<PAUSE>
+<NAME_PLATE>
+　強大な再生能力を持つはずの
+フュルストの顔が苦痛に歪んでいた。
+<PAUSE>
+<BG>nc042a,IN, 500
+<ACTOR>0,g_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　いま骸佐が放った一刀は、
+以前、彼が弩竜との戦いで習得した
+“夜叉髑髏・累（かさね）”。
+<PAUSE>
+<NAME_PLATE>
+　その者が殺し、恨みを重ねれば
+重ねるほど威力を増す魔性の剣。
+<PAUSE>
+<NAME_PLATE>
+　その数百年に渡る生涯で無数とも
+いえる人を殺したフュルストである。
+<PAUSE>
+<NAME_PLATE>
+　その怨念を一纏めにして食らえば、
+さすがに苦悶するほかなく――。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――数瞬前。
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc042a,IN, 1000
+<NAME_PLATE>篝
+「はぐぅぅぅ……。
+　く、くれないしゃまぁ……」
+<PAUSE>
+//　※立ち絵
+//　　篝立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>0,ts_m245a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔人ニールセン
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　魔人ニールセン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　悠然と歩みを進める魔人の前で、
+地面に転がった篝が呻いていた。
+<PAUSE>
+<NAME_PLATE>
+　篝は勇気を振り絞り、瀕死の
+紅へと歩む魔人の前に立ちはだかり、
+戦いを挑んだのだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、結果は無残なものだった。
+<PAUSE>
+<NAME_PLATE>
+　下級妖魔を身に宿しただけの篝が
+強大な魔人に敵うべくもない。
+<PAUSE>
+<NAME_PLATE>
+　刃の一振りで吹き飛ばされ、
+ズタズタに触手も引き裂かれた。
+<PAUSE>
+<NAME_PLATE>
+　自慢の再生能力も底をつき、
+もう抵抗する力もない。
+<PAUSE>
+<NAME_PLATE>魔人ニールセン
+「グルルル……」
+<PAUSE>
+<NAME_PLATE>篝
+「ひうぅ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　魔人がそんな篝の頭上に
+剣を振り上げる。
+<PAUSE>
+<NAME_PLATE>
+　魔人にとっては篝の攻撃など
+小虫に刺されたようなもの。
+<PAUSE>
+<NAME_PLATE>
+　だがその程度であっても、
+不快なものは不快である。
+<PAUSE>
+<NAME_PLATE>
+　二度と絡んでこられぬように、
+跡形もなく擦り潰して――。
+<PAUSE>
+<NAME_PLATE>篝
+「ひぃいいいいいいいっ！！」
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　魔人の剣が振り下ろされる。
+<PAUSE>
+<NAME_PLATE>篝
+（ああっ！！
+　か、篝はもうダメですぅっ！
+　紅さま、ご武運を――っ！）
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　恐怖に身をすくませた
+篝がぎゅっと目をつぶる。
+<PAUSE>
+<NAME_PLATE>
+　死ぬのは恐ろしいが後悔はない。
+<PAUSE>
+<NAME_PLATE>
+　主・紅を守って戦ったのだ、
+篝にとっては本望である。
+<PAUSE>
+<NAME_PLATE>
+　それに――。
+<PAUSE>
+<NAME_PLATE>
+　もし自分が死んだとしても、
+美しく無敵の主が必ず
+仇を討ってくれる――。
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<BG>nc042a,IN, 500
+<ACTOR>0,ts_m245a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔人ニールセン
+「っ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　わずか一瞬だけ、
+魔人の動きがびくりと乱れる。
+<PAUSE>
+<NAME_PLATE>
+　そして、それに続いて――。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイイイイイイン！！
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<BG>nc042a,IN, 500
+<ACTOR>0,kn_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「…………すまないな、篝。
+　余計な心配をかけたようだ」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（覚醒＋武器）
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>篝
+「紅さまーーーーーーーっ！！」
+<PAUSE>
+<NAME_PLATE>
+　魔人の剣を弾いたのは、
+先ほど瀕死の傷を負ったはずの
+心願寺紅。
+<PAUSE>
+<NAME_PLATE>
+　だが今、その脇腹の傷は、
+しゅうしゅうと音を立てて
+急速に再生を始めている。
+<PAUSE>
+<NAME_PLATE>紅
+「……確かに、
+　出し惜しみはなしにしよう」
+<PAUSE>
+<NAME_PLATE>紅
+「これは……忌まわしく穢れた力だが、
+　貴様ら外道を討つにはうってつけだ」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（覚醒＋武器＋翼）
+//　　　　RPG用新規イラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,kn_t013e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　ゴウっ！！　と、肌と瞳、
+そして戦闘スーツまで朱く変じた
+紅の全身から闘気が立ち昇る。
+<PAUSE>
+<NAME_PLATE>
+　それは、目の前の魔人が纏う
+“魔”の瘴気とほとんど同質のもの。
+<PAUSE>
+<NAME_PLATE>
+　彼女の血統上の“父”である
+ノマド首領エドウィン・ブラックから
+受け継いだ闇の力――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m245a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔人ニールセン
+「オオオオオオオオオオオオオオオオ
+　オオオオオオオオオオオッ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　強大な敵の登場に魔人が吠え、
+刃と共に突進する。
+<PAUSE>
+<ACTOR>0,kn_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　それを見据え、
+静かに二刀を構える紅。
+<PAUSE>
+<NAME_PLATE>
+　“成りたて”の魔人など、
+この力を発現させた彼女には
+赤子のようなもの。
+<PAUSE>
+<ACTOR>0,kn_t013f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「――魔よ、我が剣で滅べ！
+　“神眼剣・業魔の陣”！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　渾身の一刀を振り下ろす。
+<PAUSE>
+<NAME_PLATE>
+　己の中の“魔”を意図的に
+暴走させることで生まれた力を、
+ただ一刀に乗せて叩き込む――。
+<PAUSE>
+<NAME_PLATE>
+　それが魔人・心願寺紅の最大奥義。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔人ニールセン
+「ガアアアアアアアアアアアアアアア
+　アアアアアアアア！！！？」
+<PAUSE>
+//　※斬撃、鮮血効果など。
+<NAME_PLATE>
+　断末魔の咆哮と共に魔人の
+上半身が大きく“ズレた”。
+<PAUSE>
+<SE_PLAY>se023
+<NAME_PLATE>
+　その傷口からどす黒い血と瘴気を
+まき散らし、魔人ニールセンは
+どうっと地面に倒れ伏した。
+<PAUSE>
+<BG>nc042a,IN, 500
+<ACTOR>0,kn_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「ふぅ――。
+　なんとか片付けたが……
+　大丈夫か、篝っ！？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（覚醒＋武器）
+//　　　　RPG用新規イラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　闘気をいったん収めた紅が、
+傷ついた仲間に声をかける――
+だが、その時。
+<PAUSE>
+<ACTOR>0,f_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ぐぅうぅぅっ……オロバス！！
+　斬られたニールセンと共に我が元に！」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>オロバス
+「りょ、了解！！
+　オレ、フュルスト様の命令、聞く！」
+<PAUSE>
+//　※立ち絵
+//　　オロバス立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>紅
+「っ！！？」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイイイイイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　突然、上空から鋼鉄の魔獣の襲来。
+<PAUSE>
+<NAME_PLATE>
+　紅が二刀で応戦すると、
+オロバスはあっさりと踵を返し、
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc042a,IN, 500
+<NAME_PLATE>
+　深手を負った魔人ニールセンを
+抱えてフュルストのもとに跳躍する。
+<PAUSE>
+<ACTOR>0,g_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「……なんだぁフュルスト。てめえ、
+　その有様でまだやろうってのかぁ？」
+<PAUSE>
+//　※立ち絵
+//　　骸佐夜叉髑髏化立ち絵＿夜叉髑髏化衣装（武器装備）
+<NAME_PLATE>紅
+「骸佐――」
+<PAUSE>
+<NAME_PLATE>
+　へし折れた骨を鎧で支えた骸佐が
+激痛を堪えてにやりと笑う。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　見たところ、
+戦況はフュルストの側が苦しい。
+<PAUSE>
+<NAME_PLATE>
+　フュルスト自身は骸佐の
+“怨念の刃”によって短時間では
+修復不能の傷を負い、
+<PAUSE>
+<NAME_PLATE>
+　魔人ニールセンは紅の剣で
+半ば両断され、オロバスも
+鋼鉄の体に幾つもの深い傷がある。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,f_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホホ……困ったことですよ。
+　骸佐さん、あなたの意外な奮戦はともかく、
+　ニールセンまで敗れるとは……」
+<PAUSE>
+<ACTOR>0,f_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「――しかし！！！
+　まだ私にはこの力がありますよ！
+　来たれ、異界の者どもよ！」
+<PAUSE>
+<NAME_PLATE>骸佐
+「あぁ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　禍々しく笑ったフュルストが
+再び鮮血を“魔術書”に降りかける。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>0,ts_m171a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m172a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>異界生物
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！』
+<PAUSE>
+//　※立ち絵
+//　キラーカナロア＿立ち絵
+//　　　　＊カロナアの色違いバージョン
+//　※立ち絵
+//　デススィール＿立ち絵
+//　　　　＊スィールの色違いバージョン
+<NAME_PLATE>
+　再度、街路にあふれる異界生物の群れ。
+<PAUSE>
+<NAME_PLATE>
+　フュルストやその配下にも
+黒い瘴気が流れ込み、みるみる
+負傷を癒していく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,f_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホホホホホ！！！
+　まだ悲劇は終わりませんよ！
+　さあ、一人でも多くの人間を――」
+<PAUSE>
+<NAME_PLATE>骸佐
+「てめええ！！　フュルスト！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それはあまりに醜い悪あがき。
+<PAUSE>
+<NAME_PLATE>
+　紅や骸佐などの戦士を狙わず、
+異界生物の群れは負傷者や
+無力な街の住人に襲いかかり――
+<PAUSE>
+<ACTOR>0,kn_t011f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「くそ！　外道が――」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　瞬間、街路に鮮やかな光が舞った。
+<PAUSE>
+<NAME_PLATE>異界生物
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュザシュザシュザシュザシュ
+ザシュザシュザシュザシュ――！
+<PAUSE>
+//　※斬撃演出（複数）など
+<NAME_PLATE>
+　その閃光はある者が使う剣の
+きらめきであった。
+<PAUSE>
+<NAME_PLATE>
+　一瞬で異界生物の群れを切り裂き、
+その者は軽やかに街路に降り立つと。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<BG>nc042a,IN, 500
+<ACTOR>0,ts_m246a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「――よぉフュルスト！　あんた、
+　相変わらずクソなマネしてるのねえ」
+<PAUSE>
+//　※立ち絵
+//　　速疾鬼01(超人SR)-カードイラスト_b
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>フュルスト
+「！！？　あなたは………
+　“速疾鬼（そくしつき）”」
+<PAUSE>
+<ACTOR>0,ts_m246b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>速疾鬼
+「けけっ――♪
+　“会合”に遅れてすまなかったね、
+　二車の兄ちゃん」
+<PAUSE>
+//　※立ち絵
+//　　速疾鬼01(超人SR)-カードイラスト_c（笠をとる） またはイラスト_a
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+//　※立ち絵
+//　　長谷川風鬼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　眠水鬼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR>2,ts_m247a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m248a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　その者が笑って笠をとる。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダム五強が一角、
+“鬼武衆”を率いる無双の女鬼。
+<PAUSE>
+<NAME_PLATE>
+　速疾鬼――光速の剣技を使う
+“不死身のラーヴァナ”が、仲間の
+鬼族を引き連れてそこにいた。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　同時刻。
+<PAUSE>
+//【背景：東京キングダム繁華街＿沙無羅威の縄張り＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc002aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc008a,IN, 1000
+<NAME_PLATE>
+　東京キングダム、
+“沙無羅威支配地域”。
+<PAUSE>
+<ACTOR>0,ts_m242a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヴィネア
+「あらあら？
+　うちの兵隊は大崩れねえ、
+　こうなったら宴はもうお仕舞――」
+<PAUSE>
+//　※立ち絵
+//　　ヴィネア立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>ヴィネア
+「得るものはあったし、
+　そろそろお暇しましょうか、
+　シームルグちゃん」
+<PAUSE>
+<ACTOR>1,ts_m243a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>シームルグ
+「クケーーーーーー！
+　まことに忌々しい者どもよ！！」
+<PAUSE>
+//　※立ち絵
+//　　シームルグ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　“不明の魔女”ヴィネアと、
+梟の獣人“忍獣”シームルグが
+闇に溶けるようにして姿を消す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　彼らのその行動の理由は、
+突然戦場を襲った混乱にあった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m031a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼族の戦士
+「オオオオオオオオオオオオオオオ
+　オオオオオオオ！！！」
+「一匹残らずぶっ殺せ！！！」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　羅刹オークロード
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ノマド兵
+「ぐっ！！？」
+「があああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　アサシン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　拮抗していた二車第一隊と
+ノマドの暗殺部隊との戦い。
+<PAUSE>
+<NAME_PLATE>
+　そこに突然、
+鬼族の集団が乱入してきたのだ。
+<PAUSE>
+<NAME_PLATE>
+　二勢力から挟み撃ちにされて
+ノマド部隊に勝ち目があるはずもない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>雫
+「え、ええ……？
+　おばば、これどういうこと？」
+<PAUSE>
+//　※立ち絵
+//　　黒騎雫立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>
+　突然の状況変化に雫が唖然として
+お目付け役の怪女に問う。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　戦場を暴れ回る鬼族の戦士たち。
+<PAUSE>
+<NAME_PLATE>
+　逃げ惑うノマド兵を容赦なく
+殺戮していき――
+<PAUSE>
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「ふふ。愉悦なり」
+<PAUSE>
+//　※立ち絵
+//　　椿隠形鬼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　そのうちの一人、
+闇に見え隠れして次々と敵を暗殺していく
+鬼の強さは惚れ惚れするほどである。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八百比丘尼
+「ああ。やっと来たのねえ」
+<PAUSE>
+//　※立ち絵
+//　　八百比丘尼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　そんな戦場を見渡し、
+八百比丘尼がやれやれと息を吐く。
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「これは、お館様が
+　用意していた“奥の手”さ」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「沙無羅威との戦いを盤石にするため、
+　ノマドと敵対している鬼連中と手を結ぶ。
+　……やっと、その話が成ったんだねえ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>峠金鬼
+「――然り、おばば殿。
+　遅参してまことに申し訳ござらん」
+<PAUSE>
+//　※立ち絵
+//　　峠金鬼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>峠金鬼
+「それがしどもの部隊、
+　ヨミハラよりの長き道中だったゆえ」
+<PAUSE>
+<NAME_PLATE>
+　峠金鬼――放埓な鬼族にあって
+例外的に良識のあるこの侍鬼が、
+比丘尼と雫に重々しく一礼した。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc042a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　再び“二車忍軍支配地域”。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<GROUP>
+<ACTOR>0,ts_m247a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>長谷川風鬼
+「鬼武衆“四鬼”がひとり長谷川風鬼！
+　我が風妖術の極意、受けてみよ！」
+<PAUSE>
+//　※立ち絵
+//　　長谷川風鬼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>眠水鬼
+「ふにゃあぁ。もぅ――
+　水鬼を怒らせると寝ちゃいますよ！」
+<PAUSE>
+//　※立ち絵
+//　　眠水鬼立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュザシュザシュザシュザシュ
+ザシュザシュザシュザシュ――！
+<PAUSE>
+//　※戦闘演出（複数）など
+<NAME_PLATE>異界生物
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+『ＧＹＵＵＵＵＵＵＵＵＵＵＵ！！？』
+<PAUSE>
+//　※立ち絵
+//　キラーカナロア＿立ち絵
+//　　　　＊カロナアの色違いバージョン
+//　※立ち絵
+//　デススィール＿立ち絵
+//　　　　＊スィールの色違いバージョン
+<BG>nc042a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m096a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>下忍たち
+「よ、よし、勝機だ！」
+「忍の意地をみせてやれ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（男）
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ふうま土遁衆
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m021a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ノマド兵
+「ぎゃああ！！？」
+「退け！　退けえええっ！！」
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　アサシン
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鬼族の参戦、そして、それにより
+息を吹き返した二車の忍たちの奮戦で、
+戦場は一変していた。
+<PAUSE>
+<NAME_PLATE>
+　異界生物の群れは次々に切り刻まれ、
+ノマド・沙無羅威の兵士たちは
+算を乱して逃げていく。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,kn_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「骸佐……彼女たちは、
+　鬼武衆の者か」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装（覚醒＋武器）
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>
+　そんな戦場を感嘆した表情で
+見据える紅。
+<PAUSE>
+<NAME_PLATE>
+　鬼族の戦いぶりは凄まじく、
+特に“四鬼”と名乗った
+二人の鬼の働きは圧倒的だ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,kn_t011e,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,g_t005a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「あぁ。敵の敵は味方って奴さ」
+<PAUSE>
+//　※立ち絵
+//　　骸佐夜叉髑髏化立ち絵＿夜叉髑髏化衣装（武器装備）
+<NAME_PLATE>
+　骸佐がようやく力を抜いて
+にやりと笑う。
+<PAUSE>
+<NAME_PLATE>骸佐
+「ノマドと女護島の鬼連中に因縁があるのは
+　わかってた。だから、手を組もうって
+　話を進めてたところだったが――」
+<PAUSE>
+<NAME_PLATE>骸佐
+「今日は、その良い前祝いになったぜ」
+<PAUSE>
+<NAME_PLATE>
+　この日、骸佐が予定していた
+“会合”とはそれだった。
+<PAUSE>
+<NAME_PLATE>
+　鬼武衆と同盟し、呼応して
+沙無羅威を攻めようという話し合い――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m246b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>速疾鬼
+「まっ。肝心のクソ野郎には
+　逃げられちゃったけどね」
+<PAUSE>
+//　※立ち絵
+//　　速疾鬼01(超人SR)-カードイラスト_a
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>紅
+「君は――」
+<PAUSE>
+<NAME_PLATE>
+　長身の鬼女が二人に歩み寄る。
+<PAUSE>
+<NAME_PLATE>
+　もともと、あの最後の異界生物の
+攻撃自体、攪乱と嫌がらせ程度の
+意図だったのだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　魔人化した紅に続き鬼武衆、
+そして速疾鬼が参戦したことで、
+<PAUSE>
+<NAME_PLATE>
+　フュルストはあっさりと退却を決断、
+負傷した二人の配下と共に闇の渦に
+姿を消した。
+<PAUSE>
+<NAME_PLATE>
+『また会いましょうお二人とも。
+　次は、更なる地獄で――』
+<PAUSE>
+<NAME_PLATE>
+　紅と骸佐の二人に、
+そんな不吉な言葉を残して。
+<PAUSE>
+<ACTOR>0,ts_m246b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>速疾鬼
+「ああ！
+　あんたは初めましてだったね、
+　鬼強いお姉ちゃん」
+<PAUSE>
+<NAME_PLATE>速疾鬼
+「私は速疾鬼――。
+　たった今、こっちの
+　変な鎧の兄ちゃんと手を組んだ」
+<PAUSE>
+<NAME_PLATE>速疾鬼
+「まあ、私は気まぐれだからねえ。
+　いつまで続くかわからないけど♪」
+<PAUSE>
+<NAME_PLATE>骸佐
+「構わねえよ。
+　あのノマドのハゲを殺せる程度続けばな」
+<PAUSE>
+<NAME_PLATE>速疾鬼
+「あはっ。そこは同意かしら」
+<PAUSE>
+<NAME_PLATE>
+　けらけらと笑った速疾鬼が
+骸佐と手を握る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ここに、二車忍軍と鬼武衆――
+その新たな同盟が成立した。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc042a,IN, 1000
+<NAME_PLATE>
+　２０分ほど経過した。
+<PAUSE>
+<NAME_PLATE>
+　混乱を極めていたナイトクラブ前の
+通りも、ようやく落ち着きを取り戻す。
+<PAUSE>
+<NAME_PLATE>
+　異界生物は殲滅され、ノマドと
+沙無羅威の兵士たちも逃げ去った。
+<PAUSE>
+<NAME_PLATE>
+　現在、帰還した尚之助ら第二隊が
+荒らされた縄張りの後処理や
+人々の救護を行っており、
+<PAUSE>
+<NAME_PLATE>
+　また、雫、比丘尼たち第一隊からは、
+鬼武衆の増援と共に沙無羅威の拠点を
+制圧したとの報が入っている。
+<PAUSE>
+<NAME_PLATE>
+　これにて、東京キングダムにおける
+沙無羅威の勢力はほぼ一掃されたのだった。
+<PAUSE>
+<ACTOR>0,g_t006b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「……さて、
+　俺はこれから鬼連中と会合だ。
+　お前はどうする、紅？」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐立ち絵＿対魔忍衣装差分
+//　　　　＊二車骸佐01(魔性SR)イラストを流用
+<NAME_PLATE>骸佐
+「さっきの続き――
+　斬り合いをするか？」
+<PAUSE>
+<NAME_PLATE>
+　“夜叉髑髏”の鎧を解除した
+骸佐が紅に問う。
+<PAUSE>
+<NAME_PLATE>
+　へし折られた骨の痛みは
+まともに立っていられないほどだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし鬼武衆との会合が終わるまで
+倒れるわけにはいかない。
+<PAUSE>
+<NAME_PLATE>
+　そこで骸佐は、三郎の鬼蜘蛛が使う
+麻痺毒――その成分を薄めた鎮痛薬を
+全身に塗りたくり、
+<PAUSE>
+<NAME_PLATE>
+　強引にこの場に立っている。
+<PAUSE>
+<NAME_PLATE>
+　（ちなみに会合相手・お酒大好きの
+速疾鬼は、一足先にナイトクラブに
+入ってどんちゃん騒ぎを始めている）
+<PAUSE>
+<ACTOR>0,g_t006b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,kn_t008c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紅
+「……いや、今日はもういい。
+　やめておこう」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>
+　同じく魔人化を解いた紅が
+ゆっくりと首を振った。
+<PAUSE>
+<NAME_PLATE>
+　心願寺当主として外道に堕ちた
+二車家当主・骸佐を討つ――。
+<PAUSE>
+<NAME_PLATE>
+　先ほど紅はそう言ったが、
+今はもう、その気はなくなった、と。
+<PAUSE>
+<NAME_PLATE>骸佐
+「へえ、仏心か？
+　どんな風の吹き回しだ」
+<PAUSE>
+<ACTOR>1,kn_t008a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紅
+「なにも……。ただ、お前が、
+　“人のために動いた”
+　その場面を見たからだ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「あぁ？」
+<PAUSE>
+<NAME_PLATE>
+　不審そうに首をかしげる骸佐に
+紅が静かに語る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　フュルストが異界生物で
+街の人々を攻撃しようとした時、
+<PAUSE>
+<NAME_PLATE>
+　骸佐は、配下である権左に
+それを守れと命令した。
+<PAUSE>
+<NAME_PLATE>
+　人の命を守ろうとした。
+<PAUSE>
+<NAME_PLATE>
+　それは、心願寺の当主として、
+骸佐を討つのを躊躇う十分な理由となる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,kn_t008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t006b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>骸佐
+「……はぁ？　あれは、
+　そんな格好いいもんじゃねえ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「俺はただ、てめえの
+　縄張りを守ろうとした――
+　それだけのこと」
+<PAUSE>
+<NAME_PLATE>紅
+「だとしても、だ。
+　骸佐、お前の行動が人を守った
+　という事実は変わらない」
+<PAUSE>
+<NAME_PLATE>骸佐
+「………」
+<PAUSE>
+<ACTOR>0,kn_t008c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紅
+（それに……こいつには
+　ひとつ借りができた）
+<PAUSE>
+<NAME_PLATE>
+　心中でつぶやき、紅は通りの
+端にいる己の仲間たちを見る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>篝
+「あうぅ、とても不覚です……。
+　あやめ様に手当をされるなんて」
+<PAUSE>
+//　※立ち絵
+//　　篝立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>1,ay_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>あやめ
+「もう。なに言ってるのよ篝。
+　あなた、いつもながら無謀すぎ！」
+<PAUSE>
+//　※立ち絵
+//　　槇島あやめ汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　微妙に回復しつつある篝が、
+あやめに小言を言われながら
+手当を受けている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>紅
+（もしあの時、止めるのが
+　一瞬でも遅かったら……）
+<PAUSE>
+<NAME_PLATE>
+　魔人ニールセンが
+篝を斬ろうとした瞬間だ。
+<PAUSE>
+<NAME_PLATE>
+　一瞬だけ、
+わずかにその動きが乱れた。
+<PAUSE>
+<NAME_PLATE>
+　……骸佐が、“怨念の刃”で
+フュルストを斬ったためだ。
+<PAUSE>
+<NAME_PLATE>
+　フュルストと瘴気で繋がっていた
+魔人は、あの瞬間、わずかに
+動きを乱した。そして――。
+<PAUSE>
+<NAME_PLATE>
+　その一瞬のおかげで、
+紅は魔人の刃を弾くことができた。
+<PAUSE>
+<ACTOR>0,kn_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+（こいつは、篝の恩人……）
+<PAUSE>
+<NAME_PLATE>
+　たとえ当人に助けた
+つもりがなかったとしても、
+<PAUSE>
+<NAME_PLATE>
+　紅は、もうこの者を殺せない。
+<PAUSE>
+<ACTOR>0,kn_t008c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,g_t006b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「へっ。そうか。
+　なんだか知らねえが、
+　そりゃ助かったぜ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　骸佐が苦笑してうなずく。
+<PAUSE>
+<NAME_PLATE>
+　彼にとっては、
+どちらにしても同じことだ。
+<PAUSE>
+<NAME_PLATE>
+　たとえ紅に討たれようと、
+今さら道を引き返すことはない。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>紅
+「………骸佐」
+<PAUSE>
+<NAME_PLATE>紅
+「これから言うのは、
+　心願寺当主としてではない」
+<PAUSE>
+<NAME_PLATE>紅
+「ただの紅……お前の、
+　幼馴染としての言葉だ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「あ？」
+<PAUSE>
+<NAME_PLATE>
+　不審げに眉をひそめる。
+<PAUSE>
+<NAME_PLATE>
+　そんな骸佐をまっすぐ見つめ、
+紅が静かに言う。
+<PAUSE>
+<NAME_PLATE>紅
+「……お前は、五車の里で
+　取り返しのつかないことをした」
+<PAUSE>
+<NAME_PLATE>紅
+「そしてこれから、
+　この東京キングダムでも、
+　また過ちを犯すかもしれない」
+<PAUSE>
+<NAME_PLATE>紅
+「……だが、ふうまは
+　お前のことを許している」
+<PAUSE>
+<NAME_PLATE>紅
+「少なくとも、
+　許したいと願っている――
+　そう私に語ってくれた」
+<PAUSE>
+<NAME_PLATE>紅
+「……そのこと、
+　心に刻んでおいてくれ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「…………………」
+<PAUSE>
+<NAME_PLATE>
+　骸佐は、ただの無言で
+その言葉を受け止める。
+<PAUSE>
+<NAME_PLATE>
+　そして、しばらくして。
+<PAUSE>
+<NAME_PLATE>紅
+「では、邪魔したな。
+　さらばだ、骸佐」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　紅はそう言って、
+仲間と共に去っていった。
+<PAUSE>
+<ACTOR>1,g_t006b,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>骸佐
+「…………」
+<PAUSE>
+<NAME_PLATE>骸佐
+（許したいと願ってる、か）
+<PAUSE>
+<NAME_PLATE>
+　恐らく、それは彼女も
+同じだったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　魔人を一太刀で葬るほどの強者、
+心願寺紅。
+<PAUSE>
+<NAME_PLATE>
+　そんな彼女が本気であったなら、
+いま自分が生きているはずがない。
+<PAUSE>
+<NAME_PLATE>
+　紅自身も深く迷い、
+だからこそ――。
+<PAUSE>
+<ACTOR>1,g_t006b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,o_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>権左
+「……お館様。店の中で
+　鬼の大将がお待ちですぜ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>骸佐
+「ああ。今行く」
+<PAUSE>
+<NAME_PLATE>
+　骸佐は小さく首を振ると、
+彼を待つ店の中へと入っていった。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：東京キングダム全景＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc001aより流用
+<BG>nc007a,IN, 1000
+<NAME_PLATE>
+　かくして――。
+<PAUSE>
+<NAME_PLATE>
+　ノマド系組織“沙無羅威”が
+駆逐されたことで、東京キングダムは
+新たな“四強”時代へと突入する。
+<PAUSE>
+<NAME_PLATE>
+　だが、それは同時に、
+この闇の街に支配の手を伸ばす
+ノマド大幹部フュルストとの、
+<PAUSE>
+<NAME_PLATE>
+　決して避け得ない確執の始まりをも
+意味していた……。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+<NAME_PLATE>
+　一方、そんな東京キングダムの
+戦乱から遠く離れて。
+<PAUSE>
+//【背景：五車街全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC007aより流用
+//【背景：五車街＿主人公の家＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC025aより流用
+<UI_DISP>OFF, 0
+<BG>nc162b,IN, 1000
+<WAIT>1000
+<BG>nc056a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　五車町・ふうま屋敷。
+<PAUSE>
+//【背景：五車街＿主人公の家＿リビング＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC026aより流用
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm208,1000
+<BG>nc081a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「い、いや、えっと……
+　お気持ちは嬉しいんですが、
+　それ、本気でおっしゃって……？」
+<PAUSE>
+<NAME_PLATE>
+　俺は困惑していた。
+<PAUSE>
+<NAME_PLATE>
+　いや、驚愕していたと言ってもいい。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら目の前のこの人が
+とんでもない事を言い出したからだ。
+<PAUSE>
+<ACTOR>0,tu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>出雲鶴
+「はい。
+　鶴は本気の本気でございます」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_対魔忍を使用（メイド服）
+<ACTOR>0,tu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ご主人さまはあの憎き外道の手から
+　鶴を救い出してくださいました」
+<PAUSE>
+<NAME_PLATE>鶴
+「その大恩に報いるには、
+　もはやあなた様の専属メイドになる
+　ほか道はなく……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「そ、そこです、鶴先輩！
+　なぜそこでいきなり専属メイドが
+　出てくるんですか！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は大慌てで
+彼女の口上に割って入る。
+<PAUSE>
+<NAME_PLATE>
+　俺の目の前にいるメイド服姿の
+女性は、出雲鶴先輩。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　以前、五車町に潜んでいた
+連続殺人鬼によって誘拐・監禁され、
+<PAUSE>
+<NAME_PLATE>
+　四肢を切断されるなど数々の
+惨憺たる責め苦を受けていた悲劇の女性。
+<PAUSE>
+<NAME_PLATE>
+　そんな彼女を、俺や穂稀なお先輩率いる
+五車風紀隊が救い出し、
+<PAUSE>
+<NAME_PLATE>
+　そして現在、治療とサイボーグ義肢の
+リハビリを終えて五車に帰還した鶴先輩は、
+<PAUSE>
+<ACTOR>0,tu_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　なぜかその足で俺のところにやってきて、
+専属メイドになるなどと言い出したのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　……ちなみに、彼女当人には秘密だが、
+<PAUSE>
+<NAME_PLATE>
+　鶴先輩は、ふうま宗家御庭番である
+サイボーグ忍者・対魔忍ライブラリーの
+一人娘である。
+<PAUSE>
+<ACTOR>0,tu_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「？　鶴は何かおかしなことを
+　言ったでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうですね……、
+　一般常識的に言えば、
+　ちょっと……？」
+<PAUSE>
+<NAME_PLATE>
+　いくら命を救われようと、
+専属メイドは普通出てこない。
+<PAUSE>
+<NAME_PLATE>
+　あと、いま時子や天音は出かけているが、
+もし戻ってこの場面を見られたらと思うと
+何となく恐ろしい。
+<PAUSE>
+<NAME_PLATE>
+　だが鶴先輩は、父親譲りの
+鋼鉄の意思を秘めた瞳を俺に向け。
+<PAUSE>
+<ACTOR>0,tu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「すでに御庭番はおられるご様子。
+　ならば鶴は、メイドになるしかないと
+　固く心に決めております」
+<PAUSE>
+<NAME_PLATE>鶴
+「世間が何と申そうと、鶴は鶴」
+<PAUSE>
+<NAME_PLATE>鶴
+「『仇は倍返し、恩は百倍返し』
+　それが亡き母の遺言にて」
+<PAUSE>
+<NAME_PLATE>鶴
+「もし鶴がいらぬと申されるならば、
+　恩を返すことが叶わぬならば、
+　ここは潔く腹をかっさばいて――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「い、いやいや！　わかりました！
+　お願いします専属メイド！！
+　ちょうど欲しかったところです！」
+<PAUSE>
+<NAME_PLATE>
+　俺は慌てて鶴先輩の両手を押さえる。
+<PAUSE>
+<NAME_PLATE>
+　この人はやると言ったら
+絶対にやる人だ。
+<PAUSE>
+<NAME_PLATE>
+　実際、彼女のサイボーグアームから
+ジャキンっと謎の刃が出現していたし。
+<PAUSE>
+<NAME_PLATE>
+　――すると、鶴先輩は一転して
+ぱあっと華やかな笑顔を浮かべて。
+<PAUSE>
+<ACTOR>0,tu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ありがとうございますっ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわぁ！？　つ、鶴先輩！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　柔らかく温かな女性の匂い、
+そして冷たい鋼鉄が俺の体に触れる。
+<PAUSE>
+<NAME_PLATE>
+　鶴先輩が、万感の思いを秘めた
+表情で俺に抱きついていた。
+<PAUSE>
+<NAME_PLATE>俺
+「つ、鶴先輩！？
+　マズいです、こんなところを――」
+<PAUSE>
+<NAME_PLATE>鶴
+「……あの闇の中で、
+　私はずっと不安でした」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ……？」
+<PAUSE>
+<NAME_PLATE>
+　微かな囁きが俺の耳に触れる。
+<PAUSE>
+<NAME_PLATE>鶴
+「忌まわしい闇の中で、ただ一人、
+　外道に嬲られ続ける――
+　その暗黒からあなたは救ってくれた」
+<PAUSE>
+<NAME_PLATE>鶴
+「絶対に忘れることはありません」
+<PAUSE>
+<NAME_PLATE>鶴
+「鶴の全ては、あなた様のもの。
+　どうかそのこと、お心に……」
+<PAUSE>
+<NAME_PLATE>俺
+「鶴先輩……」
+<PAUSE>
+<NAME_PLATE>
+　そう囁く鶴先輩の背中が
+わずかに震えていた。
+<PAUSE>
+<NAME_PLATE>
+　俺は、それにおずおずと
+手を伸ばそうとして――
+<PAUSE>
+<ACTOR>0,tu_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ふふっ。それでは、
+　本日より鶴はお側に侍ります」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＣ（挨拶）を使用
+<NAME_PLATE>鶴
+「末永く、よろしくお願い致します、
+　ご主人さま――」
+<PAUSE>
+<NAME_PLATE>
+　出雲鶴――俺の“専属メイド”が
+見惚れるほど綺麗な一礼をした。
+<PAUSE>
+//→Section５終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

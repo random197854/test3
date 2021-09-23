@@ -1,0 +1,480 @@
+//=================================================================
+//FileNo:S101a
+//【黒画面】
+//【背景：研ぎ師の家＿外観＿昼】【時間：昼】
+//　※輪姦倶楽部＿nc011aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc115b,IN, 1000
+<NAME_PLATE>
+　それはなんの変哲もない一軒家だ。
+<PAUSE>
+<NAME_PLATE>
+　古の昔、武士によって開かれた古都、
+今では観光地となった街の外れにある。
+<PAUSE>
+<NAME_PLATE>
+　主だった名所・旧跡に背を向け、
+田舎道を半日ほども歩いたその先。
+<PAUSE>
+<NAME_PLATE>
+　そこに知る人ぞ知る研ぎ師が住んでいる。
+<PAUSE>
+<NAME_PLATE>
+　門前に看板があるわけではない。
+<PAUSE>
+<NAME_PLATE>
+　まして宣伝など、どこを探してもない。
+<PAUSE>
+<NAME_PLATE>
+　必要とする人間が必要な時に来ればよい。
+それで用は足りる。そんな店だった。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍、秋山凜子もそこの常連の一人だ。
+<PAUSE>
+//【背景：研ぎ師の家＿屋内＿昼】【時間：昼】
+//　※輪姦倶楽部＿nc012aより流用
+<BG>nc268a,IN, 1000
+<ACTOR>0,rn_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「研ぎをお願いしたい」
+<PAUSE>
+//　※立ち絵
+//　　秋山凜子通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　凜子は客間に通されるなり、
+愛刀を差し出した。
+<PAUSE>
+<NAME_PLATE>
+　ここに来るのは年に一度か二度だが、
+世間話などしたことはない。
+<PAUSE>
+<NAME_PLATE>
+　刀を見せれば、
+凜子がどのように過ごしてきたかが、
+百の言葉を費やすよりも雄弁に語ってくれる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,tg_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>研ぎ師
+「拝見しよう」
+<PAUSE>
+//　※立ち絵
+//　　研ぎ師立ち絵
+//　　　＊ネコノヒメより六車源立ち絵を流用
+<NAME_PLATE>
+　研ぎ師もそれだけ言って、
+懐紙を口に咥え、刀を静かに抜いた。
+<PAUSE>
+<NAME_PLATE>
+　老人の目が鷹のように鋭く光る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　石切兼光。
+<PAUSE>
+<NAME_PLATE>
+　刃渡り二尺六寸五分。
+<PAUSE>
+<NAME_PLATE>
+　反りは薄く、肉厚に作られている。
+<PAUSE>
+<NAME_PLATE>
+　魔を斬ることを目的として
+極めて実践的に鍛えられた業物でありながら、
+その刃には優美さが漂っている。
+<PAUSE>
+<NAME_PLATE>
+　“石切”の名に偽りはなく、
+逸刀流を極めた凜子の腕をもってすれば、
+金剛石をも容易く両断する。
+<PAUSE>
+<ACTOR>0,tg_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>研ぎ師
+「眼福じゃった」
+<PAUSE>
+<NAME_PLATE>
+　老人は満足げに呟いた。
+<PAUSE>
+<ACTOR>0,tg_t001a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,rn_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>研ぎ師
+「しかし大分酷使しておるようじゃ。
+　なにを斬りなさった？」
+<PAUSE>
+<NAME_PLATE>凜子
+「鎖遁の術使いの鎖を少々。
+　捕縛した者の罪の重さの分だけ
+　頑丈に重くなる鎖とか」
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄での戦いを思い出し、
+凜子は端的に告げた。
+<PAUSE>
+<NAME_PLATE>
+　老人は対魔忍との付き合いも多い。
+<PAUSE>
+<NAME_PLATE>
+　研ぎ師としての技を振るうにあたって
+忍術への深い知識と経験を有している。
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「なるほど。道理で」
+<PAUSE>
+<NAME_PLATE>
+　果たして老人は納得したように頷いた。
+<PAUSE>
+<NAME_PLATE>
+　おそらく凜子の目にも分からないほどの
+微細な刃こぼれがあるに違いない。
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「一週間ほど預からせていただこう」
+<PAUSE>
+<NAME_PLATE>凜子
+「お願い致します」
+<PAUSE>
+<NAME_PLATE>
+　凜子は深々と頭を下げた。
+<PAUSE>
+<NAME_PLATE>
+　いつもならそれで終わりだった。
+<PAUSE>
+<NAME_PLATE>
+　用がすめばすぐに去る。
+それ以上の会話など必要ない。
+<PAUSE>
+<NAME_PLATE>
+　だが、その日は少し違っていた。
+<PAUSE>
+<NAME_PLATE>
+　研ぎ師は石切兼光を鞘に収め、
+おもむろにこう切り出した。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>研ぎ師
+「ところで、対魔忍の秋山殿に
+　見て欲しい差し料がありましてな。
+　とあるつてからの頼まれ物じゃが」
+<PAUSE>
+<NAME_PLATE>凜子
+「そうですか、では」
+<PAUSE>
+<NAME_PLATE>
+　意外な思いを抱きつつも、
+凜子は浮かせかけた腰を下ろした。
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「これじゃ」
+<PAUSE>
+<NAME_PLATE>凜子
+「拝見します」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　研ぎ師が差し出したなんの変哲もない刀。
+<PAUSE>
+<NAME_PLATE>
+　それを抜いた瞬間、凜子は息を呑んだ。
+<PAUSE>
+<NAME_PLATE>凜子
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　二尺八寸の業物である。
+<PAUSE>
+<NAME_PLATE>
+　反りは浅く、肉付は薄く、
+冴え渡るような造り込みだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、凜子が慄然としたのは
+その刃文の毒々しさだ。
+<PAUSE>
+<NAME_PLATE>
+　さながら毒蛇がのたうつような
+互の目乱れが刃の上で踊っている。
+<PAUSE>
+<NAME_PLATE>
+　表と裏、二匹の蛇の刃文が揃う様は、
+かの村正の特長に違いない。
+<PAUSE>
+<ACTOR>0,tg_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>研ぎ師
+「落椿（おちつばき）村正。
+　ご存じかな？」
+<PAUSE>
+<ACTOR>1,rn_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>凜子
+「これが……」
+<PAUSE>
+<NAME_PLATE>
+　椿の花がコトリと落ちるように、
+ひとたび抜いたら
+首を落とさずにはいられない。
+<PAUSE>
+<NAME_PLATE>
+　そううたわれた村正の名刀だ。
+<PAUSE>
+<ACTOR>1,rn_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「しかしこれは……」
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「左様。これこそ妖刀じゃ」
+<PAUSE>
+<NAME_PLATE>
+　妖刀伝説で名高い村正。
+<PAUSE>
+<NAME_PLATE>
+　その殆どは後世の創作とされる。
+<PAUSE>
+<NAME_PLATE>
+　実戦刀としての凄まじいまでの切れ味と、
+剣士にとって妖しいまでに魅力があったことが
+そんな伝説を生み出したのだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、この落椿は違う。
+<PAUSE>
+<NAME_PLATE>
+　老人によって研ぎ直されたそれは、
+刀自体が凄まじい妖気を放っていた。
+<PAUSE>
+<NAME_PLATE>
+　気が遠くなるほどの数の人の命を吸わねば
+こうはなるまい。
+<PAUSE>
+<NAME_PLATE>凜子
+「こんな凄まじい妖気を発する刀は
+　見たことがない」
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「でしょうな」
+<PAUSE>
+<NAME_PLATE>
+　妖しく光る刃に目が吸い込まれる。
+<PAUSE>
+<NAME_PLATE>
+　なにか無性にものを斬りたくなるような。
+<PAUSE>
+<NAME_PLATE>
+　心に狂気が入り込んできそうだ。
+<PAUSE>
+<NAME_PLATE>
+　凜子は寒気すら感じながら、
+落椿を鞘に収めた。
+<PAUSE>
+<NAME_PLATE>凜子
+「ご老人、なぜこれを私に？」
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「これは世に仇なす妖刀。
+　なれば、対魔忍の秋山殿に預かって
+　いただくのが一番じゃろうとな」
+<PAUSE>
+<NAME_PLATE>凜子
+「対魔忍として、私にこれを封じろと？」
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「さて、封じるもよし、身に佩びるもよし、
+　すべて秋山殿にお任せいたそう」
+<PAUSE>
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「いかがかな？」
+<PAUSE>
+<NAME_PLATE>
+　老人との付き合いは長いが、
+こんなことを言われたのは初めてだ。
+<PAUSE>
+<NAME_PLATE>
+　研ぎ師としてよほどの思いが
+あったに違いない。
+<PAUSE>
+<NAME_PLATE>凜子
+「お話は分かりました。
+　しかし私に預けてしまっては、
+　ご老人の身に差し障りがあるのでは？」
+<PAUSE>
+<NAME_PLATE>凜子
+「これほどの妖刀の使い手、
+　いずれただ者ではありますまい？」
+<PAUSE>
+<NAME_PLATE>
+　表情を強ばらせる凜子に
+研ぎ師はむしろおかしそうに言った。
+<PAUSE>
+<NAME_PLATE>研ぎ師
+「なに老い先短い年寄りじゃ。
+　儂は落椿の身を案じておる。
+　このような使われ方をしては不憫じゃ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>凜子
+「……預からせて頂きます」
+<PAUSE>
+<NAME_PLATE>
+　凜子は今一度、深く頭を下げた。
+<PAUSE>
+//【背景：汎用田舎のあぜ道＿昼】【時間：昼】
+//　※MISAO_nc002aより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc114c,IN, 1000
+<ACTOR>0,rn_t001c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　秋山凜子通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　研ぎ師の家からの帰り道。
+<PAUSE>
+<NAME_PLATE>
+　腰の落椿村正のせいでどうも落ち着かない。
+<PAUSE>
+<NAME_PLATE>
+　いったい持ち主は何者だろうか。
+<PAUSE>
+<NAME_PLATE>
+　老人によれば、
+身の丈６尺を越える偉丈夫で、
+顔に奇怪な鬼の仮面を着けていたという。
+<PAUSE>
+<NAME_PLATE>
+　そして刀だけでなく、
+持ち主も人ならざる妖気を纏っていたとか。
+<PAUSE>
+<NAME_PLATE>
+　尋常な相手ではない。
+<PAUSE>
+<NAME_PLATE>凜子
+「人ならざる妖気。
+　魔界の剣士だろうか……」
+<PAUSE>
+<NAME_PLATE>
+　考えながら歩いていた凜子は
+つと立ち止まった。
+<PAUSE>
+<ACTOR>0,rn_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　来たときと変わらぬ穏やかな田舎道。
+<PAUSE>
+<NAME_PLATE>
+　その行く手に不穏な気配を感じたからだ。
+<PAUSE>
+<NAME_PLATE>
+　殺気。
+<PAUSE>
+<NAME_PLATE>
+　それも明らかに凜子を狙っている。
+<PAUSE>
+<ACTOR>0,rn_t001f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「隠れていても無駄だ！
+　姿を現せ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　凜子は鋭く叫んだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　ザザザッッッ！！
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜剣士＞立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト（新規）より流用
+//　※並べて三人出してください。
+<NAME_PLATE>
+　茂みから三人の男が飛び出してきた。
+<PAUSE>
+<NAME_PLATE>
+　腰に大小を束ねた剣士だ。
+<PAUSE>
+<NAME_PLATE>
+　全員が覆面を着けている。
+<PAUSE>
+<NAME_PLATE>
+　刺客だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,rn_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「対魔忍、秋山凜子と知ってのことか！」
+<PAUSE>
+//　※立ち絵
+//　　秋山凜子戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　凜子はなおも鋭く問い詰めたが、
+男たちは問答無用とばかりに刀を抜いた。
+<PAUSE>
+<NAME_PLATE>
+　凜子も反射的に刀に手をかけたが、
+<PAUSE>
+<NAME_PLATE>
+　じわり。
+<ACTOR>0,rn_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「むっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　落椿村正から伝わってきた
+手に纏わり付くような妖気に
+ほんの一瞬だが気を取られた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m162a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m162a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m162a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>刺客
+「隙有り！！」
+<PAUSE>
+<NAME_PLATE>
+　その間隙をついて
+刺客の一人が襲いかかかってきた。
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

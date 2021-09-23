@@ -1,0 +1,435 @@
+//☆第6章【Section３】シナリオ部分
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：カオス・アリーナ＿アリーナ＿昼夜共通】【時間：？？】
+<BGM_PLAY>bgm320,1000
+<BG>nc060a,IN, 1000
+<ACTOR>0,ts_m043a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオーク
+「死ねェェェっ！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク
+<NAME_PLATE>蛇子
+「遅いっ！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（武器装備）
+<GROUP>
+<SE_PLAY>se028
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドスッ……！
+<PAUSE>
+<NAME_PLATE>
+　蛇子の小太刀が何人目かのハイオークを
+刺し倒す。
+<PAUSE>
+<ACTOR>0,h_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アナウンス
+『勝者、蛇子嬢！！！！
+　なんと全員ＫＯです！！』
+<PAUSE>
+<NAME_PLATE>観客達
+「うおおおおおおっ！！！！」
+<PAUSE>
+<NAME_PLATE>観客達
+「蛇子ちゃん、つえー！！！」
+<PAUSE>
+<NAME_PLATE>観客達
+「カオス・アリーナに新たなスター誕生だ！」
+<PAUSE>
+<ACTOR>0,h_t002k,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「はあはあ………もう、何なの！？」
+<PAUSE>
+<NAME_PLATE>
+　オークたちはそれなりに強かったが、
+学生とはいえ、対魔忍としての修練を積んだ
+蛇子の敵ではなかった。
+<PAUSE>
+<ACTOR>0,h_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「真面目に実技の授業出ててよかったよ……。
+　それに体を動かしてると、
+　頭がはっきりしてくるよね」
+<PAUSE>
+<NAME_PLATE>
+　戦闘によって血が巡ったのか、
+蛇子は少しずつ記憶を鮮明にしていた。
+<PAUSE>
+<NAME_PLATE>
+　蛍先輩とともに二車邸を訪ねたこと、
+その任務中に現れたフュルストに、
+連れ去られたこと。
+<PAUSE>
+<ACTOR>0,h_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ということは……、
+　ここはフュルストのアジトなのかしら？」
+<PAUSE>
+<ACTOR>0,h_t002c,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>アナウンス
+『皆さま、大変お待たせ致しましたァ！！』
+<PAUSE>
+<NAME_PLATE>観客達
+「うおおおおおおおお！！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の思考を遮って、
+ひときわ大きな歓声が上がる。
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>蛇子
+「こ、今度は何だっていうの……？」
+<PAUSE>
+<NAME_PLATE>アナウンス
+『いよいよ、
+　このお方の入場だァーーー！！！』
+<PAUSE>
+<NAME_PLATE>
+　スポットライトが照らした先には、
+大歓声を浴びながら花道を歩いてくる、
+一人の女。
+<PAUSE>
+<NAME_PLATE>
+　彼女はゆっくり近づいてくると、
+蛇子の顔を舐めまわすように見ながら、
+その頬を爪でなぞった。
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, OUT, linear, 500
+<ACTOR>0,sr_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女
+「あら、可愛い子じゃない♪」
+<PAUSE>
+//　※立ち絵
+//　　スネークレディ
+<NAME_PLATE>蛇子
+「あ、あなたは……？」
+<PAUSE>
+<NAME_PLATE>女
+「私はスネークレディ。
+　よろしくね、かわいこちゃん♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ど、どーも……？」
+<PAUSE>
+<ACTOR>0,sr_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「あなた、蛇子ちゃんって言うんでしょう？
+　うふふ、蛇にスネーク、
+　私達、何か縁があるのかしらねえ♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そ、そうかもですよね……、
+　あはは……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「えっと、あのぉ、
+　蛇繋がりのよしみってことで……
+　蛇子をおうちに返して欲しいんですが……」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「残念♪　それは出来ない相談なのよ♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「うぅ……やっぱり。
+　そ、それじゃ教えてください！
+　ここはいったい何なんですか？」
+<PAUSE>
+<ACTOR>0,sr_t003g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「ここはカオス・アリーナ♪
+　女戦士たちの闘技場よ♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「カオス・アリーナ……闘技場？」
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「そう、蛇子ちゃんは、カオス・アリーナの
+　専属の女戦士になったの♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ええ！？
+　なにそれ嫌です！　断ります！！！」
+<PAUSE>
+<ACTOR>0,sr_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「あら♪　恩を仇で返すつもりなの？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「お、恩……？
+　一体何の恩ですか……？」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「フュルストっていうハゲの悪党から、
+　蛇子ちゃんを買い取ってあげた恩よ♪
+　それも大金でね♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そ、それで蛇子はここに……」
+<PAUSE>
+<NAME_PLATE>
+　やっとフュルストに攫われた事件と、
+現在の状況とが繋がる。
+<PAUSE>
+<ACTOR>0,sr_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「あのハゲのところにいてごらんなさい？
+　それはそれはもう、
+　すごぉい酷ぉい目に遭ってたはずよ♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「あ、それは、えっと、
+　アリガトウゴザイマス……あはは」
+<PAUSE>
+<NAME_PLATE>
+　今も充分酷い目にあっていると思うが、
+蛇子はぐっと不満を飲み込む。
+スネークレディの機嫌を損ねても得はしない。
+<PAUSE>
+<NAME_PLATE>蛇子
+「で、でも、どうして蛇子を
+　助けてくれたんですか？」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「私は蛇子ちゃんのお友達に興味があるの♪
+　つまり蛇子ちゃんは人質、
+　というか彼を誘き寄せるための餌よ♪」
+<PAUSE>
+<NAME_PLATE>蛇子
+「か、彼？」
+<PAUSE>
+<NAME_PLATE>
+　骸佐かふうまか、鹿之助……は、ないか。
+どちらにしても、人質というなら、
+すぐに殺されるわけではなさそうである。
+<PAUSE>
+<NAME_PLATE>蛇子
+「だ、だったら！
+　立派な人質になれるように、
+　大人しくですね……」
+<PAUSE>
+<ACTOR>0,sr_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「ダーメ♪」
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「ほら、観客たちを見て♪
+　彼らの燃え上がる復讐心と欲望を！」
+<PAUSE>
+<ACTOR>0,sr_t003a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　言われるままに観客席を見渡すと、
+熱狂した観客たちは拳を振り上げ、
+半狂乱に叫びをあげている。
+<PAUSE>
+<NAME_PLATE>観客達
+「殺せ、嬲り殺せ！！！！」
+<PAUSE>
+<NAME_PLATE>観客達
+「クソ生意気な対魔忍を血祭りにあげろォ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「うっ……」
+<PAUSE>
+<NAME_PLATE>
+　剥き出しの嗜虐心の叫びを受け、
+蛇子は思わず吐きそうになる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,sr_t003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>スネークレディ
+「カオス・アリーナの女戦士はね、
+　見世物であり、賭けの対象でもあるの♪」
+<PAUSE>
+<NAME_PLATE>スネークレディ
+「あなたにもたっぷりお金が賭けられてるわ、
+　一勝するごとに何倍にも増えるお金が♪」
+<PAUSE>
+<ACTOR>2,sr_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「ただし負けたら、それは酷い罰を
+　受ける事になるのよ♪
+　人のお金をパーにした罰をね♪」
+<PAUSE>
+<ACTOR>1,h_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そ、そんな勝手な！」
+<PAUSE>
+<ACTOR>2,sr_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「皆、賭けた女戦士の勝利を願いながら、
+　敗北して死より酷い仕打ちを受ける姿も
+　期待している……♪」
+<PAUSE>
+<ACTOR>2,sr_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「勝っても負けても楽しめる、
+　最高のショーでしょう？　うふふ！」
+<PAUSE>
+<ACTOR>1,h_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「死よりも酷いって……
+　でもそれじゃあ……」
+<PAUSE>
+<ACTOR>2,sr_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「あら、心配しないで？
+　蛇子ちゃんは特別に命は保証してあげる♪
+　人質だものねえ♪」
+<PAUSE>
+<ACTOR>2,sr_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「まあ、戦闘や懲罰で、
+　手足くらいなくなっちゃうかも
+　しれないけど……♪」
+<PAUSE>
+<NAME_PLATE>
+　スネークレディは楽しそうに蛇子を撫でる。
+その態度はまったく無防備で、
+警戒心の欠片も感じられない。
+<PAUSE>
+<NAME_PLATE>
+　いつ終わるとも知れない戦いに
+身を投じるなら、いっそのこと……
+<PAUSE>
+<NAME_PLATE>
+　この場でスネークレディを叩き斬り、
+脱出するというのは？
+<PAUSE>
+<NAME_PLATE>
+　やるか……。
+蛇子が密かに忍者刀を握りしめた、
+その時。
+<PAUSE>
+<GROUP>
+<ACTOR>2,sr_t003b,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,h_t002e,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<ACTOR>0,sr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>スネークレディ
+「私に挑むつもり？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　いつのまに移動したのか。
+スネークレディは蛇子の背後に立ち、
+蛇子の髪を掻き上げ、耳を舐めあげる。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ひぃあッ……！？」
+<PAUSE>
+<ACTOR>2,sr_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「先に罰ゲームにしてあげても、
+　構わないんだけど？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「あっ……い、挑みません……」
+<PAUSE>
+<NAME_PLATE>
+　全身がざわりと総毛立つ。
+スネークレディの無防備さは、油断ではない。
+蛇子などいつでも捻り潰せるという自信だ。
+<PAUSE>
+<ACTOR>0,sr_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「次の対戦相手はもうちょっと強いわよ♪
+　さあ、頑張って生き残って♪」
+<PAUSE>
+<NAME_PLATE>アナウンス
+『エキシビジョンを勝ち抜いた蛇子嬢には、
+　いよいよ正式なカオス・アリーナの
+　女戦士として戦いに挑んでもらいます！！』
+<PAUSE>
+<ACTOR>2,sr_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>スネークレディ
+「次の対戦相手はあの子たちよ♪」
+<PAUSE>
+<ACTOR>0,sr_t003e,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　スネークレディの声に応じて、
+入場口から猛獣のような咆哮が聞こえる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m046a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m047a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔物
+「ＧＲＹＵＡＡＡＡＡ……」
+<PAUSE>
+//　※立ち絵
+//　　トロール
+//　　//　　＊対魔忍RPG用に新デザイン
+//　　フレイムトロール
+//　　//　　＊トロールの色違いバージョン
+<NAME_PLATE>蛇子
+「！？
+　あれは……トロール！？」
+<PAUSE>
+<NAME_PLATE>
+　のっそりと入場してきたのは、
+３メートルはあろうかという巨体の怪物。
+<PAUSE>
+<NAME_PLATE>
+　魔界に生息する亜人種トロールだ。
+知能は低いが凶暴で怪力、
+何よりもタフであると聞く。
+<PAUSE>
+<NAME_PLATE>
+　好物は女の肉。
+どんな種族でも見境なく捕え、
+生きたまま喰らうという。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m046a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m047a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,h_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「もし捕らわれたら自裁を勧める……って、
+　先生に習ったっけ。
+　はは、真面目に授業出ててよかった……」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「って、冗談じゃないわ！
+　最初っから本気でいかなくちゃね……」
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>
+　蛇子は覚悟を決め、
+“獣化忍”の力を解放する。
+<PAUSE>
+<ACTOR>0,h_t005e,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>蛇子
+「大丈夫……蛇子の力はきっと通じる！」
+<PAUSE>
+<NAME_PLATE>アナウンス
+『さあ！
+　蛇子嬢の本当の戦いが始まります！』
+<PAUSE>
+<NAME_PLATE>観客達
+「ウオオオオオオオオオ！！！！！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,h_t005e,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３-ＭＡＰ画面１へ

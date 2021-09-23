@@ -1,0 +1,1548 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：マッスル団本拠地＿地下監獄＿昼夜共通】【時間：昼】
+//　※監獄アカデミア＿NC012aより流用
+//※デュークマッスルが最後にマッスルジョーと会った回想
+<BGM_PLAY>bgm313,1000
+<BG>nc103a,IN, 1000
+<ACTOR>1,ts_m108b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>マッスルジョー
+「いきますぞ、伯父上！！」
+<PAUSE>
+//　※立ち絵
+//　　マッスルジョー＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※左右反転して二人が向き合うようにしてください。
+<ACTOR>0,ts_m259a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「来い、我が甥よ！！」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル（正装状態）＿立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガシィイイイイイイイインンッ！！
+<PAUSE>
+<NAME_PLATE>
+　巨体と巨体、筋肉と筋肉が
+激しくぶつかり合った。
+<PAUSE>
+<BG>nc103a,IN, 500
+<ACTOR>1,ts_m108b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　一人は鋼の彫刻を思わせる若き巨漢。
+その剥き出しの肌には電気火花が走る。
+<PAUSE>
+<NAME_PLATE>
+　彼はマッスルジョー。
+<PAUSE>
+<ACTOR>0,ts_m259a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　もう一人は貴族風の正装を着こなす老人。
+長年鍛え上げられた筋肉は円熟の域に達する。
+<PAUSE>
+<NAME_PLATE>
+　彼はデュークマッスル。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「ぐううううううううううう！！」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「ぬあああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　一人は甥、一人は伯父。
+<PAUSE>
+<NAME_PLATE>
+　共に究極の肉体を求めて止まぬ男たちが
+四つに組み合い、筋肉を激しく震わせる。
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「伯父上！　パワーは互角ですな！」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「ならばどうする！
+　我が輩は一晩中こうしても構わんぞ！」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「心配御無用！！
+　ぬううんっ！
+　マッスル・ライトニング！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリバリバリィッ！！
+<PAUSE>
+<NAME_PLATE>
+　マッスルジョーは筋肉に帯電させた電気を
+伯父の身体に一気に解き放った。
+<PAUSE>
+<BG>nc103a,IN, 500
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「甘いわ！
+　マッスル・インパクト！
+　ふうぅんっ！！」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル（服破れ状態）＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドンッッッッッッ！！
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「ぬおわっっ！？」
+<PAUSE>
+<BG>nc103a,IN, 500
+<ACTOR>0,ts_m259b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　デュークマッスルの肉体が一回り膨れあがり、
+服が弾け、甥が吹き飛ばされた。
+<PAUSE>
+<NAME_PLATE>
+　筋肉を瞬時に大隆起させ
+その筋肉圧力により生み出す衝撃波だ。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「フハハハハッハ！！　未熟未熟！
+　その程度では我が輩の足元にも及ばぬぞ！」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「ぬううう！！　まだまだあ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　立ちはだかる壁、デュークマッスル。
+マッスルジョーはそれに再び挑んでいった。
+<PAUSE>
+//【黒画面】
+//※時間経過の間
+//【背景：マッスル団本拠地＿地下監獄＿昼夜共通】【時間：昼】
+//　※監獄アカデミア＿NC012aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc103a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m259a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m108b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>マッスルジョー
+「まいりました。
+　まだまだ伯父上にはかないませぬ」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル（正装状態）＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　マッスルジョー＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※左右反転して二人が向き合うようにしてください。
+<NAME_PLATE>デュークマッスル
+「だがお前も強くなったものよ。
+　いずれは我が輩を越えるかもしれんな」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「いっそう精進致します、伯父上」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「うむ。
+　時に例の千住院弁慶との決闘はいつだ？」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「半年後です。
+　今度こそあやつとは雌雄を決するつもり」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「フフフ、お前が羨ましいわ。
+　我が輩にはライバルと呼べる者など
+　久しくおらぬからな。退屈でならぬわ」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「私がいるではございませぬか。
+　いつの日か伯父上と本気の勝負をすることが
+　私の夢でございます」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「フハハハハハハハハ！！
+　それは楽しみだ。期待しておるぞ。
+　未来の我が最強のライバルよ！」
+<PAUSE>
+<NAME_PLATE>マッスルジョー
+「フハハハハハハハハハ！！
+　任せてくだされ、伯父上！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BGM_STOP>1000
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　だが二人のその願いが叶うことはなかった。
+<PAUSE>
+//【背景：デュークマッスルの屋敷外観＿夜】【時間：夜】
+//　※対魔忍紅_NC010aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc207a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　地下都市ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルの屋敷。
+<PAUSE>
+//【背景：デュークマッスルの屋敷内＿破壊＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc035bより流用
+//nc096b
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm509,1000
+<BG>nc096b,IN, 1000
+<ACTOR>0,ts_m259b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>デュークマッスル
+「ぬおおおおおおおお！！
+　なぜ死んだ！！　なぜ死んだ我が甥よ！！
+　我が愛しきマッスルジョーよ！！」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル（服破れ状態）＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>デュークマッスル
+「お前こそ我が輩さえも越える
+　強者となってくれると期待していたものを！！
+　ぬおおおおおおおおお！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ヨミハラにも
+上流階級の社交界は存在している。
+<PAUSE>
+<NAME_PLATE>
+　魔界の封建的政治体制の影響が
+色濃いからだ。
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルは
+そんなヨミハラの上流階級に
+強い影響力を持つ老貴族だ。
+<PAUSE>
+<NAME_PLATE>
+　有力貴族だった父の遺産による財力と
+ヨミハラの一角を支配する“ムスクルス”。
+<PAUSE>
+<NAME_PLATE>
+　ラテン語で筋肉を意味するマフィアの
+ボスでもある。
+<PAUSE>
+<NAME_PLATE>
+　円熟を極めた完全戦闘ボディ。
+傷つくことを知らぬ筋肉老紳士。
+<PAUSE>
+<NAME_PLATE>
+　そのデュークマッスルが
+滂沱の涙を流していた。
+<PAUSE>
+<NAME_PLATE>
+　愛する甥、マッスルジョーの死。
+<PAUSE>
+<NAME_PLATE>
+　その悲しみは未だ癒やされてはいない。
+<PAUSE>
+あるいは永久に。
+<PAUSE>
+<ACTOR>0,ts_m259b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「おおおおおおおおおお！！
+　マッスルジョーよ！
+　マッスルジョーよ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドンッ！　ドンッ！　ドドンッ！！
+<PAUSE>
+<NAME_PLATE>
+　無意識のうちに筋肉が大隆起し、
+その衝撃波によって周囲が破壊されていく。
+<PAUSE>
+<NAME_PLATE>
+　壁や天井は割れ、調度品は砕け、
+床には巻き添えを食らった使用人すら
+転がっていた。
+<PAUSE>
+<NAME_PLATE>
+　愛する甥が対魔忍たちの卑劣な罠により、
+殺されてからというもの、
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルはしばしば
+このような状態となるのだった。
+<PAUSE>
+<ACTOR>0,ts_m231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ネイス
+「なんだこの有様は」
+<PAUSE>
+//　※立ち絵
+//　　ネイス＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　魔界マフィア“鬼哭”の高級幹部、
+“霜の鬼神”のネイスは眉をひそめた。
+<PAUSE>
+<ACTOR>0,ts_m231a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m019a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>執事
+「旦那様はマッスルジョー様を
+　思い出されているのです
+　なんとおいたわしい」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　彼女をここまで案内した執事が
+主人の悲しみに胸を痛めたように答える。
+<PAUSE>
+<NAME_PLATE>ネイス
+「あそこで死んでいるのは？」
+<PAUSE>
+<NAME_PLATE>執事
+「三日前に雇った者ですな。
+　こうなられた旦那様には近づかないように
+　申しつけておいたのですが」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「マッスルジョーよなぜ死んだのだ！！
+　我が輩を残してなぜ！！
+　ぬおおおおおおおおおお！！」
+<PAUSE>
+<NAME_PLATE>ネイス
+「私は仕事の報告をしにきたのだ。
+　話ができるようにしてくれ」
+<PAUSE>
+<NAME_PLATE>執事
+「少々お待ちくださいませ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　執事は恭しく頭を下げ、
+荒れ狂う暴風を恐れもせず、
+主人に近づいていった。
+<PAUSE>
+<ACTOR>1,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>執事
+「旦那様、旦那様、
+　鬼哭よりネイス様がいらっしゃいました」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「む、そうか……」
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルはピタリと泣き止んだ。
+そしてあたりの惨状を見渡し、
+<PAUSE>
+<ACTOR>1,ts_m019a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m259b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「フハハハハハハ！
+　またやってしもうたわ！
+　後始末は頼むぞ」
+<PAUSE>
+<NAME_PLATE>執事
+「かしこまりました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　見ていたネイスが戸惑うほどの
+切り替えの早さで呵呵大笑し、
+執事から新しい服を受け取って着替える。
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル（正装状態）＿立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR>0,ts_m231a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m259a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デュークマッスル
+「見苦しいところをお見せした。
+　ネイス殿、今日はなに用かな？」
+<PAUSE>
+<NAME_PLATE>ネイス
+「仕事の報告だ」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「おお、それでは！」
+<PAUSE>
+<NAME_PLATE>
+　ぐっと身を乗り出すデュークマッスルに
+ネイスは淡々と答える。
+<PAUSE>
+<NAME_PLATE>ネイス
+「そちらの依頼通り、
+　対魔忍の柳六穂とＤＳＯの甲河アスカを
+　誘き出す情報工作は成功した」
+<PAUSE>
+<NAME_PLATE>ネイス
+「この館で行われるパーティーに来るはずだ。
+　無論、変装くらいはしてくるだろうがな」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「フッフッフ。礼を言うぞ。
+　これで愛するマッスルジョーを殺した奴らに
+　復讐できるというものよ！！」
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルの全身に力がこもる。
+着替えたばかりの服がまた筋肉で
+はち切れそうになった。
+<PAUSE>
+<NAME_PLATE>ネイス
+「それは好きにしてくれ」
+<PAUSE>
+<NAME_PLATE>ネイス
+「約束通りマッスルジョー殿が
+　所有していた土地を我々鬼哭に
+　ゆずって頂くということでいいな」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「我が輩は約定を違えたりはせぬ。
+　いくらでもヨミハラに進出してくるがよい。
+　闇の兄弟として鬼哭を歓迎しよう」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「ただ一つだけ頼みがある」
+<PAUSE>
+<NAME_PLATE>ネイス
+「なんだ？」
+<PAUSE>
+<NAME_PLATE>
+　こういった取引での後出しは御法度だ。
+ネイスの目がすっと細くなった。
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルはそれに気づかず、
+あるいは全く無視して言った。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「あそこは我が甥が愛した土地。
+　あやつは日頃健康に気を遣っておった。
+　完全健康ボディがなによりの自慢でな」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「どこかに甥の名を冠した健康ランドを作り、
+　そこに甥の彫像を飾ってもらえまいか？
+　無論、建設資金は我が輩が提供する」
+<PAUSE>
+<NAME_PLATE>ネイス
+「……分かった。ボスに伝えておく」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「頼んだぞ。
+　フッフッフ、マッスルジョーよ。
+　お前の仇、我が輩が必ずとってくれる！」
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルは復讐の炎を
+燃え上がらせるのだった。
+<PAUSE>
+//【背景：デュークマッスルの屋敷外観＿夜】【時間：夜】
+//　※対魔忍紅_NC010aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc207a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――１週間後。
+<PAUSE>
+//【背景：デュークマッスルの屋敷＿パーティ会場＿夜】【時間：夜】
+//　※対魔忍紅_NC013aより流用
+<UI_DISP>OFF, 0
+<BG>nc208a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　パーティーはもう始まっていた。
+<PAUSE>
+<NAME_PLATE>
+　さすがヨミハラで名を知られた有力者、
+デュークマッスルのパーティーだけあって、
+<PAUSE>
+<NAME_PLATE>
+　集まった客の顔ぶれもご立派なもので、
+一癖も二癖もありそうな連中が集まっている。
+<PAUSE>
+<NAME_PLATE>
+　今日の俺たちもこの場にふさわしい姿に
+なっている―――はずだ。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、行くぞ」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「は、はい……お館様……」
+<PAUSE>
+//　※立ち絵
+//　　【春厳麗姉】ふうま時子03＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺は魔界の上流階級の貴公子という設定で
+今日はタキシードを着てきている。
+<PAUSE>
+<NAME_PLATE>
+　時子は俺の忠実な女執事ということで、
+男装の麗人となっているが
+緊張しているようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「シメオン様な」
+<PAUSE>
+<NAME_PLATE>時子
+「そうでした……シメオン様、シメオン様、
+　シメオン様……はい、大丈夫です」
+<PAUSE>
+<NAME_PLATE>
+　設定上の俺の名前を何度か繰り返し、
+時子は覚悟を決めたように頷いた。
+<PAUSE>
+<NAME_PLATE>俺
+「うん、じゃ行こうか」
+<PAUSE>
+<NAME_PLATE>時子
+「はい、シメオン様」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　時子を伴い、ホールに足を踏み入れた途端、
+客たちの視線が音を立てるように集まった。
+<PAUSE>
+<NAME_PLATE>
+　『シメオン様だ』『あのお方が？』
+『初めてお顔を拝見した』
+『まさか地上に出てこられるとは』
+<PAUSE>
+<NAME_PLATE>
+　そんな囁き声があちらこちらから
+聞こえてくる。
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　時子の顔がまた強ばるのが分かった。
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫。
+　当たり前って顔をしていればそう見える」
+<PAUSE>
+<NAME_PLATE>俺
+「俺は魔族の上流階級の貴公子シメオンだし、
+　お前はその執事だ」
+<PAUSE>
+<NAME_PLATE>俺
+「仕込みは完璧とドロレスが言っていた。
+　自信を持っていこう」
+<PAUSE>
+<NAME_PLATE>時子
+「そ、それは分かっているのですが……
+　おや、シメオン様は
+　落ち着いてらっしゃいますね」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、こういう場面の経験も
+　なくはないからな」
+<PAUSE>
+<NAME_PLATE>時子
+「そ、そうなのですか？
+　いったいどこで？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それはなかなか説明しづらい。
+<PAUSE>
+<NAME_PLATE>
+　あの未来世界コーデリアでの経験が
+何だったのか未だに俺も分からないからだ。
+<PAUSE>
+<NAME_PLATE>
+　『当たり前の顔をしていろ』という助言も
+そこでアリシアに言われたことだった。
+<PAUSE>
+<ACTOR>0,ts_m115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク奴隷商人
+「シメオン様、お目にかかれて光栄です。
+　私、ヨミハラで娼館を営んでおります
+　ダスチャーと申します」
+<PAUSE>
+//　※立ち絵
+//　　オーク奴隷商人＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　見るからに悪辣そうな奴隷商人が
+揉み手をしながら声をかけてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「よろしく」
+<PAUSE>
+<NAME_PLATE>
+　俺は鷹揚に頷く。
+<PAUSE>
+<NAME_PLATE>オーク奴隷商人
+「シメオン様のような高貴なお方が
+　こんな地上などにいらしたわけを
+　お伺いしてもよろしいでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「妹のドロレスに会いに来たのですよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,mj_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔女
+「まあ、ドロレス様。
+　私、あのお方とは常日頃
+　親しくさせて頂いております」
+<PAUSE>
+//　※立ち絵
+//　　魔女＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　そう割り込んできたのは魔女だ。
+一言目から嘘だと分かるが、
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとう。
+　これからも仲良くしてやってください」
+<PAUSE>
+<NAME_PLATE>魔女
+「もちろんでございます。
+　私、呪い屋を営んでいるメルティーと
+　申します。どうぞよしなに」
+<PAUSE>
+<NAME_PLATE>俺
+「覚えておきましょう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はやんわりと言い、
+次は派手な衣装のサキュバスに
+自分から声をかけた。
+<PAUSE>
+//　※立ち絵
+//　　サキュバス＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m017a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「これは美しいお嬢さんだ。
+　お名前を伺ってもよろしいかな？」
+<PAUSE>
+<NAME_PLATE>サキュバス
+「は、はい。
+　私、サキュバスのキャミィと申します。
+　お、お声をかけていただいて光栄です」
+<PAUSE>
+<NAME_PLATE>
+　今まで何人もの男の精を
+搾り尽くしてきたであろう淫魔が
+声を上擦らせた。
+<PAUSE>
+<NAME_PLATE>俺
+「知人のミーティアから話を聞いたのですが、
+　地上にはリリムという
+　困った夢魔がいるとか」
+<PAUSE>
+<NAME_PLATE>サキュバス
+「い、います！！
+　夢魔の仕事もせずに遊び回っている
+　本当にしょうがないやつです」
+<PAUSE>
+<NAME_PLATE>俺
+「それは困りものだ。だが貴女は違うようだ。
+　貴女の夢の中で一時の快楽に
+　溺れてみたいものです」
+<PAUSE>
+<NAME_PLATE>サキュバス
+「シメオン様がお望みなら、
+　い、いつでも……」
+<PAUSE>
+<NAME_PLATE>
+　サキュバスはウットリと頷いた。
+夢魔のくせに目が乙女になっている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（なんだかなあ……）
+<PAUSE>
+<NAME_PLATE>
+　アリシアに連れて行かれた晩餐会で
+彼女が客たちと話していたことを思い出し、
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの連中と
+それっぽい会話をしながら、
+俺は内心でぼやいていた。
+<PAUSE>
+<NAME_PLATE>
+　俺の中身はまったく変わっていないのに、
+肩書きが魔族の貴公子になった途端これだ。
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+（お館様……）
+<PAUSE>
+//　※立ち絵
+//　　【春厳麗姉】ふうま時子03＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>時子
+（いつの間にあのような振る舞いを
+　身につけられたのでしょうか。
+　なんて凜々しい……）
+<PAUSE>
+<NAME_PLATE>時子
+（私の知らない所で
+　たくさん学ばれているのですね。
+　時子はうれしゅうございます……）
+<PAUSE>
+<NAME_PLATE>
+　ふと見ると、
+時子まで妙にキラキラした目で
+俺を見ていた。
+<PAUSE>
+<NAME_PLATE>
+　まさか時子までハリボテの貴公子に
+やられたわけでもないだろうが。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いずれにしろ
+ここで下手な芝居をするのが
+今回の任務ではない。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　かつて柳六穂（やなぎむつほ）や
+ＤＳＯの甲河アスカと協力して倒した
+マッスル団のボス、マッスルジョー。
+<PAUSE>
+<NAME_PLATE>
+　その伯父であるデュークマッスルが
+特務機関Ｇへ魔界の高度な医療技術を
+売却しようとしている情報があったのだ。
+<PAUSE>
+<NAME_PLATE>
+　その真偽を確かめるため、
+彼が月一回行っているパーティーに
+魔族の貴公子として時子と共に参加し、
+<PAUSE>
+<NAME_PLATE>
+　隙を見て時子が屋敷内の端末に
+忍法で潜入するという計画だった。
+<PAUSE>
+<NAME_PLATE>
+　そんなことが可能となったのも
+さっき魔女に言ったが、ノマドのドロレスと
+本当に友人になったからだ。
+<PAUSE>
+<NAME_PLATE>
+　こちらは対魔忍、あちらはノマド、
+それも最強の魔界騎士イングリッドの遠縁。
+普通なら友達になどなれないが、
+<PAUSE>
+<NAME_PLATE>
+　初めて会ったのがゲーム大会であり、
+そこでちょっとしたトラブルを一緒に
+乗り越えたこともあって、
+<PAUSE>
+<NAME_PLATE>
+　対魔忍とかノマドとかは
+とりあえず横に置いておいて、
+ゲーム友達に収まっている。
+<PAUSE>
+<NAME_PLATE>
+　といってもドロレスがヨミハラから、
+というか自分の部屋からも滅多に出ないので、
+ネットでの付き合いだけだ。
+<PAUSE>
+<NAME_PLATE>
+　そしてデュークマッスルの情報を手に入れ
+どうやって館に乗り込もうかと
+思案していた時、
+<PAUSE>
+<NAME_PLATE>
+　ゲーム中のチャットで
+ふと世間話的にそのことを伝えたら、
+ドロレスがこう返してきたのだ。
+<PAUSE>
+//【黒画面】
+//　※チャット相手のイメージ背景として。
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>悲しみの聖母
+「それ手伝ってあげよっか？」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス＿立ち絵
+//　　　カードイラストより流用
+<NAME_PLATE>ホークウインド
+「いいのかよ。対魔忍の任務だぞ」
+<PAUSE>
+<NAME_PLATE>悲しみの聖母
+「この前のお礼。
+　でもお姉ちゃんには内緒だよ」
+<PAUSE>
+<NAME_PLATE>悲しみの聖母
+「私、魔界にお兄ちゃんがいるから、
+　それが地上に来たことにしてあげる。
+　顔をふうまに加工して」
+<PAUSE>
+<NAME_PLATE>ホークウインド
+「そんなことできるのか？」
+<PAUSE>
+<NAME_PLATE>悲しみの聖母
+「簡単簡単。
+　本当の顔知ってる奴なんかこっちにいないし
+　ふうまが私のお兄ちゃんとか面白い」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは魔界にいる兄シメオンが
+人間界のノマドに遊学してきたという設定で
+アンダーグラウンドに情報を流してくれた。
+<PAUSE>
+<NAME_PLATE>
+　その手際は恐ろしいほど鮮やかで、
+俺はパーティーにすんなり参加できたし、
+正体を疑う者も誰一人としていない。
+<PAUSE>
+//【背景：デュークマッスルの屋敷＿パーティ会場＿夜】【時間：夜】
+//　※対魔忍紅_NC013aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc208a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というわけで、俺は貴公子シメオンとして
+パーティー客たちの相手をしていたが、
+<PAUSE>
+<NAME_PLATE>
+　館の主であり、パーティーの主催者でもある
+肝心のデュークマッスルがまだ現れない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　奴が出てきたら俺が相手をし、
+その合間に時子が動くという段取りだ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,k_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「シメオン様、お久しぶりにございます」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍カクテルドレス＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　と突然現れて声をかけてきたのは、
+仮面のマダムだった。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダムの“五強”、
+いやすでに“四強”となったうちの一つ、
+<PAUSE>
+“クラブ・ペルソナ”の女主人。
+<PAUSE>
+<NAME_PLATE>
+　その正体はＤＳＯ日本支部の所長、
+甲河朧だ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ？　どうして？」
+<PAUSE>
+<NAME_PLATE>
+　驚く俺の顔を見て、マダムはクスリと笑う。
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「シメオン様がいらっしゃると伺ったもので。
+　よろしければ一曲踊って頂けますか？」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　いきなりなにを言ってるんだ？
+<PAUSE>
+<NAME_PLATE>
+　一曲踊ってくれ？
+<PAUSE>
+<NAME_PLATE>
+　確かにパーティーに相応しい曲が流れ、
+踊っている者もちらほらいるが、
+<PAUSE>
+<NAME_PLATE>
+　なぜ今ここで？　しかも俺と？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が返答に困っていると、
+時子がぐいと身を乗り出してきた。
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「おやっ、シ、シメオン様！
+　一曲目のパートナーはこの私と
+　お願い致します！」
+<PAUSE>
+//　※立ち絵
+//　　【春厳麗姉】ふうま時子03＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　なんなんだこの展開は。
+今日は時子までどうかしているな。
+<PAUSE>
+<NAME_PLATE>
+　しかし俺の執事である時子が
+他の客を差しおいて最初に俺と踊りたいなどと
+言い出すのは場にそぐわなかったようで、
+<PAUSE>
+<NAME_PLATE>
+　周りの連中がヒソヒソと囁き始めるが、
+言い出しっぺのマダムはにっこり笑って、
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,k_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「そうですわね。
+　執事殿は幼いシメオン様を
+　たった一人でお守りした忠臣中の忠臣」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「執事殿を差しおいて私が踊るわけには
+　まいりません。失礼致しました」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　と自ら一歩退いた。
+<PAUSE>
+<ACTOR>0,chr_t0319a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「そうだな。
+　まずはお前と踊ろう」
+<PAUSE>
+<NAME_PLATE>
+　この流れ、俺としてはそう言うしかない。
+<PAUSE>
+<NAME_PLATE>
+　そして、シメオン様のお言葉であれば、
+時子を白い目で見ていた連中も
+すぐに納得する。
+<PAUSE>
+<NAME_PLATE>
+　全く手のひらクルックルだ。
+<PAUSE>
+<NAME_PLATE>俺
+（幼い俺をたった一人で守った
+　忠臣中の忠臣なのは間違いないけどな）
+<PAUSE>
+<NAME_PLATE>俺
+「時子」
+<PAUSE>
+<NAME_PLATE>時子
+「お、シメオン様……」
+<PAUSE>
+<NAME_PLATE>
+　自分から先にと言い出したのに
+妙に緊張している時子の手を取り、
+その腰をぐっと引き寄せる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　時子の身体がきゅっと強ばった。
+<PAUSE>
+<NAME_PLATE>俺
+「音楽に合わせて気楽に」
+<PAUSE>
+<NAME_PLATE>時子
+「は、はい……っ」
+<PAUSE>
+<NAME_PLATE>俺
+「いくよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　時子をリードしつつ、
+二人でゆったりと踊り始める。
+<PAUSE>
+<NAME_PLATE>
+　こんな経験ももう三度目だ。
+<PAUSE>
+<NAME_PLATE>
+　一度目は未来世界コーデリアで。
+二度目は幽霊屋敷の中で。
+<PAUSE>
+<NAME_PLATE>
+　それっぽく踊れるだけだが、
+さすがに少しは慣れてきていた。
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様、申し訳ありません。
+　気がついたら割って入っていました。
+　執事らしからぬ振る舞い、お詫びします」
+<PAUSE>
+<NAME_PLATE>
+　俺に合わせて動きながら、
+時子がすまなそうに言う。
+<PAUSE>
+<NAME_PLATE>俺
+「いいよいいよ。
+　あのマダムとダンスを踊るなんて
+　はっきり言って悪い予感しかしない」
+<PAUSE>
+<NAME_PLATE>時子
+「あの方は小さい頃のお館様を
+　ご存じですから……」
+<PAUSE>
+<NAME_PLATE>俺
+「それでからかってるのか。
+　勘弁して欲しいな」
+<PAUSE>
+<NAME_PLATE>時子
+「それにしてもこのようなダンスまで。
+　どこで覚えられたのですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「シミュレーションみたいなのとか。
+　任務中にもちょっとね」
+<PAUSE>
+<NAME_PLATE>時子
+「お見事です。
+　でもこんなことでしたら、
+　私は素敵なドレスを着てきましたのに」
+<PAUSE>
+<NAME_PLATE>
+　時子は残念そうに、
+心底残念そうに言った。
+<PAUSE>
+<NAME_PLATE>俺
+「それじゃ任務に支障がでるだろう。
+　それに時子には執事の姿が一番似合ってる」
+<PAUSE>
+<NAME_PLATE>時子
+「あ、ありがとうございます！」
+<PAUSE>
+<NAME_PLATE>
+　繋いだ時子の手に力がこもる。
+<PAUSE>
+<NAME_PLATE>俺
+「マダムが現れたか。
+　ってことは、アスカもどこかにいるな」
+<PAUSE>
+<NAME_PLATE>時子
+「でしょうね」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　魔族の貴公子らしく踊りつつ、
+警戒を強めたその時、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「お集まりの方々、ご挨拶が遅れ申した」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「我が輩はこの館の主デュークマッスル。
+　パーティは
+　楽しんでいただけておりますかな？」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル（正装状態）＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　デュークマッスルだ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは踊るのをやめて奴に注目する。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「今宵は愛する我が甥。
+　マッスルジョーの月命日。その鎮魂の宴」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「我が甥の魂の安らぎのため、
+　皆様には大いに楽しんでいただきたい」
+<PAUSE>
+<NAME_PLATE>
+　パーティー客たちが拍手をする。
+俺と時子もそれに合わせる。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「だが我が輩、
+　ここで皆様に一つお詫びを
+　申し上げなければならぬ」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「今宵この宴に我が甥の命を奪った
+　あの忌まわしき対魔忍と」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「ＤＳＯのガラクタ人形が変装して
+　忍び込んでおるとのこと」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！！」
+<PAUSE>
+<NAME_PLATE>時子
+「お館様！」
+<PAUSE>
+<NAME_PLATE>
+　俺と時子は緊張する。
+<PAUSE>
+<NAME_PLATE>
+　客たちも『対魔忍？』『どこにいるんだ？』
+『誰が化けているんだ？』とざわめき始める。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「慌てなさらずとも結構。
+　我が輩にも彼奴らが誰に化けておるのか
+　さっぱり分かりませぬわ」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「フハハハハハハハハハハハハハハ！！」
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルは呵呵大笑して、
+一同を困惑させてから、
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「故に！
+　我が輩、今宵集まった方々を
+　一人残らず抹殺させていただく！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m011a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m105a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　その言葉と共にパーティー会場に
+大量のドローンが入ってきた。
+<PAUSE>
+//　※立ち絵
+//　　BR-2兼光＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　ドローン・ワスプ＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※並べて出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「愛する我が甥、マッスルジョーよ。
+　見ているがよい、復讐の宴の始まりぞ！」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガシャンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　パーティー会場の出入り口全てに
+金属製のシャッターが下ろされた。
+<PAUSE>
+<ACTOR>0,ts_m115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク奴隷商人
+「は、はは……
+　デュークマッスル様
+　よ、余興にしては冗談がすぎますな」
+<PAUSE>
+//　※立ち絵
+//　　オーク奴隷商人＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　さっき俺に声をかけてきた奴隷商人が
+引きつった笑いを浮かべてデュークマッスルに
+近づこうとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「やれ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>執事
+「畏まりました」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　傍らの執事が恭しく頭を下げ、
+ドローンたちの一斉攻撃が始まった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーク奴隷商人
+「ぎゃああああっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　迂闊な奴隷商人がまず蜂の巣になる。
+<PAUSE>
+<BG>nc208a,IN, 500
+<GROUP>
+<ACTOR>0,mj_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m017a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>パーティー客
+「ちっっ！！」
+「あのクソジジイ、本気！？」
+<PAUSE>
+//　※立ち絵
+//　　魔女＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　サキュバス＿立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　事ここに至って
+客たちもこれが余興でも冗談でもないと
+悟ったらしい。
+<PAUSE>
+<NAME_PLATE>
+　しかしさすがはヨミハラの住人たちだ。
+今のでやられたのはごく僅かで
+大半は突然の攻撃を避けている。
+<PAUSE>
+<NAME_PLATE>
+　もちろん俺と時子もだ。
+<PAUSE>
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「ふむ、ではこれではどうかな？」
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルはパチンと指を鳴らした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se084
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シューーーーーーーッ！！
+<PAUSE>
+<NAME_PLATE>
+　奴の頭上から黄色いガスが噴出され始めた。
+<PAUSE>
+<NAME_PLATE>
+　最初にそれを食らったのは、
+デュークマッスルの
+一番近くにいた執事だった。
+<PAUSE>
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>執事
+「ぐっ……がっ……げぼっ……
+　だ、旦那様……なぜ……」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se023
+<NAME_PLATE>
+　血反吐を吐いて倒れた執事の肌が
+みるみるうちにどす黒く変色していく。
+<PAUSE>
+<NAME_PLATE>
+　執事はびくんびくんと何度か身を震わせ、
+すぐに動かなくなった。
+<PAUSE>
+<NAME_PLATE>
+　やはり毒ガスだ。それも極めて強力な。
+<PAUSE>
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「うおおお、お前は本物であったか。
+　すまぬ、すまぬのお。
+　あの世でマッスルジョーに仕えてくれ」
+<PAUSE>
+//　※立ち絵
+//　　デュークマッスル＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　デュークマッスルは毒ガスの中で
+平然としていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　いや声を上げて泣いていた。
+<PAUSE>
+<NAME_PLATE>
+　今、自分が毒ガスで殺した執事の死を
+本気で悲しんでいた。
+<PAUSE>
+<NAME_PLATE>
+　その狂気。凄まじいまでの復讐の念。
+<PAUSE>
+<NAME_PLATE>
+　俺の背筋に戦慄が走る。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se084
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シューーーーーーーーーーーーーッ！！
+<PAUSE>
+<NAME_PLATE>
+　毒ガスはどんどん拡がっていく。
+<PAUSE>
+<NAME_PLATE>
+　不幸にも奴の近くにいたパーティー客が
+バタバタと倒れている。
+<PAUSE>
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「我が甥の仇よ。
+　貴様がこの毒で惨めに死に絶える様を
+　この目で見届けてやろうぞ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>俺
+「くっ、壁際に寄るんだ！
+　ガスのスピードは遅い！」
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「はいっ！」
+<PAUSE>
+//　※立ち絵
+//　　【春厳麗姉】ふうま時子03＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　俺たち、いやパーティー客の誰もが
+毒ガスから距離を取っていた。
+<PAUSE>
+<NAME_PLATE>
+　毒ガスが拡がる速度はゆっくりしている。
+執事が死んだせいかドローンも止まっていた。
+<PAUSE>
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「フハハハハハハハハハハハハハハ！！
+　マッスルジョーよ、見ておるか！！
+　お前を殺した奴らの虫けらのごとき様を！」
+<PAUSE>
+<NAME_PLATE>
+　壁にへばり付くことしかできない俺たちを
+デュークマッスルが嘲笑していた。
+<PAUSE>
+<NAME_PLATE>
+　奴は逃げようのないこの部屋で
+どこかにいる仇が毒でなぶり殺されるのを
+楽しもうというのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,mj_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>パーティ客
+「この狂人が！」
+「我が紅蓮の炎で焼け死ね！！」
+<PAUSE>
+//　※立ち絵
+//　　魔女＿立ち絵
+//　　　＊モンスターイラストより流用
+//　　魔術師＿立ち絵
+//　　　＊モンスターイラストより流用
+//　※パーティー客として使用。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　何人かの客が魔法を使った。
+<PAUSE>
+<NAME_PLATE>
+　数十本もの魔法の矢、
+天井に達するほどの激しい火炎が
+デュークマッスルに直撃する。
+<PAUSE>
+<BG>nc208a,IN, 500
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「フハハハハハハ！！
+　馬鹿め！
+　我が輩にこんなものは効かぬわっ！」
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルは
+攻撃を避けようとすらしなかった。
+<PAUSE>
+<NAME_PLATE>
+　全ての攻撃を平然と受け止め、
+それを仕掛けた連中に
+嬉々として近づいていく。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「おぬしたちが甥を殺したのか？
+　対魔忍はどいつだ？
+　ＤＳＯのガラクタはどいつだ？」
+<PAUSE>
+<NAME_PLATE>パーティ客
+「ひっっ」
+「ち、ちがっ―――」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「問答無用！！
+　ふうんっっ！！　ふんんっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グチャッッ！！　グチャッッッ！
+<PAUSE>
+<NAME_PLATE>
+　デュークマッスルが振るう豪腕が
+無関係の客を肉塊へと変えていく。
+<PAUSE>
+<BG>nc208a,IN, 500
+<ACTOR>0,ts_m259a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デュークマッスル
+「こんな脆い肉体ではマッスルジョーに
+　かすり傷一つ付けられまい。
+　こやつらも違ったようだな」
+<PAUSE>
+<NAME_PLATE>
+　全ての攻撃を跳ね返す肉体。
+あのマッスルジョーと同じ、いやそれ以上だ。
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「我が甥の仇よ。
+　まだ生きているなら名乗り出るが良い。
+　さすれば貴様から殺してやろう」
+<PAUSE>
+<NAME_PLATE>デュークマッスル
+「残りの者は全て後を追わせてやる。
+　愛しき我が甥への手向けにな。
+　フハハハハハハハハハハハハ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「あいつっ！」
+<PAUSE>
+<ACTOR>0,chr_t0319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様っ！」
+<PAUSE>
+<NAME_PLATE>
+　時子が俺の腕を強く掴んだ。
+出ていくなと言うのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「分かってるっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が出たところでどうにもならない。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se084
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シューーーーーーーーーーーーーッ
+<PAUSE>
+<NAME_PLATE>
+　だが毒ガスはゆっくりとだが
+確実に拡がってきている。
+<PAUSE>
+<NAME_PLATE>
+　いずれはやられてしまう。
+<PAUSE>
+<NAME_PLATE>
+　絶体絶命だ。
+<PAUSE>
+//→プロローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

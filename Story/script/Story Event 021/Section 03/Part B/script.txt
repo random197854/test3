@@ -1,0 +1,190 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：宇津女神社＿昼】【時間：昼】
+//　※魔王ト聖女＿nc009aより流用
+//※対魔忍ＲＰＧの1ｓｔ主題歌を流してください
+//nc405a
+<BGM_PLAY>bgm803,1000
+<BG>nc405a,IN, 1000
+<ACTOR>0,chr_t0317a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メイ
+「わん、つー、わん、つー」
+<PAUSE>
+//　※立ち絵
+//　　【やる気強制フォーム】メイ
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0317a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0317a,LEFT, CENTER, NONE, linear, 1000
+<WAIT>500
+<ACTOR>0,chr_t0317a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0317a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　やる気のなさそうに見えたメイだったが、
+意外にも小柄な体を活かした
+軽やかなステップとターンが華麗である。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　一方、成美さんは。
+<PAUSE>
+<ACTOR>0,chr_t0314a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>成美
+「はっ！」
+<PAUSE>
+//　※立ち絵
+//　　【戦慄のチア】相馬成美
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0314a,LEFT, LEFT, IN, linear, 700
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<WAIT>500
+<ACTOR>0,chr_t0314a,RIGHT, RIGHT, IN, linear, 700
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<WAIT>500
+<SE_PLAY>se119
+<ACTOR>0,chr_t0314a,CENTER, CENTER, IN, linear, 700
+<NAME_PLATE>
+　長い手足をしなやかに伸ばして、
+地面に開脚、そのまま回転したかと思うと、
+バネのように立ち上がり、バク転。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おおおー！！」
+<PAUSE>
+<NAME_PLATE>
+　俺が思わず感嘆の声をあげると、
+成美さんは一瞬、こちらを見て微笑み、
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<WAIT>500
+<SE_PLAY>se119
+<ACTOR>0,chr_t0314a,CENTER, CENTER, IN, linear, 700
+<NAME_PLATE>
+　サビにあわせて高く高くジャンプ、
+華麗に着地してポーズを決めた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ＡＣＯ
+「そこまで！」
+<PAUSE>
+//　※立ち絵
+//　　CA001b　アマノウズメ立ち絵イラスト差分
+//　　　＊『アマノウズメ』モンスターイラストより流用
+//※対魔忍ＲＰＧの1ｓｔ主題歌ここまで
+<NAME_PLATE>
+　と、ＡＣＯさんが
+掛け声とともに音楽を止めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0317a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0314a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>メイ
+「ふう、はあ……」
+<PAUSE>
+<NAME_PLATE>成美
+「やるわね……ふふふ」
+<PAUSE>
+<NAME_PLATE>
+　二人は荒く息を切らせながら、
+中央で向かい合って礼をする。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m255b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ＡＣＯ
+「すっごーい！
+　いきなりハイレベルなバトルだったね！」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「成美さんはジャンプの大技がすごかったね！
+　メイさんは体の柔らかさが活きてたし、
+　衣装もすっごくステキ！」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「これは判定に悩むぞお！
+　んー……でも、今回の勝者は」
+<PAUSE>
+<NAME_PLATE>ＡＣＯ
+「相馬成美さん！！
+　音楽に合わせた臨機応変な技選び、
+　普段から鍛えてる努力がうかがえたよ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「やった！！」
+<PAUSE>
+<ACTOR>1,chr_t0314a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>成美
+「ふふ、やったわ。
+　さすがプロダンサー、
+　努力まで見抜かれちゃうのね」
+<PAUSE>
+<ACTOR>0,chr_t0317a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>メイ
+「うーん、残念。
+　でもスーツの有用性は、どうやら
+　プロにも通用するらしいからよしとしよう」
+<PAUSE>
+<NAME_PLATE>
+　メイも、負けはしたが
+衣装を褒められてまんざらでもなさそうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,s_t003b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「成美さんのダンスすごいわ、
+　ほんとに学校で見た時より
+　パワーアップしてるみたい！」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>鹿之助
+「良かった！
+　勝ったぜ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>
+　成美さんの華麗なダンスに、
+観客席の蛇子と鹿之助も
+大盛り上がりだ。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（よし、まずは一勝。
+　だが、この次は……）
+<PAUSE>
+<ACTOR>0,chr_t0315a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　出番を待つ朧をちらりと盗み見る。
+その横顔は、邪悪な笑みを湛えていた――。
+<PAUSE>
+//→Section３終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

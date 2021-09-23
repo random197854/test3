@@ -1,0 +1,156 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：近隣都市まえさき市＿廃墟前＿夕方】【時間：夕方】
+//　※魔降ル夜ノ凜_nc001bより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc014b,IN, 1000
+<SE_PLAY>se121
+<NAME_PLATE>
+　サイレンの音が聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　誰かが通報したようだ。
+<PAUSE>
+<NAME_PLATE>
+　が、そんなことはどうでもいい。
+<PAUSE>
+<NAME_PLATE>
+　斉藤はパニック状態の繁華街を離れ、
+廃墟となったビルに逃げ込んでいた。
+<PAUSE>
+//【背景：近隣都市まえさき市＿廃墟内＿夕方】【時間：夕方】
+//　※魔降ル夜ノ凜_nc002bより流用
+<BG>nc015b,IN, 1000
+<ACTOR>0,ts_m150b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「よし、ここなら―――うっっ」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵（腹部負傷）
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　　　　※笹
+//　　　　　　イラストを加工して腹部に血糊追加してください。
+<NAME_PLATE>
+　斉藤は崩れかけたビルの柱に背をついた。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「はぁはぁはぁ……」
+<PAUSE>
+<NAME_PLATE>
+　立っているのが辛くなってきている。
+<PAUSE>
+<NAME_PLATE>
+　ここに来るまでに血を流しすぎたようだ。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「……ぅっ……腹の出血が酷いな。
+　早く血を止めねば……はあはあ」
+<PAUSE>
+<NAME_PLATE>
+　もちろんそのための器具は持ってきている。
+<PAUSE>
+<NAME_PLATE>
+　ただの応急手当だけではなく
+やろうと思えばここで簡単な手術すらできる。
+<PAUSE>
+<NAME_PLATE>
+　それらを取り出そうとした時、
+<PAUSE>
+<NAME_PLATE>井河影臣
+『ここに逃げ込んだのは分かってるぜ！！！』
+<PAUSE>
+<NAME_PLATE>
+　廃墟となったビルに
+あの忌々しい男の声が響き渡った。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「ちっ」
+<PAUSE>
+<NAME_PLATE>井河影臣
+『どうした殺人鬼？
+　一般人を巻き込むなんて平気だと
+　思っていたが、優しいところもあるのか？』
+<PAUSE>
+<NAME_PLATE>
+　斉藤がこの廃墟までやってきたことを
+言っているようだ。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「愚かな」
+<PAUSE>
+<NAME_PLATE>
+　この世に一般人など存在しない。
+<PAUSE>
+<NAME_PLATE>
+　いるのは、彼のような選ばれた超人と
+超人に殺人という快楽を提供するための貴人、
+そしてそれ以外の間引かれるべき畜群だけだ。
+<PAUSE>
+<NAME_PLATE>
+　そんな人の形をした奴隷の命など
+どうして頓着するものか。
+<PAUSE>
+<NAME_PLATE>
+　ここに来た理由は三つ。
+<PAUSE>
+<NAME_PLATE>
+　怪我の治療をするため。
+<PAUSE>
+<NAME_PLATE>
+　彼の忍法を見られないようにするため。
+<PAUSE>
+<NAME_PLATE>
+　そして、のこのこやって来るであろう
+井河影臣を始末するためだ。
+<PAUSE>
+<NAME_PLATE>井河影臣
+『返事がねえな。
+　まあ、どうでもいいがね。
+　俺の暗殺部隊が完全に包囲したぜ』
+<PAUSE>
+//【背景：近隣都市まえさき市＿廃墟前＿夕方】【時間：夕方】
+//　※魔降ル夜ノ凜_nc001bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc014b,IN, 1000
+<ACTOR>1,ts_m151a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>井河影臣
+「あんたは終わりだ」
+<PAUSE>
+//　※立ち絵
+//　　井河影臣立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　影臣は独りごちた。
+<PAUSE>
+<NAME_PLATE>
+　こんなところに来て
+どうするつもりか知らないが、
+斉藤に対抗する算段も付いた。
+<PAUSE>
+<NAME_PLATE>
+　そろそろ仕事の仕上げ時だ。
+<PAUSE>
+<NAME_PLATE>
+　シンプルに、確実に。
+<PAUSE>
+<NAME_PLATE>
+　いつも通りに殺るだけだ。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「いけ」
+<PAUSE>
+<NAME_PLATE>
+　影臣は暗殺部隊に命令した。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

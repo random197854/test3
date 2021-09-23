@@ -1,0 +1,558 @@
+//☆第四章//【Section４】シナリオ
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//=================================================================
+//【背景：まえさき市妖しいモーテル地区＿夜】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm608,1000
+<BG>nc045a,IN, 1000
+<NAME_PLATE>俺
+「いいか？　二度と俺を親分と呼ぶな……」
+<PAUSE>
+<NAME_PLATE>俺
+（どう見ても強そうではないが、
+　一応は魔族だ。力の程がわからん以上、
+　油断はできないな）
+<PAUSE>
+<NAME_PLATE>俺
+（騒ぎになる前に、さっさと終わらせたい。
+　さっきの窓割れ騒ぎのこともあるし、
+　なんだか花の香りするし――）
+<PAUSE>
+<ACTOR>0,sz_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ちょっと待った！！！」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　そこへ颯爽と現れたのは、
+長い金髪を靡かせた美女――
+<PAUSE>
+<NAME_PLATE>俺
+「静流！？」
+<PAUSE>
+<NAME_PLATE>
+　しかし、ホステスの彼女が
+その身に纏っているのは紛れもなく
+対魔忍スーツである。
+<PAUSE>
+<NAME_PLATE>俺
+「その格好は！！！？」
+<PAUSE>
+<ACTOR>0,sz_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あれ？　高坂先生。こんばんわー！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>0,sz_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>高坂静流
+「こんばんわ☆　蛇子ちゃん」
+<PAUSE>
+<NAME_PLATE>俺
+「ええええ！？　蛇子、知り合いなのか！？
+　つーか、あんた対魔忍だったのかよ！？」
+<PAUSE>
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「何言ってるのふうまちゃん。
+　英語の高坂静流先生じゃない」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はこともなげに言ってのける。
+<PAUSE>
+<NAME_PLATE>俺
+「高坂静流……先生ぇぇぇ！！？」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<ACTOR>0,sz_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>静流
+「ふうま君は
+　いっつも英語の授業サボってるからね～」
+<PAUSE>
+<NAME_PLATE>俺
+「ぐっ………」
+<PAUSE>
+<NAME_PLATE>
+　それは全く否定できない。
+いや、それより俺は英語の先生にあんなモノを
+見せつけてしまったわけで……
+<PAUSE>
+<ACTOR>0,sz_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>静流
+「うふふ」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり俺の正体知ってて踊らせたわけか。
+　とんでもない教師だ」
+<PAUSE>
+<ACTOR>0,sz_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>静流
+「ごめんね。でも、君が地元ヤクザの注目を
+　集めてくれたおかげで、
+　ずいぶん仕事が捗ったわ」
+<PAUSE>
+<NAME_PLATE>俺
+「あーあーそういう事か……
+　お陰様でヤクザどもに追われて
+　死にかけたぞ」
+<PAUSE>
+<ACTOR>1,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「高坂先生は潜入のエキスパートなのよ！
+　先生が潜入してたってことは、
+　この闇の街、何かあるのね」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「しかもこうして対魔忍スーツで
+　登場したってことは……
+　捜査もたけなわですか？　先生！」
+<PAUSE>
+<ACTOR>0,sz_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>静流
+「ええ、そこのおチビちゃん達が事件のカギを
+　握ってるらしいことがわかってね。
+　尾行していたのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「こいつらがぁ……？」
+<PAUSE>
+<NAME_PLATE>
+　と、当のガキどもに目を落とすと。
+二人はすっかり飽きてしまったのか、
+地面にチョークで落書きして遊んでいる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,sz_t001e,LEFT, LEFT, OUT, linear, 0
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 0
+</GROUP>
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリム＆ミナサキ
+「なかなか上手に描けたと思うんだけど」
+「うーん、親分はもっとアホな顔してるよ」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+//　　ミナサキ立ち絵
+<NAME_PLATE>俺
+（もしかして、その福笑いみたいなのは
+　俺の似顔絵か……）
+<PAUSE>
+<NAME_PLATE>リリム＆ミナサキ
+「よし、じゃあ鼻毛描いちゃえ」
+「ぼっさぼさだー！　きゃははは！！」
+<PAUSE>
+<NAME_PLATE>
+　本当にこんなアホどもが、対魔忍が追う程の
+事件の鍵を握っているのか……
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　一時間後。
+<PAUSE>
+//【背景：まえさき市工業地区＿トンネル＿夜】【時間：夜】
+<BGM_PLAY>bgm408,1000
+<BG>nc046a,IN, 1000
+<NAME_PLATE>
+　ここは、まえさき市の工場地区。
+俺たちはその奥にあるトンネルを歩いていた。
+<PAUSE>
+<NAME_PLATE>俺
+「おい、この先は山じゃないのか。
+　お前ら、騙してヘンなとこへ
+　連れて行こうってんじゃ……」
+<PAUSE>
+<ACTOR>1,mi_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「ちっ違うよ！
+　人聞きのわるいこというなよー！」
+<PAUSE>
+//　※立ち絵
+//　　ミナサキ立ち絵
+<NAME_PLATE>俺
+「人をさんざん巻き込んでおいて、
+　よく言うぜ……」
+<PAUSE>
+<ACTOR>1,mi_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>1,h_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「この先って、確かクロワダミ製薬の
+　工場施設があるわよね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「クロワダミ製薬って言ったら、
+　よくＣＭもやってるあの大企業か。
+　そんなの、こんな田舎にあったか？」
+<PAUSE>
+<ACTOR>1,h_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「例の地方振興政策でね、
+　大規模工場を建設したって、
+　ローカルニュースに出てたよ」
+<PAUSE>
+<ACTOR>1,h_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんも古文書ばっかりじゃなくて、
+　最新のニュースも見ないと！」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう……じゃあそのクロワダミ製薬の
+　工場に“クィーン”がいるってのか？」
+<PAUSE>
+<ACTOR>1,h_t002e,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「いるよ！
+　ボクのヤタガラス能力は確かなんだ！」
+<PAUSE>
+<NAME_PLATE>
+　なんでもこのミナサキとやらは
+ヤタガラスの化身で、一度見たモノの場所が
+分かるのだとか。
+<PAUSE>
+<NAME_PLATE>リリム
+「ミナサキちゃんの力を疑うなんて
+　役立たずのふうまの癖に生意気だよ！」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+<NAME_PLATE>
+　やっと親分をやめてくれたと思ったら、
+今度は呼び捨てである。
+<PAUSE>
+<NAME_PLATE>俺
+「だいたい、お前らが不良品を
+　製薬会社なんかに売ったせいで、
+　こんなことに……」
+<PAUSE>
+<NAME_PLATE>リリム＆ミナサキ
+「うるさーい！」「ばかー！」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+//　　ミナサキ立ち絵
+<NAME_PLATE>
+　ぎゃんぎゃんと騒ぐ声が
+トンネルに響き渡る。
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　道すがら静流先生が
+話してくれた所によるとことの真相はこうだ。
+<PAUSE>
+//【黒画面】
+//【背景：まえさき市工業地区＿トンネル＿夜】【時間：夜】
+<BG>nc046a,IN, 1000
+<ACTOR>1,sz_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「近頃、魔界の生物が違法に持ち込まれ、
+　売買される事件が増えてる……
+　ってことは知ってるわね」
+<PAUSE>
+//※立ち絵
+//　　静流通常立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ」
+<PAUSE>
+<NAME_PLATE>
+　さっきのブラッドドッグしかりだ。
+珍獣好きのマニアの間では、
+超高値で取引されることも珍しくない。
+<PAUSE>
+<ACTOR>1,sz_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「本当に魔界の生物を欲しているのは、
+　個人じゃなくて企業なのよ」
+<PAUSE>
+<ACTOR>1,sz_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「人間界に存在しなかった生物は、
+　新発見の宝庫だから」
+<PAUSE>
+<ACTOR>1,sz_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「まさに、金のなる木。特に、
+　バイオテクノロジーを開発している企業……
+　例えば製薬会社にとってはね」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど」
+<PAUSE>
+<NAME_PLATE>
+　その話を聞きつけたのが、
+この小悪魔二人だった。
+<PAUSE>
+<NAME_PLATE>
+　たまたま魔界のハチ型魔獣、
+通称“魔界ワスプ”。
+<PAUSE>
+<NAME_PLATE>
+　それを手に入れた彼女たちは、
+製薬会社に売り込んで一儲けしようと
+企んだのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「魔界ワスプ……人間界のハチが魔界で
+　独自の進化をしたものと言われていて」
+<PAUSE>
+<NAME_PLATE>俺
+「女王バチと働きバチがいるなど、
+　生態も普通のハチと似ている」
+<PAUSE>
+<NAME_PLATE>俺
+「働きバチは女王バチ・ワスプクィーンの
+　意のままに働く。その特性を利用し……」
+<PAUSE>
+<NAME_PLATE>俺
+「女王を捕獲しコントロール装置に
+　入れることで群れを自在に操ることも
+　できる……だったか」
+<PAUSE>
+<ACTOR>1,sz_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「ご名答。英語もそのくらい勉強してね♪」
+<PAUSE>
+<ACTOR>1,sz_t001b,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリム＆ミナサキ
+「勉強しろー！」「おバカふうま！！」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+//　　ミナサキ立ち絵
+<NAME_PLATE>俺
+「う……。つ、つまりおまえらは、
+　その魔界ワスプの群れとコントロール装置を
+　セットで企業に売り渡したと？」
+<PAUSE>
+<NAME_PLATE>リリム
+「そう！　頭いいでしょ？」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+<NAME_PLATE>ミナサキ
+「なかなかいい商売になりましたぜ、旦那ぁ」
+<PAUSE>
+//　※立ち絵
+//　　ミナサキ立ち絵
+<NAME_PLATE>俺
+「それがなんでこんな事態に
+　なってんだよ！？」
+<PAUSE>
+<NAME_PLATE>リリム
+「それはそのぅ……」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ちょーっと不具合がですね……」
+<PAUSE>
+<NAME_PLATE>静流
+「クィーンをコントロールする装置が
+　あっさり故障したのよね」
+<PAUSE>
+<NAME_PLATE>リリム
+「やっぱり、フリーマーケットで買った
+　炊飯器の改造品じゃ、駄目だったかな」
+<PAUSE>
+<NAME_PLATE>俺
+「………」
+<PAUSE>
+<NAME_PLATE>
+　とにかくそのせいで、
+制御を失った魔界ワスプたちは大暴走。
+<PAUSE>
+<NAME_PLATE>
+　企業の施設から逃げ出して、
+近くの街で夜な夜な暴れ、
+窓ガラスを割る被害を出している。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,h_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子たちが見た怪奇現象はそれだったのね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>0,h_t002a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,sz_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「今のとこ闇の街だけで済んでるけど、
+　表社会へ広がったりしたら大ニュースよ」
+<PAUSE>
+<NAME_PLATE>静流
+「製薬会社は慌てて、
+　地元ヤクザに魔界ワスプを追わせつつ、
+　諸悪の根源の二人を探していたってわけ」
+<PAUSE>
+<NAME_PLATE>俺
+「そこで巻き込まれたのが、俺か……」
+<PAUSE>
+<NAME_PLATE>
+　一方、製薬会社の動向を怪しんだ政府は、
+対魔忍に調査を依頼。
+<PAUSE>
+<NAME_PLATE>
+　静流はまずホステスとしてこの町に溶け込み
+遊びに来る社員たちから情報を
+引き出していた。
+<PAUSE>
+<ACTOR>0,sz_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「気の大きくなった男って、
+　お財布も口も緩くなるのよね」
+<PAUSE>
+<ACTOR>0,sz_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「ヤクザとの癒着、魔界生物の違法な購入。
+　たっぷりと情報をいただいたわ」
+<PAUSE>
+<NAME_PLATE>
+　あとは製薬会社が魔界ワスプを違法に
+入手し研究していた証拠を掴めば
+任務完了である。
+<PAUSE>
+<NAME_PLATE>
+　そんな中で小悪魔たちの情報を知り、
+地元ヤクザたちの衆目を俺に集めて、
+小悪魔たちを助けつつ監視していたという。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、どうしてお前らが魔界ワスプを
+　討伐しようとしてたんだ？」
+<PAUSE>
+<ACTOR>0,sz_t001a,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「あふたぁさーびす、だよ！」
+<PAUSE>
+<NAME_PLATE>リリム
+「それに今、大きな被害が出てないのは
+　クィーンが幼いからなの！」
+<PAUSE>
+<NAME_PLATE>リリム
+「クィーンが子供のうちは、
+　魔界蘭やユリの蜜を魔界ワスプが
+　集めるんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　ランか。なるほど、水商売の店ばかり
+突撃していたのも頷ける。奴らの目当ては店内に
+飾ってある花だったわけだ。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「でもね、クィーンが大人になると
+　お肉を食べるようになるし……」
+<PAUSE>
+<NAME_PLATE>俺
+「マジか………こんな町中で
+　肉食になるのはヤバそうだな」
+<PAUSE>
+<NAME_PLATE>静流
+「クィーンはあまり巣から離れないから、
+　この子の言う通り、まだ製薬会社の
+　実験森林にいると思うわ」
+<PAUSE>
+<NAME_PLATE>静流
+「でも敷地内に入ったら、目をつけられてる
+　二人は捕まるでしょ？」
+<PAUSE>
+<NAME_PLATE>静流
+「そこで町中を走り回って働きバチのほうを
+　狩ってたってわけ」
+<PAUSE>
+<NAME_PLATE>リリム
+「でも、キリがないからさあ……」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「クィーンさえやっつければ、
+　働きバチも勝手に死ぬんだ！
+　今のボクらには、親分がいるしね♪」
+<PAUSE>
+<NAME_PLATE>俺
+「だから親分はやめろと……。
+　しかし責任を取ろうという気はあるんだな。
+　思ったほど悪い奴らではないのか」
+<PAUSE>
+<NAME_PLATE>リリム
+「当たり前だよ！
+　馬鹿ふうまと一緒にするなよな！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「そーだそーだ！　馬鹿ふうま！
+　鼻毛ふうま！」
+<PAUSE>
+<NAME_PLATE>俺
+「むぐぐぐぐぐぐ……」
+<PAUSE>
+<NAME_PLATE>
+　腹の底からわき上がる、熱い何か。
+<PAUSE>
+<NAME_PLATE>俺
+「おのれ貴様ら……対魔忍に千五百年前より
+　伝わる秘伝の拷問で三枚に
+　おろしてやる……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム＆ミナサキ
+「ふぎい！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふふふうまちゃん、落ち着いて！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ri_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,sz_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「いくら対魔忍でもそんな秘伝ないわよ！」
+<PAUSE>
+<ACTOR>0,sz_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「ぜえはあ……う、うむ、
+　今はクィーンが先決だな……」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,sz_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section４-ＭＡＰ画面１へ

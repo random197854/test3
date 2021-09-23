@@ -1,0 +1,741 @@
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc066a,IN, 1000
+<ACTOR>0,chr_t0011a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜花
+「忍法・“飛び紫煙”！！」
+<PAUSE>
+//　※立ち絵
+//　　紫藤凜花
+//　　　　＊カードイラストより流用
+<GROUP>
+<SE_PLAY>se035
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ゴッ！
+ドガッ！
+<PAUSE>
+<NAME_PLATE>
+　凜花先輩の超硬質ナックルは、
+兵士たちの急所を的確に殴りつけ、
+一人また一人と倒していく。
+<PAUSE>
+<NAME_PLATE>特殊兵
+「くそ！
+　こいつ強いぞ！」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊兵（男）
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　凜花先輩の傍にはすでに無数の兵士、
+そして数台の多脚戦車も倒れていて、
+“鬼腕の対魔忍”の名にふさわしい強さだが。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m012a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m073a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<GROUP>
+<SE_PLAY>se036_02
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ダダダダダ！！
+ＧＡＧＡＧＡＧＡ！！！
+<PAUSE>
+//　※立ち絵
+//　　ＦＳＤキャンサー
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　XPS-11Aボーン
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>凜花
+「数が多すぎる！
+　一人じゃ無理だわ！」
+<PAUSE>
+<NAME_PLATE>
+　倒しても倒しても新たな兵士が現れる。
+信号で増援を呼んでいるのだろう。
+<PAUSE>
+<NAME_PLATE>
+　俺は加勢しようにも、
+沙耶を守るだけで精一杯だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（この騒ぎだ、蛇子と鹿之助もきっと気付く。
+　だが二人ばかり来てくれたところで、
+　この大兵力をどうやって……）
+<PAUSE>
+<ACTOR>3,chr_t0107a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>沙耶ＮＥＯ
+「ねえお兄ちゃん、ちょっとどいて」
+<PAUSE>
+//　※立ち絵
+//　　【報復娘】沙耶ＮＥＯ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「お、おい！？」
+<PAUSE>
+<NAME_PLATE>
+　沙耶は静かに、
+兵士たちの前へ進み出た。
+<PAUSE>
+<NAME_PLATE>特殊兵
+「覚悟したか。それでいいんだよ。
+　お前が大人しく投降するなら、
+　対魔忍どもは見逃してやるぞ」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「うーん、どうしよう……」
+<PAUSE>
+<NAME_PLATE>強化外骨格兵
+「悩んでいる場合か！
+　さっさと来い！」
+<PAUSE>
+<SE_PLAY>se040
+<NAME_PLATE>
+　数えきれない銃口を向けられながらも、
+沙耶は落ち着き払っている。
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「うーんっと……」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「嘘だよね。
+　お兄ちゃんやお姉ちゃんのこと、
+　絶対殺すでしょう？」
+<PAUSE>
+<NAME_PLATE>強化外骨格兵
+「嘘なものか。
+　ヘスティア様から、
+　対魔忍には寛大な措置をと言われている」
+<PAUSE>
+<NAME_PLATE>特殊兵
+「さあ、来い！　早く！
+　さっさとしないと、
+　またあの痛み信号を流すぞ！」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「わかった」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　沙耶は一歩、兵士たちの方に進み出る。
+しかし次の瞬間。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>ef005a,NONE
+<SE_PLAY>se032
+</GROUP>
+<NAME_PLATE>強化外骨格兵
+「ぐあ……っ？？」
+<PAUSE>
+<NAME_PLATE>
+　兵士は強化外骨格ごと、
+沙耶の触手に貫かれていた。
+<PAUSE>
+<BG>nc066a,IN, 500
+<ACTOR>3,chr_t0107a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>特殊兵
+「ば、馬鹿な……？
+　なぜ、効か……」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「ねえ、気付いてないの？
+　お姉ちゃんの大活躍で、
+　あの嫌な音を出す装置、全部壊れてるの」
+<PAUSE>
+<NAME_PLATE>特殊兵
+「う、そ、そんな……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>特殊兵
+「怯むな！　撃て！
+　――うっギャアアアっ」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「うふふふふ♪」
+<PAUSE>
+<NAME_PLATE>
+　また一体。そしてまた一体。
+淡々と貫かれて倒れていく装甲の兵士。
+軍団の士気は一瞬のうちに冷め切っていた。
+<PAUSE>
+<NAME_PLATE>特殊兵
+「ああ、あああ……」
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「アハハ！　弱い弱い！！！
+　ねえ知ってる？　弱いのは罪なんだよ！！」
+<PAUSE>
+<NAME_PLATE>俺
+（あれが沙耶ＮＥＯか……）
+<PAUSE>
+<NAME_PLATE>
+　その姿に、俺も背中が寒くなる。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>俺
+（いや、ビビってる場合か！
+　このチャンスを活かさない手はない！）
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　俺は怯んだ兵士たちの一角へ体当たりし、
+数人の兵士たちを昏倒させた。
+<PAUSE>
+<NAME_PLATE>俺
+（よし、ここを突破口に、
+　なんとか脱出して――）
+<PAUSE>
+<NAME_PLATE>
+　しかし。
+<PAUSE>
+<GROUP>
+<ACTOR>4,ts_m040a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se040
+</GROUP>
+<NAME_PLATE>特殊兵
+「だらしのない連中だな！
+　沙耶ＮＥＯの力は、
+　よく知っているハズだろうが！」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊兵（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　そこにあったのは銃口。
+タイミングが悪い事に、
+さらなる増援が到着したのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「嘘だろっ――」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se036_03
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ＢＡＲＡＴＡＴＡＴＡ！！！
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>4,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「くうッ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は授業で習った体術で、
+ギリギリ銃撃を回避。
+<PAUSE>
+<NAME_PLATE>凜花
+「ふうま！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　バゴォォン！！
+<PAUSE>
+<NAME_PLATE>
+　すると鬼腕が飛んできて、
+兵士を横から殴り飛ばす。
+凜花が助けてくれたのだ。
+<PAUSE>
+<NAME_PLATE>凜花
+「今よ！
+　先に行きなさい！」
+<PAUSE>
+<NAME_PLATE>俺
+「――っ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は倒れた兵士を跳び越えて、
+包囲を突破するが――
+<PAUSE>
+//SE：巨体（ロボ）が踏み出す音
+<GROUP>
+<ACTOR>5,ts_m012a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se103
+</GROUP>
+<NAME_PLATE>
+　ズンッ！！！
+<PAUSE>
+//　※立ち絵
+//　　XPS-11Aボーン
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「まだ来るか！！」
+<PAUSE>
+<NAME_PLATE>
+　新たな強化外骨格が俺の行く手を阻む。
+<PAUSE>
+<NAME_PLATE>俺
+（沙耶の言った通りだ、
+　俺たちもまとめて抹殺するつもりか）
+<PAUSE>
+<SE_PLAY>se040_02
+<NAME_PLATE>
+　ガヂャリと嫌な音をたてて、
+大きな銃口がこちらを向く。
+<PAUSE>
+<NAME_PLATE>俺
+（撃たれる！！）
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「お兄ちゃん！」
+<PAUSE>
+<NAME_PLATE>
+　間一髪。
+沙耶が触手をバネに、
+勢いよく跳んできた。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se023
+<ACTOR_OUT>5,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「痛っ！？」
+<PAUSE>
+<NAME_PLATE>
+　その力に、
+俺は数メートルほども吹っ飛ばされ、
+弾を逃れたが――
+<PAUSE>
+<GROUP>
+<SE_PLAY>se036_03
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ＢＡＲＡＤＡＤＡＤＡＤＡ！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>沙耶ＮＥＯ
+「きゃあアアアア！！！？」
+<PAUSE>
+<NAME_PLATE>
+　その弾丸は、俺の代わりに
+沙耶の身体に降り注いだ。
+<PAUSE>
+<NAME_PLATE>沙耶ＮＥＯ
+「うう、痛いよ！　痛い！！」
+<PAUSE>
+<NAME_PLATE>俺
+「沙耶っッ！？」
+<PAUSE>
+<NAME_PLATE>強化外骨格兵
+「よ、よし！！！　次はお前だ対魔忍！
+　……！？　な、なんだ！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、強化外骨格の顔に
+黒い液体がぶっかけられる。
+<PAUSE>
+<SE_PLAY>se036_03
+<WAIT>700
+<GROUP>
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　視界を失った煽りで、
+強化外骨格はあらぬ方向へ銃を発射。
+反動で、何人かの味方を巻き込んで倒れた。
+<PAUSE>
+<GROUP>
+<ACTOR>6,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ふうまちゃん！　大丈夫！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（タコ化）
+<NAME_PLATE>俺
+「蛇子！！
+　ナイスタコ墨だ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふ、ふうま！
+　危ないところだったな！
+　死んじゃうかと思ったぜー！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「絶妙なタイミングだな！　助かった」
+<PAUSE>
+<NAME_PLATE>蛇子
+「乱入できる雰囲気じゃなかったから、
+　タイミングを見計らってたのよ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「さっきの見てたけどさ、
+　どうしてターゲットが、
+　ふうまを庇ったんだ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「それは……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ターゲット。
+俺達の任務はこの沙耶を抹殺すること。
+<PAUSE>
+<NAME_PLATE>俺
+（ここで殺せば任務完了だ。
+　“Ｇ”に追われることもないだろう。
+　しかし――）
+<PAUSE>
+<ACTOR>7,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なに考え込んでるのふうまちゃん！
+　早く逃げるわよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……そうだな」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子、その娘を背負ってくれ！！！」
+<PAUSE>
+<ACTOR>7,h_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「えっ！？
+　だってこの娘は……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は戸惑ったが、
+血塗れでうずくまる沙耶を見て肯き、
+タコ足で拾い上げて背に負った。
+<PAUSE>
+<ACTOR>7,h_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「――わかったわ！
+　だけど蛇子は戦えなくなるわよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「とにかく逃げられればいい！
+　鹿之助！」
+<PAUSE>
+<ACTOR_OUT>7,CENTER,linear,1000
+<NAME_PLATE>鹿之助
+「はいはいっと！
+　――いっくぞ！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装（電気纏い）
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+</GROUP>
+<NAME_PLATE>
+　バヂバヂィッ！！！
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は混乱する兵士たちに向かって、
+電遁の術を一発。
+<PAUSE>
+<NAME_PLATE>
+　暗視装置など高度化され過ぎた
+兵士たちの視覚は、鹿之助の電気で乱れ、
+少しの間盲目に陥れる。さらに――
+<PAUSE>
+<ACTOR>8,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>黄泉秋津
+「“ヘキサグラム・スプレッド”！！」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津
+//　　　　＊カードイラストより流用
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　黄金色の閃光が兵士たちをなぎ倒し、
+俺達の前に道が開けた。
+<PAUSE>
+<NAME_PLATE>俺
+「秋津！　来てくれたのか！」
+<PAUSE>
+<NAME_PLATE>秋津
+「やっぱりあんたたちだけじゃ
+　頼りないからって、
+　マダムの依頼で来たの！」
+<PAUSE>
+<NAME_PLATE>秋津
+「別に心配してたわけじゃないから！
+　さ、逃げるわよ！」
+<PAUSE>
+<ACTOR_OUT>8,CENTER,linear,1000
+<ACTOR>0,chr_t0011a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜花
+「ふうま！」
+<PAUSE>
+<NAME_PLATE>俺
+「凜花先輩！
+　こっちは切り開けました！
+　逃げましょう！」
+<PAUSE>
+<NAME_PLATE>凜花
+「了解よ！」
+<PAUSE>
+//【黒画面】
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　こうして俺達は、
+米連“Ｇ”の包囲を逃れ、
+街中までやってきた。
+<PAUSE>
+//【背景：オフィス街＿夜】【時間：夜】
+//　※対魔忍紅_NC006bより流用
+<BGM_PLAY>bgm609,1000
+<BG>nc128b,IN, 1000
+<ACTOR>9,as_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>甲河アスカ
+「ご苦労さま」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　そこではアスカが待っていた。
+仮面女の使いだろう。
+<PAUSE>
+<ACTOR>9,as_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「まさか連れてきちゃうとはね。
+　ま、対魔忍とはいえ学生に、
+　抹殺任務は重いか……」
+<PAUSE>
+<ACTOR>9,as_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ここまでやってくれたら充分よ。
+　あとはこっちで処理するわ。
+　その娘を渡して」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、渡すつもりはない」
+<PAUSE>
+<ACTOR>9,as_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「は？」
+<PAUSE>
+<ACTOR_OUT>9,CENTER,linear,1000
+<GROUP>
+<ACTOR>6,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「どういうことだよふうま！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「まさかと思うけど、
+　ふうまちゃん……？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ。抹殺はやめだ。
+　五車に連れて帰る」
+<PAUSE>
+<ACTOR>6,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ま、マジかよ！？」
+<PAUSE>
+<ACTOR>7,h_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「はあ。そんな気はしてたわよね」
+<PAUSE>
+<NAME_PLATE>蛇子
+「その子、ふうまちゃんをかばって
+　そんな傷を負っちゃったんでしょ？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そんな子を、依頼だからって、
+　考えなしに殺せるほど、ふうまちゃんは
+　優秀な対魔忍じゃないものね」
+<PAUSE>
+<NAME_PLATE>俺
+「どういう意味だよ」
+<PAUSE>
+<ACTOR>7,h_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「褒めてるのよ？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の言うとおりだ。
+俺は、ひとりの少女として見てしまった、
+この沙耶を殺す勇気がない。
+<PAUSE>
+<NAME_PLATE>
+　だが、もうひとつ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（彼女は魔族として作られた存在だ。
+　そして俺の復活も、魔性によるもの。
+　それを危険だからと抹殺するのは……）
+<PAUSE>
+<ACTOR>8,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「どういうつもり？　ふうま。
+　依頼は反故にする気？」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「完全に反故にするつもりはない。
+　要は魔界のテクノロジーを
+　流出させなければ良いんだろ？」
+<PAUSE>
+<ACTOR>8,ak_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>9,as_t001f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「勝手な解釈で依頼内容を変えないでよね。
+　いいからターゲットを渡しなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「それはできない」
+<PAUSE>
+<ACTOR>9,as_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「はあ～～～……」
+<PAUSE>
+<NAME_PLATE>
+　アスカは深いため息をつく。
+<PAUSE>
+<GROUP>
+<ACTOR>9,as_t003f,RIGHT, RIGHT, NONE, linear, 0
+<SE_PLAY>se016
+</GROUP>
+<NAME_PLATE>アスカ
+「じゃあ、
+　力ずくで奪うしかないわね！」
+<PAUSE>
+<NAME_PLATE>秋津
+「ここまで手伝ってあげたのに、
+　本当バカね」
+<PAUSE>
+<NAME_PLATE>
+　アスカと秋津から、
+殺気が立ちのぼる。
+<PAUSE>
+<NAME_PLATE>
+　アスカと秋津の強さは桁違いだ。
+こちらは四人とはいえ、戦力では及ばず、
+手負いの沙耶を抱えている。
+<PAUSE>
+<NAME_PLATE>俺
+（どうするか……）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>8,LEFT,linear,1000
+<ACTOR_OUT>9,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0011a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜花
+「ふうま！　ここは私が抑える。
+　その子を連れて逃げなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「凜花先輩！？」
+<PAUSE>
+<NAME_PLATE>凜花
+「迷ってる暇はないわよ。
+　アサギ校長にはちゃんと説明するのよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「……ありがとうございます！」
+<PAUSE>
+<NAME_PLATE>
+　確かにここは全員で戦うより、
+まだ二人の相手をできる、
+凜花に足止めしてもらうのが得策。
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　俺たちは凜花先輩にお礼を言うと、
+一目散にそこから走りだした。
+<PAUSE>
+<ACTOR>0,chr_t0011a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>9,as_t003f,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>アスカ
+「あっこら！　待ちなさいよ！」
+<PAUSE>
+<NAME_PLATE>凜花
+「追わせないわ。
+　あなたの相手は私よ、お二人さん」
+<PAUSE>
+<NAME_PLATE>アスカ
+「対魔忍ってほんと呆れる！
+　仕事をなんだと思ってるわけ！？」
+<PAUSE>
+<NAME_PLATE>凜花
+「後輩にも何か思いがあるのよ。
+　あなたたちだって、何か思いがあるから
+　戦ってるんでしょう？」
+<PAUSE>
+<ACTOR_OUT>9,RIGHT,linear,1000
+<GROUP>
+<ACTOR>8,ak_t001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>秋津
+「ふん。人間ごときが、
+　私たち二人を足止めできると
+　思ってるの？」
+<PAUSE>
+<NAME_PLATE>凜花
+「思わなければ、
+　とっくに逃げてるわ。
+　さあ、来なさい！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>8,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section２終了

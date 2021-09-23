@@ -1,0 +1,243 @@
+//☆第三章//【Section３】シナリオ
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//=================================================================
+//【背景：幽霊城＿城内】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm319,1000
+<BG>nc032a,IN, 1000
+<ACTOR>0,sa_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「何者っ？！」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<ACTOR>0,sa_t002f,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,ts_m015a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m015a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「う……」
+<PAUSE>
+<NAME_PLATE>？？？
+「………」
+<PAUSE>
+//　※立ち絵
+//　　ふうま刺客立ち絵
+<NAME_PLATE>さくら
+「あれは…！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「権左の配下の奴ら！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　城門の影からゆらりと現れたのは、
+先日、山の上で権左とともにいた顔だ。
+<PAUSE>
+<NAME_PLATE>俺
+「気をつけろ！」
+<PAUSE>
+<NAME_PLATE>
+　しかし――
+<PAUSE>
+<NAME_PLATE>権左の部下
+「う、うう……」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m015a,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ts_m015a,RIGHT, RIGHT, OUT, linear, 500
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドサッ。
+<PAUSE>
+//　※立ち絵消える
+<NAME_PLATE>
+　権左の部下は戦うことなく、
+力尽きた様子で地面に倒れ込む。
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだ！？」
+<PAUSE>
+<GROUP>
+<ACTOR>1,sa_t002f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「この人、ずぶ濡れよ……
+　傷はないみたい、
+　術か何かでやられたのかしら……」
+<PAUSE>
+<ACTOR>1,sa_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふふーん、謎は解けた……あの槍オッサンと
+　私たち以外に敵がいるって事。
+　きっと幽霊だね♪」
+<PAUSE>
+<NAME_PLATE>
+　ますます不穏な事態だというのに、
+さくら先生は楽しそうである。
+<PAUSE>
+<NAME_PLATE>俺
+「幽霊はともかく……
+　他に敵がいるのは間違いなさそうだな。
+　蛇子！！！」
+<PAUSE>
+<ACTOR>2,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あいよ！！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<ACTOR>1,sa_t002a,LEFT, LEFT, NONE, linear, 0
+<ACTOR>2,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　さすが蛇子、俺の意図を察していたらしい。
+すばやく獣遁の術を使いタコ化していた。
+<PAUSE>
+<NAME_PLATE>
+　蛇子はタコの力を宿す事が出来る。
+侮る事なかれ、タコは様々な特殊な能力を
+持った恐るべき生物なのだ。
+<PAUSE>
+<NAME_PLATE>
+　その一つは吸盤の能力。タコの吸盤は臭いも
+嗅ぎ取る高性能センサー能力を備えている。
+<PAUSE>
+<NAME_PLATE>
+　蛇子は早速、
+タコ足をうねらせて辺りを探った。
+<PAUSE>
+<ACTOR>2,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「………！！
+　前方の暗闇より何者かが来るわ！！！」
+<PAUSE>
+<ACTOR>1,sa_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「蛇子ちゃんそれって！！？」
+<PAUSE>
+<ACTOR>2,h_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あ、いや、幽霊とかじゃないと思います……
+　さすがにタコに霊感ないですから……」
+<PAUSE>
+<NAME_PLATE>
+　目を輝かせたさくら先生の言葉を、
+蛇子はさくっと否定する。
+<PAUSE>
+<ACTOR>2,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「かといって、
+　人間とは限らないですけどね！」
+<PAUSE>
+<ACTOR>1,sa_t002d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,h_t004c,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>0,ts_m016a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>闇の侍女
+「あら、またお客様のようね」
+<PAUSE>
+//　※立ち絵
+//　　闇の侍女立ち絵
+<NAME_PLATE>
+　その言葉に応えるように、
+妖艶な美女が現れた。
+その身には微かな妖気が立ちのぼっている。
+<PAUSE>
+<NAME_PLATE>
+　人間では――ない。
+<PAUSE>
+<ACTOR>0,ts_m016a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m017a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>淫らな少女
+「すぐ“幻影”に惑わないなんて。
+　頑固な人間が多くて困っちゃう」
+<PAUSE>
+//　※立ち絵
+//　　サキュバス立ち絵
+<NAME_PLATE>
+　そして、闇に浮かび上がる白い肢体の
+美少女。悪魔の羽と角で、
+こちらも人間でないとわかる。
+<PAUSE>
+<NAME_PLATE>俺
+「幽霊……ってわけじゃ無さそうだな」
+<PAUSE>
+<NAME_PLATE>さくら
+「ちぇっ、幽霊じゃなくて魔族かぁ」
+<PAUSE>
+<NAME_PLATE>俺
+「魔族のお姉さん方か、
+　ここで何をしてるのかな？」
+<PAUSE>
+<NAME_PLATE>
+　まずは探りを入れる。
+敵と決まったわけではない。
+<PAUSE>
+<NAME_PLATE>闇の侍女
+「可愛い坊やね。
+　素敵なエナジーを持ってそう☆」
+<PAUSE>
+<NAME_PLATE>淫らな少女
+「女は殺し、このお兄ちゃんは
+　エナジーをもらうってことでどう？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん……モテモテね」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれだな……」
+<PAUSE>
+<NAME_PLATE>さくら
+「こいつらはサキュバスだね。
+　男の精を奪って生きる淫魔だよ」
+<PAUSE>
+<NAME_PLATE>俺
+「男の精を……」
+<PAUSE>
+<NAME_PLATE>
+　つまり、そういうコトをして精気を奪い、
+生きる力にするわけか。
+<PAUSE>
+<NAME_PLATE>俺
+（悪くない……いやいや）
+<PAUSE>
+<NAME_PLATE>
+　俺は頭を振った。
+誘惑されている場合ではない。
+<PAUSE>
+<NAME_PLATE>俺
+「その淫魔がどうしてこんなとこにいるんだ」
+<PAUSE>
+<NAME_PLATE>闇の侍女
+「さあ、どうしてかしらね？
+　あなたに出会うためかしら☆」
+<PAUSE>
+<NAME_PLATE>淫らな少女
+「私たちに屈服すれば、この世のものとは
+　思えぬ快楽を味わわせてあげる……
+　ずーっとね」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃんを
+　誘惑してんじゃないわよ……！？」
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫だ蛇子、俺は屈服するより、
+　させる方が好みなんだ。
+　というわけでここは強行突破するぞ！！！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３-ＭＡＰ画面１へ

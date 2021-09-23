@@ -1,0 +1,121 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//=================================================================
+//【背景：五車学園＿武道場＿昼】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm604,1000
+<BG>nc050a,IN, 1000
+<NAME_PLATE>
+　武道場――
+<PAUSE>
+<GROUP>
+<SE_PLAY>se020
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>秋山凜子
+「面！！」
+<PAUSE>
+//　※立ち絵
+//　　凜子通常立ち絵_対魔忍衣装
+<ACTOR>0,rn_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>教師
+「勝負あり！」
+<PAUSE>
+<NAME_PLATE>
+　二年生は、剣術の授業中。
+<PAUSE>
+<NAME_PLATE>
+　逸刀流の後継ぎでもある秋山凜子が、
+対戦相手から見事に一本を取り、
+クラスメイトたちの喝采をあびている。
+<PAUSE>
+<NAME_PLATE>教師
+「見事だ、秋山。今度の選抜はお前で決定だ」
+<PAUSE>
+<ACTOR>0,rn_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「はい……ありがとうございました」
+<PAUSE>
+<NAME_PLATE>
+　凜子が一礼すると、
+見学していた同級生が次々と駆け寄ってきた。
+<PAUSE>
+<NAME_PLATE>女子生徒１
+「凜子さんすごーい！！」
+<PAUSE>
+<NAME_PLATE>女子生徒２
+「転校してきたばかりなのに、
+　もう学年一よ！」
+<PAUSE>
+<NAME_PLATE>男子生徒１
+「今度の選抜試合が楽しみだね！
+　俺応援するから」
+<PAUSE>
+<NAME_PLATE>男子生徒２
+「不良の井河や馬鹿力の生徒会長も
+　やっつけてくれよ！」
+<PAUSE>
+<ACTOR>0,rn_t001k,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「いやあ、あはは……」
+<PAUSE>
+<SE_PLAY>se021
+<NAME_PLATE>
+　キーンコーン……
+<PAUSE>
+<ACTOR>0,rn_t001k,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>教師
+「お、昼だな。では本日はこれまで！」
+<PAUSE>
+<NAME_PLATE>生徒たち
+「「ありがとうございました」」
+<PAUSE>
+<NAME_PLATE>
+　用具を片づける凜子の周りにも、
+人の輪は絶えない。
+<PAUSE>
+<ACTOR>0,rn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女子生徒１
+「ねえねえ凜子さん、
+　一緒に食堂行きましょ！！」
+<PAUSE>
+<NAME_PLATE>女子生徒２
+「えっずるーい、
+　あたしが一緒に行くんだから！」
+<PAUSE>
+<NAME_PLATE>男子生徒
+「あ、秋山さん、ぼくたちと一緒に…！！」
+<PAUSE>
+<ACTOR>0,rn_t001j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「あ、えっと……ん？」
+<PAUSE>
+<ACTOR>0,rn_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　苦笑する凜子の視界の隅に、
+必死で走り抜ける男の姿が映った。
+<PAUSE>
+<NAME_PLATE>凜子
+「あれは……」
+<PAUSE>
+<NAME_PLATE>男子生徒
+「どうしたの秋山さん？」
+<PAUSE>
+<ACTOR>0,rn_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「すまない、ちょっと用事ができた……！」
+<PAUSE>
+<ACTOR>0,rn_t001c,CENTER, CENTER, OUT, linear, 300
+<NAME_PLATE>女子生徒１
+「あっ凜子さん！　どこ行くの！？」
+<PAUSE>
+<NAME_PLATE>女子生徒２
+「凜子さーん！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section１終了
+//☆第五章【Section２】シナリオ

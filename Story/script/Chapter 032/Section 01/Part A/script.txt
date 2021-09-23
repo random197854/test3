@@ -1,0 +1,768 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：魔界の荒野の屍＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc011cより流用
+//nc381a
+<BGM_PLAY>bgm314,1000
+<BG>nc381a,IN, 1000
+<NAME_PLATE>
+　冴え冴えとした月光の下。
+<PAUSE>
+<NAME_PLATE>
+　どことも知れぬ荒野。
+<PAUSE>
+<NAME_PLATE>
+　男が一人、魔人と戦っていた。
+<PAUSE>
+<ACTOR>0,b_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+//　※立ち絵
+//　　魔人ブラック戦闘立ち絵
+//　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　そう、それはまさしく
+魔人と呼ぶに相応しかった。
+<PAUSE>
+<NAME_PLATE>
+　血の色をした三つの瞳。
+<PAUSE>
+<NAME_PLATE>
+　闇よりもなお黒々とした巨体。
+<PAUSE>
+<NAME_PLATE>
+　そこから放たれる圧倒的な妖気。
+<PAUSE>
+<NAME_PLATE>
+　その周囲には無数の屍が転がっていた。
+<PAUSE>
+<NAME_PLATE>
+　魔人と闘い、散っていった者たちだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　残ったのは男ただ一人。
+<PAUSE>
+<NAME_PLATE>
+　だが、男に怯む様子はなかった。
+<PAUSE>
+<NAME_PLATE>
+　男は恐るべき魔人と
+互角の戦いを繰り広げていた。
+<PAUSE>
+<NAME_PLATE>
+　男の左目が銀色に輝くたび、
+時に業火が燃え上がり、時に雷撃がほとばしり
+時に漆黒の影が走り、
+<PAUSE>
+<NAME_PLATE>
+　時に魔人と互角の怪力を発揮し、
+時に致命傷を一瞬にして回復させ、
+時に光のごとき速さで駆け巡る。
+<PAUSE>
+<NAME_PLATE>
+　邪眼“魔門流儀”
+<PAUSE>
+<NAME_PLATE>
+　それが男の力だ。
+<PAUSE>
+<NAME_PLATE>
+　男は今まで奪った幾つもの能力を
+呼び覚まして使うことができる。
+<PAUSE>
+<ACTOR>0,b_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔人
+「――――――――」
+<PAUSE>
+<NAME_PLATE>
+　魔人が男に何か言った。
+<PAUSE>
+<NAME_PLATE>
+　だがその声は聞こえない。
+<PAUSE>
+<NAME_PLATE>
+　さっきからの闘いの音も何も。
+<PAUSE>
+<NAME_PLATE>
+　まるでサイレント映画のようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　魔人の四本の腕が持つ武器と
+男が次々と繰り出す力が激しくぶつかる。
+<PAUSE>
+<BG>nc381a,IN, 500
+<NAME_PLATE>
+　だが男は理解していた。
+このままでは勝てないと。
+<PAUSE>
+<NAME_PLATE>
+　左目の邪眼だけでは。
+<PAUSE>
+<NAME_PLATE>
+　ずっと閉じていた右目を開けていく。
+<PAUSE>
+<ACTOR>0,am_t010d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天宮紫水
+「お館くん、駄目」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵
+<NAME_PLATE>
+　音のない世界に響きわたる紫水の声。
+<PAUSE>
+<NAME_PLATE>紫水
+「その力は使ってはいけない。
+　私が戦う。お館くんを守る」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵（ガーディアン）
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,am_t011d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　紫水はガーディアンを呼び出し、
+“俺”の代わりに魔人と戦い始めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そう、男は俺だった。
+<PAUSE>
+<NAME_PLATE>
+　だがあれが俺なら
+ここでそれを見ている俺はなんだ？
+<PAUSE>
+<NAME_PLATE>
+　俺自身が同時に二人いるような
+奇妙な感覚。
+<PAUSE>
+<ACTOR>0,am_t010e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「っっっ！」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水_戦闘立ち絵
+<NAME_PLATE>
+　紫水のガーディアンが魔人に粉砕された。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　魔人が大剣を振りかぶる。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　駄目だ。
+<PAUSE>
+<NAME_PLATE>
+　させない。
+<PAUSE>
+<NAME_PLATE>
+　俺は右目を開く。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　ほとばしる黄金の光。
+<PAUSE>
+<NAME_PLATE>
+　それは魔人を、紫水を、
+そして見えているもの全てを
+呑み込んでいく。
+<PAUSE>
+<NAME_PLATE>
+　俺の視界も金色に染まり、
+世界の全ては一色に覆われていった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　………………
+<PAUSE>
+<NAME_PLATE>
+　………
+<PAUSE>
+//【イベントＣＧ：イベント＿時子】【時間：昼】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<EV>stv022a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>ふうま時子
+「お目ざめですか、お館様」
+<PAUSE>
+<NAME_PLATE>
+　俺を膝枕していた時子が微笑んだ。
+<PAUSE>
+<NAME_PLATE>
+　耳掃除をしてもらっていたのだが
+いつの間にか寝てしまったようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　不思議な夢を見た。
+<PAUSE>
+<NAME_PLATE>
+　初めて見る夢だ。
+<PAUSE>
+<NAME_PLATE>
+　でも、何度も見ているような。
+<PAUSE>
+<NAME_PLATE>
+　あの紫水も出てきた気がする。
+<PAUSE>
+<NAME_PLATE>
+　ええと、どんな夢だっけ？
+<PAUSE>
+<NAME_PLATE>
+　思い返そうとしたら、もう忘れていた。
+<PAUSE>
+<NAME_PLATE>
+　夢なんてそんなものだ。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様、私の膝枕はそんなに寝心地が
+　良かったですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そこそこ」
+<PAUSE>
+<NAME_PLATE>時子
+「そこそこですか、うふふ」
+<PAUSE>
+<NAME_PLATE>俺
+「もう耳掃除は終わったのか？」
+<PAUSE>
+<NAME_PLATE>時子
+「まだです」
+<PAUSE>
+<NAME_PLATE>
+　時子は竹の耳かきを
+クルクルと回しながら言った。
+<PAUSE>
+<NAME_PLATE>俺
+「まだ？
+　結構寝てたと思ったんだけど」
+<PAUSE>
+<NAME_PLATE>時子
+「お館様の寝顔が可愛かったので、
+　ついじっと見てしまって
+　耳掃除するのを忘れていました」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、起きたから続きを頼む」
+<PAUSE>
+<NAME_PLATE>時子
+「はい、眠かったら
+　また寝てもいいですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「それじゃいつまで経っても
+　終わらないだろ」
+<PAUSE>
+<NAME_PLATE>時子
+「そうですね、うふふ」
+<PAUSE>
+<NAME_PLATE>
+　時子が妙に楽しそうに
+耳掃除を再開しようとしたとき、
+<PAUSE>
+//【背景：五車町＿ふうま邸リビング＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC026aより流用
+<BG>nc081a,IN, 1000
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま天音
+「若、ご機嫌いかがですか？
+　ふうま天音、若のお好きなベル屋の栗饅頭を
+　買ってまいりました！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音立ち絵
+//　　　＊対魔忍ＲＰＧ初代カードイラスト表より流用
+<NAME_PLATE>
+　天音が突然、
+こっちもやけに楽しそうな様子で
+居間に入ってきた。
+<PAUSE>
+<NAME_PLATE>
+　そして俺たち、というより時子を見て
+いつものように顔色を変える。
+<PAUSE>
+<NAME_PLATE>天音
+「この淫乱女が、若に何をしている！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音立ち絵
+//　　　＊対魔忍ＲＰＧ初代カードイラスト表より流用
+<NAME_PLATE>時子
+「なにって耳掃除ですけど？」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+//　　　＊決戦アリーナの新時子立ち絵より流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「なに耳掃除！？　そんな膝枕でか！」
+<PAUSE>
+<NAME_PLATE>時子
+「耳掃除はこうするものですし。
+　ですよね、お館様？
+　いつもこうしてますよね？」
+<PAUSE>
+<NAME_PLATE>俺
+「……まあ、そうだな」
+<PAUSE>
+<NAME_PLATE>天音
+「そんな若！
+　くうう、なんて羨まし……。
+　いや、おのれ時子！」
+<PAUSE>
+<NAME_PLATE>天音
+「そうやっていつもいつも姉の立場を利用して
+　色仕掛けで若をたぶらかして、
+　この破廉恥執事が！」
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,t_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>時子
+「なんですか。
+　いきなり入ってきて
+　色仕掛けだの破廉恥だの失礼な」
+<PAUSE>
+<NAME_PLATE>
+　時子は乱入してきた天音と
+顔をくっつけそうになるほど
+向かい合う。
+<PAUSE>
+<NAME_PLATE>時子
+「そういうつもりなら
+　私も言わせてもらいます」
+<PAUSE>
+<NAME_PLATE>天音
+「ふん、実力不足のエロ執事に
+　なにが言えると言うんだ？」
+<PAUSE>
+<NAME_PLATE>
+　天音も負けてはいない。
+二人の視線が火花を散らす。
+<PAUSE>
+<NAME_PLATE>時子
+「そんなこと言っていられるのも
+　いまのうちですよ」
+<PAUSE>
+<NAME_PLATE>時子
+「私、知っているんですから。
+　あなたがあのリリムに頼んで―――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「うわああああああああああ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　時子の口からリリムの名が出た途端、
+天音がものすごい声を出した。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした天音？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,t_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0009a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「な、な、何でもありません若！
+　と、と、時子！　お前どこで知った！」
+<PAUSE>
+<NAME_PLATE>
+　目が泳ぎ、声が震えている。
+こんなに慌てた天音は初めて見る。
+<PAUSE>
+<NAME_PLATE>
+　時子はふふんと鼻で笑って、
+<PAUSE>
+<NAME_PLATE>時子
+「本人に聞きました。
+　あなたにこういうことを頼まれた」
+<PAUSE>
+<NAME_PLATE>時子
+「よかったら私もどう？
+　安くしとくよって言われたんです」
+<PAUSE>
+<NAME_PLATE>天音
+「あわわわわわ……」
+<PAUSE>
+<NAME_PLATE>時子
+「ええもちろん、しっっっっかりお灸を
+　据えておきました。誰だろうが
+　二度とそんなことをしないように」
+<PAUSE>
+<NAME_PLATE>時子
+「だから天音、
+　あんな夢はもう見られませんよ」
+<PAUSE>
+<NAME_PLATE>時子
+「いくら夢とは言え、
+　よくも人のことを破廉恥だなんて
+　言えたものですね」
+<PAUSE>
+<NAME_PLATE>
+　時子は腕組みして
+勝ち誇ったように天音を睥睨した。
+<PAUSE>
+<NAME_PLATE>
+　天音は俯いてブルブルと震えていたが、
+開き直ったように顔を上げて、
+<PAUSE>
+<NAME_PLATE>天音
+「う、うるさい！！
+　私がどんな夢を見ようが私の勝手だ！」
+<PAUSE>
+<NAME_PLATE>俺
+「夢ってリリムの夢か。
+　なんかいい夢でも見せてもらったの？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「な、な、なんでもありません、若！
+　お気になさらないでください！！」
+<PAUSE>
+<NAME_PLATE>時子
+「とか言ってますが、
+　聞いてください、お館様。
+　なんとこの天音は―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　時子が掌を唇に寄せて、
+ヒソヒソ声で話を始めると、
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「だ、黙れえ、時子！！」
+<PAUSE>
+<NAME_PLATE>天音
+「お前こそ若がビーチに行った時、
+　こっそり後を付けてたそうだな。
+　この変態ストーカー女め！」
+<PAUSE>
+<NAME_PLATE>
+　今度は時子が慌てる番だった。
+その顔がサーッと赤くなる。
+<PAUSE>
+<ACTOR>0,chr_t0009a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,t_t001h,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「だ、誰が変態ストーカー女ですか！
+　あれは執事として
+　お館様の健全な青春を守るためです！」
+<PAUSE>
+<NAME_PLATE>天音
+「あんなイヤらしい水着を着てか。
+　どうせ若を誘惑するつもりだったんだろう。
+　この色魔が！」
+<PAUSE>
+<ACTOR>1,t_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「なんであなたが水着のことまで
+　知ってるんです！！」
+<PAUSE>
+<NAME_PLATE>天音
+「お前のやることなどみんなお見通しだ！」
+<PAUSE>
+<NAME_PLATE>
+　いつものいざこざが始まった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　となると俺に出番はない。
+<PAUSE>
+<NAME_PLATE>俺
+「退散退散……」
+<PAUSE>
+<NAME_PLATE>
+　俺はこっそり居間から逃げ出した。
+<PAUSE>
+<NAME_PLATE>
+　せっかくなのでお土産の栗饅頭は
+貰っていくことにした。
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC025aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc056a,IN, 1000
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ライブラリー
+「二人ともまたやり合っているようですな」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺が家から出ると、
+お庭番のライブラリーが
+植木の手入れをしていた。
+<PAUSE>
+<NAME_PLATE>
+　中からギャンギャン言う声が聞こえるが
+よくあることなので平然としている。
+<PAUSE>
+<NAME_PLATE>俺
+「面倒だから逃げてきた。
+　俺は別宅に行ってくる。
+　後はよろしく」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「承知致しました」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　別宅とはふうま宗家の隠し館のことだ。
+管理は昔から災禍がしている。
+<PAUSE>
+<NAME_PLATE>
+　地下にふうま一族の書庫があり、
+小さい頃から俺の逃げ場所になっている。
+<PAUSE>
+<NAME_PLATE>俺
+「これ天音のお土産、一つどう？」
+<PAUSE>
+<NAME_PLATE>
+　天音のお土産の箱を開け、
+自分で一つ取って、ライブラリーにも勧める。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「ベル屋の栗饅頭ですな。
+　頂戴致します。うむ、美味い」
+<PAUSE>
+<NAME_PLATE>俺
+「栗がでかくて好きなんだよな。
+　災禍も好きだったし
+　持っていってやろうかなと」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「それは天音がまた嫉妬しますな」
+<PAUSE>
+<NAME_PLATE>俺
+「そっか、じゃあ内緒にしといて」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「畏まりました。
+　栗饅頭、もう一つよろしいですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、もちろん」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「ありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーは栗饅頭をもう一つ取り、
+また後で食べるつもりなのだろう、
+今はその包みを開けないまま言った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「ところでお館様、今、五車学園にはＤＳＯの
+　関係者が来ているそうです。
+　念のためお伝えしておきます」
+<PAUSE>
+<NAME_PLATE>俺
+「へえ、そうなんだ」
+<PAUSE>
+<NAME_PLATE>
+　アスカが来ているのだろうか。
+それともアンジェの定期報告だろうか。
+<PAUSE>
+<NAME_PLATE>俺
+「まあでも今日は学園に行く気はないよ。
+　ありがとう。なんかあったら連絡して」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「左様でございますか。
+　いってらっしゃいませ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ライブラリーが一礼し、
+俺は家を出た。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc056a,IN, 1000
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ライブラリー
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　主が去った後、
+対魔忍ライブラリーは背後の誰もいない場所に
+向かって小さく目配せをした。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　それで何の変化もなかったが、
+いつの間にか彼の手から栗饅頭が消えていた。
+<PAUSE>
+//【背景：都内某所道路＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC023bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm313,1000
+<BG>nc161a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　都内某所。
+<PAUSE>
+<NAME_PLATE>
+　深夜の高速道路を
+無数の影が疾っていた。
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「でやああああああああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　その一つから放たれた雷光が
+闇を切り裂く。
+<PAUSE>
+<BG>nc161a,IN, 500
+<ACTOR>0,chr_t0069a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>甲河アスカ
+「はっっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　それを鮮やかに躱す別の影。
+<PAUSE>
+<NAME_PLATE>
+　その二人の周りでも
+いくつもの影が交差し、離れてはまた近づく。
+そのたびに闇に火花が散った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　雷撃の対魔忍、水城ゆきかぜ。
+相対するは鋼鉄の死神、甲河アスカ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それぞれが率いる機動部隊が
+人知れず闘いを繰り広げていた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m013a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「甲河アスカ！
+　ここで会ったが百年目よ！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　＊対魔忍ユキカゼ２より立ち絵を流用
+//　　風遁衆(男)立ち絵
+//　　　＊決戦アリーナのモンスターイラストより流用
+//　　風遁衆(女)立ち絵
+//　　　＊決戦アリーナのモンスターイラストより流用
+//　※ゆきかぜを真ん中手前に風遁衆を左右に並べてください。
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0069a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「それはこっちのセリフ！
+　水城ゆきかぜ！
+　今日こそ決着をつけてやるわ！」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+//　　ドローン・ワスプ立ち絵
+//　　　＊決戦アリーナのモンスターイラストより流用
+//　　ドローン・ドッグ立ち絵
+//　　　＊決戦アリーナのモンスターイラストより流用
+//　※アスカを真ん中手前にドローンを左右に並べてください。
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ドローンはみんなに任せた。
+　あいつは私が仕留める！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0069a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「一騎打ちってわけね。
+　望むところよ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いったい二人にどんな因縁があるのか。
+いや、あったのか。
+<PAUSE>
+<NAME_PLATE>
+　雷撃の対魔忍と鋼鉄の死神が
+ついに激突した。
+<PAUSE>
+//→S102a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

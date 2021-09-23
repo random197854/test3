@@ -1,0 +1,2671 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：五車町＿ふうま邸前＿朝】【時間：朝】
+//　※対魔忍アサギZERO_NC025aより流用
+<BG>nc056a,IN, 1000
+<NAME_PLATE>
+　…………
+<PAUSE>
+<NAME_PLATE>
+　……………………
+<PAUSE>
+//【背景：五車町＿ふうま邸＿主人公の部屋＿朝】【時間：朝】
+//　※対魔忍アサギZERO_NC027aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc071a,IN, 1000
+<NAME_PLATE>俺
+「ふああ～～～、もう朝か」
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「おはようございます、ご主人様」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_和装メイド
+<NAME_PLATE>俺
+「うわっ……！
+　ああ、鶴か……おはよう」
+<PAUSE>
+<NAME_PLATE>鶴
+「おはようございます」
+<PAUSE>
+<NAME_PLATE>
+　出雲鶴（いずもつる）、
+俺の専属メイドが恭しく現れた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　先輩のこの人が
+押しかけメイドになって数日。
+朝はいつもこうだ。
+<PAUSE>
+<NAME_PLATE>
+　俺が起きるまで部屋の外に控えていて、
+目を覚ますなり世話をしようと入ってくる。
+<PAUSE>
+<NAME_PLATE>
+　夜は夜で俺がどれだけ夜更かししても、
+先に休もうとはしない。
+<PAUSE>
+<NAME_PLATE>
+　それでいて必ず俺より前に起きている。
+いったいいつ眠っているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　などと思っているうちに、
+鶴は持ってきた洗面具をテキパキと操り、
+たらいにお湯を張っている。
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様、どうぞお顔を」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　バシャバシャと顔を洗う。
+<PAUSE>
+<NAME_PLATE>
+　お湯は熱すぎず冷たすぎず
+ちょうど良い温度だ。
+<PAUSE>
+<NAME_PLATE>鶴
+「タオルでございます」
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　顔を拭くと、次は歯磨きだ。
+<PAUSE>
+<NAME_PLATE>
+　歯磨き粉を乗せた歯ブラシと、
+すすぎ用の冷水を入れたコップが
+すかさず差し出される。
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「どうぞ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ごしごしごしごし―――
+　ガラガラガラガラ―――ぺっ」
+<PAUSE>
+<NAME_PLATE>
+　さっきのたらいに水を吐き出し、
+口元をまた拭い、そのタオルを鶴に渡す。
+<PAUSE>
+<NAME_PLATE>
+　もう至れり尽くせりだが、
+ヨーロッパあたりの貴族じゃあるまいし、
+部屋でこんなことをするのは慣れない。
+<PAUSE>
+<NAME_PLATE>
+　鶴曰く、『朝の寒い洗面所に
+ご主人様を行かせるわけにはまいりません』
+だそうだ。
+<PAUSE>
+<NAME_PLATE>
+　最初は朝のトイレまで部屋ですませようと、
+やたら豪華な陶器のおまるまで用意していた。
+さすがにそれは遠慮したが。
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様、今日のお召し物は
+　こちらでよろしいでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「いいよ」
+<PAUSE>
+<ACTOR>0,tu_t004b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「どうぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「うん」
+<PAUSE>
+<NAME_PLATE>
+　鶴から新しい服を手渡され、
+寝間着から着替える。
+<PAUSE>
+<NAME_PLATE>
+　もちろん下着もだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>鶴
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　鶴は俺に気を遣って、
+さりげなく目を逸らしつつ、
+<PAUSE>
+<NAME_PLATE>
+　受け取った寝間着と、
+昨夜、寝る前に俺が脱いだ服を
+洗濯かごに入れていた。
+<PAUSE>
+<NAME_PLATE>
+　すぐ洗濯するつもりなのだ。
+別に二日三日くらい同じ服を着ても
+俺は構わないのだが。
+<PAUSE>
+<NAME_PLATE>
+　とか思っているうちに、
+鶴が聞いてくる。
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「すぐにお食事になさいますか？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうしようかな。
+　あ、持って来なくていいよ。
+　普通に食堂で食べるから」
+<PAUSE>
+<NAME_PLATE>鶴
+「ではあちらでお待ちくださいませ。
+　直ちに朝食の用意をさせていただきます。
+　卵はいくつで、なにになさいますか？」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ……二つ。ベーコンエッグで」
+<PAUSE>
+<NAME_PLATE>鶴
+「半熟でございますね」
+<PAUSE>
+<NAME_PLATE>俺
+「うん、よろしく」
+<PAUSE>
+<NAME_PLATE>鶴
+「畏まりました」
+<PAUSE>
+<NAME_PLATE>
+　鶴は恭しく頭を下げて
+部屋を出ていった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「なんだかなあ……」
+<PAUSE>
+<NAME_PLATE>
+　この暮らし、当分慣れそうにない。
+<PAUSE>
+//【背景：五車町＿ふうま邸＿若いさくらの部屋＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC030aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc107a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　朝食をとった後、
+俺はさくらの部屋でゲームをしていた。
+<PAUSE>
+<NAME_PLATE>
+　この前、買ったばかりの音ゲーで
+楽器のような専用コントローラーだけでなく、
+本物のギターを使ってもプレイできる。
+<PAUSE>
+<ACTOR>0,chr_t0204a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「よーし、スタート！」
+<PAUSE>
+//　※立ち絵
+//　　【そに子】若いさくら２
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　さくらがギター型コントローラーを
+キリッと構えた。
+<PAUSE>
+<NAME_PLATE>
+　曲は２期目が始まったＴＶアニメ、
+『対魔忍すーぱーそに子Ｒ』の主題歌、
+『ＺＥＴＴＡＩ！　わたしは対魔忍！』だ。
+<PAUSE>
+<NAME_PLATE>
+　子供向けアニメとは
+思えないほどのロックで、
+難易度もＳクラスなのだが、
+<PAUSE>
+<NAME_PLATE>さくら
+「イェイイェ～～イ♪」
+<PAUSE>
+<NAME_PLATE>
+　さくらは実に巧みな演奏で、
+どかどかとコンボを重ねていく。
+<PAUSE>
+<NAME_PLATE>さくら
+「音ゲーは耳じゃない、心でやるんだよー！
+　ほぅら、ふうまくん見て見て！！
+　いっくよーっ！　フィニーッシュ！」
+<PAUSE>
+<NAME_PLATE>俺
+「おお、すげえ」
+<PAUSE>
+<NAME_PLATE>
+　まさかのフルコンボだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「見たか、ハイスコアー！」
+<PAUSE>
+<NAME_PLATE>俺
+「くっそ、やるな」
+<PAUSE>
+<NAME_PLATE>さくら
+「えっへん。
+　センスの差だね、センスの差」
+<PAUSE>
+<NAME_PLATE>俺
+「プレイ時間の差だ。
+　人のゲームをどれだけ遊び倒してるんだ」
+<PAUSE>
+<NAME_PLATE>さくら
+「なはははは」
+<PAUSE>
+<NAME_PLATE>
+　さくらは照れくさそうにギターを下ろし、
+汗で額についた髪を拭った。
+<PAUSE>
+<NAME_PLATE>さくら
+「ふーーー、あっつ。
+　なんか喉渇いちゃった」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな。ちょっとお茶でも―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　飲もうか、と言おうとした瞬間、
+すかさず部屋の外から声がした。
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様、
+　お楽しみ中、失礼いたします。
+　冷たいお茶はいかがですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>さくら
+「おお、ナイスタイミング！
+　飲む飲むー」
+<PAUSE>
+<ACTOR>0,tu_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「失礼いたします」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_和装メイド_お茶
+<NAME_PLATE>
+　鶴がしずしずと入ってきた。
+//朝と違って今は和装メイド姿だ。
+<PAUSE>
+<NAME_PLATE>
+　お茶を淹れるその仕草はまるで
+茶道の先生のように鮮やかだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「わあ、綺麗な赤。
+　アイスのハイビスカスティー？」
+<PAUSE>
+<NAME_PLATE>鶴
+「左様でございます。
+　どうぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「……ありがとう」
+<PAUSE>
+<NAME_PLATE>さくら
+「鶴ちん、サンキュー」
+<PAUSE>
+<ACTOR>0,tu_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「また何かございましたら、
+　お申し付けくださいませ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　鶴は一礼して去っていく。
+<PAUSE>
+<ACTOR>0,chr_t0204a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「お申し付けくださいませって
+　こっちがなんか言う前に現れるね」
+<PAUSE>
+<NAME_PLATE>俺
+「……そうだな」
+<PAUSE>
+<NAME_PLATE>さくら
+「お茶もおいしー。
+　さっすが専属メイド」
+<PAUSE>
+<NAME_PLATE>俺
+「専属メイドなあ。
+　俺に尽くそうとしてくれる気持ちは
+　ありがたいんだけど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　少々度が過ぎている気がしないでもない。
+<PAUSE>
+<NAME_PLATE>
+　さくらがニヤニヤしながら言った。
+<PAUSE>
+<ACTOR>0,chr_t0204a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ちょーっとやりすぎ？　だよねー」
+<PAUSE>
+<NAME_PLATE>さくら
+「あんまりずっとそばに控えられてたら、
+　ふうま君もこっそり
+　変なこととかできないし」
+<PAUSE>
+<NAME_PLATE>さくら
+「あ、でも鶴ちんならそれもすかさず察して、
+　そういうときだけいなくなったりして、
+　にひひひ」
+<PAUSE>
+<NAME_PLATE>俺
+「アホか。そんな心配はしとらんわ。
+　お前こそ一人で変なことするときは
+　気づかれないようにしろよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「あはははははははははははははははははは
+　―――このセクハラ男！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼかっ。
+<PAUSE>
+//【背景：五車町＿ふうま邸リビング＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC026aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc081a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　主人とその居候に
+そんなことを言われていても、
+鶴はどこ吹く風だった。
+<PAUSE>
+<NAME_PLATE>
+　今は、洗濯を終えたばかりの
+ふうまの服にアイロンをかけ、
+一枚一枚丁寧にたたんでいる。
+<PAUSE>
+<ACTOR>0,tu_t006b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「フンフン、フフフ～～～～～ン♪」
+<PAUSE>
+<NAME_PLATE>鶴
+「お召し物、お召し物♪
+　ご主人様のお召し物～♪
+　みんなキレイになりました～♪」
+<PAUSE>
+//※立ち絵
+//　　出雲鶴カードＢ_和装メイド_洗濯物
+<NAME_PLATE>鶴
+「アイロンかけてたたみましょう～♪
+　みんなキレイにたたみましょう～♪」
+<PAUSE>
+<NAME_PLATE>
+　一人、歌など口ずさみながら、
+仕事をするその姿は心から楽しそうで、
+<PAUSE>
+<NAME_PLATE>
+　主人のために尽くすことが
+幸せでしょうがないという顔をしている。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,t_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0009a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そんな鶴を見つめる二人。
+ふうま天音とふうま時子だ。
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音1
+//　　　＊カードイラストより流用
+//　　新時子通常立ち絵＿秘書衣装
+//　　　＊決戦アリーナの新時子立ち絵より流用
+<BGM_PLAY>bgm509,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「あれはなんだ！？」
+<PAUSE>
+<NAME_PLATE>時子
+「……お館さまの専属メイドです」
+<PAUSE>
+<NAME_PLATE>
+　今にも噛みつきそうな目をした天音に、
+時子は若干の溜息混じりで言った。
+<PAUSE>
+<NAME_PLATE>天音
+「専属メイドだと！？」
+<PAUSE>
+<NAME_PLATE>時子
+「まあ自称ですけど……」
+<PAUSE>
+<NAME_PLATE>天音
+「馬鹿な！　お前という執事がいて、
+　いや私はお前の執事も認めていないが」
+<PAUSE>
+<NAME_PLATE>天音
+「その上、専属メイドなどという
+　破廉恥極まりない存在を許したのか！」
+<PAUSE>
+<NAME_PLATE>天音
+「おのれ時子、自分一人では飽き足らず、
+　あんな若い娘と二人がかりで
+　若をたぶらかすつもりか！」
+<PAUSE>
+<NAME_PLATE>時子
+「はぁ、一人で勝手に決めて
+　妙なことを言わないで下さい。
+　全然違います」
+<PAUSE>
+<NAME_PLATE>時子
+「私も専属メイドなんていらないと
+　思いますけど―――」
+<PAUSE>
+//※ポイント回想
+//※33章エピローグから鶴のセリフを流用
+//【黒画面】
+//　※回想切り替えの間
+//【背景：五車町＿ふうま邸リビング＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC026aより流用
+//　※場所は変わってません。同じリビングです。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc081a,IN, 1000
+<ACTOR>0,tu_t001a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>鶴
+「ご主人様はあの憎き外道の手から
+　鶴を救い出してくださいました」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_対魔忍を使用
+<NAME_PLATE>鶴
+「その大恩に報いるには、
+　もはやあなた様の専属メイドになる
+　ほか道はなく……」
+<PAUSE>
+<NAME_PLATE>鶴
+「すでに御庭番はおられるご様子。
+　ならば鶴は、メイドになるしかないと
+　固く心に決めております」
+<PAUSE>
+<NAME_PLATE>鶴
+「世間が何と申そうと、鶴は鶴」
+<PAUSE>
+<NAME_PLATE>鶴
+「『仇は倍返し、恩は百倍返し』
+　それが亡き母の遺言にて」
+<PAUSE>
+<ACTOR>0,tu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「もし鶴がいらぬと申されるならば、
+　恩を返すことが叶わぬならば、
+　ここは潔く腹をかっさばいて――」
+<PAUSE>
+//【黒画面】
+//　※回想切り替えの間
+//【背景：五車街＿主人公の家＿リビング＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC026aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc081a,IN, 1000
+<GROUP>
+<ACTOR>0,t_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0009a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>時子
+「とそんな感じで、
+　それでお館様も、まあ仕方なく……」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+//　　　＊決戦アリーナの新時子立ち絵より流用
+<NAME_PLATE>
+　困ったような時子の説明に、
+天音は憤怒の形相になった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「自害だと！？
+　若が人が好いのを利用して下劣な！？
+　この私が自害する前に抹殺してやる！！」
+<PAUSE>
+<NAME_PLATE>時子
+「最後まで話を聞いてください。
+　彼女は出雲鶴。母方の姓を名乗っていますが
+　佐郷文庫の娘さんです」
+<PAUSE>
+<NAME_PLATE>天音
+「なに？　つまりそれは？」
+<PAUSE>
+<NAME_PLATE>時子
+「ええ、そういうことです」
+<PAUSE>
+<NAME_PLATE>天音
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　天音は口を噤んだ。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鶴を見る目に変化が生じる。
+<PAUSE>
+<NAME_PLATE>
+　佐郷文庫の娘、
+つまり対魔忍ライブラリーの娘ということだ。
+<PAUSE>
+<NAME_PLATE>
+　だがライブラリー本人はその正体を隠し、
+娘にもその名を明かそうとしていない。
+<PAUSE>
+<NAME_PLATE>
+　二人ともそれを知っている。
+<PAUSE>
+<NAME_PLATE>
+　それだけではない。
+<PAUSE>
+<NAME_PLATE>
+　出雲鶴は例の連続殺人事件の生き残り、
+異常者、斉藤半次郎の犠牲者だった。
+<PAUSE>
+<NAME_PLATE>
+　手足を切断され、全身にピアスや刺青を
+入れられるという無残な姿で生かされ続け、
+ふうま小太郎に助けられたのだ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<GROUP>
+<ACTOR>0,t_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0009a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「それで若様に恩返しを」
+<PAUSE>
+<NAME_PLATE>時子
+「ええ……
+　暗闇から自分を救ってくれた礼だと」
+<PAUSE>
+<NAME_PLATE>天音
+「両手両足だったな」
+<PAUSE>
+<NAME_PLATE>時子
+「そうです」
+<PAUSE>
+<NAME_PLATE>天音
+「あの綺麗な顔は？
+　身体も傷つけられていたと聞くが？」
+<PAUSE>
+<NAME_PLATE>時子
+「皮膚移植で全て修復したとか」
+<PAUSE>
+<NAME_PLATE>天音
+「地獄の苦しみだったろうな」
+<PAUSE>
+<NAME_PLATE>時子
+「ええ……」
+<PAUSE>
+<NAME_PLATE>天音
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　天音は手袋で覆われた
+自分の義手をふと見た。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　元の腕を失ったときの痛み、
+義手を自在に使いこなせるように
+なるまでの苦しみ。
+<PAUSE>
+<NAME_PLATE>
+　それ以上の苦痛を味わったであろう
+鶴を改めて見直す。
+<PAUSE>
+<GROUP>
+<ACTOR>0,t_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0009a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>天音
+「そういうことなら仕方ない」
+<PAUSE>
+<NAME_PLATE>
+　天音はそう言って頷き、
+すぐに言い直した。
+<PAUSE>
+<NAME_PLATE>天音
+「いや、仕方なくはないが、
+　あの娘が若に恩返し以上のことをしないよう
+　お前がちゃんと監視をしておけよ」
+<PAUSE>
+<ACTOR>0,t_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「意外と物わかりがいいですね。
+　その調子で私が執事であることも
+　いい加減認めてくれませんか？」
+<PAUSE>
+<NAME_PLATE>天音
+「それは断る」
+<PAUSE>
+<NAME_PLATE>
+　天音はきっぱり言って
+部屋をずんずんと出て行こうとする。
+<PAUSE>
+<ACTOR>0,t_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「帰るんですか？」
+<PAUSE>
+<NAME_PLATE>天音
+「帰る」
+<PAUSE>
+<NAME_PLATE>天音
+「あの娘の事情は把握したが、
+　若のために尽くしてウキウキしている顔を
+　見たくはない」
+<PAUSE>
+<NAME_PLATE>時子
+「でしょうね、あなたは」
+<PAUSE>
+<NAME_PLATE>天音
+「ふん。
+　ちゃんと監視しておけよ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　天音はもう一度言い、去っていった。
+<PAUSE>
+<ACTOR>0,t_t001c,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>時子
+「困った人ですね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　天音か鶴か、どちらのことか分からないが、
+時子は溜息を吐いた。
+<PAUSE>
+<ACTOR>0,tu_t006b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「フフフン～～～～～♪」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_和装メイド_洗濯物
+<NAME_PLATE>
+　鶴は二人のやりとりなど全く気にせず、
+楽しそうに仕事を続けていた。
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC025bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc056b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――
+<PAUSE>
+//【背景：ふうま宗家屋敷＿脱衣所＿誰か使用＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC028bより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc057a,IN, 1000
+<NAME_PLATE>俺
+「い～～ざ～～～出動ぉ～～～♪
+　いちげきでクリアぁ～～～っと♪」
+<PAUSE>
+<NAME_PLATE>
+　夜になり、俺が風呂に入っていると、
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_和装メイド
+<NAME_PLATE>俺
+「うわっ、なに？　鶴？」
+<PAUSE>
+<NAME_PLATE>鶴
+「はい、ご主人様の忠実なメイド、
+　鶴にございます。失礼いたします」
+<PAUSE>
+//【背景：ふうま宗家屋敷＿お風呂＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC029bより流用
+//chrnc0304a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG>chrnc0304a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「え？　失礼？」
+<PAUSE>
+<SE_PLAY>se026
+<NAME_PLATE>
+　ガラガラガラ。
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_和装メイド
+<NAME_PLATE>
+　浴室のドアが開いて、
+鶴がいきなり中に入ってきた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ちょっ、なんで入ってくるんだ！」
+<PAUSE>
+<NAME_PLATE>
+　湯船に浸かっていた俺は
+慌てて股間を隠す。
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様にお仕えしてはや数日。
+　そろそろ背中をお流しさせて
+　いただこうと」
+<PAUSE>
+<NAME_PLATE>
+　鶴は当たり前のように言う。
+<PAUSE>
+<NAME_PLATE>俺
+「頼んでない頼んでない。
+　てか、そろそろってなんだよ」
+<PAUSE>
+<NAME_PLATE>鶴
+「ご遠慮なさらずに。
+　それともこの格好ではいけませんか？
+　では―――」
+<PAUSE>
+<NAME_PLATE>
+　と躊躇うことなく服を脱ごうとする。
+<PAUSE>
+<NAME_PLATE>俺
+「脱がなくていい脱がなくていい」
+<PAUSE>
+<NAME_PLATE>鶴
+「左様でございますか？
+　ではお背中はこの格好のままで？」
+<PAUSE>
+<NAME_PLATE>俺
+「そんなことしなくていいって
+　選択肢はないのか？」
+<PAUSE>
+<NAME_PLATE>鶴
+「ご安心くださいませ。
+　今ここでそれ以上のことをするつもりは
+　毛頭ございません」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうことじゃなくてな」
+<PAUSE>
+<ACTOR>0,tu_t004k,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「もちろん、ご主人様がお望みとあれば
+　別でございますが……」
+<PAUSE>
+<NAME_PLATE>
+　鶴はほんのり頬を染めて、
+恥ずかしそうに顔を伏せる。
+<PAUSE>
+<NAME_PLATE>
+　やたらと色っぽい上に、
+有無を言わさぬ勢いがある。
+<PAUSE>
+<NAME_PLATE>俺
+「いやそれも別に望んでないから。
+　身体くらい自分で洗うから
+　出ていっていいよ」
+<PAUSE>
+<ACTOR>0,tu_t004h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ああぁ……そんな……」
+<PAUSE>
+<NAME_PLATE>
+　鶴はえらいショックを受けた様子で、
+よよよと膝を折った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>鶴
+「なんということでしょう。
+　そのようなつれないお言葉」
+<PAUSE>
+<NAME_PLATE>鶴
+「いえ、ご主人様は悪うございません。
+　全ては鶴の不徳のいたすところ」
+<PAUSE>
+<NAME_PLATE>鶴
+「けれど命の恩人であるご主人様に
+　報いることができぬとあれば、
+　鶴はもはやここで自害するより他に―――」
+<PAUSE>
+<NAME_PLATE>俺
+「それももういいって……。
+　自害はやめてくれ、いやほんと」
+<PAUSE>
+<ACTOR>0,tu_t004h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「では、この先も鶴はご主人様に
+　お仕えしてもよろしゅうございますか？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、うん、よろしく頼むよ」
+<PAUSE>
+<NAME_PLATE>鶴
+「お背中をお流しさせていただけますか？」
+<PAUSE>
+<NAME_PLATE>俺
+「……じゃあ、
+　せっかくだから流してもらおうかな」
+<PAUSE>
+<ACTOR>0,tu_t004b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ああ、ご主人様！」
+<PAUSE>
+<NAME_PLATE>
+　鶴はひしっと両手を合わせて
+歓喜の笑みを浮かべた。
+<PAUSE>
+<NAME_PLATE>鶴
+「鶴は、幸せにございます！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだかなあ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はしっかり腰にタオルを巻いて、
+湯船から上がり、椅子に腰掛けた。
+<PAUSE>
+<NAME_PLATE>
+　まな板の上の鯉の気分だ。
+<PAUSE>
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「では、始めさせていただきます」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　鶴は木桶にお湯を取り、
+ボディスポンジをしっかりと泡立てて
+俺の背中にふわりと当てた。
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっ……おっ、ひゃう……」
+<PAUSE>
+<NAME_PLATE>
+　小さな頃ならともかく、
+こんなことをされるのは久しぶりだ。
+<PAUSE>
+<NAME_PLATE>
+　しかも擦り方がやたらと優しく、
+背中がもぞもぞする。
+<PAUSE>
+<NAME_PLATE>鶴
+「ウフフ……ご主人様、
+　そんなに動かないでくださいませ」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ちょっとそれ……くすぐったいぞ」
+<PAUSE>
+<NAME_PLATE>鶴
+「優しすぎましたか？
+　では、これくらいですか？
+　お背中ごしごし……キュキュキュ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「くぅっ……うっ……くう……」
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様の身体がフルフルしております。
+　とても感じやすいのですね」
+<PAUSE>
+<NAME_PLATE>俺
+「こ、こういう状況で
+　そういう言い方は止めてくれ！」
+<PAUSE>
+<NAME_PLATE>鶴
+「ウフフ、失礼いたしました。
+　痒いところがあったら
+　おっしゃってくださいまし」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「な、ないっ……くうっ」
+<PAUSE>
+//【背景：ふうま宗家屋敷＿脱衣所＿誰か使用＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC028bより流用
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm509,1000
+<BG>nc057a,IN, 1000
+<ACTOR>0,t_t001e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>時子
+「～～～～～～～～～っ」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+//　　　＊決戦アリーナの新時子立ち絵より流用
+<NAME_PLATE>
+　浴室の外では、
+時子が怖い顔をして中の様子を窺っていた。
+<PAUSE>
+<NAME_PLATE>
+　天音には鶴を
+とりなすようなことを言ったが、
+時子自身も彼女の振る舞いは気が気でない。
+<PAUSE>
+<NAME_PLATE>時子
+（いきなり浴室に入って背中を流すなんて、
+　アウトに片足を踏み込んでいます）
+<PAUSE>
+<ACTOR>0,t_t001h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+（私だって最近そんなことをしていないのに。
+　いえ、そうではなくて、
+　天音の懸念ももっともです）
+<PAUSE>
+<ACTOR>0,t_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+（この場にもし天音がいたら
+　昔みたいな悪鬼羅刹になっていますね。
+　執事の私だから我慢できているのです）
+<PAUSE>
+<NAME_PLATE>時子
+（しかし！）
+<PAUSE>
+<NAME_PLATE>時子
+（この先、もし彼女がお館様に
+　不埒なことを始めるようであれば、
+　問答無用で飛び込んで制止せねば）
+<PAUSE>
+<NAME_PLATE>時子
+（お館様の健全な青春は
+　この時子がお守り致します！）
+<PAUSE>
+<NAME_PLATE>
+　固く決意する執事であった。
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿点灯＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC025bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc056b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――
+<PAUSE>
+//【背景：五車町＿主人公の家＿主人公の部屋＿点灯＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC027bより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc071b,IN, 1000
+<ACTOR>0,tu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様、おやすみなさいませ」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_和装メイド
+<NAME_PLATE>俺
+「ああ、お休み」
+<PAUSE>
+<NAME_PLATE>俺
+「別に朝までずっとこの部屋の外で
+　控えてなくていいから。
+　ちゃんと自分の部屋で寝てくれ」
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様のお心遣いに感謝致します。
+　なにか御用がございましたら
+　それでお呼びくださいませ」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、うん、ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　それとは
+鶴の部屋につけた呼び出しベルを
+鳴らすスイッチだ。
+<PAUSE>
+<NAME_PLATE>
+　最初の日にもらったが、
+まだ一回も使ったことはない。
+<PAUSE>
+<NAME_PLATE>鶴
+「では、また明日。
+　おやすみなさいませ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　もう一度言って、
+鶴は俺の部屋を去っていった。
+<PAUSE>
+<NAME_PLATE>俺
+「ふああ、なんか妙に疲れたな。
+　とっとと寝よう……」
+<PAUSE>
+//【背景：五車町＿主人公の家＿主人公の部屋＿消灯＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC027cより流用
+<UI_DISP>OFF, 500
+<BGM_STOP>1000
+<BG>nc071c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　部屋の灯りが消え、
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿消灯＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC025cより流用
+<BG>chrnc0160a,IN, 1000
+<NAME_PLATE>
+　家の全ての灯りが消えた。
+<PAUSE>
+<NAME_PLATE>
+　………………
+<PAUSE>
+<NAME_PLATE>
+　…………
+<PAUSE>
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：五車町＿主人公の家＿主人公の部屋＿消灯＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC027cより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc071c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　真夜中。
+<PAUSE>
+<NAME_PLATE>
+　音もなく忍び寄る人影。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,tu_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_タオル
+<NAME_PLATE>時子
+「お待ちなさい」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+//　　　＊決戦アリーナの新時子立ち絵より流用
+<ACTOR>0,tu_t003d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鶴
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　いきなり背後から声をかけられ、
+鶴はギクリとした。
+<PAUSE>
+<ACTOR>0,tu_t003c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,t_t002e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>時子
+「ここはお館様のお部屋です。
+　こんな夜更けにそんな格好でなにか？」
+<PAUSE>
+<NAME_PLATE>
+　完全に気配を殺し、
+暗闇に潜んでいたのは時子だった。
+<PAUSE>
+<NAME_PLATE>
+　しかも対魔忍スーツで完全武装である。
+<PAUSE>
+<NAME_PLATE>
+　対する鶴は、裸にタオルを巻いただけ。
+だが彼女は顔色一つ変えず言った。
+<PAUSE>
+<NAME_PLATE>鶴
+「失礼致しました。
+　寝る前にお湯を頂いていたのですが、
+　暗かったので部屋を間違えてしまいました」
+<PAUSE>
+<NAME_PLATE>時子
+「だと思いました。
+　慣れないメイド仕事で疲れたのでしょう」
+<PAUSE>
+<NAME_PLATE>時子
+「今夜のお館様の警護は私がつとめます。
+　あなたも早くおやすみなさい」
+<PAUSE>
+<NAME_PLATE>鶴
+「はい、失礼致します」
+<PAUSE>
+<NAME_PLATE>
+　鶴は一礼して引き下がったが、
+<PAUSE>
+<NAME_PLATE>鶴
+「……ちっ」
+<PAUSE>
+<NAME_PLATE>
+　ほんの微かな。
+だが時子に聞かせるためとしか
+思えない舌打ち。
+<PAUSE>
+<NAME_PLATE>時子
+「なにか？」
+<PAUSE>
+<NAME_PLATE>鶴
+「なんでもございません。
+　おやすみなさいませ、時子様」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　専属メイドＶＳ執事。
+<PAUSE>
+<NAME_PLATE>
+　その夜は執事の勝ちであった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――
+<PAUSE>
+//【背景：ゲームイベント会場外＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC038aより流用
+//nc392a
+<BGM_PLAY>bgm502,1000
+<BG>nc392a,IN, 1000
+<NAME_PLATE>俺
+「やってきました。ＴＥＦ！」
+<PAUSE>
+<ACTOR>0,tu_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「はい、ご主人様」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_対魔忍
+<NAME_PLATE>俺
+「よし行くぞ、鶴！」
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様。
+　こんな人混みで走ると
+　危のうございます」
+<PAUSE>
+<NAME_PLATE>俺
+「ははは、これでも対魔忍だ。
+　ノロノロしてると置いてくぞ！
+　ビバ、ＴＥＦ!」
+<PAUSE>
+<ACTOR>0,tu_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ご主人様、お待ちください！」
+<PAUSE>
+//【背景：ゲームイベント会場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC039aより流用
+//nc393a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc393a,IN, 1000
+<NAME_PLATE>
+　その日、俺は鶴と連れだって
+東京のある街に出てきていた。
+<PAUSE>
+<NAME_PLATE>
+　ここで開催されるゲームイベント。
+東京・エンターテイメント・フェスティバル、
+通称ＴＥＦ（テフ）を見るためだ。
+<PAUSE>
+<ACTOR>0,tu_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして鶴を外に出すためでもある。
+<PAUSE>
+<NAME_PLATE>
+　鶴は手足をサイボーグ化して
+その長いリハビリも終わって、
+やっと自由に行動できるようになった。
+<PAUSE>
+<NAME_PLATE>
+　だがすぐに自分から俺の専属メイドになり、
+毎日毎日ひたすら俺のために尽くしている。
+<PAUSE>
+<NAME_PLATE>
+　それはありがたいと思うが、
+少しは自分の時間も作って欲しい。
+<PAUSE>
+<NAME_PLATE>
+　しかし、何かやりたいことや
+どこか行きたい場所はないかと聞いても、
+<PAUSE>
+<NAME_PLATE>
+　『やりたいことはご主人様につくすこと。
+行きたい場所はご主人様のおそばです』
+とくる。
+<PAUSE>
+<NAME_PLATE>
+　ならば、俺がどこかに連れていくしか
+ないではないか。
+<PAUSE>
+<NAME_PLATE>
+　しかし鶴は元々は俺の先輩、
+つまり年上。
+<PAUSE>
+<NAME_PLATE>
+　年上の女性が喜ぶような場所など
+俺が知るわけもない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だからＴＥＦに連れてきた。
+<PAUSE>
+<NAME_PLATE>
+　年頃の年上の女性を連れてくるのに
+相応しいかとかは気にしないことにする。
+<PAUSE>
+<NAME_PLATE>俺
+「サムストまた新作出るのか！
+　うわっ、グラすっげーー。
+　超やりてーー！」
+<PAUSE>
+<ACTOR>0,tu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様とても楽しそうですね。
+　目がキラキラしてらっしゃいます」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＢ_対魔忍
+<NAME_PLATE>俺
+「そりゃあな！
+　去年は任務なんだでドタバタして
+　来れなかったからな！」
+<PAUSE>
+<NAME_PLATE>俺
+「鶴もなんかやりたいゲームとかあるか？
+　あったら言ってくれ」
+<PAUSE>
+<ACTOR>0,tu_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「鶴はご主人様のお世話以外に
+　興味はございません」
+<PAUSE>
+<NAME_PLATE>
+　鶴は恭しく頭を下げた。
+<PAUSE>
+<NAME_PLATE>
+　その優雅な仕草はメイドそのもので、
+色々なコスプレキャラがいる会場でも目立つ。
+<PAUSE>
+<ACTOR>0,tu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　返事も予想通りだ。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃああっちのブースに行ってみよう。
+　ギガフォースＺがプレイできるらしい」
+<PAUSE>
+<NAME_PLATE>鶴
+「有名なゲームなのですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「名前だけはな。
+　でも最近まで幻と言われてたんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「伝説の天才プログラマー、
+　リーザン・イレベッグが残したと
+　言われていたシューティングでさ」
+<PAUSE>
+<NAME_PLATE>俺
+「彼が手がけた１３のゲームを
+　全てインストールしてなんかすると現れる
+　イースターエッグって噂だったんだけど」
+<PAUSE>
+<NAME_PLATE>俺
+「つい最近まで起動条件が分からなくて、
+　都市伝説とか言われてたんだ。
+　それがやっと分かったんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ギガフォースＺの“Ｚ”はもうこの先は
+　ない。シューティングはこれで終了って
+　意味で、実際とんでもないゲームらしくて」
+<PAUSE>
+<NAME_PLATE>鶴
+「………………」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ごめん。
+　こんな話つまんないか？」
+<PAUSE>
+<NAME_PLATE>鶴
+「いえ、とても面白いですわ。
+　もっと聞かせてくださいませ」
+<PAUSE>
+<NAME_PLATE>俺
+「そう？
+　でね、このＺが発見された経緯が
+　また興味深くて―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「あ、ふうまじゃない♪
+　ふうまふうまーー！！」
+<PAUSE>
+<NAME_PLATE>
+　聞き覚えのある声に振り返ると、
+ゆきかぜがこっちにやって来る。
+<PAUSE>
+<ACTOR>0,chr_t0112a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「やっぱりあんたも来たのね♪」
+<PAUSE>
+//　※立ち絵
+//　　【雷撃の新学期】水城ゆきかぜ立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「お前も来てたか。
+　はは、そりゃ来るよな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私はあんたと違って呼ばれたの。
+　メインイベントでＣＯＢ：ＭＷの
+　大会やるでしょ？　その招待選手」
+<PAUSE>
+<NAME_PLATE>俺
+「へえ、さすがだな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まあねー。
+　招待されたからには
+　バシッと優勝してみせるから」
+<PAUSE>
+<NAME_PLATE>俺
+「頑張れよ。
+　そういやお前、Ｚやったか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ギガフォース？　やったやった。
+　もうすごかった。
+　ぞわああって鳥肌立っちゃった」
+<PAUSE>
+<NAME_PLATE>俺
+「そんなにか」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「絶対やっとかないと後悔する。
+　ふうま来て正解。
+　さくらは？　来てないの？」
+<PAUSE>
+<NAME_PLATE>俺
+「またバイトだとさ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うっわ、かわいそ」
+<PAUSE>
+<NAME_PLATE>俺
+「やたらとシフトを入れるからだ。
+　自業自得だ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「普段ふうまにたかってるくせに
+　なにそんなにお金使ってるんだろ？」
+<PAUSE>
+<NAME_PLATE>俺
+「知らん。
+　化粧品とかじゃないか。
+　なんか欲しいものがあるとか言ってた」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あーー、さすがにそれはふうまに
+　お金出してもらいたくはないかな。
+　いくらさくらでも、あはは」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはカラカラと笑っていたが、
+<PAUSE>
+<NAME_PLATE>鶴
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　俺の後ろから鶴がじっとりと
+見ているのに気づいて声をひそめた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「もしかして噂の鶴先輩？
+　なにあのカッコ？　コスプレ？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、仕事着だ。
+　うちの……というか
+　俺の専属メイドになって……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「はア！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　素っ頓狂な声を上げるゆきかぜに
+なぜか鶴はぐいと一歩踏み出した。
+<PAUSE>
+<ACTOR>0,tu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「毎日、ご主人様のお背中を
+　お流ししています」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ちょっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0112a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はああア！？
+　あんた何考えてんのよ！？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはいきなり俺の頭を抱えて、
+拳でグリグリし始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「痛い痛いやめろって。
+　ちょっと事情があるんだよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いったいどんな事情よ！
+　よりによって先輩をメイドにして
+　毎日背中流させてるなんて、この変態！」
+<PAUSE>
+<NAME_PLATE>鶴
+「…………っ！」
+<PAUSE>
+<NAME_PLATE>
+　なんだか鶴の気配が怖くなっていく。
+ちょっとマズいのではと思っていると、
+<PAUSE>
+<NAME_PLATE>場内アナウンス
+「招待選手の水城様、水城様、
+　大会メイン会場までお越しくださいませ。
+　繰り返します。招待選手の―――」
+<PAUSE>
+<NAME_PLATE>俺
+「おい、なんか呼ばれてるぞ。
+　お前のことじゃないのか？
+　もう大会が始まるんじゃないのか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ああもう、分かってるわよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「この話はあとでゆーーっくり
+　聞かせて貰うから。じゃね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　ゆきかぜは俺の頭を離すと、
+プンプンしながら走り去っていた。
+<PAUSE>
+<ACTOR>0,tu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　鶴は無言でそれをじっと見ていたが、
+<PAUSE>
+<NAME_PLATE>鶴
+「お仲がよろしいようですが……」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか？」
+<PAUSE>
+<NAME_PLATE>鶴
+「あのようなバストでは
+　ご主人様のご期待にそえないと
+　鶴は思います」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えええ！？」
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様がどうしてもあの女を望まれるなら
+　肉体を散々貪った挙句、
+　お捨てになることをお勧めします」
+<PAUSE>
+<NAME_PLATE>
+　なにかとんでもないことを
+言いだしている。
+<PAUSE>
+<NAME_PLATE>
+　これはヤキモチか？
+ヤキモチを焼いているのか？
+<PAUSE>
+<NAME_PLATE>俺
+「あはは……」
+<PAUSE>
+<NAME_PLATE>
+　もう笑って誤魔化すしかない。
+<PAUSE>
+<NAME_PLATE>俺
+「とりあえず向こう行こう。な？」
+<PAUSE>
+<NAME_PLATE>鶴
+「承知致しました」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はゆきかぜが行った方向とは逆に
+鶴を連れて歩き出した。
+<PAUSE>
+//【黒画面】
+//　※視点切り替えのための間
+//【背景：ゲームイベント会場＿昼】【時間：昼】
+//**　※対魔忍アサギZERO_NC039aより流用
+//nc393a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm502,1000
+<BG>nc393a,IN, 1000
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ドロレス
+「ほ、本物のご主人様にメイドがいた。
+　さ、さすがゲーム大会。
+　いろんなのがいる、うひひ」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ピンクをメインにしたキュートな装いとは
+アンバランスな笑みを浮かべる少女。
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士イングリッドの遠縁にして
+地下都市ヨミハラの引きこもり魔族、
+ドロレスだった。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「一緒にいた褐色貧乳美少女。
+　しょ、招待選手って言ってたな。
+　だ、誰だろ？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ミズキ？　し、知らない名前。
+　でもすごく可愛かった」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「サ、サイン貰えば良かったかな。
+　でも、いきなりサインちょうだいとか、
+　く、空気読めなさすぎ、むりぽ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「だけど、ここ楽しい。すごく。
+　が、頑張って外に出てきた甲斐があった。
+　ＴＥＦ、マジやばい」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「リーナとはぐれちゃったし、
+　ノマドのみんなが勧めてくれたこの服は
+　すごく恥ずかしいけど……」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは周囲から身を隠すように
+身体を縮めてスマホを弄りだした。
+<PAUSE>
+<NAME_PLATE>
+　保護者であるイングリッドと、
+ノマドの僅かな友人たちを除けば、
+<PAUSE>
+<NAME_PLATE>
+　アンダーグラウンドネットだけが
+世間との繋がりの彼女だが、
+大のゲーム好きでもある。
+<PAUSE>
+<NAME_PLATE>
+　どうしてもこのイベントに来たくて、
+なけなしの勇気を振り絞って、
+数年ぶりにヨミハラの外に出たのだった。
+<PAUSE>
+<NAME_PLATE>
+　余所行きの服などないので、
+ノマドの女戦士たちに服を決めてもらい、
+というか着せ替え人形にされ、
+<PAUSE>
+<NAME_PLATE>
+　一人ではやっぱり無理なので、
+リーナに一緒に来てもらったのだが、
+<PAUSE>
+<NAME_PLATE>
+　世界中から集まったゲーマーで
+会場は大混雑。
+いつの間にかはぐれてしまった。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ダ、ダメだ。繋がらない。
+　スマホ切ってるのかな？
+　ど、ど、どうしよう？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「こ、ここでじっとしててもしょうがないし
+　ひ、ひ、一人でもうちょっと
+　見て回ろうかな。もっとゲームやりたい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　スマホでイベントの案内を見ながら、
+危なっかしく歩き始めたドロレスだったが、
+<PAUSE>
+<NAME_PLATE>？？？
+「あ、ドロレスさんじゃないですか。
+　ドロレスさんドロレスさーん！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「ひっっ、私を呼ぶ声？
+　まさかの知り合い？　ストーカー？
+　だ、だ、だ、誰？」
+<PAUSE>
+<NAME_PLATE>
+　こういう場所ではたとえ知り合いでも
+会いたくない、むしろ普通に逃げたい、
+プライベートを邪魔されたくない。
+<PAUSE>
+<NAME_PLATE>
+　しかも彼女が苦手とする陽キャっぽい声。
+コミュ障のドロレスは挙動不審になった。
+<PAUSE>
+<NAME_PLATE>リリス
+「私ですよー！
+　リリス・アーベル・ビンダーナーゲルです」
+<PAUSE>
+<ACTOR>0,ex_t0004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「こっちですこっちです。
+　ドロレスさーん！」
+<PAUSE>
+//　※立ち絵
+//　　【エアコミケ２】リリス
+//　　　＊カードイラストより流用
+<NAME_PLATE>ドロレス
+「リ、リリス？」
+<PAUSE>
+<NAME_PLATE>
+　彼女を呼んでいたのは、
+ノマド以外の数少ない友人だった。
+<PAUSE>
+<NAME_PLATE>
+　伝説の大魔女リリスの孫娘で、
+彼女の名を継いで二代目リリスとなるべく、
+魔女修行の旅を続けているはずだが、
+<PAUSE>
+<NAME_PLATE>
+　なぜかチアガールの格好をして、
+企業ブースでポンポンを振っていた。
+<PAUSE>
+<NAME_PLATE>
+　彼女の使い魔、本当は神殺しの龍だそうだが
+リリスはただの喋れる白い犬といって憚らない
+ベリリクもポンポンを振らされていた。
+<PAUSE>
+<ACTOR>0,ex_t0004a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「な、なにしてんの？」
+<PAUSE>
+<NAME_PLATE>リリス
+「新作のワンちゃん育成ゲーム
+　『わんわんブリーダー大パニック』の
+　販促のお手伝いです」
+<PAUSE>
+<NAME_PLATE>リリス
+「人間界ではゲームは制作者さんたちの
+　血と汗と涙とその他諸々の欲望の
+　結晶と聞きました」
+<PAUSE>
+<NAME_PLATE>リリス
+「それに関わることは必ずや
+　私の魔女修行の役に立つはずです。
+　ですよね、ベリリク？　ワンワン♪」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、それほんと？」
+<PAUSE>
+<NAME_PLATE>ベリリク
+『いや、色々と見失っている気がする。
+　今に始まったことではないが。
+　あとそのワンワンはやめてくれ』
+<PAUSE>
+<NAME_PLATE>リリス
+「こんなところでドロレスさんに
+　会えるなんてビックリです」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ゲ、ゲーム、好きだから」
+<PAUSE>
+<NAME_PLATE>リリス
+「そういえばよくスマホでやってましたね」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「パ、パソコンでも。
+　あと、コンシューマーでもやってる。
+　ゲーム機、ぜ、全部持ってるし」
+<PAUSE>
+<NAME_PLATE>リリス
+「わっ、すごいですね！」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ゲーム好きなら、ふ、普通だよ」
+<PAUSE>
+<NAME_PLATE>リリス
+「そうなんですか。
+　それにしても今日のドロレスさんは
+　とっても可愛い格好をしてますねー」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、そう？
+　ノマドのみんなが選んでくれたんだけど、
+　なんか、に、似合ってなくない？」
+<PAUSE>
+<NAME_PLATE>リリス
+「そんなことありませんよ。
+　とってもとってもキュートです。
+　ねえ、ベリリク？」
+<PAUSE>
+<NAME_PLATE>ベリリク
+『とても愛らしいな。見違えたぞ』
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あ、ありがと……ウェヒヒ」
+<PAUSE>
+<NAME_PLATE>
+　二人に手放しで褒められ、
+ドロレスはモジモジと赤くなった。
+<PAUSE>
+<NAME_PLATE>リリス
+「そんなお洒落をするということは、
+　ひょっとしてデートですか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「こ、この私がデ、デ、デ、デートとか
+　そ、そんなわけないし。
+　一緒に来たのはリーナとだし」
+<PAUSE>
+<NAME_PLATE>リリス
+「えっ？　リーナさんも来てるんですか？
+　どこですか？」
+<PAUSE>
+<NAME_PLATE>
+　リーナはリリスのとても古い友達。
+というか戦友だ。
+<PAUSE>
+<NAME_PLATE>
+　パッと顔を輝かせて、
+キョロキョロと姿を探し始める。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ごめん、はぐれちゃった。
+　なんかスマホもつながらないし、
+　ちょ、ちょっと困ってる」
+<PAUSE>
+<NAME_PLATE>リリス
+「場内アナウンスで呼び出しますか？
+　お手伝いしますよ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、それは迷子みたいで、恥ずかしい。
+　いい、もうちょっと一人で回る」
+<PAUSE>
+<NAME_PLATE>リリス
+「じゃあ、見かけたら伝えておきますね」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「うん、よ、よろしく。
+　販促、頑張って」
+<PAUSE>
+<NAME_PLATE>リリス
+「はい！　これ販促グッズです。
+　わんわんブリーダー大パニックを
+　よろしくお願いします、ワンワン♪」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ありがとう、ワンワン」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　販促グッズを色々と貰って、
+ドロレスはリリスと別れた。
+<PAUSE>
+<NAME_PLATE>
+　そして、リーナと会えないまま、
+一人で会場を回っていると、
+いきなり声をかけられた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゲーマー
+「よう、かわいこちゃん、一人かい？」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+<ACTOR>0,ts_m249a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0303a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「ひっっ！？
+　ま、ま、まさかナ、ナ、ナンパ？」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゲーマー
+「俺はケンジ。
+　見ての通りプロゲーマーさ」
+<PAUSE>
+<NAME_PLATE>ゲーマー
+「ファンキー・ビースト・ゲーミング。
+　そのリーダーをやってる。知ってるだろ？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「し、知らない……」
+<PAUSE>
+<NAME_PLATE>
+　確かにＦＢＧと
+ロゴの入ったシャツを着ていて、
+これ見よがしにアケコンを持っている。
+<PAUSE>
+<NAME_PLATE>
+　だけど見るからにいきってる感じの
+モニターの中で見るならともかく、
+リアルでは近づきたくないタイプだ。
+<PAUSE>
+<NAME_PLATE>ゲーマー
+「じゃあじっくり教えてやるぜ。
+　サムストＸの協力プレイでもやりながらよ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは眉をひそめた。
+サムストＸで協力プレイ？
+<PAUSE>
+<NAME_PLATE>ゲーマー
+「ほら、行こうぜ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「や、やだ……」
+<PAUSE>
+<NAME_PLATE>ゲーマー
+「へへっ、そう言うなって」
+<PAUSE>
+<NAME_PLATE>ドロレス
+（こ、こいつ、怪しい。
+　しょうがない、私のペインで……）
+<PAUSE>
+<NAME_PLATE>
+　それは自分の痛みを何倍にもして送り返す
+彼女の呪いの力だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あまり騒ぎを起こしたくないが、
+今のこの嫌な気分をペインで送ってやれば、
+ぶっ倒れるくらいはするだろう。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスが力を使おうとしたその時。
+<PAUSE>
+<ACTOR>0,hu_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「おいおい、その子、嫌がってるぞ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎-SR_学生衣装
+//　※ドロレス視点のため、ここだけ出してください
+<NAME_PLATE>
+　さっきメイドと一緒にいた男が現れた。
+<PAUSE>
+//【黒画面】
+//　※視点切り替えのための間
+//【背景：ゲームイベント会場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC039aより流用
+//nc393a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc393a,IN, 1000
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>少女
+「あ……さ、さっきのご主人様？」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ナンパされて嫌がっていた女の子は
+怪訝そうな顔をした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ナンパ男―――どう見てもオークの
+ゲーマーが俺を睨み付ける。
+<PAUSE>
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゲーマーオーク
+「アアン、ご主人様だ？
+　なんだテメエは、邪魔しようってのか！」
+<PAUSE>
+<NAME_PLATE>
+　開口一番、殴りかかってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「いきなりかよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　でかい拳がぶんと迫ってくる。
+<PAUSE>
+<NAME_PLATE>
+　ただのコスプレかと思ったが、
+この勢いは本物のオークとしか思えない。
+<PAUSE>
+<NAME_PLATE>
+　もちろん受けて確かめるつもりはない。
+俺はひょいと躱して、奴の脚を引っかけた。
+<PAUSE>
+<SE_PLAY>se023
+<BG>nc393a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゲーマーオーク
+「ぐへええっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ゲーマーオークは見事にスッ転んだ。
+出来の悪さで有名なアケコンが手から離れ、
+床を転がっていく。
+<PAUSE>
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「……あ、うまい」
+<PAUSE>
+<NAME_PLATE>俺
+「ほら逃げるぞ」
+<PAUSE>
+<NAME_PLATE>
+　俺は少女の手を引いて走り出した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>少女
+「えっ！？　えええ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<SE_PLAY>se054
+<NAME_PLATE>ゲーマーオーク
+「くっっ、待ちやがれこらあ！！」
+<PAUSE>
+<NAME_PLATE>
+　ゲーマーオークが後ろで喚いているが、
+この人混みだ、もう俺たちを見失っている。
+<PAUSE>
+<NAME_PLATE>
+　せっかくのイベントでケンカ騒ぎなど
+起こしたくない。
+<PAUSE>
+<NAME_PLATE>
+　それで万が一、退場にでもなったら
+目も当てられない。
+<PAUSE>
+<BG>nc393a,IN, 500
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「い、いきなり変なのにナンパされて、
+　通りすがりの男にた、た、助けられて、
+　手を引かれて逃げてる、アリエナス」
+<PAUSE>
+<NAME_PLATE>少女
+「い、いくらなんでも展開早すぎじゃね。
+　こ、これ夢、もしかして夢？　ウェヒヒ」
+<PAUSE>
+<NAME_PLATE>
+　俺に手を引かれて走る少女は
+なんだか妙な顔で笑っていた。
+<PAUSE>
+//【背景：ゲームイベントメイン会場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC020aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc060a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ゲーム大会のメイン会場に潜り込む。
+<PAUSE>
+<NAME_PLATE>
+　ここは大手の企業ブースが立ち並び、
+ゲーム大会を見に来た客も集まってきていて、
+身を隠すのにはもってこいだ。
+<PAUSE>
+<NAME_PLATE>
+　会場中央に設置されたメインステージには
+ＣＯＢ：ＭＷの大会予選の様子が
+映し出されていた。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの出番はまだ先のようだ。
+大会はもちろん気になるが、
+まずはさっきのゲーマーオークだ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>俺
+「どうやら撒けたみたいだな。
+　大丈夫か？」
+<PAUSE>
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「……だ、大丈夫……みたい」
+<PAUSE>
+<NAME_PLATE>
+　さっき変な顔で笑っていた少女は
+今は俯いてしまっている。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした？　どこか痛めたのか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>少女
+「ひゃうっ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺が顔を覗き込もうとすると、
+少女はひっくり返った声を出した。
+<PAUSE>
+<NAME_PLATE>少女
+「そ、そ、そうじゃなくて……
+　えとえと……その……
+　手……握ったまま……べ、別にいいけど」
+<PAUSE>
+<NAME_PLATE>
+　少女は真っ赤になって
+繋いだままの手をプルプルさせた。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、悪い……」
+<PAUSE>
+<NAME_PLATE>
+　俺は慌ててその手を離す。
+少女はふるふると首を振った。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「う、ううん……いい。
+　た、た、助けてくれて……
+　ありがと……私、ドロレス」
+<PAUSE>
+<NAME_PLATE>俺
+「俺はふうまだ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「……ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「こういうとこには
+　よく変なのが現れるからな。
+　注意しないと」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、そうだね……」
+<PAUSE>
+<NAME_PLATE>
+　それにしてもゲーマーのオークとはな。
+まあ対魔忍がゲームするんだ。
+オークがしたって構わないが……
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あ、あのさ、聞いてもいい？
+　さっきメイドと一緒にいたよね？
+　す、すごい美少女の」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスがおずおずと聞いてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、見られてたか」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「すごく……め、目立ってた。
+　あの美少女メイドのご、ご主人様なの？」
+<PAUSE>
+<NAME_PLATE>俺
+「……まあ、そう言われてる」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ウヒッ、い、今はなにしてるの？
+　まさか放置プレイの真っ最中？
+　テラヤバス！」
+<PAUSE>
+<NAME_PLATE>
+　いきなり妙にテンションをあげてくる。
+俺は呆れつつ、
+<PAUSE>
+<NAME_PLATE>俺
+「してないしてない。
+　そういう変なご主人様じゃない」
+<PAUSE>
+<NAME_PLATE>俺
+「普通に仕えてもらってるだけだし、
+　今はいつの間にかはぐれただけだ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あ……、そうなんだ。わ、私も。
+　一緒に来た子とは、はぐれちゃった」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、それであんな変なのに絡まれて。
+　せっかく大会を生で観戦しに来たのに
+　め、めんどくさ……」
+<PAUSE>
+<NAME_PLATE>俺
+「全くだ。
+　おっと、またさっきの奴だ。
+　隠れて」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺たちは企業ブースの影に
+しゃがみこんだ。
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ゲーマーオークがメイン会場に入ってきた。
+やたら険しい顔で俺たちを探している。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　しかも、お揃いのシャツを着た
+トロールと熊のゲーマーまで引き連れていた。
+<PAUSE>
+//　※立ち絵
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<NAME_PLATE>
+　あまりに普通にしているので、
+周りはコスプレだと思っているだろうが、
+おそらく本物だろう。
+<PAUSE>
+<NAME_PLATE>
+　あんな仲間を連れてくるなんて、
+ただのナンパとは思えない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「あいつら何者なんだ？」
+<PAUSE>
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「プ、プロゲーマーって言ってた。
+　で、でもそれ嘘」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「サムストＸで協力プレイしようとか
+　言ってきたし」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、そりゃ嘘だな。
+　サムストＸには対戦プレイはあっても
+　協力プレイなんかないもんな」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あなたは本物」
+<PAUSE>
+<NAME_PLATE>俺
+「なにが？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「なんでもない。ウェヒヒ」
+<PAUSE>
+<NAME_PLATE>
+　妙なテンションでほくそ笑む。
+<PAUSE>
+<NAME_PLATE>俺
+「そんなゲーマーを装った連中が現れるとか
+　君ってどこかの金持ちのお嬢様とかか？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、そんなものかも……ふふふ。
+　た、たぶんお姉ちゃんに
+　何か要求したい奴らかも？」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど。
+　お姉さんが金持ちなわけか……」
+<PAUSE>
+<NAME_PLATE>
+　やはりただの
+ナンパゲーマーではなさそうだ。
+<PAUSE>
+<NAME_PLATE>
+　そんなのに狙われているドロレスだが
+さっきと違って結構平気な顔をしていた。
+そして妙なことを言い出す。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「わ、私は一人でも大丈夫。
+　こう見えてもか、かなり強いから」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あいつらくらいなんとかする。
+　あ、あなたは逃げていいよ」
+<PAUSE>
+<NAME_PLATE>俺
+「なんとかって……どうやって？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ウヒヒ、それは秘密。
+　こ、これ、助けてくれたお礼。あげる。
+　私のお姉ちゃんのブロマイド」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「う、裏に私のアドレス書いておくから。
+　よ、よ、よかったら連絡キボンヌ」
+<PAUSE>
+<NAME_PLATE>
+　顔を真っ赤にして、
+お姉ちゃんのブロマイドとやらを差し出す。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、そんなことより
+　あんな連中に追われてる君を
+　一人で放っておくわけには―――え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　戸惑いつつも受け取った
+ブロマイドの人物を見て驚く。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「これって！？　君のお姉さんって
+　まさか魔界騎士イングリッド！？」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスも目を丸くする。
+<PAUSE>
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「な、なんで知ってるの？
+　あ、あなた何者？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　いや待て待て待て。
+ってことはこの子、魔族なのか？
+それもイングリッドの妹！？
+<PAUSE>
+<NAME_PLATE>？？？
+「見つけたわよドロレス！！！」
+<PAUSE>
+//　※立ち絵
+//　　アイグレー立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ドロレス
+「ほへ？」
+<PAUSE>
+<NAME_PLATE>俺
+「あん？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いきなりの声に二人して顔を上げる。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　燃えるような赤い髪、口にはゴツい黒マスク
+ボンデージ風の衣装に身を包み、
+両手に炎の剣まで持った格好の女だ。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「だ、誰？」
+<PAUSE>
+<NAME_PLATE>俺
+「コスプレお姉さん？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「た、多分……本物」
+<PAUSE>
+<NAME_PLATE>俺
+「だよなあ、状況的に」
+<PAUSE>
+<NAME_PLATE>
+　なんだかよく分からないが
+俺は立ち上がってドロレスを背中にかばう。
+<PAUSE>
+<NAME_PLATE>
+　本当にイングリッドの妹だとしたら、
+そんな必要はないとも思ったのだが。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「うひひひひ。
+　だ、男性の背中にかばわれてる。
+　夢のお姫様シチュエーションキタコレ」
+<PAUSE>
+<NAME_PLATE>俺
+「結構余裕あるな。知り合いか？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「み、見たことあるような……
+　ないような……」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは首をかしげているが、
+向こうは怒り心頭の様子で喋り出した。
+<PAUSE>
+<NAME_PLATE>？？？
+「ドロレス、お前なら来ると思ってたよ。
+　このお遊びの大会にね」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「覚えているかい？
+　お前のせいで破滅に追いやられた
+　アイグレー様だよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「とか言ってるけど？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「え、ええと……た、多分、
+　私がネット工作で壊滅させた
+　ギャング団のボス？　よく覚えてないけど」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは全く自信がなさそうに言った。
+それを聞いたアイグレーは目を剥く。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「あれだけのことをしといて
+　覚えてないっていうのかい！」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「なら思い出させてやるよ。
+　最初にちょっかいをかけてきたのは
+　あのクソ忌々しいリーナさ！」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「アタシのシマにずかずか乗り込んできて、
+　弱き者たちから搾取するとは許さんとか
+　甘っちょろいことを言ってきやがった」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「なにが魔界騎士だ。
+　なにがヨミハラの治安のためだ。
+　アタシはああいう手合いが大嫌いでね」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「けど魔界騎士ってのはクソ強いからね。
+　まともにやり合うほど馬鹿じゃない。
+　裏で暗殺してやるつもりだったのさ」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「それを邪魔したのがお前さ！
+　ドロレス！」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「なにをどうやったか知らないが、
+　アタシが依頼しようとした暗殺者を
+　片っ端から殺してったね」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「しかもそれがアタシの仕業だって
+　裏社会のネットにばら撒きやがった。
+　ご丁寧にフェイク動画の証拠まで付けて」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「おかげでアタシと
+　アタシの組の評判はガタ落ちさ。
+　もうヨミハラじゃやってけないよ」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「引きこもりの分際で、
+　部屋から一歩も出ずに
+　お前はそれだけのことをしたんだよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ってことらしいが？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「そ、そうだったっけ。
+　そういうの、よくやるから、
+　いちいち覚えてない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイグレー
+「っっ！！
+　この引きこもりのクソニートが！！」
+<PAUSE>
+<NAME_PLATE>俺
+「どうやら狙いはお姉さんの
+　お金じゃなさそうだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「ひひ……い、意外な展開……」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスはちょっと困ったような、
+つまりはその程度のことという顔をしていた。
+<PAUSE>
+<NAME_PLATE>
+　さすがはイングリッドの妹。
+<PAUSE>
+<NAME_PLATE>
+　彼女が助けたという魔界騎士リーナには
+俺も何度か会ったことがある。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと抜けたところがあったが、
+魔界騎士の称号に違わぬ凄腕だった。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスも内気なゲーマーのように見えて、
+ネット工作でギャング団を一つ潰す凄腕。
+<PAUSE>
+<NAME_PLATE>
+　しかもやったことを忘れている。
+恐ろしい子だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゲーマーオーク
+「てめえら！
+　こんなところにいやがったか！」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<NAME_PLATE>ゲーマートロール
+「へっへっへ。
+　こいつらですか、姉御？」
+<PAUSE>
+<NAME_PLATE>ゲーマー熊
+「もう逃げられねえぜ。
+　俺のこの自慢の毛並みにかけてな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「お前たち！
+　なにをグズグズしてたんだい」
+<PAUSE>
+<NAME_PLATE>
+　騒ぎを聞きつけてさっきの連中が現れた。
+どうやら仲間のようだ。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「男はバラバラにしちまいな！
+　けどドロレスは殺すんじゃないよ」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「あのクソ忌々しいフェイク動画で
+　このアタシにしでかしたのと同じことを
+　リアルでやってやるからね。覚悟しな！」
+<PAUSE>
+<NAME_PLATE>俺
+「いったい何をネットにばら撒いたんだ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「あ、あんまりよく覚えてない……
+　でも多分、エ、エロ系？」
+<PAUSE>
+<NAME_PLATE>
+　それも覚えていないらしい。
+ひどい話だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「さあやっちまいな！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゲーマーオーク
+「いくぜ、ＦＢＧ！」
+<PAUSE>
+<NAME_PLATE>ゲーマートロール
+「ウィイイイイイイイイイ！！
+　ＦＢＧ！　ＦＢＧ！！」
+<PAUSE>
+<NAME_PLATE>ゲーマー熊
+「ぐあああああああああああああっ！！
+　ＦＢＧ！！　ＦＢＧ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ＦＢＧってなんだ？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「ファンキー・ビースト・ゲーミングだって。
+　ど、どうでもいいけど……」
+<PAUSE>
+<NAME_PLATE>
+　確かにどうでもいい。
+まずはこの場をなんとかしなければ。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

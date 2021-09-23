@@ -1,0 +1,439 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：山道２＿夜】【時間：夜】
+//　※戦国魔姦_nc010aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc199a,IN, 1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「なんなんだあのガキは。
+　あの可愛くなさ、もう全身鳥肌だよ！」
+<PAUSE>
+//　※立ち絵
+//　　【潜入装備】ふうま亜希03
+//　　　※カードイラストより流用
+<SE_PLAY>se078
+<NAME_PLATE>
+　亜希姉は俺を抱えたまま、
+ものすごい速さで森を駆けていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m237a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m237a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>貪欲なる闇
+「ぐぢゅるぐぢゅるぐぢゅるっ！！」
+「にぢゃにじゃにじゃにじゃっ！！」
+<PAUSE>
+//　※立ち絵
+//　　貪欲なる闇
+//　　　※モンスターイラストより流用
+//　※複数出してください
+<NAME_PLATE>
+　後ろからはまた闇の化物が
+舌舐めずりしながら集団で
+追いかけてくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「亜希姉！　下ろして！
+　自分で走れるから！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　小さな子供じゃあるまいし、
+なにより俺をこんな風に抱えたままでは
+亜希姉だって自由に動けない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「駄目だ！　転んだらどうすんだ！
+　今は命取りだぞ！　しっかり掴まってろ！
+　怖かったらおっぱいとか触っていいから！」
+<PAUSE>
+<NAME_PLATE>俺
+「触んないよ！」
+<PAUSE>
+<NAME_PLATE>亜希
+「遠慮するな。
+　ほら、ムギュ～～～～ッ！」
+<PAUSE>
+<NAME_PLATE>
+　などと自分で言いつつ、
+必要以上に俺を強く抱きしめてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「ちょ、ちょっと亜希姉！！」
+<PAUSE>
+<NAME_PLATE>
+　亜希姉の立派すぎるオッパイが
+頬にむにゅっと当たるのを感じて、
+俺は慌てて顔を逸らした。
+<PAUSE>
+<NAME_PLATE>亜希
+「あはっ、小太郎は真面目だな！
+　でもそういうとこ好きだぞ！
+　そのままの初心な小太郎でいてくれ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「なんだかなあ……」
+<PAUSE>
+<NAME_PLATE>
+　余裕があるのかないのか分からない。
+などと思ってるそばから、
+<PAUSE>
+//【背景：森の中＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿nc010aより流用
+<BG>nc048a,IN, 1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「うわやばいっ！
+　小太郎下ろすよっ！」
+<PAUSE>
+//　※立ち絵
+//　　【潜入装備】ふうま亜希03
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　いきなり放り投げられた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「わわっっっ！」
+<PAUSE>
+<NAME_PLATE>
+　地面に手を突き、
+一回転して素早く立ち上がる。
+<PAUSE>
+<NAME_PLATE>亜希
+「くっそー、前からも来たか！」
+<PAUSE>
+<NAME_PLATE>
+　亜希姉が刀を抜いて構えていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その通り、逃げようとしていた先、
+五車町の方角からシャドウがやって来ている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m065a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m065a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>シャドウ
+「アァァァアアアーーーーッ！！」
+「アァァァアアアーーーーッ！！」
+<PAUSE>
+//　※立ち絵
+//　　シャドウ
+//　　　※モンスターイラストより流用
+//　※複数出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「小太郎、私から絶対に離れるな！
+　あと無理して自分で戦おうとするな！
+　いいな！」
+<PAUSE>
+<NAME_PLATE>
+　有無を言わさぬその口調。
+<PAUSE>
+<NAME_PLATE>俺
+「わ、分かった！」
+<PAUSE>
+<NAME_PLATE>
+　俺はせめてこれだけはと
+自分のクナイを握った。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>亜希
+「よし、良い子だ」
+<PAUSE>
+<NAME_PLATE>
+　亜希姉は俺を背にして、
+前後から迫ってくる化物たち、
+そして周囲を素早く警戒した。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>亜希
+「あのガキはいないけど、
+　どうせどっかに隠れてるんだろうなっ！
+　でやあっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　先に接近してきた闇の化物に向かって、
+亜希姉は刀を横薙ぎに一閃させた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバアアアアアッッ！！
+<PAUSE>
+<BG>nc048a,IN, 500
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「うわっ！
+　なんだこの感触！？　気色悪っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貪欲なる闇
+「グギィイイイイイッッ！！」
+<PAUSE>
+<NAME_PLATE>
+　ウゾウゾと蠢く闇の身体が
+真っ二つになったが、死なない。
+<PAUSE>
+<NAME_PLATE>
+　上下に分断された身体から闇を伸ばして
+また一つになろうとしている。
+<PAUSE>
+<NAME_PLATE>
+　もともと闇が集まっているだけで
+ちゃんとした形などないのかもしれない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「させるか！　追撃連斬！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズババババババババババッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　目にも留まらぬ乱れ斬り。
+<PAUSE>
+<NAME_PLATE>
+　闇の身体がバラバラに切り裂かれ、
+奴はようやく塵のように消えていった。
+<PAUSE>
+<BG>nc048a,IN, 500
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「こりゃなかなか厄介だな。
+　っと、今度はこっちか！！
+　はああっっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッ！　ズバッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　亜希姉はぼやきながらも、
+今度はシャドウを袈裟斬りにしていく。
+<PAUSE>
+<NAME_PLATE>シャドウ
+「イヤアアアアアアアアアッ！！」
+「イヤアアアアアアアアアッ！！」
+<PAUSE>
+<BG>nc048a,IN, 500
+<NAME_PLATE>
+　女の形をしたアンデッドは
+恨みがましい悲鳴を上げて消滅する。
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「こっちは普通のシャドウっぽいけど、
+　こうもワラワラ出てこられちゃ、
+　あの大口目玉は一撃じゃ倒せないし！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貪欲なる闇
+「ぶぢゅるぶぢゅるぐぢゅぐぢゅっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「亜希姉！
+　あいつに邪眼は使えないの！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「そりゃ使えりゃ使いたいけど、
+　あんなのに私の暗示が効くとは……。
+　でも一応やってみるか！　やっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッ！！
+<PAUSE>
+<NAME_PLATE>
+　亜希姉は闇の化物に軽く斬りつけた。
+<PAUSE>
+<BG>nc048a,IN, 500
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貪欲なる闇
+「ぶぢゅううっ！？」
+<PAUSE>
+<NAME_PLATE>
+　ほんのかすり傷だ。
+両断しても死なない敵に
+これだけでは何の意味もない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「本当の“痛み”を知れ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　亜希姉の右目が輝いた。
+<PAUSE>
+<NAME_PLATE>
+　邪眼“死裂”
+<PAUSE>
+<NAME_PLATE>
+　肉体ではなく精神に傷を与え、
+僅かな傷を致命傷に変える。
+果たして……？
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「うそ、効いたっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　亜希姉が傷を付けた場所から
+闇の化物の身体がボロボロと崩れ始めた。
+<PAUSE>
+<NAME_PLATE>貪欲なる闇
+「アヒャヒャヒャヒャヒャヒャヒャ！！」
+<PAUSE>
+<NAME_PLATE>
+　だが奴は笑っていた。
+無数の眼に喜悦の光が浮かび、
+二つの口が狂ったように哄笑している。
+<PAUSE>
+<NAME_PLATE>
+　亜希姉に与えられた激痛。
+それによる死を望んでいるかのようだ。
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「つくづく気色悪い奴だな。
+　こんなのに私の暗示が効くとか
+　ドン引きだよ！」
+<PAUSE>
+<NAME_PLATE>
+　亜希姉は顔をしかめつつも、
+邪眼を駆使して戦い始めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　死裂が通用する大口目玉は、
+刀で小さな傷を付けるだけにとどめ、
+暗示で容赦なく滅殺する。
+<PAUSE>
+<NAME_PLATE>
+　元々暗示が効かないシャドウは
+一匹一匹確実に斬り捨てていく。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m237a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m065a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>貪欲なる闇
+「ウヒャヒャヒャヒャヒャヒャヒャッ！！」
+<PAUSE>
+<NAME_PLATE>シャドウ
+「キィイイイイイイイイイイイイイイッ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　亜希姉が敵を仕留めるたびに
+常軌を逸した笑い声と金切り声が響きわたる。
+<PAUSE>
+<NAME_PLATE>
+　聞いているだけで
+こっちの理性が削られそうだ。
+まさに地獄絵図だ。
+<PAUSE>
+<NAME_PLATE>
+　しかも、敵の数は一向に減らない。
+倒せば倒すほど新しい敵が現れてくる。
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「こりゃジリ貧だな」
+<PAUSE>
+<NAME_PLATE>俺
+「亜希姉、このままじゃ……」
+<PAUSE>
+<NAME_PLATE>亜希
+「分かってる」
+<PAUSE>
+<NAME_PLATE>亜希
+「小太郎、私が血路を開く。
+　五車の里まであとちょっとだ。
+　お前は逃げろ」
+<PAUSE>
+<NAME_PLATE>
+　亜希姉は言い、
+刀を振りかぶらずに
+懐深く突きの構えを取った。
+<PAUSE>
+<NAME_PLATE>
+　己の防御を考えることなく
+敵を刺突するための捨て身の態勢だ。
+<PAUSE>
+<NAME_PLATE>俺
+「そんな亜希姉！」
+<PAUSE>
+<NAME_PLATE>
+　亜希姉は俺を振り返って、
+明るく笑った。
+<PAUSE>
+<NAME_PLATE>亜希
+「勘違いするな。
+　お前を守るために私が犠牲になるとかは
+　全っ然思ってないから」
+<PAUSE>
+<NAME_PLATE>亜希
+「そうやって小太郎の心に
+　一生残り続けるとか私の趣味じゃない」
+<PAUSE>
+<NAME_PLATE>亜希
+「五車に帰って援軍を呼んできてくれ。
+　いいなっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　軽やかにウインクして、
+亜希姉は敵の群れに突っ込んで行った。
+<PAUSE>
+//→S402a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

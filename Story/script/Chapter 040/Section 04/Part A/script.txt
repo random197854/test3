@@ -1,0 +1,1024 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：荒廃した世界のブレインシティ全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_nc087aより流用
+//nc475a
+<BGM_PLAY>bgm509,1000
+<BG>nc475a,IN, 1000
+<NAME_PLATE>
+　アスカ、ゆきかぜ、舞華の三人は、
+ふうまからの依頼を済ませ、館を出ると、
+本来の目的地を目指した。
+<PAUSE>
+<NAME_PLATE>
+　そこはブレインシティと呼ばれる町で、
+三人がたどり着いた高台からは一面の銀世界が
+広がって見えていた。
+<PAUSE>
+<NAME_PLATE>
+　大地も、ビルも、道路も、
+町全てが真っ白に凍結している。
+<PAUSE>
+<NAME_PLATE>
+　生き物はもちろん、機械ですら
+動いているものは何もない。
+<PAUSE>
+<ACTOR>1,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「相変わらずやべえな。
+　同じ東京にあるとは思えねえぜ。
+　なんか前来た時より酷くなってねえか？」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん01（科学ＳＲ）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　防寒の対魔忍スーツを着ていてさえ
+肌に食い込んでくるような冷気に
+身震いしながら舞華が言った。
+<PAUSE>
+<ACTOR>1,chr_t0365a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「なってるわ。
+　少しずつだけど氷の範囲が
+　広がっていってる」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アスカも沈痛な面持ちで
+コートの前を合わせる。
+<PAUSE>
+<NAME_PLATE>舞華
+「それはあれか？
+　悲しみがどんどん広がってとか
+　なんとかいうファンタジーなやつか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「さあね。
+　とりあえずこの状況は
+　ファンタジーじゃなくて現実よ」
+<PAUSE>
+<NAME_PLATE>舞華
+「ますます私の出番ってわけだな。
+　腕が鳴るぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,yu_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　盛り上がる二人をよそに
+ゆきかぜはどこかうわの空だった。
+<PAUSE>
+<NAME_PLATE>
+　それに気づいたアスカが
+すかさず苦言を呈する。
+<PAUSE>
+<ACTOR>1,yu_t004e,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ゆきかぜ、ボーッとしてないで」
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「……あ、うん」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0365a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞華
+「どうしたんだよ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どうせふうまのこと考えてたんでしょ？」
+<PAUSE>
+<NAME_PLATE>
+　決めつけるアスカにゆきかぜが噛みつく。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「だって心配じゃない。
+　ふうまが未来の私たちにヘルプを
+　求めてくるなんて初めてだしさ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まあね……」
+<PAUSE>
+<NAME_PLATE>
+　アスカは同意してくれたが、
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「ふうまだぜ。心配ねえよ」
+<PAUSE>
+<NAME_PLATE>
+　舞華のその言葉に
+ゆきかぜは口を尖らせた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうあっさり言っちゃうかな。
+　いい年してふうまの声聞けたからって
+　はしゃいじゃって」
+<PAUSE>
+<NAME_PLATE>舞華
+「なんだよそれ。
+　別にはしゃいじゃいねえよ」
+<PAUSE>
+<NAME_PLATE>
+　舞華もカチンとして言い返す。
+口喧嘩が始まった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「どーだか。
+　舞華のそういう根拠のない自信、
+　昔から尊敬するわ」
+<PAUSE>
+<NAME_PLATE>舞華
+「はん。
+　ゆきかぜは年々言うことが
+　ババ臭くなってきたな」
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「な！？　ちょっとやる気！？」
+<PAUSE>
+<NAME_PLATE>舞華
+「お、やるか！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴォオオオオオオオオオ！
+バチバチバチバチ！
+<PAUSE>
+<NAME_PLATE>
+　炎と雷が無駄に立ち上る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「はーーー」
+<PAUSE>
+<NAME_PLATE>
+　アスカは一つ溜息を吐き、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ブンッ！！
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うわっ！！」
+<PAUSE>
+<NAME_PLATE>舞華
+「どわあっ！！」
+<PAUSE>
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　いきなり強風を起こして
+ゆきかぜと舞華をひっくり返した。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「二人ともいい加減にしてね。
+　ここはもう奴らの最後の拠点なのよ」
+<PAUSE>
+<NAME_PLATE>
+　見た目は一番幼いアスカに仁王立ちで叱られ、
+二人は首をすくめた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「そうだったな、わりい」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私もごめん」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカの言うとおりだった。
+<PAUSE>
+<NAME_PLATE>
+　元々、この町の地表部分はほとんど廃墟で、
+本当の町“ブレインコア”は地下にあった。
+<PAUSE>
+<NAME_PLATE>
+　だが、テセラックが失われて以来、
+ブレインフレーヤーが支配するあらゆる世界で
+反乱が起こり、
+<PAUSE>
+<NAME_PLATE>
+　人間世界を支配するための一拠点だった
+このブレインシティが、
+<PAUSE>
+<NAME_PLATE>
+　今やブレインフレーヤー最大の拠点にして
+彼らの女王が住まう最後の拠点と化していた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ブレインフレーヤーの首都と化したここは
+　どんな敵が現れるか分からないわ。
+　くれぐれも慎重にね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「了解だ。ここはベテラン対魔忍らしく
+　三人でこっそり忍び込もうじゃねえか。
+　ドジ踏んで見つかった奴が囮ってことでよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それいいわね。
+　どかんどかん騒がしい誰かさんが
+　一番早く見つかりそうだけど」
+<PAUSE>
+<NAME_PLATE>舞華
+「やたらと雷を落とす奴だな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「言ったわね」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「はいはい、じゃその方針で
+　三人でこっそり行くわよ」
+<PAUSE>
+//【時間経過】
+//　※時間経過
+//【背景：荒廃した魔都・東京メトロその１＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC094aより流用
+//nc476a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc476a,IN, 1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>舞華
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん01（科学ＳＲ）
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカ、ゆきかぜ、舞華が
+ブレインシティに潜入してから数時間が経った。
+<PAUSE>
+<NAME_PLATE>
+　あれほど騒がしかった三人だったが、
+本気で隠行すれば気配を完全に殺せる。
+<PAUSE>
+<NAME_PLATE>
+　生物だろうが機械だろうが
+彼女たちに気づくことはできない。
+<PAUSE>
+<NAME_PLATE>
+　その結果、ただの一度も敵と戦うことなく、
+敵地深くまで潜入していた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　先頭を行くアスカがピタッと止った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>舞華
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　後ろの二人も止る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　「どうした？」などとは聞かない。
+<PAUSE>
+<NAME_PLATE>
+　天井に地上まで続く穴があったのだ。
+<PAUSE>
+<NAME_PLATE>
+　アスカの身体がスーッと浮き上がっていき、
+地上の様子を確認して、すぐに下りてくる。
+<PAUSE>
+<NAME_PLATE>
+　ちょいちょいと二人を呼び寄せ、
+外に声が漏れないように風の壁を作ってから
+ようやく口を開いた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ブレインシティの中央部に近い
+　廃墟地帯ってところ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「だいぶ深くまで入って来たわね」
+<PAUSE>
+<NAME_PLATE>舞華
+「そろそろタコ助共の拠点だな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう、目標は近い。
+<PAUSE>
+<NAME_PLATE>
+　また進み出そうとしたところで、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ＆ゆきかぜ＆舞華
+「…………！」
+「…………！」
+「…………！」
+<PAUSE>
+<NAME_PLATE>
+　三人はほとんど同時に動き、
+さっと闇に隠れて気配を消していた。
+<PAUSE>
+<NAME_PLATE>
+　彼女たちが来たのとは別の通路から
+何者かが近づいてくるのを感じたのだ。
+<PAUSE>
+<NAME_PLATE>
+　野生動物よりも鋭い感覚、
+無論、センサーなどでは到底察知できない
+ベテラン対魔忍の勘とでもいうべきものだった。
+<PAUSE>
+<NAME_PLATE>
+　しばらくすると、
+大勢の足音が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>
+　かなりの大部隊だ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m316a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m316a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m316a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　先頭をぞろぞろと歩くのは、
+凍結した都市に住まう武装市民、
+通称シチズン。
+<PAUSE>
+//　※立ち絵
+//　　シチズン
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m317a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m317a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m317a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　続いてブレインシティの正規兵、
+ブレインフレーヤーのアッパーテクノロジーの
+重武装で身を固めた、通称ファイター。
+<PAUSE>
+//　※立ち絵
+//　　ファイター
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m269a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m205a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　さらにパズズ、サキュラといった
+ブレインフレーヤー製の機械生命体、
+ガーディアンが続いていく。
+<PAUSE>
+//　※立ち絵
+//　　パズズ
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　サキュラ
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m318a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして、
+この大部隊を率いていると思しき
+異形の存在アメミット。
+<PAUSE>
+//　※立ち絵
+//　　アメミット
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　頭から触手を生やし、
+大鎌を持った死神のような姿をしている。
+<PAUSE>
+<NAME_PLATE>
+　彼女は機械生命体ではなく
+ブレインフレーヤーに仕える異界の魔人で、
+邪悪な種族だ。
+<PAUSE>
+<NAME_PLATE>
+　自ら進んでブレインフレーヤーたちに
+協力している同盟者である。
+<PAUSE>
+<NAME_PLATE>
+　そのアメミットがふと立ち止まった。
+<PAUSE>
+<NAME_PLATE>アメミット
+「………」
+<PAUSE>
+<NAME_PLATE>
+　ただの気まぐれか、何かを感じたのか、
+三人が隠れている方向をじっと見ている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが、それ以上のことはせず、
+アメミットはすぐにまた動き出し、
+そのまま通り過ぎていった。
+<PAUSE>
+<NAME_PLATE>
+　その後を後衛のファイター、シチズンなどが
+またぞろぞろと続き、
+<PAUSE>
+<NAME_PLATE>
+　大部隊の気配が完全に消え去って、
+さらにしばらく時間が経ってから、
+三人はようやく姿を現した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0365a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「ちっ、勘のいい触手ババアだぜ」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん01（科学ＳＲ）
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「しーー」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ボソッと悪態を突く舞華に
+アスカが慌ててお喋り用の風壁を作る。
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あの連中、まさか同じ場所を目指してる？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜは険しい表情で、
+アメミット率いる大部隊が向かった先を
+見つめていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0365a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「私たちに測定できたんだから、
+　あいつらが気付いてもおかしくない」
+<PAUSE>
+<NAME_PLATE>舞華
+「つまりは奴らも“眠れるお姫さま”を
+　狙ってるってことか？」
+<PAUSE>
+<NAME_PLATE>
+　舞華の疑問にアスカが頷いた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「当然ね。
+　この極寒環境の原因をあいつらとしても
+　なんとかしたいでしょう」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ここまでこっそり来れたけど、
+　さすがにこれ以上近づけば
+　敵との遭遇も避けられないか」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが溜息交じりに言うと、
+最も戦いたがっていた舞華が反論する。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おいおいおい、
+　あの大部隊を相手するのか！？」
+<PAUSE>
+<NAME_PLATE>舞華
+「シチズンやファイターはいいとして、
+　ガーディアンにアメミットも加わるとなると
+　ちょっと手が足りなくねえか？」
+<PAUSE>
+<ACTOR>1,chr_t0365a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「一応“Ｂａｎｄｉｔ”に陽動を
+　お願いしているから。
+　ある程度は敵を散らしてくれるとは思う」
+<PAUSE>
+<NAME_PLATE>舞華
+「“Ｂａｎｄｉｔ”っていうと……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「そっ、あの二人の組織。
+　舞華が来てくれて喜んでたわよ」
+<PAUSE>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「そりゃちょっとした
+　同窓会ってとこだな」
+<PAUSE>
+<NAME_PLATE>
+　その言葉はひどく懐かしそうだった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そういうこと。行くわよ」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜも笑顔で頷き、
+三人はさっきの大部隊に先行すべく
+また気配を殺して進み始めた。
+<PAUSE>
+//【黒画面】
+//　※場面転換
+//【背景：センザキ-首都圏有数の犯罪都市の繁華街１＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC046aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc144c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、その頃―――。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜ、アスカ、舞華たちからは
+過去と呼ばれる別世界。
+<PAUSE>
+<NAME_PLATE>
+　まだ人類が繁栄を誇っている町の一つ、
+センザキで事件が起ころうとしていた。
+<PAUSE>
+//【背景：センザキ-五車関連の拠点（外観）＿昼】【時間：昼】
+//　※魔降ル夜ノ凜_nc016aより流用
+//nc014c
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm505,1000
+<BG>nc014c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　この町はかつて東京のベッドタウンと
+呼ばれていたが、
+<PAUSE>
+<NAME_PLATE>
+　戦争難民が多く住み始めた影響から
+街の中心部がスラム化し、
+<PAUSE>
+<NAME_PLATE>
+　魔界の住人や犯罪組織が流入して、
+首都圏有数の犯罪都市となった経緯がある。
+<PAUSE>
+<NAME_PLATE>
+　つまり五車の対魔忍にとっては
+警戒を怠ることのできない場所であり、
+<PAUSE>
+<NAME_PLATE>
+　その郊外にある廃ビルには
+対魔忍の精鋭部隊が常駐している拠点が
+設けられていた。
+<PAUSE>
+<NAME_PLATE>
+　平時は五車の外の各拠点を繋ぐハブとなり、
+有事には司令所ともなる重要拠点だ。
+<PAUSE>
+<NAME_PLATE>
+　今、その拠点を不穏な部隊が包囲していた。
+<PAUSE>
+//　※立ち絵
+//　　対魔忍＜魔性＞
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR>2,ts_m122a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m122a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　その装束や武装など、
+一見、五車の対魔忍のように見える彼らだが
+決定的に違うものがあった。
+<PAUSE>
+<NAME_PLATE>
+　覆面の下で鈍く光る目だ。
+<PAUSE>
+<NAME_PLATE>
+　皆、正義ではなく、憎しみに、
+未来ではなく、過去に囚われた目をしていた。
+<PAUSE>
+<NAME_PLATE>
+　彼らはかつて井河アサギとの闘いに敗れ、
+五車を放逐された井河長老衆の残党、
+否、復活した部隊であった。
+<PAUSE>
+<NAME_PLATE>井河長老衆対魔忍
+「扇舟様、包囲完了いたしました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河扇舟
+「そう」
+<PAUSE>
+//　※立ち絵
+//　　井河扇舟01（科学ＳＲ）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　妖しく微笑む年齢不詳の美女。
+<PAUSE>
+<NAME_PLATE>
+　彼女こそ、かつての井河長老衆の一人、
+先日アミダハラ監獄から脱獄した
+井河扇舟（いがわせんしゅう）だった。
+<PAUSE>
+<NAME_PLATE>
+　井河アサギに敗れて以来の、
+永劫に続くかに思えた
+監獄での屈辱の日々。
+<PAUSE>
+<NAME_PLATE>
+　だが、その魔性の美貌は
+少しも衰えていなかった。
+<PAUSE>
+<NAME_PLATE>
+　それどころか井河アサギへの恨み、
+彼女の両腕を斬り落とした水城不知火への
+憎しみでいっそう妖しく輝いていた。
+<PAUSE>
+<NAME_PLATE>扇舟
+「うふふ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　扇舟は艶やかに微笑みながら、
+包囲完了の報告をしてきた部下の心臓を
+右手で無造作に貫いた。
+<PAUSE>
+<NAME_PLATE>井河長老衆対魔忍
+「ぐがっっ！！」
+<PAUSE>
+<BG>nc014c,IN, 500
+<ACTOR>0,ts_m319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　その手はかつて“毒の女王”と称賛され、
+１０本の指で自在に毒を操ることのできた
+毒手ではない。
+<PAUSE>
+<NAME_PLATE>
+　固く、冷たい、機械の手。
+彼女の憎しみを形にしたような
+サイボーグの手だ。
+<PAUSE>
+<NAME_PLATE>扇舟
+「これでこの前のミスは帳消しにしてあげる。
+　今までご苦労様」
+<PAUSE>
+<SE_PLAY>se023
+<NAME_PLATE>
+　手刀を胸から引き抜くと、
+その男はずるりと地面に崩れ落ちた。
+<PAUSE>
+<NAME_PLATE>扇舟
+「この使えない部隊長の後は
+　あなたが引き継ぎなさい」
+<PAUSE>
+<NAME_PLATE>井河長老衆対魔忍
+「ははっ！」
+<PAUSE>
+<NAME_PLATE>
+　新たに部隊長に任命された男が答えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　扇舟への恐れに満ちていたが、
+少しの躊躇いも感じられなかった。
+<PAUSE>
+<ACTOR>0,ts_m209a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メイジャー
+「はっ、鉄の規律ってやつかい。
+　井河長老衆ってのはおっかないねえ」
+<PAUSE>
+//　※立ち絵
+//　　メイジャー立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　軽口を叩いたのはメイジャーだった。
+<PAUSE>
+<NAME_PLATE>
+　かつて特務機関“Ｇ”に所属していた
+サイボーグであったが、
+<PAUSE>
+<NAME_PLATE>
+　五車に因われ、
+内調の手引きによって解放されて、
+今ここに至っている。
+<PAUSE>
+<ACTOR>0,ts_m209a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m319a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>扇舟
+「井河長老衆に無能者は必要ないわ」
+<PAUSE>
+<NAME_PLATE>メイジャー
+「へっ、そうかい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　メイジャーは皮肉げに肩をすくめただけで、
+代わりに眼帯を付けた銀髪の少女が
+さもおかしそうに口を挟んだ。
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「ウフフ、そうね。
+　世の中には躾が難しい子もいるしね。
+　そう思わない、扇舟さん？」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ミランダ・クローゼット。
+少女は皆にそう名乗っていた。
+<PAUSE>
+<NAME_PLATE>
+　だが、その少女型義体の中身は、
+扇舟が囚われていたアミダハラ監獄の長、
+鉄華院カヲルの父親、鉄華院卍鉄である。
+<PAUSE>
+<NAME_PLATE>
+　躾が難しい子とは、
+言うことを聞かない自分の娘、
+カヲルのことかもしれなかった。
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m319a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>扇舟
+「……っ」
+<PAUSE>
+<NAME_PLATE>
+　しかし、子供など持ったことのない扇舟は、
+一見、自分より若く見えるミランダの言葉に
+苛立たしげに舌打ちしただけだ。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「あら、何か気に障った？
+　女同士、共感するものがある気がしたの」
+<PAUSE>
+<NAME_PLATE>扇舟
+「黙れ」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ウフフ、ごめんなさい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m225a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ニールセン
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　沙無羅威ニールセン立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ギスギスした二人のやりとりに
+無言を保つ男はニールセンだ。
+<PAUSE>
+<NAME_PLATE>
+　かつては東京キングダム“五強”の一角、
+“沙無羅威”のボスであったが、
+<PAUSE>
+<NAME_PLATE>
+　その組織が壊滅した今は、
+ノマドの大幹部フュルストの腹心としての
+役割を果たし続けている。
+<PAUSE>
+<NAME_PLATE>
+　しかし、扇舟とミランダが
+今ここで殺し合いを始めようが
+自分には関係ないという態度だった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m198a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半三
+「我慢できない相手というのはいるな……」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半三
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ニールセンほど無言でいられなかったのか、
+斉藤半三（さいとうはんぞう）が
+ポツリと呟いた。
+<PAUSE>
+<NAME_PLATE>
+　連続殺人鬼、斉藤半次郎の双子の弟、
+その兄の身体の中にずっと潜まされ、
+<PAUSE>
+<NAME_PLATE>
+　兄の支配から抜け出すために、
+彼を殺して外の世界に出てきた男である。
+<PAUSE>
+<NAME_PLATE>
+　だが、兄のことをふと思い出しただけで、
+半三も険悪な女たちを諫めるつもりは
+ないようだった。
+<PAUSE>
+<NAME_PLATE>
+　結局、面倒くさそうにそれを行ったのは
+この場にたった一人いたオークだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m253a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ルイス
+「部下の粛正が終わったのなら
+　そろそろ仕事を始めたいのだがな」
+<PAUSE>
+//　※立ち絵
+//　　ルイス“The Shaman”
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　彼の名はルイス。
+二つ名は“Ｔｈｅ　Ｓｈａｍａｎ”。
+<PAUSE>
+<NAME_PLATE>
+　火と風を同時に操る精霊使いで、
+電子戦の達人だ。
+<PAUSE>
+<NAME_PLATE>
+　おそらくはここにいる中で、
+もっとも余計な感情に囚われていない
+プロフェッショナルであろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m319a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>扇舟
+「ウフフ、分かっているわ」
+<PAUSE>
+<NAME_PLATE>
+　いくつかの組織、様々な人々の思惑の結果、
+扇舟は今ここを収める立場にあった。
+<PAUSE>
+<NAME_PLATE>
+　そんな自分に酔ったかのように
+彼女は唐突に演説を始めた。
+<PAUSE>
+<NAME_PLATE>扇舟
+「復讐の時は来たわ」
+<PAUSE>
+<NAME_PLATE>扇舟
+「このセンザキの拠点こそが
+　各地に散る五車拠点の連絡中継地」
+<PAUSE>
+<NAME_PLATE>扇舟
+「ここを破壊すれば五車の連絡網を
+　完全に麻痺させる事が出来る」
+<PAUSE>
+<NAME_PLATE>扇舟
+「一人も逃がさないで。
+　皆殺しにするのよ！」
+<PAUSE>
+<NAME_PLATE>扇舟
+（井河アサギ、そして水城不知火。
+　お前たちの大切なモノ全てを破壊して
+　生き地獄を味わわせてあげるわ！）
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

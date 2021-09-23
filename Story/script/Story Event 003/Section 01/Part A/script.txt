@@ -1,0 +1,381 @@
+﻿//FileNo:S101a
+//シーン名：プロローグ
+//【背景：五車町＿山林１＿昼】【時間：朝】
+<BG>nc104a,IN, 1000
+<NAME_PLATE>
+　目が覚めると、そこは見知らぬ場所だった。
+<PAUSE>
+<NAME_PLATE>俺
+（うーん……ここは……？）
+<PAUSE>
+<BGM_PLAY>bgm605,1000
+<NAME_PLATE>
+　林の中である。どうやら俺は、
+ここで倒れるようにして眠っていたようだ。
+<PAUSE>
+<NAME_PLATE>俺
+（えっ！？　ど、どういうことだ……？）
+<PAUSE>
+<NAME_PLATE>
+　何がなんだかわからない。
+どうして俺はこんな林の中で寝ていたのか。
+<PAUSE>
+<NAME_PLATE>
+　確か昨晩は、大晦日。
+<PAUSE>
+<NAME_PLATE>
+　時子の作った年越しそばを食べて、
+その後は居候のさくらと
+夜通し耐久ゲーム大会をやって、
+<PAUSE>
+<NAME_PLATE>
+　その辺りで寝落ちしてしまったような
+記憶がある。
+<PAUSE>
+<NAME_PLATE>
+　それなのに今、
+どこかもわからない林の中にいる。
+<PAUSE>
+<NAME_PLATE>
+　これは一体……？
+<PAUSE>
+<NAME_PLATE>俺
+（と、とにかく、頭をすっきりさせよう……）
+<PAUSE>
+<NAME_PLATE>
+　寝起きのせいか頭も体も
+思うように働かない。
+まるで自分の体ではないような感覚だ。
+<PAUSE>
+<NAME_PLATE>
+　俺は這うようにして
+近くの小川のせせらぎに向かった。
+<PAUSE>
+<NAME_PLATE>
+　そして、顔を洗おうと
+川面に顔を近づけると――。
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+//↑仮置きです。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっ！？　でっかいイノシシ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は慌てて振り向いた。
+小川の水面に、すぐ近くまで迫っている
+巨大なイノシシが映っていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし……。
+<PAUSE>
+//　※立ち絵消える。
+<ACTOR>0,ts_m061a,CENTER, CENTER, OUT, linear, 1000
+//↑仮置きです
+<NAME_PLATE>俺
+「あれ？　いないぞ……？」
+<PAUSE>
+<NAME_PLATE>
+　振り向いてみても、そこには
+川面に映っていたイノシシの姿はない。
+<PAUSE>
+<NAME_PLATE>
+　どういうことだ……？
+<PAUSE>
+<NAME_PLATE>
+　と考えながらまた川を覗き込むと、
+やはり巨大なイノシシが映っている。
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「……………………………………………」
+<PAUSE>
+<NAME_PLATE>
+　振り向くといない。
+しかし川面を見ると映っている。
+<PAUSE>
+<NAME_PLATE>
+　俺が右手を上げると、
+川面に映ったイノシシも右手を上げた。
+<PAUSE>
+<NAME_PLATE>
+　そもそも、川面に映っているのは
+巨大なイノシシだけで俺の姿は映っていない。
+<PAUSE>
+<NAME_PLATE>
+　ということは……？
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なんじゃこりゃあああああああああああああ
+　ああああああ！！！？？」
+<PAUSE>
+<NAME_PLATE>俺
+（これは俺か！？
+　このイノシシが俺なのか！？）
+<PAUSE>
+<NAME_PLATE>
+　手足が毛むくじゃらの獣の四肢である。
+服も着ておらず、四つん這いで歩いている。
+<PAUSE>
+<NAME_PLATE>
+　目を覚ました俺は、
+なぜか巨大なイノシシになっていた。
+//　※注：　設定上、清麻呂はマンモスほどの大きさということですが、
+//　　　　　主人公は“身代わり”なので人間よりちょっと大きい程度の猪になっています。
+//　※注：　可能であれば、本物の清麻呂と区別するために、主人公が変化した猪は
+//　　　　　サイズの小さめな画像・左右反転など調整をお願いします。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだこれ！？
+　新年早々なんでこんなことにっ！？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　全く意味がわからない。
+<PAUSE>
+<NAME_PLATE>
+　だが、さらに意味のわからないことに――。
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>下忍１
+「いたぞ！　新春の福猪・清麻呂だ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<ACTOR>2,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>下忍２
+「逃がすな！　囲んで討ち取れっ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>俺
+「はあっ！？　対魔忍！？」
+<PAUSE>
+<NAME_PLATE>
+　現れたのは数人の対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　どうやら下忍のようで、
+俺も顔を知らない相手である。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍たちは俺（イノシシ）の退路を
+塞ぐようにして取り囲んでくる。
+<PAUSE>
+<NAME_PLATE>俺
+「ま、待てっ！？　
+　これは一体、どういう……」
+<PAUSE>
+<NAME_PLATE>下忍１
+「獣と話す言葉は無し！　観念しろ、瑞獣！」
+<PAUSE>
+<NAME_PLATE>俺
+「獣って俺か！？　うわあああっ！？
+　ちょっと待てえええええええっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　悲鳴を上げる俺に向け、
+対魔忍が一斉に襲いかかってきた。
+<PAUSE>
+//→Section１-ＭＡＰ画面１へ
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+//FileNo:S102a
+//シーン名：目覚めたらイノシシ。
+//【背景：城跡＿昼】【時間：朝】
+<BG>nc028a,IN, 1000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　俺（イノシシ）は命からがら
+対魔忍たちを振り切った。
+<PAUSE>
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「ふう。危うく野生のイノシシとして
+　狩られるところだったぜ……」
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<PAUSE>
+<NAME_PLATE>
+　イノシシとなった体はかなりのパワーが
+あるようで、行く手を塞いでいた対魔忍を
+突進で吹き飛ばして、
+<PAUSE>
+<NAME_PLATE>
+　そのまま森の中に逃げ込んだわけである。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、奴らも猪なんて狙って……
+　お雑煮の具にでもするつもりか？
+　卑しい奴らめ」
+<PAUSE>
+<NAME_PLATE>
+　などと考えているうちに、
+俺はあることを思い出した。
+<PAUSE>
+<NAME_PLATE>俺
+（そう言えば奴ら、
+　“福猪”とか言ってたな……？）
+<PAUSE>
+<NAME_PLATE>
+　“福猪”そして“瑞獣”――。
+<PAUSE>
+<NAME_PLATE>俺
+「そうだ！　前に読んだ古文書に、
+　そんな単語が出てきたな……」
+<PAUSE>
+<NAME_PLATE>
+　五車学園の蔵書にあった、
+とある儀式について書かれた古文書だ。
+<PAUSE>
+<NAME_PLATE>
+　確か、それによると――。
+<PAUSE>
+<NAME_PLATE>
+　清冽な気が満ちている元日は、
+一年でもっとも術を行うのに適した日である。
+<PAUSE>
+<NAME_PLATE>
+　かつて、この日に行われていたのが
+“瑞獣の儀”と呼ばれる異端の儀式。
+<PAUSE>
+<NAME_PLATE>
+　異界から福の象徴である
+神格の獣を召喚し、討ち取ることで
+膨大な福を呼び込もうというもの。
+<PAUSE>
+<NAME_PLATE>
+　しかし、もし討ち取れないまま
+逃がしてしまえば、術の反動から
+重大な凶事が起こるということで、
+<PAUSE>
+<NAME_PLATE>
+　現在では封印扱いとなっている
+危険な儀式であるようだ。
+<PAUSE>
+<NAME_PLATE>俺
+（じゃあ、あいつらはその儀式のために
+　俺を追っかけてた……？）
+<PAUSE>
+<NAME_PLATE>
+　いや、仮にそうだったとしても、
+なぜ俺がイノシシなんかの姿に……？
+<PAUSE>
+<SE_PLAY>se076
+<NAME_PLATE>
+　ガサッ……
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？　誰だっ！？」
+<PAUSE>
+<NAME_PLATE>
+　背後から足音。
+俺が振り向くと、そこには――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>3,chr_t0084a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「警戒はいらないわ。私は敵じゃない。
+　……というか君、聞いていた以上に
+　すごい外見ね」
+<PAUSE>
+//　※立ち絵
+//　　ＺＥＲＯアサギ立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<NAME_PLATE>俺
+「アサギ先生……！？」
+<PAUSE>
+<NAME_PLATE>
+　俺（イノシシ）を見て呆れたように
+言うのは、振り袖姿の美しい少女。
+<PAUSE>
+<NAME_PLATE>
+　俺が通う五車学園の校長――
+井河アサギ先生だった。
+<PAUSE>
+<NAME_PLATE>俺
+（い、いや、何か違うぞ……！？
+　このアサギ先生……若い！？）
+<PAUSE>
+<NAME_PLATE>アサギ
+「先生……というのはよくわからないけど、
+　その反応からすると、やはり君は
+　“身代わり”のようね」
+<PAUSE>
+<NAME_PLATE>俺
+「身代わり！？　アサギ先生、
+　やっぱりあんたも俺を狙って……！？」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は対魔忍を束ねる者である。
+<PAUSE>
+<NAME_PLATE>
+　ということは、さっき俺を追っていた
+対魔忍たちの指揮をしているのも――！？
+<PAUSE>
+<NAME_PLATE>アサギ
+「だから、警戒する必要はないと
+　言ったでしょう？　私は敵じゃない」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>アサギ
+「……けど、ゆっくり説明しているヒマは
+　なさそうね」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<BGM_PLAY>bgm207,1000
+<ACTOR_OUT>3,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m001a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>下忍１
+「いたぞ、福猪だ！！
+　今度こそ仕留めろ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　ガサゴソという物音に続いて、
+先ほどの対魔忍たちが茂みから
+飛び出してきた。
+<PAUSE>
+<NAME_PLATE>俺
+「こいつら！？　まだ追ってきてたのか！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「詳しい話は彼らを追い払ってからね。
+　来るわよ――！！」
+<PAUSE>
+//→Section１-戦闘１へ
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

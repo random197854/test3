@@ -1,0 +1,185 @@
+//☆ストーリー02【Section３】シナリオ
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：城跡への道＿夜】【時間：夜】
+//　※戦国魔姦_nc010aより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc030a,IN, 3000
+<NAME_PLATE>
+　まず自己紹介をしておこう――
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺の名前は、上原鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の養成機関・五車学園に通う学生だ。
+<PAUSE>
+<NAME_PLATE>
+　学園では目立たない落ちこぼれ候補生――
+だけど、それは本当の俺じゃない。
+<PAUSE>
+<NAME_PLATE>
+　学園で俺をバカにしてる奴らは知らないが、
+本当の俺は――
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>1,ts_m058a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>忍熊
+「グオオオオオオオオオオオオオ！！！」
+<PAUSE>
+//　※立ち絵
+//　　忍熊立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用。
+<NAME_PLATE>
+　夜の森に猛々しい獣の咆吼が響き渡った。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の前にいるそれは、
+戦闘のために仕込まれた忍熊だ。
+<PAUSE>
+<NAME_PLATE>
+　見上げるほどの巨体、
+大木をへし折るほどの膂力――
+<PAUSE>
+<NAME_PLATE>
+　そして獣にあるまじき高い知能で
+獲物を追い詰める、
+危険極まる夜の森の狩人だった。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m058a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>上原鹿之助
+「クソ！！　囲まれたか――！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　そんな凶悪な巨獣が
+鹿之助の周囲を取り巻いている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001f,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,ts_m015a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>忍者
+「袋の鼠のようだな、小僧――」
+<PAUSE>
+//　※立ち絵
+//　　ふうま刺客立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用。
+<NAME_PLATE>
+　そして、忍熊の後ろから
+忍びらしき者の姿を見せる。
+<PAUSE>
+<NAME_PLATE>
+　どうやらこの男が凶暴な忍熊たちを
+統率しているようだ。
+<PAUSE>
+<NAME_PLATE>忍者
+「観念して屋敷から盗んだ物を渡せ。
+　もう貴様には逃げ場はない」
+<PAUSE>
+<NAME_PLATE>
+　いかにも悪党という感じの脅し文句である。
+<PAUSE>
+<NAME_PLATE>
+　『盗んだ物』とは、忍びの男が仕える屋敷に
+保管されていた極秘書類。
+<PAUSE>
+<NAME_PLATE>
+　放っておけば何百人もの命に関わる
+悪事の証拠であった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>鹿之助
+「ふっ――」
+<PAUSE>
+<NAME_PLATE>
+　四方を敵に囲まれ、逃げ場はない。
+<PAUSE>
+<NAME_PLATE>
+　まさしく絶体絶命という状況で
+鹿之助が不敵に笑う。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「逃げ場はない？
+　それはこっちのセリフだね」
+<PAUSE>
+<NAME_PLATE>忍者
+「なんだと……？」
+<PAUSE>
+<NAME_PLATE>
+　ひ弱そうに見える鹿之助の
+意外な言葉に忍者が首をかしげた。
+<PAUSE>
+<NAME_PLATE>
+　このチビは、まだ抵抗を続けるというのか。
+<PAUSE>
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>鹿之助
+「フッ――悪の忍者さんよぉ。
+　特別にあんたには“本当の俺”の
+　力を見せてやるぜ」
+<PAUSE>
+<NAME_PLATE>
+　そして鹿之助は忍者刀を手前に構えると、
+静かに目を閉じて囁いた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「『封印解除（シールド・オープン）』――
+　左手に封じられた魔界の力を解放する」
+<PAUSE>
+<NAME_PLATE>
+　同時に――
+<PAUSE>
+<NAME_PLATE>
+　バチバチという黒い輝きが
+忍者刀を持った鹿之助の腕を覆っていく。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>忍者
+「なにぃっ！？　貴様、その力はっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　驚愕する忍びの男。
+<PAUSE>
+<NAME_PLATE>
+　周りを囲む忍熊たちも
+「がうがう」ととても驚いている表情だ。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ハハ、この輝きが見えるかい？　これが、
+　魔界の果てに墜ちるという漆黒の稲妻――。
+　クソ親父が俺に封じやがった、闇の力さ」
+<PAUSE>
+<NAME_PLATE>忍者
+「ま、まさか――お前が、
+　あの“黒雷の対魔忍”の末裔か！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ハハハハ！！
+　気付いた時にはもう遅いっ！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は高らかに笑うと、しゃきーんと
+カッコイイポーズで忍者刀を構えた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「さあ行くぞ、悪党どもっ！！
+　この俺が、残らず成敗してやるぜ！！」
+<PAUSE>
+<ACTOR>2,ts_m015a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section３-ＭＡＰ画面１へ
+//=================================================================

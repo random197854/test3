@@ -1,0 +1,435 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：王立士官学校＿廊下＿昼】【時間：昼】
+//　※影のセクハリスト_nc004aより流用
+//nc323a
+<BGM_PLAY>bgm404,1000
+<BG>nc323a,IN, 1000
+<NAME_PLATE>
+　相手は六人。
+貴族が三人に、その従者三人だ。
+<PAUSE>
+<ACTOR>0,ts_m200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貴族
+「そいつを押さえつけろ！」
+<PAUSE>
+//　※立ち絵
+//　　士官学校生徒(男)＿立ち絵
+//　　　　　＊新規デザイン
+<NAME_PLATE>
+　一番偉そうな奴の命令で
+まずは従者が三人向かってくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>従者
+「…………」
+「…………」
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　言いつけ通りに、
+俺を押さえつけるつもりのようだ。
+<PAUSE>
+<NAME_PLATE>
+　その後で貴族どもが
+俺を締めるという寸法か。
+<PAUSE>
+<NAME_PLATE>
+　無論、付き合う義理はない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「やっ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は腕を掴もうとした一人の手首を
+逆に決め、合気道でいう小手返しの
+要領でひっくり返した。
+<PAUSE>
+<BG_OUT>500
+<SE_PLAY>se023
+<NAME_PLATE>従者
+「ぐはっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　そいつは面白いくらいに派手に宙を舞い、
+全く受け身も取れずに床に叩きつけられた。
+<PAUSE>
+<NAME_PLATE>従者
+「なにっ！？」
+「こいつ！？」
+<PAUSE>
+<UI_DISP>OFF, 500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　驚いて動きの止まった残り二人を
+一人は鳩尾への肘で、もう一人は顎への掌底で
+あっさり昏倒させる。
+<PAUSE>
+<SE_PLAY>se024
+<BG>nc323a,IN, 500
+<ACTOR>0,ts_m200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貴族
+「抵抗するつもりか！！」
+<PAUSE>
+<NAME_PLATE>
+　リーダー格の貴族が目を剥いた。
+<PAUSE>
+<NAME_PLATE>俺
+「喧嘩を売ってそれはないだろう」
+<PAUSE>
+<NAME_PLATE>貴族
+「くっ、平民の分際で！
+　お前たち、さっさとやれ！！」
+<PAUSE>
+<NAME_PLATE>取り巻き貴族
+「し、しかし、ディーター様！」
+「こいつ、なにかやっています！」
+<PAUSE>
+<NAME_PLATE>ディーター
+「それがどうした！！
+　やれ！！　やらないか！！」
+<PAUSE>
+<NAME_PLATE>
+　やっと名前が分かったディーター様が
+取り巻き貴族の二人をけしかける。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>取り巻き貴族
+「そこを動くな！！」
+「平民が！　粛正してやる！！」
+<PAUSE>
+<NAME_PLATE>
+　心得の欠片もなさそうな
+貴族二人がズカズカと近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　そうやって大声を出せば、
+平民は言うことを聞くと
+思っているのだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「だから口より先に手を出せって」
+<PAUSE>
+<UI_DISP>OFF, 500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺はスッと間合いに入り込み、
+パンパンと取り巻き二人を張り倒した。
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>取り巻き貴族
+「ぐっっ！」
+「ううっ！！」
+<PAUSE>
+<NAME_PLATE>
+　相当に手加減したつもりだったが、
+生まれて初めて殴られたような顔で
+取り巻き二人はもう立ち上がれない。
+<PAUSE>
+<BG>nc323a,IN, 500
+<ACTOR>0,ts_m200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ディーター
+「ま、まさか……そんな……」
+<PAUSE>
+<NAME_PLATE>
+　残りはディーター様だけだ。
+<PAUSE>
+<NAME_PLATE>
+　お仲間五人をあっという間に倒され、
+顔面蒼白でガタガタと震えている。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした？
+　貴族様は一人じゃ平民の相手も
+　できないのか？」
+<PAUSE>
+<NAME_PLATE>ディーター
+「き、き、貴様ぁあ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　引っ込みがつかなくなったディーターが
+ようやく拳を振り上げる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　まあ軽くぶっ飛ばすくらいにしておくか。
+そう思った所で、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,my_t002f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「おやめなさい！」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　凜とした声が響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　鬼のような形相のマヤが立っていた。
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m200a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ディーター
+「マ、マヤ様……」
+<PAUSE>
+<ACTOR>0,my_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　マヤはディーターにつかつかと近づくと、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se080
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パシーーーンッ！！
+<PAUSE>
+<NAME_PLATE>
+　その頬を派手に引っぱたいた。
+<PAUSE>
+<NAME_PLATE>
+　おお、すごい。
+<PAUSE>
+<NAME_PLATE>マヤ
+「私の従者に不服があるのなら
+　直接私に言えばいいでしょう」
+<PAUSE>
+<ACTOR>0,my_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「それをこそこそとこんな真似をして。
+　恥を知りなさい！」
+<PAUSE>
+<ACTOR>0,my_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ディーター
+「うう……」
+<PAUSE>
+<NAME_PLATE>
+　ディーターとその他の貴族は
+すごすごと逃げだそうとする。
+<PAUSE>
+<ACTOR>0,my_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「その者たちを置いていくつもりですか！
+　あなたたちの従者でしょう！」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　マヤにさらに叱責され、
+三人は気絶した従者を抱えて去っていった。
+<PAUSE>
+<ACTOR>0,my_t002f,RIGHT, CENTER, NONE, linear, 1000
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　さすが姫様。すごい迫力だ。
+<PAUSE>
+<NAME_PLATE>
+　などと感心していたら、
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「フーマ！！」
+<PAUSE>
+<NAME_PLATE>
+　マヤが俺をキッと睨み付けた。
+<PAUSE>
+<NAME_PLATE>
+　あいつらに向けたのより
+もっと怖い顔をしている。
+<PAUSE>
+<NAME_PLATE>マヤ
+「あなたは何をしているのですか！
+　誰があんな真似をしろと言いました！」
+<PAUSE>
+<NAME_PLATE>俺
+「いやでも降りかかった
+　火の粉は払いませんと……」
+<PAUSE>
+<NAME_PLATE>マヤ
+「お黙りなさい！」
+<PAUSE>
+<NAME_PLATE>俺
+「……っ」
+<PAUSE>
+<NAME_PLATE>
+　俺は思わず首をすくめてしまう。
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「私は今朝あなたに誇りをもって
+　行動しろと言ったはずです」
+<PAUSE>
+<NAME_PLATE>マヤ
+「身に降りかかった火の粉を払う。
+　それはいいでしょう。許します」
+<PAUSE>
+<NAME_PLATE>マヤ
+「しかしさっきのあなたは
+　すでに戦意をうしなった相手を
+　無益に挑発していました」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あのような見苦しい行動は
+　あなたを選んでくれた姫姉さま、
+　そしてこの私だけでなく」
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「あなた自信の誇りをも
+　汚すことになると知りなさい！」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は頭を垂れてしまう。
+<PAUSE>
+<NAME_PLATE>
+　確かにゲーム気分で
+ちょっと調子に乗っていた。
+<PAUSE>
+<NAME_PLATE>
+　いくらシミュレーションとはいえ、
+いや、だからこそ真面目にやらないと。
+少し反省しよう。
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「ですが、たった一人で
+　不埒な敵に立ち向かったことは
+　褒めてあげます」
+<PAUSE>
+<NAME_PLATE>マヤ
+「しかもなかなかの心得があるようですね。
+　それでなくては私の従者など務まりません」
+<PAUSE>
+<NAME_PLATE>マヤ
+「私の従者であること。
+　その意味を考えて行動するように。
+　いいですね、フーマ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「ははっ」
+<PAUSE>
+<NAME_PLATE>
+　俺はシミュレーション上の
+仮想人格ではなく、生きている本物の姫様に
+言うつもりで答えた。
+<PAUSE>
+//【背景：コーデリア大公宮全景＿夜】【時間：夜】
+//　※監獄戦艦2_NC008bより流用
+//nc320b
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc320b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さて、その夜。
+<PAUSE>
+//【背景：コーデリア大公宮＿広間＿夜】【時間：夜】
+//　※監獄戦艦２_NC016bより流用
+//nc321b
+<BGM_PLAY>bgm506,1000
+<BG>nc321b,IN, 1000
+<NAME_PLATE>
+　俺はアリシアに呼ばれて、
+今日の出来事を報告していた。
+<PAUSE>
+<ACTOR>0,ar_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アリシア
+「ふふふ。
+　どうやら一日目は無事にすごせたようだな」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　俺の話を聞いて、
+アリシアは面白がっているようだった。
+<PAUSE>
+<NAME_PLATE>俺
+「いえ、無事に過ごせませんでした。
+　申し訳ありませんという報告なのですが。
+　マヤ様にも叱られてしまいました」
+<PAUSE>
+<NAME_PLATE>アリシア
+「下らぬことをしてきた連中のことではない。
+　コーデリアも一枚岩ではないからな。
+　そんな奴らは蹴散らして当然。責めはせぬ」
+<PAUSE>
+<NAME_PLATE>アリシア
+「お前が一日でマヤの従者を首にならなかった
+　ことを言っているのだ」
+<PAUSE>
+<NAME_PLATE>俺
+「今までそんなに従者を首に？」
+<PAUSE>
+<ACTOR>0,ar_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アリシア
+「マヤは他のことは
+　私の言うことをよく聞くが、
+　人の好みはなかなかうるさいからな」
+<PAUSE>
+<ACTOR>0,ar_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アリシア
+「お前を叱ったと言うことは、
+　お前に期待、いや少なくとも
+　興味をもったということだ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうでしょうか？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「それはそうだろう」
+<PAUSE>
+<NAME_PLATE>アリシア
+「いくら因縁をつけてきたとはいえ、
+　貴族を平気でぶちのめす平民など
+　そうはいないからな」
+<PAUSE>
+<NAME_PLATE>アリシア
+「私もお前には期待している。
+　その調子で頼むぞ、フーマ」
+<PAUSE>
+<NAME_PLATE>俺
+「分かりました」
+<PAUSE>
+<NAME_PLATE>
+　俺は満足げなアリシアに頷いた。
+<PAUSE>
+<NAME_PLATE>
+　一日目の行動選択はこれで良かったのかなと
+まだ少しゲーム気分で考えていた。
+<PAUSE>
+//→Section１終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

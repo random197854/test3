@@ -1,0 +1,823 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「死ねえええええええええええっ！！」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<WAIT>100
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バニーＫが遠間から飛び込みざまに
+斬りつけてきた。
+<PAUSE>
+<NAME_PLATE>
+　殺意の固まりのような一撃だ。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「む……」
+<PAUSE>
+//　※立ち絵
+//　　【兎装の魔界騎士】イングリッド＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　バニーＫの正体も、
+ドロレスのことも気になるが、
+イングリッドはそれを受け止める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイインッ！！
+<PAUSE>
+<NAME_PLATE>
+　互いの剣がぶつかり合い、
+激しい火花を散らした。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>バニーＫ
+「ははっ、はあああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　初撃を防がれたバニーＫは
+二撃、三撃と畳みかけてくる。
+<PAUSE>
+<NAME_PLATE>
+　刀身が黒い帯のように流れる。
+<PAUSE>
+斬撃と斬撃の間が少しもない。
+<PAUSE>
+<NAME_PLATE>
+　サイボーグ化された身体を駆使した
+素早く正確無比な攻撃だ。
+<PAUSE>
+<NAME_PLATE>
+　これに対処できるのは、
+彼女の部下ではリーナくらいだろう。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+（強いことは強いな……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　こんな場を用意してまで、
+イングリッドに挑んでくるだけのことはある。
+<PAUSE>
+<NAME_PLATE>
+　しかしどこか自分を
+捨てているような印象がある。
+<PAUSE>
+<NAME_PLATE>
+　捨て鉢とまでは言わないが、
+自分を守ることなど少しも考えていない
+攻撃一辺倒の打ち込みだ。
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「どうしたイングリッド！！
+　貴様の力はその程度ではないはずだ！」
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「私には本気を出す気にもならないのか！？
+　その驕り、打ち砕いてやる！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　まずは様子見と、
+受けに回ったイングリッドに憤ったか、
+その攻撃が激しさを増した。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+（なんだこいつは？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ドロレスを人質にとって、
+彼女に力を出させないようにするのが
+狙いかと思いきや正反対のことを口にしている。
+<PAUSE>
+<NAME_PLATE>
+　というより、
+ドロレスを人質にとったことすら
+忘れているような様子だ。
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「炎の剣を使ってみろ！
+　魔界騎士イングリッド！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+（どういうつもりか分からないが……）
+<PAUSE>
+<NAME_PLATE>イングリッド
+「唸れダークフレイム！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴォオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは戸惑いつつも、
+黒い炎を剣に纏わせ、自分から斬りつけた。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「そうこなくては！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バニーＫは歓喜の声をあげ、
+冷気を纏わせた剣でそれを受け止める。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビシィイイイイイイイッッ！！
+<PAUSE>
+<NAME_PLATE>
+　今度飛び散ったのは火花ではなく、
+微細な氷とそれが一瞬で蒸発した湯気だった。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「氷の身体か」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　バニーＫの身体を
+白い霜がびっしりと包んでいる。
+<PAUSE>
+<NAME_PLATE>
+　氷の魔力に加えて、
+液体窒素か何かでサイボーグの身体を
+強引に冷やしているのだ。
+<PAUSE>
+<NAME_PLATE>
+　それでイングリッドの炎剣を真正面から
+受け止めることに成功したようだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし無理のあるやり方だ。
+冷やしすぎた機械の身体が激しく軋んでいる。
+あれではすぐに動けなくなるだろう。
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「どうだ！　イングリッド！
+　これが私の力だ！！」
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「私はここまで来たぞ！！
+　貴様を殺すためにここまで来たのだ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バニーＫは身体のことなど少しも気にせず、
+嬉々として――そう、楽しそうに剣を振るった。
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+（なんだこの感じは？
+　私への憎悪？　いや憧憬？
+　こいつはいったい何なんだ！？）
+<PAUSE>
+<NAME_PLATE>
+　バニーＫと剣を交えながら、
+イングリッドは奇妙な感慨を抱き始めていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その剣から激しい憎しみと同時に、
+まるでリーナに稽古を付けているときのような
+彼女への憧れを感じるのだ。
+<PAUSE>
+<NAME_PLATE>
+　それに気づいた時、
+イングリッドは思わず問いかけていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m297b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0353a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「バニーＫ！
+　お前は私がかつて倒した
+　バルリング家の者なのか？」
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「……！？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「これはその復讐なのか？」
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「……バルリング家？」
+<PAUSE>
+<NAME_PLATE>
+　バニーＫの動きが止まった。
+<PAUSE>
+<NAME_PLATE>
+　どこか呆然とした様子で、
+何か思い出そうとしている。
+<PAUSE>
+<NAME_PLATE>
+　今、斬り捨てるのは簡単だったが、
+イングリッドは答えを待った。
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「なにを言っている！？
+　そんな奴らなど知るものか！
+　私は貴様を殺したいだけだ！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ならば理由を言え！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>バニーＫ
+「理由！？
+　くっ……理由などない！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バニーＫはそう吐き捨てると、
+再びイングリッドに斬りかかってきた。
+<PAUSE>
+//【黒画面】
+//※視点切り替えの間
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc155a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0352a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+「理由などない……か。
+　きっと昔はあったんだろうけど」
+<PAUSE>
+//　※【真夏バニー】高坂静流＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　二人の闘いを見ながら静流が呟いた。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「も、もう生身のころの記憶は
+　ほとんど残ってないんでしょ？」
+<PAUSE>
+//　※立ち絵
+//　　【脱部屋】ドロレス＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　人質のドロレスが聞いてくる。
+<PAUSE>
+<NAME_PLATE>静流
+「ええ、身体を改造しすぎてね。
+　残っているのは
+　最強の魔界騎士への想いだけ」
+<PAUSE>
+<NAME_PLATE>静流
+「それがどんなものか
+　私たちには分からないけれど、
+　その想いだけで彼女は戦っているのよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　メンテナンスルームで見つかった時、
+バニーＫに静流をどうこうする力は
+残っていなかった。
+<PAUSE>
+<NAME_PLATE>
+　一人でメンテナンスルームまで来たものの
+そこで動けなくなっていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　そんなバニーＫを
+静流はひとまず介抱した。
+<PAUSE>
+<NAME_PLATE>
+　そこで倒すこともできたのだが、
+バニーＫの正体とイングリッドを狙う目的を
+知っておきたかったのだ。
+<PAUSE>
+<NAME_PLATE>
+　バニーＫのメンテナンスを手伝い、
+彼女の信用を得ることに成功して
+分かったことは、
+<PAUSE>
+<NAME_PLATE>
+　サイボーグ化を進めすぎた結果、
+もはや生身のころの記憶は
+殆ど残っていないということ。
+<PAUSE>
+<NAME_PLATE>
+　自分でもよく分からない理由で
+イングリッドにこだわり続け、
+<PAUSE>
+<NAME_PLATE>
+　生身の記憶が完全に消え去る前に、
+イングリッドに最後の勝負を挑もうと
+しているということだった。
+<PAUSE>
+<NAME_PLATE>
+　それがバニー軍団によるノマドへの襲撃だ。
+<PAUSE>
+<NAME_PLATE>
+　静流はそんなことをするよりも
+カジノで大勢が見ている前で
+イングリッドを倒した方がいいと説得し、
+<PAUSE>
+<NAME_PLATE>
+　街中にわざと噂を流して、
+イングリッドを呼び出したのだ。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスを人質にしたのも
+そのお膳立ての一つだ。
+<PAUSE>
+<NAME_PLATE>
+　そうすればイングリッドは力を出せない、
+勝利は確実だとバニーＫを欺き、
+<PAUSE>
+<NAME_PLATE>
+　その一方で、
+イングリッドに本気を出してもらうため、
+ドロレスに話を通して来てもらった。
+<PAUSE>
+<NAME_PLATE>
+　ドロレスもヨミハラのためならと
+静流に協力してくれた。
+<PAUSE>
+<NAME_PLATE>
+　一対一でイングリッドが敗れることは
+絶対にないと信じているようだった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG>nc155a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0352a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+「あなたが来てくれて助かったわ。
+　バニー軍団を率いてノマドへの襲撃なんて
+　やられたらたまらないもの」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「わ、私もそんなのヤダし、
+　ていうか、こういう状況で人質になるとか
+　い、一度やってみたかったし」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「と、囚われのお姫様的な？
+　ウェヒヒ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　完全にこの状況を楽しんでいる。
+そのためにお洒落までしてきたドロレスに
+静流は笑いながら言った。
+<PAUSE>
+<NAME_PLATE>静流
+「でも助けにくるのは
+　お姉さんの女騎士じゃなくて、
+　王子様の方がよかったんじゃない？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「王子様？
+　い、いないしそんなの」
+<PAUSE>
+<NAME_PLATE>静流
+「あら、ふうま君は違うの？」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「ぬあっ！？
+　な、な、なんでわ、私とふうまが
+　と、友達だって知ってんの！？」
+<PAUSE>
+<NAME_PLATE>静流
+「私、彼の先生だもの。
+　生徒の動向には注意を払ってるの」
+<PAUSE>
+<NAME_PLATE>静流
+「彼、ほんと変な人脈があるのよね。
+　あなたみたいな」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ふ、ふうまはた、ただのゲーム友達だし」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは急にモジモジし始めた。
+<PAUSE>
+<NAME_PLATE>静流
+「ただの……。
+　そういうことにしておきましょうか」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「……あうう、あ、あのさ。
+　お姉ちゃんには内緒にしてくんない？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「お、男の友達ってだけでも気にしてるのに、
+　それが対魔忍とか分かったら
+　な、なんかすごい言われそう」
+<PAUSE>
+<NAME_PLATE>静流
+「うふふ、言わないわ。
+　人質になってくれたお礼もあるしね」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あ、ありがと」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　彼女は魔族だ。
+実際の年齢は静流より遙かに上のはずだが、
+こういう反応は見た目そのままだ。
+<PAUSE>
+<NAME_PLATE>
+　ノマドの魔族というより
+生徒の一人を相手にしているような気分になる。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>ドロレス
+「で、でもさ、なんでメンテ中のバニーＫを
+　こっそり始末しちゃわなかったの？
+　そっちの方がよ、よっぽど簡単っしょ？」
+<PAUSE>
+<NAME_PLATE>静流
+「それはそうなんだけどね。
+　彼女のあんな状態を知ってしまうと
+　すごく後味が悪そうだし」
+<PAUSE>
+<NAME_PLATE>静流
+「彼女、イングリッドに自分が倒されることを
+　望んでるみたいな気がしたから」
+<PAUSE>
+<NAME_PLATE>静流
+「ヨミハラ町内会の会長としては
+　それに相応しい場所を
+　用意してあげたかったの」
+<PAUSE>
+<NAME_PLATE>
+　静流がそう言うと、
+ドロレスは納得したように頷いた。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「な、なんかそれ分かる。
+　あの人、お姉ちゃんに自分を見て欲しいって
+　言ってるみたいだから」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「お姉ちゃんを憎んでるのか、憧れてるのか、
+　わ、私には分かんないけど」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「お姉ちゃんみたいにキラキラした人には
+　だ、誰だってすごい影響を受けちゃうし、
+　自分を見て欲しいって、お、思うもの」
+<PAUSE>
+<NAME_PLATE>静流
+「そうね」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「も、もしかしたらあの人、
+　リーナみたいになりたかったのかな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ドロレスはその心情を思いやったように、
+イングリッドに挑むバニーＫを見やる。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　二人の闘いが決しようとしていた。
+<PAUSE>
+//【黒画面】
+//※視点切り替えの間
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm320,1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>バニーＫ
+「はぁっ、はあっ、はあっ、はあっ……」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　バニーＫの劣勢は明らかだった。
+<PAUSE>
+<NAME_PLATE>
+　元々の力量以前に
+サイボーグの身体に限界が来ていた。
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの炎に対抗するために
+強引に冷却させたボディには
+無数の亀裂が走っている。
+<PAUSE>
+<NAME_PLATE>
+　もう放っておいても砕けるだろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　【兎装の魔界騎士】イングリッド＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　イングリッドはバニーＫに止めろとも、
+すでに勝敗は決したとも言わず、
+ただ最期の一撃を待っていた。
+<PAUSE>
+<NAME_PLATE>
+　細かい理由は不明だが
+この決闘をお膳立てしたのが、
+静流とドロレスであることは察していた。
+<PAUSE>
+<NAME_PLATE>
+　そして言葉にせずとも
+互いに交わした刃を通じて、
+バニーＫの望みも伝わってきた。
+<PAUSE>
+<NAME_PLATE>
+　ならば魔界騎士として
+それを叶えてやるだけだ。
+<PAUSE>
+<ACTOR>0,ts_m297b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バニーＫ
+「これが私の最後の一撃だ！
+　くらえ、イングリッド！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バニーＫが全ての想いを込めた一撃を放つ。
+<PAUSE>
+<NAME_PLATE>
+　恨みか、憧れか、もっと別の感情か、
+結局、イングリッドには分かり得なかったが、
+<PAUSE>
+<BG>nc155a,IN, 500
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「でやあああああああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【兎装の魔界騎士】イングリッド＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　彼女はそれを真正面から受け止め、
+バニーＫを全力で断ち斬っていた。
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「ぐはっっ！！」
+<PAUSE>
+<NAME_PLATE>バニーＫ
+（同じだ……あの時と同じだ……）
+<PAUSE>
+//【背景：バルトリング家の大広間＿昼（モノクロノイズ）】【時間：昼】
+//　※女剣闘士ミネルヴァ_nc005aより流用加工
+//　※立ち絵
+//　　イングリッド＿立ち絵（モノクロノイズ）
+//　　　＊カードイラストより流用加工
+//nc447b
+//【背景：バルトリング家の大広間＿昼】【時間：昼】
+//　※女剣闘士ミネルヴァ_nc005aより流用加工
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc447b,IN, 1000
+<ACTOR>0,i_t001a,CENTER, CENTER, IN, linear, 1000
+<WAIT>500
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm409,1000
+<BG>nc447a,IN, 1000
+<UI_DISP>ON, 0
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストより流用加工
+<NAME_PLATE>
+　私は、カトリン。
+バルリング家の侍女だった。
+<PAUSE>
+<NAME_PLATE>
+　誰よりも強く、お美しいマルガレーテ様に
+お仕えすることが、私のなによりの誇りだった。
+<PAUSE>
+<NAME_PLATE>
+「ありがとう、カトリン」
+<PAUSE>
+<NAME_PLATE>
+　その一言で私はどれだけ幸せを感じたろう。
+<PAUSE>
+<NAME_PLATE>
+　だけど、その幸せは一瞬で断ち切られた。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　魔界騎士イングリッドによって。
+<PAUSE>
+<NAME_PLATE>
+　その時、私は―――
+ああ、そうだ……私は、
+<PAUSE>
+<NAME_PLATE>
+　怒りよりも、悲しみよりも、
+ただ心奪われてしまった。
+<PAUSE>
+<NAME_PLATE>
+　憧れてしまった。
+<PAUSE>
+<NAME_PLATE>
+　あの人の強さに、美しさに。
+<PAUSE>
+<NAME_PLATE>
+　それが許せなくて。
+<PAUSE>
+<NAME_PLATE>
+　私にマルガレーテ様を忘れさせたあの人が
+なにより自分自身が許せなくて。
+<PAUSE>
+<NAME_PLATE>
+　やっと思い出した。
+それが最初のきっかけだ。
+<PAUSE>
+<NAME_PLATE>
+　だから私は強さを求めた。
+<PAUSE>
+<NAME_PLATE>
+　あの人に近づくために。
+<PAUSE>
+<NAME_PLATE>
+　あの人を倒すために。
+<PAUSE>
+<NAME_PLATE>
+　あの人に私を見てもらうために。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　だけどその想いを、最初の気持ちを
+いつの間にか私は忘れてしまった。
+<PAUSE>
+<NAME_PLATE>
+　ひたすらに強さを求め、機械化を繰り返し、
+その果てに残ったのは、あの人への執着だけ。
+<PAUSE>
+<NAME_PLATE>
+　自分ではどうにもならない感情だけ。
+<PAUSE>
+<NAME_PLATE>
+　でも、その苦しみはもうなくなった。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　誰よりも強くて、誰よりも美しい
+あの人に消してもらった。
+<PAUSE>
+<NAME_PLATE>
+　私の憧れた魔界騎士イングリッドが
+真っ向から断ち斬ってくれた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だからもう、これでいい。
+<PAUSE>
+<NAME_PLATE>
+　私はもう、満足した。
+<PAUSE>
+//【背景：カジノ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG>nc155a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>バニーＫ
+「イ、イングリッド……」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR>0,chr_t0353a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「本当の名を教えてくれるか？」
+<PAUSE>
+//　※立ち絵
+//　　【兎装の魔界騎士】イングリッド＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>バニーＫ
+「カトリン……バルリング……」
+<PAUSE>
+<NAME_PLATE>
+　そう名を継げ、バニーＫ
+いやカトリン・バルリングは
+静かに息を引き取った。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　その名前に覚えはなかった。
+<PAUSE>
+<NAME_PLATE>
+　だが彼女を見上げる瞳、
+機械化された瞳ではあったが、
+<PAUSE>
+<NAME_PLATE>
+　そこにかつて自分を憧憬の眼差しで
+見つめていた一人の侍女の面影を
+イングリッドは思い出していた。
+<PAUSE>
+//→Section５終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

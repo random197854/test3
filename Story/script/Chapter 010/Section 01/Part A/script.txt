@@ -1,0 +1,778 @@
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：五車学園＿学食＿昼】【時間：昼】
+//　※妻ネトリ_nc001aより流用
+<BG>nc027a,IN, 1000
+<BGM_PLAY>bgm502,1000
+<NAME_PLATE>
+　昼休みの学食――。
+<PAUSE>
+<NAME_PLATE>
+　わいわいと賑やかな対魔忍学生たちに
+混じって、俺も鹿之助や蛇子と一緒に
+昼飯をつついていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t003b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「くぅ～。やっぱかーちゃんの作った
+　タマゴ焼きは美味いな！　はむはむ」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿制服衣装
+<NAME_PLATE>相州蛇子
+「わ。おいしそう！
+　鹿之助ちゃん、お母さんの手作り？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<ACTOR>0,s_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そうだぜ！　蛇子も食べるか？」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「いいの？　わーい。
+　じゃあいただきまーす、あむあむ。
+　うふふ、あまくておいしい♪」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「へへ～、だろ！？
+　この絶妙な甘さを出すのが
+　プロ級のワザなんだよな～」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そうだよねぇ。
+　蛇子が自分で作っても、
+　こんなに美味しくできないし」
+<PAUSE>
+<ACTOR>0,s_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あっ。でも、
+　それは逆によかったじゃん」
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「なんで？」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「自分で美味いの作れたら、
+　蛇子ばくばく食べちゃうだろ？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そしたら、どんどん太って……
+　ほら、そのうちに昔話に出てくる
+　でっかいタコの怪物みたいに……」
+<PAUSE>
+<ACTOR>1,h_t001f,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「クラーケン！？　も～っ、
+　蛇子そんなに巨大化しないもん！！」
+<PAUSE>
+<ACTOR>0,s_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「クク……その油断が命取り……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ゆ、油断なんかしてないし！
+　そういう鹿之助ちゃんだって……
+　ねえ、ふうまちゃん！？」
+<PAUSE>
+<ACTOR>1,h_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「……って、ふうまちゃん？
+　聞いてる？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ？」
+<PAUSE>
+<NAME_PLATE>
+　突然話を振られ、
+俺は読んでいた本から顔を上げた。
+<PAUSE>
+<NAME_PLATE>
+　俺は本を読みながら
+昼飯の日替わり定食をつつくという、
+我ながら器用な食べ方をしていた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ねえねえ、ふうまちゃん。
+　蛇子たちのお話聞いてた？」
+<PAUSE>
+<NAME_PLATE>俺
+「おう。当たり前だろ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「うそー。さっきからずっと本読んでるし。
+　というか、お食事中に本を読むのは
+　お行儀悪いわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「別に良いだろ、気を使う仲でもないし。
+　それに、話ならちゃんと聞いてたぞ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ほんと？」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子がまた太ったんだろ。
+　自分で作ったタマゴ焼き
+　ばくばく食べて」
+<PAUSE>
+<ACTOR>1,h_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ぜんぜん違ってるし！？」
+<PAUSE>
+<NAME_PLATE>俺
+「あれ、そうだったか……？」
+<PAUSE>
+<ACTOR>1,h_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　まあ軽く聞き流していたことは
+否めない。
+<PAUSE>
+<NAME_PLATE>
+　俺が首を傾げていると、
+不思議そうな顔をして鹿之助が聞いてくる。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「それ、面白い本なのか？
+　ふうまが本好きって言っても、
+　飯の時まで読んでること珍しいよな」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、面白いって言うか……実用書」
+<PAUSE>
+<ACTOR>1,h_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「実用書？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。魔術とか古い儀式についての本」
+<PAUSE>
+<ACTOR>1,h_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>二人
+「へー」
+「魔術……？」
+<PAUSE>
+<NAME_PLATE>
+　二人は、まだ不思議そうな顔をしている。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、この本は……ほら？
+　この前、俺、骸佐に刺されて
+　死にかけただろ」
+<PAUSE>
+<NAME_PLATE>
+　死にかけたというより、心臓を貫かれ、
+一度完全に死んでいた。
+<PAUSE>
+<ACTOR>1,h_t001g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あー。あったよね」
+<PAUSE>
+<ACTOR>0,s_t003c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あれなー。あの時、蛇子が
+　ぎゃんぎゃん泣いて大変だったんだぜ」
+<PAUSE>
+<ACTOR>1,h_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「し、鹿之助ちゃん！
+　そういうのは言わないの！」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そんなことが……？
+　いや、まあでも、
+　なぜか死なないで蘇った」
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うんうん。びっくりしたよね～」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「おう！　まさかふうまが
+　治癒系の忍法に目覚めるなんてな～」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「思わずお祝いパーティー
+　ひらいちゃったもんな！！」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「パーティー楽しかったよねー。
+　うふふ」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、パーティーは置いておいて……。
+　それで、詳しいことを
+　調べてもらいに行ったんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「お前らも知ってるだろ？
+　うちの学園の地下研究室に篭もってる、
+　桐生先生」
+<PAUSE>
+<ACTOR>0,s_t003c,LEFT, LEFT, NONE, linear, 0
+<BGM_STOP>1000
+<NAME_PLATE>鹿之助
+「あー、あの人。
+　前に任務で会ったよな」
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「変な人だよね。
+　ふうまちゃん、よく調べてもらう
+　気になったわね」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、腕は確かみたいだし……。
+　で、何やかんやあって
+　診断してもらったんだけど――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう――。
+その診断結果というのが、
+また問題だったのだ。
+<PAUSE>
+//※回想開始
+//【背景：五車学園＿桐生の地下実験室】【時間：昼】
+//　※アサギゼロ背景nc041aより流用
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm203,1000
+<BG>nc099a,IN, 1000
+<ACTOR>2,ki_t001a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>桐生佐馬斗
+「ふむ、これはアレだな。
+　忍法じゃないな」
+<PAUSE>
+//　※立ち絵
+//　　桐生佐馬斗通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>俺
+「…………はい？」
+<PAUSE>
+<NAME_PLATE>
+　あっさりと断言され、
+俺はそう問い返すしかなかった。
+<PAUSE>
+<NAME_PLATE>
+　闇ブローカーの店での『お使い』から戻り、
+一通りの検査が終わった後の事である。
+<PAUSE>
+<NAME_PLATE>
+　検査結果を見た魔科医・桐生佐馬斗は、
+ごく当然のようにこう言った。
+<PAUSE>
+<ACTOR>2,ki_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>桐生
+「お前の再生能力に、
+　対魔粒子が使われた形跡はない」
+<PAUSE>
+<ACTOR>2,ki_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>桐生
+「つまり、お前は依然として忍法の使えない
+　チンカス坊主のままということだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええっ！？　じゃ、じゃあ……」
+<PAUSE>
+<NAME_PLATE>
+　対魔粒子とは、対魔忍が忍法を
+使うための原動力のようなものだ。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の家系に連なる者は、
+生まれながらにして
+対魔粒子を行使する能力を持ち――
+<PAUSE>
+<NAME_PLATE>
+　それによって、通常の物理法則から外れた
+様々な忍法を操ることができる。
+<PAUSE>
+<NAME_PLATE>俺
+（でも、それが違うってことは――）
+<PAUSE>
+<ACTOR>2,ki_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>桐生
+「決まってる。忍法じゃないとしたら、
+　それは“魔性”の力だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ま、魔性ですか！？」
+<PAUSE>
+<NAME_PLATE>
+　思わず大きな声が出た。
+<PAUSE>
+<NAME_PLATE>
+　魔性の力とは、
+主に魔界の住人達が行使する力のことだ。
+<PAUSE>
+<NAME_PLATE>
+　人の世界とは異なる理によって
+具現化されるパワー。
+<PAUSE>
+<NAME_PLATE>
+　対魔粒子もその一種だという説もあるが、
+その辺は研究者によって意見がわかれるし、
+ややこしくて俺もよくわからない。
+<PAUSE>
+<NAME_PLATE>
+　それより、いま重要なことは――
+<PAUSE>
+<NAME_PLATE>俺
+（どうして俺に魔性の力が……？）
+<PAUSE>
+<NAME_PLATE>桐生
+「確かお前、死んだ後の方が体が
+　よく動くようになった……
+　そんなことを言ってたな？」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ。まあ……」
+<PAUSE>
+<NAME_PLATE>
+　呆然としている俺に、
+桐生先生が続けて言う。
+<PAUSE>
+<NAME_PLATE>
+　闇ブローカーの店での一部始終も、
+この人に話してあった。
+<PAUSE>
+<NAME_PLATE>桐生
+「ふむ……。それも恐らく、
+　魔性の力に目覚めた効果だろうな」
+<PAUSE>
+<NAME_PLATE>桐生
+「そして、これは仮説だが……
+　お前が死ねば死ぬほど、
+　お前の力は目覚めていく」
+<PAUSE>
+<NAME_PLATE>俺
+「し、死ねば死ぬほど！？
+　そんな無茶苦茶な話……って、
+　桐生先生、何をしてるんですか……？」
+<PAUSE>
+<NAME_PLATE>
+　桐生先生は、ガチャガチャと機材を
+漁って極太の注射器を取り出していた。
+<PAUSE>
+<ACTOR>2,ki_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>桐生
+「クククク、こんな面白い実験材料が
+　目の前に転がってくるとは……
+　いやいや、なんでもないよ」
+<PAUSE>
+<NAME_PLATE>桐生
+「君の体にはもう少し詳しい検査が
+　必要みたいだからね。
+　さあふうま君、その椅子に座りなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なにをするんですか……？」
+<PAUSE>
+<NAME_PLATE>桐生
+「大丈夫。痛くしないから」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なにを！？」
+<PAUSE>
+<NAME_PLATE>
+　危険な臭いを感じて俺は
+とっさに後ずさった。すると――。
+<PAUSE>
+<ACTOR>2,ki_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>桐生
+「あ～、ゴチャゴチャうるさいぞ！！
+　もう一回死ねば色々ハッキリするんだから、
+　さっさと俺様に殺されろ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「い、嫌ですっ！！
+　実験で殺されてたまるかーーーっ！！」
+<PAUSE>
+//※回想終了
+//【背景：五車学園＿学食＿昼】【時間：昼】
+//　※妻ネトリ_nc001aより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG>nc027a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というようなことがあって、
+必死の思いで地下研究室から
+逃げてきたのだった。
+<PAUSE>
+<GROUP>
+<ACTOR>1,h_t001d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,s_t003d,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「魔性の力……？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>鹿之助
+「ふうま、忍法に目覚めたんじゃ
+　なかったのか……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿制服衣装
+<NAME_PLATE>
+　蛇子と鹿之助もさすがに驚いた様子だった。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。俺も驚いたよ……」
+<PAUSE>
+<NAME_PLATE>俺
+（一体どうなってるんだよ、
+　俺の体は……）
+<PAUSE>
+<NAME_PLATE>
+　忍法じゃない――と言われたことは、
+正直『やはり』という思いもあった。
+<PAUSE>
+<NAME_PLATE>
+　俺くらい年がいってから
+忍法に目覚める例はほとんどないし、
+<PAUSE>
+<NAME_PLATE>
+　そもそも俺自身、
+忍法に目覚めた実感がなかったからだ。
+<PAUSE>
+<NAME_PLATE>俺
+（とは言え、魔性の力か……）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺はふと、蛇子がさらわれた時、
+カオス・アリーナの蛇女に言われたことを
+思い出した。
+<PAUSE>
+//※回想開始
+//【背景：カオス・アリーナ＿アリーナ＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZEROの背景NC020aより流用
+<UI_DISP>OFF, 500
+<BG>nc060a,IN, 1000
+<ACTOR>3,sr_t001a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>スネークレディ
+「その目よ、あなたの“失われた右目”♪
+　忌々しい秘密を含んでる――」
+<PAUSE>
+//　※立ち絵
+//　　スネークレディ
+//　　　　＊対魔忍RPGカードイラストより流用//※回想終了
+//【背景：五車学園＿学食＿昼】【時間：昼】
+//　※妻ネトリ_nc001aより流用
+<ACTOR_OUT>3,CENTER,linear,1000
+<BG>nc027a,IN, 1000
+<NAME_PLATE>俺
+（忌々しい秘密……？　クソ！！
+　ますますわけがわからないぜ……）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　あの蛇女が言っていた“秘密”とは、
+俺の中にあるらしい魔性の力と
+何か関係してるのか……？
+<PAUSE>
+<NAME_PLATE>
+　と、俺がそれなりに深刻に
+考え込んでいると――。
+<PAUSE>
+<GROUP>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,s_t003a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm307,1000
+<NAME_PLATE>鹿之助
+「うーん。どうする蛇子？
+　もう一回パーティーするか？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そうよね。魔性と忍法は違うから、
+　もう一回お祝いしても良いわよね」
+<PAUSE>
+<NAME_PLATE>
+　などと、蛇子と鹿之助は
+のんきなことを話していた。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、パーティーは別にいいんだが
+　……お前ら、気にならないのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「俺が魔性の力を持っている――つまり、
+　淫魔やオークみたいな魔界の住人と、
+　近い存在らしいってことなんだが」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「んー？　でも、ふうまちゃんって
+　元々変なこと妄想してそうだし。
+　淫魔になっても変わらなさそう」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「だよな。ふうまは元々すけべえなんだし、
+　オークだって言われても気にしないぜ！」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……。いや、別に淫魔や
+　オークそのものではないんだけど……
+　まあでも、ありがとな」
+<PAUSE>
+<NAME_PLATE>
+　俺は笑って、目の前の二人の友人に肯いた。
+<PAUSE>
+<ACTOR>1,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<ACTOR>0,s_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　仮に俺が妙な存在だったとしても、
+こいつらの態度は変わらない――
+そのことが、何だか少し嬉しかった。
+<PAUSE>
+<NAME_PLATE>俺
+「とにかく、そういう感じで――
+　あの再生の力が忍法じゃないのは
+　確からしいんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「それで、自分でも
+　色々調べてみようと思ってな」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふーん。
+　だから魔術の本を読んでたのね。
+　勉強家だよね、ふうまちゃん」
+<PAUSE>
+<NAME_PLATE>
+　ようやく納得した顔の蛇子と鹿之助。
+そこに――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0041a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま災禍
+「若様。お探しの書物が
+　見つかったのでお持ちしました」
+<PAUSE>
+//　※立ち絵
+//　　災禍立ち絵
+//　　　　＊対魔忍RPGカードイラストより流
+<NAME_PLATE>俺
+「おっ。助かるよ、災禍」
+<PAUSE>
+<NAME_PLATE>
+　数冊の本を持ったふうま災禍が
+やってきた。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t003b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>二人
+「あっ！　こんにちは、災禍さん！」
+「こんにちはー！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0041a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>災禍
+「はい、こんにちは。相州さん、上原くん」
+<PAUSE>
+<NAME_PLATE>
+　顔見知りの蛇子と鹿之助が
+災禍と挨拶を交わす。
+<PAUSE>
+<NAME_PLATE>
+　災禍は、かつて俺の親父の秘書を
+務めていた女性で、色々あって
+親父が死んだ後も、
+<PAUSE>
+<NAME_PLATE>
+　時子たちと一緒にふうまの家に残って
+俺に仕えてくれている。
+<PAUSE>
+<NAME_PLATE>
+　特に災禍には、親父が残した
+ふうま宗家に伝わる屋敷や書物の
+管理を任せていた。
+<PAUSE>
+<NAME_PLATE>俺
+「見つけるのに苦労したか？」
+<PAUSE>
+<NAME_PLATE>災禍
+「いえ特には。
+　若様の指示がわかりやすかったので」
+<PAUSE>
+<NAME_PLATE>俺
+「そっか。なら良かった」
+<PAUSE>
+<ACTOR>4,chr_t0041a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん。その本も、
+　さっき言ってた魔術の関係？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな。今回は
+　つっこんだ所まで調べたくて、
+　災禍に手伝ってもらったんだ」
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうだったのね。
+　お疲れさまです、災禍さん」
+<PAUSE>
+<NAME_PLATE>災禍
+「いえ、そんなことは……。
+　若様のお手伝いをするのは
+　楽しいことですから」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,s_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「う～ん、ふうまいいなー。
+　俺も災禍さんみたいな
+　優しい秘書の人が欲しい……」
+<PAUSE>
+<NAME_PLATE>俺
+「ば、馬鹿言うなよ。
+　災禍だって厳しい時は
+　凄く厳しい……よな？」
+<PAUSE>
+<NAME_PLATE>
+　身内を褒められるのは何だか
+くすぐったい。俺はちょっとぶっきらぼうに
+災禍に言う。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>4,chr_t0041a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>災禍
+「ふふっ、そうですね。
+　必要があれば、その時は
+　もちろん、私も厳しく――」
+<PAUSE>
+<NAME_PLATE>
+　災禍は控え目に微笑むと、
+俺に恭しく一礼した。
+<PAUSE>
+<NAME_PLATE>災禍
+「では若様、用件も済みましたので、
+　私はこれにて」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか。良かったら、
+　災禍も一緒にメシどうだ？」
+<PAUSE>
+<NAME_PLATE>災禍
+「いえ、まだ仕事が残っていますので。
+　私のことは気にせず、お食事は
+　ご友人がたと楽しんで――」
+<PAUSE>
+<NAME_PLATE>
+　そこで災禍は、
+ふと思い出したように肯いた。
+<PAUSE>
+<NAME_PLATE>災禍
+「と、その前に――若様。
+　井河校長から伝言を頼まれていました」
+<PAUSE>
+<NAME_PLATE>災禍
+「午後の訓練が終わったあと、相州さん、
+　上原くんと共に校長室に来て欲しいと。
+　新しい任務があるそうです」
+<PAUSE>
+<NAME_PLATE>俺
+「任務？　なんだろう？」
+<PAUSE>
+<NAME_PLATE>災禍
+「私も詳しいことは……ただ、
+　それほど大変な任務ではない
+　とのことでしたが」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ？」
+<PAUSE>
+<SE_PLAY>se021
+<NAME_PLATE>
+　キーンコーン……
+<PAUSE>
+<NAME_PLATE>
+　そんな話をしていると、
+昼休み終了の予鈴が鳴った。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あっ、もう昼休み終わりか！？
+　ありがとな、災禍！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は災禍に言って、
+慌てて日替わり定食の残りをかき込んだ。
+<PAUSE>
+<NAME_PLATE>
+　急がないと午後の戦闘訓練が
+始まってしまう。
+<PAUSE>
+<NAME_PLATE>災禍
+「はい。若様、それでは――。
+　相州さんと上原くん、
+　若様をよろしくお願いします」
+<PAUSE>
+<NAME_PLATE>二人
+「は～い。了解しました♪」
+「お安いご用だぜ、災禍さん！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,CENTER,linear,1000
+<SE_PLAY>se082
+</GROUP>
+<NAME_PLATE>
+　とっくに食べ終わっていた二人に
+丁寧に挨拶をし、災禍は去って行った。
+<PAUSE>
+<NAME_PLATE>俺
+（くぅっ！？　食べ終わってないのは
+　俺だけか……！？）
+<PAUSE>
+<NAME_PLATE>
+　やはり食事中に本を読むのは
+良くないかも知れない……
+<PAUSE>
+<NAME_PLATE>
+　そんなことを考えながら、
+俺は急いでお箸を動かした。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+//→S102a

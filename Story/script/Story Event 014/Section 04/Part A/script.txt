@@ -1,0 +1,850 @@
+//シナリオ部分【Section４】
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：地下遺跡＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc015aより流用
+//nc184a
+<BGM_PLAY>bgm203,1000
+<BG>nc184a,IN, 1000
+<ACTOR>1,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「あれー、おっかしいなー」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺たちの前を行くミナサキが
+さかんに首をかしげている。
+<PAUSE>
+<ACTOR>1,chr_t0125a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>0,chr_t0228a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「さっきから同じとこグルグル回ってない？」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「ぎく」
+<PAUSE>
+<NAME_PLATE>俺
+「まさか道に迷ったのか？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ま、まっさかー。
+　ヤタガラス能力を持つボクが
+　道に迷うなんてあるわけないだろ！」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキは黒い羽をパタパタさせて言うが
+俺と目を合わせないし、顔が引きつっている。
+<PAUSE>
+<NAME_PLATE>俺
+「なら、この期に及んで
+　俺たちを騙すつもりか？」
+<PAUSE>
+<NAME_PLATE>俺
+「これ以上妙な事を企むと
+　その羽をむしって焼き鳥にしてやるぞ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ちがうってばー！
+　なんか来たときと道が変わってるんだよー」
+<PAUSE>
+<NAME_PLATE>俺
+「なに？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「変態魔術師の気配は
+　あっちに感じるんだけど……」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「さっきはあんな分かれ道は絶対無かったし、
+　あそこも行き止まりじゃなかったし、
+　なんだかここ変なんだよー」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキは身振り手振りを交えて、
+必死に言い訳している。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「来たときと道が違うって
+　それってもしかして」
+<PAUSE>
+<NAME_PLATE>俺
+「変化する迷宮か」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ゲーム好きの俺たちは同時に気づく。
+<PAUSE>
+<NAME_PLATE>
+　さっき雑談した有名なＲＰＧゲームにも
+通ると後ろが塞がってしまう一方通行の通路や
+壁にしか見えない隠し扉などがあった。
+<PAUSE>
+<NAME_PLATE>
+　それと似たものが
+この古代遺跡にも仕掛けられているようだ。
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「いかにも悪の変態魔術師が
+　やりそうな手口ね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「……ええと、それじゃ案内役のボクは
+　もう役に立ちそうにないんでこのへんでー」
+<PAUSE>
+<NAME_PLATE>俺
+「おい待て」
+<PAUSE>
+<NAME_PLATE>
+　逃げ出そうとするミナサキを
+ガシッと捕まえる。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ほんとに道が分かんないんだってばー。
+　もう許してよー」
+<PAUSE>
+<NAME_PLATE>俺
+「慌てるな。幸いというか生憎というか、
+　俺たちには神のお導きがある。
+　傍迷惑な神だがな。ほら、ゆきかぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はゆきかぜにまた手を出した。
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「しょうがないわね」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが俺の手をまた握る。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピキーン☆
+<PAUSE>
+<NAME_PLATE>
+　また神の―――つまりはジュノの啓示が
+伝わってくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ミナサキ、魔術師はあっちにいるんだな？」
+<PAUSE>
+<NAME_PLATE>
+　俺は今まで歩いていた方を指さした。
+<PAUSE>
+<NAME_PLATE>
+　ミナサキは“ヤタガラスの能力”で、
+一度会った者がいる方向が分かるのだ。
+<PAUSE>
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「うん、それは絶対。
+　ヤタガラス族のボクの首をかけてもいいよ」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキは自信たっぷりに頷いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「そんなもんはいらんが……となると」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキのヤタガラスの能力と、
+ジュノの神の啓示をあわせて―――
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「こっちね」
+<PAUSE>
+<NAME_PLATE>俺
+「だな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺とゆきかぜは通路の左側の、
+一見壁にしか見えない場所に向かっていく。
+<PAUSE>
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「どこいくの？」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキが首をかしげる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　このまま進めば壁にぶつかってしまう。
+<PAUSE>
+<NAME_PLATE>
+　だが俺たちは迷わず、壁に突っ込んだ。
+<PAUSE>
+//【背景：地下遺跡鍾乳洞＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007aより流用
+//nc036a
+<BG>nc036a,IN, 1000
+<NAME_PLATE>
+　すっ。
+<PAUSE>
+<NAME_PLATE>
+　見えていた壁は幻影だった。
+<PAUSE>
+<NAME_PLATE>
+　なんの抵抗もなく壁をすり抜けると、
+目の前には鍾乳洞のような
+場所が広がっている。
+<PAUSE>
+<NAME_PLATE>俺
+「隠し通路発見だ」
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「マッピングをする手間が省けたわね」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>俺
+「俺はあれ結構好きだけどな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私も嫌いじゃない。ゲームならね」
+<PAUSE>
+<NAME_PLATE>俺
+「ゲームならな」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは顔を見合わせて笑った。
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0125a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「わーー！　すごーーい！」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ミナサキもこっちに出てきた。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ほんとにただの壁にしか見えないや。
+　おもしろーい！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0125a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0125a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　幻影の壁を行ったり来たりして遊んでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「この先にドクター・サイクロプスとやらが
+　いるはずだ。あとジュノもな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「言いたいことが山ほどあるわ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺もだ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「なんか面白くなってきたし、
+　ボクももうちょっとだけ付き合おうっかな」
+<PAUSE>
+<NAME_PLATE>
+　ついさっきまで帰ろうとしていたミナサキは
+もうそんなことを言っている。
+<PAUSE>
+<NAME_PLATE>
+　あいかわらず気まぐれなヤタガラスだ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「どうする？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、案内役はまだ必要だしな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうね」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「いくよ、ふうま。
+　ボクを騙したヘンタイ魔術師に
+　ぎゃふんと言わせてやるんだ！」
+<PAUSE>
+<NAME_PLATE>
+　事情はよく知らないが、
+きっと騙してはいないと思う。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ともかく、俺たちはそのまま
+隠し通路を三人で進んで行った。
+<PAUSE>
+//【背景：地下遺跡＿祭壇＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc003aより流用
+//nc185a
+<SE_PLAY>se082
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc185a,IN, 1000
+<ACTOR>1,ts_m182a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ドクター・サイクロプス
+「おのれっ！
+　奴らはなぜ私の作ったトラップを
+　ことごとくすり抜けるのだ！！」
+<PAUSE>
+//　※立ち絵
+//　　ドクター・サイクロプス＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m095a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「そりゃジュノがここにいるんだから
+　神のお導きがあるに決まってるし。
+　手つないで仲良さそー」
+<PAUSE>
+//　※立ち絵
+//　　ジュノ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ドクター・サイクロプス
+「ピクニック気分か！
+　いいだろう。アバズレ神の使徒ごとき
+　返り討ちにしてくれる！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「あーほんとウザ」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「くっ……。
+　最後の罠もくぐり抜けたか！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「は～～～、やっときた」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ドクター・サイクロプス
+「貴様ら、よくぞここまで――」
+<PAUSE>
+//【黒画面】
+//※視点切り替えの間
+//【背景：地下遺跡＿祭壇＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc003aより流用
+//nc185a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc185a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そこは広大な空間だった。
+<PAUSE>
+<NAME_PLATE>
+　一目で古代の聖堂だと分かる。
+<PAUSE>
+<NAME_PLATE>
+　天井は驚くほど高く、
+巨大な女神像がそびえ立っている。
+<PAUSE>
+<NAME_PLATE>
+　その女神像の前に、
+本物の女神のジュノがいた。
+<PAUSE>
+//　※立ち絵
+//　　ジュノ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「ジュノ！　そこにいたか！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ジュノ
+「ちょっとーー！！　来るの遅くない？
+　ジュノ待ちくたびれちゃった！」
+<PAUSE>
+<NAME_PLATE>
+　あいかわらず思わずひれ伏したくなるような
+神々しい声で言ってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「勝手なことを言うな！
+　人を余計なトラブルに巻き込むのも
+　いい加減にしろ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「そうよ！！
+　神様だってやっていいことと
+　悪いことがあるわよ！」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　俺の横でゆきかぜも神を怒鳴りつける。
+<PAUSE>
+<ACTOR>1,chr_t0228a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m095a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「だって他に相手がいなかったしー。
+　って言うか、あなた誰？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「はあ！？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ふうま、アンジェはどうしたの？
+　その子と浮気したの？
+　ま、別にいいけどー」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「誰が浮気よ！！
+　そんなわけないでしょ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ジュノ！　あなたが私に
+　このウェディングドレスを
+　送りつけたんじゃないの？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ジュノそんなことしてないしー」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「してないって、
+　あなたのウェディングドレスでしょ？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「そうだけど、
+　それ超似合ってるし可愛いし
+　それでよくない？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「よくないわよ！　ふざけないで！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ジュノしーらない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちょっとあんた！　神！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチバチッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの怒りの雷が落ちかけたところで、
+別の怒声が割って入った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドクター・サイクロプス
+「貴様らあっ！！
+　このドクター・サイクロプスを
+　無視するなあああ！！」
+<PAUSE>
+//　※立ち絵
+//　　ドクター・サイクロプス＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ジュノとは別に､
+女神像の下にいた老人だ。
+<PAUSE>
+<NAME_PLATE>
+　頭に大きなボウルのようなものを被り、
+見たことのない魔法陣を背負っている。
+<PAUSE>
+<NAME_PLATE>
+　あれが
+魔術師ドクター・サイクロプスだろう。
+<PAUSE>
+<NAME_PLATE>
+　この聖堂に入ってきた時から、
+『よくぞここまで』とかなんとか言っていたが
+ジュノの方が気になって無視していた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あんたが悪の変態魔術師？
+　ふーん、そのまんまって感じね」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「なんだと！？」
+<PAUSE>
+<NAME_PLATE>俺
+「こんなジュノみたいな性悪女神を
+　捕まえてどうするつもりなんだ？
+　いいことなんか一つも無いぞ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「ちょっとそれ酷くない？」
+<PAUSE>
+<NAME_PLATE>
+　ジュノが上で文句を言っているが、
+とりあえず今度は魔術師の相手をする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「新たな神を生み出すとか
+　言ってるらしいな？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「フハハハハハハ！！
+　そうだ、その通りだ！！」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「冥土の土産に教えてやる。
+　このドクター・サイクロプスの
+　崇高なる目的をな！」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「それは新たな婚姻の女神を
+　生み出すことだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「新たな婚姻の女神？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「どういうこと？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「貴様たちもこのジュノの性悪ぶりは
+　知っているだろう？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「神としての本来の役目など
+　ほったらかしで悪行三昧だ」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「あろうことか、
+　祝福を与えるべきでない二人に
+　嫌がらせで祝福を与えることもあると聞く」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「こんな奴に婚姻の女神の資格が
+　あるものか」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「そこは全面的に同意したいが」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私も」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ジュノ
+「ちょっとー！
+　さっきからほんと酷くない？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ジュノはちゃんと祝福はしてるし、
+　それ以外のこともたまにはするけど、
+　神様だって暇つぶしくらいしたいし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「こんなとこに閉じ込められるいわれは
+　全然ないっていうか、もうウンザリだし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ねえ、早くそいつなんとかしてよ。せっかく
+　ジュノの力を分けてあげたんだから。
+　あなたたちなら簡単でしょ！？」
+<PAUSE>
+<NAME_PLATE>
+　ジュノやかましいな。
+<PAUSE>
+<NAME_PLATE>
+　本物の神の言葉だけに
+つい言うことをききたくなるのが鬱陶しい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「ちょっと黙ってろ。
+　で、新しい婚姻の女神を生み出したら
+　どうするんだ？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「知れたこと！
+　正しく祝福されるべき二人を
+　そう私たちを祝福させるのだ！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私たち？　なにそれ？
+　誰か結婚したい相手でもいるの？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「ジュリエッタだ！」
+<PAUSE>
+<NAME_PLATE>
+　ドクターは力強く宣言し、
+夢見るような表情で滔々と語り始めた。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「ああ、ジュリエッタ。
+　魔術と科学の融合に生涯をかけると誓った
+　この私が唯一、心を奪われた女」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「誰よりも美しかったが、
+　それ故にただの女でしかなかった」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「偉大なる私の研究の完遂を
+　待つことができなかったジュリエッタ。
+　だが私はそれを許す」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「そしてジュリエッタの心を取り戻すのだ。
+　私には彼女が必要だ。彼女の愛が！」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「このドクター・サイクロプスこそが
+　ジュリエッタの永遠の伴侶として相応しい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「は～～～～～～～～～～～～～～～っ」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが深い深い溜息を吐いた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「大演説だったけど
+　要するに頭おかしくて振られたんでしょ」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「バカじゃないの？
+　そんなだから逃げられるのよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「超キモーイ。
+　非モテをこじらせるのも
+　いい加減にしてって感じー」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「うん、サイテー。
+　そんなことが目的だったんだ。
+　さすがのボクもドン引きだよー」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ジュノにミナサキまで加わって、
+女性陣すべてがドクターを罵った。
+<PAUSE>
+<NAME_PLATE>俺
+「どいつもこいつも……」
+<PAUSE>
+<NAME_PLATE>
+　アンジェのときのＡ・Ｂ・Ｇといい
+なぜジュノの力を求める男は皆こうなのか。
+<PAUSE>
+<ACTOR>0,ts_m182a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクター・サイクロプス
+「だっ、黙れ黙れ黙れっ！！
+　貴様らなどに何が分かる！！
+　さっきから楽しげに手など繋ぎおって！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「はあ？」
+<PAUSE>
+<NAME_PLATE>俺
+「別に楽しくて
+　手を繋いでたわけじゃないんだが」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「わ、私はキャンプファイアーの
+　フォークダンスですらドロシーに
+　手を握ってもらえなかったのだぞ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そんなこと知らないわよ。
+　誰よドロシーって？
+　さっきと名前違うじゃないの！」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「ドロシーは私の初恋の人だ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いつの話よ。
+　ほんとバカなの！？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「なにいっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「もうやめてやれ。
+　ちょっとかわいそうになってきた」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「そこの男！
+　同情するような目はやめろ！！
+　き、貴様のような男がいるからっ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なにか誤解しているようだが、
+　別に俺はモテたりはしないぞ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「情けないセリフね」
+<PAUSE>
+<NAME_PLATE>俺
+「ほっとけ」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「き、貴様のような男がジュリエッタを……
+　私だけのジュリエッタを……
+　あの身体を、心を……おのれ……おのれぇ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あっちは聞く耳持たないと」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは身構えた。
+<PAUSE>
+<NAME_PLATE>
+　この馬鹿馬鹿しい問答も終わりだ。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「不純な貴様らに見せてくれる！！
+　このドクター・サイクロプスが生み出した
+　科学魔法陣ギャラルホルンの力をな！！」
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se057
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴゴゴゴゴゴゴゴゴ！！
+<PAUSE>
+<NAME_PLATE>
+　魔法陣ギャラルホルンが不気味な呻り声を
+発し始めた。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「ドクター・サイクロプスが命じる！
+　出でよ！　グラビティ・モンスター！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm313,1000
+<SE_PLAY>se112
+<GROUP>
+<ACTOR>0,ts_m183a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m183a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>グラビティ・モンスター
+「――――――」
+「――――――」
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　グラビディ・モンスター＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　真っ黒な球体が魔法陣からボコボコと
+生み出されてくる。
+<PAUSE>
+<NAME_PLATE>
+　グラビティ・モンスターというからには
+あれは重力の塊なのだろう。
+<PAUSE>
+<NAME_PLATE>
+　神であるジュノを封じ込めるほどの力を持つ
+魔法陣が生み出した重力球だ。
+<PAUSE>
+<NAME_PLATE>
+　見かけと違って、
+相当な力を持っているはずだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「うわー、なんかヤバいのが出てきた。
+　じゃあ、ボクはここでおさらば！！
+　ふうま、頑張れー！！　バイバーイ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　機を見るに敏なミナサキが
+真っ先に逃げ出した。
+<PAUSE>
+<NAME_PLATE>
+　まあ期待もしていなかったが。
+<PAUSE>
+<ACTOR>0,ts_m182a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドクター・サイクロプス
+「行け！　奴らを始末しろ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「しょうがない、やるぞ、ゆきかぜ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「オッケー！
+　勘違い魔術師をぶちのめしてやるわ！」
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

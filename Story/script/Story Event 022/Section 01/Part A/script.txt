@@ -1,0 +1,846 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：五車町全景＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC007cより流用
+<BG>nc162a,IN, 1000
+<NAME_PLATE>
+　対魔忍の隠れ里、五車町。
+<PAUSE>
+//【背景：五車町＿駅前の飲み屋＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿NC060cより流用
+<BG>nc219b,IN, 1000
+<NAME_PLATE>
+　その駅前に一軒の居酒屋がある。
+<PAUSE>
+<NAME_PLATE>
+　おふくろの味「さな」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍、上月佐那（こうづきさな）が
+切り盛りする庶民的な店だ。
+<PAUSE>
+<NAME_PLATE>
+　今夜、その裏手に新しい店がオープンする。
+<PAUSE>
+<NAME_PLATE>
+　その名もスナック「サーナ」
+<PAUSE>
+//【背景：五車町＿スナック店内＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO＿NC091aより流用
+//nc417a
+<BGM_PLAY>bgm208,1000
+<BG>nc417a,IN, 1000
+<ACTOR>0,chr_t0326d_4a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「いらっしゃいませ」
+<PAUSE>
+//　※立ち絵
+//　　【ミストレス】上月佐那02＿ドレス（剣鞘なし)
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　佐那はセクシーなドレスに着替え
+居酒屋の主からスナックのママに転身し、
+オープン初日の客を迎え入れた。
+<PAUSE>
+<ACTOR>0,chr_t0326d_4c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「なんだ、あんたたちかい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0190a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「なんだはねえだろ。
+　今日新しい店をオープンするっていうから
+　みんなで来てやったんだぜ」
+<PAUSE>
+<NAME_PLATE>
+　姉御肌で戦闘狂の火遁使い、
+眞田焔（さなだほむら）、
+<PAUSE>
+//　※立ち絵
+//　　【槍炎の戦闘狂】眞田焔
+//　　　＊カードイラストより流用
+<NAME_PLATE>純子
+「お久しぶりですね」
+<PAUSE>
+<NAME_PLATE>
+　柔らかな物腰ながら、強力な雷遁の術を操る
+霧原純子（きりはらじゅんこ）、
+<PAUSE>
+//　※立ち絵
+//　　霧原純子立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「オープンおめでとうございます」
+<PAUSE>
+<NAME_PLATE>
+　戦闘においては高い分析能力を誇る
+扇嵐の対魔忍、星乃深月（ほしのみつき）、
+<PAUSE>
+//　※立ち絵
+//　　星乃深月
+//　　　＊カードイラストより流用
+<NAME_PLATE>六穂
+「どうも」
+<PAUSE>
+<NAME_PLATE>
+　そして五車屈指の毒使い、
+柳六穂（やなぎむつほ）の四人組だ。
+<PAUSE>
+//　※立ち絵
+//　　柳六穂
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0326d_4c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「来てくれてありがとな。
+　まあ好きな席についてくれ。
+　おい、ボーイ」
+<PAUSE>
+<NAME_PLATE>俺
+「はい、ママ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　佐那ママに呼ばれ、
+ボーイ姿になった俺は
+四人の前に姿を現した。
+<PAUSE>
+<NAME_PLATE>俺
+「いらっしゃいませ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0190a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「ああん？」
+<PAUSE>
+<NAME_PLATE>六穂
+「……ふうま？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「ふうまさん？」
+<PAUSE>
+<NAME_PLATE>純子
+「これが噂の？」
+<PAUSE>
+<NAME_PLATE>
+　純子先輩以外は一緒に任務を
+こなしたこともある知り合いだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　呆気にとられているのを感じつつ、
+俺は四人を席に連れていく。
+<PAUSE>
+<ACTOR>1,chr_t0190a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>焔
+「ふうま、お前なにやってんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「バイトだよ。
+　手が足りないって頼まれてな」
+<PAUSE>
+<NAME_PLATE>焔
+「またかよ。
+　お前しょっちゅうバイトしてんな」
+<PAUSE>
+<NAME_PLATE>俺
+「いつも金がないんだ」
+<PAUSE>
+<NAME_PLATE>焔
+「しょーがねえなあ」
+<PAUSE>
+<ACTOR>1,chr_t0190a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「でもふうまさん黒服姿が似合いますね。
+　いつもより大人っぽく見えます」
+<PAUSE>
+<NAME_PLATE>俺
+「そうですか？
+　ありがとうございます」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>深月
+「ねえ、六穂？
+　六穂もそう思うでしょ？」
+<PAUSE>
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「こういう格好わりと似合う」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>純子
+「前に見たことあるんですか？」
+<PAUSE>
+<NAME_PLATE>六穂
+「魔族の晩餐会で」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0190a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>焔
+「晩餐会だ？」
+<PAUSE>
+<NAME_PLATE>俺
+「任務でヨミハラに行った時にな。
+　客に変装して晩餐会に忍び込んだんだ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　デュークマッスルを倒した時の話だ。
+六穂はその時一緒だった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0190a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「ああ、なるほど。
+　じゃあ六穂もドレスとか着たのか？」
+<PAUSE>
+<NAME_PLATE>六穂
+「着ないよそんなもの」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「でもふうまさんとダンスは踊ったのよね」
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「……任務の後でちょっとね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0190a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>純子
+「まあ、それは素敵ですね」
+<PAUSE>
+<NAME_PLATE>焔
+「ダンスってあれか？
+　男と女で抱き合ってクルクル回るやつだろ。
+　マジかよ、やべえな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「ふうまさん、一緒に任務に行った
+　女の子全員と踊ったんですって。
+　七人でしたっけ？」
+<PAUSE>
+<NAME_PLATE>俺
+「ええまあ、
+　なぜかそういう流れになって……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0190a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>純子
+「それはすごいですね」
+<PAUSE>
+<NAME_PLATE>焔
+「おいおいおいおい。
+　お前って実はモテんのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、そういうわけじゃ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　まだ注文も聞いていないのに、
+いきなり俺が酒の肴にされている。
+<PAUSE>
+<NAME_PLATE>
+　これは面倒なことになりそうだなと
+思っていると、
+<PAUSE>
+<ACTOR>0,tu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「失礼致します。
+　お客様、おしぼりをどうぞ」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01＿メイド
+//　　　カードイラストより流用
+<NAME_PLATE>
+　俺の専属メイド、
+今夜はサーナのメイドの鶴がずずんと
+割って入った。
+<PAUSE>
+<NAME_PLATE>鶴
+「こちらメニューでございます。どうぞ
+　ご主人様、ここは“私に”お任せを」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ後はよろしく」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　これ幸いと
+俺はその場から逃げ出す。
+<PAUSE>
+<NAME_PLATE>
+　鶴は四人から注文を取ると、
+自分もさっとその場を退いた。
+<PAUSE>
+<ACTOR>0,chr_t0190a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>焔
+「なんかすげえ眼力のあるメイドだな。
+　おい佐那、あれ誰だ？」
+<PAUSE>
+<ACTOR>1,chr_t0326d_4a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>佐那
+「出雲鶴（いずもつる）、
+　ふうまの専属メイドだよ」
+<PAUSE>
+<NAME_PLATE>焔
+「専属メイドぉ？」
+<PAUSE>
+<NAME_PLATE>佐那
+「あんたたちも知ってるだろ。
+　例の斉藤半次郎の事件」
+<PAUSE>
+<NAME_PLATE>焔
+「そりゃ知ってるよ。
+　１０年も前から五車にはびこってた
+　殺人鬼があの野郎だったってんだろ？」
+<PAUSE>
+<NAME_PLATE>焔
+「なるほど納得って感じだぜ。
+　あいつの授業つまんなかったし、
+　なんか妙に苛ついたからな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>六穂
+「ボクも大嫌いだった」
+<PAUSE>
+<NAME_PLATE>純子
+「今思えば思い当たる所があります。
+　普通に教えているようで、
+　私もなにか嫌なものを感じていました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0326d_4a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「獲物を物色していたんですね。
+　もっと早く気づいていれば。
+　悔しいです」
+<PAUSE>
+<NAME_PLATE>佐那
+「それは対魔忍全員がそうだよ。あの子は
+　そのたった一人の生き残りさ。うちの
+　生徒会とふうまがあの子を助けたんだ」
+<PAUSE>
+<NAME_PLATE>佐那
+「それでずいぶんと感謝したらしくてね。
+　自分から専属メイドになったそうだよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0190a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「はーん、なるほどねえ」
+<PAUSE>
+<NAME_PLATE>純子
+「それで彼と一緒にここで？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0326d_4c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「ああ、ただ働きでいいからってさ。
+　まあ、ちゃんと金は払うけどね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「でも専属メイドとは積極的ですね。
+　六穂、強力なライバル出現ね」
+<PAUSE>
+<NAME_PLATE>六穂
+「別にボクはそんなんじゃ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0190a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>焔
+「え？　お前そうなのかよ、六穂？
+　マジかよ、人は見かけによらねえなあ」
+<PAUSE>
+<ACTOR>0,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>六穂
+「別にそんなんじゃないし」
+<PAUSE>
+<NAME_PLATE>焔
+「どうなんだよ、深月？」
+<PAUSE>
+<NAME_PLATE>六穂
+「なんで深月に聞くのさ」
+<PAUSE>
+<NAME_PLATE>焔
+「そりゃ深月の方が詳しそうだしな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0145a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>純子
+「私もそれはとても興味がありますね」
+<PAUSE>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「うふふ、それはですね―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「ちょっと深月！
+　変なこといったらボク怒るよ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　女子会は盛り上がっているようだ。
+あまり近づかないようにしよう。
+<PAUSE>
+<NAME_PLATE>
+　おっと、また新しいお客だ。
+<PAUSE>
+<NAME_PLATE>俺
+「いらっしゃいませ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「よっ、久しぶり」
+<PAUSE>
+<NAME_PLATE>奈々華
+「ふうま君、こんにちは」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　仲森奈々華
+//　　　＊カードイラストより流用
+//　※二人並べて出してください
+<NAME_PLATE>
+　フリーの魔物ハンターの
+アイナ・ウィンチェスターと、
+<PAUSE>
+<NAME_PLATE>
+　五車学園の卒業生の
+仲森奈々華（なかもりななか）先輩だ。
+<PAUSE>
+<NAME_PLATE>
+　二人は任務中に偶然出会ったのがきっかけで、
+プライベートでも親しくしているそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「二人とも来てくれたのか。
+　ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　サーナがオープンするから
+時間があったらと声をかけていたのだが、
+まさか初日に現れるとは。
+<PAUSE>
+<NAME_PLATE>アイナ
+「来て欲しいから声かけたんだろ。
+　久しぶりにお前の顔も見たかったしな」
+<PAUSE>
+<NAME_PLATE>奈々華
+「はい、これお土産です」
+<PAUSE>
+<NAME_PLATE>俺
+「わざわざありがとうございます
+　なんですか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「焼酎入りのボンボンショコラです。
+　飲み屋さんなのでいいかなって」
+<PAUSE>
+<NAME_PLATE>アイナ
+「焼酎ってチョイスが渋いよな」
+<PAUSE>
+<NAME_PLATE>俺
+「確かに」
+<PAUSE>
+<NAME_PLATE>奈々華
+「え？　そうですか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,tu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「いらっしゃいませ。
+　お二人様ですね。
+　“私が”お席にご案内いたします」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01＿メイド
+//　　　カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「お、おう」
+<PAUSE>
+<NAME_PLATE>奈々華
+「じゃあふうま君、また後で」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,tu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「…………！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　また鶴が割って入ってきて、
+二人を半ば強引に席に案内していく。
+<PAUSE>
+<NAME_PLATE>
+　俺は苦笑しつつ、自分の仕事に戻った。
+<PAUSE>
+<NAME_PLATE>
+　ともあれオープン当日とあって
+客足は上々だ。
+<PAUSE>
+<NAME_PLATE>
+　知り合いも次々と現れ、
+鶴も俺のことなど気にしていられないほど
+忙しくなってくる。
+<PAUSE>
+<NAME_PLATE>
+　ほら来た、また新しい客だ。
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「よう、ふうまー」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿制服衣装
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、遊びに来たよー」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>
+　鹿之助と蛇子だった。
+何を考えているのか二人とも制服姿だ。
+<PAUSE>
+<NAME_PLATE>俺
+「お前らまで。何しに来たんだよ。
+　ここはスナックだぞ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「えへへ、
+　お前がちゃんと働いてるかなってさ」
+<PAUSE>
+<NAME_PLATE>俺
+「余計なお世話だ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「でも、ふうまちゃんその服似合ってる。
+　ね、鹿之助ちゃん」
+<PAUSE>
+<ACTOR>0,s_t003g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ふうま背高いからな。
+　そういうの普通に着れるのは
+　ちょっと羨ましいよな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0331a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「鹿之助！
+　こんなところにそんな格好で来るとは
+　何ごとだ！」
+<PAUSE>
+//　※立ち絵
+//　　上原燐02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　少し前に来ていた鹿之助の従姉、
+上原燐（うえはらりん）先生が立ち上がった。
+<PAUSE>
+<ACTOR>1,chr_t0331a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,s_t003d,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うわあ、燐姉ちゃん！　い、いたの！？」
+<PAUSE>
+<ACTOR>0,s_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>燐
+「いて悪いか。
+　まったく人のことにかまけてふらふらと」
+<PAUSE>
+<NAME_PLATE>燐
+「最近ちょっとしっかりしてきたと
+　思ったらこうだ」
+<PAUSE>
+<NAME_PLATE>燐
+「ちょうどいい、お前の親友のふうまが
+　てんやわんやのようだ。
+　仕事を手伝ってやれ」
+<PAUSE>
+<NAME_PLATE>
+　授業の時と同様、有無を言わさぬ口調で
+鹿之助に命令する。
+<PAUSE>
+<ACTOR>0,s_t003d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「え？　えーー？」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はあたふたし始めるが、
+一緒に来た蛇子の方はにっこりして、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子は最初からそのつもり。
+　ふうまちゃん、いいかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「それはママに聞いてくれ。
+　しかしマジで助かる」
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ママ？
+　ああ、佐那さん？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はキョロキョロと店を見渡し、
+ドレス姿の佐那ママを見つけて目を輝かせる。
+<PAUSE>
+<ACTOR>0,h_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うわあ、ドレス綺麗。
+　佐那ママ、蛇子もお手伝いしていいですか？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0326d_4c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「もちＯＫだよ。
+　ちょっと手が足りなくてね。
+　鹿之助も頼んだよ」
+<PAUSE>
+//　※立ち絵
+//　　【ミストレス】上月佐那02(精神SR)_対魔忍スーツ
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t003d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「俺は働くなんて言ってないのにー」
+<PAUSE>
+<NAME_PLATE>俺
+「諦めろ。
+　このタイミングで来たのが運のつきだ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ほら、鹿之助ちゃん行くよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「そんなーー」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　鹿之助は蛇子にずるずると
+引きずられていった。
+<PAUSE>
+<NAME_PLATE>
+　人を見物にきたりするからだ。
+いい気味である。
+<PAUSE>
+<ACTOR>0,chr_t0322a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>翡翠
+「ふうま君、ふうま君……」
+<PAUSE>
+//　※立ち絵
+//　　【翡色の疾風】由利翡翠4
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　一人しんみりと飲んでいた
+由利翡翠（ゆりひすい）先輩が
+声をかけてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、はい、なんですか？
+　おかわりですか？」
+<PAUSE>
+<NAME_PLATE>翡翠
+「お客さん来てる」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　言われて見ると、現れたのは、
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「これは盛況ね」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,m_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,sa_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「みんな来てるみたいだねー！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿校長衣装
+<NAME_PLATE>紫
+「アサギ様、これでは落ち着いて
+　飲めそうにありませんね」
+<PAUSE>
+//　※立ち絵
+//　　紫通常_教師衣装
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,a_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「たまにはいいじゃない。
+　こういう雰囲気も嫌いじゃないわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,m_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,sa_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「私は大～～好き！
+　ふうま君ふうま君！　とりあえずビール！
+　大ジョッキで！」
+<PAUSE>
+<NAME_PLATE>紫
+「あまりハメを外しすぎるなよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ラスボス登場って感じだな……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺はごくりと唾を飲み込んで、
+アサギ先生、さくら先生、紫先生の所に
+向かって行った。
+<PAUSE>
+//→S102a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,550 @@
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：ブローカーの店＿消灯】【時間：昼】
+<BG>nc100a,IN, 1000
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「…………ふぅ。片付いたわね」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>
+　身を潜めていた魔物――シャドウを
+再度討ち取り、獅子神が一息ついた。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「獅子神自斎と言いましたか、見事な腕です」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>自斎
+「別に……お前に褒められても
+　嬉しくないんだけど」
+<PAUSE>
+<NAME_PLATE>
+　憮然とした様子で獅子神が言う。
+<PAUSE>
+<NAME_PLATE>
+　やはり警戒は解いてないようで、
+鬼火との戦いの間も、ずっと尚之助の動きに
+注意を払っていたようだ。
+<PAUSE>
+<NAME_PLATE>俺
+（それでいて、この強さだからな……
+　まさに鬼神の如く、だ）
+<PAUSE>
+<NAME_PLATE>
+　獅子神だけではなく、
+尚之助の強さも同様であった。
+<PAUSE>
+<NAME_PLATE>
+　流れるような剣捌きで鬼火を斬り続け、
+あっという間に追い散らしてしまった。
+<PAUSE>
+<NAME_PLATE>俺
+（こういう連中が部隊にいれば
+　俺も楽ができるんだが……って、
+　今はそれどころじゃないな）
+<PAUSE>
+<NAME_PLATE>
+　再び鬼火が湧き出す前に
+やらなきゃいけないことがある。
+<PAUSE>
+<NAME_PLATE>俺
+「二人とも、早速で悪いが店の中を探ろう。
+　このバカげた罠から出る手がかりを
+　見つけるんだ」
+<PAUSE>
+//【黒画面】
+//【背景：ブローカーの店＿半地下＿消灯】【時間：昼】
+//　※陰陽騎士トワコ_nc008bをより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　なぜ店の主である闇ブローカーは
+姿を見せなかったのか？
+<PAUSE>
+<NAME_PLATE>
+　その答えは、
+店の奥の階段を降りた先にあった。
+<PAUSE>
+<BG>nc101a,IN, 1000
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「これが……店主の闇ブローカー……？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>
+　血溜まりに転がる死体を見て
+獅子神が眉をひそめて囁いた。
+<PAUSE>
+<NAME_PLATE>
+　店の半地下は書斎になっていて、
+その片隅に血まみれの死体が転がっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「これは……お前がやったんだな、尚之助」
+<PAUSE>
+<NAME_PLATE>
+　階段を下りる間に、
+俺達は簡単に尚之助から説明を聞いていた。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「ええ。この男が、私を罠に嵌めようとした
+　張本人。なかなかの手練れだったようで、
+　生け捕りにすることはできませんでした」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど――」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,ts_m063a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　先ほどの話によると、
+尚之助は唐突に姿を消した二車幹部を追って
+この店に辿り着いたらしい。
+<PAUSE>
+<NAME_PLATE>
+　そこでこの店主と戦いとなり、
+やむを得ず討ち取った――。
+<PAUSE>
+<NAME_PLATE>尚之助
+「死に際に聞き出した事によれば、
+　この男は“龍門”から依頼を
+　受けていたようですね」
+<PAUSE>
+<NAME_PLATE>俺
+「龍門か……。
+　ま、お前ら派手にケンカを売ったからな」
+<PAUSE>
+<NAME_PLATE>
+　骸佐たち二車一党は、つい先日、
+ゾンビガスなんてヤバイ物を使って
+龍門の縄張りを奪ったのだ。
+<PAUSE>
+<NAME_PLATE>
+　奴らが黙って引き下がるわけはない。
+<PAUSE>
+<NAME_PLATE>尚之助
+「耳が痛いですね……
+　ともあれ、この男が狙ったのは
+　骸佐様の配下である私と鬼蜘蛛三郎」
+<PAUSE>
+<NAME_PLATE>尚之助
+「そのために仕組んだのが、
+　この魔術トラップ――出口のない異空間」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ……」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　鬼蜘蛛三郎とは、
+尚之助と同じく二車の幹部である。
+<PAUSE>
+<NAME_PLATE>
+　二車の幹部二人を狙っていた闇ブローカー。
+<PAUSE>
+<NAME_PLATE>
+　そして『二車の情報がある』と
+呼び寄せられた、五車学園の対魔忍である
+獅子神自斎――。
+<PAUSE>
+<NAME_PLATE>
+　点と点がつながり、
+事態の輪郭が浮き上がってくる。
+<PAUSE>
+<NAME_PLATE>俺
+（つまり、共倒れを狙ったのか――）
+<PAUSE>
+<NAME_PLATE>
+　鬼火とシャドウによるトラップ、
+だけでなく。
+<PAUSE>
+<NAME_PLATE>
+　対立している五車学園と二車の対魔忍を
+同じ閉鎖空間に閉じ込める。
+<PAUSE>
+<NAME_PLATE>
+　奴の思惑通りコトが進めば、十中八九、
+獅子神と尚之助は戦い、殺し合うことに
+なっていただろう。
+<PAUSE>
+<NAME_PLATE>
+　……偶然、俺というイレギュラーが
+現れなければ。
+<PAUSE>
+<NAME_PLATE>俺
+（まったく……生き返って早々、
+　また愉快な事に巻き込まれたぜ）
+<PAUSE>
+<NAME_PLATE>
+　やれやれ、と俺は密かに苦笑する。
+<PAUSE>
+<ACTOR>1,ts_m063a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>尚之助
+「……小太郎様？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、すまない。ちょっと考え事をな。
+　――続けてくれ」
+<PAUSE>
+<NAME_PLATE>尚之助
+「ええ。では……死に際の奴の言葉によれば、
+　この異空間は“迷い辻”なる
+　魔術トラップのようです」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>俺
+「“迷い辻”ねえ……」
+<PAUSE>
+<NAME_PLATE>尚之助
+「アミダハラの高名な魔術師に頼んだそうで、
+　絶対解けないと。
+　奴はそう言い捨てて果てました」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、二車の幹部二人を
+　殺ろうっていうんだ。
+　そのくらいの仕掛けはするだろう」
+<PAUSE>
+<NAME_PLATE>
+　それこそ、己が死んでも機能するように
+二重三重の仕掛けを。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし……鬼蜘蛛三郎か。
+　あのじいさん、まだ生きてたのか？」
+<PAUSE>
+<NAME_PLATE>
+　ふうまの親戚筋にはほとんど面識がある。
+<PAUSE>
+<NAME_PLATE>
+　鬼蜘蛛家のクソジジイには、
+ガキの頃よく悪戯を仕掛けて
+怒鳴られたものだ。
+<PAUSE>
+<NAME_PLATE>尚之助
+「いえ、代替わりして今は可愛らしい少女が
+　名を継ぎました」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あの孫娘が！？
+　じゃあ、姿を消したってのは――!？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「当代の鬼蜘蛛三郎……
+　恐らくこの店のどこかにいるはずです。
+　少なくとも、私が掴んだ情報によれば」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ……。あるいは“掴まされた”情報に
+　よれば、ってことだな」
+<PAUSE>
+<NAME_PLATE>
+　獅子神の場合と同じく、
+ここに呼び寄せるためにあえて
+情報をリークした、とも考えられる。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「ふうま、ここを見て」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>
+　その時、黙って部屋を調べていた獅子神が
+声をかけてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「それは――隠し通路か？」
+<PAUSE>
+<NAME_PLATE>
+　巨大な本棚に隠されるようにして、
+細い通路がさらに奥へと伸びていた。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「いかにもな通路ですね……」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>俺
+「ああ……これがトラップの本体って所か。
+　“魔女の伝記”にあった通りだ」
+<PAUSE>
+<NAME_PLATE>自斎
+「……？　何か知っているの？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「いや、前に“迷い辻”って術が出てくる本を
+　読んだことがあるんだ」
+<PAUSE>
+<NAME_PLATE>
+　それが、かつて実在した魔女について
+書かれたと言われる伝記。
+<PAUSE>
+<NAME_PLATE>俺
+「性悪な魔女が、召喚した魔神を
+　手懐けるために術を作った」
+<PAUSE>
+<NAME_PLATE>俺
+「永久に抜け出せない迷宮を作り出し、
+　魔神を閉じ込める。そしてついに降参した
+　魔神は、彼女と契約を交わした――」
+<PAUSE>
+<NAME_PLATE>自斎
+「その術が“迷い辻”……？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。フィクションだと思ってたが、
+　実際にある術だったとはね」
+<PAUSE>
+<NAME_PLATE>
+　まあ作り事の中に真実を忍ばせるのは、
+裏の世界ではよくあることだが。
+<PAUSE>
+<NAME_PLATE>尚之助
+「博識ですね、さすが小太郎様。
+　……で、その書物には何と？」
+<PAUSE>
+<NAME_PLATE>俺
+「伝記の中の魔女がこう言ってた。
+　“迷宮に入り、出口を探せ”」
+<PAUSE>
+<NAME_PLATE>自斎
+「……行くしかないってことね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>尚之助
+「なるほど。
+　夕方までに出れたら良いのですが――」
+<PAUSE>
+//【背景：ブローカーの店＿迷宮】【時間：昼】
+//　※監獄アカデミアの背景NC011bより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<BG>nc102a,IN,1000
+<BGM_PLAY>bgm203,1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺達が隠し通路の奧へと進むと、そこには
+地下とは思えない奇妙な空間があった。
+<PAUSE>
+<NAME_PLATE>
+　中世貴族の館のような華やかな部屋。
+<PAUSE>
+<NAME_PLATE>
+　四方には、それぞれの方角が小さく刻まれた
+ドアがあり、その向こうにも
+全く同じ作りの部屋が続いている。
+<PAUSE>
+<ACTOR>1,ts_m063a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>尚之助
+「さて、進む前にひとつ提案なのですが」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　意を決して迷路に踏み出そうとした時、
+尚之助が口を開いた。
+<PAUSE>
+<NAME_PLATE>俺
+「何だ？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「ここを脱出するまでは
+　一時停戦、でどうでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「停戦？　俺は今、お前と争う気はないが」
+<PAUSE>
+<NAME_PLATE>尚之助
+「そちらの少女のことです。先程からずっと
+　私に殺気を向けている。
+　それでは、貴方も気が休まらないでしょう」
+<PAUSE>
+<ACTOR>1,ts_m063a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0077a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>自斎
+「それは……当然よ！
+　反乱を起こした二車の幹部なんて」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「ふむ……。獅子神、尚之助なら大丈夫だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>自斎
+「ふうま？？　何を言ってる！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ここで尚之助と戦うのは簡単だが、
+　あの鬼火の群れと戦うのに
+　一人でも戦力が欲しい」
+<PAUSE>
+<NAME_PLATE>自斎
+「で、でも……お前も自分で
+　言っていたじゃない！？
+　この男は刺客かも知れないって」
+<PAUSE>
+<NAME_PLATE>俺
+「言ったけどな。
+　今は違うと思っている……多分な」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,ts_m063a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>尚之助
+「小太郎様。信頼のお言葉、ありがたく――」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　底知れない穏やかな笑みを見せる尚之助。
+<PAUSE>
+<NAME_PLATE>
+　俺はそんな尚之助に歩み寄り、
+胸ぐらを掴んで引き寄せた。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>尚之助
+「！？　小太郎様……？」
+<PAUSE>
+<NAME_PLATE>
+　常に冷静だった男の瞳がわずかに揺れた。
+<PAUSE>
+<BGM_PLAY>bgm504,1000
+<NAME_PLATE>俺
+「…………良く聞け尚之助。
+　俺は、骸佐に一度殺された」
+<PAUSE>
+<NAME_PLATE>尚之助
+「しかし……生きておられた。
+　どうやって……？」
+<PAUSE>
+<NAME_PLATE>俺
+「さあな！！　だが言っておくぞ尚之助！！！
+　俺は再び骸佐に会う！！　そして奴の
+　首根っこつかまえて五車に連れ戻す！！」
+<PAUSE>
+<NAME_PLATE>尚之助
+「小太郎様……」
+<PAUSE>
+<NAME_PLATE>俺
+「任務だけじゃない。それが俺――
+　ふうま小太郎の役目だからだ！！
+　……わかるか、尚之助？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「……叶わぬ思いかと」
+<PAUSE>
+<NAME_PLATE>俺
+「黙れ。俺の邪魔をすれば殺す。
+　たとえガキの頃に兄のように慕った
+　お前でもだ」
+<PAUSE>
+<NAME_PLATE>尚之助
+「…………………………」
+<PAUSE>
+<NAME_PLATE>
+　尚之助の目が刃のように細められた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>自斎
+「っ――！！」
+<PAUSE>
+<NAME_PLATE>
+　獅子神の手が刀に伸びる。
+まさに一触即発――だが。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m063a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>尚之助
+「私の目的は三郎を助けること。
+　それ以外にありません」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか。なら、やっぱり問題ないな」
+<PAUSE>
+<NAME_PLATE>
+　俺は苦笑して手を放した。
+<PAUSE>
+<NAME_PLATE>
+　それから、身構えている獅子神に向けて
+“何事もない”と肯いて見せる。
+<PAUSE>
+<NAME_PLATE>俺
+「――尚之助。三郎は生きていると思うか？」
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　一瞬の殺気は消え去り、
+尚之助は元の穏やかさに戻っていた。
+<PAUSE>
+<NAME_PLATE>尚之助
+「この程度で死ぬ娘ではありませんよ」
+<PAUSE>
+<NAME_PLATE>俺
+「クク、確かにな。苦手な小娘だが
+　一門のよしみだ、ついでに助けてやる」
+<PAUSE>
+<NAME_PLATE>尚之助
+「助かります。
+　……しかし小太郎様、変わられましたね」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、色々あったからな。変わりもする」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　俺が肩をすくめると、
+呆れた顔の獅子神と目が合った。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「お前達、ほんとに敵同士なの？
+　……おかしな奴ら」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

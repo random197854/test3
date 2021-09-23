@@ -1,0 +1,480 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：特務機関Ｇの施設・通路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc033aより流用 
+<BGM_PLAY>bgm509,1000
+<BG>nc020a,IN, 1000
+<NAME_PLATE>
+　俺たちは特務機関Ｇの
+施設跡地をひたすら進んでいた。
+<PAUSE>
+<NAME_PLATE>
+　何者かから逃げていた
+武装難民たちと出会って以来、
+特に問題は起こらなかったのだが、
+<PAUSE>
+<NAME_PLATE>俺
+「妙だな」
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「どしたの、ふうま君？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら通常立ち絵＿制服
+//　　　＊対魔忍アサギZEROから流用
+<NAME_PLATE>
+　後方警戒のため一番後ろを歩く
+さくらが聞いてきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「放射線の数値が下がってきてる」
+<PAUSE>
+<NAME_PLATE>
+　俺はガイガーカウンターを
+見ながら答えた。
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「下がってるならいいじゃん」
+<PAUSE>
+<NAME_PLATE>俺
+「まあそうなんだが。
+　リノア、そっちの計測ではどうだ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺の横でラプラスを使って
+より詳細なデータを集めている
+リノアに尋ねる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0336a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リノア
+「はい、確かに下がってきています。
+　原因はわかりません」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「私たちが入ってきたあたりに
+　なんか放射線源があったのかしら」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　先頭で道案内をしている
+アスカが言った。
+<PAUSE>
+<NAME_PLATE>リノア
+「かもしれません。
+　あるいはこれから向かう先に
+　放射線を減らす要因があるとか」
+<PAUSE>
+<NAME_PLATE>俺
+「核爆弾があるのにか？」
+<PAUSE>
+<NAME_PLATE>
+　その疑問にリノアが答える。
+<PAUSE>
+<NAME_PLATE>リノア
+「ＤＳＯから渡された設計図によれば
+　核爆弾の放射線遮蔽は万全と思われます」
+<PAUSE>
+<NAME_PLATE>リノア
+「原因がなんにせよ、
+　それは核爆弾とは別のことかと」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ws_t002c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>さくら
+「バケモノも出てこないね。
+　あんな大騒ぎして逃げてきたから
+　すぐになんか出ると思ったけど」
+<PAUSE>
+<NAME_PLATE>
+　さくらも別の疑問を口にした。
+それは俺も気になっていたところだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「そうだな。
+　アスカ、なにか心当たりはあるか？
+　ＤＳＯで下調べしたんだろう？」
+<PAUSE>
+<NAME_PLATE>
+　アスカは少し考えて、
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「特にないわね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「場所柄、ブラッドドッグとかの類いが
+　出やすいんだけど、
+　それであんなに怯えたりはしないだろうし」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ws_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「やっぱりあれだよあれ」
+<PAUSE>
+<NAME_PLATE>俺
+「どれ？」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>1,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「放射能で突然変異した怪物。
+　人が生み出してしまった悲しきモンスター。
+　ギャオオオン！　みたいな」
+<PAUSE>
+<NAME_PLATE>
+　こんな陰気な場所を歩き続けて
+うんざりしていたのだろう、
+さくらが雑談を始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「怪獣映画か」
+<PAUSE>
+<ACTOR>1,ws_t002b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そういうの好きよね」
+<PAUSE>
+<NAME_PLATE>さくら
+「大好き」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「私も好きです！」
+<PAUSE>
+<NAME_PLATE>リノア
+「科学的には突然変異でそんな怪物が
+　生まれるとは思えませんけど、
+　いるなら是非見てみたいですね！」
+<PAUSE>
+<NAME_PLATE>
+　リノアが妙に食いついてきた。
+いつもより声のトーンが高い。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「リノア、目がキラキラしてる」
+<PAUSE>
+<NAME_PLATE>リノア
+「それはもう。科学者ですから」
+<PAUSE>
+<NAME_PLATE>アスカ
+「今、自分で科学的じゃないって
+　言ったばかりなんだけど」
+<PAUSE>
+<NAME_PLATE>リノア
+「いいんです、そういうことは。
+　これはロマンです！」
+<PAUSE>
+<ACTOR>1,ws_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「だよねー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「いや、出てこられると困るんだが」
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「すいません、そうでした。
+　ですが万が一のときのために
+　ちゃんとラプラスに準備もしてきました」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなのか？」
+<PAUSE>
+<NAME_PLATE>リノア
+「はい。
+　“こんなこともあろうかと”
+　一度は言ってみたい台詞です」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「おお、科学者っぽい！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まあ、気持ちは分かるけどね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「確かに。
+　ところでアスカ、このまま行くと
+　施設の外に出そうなんだが？」
+<PAUSE>
+<ACTOR>0,as_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あっ、分かった？
+　そう、核爆弾は施設の外にあるの」
+<PAUSE>
+<NAME_PLATE>アスカ
+「もう少し行くと洞窟が広がってるわ。
+　そこに隠してあるはずよ」
+<PAUSE>
+//【背景：特務機関Ｇの施設・地下洞窟＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007aより流用 
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc036a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　アスカが言ったとおり、
+施設の外には洞窟が広がっていたのだが、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m302a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「キュラキュラキュラキュラキュラ」
+<PAUSE>
+//　※立ち絵
+//　　ナイトアビス
+//　　＊モンスターイラストより流用
+<NAME_PLATE>
+　放射能で突然変異したのかは知らないが、
+そこには確かに化物がいた。
+<PAUSE>
+<NAME_PLATE>
+　虎を二回りほど大きくさせたサイズの
+鉤爪のある複数の足を持つモンスターだ。
+<PAUSE>
+<NAME_PLATE>
+　目も鼻も口も見当たらないが、
+普通なら頭に当たる場所の下から
+無数の触手がわさわさと蠢いている。
+<PAUSE>
+<NAME_PLATE>
+　その触手と同じ色の水疱のようなものが
+全身に散らばっていて奇怪極まりない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「うっわ、ほんとにいた」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら通常立ち絵＿制服
+//　　　＊対魔忍アサギZEROから流用
+<NAME_PLATE>
+　いたらいたで全く嬉しくなさそうに
+さくらが言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「いわたね。
+　果てしなくキモイのが」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカも生理的嫌悪を催さずにはいられない
+その姿に顔をしかめる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「リノア、原因はあれか？」
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「間違いありません。
+　あれの周囲の放射線量が減っています」
+<PAUSE>
+<NAME_PLATE>リノア
+「データにはありませんが、
+　放射性物質を吸収ないしは捕食する魔族です」
+<PAUSE>
+<NAME_PLATE>リノア
+「ラプラス、
+　仮名“ナイトアビス”データ収集開始」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　さっきの雑談ではテンションが上がっていた
+リノアも今は冷静に分析を始めている。
+<PAUSE>
+<NAME_PLATE>
+　即興でつけたナイトアビスという名前だけが
+僅かに残った科学者のロマンか。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m302a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナイトアビス
+「キュラキュラキュラキュラキュラ」
+<PAUSE>
+<NAME_PLATE>さくら
+「どこが口だか分かんないけど
+　なんかキュラキュラ言ってるね」
+<PAUSE>
+<NAME_PLATE>俺
+「あまり見た目で判断したくないが、
+　友好関係を築けるとはとても思えないな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナイトアビス
+「キュラキュラキュラキュラキュラ！！」
+<PAUSE>
+<NAME_PLATE>
+　ナイトアビスが耳障りな声を発した
+次の瞬間、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>2,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m064a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼火
+「グルルルルルルルルルル！！」
+「グルルルルルルルルルル！！」
+「グルルルルルルルルルル！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　＊モンスターイラストを流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>2,ts_m065a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m065a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m065a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>シャドウ
+「アァアァァアアアアアア！！！」
+「アァアァァアアアアアア！！！」
+「アァアァァアアアアアア！！！」
+<PAUSE>
+//　※立ち絵
+//　　シャドウ
+//　　＊モンスターイラストを流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　奴の周りの空間が歪んで、
+鬼火やシャドウが次々と現れた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「魔術だと！？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「うっそお！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どうやら見た目通りのバケモノじゃ
+　ないみたいね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「かなりの知能の持ち主と推測されます」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　鬼火は動物の魂が、シャドウは人の魂が、
+魔界の瘴気でアンデッド化したものだ。
+<PAUSE>
+<NAME_PLATE>
+　そんなものを召喚できるのは
+魔術の使い手だけだ。
+<PAUSE>
+<NAME_PLATE>
+　つまり奴は高い知性を持ち、
+しかも邪悪な存在であるということだ。
+<PAUSE>
+<NAME_PLATE>俺
+「『バケモノが来たぞ』か。
+　恐れ知らずの武装難民たちが
+　そろって逃げ出すわけだ」
+<PAUSE>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「私たちにも敵対しています。
+　危険です」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「なんのなんの。
+　バケモノ退治は対魔忍の仕事だよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そういうこと。
+　とっととぶち殺すわよ」
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

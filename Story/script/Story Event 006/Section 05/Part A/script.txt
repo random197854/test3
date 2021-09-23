@@ -1,0 +1,248 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：センザキ・裏通り＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc024aより流用
+<BG>nc065a,IN, 1000
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>まり
+「ど、どういうことですか……？
+　紅さんが何を言ってるか、
+　私には、ちっとも……」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR>0,kn_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「下手な演技はやめるんだな。
+　私の“眼”は騙せない、
+　……お前ならわかるだろう？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>まり
+「……」
+<PAUSE>
+<NAME_PLATE>
+　すうっとまりの表情から怯えが消える。
+<PAUSE>
+<NAME_PLATE>紅
+「……思えば、最初から
+　これが目的だったのか」
+<PAUSE>
+<NAME_PLATE>紅
+「お人好しのまりを騙し、酒を飲ませ、
+　体の制御を失わせる――」
+<PAUSE>
+<ACTOR>0,kn_t004e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「そうすれば、魔力が尽きて
+　弱り切ったお前でも人間の体を
+　乗っ取る事ができる」
+<PAUSE>
+<NAME_PLATE>まり
+「……どうしてそんなことを？」
+<PAUSE>
+<NAME_PLATE>紅
+「悪党の思惑など知った事か」
+<PAUSE>
+<NAME_PLATE>紅
+「だが……大方、まりの体を使って
+　魔力を補給し、また隙を見て逃れでもする
+　つもりだったのだろう」
+<PAUSE>
+<ACTOR>0,kn_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「そんなふざけた真似、
+　私が見逃すはずがない」
+<PAUSE>
+<NAME_PLATE>
+　紅の朱く変じた瞳が真っ直ぐに
+まりに注がれている。
+<PAUSE>
+<NAME_PLATE>
+　しかし、それが視ているのはまりではなく、
+その中に潜む“何か”である。
+<PAUSE>
+<ACTOR>0,kn_t004e,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>まり？
+『………フフ、いやはや。
+　もう少し時間を稼げると思って
+　いたんですがねぇ』
+<PAUSE>
+//　※しゃべっているのはまりでなく魔人なので『まり？』という名前表記です。
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ふいに、まりの口から別の声が漏れた。
+<PAUSE>
+<NAME_PLATE>紅
+「まりは無事なのか？」
+<PAUSE>
+<NAME_PLATE>まり？
+『勿論。
+　恩人を傷つけるような事はしません。
+　……多少、生命力はいただきましたが』
+<PAUSE>
+<ACTOR>0,kn_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「そうか。
+　外道らしい腐った返答だ。
+　――その娘から離れろ」
+<PAUSE>
+<NAME_PLATE>紅
+「まりを盾にしようとしても無駄だ。
+　私の剣は、その体を通してお前の
+　“存在”だけ切ることもできる」
+<PAUSE>
+<NAME_PLATE>
+　紅が二刀を構える。
+まりではなく、その中に潜む
+『本の魔人』に向けて――。
+<PAUSE>
+<NAME_PLATE>まり？
+『フフ、
+　本当に恐るべき邪眼の持ち主だ。
+　……良いでしょう』
+<PAUSE>
+<NAME_PLATE>まり？
+『必要なだけの力は頂きました。
+　もう、この体には用はない――』
+<PAUSE>
+<NAME_PLATE>
+　その囁きに続いてまりの体から
+濃厚な闇が滲み出し、そして――。
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se010
+<ACTOR_OUT>1,LEFT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ドサ――ッ！！
+<PAUSE>
+<NAME_PLATE>まり
+「はうっ！？　う、うぅ……」
+<PAUSE>
+<ACTOR>0,kn_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>紅
+「………現れたか、『本の魔人』」
+<PAUSE>
+<NAME_PLATE>
+　地面に崩れ落ちて弱々しく
+呻くまり、二刀を構える紅。
+そんな二人の視線の先に――。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>2,ts_m089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>本の魔人
+『ふむ……。
+　まりには重ね重ね
+　感謝しないといけませんねぇ』
+<PAUSE>
+//　※立ち絵
+//　　本の魔人＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>本の魔人
+『お陰でずいぶん
+　動けるようになった――』
+<PAUSE>
+<NAME_PLATE>
+　『本の魔人』。
+<PAUSE>
+<NAME_PLATE>
+　しかしその体に深く刻まれていた
+傷は全て修復され、禍々しいばかりの
+妖気が取り巻いていた。
+<PAUSE>
+<NAME_PLATE>まり
+「うぅ……ま、魔人さん……？」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>野次馬たち
+「な、なんだありゃ！？　喧嘩か！？」
+「いや違うぞ、ありゃ魔物だ！！」
+<PAUSE>
+<NAME_PLATE>
+　周囲にざわめきの声。
+<PAUSE>
+<NAME_PLATE>
+　メイフォンとの戦いの物音が
+表通りに届き、
+野次馬が集まってきたのだった。
+<PAUSE>
+<NAME_PLATE>紅
+「ちっ、面倒な――」
+<PAUSE>
+<NAME_PLATE>まり
+「わ、私を騙す……？
+　うそ、ですよね……、
+　あなたが、どうしてそんな……」
+<PAUSE>
+<NAME_PLATE>本の魔人
+『……それが、私の本当の
+　“やりたい事”だからですよ』
+<PAUSE>
+<NAME_PLATE>
+　酒を飲むことではなく、
+こうすることが。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「……！？」
+<PAUSE>
+<NAME_PLATE>本の魔人
+『私の創造主の魔術師は、
+　世界に破滅と不幸を振りまくべく
+　私を生み出した』
+<PAUSE>
+<NAME_PLATE>本の魔人
+『ならば、この体が消滅するまで、
+　私はその務めを果たすのみ――』
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se112
+</GROUP>
+<NAME_PLATE>
+　まりを見下ろして冷たく言うと、
+魔人は強大な魔力を展開し、
+<PAUSE>
+<NAME_PLATE>
+　集まってきた野次馬たちに妖気の
+触手を伸ばし、生命力を吸い上げ、
+さらに魔力を高めていく――。
+<PAUSE>
+<NAME_PLATE>野次馬たち
+「あぐっっ！？」
+「な、なんだこりゃ……
+　ぐあぁぁああああああぁっ！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>まり
+「！？　こ、こんな事――
+　やめてください魔人さん！！！」
+<PAUSE>
+<NAME_PLATE>
+　悲痛な声で叫ぶまり。だが。
+<PAUSE>
+<NAME_PLATE>本の魔人
+『やめて欲しければ、
+　君自身で止めることだ、対魔忍』
+<PAUSE>
+<NAME_PLATE>
+　冷たく答えた魔人が、
+まりと紅に襲いかかった。
+<PAUSE>
+//→S502a
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

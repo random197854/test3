@@ -1,0 +1,1017 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：荒れた広場＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc019aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc013a,IN, 1000
+<ACTOR>0,chr_t0262b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>花蓮
+「氷遁の術“氷花立景”！！」
+<PAUSE>
+//　※立ち絵
+//　　氷室花蓮＿対魔忍衣装＿武器あり
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギビギビギィッ！！
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩を中心に、まるで花が咲くように
+氷が地面に広がっていく。
+<PAUSE>
+<NAME_PLATE>
+　これが氷室先輩の忍法。
+周囲に氷を敷きつめ、敵を拘束する術だ。
+<PAUSE>
+<NAME_PLATE>
+　拘束された相手は氷に力を奪われ、
+それは氷室先輩の力となるのだが――
+<PAUSE>
+<BG>nc013a,IN, 500
+<ACTOR>0,ts_m207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>操縦席のギャング
+『ぎゃはは！　こんな薄っぺらい氷で、
+　このバレットレイン号の足止めが
+　できると思ってんのかぁ！！！』
+<PAUSE>
+<SE_PLAY>se044
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バキィッ。
+<PAUSE>
+<NAME_PLATE>
+　バレットレイン号は
+長い脚ですぐに氷を砕き、
+脱出してしまう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0262b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>花蓮
+「くっ、さすがに乗り物の足からじゃ、
+　力も奪えないわね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,kr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「どいて！
+　“凍奔征走”っ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵＿対魔忍衣装＿氷あり
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　間髪入れずにきらら先輩が飛び出す。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　敵を凍らせて粉砕する“凍奔征走”を
+バレットレイン号に叩きこむべく
+凍気を放つが、
+<PAUSE>
+<BG>nc013a,IN, 500
+<NAME_PLATE>
+　バレットレイン号は長い脚で
+ジャンプして軽々と避ける。
+<PAUSE>
+<SE_PLAY>se103
+<ACTOR>0,ts_m207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>操縦席のギャング
+『なんだおまえら。氷出すだけか？
+　かき氷屋でもやってろや！　ギャハハ！』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,kr_t003b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0262b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>きらら
+「むっかあ～～～！！！」
+<PAUSE>
+<NAME_PLATE>花蓮
+「ちょっと何外してるの！？
+　真面目にやりなさい！」
+<PAUSE>
+<NAME_PLATE>きらら
+「はあ！？
+　あなただってもうちょっと、
+　しっかり凍らせなさいよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>操縦席のギャング
+『はははは！　もう氷は終わりかよ！
+　喰らえ、おらあああ！！！』
+<PAUSE>
+//　※立ち絵
+//　　バレットレイン号
+//　　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　先輩たちに銃弾の雨が浴びせられる。
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩が退避すると、
+周囲の氷も溶け消えた。
+<PAUSE>
+<NAME_PLATE>俺
+（どうしようか……）
+<PAUSE>
+<NAME_PLATE>
+　先輩たちは強いのだが、
+背の高い兵器を相手に、
+氷の術はどうも相性が悪い。
+<PAUSE>
+<NAME_PLATE>俺
+（炎王のメンテをしてたとか言ってたな。
+　熱さ寒さには強いわけか？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　どうも決定的な作戦がひねり出せず、
+俺が考えあぐねていると――
+<PAUSE>
+<ACTOR>0,chr_t0261a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「ボクにやらせて！」
+<PAUSE>
+//　※立ち絵
+//　　【穢れ身の背徳】ブリジット
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　後ろの物陰から、
+なんとブリジットが飛び出してきた。
+<PAUSE>
+<ACTOR>0,chr_t0261a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0262b,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>花蓮
+「あなたは……！　まだいたの！？」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「ううん、一度帰ったんだけど、
+　狐火の知らせで飛んできたの」
+<PAUSE>
+<NAME_PLATE>俺
+「狐火？　――あ、さっきの光は！？」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「話はあと！
+　あいつらをやっつければいいんだね！？」
+<PAUSE>
+<NAME_PLATE>花蓮
+「やっつけるって、あなたが？
+　無理だわ」
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩は懐疑的だ。
+そりゃそうだろう、この子はオークたちにも
+まったく抵抗できずに震えていたのだ。
+<PAUSE>
+<NAME_PLATE>ブリジット
+「大丈夫。だけど、
+　ちょっと協力してほしいんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「協力って何をすれば？」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「氷を張ってほしい。
+　しかもうんと広く、ここ一面を
+　スケートリンクみたいに埋めてほしいんだ」
+<PAUSE>
+<NAME_PLATE>花蓮
+「そんなことしてどうするの？
+　足止めならさっき試したわ」
+<PAUSE>
+<NAME_PLATE>俺
+（狐火を操る……尻尾と耳、
+　そして氷か。
+　この子はもしかすると……）
+<PAUSE>
+<NAME_PLATE>花蓮
+「ふうま、この子はここにいては危ないわ。
+　私が退避させて……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「いや、ここはひとつ、
+　ブリジットの作戦に乗ってみよう」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>花蓮
+「えっ！？」
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>俺
+「ここら一面を凍らせればいいんだな？」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「うん！
+　あの隅から、こっちの隅まで、
+　一面氷で埋めてみせてよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「氷室先輩、できますか？」
+<PAUSE>
+<NAME_PLATE>花蓮
+「う、うーん……」
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩は周囲を見渡して顔を顰める。
+<PAUSE>
+<NAME_PLATE>俺
+「やはり難しいか……」
+<PAUSE>
+<NAME_PLATE>
+　“氷花立景”は１０ｍ程度が限界なのだ。
+ここを埋め尽くすには足りない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「私が手伝うわ！」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>
+　増援のギャングたちを蹴散らしていた、
+きらら先輩が戻ってきて颯爽と言ってのける。
+<PAUSE>
+<NAME_PLATE>きらら
+「私の凍気で、
+　ここの空気を思いっきり冷やすわ」
+<PAUSE>
+<NAME_PLATE>きらら
+「冷気で満たされた環境なら“氷花立景”も
+　もっと広い範囲を
+　凍らせられるんじゃない！？」
+<PAUSE>
+<ACTOR>0,kr_t003b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0262b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>花蓮
+「鬼崎さん……？！」
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩は一瞬驚いた顔をしたが、
+すぐ「わかった」と強く頷く。
+<PAUSE>
+<NAME_PLATE>花蓮
+「その子が何をするつもりなのか
+　わからないけど」
+<PAUSE>
+<NAME_PLATE>花蓮
+「ここは隊長の指示に従ってみましょう。
+　やるわよ鬼崎さん！」
+<PAUSE>
+<NAME_PLATE>きらら
+「きららでいいわ！
+　いっくわよ、“氷結空間”っ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　きらら先輩が渾身の凍気を放つと、
+空気中の水蒸気が氷になってキラキラと舞う。
+<PAUSE>
+<NAME_PLATE>
+　その煌きを借りて、氷室先輩は
+“氷花立景”を大きく花開かせる。
+<PAUSE>
+<NAME_PLATE>花蓮
+「氷遁の術“氷花立景”！！」
+<PAUSE>
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　それは荒れ果てた夜の資材置き場を、
+輝く氷のリンクに変えた。
+<PAUSE>
+//【背景：荒れた広場＿夜＿氷結】【時間：夜】
+//　※対魔忍アサギ３_nc019aを全体が冬のロシアのように凍結した風に加工してください。
+<BG>nc013b,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m036a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク兄貴
+「うおっ！？　さみぃぃ！？」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>オーク弟分
+「今までで一番の大寒波だ！？
+　へ、へくしょん！！」
+<PAUSE>
+//　※立ち絵
+//　　オーク
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>操縦席のギャング
+『はっ！　いくら凍らせたって無駄だ！
+　このバレットレイン号には効かねえ！！』
+<PAUSE>
+<NAME_PLATE>
+　バレットレイン号は余裕しゃくしゃくで、
+足元の氷を割り、拘束を解く。
+そして氷室先輩に銃口を向けるが――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0261a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「待てぇ！」
+<PAUSE>
+//　※立ち絵
+//　　【穢れ身の背徳】ブリジット
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　その前にブリジットが飛び出した。
+<PAUSE>
+<NAME_PLATE>操縦席のギャング
+『何だガキ！？
+　死にてぇならお前からハチの巣だぁ！！』
+<PAUSE>
+<NAME_PLATE>ブリジット
+「よーし、寒さ十分！
+　いっくぞーー……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　ブリジットは大きく氷を蹴り、
+飛び上がって宙返りしたかと思うと――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>操縦席のギャング
+『な、なんだぁ！！』
+<PAUSE>
+//　※立ち絵
+//　　妖狐ブリジット
+//　　　　＊描き下ろし
+<ACTOR>0,ts_m208a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「――――！！」
+<PAUSE>
+<NAME_PLATE>
+　巨大な狐となって、
+バレットレイン号の前に降り立つ。
+<PAUSE>
+<NAME_PLATE>俺
+「やはり妖狐か！」
+<PAUSE>
+<NAME_PLATE>
+　魔族に関する書物に載っていた。
+狩りをする獣人の一種で、
+狐火を操り、巨大な狐の姿を持つ妖狐――。
+<PAUSE>
+<NAME_PLATE>
+　ブリジットはこちらを振り向いて、
+満足そうに頷いたかと思うと、
+氷の上を軽快に走っていく。
+<PAUSE>
+<NAME_PLATE>
+　魔界の氷雪地帯出身の彼女にとって、
+氷の上で動くのはお手の物なのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m036a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク兄貴
+「うおっ！？　撃て撃て！」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>オーク弟分
+「ダメだ！　力が入らねえ！
+　ぎゃあっ！！」
+<PAUSE>
+//　※立ち絵
+//　　オーク
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　“氷花立景”に力を奪われ、
+もがくばかりのオークやギャングたちを、
+ブリジットは躊躇なくはたき飛ばし、
+<PAUSE>
+<NAME_PLATE>
+　バレットレイン号をじっと睨む。
+獲物を狙う獣そのものの瞳で。
+<PAUSE>
+<ACTOR>0,ts_m207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>操縦席のギャング
+『！？　なんだこの……！？
+　くっ！　退け！！』
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　突然現れた巨大な狐に動揺した
+バレットレイン号は手当たり次第に
+銃を発射するが、
+<PAUSE>
+<NAME_PLATE>
+　ブリジットはそれを、
+ひょいひょいと身軽に避けながら、
+一気に距離を詰めていく。
+<PAUSE>
+<NAME_PLATE>操縦席のギャング
+『ひいっ！？　なんだこら！
+　あれ？　くそ、なんで撃てねえ！！』
+<PAUSE>
+<NAME_PLATE>
+　大きな狐の目に睨まれ、
+操縦士は必死に銃を撃とうとするが、
+乱射していたせいで銃弾も尽きていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m208a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「――――」
+<PAUSE>
+<NAME_PLATE>
+　ブリジットはそれを嘲笑うかのように
+目を細めると、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ぽっ、ぽっ、と
+操縦席の中に狐火を出現させる。
+<PAUSE>
+<NAME_PLATE>操縦席のギャング
+『うわっ！？　なんだこれ！？　あち！』
+<PAUSE>
+<NAME_PLATE>
+　ギャングがパニックになって、
+窓を開けると、
+目の前には大きな狐の牙。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ブリジット
+「シャァァァッ！！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>操縦席のギャング
+「ぎゃぁぁぁぁぁ！！！！！」
+<PAUSE>
+<NAME_PLATE>操縦席のギャング
+「……………」
+<PAUSE>
+<NAME_PLATE>俺
+「……気絶しやがった」
+<PAUSE>
+<ACTOR>0,kr_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「捕縛するわ！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　きらら先輩がすかさず、
+気絶したパイロットを手早く拘束。
+<PAUSE>
+<NAME_PLATE>
+　アイリーンが素早く兵器に飛び込んで、
+データを消去する。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0263a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイリーン
+「……よしっ、と
+　これでデータの消去は完了だ。
+　あ、もう氷はいいぜ。寒くてかなわん」
+<PAUSE>
+//　※立ち絵
+//　　アイリーン・ウォルト
+//　　　　＊カードイラストより流用
+//【背景：荒れた広場＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc019aを流用。
+<BG>nc013a,IN, 1000
+<NAME_PLATE>アイリーン
+「結局力押しになっちまったな。
+　ま、アタシはこっちの方が
+　性に合ってるけどね」
+<PAUSE>
+//　※立ち絵
+//　　アイリーン・ウォルト
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,kr_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0262a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>花蓮
+「その試作品……ゴミだったのよね。
+　それを、あれだけの兵器に仕上げるって、
+　下っ端ギャング団のやることかしら？」
+<PAUSE>
+//　※立ち絵
+//　　氷室花蓮
+//　　　　＊カードイラストより流用
+<NAME_PLATE>きらら
+「ヨミハラで消防ロボを整備してたらしいし、
+　そういうのが得意な連中なんじゃない？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　それは俺も疑問に思っていたところだった。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0263a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイリーン
+「いや。よく見ろ。
+　たぶん魔界の技術が使われてるな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイリーンが、
+操縦席の足元を目で指す。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　そこでは何か有機的な、
+臓器や血管のようなものが、
+部品同士を繋いでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「魔界の技術……？
+　こんなものどうやって……」
+<PAUSE>
+<ACTOR>0,chr_t0263a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイリーン
+「詳しくはそいつに訊いてみようぜ。
+　色々と吐いてくれそうだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイリーンが気絶したパイロットに近づき、
+「おい」と肩を揺さぶろうとしたとき――
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャ！！
+<PAUSE>
+<NAME_PLATE>
+　突然、大きな鋼鉄の杭が
+振り下ろされ、パイロットの頭を潰した。
+<PAUSE>
+<BG>nc013a,IN, 500
+<ACTOR>0,ts_m209a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メイジャー
+「やれやれ、ＤＳＯと対魔忍かよ。
+　こりゃ面倒くせえ組み合わせだな」
+<PAUSE>
+//　※立ち絵
+//　　メイジャー２
+//　　　　＊ＳＲメイジャーカードイラストを流用
+<NAME_PLATE>俺
+「お前は！？」
+<PAUSE>
+<NAME_PLATE>メイジャー
+「へへ。久しぶりだな。
+　こんなところで思わぬ邂逅だ」
+<PAUSE>
+<NAME_PLATE>俺
+（“Ｇ”のメイジャー……！　確か、
+　五車の襲撃の時に逃げ出したはずだ。
+　あれから何をしていたんだ！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m208a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「――――！」
+<PAUSE>
+<NAME_PLATE>
+　雰囲気から敵らしいと察したブリジットが、
+大きな口で噛みつこうとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>メイジャー
+「おっと」
+<PAUSE>
+<NAME_PLATE>
+　しかしメイジャーは素早く跳んで退避。
+不敵な笑みのまま俺を睨みつける。
+<PAUSE>
+<ACTOR>0,ts_m209a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メイジャー
+「バケモノを味方にしてんのか。
+　随分ハクがついたじゃねえか、坊ちゃん」
+<PAUSE>
+<NAME_PLATE>俺
+「お前には聞きたい事が山程ある」
+<PAUSE>
+<NAME_PLATE>メイジャー
+「そうかよ！」
+<PAUSE>
+<NAME_PLATE>
+　ガシャン！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ＤＡＤＡＤＡＤＡＤＡＤＡ！！！！
+<PAUSE>
+<NAME_PLATE>
+　メイジャーが両手の杭を操作すると、
+鋲のようなものが射出され、
+地面に打ち込まれていく。
+<PAUSE>
+<NAME_PLATE>俺
+「ゲホッ……なにっ！？」
+<PAUSE>
+<NAME_PLATE>
+　たちまち煙と粉塵が舞い上がり、
+辺りは一面真っ白になる。
+<PAUSE>
+//【背景：白画面】
+<NAME_PLATE>メイジャー
+「ははは！　相変わらずだな坊ちゃん！」
+<PAUSE>
+<NAME_PLATE>花蓮
+「ふうま、きらら、気をつけなさい！
+　どこから襲ってくるかわからないわ！」
+<PAUSE>
+<NAME_PLATE>きらら
+「わかってるわ！」
+<PAUSE>
+<NAME_PLATE>
+　視界の効かない中、俺たちは
+必死に声のする方を警戒する。
+<PAUSE>
+<NAME_PLATE>
+　やがて、数秒で視界は晴れ――
+<PAUSE>
+//【背景：荒れた広場＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc019aを流用。
+<BG>nc013a,IN, 1000
+<NAME_PLATE>
+　視界が元通りになる頃には、
+既にメイジャーはいなかった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,kr_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0262a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>花蓮
+「逃げた？！」
+<PAUSE>
+//　※立ち絵
+//　　氷室花蓮
+//　　　　＊カードイラストより流用
+<NAME_PLATE>きらら
+「煙幕で逃げるなんて。
+　忍相手につまんないことするわね！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+//　　　　＊カードイラストより流用
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　目的があの操縦士の口封じなら、
+これ以上留まる理由もないわけだ。
+<PAUSE>
+<NAME_PLATE>俺
+「まんまとやられたな……」
+<PAUSE>
+<NAME_PLATE>
+　五車で捕らわれた経験を経て、
+メイジャーも対魔忍との戦い方を
+学んでいるのだろうか。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0261a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「ごめんね、逃がしちゃった。
+　狐火を飛ばしてる時間もなくて……」
+<PAUSE>
+//　※立ち絵
+//　　【穢れ身の背徳】ブリジット
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「いや、助かった。ありがとう。
+　もしやとは思ったが、
+　やはり妖狐だったんだな」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「ボクたちの種族のこと知ってたんだね」
+<PAUSE>
+<NAME_PLATE>俺
+「魔界の氷雪地帯に住んで、
+　狩りをする狐の一族だろ」
+<PAUSE>
+<NAME_PLATE>俺
+「戦闘力は人とさほど変わらない程度だが、
+　巨大な狐の姿になると、
+　一撃で人を噛み殺すほどの力を持つ……」
+<PAUSE>
+<NAME_PLATE>
+　妖狐の姿になったブリジットは、
+まさに本で読んだ通りの強さだった。
+<PAUSE>
+<NAME_PLATE>ブリジット
+「へえ、くわしーい！
+　人間界で、こんなにボクたちのこと
+　知られてたなんて！」
+<PAUSE>
+<ACTOR>0,chr_t0261a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,kr_t001e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「違う違う。ふうまの知識が特にすごいのよ。
+　知らないことはないってくらい、
+　なんでも知ってるんだから！」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、さすがに何でもは……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0262a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>花蓮
+「だけど今回、その知識が役に立ったわ。
+　サボって本ばかり読んでいると思ってたけど
+　それも任務のためだったのね」
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩がいつになく頼もしげな瞳を
+向けてくる。
+<PAUSE>
+<NAME_PLATE>ブリジット
+「ふうまは物知り博士なんだね！」
+<PAUSE>
+<NAME_PLATE>
+　つられたように、ブリジットも
+緑色の瞳をキラキラさせている。
+<PAUSE>
+<NAME_PLATE>俺
+（ちょっと過大評価な気もするが、
+　まあそういうことにしておくか……）
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0261a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「しかし、本物の妖狐の力は、
+　本で読んだ以上に凄かったよ」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「えへへ。まあね」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「元々は氷雪地帯に住んでたから、
+　人間界で変身するとすぐのぼせちゃって、
+　思いっきり戦えないんだけど」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「二人が涼しくしてくれたおかげで、
+　本気が出せたよ！
+　ありがとうね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,kr_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0262a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>花蓮
+「こっちこそ助かったわ」
+<PAUSE>
+<NAME_PLATE>きらら
+「邪険にして悪かったわね」
+<PAUSE>
+<NAME_PLATE>
+　先輩たちにも感謝され、
+ブリジットはとても嬉しそうに、
+尻尾と耳をぴょこぴょこ動かす。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0261a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリジット
+「ね、ね？　ボク役に立つでしょ！
+　そうだ、もうこうなったらさ、
+　恩を返すために生涯尽くさせてよ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「生涯！？
+　いや、さすがにそれは……」
+<PAUSE>
+<NAME_PLATE>
+　これ以上、五車に小動物を連れ帰ったら、
+時子になんといわれるか。
+<PAUSE>
+<NAME_PLATE>ブリジット
+「うーん、だめかあ……。
+　でも、この辺にはもういられないしさ……」
+<PAUSE>
+<NAME_PLATE>
+　ブリジットの狐耳が、
+しょんぼりと伏せられていく。
+<PAUSE>
+<NAME_PLATE>
+　確かにこの辺りは、獣王会と
+沙無羅威の争いが激しいし、
+獣人の身では居づらいだろう。
+<PAUSE>
+<NAME_PLATE>俺
+（ん？　獣王会……）
+<PAUSE>
+<NAME_PLATE>俺
+「そうだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「いっそほんとに、
+　『獣王会』の世話になったらどうだ？」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「獣王会って、やつらが酒場で言ってた？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。
+　お前みたいな獣人が多く所属してる一党で、
+　ヤクザだが優しい奴らだ」
+<PAUSE>
+<NAME_PLATE>俺
+「ボスが俺の知り合いだから、
+　何かお前に頼みたいことができた時には
+　そいつを通して連絡するよ。どうだ？」
+<PAUSE>
+<NAME_PLATE>
+　いいアイデアだと思ったが、
+ブリジットは微妙な顔で考えこんでいる。
+<PAUSE>
+<NAME_PLATE>ブリジット
+「うーん、あんまり組織とかには
+　入りたくないんだけどなあ……」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「ま、行くだけ行ってみるか！
+　獣人には会ってみたいし」
+<PAUSE>
+<NAME_PLATE>ブリジット
+「じゃ、さっそく行くよ！
+　どうもありがとう！」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ待て、場所知ってるのか……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　俺が呼び止めようとした時には、
+既にブリジットの姿は夜の闇に消えていた。
+<PAUSE>
+<NAME_PLATE>俺
+（大丈夫かよ……）
+<PAUSE>
+<ACTOR>0,chr_t0262a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>花蓮
+「……ヤクザと知り合いなんて、
+　あなたの交友関係どうかと思うけど」
+<PAUSE>
+<NAME_PLATE>
+　ブリジットの消えた方を見守っていると、
+氷室先輩の声がちくりと俺を刺した。
+<PAUSE>
+<NAME_PLATE>花蓮
+「だ、だけど今回は私が悪かったわ。
+　あんな酒場で対魔忍って名乗ったりして――
+　今思うと大失態よね」
+<PAUSE>
+<NAME_PLATE>
+　氷室先輩は心底申し訳なさそうに、
+「ごめんなさい」と頭を下げる。
+<PAUSE>
+<NAME_PLATE>花蓮
+「今回のことは私のミスとして、
+　報告してくれてかまわないわ」
+<PAUSE>
+<ACTOR>0,chr_t0262a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,kr_t001f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>きらら
+「あら、私だって名乗ったわ！
+　だから私のせいでもあるわよ」
+<PAUSE>
+<ACTOR>1,kr_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「だからその、あなたがそんなに
+　責任感じることもないっていうか……」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな。
+　結果的にそのお陰でブリジットの
+　助力を得ることができましたし」
+<PAUSE>
+<ACTOR>1,kr_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>俺
+「やっぱり、対魔忍に正義の心は
+　重要なんだなって思いましたよ」
+<PAUSE>
+<NAME_PLATE>花蓮
+「ふうまくん……」
+<PAUSE>
+<NAME_PLATE>花蓮
+「どうしてあなたが独立遊撃隊を任されて
+　いるのか、正直ずっと疑問だったけれど」
+<PAUSE>
+<NAME_PLATE>花蓮
+「その知識、観察眼、そして何より
+　懐の深さゆえなのね。
+　納得したわ」
+<PAUSE>
+<NAME_PLATE>俺
+「いやあ……」
+<PAUSE>
+<NAME_PLATE>
+　素直に褒められると恥ずかしい。
+<PAUSE>
+<NAME_PLATE>
+　が、自分に特別な力がないからこそ、
+視野を広く持てるというのは、
+確かにあるのかもしれない。
+<PAUSE>
+<ACTOR>1,kr_t001i,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「うふふ。私はずっと前から気づいてたわ！」
+<PAUSE>
+<NAME_PLATE>花蓮
+「何よきらら、対抗しないでくれる？」
+<PAUSE>
+<ACTOR>1,kr_t001h,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「ほんとのことだもの！
+　ね、ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、えっと……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　何やらまた冷たい空気が、
+周囲を漂い始める。
+<PAUSE>
+<NAME_PLATE>
+　俺は凍えることなく、
+五車に帰り着くことができるのだろうか――。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

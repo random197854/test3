@@ -1,0 +1,344 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム繁華街＿夜】【時間：夜】
+//　※対魔忍アサギ2の背景nc005cより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc129a,IN, 1000
+<NAME_PLATE>
+　少しずつ春も近づくこの季節。
+<PAUSE>
+<NAME_PLATE>
+　これまでの修練の成果を確かめるため、
+五車学園では幾つかの試験が行われる。
+<PAUSE>
+<NAME_PLATE>
+　そのうちのひとつが、
+この“試験任務”。
+<PAUSE>
+<NAME_PLATE>
+　普段とは異なる“即席チーム”で
+任務を遂行させ、学生たちの総合的な
+成長を見極めるというもの。
+<PAUSE>
+<NAME_PLATE>
+　それで俺は今回、いつもの遊撃隊ではなく、
+まりや舞といった面々と
+チームを組んでいるのだった。
+<PAUSE>
+<NAME_PLATE>俺
+「さて、これでひと段落だな。
+　皆お疲れ！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　俺は“即席チーム”のメンバー、
+まりと舞に声をかける。
+<PAUSE>
+<NAME_PLATE>
+　ここは繁華街のはずれの
+人通りの少ない区画。
+<PAUSE>
+<NAME_PLATE>
+　俺たちはここに身をひそめて、
+もう一人のメンバーが戻るのを
+待っている。
+<PAUSE>
+<NAME_PLATE>まり
+「はいっ！
+　お疲れ様ですふうまさん♪」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>舞
+「あの人たち、
+　意外と見掛け倒しでした」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「いや、お前らがずば抜けて
+　強いだけのような気もするが……」
+<PAUSE>
+<NAME_PLATE>
+　さっきのチンピラオークたちとの
+戦闘のことである。
+<PAUSE>
+<NAME_PLATE>
+　弱小組織の連中とは言え、奴らも
+強大な闇の住人の仲間には違いない。
+<PAUSE>
+<NAME_PLATE>
+　にもかかわらず、まりと舞は
+息の合った連携であっという間に
+オークたちを叩きのめしてしまった。
+<PAUSE>
+<NAME_PLATE>
+　奴らは今、きつく拘束して
+手近な廃墟に放り込んである。
+<PAUSE>
+<NAME_PLATE>
+　俺たちが闇の町を去るまで、
+余裕で意識を失ったままだろう。
+<PAUSE>
+<NAME_PLATE>舞
+「強い？　そうですか？」
+<PAUSE>
+<NAME_PLATE>まり
+「強いよー。だって舞ちゃんの
+　紙気の力って凄く強力で便利だし、
+　すごいなーって私も思ってた！」
+<PAUSE>
+<NAME_PLATE>舞
+「そんなそんな。
+　まりちゃん先輩に比べたら
+　私などまだまだ」
+<PAUSE>
+<NAME_PLATE>まり
+「そんなことないよー♪
+　舞ちゃんはすごい！！」
+<PAUSE>
+<NAME_PLATE>まり
+「ね！　そう思いますよね
+　ふうまさん♪」
+<PAUSE>
+<NAME_PLATE>舞
+「ふうまさんも言ってください。
+　まりちゃん先輩の凄さは
+　大変なレベルだと」
+<PAUSE>
+<NAME_PLATE>俺
+「両方すげえよ！！！」
+<PAUSE>
+<NAME_PLATE>
+　何なんだろうこの二人……。
+<PAUSE>
+<NAME_PLATE>
+　タイプは違えど、両方とも
+天然の気配があるので話してると
+混乱することがある。
+<PAUSE>
+<NAME_PLATE>
+　まあ、それはそれで
+楽しかったりするのだが――。
+<PAUSE>
+<NAME_PLATE>
+　“即席チーム”のメンバー、
+篠原まりと七瀬舞。
+<PAUSE>
+<NAME_PLATE>
+　まりは隣のクラスの委員長も
+務める優秀な土遁使いの対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　クラス委員仲間の蛇子と
+仲が良いらしく、その関係で
+俺も友達になった。
+<PAUSE>
+<NAME_PLATE>
+　そして紙気使い・七瀬舞は、
+そんなまりのクラスメイト。
+<PAUSE>
+<NAME_PLATE>
+　少し前にシュヴァリエの依頼に
+絡んで一緒に行動したことがある。
+<PAUSE>
+<NAME_PLATE>
+　寡黙で何を考えているのか
+一見わかりづらいけど――
+<PAUSE>
+<NAME_PLATE>
+　本や読書が好きらしいので
+間違いなく良い奴だ。
+<PAUSE>
+<NAME_PLATE>
+　そして、もう一人――。
+<PAUSE>
+<NAME_PLATE>まり
+「あとは卯奈ちゃんが戻るのを
+　待つだけですね」
+<PAUSE>
+<NAME_PLATE>俺
+「あぁ。さっきの通信では、
+　あいつ自分の仕掛けた爆弾で
+　盛大にビビってたけど……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　“即席チーム”最後のメンバーは
+望月卯奈（もちづき　うな）。
+<PAUSE>
+<NAME_PLATE>
+　うさぎの力を身に宿した、
+獣遁の術使いの対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　戦闘においては、強靭な脚力と
+対魔殺法を組み合わせた肉弾戦を
+得意として――
+<PAUSE>
+<NAME_PLATE>
+　また、優れた聴覚と高い瞬発力を
+持つことから斥候や工作員としての
+活躍を期待されている。
+<PAUSE>
+<NAME_PLATE>
+　今回の任務では、そんな卯奈に
+ＢＭ団アジトへの潜入を頼んでいた。
+<PAUSE>
+<NAME_PLATE>
+　俺たちが連中を引き付けている間、
+違法取引の証拠である帳簿を
+奪ってくるという役割だ。
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「卯奈ちゃんは大きい音と
+　寂しいのが苦手のようです」
+<PAUSE>
+<NAME_PLATE>舞
+「それが極まると、おトイレが
+　近くなって大変なんだとか」
+<PAUSE>
+<NAME_PLATE>俺
+「マジかよ。
+　というか寂しいのが苦手って
+　斥候としてそれはどうなんだ」
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>まり
+「大丈夫です！　卯奈ちゃんが
+　寂しい時は、私やみんなが
+　メールや端末でお話してますから！」
+<PAUSE>
+<NAME_PLATE>俺
+「そういやさっき、俺の所にも
+　すごい数のメールが来てたな……」
+<PAUSE>
+<NAME_PLATE>
+　あれは任務の報告というより、
+寂しいのを紛らわしてたのか。
+<PAUSE>
+<NAME_PLATE>
+　どうりで全然関係ない
+スポーツとかの話ばかりだと思った。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<NAME_PLATE>俺
+「おっ？　噂をすれば――」
+<PAUSE>
+<NAME_PLATE>
+　俺の端末に卯奈から通信が入る。
+<PAUSE>
+<NAME_PLATE>俺
+「お疲れ、卯奈！　どうだ、
+　そろそろこっちに着くか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+『つ、つくつくぅ！！
+　もうすぐ着くけど、
+　ひえぇええええええぇっ！！？』
+<PAUSE>
+<NAME_PLATE>俺
+「は……？」
+<PAUSE>
+<NAME_PLATE>
+　首をかしげる俺。
+<PAUSE>
+<NAME_PLATE>
+　そこに、ひどく驚いたような
+まりと舞の声。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>まり
+「あっ！？
+　卯奈ちゃんが来た――
+　けど、あれって？」
+<PAUSE>
+<NAME_PLATE>舞
+「なにか変ですね」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「ぴゃああああああああああああ
+　ああああああああっ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>卯奈
+「死ぬ死ぬ死ぬううう！！
+　ふうま君お助けええええええええ
+　えええええええっ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m046a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m046a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>トロールたち
+「ゴアアアアアアアアアアアアアアア
+　アアアアアアアアア！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　トロール＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はああああああっ！！！！？」
+<PAUSE>
+<NAME_PLATE>
+　小ぶりのスーツケースを抱えて
+半泣きで駆けてくる
+うさぎの対魔忍・望月卯奈――
+<PAUSE>
+<NAME_PLATE>
+　その背後から、ドスンドスンという
+地響きを立てて巨大なトロールたちが
+迫っていた。
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

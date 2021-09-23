@@ -1,0 +1,541 @@
+//☆第二章//【Section５】シナリオ
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//※S405aのシナリオの続き
+//【背景：東京キングダム＿地下鉄跡】//【時間：夜】
+<BG>nc021a,IN, 3000
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>蛇子
+「わ、なんだか広い所に出たよ！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　しばらく走ると、
+さっきより広いトンネルに出た。
+<PAUSE>
+<NAME_PLATE>
+　ところどころ大きな立坑になっていて、
+地上から差し込む光が眩しい。
+<PAUSE>
+<NAME_PLATE>俺
+「こりゃ地下鉄のトンネルだな」
+<PAUSE>
+<NAME_PLATE>
+　おそらく、東京キングダム建築時に
+計画され、頓挫した地下鉄の跡だろう。
+<PAUSE>
+<NAME_PLATE>
+　この頓挫が決定的となり、
+東京キングダムは一気に廃墟化したと聞く。
+<PAUSE>
+<NAME_PLATE>俺
+（だとすれば、
+　地上への出口はもうすぐのはずだ）
+<PAUSE>
+<ACTOR>2,s_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「助かったのか俺たち！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ、もうすぐ地上へ出られるぞ」
+<PAUSE>
+<ACTOR>2,s_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「うおおおお……かーちゃん、ばーちゃん、
+　上原家は絶えずに済んだぞおおお……」
+<PAUSE>
+<NAME_PLATE>俺
+「大袈裟な奴だな。ま、門番を
+　あの鋼鉄女が引き受けてくれたお陰で……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃん、そこ退いて！！！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001g,LEFT, LEFT, OUT, linear, 300
+<ACTOR>1,h_t005f,RIGHT, RIGHT, OUT, linear, 300
+</GROUP>
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　蛇子の声に飛び退くと、
+俺の居た場所に丸い影が落ち、
+みるみる大きくなり、そして――
+<PAUSE>
+<SE_PLAY>se012
+<EFFECT_QUAKE>OVERALL,1,500
+<NAME_PLATE>
+　ドオオオオオオン！！！
+<PAUSE>
+//　※立ち絵
+//　　XPS-11Aボーン立ち絵
+<ACTOR>0,ts_m012a,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>俺
+「……っ……！？！」
+<PAUSE>
+<NAME_PLATE>黒い塊
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　降ってきたのは、手足を持った
+黒い鋼鉄の塊。そいつは、ギギイ、と
+音を立てて体勢を立て直した。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「もおおう！！　今度は何だよ！？！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「またドローンなの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「違う、こいつは強化外骨格……
+　歩く戦車みたいなもんだ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「せ、戦車！？」
+<PAUSE>
+<NAME_PLATE>
+　つまりこの中には
+人間が入っているはずなのだが……
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「……………」
+<PAUSE>
+<SE_PLAY>se040
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　強化外骨格は右腕の銃をこっちに向けた。
+<PAUSE>
+<NAME_PLATE>俺
+「散らばれ！！」
+<PAUSE>
+<SE_PLAY>se043
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　超高速の弾丸が、
+さっきまで俺が立っていたレールを
+ぐしゃぐしゃに曲げていく。
+<PAUSE>
+<NAME_PLATE>俺
+（アリは門番じゃなかったんだ……
+　門番は、こいつだ！）
+<PAUSE>
+<ACTOR>0,ts_m012a,CENTER, CENTER, OUT, linear, 500
+<WAIT>500
+<GROUP>
+<ACTOR>2,s_t001h,LEFT, LEFT, IN, linear, 500
+<ACTOR>1,h_t005e,RIGHT, RIGHT, IN, linear, 500
+</GROUP>
+<NAME_PLATE>蛇子
+「ふうまちゃん！！
+　どうやってやっつけるの！？
+　あの弾丸はタコ足じゃ防げないわよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「戦車並みの複合装甲だ、
+　勝てると思うか！？」
+<PAUSE>
+<ACTOR>1,h_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「だったらさっさと逃げましょ！！！」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「俺たち逃げてばっかじゃないか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「仕方ないだろう！！！
+　それに逃げるのも立派な戦術だ」
+<PAUSE>
+<NAME_PLATE>俺
+「いいか、戦車並みの装甲に火力、
+　しかしこいつにないのはスピードだ」
+<PAUSE>
+<NAME_PLATE>俺
+「なんせこの重さだからな。
+　というわけでここは逃げるのが上策、
+　わかったか！」
+<PAUSE>
+<ACTOR>2,s_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「お、おう……」
+<PAUSE>
+<ACTOR>1,h_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ま、まって、あれ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「！！！」
+<PAUSE>
+//　※立ち絵
+//　　ドローンアント立ち絵
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,h_t005d,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<WAIT>1000
+<ACTOR>2,ts_m041a,LEFT, LEFT, IN, linear, 500
+<ACTOR>1,ts_m041a,RIGHT, RIGHT, IN, linear, 500
+<ACTOR>0,ts_m041a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>
+　ガシャガシャとトンネルから
+現れたのはさっきの機械アリたちだ。
+<PAUSE>
+<NAME_PLATE>俺
+「まだいたのか……くそっ！！」
+<PAUSE>
+<NAME_PLATE>
+　前にはガンを装備した黒い鋼鉄。
+後ろには機械アリの群れ。
+<PAUSE>
+<NAME_PLATE>俺
+（せっかくアスカのおかげで
+　逃げられたのにな――）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、あの数だ。アスカの弾丸を
+　かいくぐって抜けてきた奴がいたのかも）
+<PAUSE>
+<NAME_PLATE>
+　再び袋のネズミか。
+考えているうちにも、
+強化外骨格の銃口が再び向けられる。
+<PAUSE>
+<NAME_PLATE>俺
+（アリごと俺たちを
+　ミンチにしようってか……！）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（ん！？）
+<PAUSE>
+<NAME_PLATE>
+　ふと、強化外骨格の黒い頭が
+陰ったかと思うと、
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001f,LEFT, LEFT, OUT, linear, 0
+<ACTOR>1,h_t002c,RIGHT, RIGHT, OUT, linear, 0
+<ACTOR>0,g_t002c,CENTER, CENTER, OUT, linear, 0
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　立坑から今度は白い影が降ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+（！！！！？）
+<PAUSE>
+<ACTOR>0,m_t004f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>紫
+「覇アアアアアアッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　紫戦闘立ち絵＿対魔忍衣装
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>
+　彼女は髪を振り乱して大斧を翻し――
+<PAUSE>
+<SE_PLAY>se045
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一撃！
+強化外骨格の装甲へ打ち込む。
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「…………ッ？？！！」
+<PAUSE>
+//　※立ち絵
+//　　XPS-11Aボーン立ち絵
+<NAME_PLATE>
+　重装甲の巨人がよろめく。
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「……？　………！？！！」
+<PAUSE>
+<NAME_PLATE>
+　強化外骨格は、何が起きたかわからないと
+いう様子で首を振っている。
+中のパイロットも戸惑っているようだ。
+<PAUSE>
+<NAME_PLATE>紫
+「見かけ倒しか。行くぞッ！！！」
+<PAUSE>
+//【イベントＣＧ：紫無双】//【時間：夜】
+//　※対魔忍アサギ３のイベントＣＧev015aより流用
+<SE_PLAY>se047
+<ACTOR>0,stv002a,CENTER, CENTER, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>強化外骨格
+「！！？！？」
+<PAUSE>
+<NAME_PLATE>
+　大斧をまるで棒切れのように
+軽々と振り回し、ラッシュを打ち掛けていく。
+<PAUSE>
+<NAME_PLATE>紫
+「はッ！！！」
+<PAUSE>
+<SE_PLAY>se047_01
+<EFFECT_QUAKE>OVERALL,0.5,500
+<NAME_PLATE>
+　威勢のいい太鼓打ちのごとく。
+<PAUSE>
+<NAME_PLATE>
+　その斬撃はみるみるスピードを増し、
+大斧がキラッキラッと反射するのが
+見えるばかりだ。
+<PAUSE>
+<NAME_PLATE>俺
+「………すげえ」
+<PAUSE>
+<NAME_PLATE>紫
+「そらッ！！！」
+<PAUSE>
+<SE_PLAY>se045
+<EFFECT_QUAKE>HORIZONTAL,0.5,500
+<NAME_PLATE>
+　紫先生は打撃で浮かせた強化外骨格を、
+景気よく吹っ飛ばし――
+<PAUSE>
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガシャアアアアン！！！！！
+<PAUSE>
+<NAME_PLATE>
+　機械アリの群れの中に激突させる。
+<PAUSE>
+<NAME_PLATE>
+　ぶつかったアリたちはぺしゃんこになり、
+その周囲のアリたちもまた、旋風によって
+壁に打ちつけられて潰れ落ちた。
+<PAUSE>
+//【背景：東京キングダム＿地下鉄跡】//【時間：夜】
+<BGM_STOP>1000
+<ACTOR>0,stv002a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「紫先生、ありがとうございました……」
+<PAUSE>
+<NAME_PLATE>
+　“不死の対魔忍”八津紫のパワーを
+目の当たりにし、
+俺たちはまだ圧倒されたままだった。
+<PAUSE>
+<ACTOR>0,m_t003f,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>紫
+「桐生佐馬斗を連れ戻すように
+　命令したはずだが？」
+<PAUSE>
+//　※立ち絵
+//　　紫通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　紫先生は厳しい顔を崩さずに問うた。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、それはですね……」
+<PAUSE>
+<NAME_PLATE>
+　俺はこの基地に来る事になった経緯を
+紫先生に説明する。
+<PAUSE>
+<ACTOR>0,m_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「つまり、桐生佐馬斗の居場所を知るための
+　取引が、この基地への潜入だったと」
+<PAUSE>
+<NAME_PLATE>俺
+「そうです」
+<PAUSE>
+<ACTOR>0,m_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「危険な真似を……」
+<PAUSE>
+<NAME_PLATE>俺
+「紫先生はどうして？」
+<PAUSE>
+<ACTOR>0,m_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「米連の機関が、この基地を拠点に
+　魔界の医療技術を違法入手している」
+<PAUSE>
+<NAME_PLATE>紫
+「そして、いくつかの日本企業が
+　それに関与している疑いがある。
+　その証拠を掴みに来たのだ」
+<PAUSE>
+<NAME_PLATE>俺
+「というと、もしかして紫先生も
+　このデータが目的ですか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は携帯大容量記憶装置を手にして見せる。
+<PAUSE>
+<ACTOR>0,m_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「このデータ……とは？」
+<PAUSE>
+<NAME_PLATE>俺
+「情報屋のマダムからの交換条件で。
+　この基地にあったデータは
+　根こそぎいただいたんです」
+<PAUSE>
+<NAME_PLATE>
+　紫先生はやや驚いた顔で、
+データと俺の顔を見比べた。
+<PAUSE>
+<ACTOR>0,m_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「……確かに、そのデータを
+　求めていたが……マダムと
+　やらもそれを欲しているんだろう？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい。ですがもう一つあります。
+　何か役に立つかと思って」
+<PAUSE>
+<NAME_PLATE>
+　本音を言えば、俺が見たかったから、
+なのだが。とにかくデータは
+二つダウンロードしてあった。
+<PAUSE>
+<ACTOR>0,m_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「なるほど、でかした」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ちょ、おまっ！？
+　やけに時間掛かると思ったら！？
+　そのせいで逃げ遅れたんだろッ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「結果、役に立っただろうが」
+<PAUSE>
+<ACTOR>1,h_t005g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「お陰で死にかけたよね……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　鹿と蛇が恨みがましい目でこっちを睨む。
+<PAUSE>
+<ACTOR>2,s_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そんなの、一回手に入れたら
+　あとはいくらでも
+　複製できるんじゃないのか？」
+<PAUSE>
+<ACTOR>1,h_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうよ、何もあんな危険冒さなくったって」
+<PAUSE>
+<ACTOR>0,m_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「いや、おそらく無理だろう」
+<PAUSE>
+<NAME_PLATE>紫
+「通常、こういう機密データにはコピー
+　ガードが施されている」
+<PAUSE>
+<NAME_PLATE>紫
+「だからこうして敵地へ乗り込んで
+　直接入手せねばならんわけだが」
+<PAUSE>
+<ACTOR>0,m_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「一度の侵入で二回ダウンロード
+　できたというなら効率のいい話だ。
+　お手柄だぞ、君たちの隊長は」
+<PAUSE>
+<NAME_PLATE>
+　鬼教官のようなイメージの紫先生に
+そう微笑まれ、
+俺は柄にもなく戸惑う。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「でもなあ……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「死にかけたしねえ……」
+<PAUSE>
+<NAME_PLATE>俺
+「死ななかったんだから
+　いいだろうが！　とにかく……」
+<PAUSE>
+<NAME_PLATE>
+　――ガシャン。
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t005e,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>0,m_t003b,CENTER, CENTER, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　重たい金属音に、
+俺が後ろを振り向くと――
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「……………！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うわっ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「げげっ、まだ生きてたの！？」
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「……………！」
+<PAUSE>
+<NAME_PLATE>
+　強化外骨格は、
+ひしゃげた体を必死に起こして
+こちらに向き直った。
+<PAUSE>
+<ACTOR>0,m_t004e,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>紫
+「なるほど……パイロットが
+　気絶していただけのようだな。
+　さすがに殻が厚いか」
+<PAUSE>
+//　※立ち絵
+//　　紫戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　さらに、その後ろからはガシャガシャと
+不穏な音がする。
+新たな機械アリ軍団が迫っているようだ。
+<PAUSE>
+<ACTOR>0,m_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫
+「良かろう！　ここでの用は済んだ！
+　まとめて破壊して撤退するぞ！！！」
+<PAUSE>
+<UI_DISP>OFF, 500
+<BGM_STOP>1000
+<ACTOR>0,m_t004f,CENTER, CENTER, OUT, linear, 500
+<BG_OUT>1000
+<SCENARIO_END>
+//→Section５-ＭＡＰ画面１へ

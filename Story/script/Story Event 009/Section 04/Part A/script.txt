@@ -1,0 +1,194 @@
+//☆ストーリー09【Section４】シナリオ
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：プレイルーム＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC048aを流用
+<BGM_PLAY>bgm509,1000
+<BG>nc155a,IN, 1000
+<NAME_PLATE>
+　様々な意匠が凝らされた部屋を抜け、
+アスタロトたちは奥へと進む。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>弟
+（な、なんかさ……
+　俺達、とんでもない人を
+　巻き込んじまったんじゃないか）
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>兄貴
+（ああ……やばいかもしれん）
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>弟
+（アスタロトさんの獄炎が本気を出したら、
+　一体どうなっちまうのか、
+　俺、怖くなった）
+<PAUSE>
+<NAME_PLATE>兄貴
+（ああ……）
+<PAUSE>
+<NAME_PLATE>兄貴
+（ヨミハラをブッ壊すって言ったけど、
+　ホントにできるなんて、
+　思ってなかったんだな、俺達……）
+<PAUSE>
+<NAME_PLATE>
+　先程の戦いですっかり上機嫌になった
+アスタロトの後ろで、
+難民兄弟はひそひそと話していた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se082
+<NAME_PLATE>
+　そんな兄弟を顧みず、
+アスタロトは構わず先へ先へと進む。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc155a,IN, 1000
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アスタロト
+「あの階段を上がれば最上階かしら♪
+　――あら？」
+<PAUSE>
+//　※立ち絵
+//　　アスタロト
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アスタロトが後ろを振り向くと、
+難民兄弟は姿を消していた。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「……何？　怖気づいたのかしら。
+　人を巻き込んでおいて勝手ねえ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「まあいいわ♪　それならそれで。
+　私も気兼ねなく、強い奴を探すだけよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アスタロトは消えた兄弟を探そうともせず、
+上階へ上がる階段へ向かう―ーと。
+<PAUSE>
+<GROUP>
+<ACTOR>3,ts_m052a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>4,ts_m129a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,ts_m129a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>3
+</GROUP>
+<NAME_PLATE>セキュリティ
+「失礼マダム。
+　高貴な方とお見受けしますが、
+　こちらは現在開放しておりませんので……」
+<PAUSE>
+//　※立ち絵
+//　　警備ドローン
+//　　　　＊モンスターイラストより流用
+//　　ダークガード
+//　　　　＊モンスターイラストより流用
+<SE_PLAY>se040
+<NAME_PLATE>
+　セキュリティだろうか。
+丁寧な口調とは裏腹に、銃口をこちらに向け、
+ドレスの女がアスタロトを制止した。
+<PAUSE>
+<NAME_PLATE>
+　女の周りには、警備用のドローンが
+これまたセンサーをこちらに向けている。
+<PAUSE>
+<NAME_PLATE>
+　当然アスタロトはそんなことで動じない。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「それは都合がいいわね」
+<PAUSE>
+//　※立ち絵
+//　　アスタロト
+//　　　＊カードイラストより流用
+<BGM_STOP>1000
+<NAME_PLATE>セキュリティ
+「は……？」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「誰にも邪魔されないってことだもの♪」
+<PAUSE>
+<NAME_PLATE>
+　構わず歩き出すアスタロトを、
+セキュリティは慌てて止める。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<SE_PLAY>se002_01
+<NAME_PLATE>
+　ＢＥＥＰ……ＢＥＥＰ……
+<PAUSE>
+<NAME_PLATE>
+　同時に、警備ドローンが
+けたたましく警報音を鳴らす。
+侵入者と認識されたのだ。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「火種になりたいみたいね」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<BG>white,IN, 1000
+<ACTOR_OUT>3,CENTER,linear,500
+<ACTOR_OUT>4,LEFT,linear,500
+<ACTOR_OUT>5,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se015
+<NAME_PLATE>
+　ゴオッ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セキュリティ
+「ア゛アアア！？！？」
+<PAUSE>
+<NAME_PLATE>
+　女の身体は、断末魔とともに
+炎の中に消えた。
+<PAUSE>
+<BG>nc155a,IN, 500
+<SE_PLAY>se002_01
+<NAME_PLATE>
+　ＢＥＥＰ……ＢＥＥＰ……
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　さらに、警報音を聞きつけた
+警備の兵士やドローンが
+アスタロトを取り囲む。
+<PAUSE>
+<NAME_PLATE>
+　グリードハウスはすっかり
+臨戦態勢となっていた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<SE_PLAY>se015
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスタロト
+「さあ、出ていらっしゃい強敵さん！」
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

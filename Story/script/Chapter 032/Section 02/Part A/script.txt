@@ -1,0 +1,1268 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC008aより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc054a,IN, 1000
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「アンジェ、おっそいわね。
+　ただの連絡にどれだけかかってるのよ」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　ゆきかぜとの訓練を終えたアスカは
+正門でアンジェを待っていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アンジェは
+ＤＳＯと五車学園の定期連絡のため
+しばしばここを訪れている。
+<PAUSE>
+<NAME_PLATE>
+　今日はアスカがそれについてきた形だが、
+アサギと顔を合わせたくないので
+別行動を取っていた。
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　もう制服に着替えたアスカは
+トレードマークの鋼鉄の手足も隠している。
+<PAUSE>
+<NAME_PLATE>
+　しかしここは対魔忍の総本山、五車学園。
+出入りする生徒のなかには
+彼女を知っている者もいるらしく、
+<PAUSE>
+<NAME_PLATE>
+　『甲河アスカだ』とか『鋼鉄の死神だ』とか
+『結構可愛いな』とか『でもおっかなそう』
+とか噂している。
+<PAUSE>
+<NAME_PLATE>
+　普通なら耳に入らないくらいの
+対魔忍同士のヒソヒソ声だが、
+そこは鋼鉄の死神だ。
+<PAUSE>
+<NAME_PLATE>アスカ
+（全部聞こえてるっての）
+<PAUSE>
+<NAME_PLATE>
+　だが声をかけてくるような
+度胸のある奴は一人もいない。
+<PAUSE>
+<NAME_PLATE>
+　ふうまや鹿之助あたりなら
+脳天気に話しかけてくるだろうが、
+今日は休みなので二人とも来ていなかった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あーーひま」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ぼやいていたら、
+知っている顔が二人、校舎から出てきた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0281a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0280a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ケイリー
+「あ、アスカ！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ
+//　　　＊カードイラストより流用
+<NAME_PLATE>清水神流
+「あら、こんにちは、甲河さん」
+<PAUSE>
+//　※立ち絵
+//　　【学園生活】清水神流
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　最近、ＤＳＯからの研修生ということで
+五車学園に派遣された
+ケイリー・マイヤーズと、
+<PAUSE>
+<NAME_PLATE>
+　彼女のチューターとして
+学園生活や日常のことなど世話になっている
+三年生の清水神流（しみずかんな）だった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「こんにちは、神流、ケイリー。
+　二人とも来てたんだ？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「週に一度の経過報告だよ」
+<PAUSE>
+<NAME_PLATE>神流
+「私はその付き添いです」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,as_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そうなんだ。ありがとう、神流。
+　ケイリー、あなたちゃんとやってる？」
+<PAUSE>
+<ACTOR>1,as_t005a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0280a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「やってるよー。
+　真面目に授業も受けてるし、
+　手足の調子も絶好調だよ」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「アスカは何しに来たの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ここの演習施設のアップデートの手伝い。
+　水城ゆきかぜと模擬戦してきたわ」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「水城ゆきかぜ！　私も会ったよ。
+　本物の雷遁も見せてもらった！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「すごいよね。
+　生身なのに私以上の雷を出して
+　平気な顔してるんだよ！」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーは目をキラキラさせている。
+人工の雷遁使いの彼女にとっては
+憧れの人物には違いない。
+<PAUSE>
+<ACTOR>1,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ここは人材の宝庫だから
+　面白いのは分かるけど
+　神流に迷惑かけちゃだめよ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0280a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ケイリー
+「大丈夫大丈夫。
+　ねえ、神流？」
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0281a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>神流
+「ええ、たまにはしゃぎすぎるけど、
+　ギリギリ及第点というところね」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うわっ、キビシー」
+<PAUSE>
+<NAME_PLATE>
+　神流の評価に
+ケイリーは大げさに首をすくめた。
+<PAUSE>
+<NAME_PLATE>
+　長身のケイリーが小柄な神流に
+全く頭が上がらないという感じだが、
+この様子だと上手くやっているようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　それから五分ほど話して、
+二人が学園の寮に帰っていくと、
+また一人になる。
+<PAUSE>
+<NAME_PLATE>
+　アンジェが出てきたのは
+さらに十分ほど経ってからだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アンジェ
+「おまたせ」
+<PAUSE>
+//　※立ち絵
+//　　アンジェ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「遅い」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>アンジェ
+「報告に時間がかかった。
+　そっちはどうだった？
+　ゆきかぜとの勝負」
+<PAUSE>
+<ACTOR>1,as_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「んーーー、
+　まあ五分と五分ってとこ？
+　二人とも全力でやったわけじゃないしね」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「施設が壊れる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まあね」
+<PAUSE>
+<NAME_PLATE>
+　アンジェの淡々とした
+そして実に正確な評価に
+アスカは笑ってしまった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あの後、何回か勝負をしたが
+勝ったり負けたりと決着がつかなかった。
+<PAUSE>
+<NAME_PLATE>
+　近距離のアスカ、中距離のゆきかぜ、
+遠距離はまあ互角といったところだ。
+<PAUSE>
+<NAME_PLATE>
+　経験はアスカの方が上のようだが、
+彼女にはまさに雷のような瞬発力と
+非常識なパワーがある。
+<PAUSE>
+<NAME_PLATE>
+　色んな意味で
+良いライバルになれそうだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t005a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「そうそう。
+　さっきケイリーに会ったわよ。
+　なんかあの子も来てたみたい」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「校長室で会った。話もした。
+　元気でやってる。安心した」
+<PAUSE>
+<NAME_PLATE>アスカ
+「みたいね。じゃあ帰ろっか」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「うん」
+<PAUSE>
+//【背景：五車町＿稲毛屋前＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC019aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アスカ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　生徒たちがよく寄り道するという
+駄菓子屋『稲毛屋』の前まで来て、
+アスカは立ち止まった。
+<PAUSE>
+<NAME_PLATE>アスカ
+（どうしよっかな。
+　別にあいつのとこなんか
+　寄らなくてもいいんだけど……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　右に行けば駅、
+左に行けばふうまの家だ。
+<PAUSE>
+<NAME_PLATE>
+　たまの五車町だし、もう用もないし、
+ちょっと寄って行きたい気もする。
+<PAUSE>
+<NAME_PLATE>
+　けれど、今日は任務ではないので、
+特に会う理由がない。
+<PAUSE>
+<NAME_PLATE>
+　普通に『会いたいから会いに来た』に
+なってしまう。
+<PAUSE>
+<NAME_PLATE>
+　それだとふうまが変な誤解しそう。
+とか考えていたら、
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　アンジェ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アンジェが一瞬も迷わずに
+左に進んで行く。
+<PAUSE>
+<ACTOR>0,chr_t0029a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ちょっとどこ行くつもり？
+　駅はあっちよ」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ふうまのとこ」
+<PAUSE>
+<ACTOR>1,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「え？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「寄らないの？」
+<PAUSE>
+<NAME_PLATE>
+　逆に不思議そうに尋ねられた。
+なんだか気まずくて目を逸らしてしまう。
+<PAUSE>
+<ACTOR>1,as_t005j,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ま、まあアンジェが寄りたいなら
+　付き合ってもいいけど……」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「じゃあ寄っていく」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　アンジェはスタスタと歩き出した。
+<PAUSE>
+<NAME_PLATE>
+　その背中が
+『別についてこなくてもいいよ』と
+言っているようだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「し、仕方ないわね……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　一応そう口に出して、後に続く。
+<PAUSE>
+<NAME_PLATE>
+　でも、今のアンジェの態度は
+すごく気になったので、こう聞いてみた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ねえ、五車に来たときは
+　いつもふうまのとこに寄ってるの？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「いつもじゃない。時々」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうなんだ。
+　今から行くとか連絡したの？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「してない」
+<PAUSE>
+<NAME_PLATE>
+　あっけらかんと答える。
+ちょっとビックリだ。
+<PAUSE>
+<ACTOR>1,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「いきなり行くんだ？
+　あなた意外と大胆ね」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「その方が面白い」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そ、そうなんだ。
+　あいつんち行って何してるの？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「おやつ食べたり、ゲームしたり、
+　ゴロゴロしてる」
+<PAUSE>
+<ACTOR>1,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ふーん」
+<PAUSE>
+<NAME_PLATE>アスカ
+（普通に友達感覚ね……）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ふうまに好意があるのかないのか、
+いつも通り淡々としているので
+ちっとも分からない。
+<PAUSE>
+<NAME_PLATE>
+　もちろん遊びに行くのだから、
+嫌ってるはずはないだろうが……
+<PAUSE>
+<ACTOR>0,as_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（ジュノだかの仕業で
+　二回もウェディングドレス着た余裕？）
+<PAUSE>
+<ACTOR>0,as_t005h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+（そういえば、ゆきかぜも着たのよね。
+　ウェディングドレス）
+<PAUSE>
+<NAME_PLATE>アスカ
+（なんで私のとこには
+　来ないのかしら、ジュノ）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　などと、またモヤモヤしながら
+ふうまの家に向かったのだが、
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿昼】【時間：朝】
+//　※対魔忍アサギZEROの背景NC025aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc056a,IN, 1000
+<ACTOR>0,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ライブラリー
+「申し訳ありません。
+　お館様はつい先ほどお出かけに」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　二人を待っていたのは
+お庭番のライブラリーの
+申し訳なさそうな言葉だった。
+<PAUSE>
+<ACTOR>0,ts_m104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「えーーそうなの？
+　なんなのよあいつ。
+　せっかく私……たちが来てやったのに」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>ライブラリー
+「お二人がいらっしゃったと
+　お館様にご連絡いたしますか？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0029a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「いい。また来る」
+<PAUSE>
+//　※立ち絵
+//　　アンジェ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,as_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（えっ？）
+<PAUSE>
+<NAME_PLATE>
+　アスカが何か言うより先に、
+アンジェがあっさりそう答えていた。
+<PAUSE>
+<NAME_PLATE>
+　自分からふうまの家を訪ねたくせに
+全然こだわっていない。
+<PAUSE>
+<ACTOR>1,as_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+（なんなのよ、この子）
+<PAUSE>
+<NAME_PLATE>
+　こうなるとアスカだけ待たせてとは
+なんだか言いにくい。
+<PAUSE>
+<NAME_PLATE>
+　妙に目つきの鋭い女性が二人、
+家の中からこっちを見ているのも気になる。
+<PAUSE>
+<ACTOR>1,as_t005h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そ、そうね。
+　別に約束してたわけじゃないし、
+　ついでに寄っただけだし」
+<PAUSE>
+<ACTOR>1,as_t005h,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「ではお館様がお帰りになりましたら
+　お二人がいらっしゃったことを
+　お伝えしておきます」
+<PAUSE>
+<ACTOR>1,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あ、うん、よろしく」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0029a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「またね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　結局、とんぼ返り。
+馬鹿みたいだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アンジェ
+「ゆきかぜのとこでも行く？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ん……うーん……」
+<PAUSE>
+<NAME_PLATE>
+　イエスでもノーでもない
+曖昧な呻り声を返す。
+<PAUSE>
+<NAME_PLATE>アスカ
+（う～～～～～。
+　なんかスッキリしない）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　結局、ふうまの家を離れて、
+お庭番の姿が見えなくなったあたりで、
+アスカは立ち止まっていた。
+<PAUSE>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「なにしてるの？」
+<PAUSE>
+//　※立ち絵
+//　　アンジェ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アンジェが怪訝そうに振り返る。
+アスカは足元を見て早口で言った。
+<PAUSE>
+<ACTOR>1,as_t005a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あーごめん！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ゆきかぜとの模擬戦の影響かな、
+　少しアンドロイドレッグの調子が
+　悪いみたい」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょっとここで休んでもいい？」
+<PAUSE>
+<NAME_PLATE>
+　自分でも無理があると思う。
+顔が赤くなるのが分かった。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「中で待てば？」
+<PAUSE>
+<ACTOR>1,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「さっきあんなこと言ったのに、
+　すぐ中で待たせてとか言えないわよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「っていうか、別にあいつの帰りなんか
+　待ってないし」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「そうなの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そ、そうよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　これで『やっぱり会っていきたい』と
+素直に言えたらどんなに人生楽かと思うが、
+<PAUSE>
+<NAME_PLATE>
+　それができない性格なのは
+自分でもよーく分かっている。
+<PAUSE>
+<ACTOR>0,as_t005h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（なにやってるのよ、私。
+　ほんと馬鹿みたい）
+<PAUSE>
+<NAME_PLATE>アスカ
+「はあ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　溜息を吐き、
+調子が悪いことになっている足を
+プラプラさせていると、
+<PAUSE>
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　クリア・ローベル
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　女の子が一人、
+向こうからトテトテとやって来た。
+<PAUSE>
+<NAME_PLATE>
+　可愛い子だなと思っていたら、
+ふうまの家に入ろうとしている。
+<PAUSE>
+<NAME_PLATE>アスカ
+（誰あの子？）
+<PAUSE>
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　向こうもこちらを見た。
+そしてなぜかアスカに近寄ってきた。
+<PAUSE>
+<NAME_PLATE>？？？
+「じーー」
+<PAUSE>
+<NAME_PLATE>
+　ものすごい見られている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「な、なにこの子？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「クリア」
+<PAUSE>
+<NAME_PLATE>アスカ
+「知り合い？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「前に会った、こんにちは」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「こんにちは」
+<PAUSE>
+<NAME_PLATE>
+　ぺこりと頭を下げる。
+<PAUSE>
+<NAME_PLATE>
+　きちんと挨拶できる子だ。
+なのにアスカに向けられるこの視線。
+<PAUSE>
+<ACTOR>1,chr_t0088a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「この人、誰？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「甲河アスカ、友達」
+<PAUSE>
+<NAME_PLATE>クリア
+「それなら知ってる。鋼鉄の対魔忍？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「そう」
+<PAUSE>
+<NAME_PLATE>
+　二人で勝手に話している。
+しょうがないので名乗った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,as_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ど、どうも、甲河アスカよ」
+<PAUSE>
+<ACTOR>1,as_t005a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クリア
+「私、クリア」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、うん、よろしくね」
+<PAUSE>
+<NAME_PLATE>クリア
+「よろしく」
+<PAUSE>
+<NAME_PLATE>
+　クリアはまた頭を下げ、
+次にとんでもないことを言った。
+<PAUSE>
+<NAME_PLATE>クリア
+「あなた、てき？」
+<PAUSE>
+<ACTOR>1,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「は？　違うわよ」
+<PAUSE>
+<NAME_PLATE>クリア
+「ここでなにしてるの？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0029a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「ふうまを待ってる」
+<PAUSE>
+<NAME_PLATE>
+　答えたのはアンジェだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t005f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「だから待ってないって！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0088a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「ふうまを待ってる。
+　……やっぱりてき？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「敵……恋敵？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t005f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ちょっと何言っているのよ！？」
+<PAUSE>
+<NAME_PLATE>
+　アンジェまでが首をかしげつつ
+とんでもないことを言い始めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「！！」
+<PAUSE>
+<NAME_PLATE>
+　クリアの目が光る。
+<PAUSE>
+<NAME_PLATE>クリア
+「じーーーー」
+<PAUSE>
+<NAME_PLATE>
+　今まで以上のものすごい視線。
+<PAUSE>
+<NAME_PLATE>
+　さすがに意味は分かるが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（まさかふうまの奴、
+　こんな小さな子に？？
+　嘘でしょ！　それって犯罪よ！）
+<PAUSE>
+//【背景：汎用田舎のあぜ道＿昼】【時間：昼】
+//　※MISAO_nc002aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc114c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「なんだ……！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、背筋がゾクリとした。
+<PAUSE>
+<NAME_PLATE>
+　別邸に行く途中のあぜ道でのことだ。
+<PAUSE>
+<NAME_PLATE>
+　ふと嫌な気配を感じたのだ。
+<PAUSE>
+<NAME_PLATE>
+　いつも通っている山道が
+まるで知らない何処か不気味な場所に
+迷い込んでしまったかのような感覚。
+<PAUSE>
+<NAME_PLATE>
+　周りには誰もいない。
+<PAUSE>
+<NAME_PLATE>俺
+「気のせいか……」
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>？？？
+「違うよ」
+<PAUSE>
+//　※立ち絵
+//　　黒斗
+//　　　※カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！！」
+<PAUSE>
+<NAME_PLATE>
+　全身に凄まじい悪寒。
+<PAUSE>
+<GROUP>
+<BG>nc114c,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>
+　俺はぞっとして振り返った。
+<PAUSE>
+<ACTOR>0,ts_m236a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そこに一人の少年が立っていた。
+<PAUSE>
+<NAME_PLATE>
+　今の今まで絶対に
+そんなところにはいなかった。
+<PAUSE>
+<NAME_PLATE>少年
+「こんにちは。
+　君に会いに来たんだ」
+<PAUSE>
+<NAME_PLATE>
+　美少年、そう言っていい顔から
+見た目通りの涼しげな声がした。
+<PAUSE>
+<NAME_PLATE>
+　この子、何者だ。
+<PAUSE>
+<NAME_PLATE>
+　初めて見る顔、初めて聞く声。
+<PAUSE>
+<NAME_PLATE>
+　だが俺はこの子に会ったことがある。
+<PAUSE>
+<NAME_PLATE>
+　いや、こいつは“子”なんて
+呼べる存在じゃない！？　こいつは！？
+<PAUSE>
+<NAME_PLATE>
+　俺の本能が、記憶にはない何かが
+今すぐ逃げろと警告を発している。
+<PAUSE>
+<NAME_PLATE>
+　だが同時に、俺はこいつの正体を
+思い出さなければならないという衝動が
+沸き上がる。
+<PAUSE>
+<NAME_PLATE>少年
+「僕のことを忘れたのかい？
+　ひどいな。
+　じゃあこれならどうだい？」
+<PAUSE>
+//　※立ち絵
+//　　黒斗（吸血鬼差分）
+//　　　※カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　そいつの足元の影がいきなり拡がった。
+<PAUSE>
+<NAME_PLATE>
+　そこから獣とも蟲ともつかない闇の化物が
+ウゾウゾと這い出てくる。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そいつの周りだけが突然魔界と化し、
+そこに棲む魑魅魍魎が溢れ出したかのようだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ぐうっっ！」
+<PAUSE>
+<NAME_PLATE>
+　突然の激しい頭痛。
+<PAUSE>
+<NAME_PLATE>
+　この圧倒的な魔の気配。
+<PAUSE>
+<NAME_PLATE>
+　そうだ。俺はこいつを知っている。
+<PAUSE>
+<NAME_PLATE>
+　こいつは、こいつは―――
+<PAUSE>
+//※回想開始
+//【背景：ふうま別邸＿外観＿夕方】【時間：夕方】
+//　　※輪姦倶楽部＿nc011bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc115a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（あの日、俺は別宅の書庫で、
+　一人、本を読みあさっていた）
+<PAUSE>
+//【背景：ふうま別邸＿書庫＿夕方】【時間：夕方】
+//　　※陰陽騎士トワコ_nc008cより流用
+//nc101b
+//【背景：ふうま別邸＿書庫＿夜】【時間：夜】
+//　　※陰陽騎士トワコ_nc008bより流用
+<BG>nc101a,IN, 1000
+<NAME_PLATE>俺
+（時を忘れて読みふけり、
+　気がつけば日が暮れ、
+　あたりはすっかり暗くなっていた）
+<PAUSE>
+//【背景：ふうま別邸＿外観＿夜消灯】【時間：夜】
+//　　※輪姦倶楽部＿nc011dより流用
+//nc115c
+<BGM_PLAY>bgm509,1000
+<BG>nc115c,IN, 1000
+<ACTOR>0,hu_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「やばいやばい！
+　早く帰らないと時子に大目玉だ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　※カードイラストより流用
+//【背景：山道１＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc015cより流用
+//nc004b
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc004b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　暗くなった山道を駆け下りていく。
+<PAUSE>
+<NAME_PLATE>
+　彼女に会ったのはその途中だ。
+<PAUSE>
+<ACTOR>0,hu_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　俺はドキリとして立ち止まった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,am_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水通常立ち絵＿普段着
+<NAME_PLATE>
+　こんな山道に少女が一人立っていた。
+<PAUSE>
+<NAME_PLATE>
+　しかも真っ暗な中で本を読んでいる。
+<PAUSE>
+<NAME_PLATE>
+　まるで幽霊のようだ。
+<PAUSE>
+<NAME_PLATE>
+　だが不思議と恐ろしさは感じない。
+<PAUSE>
+<NAME_PLATE>
+　少女は読書に夢中で
+俺には気づいていない。
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　読書の邪魔をしてはいけないと
+黙って横を通り過ぎようとすると、
+<PAUSE>
+<NAME_PLATE>少女
+「私が見えるという事は
+　因果が近づいている。気をつけて」
+<PAUSE>
+<NAME_PLATE>
+　すれ違いざまに少女が言った。
+<PAUSE>
+<GROUP>
+<BG>nc004b,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>
+　びっくりして振り返るが、
+その姿は消えていた。
+<PAUSE>
+<NAME_PLATE>
+　なんだったんだろう、今の子は？
+<PAUSE>
+<NAME_PLATE>
+　まさか幽霊？
+<PAUSE>
+<NAME_PLATE>
+　それにしてはちっとも怖くなかったし、
+可愛い子だったな。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　などと呑気に考えていると、
+<PAUSE>
+<ACTOR>0,hu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　周囲の雰囲気が一変した。
+<PAUSE>
+<NAME_PLATE>
+　いつもの山道が一瞬にして
+異界と化したかのような不気味な感覚。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,hu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「なにがどうなってるんだ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　言いようのない恐怖に
+俺は思わず走り出していた。
+<PAUSE>
+<NAME_PLATE>
+　ズザザザザザザザザザッ。
+<PAUSE>
+<NAME_PLATE>
+　後ろから、森の闇から
+何かが奔りよってくる。
+<PAUSE>
+<NAME_PLATE>
+　数百数千の蟲が這いずるような
+おぞましい気配。
+<PAUSE>
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貪欲なる闇
+「にぢゃにぢゃにぢゃにぢゃ！」
+<PAUSE>
+//　※立ち絵
+//　　貪欲なる闇
+//　　　※モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　やばい！
+<PAUSE>
+<NAME_PLATE>
+　全身に鳥肌が立った。
+<PAUSE>
+<NAME_PLATE>
+　闇に蠢く様々な蟲、獣。
+暗がりから覗き見る無数の目。
+<PAUSE>
+<NAME_PLATE>
+　それら嫌悪感を催さずにはいられない
+おぞましい存在が一つになったような。
+この世のものとは思えない闇の化物。
+<PAUSE>
+<NAME_PLATE>
+　それが巨体を厭らしくくねらせ、
+二重になった口をガチガチと鳴らし、
+舌舐めずりしながら追いかけてくる。
+<PAUSE>
+//【背景：山道２＿夜】【時間：夜】
+//　※対魔忍アサギ３戦国魔姦_nc010aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc199a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「な、なんだあいつは！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　※カードイラストより流用
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>貪欲なる闇
+「にじゅるぐぢゅるじゅくぐぢゅっ」
+<PAUSE>
+//　※立ち絵
+//　　貪欲なる闇
+//　　　※モンスターイラストより流用
+<NAME_PLATE>
+　闇の化物は身体中のあちこちにある
+赤い瞳をグリグリと動かして俺を見据え、
+<PAUSE>
+<NAME_PLATE>
+　適当に生やしたとしか思えない
+無数の触手や足を激しくくねらせて、
+俺を追いかけてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　カサカサカサカサカサカサカサッ！！
+<PAUSE>
+//　※立ち絵
+//　　嫉妬せし闇
+//　　　※モンスターイラストより流用
+<ACTOR>0,ts_m238a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして、そいつに呼ばれるかのように、
+別の異形までもが夜の闇から現れた。
+<PAUSE>
+<NAME_PLATE>
+　幾つもの頭と、鎌のような足を持つ
+そいつはまるで闇のムカデだ。
+<PAUSE>
+<NAME_PLATE>
+　一番目立つ顔だけが人間の骸骨で
+生理的な嫌悪感を否応にもかき立てる。
+<PAUSE>
+<NAME_PLATE>嫉妬せし闇
+「キシキシッ、キシキシキシッッ！」
+<PAUSE>
+<NAME_PLATE>
+　人とムカデ、全部の歯を激しく軋らせて、
+俺を食い殺そうとしている。
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ、どうする！？」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の心得として
+クナイくらいは持っている。
+<PAUSE>
+<NAME_PLATE>
+　だがそれで戦える相手で
+ないことくらい分かる。
+<PAUSE>
+<NAME_PLATE>
+　なにより俺は忍法が使えない。
+<PAUSE>
+<NAME_PLATE>俺
+「と、時子！？
+　………………駄目だ繋がらない！
+　どうなってる！？」
+<PAUSE>
+<NAME_PLATE>
+　携帯で時子に連絡を入れようとしたが、
+出ないどころか、電波が繋がらない。
+<PAUSE>
+<NAME_PLATE>
+　本当に山の中が
+魔界になってしまったかのようだ。
+<PAUSE>
+<ACTOR>0,ts_m238a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m237a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>貪欲なる闇
+「ぐぢゅるぶぢゅるぐぢゅるううっ！！」
+<PAUSE>
+<NAME_PLATE>嫉妬せし闇
+「キシキシキシキシキシキシッ！！」
+<PAUSE>
+<NAME_PLATE>
+　異形の群れはすぐそこまで迫っている。
+<PAUSE>
+<NAME_PLATE>
+　もはや絶体絶命だ。
+<PAUSE>
+<NAME_PLATE>
+　どうする！？　どうする？？
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,521 @@
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+//　※視点変更　きらら視点
+<BGM_PLAY>bgm314,1000
+<BG>nc035a,IN, 1000
+<ACTOR>0,ts_m083a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「――させるかよオッサン！！！」
+<PAUSE>
+<NAME_PLATE>？？？
+「むぅ！？」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストより流用
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　バギィィッ！！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>きらら
+「ふっ、ふうまっ！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　きららの口から短い悲鳴が上がった。
+<PAUSE>
+<NAME_PLATE>
+　奇襲の男は明らかに対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　その豪腕が倒れたきららを襲った所を、
+後輩男子――ふうま小太郎が、
+身を挺するようにして庇ったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「こ、この野郎……っ！
+　とんでもない馬鹿力だぜ……っ」
+<PAUSE>
+<NAME_PLATE>きらら
+「……っ！？」
+<PAUSE>
+<NAME_PLATE>
+　小太郎は見るも無惨な有様だった。
+<PAUSE>
+<NAME_PLATE>
+　腕でガードして直撃は避けたものの、
+そのために使った腕がへし折れ、
+あらぬ方を向いている。
+<PAUSE>
+<NAME_PLATE>きらら
+「ふ、ふうま……？　その腕……っ」
+<PAUSE>
+<NAME_PLATE>
+　内臓にダメージを受けているのか、
+それだけの言葉を絞り出すのも苦しい。
+<PAUSE>
+<NAME_PLATE>
+　だが、そんなきららと同じくらい、
+小太郎の負傷も酷いように見えた。
+<PAUSE>
+<NAME_PLATE>俺
+「え……？　ああ……まぁ、
+　先輩のケガよりマシですよ……」
+<PAUSE>
+<NAME_PLATE>
+　そう言ってニヤリと笑うと、
+きららを庇うようにその前に立つ。
+<PAUSE>
+<NAME_PLATE>俺
+「ま、先輩はそこで寝ててください。
+　――あいつは俺が何とかします」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「！？？」
+<PAUSE>
+<NAME_PLATE>
+　きららは目を見開いた。
+<PAUSE>
+<NAME_PLATE>
+　――きららにとって男とは、
+母や自分を利用し危害を加える“敵”である。
+<PAUSE>
+<NAME_PLATE>
+　だけど、このふうま小太郎は、
+こんな傷を負いながらも、
+きららの事を守るという……。
+<PAUSE>
+<NAME_PLATE>きらら
+「………………っ」
+<PAUSE>
+<NAME_PLATE>
+　信じられない思いで、きららは
+自分を庇うように立つ“彼”の
+背中を見つめていた――。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+//　※視点変更　主人公視点に戻ります。
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BG>nc035a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「ま、先輩はそこで寝ててください。
+　――あいつは俺が何とかします」
+<PAUSE>
+<NAME_PLATE>俺
+（……とは言ったものの、
+　こりゃあキツいぜ……）
+<PAUSE>
+<NAME_PLATE>
+　俺は無事な方の手で忍者刀を
+構えながら内心でぼやく。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩に休んでてもらうために
+ああは言ったが、俺のケガも相当ヒドい。
+<PAUSE>
+<NAME_PLATE>
+　いつものように策を仕込んでいる
+ヒマもない。
+<PAUSE>
+<NAME_PLATE>
+　それに――問題は相手だ。
+<PAUSE>
+<ACTOR>0,ts_m083a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ゲヒヒ……これはこれは若様、
+　こんなところで奇遇ですなぁ」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>俺
+「ああ……。
+　久しぶりだな、矢車弥右衛門」
+<PAUSE>
+<NAME_PLATE>
+　負傷した俺達を見下ろして
+ニンマリと顔を歪めている巨漢。
+<PAUSE>
+<NAME_PLATE>
+　二車家幹部・矢車弥右衛門。
+<PAUSE>
+<NAME_PLATE>
+　異能系の忍法・隠れ身の術
+“無形秘擬”の使い手であり、
+<PAUSE>
+<NAME_PLATE>
+　水以外のあらゆる無機物と一体化し、
+それを利用する事ができるという。
+<PAUSE>
+<NAME_PLATE>
+　たとえば、先ほどきらら先輩を
+奇襲した時のように、土と一体化し、
+<PAUSE>
+<NAME_PLATE>
+　そして自分そっくりの人形を作り、
+それを操って敵に襲いかかる。
+<PAUSE>
+<NAME_PLATE>
+　“無形秘擬”という優れた隠密術と、
+鍛え上げられた剛力――。
+<PAUSE>
+<NAME_PLATE>
+　比丘尼や尚之助ほどではないだろうが、
+この男も強力無比な対魔忍だ。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+「いやはや、
+　世の中とは面白きもの」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「魔女殿の世話をするつまらん役目に、
+　まさかの大功が転がり込むとはのう！」
+<PAUSE>
+<NAME_PLATE>俺
+「……その大功ってのは俺のことか？」
+<PAUSE>
+<NAME_PLATE>
+　僅かでも時間を稼ぐために
+俺は口を開く。
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「左様でござる。
+　何やら骸佐様は、目抜けの若様が
+　ひどく気にかかる様子――」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ならばこの儂が、その若様の
+　手足を引っこ抜いて、置物にして
+　献上しようかと、ゲヒヒ……」
+<PAUSE>
+<NAME_PLATE>俺
+「クク。冗談きついねえ……」
+<PAUSE>
+<NAME_PLATE>
+　無論、冗談などではないだろう。
+<PAUSE>
+<NAME_PLATE>
+　こいつらはその程度は平気でやる。
+それが忍というものだ。
+<PAUSE>
+<NAME_PLATE>俺
+「……しかし、弥右衛門。
+　どうして二車家のお前がここに？
+　骸佐は魔女と手を組んだのか？」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ゲヒヒヒヒヒヒ――っ！！！」
+<PAUSE>
+<NAME_PLATE>
+　俺が重ねて問うと、弥右衛門は
+腹を抱えて哄笑し――
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「それはご自分で尋ねたらよろしかろう！？
+　手足のない達磨となってなァ――っ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「くっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　弥右衛門の攻撃――。
+<PAUSE>
+<NAME_PLATE>
+　唸りを上げて襲いかかる豪腕を、
+何とか忍者刀で弾き返す。
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se007
+</GROUP>
+<NAME_PLATE>
+　ガッキィイィィン！！！
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ほほうぅ！？　これは驚き！？
+　あの非力な若様が、
+　儂の一撃をしのぐとは――！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。
+　この程度は余裕だぜ……」
+<PAUSE>
+<NAME_PLATE>
+　嘘である。
+<PAUSE>
+<NAME_PLATE>
+　例の蘇生から少しは
+戦えるようになったとは言え、
+それは鬼火のような下級の魔物が相手の話。
+<PAUSE>
+<NAME_PLATE>
+　二車の幹部と
+まともに渡り合えるはずもない。
+<PAUSE>
+<NAME_PLATE>俺
+（クソ……！！　何とか、
+　先輩を逃がせる程度の時間は
+　稼ぎたいところだが……）
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ゲヒヒ！！　これは愉快！！
+　ならば儂も少し力を入れて
+　遊んでやろうかの！！」
+<PAUSE>
+<NAME_PLATE>
+　暴風雨のように振り下ろされる
+弥右衛門の拳。
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se047
+</GROUP>
+<NAME_PLATE>
+　防いでも防いでも止まらず――
+むしろそれは勢いを増していく。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐぅぅ……クソぉぉおぉっ！！」
+<PAUSE>
+<NAME_PLATE>
+　絶望的な戦力差。
+<PAUSE>
+<NAME_PLATE>
+　一撃ごとに追い込まれる。
+<PAUSE>
+<NAME_PLATE>
+　そして、少しでも粘ろうと必死で
+踏み込んだ所を――
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ほ～れ、捕まえたァ！！
+　なかなか頑張りなさったが、
+　所詮は目抜けの若様ですなぁ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あぐぅっ！？　ち、畜生……」
+<PAUSE>
+<NAME_PLATE>
+　悔しいが弥右衛門の言う通りだ。
+<PAUSE>
+<NAME_PLATE>
+　追い込まれ、負傷した腕の痛みで
+動きが鈍った瞬間、
+<PAUSE>
+<NAME_PLATE>
+　あっという間に弥右衛門の豪腕で
+押さえ込まれてしまった。
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「さぁて、ここからがお楽しみ！
+　やんちゃな若様の手足を引っこ抜き、
+　可愛く素直にして差し上げよう！」
+<PAUSE>
+<NAME_PLATE>俺
+「――っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　弥右衛門の巨大な手のひらが
+俺の無事な方の腕を掴む。
+<PAUSE>
+//SE：締め上げから腕を折るSE
+<SE_PLAY>se077
+<NAME_PLATE>
+　ゴリっ――と軋むような音と共に
+肩の関節が外され、そのまま腕が
+引き伸ばされる――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あぎっ！？　がああぁぁああぁぁ
+　あああああああああぁぁあぁ
+　ああああああっ！！！？」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ゲヒヒ！！　これは若様！？
+　あんまり騒ぐと、そのうるさい
+　舌も引っこ抜きますぞぉ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　――激痛で目の前が暗くなる。
+<PAUSE>
+//【黒画面】
+<NAME_PLATE>
+　確かに俺は、
+再生能力のようなものを身につけたらしい。
+<PAUSE>
+<NAME_PLATE>
+　でもそれは、四肢を引き抜かれても
+機能するのだろうか――。
+<PAUSE>
+<NAME_PLATE>
+　と、そんなマヌケな考えが
+頭をよぎった時。
+<PAUSE>
+<NAME_PLATE>？？？
+「ハアアアアアァァ――ッ！！！」
+<PAUSE>
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+<BG>nc035a,IN, 500
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se007
+</GROUP>
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>
+　――ガッキィィン！！！
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「なんと！？
+　これは不可解――っ」
+<PAUSE>
+<NAME_PLATE>
+　虚を突かれた弥右衛門がぱっと
+後ろに飛び退る。
+<PAUSE>
+<NAME_PLATE>
+　俺は乱暴に地面に放り出され、
+ヨロヨロと顔を上げた所で――
+その姿を見た。
+<PAUSE>
+<ACTOR>1,kr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「……ありがと、ふうま。
+　君のお陰で、ちょっとだけ
+　動けるようになった……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵＿対魔忍衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「きらら先輩――っ！？」
+<PAUSE>
+<NAME_PLATE>
+　息を乱し、唇の端から血を零しながら
+氷のクローを構えるきらら先輩。
+<PAUSE>
+<NAME_PLATE>
+　ニタニタと笑う弥右衛門から俺を
+守るように、毅然として立っていた。
+<PAUSE>
+<NAME_PLATE>俺
+（い、いや……！？　
+　でも、きらら先輩の体は……！？）
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「おほっ！？　驚いたわい！！
+　嬢ちゃんの体ん中は、内臓が潰れて
+　グチャグチャのはず――」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「なにゆえ、まだ動けるんじゃ？」
+<PAUSE>
+<NAME_PLATE>きらら
+「ふんっ！　私を、
+　そこらの人間と一緒にするな！」
+<PAUSE>
+<NAME_PLATE>きらら
+「私にはママの――
+　誇り高い鬼族の血が流れている！！」
+<PAUSE>
+<NAME_PLATE>俺
+（おっ、鬼族……！？）
+<PAUSE>
+<NAME_PLATE>
+　呆気にとられたが……でも、
+それで納得できる事もあった。
+<PAUSE>
+<NAME_PLATE>
+　鬼族と言えば、異常なまでの
+タフさと回復力で有名だ。
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ほほぅ！？　鬼族のハーフとな！？
+　聞いた事があるぞ、たしか――」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「対魔忍の父が、子を産ませた
+　鬼の母を殺したという。
+　嬢ちゃんが、その哀れな子かの？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「黙りなさい！！！
+　私が哀れかどうかは私が決める！！」
+<PAUSE>
+<NAME_PLATE>俺
+（きらら先輩――）
+<PAUSE>
+<NAME_PLATE>
+　性悪で……意地悪ばかり言う
+イヤな先輩だと思っていた。
+<PAUSE>
+<NAME_PLATE>
+　でも、そうじゃなかった。
+この先輩は――
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「ゲヒヒヒ！！　なんたる珍奇！
+　この混じりモノの鬼娘、是が非でも
+　儂の愛妾にしてやるぞい！！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　哄笑して弥右衛門が印を切る、
+すると――。
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　矢車弥右衛門
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　矢車弥右衛門
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<ACTOR>2,ts_m083a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_PRIORITY>0, 10
+</GROUP>
+<NAME_PLATE>
+　にょきにょきと地面から生え出るように
+無数の弥右衛門が出現した。
+<PAUSE>
+<NAME_PLATE>
+　それは、忍法で土塊から造られた
+弥右衛門の傀儡だ。
+<PAUSE>
+<NAME_PLATE>きらら
+「――上等じゃない！！
+　ぶっ飛ばしてやるから、全員
+　まとめてかかってきなさい！！」
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//=================================================================

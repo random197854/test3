@@ -1,0 +1,1185 @@
+//==================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：コーデリア大公宮＿全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC008aより流用
+//nc320a
+<BG>nc320a,IN, 1000
+<NAME_PLATE>
+　―――翌朝。
+<PAUSE>
+//【背景：コーデリア大公宮＿主人公私室＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC016aより流用
+//nc325a
+<BGM_PLAY>bgm208,1000
+<BG>nc325a,IN, 1000
+<NAME_PLATE>
+　未来世界コーデリアでの二日目だ。
+<PAUSE>
+<NAME_PLATE>
+　俺はあてがわれた部屋で爽やかに目覚めた。
+<PAUSE>
+<NAME_PLATE>
+　従者のための部屋ということだが、
+現実の俺の部屋より立派だ。
+<PAUSE>
+<NAME_PLATE>俺
+「シミュレーションでわざわざ寝るってのも
+　変だけどな」
+<PAUSE>
+<NAME_PLATE>
+　しかし昨日一日、仮想空間で動き回って
+身体は確かに疲れていたし、
+<PAUSE>
+<NAME_PLATE>
+　夜は普通に眠ることができて、
+目が覚めたらこうやって疲れも取れている。
+<PAUSE>
+<NAME_PLATE>
+　しかも時計を見ると朝の六時だ。
+なんと寝坊をしていない。
+<PAUSE>
+<NAME_PLATE>
+　昨夜、六時半に部屋に来て欲しいと
+マヤに言われたから、ちょうどぴったりだ。
+<PAUSE>
+<NAME_PLATE>俺
+「さすがシミュレーション。都合がいい」
+<PAUSE>
+<NAME_PLATE>
+　現実だったら
+こんな時間通りには起きられない。
+<PAUSE>
+<NAME_PLATE>
+　ちなみにコーデリアの時間も２４時間制で
+朝昼は人工の太陽光で作られている。
+<PAUSE>
+<NAME_PLATE>
+　窓の外を見ると、
+地球とはちょっと違う方向に
+やはりちょっと違う朝日が見えていた。
+<PAUSE>
+<NAME_PLATE>俺
+「さて、姫様を起こしに行くか」
+<PAUSE>
+<NAME_PLATE>
+　俺は寝床から起き出し、身支度を始めた。
+<PAUSE>
+//【背景：コーデリア大公宮＿廊下＿昼】【時間：昼】
+//　※監獄戦艦2_NC013aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc326a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　天使や悪魔の彫像が飾られた
+やたらと立派な廊下を通って、
+マヤの部屋に向かう。
+<PAUSE>
+<NAME_PLATE>
+　この大公宮は地球のモナコにあるそれを
+元にしていると聞いた。
+<PAUSE>
+<NAME_PLATE>
+　確かにごく普通のヨーロッパのお屋敷風で
+外のようなＳＦ感はあまり感じない。
+<PAUSE>
+<NAME_PLATE>
+　ＳＦ感を感じないと言えば、
+ここでの衣食住についてもそうだ。
+<PAUSE>
+<NAME_PLATE>
+　ピカピカの服を着るわけでもなく、
+変なペーストの食事をとるわけでもなく、
+カプセルの中で寝るわけでもない。
+<PAUSE>
+<NAME_PLATE>
+　ただ昨日の授業で分かったが、
+この世界には宇宙戦艦や巨大ロボットが
+普通に存在するようだ。
+<PAUSE>
+<NAME_PLATE>
+　是非、見てみたいものだが、
+そういうイベントは起るのだろうか。
+<PAUSE>
+<SE_PLAY>se051
+<NAME_PLATE>
+　などと期待しながら、
+マヤの部屋の扉をノックする。
+<PAUSE>
+<NAME_PLATE>マヤ
+「誰ですか？」
+<PAUSE>
+<NAME_PLATE>
+　寝起きであることを感じさせない
+キリッとした声が返ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「ふうまです。おはようございます」
+<PAUSE>
+<NAME_PLATE>マヤ
+「おはよう、フーマ。
+　時間に正確ですね。よいことです。
+　少しそこで待っていなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「分かりました」
+<PAUSE>
+<NAME_PLATE>
+　まだ身支度の途中なのだろう。
+<PAUSE>
+<NAME_PLATE>
+　女性がそういうのに手間がかかるのは、
+現実のさくらで慣れている。
+<PAUSE>
+<NAME_PLATE>
+　言われたとおり、廊下で待っていると、
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「きゃああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　耳をつんざくような悲鳴が聞こえた。
+<PAUSE>
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　これはイベント発生！？
+<PAUSE>
+<NAME_PLATE>
+　いや、姫様のピンチだ！
+<PAUSE>
+<NAME_PLATE>
+　俺は迷わず中に飛び込んだ。
+<PAUSE>
+//【背景：コーデリア大公宮＿マヤ私室＿昼】【時間：昼】
+//　※監獄戦艦2_NC012aより流用
+//nc327a
+<SE_PLAY>se128
+<BG>nc327a,IN, 1000
+<NAME_PLATE>
+　そこで見たものは―――
+<PAUSE>
+<ACTOR>0,my_t003d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「きゃああっ！！　きゃあああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿下着
+//　　　　　＊監獄戦艦2より流用
+<BGM_PLAY>bgm317,1000
+<NAME_PLATE>
+　テーブルの上で踊るマヤの姿だった。
+<PAUSE>
+<NAME_PLATE>
+　それも下着姿で。
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「ああっ、フーマッ！！
+　む、む、虫があそこに！！」
+<PAUSE>
+<NAME_PLATE>
+　マヤが恐怖に引きつった声で
+壁を指さした。
+<PAUSE>
+<NAME_PLATE>俺
+「虫？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そちらを見る。
+<PAUSE>
+<NAME_PLATE>
+　かさかさかさかさ―――
+<PAUSE>
+<NAME_PLATE>俺
+「あ……」
+<PAUSE>
+<NAME_PLATE>
+　例の黒い奴が動いていた。
+<PAUSE>
+<NAME_PLATE>俺
+「はーー、こんなのまで出すか」
+<PAUSE>
+<NAME_PLATE>
+　ちょっと感心した。
+<PAUSE>
+<NAME_PLATE>
+　確かにいくら未来になっても
+こいつは出るだろう。
+<PAUSE>
+<NAME_PLATE>
+　それがリアルというものだ。
+やるな、シミュレーター。
+<PAUSE>
+<NAME_PLATE>マヤ
+「な、何を言ってるのです！！
+　早く退治しなさい！　早く！！」
+<PAUSE>
+<NAME_PLATE>
+　テーブルの上でジタバタしながら
+マヤが腕を振り回している。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、はい……。
+　ええと、なにか潰すものとか。
+　この雑誌いいですか？」
+<PAUSE>
+<NAME_PLATE>
+　置いてあった雑誌を手に取る。
+<PAUSE>
+<NAME_PLATE>マヤ
+「なんでもいいですから早くして！！」
+<PAUSE>
+<NAME_PLATE>俺
+「はいはい」
+<PAUSE>
+<NAME_PLATE>
+　俺は雑誌を丸めて、
+壁にそろそろと近づき、
+<PAUSE>
+<NAME_PLATE>
+　かさかさかさかさ―――
+<PAUSE>
+<SE_PLAY>se146
+<NAME_PLATE>
+　バシッッ！！
+<PAUSE>
+<NAME_PLATE>
+　黒い奴を一撃で叩き潰した。
+<PAUSE>
+<NAME_PLATE>
+　五車町は田舎だし、うちは古い家なので
+現実でもこいつはよく見かける。
+<PAUSE>
+<NAME_PLATE>
+　そして時子もさくらも嫌がるので、
+退治するのはいつも俺の役目。
+慣れたものだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ええと……後始末は？」
+<PAUSE>
+<NAME_PLATE>
+　どうするか聞こうと思ったら、
+クリーナーロボットがさっと現れて、
+虫の死骸を片付け、壁の汚れを掃除していた。
+<PAUSE>
+<NAME_PLATE>
+　試しにもう読めなくなった雑誌を放ると、
+それも処分してくれた。便利だな。
+<PAUSE>
+<NAME_PLATE>俺
+「もう大丈夫ですよ」
+<PAUSE>
+<NAME_PLATE>マヤ
+「そ、そうですか……ふう」
+<PAUSE>
+<NAME_PLATE>
+　マヤは胸をなで下ろして、
+テーブルから下りた。
+<PAUSE>
+<ACTOR>0,my_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「私はあれが大嫌いなのです。
+　助かりました」
+<PAUSE>
+<NAME_PLATE>俺
+「ええと、それはいいんですが、
+　なにか羽織るとかしたほうが……」
+<PAUSE>
+<NAME_PLATE>
+　俺は一応気を遣って、
+目を逸らししつ指摘してあげた。
+<PAUSE>
+<NAME_PLATE>
+　忘れているようだが下着姿だ。
+<PAUSE>
+<NAME_PLATE>
+　しかも超ミニの黒と意外と大胆な奴だ。
+<PAUSE>
+<NAME_PLATE>
+　あんなの着るんだな、マヤ様。
+<PAUSE>
+<ACTOR>0,my_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「え……？」
+<PAUSE>
+<ACTOR>0,my_t003h,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「あああーーーーーーーっ！！」
+<PAUSE>
+<NAME_PLATE>
+　見てないが、
+顔がサーッと赤くなったようだ。
+<PAUSE>
+<NAME_PLATE>
+　でもって、
+<PAUSE>
+<ACTOR>0,my_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「この不埒者っっ！！！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<UI_DISP>OFF, 500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se080
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　バッチーーーーン☆
+<PAUSE>
+//【背景：コーデリア大公宮＿食堂＿昼】【時間：昼】
+//　※監獄戦艦2_NC017aより流用
+//nc328a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc328a,IN, 1000
+<ACTOR>1,my_t001a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>マヤ
+「姫姉さま、おはようございます」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<ACTOR>0,ar_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アリシア
+「おはよう、マヤ。
+　フーマ、その顔はどうした？」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<ACTOR>1,my_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「なんでもありません！」
+<PAUSE>
+<NAME_PLATE>
+　俺の代わりにマヤが答えた。
+<PAUSE>
+<NAME_PLATE>
+　引っぱたかれた俺の頬と同じく、
+マヤの顔もまだ少し赤い。
+<PAUSE>
+<ACTOR>0,ar_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　アリシアは訝しげに俺たちの
+顔を交互に見て、ニヤリと笑った。
+<PAUSE>
+<ACTOR>0,ar_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「フーマ、思ったよりも大胆だな。
+　もうマヤにそんなことをしでかすとは」
+<PAUSE>
+<NAME_PLATE>俺
+「え……？」
+<PAUSE>
+<ACTOR>1,my_t001d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「だがその顔を見ると失敗したようだな。
+　マヤに殺されなくてよかったな」
+<PAUSE>
+<ACTOR>1,my_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「何を仰ってるのですか！
+　姫姉さまが想像されたようなことは
+　なにも起きていません！」
+<PAUSE>
+<NAME_PLATE>
+　アリシアは冗談を言っていると
+俺でも分かるが、
+マヤはむきになって言い返す。
+<PAUSE>
+<NAME_PLATE>アリシア
+「そうなのか、フーマ？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「なぜ私ではなくフーマに聞くのです！？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「その怖い顔では
+　正直に答えてくれそうにないからな。
+　フーマ、なにがあった？」
+<PAUSE>
+<NAME_PLATE>俺
+「実は―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　さっきの一件について話す。
+<PAUSE>
+<BG>nc328a,IN, 500
+<GROUP>
+<ACTOR>0,ar_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,my_t001h,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アリシア
+「あっはっは」
+<PAUSE>
+<NAME_PLATE>マヤ
+「～～～～～～っ」
+<PAUSE>
+<NAME_PLATE>
+　途中から笑い出したアリシアに
+マヤはしかめっ面だ。
+<PAUSE>
+<ACTOR>0,ar_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「よくやったぞ。フーマ。
+　お前が飛び込まなければ
+　大変な事になるところだった」
+<PAUSE>
+<NAME_PLATE>アリシア
+「前に虫が出たときは部屋でレーザーガンを
+　撃ちまくって壁を穴だらけにしたからな」
+<PAUSE>
+<NAME_PLATE>俺
+「本当ですか？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「信じられないだろうが本当だ」
+<PAUSE>
+<ACTOR>1,my_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「それは一度だけです！」
+<PAUSE>
+<NAME_PLATE>アリシア
+「一度で十分だ」
+<PAUSE>
+<ACTOR>1,my_t001h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「うう～～～～～～～～」
+<PAUSE>
+<NAME_PLATE>
+　マヤは地団駄を踏んでいる。
+<PAUSE>
+<NAME_PLATE>
+　学校での凜々しい姿とは別人のようだ。
+<PAUSE>
+<NAME_PLATE>
+　この姫様、アリシアの前だと
+どうも子供っぽくなってしまうらしい。
+<PAUSE>
+<NAME_PLATE>
+　それはそれで可愛らしいが。
+<PAUSE>
+<NAME_PLATE>アリシア
+「フーマもマヤの下着姿を見られて
+　良かっただろう。
+　その頬は褒美とでも思っておけ」
+<PAUSE>
+<NAME_PLATE>俺
+「……はあ、そうします」
+<PAUSE>
+<NAME_PLATE>
+　思わずそう答えた俺を
+マヤがギッと睨み付ける。
+<PAUSE>
+<ACTOR>1,my_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「フーマ！！
+　なにが『そうします』ですか！
+　さっき忘れろと言ったはずです！」
+<PAUSE>
+<ACTOR>1,my_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「私のあの姿は忘れなさい！
+　これは命令です！」
+<PAUSE>
+<NAME_PLATE>
+　って、言われてもなあ。
+<PAUSE>
+<NAME_PLATE>アリシア
+「マヤ、いくら主でも
+　それは無理というものだ。
+　そうだろう、フーマ？」
+<PAUSE>
+<NAME_PLATE>俺
+「それは……」
+<PAUSE>
+<NAME_PLATE>マヤ
+「答えなくていいです！
+　もう！　姫姉さまのイジワル！」
+<PAUSE>
+<ACTOR>0,ar_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「ははは」
+<PAUSE>
+<NAME_PLATE>
+　アリシアは愉快そうに
+マヤはプンプンしながら食卓についた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　従者である俺は食事は別にとるので、
+食堂の端っこの方に控えている。
+<PAUSE>
+<NAME_PLATE>俺
+（それにしても……）
+<PAUSE>
+<NAME_PLATE>
+　このお約束なイベントは
+アサギ先生のプログラムではないだろう。
+<PAUSE>
+<NAME_PLATE>
+　もしかしたら、
+さくら先生が関わっているのだろうか。
+ありそうな話だ。
+<PAUSE>
+<NAME_PLATE>俺
+（でも、いいものが見られたなあ……）
+<PAUSE>
+<ACTOR>1,my_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「フーマ！！
+　なんですその顔は！
+　あなた、もう少しキリッとしなさい！」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、はい。失礼しました」
+<PAUSE>
+<NAME_PLATE>
+　きりっ。
+<PAUSE>
+<ACTOR>1,my_t001f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ar_t001b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アリシア
+「あっははははははは！！」
+<PAUSE>
+<NAME_PLATE>
+　頑張ってキリッとする俺を見て
+アリシアがついに噴き出していた。
+<PAUSE>
+<ACTOR>1,my_t001h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「～～～～～～～～～～っ！」
+<PAUSE>
+<NAME_PLATE>
+　マヤはまた苦虫を噛みつぶしたような
+顔になる。
+<PAUSE>
+<NAME_PLATE>
+　二日目はそんな感じで始まった。
+<PAUSE>
+//【背景：王立士官学校＿全景＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC015aより流用
+//nc322a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc322a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　今日もマヤに連れられて学校に行く。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　送り迎えのリムジンエアカーから降りると、
+登校中の生徒たちがざわついた。
+<PAUSE>
+<NAME_PLATE>
+　マヤではなく俺の方を見ている。
+<PAUSE>
+<NAME_PLATE>
+　昨日、三人の貴族をぶちのめしたことは
+学校中に知れ渡っている様子だ。
+<PAUSE>
+<NAME_PLATE>
+　皆、ヒソヒソと何かを話している。
+<PAUSE>
+<NAME_PLATE>
+　言っている内容は分からないが、
+あの顔からすると好意的ではなさそうだ。
+<PAUSE>
+<NAME_PLATE>
+　それも当然だろう。
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「フーマ、気にする必要はありません。
+　言いたい者には言わせておけばいいのです」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　マヤは毅然とした表情で言った。
+<PAUSE>
+<NAME_PLATE>マヤ
+「口さがない者はどこにでもいます。
+　私の周りもそうです。
+　いちいち気にしていたら身が持ちません」
+<PAUSE>
+<NAME_PLATE>俺
+「お気遣いありがとうございます。
+　慣れてますから大丈夫です」
+<PAUSE>
+<NAME_PLATE>マヤ
+「そうなのですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ええまあ。
+　私にも色々ありますので」
+<PAUSE>
+<NAME_PLATE>マヤ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　マヤは僅かに口ごもり、
+だが『色々』については聞こうとはせず
+代わりにこう言ってきた。
+<PAUSE>
+<ACTOR>0,my_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「朝のことは謝ります。
+　あなたは私を助けようとしただけです。
+　罪はありません」
+<PAUSE>
+<NAME_PLATE>マヤ
+「ただ、私もいきなりで
+　恥ずかしかったのです。
+　ごめんなさい」
+<PAUSE>
+<NAME_PLATE>俺
+「もういいですよ。
+　よくあるハプニングですから」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「よくはないと思いますが、
+　あなたの心遣いに感謝します。
+　では行きましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　マヤは今日も颯爽と校舎に向かい、
+俺も昨日よりはキリッとその後を追った。
+<PAUSE>
+//【背景：王立士官学校＿教室＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC017aより流用
+//nc324a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　と、気合を入れて授業に挑んだのだが、
+<PAUSE>
+<BG>nc324a,IN, 1000
+<NAME_PLATE>教師
+「えー時刻ｔ＝ｔにおいて速度Vで
+　移動している質量ｍの
+　位相エネルギー飛翔体が」
+<PAUSE>
+<NAME_PLATE>教師
+「時刻ｔ＝ｔ＋Δｔにおいて
+　推進剤をΔｍだけ早さｕで放出し……」
+<PAUSE>
+<NAME_PLATE>俺
+「ふあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺はあくびを噛み殺していた。
+<PAUSE>
+<NAME_PLATE>
+　前の方で教師がややこしいことを
+ゴニョゴニョと喋っている。
+<PAUSE>
+<NAME_PLATE>
+　確か宇宙物理学の授業だったはずだが、
+俺の耳にはまるでお経だ。
+<PAUSE>
+<NAME_PLATE>
+　ここの歴史とかと違って興味を持てない上、
+聞いたこともない用語や数式が飛び交い、
+要するにちんぷんかんぷんだ。
+<PAUSE>
+<NAME_PLATE>教師
+「ここで位相変換効率をσと仮定すると、
+　え～～、誰か計算できる者は？」
+<PAUSE>
+<ACTOR>0,my_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「はい」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　おお、また姫様が手を上げている。
+<PAUSE>
+<NAME_PLATE>
+　本当に……勉強熱心だなあ。
+<PAUSE>
+<NAME_PLATE>マヤ
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　黒板に……何か……書いている。
+<PAUSE>
+<NAME_PLATE>
+　なんだか分からないが……数式だ。
+<PAUSE>
+<NAME_PLATE>
+　カリカリ、カリカリ。
+<PAUSE>
+<NAME_PLATE>
+　いい音だ。
+<PAUSE>
+<NAME_PLATE>
+　こんな未来なのに……チョークだ。
+<PAUSE>
+<NAME_PLATE>
+　はは……面白いな……
+<PAUSE>
+<BG_OUT>1500
+<NAME_PLATE>
+　…………
+<PAUSE>
+<NAME_PLATE>
+　……
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>マヤ
+「フーマ！　起きなさい！」
+<PAUSE>
+//【背景：王立士官学校＿教室＿昼】【時間：昼】
+//　※対魔忍ユキカゼ2_NC017aより流用
+//nc324a
+<BGM_PLAY>bgm509,1000
+<BG>nc324a,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　怒鳴り声にビクッとして目を開けると、
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「～～～～～～～っ！！」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「え？　マ、マヤ様！？」
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「マヤ様ではありません！！」
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　怖い顔をして俺の前に立っている。
+<PAUSE>
+<NAME_PLATE>
+　しまった。寝ちゃってたか！？
+<PAUSE>
+<NAME_PLATE>
+　退屈な授業のせいか？
+<PAUSE>
+<NAME_PLATE>
+　現実では無理な早起きなどしたせいか？
+<PAUSE>
+<NAME_PLATE>
+　壁によりかかったまま居眠りしてる間に
+授業が終わってしまったようだ。
+<PAUSE>
+<NAME_PLATE>
+　で、姫様にバレたと。
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「従者のあなたが居眠りをするとは
+　何ごとです！」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい！」
+<PAUSE>
+<NAME_PLATE>マヤ
+「周りは気にしなくていいと言いましたが、
+　あなた、図太いにもほどがあります！」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あまり私に恥をかかせないでください！」
+<PAUSE>
+<NAME_PLATE>俺
+「し、失礼しました」
+<PAUSE>
+<NAME_PLATE>
+　俺は自分で自分の頬をパンパンと叩いて、
+ボンヤリしていた頭を覚醒させる。
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「もう起きましたか？　起きましたね？」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい！」
+<PAUSE>
+<NAME_PLATE>マヤ
+「なら行きますよ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　マヤは教室をスタスタと出て行く。
+<PAUSE>
+<NAME_PLATE>俺
+「え？　どこに？」
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「次の授業に決まっています。
+　今度寝たら許しませんから！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「はい！」
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　俺は慌てて姫様の後を追いかけた。
+<PAUSE>
+//【背景：王立士官学校＿演習室＿昼】【時間：昼】
+//　※監獄戦艦_nc003aより流用
+//nc329a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc329a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、連れてこられたのがこの部屋だ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　今までで一番ＳＦチックな機械がずらりと
+並んでいる。
+<PAUSE>
+<NAME_PLATE>
+　入口には演習室とあった。
+<PAUSE>
+<NAME_PLATE>
+　察するにコンピューターを使った
+シミュレーション演習を行うための
+部屋だろう。
+<PAUSE>
+<NAME_PLATE>
+　五車学園にも似たようなものはあるが、
+さすがＳＦ世界、より未来的だ。
+<PAUSE>
+<NAME_PLATE>俺
+「へ～～～～～～～～」
+<PAUSE>
+<NAME_PLATE>
+　キョロキョロしている俺を見て
+マヤがちょっと笑いながら聞いてきた。
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「子供みたいな顔をしていますね。
+　フーマはこういった施設を見るのは
+　初めてですか？」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「地元にも似たようなものはありましたが、
+　ここまでのものは初めてです」
+<PAUSE>
+<NAME_PLATE>マヤ
+「そうですか。
+　ここは各種の戦闘シミュレーションを
+　行うことのできる演習室です」
+<PAUSE>
+<NAME_PLATE>俺
+「さっきの教室とは感じが違いますね。
+　まるで宇宙戦艦の中みたいだ」
+<PAUSE>
+<NAME_PLATE>マヤ
+「鋭いですね。
+　ここは標準的な宇宙戦艦の作戦室を
+　模して作られています。理由がおわかり？」
+<PAUSE>
+<NAME_PLATE>俺
+「あーーなるほど。
+　つまり将来使うことになるシステムに
+　学生のうちから慣れておくためですね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「その通りです」
+<PAUSE>
+<NAME_PLATE>俺
+「戦闘シミュレーションか。
+　面白そうですね」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ええ、私はここでの演習を
+　いつも楽しみにしています」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,my_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m200a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ディーター
+「従者との楽しいお話中に失礼致します。
+　マヤ様、私とお手合わせ願えますか？」
+<PAUSE>
+//　※立ち絵
+//　　士官学校生徒(男)＿立ち絵
+//　　　　　＊新規デザイン
+<ACTOR>0,my_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　嫌みたらしく絡んできたのは、
+俺が昨日捻ってやった貴族のディーターと
+その取り巻きだ。
+<PAUSE>
+<NAME_PLATE>
+　どうやら復讐戦に来たらしい。
+それも俺ではなくマヤの方に。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>マヤ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　姫様は明らかに気分を害した様子だったが、
+<PAUSE>
+<NAME_PLATE>マヤ
+「いいでしょう。
+　相手をして差し上げます。
+　あなたたちまとめてかかってきなさい」
+<PAUSE>
+<NAME_PLATE>ディーター
+「ほう？
+　一対三の闘いを望むのですか？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「無論、一対一の勝負でも構いません。
+　今までの私とあなたの戦績を考えれば、
+　私に単身挑むその蛮勇に敬服しますわ」
+<PAUSE>
+<NAME_PLATE>
+　マヤは優雅に相手を皮肉った。
+<PAUSE>
+<NAME_PLATE>
+　さすが本物の姫様。
+こういうことをさせるとすごい迫力だ。
+<PAUSE>
+<NAME_PLATE>ディーター
+「くっ、いいでしょう。
+　後で後悔しないように！」
+<PAUSE>
+<NAME_PLATE>
+　口での前哨戦はマヤの勝ちのようだ。
+<PAUSE>
+<NAME_PLATE>
+　もっとも彼女の性格を読んで
+最初から三対一を狙っていたようにも
+思えたが。
+<PAUSE>
+<NAME_PLATE>
+　ともかくディーターは
+取り巻き二人を引き連れて、
+マヤの向かいの端末に陣取った。
+<PAUSE>
+<NAME_PLATE>ディーター
+「私たちとマヤ様の三対一。
+　それ以外はシミュレーターによる
+　ランダム設定でかまいませんね？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「望むところです」
+<PAUSE>
+<NAME_PLATE>
+　マヤは答え、
+演習シミュレーターによって
+戦闘設定が決定された。
+<PAUSE>
+//【背景：古城全景＿昼】【時間：昼】
+//　※対魔聖甲アリス_nc001aより流用
+//　※シミュレーション舞台のイメージとして表示。
+//nc330a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc330a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　場所は地球。とある古城が舞台だ。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>2,ts_m040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m040a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　ディーターたちが攻撃側。
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊兵(男)
+//　　　　＊モンスターイラストより流用
+//　※三体出してください
+//　※男は敵兵士として使用
+//　※シミュレーションということを示すための立ち絵なので背景とあっていなくてかまいません。
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m009a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m009a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m009a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　マヤが防御側だ。
+<PAUSE>
+//　※立ち絵
+//　　米連兵士(女)
+//　　　　＊モンスターイラストより流用
+//　※二体出してください（敵の方が多い）
+//　※これも背景との合わせは無視してください。
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　戦闘開始時の状況はこうだ。
+<PAUSE>
+<NAME_PLATE>
+　マヤが率いる歩兵部隊は、数で上回る
+ディーターたちの歩兵部隊に追われ、
+古城に立てこもっている。
+<PAUSE>
+<NAME_PLATE>
+　ディーターたちはすでに古城を包囲し、
+内部に侵入しようとしている。
+<PAUSE>
+<NAME_PLATE>
+　制限時間内に古城の中枢まで侵入されたら、
+ディーターたちの勝利、マヤの敗北。
+<PAUSE>
+<NAME_PLATE>
+　逆に制限時間を守りきったら、
+救援部隊が現れたということで、
+マヤの勝利で、ディーターたちの敗北となる。
+<PAUSE>
+<NAME_PLATE>
+　マヤには古城からの脱出に成功し
+敵の追撃から逃れるという勝ち方もあるが、
+<PAUSE>
+<NAME_PLATE>
+　敵の数がこちらの３倍であることを
+考えると、現実的には籠城の一手だろう。
+<PAUSE>
+<NAME_PLATE>
+　戦略の基本『攻者３倍の原則』からすれば、
+守りを固めれば敵の３分の１の数でも
+互角に戦うことができるはずだ。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、実際には各種条件で
+この比率は大きく変化するし、
+<PAUSE>
+<NAME_PLATE>
+　そもそも指揮をするのが
+こちらはマヤ一人、向こうは三人なので、
+その点でも不利だ。
+<PAUSE>
+<BG>nc329a,IN, 1000
+<ACTOR>1,my_t002e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>マヤ
+「歩兵による地上での籠城戦ですか。
+　あまり好きではありませんが……」
+<PAUSE>
+<ACTOR>0,ts_m200a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ディーター
+「得意の装甲騎による機動戦でなくて
+　残念でしたね、マヤ様」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あなたが地上戦を得意としているという話も
+　聞きませんが、ディーター」
+<PAUSE>
+<NAME_PLATE>ディーター
+「だが数は力だ。
+　今からそれを見せてあげますよ」
+<PAUSE>
+<ACTOR>1,my_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「楽しみにしています」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　シミュレーション演習が始まった。
+<PAUSE>
+//→S202a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

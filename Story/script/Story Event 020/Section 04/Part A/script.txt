@@ -1,0 +1,541 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム＿とあるバー＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0101a,IN, 1000
+<NAME_PLATE>
+　裏通りにある小さな酒場。
+<PAUSE>
+<NAME_PLATE>
+　ドローン兵器を撃退した俺たちは、
+ひとまずここに身を潜めることにした。
+<PAUSE>
+<NAME_PLATE>俺
+「……というわけなんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「申し訳ないけれど、そっちに
+　着くのは予定より少し遅くなる。
+　あぁ、もちろんデータは無事だけど」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『ええ。了解したわ』
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『でもあなた、懲りもせず
+　また変なトラブルに
+　首を突っ込んでいるのねぇ？』
+<PAUSE>
+<NAME_PLATE>俺
+「いや、今回は
+　不可抗力という感じなんだが……」
+<PAUSE>
+<NAME_PLATE>
+　俺は端末を手に軽くため息をつく。
+<PAUSE>
+//【黒画面】
+//　※立ち絵
+//　　仮面の対魔忍立ち絵
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<ACTOR>0,k_t003a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　いま俺が通話しているのは、
+東京キングダム“五強”のひとつ、
+クラブ・ペルソナのマダムであり、
+<PAUSE>
+<NAME_PLATE>
+　米連ＤＳＯとも深く関わるという
+謎多き仮面の美女。
+<PAUSE>
+<NAME_PLATE>
+　彼女にデータを渡すのが
+今日二つ目の任務だったのだが、
+<PAUSE>
+<NAME_PLATE>
+　ソニアに巻き込まれたことで
+その予定が狂ってしまった。
+<PAUSE>
+<NAME_PLATE>
+　そこで、その旨を
+取り急ぎ連絡していたのだった。
+<PAUSE>
+//【背景：東京キングダム＿とあるバー＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG>chrnc0101a,IN, 500
+<UI_DISP>ON, 0
+<NAME_PLATE>仮面の対魔忍
+『でも、トラブルねぇ……？』
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『私も手を貸しましょうか？
+　何か困っているのなら』
+<PAUSE>
+<NAME_PLATE>
+　端末の向こうの女が
+そう言って含み笑いをする。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それには及ばない」
+<PAUSE>
+<NAME_PLATE>俺
+「この件は……まあ、
+　俺たちで切り抜けるよ。
+　あんたは気にしないでくれ」
+<PAUSE>
+<NAME_PLATE>
+　予定に遅れたのはこちらの
+落ち度である。
+<PAUSE>
+<NAME_PLATE>
+　これ以上借りを増やしたくない。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『フフ。それでいいわ』
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『今は手を結んでいるけれど、
+　私とあなたたちは
+　無条件の味方というわけじゃない』
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『――あまり気軽に
+　頼られたらがっかりだから♪』
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「くく。人が悪いな」
+<PAUSE>
+<NAME_PLATE>
+　俺の意識を試したということだろう。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『じゃあ、店で待っているわ』
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>仮面の対魔忍
+『あっ！　それから――
+　アスカからあなた宛てに
+　チョコを預かってるわ』
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　なぜいきなりそんな話を？
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『今年は頑張って手づくりしたから、
+　食べた感想を聞かせてって――』
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『でも、あなたがあまり遅いと、
+　私が全部食べちゃうかも……♪』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「い、いや待て！！？」
+<PAUSE>
+<NAME_PLATE>
+　それは大変よくない。
+<PAUSE>
+<NAME_PLATE>
+　俺もアスカが作ったチョコを
+食べたい――というのもあるが、
+<PAUSE>
+<NAME_PLATE>
+　あとで感想を聞かれたとき、
+ちゃんと答えられないと
+ぶん殴られそうで恐ろしい。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+『アスカのチョコが欲しいなら
+　早くトラブルを片付けてきなさい。
+　待っているわよ？』
+<PAUSE>
+<NAME_PLATE>
+　と楽しそうに笑って
+仮面のマダムは通信を切った。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐぅ。なんてことだ……」
+<PAUSE>
+<NAME_PLATE>
+　これは色々な意味で
+グズグズしていられない。
+<PAUSE>
+<NAME_PLATE>
+　さっさとソニアの件を
+済ませてしまわないと……。
+<PAUSE>
+<ACTOR>1,chr_t0300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くん。アスカって？」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「わあっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　俺の隣でじーっと通信が
+終わるのを待っていた紫水であった。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、
+　アスカっていうのは……」
+<PAUSE>
+<NAME_PLATE>俺
+「俺と同い年くらいの、
+　女の子で……米連の組織にいる、
+　と、ともだち……？」
+<PAUSE>
+<NAME_PLATE>紫水
+「ふーん。友達……？」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう。ともだち……」
+<PAUSE>
+<NAME_PLATE>
+　俺はがくがくと何度もうなずく。
+<PAUSE>
+<NAME_PLATE>
+　いや、別に何も
+後ろめたいことはないのだが。
+<PAUSE>
+<NAME_PLATE>
+　だがそこで、紫水は
+少し申し訳なさそうな顔になって。
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くん。ごめんね」
+<PAUSE>
+<NAME_PLATE>紫水
+「任務、邪魔するような感じに
+　なっちゃって」
+<PAUSE>
+<NAME_PLATE>俺
+「あ……」
+<PAUSE>
+<NAME_PLATE>
+　確かにそうだった。
+<PAUSE>
+<NAME_PLATE>
+　なぜかさっき、紫水が
+ソニアに協力すると言い出した。
+<PAUSE>
+<NAME_PLATE>
+　それでクラブ・ペルソナに向かう
+任務が遅れることになった。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、まあ……
+　それは別に構わないよ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺たちもソニアの仲間だと思われてたし、
+　どっちにしても巻き込まれてた」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん」
+<PAUSE>
+<NAME_PLATE>俺
+「でも紫水、
+　なんでソニアに協力を？」
+<PAUSE>
+<NAME_PLATE>
+　俺は紫水に聞いてみた。
+<PAUSE>
+<NAME_PLATE>
+　ソニアはあの通りのヤバイ奴だし、
+初対面の紫水が協力する理由は
+なさそうだけど。
+<PAUSE>
+<NAME_PLATE>紫水
+「それは……」
+<PAUSE>
+<NAME_PLATE>
+　紫水は少し困った顔をすると。
+<PAUSE>
+<NAME_PLATE>紫水
+「えっと。
+　『急なトラブルを楽しむのも探偵』
+　……って、コロが言ってる」
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩が？」
+<PAUSE>
+<NAME_PLATE>
+　確かにあの人なら
+そんなことを言いそうだけど……？
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ紫水も楽しんでる？」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん。それは本当に。
+　お館くんと、一緒に冒険できて」
+<PAUSE>
+<NAME_PLATE>
+　いつものように紫水が控え目に微笑む。
+<PAUSE>
+<NAME_PLATE>俺
+「そっか……。
+　ならそれで良いかな？」
+<PAUSE>
+<NAME_PLATE>
+　俺は苦笑してうなずく。
+<PAUSE>
+<NAME_PLATE>
+　紫水が望むならその通りにしてあげたい。
+<PAUSE>
+<NAME_PLATE>
+　俺は不思議とそんな気持ちになるのだ。
+<PAUSE>
+<ACTOR>1,chr_t0300a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ソニア
+「さて、待たせたわね。
+　“仕事仲間”と連絡がついたわ」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　その時、端末を手にソニアが戻ってくる。
+<PAUSE>
+<NAME_PLATE>
+　合流予定の仲間と連絡を取ってきたようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「迎えに来るって？」
+<PAUSE>
+<NAME_PLATE>ソニア
+「ええ。この場所は伝えたけど、
+　向こうも手一杯らしくてね。
+　ちょっと時間がかかるらしいわ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「そうか。じゃあ、
+　その間に話してもらうぞ」
+<PAUSE>
+<NAME_PLATE>
+　ソニアは暗殺任務に失敗し、
+あのドローンたちに追われていると
+言っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「一体お前、誰を狙って――
+　そして、誰に追われているんだ？」
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　同時刻。
+<PAUSE>
+//【背景：東京キングダム＿裏通り２＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc024aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc065a,IN, 1000
+<NAME_PLATE>
+　東京キングダム・繁華街。
+<PAUSE>
+<NAME_PLATE>
+　その裏通りを歩く、
+英国紳士風のスーツを身に着けた
+長身の男がいた。
+<PAUSE>
+<ACTOR>0,ts_m241a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サイエント
+「ほう。では奴は袋のネズミだねえ。
+　情報提供に感謝するよ、フフ……」
+<PAUSE>
+//　※立ち絵
+//　　サイエント
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　不気味に唇を歪めて男は通信を切る。
+<PAUSE>
+<NAME_PLATE>
+　男はサイボーグであった。
+<PAUSE>
+<NAME_PLATE>
+　名はサイエント。
+<PAUSE>
+<NAME_PLATE>
+　かつては米連の名士で有数の資産家でも
+あったが、娘を殺されたことをきっかけに
+自らをサイボーグ化。
+<PAUSE>
+<NAME_PLATE>
+　娘を殺した者たちへの復讐を果たすも、
+狂気に魅入られて殺人鬼に堕ちる。
+<PAUSE>
+<NAME_PLATE>
+　現在は、米連から
+この東京キングダムに流れ着き、
+<PAUSE>
+<NAME_PLATE>
+　“五強”の一角、ノマド傘下の
+“沙無羅威”の幹部となっている。
+<PAUSE>
+<NAME_PLATE>
+　この男が、米連捜査機関の指令により
+ソニアが狙った暗殺のターゲットである。
+<PAUSE>
+<NAME_PLATE>サイエント
+（あぁ、楽しみだよ。
+　『ＮＯ１６．ソニア』……
+　とても美しい花が咲くだろう……）
+<PAUSE>
+<NAME_PLATE>サイエント
+（あの肌を焼き尽くす、
+　ゆっくりと足から潰していく、
+　色々な楽しみ方があるよねえ……）
+<PAUSE>
+<NAME_PLATE>
+　ギギギギギ……と、
+機械化された口元が不気味で耳障りな
+含み笑いの声を響かせる。
+<PAUSE>
+<NAME_PLATE>
+　ソニアの暗殺ターゲットとなった
+サイエントは、怒りや恐怖より
+ただただ歓喜した。
+<PAUSE>
+<NAME_PLATE>サイエント
+（フフ。ソニア、君との出会い、
+　それは運命だよねぇ……）
+<PAUSE>
+<NAME_PLATE>
+　米連全土を恐怖に叩きこんだ
+“殺人鬼ソニア”。
+<PAUSE>
+<NAME_PLATE>
+　殺人に魅入られたサイエントには
+その名は憧れと敬意の対象だ。
+<PAUSE>
+<NAME_PLATE>
+　そんな彼女が自分を殺しに現れた。
+<PAUSE>
+<NAME_PLATE>
+　その喜びと感謝を伝えるには
+彼女を殺し尽くすしかないではないか。
+<PAUSE>
+<NAME_PLATE>
+　そこでサイエントは自分の配下と
+沙無羅威の組織力を利用し、逃走した
+ソニアを執拗に追跡しているのだった。
+<PAUSE>
+<ACTOR>0,ts_m241a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m142a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>配下
+「し、しかし……サイエント様、
+　後で問題にはなりませんか……？」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>サイエント
+「なんだね？」
+<PAUSE>
+<NAME_PLATE>
+　サイエントに付き従う配下が
+恐怖に震える声で進言した。
+<PAUSE>
+<NAME_PLATE>配下
+「あの女は米連の犬、
+　それを討つとなれば……
+　奴らと事を構えることにも……」
+<PAUSE>
+<NAME_PLATE>サイエント
+「ジョージ。ここはねえ、
+　沙無羅威の縄張りなんだよ……？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>配下
+「ひっ！！！？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR>0,ts_m241a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　振り向いたサイエントが配下の顔を
+無造作につかむ。
+<PAUSE>
+<SE_PLAY>se134
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　すぐにジュウウウっという
+耳障りな異音が響き始める。
+<PAUSE>
+<NAME_PLATE>
+　サイエントの手のひらが赤熱し、
+配下の顔を焼いているのだ。
+<PAUSE>
+<NAME_PLATE>配下
+「ぎゃああああ……！！？
+　さ、サイエントさま……！」
+<PAUSE>
+<NAME_PLATE>サイエント
+「私はいつ誰を殺してもいいという
+　契約で沙無羅威に協力しているし、
+　米連に口出しなどさせない」
+<PAUSE>
+<NAME_PLATE>サイエント
+「まあ、それでも恐ろしいというなら、
+　こうして彼女の体を証拠ごと
+　全て焼き尽くしてあげればいい」
+<PAUSE>
+<NAME_PLATE>サイエント
+「ねえジョージ、
+　私にそれができないと思うかい？」
+<PAUSE>
+<NAME_PLATE>配下
+「お、お許しください……！！
+　出過ぎたこと……」
+<PAUSE>
+<NAME_PLATE>サイエント
+「フフ、そうだねぇ……」
+<PAUSE>
+<NAME_PLATE>
+　不気味に笑うサイエントが手を離す。
+<PAUSE>
+<NAME_PLATE>サイエント
+「では、ただちに動きたまえ。
+　私が到着するまで、
+　決して彼女を逃がさぬように――」
+<PAUSE>
+<NAME_PLATE>配下
+「はっ……！！」
+<PAUSE>
+<NAME_PLATE>
+　激痛と恐怖に震える配下が
+転がるように別部隊への指示に動く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　沙無羅威の情報網によって、
+すでにサイエントは女とその仲間の
+潜伏場所を掴んでいた。
+<PAUSE>
+//→S402a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

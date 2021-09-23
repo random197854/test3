@@ -1,0 +1,562 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：土雲アジト地下＿昼夜共通】【時間：夜】
+//　※対魔聖甲アリス_背景nc012aより流用。
+//新規　nc190a
+<BGM_PLAY>bgm509,1000
+<BG>nc190a,IN, 1000
+<NAME_PLATE>
+　深月たちは魔物がはびこる下水道を突破し、
+土雲のアジトに通じる地下通路に
+到達していた。
+<PAUSE>
+<NAME_PLATE>
+　下水からかなり離れたためか、
+魔界ワスプやデビルワームももう出てこない。
+<PAUSE>
+<NAME_PLATE>
+　土雲のアジトはここからほど近いが、
+周囲は不気味に静まりかえっている。
+<PAUSE>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「なんとか作戦時間に間に合いそうですね」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　深月は時間を確かめた。
+<PAUSE>
+<NAME_PLATE>
+　もうすぐ独立遊撃隊が陽動攻撃を
+開始する。
+<PAUSE>
+<NAME_PLATE>
+　今は突入前の小休止といったところだ。
+<PAUSE>
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「あのミミズのせいでとんだ目にあったよ」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「柳さん、申し訳ありませんでした」
+<PAUSE>
+<NAME_PLATE>六穂
+「ん？　なにが？」
+<PAUSE>
+<NAME_PLATE>深月
+「私、チームリーダーなのに
+　ちゃんと指揮ができなくて」
+<PAUSE>
+<NAME_PLATE>六穂
+「いいよいいよ。
+　さっきのはボクが一人で
+　突っ走ったのが悪かったのさ」
+<PAUSE>
+<NAME_PLATE>深月
+「いえ、そんな……」
+<PAUSE>
+<NAME_PLATE>
+　六穂はまったく気にしていない風だ。
+<PAUSE>
+<NAME_PLATE>六穂
+「だってほら、
+　あそこの鬼教師がそう言ってるしさ」
+<PAUSE>
+<NAME_PLATE>
+　六穂はクイッと顎をしゃくった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　その鬼教師が怖い顔で腕組みしていた。
+<PAUSE>
+<ACTOR>2,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「分かっているならいい。
+　自分が悪かったと言えるだけ
+　成長したようだな、柳」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>2,chr_t0044a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>六穂
+「おかげさまで」
+<PAUSE>
+<NAME_PLATE>
+　六穂はその名の通り、
+柳に風と受け流していた。
+<PAUSE>
+<NAME_PLATE>
+　深月にはとても真似できない。
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「上原先生、さっきは私の代わりに
+　適切な指示をいただいて―――」
+<PAUSE>
+<NAME_PLATE>
+　燐は手を上げて
+深月の言葉を途中で止めた。
+<PAUSE>
+<NAME_PLATE>燐
+「礼も謝罪も不要だ」
+<PAUSE>
+<NAME_PLATE>燐
+「私はお前たちをサポートする
+　役目を果たしただけだ。
+　お前も己の役目を果たせ」
+<PAUSE>
+<NAME_PLATE>
+　真っ直ぐな言葉だ。
+<PAUSE>
+<NAME_PLATE>
+　昔からそうだった。
+<PAUSE>
+<NAME_PLATE>
+　深月たちをただのひよっこと見ておらず、
+みな一人の対魔忍として厳しく鍛えてくれた。
+<PAUSE>
+<NAME_PLATE>深月
+「はい、わかりました、上原先生」
+<PAUSE>
+<NAME_PLATE>燐
+「なら、まずその『先生』をやめろ」
+<PAUSE>
+<NAME_PLATE>燐
+「お前はもう五車の生徒ではない。
+　一人前の対魔忍だ。
+　そして私はお前の部下だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「え？　あ、じゃ、じゃあ……
+　改めて、その……よろしくお願いします。
+　う、上原さん」
+<PAUSE>
+<NAME_PLATE>燐
+「うむ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　燐はやっと納得したかのように頷いた。
+<PAUSE>
+<ACTOR>1,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>六穂
+「なんかさあ、
+　ボクに比べて委員長の方が
+　扱いが優しくない？」
+<PAUSE>
+<NAME_PLATE>
+　六穂が皮肉っぽく口を挟んできた。
+<PAUSE>
+<NAME_PLATE>
+　燐は真顔で答える。
+<PAUSE>
+<NAME_PLATE>燐
+「星乃は愛弟子で、
+　お前はただの問題児だ。
+　扱いが違って当然だ」
+<PAUSE>
+<NAME_PLATE>六穂
+「今、生徒じゃないって言ったばかりだよ。
+　それに普通は問題児の方が
+　可愛いんじゃないの？」
+<PAUSE>
+<NAME_PLATE>燐
+「しらんな。
+　お前は私に可愛がって欲しいのか？」
+<PAUSE>
+<NAME_PLATE>六穂
+「あはは、まさか。
+　遠慮するよ、先生」
+<PAUSE>
+<NAME_PLATE>燐
+「ふん」
+<PAUSE>
+<NAME_PLATE>
+　悪口を言い合える仲のような
+実は本当に仲が悪いようなやりとりに
+深月は慌てて割り込んだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「と、とにかくもうすぐ作戦時間です。
+　三人で仲良く頑張りましょう」
+<PAUSE>
+<NAME_PLATE>燐
+「そうだな」
+<PAUSE>
+<NAME_PLATE>六穂
+「委員長、無理やりまとめたね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　などとやっている間に、
+作戦時間になったようだ。
+<PAUSE>
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカアアアアアアアアンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　頭上でものすごい衝撃音がして、
+建物が崩れているような激しい振動が
+地下まで伝わってきた。
+<PAUSE>
+<NAME_PLATE>
+　地上が一気に騒がしくなる。
+<PAUSE>
+<NAME_PLATE>
+　独立遊撃隊の陽動攻撃が始まったのだ。
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「ここまで揺れるなんて
+　すごい威力ですね」
+<PAUSE>
+<NAME_PLATE>
+　予定通りであるが、
+その想像以上の威力に深月は驚いていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,chr_t0044a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>燐
+「酔っぱらいが“建物ごと”斬ったのだろう」
+<PAUSE>
+<NAME_PLATE>六穂
+「噂は聞いてるよ。
+　呑めば呑むほど強くなるっていう
+　逸刀流の対魔忍でしょ」
+<PAUSE>
+<NAME_PLATE>
+　燐の説明に、六穂が軽口を叩く。
+<PAUSE>
+<NAME_PLATE>
+　深月はそれには応じず、
+素早く二人に指示を与えた。
+<PAUSE>
+<NAME_PLATE>深月
+「どんな力の持ち主でも、
+　この街で対魔忍が長く戦うことは
+　できません」
+<PAUSE>
+<NAME_PLATE>深月
+「与えられた時間は短いです。
+　すぐ行動に移りましょう」
+<PAUSE>
+<NAME_PLATE>六穂
+「まあ、そうだろうね」
+<PAUSE>
+<NAME_PLATE>燐
+「了解だ」
+<PAUSE>
+<NAME_PLATE>
+　深月たちは急ぎ移動を開始した。
+<PAUSE>
+//【背景：土雲アジト通路１＿昼夜共通】【時間：夜】
+//　※対魔忍ムラサキ_nc002aを流用
+//新規　nc191a
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc191a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　いつまでも終わらない地震のように
+建物全体がグラグラと小さく揺れ続けている。
+<PAUSE>
+<NAME_PLATE>
+　非常灯がチカチカと点滅し、
+天井のコンクリの欠片が剥がれ落ち、
+脆くなった壁の一部も崩れ始めていた。
+<PAUSE>
+<NAME_PLATE>
+　歩くのに支障はないが、
+深月たちを生き埋めにしかねないほどの
+攻撃が地上で続いているのだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、これくらいでないと
+陽動にならない。
+<PAUSE>
+<NAME_PLATE>
+　おかげで、地下道から通じる
+土雲のアジトへの入り口には誰もおらず、
+深月たちはあっさり侵入を果たしていた。
+<PAUSE>
+<ACTOR>1,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「誰もいないね。
+　みんな上に行っちゃったかな」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「それでも護衛はどこかに
+　残っているはずです」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「私が風で気配を探るので、
+　ついてきて下さい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se118
+<NAME_PLATE>
+　深月は先頭に立って、
+“風”の触手を地下通路の先に伸ばした。
+<PAUSE>
+<NAME_PLATE>
+　これで敵がいれば、その数や大きさまで
+前もってある程度は把握できる。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,chr_t0044a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「敵がいても
+　なるべく見つかりたくありません」
+<PAUSE>
+<NAME_PLATE>深月
+「柳さん、声を出させないように
+　仕留めてください」
+<PAUSE>
+<NAME_PLATE>深月
+「上原さんは引き続き
+　後方の警戒をお願いします」
+<PAUSE>
+<NAME_PLATE>六穂
+「静かに毒殺だね。
+　お安いご用だよ」
+<PAUSE>
+<NAME_PLATE>燐
+「了解した」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「では、行きます」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　深月の指示により、
+三人は敵アジトの奥へ進んでいく。
+<PAUSE>
+//【背景：土雲アジト通路２＿昼夜共通】【時間：夜】
+//　※鋼殻のアイ_nc015aを流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc019a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　地上の陽動攻撃は続いている。
+<PAUSE>
+<NAME_PLATE>
+　それが上手くいっているらしく、
+まだ敵には遭遇していない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、地下通路の様子が変化し、
+眞田焔が捕らわれている場所の近くまで
+来たところで、
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　深月は無言で足を止めた。
+<PAUSE>
+<NAME_PLATE>
+　後ろの二人にとっては突然だったが、
+どうしたのかと口に出して聞いたりはしない。
+<PAUSE>
+<NAME_PLATE>
+　黙って立ち止まり、目で問いかけながら、
+行く手の気配をうかがっている。
+<PAUSE>
+<NAME_PLATE>
+　少し先で通路が二手に分かれていた。
+<PAUSE>
+<NAME_PLATE>
+　静流のくれた情報によれば、
+焔は右手の奥にいるはずだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　深月は三人を風で包んで、
+外に声が漏れないように話し始めた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,chr_t0044a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「います。三人。それも人間じゃないです。
+　身体が大きい……
+　多分、オークかなにかです」
+<PAUSE>
+<NAME_PLATE>六穂
+「あいつらも血のめぐりが悪いからね。
+　三匹こっそり殺すのは難しいかな」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「そうですか……」
+<PAUSE>
+<NAME_PLATE>六穂
+「委員長、どうする？」
+<PAUSE>
+<NAME_PLATE>
+　六穂が聞いてくる。
+なにか期待しているような目だ。
+<PAUSE>
+<NAME_PLATE>燐
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　燐は深月に任せると、
+無言で彼女を見つめている。
+<PAUSE>
+<NAME_PLATE>
+　深月はすぐに決断を下した。
+<PAUSE>
+<NAME_PLATE>深月
+「強行突破します。時間がありません」
+<PAUSE>
+<NAME_PLATE>六穂
+「いいね」
+<PAUSE>
+<NAME_PLATE>燐
+「承知」
+<PAUSE>
+<NAME_PLATE>
+　二人は短く承諾する。
+<PAUSE>
+<NAME_PLATE>深月
+「敵は私たちに気づいていません。
+　死角から出た瞬間に術をかけられます」
+<PAUSE>
+<NAME_PLATE>六穂
+「どう奇襲しようか？」
+<PAUSE>
+<NAME_PLATE>深月
+「そうですね―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　深月は六穂と燐に作戦の指示を与え、
+素早く行動を開始した。
+<PAUSE>
+<NAME_PLATE>
+　三人ともに術の準備をしながら
+密集隊形をとって進んでいく。
+<PAUSE>
+<NAME_PLATE>
+　敵に気取られぬように気配を殺し、
+通路を右に曲がると、
+<PAUSE>
+<BGM_PLAY>bgm406,1000
+<ACTOR>3,ts_m047a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　果たして扉の前に
+フレイムトロールが一匹。
+<PAUSE>
+//　※立ち絵
+//　　フレイムトロール立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<GROUP>
+<ACTOR>4,ts_m116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,ts_m116a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>3
+</GROUP>
+<NAME_PLATE>
+　フレイムオークが二匹立っていた。
+<PAUSE>
+//　※立ち絵
+//　　フレイムオーク立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+//　　フレイムオーク立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<NAME_PLATE>
+　護衛のはずの彼らは、
+陽動作戦が行われている頭上ばかり
+気にしている。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フレイムオーク
+「あ！？」
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>フレイムトロール
+「て、敵か！？」
+<PAUSE>
+<NAME_PLATE>
+　深月たちに気づいても、
+あっと驚くのが先で、
+すぐには迎撃態勢を取れない。
+<PAUSE>
+<NAME_PLATE>
+　奇襲成功だ。
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

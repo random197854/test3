@@ -1,0 +1,316 @@
+//////////////////////////////////
+//☆第一章//【Section５】シナリオ
+//
+//FileNo:S501a
+//シーン名：プロローグ
+//
+//※S405aのシナリオの続き
+//////////////////////////////////
+//【背景：五車学園＿校舎内校長室＿昼】//【時間：昼】
+<BGM_PLAY>bgm206,1000
+<BG>nc006a,IN
+<ACTOR>0,mu_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>室井
+「いやはや人間にしておくのは
+　惜しい強さですね井河アサギ♪」
+<PAUSE>
+//　※立ち絵
+//　　室井通常立ち絵＿校医衣装
+<NAME_PLATE>
+　室井先生、いや室井は骸佐を踏み越えて
+アサギ先生に向き合った。
+<PAUSE>
+<ACTOR>0,mu_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,a_t003e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「そういうお前は人間ではないな………
+　何者だ？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ戦闘立ち絵＿対魔忍衣装
+<ACTOR>0,mu_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>室井
+「答える義務はありませんよ。アサギさん」
+<PAUSE>
+<ACTOR>1,a_t003f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ならば無理矢理聞くまでだ」
+<PAUSE>
+<ACTOR>0,mu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>室井
+「クク、生意気な女ですね。
+　下賤な人間の分際で。非常に不愉快だ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,mu_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,a_t003f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>骸佐
+「おい、ちょっと待て……
+　勝手に話、進めてんなよ……」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+<ACTOR>0,g_t001i,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「骸佐！！」
+<PAUSE>
+<NAME_PLATE>
+　血まみれの床から体を起こしたのは、
+骸佐だ。
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐！　動くんじゃねえ、血が……」
+<PAUSE>
+<ACTOR>0,g_t001c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「うるせぇっ！！！　俺はまだ……うっ」
+<PAUSE>
+<NAME_PLATE>
+　甲冑のおかげか、手加減のおかげか、
+致命傷には至らなかったようだが、
+全身に傷を負って、相当苦しいはずだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、骸佐はなおも刀に手を伸ばす。
+<PAUSE>
+<ACTOR>0,g_t001c,CENTER, RIGHT, NONE, linear, 1500
+<ACTOR>2,mu_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>室井
+「骸佐さん、もうやめなさい。退きますよ」
+<PAUSE>
+<ACTOR>0,g_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「何だと！？」
+<PAUSE>
+<NAME_PLATE>室井
+「そろそろあなたに施した魔薬の限界です。
+　これ以上やったら本当に死にますよ」
+<PAUSE>
+<ACTOR>2,mu_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>室井
+「それに目的は達成しましたから」
+<PAUSE>
+<ACTOR>0,g_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ちッ……そうだな……」
+<PAUSE>
+<NAME_PLATE>
+　室井は骸佐を連れ、
+悠々と校長室を出ようとする。
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間――
+<PAUSE>
+<ACTOR>1,a_t003e,CENTER, CENTER, IN, linear, 100
+<NAME_PLATE>アサギ
+「簡単には逃さん」
+<PAUSE>
+//　※立ち絵
+//　　アサギ戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+（いつの間に……！）
+<PAUSE>
+<NAME_PLATE>
+　たった今まで校長机の前にいた
+アサギ先生が、一瞬で室井の背後に
+まわっていた。そして――
+<PAUSE>
+<ACTOR>1,a_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「はああっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,a_t003e,CENTER, CENTER, OUT, linear, 0
+<ACTOR>2,mu_t001a,LEFT, LEFT, OUT, linear, 0
+<ACTOR>0,g_t001c,RIGHT, RIGHT, OUT, linear, 0
+</GROUP>
+<GROUP>
+<SE_PLAY>se011
+<BG>ef005a,IN, 0
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ブシュウッ！！！
+<PAUSE>
+<NAME_PLATE>室井
+「むぐぅゥ！？」
+<PAUSE>
+<NAME_PLATE>
+　まるで大根でも切るように、
+刃が振り下ろされる。室井はあっさりと
+二つの肉塊となって崩れ落ちた。
+<PAUSE>
+<NAME_PLATE>俺
+「う……ッ」
+<PAUSE>
+<NAME_PLATE>
+　さすがの俺も、その光景に目をつむった。
+しかしアサギ先生は、
+なおも臨戦態勢を解かない。
+<PAUSE>
+<BG>nc006a,IN, 1000
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「お、おいふうま、あ、あ、あれ……」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助につつかれて、室井のほうを見ると、
+肉塊の上には瘴気が渦を巻いて
+立ち上っている。
+<PAUSE>
+<ACTOR>0,s_t001h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ま、まだなんかあんのかよ、
+　どうなってんだよ……！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ひっぱるな！　俺にもわからん！」
+<PAUSE>
+<ACTOR>0,s_t001h,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　室井だった肉塊は瘴気に溶かされ、
+黒い霧になったかと思うと、やがて人の形を
+成し、一人の男の姿となって現れた。
+<PAUSE>
+<ACTOR>0,f_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ふう、まったく乱暴な女だ」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+<NAME_PLATE>アサギ
+「お前は……フュルスト！！？
+　ノマドの大幹部であるお前がなぜ……」
+<PAUSE>
+<NAME_PLATE>俺
+（フュルストだと……！？）
+<PAUSE>
+<NAME_PLATE>
+　フュルスト。その名は俺も聞いた事がある。
+<PAUSE>
+<NAME_PLATE>
+　人魔結託の新勢力の中でも
+成長著しい組織“ノマド”で、
+大幹部の地位を持つ高位魔族だ。
+<PAUSE>
+<NAME_PLATE>
+　そして、忌まわしい肉体改造や
+邪悪な薬の研究を行う“魔界医療”の
+権威でもあるという。
+<PAUSE>
+<NAME_PLATE>俺
+（骸佐はこいつの作った薬を飲んで、
+　能力を強化してたっていうのか……！）
+<PAUSE>
+<NAME_PLATE>俺
+（そもそも、そんな奴が
+　なんで五車学園にいるんだよ！）
+<PAUSE>
+<NAME_PLATE>フュルスト
+「ノマドの大幹部である私が五車学園に
+　潜入していた事が驚きですか？
+　そうでしょう。そうでしょう」
+<PAUSE>
+<NAME_PLATE>
+　フフフと笑うフュルストの表情には、
+確かに室井の面影がある。
+<PAUSE>
+<ACTOR>0,f_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「これぞ我がフュルスト魔界医療技術の粋を
+　結集した肉腫変装術なのですよ」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「あなたたち下賤の人間の目を欺くなど、
+　高貴な私にとって造作もない事なのです」
+<PAUSE>
+<ACTOR>0,f_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,g_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「下賤下賤うるせえぞ、おっさんよぉ……」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+<ACTOR>0,f_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「おっと、これは失礼。
+　あなたも人間でしたね。ホホホ」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「さて、骸佐さん。長居は無用です、
+　引きあげましょう」
+<PAUSE>
+<NAME_PLATE>
+　フュルストがなにやら手を動かすと、
+瘴気が渦を巻き、やがてぽっかりと
+闇の穴が出現した。
+<PAUSE>
+<NAME_PLATE>俺
+「待て骸佐！
+　お前、まさかノマドと手を組んだのか？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「ノマドと組んで何をするつもりだ！？
+　それがお前の望んだふうまか！？
+　答えろ骸佐！！！」
+<PAUSE>
+<NAME_PLATE>骸佐
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR>0,f_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,g_t001c,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　骸佐の左目が、一瞬だけこちらを見て――
+その姿はフュルストとともに
+闇の向こうへ消えていった。
+<PAUSE>
+<NAME_PLATE>俺
+「おい待てよ――」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん危ない！！　何か来るよ！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の声に飛び退くと、骸佐たちが
+消えていった闇の穴から、唸るような声と
+ともに、異形の者たちが現れる。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m005a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m006a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「ＧＵＯＯＡＡＡＡＡＡ……」
+<PAUSE>
+//　※立ち絵
+//　　食屍鬼グール立ち絵
+//　※立ち絵
+//　　オーガ奴隷立ち絵
+<NAME_PLATE>俺
+「くそっ……！？
+　魔物を召喚しやがったのか！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「足止めさせようというわけか。
+　あの二人はもう追えない。
+　とにかくこの魔物たちを倒すぞ！」
+<PAUSE>
+//→Section５-ＭＡＰ画面１へ
+<BGM_STOP>2000
+<GROUP>
+<ACTOR>2,ts_m006a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m005a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>1500
+<SCENARIO_END>

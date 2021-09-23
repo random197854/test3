@@ -1,0 +1,551 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：コーデリア大公宮全景＿夜】【時間：夜】
+//　※監獄戦艦2_NC008bより流用
+//nc320b
+<BG>nc320b,IN, 1000
+<NAME_PLATE>
+　その夜。
+<PAUSE>
+//【背景：コーデリア大公宮＿広間＿夜】【時間：夜】
+//　※監獄戦艦２_NC016bより流用
+//nc321b
+<BGM_PLAY>bgm208,1000
+<BG>nc321b,IN, 1000
+<ACTOR>0,ar_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アリシア
+「あははははははははは！！」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　俺の報告を聞いて、
+アリシアは大笑いしていた。
+<PAUSE>
+<ACTOR>0,ar_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アリシア
+「それは素直にお前を
+　褒めたくなかったのだな。
+　マヤもあれで意地っ張りだからな」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ……」
+<PAUSE>
+<NAME_PLATE>アリシア
+「しかし、くくく……
+　あのマヤにそんな手を使わせたか。
+　よくやったぞ、フーマ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなのですか？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「マヤは優等生すぎるところがあったからな。
+　指揮官にはそういうズル賢さも必要だ。
+　良い薬になったろう」
+<PAUSE>
+<NAME_PLATE>俺
+「ならいいのですが……」
+<PAUSE>
+<NAME_PLATE>
+　確かにアリシアの言う通りだ。
+<PAUSE>
+<NAME_PLATE>
+　現実世界でも俺は基本それでやっている。
+<PAUSE>
+<NAME_PLATE>アリシア
+「しかし、お前は面白いやつだな。
+　私もお前のことをもっと知りたくなったぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　礼を言う俺を見て、
+アリシアは何やら考えている様子だったが、
+<PAUSE>
+<NAME_PLATE>アリシア
+「そうだ、ちょうどいい。
+　これから私は夜会に行くところだ。
+　私の従者としてついてこい」
+<PAUSE>
+<NAME_PLATE>俺
+「ええっ！？」
+<PAUSE>
+<NAME_PLATE>
+　とんでもないことを言いだした。
+<PAUSE>
+//【背景：貴族の館＿外観＿夜】【時間：夜】
+//　※対魔忍紅_NC010より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc207a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+「レイフ・ビューストレーム伯爵がご息女、
+　コーデリア公国摂政にして
+　コーデリア軍司令長官」
+<PAUSE>
+<NAME_PLATE>？？？
+「アリシア・ビューストレーム様の
+　おなーりー」
+<PAUSE>
+//【背景：貴族の館＿晩餐会＿夜】【時間：夜】
+//　※対魔忍紅_NC013より流用
+<BGM_PLAY>bgm506,1000
+<BG>nc208a,IN, 1000
+<ACTOR>0,ar_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アリシア
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　フィクションでしか聞いたことのない
+時代がかったお声がかかって、
+アリシアが優雅にホールへと踏み出した。
+<PAUSE>
+<NAME_PLATE>
+　彼女の腕を取ってエスコートするのは、
+上から下まで正装させられた俺だ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「～～～～～～～～～っ」
+<PAUSE>
+<NAME_PLATE>
+　言うまでもなくこんな経験は初めてだ。
+緊張して手足はガクガクだ。
+<PAUSE>
+<NAME_PLATE>アリシア
+「もっとシャキッとしろ。
+　当たり前という顔をしていれば
+　そう見えるものだ」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい……」
+<PAUSE>
+<NAME_PLATE>アルベルト伯爵
+「アリシア様、ごきげんよう。
+　今日もお美しい」
+<PAUSE>
+<NAME_PLATE>
+　白い立派な髭を生やした
+見るからに大貴族という感じの老紳士が
+声をかけてきた。
+<PAUSE>
+<ACTOR>0,ar_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アリシア
+「ごきげんよう、アルベルト伯爵。
+　貴殿もご健勝のようでなによりです」
+<PAUSE>
+<NAME_PLATE>アルベルト伯爵
+「ははは。
+　憎まれっ子世に憚るというやつですな。
+　お供のそのお方はどなたですかな？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「先日マヤの従者にした
+　フーマ・コタローです。
+　今夜は私の共に連れて参りました」
+<PAUSE>
+<NAME_PLATE>アルベルト伯爵
+「それはそれは。
+　私、ジョージ・フォン・アルベルトと
+　申します」
+<PAUSE>
+<NAME_PLATE>アルベルト伯爵
+「祖父チャールズの代より、大公家とは
+　親しくさせていただいております。
+　フーマ殿、以後お見知りおきを」
+<PAUSE>
+<NAME_PLATE>俺
+「こ、こちらこそ」
+<PAUSE>
+<NAME_PLATE>クラウディア男爵夫人
+「アリシア様、ごきげんよう。
+　今日は凜々しいお方を連れておられるのね。
+　私に紹介していただけるかしら？」
+<PAUSE>
+<NAME_PLATE>
+　今度はすごいドレスで着飾った淑女が
+しゃなりしゃなりと近づいてくる。
+<PAUSE>
+<NAME_PLATE>アリシア
+「ごきげんよう、男爵夫人。ええ喜んで。
+　フーマ、こちらはクラウディア男爵夫人。
+　コーデリアでも一、二を争う女傑だ」
+<PAUSE>
+<NAME_PLATE>クラウディア男爵夫人
+「おほほほ。アリシア様ほどでは
+　ありませんわ。フーマ殿、
+　お会いできて嬉しいですわ。よしなに」
+<PAUSE>
+<NAME_PLATE>俺
+「こ、こちらこそ。男爵夫人。
+　フーマと申します。よ、よしなに」
+<PAUSE>
+<NAME_PLATE>クラウディア男爵夫人
+「まあ、恥ずかしがりなお方ね」
+<PAUSE>
+<NAME_PLATE>アリシア
+「ふふふ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　てな感じで、その後もなんとか子爵だの、
+なんとか家のご令嬢だのが現れて、
+アリシアに挨拶してくる。
+<PAUSE>
+<NAME_PLATE>
+　そのたびに俺はついでに紹介され、
+慣れない挨拶をする羽目になった。
+<PAUSE>
+<NAME_PLATE>
+　そんな上流階級の顔合わせが
+繰り返されると、それだけでもう疲労困憊だ。
+<PAUSE>
+<ACTOR>0,ar_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アリシア
+「なんだそのぐったりした顔は」
+<PAUSE>
+<NAME_PLATE>
+　自己紹介の嵐が一通り過ぎ去ったあとで、
+アリシアが呆れたように言った。
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっと緊張してしまって。
+　こうえらい人ばっかり
+　次から次へと現れると」
+<PAUSE>
+<NAME_PLATE>アリシア
+「しょうがないやつだな。
+　今日は私的な夜会で客も少ない」
+<PAUSE>
+<NAME_PLATE>アリシア
+「正式な晩餐会はこんなものではないぞ。
+　それこそ挨拶のしっぱなしだ」
+<PAUSE>
+<NAME_PLATE>俺
+「気が遠くなりそうです」
+<PAUSE>
+<NAME_PLATE>アリシア
+「慣れろ。
+　これからはマヤの従者として
+　こういう機会も増えてくるのだぞ」
+<PAUSE>
+<NAME_PLATE>アリシア
+「まあいい、一通り顔見せも終わったから、
+　しばらく壁の花にでもなっていろ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうさせてもらいます」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は素直に隅っこに引っ込んだ。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc208a,IN, 1000
+<ACTOR>0,ar_t002a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アリシア
+「ポートレット侯爵夫人、ごきげんよう」
+<PAUSE>
+<NAME_PLATE>ポートレット侯爵夫人
+「まあ、アリシア様、お久しぶり」
+<PAUSE>
+<NAME_PLATE>アリシア
+「今宵も優雅な装いですな。
+　それはハミルトン卿の新作ですか？」
+<PAUSE>
+<NAME_PLATE>ポートレット侯爵夫人
+「さすがアリシア様、お目が高い。
+　なのにご自身はまたそんな軍装ですのね。
+　もったいないですわ」
+<PAUSE>
+<ACTOR>0,ar_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アリシア
+「ははは、私はこれが一番です」
+<PAUSE>
+<ACTOR>0,ar_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　俺を解放してくれたアリシアは
+毛ほどの疲れも感じさせない顔で
+生き生きと社交に勤しんでいた。
+<PAUSE>
+<NAME_PLATE>
+　こうやって遠くから見ていると、
+マヤが学校で教師や級友から親しみをもって
+迎え入れられているのに対し、
+<PAUSE>
+<NAME_PLATE>
+　アリシアは皆から畏敬の念を
+抱かれているように感じる。
+<PAUSE>
+<NAME_PLATE>
+　大公宮でマヤと一緒にいるときは、
+『姫姉さま』という呼ばれ方の通り、
+世話好きのお姉さんといった印象だが、
+<PAUSE>
+<NAME_PLATE>
+　ここでは彼女の王者としての一面を
+確かに感じることができる。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　マヤもこういう場所に来れば、
+また違った顔を見せるのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　などとボンヤリ考えていると、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,di_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「アリシア・ビューストレーム様、
+　お美しい方ですな」
+<PAUSE>
+//　※立ち絵
+//　　ディノ・ディラッソ立ち絵＿司祭服
+//　　　　　＊監獄戦艦2より流用
+//　※可能であればディノ・ディラッソの設定線画を着色して
+//　　立ち絵として流用してください。
+<NAME_PLATE>
+　やはり壁の花となっていた男が
+俺に声をかけてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「あなたは？」
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「これは失礼。
+　私、ディノ・ディラッソと申します」
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「先ごろ、地球より赴任してきた
+　テラ正教会の助祭です」
+<PAUSE>
+<NAME_PLATE>俺
+「テラ正教会……」
+<PAUSE>
+<NAME_PLATE>
+　言われてみれば
+男は夜会には似つかわしくない
+簡素な法衣のようなものを着ている。
+<PAUSE>
+<NAME_PLATE>
+　こんな未来世界でも
+まだ宗教は残っているようだ。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれっぽい服を着ているものの
+この男はあまり宗教家らしくない。
+<PAUSE>
+<NAME_PLATE>
+　法衣の上からでも分かる鍛えた身体といい、
+鋭い目付きといい、かなりの野心家に思える。
+<PAUSE>
+<NAME_PLATE>
+　まあ歴史上、
+そういう宗教家が多かったのも事実だが。
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「アリシア様の御従者のフーマ殿でしたか。
+　ご出身はやはりコーデリアですかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「いえ、地球です」
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「ほう。これは驚きだ」
+<PAUSE>
+<NAME_PLATE>
+　男はやけに大げさに言った。
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「今後、コーデリアは
+　ネオ・テラーズとニュー・ソラルとの間で
+　ますます重要視されていくでしょう」
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「そんな最中、
+　コーデリアの立役者であるアリシア様が
+　あえて地球出身の方をお連れになるとは」
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「アリシア様にはなにか期するところが
+　おありなのですかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「さあ、私にはなんとも」
+<PAUSE>
+<NAME_PLATE>
+　俺は曖昧に答えた。
+<PAUSE>
+<NAME_PLATE>
+　実際、アリシアの意図など分からなかったし
+わざわざ俺に接触してきたらしいこの男を
+警戒していたからだ。
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「ふふ、あなたは用心深いお方のようだ」
+<PAUSE>
+<NAME_PLATE>
+　それをそのまま返してやりたくなったが、
+男はつと視線をホールの中央に向けた。
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「おや、なにか騒ぎが起っているようですな」
+<PAUSE>
+<NAME_PLATE>俺
+「……？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　つられてそちらを見ると、
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,ts_m201a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>貴族
+「無礼なっ！！」
+<PAUSE>
+//　※立ち絵
+//　　貴族(男)＿立ち絵
+//　　　　　＊新規デザイン
+<NAME_PLATE>
+　一人の貴族が剣を抜いていた。
+<PAUSE>
+<NAME_PLATE>
+　相手は―――アリシアだ。
+<PAUSE>
+<ACTOR>0,ts_m201a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ar_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アリシア
+「ジル男爵。
+　私の前でそんなものを抜いて
+　ただですむとお思いか？」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　アリシアは悠然と微笑んでいる。
+こちらは剣など抜いていない。
+<PAUSE>
+<NAME_PLATE>ジル男爵
+「無論。
+　貴殿の悪口雑言、もはや許せぬ。
+　コーデリアの鬼姫、剣を抜け！」
+<PAUSE>
+<NAME_PLATE>アリシア
+「威勢のいいことだ。よかろう。
+　パーティーの余興にちょうどいい。
+　フーマ、おい、フーマ、どこだ？」
+<PAUSE>
+<NAME_PLATE>ディノ・ディラッソ
+「フーマ殿、呼ばれていますよ」
+<PAUSE>
+<NAME_PLATE>
+　そんなことは分かっている。
+<PAUSE>
+<NAME_PLATE>
+　嫌な予感しかしないのだが、
+しょうがないので出ていく。
+<PAUSE>
+<NAME_PLATE>俺
+「なんでしょう？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「こちらはジル男爵。
+　かのモントレノの闘いで大変な功績を
+　あげられたお方だ」
+<PAUSE>
+<ACTOR>1,ar_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「平民の部下のほとんどを犠牲にしてな。
+　私はそれを指摘してさしあげたのだが
+　どうもお気に召さなかったようだ」
+<PAUSE>
+<ACTOR>1,ar_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「ということで、
+　私と決闘することになった」
+<PAUSE>
+<NAME_PLATE>俺
+「ええと、それで？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「うむ。
+　お前を私の代理にすることに決めた」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ジル男爵
+「なにい！
+　アリシア・ビューストレーム！
+　そんな者に私の相手をさせるつもりか！」
+<PAUSE>
+<NAME_PLATE>
+　ジル伯爵とやらが吠えている。
+アリシアはそれを見ようともしない
+<PAUSE>
+<NAME_PLATE>俺
+「あのー、向こうは大変な剣幕ですけど、
+　アリシア様がご自分で相手をしたほうが？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「それでは余興にならないだろう。
+　さあ、お前の力を見せてもらおうか」
+<PAUSE>
+<NAME_PLATE>
+　アリシアは実に楽しそうに自分の剣を抜いて
+俺に差し出した。
+<PAUSE>
+<NAME_PLATE>
+　やっぱりこんなことになったか。
+<PAUSE>
+<NAME_PLATE>
+　きっとこれが目的で
+あの貴族に
+わざわざ喧嘩をふっかけたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　困った姫様である。
+<PAUSE>
+<NAME_PLATE>俺
+「わかりました。やりましょう」
+<PAUSE>
+<NAME_PLATE>
+　俺はアリシアの剣を手に取った。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m201a,LEFT, CENTER, NONE, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ジル男爵
+「おのれ！！
+　そのような小僧、
+　我が剣で八つ裂きにしてくれるわ！」
+<PAUSE>
+<NAME_PLATE>
+　というわけで、
+いきなり夜会に連れてこられた俺は、
+その余興で貴族と決闘する羽目になった。
+<PAUSE>
+//→S302a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

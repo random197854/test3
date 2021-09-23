@@ -1,0 +1,1276 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：コーデリア大公宮＿全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC008aより流用
+//nc320a
+<BG>nc320a,IN, 1000
+<NAME_PLATE>
+　コーデリア生活、三日目。
+<PAUSE>
+//【背景：コーデリア大公宮＿食堂＿昼】【時間：昼】
+//　※監獄戦艦2_NC017aより流用
+//nc328a
+<BGM_PLAY>bgm208,1000
+<BG>nc328a,IN, 1000
+<NAME_PLATE>
+　今朝は何ごともなく
+マヤを起こすことができた。
+<PAUSE>
+<NAME_PLATE>
+　二人は朝食をとっている。
+<PAUSE>
+<NAME_PLATE>
+　俺は食事は別にとっていて、
+給仕は本職の者がいるので、
+やることもなく壁際に立っている。
+<PAUSE>
+<NAME_PLATE>
+　穏やかな朝の風景だが―――
+<PAUSE>
+<NAME_PLATE>俺
+（今日はこれから
+　なにか事件が起るんだろうな）
+<PAUSE>
+<NAME_PLATE>
+　初めて会ったとき、
+アリシアはマヤに最低でも三日間、
+俺を従者にしておくようにと言っていた。
+<PAUSE>
+<NAME_PLATE>
+　その最終日。
+なにも起らないはずがない。
+<PAUSE>
+<NAME_PLATE>俺
+（それにしても、
+　妙なシミュレーションだよな）
+<PAUSE>
+<NAME_PLATE>
+　改めてそう思う。
+<PAUSE>
+<NAME_PLATE>
+　現実としか思えないような世界や
+生きているとしか思えない人たちには
+慣れたが、
+<PAUSE>
+<NAME_PLATE>
+　いくらテストとはいえ、
+対魔忍のバーチャルシミュレーションが
+こんなＳＦというのは変な話だ。
+<PAUSE>
+<NAME_PLATE>
+　などと思っていると、
+マヤが声をかけてきた。
+<PAUSE>
+<ACTOR>1,my_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>マヤ
+「フーマ、今日は学校が休みです。
+　このあと街に出ますからそのつもりで」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<ACTOR>0,ar_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アリシア
+「なんだマヤ。
+　フーマとデートか？」
+<PAUSE>
+//　※立ち絵
+//　　アリシア汎用立ち絵＿軍装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<ACTOR>1,my_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「違います。
+　ただちょっと街に出るだけです」
+<PAUSE>
+<NAME_PLATE>アリシア
+「だが二人で行くのだろう？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「『二人で』ではなく、
+　『私が』行くのです」
+<PAUSE>
+<NAME_PLATE>マヤ
+「フーマは私の従者なのですから
+　付いてくるのは当然です」
+<PAUSE>
+<NAME_PLATE>アリシア
+「まあ、そういうことにしておくか」
+<PAUSE>
+<NAME_PLATE>マヤ
+「なにを言ってるのですか、姫姉さまは」
+<PAUSE>
+<NAME_PLATE>アリシア
+「ふふ、独り言だ」
+<PAUSE>
+<NAME_PLATE>マヤ
+「んもう」
+<PAUSE>
+<NAME_PLATE>
+　アリシアのたわいないからかいに
+マヤはぷっとむくれていた。
+<PAUSE>
+<NAME_PLATE>アリシア
+「そういえば今日で三日目だ。
+　この先もフーマを従者にしておくのか？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「それは……今日一緒に過ごして決めます」
+<PAUSE>
+<NAME_PLATE>
+　マヤはチラリと俺を見てから言った。
+<PAUSE>
+<NAME_PLATE>アリシア
+「なるほど。なら予め言っておこう。
+　もしお前がフーマを首にするようなら
+　私の下につけるつもりだ」
+<PAUSE>
+<ACTOR>1,my_t001d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「姫姉さまの！？」
+<PAUSE>
+<NAME_PLATE>
+　マヤは目を見張る。
+俺もちょっと驚いた。
+<PAUSE>
+<NAME_PLATE>アリシア
+「昨夜の一件は話しただろう？
+　このまま手放すには惜しい人材だ。
+　フーマもそのつもりでな」
+<PAUSE>
+<NAME_PLATE>俺
+「承知しました」
+<PAUSE>
+<ACTOR>1,my_t001g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「私も……分かりました」
+<PAUSE>
+<NAME_PLATE>
+　少し間を置いて、マヤも頷いた。
+<PAUSE>
+<NAME_PLATE>
+　昨夜の一件というと、貴族との決闘だろう。
+ずいぶんと評価されたのだな。
+<PAUSE>
+<ACTOR>1,my_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ごちそうさまでした。
+　フーマ、一時間後にここを出ます。
+　そのころ私の部屋に来てください」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　マヤが席を立ち、
+俺も一緒に退出しようとしたが、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ar_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アリシア
+「待て、フーマ。
+　頼まれていたものを渡しておく」
+<PAUSE>
+<NAME_PLATE>マヤ
+「頼まれていたもの？」
+<PAUSE>
+<NAME_PLATE>アリシア
+「武器だ。
+　お前と出かけるなら必要だろう」
+<PAUSE>
+<NAME_PLATE>マヤ
+「……そうですね。
+　フーマ、ではまた後で」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　マヤは食堂を出ていった。
+<PAUSE>
+<ACTOR>0,ar_t001c,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>アリシア
+「ニンジャトウにクナイだったな。
+　ずいぶんと古風なものを欲しがるのだな。
+　兵器廠の者が面白がっていたぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「ここでは珍しいようですね」
+<PAUSE>
+<NAME_PLATE>
+　昨夜、どんな武器が欲しいかと
+聞かれてそう答えていたのだが、
+一晩で出来るとは都合がいい。
+<PAUSE>
+<NAME_PLATE>アリシア
+「銃はいらないのか？
+　私の予備を貸してもいいぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「いざというときには
+　慣れているものの方がいいですから。
+　それに銃は加減がしにくいですし」
+<PAUSE>
+<NAME_PLATE>アリシア
+「ふむ、確かにな」
+<PAUSE>
+<NAME_PLATE>アリシア
+「フーマ、マヤのことを頼んだぞ。
+　どうしてもというときは
+　躊躇わず私を呼ぶがよい」
+<PAUSE>
+<NAME_PLATE>
+　アリシアはそう言って、
+緊急用の小型通信機を渡してくれた。
+<PAUSE>
+<NAME_PLATE>
+　ということは、
+間違いなく武器もこれも必要な事態になるな。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺はそう思った。
+<PAUSE>
+//【背景：コーデリア大公宮＿全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC008aより流用
+//nc320a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc320a,IN, 1000
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>マヤ
+「それが姫姉さまに頂いた武器ですか。
+　変わっているのがフーマらしいですね」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　マヤは忍者刀を背負い、
+クナイを隠し持った俺を見て
+面白そうに言った。
+<PAUSE>
+<NAME_PLATE>
+　そう言う姫様はいつものマントに加えて、
+腰にサーベルとレーザーガンを付けている。
+<PAUSE>
+<NAME_PLATE>俺
+「マヤ様はいつにも増して凜々しいですね」
+<PAUSE>
+<ACTOR>0,my_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　こんな格好でどこに行くつもりなのか、
+とりあえずいつものリムジンエアカーを
+呼ぼうとすると、
+<PAUSE>
+<ACTOR>0,my_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「きょ、今日は別の方法で行きましょう」
+<PAUSE>
+<NAME_PLATE>
+　マヤはちょっと声を上擦らせて言った。
+<PAUSE>
+<NAME_PLATE>俺
+「というと？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「レ、レイルウェイに乗ってみたいのです。
+　あなたが案内してください」
+<PAUSE>
+<NAME_PLATE>
+　それはコーデリアを縦横に走っている
+モノレールのような代物で庶民の足だ。
+<PAUSE>
+<NAME_PLATE>
+　マヤのような貴族が乗ることはまずない。
+まあ、俺も乗ったことはないのだが。
+<PAUSE>
+<NAME_PLATE>
+　それに案内してと言われても、
+やはり俺も街に出るのは初めてだ。
+駅の場所も分からない。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、リムジンで駅まで
+　送ってもらいますか」
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「駅まで？」
+<PAUSE>
+<NAME_PLATE>俺
+「そこまで歩くってわけにも
+　いかないでしょう？」
+<PAUSE>
+<ACTOR>0,my_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「そ、そうですね。
+　そうしましょう」
+<PAUSE>
+//【背景：コーデリア内全景＿昼】【時間：昼】
+//　※監獄戦艦2_NC007aより流用
+//nc319a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc319a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というわけで、リムジンに駅まで
+送ってもらい、二人でレイルウェイに
+乗ることになったのだが、
+<PAUSE>
+//【背景：レイルウェイ内＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc047aより流用
+//nc333a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc333a,IN, 1000
+<ACTOR>0,my_t002g,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>マヤ
+「フ、フーマ……」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「なんですか？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「なんだか私たち、
+　すごく目立っていませんか？」
+<PAUSE>
+<NAME_PLATE>
+　マヤはキョロキョロと車内を見渡し、
+居心地悪そうに囁いた。
+<PAUSE>
+<NAME_PLATE>
+　今ごろ気づいたようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「目立ってますね」
+<PAUSE>
+<NAME_PLATE>
+　何しろ彼女は腰にサーベル、レーザーガン、
+さらにマント。俺は背中に忍者刀。
+<PAUSE>
+<NAME_PLATE>
+　俺の世界とたいして変わっていない
+庶民の格好をした乗客の中では
+明らかに場違いである。
+<PAUSE>
+<NAME_PLATE>マヤ
+「私だと気づかれませんでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫だと思いますよ。
+　まさか本物のマヤ様が乗ってるとは
+　誰も思わないでしょうし」
+<PAUSE>
+<NAME_PLATE>俺
+「だだのコスプレカップルにでも
+　見られてるんじゃないですか？」
+<PAUSE>
+<ACTOR>0,my_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「カップルはともかく、
+　コ、コスプレってなんですか？
+　そんな言葉は聞いたことがありませんが」
+<PAUSE>
+<NAME_PLATE>
+　この未来世界ではそういう言葉は
+もう残っていないのかな？
+<PAUSE>
+<NAME_PLATE>俺
+「要するにモノマネです。
+　『マヤ様そっくり』とか言ってる声も
+　聞こえましたし、平気ですよ」
+<PAUSE>
+<ACTOR>0,my_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「それって、
+　私の偽物と思われているのですよね。
+　ちょっと嫌なのですが……」
+<PAUSE>
+<NAME_PLATE>俺
+「偽物というか、
+　マヤ様に憧れて姿を真似している
+　熱烈なファンってとこですね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「それは……まあ、そういう気持ちは
+　分からないでもないですが、
+　でもちょっと、うーん」
+<PAUSE>
+<NAME_PLATE>
+　マヤは複雑そうな顔をしていた。
+<PAUSE>
+<NAME_PLATE>
+　なら最初からお忍び用の服を
+着てくればよいと思うのだが、
+<PAUSE>
+<NAME_PLATE>俺
+「そんなことより、
+　今日はどこに行くんです？」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ジュクハラ地区に行くつもりです」
+<PAUSE>
+<NAME_PLATE>俺
+「ジュクハラ地区？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「コーデリアの若者達で賑わう地区
+　……らしいです。
+　私は行ったことはないのですが」
+<PAUSE>
+<NAME_PLATE>
+　マヤは期待と不安が入り交じったような顔を
+していた。
+<PAUSE>
+//【背景：ジュクハラ地区＿昼】【時間：昼】
+//　※監獄戦艦外伝_NC009a
+//nc111c
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc111c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そしてやってきたジュクハラ地区。
+<PAUSE>
+<NAME_PLATE>
+　確かにそこは俺たちと同い年くらいの若者で
+賑わっていた。
+<PAUSE>
+<NAME_PLATE>
+　現実のその手の街と同じように
+ケバケバしい衣装や突飛な装いの者も多く、
+俺やマヤの格好もさほど目立たない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　それ以前に、
+マヤは初めて訪れたジュクハラ地区に
+大興奮していた。
+<PAUSE>
+<ACTOR>0,my_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「うわあ、すごいですね！
+　人がこんなにたくさん！」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　子供のように目を輝かせていて、
+まるっきりおのぼりさんだ。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ナンパ男
+「ヘイ、彼女、どっから来たの？」
+<PAUSE>
+<NAME_PLATE>ナンパ男
+「俺たちと遊ばない？」
+<PAUSE>
+<NAME_PLATE>
+　リーゼントが七色に変化している
+すごい髪のナンパ男が声をかけてきた。
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「なっ！？　この無礼者！」
+<PAUSE>
+<NAME_PLATE>俺
+「悪いね、俺の連れなんだ。行くぞ」
+<PAUSE>
+<NAME_PLATE>
+　俺はマヤが切れる前に
+その手をとって歩き出す。
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ちょっ、フーマ！　何を！！」
+<PAUSE>
+<NAME_PLATE>俺
+「いいから」
+<PAUSE>
+<NAME_PLATE>ナンパ男
+「彼氏連れかよ」
+<PAUSE>
+<NAME_PLATE>ナンパ男
+「でもすげえ可愛かったな」
+<PAUSE>
+<NAME_PLATE>
+　ナンパ男たちが言っているのが聞こえた。
+<PAUSE>
+<ACTOR>0,my_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「フーマ！
+　離しなさい！　フーマ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「はいはい」
+<PAUSE>
+<NAME_PLATE>
+　しばらく歩いてから、マヤの手を離す。
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「いきなり何をするのです！
+　それにさっきの無礼者たち！
+　なぜ私を止めたのです！」
+<PAUSE>
+<NAME_PLATE>俺
+「こういう場所は
+　あの手のが山ほどいますから、
+　いちいち反応したらダメですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「言ってたでしょう。
+　マヤ様は可愛いんですから」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「この無礼者だなんて騒ぎになったら
+　本物だってすぐバレますよ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>マヤ
+「ふん、えらそうに。
+　分かりました、そうします！」
+<PAUSE>
+<NAME_PLATE>
+　マヤはプッと頬を膨らませた。
+<PAUSE>
+<NAME_PLATE>
+　だが、ちょっと悔しかったみたいで、
+つんと腕組みして俺に挑みかかるように
+言ってきた。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「フーマはこういう場所に
+　慣れているようですね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「じゃあ、私を案内しなさい！
+　この街はどこが面白いんですか？
+　よーく知ってるのでしょう？」
+<PAUSE>
+<NAME_PLATE>俺
+「と言われても、
+　俺も来るのは初めてなので」
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「なんなのですそれは！」
+<PAUSE>
+<NAME_PLATE>俺
+「すいません」
+<PAUSE>
+<NAME_PLATE>マヤ
+「フーマは普段は平民らしくないのに
+　なぜ普通の平民らしいことが
+　できないのです。呆れますね」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、とりあえずそのへんを
+　ブラブラ歩きますか」
+<PAUSE>
+<NAME_PLATE>マヤ
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+「行き当たりばったりですね」
+<PAUSE>
+<NAME_PLATE>俺
+「どこか行きたい店とかないんですか？
+　ここに来たかったんだから
+　少しは調べてきたでしょう？」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「もちろん念入りに調べてきました。
+　フーマとは違います」
+<PAUSE>
+<NAME_PLATE>
+　マヤはふんと鼻を鳴らして
+自分の端末を取り出した。
+<PAUSE>
+<NAME_PLATE>マヤ
+「ここです。ここに行きたいです」
+<PAUSE>
+<NAME_PLATE>俺
+「ドナドナバーガー。
+　ハンバーガーショップですね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「オールドスタイルの
+　ファ、ファストフードだそうです。
+　一度行ってみたいと思っていました」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃそうしますか」
+<PAUSE>
+<ACTOR>0,my_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「そうしましょう！」
+<PAUSE>
+<NAME_PLATE>
+　マヤはきっぱりと言った。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――
+<PAUSE>
+//【背景：ファストフード店＿昼】【時間：昼】
+//　※孕ませて青龍君＿nc005aより流用
+//nc334a
+<BGM_PLAY>bgm208,1000
+<BG>nc334a,IN, 1000
+<NAME_PLATE>俺
+「なるほど。オールドスタイルか」
+<PAUSE>
+<NAME_PLATE>
+　可愛い子牛が無理やり挽肉に
+されたような店名なので、
+ちょっと不安だったのだが、
+<PAUSE>
+<NAME_PLATE>
+　来てみれば、
+見慣れたファストフードの店だった。
+<PAUSE>
+<NAME_PLATE>
+　ハンバーガー、ポテト、コーラという
+三点セットもまったく変わらない。
+<PAUSE>
+<NAME_PLATE>
+　もっともそれは俺にとっての話で、
+どうやらこちらの世界では、
+<PAUSE>
+<NAME_PLATE>
+　レトロ感覚のちょっとお洒落な店
+ということになっているようだ。
+<PAUSE>
+<NAME_PLATE>
+　一方、カウンターで注文をするのが
+初めてなら、料理を自分で席まで
+運ぶのも初めてのマヤは驚きっぱなしだった。
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「これがファストフード。
+　まさに驚天動地ですね」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　マヤはトレイをテーブルに置いて、
+ふうと息を吐いた。
+<PAUSE>
+<NAME_PLATE>俺
+「ハンバーガーの食べ方は分かりますか？
+　包みを開いてこう手づかみで
+　食べるんですよ」
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「人を馬鹿にしてるのですか。
+　それくらい調べてきましたし、
+　見れば分かります」
+<PAUSE>
+<NAME_PLATE>
+　と言いつつ、
+マヤはおっかなびっくり包みを開いて
+出てきたハンバーガーをじっと見る。
+<PAUSE>
+<ACTOR>0,my_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「このまま食べるのですよね？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうです」
+<PAUSE>
+<NAME_PLATE>マヤ
+「で、では……ぱく」
+<PAUSE>
+<NAME_PLATE>
+　マヤは貴族のお姫様らしく、
+上品にバンズの端だけを小さく口に含んだ。
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「もぐ……パンは普通ですね。
+　少しパサパサしてるかしら」
+<PAUSE>
+<NAME_PLATE>俺
+「もっと一気にがぶっていった方が
+　いいですよ。こんな感じに……あんぐ」
+<PAUSE>
+<NAME_PLATE>
+　俺は大口を開けてかぶりつき、
+マヤにお手本を示す。
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　マヤは愕然として口に手を当てた。
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「なんて下品な。ケダモノですか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「でもこういう風に食べる物ですよ。
+　周りを見てください」
+<PAUSE>
+<ACTOR>0,my_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「本当に？」
+<PAUSE>
+<NAME_PLATE>
+　マヤは疑わしげに
+キョロキョロと周りを見渡す。
+<PAUSE>
+<NAME_PLATE>
+　『まあ』とか『信じられない』とか呟くが、
+俺の言ったことが
+嘘ではないと分かったらしい。
+<PAUSE>
+<NAME_PLATE>マヤ
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあどうぞ」
+<PAUSE>
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「あなたは横を向いてなさい」
+<PAUSE>
+<NAME_PLATE>
+　見られるのが恥ずかしいらしい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺が横を向くと、マヤはさらに背中を丸めて
+周りから顔を隠すようにかぶりついた。
+<PAUSE>
+<NAME_PLATE>マヤ
+「あ、あんぐ―――もぐもぐもぐ」
+<PAUSE>
+<NAME_PLATE>俺
+「どうです？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「もぐもぐ……ンンッ！？」
+<PAUSE>
+<NAME_PLATE>
+　マヤがビクッとなった。
+慣れないことをして喉に詰まったようだ。
+<PAUSE>
+<NAME_PLATE>
+　すかさずコーラを差し出す。
+<PAUSE>
+<NAME_PLATE>俺
+「はいどうぞ。
+　これもずずっと一気に」
+<PAUSE>
+<NAME_PLATE>マヤ
+「ズズズーーーーーッ、ごっくん」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「ふう、私ったらなんてはしたない真似を。
+　でも、味はなかなかですね」
+<PAUSE>
+<NAME_PLATE>
+　マヤは恥ずかしそうに、
+だが未知の味覚を知って
+嬉しそうな顔になった。
+<PAUSE>
+<NAME_PLATE>俺
+「でしょう？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>マヤ
+「あぐ……もぐもぐ♪」
+<PAUSE>
+<NAME_PLATE>
+　どうやら気に入ったらしい。
+<PAUSE>
+<NAME_PLATE>
+　初めてのハンバーガーを楽しみ始める。
+<PAUSE>
+<NAME_PLATE>
+　俺も落ち着いて自分の分を食べ始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「一緒に食事をするのは初めてですね」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「そうですね。
+　せっかくですからあなたのことを
+　話してもらいましょうか」
+<PAUSE>
+<NAME_PLATE>俺
+「俺のことと言うと？」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「フーマの正体です」
+<PAUSE>
+<NAME_PLATE>俺
+「正体？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「今日で三日間、
+　私はあなたのことを見てきました。
+　あなたいったい何者なのです？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あの体術といい戦略眼といい
+　ただの平民のはずがありません。
+　さあ答えてください」
+<PAUSE>
+<NAME_PLATE>
+　マヤは俺に顔を近づけるようにして
+聞いてきた。
+<PAUSE>
+<NAME_PLATE>
+　正体を疑っているというより、
+俺に興味を持ち、より深く知りたがっている
+という顔をしていた。
+<PAUSE>
+<NAME_PLATE>
+　ここはなるべく正直に答えるか。
+<PAUSE>
+<NAME_PLATE>俺
+「俺は古来から続く忍の者です」
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「忍？」
+<PAUSE>
+<NAME_PLATE>俺
+「対魔忍とも言います。
+　諜報活動や破壊活動を行う
+　まあ、闇のエージェントですね」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「タイマニン……」
+<PAUSE>
+<NAME_PLATE>俺
+「ふうま小太郎というのは
+　その代々続く忍の名です」
+<PAUSE>
+<NAME_PLATE>マヤ
+「なるほど、そうでしたか……」
+<PAUSE>
+<NAME_PLATE>
+　マヤは驚くと言うより
+納得したような顔になった。
+<PAUSE>
+<NAME_PLATE>俺
+「すいません。
+　隠していたわけではないのですが……」
+<PAUSE>
+<NAME_PLATE>マヤ
+「いえ、そのようなことは
+　軽々しく口にするものではありません。
+　よく話してくれましたね」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「フーマはやっぱりただの平民では
+　なかったのですね。
+　だから姫姉さまはあなたを選んだのね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「昨夜も姫姉さまの代理として
+　見事な腕前を見せたと聞きました
+　あの姫姉さまが褒めていましたよ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうですか」
+<PAUSE>
+<ACTOR>0,my_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ダンス以外はただ者ではないと」
+<PAUSE>
+<NAME_PLATE>
+　マヤは茶目っ気たっぷりにつけ加えた。
+<PAUSE>
+<NAME_PLATE>俺
+「いやあ、ダンスは全然やったことがなくて」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「エージェントというのは
+　そういうのもちゃんとこなせないと
+　いけないのではないですか？」
+<PAUSE>
+<NAME_PLATE>マヤ
+「それから任務中に居眠りとかも
+　したら駄目だと思うのですけれど？」
+<PAUSE>
+<NAME_PLATE>
+　すまし顔でチクチク攻撃してくる。
+俺は降参した。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そうなんですが、
+　人には得手不得手というものがありますし、
+　俺は昼行灯で通っているので」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　俺の答えにマヤはクスクス笑った。
+<PAUSE>
+<NAME_PLATE>マヤ
+「そういうちょっと変わったところは
+　あなたの素みたいですね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「そのあたりを
+　姫姉さまは気に入ったのかしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「それはなんとも……」
+<PAUSE>
+<NAME_PLATE>マヤ
+「姫姉さまが最初のダンスパートナーに
+　あなたを選んだというのも驚きですけど」
+<PAUSE>
+<NAME_PLATE>俺
+「決闘の代理を務めたご褒美だそうです」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　マヤはちょっと口ごもった。
+<PAUSE>
+<NAME_PLATE>
+　何か色々と考えている様子だったが、
+<PAUSE>
+<NAME_PLATE>マヤ
+「フーマ、言っておきますが、
+　姫姉さまに変な気持ちを抱いたら
+　この私が許しませんからね」
+<PAUSE>
+<NAME_PLATE>
+　と俺に釘を刺すのだった。
+<PAUSE>
+//【背景：ジュクハラ地区＿昼】【時間：昼】
+//　※監獄戦艦外伝_NC009a
+//nc111c
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc111c,IN, 1000
+<ACTOR>0,my_t002b,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>マヤ
+「次はここに行きましょう！
+　ポンパルディエの店です」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「なんの店ですって？」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ポンパルディエですよ。
+　私はあれが大好きなのです」
+<PAUSE>
+<ACTOR>0,my_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「ええと、こっちですね。
+　ほら、行きましょう、早く早く！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　マヤは端末の地図を見ながら
+いそいそと歩き出した。
+<PAUSE>
+<NAME_PLATE>
+　なんの店かも分からない俺は
+大人しくその後をついていったが、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「…………！」
+<PAUSE>
+<NAME_PLATE>
+　その気配に気づいた。
+<PAUSE>
+<NAME_PLATE>
+　誰かが俺たちを尾行している。
+<PAUSE>
+<NAME_PLATE>
+　しかも殺気が混じっている。
+<PAUSE>
+<NAME_PLATE>俺
+「マヤ様……」
+<PAUSE>
+<ACTOR>0,my_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「なんですか？
+　ひょっとしてポンパルディエは
+　初めてですか？」
+<PAUSE>
+<ACTOR>0,my_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「うふふ、安心なさい。
+　今度は私が食べ方を教えてあげます♪」
+<PAUSE>
+<NAME_PLATE>
+　どうやら食べ物らしい。
+食後なのでデザートだろうか？
+その正体はとても気になったが、
+<PAUSE>
+<NAME_PLATE>俺
+「いえ、そうではなく、
+　誰かが俺たちを尾行しています。
+　どうも良からぬ事を企んでいるようです」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　マヤの表情がスッと変わった。
+<PAUSE>
+<NAME_PLATE>
+　だがそれだけだ。
+急に後ろを振り返ったりするような
+わざとらしい真似はしない。
+<PAUSE>
+<NAME_PLATE>マヤ
+「刺客ですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「おそらく」
+<PAUSE>
+<NAME_PLATE>マヤ
+「無粋な」
+<PAUSE>
+<SE_PLAY>se082
+<NAME_PLATE>
+　マヤは変わらぬペースで歩きながら
+少し考え、そして言った。
+<PAUSE>
+<NAME_PLATE>マヤ
+「ならば二人で迎え撃ちましょう」
+<PAUSE>
+<NAME_PLATE>俺
+「迎え撃つんですか？」
+<PAUSE>
+<NAME_PLATE>
+　さすがにちょっと驚く。
+<PAUSE>
+<NAME_PLATE>マヤ
+「どこか人けのない場所に行きましょう。
+　敵の出方を待っているというのは
+　性にあいません」
+<PAUSE>
+<NAME_PLATE>マヤ
+「行きますよ、フーマ」
+<PAUSE>
+<NAME_PLATE>
+　マヤは言った。
+<PAUSE>
+<NAME_PLATE>
+　その瞳は生き生きと輝いていた。
+<PAUSE>
+//【背景：路地裏＿昼】【時間：昼】
+//　※魔法少女ヒカル＿nc018aより流用
+//nc066b
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc066b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　マヤが選んだのは
+ジュクハラ地区の外れにある工事現場だった。
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「ここなら刺客も襲って来やすいでしょう。
+　フーマ、誰の仕業か確かめます。
+　一人は生かして残しなさい」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>俺
+「了解です」
+<PAUSE>
+<NAME_PLATE>
+　その時。
+<PAUSE>
+//【背景：路地裏＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<BG>nc066a,IN, 1000
+<NAME_PLATE>
+　ふっとあたりが暗くなった。
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「このエリアの照明が落とされた？」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　コーデリアは人工衛星都市なので
+こういったことも起こりうる。
+<PAUSE>
+<NAME_PLATE>
+　だがこのタイミングでの停電。
+偶然のはずがない。
+<PAUSE>
+<NAME_PLATE>俺
+「まずいですね。
+　敵も最初からここで俺たちを
+　始末しようとしていたのかもしれません」
+<PAUSE>
+<ACTOR>0,my_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「だとしてもやることは同じです」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>刺客
+「おいおい、急に暗くなっちまったぜ」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何体か出してください
+<NAME_PLATE>刺客
+「また停電かよ。しょうがねえな」
+<PAUSE>
+<NAME_PLATE>刺客
+「おいおい、妙な二人組がいるぜ」
+<PAUSE>
+<NAME_PLATE>刺客
+「こんなとこで何しようってんだ？」
+<PAUSE>
+<NAME_PLATE>刺客
+「昼間からこっそり楽しもうってのか？
+　俺たちも混ぜてくれよ」
+<PAUSE>
+<NAME_PLATE>刺客
+「美人の姉ちゃん。
+　そんな男より俺たちのほうが
+　あんたを楽しませてやるぜ」
+<PAUSE>
+<NAME_PLATE>
+　下卑た口調の男たちがぞろぞろと現れた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　数は六人。
+<PAUSE>
+<NAME_PLATE>
+　たまたまここに来た風を装っているが、
+あの目つきは間違いなく刺客だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,my_t004e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「この下郎ども！」
+<PAUSE>
+//　※立ち絵
+//　　マヤ戦闘用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　マヤはいきなり剣を抜いた。
+<PAUSE>
+<NAME_PLATE>
+　『何者です？』とか
+『なんのつもりです？』といった
+最低限の問いかけすらしなかった。
+<PAUSE>
+<NAME_PLATE>刺客たち
+「！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　その迷いのなさに
+男たちは慌てて銃を取り出し、
+あっさり馬脚を現している。
+<PAUSE>
+<NAME_PLATE>俺
+「一人は生かしておくんですよね？」
+<PAUSE>
+<ACTOR>0,my_t004d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「それはあなたに任せます。
+　私によくもあのような口を。
+　絶対に許しません！」
+<PAUSE>
+<NAME_PLATE>俺
+「分かりました」
+<PAUSE>
+<NAME_PLATE>
+　マヤの誇り高さ、そして猛々しさに
+感心しながら俺も刀を抜いた。
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,2124 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：ヨミハラスラム１＿昼夜共通＿雨】【時間：夜】
+//　※対魔忍アサギZERO_NC108bより流用
+//nc453b
+<BGM_PLAY>bgm314,1000
+<BG>nc453b,IN, 1000
+<NAME_PLATE>
+　雨が降っていた。
+<PAUSE>
+<NAME_PLATE>
+　地下３００メートルの穴蔵の天井から
+降ってくる臭い雨だ。
+<PAUSE>
+<NAME_PLATE>
+　その底で半妖の少女が蠢いていた。
+<PAUSE>
+<NAME_PLATE>
+　少女には何もなかった。
+<PAUSE>
+<NAME_PLATE>
+　雨風を防いでくれる家も、
+身体を温めてくれる着物も、
+なにも。
+<PAUSE>
+<NAME_PLATE>
+　名前すらなかった。
+<PAUSE>
+<NAME_PLATE>
+　少女を産み落とした女は
+名前をつけていたかもしれないが、
+少女自身がそれを忘れていた。
+<PAUSE>
+<NAME_PLATE>
+　親も兄妹も友達もいない。
+名前を呼んでくれる者などいない。
+だから名前もいらない。
+<PAUSE>
+<NAME_PLATE>
+　少女の周りは全て敵。
+物心ついた時からずっとそうだ。
+<PAUSE>
+<NAME_PLATE>
+　敵を避けてあちこちに隠れ、
+ゴミ溜めを探して残飯を漁って
+ずっと一人で生きてきた。
+<PAUSE>
+<NAME_PLATE>？？？
+「ちっ！　またテメエか！！」
+「ここにある物は残飯も犬の糞も全部
+　俺たちの物だってまだ分からねえか！」
+<PAUSE>
+<NAME_PLATE>
+　また現れた。敵だ。
+見覚えのある顔が喚いている。
+<PAUSE>
+<NAME_PLATE>？？？
+「この虫けらが！！」
+「娼館にもぶちこめねえクソが！」
+「せいぜい俺たちに殴られて役に立ちな！！」
+<PAUSE>
+<SE_PLAY>se035
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　連中は少女を殴る蹴るして、
+次の楽しみのために死なない程度にして
+去っていった。
+<PAUSE>
+<NAME_PLATE>
+　血と泥にまみれ、
+吐いた残飯の上で苦しみ悶え、
+さらに雨が無慈悲に身体を打つ。
+<PAUSE>
+<NAME_PLATE>
+　いつものことだ。
+少女を助ける者などいない。
+いるはずがない。
+<PAUSE>
+<NAME_PLATE>
+　この地の底に慈悲などなく、
+悪意だけを浴び続け、
+<PAUSE>
+<NAME_PLATE>
+　短くも惨めな人生が
+ごみ溜めの中で終焉を迎えるのだろう。
+<PAUSE>
+<NAME_PLATE>
+　それでもいい。
+<PAUSE>
+<NAME_PLATE>
+　このまま死んでしまいたい。
+<PAUSE>
+<NAME_PLATE>
+　それが最初で最後の幸福かもしれない。
+<PAUSE>
+<NAME_PLATE>
+　けれど傷つくことに慣れきった肉体は
+しつこく空腹を訴えてくる。
+<PAUSE>
+<NAME_PLATE>
+　生きたくなどないのに
+まだ生きようとしている。
+<PAUSE>
+<NAME_PLATE>
+　自分の肉体すら自分を裏切るのだ。
+そのどうしようもない現実に
+少女の瞳から涙が溢れた。
+<PAUSE>
+<NAME_PLATE>
+　その時だった―――。
+<PAUSE>
+<ACTOR>0,ts_m309a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「この世界に生まれ落ちた事を
+　恨み、憎み、それでも生を求める。
+　命とは哀れなものよな」
+<PAUSE>
+//　※立ち絵
+//　　死霊卿テウタテス01(魔性ＳＲ)立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　いつの間に近づいたのだろう、
+少女の傍らに黒い影が立っていた。
+<PAUSE>
+<NAME_PLATE>少女
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　少女はそいつを睨み付ける。
+<PAUSE>
+<NAME_PLATE>
+　瞳が怒りに満ちていた。
+<PAUSE>
+<NAME_PLATE>
+　嬲られていた時にすら
+浮かばなかった激しい怒りだ。
+<PAUSE>
+<NAME_PLATE>
+　自分が自分を哀れむのはいいが、
+他人が自分を哀れむのは許さない。
+<PAUSE>
+<NAME_PLATE>
+　それが少女の矜持だった。
+<PAUSE>
+<NAME_PLATE>？？？
+「混沌たる生命よ。
+　私はお前に光を与える者だ」
+<PAUSE>
+<NAME_PLATE>
+　黒い甲冑の男は少女にも分かる
+不気味で強大な魔力を放っていた。
+<PAUSE>
+<NAME_PLATE>
+　そしてなにを思ったか、
+動けない少女を抱き起こした。
+<PAUSE>
+<NAME_PLATE>少女
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　そいつに触れられた瞬間、
+雨で冷え切った身体がさらに凍り付くような
+怖気が走った。
+<PAUSE>
+<NAME_PLATE>？？？
+「生命は光。
+　お前の薄汚れた惨めな生に私が光を与えよう。
+　そしてこの私のために働くのだ」
+<PAUSE>
+<NAME_PLATE>
+　男の甲冑の隙間から
+ドロドロとした肉のようなものが
+滲み出てくる。
+<PAUSE>
+<NAME_PLATE>？？？
+「一色に染まる事を怖れる事はない。
+　正義とは一つの色に染まること。
+　それはお前に至上の安らぎを与えるだろう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1500
+<NAME_PLATE>
+　ドロドロが少女を飲み込んでいく。
+いや、少女の中に入り込んでくる。
+<PAUSE>
+<NAME_PLATE>少女
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　なんだこの感じ！？
+<PAUSE>
+<NAME_PLATE>
+　今までにない力と安らぎ、
+そう、これは安らぎだ。
+<PAUSE>
+<NAME_PLATE>
+　その幸福感。
+<PAUSE>
+<NAME_PLATE>
+　全て身を任せたくなる。
+<PAUSE>
+<NAME_PLATE>少女
+「～～～っ！！」
+<PAUSE>
+<NAME_PLATE>
+　だが少女は反発していた。
+<PAUSE>
+<NAME_PLATE>
+　こんな安らぎなどいらない。
+<PAUSE>
+<NAME_PLATE>
+　もし一つの色に染まるとしたら
+それは私の色だけだ。
+<PAUSE>
+<NAME_PLATE>少女
+「！！！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　少女は激しく身をよじったが、
+それも虚しくドロドロに飲み込まれ、
+<PAUSE>
+<NAME_PLATE>
+　気が遠くなるような安らぎに包まれて、
+その黒い甲冑の中へと吸収されていった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　――――――
+<PAUSE>
+<NAME_PLATE>
+　―――
+<PAUSE>
+//【黒画面】
+//　※場面転換
+//【背景：ヨミハラ＿ショーパブ＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC040aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc094a,IN, 1000
+<ACTOR>0,ob_t004f,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>朧
+「……っ！！」
+<PAUSE>
+//　※立ち絵
+//　　朧通常立ち絵＿対魔忍衣装（武器なし）
+//　　　＊対魔忍アサギ３の立ち絵より流用
+//　※今回、朧をキャラ立てするため、アサギ３の通常立ち絵、戦闘立ち絵、既存のカードイラスト絵などを適宜切り換えて使用してください。
+<NAME_PLATE>
+　ノマドの大幹部、
+朧はガバッと身体を起こした。
+<PAUSE>
+<NAME_PLATE>
+　思わずあたりを見渡す。
+<PAUSE>
+<NAME_PLATE>
+　あのゴミ溜めの中ではない。
+<PAUSE>
+<NAME_PLATE>
+　彼女の店だ。
+<PAUSE>
+<NAME_PLATE>
+　今のは夢だ。
+<PAUSE>
+<NAME_PLATE>
+　数十年前の悪夢。
+<PAUSE>
+<NAME_PLATE>
+　いや、紛れもない現実。
+<PAUSE>
+<NAME_PLATE>
+　かつての自分とヤツとの出会い。
+<PAUSE>
+<ACTOR>0,ob_t004h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>朧
+「くそがっ……！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　言いようのない不快感に
+朧は口汚く吐き捨てていた。
+<PAUSE>
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>部下
+「朧様、スラムでイベントを開催する件で、
+　さっきリーナから連絡が……」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　部下の一人が近づいてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ob_t004g,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>朧
+「下がれ！！？　死にたいの！？」
+<PAUSE>
+<NAME_PLATE>
+　ほとんど反射的に拒絶していた。
+<PAUSE>
+<NAME_PLATE>部下
+「し、失礼いたしました！」
+<PAUSE>
+<NAME_PLATE>
+　部下は慌てて朧の前から去ろうとするが、
+<PAUSE>
+<NAME_PLATE>部下
+「う……ぐっ……ぐうっっ……」
+<PAUSE>
+<NAME_PLATE>
+　突然、立ち止まって苦しみ始める。
+<PAUSE>
+<ACTOR>0,ob_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>朧
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　様子がおかしい。
+<PAUSE>
+<NAME_PLATE>部下
+「ぐっ……お、ぼろ……さま……！」
+<PAUSE>
+<NAME_PLATE>
+　彼女は苦悶の表情で朧を振り返り、
+<PAUSE>
+<NAME_PLATE>部下
+「うがっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　意識を失うと同時に、
+肉体がグズグズに溶けて
+崩れ落ちていった。
+<PAUSE>
+<NAME_PLATE>朧
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　朧は驚きに目を剥いたが、
+一瞬前まで部下だったその腐れ肉から
+よく知っている嫌な気配がした。
+<PAUSE>
+<BG>nc094a,IN, 500
+<ACTOR>1,ob_t004g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「隠れてないで出てきな！
+　フュルスト！」
+<PAUSE>
+//　※立ち絵
+//　　朧戦闘立ち絵＿対魔忍衣装
+<ACTOR>1,ob_t004g,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,f_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「これはこれは失礼いたしました」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　案の定、同じノマドの大幹部の一人、
+フュルストが溶けた肉から姿を現した。
+<PAUSE>
+<ACTOR>1,ob_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>朧
+「私に会うために部下を殺したのかい？」
+<PAUSE>
+<NAME_PLATE>
+　殺気立つ朧に
+フュルストはとぼけた様子で、
+<PAUSE>
+<NAME_PLATE>フュルスト
+「あなたが部下の生命を気にするなんて
+　風邪でもひきましたか？」
+<PAUSE>
+<NAME_PLATE>朧
+「相変わらず糞野郎だね。
+　それで何の用だい？」
+<PAUSE>
+<ACTOR>0,f_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「例の“計画”のことですよ。
+　あなたの担当部分が遅れているので
+　進捗を伺いにきたのです」
+<PAUSE>
+<NAME_PLATE>朧
+「そんなことをわざわざ。
+　言われなくても分かってるよ」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「おや、そうですか」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「このところのあなたの様子を見ていますと、
+　まさか今更“あの方”を裏切るつもりでは
+　なかろうかと不安を抱きましてね」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「あなたをごみ溜めから救ったのは
+　“あの方”の慈悲」
+<PAUSE>
+<ACTOR>0,f_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「もしやその恩を仇で返そうとなどとは
+　思っていないでしょう？」
+<PAUSE>
+<NAME_PLATE>
+　朧はクサレハゲのやかましい口を
+引き裂いてやりたくなったが、
+<PAUSE>
+<NAME_PLATE>朧
+「四の五のうるさいね。
+　遅れは取り戻す」
+<PAUSE>
+<NAME_PLATE>
+　今はそれだけ答えるに留めた。
+フュルストは嫌味な笑顔を浮かべる。
+<PAUSE>
+<ACTOR>0,f_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「ならば結構。あなたも気づいていると
+　思いますが、イングリッド、あの女が
+　何かを嗅ぎつけて動いているようです」
+<PAUSE>
+<NAME_PLATE>朧
+「それがどうしたのさ。
+　それくらい最初から折り込み済みだよ」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「もちろんそうでしょう。
+　念のためのご忠告ですよ」
+<PAUSE>
+<ACTOR>0,f_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「イングリッドは本気でノマド内部の
+　スパイの存在を探っているようです。
+　くれぐれも慎重な行動をお願いします」
+<PAUSE>
+<NAME_PLATE>
+　奴の部下の能なし四天王に対するような
+舐めきった言い草だ。
+<PAUSE>
+<ACTOR>1,ob_t004g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>朧
+「だったらさっさと消えな！
+　あんたがここに来ていることのほうが、
+　よほどイングリッドの気を引くだろうが！」
+<PAUSE>
+<ACTOR>0,f_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「では退散いたしましょう。
+　私がうっかり殺してしまった
+　大切な部下の方には心からお悔やみを」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　いけしゃあしゃあとぬかすと、
+フュルストは去っていった。
+<PAUSE>
+<NAME_PLATE>
+　後始末のつもりか、
+現れるついでに殺した部下の死体も
+綺麗さっぱり消していった。
+<PAUSE>
+<ACTOR>1,ob_t004g,RIGHT, CENTER, NONE, linear, 1000
+//<ACTOR> 朧の立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>朧
+「くそがっ！」
+<PAUSE>
+<ACTOR>0,ob_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　胸くその悪い夢を見たと思ったら、
+さらに胸くその悪い奴のご訪問だ。
+<PAUSE>
+<NAME_PLATE>
+　朧は酷く殺伐とした気分で、
+自分の肉体、自分の手を睨み付けた。
+<PAUSE>
+<NAME_PLATE>
+　骨と皮ばかりだった惨めな半妖の肉体は、
+妖艶で肉感的な立派な魔族のそれに
+変わっている。
+<PAUSE>
+<NAME_PLATE>
+　敵に痛めつけられることもなく、
+常に空腹に苛まれることもなく、
+強い魔力が溢れかえっている。
+<PAUSE>
+<NAME_PLATE>
+　だがあのゴミ溜めの中で持っていた
+彼女の最も大切なものが奪われている。
+<PAUSE>
+<NAME_PLATE>
+　そのどうしようもない空虚さ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>朧
+「っっ！！」
+<PAUSE>
+<NAME_PLATE>
+　なにもかもメチャクチャに
+してやりたいような破滅的な感情が、
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　自分自身をも滅ぼしてやりたいような
+刹那的な衝動が沸き上がる。
+<PAUSE>
+<NAME_PLATE>
+　ふとそれに身を任せかけたとき―――。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,ts_m257b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>猫
+「ボォ」
+<PAUSE>
+//　※立ち絵
+//　　おぼ猫
+//　　　＊既存イラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　猫が現れて、
+朧の足もとに纏わり付いてきた。
+<PAUSE>
+<ACTOR>0,ob_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「なんだ、あんたかい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m257b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　あんた、お前、猫などと呼んでいるが、
+名前は付けていない。
+<PAUSE>
+<NAME_PLATE>
+　人から勝手な名前を付けられるのが
+嫌かもしれないし、
+<PAUSE>
+<NAME_PLATE>
+　朧の周りに他に猫はいないのだし、
+それで問題はなかった。
+<PAUSE>
+<NAME_PLATE>猫
+「ボォ」
+<PAUSE>
+<NAME_PLATE>
+　まるで朧を心配しているような現れ方に
+気持ちがふっと和らぐ。
+<PAUSE>
+<NAME_PLATE>朧
+「別になにもしやしないよ」
+<PAUSE>
+<NAME_PLATE>猫
+「ボォ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　なんとなく抱きかかえてやると、
+猫は朧の腕の中であっさり寝てしまった。
+<PAUSE>
+<NAME_PLATE>
+　野良のくせに良いご身分だ。
+<PAUSE>
+<NAME_PLATE>朧
+「ふん」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　鼻を鳴らしつつも、
+朧の顔には笑みが浮かんでいた。
+<PAUSE>
+//※シナリオ注
+//朧は昔、名もなき半妖の少女でヨミハラのストリートチルドレンでした。
+//その命が尽きそうになる時に死霊卿に吸収され、後日、魂の抜け殻となった甲河朧の肉体を与えられ朧忍軍を結成、アサギと戦う中でノマドに所属し大幹部にまで出世しました。
+//朧とフュルスト（フュルストは死霊卿が調略）は死霊卿と通じており、死霊卿の“計画”を二人は実行しようとしています。
+//しかし朧には誰にも従いたくないという反骨精神があり、死霊卿の言いなりにはならないと内心考えています。
+//【背景：静流の店＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC045aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その日、高坂静流の店には
+ヨミハラの住人たちが集まっていた。
+<PAUSE>
+<NAME_PLATE>
+　この町の最下層、スラム地区で開催する
+イベントについての打ち合わせのためだ。
+<PAUSE>
+<ACTOR>0,chr_t0276a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　その音頭をとっているのは、
+魔界の名門貴族、ローザマリー家の令嬢、
+セルヴィア・ローザマリーだ。
+<PAUSE>
+<NAME_PLATE>
+　下級魔族の反乱により
+両親も領地も奪われた彼女は
+ローザマリー家のたった一人の生き残りだ。
+<PAUSE>
+<NAME_PLATE>
+　両親の敵を討ち、お家再興のため、
+造花作りの内職で糊口を凌ぎながら、
+愛犬ジェロと身を寄せ合って暮らす日々。
+<PAUSE>
+<NAME_PLATE>
+　だが貴族の義務、
+ノブレス・オブリージュの気概は、
+今も気高く保っていて、
+<PAUSE>
+<NAME_PLATE>
+　この犯罪都市で知り合った人々と協力して、
+ボランティアを開催しようと準備していた。
+<PAUSE>
+<NAME_PLATE>
+　無料で食事を振る舞い、
+怪我や病気をただで診てやり、
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの子供たちにも人気な
+日曜朝の魔法少女アニメのショーなども
+予定していた。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「―――では、屋台などの設置は炎王さん。
+　お食事の手配はグィネヴィアさんと
+　春桃さんにお願いいたしますわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>炎王
+「了解した。
+　ヨミハラ消防担当の名にかけて
+　完全確実な屋台の設置を約束しよう」
+<PAUSE>
+//　※立ち絵
+//　　SB-001 炎王
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ＳＢ－００１、通称“炎王”は、
+店の天井を突き破りそうな巨体を縮めつつ
+自信たっぷりに答えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m293a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「不慣れな私ですが
+　一生懸命やらせていただきます」
+<PAUSE>
+//　※立ち絵
+//　　グィネヴィア＿私服
+//　　　＊カードイラストより流用
+<NAME_PLATE>グィネヴィア
+「春桃（シュンタオ）ちゃん、
+　分からないことがあったら
+　いろいろ教えてね」
+<PAUSE>
+<ACTOR>0,chr_t0215a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>陳春桃
+「任せておけ。
+　腕によりをかけて料理をしてやるぞ」
+<PAUSE>
+//　※立ち絵
+//　　陳春桃
+//　　　＊カードイラストより流用
+<NAME_PLATE>グィネヴィア
+「ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　今日は私服だが、
+普段はこの店でメイドをしている
+ヨミハラの新人グィネヴィアと、
+<PAUSE>
+<NAME_PLATE>
+　格安の定食から豪華絢爛な満漢全席まで
+なんでもござれの中華料理屋『味龍』の看板娘、
+陳春桃が頷き合った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m128a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>炎王
+「火の元にはくれぐれも注意するのだぞ」
+<PAUSE>
+<ACTOR>1,chr_t0215a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>陳春桃
+「すっかりうちの常連になったくせに
+　まだそれを言うのか。
+　しつこいぞ」
+<PAUSE>
+<NAME_PLATE>炎王
+「それが私の務めだ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　お馴染みのやりとりに、
+ヨミハラ町内会の会長でもある静流は
+くすりと笑いながら、
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>高坂静流
+「飲物については
+　うちからも用意させてもらうわ。
+　当日はカクテルのサービスもしようかしら」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<GROUP>
+<ACTOR>0,chr_t0276a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>セルヴィア
+「子供たちのためのイベントですので、
+　アルコールはなしでお願い致しますわ」
+<PAUSE>
+<ACTOR>1,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「うふふ、了解」
+<PAUSE>
+<NAME_PLATE>
+　生真面目に注文を付けるセルヴィアに
+この町随一の傭兵、オークのアルフォンスが
+文句を言い始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アルフォンス
+「おいおい、せっかくの祭りに酒なしかよ。
+　俺がガキのころは―――」
+<PAUSE>
+//　※立ち絵
+//　　アルフォンス(歴戦のオーク傭兵)
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>セルヴィア
+「お黙りなさい。
+　そんなことよりアルフォンスさんは
+　ご自分のお役目が分かっておいでですか？」
+<PAUSE>
+<NAME_PLATE>
+　ピシャリと遮ったセルヴィアに尋ねられ、
+凄腕傭兵は戦場では決して見せることのない
+情けなさそうな顔になった。
+<PAUSE>
+<NAME_PLATE>アルフォンス
+「分かっちゃいるがよ。
+　ほんとに俺がやらなきゃだめか？
+　金鬼のダンナ、よかったら代わりに―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>峠金鬼
+「いや、某は警備を任されておるのでな」
+<PAUSE>
+//　※立ち絵
+//　　峠金鬼
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　“女護島”出身の女鬼・速疾鬼が率いる
+“鬼武衆（きぶしゅう）”幹部の一人、
+<PAUSE>
+<NAME_PLATE>
+　あらゆる攻撃を跳ね返すという
+鉄壁鬼（てっぺき）流剣術の使い手、
+峠金鬼（とおげきんき）は目を逸らした。
+<PAUSE>
+<NAME_PLATE>
+　鬼武衆の本拠地は東京キングダムだが、
+彼はヨミハラやこの店にもしばしば訪れるため、
+今回のイベントに協力しているのだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0276a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「アルフォンスさんは目立つのが
+　お嫌なのでしょう？
+　それなら誰にも気づかれないですわよ」
+<PAUSE>
+//　※立ち絵
+//　　ドクギラン
+//　　　＊魔法少女フェアリーナイツのイルギールの立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m310a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　セルヴィアが一瞥した先には
+赤い髪の豚男がでんと構えている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アルフォンス
+「俺が目立ちたくねえってのは
+　そういう意味じゃねえんだがよ。
+　しょうがねえなあ。わかったよ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「よろしくお願いしますわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　諦めたように頷くアルフォンスに
+セルヴィアは優雅に微笑んだ。
+<PAUSE>
+<ACTOR>0,chr_t0276a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「エレーナさんの無料医療所は
+　どんな感じですか？
+　お薬の準備とか大変でしょう？」
+<PAUSE>
+<NAME_PLATE>
+　いきなり自分に声を掛けられ、
+ノマドのイングリッド配下の魔術師、
+エレーナはビクッとして、
+<PAUSE>
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「は、はい……大丈夫だと思います」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>エレーナ
+「イングリッド様から
+　ノマドのお薬を一部使ってもいいと
+　きょ、許可をいただきましたし」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「と、当日は魔草屋のメルメさんも
+　手伝ってくれるそうです」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「それは良かったですわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　少しも慌てる必要はないのだが、
+なぜかあたふたと説明するエレーナに
+セルヴィアはゆったりと頷き、
+<PAUSE>
+<ACTOR>0,chr_t0276a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「あとは朧様ですが、
+　リーナったら何してるのかしら」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　形の良い眉をひそめた時、
+まるでそれを待っていたかのように、
+そのリーナが戻ってきた。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ただいま帰りました」
+<PAUSE>
+//　※立ち絵
+//　【桜嵐舞闘】リーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>セルヴィア
+「リーナ、遅いですわよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「申し訳ありません。
+　ですが朧様の許可はもらってきました。
+　それにカンパもこんなに」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リーナは朧からもらってきた軍資金、
+分厚い札束をどんとテーブルに置いた。
+<PAUSE>
+<NAME_PLATE>
+　一同は驚きに身を乗り出す。
+<PAUSE>
+<NAME_PLATE>アルフォンス
+「うおっ、マジかよ」
+<PAUSE>
+<NAME_PLATE>炎王
+「これは意外な」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「すごいですね。
+　こんな沢山のカンパを？」
+<PAUSE>
+<NAME_PLATE>陳春桃
+「一気に資金繰りの問題に
+　けりがついてしまったな」
+<PAUSE>
+<NAME_PLATE>静流
+「さすがノマドの大幹部。
+　大盤振る舞いね」
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「吝嗇家と聞いていたが
+　噂などあてにならんな。
+　なかなかできるものではない」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「こ、これ朧様のプライベートなお金ですよね。
+　はわわ、びっくりです」
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私もびっくりした。
+　いいから持ってけってポンと出してくれた。
+　スラムを使う許可もあっさりだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　イベントを開催するスラム地帯は
+朧のナワバリである。
+<PAUSE>
+<NAME_PLATE>
+　そこを使わせてもらう許可を得るため、
+リーナが出向いたのだった。
+<PAUSE>
+<ACTOR>0,chr_t0276a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「素晴らしいですわ。
+　朧様もまた義務を心得ておいでですのね。
+　それでご自分のお名前を出すことは？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　感嘆の表情を浮かべるセルヴィアに
+リーナは残念そうに答えた。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「申し訳ありません。
+　それはどうしても嫌だと仰って。
+　自分のイメージに合わないからだそうです」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0276a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「……そうですか。
+　残念ですがしょうがありませんわ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「あえて名前を出さない。
+　それもまた一つの嗜みですもの」
+<PAUSE>
+<ACTOR>1,chr_t0276a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アルフォンス
+「なあに。
+　今さら名前なんか出さなくたって
+　あのスラムじゃ朧の姉御は大層な人気さ」
+<PAUSE>
+<NAME_PLATE>アルフォンス
+「イメージがどうとかいうのは
+　単に照れくさいんだろうぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私もそう思う。
+　朧様はそういう照れ屋なところが
+　おありになる」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　朧はあのスラムを、特に子供たちを
+密かに保護していて、
+<PAUSE>
+<NAME_PLATE>
+　ノマドの女王蜂、嗤う邪悪といった
+悪名とは裏腹にスラムでの人気は
+相当なものだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0276a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「お嬢様、あとはショーのことだけですね」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「だけではないけど、
+　しっかりやりましょう、リーナ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　頷いたリーナは一同に交じって座っている
+赤い髪の豚男に気づいて顔を輝かせた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「おっ、完成したのか。
+　すごく悪そうでいいな。
+　ドクギラン、本番はしっかり決めるぞ」
+<PAUSE>
+<ACTOR>1,ts_m086a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アルフォンス
+「分かったよ、ワルリーナ様」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　苦笑しつつ頷いたのはアルフォンスだった。
+<PAUSE>
+//【背景：ヨミハラ＿裏通り＿昼夜共通】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc062a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その頃、ヨミハラの裏通りでは、
+この町の誰よりも死の匂いを漂わせる二人が
+何ごとかを話し合っていた。
+<PAUSE>
+<ACTOR>0,ts_m309a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>テウタテス
+「あの娘を暗殺すれば、
+　魔界のある貴族の協力も得られるだろう」
+<PAUSE>
+//　※立ち絵
+//　　死霊卿テウタテス01(魔性ＳＲ)立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　黒い甲冑の男はテウタテス。
+またの名を死霊卿。
+<PAUSE>
+<NAME_PLATE>
+　魔界を支配する９貴族の一人にして、
+死者に一時的に生命を与えて操る力を持つ
+高位魔族レイスの頂点に立つ存在だ。
+<PAUSE>
+<NAME_PLATE>
+　彼に従う幾多のレイス、
+ことに死霊騎士＜レヴァナント＞からは
+屍の王＜レイスロード＞とも呼称されている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0361c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「うふふ、死霊卿様ともあろうお方が
+　ずいぶんと迂遠なやり方をなさいますこと」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスクなし
+//　　　＊カードイラストよりより流用
+<NAME_PLATE>
+　黄色い瘴気を纏った女はワイト。
+またの名を黄夜叉。
+<PAUSE>
+<NAME_PLATE>
+　死霊卿テウタテスが最も信頼する
+死霊騎士＜レヴァナント＞の一人である。
+<PAUSE>
+<ACTOR>1,chr_t0361c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m309a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>テウタテス
+「それが必要なこともある。
+　娘はこの町にいる。万事よろしく頼むぞ」
+<PAUSE>
+<NAME_PLATE>テウタテス
+「念のため言っておくが、
+　あの妙な魔界騎士は避けるが得策だ」
+<PAUSE>
+<NAME_PLATE>ワイト
+「すべて死霊卿様のお心のままに」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　ワイトが恭しく一礼すると、
+死霊卿は死者がこの世から消え去るように
+その場からふっといなくなった。
+<PAUSE>
+<ACTOR>1,chr_t0361c,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ワイト
+「あのローザ・プリズムの使い手。
+　少しは楽しませてもらえるかしら」
+<PAUSE>
+<NAME_PLATE>
+　黄夜叉の顔に酷薄な笑みが浮かぶ。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　彼女が指を鳴らすと、
+別の黒いレイスが音もなく出現した。
+<PAUSE>
+<ACTOR>0,ts_m311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レイス
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　レイス
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ベールを被った顔は判別できず、
+長いコートの下には足もなく
+フワフワと空中を漂っている。
+<PAUSE>
+<NAME_PLATE>
+　彼もまた死者を操る力を持っているが、
+彼自身が死霊じみた姿をしている。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ただ手に下げた香炉のような呪具だけが
+まるで心臓が鼓動するかのように
+妖しく輝いていた。
+<PAUSE>
+//【背景：ヨミハラスラム２＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC109aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc455a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　イベント当日―――。
+<PAUSE>
+<NAME_PLATE>
+　いつもは殺伐としているスラムだが、
+この日ばかりはチンピラたちも鳴りを
+ひそめていた。
+<PAUSE>
+<NAME_PLATE>
+　彼らの多くは腹を空かせているし、
+ろくに医者にも行けない者も多い。
+<PAUSE>
+<NAME_PLATE>
+　そこに無料の食事配布に診療所だ。
+<PAUSE>
+<NAME_PLATE>
+　よほどの物好きでもなければ、
+子供たちに混じって素直におこぼれを
+もらっているほうが得策というものだ。
+<PAUSE>
+<NAME_PLATE>
+　普段はありとあらゆるゴミ、
+それこそ死体まで普通に転がっている通りも
+今日はそれなりに綺麗にされていた。
+<PAUSE>
+<NAME_PLATE>
+　そして屋台と椅子が設置され、
+目玉である炊き出しが行われていた。
+<PAUSE>
+<NAME_PLATE>
+　チンピラたちは奉仕を受けることに
+少し抵抗があるのか控えめにその列に
+並んでいたが、
+<PAUSE>
+<NAME_PLATE>
+　全く遠慮のない子供たちは
+ワーワーと歓声を上げながら
+先を争うように屋台に群がっていた。
+<PAUSE>
+<NAME_PLATE>
+　その勢いに食事担当の
+グィネヴィアと春桃はてんやわんやだ。
+<PAUSE>
+<ACTOR>0,ts_m293b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>グィネヴィア
+「ちゃ、ちゃんと一列に並んでくださーい！
+　うわわわわわ！」
+<PAUSE>
+//　※立ち絵
+//　　グィネヴィア＿メイド衣服
+//　　　＊カードイラストより流用
+<NAME_PLATE>グィネヴィア
+「あっ、ダメですダメです。
+　それはまだ火を通してません。
+　そんなの食べたらお腹を壊します！」
+<PAUSE>
+<NAME_PLATE>
+　最近、静流の店で酔っ払いをあしらうのに
+少しだけ慣れてきたグィネヴィアだが
+ルール無用の子供相手は勝手が違う様子だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0215a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>陳春桃
+「料理はたくさん用意してあるから
+　そんなあわてなくても大丈夫だぞ！」
+<PAUSE>
+//　※立ち絵
+//　　陳春桃
+//　　　＊カードイラストより流用
+<NAME_PLATE>陳春桃
+「ほらチャーハンだ！
+　おかわりもいいぞ、どんどん食べろ！」
+<PAUSE>
+<NAME_PLATE>
+　春桃は『味龍』にいる時よりも
+楽しそうな様子で鍋を振り回し、
+次々と欠食児童をさばいている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>炎王
+「小僧、割り込みは禁止だ」
+<PAUSE>
+//　※立ち絵
+//　　SB-001 炎王
+//　　　＊カードイラストより流用
+<NAME_PLATE>炎王
+「やかましい。
+　ルールを守らない奴はこの私が許さん」
+<PAUSE>
+<NAME_PLATE>
+　炎王も頼まれてもいないのに整列を行い、
+時に子供を容赦なく摘まみあげて並ばせ、
+自ら嫌われ者になっていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0352a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「うふふ。
+　味龍のお料理がただで食べ放題だもの」
+<PAUSE>
+<NAME_PLATE>静流
+「私だって体重を気にしないでよければ、
+　群がっちゃうわね。
+　飲物が欲しい方はこちらにどうぞー」
+<PAUSE>
+//　※立ち絵
+//　　【バニー】高坂静流
+//　　　＊カードイラストより流用
+<NAME_PLATE>静流
+「きゃっ♪
+　ダメよ、坊や。お尻を触ったりしちゃ。
+　そういうのはオトナになってから」
+<PAUSE>
+<NAME_PLATE>
+　静流はなぜかバニーガール姿になって、
+子供相手に過剰な露出サービスをしながら、
+テキパキとドリンクを振る舞っている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「ぐ、具合の悪い人、
+　どこか怪我をしている人は
+　こちらに来てくださーい」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0328a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>メルメ
+「うふふ、苦くない魔草のお薬を使うから
+　ちっとも怖くありませんよ～～」
+<PAUSE>
+//　※立ち絵
+//　　メルメ・エルヒェム
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　食事の配布と並ぶもう一つの目玉、
+無料診療所にも人々が殺到していた。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「こ、これは骨折が変な形で固まってますね。
+　治癒魔法を使いますがちょっと痛いですよ。
+　ご、ごめんなさい。じゃあやります」
+<PAUSE>
+<NAME_PLATE>メルメ
+「あらあら、これは薬物中毒ですね。
+　毒をもって毒を制すしかありませんね。
+　少しだけ気持ち悪くなっちゃうかも～～」
+<PAUSE>
+<NAME_PLATE>
+　エレーナはおどおどしているし、
+メルメはふわふわしているが、
+どちらも経験豊富な治癒術者だ。
+<PAUSE>
+<NAME_PLATE>
+　次から次へとやってくる患者を
+わりと強引に、だが的確に治していた。
+<PAUSE>
+<NAME_PLATE>
+　チンピラの悶絶や子供の泣き声も
+やむを得ずといったところだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、広場のようなスペースでは、
+魔法少女ショーが行われていた。
+<PAUSE>
+<NAME_PLATE>
+　悪の組織キカンジーの女幹部ワルリーナが
+怪人ドクギランを連れて
+ヨミハラを襲うというお話だ。
+<PAUSE>
+<NAME_PLATE>
+　町の住人なら誰でもすぐに分かるが、
+先の特務機関Ｇによる放射能汚染を
+モチーフにしていた。
+<PAUSE>
+<NAME_PLATE>
+　それもあってセルヴィア演じる
+魔法少女プリティローズの活躍に
+子供たちは歓声を上げていた。
+<PAUSE>
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>プリティローズ
+「やっ、たあっ、てやあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【プリティローズ】セルヴィア・ローザマリー
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se035
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>キカンジー戦闘員
+「くっ！！」
+「ぎゃっっ！」
+「ぐあっっ！」
+<PAUSE>
+//　※立ち絵
+//　　触装！魔法少女ヒカル_女戦闘員より流用
+//　※三体出してください
+<BG>nc455a,IN, 500
+<ACTOR>0,chr_t0337b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワルリーナ
+「フハハハハハ！！
+　なかなかやるなプリティローズ。
+　だが貴様の活躍もこれまでだ！」
+<PAUSE>
+//　※立ち絵
+//　　【百花繚嵐】リーナ（悪の女幹部）
+//　　　＊カードイラストを加工して使用
+<ACTOR>0,chr_t0337b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0360a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>プリティローズ
+「ワルリーナ！！
+　これ以上、あなたたちキカンジーの
+　好きにはさせませんわ！」
+<PAUSE>
+<NAME_PLATE>プリティローズ
+「ヨミハラの平和はこのプリティローズが
+　守ってみせます！」
+<PAUSE>
+<NAME_PLATE>ワルリーナ
+「馬鹿め、たった一人で何ができる！？
+　このワルリーナがやって来たからには
+　こんなヨミハラなどまるっと一捻りだ」
+<PAUSE>
+<NAME_PLATE>ワルリーナ
+「我らキカンジーの恐ろしさを教えてやる。
+　やれえ、ドクギラン！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m310a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクギラン
+「ドクドーク！！
+　放射能の混じった毒を食らえ！！
+　ぶはあああああ！！」
+<PAUSE>
+//　※立ち絵
+//　　ドクギラン
+//　　　＊魔法少女フェアリーナイツのイルギールの立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>プリティローズ
+「くっ、卑劣なっ！！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc455a,IN, 500
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　プリティローズのピンチに子供たちが
+「がんばれーー！！」と声援を送っている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その目はキラキラと輝いていた。
+<PAUSE>
+<NAME_PLATE>
+　ここがヨミハラとは、
+ましてその最下層のスラムとは
+思えないような光景だ。
+<PAUSE>
+<NAME_PLATE>
+　朧はそれを人目を避けるようにして
+こっそり見ていた。
+<PAUSE>
+<ACTOR>0,ob_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「ふん。
+　盛り上がってるじゃないか」
+<PAUSE>
+//　※立ち絵
+//　　朧通常立ち絵＿対魔忍衣装（武器なし）
+//　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　口調は皮肉げだったが、
+自分でも気づかないうちに
+その頬が緩んでいた。
+<PAUSE>
+<NAME_PLATE>朧
+「大幹部役なんか引き受けないで正解だったね。
+　どんな馬鹿な格好させられるか
+　分かったもんじゃないよ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>スラムの少女
+「うっ……っ……うう……」
+<PAUSE>
+<NAME_PLATE>朧
+「……？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　苦しげな声にふと通りを見ると、
+一人のみすぼらしい少女が歩いていた。
+<PAUSE>
+<NAME_PLATE>
+　ろくに食べていないのだろう、
+頬は痩け、ボロを纏った身体は痩せこけ、
+足取りはふらついている。
+<PAUSE>
+<NAME_PLATE>
+　かつての自分を思い出し、
+朧は思わず少女に駆け寄りそうになったが、
+<PAUSE>
+<ACTOR>0,ob_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「……っ」
+<PAUSE>
+<NAME_PLATE>
+　その甘っちょろい考えをぐっと堪え、
+少女を傍観するにとどめた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>スラムの少女
+「はぁ、はぁっ……
+　くっ……っっ……！」
+<PAUSE>
+<NAME_PLATE>
+　少女は朧に気づくことなく、
+途中何度も立ち止まりながらも、
+自分一人の力で屋台に向かっていた。
+<PAUSE>
+<ACTOR>0,ob_t004c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「それでいい」
+<PAUSE>
+<NAME_PLATE>
+　朧は小さく呟いた。
+<PAUSE>
+<ACTOR>0,ob_t004a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>朧
+「お情けの食い物も一人でもらえないようじゃ
+　この町で生きてく資格はないさ」
+<PAUSE>
+<NAME_PLATE>
+　その満足げな顔がふっと歪められる。
+<PAUSE>
+<NAME_PLATE>
+　お祭り騒ぎのこの場にそぐわない気配、
+そう瘴気を微かに感じる。
+<PAUSE>
+<ACTOR>0,ob_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>朧
+「この嫌な感じ、レイスか？」
+<PAUSE>
+<NAME_PLATE>朧
+「私のナワバリでなにを？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　朧は表情をすっと固くすると
+その気配の元を探りに音もなく姿を消した。
+<PAUSE>
+//【黒画面】
+//※時間経過の間
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>プリティローズ
+「気高き心の薔薇よ、今こそ咲き誇れ！
+　プリティローズ・フローラル・フレア！！」
+<PAUSE>
+<NAME_PLATE>ドクギラン
+「ギャアアアアアアアアアアア！！」
+<PAUSE>
+<NAME_PLATE>ワルリーナ
+「く、くそっ！！
+　次こそ貴様を倒してやるぞ！！
+　絶対だ！　覚えていろ！！」
+<PAUSE>
+
+//【背景：ヨミハラ路地裏＿袋小路＿昼夜共通】【時間：夜】
+//　※魔法少女イスカ＿nc005cより流用
+<UI_DISP>OFF, 0
+<BGM_PLAY>bgm506,1000
+<BG>chrnc0299b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　『魔法少女プリティローズ』ショーは
+大歓声のうちに終了し、
+<PAUSE>
+<NAME_PLATE>
+　出演者たちは控え所として使っている
+スラムの袋小路に集まっていた。
+<PAUSE>
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「みなさん、お疲れさまでした」
+<PAUSE>
+//　※立ち絵
+//　　【プリティローズ】セルヴィア・ローザマリー
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m170a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m170a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m170a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ノマド戦士
+「おつかれー」
+「セルヴィア、すごく決まってたよ」
+「立ち回り上手だったね」
+<PAUSE>
+//　※立ち絵
+//　　ノマド戦士(女)
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　キカンジーの戦闘員をやっていた
+ノマドの女戦士たちが主役のセルヴィアを
+口々に褒め称える。
+<PAUSE>
+<NAME_PLATE>
+　殴ったり蹴ったりが苦手なセルヴィアに
+アクションを指導したのは彼女たちだった。
+<PAUSE>
+<NAME_PLATE>
+　それは魔法少女ショーだけではなく、
+この先、セルヴィアが戦って行く上で役に立つ
+極めて実践的な立ち回りであった。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「ありがとうございます。
+　本当に当ててしまって大丈夫でしたか？」
+<PAUSE>
+<NAME_PLATE>ノマド戦士
+「それくらいしないとリアルに見えないしね」
+「そうそう、あとリーナもやたらハマってた」
+「ノリノリだったね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0337b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「そうだろうそうだろう。
+　やはり悪役が格好よくないと
+　ああいうのは盛り上がらないからな」
+<PAUSE>
+//　※立ち絵
+//　　【百花繚嵐】リーナ（悪の女幹部）
+//　　　＊カードイラストを加工して使用
+<NAME_PLATE>
+　まだ悪の女幹部ワルリーナの姿をしている
+リーナは満足げに何度も頷いた。
+<PAUSE>
+<ACTOR>0,chr_t0337b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0360a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「そうですけど、
+　いい加減その頭のをお取りなさい。
+　バカみたいですわ」
+<PAUSE>
+<ACTOR>0,chr_t0337a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　セルヴィアは呆れ顔になって、
+リーナからマスクと飾りを剥ぎ取った。
+<PAUSE>
+<NAME_PLATE>
+　それ以外の部分は衣装ではなく、
+魔剣サクラブロッサムによる変身だ。
+ショーのためその真の力を使っていた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「せっかくドロレスが作ってくれたものだし、
+　今日一日はずっと付けていようかと
+　思ったのですが……」
+<PAUSE>
+//　※立ち絵
+//　　【百花繚嵐】リーナ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　残念そうに言うリーナに
+セルヴィアは溜息を吐いた。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「そんな人がいますか。まったくもう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m310a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アルフォンス
+「おおい、誰でもいいから
+　俺のこれもなんとかしてくれ。
+　一人じゃどうにもなんねえんだ！」
+<PAUSE>
+//　※立ち絵
+//　　ドクギラン
+//　　　＊魔法少女フェアリーナイツのイルギールの立ち絵より流用
+<NAME_PLATE>
+　怪人ドクギラン役のアルフォンスが
+その着ぐるみの中で悲鳴を上げていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0337a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0360a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「あっ、ごめん。今開けてやるぞ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「こんな物の中に入って
+　さぞ暑かったでしょう？
+　お疲れさまでした」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m086a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アルフォンス
+「暑いなんてもんじゃねえ。
+　くああああああああ！！
+　蒸し焼きになりそうだぜ！」
+<PAUSE>
+//　※立ち絵
+//　　アルフォンス(歴戦のオーク傭兵)
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　一同がそれを脱がせてやると、
+汗だくになった傭兵が姿を現した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アルフォンス
+「ビールビール！！
+　んぐっ、ごくごくごくごくっっ！！
+　ぷはーーーーっ！！」
+<PAUSE>
+<NAME_PLATE>
+　アルフォンスは用意していた缶ビールを
+一本、二本とがぶ飲みしながら、
+<PAUSE>
+<NAME_PLATE>アルフォンス
+「リーナ、風くれ風！」
+<PAUSE>
+<ACTOR>0,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私は扇風機じゃないぞ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リーナは文句を言いつつも風を操り、
+アルフォンスや他のメンバーたちに
+涼風を提供する。
+<PAUSE>
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユウ
+「セルヴィアお嬢様はいるかい？
+　朧様が一言お礼を仰りたいってさ」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　控え所に現れたのは
+朧配下の女ギャング、ユウだった。
+<PAUSE>
+<ACTOR>0,ts_m007a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0360a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「まあ、朧様に来ていただけたのですか？」
+<PAUSE>
+<NAME_PLATE>ユウ
+「まあね。こっそり覗かれてたよ。
+　出て行きゃいいのにね」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「朧様はどちらに？」
+<PAUSE>
+<NAME_PLATE>ユウ
+「アタシが案内するよ。
+　お嬢様一人に来て欲しいんだと。
+　恥ずかしがり屋なお方だからさ」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「では、わたくしちょっと行って参ります。
+　皆さんはもう少し休んでいてくださいませ。
+　ジェロもここにいていいわよ」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　セルヴィアは皆にそう言うと、
+愛犬のジェロもここにおいて、
+ユウの後をついていった。
+<PAUSE>
+<NAME_PLATE>
+　その二人を見送るリーナが
+怪訝そうな顔をしていた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>1,chr_t0337a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「…………？」
+<PAUSE>
+<ACTOR>1,chr_t0337a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アルフォンス
+「どうしたい、リーナ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「いや、ユウが一人で来たからな。
+　いつもアイと一緒なのに珍しいと思ってな」
+<PAUSE>
+<NAME_PLATE>アルフォンス
+「別に二人で呼びに来ることはねえだろう」
+<PAUSE>
+<NAME_PLATE>リーナ
+「まあ、そうなんだが……」
+<PAUSE>
+<NAME_PLATE>
+　微かな違和感。
+<PAUSE>
+<NAME_PLATE>
+　だが桜色の剣気を自在に操る魔界騎士も
+その正体を見破るには至らなかった。
+<PAUSE>
+//【背景：ヨミハラスラム１＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC108aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc453a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　イベントの騒めきが聞こえなくなった。
+どんどん人気のないところに連れて行かれる。
+<PAUSE>
+<NAME_PLATE>
+　セルヴィアはさすがに不審に思って尋ねた。
+<PAUSE>
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「あの……朧様はどちらに？」
+<PAUSE>
+//　※立ち絵
+//　　【プリティローズ】セルヴィア・ローザマリー
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユウ
+「うふふふふふふふ！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ユウが高笑いを始めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして背後に何者かの気配が。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「はっ！」
+<PAUSE>
+<ACTOR>0,ts_m311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レイス
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　レイス
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　忌まわしい死霊の気配を纏う魔族、
+レイスが今来た道に立ちはだかり、
+退路を遮断していた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セルヴィア
+「あなた、何者です！？
+　朧様の遣いというのは嘘ですね！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　セルヴィアはさっと身構えながら、
+彼女をここまで連れてきた女に尋ねた。
+<PAUSE>
+<NAME_PLATE>
+　その姿がスッと変わった。
+扇情的な甲冑を身に纏った禍々しい姿に。
+<PAUSE>
+<NAME_PLATE>
+　より強い死霊の気配、こちらもレイスだ。
+<PAUSE>
+<ACTOR>0,chr_t0361b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「私は死霊騎士＜レヴァナント＞ワイト、
+　麗しき屍の王＜レイスロード＞の遣い」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器
+//　　　＊カードイラストより流用
+<NAME_PLATE>ワイト
+「ローザマリー家の遺児セルヴィア、
+　主の命によりあなたの魂を頂きます」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「なんですって？
+　まさかレイスロードがわたくしの家を！？」
+<PAUSE>
+<NAME_PLATE>
+　思わず問い返すセルヴィアに
+ワイトと名乗った死霊騎士は艶然と微笑む。
+<PAUSE>
+<NAME_PLATE>ワイト
+「あなたに生きていて欲しくない人は
+　大勢いるのよ」
+<PAUSE>
+<NAME_PLATE>ワイト
+「ここまで一人で来たことに敬意を評して
+　この私が殺してあげるわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ワイトは巨大な肉叩きのようなハンマーを
+どこからともなく取り出して振り下ろしてきた。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「くっ！」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　あっと思った時には身体が動いていた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオッッ！！
+<PAUSE>
+<NAME_PLATE>
+　恐ろしい風切り音を鳴らして
+巨大肉叩きが彼女のそばを掠めていく。
+<PAUSE>
+<BG>nc453a,IN, 500
+<NAME_PLATE>
+　食らったらひとたまりもなかったそれを
+セルヴィアは辛くも躱していた。
+<PAUSE>
+<NAME_PLATE>
+　リアルな魔法少女ショーのために、
+実戦さながらの立ち回りの特訓をしたおかげだ。
+<PAUSE>
+<ACTOR>0,chr_t0361b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「あら、思ったよりも素早いのね」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　感心したように言うワイトに
+セルヴィアも迷わず反撃に出る。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「ローザ・プリズムの輝きよ！」
+<PAUSE>
+<NAME_PLATE>
+　ローザマリー家の秘術。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　薔薇の形をした結晶が彼女の周りに
+幾つも浮かぶ。
+<PAUSE>
+<ACTOR>0,chr_t0361b,CENTER, CENTER, IN, linear, 1000
+//<ACTOR> ワイトの立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>ワイト
+「そう、それが見たかったのよ」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器+ゴーレム
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<ACTOR>0,chr_t0361f,CENTER, CENTER, NONE, linear, 0
+//<ACTOR> ワイトの立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>
+　ワイトが嬉しそうにハンマーを振ると、
+スズメバチのようなゴーレムが出現した。
+<PAUSE>
+<NAME_PLATE>
+　あれでローザ・プリズムの
+相手をするつもりか。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「ならば食らいなさい！
+　ローザ・プリズム！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャンッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　薔薇の結晶から鋭い光が幾筋も発せられたが、
+スズメバチゴーレムは予想外に素早い動きで
+それを防御する。
+<PAUSE>
+<BG>nc453a,IN, 500
+<ACTOR>0,chr_t0361g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワイト
+「なかなかの威力ね。これはお返しよ。
+　あなたに防げるかしら？」
+<PAUSE>
+//　※立ち絵
+//　　ワイト01（魔性ＳＲ）マスク_武器+ゴーレム_攻撃
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　スズメバチゴーレムの腹がパカッと割れ、
+砲身が出現した。
+<PAUSE>
+<NAME_PLATE>
+　そこにエネルギーが収束していく。
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「わたくしを守りなさい！」
+<PAUSE>
+<NAME_PLATE>
+　ローザ・プリズムは攻防自在の術だ。
+セルヴィアは結晶を集中させて盾としたが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギャアアアアアアンンッッ！！
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「ぐっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　スズメバチが放ったエネルギー攻撃に
+結晶の盾もろとも吹き飛ばされてしまう。
+<PAUSE>
+<BG>nc453a,IN, 500
+<NAME_PLATE>セルヴィア
+「こ、この力は……！」
+<PAUSE>
+<NAME_PLATE>
+　攻撃そのものは盾で防ぐことができたが
+パワーの差は圧倒的だ。
+<PAUSE>
+<NAME_PLATE>
+　しかも劣勢になった彼女を見て、
+ワイトは驚いたような顔をした。
+<PAUSE>
+<ACTOR>0,chr_t0361g,CENTER, CENTER, IN, linear, 1000
+//<ACTOR> ワイトの立ち絵表示は表示時中の表情差分を調整
+<NAME_PLATE>ワイト
+「今ので死ななかったなんて、
+　さすがローザマリー家の秘術ね」
+<PAUSE>
+<NAME_PLATE>ワイト
+「あなたがもっと修行をつんでいたら、
+　もう少し楽しめたと思うのだけれど。
+　私に会うのがちょっと早すぎたようね」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「勝手に呼び出しておいて……」
+<PAUSE>
+<NAME_PLATE>ワイト
+「うふふ、ごめんなさい。
+　もう分かったから、
+　後始末は彼に任せることにするわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　どこまでも自分勝手に言い放ち、
+ワイトはさっと身を引いた。
+<PAUSE>
+<NAME_PLATE>
+　その代わりに退路を塞いでいた
+もう一人のレイスが向かってくる。
+<PAUSE>
+<ACTOR>0,ts_m311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>レイス
+「―――――――――」
+<PAUSE>
+//　※立ち絵
+//　　レイス
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>セルヴィア
+「わたくしとしたことが……。
+　不覚ですわ」
+<PAUSE>
+<NAME_PLATE>
+　状況は絶望的だ。
+<PAUSE>
+<NAME_PLATE>
+　突然現れた敵の罠にまんまとはまった上、
+いつも彼女の傍らにいるジェロもいない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが―――
+<PAUSE>
+<ACTOR>0,chr_t0360a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セルヴィア
+「わたくしはこんなところで
+　わけも分からず死ぬわけには参りません！」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「それにこの程度で諦めるようでは、
+　リーナに笑われてしまいますわ！」
+<PAUSE>
+<NAME_PLATE>セルヴィア
+「もっともっと輝きなさい！
+　わたくしのローザ・プリズム！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　不屈の闘志がローザ・プリズムを
+いっそう強く輝かせていった。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

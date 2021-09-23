@@ -1,0 +1,612 @@
+//=================================================================
+//FileNo:S205a
+//
+//シーン名：エピローグ
+//
+//シーン説明：
+//<SCREEN_SIZE>1280, 720
+//=================================================================
+//【背景：五車学園＿校舎裏の森＿昼】//【時間：昼】
+<BG>nc004a,IN
+<ACTOR>2,s_t001b,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>鹿之助
+「ふうま見ろ！
+　こっちには反乱軍がいないぞ。
+　このスキに抜けちまおうぜ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　鹿之助の指差す方には、
+今までの争乱がうそのように
+静かな山道が午後の光をあびていた。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、こいつは少しまずいかもしれん」
+<PAUSE>
+<ACTOR>2,s_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「え！？　どうしてだ？？」
+<PAUSE>
+<NAME_PLATE>俺
+「多少の兵力を配してるかと思ったが
+　この気配の無さは……蛇子？」
+<PAUSE>
+<NAME_PLATE>
+　前を歩いていた蛇子も、
+タコ足の先を上げて立ち止まる。
+<PAUSE>
+<ACTOR>2,s_t001c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t004e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「臭うわ。これは死臭ね……
+　それも一つじゃない」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>鹿之助
+「死臭？　うそだろ、全然臭わないぜ」
+<PAUSE>
+<NAME_PLATE>
+　俺にも木と土の匂い以外、
+全く感じられない。だが蛇子が言うからには
+間違いないだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子にはわかるのさ。あのタコ足に
+　ついてる吸盤、その一つ一つが
+　高性能センサーのような働きをする」
+<PAUSE>
+<NAME_PLATE>俺
+「俺たちの鼻では感じられないような、
+　かすかな臭いも嗅ぎ取れるんだよ」
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ま、マジかよ！？
+　吸盤これ全部鼻って事か！？
+　気持ちわりぃ……」
+<PAUSE>
+<ACTOR>1,h_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ちょっと、失礼ね！
+　これでも乙女の足なんですからね！？」
+<PAUSE>
+<NAME_PLATE>
+　口ではそう言いながら、
+蛇子は足をうねうねさせて
+鹿之助に見せつけている。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、警戒しながら進むぞ」
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 500
+<GROUP>
+<ACTOR>2,s_t001h,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　気を張り巡らせながら森の中を進むが、
+敵が伏せているような気配もない。
+<PAUSE>
+<NAME_PLATE>俺
+（蛇子の勘違いだったのか？
+　ただの動物の死臭だったとか……）
+<PAUSE>
+//【背景：五車学園＿校舎裏の森２＿昼】//【時間：昼】
+<BG>nc010a,IN
+<NAME_PLATE>
+　どれほど進んだだろうか。
+<PAUSE>
+<NAME_PLATE>
+　茂みを抜け、少し開けた場所に出る。
+ここを抜ければ校舎はすぐのはずだ。
+<PAUSE>
+<NAME_PLATE>俺
+（ふう……
+　やはり取り越し苦労だったか）
+<PAUSE>
+<ACTOR>0,h_t004e,CENTER, CENTER, IN, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,150
+<NAME_PLATE>蛇子
+「！！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　そのとき、前を歩いていた蛇子が
+振り返り、鋭い目で俺たちを制した。
+<PAUSE>
+<BGM_STOP>1500
+<NAME_PLATE>俺
+「蛇子？
+　……うっ、これは！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,150
+<NAME_PLATE>鹿之助
+「！！　うぐっ……」
+<PAUSE>
+<ACTOR>0,h_t004e,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　現れた光景は目を覆うような異様さだった。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　地面には数えきれない槍が突き立ち、
+まるで槍の森だ。
+そして、その一本一本に――死体。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あ、あ、あそこのやつ、うちのクラスの
+　蔵石だぞ！！　西郷寺も、先生まで！！
+　……みんな死んでる……」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……
+　刺されてる死体、
+　みんな学校の対魔忍だ……」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍たちが串刺しにされて絶命している。
+惨い光景に、俺は思わず左目を歪めた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「なんてひどいことを！！！
+　こんなこと、いったい誰が……」
+<PAUSE>
+<NAME_PLATE>土橋権左
+「ほお、これはこれは本家のお坊ちゃん」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<ACTOR>0,o_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「権左……！！！
+　やはりお前の仕業か……！！！」
+<PAUSE>
+<NAME_PLATE>権左
+「当たり前よ。この“槍の権左”に
+　かかりゃあ、ひよっこ対魔忍ごとき、
+　何人だってこの通りさぁ」
+<PAUSE>
+<NAME_PLATE>俺
+「くっ……」
+<PAUSE>
+<NAME_PLATE>
+　厄介な奴に出くわしたと、俺は身構える。
+<PAUSE>
+<NAME_PLATE>
+　この土橋権左は、
+二車骸佐の家に代々仕える執事で、
+“槍の権左”と恐れられる対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　本来執事は家中や家来衆をまとめる、
+いわば頭脳系の職なのだが――
+この権左はまったく違う。
+<PAUSE>
+<NAME_PLATE>
+　主の言うまま、命じるがままに、
+槍を振るい、躊躇なく人を殺す。
+それが権左だ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「やばい人がいるわね……どうする？」
+<PAUSE>
+<NAME_PLATE>権左
+「へえ、蛇子嬢までいるのか。久しいなあ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>鹿之助
+「お、お、おい、知り合いかよ！！？
+　仮にも昨日まで仲間だった対魔忍を、
+　こんな……」
+<PAUSE>
+<ACTOR>0,o_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「なんだぁ？　このチビ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいっ！！！」
+<PAUSE>
+<NAME_PLATE>権左
+「仲間も家族も関係ねえ。
+　俺はただの主人の槍。
+　命に従って殺すだけだ」
+<PAUSE>
+<SE_PLAY>se004
+<ACTOR>0,o_t002c,CENTER, CENTER, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　権左は槍をまっすぐ構えた。
+<PAUSE>
+<NAME_PLATE>俺
+「で、俺たちも殺せって言われてるのか」
+<PAUSE>
+<ACTOR>0,o_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「正確には違うな。
+　『ここを通る奴、全部殺せ』――だ」
+<PAUSE>
+<ACTOR>0,o_t002a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「だってよ。どうする鹿之助」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,125
+<NAME_PLATE>鹿之助
+「俺かよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「俺と蛇子はあいつをよく知ってる。
+　同じ一門だからな。
+　相当にヤバい奴だぜ、勝機はわずかだ」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍でありながら、権左の忍法を
+知る者はいないという。つまり槍だけで充分
+忍法を使う必要もないほど強いということか。
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「で、で、でも、俺たちは
+　アサギ先生を助けにいかなきゃならない！」
+<PAUSE>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「骸佐のことも止めなきゃね」
+<PAUSE>
+<NAME_PLATE>権左
+「俺はどっちでもいいぜ。
+　墓標が三つ増えるだけの事だ」
+<PAUSE>
+<NAME_PLATE>俺
+（作戦は、ある――）
+<PAUSE>
+<NAME_PLATE>
+　俺は蛇子と鹿之助に目配せした。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004c,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「じゃあ、ここは押し通るぜ」
+<PAUSE>
+<ACTOR>0,o_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「クク、面白い」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　その言葉を合図に、
+蛇子、鹿之助はさっと左右に動く。
+<PAUSE>
+<NAME_PLATE>
+　権左の強さはよく知っている。
+正面から戦うのは得策ではない。蛇子の墨で
+視界を奪い、戦闘を避けて押し通る作戦だ。
+<PAUSE>
+<BGM_STOP>1500
+<NAME_PLATE>
+　しかし――
+<PAUSE>
+<ACTOR>0,o_t002a,CENTER, CENTER, OUT, linear, 100
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.5,500
+//　※権左の立ち絵消える
+<NAME_PLATE>蛇子
+「！！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「どどどどどうなってるんだ！？」
+<PAUSE>
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>
+　二人に挟まれる格好になっていた権左が
+忽然と消えた。
+<PAUSE>
+<NAME_PLATE>権左
+『クク……素人の戦術だな』
+<PAUSE>
+//　※立ち絵なし台詞のみ
+<NAME_PLATE>俺
+「何だと！！？」
+<PAUSE>
+<NAME_PLATE>
+　声だけはするが、権左の姿はどこにもない。
+<PAUSE>
+<NAME_PLATE>権左
+『対魔忍との戦闘では、
+　まず敵の忍法を知る事だって
+　ガキの時に散々教えたよな？』
+<PAUSE>
+<NAME_PLATE>
+　声と共に、微かな地響きがしたかと思うと、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 500
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　土煙とともに、権左が地中から飛び出した。
+場所は――蛇子の真後ろだ！
+<PAUSE>
+<GROUP>
+<ACTOR>1,o_t002c,RIGHT, RIGHT, IN, linear, 500
+<ACTOR>2,h_t004d,LEFT, LEFT, IN, linear, 500
+</GROUP>
+<NAME_PLATE>蛇子
+「嘘でしょお！！？」
+<PAUSE>
+<ACTOR>1,o_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「俺の忍法を知らねえのに仕掛けるのが
+　愚策だって言ってんだ！　喰らえ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se006
+<ACTOR>2,h_t004d,LEFT, LEFT, OUT, linear, 0
+<ACTOR>1,o_t002c,RIGHT, RIGHT, OUT, linear, 0
+<BG>ef004a,NONE
+</GROUP>
+<EFFECT_QUAKE>HORIZONTAL,0.5,1000
+//　※立ち絵
+//　　土橋権左戦闘立ち絵＿対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「蛇子！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふんっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se013
+<BG>ef009b,NONE
+<EFFECT_QUAKE>HORIZONTAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　しかし鋭敏な吸盤センサーを持つ
+蛇子だけあって、権左の奇襲攻撃を寸前で
+避け、振り返り様にタコ足キックを放つ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「タコ足だからって舐めないでね！！」
+<PAUSE>
+<NAME_PLATE>
+　タコ足はそのパワーも
+恐るべき能力の一つだ。
+<PAUSE>
+<NAME_PLATE>
+　タコの足は９０％が筋肉でできていて、
+貝殻を粉砕するほどの力がある。
+<PAUSE>
+<NAME_PLATE>
+　そんなタコ足が人間サイズに
+なっているのだ。その威力は凄まじい。
+<PAUSE>
+<NAME_PLATE>
+　ところが――
+<PAUSE>
+<SE_PLAY>se011
+<BG>nc010a,IN, 0
+<ACTOR>0,o_t002c,CENTER, CENTER, IN, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>蛇子
+「きゃああああッっ！！！！？」
+<PAUSE>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドシャアァッ！！！
+<PAUSE>
+<NAME_PLATE>
+　ぶつ切りにされたタコ足が
+音をたてて地面へ落ちる。
+<PAUSE>
+<NAME_PLATE>
+　権左の目にもとまらぬ一閃が、
+蛇子のタコ足を切断したのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（速い……！！）
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　そのまま権左は俺へと迫る。
+<PAUSE>
+<NAME_PLATE>俺
+（しまった、狙いは俺か――！）
+<PAUSE>
+<NAME_PLATE>
+　実質、俺たちの中でまともな戦力は
+蛇子だけである。その蛇子を真っ先に
+処理して、本丸である俺を狙うというわけか。
+<PAUSE>
+<NAME_PLATE>俺
+（槍にばかり注意を払い過ぎていた……。
+　あれは明らかに土遁の術）
+<PAUSE>
+<NAME_PLATE>俺
+（土中からの奇襲によって
+　完全に“先”を取られた。
+　こちらが仕掛ける前に！！）
+<PAUSE>
+<NAME_PLATE>俺
+（ハハ！　そうか！　権左の忍法が誰にも
+　知られていないワケが分かったぞ！）
+<PAUSE>
+<NAME_PLATE>俺
+（知った時、そいつは死んでいるからだ！
+　この俺のように……！！！）
+<PAUSE>
+<NAME_PLATE>
+　一瞬の間に、恐るべき饒舌さで思考が
+駆け抜けていく。
+<PAUSE>
+<NAME_PLATE>
+　しかし、体が動かない。動いても、
+間に合わない。権左の槍が点となって迫った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t002c,CENTER, CENTER, OUT, linear, 300
+<BG_OUT>500
+</GROUP>
+<NAME_PLATE>俺
+（クソっ！！！
+　これが死ぬってやつなのかよ――）
+<PAUSE>
+//【黒画面】
+<NAME_PLATE>？？？
+「ハァァッ！！！」
+<PAUSE>
+<SE_PLAY>se007
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>俺
+（……？）
+<PAUSE>
+//【背景：五車学園＿校舎裏の森２＿昼】//【時間：昼】
+<BG>nc010a,IN, 1000
+<ACTOR>0,t_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様！！！！」
+<PAUSE>
+//　※立ち絵
+//　　時子イラスト流用立ち絵
+<NAME_PLATE>俺
+「時子！！！！」
+<PAUSE>
+<NAME_PLATE>
+　寸前で俺を救ったのは、
+時子のクナイであった。
+<PAUSE>
+<NAME_PLATE>権左
+「へっ！！！　いたのか時子さんよぉ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　権左は時子の姿を認めると、
+ちっと舌打ちして槍を下ろした。
+<PAUSE>
+<NAME_PLATE>俺
+「助かったぜ時子……」
+<PAUSE>
+<ACTOR>0,t_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「お館様、待機してるよう
+　申し上げたはずです。
+　蛇子ちゃん含めて後でお説教です」
+<PAUSE>
+//　※立ち絵
+//　　新時子戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ、お説教でも何でも受けるさ。
+　だから、ここは任せていいか」
+<PAUSE>
+<ACTOR>0,t_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「何をなさるおつもりですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐を止める。ふうまの当主としてな」
+<PAUSE>
+<ACTOR>0,t_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　時子は少し驚いた顔をしたが、
+すぐに厳しい教師の――いや、
+執事の顔に戻った。
+<PAUSE>
+<ACTOR>0,t_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「……御意。戦うしか能のない
+　二車の筋肉馬鹿執事など、
+　この時子にお任せください」
+<PAUSE>
+<ACTOR>0,t_t003c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,o_t002e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>権左
+「けっ！　言ってくれるねえ！
+　目抜け当主のカタブツ執事さんがよぉ！！」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　ふうま宗家の執事と、
+ふうま八将・二車家の執事が対峙する。
+<PAUSE>
+<NAME_PLATE>
+　そう、時子は教師でありながら俺のふうま
+宗家の執事だ。俺の腹違いの姉でもある。
+事情があって、執事の家に育ったが。
+<PAUSE>
+<ACTOR>0,t_t003f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「さあお館様、早く校舎へ！」
+<PAUSE>
+//【黒画面】
+//【背景：五車学園＿校舎裏の森２＿昼】//【時間：昼】
+<BGM_STOP>1500
+<TRANSITION>TR54, OUT, 1000
+<ACTOR>2,o_t002e,LEFT, LEFT, OUT, linear, 0
+<ACTOR>0,t_t003c,RIGHT, RIGHT, OUT, linear, 0
+<NAME_PLATE>
+　権左を時子に任せ、
+俺たちは校舎への道を急いだ。
+<PAUSE>
+<TRANSITION>TR54, IN, 1000
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>俺
+「蛇子、足は再生できたか？」
+<PAUSE>
+<ACTOR>0,h_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ええ、このとおりね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　切られた足はすっかり元通りだ。
+蛇子のタコ足は再生能力があり、
+切られてもしばらくするとまた生えてくる。
+<PAUSE>
+<ACTOR>0,h_t004a,CENTER, RIGHT, NONE, linear, 1500
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「気持ち悪いけどすげえよなあ……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はというと、タコ足に
+興味津々な様子で指でつついている。
+<PAUSE>
+<ACTOR>0,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ちょっと、一応痛いんだから
+　優しくしなさいよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+（死にかけたっていうのに、
+　なんだかんだ度胸あるよなこいつら）
+<PAUSE>
+<NAME_PLATE>
+　しかし、こいつらが戦力になるのは
+嬉しい誤算だ。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、校舎へ突入するぞ！！！」
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,h_t004e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section２終了

@@ -1,0 +1,1099 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：海岸3＿昼】【時間：昼】
+//　※遠くにホテル
+//　※水着のシモベ君_nc014aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc314a,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「待てーーーー！！
+　この小動物ども！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリム
+「待てと言われて待つ奴がいるか！
+　おやびんのばーーか！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ばーか、ばーーか！
+　おしりぺんぺーん！」
+<PAUSE>
+//　※立ち絵
+//　　【お気楽夢魔】リリム＿立ち絵
+//　　　＊カードイラストより流用
+//　　ミナサキ立ち絵
+//　　　＊カードイラストより流用
+//　※二人並べてください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「くそっ、あいつら！」
+<PAUSE>
+<NAME_PLATE>
+　リリムとミナサキは羽があるのをいいことに
+スイスイと飛んで逃げていく。
+<PAUSE>
+<NAME_PLATE>
+　こっちは砂浜をそれも裸足で
+走らなければならない。
+<PAUSE>
+<NAME_PLATE>
+　しかもビーチには人がいっぱいだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は突然こちらによろけてきた
+三人にぶつかりそうになる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m193a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m192a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m191a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>例の三人組
+「あ、危ねえだろっっ」
+「は、は、走ってんじゃねえよ」
+「こっちはもう、うっ、ギリギリなんだよ」
+<PAUSE>
+//　※立ち絵
+//　　トロール(ナンパ男)
+//　　　＊既存加工イラストより流用
+//　　オーク(ナンパ男)
+//　　　＊既存加工イラストより流用
+//　　忍熊(ナンパ男)
+//　　　＊既存加工イラストより流用
+//　※三体並べてください
+<NAME_PLATE>俺
+「あっ、すいませ……なんだお前らか」
+<PAUSE>
+<NAME_PLATE>
+　去年、このビーチで見かけ、
+ちょっと前のゲーム大会でも見た三人組だ。
+<PAUSE>
+<NAME_PLATE>
+　だが三人ともやけに顔色が悪いし、
+声にもまったく力がない。
+<PAUSE>
+<NAME_PLATE>オーク
+「テ、テメエはいつかの！
+　また俺たちの邪魔を……うっ」
+<PAUSE>
+<NAME_PLATE>トロール
+「そんなことより、
+　ど、どっかにトイレねえか！？」
+<PAUSE>
+<NAME_PLATE>熊
+「俺たち三人とも急に、は、腹が」
+<PAUSE>
+<NAME_PLATE>俺
+「腹？」
+<PAUSE>
+<NAME_PLATE>
+　ぎゅるぎゅるぎゅる。
+あ……なんか鳴ってるな。
+<PAUSE>
+<NAME_PLATE>俺
+「ひょっとしてあいつから
+　アイスキャンディーを買わなかったか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は向こうでホバリングしながら
+こちらを伺っている二人を指さした。
+<PAUSE>
+<NAME_PLATE>オーク
+「か、買った！　ついさっきだ！」
+<PAUSE>
+<NAME_PLATE>トロール
+「最初の客だから安くしとくからって！」
+<PAUSE>
+<NAME_PLATE>熊
+「そしたら急に……ううっ」
+<PAUSE>
+<NAME_PLATE>俺
+「もう少し先に海の家がある。
+　まあ頑張れ」
+<PAUSE>
+<NAME_PLATE>限界ぎりぎりの三人組
+「「「すまねえっ！」」」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　三人は腹を押さえながら
+よろよろと海の家に向かっていく。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと間に合わない気もする。
+<PAUSE>
+<NAME_PLATE>俺
+「早くも犠牲者が。なんとかしないと」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリム
+「きゃははははは。
+　あいつら全員三つずつ食べたからな」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ふうまもゲリピーになっちゃえーー」
+<PAUSE>
+//　※立ち絵
+//　　【お気楽夢魔】リリム＿立ち絵
+//　　　＊カードイラストより流用
+//　　ミナサキ立ち絵
+//　　　＊カードイラストより流用
+//　※二人並べてください
+<NAME_PLATE>
+　リリムとミナサキはケラケラと笑っていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「なんて奴らだ」
+<PAUSE>
+<NAME_PLATE>
+　今まで色々と悪事をしてきたが、
+これは最大級にたちが悪い。
+<PAUSE>
+<NAME_PLATE>
+　人の尊厳にかかわる。
+なんとしても止めなければ。
+<PAUSE>
+<NAME_PLATE>
+　だが、また追いかけようとした時、
+目の前をスーッと妙なものが横切った。
+<PAUSE>
+//　※立ち絵
+//　　スィール
+//　　　＊モンスターイラストより流用
+//　　カナロア
+//　　　＊モンスターイラストより流用
+//　※二体並べてください
+<GROUP>
+<ACTOR>0,ts_m167a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m166a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　去年、なぜかこのビーチに遊びに来ていた
+ノマド軍団のうちの一人、
+<PAUSE>
+<NAME_PLATE>
+　魔術師のエレーナが召喚してしまった
+化けイカと化け魚だ。
+<PAUSE>
+<NAME_PLATE>
+　その後、他でも出没が確認され、
+化けイカはカナロア、化け魚はスィールと
+命名されたが、
+<PAUSE>
+<NAME_PLATE>
+　去年の生き残りがいたのか？
+それともまた誰かが召喚したのか？
+<PAUSE>
+<NAME_PLATE>
+　どうする？
+あの小動物二人より先にこいつらを―――
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<ACTOR>0,chr_t0238a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女の子
+「ふぁわぁぁ～～～～いぃっ♪
+　サカナさん、イカさん！
+　君も一緒に乗ろうよぉ、これで遊ぼう？」
+<PAUSE>
+//　※立ち絵
+//　　【大波チョコ波】セシリア・チェロ
+//　　　＊カードイラストより流用。
+<NAME_PLATE>女の子
+「ほら！　後ろに乗って！
+　行っくよぉ～、レッツゴー！！」
+<PAUSE>
+<NAME_PLATE>カナロア＆スィール
+「……♪　……♪」
+「……♪　……♪」
+<PAUSE>
+<NAME_PLATE>女の子
+「あはははは！
+　楽し～～ね～～～～～！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　カナロアとスィールは
+巨大なバナナフロートに乗った女の子と
+楽しそうに遊び始めた。
+<PAUSE>
+<NAME_PLATE>
+　相当に妙な光景だが、
+どう見てもじゃれ合っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「どうなってんだ？
+　あいつらここに居着いたのか？」
+<PAUSE>
+<NAME_PLATE>
+　さしあたり危険はなさそうだな。
+ならばリリムとミナサキだ。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リリム
+「やーい、のろまのふうまー。
+　追いつけるもんなら追いついてみろー」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「のろまのふうまには
+　無理だろうけどねーーー」
+<PAUSE>
+//　※立ち絵
+//　　【お気楽夢魔】リリム＿立ち絵
+//　　　＊カードイラストより流用
+//　　ミナサキ立ち絵
+//　　　＊カードイラストより流用
+//　※二人並べてください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　空飛ぶ二人はどんとん遠ざかっていく。
+<PAUSE>
+<NAME_PLATE>
+　確かに追いつけそうにない。
+<PAUSE>
+<NAME_PLATE>俺
+「くそ……だめか……」
+<PAUSE>
+<NAME_PLATE>
+　諦めかけたその時、
+<PAUSE>
+<ACTOR>0,chr_t0343a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仲森奈々華
+「いっちにいっちにいっちにいっちに！」
+<PAUSE>
+//　※立ち絵
+//　　【熱血ビーチ】仲森奈々華
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　元気な声が聞こえてきた。
+<PAUSE>
+<NAME_PLATE>
+　二人の行く手から砂塵を巻き上げ、
+股上げ走でやってくるのは、
+仲森奈々華（なかもりななか）先輩だ。
+<PAUSE>
+<NAME_PLATE>俺
+「チャンスだ！
+　奈々華せんぱーーい！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は大声を出した。
+<PAUSE>
+<NAME_PLATE>奈々華
+「いっちにいっちに……あれ？　ふうま君？
+　こんにちはーー！！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華先輩は少しもスピードを緩めず、
+こっちに手を振った。
+<PAUSE>
+<NAME_PLATE>俺
+「そいつらを捕まえてください！！
+　リリムとミナサキ！
+　ビーチの平和を乱す大悪党です！！」
+<PAUSE>
+<NAME_PLATE>奈々華
+「大悪党！？　了解です。
+　捕まえますね！！」
+<PAUSE>
+<NAME_PLATE>
+　さすが話が早い。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　奈々華先輩はダッシュをかける。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「ふうまの味方だな。
+　へへーん、ボクたちが捕まるもんか」
+<PAUSE>
+<NAME_PLATE>リリム
+「この天空の覇者、
+　リリムちゃんとミナサキちゃんを
+　捕まえられるものなら―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>奈々華
+「とりゃああああああああ！！！」
+<PAUSE>
+<NAME_PLATE>リリム＆ミナサキ
+「「へっ！？」」
+<PAUSE>
+<NAME_PLATE>
+　奈々華先輩はスピードに乗って
+大ジャンプ。
+<PAUSE>
+<NAME_PLATE>
+　二人の手前の砂浜に
+思いっきりパンチを打ち込んだ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どがああああああああああん！！
+<PAUSE>
+<NAME_PLATE>
+　ものすごい音がして、
+大量の砂が噴き上がり、
+<PAUSE>
+<NAME_PLATE>リリム＆ミナサキ
+「「うわあああーーーーーー！！」」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　天空の覇者どもは巻き込まれて墜落。
+あえなく御用となった。
+<PAUSE>
+<BG>nc314a,IN, 500
+<NAME_PLATE>
+　とりあえず奈々華先輩が持っていた
+縄跳びの縄で二人の手首を固く縛り上げる。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>ミナサキ
+「くそーー。離せー！
+　ふうまのサディスト！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「離せ、ばかふうまーー！！
+　この緊縛マニア！！」
+<PAUSE>
+//　※立ち絵
+//　　【お気楽夢魔】リリム＿立ち絵
+//　　　＊カードイラストより流用
+//　　ミナサキ立ち絵
+//　　　＊カードイラストより流用
+//　※二人並べてください
+<NAME_PLATE>俺
+「やかましい」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ごつん、ごつん。
+<PAUSE>
+<NAME_PLATE>リリム
+「あいたあっ！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ぎゃふんっ！」
+<PAUSE>
+<NAME_PLATE>
+　とりあえず頭に一発ずつ拳骨を入れておく。
+<PAUSE>
+<ACTOR>0,chr_t0343a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「この二人なにをしたんですか？」
+<PAUSE>
+//　※立ち絵
+//　　【熱血ビーチ】仲森奈々華
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「それがですね……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>クラクル
+「こらーーーー！！」
+<PAUSE>
+//　※立ち絵
+//　　【浜辺の猫】クラクル
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　説明しようとしたところで、
+去年と同じく騒ぎを聞きつけて、
+クラクルがやって来た。
+<PAUSE>
+<NAME_PLATE>俺
+「おお、ちょうどいいところに」
+<PAUSE>
+<NAME_PLATE>クラクル
+「やっぱり騒ぎを起こしたのかニャ！」
+<PAUSE>
+<NAME_PLATE>俺
+「それを未然に防いだんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「下剤入りアイスを売りさばき、
+　さらにそれを治す薬を売って、
+　儲けようとした連中だ」
+<PAUSE>
+<ACTOR>0,chr_t0239a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0343a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>奈々華
+「それは極悪非道ですね」
+<PAUSE>
+//　※立ち絵
+//　　【熱血ビーチ】仲森奈々華
+//　　　＊カードイラストより流用
+<NAME_PLATE>クラクル
+「下剤入りアイス？」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは首をかしげつつ、
+リリムのクーラーボックスから一本取り出し、
+<PAUSE>
+<NAME_PLATE>クラクル
+「ぺろっ……まずいニャ。
+　確かに何か入ってるニャ」
+<PAUSE>
+<NAME_PLATE>クラクル
+「こっちの箱は下痢止めニャ。
+　なるほど、良からぬ企みを感じるのニャ」
+<PAUSE>
+<NAME_PLATE>リリム
+「うう、おのれーー。
+　どうしてこういつもいつも」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ふうまさえいなければ。
+　ううーー、悔しい」
+<PAUSE>
+<NAME_PLATE>俺
+「悪巧みを考えるからだ」
+<PAUSE>
+<NAME_PLATE>クラクル
+「なるほど分かったニャ。
+　これは見過ごせないのニャ」
+<PAUSE>
+<NAME_PLATE>俺
+「後はよろしく頼む。
+　正義のライフセーバー」
+<PAUSE>
+<NAME_PLATE>クラクル
+「任せろニャ。
+　ところでこの大穴はだれの仕業ニャ？」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは奈々華先輩がぶん殴ってできた
+ビーチの穴を指さした。
+<PAUSE>
+<NAME_PLATE>
+　悪党を五、六人は
+生き埋めにできそうなくらい
+広くて深い。
+<PAUSE>
+<NAME_PLATE>奈々華
+「ええと、それは……」
+<PAUSE>
+<NAME_PLATE>
+　真面目な奈々華先輩は
+正直に答えようとするが、
+それには及ばない。
+<PAUSE>
+<NAME_PLATE>俺
+「それもこいつらの仕業だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「う、うそだ！！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「それはボクたちのせいじゃない！！」
+<PAUSE>
+<NAME_PLATE>リリム
+「アイスだってまだ三人にしか売ってない！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「そうだそうだ！」
+<PAUSE>
+<NAME_PLATE>クラクル
+「言い訳は向こうで聞くのニャ」
+<PAUSE>
+<NAME_PLATE>俺
+「穴は元に戻しておく。
+　ビーチの平和のためにな」
+<PAUSE>
+<NAME_PLATE>クラクル
+「ご協力感謝するニャ！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　クラクルは二人を引っ張っていく。
+<PAUSE>
+<NAME_PLATE>リリム
+「ふうま、おぼえてろーー」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「おぼえてろ、ふうまーー」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　なんか喚いているがいつものことだ。
+気にしないことにしよう。
+<PAUSE>
+<NAME_PLATE>
+　これにて一件落着。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>1,chr_t0343a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>奈々華
+「すいません、かばってくれて」
+<PAUSE>
+<NAME_PLATE>俺
+「俺の方こそ助かりました。
+　しかし、でかい穴ですね。
+　さすが奈々華先輩」
+<PAUSE>
+<NAME_PLATE>奈々華
+「ちょっとやりすぎちゃいました。
+　すぐに埋めておきますね。
+　ちょうどいいトレーニングですから」
+<PAUSE>
+<NAME_PLATE>俺
+「今日はトレーニングですか」
+<PAUSE>
+<NAME_PLATE>
+　奈々華先輩はビーチバレーの選手のような
+スポーティーな水着姿だ。
+<PAUSE>
+<NAME_PLATE>
+　スタイルも素晴らしいのだが、
+それ以上に鍛え上げられた肉体に圧倒される。
+<PAUSE>
+<NAME_PLATE>奈々華
+「ふうま君もどうですか？
+　砂浜の千本ダッシュからの遠泳１０キロ。
+　楽しいですよ」
+<PAUSE>
+<NAME_PLATE>
+　なんかすごいことを言っている。
+<PAUSE>
+<NAME_PLATE>
+　千本ダッシュの時点でやれる気がしないし、
+万が一やれても間違いなく海で溺れる。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いえ、遠慮します。
+　小さい子を向こうに置いてきてますので」
+<PAUSE>
+<NAME_PLATE>奈々華
+「それは面倒を見ないとダメですね。
+　それじゃまた！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　奈々華先輩は爽やかに言って、
+大穴にばっさばっさと砂を入れ始めた。
+<PAUSE>
+<NAME_PLATE>
+　まるで人間ショベルカーだ。
+でも奈々華先輩にとっては準備運動だろう。
+<PAUSE>
+//【背景：海岸1＿昼】【時間：昼】
+//　※波打ち際
+//　※水着のシモベ君_nc014aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0133a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さっきの場所に戻ってくると、
+ゆきかぜが怖い顔をしていた。
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なにやってんのよ。
+　二人のこと見ててって言ったでしょ」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ水着＿立ち絵
+//　　＊決戦アリーナ【雷撃の休日】水城ゆきかぜを加工して流用
+<NAME_PLATE>俺
+「すまん、実は―――」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「リリムとミナサキがまた悪巧みを
+　働いてたってんでしょ？
+　クリアに聞いた」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなんだ。
+　ごめんな、クリア、カラス。
+　ほったらかしにして」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「へいき。
+　クリア、お姉さんだから」
+<PAUSE>
+//　※立ち絵
+//　　クリア・ローベル＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>カラス
+「……？　……？」
+<PAUSE>
+//　※立ち絵
+//　　ヤタガラス族の子供＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「なんだカラス？」
+<PAUSE>
+<NAME_PLATE>
+　小さな鳥の目が
+なにか聞きたそうにしている。
+<PAUSE>
+<NAME_PLATE>クリア
+「ミナサキちゃんはどうなったかって」
+<PAUSE>
+<NAME_PLATE>俺
+「クラクルに引っ立てられていった。
+　まあ犠牲者は最小限ですんだし、
+　大目玉を食らう程度ですむだろう」
+<PAUSE>
+<NAME_PLATE>クリア
+「よかったね」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪　……♪」
+<PAUSE>
+<NAME_PLATE>
+　カラスは安心したようだが、
+ゆきかぜは軽く溜息を吐いていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それが問題なのよね。
+　二人とも一度監獄にでも入れて
+　大反省させたほうがいいわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「特にリリムの方。
+　ふうまがアミダハラ監獄から
+　連れ出したりするから」
+<PAUSE>
+<NAME_PLATE>俺
+「俺のせいかよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　別に好きで連れ出したわけじゃない。
+<PAUSE>
+<NAME_PLATE>
+　ユフィとソフィという別の意味でやっかいな
+双子の鬼娘を保護したら、
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄にいたリリムまで
+くっついてきたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「それにいいのか？
+　あいつはアミダハラ監獄で
+　破壊王ユキカゼを自称してたんだぞ」
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それはそれですごい嫌だけど。
+　まあいいわ。お昼にしましょ。
+　はい、ふうまの分も買っといたから」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ゆきかぜが大きな紙箱を差し出した。
+<PAUSE>
+<NAME_PLATE>俺
+「おっ、サンキュ」
+<PAUSE>
+<NAME_PLATE>
+　ハンバーガーにポテトのセット。
+それも東京とかにある良い店の高そうな奴だ。
+飲物はコーラだった。
+<PAUSE>
+<NAME_PLATE>
+　砂浜に大きなシートを敷いて座り、
+お昼ご飯になった。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはここでも
+保護者モード全開だった。
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「クリア。ほら口の横。
+　ケチャップついてる」
+<PAUSE>
+<NAME_PLATE>クリア
+「ん……」
+<PAUSE>
+<NAME_PLATE>
+　クリアの汚れた口を
+ナプキンで拭いてあげたり、
+<PAUSE>
+<NAME_PLATE>カラス
+「～～～～～～」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「どうしたのカラス？
+　あーー、ジュースこぼしちゃったんだ。
+　しょうがないわね、これ飲んでいいわよ」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いきなり紙コップを倒してしまったカラスに
+自分の分をあげたりと、
+<PAUSE>
+<NAME_PLATE>
+　自分が食べるよりも、
+二人のことを気にしている。
+<PAUSE>
+<NAME_PLATE>
+　こうなると
+俺も横で呑気にハンバーガーを
+かじってるわけにはいかず、
+<PAUSE>
+<NAME_PLATE>カラス
+「……！　……！　……！」
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「カラス、ちゃんと手を使って。
+　そんな啄まないの。
+　周りに飛び散ってるでしょ」
+<PAUSE>
+<NAME_PLATE>俺
+「そっちの方が食べやすいのかな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　カラスの鳥食いで飛び散った食べかすを
+こまめに拭いてやったり、
+<PAUSE>
+<NAME_PLATE>クリア
+「もぐもぐ、もぐもぐ……」
+<PAUSE>
+<NAME_PLATE>俺
+「クリア、気をつけろ。
+　今にも肉が落ちそうだぞ」
+<PAUSE>
+<NAME_PLATE>クリア
+「え？　ありがと……えへへ」
+<PAUSE>
+<NAME_PLATE>
+　クリアの手には大きすぎるハンバーガーから
+肉がずるっと外にはみ出て転落するという
+悲劇を未然に防いだり、
+<PAUSE>
+<NAME_PLATE>カラス
+「～～～！　～～～！」
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なに？　おトイレ？」
+<PAUSE>
+<NAME_PLATE>俺
+「みたいだな。俺が連れてくよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ほんと？　じゃよろしく」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　途中でトイレに行きたくなったカラスを
+海の家に連れて行ったりしていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「ごちそうさまっ」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪」
+<PAUSE>
+<NAME_PLATE>クリア
+「カラスちゃん、いこっ！」
+<PAUSE>
+<NAME_PLATE>カラス
+「……♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「二人とも遠くに行っちゃだめよ。
+　あとカラスは海に入らないこと」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0088a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m079a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クリア
+「はーい」
+<PAUSE>
+<NAME_PLATE>カラス
+「……！　……！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人が食事を終えて
+こっちはようやく一段落だ。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ俺たちも落ち着いて飯食うか」
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ごめん。
+　食べてる暇なかったわね」
+<PAUSE>
+<NAME_PLATE>俺
+「いいよいいよ。
+　今日は保護者だしな。
+　家ではいつもあんなか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「爺がいるからもうちょっと楽だけど、
+　爺はほら、あてになるとこもあるけど」
+<PAUSE>
+<NAME_PLATE>俺
+「あてにならないとこもありそうだな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あはは、結構ね。
+　でもさ、なんか思い出しちゃった」
+<PAUSE>
+<NAME_PLATE>俺
+「なにを？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「小さかった頃のこと。
+　お父さんとお母さんと一緒にこの海に来て、
+　あんな風にしてもらってたなあって」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「えへへ―――ぱくっ。
+　あっ、これすごく美味しい」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは嬉しそうな顔で
+自分のハンバーガーをパクついている。
+<PAUSE>
+<NAME_PLATE>
+　そういう意図は全然ないんだろうが、
+この状況でお父さんとお母さんみたいって、
+なんか恥ずかしいな。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、うん。そうか……」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なにその反応？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、別に……」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは怪訝そうにモグモグしていたが、
+パッと顔を赤くして、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「あっ、か、勘違いしないでよ。
+　別にふうまと私がお父さんとお母さんとか
+　そういうんじゃ全然ないから！」
+<PAUSE>
+<NAME_PLATE>俺
+「分かってるよ。
+　そんなこともあったなって
+　思い出しただけだろ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そ、そうよ。
+　決まってるじゃないの！」
+<PAUSE>
+<NAME_PLATE>
+　あのな、口に出すなよ。
+余計照れくさいだろうが。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　おかげで二人とも
+なんとなく意識してしまって、
+その後は無言で食事だ。
+<PAUSE>
+<NAME_PLATE>俺
+「……ごちそうさま」
+<PAUSE>
+<ACTOR>0,yu_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あ……うん」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　まだちょっと照れくさい。
+ゆきかぜもこっちを見ない。
+俺は背を向けてごろんと寝転んだ。
+<PAUSE>
+//【背景：青空＿昼】【時間：昼】
+//　※水着のシモベ君_nc013aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc305a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　初めのうちは後ろにいる
+ゆきかぜをかなり意識していたが、
+<PAUSE>
+<NAME_PLATE>
+　海からの心地よい風で
+次第に気にならなくなり、
+<PAUSE>
+<NAME_PLATE>
+　腹一杯になったこともあって、
+うとうとしていると、
+<PAUSE>
+//【背景：荒廃した魔都・東京近郊のビーチ＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC102aより流用
+//nc451a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc451a,IN, 1000
+<ACTOR>0,chr_t0340a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>女の子
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　【海辺のつよつよヤタガラス】ハツカゼ
+//　　＊カードイラストより流用
+<NAME_PLATE>
+　誰かが俺を覗き込んでいた。
+<PAUSE>
+<NAME_PLATE>
+　女の子だ。
+<PAUSE>
+<NAME_PLATE>
+　でも知らない顔だ。
+<PAUSE>
+<NAME_PLATE>俺
+「誰だ？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女の子
+「～～～～～～～～～～～～～～っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　女の子は俺と目が合うと
+顔を真っ赤にして逃げていった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　なんだ、今の子？
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いつまでだらっとしてるのよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、うん……」
+<PAUSE>
+<NAME_PLATE>
+　さっきの気まずさなどなかったような
+ゆきかぜの声に身体を起こす。
+<PAUSE>
+<NAME_PLATE>俺
+「あれ？」
+<PAUSE>
+<NAME_PLATE>
+　人が全然いない。
+<PAUSE>
+<NAME_PLATE>
+　っていうか、どこだここ？
+あのビーチじゃないぞ。
+<PAUSE>
+<ACTOR>0,chr_t0341a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「未来のビーチにようこそ」
+<PAUSE>
+//　※立ち絵
+//　　【水着】大人ゆきかぜ
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えええええ！？」
+<PAUSE>
+<NAME_PLATE>
+　そこにいたのは、大人のゆきかぜだ。
+<PAUSE>
+<NAME_PLATE>
+　また俺は未来に来ていた。
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,604 @@
+//=================================================================
+//FileNo:S002a
+//【背景：東京キングダム路地裏＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc002aより流用
+//nc077a
+<BGM_PLAY>bgm304,1000
+<BG>nc077a,IN, 1000
+<NAME_PLATE>
+　魔薬。
+<PAUSE>
+<NAME_PLATE>
+　魔界医療や魔術によって培われた、
+まさしく禁断の薬。
+<PAUSE>
+<NAME_PLATE>
+　その作用は多岐にわたり、
+精力増強剤や惚れ薬のようなものから、
+至上の夢を見ながら死ねる自殺薬まで。
+<PAUSE>
+<NAME_PLATE>
+　いずれも効果は強力で、
+魔族の流入と共に人間界に広がり、
+その中毒者を増やしている。
+<PAUSE>
+<ACTOR>0,ts_m102a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ツバキ
+（それを……
+　肉体の強化に使ったのか）
+<PAUSE>
+//　※立ち絵
+//　　ツバキ
+//　　　　＊カードイラストより流用
+//既存
+<NAME_PLATE>
+　極端にやつれた顔と、
+不自然に発達した筋肉は、
+どちらも魔薬の作用によるものだろう。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「ほォらァ！！
+　斬り込んでこないのかァい！？」
+<PAUSE>
+//　※立ち絵
+//　　袁鹿角
+//　　　　＊ボスモンスターイラストより流用
+//ts_m102a
+<GROUP>
+<SE_PLAY>se006
+<ACTOR_OUT>0,CENTER,linear,400
+<BG>ef006c,IN, 500
+</GROUP>
+<NAME_PLATE>
+　シャァッ！！
+<PAUSE>
+<NAME_PLATE>ツバキ
+「くっ……！？」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<BG>ef001a,IN, 500
+</GROUP>
+<NAME_PLATE>
+　ギィン！
+<PAUSE>
+<NAME_PLATE>
+　袁鹿角の鋭い一撃を、
+ツバキの剣が間一髪で弾く。
+<PAUSE>
+<BG>nc077a,IN, 500
+<ACTOR>0,ts_m102a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　増強された筋力で繰り出される鹿角刀は、
+一撃でも喰らえば致命傷になる。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「防いでばっかりじゃァ、
+　そのうち死んじゃうよォ……？」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR_OUT>0,CENTER,linear,400
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<BG>ef002a,IN, 500
+</GROUP>
+<WAIT>800
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<BG>ef002b,IN, 500
+</GROUP>
+<NAME_PLATE>
+　ギィン！
+ガギィィン！！
+<PAUSE>
+<NAME_PLATE>
+　二人の攻防の激しさに、
+ふうまの下忍たちは入り込む隙もなく、
+遠巻きに見るばかりだ。
+<PAUSE>
+<BG>nc077a,IN, 500
+<ACTOR>0,ts_m102a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>袁鹿角
+「あハハハ～～～ハァ！
+　動くゥ！　力が！　漲る～～ゥ！
+　楽しいねェ！！！」
+<PAUSE>
+<NAME_PLATE>
+　興が乗ったらしき袁鹿角は、
+笑い声を上げながら、
+ヒュンヒュンと大きな鹿角刀を振り回す。
+<PAUSE>
+<NAME_PLATE>ツバキ
+（適当に振り回しているように見えるが、
+　一撃一撃が精密だ）
+<PAUSE>
+<NAME_PLATE>
+　などと考えながらも、
+防戦一方のツバキはどんどん圧され、
+路地の隅へと追いやられてしまった。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「もらったァ～～～ァ！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿角刀の一撃が鋭く迫る。
+<PAUSE>
+<NAME_PLATE>ツバキ
+（きた――）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,400
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<BG>ef001a,IN, 500
+</GROUP>
+<NAME_PLATE>
+　ガキィン！！！！！
+<PAUSE>
+<NAME_PLATE>
+　ツバキはこれを待っていた。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<BG>ef005a,IN, 500
+</GROUP>
+<NAME_PLATE>
+　その武器を刀で受けて大きく弾き返し、
+出来た隙に渾身の反撃を叩き込む――
+<PAUSE>
+<NAME_PLATE>
+　しかし、
+<PAUSE>
+<BG>nc077a,IN, 500
+<ACTOR>0,ts_m102a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>袁鹿角
+「あハハハァ！！　いいね～～～ェ……
+　痛いのァ好きだよォォ！！！」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「何ッ……！！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se039
+<NAME_PLATE>
+　バキィィッ！！！！
+<PAUSE>
+<NAME_PLATE>
+　なんと彼はツバキの刃の先を、
+素手で掴んで圧し折り――
+<PAUSE>
+<SE_PLAY>se028
+<NAME_PLATE>ツバキ
+「ぐうう……っ！？」
+<PAUSE>
+<NAME_PLATE>
+　その剣先を持ったまま、
+ツバキの腹に拳を打ち込む。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「う……っ！？
+　うああ……が……ッ！？」
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「ひはは～ァ……肉ゥ、暖か～ィ……
+　臓物、暖かいィ……！！」
+<PAUSE>
+<NAME_PLATE>
+　袁鹿角は恍惚の表情で、
+グリグリとツバキの腹を抉る。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ツバキ
+「痛ッあ……！！？
+　ああっ！！　あああああっ……！」
+<PAUSE>
+<NAME_PLATE>
+　ツバキの顔が苦悶に歪み、
+血の気が引いていく。
+<PAUSE>
+<NAME_PLATE>
+　そのまま気を失い、倒れる――
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「ははァ！　終わりだねェ！！！
+　つまんないね～～ェ！？
+　～～～～ア？」
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「……えェ？　何……？」
+<PAUSE>
+<NAME_PLATE>
+　かと思われたが、
+動きが止まったのは男の方だ。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「あ……ア？
+　あああ……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ガクガクと震え、筋肉は萎み、
+脱力しながらも、
+ツバキの腹から拳を引き抜けない。
+<PAUSE>
+<NAME_PLATE>
+　逆に彼が、
+ツバキの腹に吸いつけられているように。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「こォ……れェ……は……ァ」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「ふん……」
+<PAUSE>
+<NAME_PLATE>
+　対して、見上げたツバキの頬には、
+鮮やかな血色が戻っている。
+<PAUSE>
+<NAME_PLATE>
+　ツバキは自らの腹から、
+袁鹿角の腕を引き抜くと、
+その身を放り上げ――
+<PAUSE>
+<SE_PLAY>se001
+<NAME_PLATE>袁鹿角
+「うッぐうううッ！！！」
+<PAUSE>
+<NAME_PLATE>
+　刀の峰でしたたかに叩きつけた。
+<PAUSE>
+<NAME_PLATE>
+　その間にも、
+ツバキの腹に空いた大穴は塞がり、
+身体は活力を取り戻している。
+<PAUSE>
+<ACTOR>1,tk_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>袁鹿角
+「なん……一体、なんだァ今のォ……」
+<PAUSE>
+<NAME_PLATE>
+　無残に地面に叩きつけられた男は、
+呻いて気絶した。
+<PAUSE>
+<NAME_PLATE>
+　これがツバキの神髄。
+<PAUSE>
+<NAME_PLATE>
+　自らの血液を操り武器とする、
+彼女の忍法だ。
+<PAUSE>
+<NAME_PLATE>
+　魔の力に目覚めてからは、
+相手の傷から血を奪い、その血で
+自身の治癒や強化もできるようになった。
+<PAUSE>
+<NAME_PLATE>
+　その力で傷を癒したツバキは、
+自身の血の流れを加速して身体能力を高め、
+一瞬のうちに袁鹿角を倒したのだった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ツバキ
+「――あの男は見抜いていたがな」
+<PAUSE>
+<NAME_PLATE>
+　ツバキは小さく呟いて、
+剣を鞘に納めた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<SE_PLAY>se122
+<NAME_PLATE>
+　――パチ、パチ、パチ……
+<PAUSE>
+<ACTOR>1,tk_t001a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>2,o_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>権左
+「勝負ありだ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵
+//既存
+<NAME_PLATE>
+　権左が満足そうに笑みを浮かべ、
+手を叩きながらツバキの前へ進み出る。
+<PAUSE>
+<NAME_PLATE>権左
+「見事だねえ！
+　とても人間の力とは思えん」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「……次はお前か？　権左よ」
+<PAUSE>
+<ACTOR>2,o_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「そうだ――と言いたいとこだが、
+　今日はここまでだ」
+<PAUSE>
+<ACTOR>2,o_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「お前らももういいよな？」
+<PAUSE>
+<NAME_PLATE>
+　権左はふうまの下忍たちを見回して問う。
+<PAUSE>
+<NAME_PLATE>権左
+「それとも、
+　まだツバキに挑む奴はいるか？」
+<PAUSE>
+<NAME_PLATE>下忍たち
+「……」
+「……」
+<PAUSE>
+//　※立ち絵
+//　　ふうま土遁衆
+//　　　　＊モンスターイラストより流用
+//　　ふうま火遁衆（男）
+//　　　　＊モンスターイラストより流用
+//既存
+<NAME_PLATE>
+　進み出る者はいなかった。
+多くは、骸佐とともに学園から来たような、
+若い対魔忍たちだ。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「さて、権左よ。
+　どういうつもりか聞かせてもらおう」
+<PAUSE>
+<NAME_PLATE>権左
+「言った通りだ。
+　傭兵風情がデカイ顔してるのを、
+　面白く思わねぇ奴もいるって」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「それはさっき聞いた」
+<PAUSE>
+<NAME_PLATE>権左
+「……じゃあ詳しく説明してやるぜ。
+　こいつら、ここにいる奴らは」
+<PAUSE>
+<NAME_PLATE>権左
+「五車での暮らしを捨てて、
+　決死の思いでお館様についてきた。
+　親兄弟を置いてきた奴だっている」
+<PAUSE>
+<NAME_PLATE>権左
+「そんな自分たちを差し置いて、
+　傭兵のあんたが重用されてるのが、
+　気に入らねえってこった」
+<PAUSE>
+<NAME_PLATE>権左
+「まあ、とはいえ、
+　今のお館様には、
+　あんたの力が必要なのも事実」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「……だから納得させるために、
+　わかりやすく力を示させた、か」
+<PAUSE>
+<ACTOR>2,o_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「その通り」
+<PAUSE>
+<NAME_PLATE>権左
+「これで、こいつらもわかっただろう。
+　あんたの力が、
+　俺たちに必要だって事が」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「理由はわかった。
+　しかし、それはそっちの事情だ」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「それでヤク中と戦わされて、
+　私が納得するとでも？」
+<PAUSE>
+<ACTOR>2,o_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「ははは！　そりゃそうだな。
+　もちろんタダとは言わねえ」
+<PAUSE>
+<ACTOR>2,o_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　権左は札束をツバキに投げる。
+<PAUSE>
+<NAME_PLATE>権左
+「傭兵に剣を振るわせたら、
+　礼はしねえとな」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「……」
+<PAUSE>
+<NAME_PLATE>
+　ツバキは受け取ったそれを、
+ざっと目で勘定すると、
+<PAUSE>
+<NAME_PLATE>ツバキ
+「次はないぞ」
+<PAUSE>
+<NAME_PLATE>
+　と、自らの荷物に仕舞い、
+権左に向けていた殺気を治めた。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「しかし、この男は……？」
+<PAUSE>
+<NAME_PLATE>
+　ツバキは倒れている袁鹿角を指差す。
+<PAUSE>
+<ACTOR>2,o_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「放っとけよ」
+<PAUSE>
+<NAME_PLATE>権左
+「龍門からも部下からも
+　とっくに見放されてたらしい」
+<PAUSE>
+<NAME_PLATE>権左
+「金で簡単に寝返ってくれた――
+　とはいえ、あの体たらくでなぁ。
+　もう使い物にはならんだろう」
+<PAUSE>
+<NAME_PLATE>
+　権左は苦笑する。
+寝返らせたはいいが扱いに困ったこの男を、
+殺されても構わないとツバキにぶつけたのだ。
+<PAUSE>
+<ACTOR>2,o_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「昔は、いっぱしの武術家としても、
+　知られた男だったっていう話だがな……」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「…………そうか」
+<PAUSE>
+<NAME_PLATE>
+　なるほど、その衣服や武器には、
+武侠らしき面影が見える。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「薬などに頼らず修行していれば、
+　さぞよい武芸者になっただろうに」
+<PAUSE>
+<NAME_PLATE>権左
+「その程度の奴だったってことだ」
+<PAUSE>
+<ACTOR>2,o_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「じゃあな、この事は、
+　お館様には内緒にしといてくれよ！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>2,LEFT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　権左は下忍たちを促して去って行った。
+残されたのは、ツバキ一人。
+――否、
+<PAUSE>
+<NAME_PLATE>ツバキ
+「いつまで狸寝入りしている？」
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「…………」
+<PAUSE>
+//　※倒れているので、ここでは立ち絵なし
+<NAME_PLATE>ツバキ
+「……
+　トドメを刺しておくとするか」
+<PAUSE>
+<ACTOR>0,ts_m102a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>袁鹿角
+「ひィ！？　勘弁してくれェ！
+　もう降参だァ！
+　あんたに逆らう気はないよォ！？」
+<PAUSE>
+//　※立ち絵
+//　　袁鹿角
+//　　　　＊ボスモンスターイラストより流用
+//　　　※立ち絵ここから
+//ts_m102a
+<NAME_PLATE>
+　袁鹿角は、慌ててがばりと起き上がる。
+<PAUSE>
+<NAME_PLATE>
+　萎んだ風船のようだったその肉体は、
+いつの間にかすっかり回復していた。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「たいした回復力だな。魔薬とやらの力か？」
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「そ、そうだァ……」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「袁鹿角と言ったな。
+　貴様の武芸、なかなかのものだった」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「薬を断ち、また修行する気になったら、
+　いつでも相手をしよう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se082
+</GROUP>
+<ACTOR>0,ts_m102a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　ツバキはそう言うと、
+袁鹿角に背を向けて歩き出した。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「……あんたァ……」
+<PAUSE>
+<NAME_PLATE>
+　その背を見つめる袁の瞳に光が宿る。
+<PAUSE>
+<NAME_PLATE>
+　それは曇りなき武芸者の目。
+強者と正々堂々打ち合いたいという、
+純粋な望みの光。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「待ってくれ！
+　俺……わ、私は……」
+<PAUSE>
+//　　※一人称ブレはわざとです。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>袁鹿角
+「くそっ！　薬なんざァ！
+　こんなもの……ッ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　彼は肌身離さず持っていた、
+魔薬の包みを投げ捨てようとする。
+<PAUSE>
+<NAME_PLATE>
+　投げ捨てようとする。
+<PAUSE>
+//　　※わざと重複させた文です
+<NAME_PLATE>
+　何度も、投げ捨てようとするが。
+<PAUSE>
+<NAME_PLATE>
+　意志に反し、手は包みを握りしめたまま、
+放そうとはしなかった。
+<PAUSE>
+<NAME_PLATE>袁鹿角
+「ああ、ああああッ！！！
+　くそォォ！！
+　薬、薬ィ……！！」
+<PAUSE>
+<NAME_PLATE>
+　袁はしなしなとその場に倒れ込み、
+魔薬を抱き締めて泣きじゃくる。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　そんな彼から目を逸らすと、
+ツバキは黙って歩き始める、
+<PAUSE>
+<NAME_PLATE>
+　「薬ィ――！！」という狂乱の叫びが、
+彼女の耳から遠ざかっていった。
+<PAUSE>
+//→エピローグ終了
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

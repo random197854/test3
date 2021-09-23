@@ -1,0 +1,241 @@
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：ブローカーの店＿迷宮】【時間：昼】
+//　※監獄アカデミアの背景NC011bより流用
+<NAME_PLATE>
+　俺達は次々とドアを開けて
+先に進んでいった。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se052
+<BG>nc102a,IN, 1000
+</GROUP>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　だが――そこに現れるのは、
+常に全く変わらない奇妙な部屋。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「また同じ部屋……気味が悪い……」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿汎用立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用
+<NAME_PLATE>俺
+「ああ。まさに迷宮だな、こりゃ……」
+<PAUSE>
+<NAME_PLATE>
+　俺と獅子神は顔を見合わせて
+ため息をついた。
+<PAUSE>
+<NAME_PLATE>俺
+「気を付けろよ、獅子神。
+　この迷宮、体力が尽きる前に
+　頭が変になっちまう奴も多いらしい」
+<PAUSE>
+<NAME_PLATE>自斎
+「私は平気。お前の方こそ……って、
+　そっちも平気そうね」
+<PAUSE>
+<NAME_PLATE>俺
+「は？　なぜ？」
+<PAUSE>
+<NAME_PLATE>自斎
+「なんか見るからに図太そうだし」
+<PAUSE>
+<NAME_PLATE>俺
+「……そ、それは良い意味で、だよな？」
+<PAUSE>
+<NAME_PLATE>
+　と、そこに尚之助が声をかけてくる。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「しかし……小太郎様、本当にこの道順で
+　合っているのでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「わからん」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>二人
+「は？」
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「魔女の伝記に道順が
+　書いてあったわけじゃないしな。
+　ま、何か出るまで進んでみるさ」
+<PAUSE>
+<NAME_PLATE>自斎
+「……お前、やっぱり大した性格してる」
+<PAUSE>
+<NAME_PLATE>俺
+「い、良い意味でだよな……？」
+<PAUSE>
+//【黒画面】
+//　※演出
+//　　暗転→迷宮背景表示などで同じ部屋が続いている描写をお願いします。
+//【背景：ブローカーの店＿迷宮】【時間：昼】
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<WAIT>500
+<SE_PLAY>se052
+<BG>nc102a,IN, 1000
+<WAIT>500
+<BG_OUT>1000
+<WAIT>500
+<SE_PLAY>se052
+<BG>nc102a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、また同じ奇妙な部屋が続いていく。
+<PAUSE>
+<NAME_PLATE>俺
+「……ところで獅子神」
+<PAUSE>
+<NAME_PLATE>
+　黙って歩いていても気が滅入る。
+俺は隣を歩く獅子神に声をかけた。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「なに？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「おしっこ大丈夫か？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>自斎
+「はぁ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、ずっと同じ部屋が続いて
+　トイレもないからな。心配になって」
+<PAUSE>
+<NAME_PLATE>自斎
+「……ご心配なく。ぜんぜん平気」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか。でも、したくなったら遠慮なく
+　その辺でしてこいよ。
+　俺と尚之助は見て見ぬふりをするから」
+<PAUSE>
+<NAME_PLATE>自斎
+「ありがとう。その時は、お前達の目と耳を
+　潰してからその辺でするわ」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、それは…………
+　早くここを出ないとな！！」
+<PAUSE>
+<NAME_PLATE>
+　さっきガラにもなく熱くなったこともあり、
+場を和ます小粋なジョークを
+言ってみたのだが……。
+<PAUSE>
+<NAME_PLATE>
+　獅子神には単に変態だと
+思われてしまったようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、それと――」
+<PAUSE>
+<NAME_PLATE>自斎
+「……なに？」
+<PAUSE>
+<NAME_PLATE>
+　獅子神が冷たい声で聞き返してくる。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、今度は普通の質問って言うか……
+　その仮面は、なんで付けてるんだ？」
+<PAUSE>
+<NAME_PLATE>
+　獅子神の顔の上半分を隠すように
+覆っている無機質な仮面。
+<PAUSE>
+<NAME_PLATE>
+　最初に彼女を見た時から気になっていた。
+<PAUSE>
+<NAME_PLATE>自斎
+「あ……これは……」
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「ああ。それは私も不思議でした」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　先に立っていた尚之助が振り返って言う。
+<PAUSE>
+<NAME_PLATE>尚之助
+「それ、ただの仮面ではありませんよね。
+　強い呪力を感じる」
+<PAUSE>
+<NAME_PLATE>自斎
+「………………迷惑を掛けないためよ」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「迷惑……？」
+<PAUSE>
+<NAME_PLATE>自斎
+「そう。私が単独で動く理由でもあるし、
+　五車で私を知る人が少ない理由でもある」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「ふむ。獅子神、もしやお前の忍法って――」
+<PAUSE>
+<NAME_PLATE>
+　その時、
+俺の話を遮るように尚之助の鋭い声。
+<PAUSE>
+<BGM_PLAY>bgm207,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>尚之助
+「――小太郎様、警戒を！！
+　また召喚が始まったようです！！」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>4,ts_m064a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>
+　俺達の行く手を遮るように
+鬼火の群れが湧き出していた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+<ACTOR_OUT>4,CENTER,linear,1000
+</GROUP>
+//→Section３-ＭＡＰ画面１へ
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,718 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//※バニーＫの回想から
+//【背景：バルトリング家の大広間＿昼（モノクロノイズ）】【時間：昼】
+//　※女剣闘士ミネルヴァ_nc005aより流用加工
+//nc447b
+<BGM_PLAY>bgm314,1000
+<BG>nc447b,IN, 1000
+<ACTOR>0,i_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「はああああああっっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵（モノクロノイズ）
+//　　　＊カードイラストより流用加工
+//　※画面加工
+//　すでに過去の記憶が薄れているという設定のため、背景と立ち絵をそれぞれ加工して、古いモノクロ映画のフィルムにいくつも傷が走っていて、画面が見えにくくなっているという風に加工をお願いします。
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　大剣が振り下ろされた。
+<PAUSE>
+<NAME_PLATE>
+　目の前に黒い炎が立ち上る。
+<PAUSE>
+<NAME_PLATE>
+　魔剣ダークフレイムが発する炎だ。
+<PAUSE>
+<NAME_PLATE>
+　全身を黒炎に包まれた人影が
+スローモーションのように倒れていく。
+<PAUSE>
+<ACTOR>0,i_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　そして彼女が振り返った。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　魔界騎士イングリッド。
+<PAUSE>
+<NAME_PLATE>
+　その瞳が私をじっと見据えた。
+<PAUSE>
+//【背景：カジノ＿メンテナンスルーム＿昼】【時間：昼】
+//　※漂流艦獄クロノス_nc006aより流用
+//nc457a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc457a,IN, 1000
+<ACTOR>0,ts_m297a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>バニーＫ
+「……っ！！」
+<PAUSE>
+//　※立ち絵
+//　　バニーＫ＿立ち絵（武器なし）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ヨミハラの
+大カジノ“Ｂｕｎｎｙ　Ｋｉｎｇｓ”のボス、
+バニーＫは機械の目を開けた。
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「またかっ……！」
+<PAUSE>
+<NAME_PLATE>
+　同じ夢だ。
+<PAUSE>
+<NAME_PLATE>
+　あの女の夢。
+<PAUSE>
+<NAME_PLATE>
+　最近、ますます酷くなってきている。
+<PAUSE>
+<NAME_PLATE>バニーＫ
+「魔界騎士イングリッド、
+　この私が必ず殺してやる」
+<PAUSE>
+<NAME_PLATE>
+　バニーＫはその言葉を噛みしめる。
+<PAUSE>
+<NAME_PLATE>
+　今もなお尽きぬその強い感情。
+<PAUSE>
+<NAME_PLATE>
+　生身であった頃を思い出したかのように、
+サイボーグとなった身体が熱く震えた。
+<PAUSE>
+//【背景：五車町全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC007aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc162b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　時同じくして―――。
+<PAUSE>
+//【背景：五車学園＿校門前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　五車学園の教師であり、
+ヨミハラ町内会の会長でもある対魔忍、
+高坂静流は井河アサギを尋ねていた。
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC009aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc006a,IN, 1000
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>井河アサギ
+「イングリッドの暗殺計画？」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　その話を聞いたアサギは
+驚くというより呆れた顔になった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それも無理はない。
+<PAUSE>
+<NAME_PLATE>
+　魔族の最大勢力ノマド、その大幹部にして
+吸血鬼エドウィン・ブラックの腹心中の腹心、
+魔界騎士イングリッド。
+<PAUSE>
+<NAME_PLATE>
+　彼女を狙う者は多い。
+<PAUSE>
+<NAME_PLATE>
+　しかし“最強の魔界騎士”という
+シンプルな異名に偽りはなく、
+その配下も魔族の精鋭揃い。
+<PAUSE>
+<NAME_PLATE>
+　最悪、ノマド全てを
+相手にする覚悟がなければ、
+その首など狙えるものではない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,a_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>高坂静流
+「バニーＫはどうやら本気のようです」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　静流は独自のネットワークでバニーＫが
+イングリッド暗殺を計画していることを掴み、
+それを報告しにきたのだった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ヨミハラで一二を争う
+　カジノのボスよね」
+<PAUSE>
+<NAME_PLATE>
+　まだ訝しげなアサギに
+静流は説明した。
+<PAUSE>
+<NAME_PLATE>静流
+「少し前にミスター・フールの
+　『ラビリンス』が潰れたので、
+　今のところまずトップと言っていいです」
+<PAUSE>
+<NAME_PLATE>静流
+「格式もラビリンスよりは上で、
+　毎年８月２１日、バニーの日だそうですが」
+<PAUSE>
+<NAME_PLATE>静流
+「その日に盛大なパーティーを開催して、
+　ヨミハラの名士が大勢集まっています」
+<PAUSE>
+<NAME_PLATE>静流
+「イングリッドも呼ばれていたはずです。
+　最近は出席していないようですが」
+<PAUSE>
+<NAME_PLATE>アサギ
+「それは以前から暗殺を警戒して？」
+<PAUSE>
+<NAME_PLATE>
+　静流は首を振った。
+<PAUSE>
+<NAME_PLATE>静流
+「少し前から参加者はみなバニー服を
+　着用する仮装パーティになったとかで。
+　多分それを嫌がったのかと」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ああ、イングリッドはそういうのには
+　出ないでしょうね」
+<PAUSE>
+<NAME_PLATE>
+　納得したように頷くアサギに
+静流は少し皮肉っぽい顔をして、
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「今年は私も呼ばれると思います。
+　ヨミハラ町内会の会長として。
+　せいぜいサービスしてきます」
+<PAUSE>
+<ACTOR>0,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それも任務のうちね。お疲れさま」
+<PAUSE>
+<GROUP>
+<ACTOR>0,a_t001c,LEFT, LEFT, NONE, linear, 0
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<NAME_PLATE>アサギ
+「でもそんな馬鹿な仮装パーティを催しても
+　名士がぞろぞろやって来るくらいの地位を
+　バニーＫはヨミハラで築いているのね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そんな上り調子のカジノのボスが
+　どうしていきなりイングリッドの命を？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「別にノマドと敵対しているわけでは
+　なかったと記憶しているけれど？」
+<PAUSE>
+<NAME_PLATE>静流
+「ノマドに限らず、どことも中立を保っていた
+　ヨミハラにしては健全な組織だったのですが、
+　なぜかいきなりその気になったようで……」
+<PAUSE>
+<NAME_PLATE>
+　アサギと同じく
+静流も困惑気味の表情になった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「目的は？
+　どこか別の組織との繋がりは？」
+<PAUSE>
+<NAME_PLATE>静流
+「今のところ不明です」
+<PAUSE>
+<NAME_PLATE>静流
+「ただ私の調べた限り、理由はどうあれ
+　バニーＫがイングリッドの命を
+　狙っているのは間違いないようです」
+<PAUSE>
+<NAME_PLATE>アサギ
+「困ったことになったわね」
+<PAUSE>
+<NAME_PLATE>静流
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　溜息を吐くアサギに、静流も同感だった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「イングリッドは五車と敵対している
+　ノマドの大幹部だけど」
+<PAUSE>
+<NAME_PLATE>アサギ
+「あのフュルストなんかと比べると
+　穏健派で話の分かる相手よ。
+　もし今、彼女が暗殺でもされたら……」
+<PAUSE>
+<NAME_PLATE>
+　静流はその後を継いで言った。
+<PAUSE>
+<NAME_PLATE>静流
+「ノマドはもちろん、
+　ヨミハラ全体が大混乱になりますね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「それは五車の望む事態ではないわ。
+　高坂静流、あなたに命じます」
+<PAUSE>
+<NAME_PLATE>アサギ
+「イングリッド暗殺を阻止すると共に、
+　なぜバニーＫが彼女を狙っているのか、
+　その計画に裏があるのか調べなさい」
+<PAUSE>
+<NAME_PLATE>静流
+「分かりました。
+　いざとなれば私がバニーＫを」
+<PAUSE>
+<NAME_PLATE>アサギ
+「それもやむを得ないわね」
+<PAUSE>
+<NAME_PLATE>
+　静流とアサギ、教師二人は頷きあった。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc122a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　バニーＫのそんな企みとは関係なく、
+ヨミハラの住人は気ままな日常を過ごしていた。
+<PAUSE>
+//【背景：静流の店＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC045aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>chrnc0101a,IN, 1000
+<ACTOR>0,ts_m036a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>オーク
+「へっへっへ。グィネヴィアちゃん、
+　今日もいい尻してんなあ」
+<PAUSE>
+//　※立ち絵
+//　　オーク
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ぺろん♪
+<PAUSE>
+<ACTOR>0,ts_m293b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>グィネヴィア
+「きゃっ、やめてください。
+　うちはそういうお店じゃありません」
+<PAUSE>
+//　※立ち絵
+//　　グィネヴィア＿メイド服
+//　　　＊対魔忍RPGイラストより流用
+<NAME_PLATE>
+　グィネヴィアは常連のオークに
+お尻を撫でられて飛び上がった。
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「もう怒りますよ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m036a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク
+「うわ、やっべえ。
+　グィネヴィアちゃんに怒られちまう」
+<PAUSE>
+<NAME_PLATE>オーク
+「怒った顔も可愛いねえ。
+　その顔を肴にぐびっと。
+　くーーー、たまんねえな」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「ふざけないでくださいっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　グィネヴィアは精一杯声を荒げたが、
+酔っ払いたちはそれを見てまた喜んでいる。
+<PAUSE>
+<ACTOR>0,ts_m293b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「んもーーーーっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　彼女がこの店で働くようになって
+まだ日が浅い。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの酔っ払いを相手にするには
+まだまだ経験が足りないようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m293b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク
+「かたいこと言うなって。
+　減るもんじゃねえんだからよ」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「なに言ってるんですか。減りますよ。
+　私のハートがゴリゴリ減ってます！」
+<PAUSE>
+<NAME_PLATE>オーク
+「そいつはいいや。
+　じゃあもっとゴリゴリ減らしてみるか。
+　今度はその可愛いおっぱいを―――」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「ちょっといい加減に！　え？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　また別の酔っ払いオークが
+グィネヴィアの胸に手を伸ばしたその時。
+<PAUSE>
+<SE_PLAY>se117
+<NAME_PLATE>
+　シュルシュルシュルシュル―――。
+<PAUSE>
+<NAME_PLATE>
+　いきなりオークの足元から蔦が伸びてきて、
+その身体をぐるぐる巻きにしていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーク
+「なんだなんだこりゃ！？
+　ぐうっ……動けねえじゃねえか？」
+<PAUSE>
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「まったく。
+　少し私がいないとこれだから。
+　グィネヴィア、留守番お疲れさま」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　現れたのは、五車から帰ってきた静流だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m293b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「あっ、店長！」
+<PAUSE>
+<NAME_PLATE>オーク
+「ちぇっ。
+　おっかねえのがもう戻って来やがった。
+　静流、コイツを解いてくれよ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　珍しいことではないのだろう。
+簀巻きになったオークは
+少し困った程度の顔だ。
+<PAUSE>
+<ACTOR>1,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「駄目よ。
+　しばらくそうやって反省してなさい」
+<PAUSE>
+<NAME_PLATE>オーク
+「そんなこと言わねえでよお」
+<PAUSE>
+<ACTOR>1,sz_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「グィネヴィア、こういう手合いには
+　あなたの魔法でおしおきしていいわよ」
+<PAUSE>
+<ACTOR>1,sz_t003b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m293b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　静流にそう言われて、
+グィネヴィアの方が大分困った顔になり、
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「でも私の魔法まだちょっと制御が怪しくて、
+　ミリアム先生にも人に使うのは
+　やめておけと言われてるんですが」
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「ちょうどいいじゃない。
+　じゃあちょっとこの草だけを
+　魔法で消してみなさい」
+<PAUSE>
+<ACTOR>1,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「それで違うところがちょっと消えたり、
+　吹き飛んだりしてもいいから。
+　後始末は私がしてあげる」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「そうですか？
+　じゃあ、やってみます！」
+<PAUSE>
+<NAME_PLATE>オーク
+「お、おい！？」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「ええと、分解消失の魔法は
+　確かこのポーズから―――
+　ん？　なんか違うような？　まあいいか」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　新人の少女、グィネヴィアは
+かなり危なっかしく魔法の準備に入った。
+<PAUSE>
+<NAME_PLATE>オーク
+「ちょっ、待て。勘弁してくれ！！
+　悪かった。俺が悪かった。
+　この通りだ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　胸を触ろうとしたオークが悲鳴をあげ、
+酔っぱらいたちはゲラゲラと笑い出した。
+<PAUSE>
+//【黒画面】
+//【背景：静流の店＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC045aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、閉店後。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,ts_m293a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>グィネヴィア
+「店長、お疲れさまでした。
+　お先に失礼します」
+<PAUSE>
+//　※立ち絵
+//　　グィネヴィア＿普段着
+//　　　＊対魔忍RPGイラストより流用
+<NAME_PLATE>
+　店の掃除を終え、服も着替えた
+グィネヴィアがぺこりと頭を下げた。
+<PAUSE>
+<ACTOR>1,sz_t003b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「お疲れさま、また明日ね」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>グィネヴィア
+「私これから春桃（シュンタオ）ちゃんの店で
+　なにか食べていくつもりですけど、
+　良かったら一緒にどうですか？」
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「せっかくだけど
+　ちょっと行くところがあるの。
+　ごめんなさい」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「あっ、ひょっとして
+　恋人さんの所とかですか？
+　帰ってきたばかりですものね」
+<PAUSE>
+<NAME_PLATE>静流
+「そんな浮いた話ならいいんだけどね。
+　ヨミハラ町内会会長のお仕事よ」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「うわっ、これからまだお仕事。
+　ええと、なにかお手伝いしましょうか？」
+<PAUSE>
+<NAME_PLATE>静流
+「大丈夫よ、一人で」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「そうですか。
+　それじゃ……ええと、頑張ってください」
+<PAUSE>
+<ACTOR>1,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「ありがとう。
+　あなたも夜食は程々にしておきなさいね。
+　太るのはすぐだけど戻すのは大変よ」
+<PAUSE>
+<NAME_PLATE>グィネヴィア
+「は、はいっ。
+　それじゃ、お疲れさまでした！」
+<PAUSE>
+<ACTOR>1,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「お疲れさま」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　グィネヴィアを見送って
+静流もすぐに店を出る。
+<PAUSE>
+<NAME_PLATE>静流
+「さて、お仕事お仕事」
+<PAUSE>
+<NAME_PLATE>
+　向かう先はノマド本部だ。
+<PAUSE>
+<NAME_PLATE>
+　まずはイングリッド本人に
+暗殺計画のことを教えるつもりだった。
+<PAUSE>
+//【背景：ヨミハラ闇の宮殿＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc017aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc279a,IN, 1000
+<ACTOR>0,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+（といっても、バニーＫのことがなくても、
+　最近のノマドはピリピリしてるのよね）
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵＿ホステス衣装
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>静流
+（そう簡単にイングリッドには
+　会わせてくれないでしょうね）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m052a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>門番
+「高坂静流？
+　飲み屋の店主がノマドに何の用だ！」
+<PAUSE>
+//　※立ち絵
+//　　ダークガート
+//　　　＊モンスターイラストより流用
+//　　ハイオーク
+//　　　＊モンスターイラストより流用
+//　　ハイオークチーフ
+<NAME_PLATE>静流
+（ほらやっぱり）
+<PAUSE>
+<NAME_PLATE>
+　門番の反応は予想通りだった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>1,sz_t003d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「今日は飲み屋の主としてじゃなくて、
+　ヨミハラ町内会の会長として来たの。
+　イングリッドに会わせて欲しいんだけど」
+<PAUSE>
+<ACTOR>0,ts_m052a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>門番
+「帰れ。
+　イングリッド様は貴様などに
+　お会いにならない」
+<PAUSE>
+<NAME_PLATE>静流
+「と言われて、はいそうですかと
+　帰るわけにはいかないのよね」
+<PAUSE>
+<NAME_PLATE>
+　静流は掌から薔薇の鞭を伸ばした。
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

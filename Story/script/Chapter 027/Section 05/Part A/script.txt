@@ -1,0 +1,161 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：路地裏＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc066a,IN, 1000
+//　※立ち絵
+//　　ダーマ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m202a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「えらいものが出てきましたね」
+<PAUSE>
+<NAME_PLATE>マヤ
+「あれは陸軍で正式採用しているダーマです。
+　まさかあんなものまで用意しているとは」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントあり）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　ダーマというその名の通り、
+ダルマのような丸っこいパワードスーツだ。
+<PAUSE>
+//　※立ち絵
+//　　ダーマ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　全長は３メートルほど。
+刺客の生き残りを惨殺したのは
+右腕の機銃だろう。
+<PAUSE>
+<NAME_PLATE>
+　左腕からはカッターが生え、
+背中にはランチャーまで付いている。
+<PAUSE>
+<NAME_PLATE>
+　さすがＳＦ世界らしく、
+現実の米連のパワードスーツなどより
+洗練されたデザインだ。
+<PAUSE>
+<NAME_PLATE>
+　奴は隠れた俺たちをすぐに探そうとはせず、
+倒れた刺客が本当に死んでいるか
+確かめている。
+<PAUSE>
+<NAME_PLATE>
+　きっと最初からあの刺客もろとも俺たちを
+殺すつもりだったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「これで救援をお願いします。
+　俺はなんとか時間稼ぎをしてみます」
+<PAUSE>
+<NAME_PLATE>
+　俺は出がけにアリシアに持たされた
+緊急用の通信機を渡した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,my_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「そんな無茶です。
+　いくらあなたの腕が立つといっても
+　生身であれに敵うわけがありません」
+<PAUSE>
+<NAME_PLATE>俺
+「そうでもないですよ。
+　あの手のを相手にするのは
+　初めてじゃないですし」
+<PAUSE>
+<NAME_PLATE>マヤ
+「まさかそんな？」
+<PAUSE>
+<NAME_PLATE>俺
+「それが対魔忍です。
+　そのマントとレーザーガンを
+　貸してもらえますか？」
+<PAUSE>
+<ACTOR>0,my_t001c,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>マヤ
+「どうするのです？　このマントでは
+　ダーマの機銃は防げませんし、
+　レーザーガンも通用しないでしょう」
+<PAUSE>
+//　※立ち絵
+//　　マヤ汎用立ち絵＿皇女衣装装（マントなし）
+//　　　　　＊監獄戦艦2より流用
+<NAME_PLATE>
+　と言いつつ、マヤは素早くマントを外して、
+レーザーガンとともに俺に渡してくれた。
+<PAUSE>
+<NAME_PLATE>俺
+「なあに道具は使いようです」
+<PAUSE>
+<NAME_PLATE>俺
+「敵はここに俺たちを
+　誘い込んだつもりかもしれませんが、
+　そうでもないことを教えてやりますよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ここに隠れていてください。
+　俺になにがあっても
+　絶対に出てこないように」
+<PAUSE>
+<NAME_PLATE>マヤ
+「フーマ……」
+<PAUSE>
+<NAME_PLATE>
+　マヤは俺の手をギュッと握った。
+まるで行くなと言っているようだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m202a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダーマ
+「―――――――――」
+<PAUSE>
+//　※立ち絵
+//　　ダーマ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　仲間の死亡確認が終わったのだろう。
+ダーマが頭をこちらに向けて、
+俺たちを探し始めている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「無差別にぶっ放されでもしたら面倒だ。
+　行きます」
+<PAUSE>
+<NAME_PLATE>
+　俺はマヤの手を静かに離した。
+<PAUSE>
+<ACTOR>0,my_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「……頼みます」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はしっかりと頷き、
+マヤから離れた所まで物陰を移動してから、
+さっと敵の前に躍り出た。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ここにいるぞ！」
+<PAUSE>
+<ACTOR>0,ts_m202a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ダーマ
+「――――――」
+<PAUSE>
+<NAME_PLATE>
+　ダーマの目がギラリと光った。
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

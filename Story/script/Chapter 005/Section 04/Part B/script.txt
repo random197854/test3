@@ -1,0 +1,158 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+//
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm303,1000
+<BG>nc054a,IN, 1000
+<ACTOR>0,rn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「よし、もう大丈夫だぞ上原」
+<PAUSE>
+//　※立ち絵
+//　　凜子通常立ち絵_対魔忍衣装
+<ACTOR>0,rn_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t001h,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ひぃぃ怖かったようううううう」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「お前、どこ行ってたんだ？
+　俺とは別の次元に飛ばされてたのか」
+<PAUSE>
+<ACTOR>1,s_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「筋トレしてたとき、なんだか急に景色が
+　変わってさ、気がついたらごつごつの石が
+　立ち並ぶ森で……」
+<PAUSE>
+<ACTOR>1,s_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あの化物たちに捕まって
+　夕飯のオカズにされそうになったんだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃ大変だったな……」
+<PAUSE>
+<ACTOR>1,s_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「お！？　ていうか、
+　ここは五車学園の正門！？
+　俺、戻って来れたんだな！」
+<PAUSE>
+<NAME_PLATE>俺
+「残念ながら………鹿之助、あれを見ろ……」
+<PAUSE>
+<GROUP>
+<ACTOR>0,rn_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,s_t001d,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>2,ws_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺はそっと若いさくら先生を指差す。
+<PAUSE>
+<NAME_PLATE>さくら
+「ん？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>鹿之助
+「さ、さくら先生……？
+　なんか若くない！？！」
+<PAUSE>
+<ACTOR>2,ws_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「んん？　なんだ君、
+　兄弟そろって失礼だなあ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「や、やっぱり若いいいい！
+　てか兄弟……！？」
+<PAUSE>
+<ACTOR>2,ws_t005e,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>俺
+「あー鹿之助！　ちょっと耳貸せ！！
+　………ひそひそひそ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「はぁ？！　兄弟ぃ？！　ふうまとぉ？？」
+<PAUSE>
+<NAME_PLATE>俺
+「凜子先輩もだ！　いいから話合わせろ！！」
+<PAUSE>
+<ACTOR>2,ws_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「何をひそひそしてんの？」
+<PAUSE>
+<ACTOR>2,ws_t005e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「えっとぉ……し、失礼しましたぁ……
+　ま、末弟の、秋山鹿之助、ですぅ……」
+<PAUSE>
+<ACTOR>2,ws_t005b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「あはは！　いいよ、兄弟そっくりだね」
+<PAUSE>
+<ACTOR>1,s_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「えっ……そ、そっかなぁ………へへ……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は心外そうに眉を歪めた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ws_t005b,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,s_t001e,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<ACTOR>0,ts_m032a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブレインフレーヤー
+『虫けらたちよブラボー！！！
+　見事な戦闘力であったぞ！！！』
+<PAUSE>
+//　※立ち絵
+//　　ブレインフレーヤー立ち絵
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あっ！？　どこに隠れていやがった！！」
+<PAUSE>
+<NAME_PLATE>ブレインフレーヤー
+『十中八九血祭りに出来ると思ったが
+　何と厄介な虫けらである事か』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うわあああっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　タコ野郎の姿を見て、
+鹿之助は悲鳴をあげて後ずさった。
+<PAUSE>
+<NAME_PLATE>俺
+「落ち着け鹿之助、
+　こいつは口も見た目も悪いが敵意はない」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ち、違うよ！！！　こいつら知ってる！！
+　俺は向こうの世界でこいつらに
+　捕まってたんだぜ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「さっきの化物だって、
+　このタコ野郎の手先なんだ！！！」
+<PAUSE>
+<NAME_PLATE>凜子
+「！？　どういうことだ……？」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ts_m032a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section４終了

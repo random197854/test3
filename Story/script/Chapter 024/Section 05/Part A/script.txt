@@ -1,0 +1,826 @@
+//☆第24章【Section５】シナリオ
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：センザキ＿貨物船＿秘密実験室＿昼夜共通】【時間：夜】
+//　※監獄アカデミア_NC014aより流用
+//chrnc0090a
+<BGM_PLAY>bgm304,1000
+<BG>chrnc0090a,IN, 1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「――まったく大したもんよ。
+　よく頑張ったわね、あんた」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>
+　断続的に爆発音が轟く貨物船の中。
+<PAUSE>
+<NAME_PLATE>
+　エリカは呆然とした顔でこちらを
+見上げる男の子に手を差し出した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m126b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミランダ
+「――ヤスさん！　囚われている
+　他の子供たちをお願いします！」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>ヤス
+「りょ、了解っす！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>兵士
+「なっ、なんだ貴様ら！！？
+　あがっ！？　がはっ――」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊（男）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　米連特殊部隊（男）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　部屋の数か所で戦闘の物音。
+<PAUSE>
+<NAME_PLATE>
+　爆発を合図にしてエリカと同時に
+飛び込んできたヤスとミランダである。
+<PAUSE>
+<NAME_PLATE>
+　二人は混乱した兵士たちを無力化し、
+着実に研究室を制圧していく。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>男の子
+「お、お姉ちゃんたちなにもの……？」
+<PAUSE>
+<NAME_PLATE>エリカ
+「あー、正義の味方？
+　って感じでもないわね。
+　ただの通りすがりよ」
+<PAUSE>
+<NAME_PLATE>エリカ
+「私は傭兵のエリカ。向こうで
+　戦ってるのがミランダとヤス。
+　あんたたちを助けにきた」
+<PAUSE>
+<NAME_PLATE>男の子
+「俺たちを、助けに……？
+　どうして……？」
+<PAUSE>
+<NAME_PLATE>
+　まだ信じられないという顔で
+男の子が囁く。
+<PAUSE>
+<NAME_PLATE>
+　路上で貧しく暮らす子供たちは、
+大人に手を差し伸べられることに
+慣れていない。
+<PAUSE>
+<NAME_PLATE>エリカ
+「んん？　なぜ……？
+　そりゃあんた、お金のためよ。
+　決まってるじゃない」
+<PAUSE>
+<NAME_PLATE>男の子
+「お金？　でも俺たち、
+　そんなのちっとも持ってない」
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヤス
+「気にしなくていいっす！
+　その優しいお姉さんは、君たちが
+　心配でやって来ただけっす！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「こ、こらヤス！！？」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>
+　エリカが声を上げると、ヤスは
+「うへえっ！」と首をすくめて
+戦いに戻っていく。
+<PAUSE>
+<ACTOR>0,chr_t0153a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>男の子
+「お姉ちゃん、
+　俺たちのことが、心配で――」
+<PAUSE>
+<NAME_PLATE>エリカ
+「どーでもいいのよそんなこと！
+　とにかくこっから逃げるわよ！！」
+<PAUSE>
+<NAME_PLATE>エリカ
+「爆発で混乱してるけど
+　長くは時間を稼げない。
+　すぐに警備の兵士がやってくる」
+<PAUSE>
+<NAME_PLATE>エリカ
+「見たところあんたが一番年長で
+　腹も据わってるみたいね。
+　――手伝いなさい！！」
+<PAUSE>
+<NAME_PLATE>エリカ
+「捕まってる子供を全員助けて、
+　まとめて船の外まで連れていく！
+　できるわよね？」
+<PAUSE>
+<NAME_PLATE>男の子
+「う、うん……わかった！
+　俺やるよ、お姉ちゃん！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　エリカが差し出した手を、
+男の子がしっかりと握りしめた。
+<PAUSE>
+//【黒画面】
+//【背景：センザキ＿貨物船＿通路＿昼夜共通】【時間：夜】
+//　※監獄戦艦3_nc010aより流用
+//【背景：センザキ＿貨物船＿通路＿警報】【時間：夜】
+//　※監獄戦艦3_nc010bより流用
+//nc296a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc296a,IN, 1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc296b,IN, 1000
+<UI_DISP>ON, 0
+<SE_PLAY>se002_01
+<NAME_PLATE>
+　ビー、ビー、ビー！
+<PAUSE>
+<NAME_PLATE>
+　通路に警報が鳴り響き、
+狼狽した兵士たちがその対応に走る。
+<PAUSE>
+<SE_PLAY>se054
+<GROUP>
+<ACTOR>0,ts_m040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>兵士
+「爆発！？　侵入者か！？」
+「と、とにかく火を消すんだ！！！
+　船が沈むぞ！！！」
+<PAUSE>
+//　※立ち絵
+//　　米連特殊部隊（男）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　米連特殊部隊（男）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤス
+「ひえ～。連中大騒ぎっす。
+　爆弾を仕掛けて大正解でしたね」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<NAME_PLATE>エリカ
+「全く、ざまぁ見ろって感じよ！」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>
+　それをやり過ごしたエリカたちが
+物陰からひょこっと顔を出す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　この偽装研究船に潜入した時のこと。
+<PAUSE>
+<NAME_PLATE>
+　エリカたちは警備兵の一人を密かに
+拘束・尋問して情報を聞き出していた。
+<PAUSE>
+<NAME_PLATE>
+　子供たちが捕えられている研究室の
+位置もわかったが、やはり兵士の数も多い。
+<PAUSE>
+<NAME_PLATE>
+　そこで船の各所に爆弾を仕掛け、
+その混乱に乗じて子供たちを救い出す作戦だ。
+<PAUSE>
+<NAME_PLATE>男の子
+「みんな大丈夫！？　怖くないか？
+　走れなくなったら言うんだぞ！？」
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（へえ？　見込んだ通りっていうか、
+　なかなかやるじゃんあの子！）
+<PAUSE>
+<NAME_PLATE>
+　エリカはちらりと後ろを見て、
+ひゅーっと口笛を吹くような顔をする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いまエリカたちは、警報が鳴り響く
+研究船の通路を監視を避けての逃走中。
+<PAUSE>
+<NAME_PLATE>
+　幼い子や気の弱い子が一斉に
+泣き出してもおかしくない状況だ。
+<PAUSE>
+<NAME_PLATE>
+　しかしエリカが助けた男の子が
+見事なリーダーシップを発揮し、
+しっかりとまとめてくれていた。
+<PAUSE>
+<NAME_PLATE>
+　エリカが期待した何倍もの活躍だ。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「よし！！　ここから先は監視の兵士と
+　ぶち当たるかもしれないからね！」
+<PAUSE>
+<NAME_PLATE>エリカ
+「私たちは周囲の状況把握に集中する！
+　子供たちのことはあんたに任せる！！
+　あんた、えっと名前は――」
+<PAUSE>
+<NAME_PLATE>男の子
+「ハルトだよ、ブスのお姉ちゃん！」
+<PAUSE>
+<NAME_PLATE>
+　エリカを見上げて男の子がニカっと笑う。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「ぶ、ブスぅ！？　こらハルト、
+　あんた助けてもらってそれは――」
+<PAUSE>
+<NAME_PLATE>男の子
+「あはは！　ウソウソ、間違った！
+　大丈夫だからこっちは任せてよ！」
+<PAUSE>
+<NAME_PLATE>男の子
+「あと、ちゃんと言ってなかったよね。
+　――助けてくれてありがとう！
+　“美人で優しいお姉ちゃん”♪」
+<PAUSE>
+<NAME_PLATE>エリカ
+「むぐぅ！！？」
+<PAUSE>
+<NAME_PLATE>エリカ
+「こ、こいつ、元気が戻った途端に、
+　また生意気に――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m126b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤス
+「いやいや姉御、仲良しになれて
+　良かったじゃないですか」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「エリカさんは優しいですからね♪」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「こ、こらあんたたちも――って、
+　さっそく前！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミランダ
+「―――！？」
+<PAUSE>
+<NAME_PLATE>
+　ミランダの目が通路の曲がり角から
+やってきた兵士たちの姿を捉えた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m008a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>兵士たち
+「いたぞ侵入者だ！！！」
+「“素体”を連れているぞ！！
+　逃がすな！　撃て！！」
+<PAUSE>
+//　※立ち絵
+//　　米連兵士（男）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　米連兵士（男）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（くっ！？　間に合うか――！？）
+<PAUSE>
+<NAME_PLATE>
+　エリカがマシンガンを構える。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガ！！！！
+<PAUSE>
+<NAME_PLATE>兵士たち
+「あがっ！？」
+「ぐっ！？　うぅぅ――」
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>
+　エリカの銃弾を受けて
+兵士たちが倒れる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m126b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤス
+「やった！！？
+　流石の早撃ちっす姉御！」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「敵は怯んでいますね。
+　この隙に突破しましょう！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「う、うん。そうだね……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　勢いづくヤスとミランダに
+続いてエリカも通路を走る。
+<PAUSE>
+<NAME_PLATE>
+　今、何か妙だったな――
+と密かに首をかしげながら。
+<PAUSE>
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（奴らの銃、
+　弾詰まりでも起こしたの……？）
+<PAUSE>
+<NAME_PLATE>
+　さっきの交戦で、兵士たちの
+銃から弾は発射されなかった――
+<PAUSE>
+<NAME_PLATE>
+　普通に考えれば弾詰まりでも
+起こしたということなのだろう。
+<PAUSE>
+<NAME_PLATE>
+　しかし、数人分の銃が同時に
+トラブルを起こす――
+<PAUSE>
+<NAME_PLATE>
+　そんなことがあり得るのだろうか？
+<PAUSE>
+//　※注　ミランダ（卍鉄）が邪眼を密かに使った伏線です。
+//【黒画面】
+//【背景：センザキ＿貨物船甲板＿炎上】【時間：夜】
+//　※対魔忍アサギZERO＿nc070bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc302b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　甲板に出ると、そこは船内から
+噴き出す炎に赤々と照らされていた。
+<PAUSE>
+<ACTOR>0,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤス
+「おわっ！？
+　なんかめっちゃ燃えてるっす。
+　爆弾の量多すぎましたかね？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「構いやしないわよ！
+　あんな悪事をしてる連中の船だし、
+　派手に燃えてくれた方が逃げやすい」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>エリカ
+「ただ、私たちまで炎に巻かれちゃ
+　何にもならないからね。
+　さっさと逃げるわよ！」
+<PAUSE>
+<NAME_PLATE>ヤス
+「へいっ！　了解っす！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「！？　待って――
+　危ないヤスさん！！！」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※レーザーっぽいエフェクト
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ヒュン！！！
+<PAUSE>
+<NAME_PLATE>ヤス
+「へ？　なんですミランダさ――
+　あぐぅぅうぅっ！！！？」
+<PAUSE>
+//　※鮮血エフェクトなど。
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「や、ヤス！！？」
+<PAUSE>
+<NAME_PLATE>
+　レーザービームのような白い輝きに
+振り向いたヤスの肩口が貫かれる。
+<PAUSE>
+<NAME_PLATE>
+　その衝撃を受けて弾かれたように
+甲板を転がるヤスの体。
+<PAUSE>
+<NAME_PLATE>
+　噴き出す鮮血――。
+<PAUSE>
+<NAME_PLATE>
+　ミランダの声がなければ、
+間違いなく内臓を貫かれて
+死んでいただろう。
+<PAUSE>
+<BG>nc302b,IN, 1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「ちょ、ちょっとヤス！？
+　大丈夫――」
+<PAUSE>
+<NAME_PLATE>
+　慌てて駆け寄ろうとして、
+しかしエリカはその動きを止める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　炎上する船内の騒音に紛れるように、
+コツコツコツ、と近づく固い足音。
+<PAUSE>
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『―――雨は万人に降り注ぐ。
+　俺にも、お前達にも。等しく万人に』
+<PAUSE>
+//　※立ち絵
+//　　シルバースカル立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>エリカ
+「出たわね、
+　イカれサイボーグ野郎……」
+<PAUSE>
+<NAME_PLATE>
+　『霧の夜の亡霊』。
+<PAUSE>
+<NAME_PLATE>
+　いや、すでにエリカは警備兵や
+研究員を尋問してその正体を知っている。
+<PAUSE>
+<NAME_PLATE>
+　サイボーグエージェント、
+“シルバースカル”。
+<PAUSE>
+<NAME_PLATE>
+　特務機関Ｇの中でもトップに
+位置する強力なサイボーグ兵士。
+<PAUSE>
+<NAME_PLATE>エリカ
+（ってことは、ヤスを撃ったのも、
+　“水”のレーザー……）
+<PAUSE>
+<NAME_PLATE>
+　サイボーグ・シルバースカルは
+“水”を自在に操る機能を持つようだ。
+<PAUSE>
+<NAME_PLATE>
+　それによって偽装研究船の周辺に
+濃霧のヴェールを作って人を遠ざけ、
+<PAUSE>
+<NAME_PLATE>
+　そして、体内で超加圧した水を
+レーザーのようにジェット噴射することで、
+鉄板をも貫く強力な武器とする。
+<PAUSE>
+<NAME_PLATE>
+　間違っても正面から戦っていい
+相手ではない。
+<PAUSE>
+<NAME_PLATE>
+　特に今のような、子供たちや
+負傷した仲間を抱えた状態では――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+「ヤス、ミランダ！！
+　なんとかして逃げるわよ、
+　こいつは私が時間を稼ぐから――」
+<PAUSE>
+<NAME_PLATE>ヤス
+「で、でも……エリカの姉御、
+　おいらたち、もうすっかり囲まれて……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,ts_m181a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m181a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>サイボーグ兵士
+『――――――』
+<PAUSE>
+//　※立ち絵
+//　　ＫＮＳ８レプリカント立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　ＫＮＳ８レプリカント立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>エリカ
+（じょ、冗談でしょ……？）
+<PAUSE>
+<NAME_PLATE>
+　恐怖にガタガタと震える子供たち。
+<PAUSE>
+<NAME_PLATE>
+　それを守るようにしてよろよろと
+立ち上がるヤス、そしてミランダ。
+<PAUSE>
+<NAME_PLATE>
+　そんなエリカの仲間たちを、
+巨大なサイボーグ兵士が取り囲んでいた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『哀しいが、これは決まったこと。
+　お前達はここで死ぬ――』
+<PAUSE>
+<NAME_PLATE>？？？
+「決まったこと？
+　いや、私はそうは思わないが」
+<PAUSE>
+<NAME_PLATE>エリカ
+「えっ！！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　陰鬱なサイボーグの囁きに被さる
+強い意志を秘めた女の声。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　と、同時に――。
+<PAUSE>
+//　※剣戟エフェクトなど。
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>サイボーグ兵士
+『――――！！！』
+<PAUSE>
+//　※立ち絵
+//　　ＫＮＳ８レプリカント立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　ＫＮＳ８レプリカント立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　小気味よい金属音と共に分厚いはずの
+サイボーグ兵士の装甲が両断された。
+<PAUSE>
+<NAME_PLATE>
+　一体、また一体と――
+<PAUSE>
+<NAME_PLATE>
+　次々とサイボーグ兵士が崩れ落ち、
+行く手を塞いでいた包囲に穴が開く。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<BG>nc302b,IN, 500
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心願寺紅
+「――対魔忍・心願寺紅。
+　助太刀させてもらう」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊カードイラスト　心願寺紅01より流用
+<NAME_PLATE>紅
+「子供を襲う者、
+　子供を守ろうとする者。
+　どちらに正義があるかは明白だ」
+<PAUSE>
+<NAME_PLATE>シルバースカル
+『………………………』
+<PAUSE>
+<ACTOR>0,kn_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「た、対魔忍って――
+　じゃあ銃兵衛の仲間ってこと！？」
+<PAUSE>
+<NAME_PLATE>
+　エリカが目を丸くして言うと、
+二刀を構えた女忍者が
+少し驚いたようにこちらを見る。
+<PAUSE>
+<NAME_PLATE>紅
+「銃兵衛を知ってるのか？
+　いや、奴とは仲間というわけでも
+　ないのだが……」
+<PAUSE>
+<NAME_PLATE>紅
+「しかし奴を知っているなら話が早い。
+　――私は奴の“同類”だ。
+　あとは任せて、君は子供たちを」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「！！！」
+<PAUSE>
+<NAME_PLATE>
+　行きつけの店の常連仲間である
+チンピラ風の若い男・金崎銃兵衛。
+<PAUSE>
+<NAME_PLATE>
+　エリカは、
+彼が元対魔忍であることを知っている。
+<PAUSE>
+<NAME_PLATE>
+　そして対魔忍という者たちが、
+戦いにおいて超常的な強さを持つことも。
+<PAUSE>
+<NAME_PLATE>エリカ
+「了解！！！　でも死なないで！
+　私も子供たちを置いてすぐ戻る！
+　――行くよヤス、ミランダ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m126b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤス
+「へ、へいっ！」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ええ。ここはお言葉に甘えて――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m181a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m181a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>サイボーグ兵士
+『ＵＯＯＯＯＯＯＯＯＯＯＯ！！！』
+<PAUSE>
+//　※立ち絵
+//　　ＫＮＳ８レプリカント立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　ＫＮＳ８レプリカント立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>紅
+「――下がっていろポンコツども」
+<PAUSE>
+//　※剣戟エフェクトなど。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイィイイイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>
+　エリカたちの後を追おうとした
+サイボーグ兵士たちが両断される。
+<PAUSE>
+<BG>nc302b,IN, 500
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「さて、他に鉄屑になりたい者は？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シルバースカル
+『……憂鬱は雲のように重く垂れこめる。
+　しかしそれが人生だ』
+<PAUSE>
+<NAME_PLATE>
+　陰鬱に呟くサイボーグが、
+二刀を構える女忍者と対峙した。
+<PAUSE>
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

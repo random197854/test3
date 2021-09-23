@@ -1,0 +1,1312 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：地下遺跡＿祭壇＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc003aより流用
+//nc185a
+<BGM_PLAY>bgm313,1000
+<BG>nc185a,IN, 1000
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャラルホルン
+「ゴゴゴゴゴゴゴゴゴゴゴゴ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャラルホルン＿立ち絵＿暴走状態
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「ゆきかぜ！
+　トール・ハンマー最大出力だ！
+　思いきりぶちかませ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>ゆきかぜ
+「言われなくたって！！
+　ライトニング・シューター！
+　リミッター解除！　フルチャージ！！」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリバリバリバリバリバリバリッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの全身が凄まじい雷に包まれた。
+<PAUSE>
+<NAME_PLATE>
+　トール・ハンマーを見慣れた俺ですら
+思わず後ずさってしまうほどの稲光だ。
+<PAUSE>
+<NAME_PLATE>
+　ジュノから与えられたウェディングドレス、
+その神の力との相乗効果だ。
+<PAUSE>
+<NAME_PLATE>
+　その姿と相まって、
+美しくも恐ろしい雷の女神かと思える。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いっけええええええっっ！！
+　トール・ハンマーーーーーーっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一瞬、目の前が真っ白になった。
+耳をつんざくばかりの雷鳴が轟く。
+<PAUSE>
+<NAME_PLATE>
+　その技の名のごとく、
+北欧神話最強の雷神トールもかくやという
+大雷撃が炸裂した。
+<PAUSE>
+<BG>nc185a,IN, 1000
+<NAME_PLATE>
+　だが―――
+<PAUSE>
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャラルホルン
+「ゴゴゴゴゴゴゴゴゴゴゴゴゴ！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャラルホルン＿立ち絵＿暴走状態
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ゆきかぜ
+「ちょっと！　効いてないの！？」
+<PAUSE>
+<NAME_PLATE>
+　ギャラルホルンは激しく明滅して、
+ゆきかぜが放つ神の雷を無効化していた。
+<PAUSE>
+<NAME_PLATE>
+　いや、違う。
+<PAUSE>
+<NAME_PLATE>
+　生みの親であるドクター・サイクロプスを
+取り込んだように、
+<PAUSE>
+<NAME_PLATE>
+　自らを滅ぼすために向けられた
+雷すら吸収して、ますます活性化している。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ちょっと、これって！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜも気づいたようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ゆきかぜ止めろ！　逆効果だ！」
+<PAUSE>
+<NAME_PLATE>
+　俺が叫ぶより早く、
+ゆきかぜは放雷を中断させていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「冗談じゃないわよ！」
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「強敵」
+<PAUSE>
+//　※立ち絵
+//　【お色直し】アンジェ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　アンジェがポツリと言った。
+<PAUSE>
+<NAME_PLATE>
+　どんな時でも淡々としているアンジェだが
+今はその顔が固くなっている。
+<PAUSE>
+<NAME_PLATE>俺
+「アンジェ！
+　下手に触手で攻撃するな！
+　お前も取り込まれるぞ！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「そうする」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あんなのどうやって倒すのよ！？
+　ふうま！」
+<PAUSE>
+<NAME_PLATE>俺
+「魔法陣に意志があるわけがない。
+　核になっているドクター・サイクロプスを
+　倒すことができれば……止まるはずだ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だから、どうやって
+　それをやるのかって聞いてんの！
+　いつもみたいにパッと閃きなさいよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「今考えてるんだ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>アンジェ
+「なにか始めた」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「え？」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,500
+<ACTOR_OUT>0,RIGHT,linear,500
+</GROUP>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャラルホルン
+「ゴゴゴゴゴゴゴゴゴゴゴゴゴ！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャラルホルン＿立ち絵＿暴走状態
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR>2,ts_m183a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m183a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　ギャラルホルンの近くに重力球が現れた。
+<PAUSE>
+//　※立ち絵
+//　　グラビディ・モンスター＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　またグラビティ・モンスターでの攻撃か？
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　いや違う！？
+<PAUSE>
+<NAME_PLATE>
+　重力球は一瞬で収縮して見えなくなり、
+その見えない穴に周りの物を吸い込んでいく。
+<PAUSE>
+<NAME_PLATE>
+　聖堂の瓦礫やら何やらが吸い上げられ、
+虚空に落ち込んで、粉々になって消えていく。
+<PAUSE>
+<NAME_PLATE>
+　あの超重力、まさか！？
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「マイクロブラックホール！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　重力の楔が俺たちを捕らえた。
+身体がふわりと浮く。吸い込まれるッ！
+<PAUSE>
+<ACTOR>0,chr_t0227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「テンタクルバンド」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se117
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シュルルッッ―――がしっ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「きゃっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「うおっ！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ぎゅっ！」
+<PAUSE>
+<NAME_PLATE>
+　アンジェが触手で俺たちを抱え込んだ。
+<PAUSE>
+<NAME_PLATE>
+　そして残った触手を聖堂の柱に絡みつかせ、
+三人の身体を支える。
+<PAUSE>
+<NAME_PLATE>俺
+「アンジェ！　助かった！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ずっと耐えるのは無理」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうよ！
+　どうすんのよ、ふうま！！」
+<PAUSE>
+<NAME_PLATE>俺
+「くっっ」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの最大の雷撃は通じず、
+アンジェは俺たちを支えるので精一杯、
+俺は対抗策が何も浮かんでこない。
+<PAUSE>
+<NAME_PLATE>
+　絶体絶命だ。
+<PAUSE>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「あれに吸い込まれるのは
+　ジュノもお勧めしないかなー。
+　事象の地平とか超めんどくさいし」
+<PAUSE>
+<NAME_PLATE>俺
+「ジュノ！
+　呑気に見物してる場合か！
+　力を貸してくれるんじゃないのか！！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「さっきからずっと力を貸してるし。
+　普通ならとっくに死んでるんだけど？」
+<PAUSE>
+<NAME_PLATE>俺
+「もうちょっとなんとかしてくれ！
+　お前のために戦ってるんだぞ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうよそうよ！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「お願い」
+<PAUSE>
+<NAME_PLATE>
+　苦しいときの神頼み。
+<PAUSE>
+<NAME_PLATE>
+　その神のせいで
+こんな目にあっている俺たちは
+一斉に懇願する。
+<PAUSE>
+<NAME_PLATE>ジュノ
+「じゃあ、三人で婚姻の誓いとかしてみる？
+　そしたら、もうちょっとジュノのパワーを
+　あげられるし」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なにぃ！？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「三人で結婚するの？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そんなことできるわけないでしょ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺はギョッとして、
+アンジェは普通に確認するように、
+ゆきかぜは論外という調子で返した。
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ふりだけふりだけ♪」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ああいうのって儀式だから、
+　ちょっと誓いの真似事でもしてくれれば、
+　ジュノの祝福パワーをあげられるし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「それであいつを倒した後、
+　本当に結婚しなくても
+　別に良いんじゃない？」
+<PAUSE>
+<NAME_PLATE>
+　いたって軽く提案する。
+<PAUSE>
+<NAME_PLATE>俺
+「婚姻の女神がそれでいいのか！！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「んーーーー、まあいいかなって感じ。
+　ジュノもいい加減ここ出たいしー」
+<PAUSE>
+<NAME_PLATE>俺
+「こいつは……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「分かった。やる」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちょっとあんた！
+　なに即答してんのよ！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「それしかないなら、やるしかないから」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「そ、そうだけど……
+　この子、思いきり良すぎない？」
+<PAUSE>
+<NAME_PLATE>俺
+「いつもこうなんだ。
+　俺もあんまり気が進まないが、
+　このままじゃブラックホールの餌食だ」
+<PAUSE>
+<NAME_PLATE>俺
+「それにあれだ、
+　俺とお前の二人で誓うならともかく」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ともかくってなによ！」
+<PAUSE>
+<NAME_PLATE>俺
+「最後まで聞け。
+　三人で婚姻の誓いとかありえないから、
+　逆に真似事だと割り切れないか？」
+<PAUSE>
+<NAME_PLATE>俺
+「というか割り切ってくれ、頼む」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ギャラルホルンのブラックホールは
+ますます強さを増している。
+<PAUSE>
+<NAME_PLATE>
+　アンジェは頑張って俺たちを支えているが、
+もうすぐ限界に達するだろう。
+<PAUSE>
+<NAME_PLATE>
+　状況を打破する方法が思いつかない以上、
+ジュノのいい加減な提案に乗るしかない。
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ううーーーーーーーー！！
+　ぜんっぜん割り切れないけど！！
+　ううううーーーーーー！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「しょうがないわね！
+　あくまで真似事よ！　おしばいよ！
+　いいわね！！」
+<PAUSE>
+<NAME_PLATE>俺
+「分かってる。アンジェもいいな？」
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「いい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「んじゃ、適当によろしくー」
+<PAUSE>
+<NAME_PLATE>俺
+「人の気も知らずに……」
+<PAUSE>
+<NAME_PLATE>
+　俺は右手でゆきかぜの手を、
+左手でアンジェの手を握った。
+<PAUSE>
+<NAME_PLATE>ジュノ
+「あはっ。
+　両手に花で祝福とか久しぶり－」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ジュノめ、絶対に面白がっているな。
+<PAUSE>
+<NAME_PLATE>
+　なにもかも奴の嫌がらせという
+気がしてきた。
+<PAUSE>
+<NAME_PLATE>
+　だが、やるしかない。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>俺
+「いくぞ！　今日より汝を――じゃない！
+　汝らを妻とし、いかなる時も共にあることを
+　誓います！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「誓います」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ち、誓います！」
+<PAUSE>
+<NAME_PLATE>俺
+「どうだ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「んーーー、
+　もうちょっと続けて欲しいかなー」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「やっぱりお芝居だとパワーが出にくいし。
+　三人で誓いの言葉を交互に言うとか、
+　最後は言葉を揃えるとかしてくんない？」
+<PAUSE>
+<NAME_PLATE>
+　婚姻の女神は楽しげに文句を付けてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ちょっと神！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「注文が多い」
+<PAUSE>
+<NAME_PLATE>俺
+「二人とももう一回だ！」
+<PAUSE>
+<NAME_PLATE>
+　俺は誓いの言葉を素早く考えて、
+二人に伝えた。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「わかった」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ああもう、私もわかったわよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「よし！」
+<PAUSE>
+<NAME_PLATE>
+　俺は二人の手を固く握った。
+<PAUSE>
+<NAME_PLATE>
+　二人とも俺を強く握り返してくる。
+<PAUSE>
+<NAME_PLATE>俺
+「幸せな時も。困難な時も」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「富める時も。貧しき時も」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「病める時も、健やかなる時も」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクター・サイクロプス
+「そんな誓いなどさせぬうううう！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャラルホルン＿立ち絵＿暴走状態
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あいつっ！！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「目覚めた？」
+<PAUSE>
+<NAME_PLATE>
+　ギャラルホルンに取り込まれていた
+ドクター・サイクロプスが
+カッと目を見開いた。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「三人で婚姻の誓いだと！？
+　それもこの私の前でだと！！」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「そんなことを、そんなことを！！
+　許すものかあああああああああ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぐあああああああああああああああ
+んんんんんんんんんっっっ！！！
+<PAUSE>
+<NAME_PLATE>
+　絶叫と共に凄まじい重力波が
+俺たちを襲った。
+<PAUSE>
+<NAME_PLATE>
+　四方から超重力で身体を押し潰されそうに
+なったかと思うと、
+<PAUSE>
+<NAME_PLATE>
+　すぐさま身体を引きちぎられそうに
+四方から強烈に引っ張られる。
+<PAUSE>
+<PAUSE>
+<NAME_PLATE>
+　変幻する重力の嵐。まさに重力地獄。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは今にもバラバラになりそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐうっっ！！
+　二人とも絶対に手を離すなっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「な、何なのよこれっっ！！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「振られ男の怨念」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドクター・サイクロプス
+「うがあああああああああああああああああ
+　ああああああああああああああっっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　そう、まさに振られ男の怨念が
+俺たちの婚姻の誓い（そのふりだが）を
+妨げていた。
+<PAUSE>
+<NAME_PLATE>
+　その時だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「ボクの呪いのドレスパワーをくらえ！」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「ミナサキ！？」
+<PAUSE>
+<NAME_PLATE>
+　逃げたと思ったミナサキがいきなり現れ、
+ドクター・サイクロプスの頭に
+急降下蹴りを食らわせた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボカッッッッッ！！
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「うがっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　頭に被っていた妙な機械がズレて、
+重力異常がフッと弱まった。
+<PAUSE>
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「ふうま！　やっちゃえーーー！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクター・サイクロプス
+「このヤタガラスがああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺たちはすかさず
+誓いの言葉を最後まで言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>俺＆ゆきかぜ＆アンジェ
+「「「死が三人を分かつまで愛し、
+　　　慈しみ、貞節を守ることを
+　　　ここに誓います！！」」」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「あっ、いい感じいい感じー！！
+　ハッピー・ジューンブライド！
+　あなたたちにジュノの祝福をあーげるっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ぱああああああああああああああっっ！！
+<PAUSE>
+<NAME_PLATE>
+　性悪女神のジュノから眩い光が
+俺たちに降り注いだ。
+<PAUSE>
+<NAME_PLATE>
+　なんだか知らないが
+幸せいっぱいの神の力が身体中に溢れてくる。
+<PAUSE>
+<BG>nc185a,IN, 500
+<NAME_PLATE>俺
+「今だ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「雷遁・ハッピーウェディング！！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「テンタクルライスシャワー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　手に手を取った俺の二人の花嫁から、
+巨大な婚姻エネルギーが一気に放出された。
+<PAUSE>
+<BG>nc185a,IN, 500
+<ACTOR>0,ts_m184a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドクター・サイクロプス
+「おのれぇええええええええええ！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャラルホルン＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>
+　ギャラルホルンはそれを無効化することも
+もちろん吸収することもできず、
+<PAUSE>
+<NAME_PLATE>
+　神が祝福するエネルギーの前に
+その魔法陣の形を崩していく。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「ジュリエッタ！！　私のジュリエッタ！！
+　あああああああああああああああ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ドクター・サイクロプスは
+こんなことをしてまで得ようとした
+女の名を絶叫しながら、
+<PAUSE>
+<NAME_PLATE>
+　ギャラルホルンが生み出した
+ブラックホールに魔法陣もろとも
+呑み込まれていった。
+<PAUSE>
+<NAME_PLATE>
+　荒れ狂っていた重力が元に戻る。
+<PAUSE>
+<BG>nc185a,IN, 500
+<NAME_PLATE>
+　敵は完全に消滅したようだった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「なんとか倒せたみたいね」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「すごいパワーだった。びっくり」
+<PAUSE>
+<NAME_PLATE>俺
+「さすがは神の祝福だな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちっとも有り難みがないわ」
+<PAUSE>
+<NAME_PLATE>俺
+「まったくだ」
+<PAUSE>
+<NAME_PLATE>
+　俺たちが一息吐いていると、
+ミナサキがほくそ笑みながら近づいてくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「えっへん、ボクのおかげだね。
+　ボクがいなかったらどうなってたことか。
+　感謝しろよ、ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「お前なんで戻ってきたんだ？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「それはやっぱりふうまが
+　危ないって思ったから、
+　助けなきゃってボクの正義の心が」
+<PAUSE>
+<NAME_PLATE>俺
+「うん嘘だ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「なんでだよー」
+<PAUSE>
+<ACTOR>0,chr_t0125a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0228a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「ブラックホールにここまで引っ張られて
+　ちょうど良いところに頭があったから
+　蹴飛ばしただけとかじゃないの？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「なんでそれを！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、ホントにそうなんだ」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0125a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ミナサキ
+「でもでも、ボクが助けたのはほんとだし、
+　すごくピンチだったし、助かっただろ？」
+<PAUSE>
+<NAME_PLATE>俺
+「分かった分かった。
+　助かった。感謝してるぞ」
+<PAUSE>
+<NAME_PLATE>
+　理由はどうあれ
+確かにあの一撃がなければ危なかった。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ウッシッシ。
+　まんまと恩を売ることができたぞ。
+　これでこの先ずっとたかって――」
+<PAUSE>
+<NAME_PLATE>俺
+「口に出てるんだよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴツン。
+<PAUSE>
+<NAME_PLATE>
+　早くも調子に乗り始めたミナサキの頭に
+拳骨を落とす。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ひどいよふうまーー」
+<PAUSE>
+<NAME_PLATE>俺
+「やかましい」
+<PAUSE>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「あ～～～～～
+　やっと出られたー♪」
+<PAUSE>
+<NAME_PLATE>
+　ギャラルホルンが消滅し、
+ようやく重力フィールドから解放された
+ジュノもこっちに下りてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「おい、ジュノ。
+　言いたいことが山ほどあるぞ」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ジュノ聞きたくなーい」
+<PAUSE>
+<NAME_PLATE>俺
+「少しは聞け。
+　そもそも仮にも神様が
+　なんで人間に捕まってるんだよ？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「６月もまだだったし、
+　ブラブラしてたら
+　変な重力のひずみがあって」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ちょっと面白そうだから
+　見に来たらなんか捕まっちゃった」
+<PAUSE>
+<ACTOR>0,ts_m095a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「自分で出られなかったの？
+　あんた結構普通にしてたじゃない」
+<PAUSE>
+<NAME_PLATE>
+　俺に続いてゆきかぜが文句を言う。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m095a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ジュノ
+「出られなくはないけど、
+　あんな変な重力のひずみをくぐったら
+　汚れちゃいそうでイヤだし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「だったらふうまたちに
+　助けてもらおうかなって。
+　ちょうど会う約束してたし」
+<PAUSE>
+<NAME_PLATE>俺
+「つまりあれか？
+　ただ面白半分で捕まって、
+　汚れたくないから俺たちを呼んだのか？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「きゃははは。そういうこと♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「最悪」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「変わってない」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「だって変わらないのが神だしー」
+<PAUSE>
+<NAME_PLATE>
+　ジュノはもっともらしいことを言って、
+ケラケラと笑っている。
+<PAUSE>
+<NAME_PLATE>
+　まったく反省の色無しだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「うん、そうそう。
+　神ってそういうもんだよ、ふうま」
+<PAUSE>
+<NAME_PLATE>
+　同じく反省を知らないヤタガラスが
+偉そうに頷いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「はあ……それにしても、
+　今回おかしなことばかり起こったぞ。
+　ゆきかぜがいるのもそうだが」
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それよそれ。なんで私なのよ。
+　このウェディングドレスなんか
+　家にいきなり現れたのよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「触った途端、着させられて脱げなくなるし、
+　顔見れば男子が
+　みんなプロポーズしてくるし」
+<PAUSE>
+<NAME_PLATE>俺
+「俺は会う女子みんなに殺されそうになった」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「ほんとに？
+　キャハハハハハ、おもしろーい」
+<PAUSE>
+<NAME_PLATE>俺
+「面白くない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「私はあっちこっちに飛ばされた」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなのか？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「ここに来るまで１００回くらい。
+　それで空間に引っかかって
+　出られなくなった」
+<PAUSE>
+<NAME_PLATE>俺
+「それも大変そうだな」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「すごく大変だった」
+<PAUSE>
+<NAME_PLATE>俺
+「どういうことなんだよ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「ん～～～～～、
+　細かいことは知らないけど、
+　ジュノは二人しか呼ぶつもりなかったし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「あの重力の歪みを通したら、
+　なんかジュノの力も歪んで届いたみたいな？
+　そのせいじゃないの？　どうでもいいけど」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「どうでもよくないわよ！
+　やっぱり私はとばっちりじゃないの！」
+<PAUSE>
+<NAME_PLATE>俺
+「そうらしいな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ほんとにもう。
+　なんなのよ神様って。
+　やってらんないわ！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはカンカンだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「私はもう慣れた」
+<PAUSE>
+<NAME_PLATE>
+　アンジェは相変わらず淡々としている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m095a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「そんな怒らないでよ。
+　今回はジュノもちょっとは感謝してるし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「せっかくだから、さっきの婚姻の誓いを
+　本当にしてあげよっか？」
+<PAUSE>
+<NAME_PLATE>
+　ちょっとは感謝してるというジュノが
+いきなりとんでもないことを言いだした。
+<PAUSE>
+<ACTOR>0,ts_m095a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0228a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「な、なに言ってんのよ。
+　あれはただの真似事でしょ！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「でも、結構気持ちが揃ってたし、
+　そうでなきゃあんなにパワーは出ないし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「別にこのまま三人で
+　結婚してもいいんじゃない？
+　今回はジュノ特別に許してあげるっ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちょ、ちょっと待ってよ。
+　そんないきなり言われたって……
+　ほ、ほんとに結婚なんて」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「しかも三人とかありえないでしょ。
+　ね、ねえ？　ふうま？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、お断りだ」
+<PAUSE>
+<NAME_PLATE>
+　考えるまでもない。
+<PAUSE>
+<NAME_PLATE>
+　俺はきっぱり拒否した。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m095a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ジュノ
+「なにそれ！　せっかくジュノが
+　好意で言ってあげてるのに。
+　ほんっとムカつく人間！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「もう頼まれたって
+　祝福なんかしてやんないから。
+　じゃね！」
+<PAUSE>
+<NAME_PLATE>
+　そう言い残して、
+勝手にスーッと消えようとする。
+<PAUSE>
+<NAME_PLATE>俺
+「おい待て。
+　俺たちを元の場所に返せ。
+　一人で消えるな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ジュノ
+「ああもう、うっざーい！
+　早くどっか行って！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　半分消えかかったジュノが
+俺たちに向かって邪険に手を振った。
+<PAUSE>
+//【背景：五車町＿町並み＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+//nc078a
+<UI_DISP>OFF, 0
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「あ……」
+<PAUSE>
+<NAME_PLATE>
+　気がつくとそこは五車町だった。
+<PAUSE>
+<NAME_PLATE>
+　見慣れた稲毛屋の店先だ。
+<PAUSE>
+<ACTOR>0,yu_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「戻ってきてる」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR>1,chr_t0029a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンジェ
+「私もこっちに飛ばされた」
+<PAUSE>
+//　※立ち絵
+//　　アンジェ立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　ゆきかぜだけでなく、
+アンジェも一緒に来ていた。
+<PAUSE>
+<NAME_PLATE>
+　ミナサキは―――いないようだ。
+まあいいか。
+<PAUSE>
+<NAME_PLATE>
+　三人とも服が元に戻っていた。
+<PAUSE>
+<NAME_PLATE>
+　ということは、
+真似事の婚姻の誓いによる祝福も
+解けたのだろうし、
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが男子に
+プロポーズされまくったり、俺が女子に
+殺されそうになることもないはずだ。
+<PAUSE>
+<ACTOR>0,yu_t001g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　せっかく帰ってきたのに、
+ゆきかぜは少し残念そうな顔をしている。
+<PAUSE>
+<NAME_PLATE>俺
+「ジュノの誘い、
+　断ったけど構わなかったよな？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはビクッと驚いて、
+急にひどく怒った調子で言い返す。
+<PAUSE>
+<ACTOR>0,yu_t001f,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「あ、当たり前でしょ。
+　ふうまのくせになに調子に乗ってるのよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、なんか残念そうな顔してたから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「はあ？
+　残念そうとかなに言ってんのよ！
+　バカじゃないの！」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな怒るな。分かってるから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「分かってないわよ！
+　私はもうちょっとウェディングドレス
+　着ていたかったなって。それだけよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「あんなウェディングドレスを？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だってあんな綺麗なの初めてだったのよ！
+　それくらい思ってもしょうがないでしょ！
+　女の子なんだから！　バカ！　鈍感！」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「その気持ち分かる」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「分かるでしょ？　ね？　ね？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「私ももうちょっと着ていたかった。
+　ふうま、分かってない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ほらあ！　ほらああああああ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「すまんすまん。俺が悪かった」
+<PAUSE>
+<ACTOR>0,yu_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　二人して俺を睨んでいる。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはもちろん、
+アンジェも珍しくはっきり不満げだった。
+<PAUSE>
+<NAME_PLATE>
+　どうやら女の子のとても繊細な部分を
+刺激してしまったようだ。
+<PAUSE>
+<NAME_PLATE>
+　やはりお芝居とはいえ、
+三人で結婚などするものではない。
+<PAUSE>
+<NAME_PLATE>アンジェ
+「またの機会に期待」
+<PAUSE>
+<NAME_PLATE>俺
+「何を期待するんだ？」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「こういうハプニング。結構楽しい」
+<PAUSE>
+<ACTOR>0,yu_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「か、変わってるわね、あなた」
+<PAUSE>
+<NAME_PLATE>アンジェ
+「よく言われる」
+<PAUSE>
+<NAME_PLATE>俺
+「勘弁してくれ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　もう神様がらみのトラブルはこりごりだ。
+<PAUSE>
+<NAME_PLATE>
+　俺は深い深い溜息を吐いた。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

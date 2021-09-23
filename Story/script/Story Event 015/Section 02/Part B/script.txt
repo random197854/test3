@@ -1,0 +1,478 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：海岸2＿昼】【時間：昼】
+//　※水着のシモベ君_nc014aより流用
+//chrnc0133a
+<BGM_PLAY>bgm203,1000
+<BG>chrnc0133a,IN, 1000
+<ACTOR>0,chr_t0241a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「えぐっ、ひぐっ……うう……」
+<PAUSE>
+//　※立ち絵
+//　　【波際のまどろみ】エレーナ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　妙なイカと魚のモンスターを
+倒した俺とさくらだったが、
+<PAUSE>
+<NAME_PLATE>
+　連中を呼び出したと思しき
+おそらくは魔族の少女はしゃがみこんで
+ずっと泣いていた。
+<PAUSE>
+<NAME_PLATE>
+　戦う意思など感じられない。
+怯えきっている。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「うぐっ……えぐっ……うう……
+　もういやですぅ……うう、だれかぁ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「さくら。
+　俺よりはお前の方が……」
+<PAUSE>
+<ACTOR>0,ws_t012c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「あ、うん。そうだね。
+　女の子同士の方がいいかな」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿下着（水着として流用）
+//　　　＊対魔忍アサギＺＥＲＯの立ち絵を流用
+<NAME_PLATE>
+　さくらは頷いて、
+中腰でおそるおそる少女に近づいた。
+<PAUSE>
+<ACTOR>0,ws_t012g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ねえ、大丈夫？」
+<PAUSE>
+<ACTOR>0,ws_t012g,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0241a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレーナ
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　俯いていた少女はビクッとして
+怖々と顔を上げ、
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ……！
+　わあああん、さくらさあん！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ws_t012g,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　いきなりさくらに抱きついてきた。
+<PAUSE>
+<NAME_PLATE>
+　しかも名前を呼んでいる。
+<PAUSE>
+<ACTOR>0,ws_t012d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「え？　え？？」
+<PAUSE>
+<NAME_PLATE>
+　思わず少女を受け止めたさくらだが
+その顔はどう見ても戸惑っている。
+<PAUSE>
+<NAME_PLATE>俺
+「知り合いか？」
+<PAUSE>
+<NAME_PLATE>さくら
+「し、知らない」
+<PAUSE>
+<NAME_PLATE>
+　さくらはフルフルと首を振り、
+困ったように少女の背中を撫でる。
+<PAUSE>
+<ACTOR>0,ws_t012h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ええと、誰だっけかな？
+　私と前に会ったことあった？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ふえ？」
+<PAUSE>
+<NAME_PLATE>
+　少女は顔を上げる。
+<PAUSE>
+<NAME_PLATE>
+　涙をいっぱいに浮かべた目が
+『あれ？』というものに変わった。
+<PAUSE>
+<ACTOR>0,ws_t012h,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0241a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「え……違う？」
+<PAUSE>
+<NAME_PLATE>さくら
+「だ、誰とかな？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エレーナ
+「ふわっっ！！
+　ご、ごめんなさいっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　少女はビックリした顔で
+さくらから身体を離した。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ひゃんっ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se010
+<NAME_PLATE>
+　その拍子にぺたんと尻餅をつく。
+<PAUSE>
+<ACTOR>0,ws_t012h,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>さくら
+「私、知らないよね？　あなたのこと？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「は、はい。ごめんなさい。
+　以前お世話になった方に
+　ちょっと似ていたので……」
+<PAUSE>
+<NAME_PLATE>さくら
+「ああ、そうなんだ……。
+　ええっと、その人『さくら』っていうの？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ、はい」
+<PAUSE>
+<NAME_PLATE>さくら
+「ああ、なるほどー、あはは」
+<PAUSE>
+<NAME_PLATE>
+　さくらはぎこちない笑いを浮かべた。
+<PAUSE>
+<NAME_PLATE>
+　俺と同じく、
+この子はさくら先生の知り合いではないかと
+思ったのだろう。
+<PAUSE>
+<ACTOR>0,ws_t012c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「大丈夫、立てる？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「は、はい、すいません」
+<PAUSE>
+<ACTOR>0,ws_t012c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0241a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　さくらが差し出した手を取り、
+少女は立ち上がった。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あれ？
+　私が呼び出してしまった化物は？」
+<PAUSE>
+<ACTOR>0,ws_t012a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ああ、あれ？
+　私たちが始末しといたから」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「私たち？」
+<PAUSE>
+<NAME_PLATE>
+　ようやく俺と目が合う。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、どうも」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ふわっ、男の人！」
+<PAUSE>
+<NAME_PLATE>
+　少女はまたビクッとするが、
+さくらが慌ててフォローを入れる。
+<PAUSE>
+<ACTOR>0,ws_t012d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「大丈夫大丈夫。
+　あんまり人相は良くないけど、
+　別に普通だから。うん、平気平気」
+<PAUSE>
+<NAME_PLATE>
+　人相は良くないは余計だ。
+<PAUSE>
+<ACTOR>0,ws_t012a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>エレーナ
+「そ、そうですか。
+　ご迷惑をおかけしました」
+<PAUSE>
+<NAME_PLATE>
+　少女はぺこりと頭を下げる。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「お二人とも強いんですね」
+<PAUSE>
+<ACTOR>0,ws_t012b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「まあ鍛えてるからね」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「はあ」
+<PAUSE>
+<ACTOR>0,ws_t012c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「周りでひっくり返ってる男どもは
+　別に死んでないよね」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ、はい、大丈夫です。
+　私、声をかけられて、怖くて
+　つい眠りの魔法を。ごめんなさい」
+<PAUSE>
+<ACTOR>0,ws_t012b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「いいよいいよ。
+　ナンパ男とかろくなのがいないから」
+<PAUSE>
+<ACTOR>0,ws_t012a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「私も二人ほどやっつけたし、
+　なんかこのビーチではナンパ男を
+　とっちめるのが流行ってるみたいだから」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「そうなんですか……」
+<PAUSE>
+<NAME_PLATE>
+　いや、流行ってはいないだろう。
+<PAUSE>
+<ACTOR>0,ws_t012c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「なんでこんなとこで泣いてたの？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「私、仲間と遊びに来たんですが、
+　うっかり海に流されてしまって、
+　それでみんなとはぐれてしまって」
+<PAUSE>
+<ACTOR>0,ws_t012h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ああ、そりゃ不安だよね」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「はい、すごく。
+　私、どうしたら……うう」
+<PAUSE>
+<NAME_PLATE>
+　少女はまたうるっと涙を浮かべそうになる。
+<PAUSE>
+<ACTOR>0,ws_t012d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「あ、待って待って泣かないで。
+　ふうま君、どうしよう？」
+<PAUSE>
+<ACTOR>0,ws_t012c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　さくらは慌てて少女を落ち着かせ、
+俺の方を見た。
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな。
+　海の家の名前とか覚えてないか？
+　他の店でもいいけど」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「ここには初めて来たので
+　そういうのはなにも……」
+<PAUSE>
+<ACTOR>0,ws_t012g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「そっか、困ったなあ」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　少女は悲しそうに俯いたが、
+ふと何かを思い出したように、
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ、そうだ。
+　お友達が浜辺のラップ大会に
+　出るって言ってました」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「だからそこに行ったら会えるかも」
+<PAUSE>
+<ACTOR>0,ws_t012a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ラップ大会の場所なら知ってるよ。
+　つれてってあげる」
+<PAUSE>
+<NAME_PLATE>
+　少女はパッと顔を輝かせた。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「本当ですか！
+　ありがとうございます」
+<PAUSE>
+<NAME_PLATE>さくら
+「なんのなんの、お安い御用だよ」
+<PAUSE>
+<NAME_PLATE>
+　さくらは『いいよね？』と俺に目配せする。
+<PAUSE>
+<NAME_PLATE>
+　俺は『しょうがない』という顔で頷いた。
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ……眠らせてしまったこの方たちは
+　どうしましょう？」
+<PAUSE>
+<NAME_PLATE>さくら
+「んーー、別にいいんじゃない？
+　殺したわけじゃないんだから
+　そのうち起きるよ。起きるよね？」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あ、はい。
+　永遠の眠りの魔法ではないので」
+<PAUSE>
+<NAME_PLATE>
+　少女はさらっと物騒なことを言った。
+<PAUSE>
+<NAME_PLATE>
+　見た目はオドオドしているが、
+あんなモンスターを召喚したことといい、
+かなりの力の持ち主のようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「まあでも海から離しとくか。
+　満ち潮で溺死したらまずいし」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺は運の悪いナンパ男たちを
+波打ち際から離れたところに
+ズルズルと動かした。
+<PAUSE>
+<NAME_PLATE>
+　さっきもこんなことをやったなと
+思っていると、
+<PAUSE>
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「こらー、またおまえかニャーーー！
+　なにやってるかニャーー！
+　そこを動くなニャーー！！」
+<PAUSE>
+//　※立ち絵
+//　　【浜辺の猫】クラクル
+//　　　　＊カードイラストより流用
+<SE_PLAY>se125
+<NAME_PLATE>
+　さっきと同じように、
+ライフセーバーのクラクルが
+怖い顔でこっちに向かってきた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「やばい！　逃げるぞ！」
+<PAUSE>
+<ACTOR>0,ws_t012d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「え？　なんで？」
+<PAUSE>
+<NAME_PLATE>俺
+「なんででもだ！」
+<PAUSE>
+<NAME_PLATE>
+　あいつには注意されたばかり。
+<PAUSE>
+<NAME_PLATE>
+　今度も俺のせいではないが、
+もう説明するのも面倒だ。
+<PAUSE>
+<ACTOR>0,ws_t012e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「なんだか分かんないけど
+　やばいみたい。
+　行くよ！」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「え？　は、はい！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se125
+<NAME_PLATE>
+　さくらは少女の手を取り、
+俺たちは一目散に逃げ出した。
+<PAUSE>
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「逃げるなニャーー！！
+　次騒ぎを起こしたら
+　ビーチから追い出してやるニャーー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　クラクルが後ろで
+ニャーニャー叫んでいるのが聞こえた。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0133a,IN, 1000
+<ACTOR>0,chr_t0240a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　【サマーバカンス】ふうま時子
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　時子は一部始終を見ていた。
+<PAUSE>
+<NAME_PLATE>
+　その顔は不安そうだ。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様、また違う女の子と。
+　しかも今度はどこかに一緒に。
+　これは絶対に確かめないと……」
+<PAUSE>
+<ACTOR>0,chr_t0240a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m191a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナンパ男
+「待てよ、美人の姉ちゃん」
+<PAUSE>
+//　※立ち絵
+//　　オークナンパ師立ち絵
+//　　　　＊オークを加工して使用
+//　※ナンパ男っぽく見えるようにサングラス、水着などで加工してください。
+//→Section２終了
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

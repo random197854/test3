@@ -1,0 +1,787 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：魔界の原野＿夕方】【時間：昼】
+//　※対魔忍アサギ2_nc010bより流用
+//nc137a
+<BGM_PLAY>bgm313,1000
+<BG>nc137a,IN, 1000
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フェンリル
+「ぐるるるるる……」
+<PAUSE>
+//　※立ち絵
+//　　フェンリル＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　フェンリルは座ったまま
+右前足を無造作に振ってきた。
+<PAUSE>
+<NAME_PLATE>
+　相手がちっぽけな人間なので
+あまりやる気がないようだ。
+<PAUSE>
+<NAME_PLATE>
+　それでも風を切り裂いて、
+巨大な爪がぶんと迫ってくる。
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「危ない！」
+<PAUSE>
+<NAME_PLATE>
+　鬼神乙女（ワルキューレ）の
+誰かの声がした。
+<PAUSE>
+<NAME_PLATE>俺
+「はっっ！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc137a,IN, 500
+<NAME_PLATE>
+　俺は『余裕で』というほどではないが、
+横薙ぎの一撃を躱した。
+<PAUSE>
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フェンリル
+「ぐるるる……」
+<PAUSE>
+<NAME_PLATE>
+　フェンリルはそれが不満だったのか、
+低い声で唸った。
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「よしいけっ！」
+<PAUSE>
+<NAME_PLATE>
+　また別の鬼神乙女（ワルキューレ）の
+応援が飛ぶ。
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　どちらに向けての声か分からなかったが、
+俺は試しに斬り込んでみた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フェンリル
+「ぐる」
+<PAUSE>
+<NAME_PLATE>
+　フェンリルは面倒臭そうに
+前足を上げてそれを受け止めた。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギインッッ！
+<PAUSE>
+<NAME_PLATE>
+　一本が俺の腕ほどの太さもある爪が
+あっさりと攻撃を弾く。
+<PAUSE>
+<BG>nc137a,IN, 500
+<NAME_PLATE>
+　駄目だこりゃ。
+こんな刀で戦えるわけがない。
+<PAUSE>
+<ACTOR>0,chr_t0232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「上だ！　避けろ！」
+<PAUSE>
+<NAME_PLATE>
+　ブリュンヒルドが叫んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>500
+<NAME_PLATE>フェンリル
+「がああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　フェンリルが巨大な口を開いて
+俺に食いつこうとしている。
+<PAUSE>
+<NAME_PLATE>俺
+「くっっっ！！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「「「あああっ！！」」」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc137a,IN, 500
+<NAME_PLATE>
+　何人かの鬼神乙女（ワルキューレ）の
+悲鳴を聞きながら、俺は頭上からの
+牙をかろうじて躱した。
+<PAUSE>
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フェンリル
+「ぐしゅうううう」
+<PAUSE>
+<NAME_PLATE>
+　俺を噛み損ねたフェンリルが
+苛立たしげに唸っている。
+<PAUSE>
+<NAME_PLATE>
+　まずいな。
+だんだん本気になってきているぞ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが、この数合のやりとりで、
+<PAUSE>
+<NAME_PLATE>
+　もう俺の実力は大したことがないと
+鬼神乙女（ワルキューレ）たちも
+分かっただろう。
+<PAUSE>
+<NAME_PLATE>
+　早いとこ勇者（エインフェリア）の
+資格などないと諦めて欲しいのだが、
+どうも様子がおかしい。
+<PAUSE>
+<ACTOR>2,chr_t0232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「大丈夫だ、まだやれるぞ！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m185a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m185a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「そいつは以前右目を怪我している。
+　左から回り込むんだ！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「勇者（エインフェリア）頑張って！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「私たちが見てるから！」
+<PAUSE>
+<NAME_PLATE>
+　なぜか一人残らず俺を応援している。
+<PAUSE>
+<NAME_PLATE>
+　どうなってるんだ！？
+<PAUSE>
+<NAME_PLATE>
+　そりゃ俺が強い方が
+連中にとってはありがたいのだろうが、
+この盛り上がり方は妙だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フェンリル
+「ぐるる、ぐるるるる、ぐるるう～～！」
+<PAUSE>
+<NAME_PLATE>
+　フェンリルは主たちの様子に
+ひどく不満そうだ。
+<PAUSE>
+<NAME_PLATE>
+　俺と戦うために呼び出されたのに、
+なぜか俺ばかり応援されている。当然だろう。
+<PAUSE>
+<NAME_PLATE>フェンリル
+「がるうううっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その怒りを叩きつけるように。
+フェンリルは前足を持ちあげ、
+勢いよく振り下ろしてきた。
+<PAUSE>
+<NAME_PLATE>
+　だがそれは雑な攻撃だった。
+動きを読んでいた俺は紙一重で躱すと、
+反射的に刀を繰り出していた。
+<PAUSE>
+<BG>black,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<NAME_PLATE>
+　ブシュッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　真っ青な血が飛び散る。
+<PAUSE>
+<NAME_PLATE>俺
+「あ……」
+<PAUSE>
+<BG>nc137a,IN, 500
+<NAME_PLATE>
+　たまたま上手く斬り抜けた俺の刀は
+フェンリルの爪を根元から
+綺麗に落としていた。
+<PAUSE>
+<NAME_PLATE>
+　やばい、あれは痛い。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フェンリル
+「ぐがああああああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　案の定、フェンリルは大咆哮した。
+<PAUSE>
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　両眼に狂ったような怒りを浮かべて、
+苦悶の叫びに開けた口で噛みついてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しまった！　完全に本気にさせた！
+今度は躱せない！
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se003
+<NAME_PLATE>俺
+「くっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　必死に飛び退きながら、
+文字通り食らう覚悟を決めた瞬間、
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>1,chr_t0231a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ドナ
+「出力全開！
+　グラビティ・フィールド！」
+<PAUSE>
+//　※立ち絵
+//　　【試験兵装】ドナ・バロウズ
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0232a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「Ｅｎｇａｇｅｍｅｎｔ
+　ｏｆ　ｄｉａｍｏｎｄ！！
+　（金剛石の誓い）」
+<PAUSE>
+//　※立ち絵
+//　　ブリュンヒルド立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ドナとブリュンヒルドが
+同時に割って入ってきた。
+<PAUSE>
+<NAME_PLATE>
+　ドナはグラビティの刃を煌々と輝かせ、
+ブリュンヒルドは彼女自身の肉体を使って、
+フェンリルの牙から俺を防いだ。
+<PAUSE>
+<NAME_PLATE>ドナ
+「ふうま！
+　もうお前一人では戦わせないぞ！
+　今度は私がお前を守る番だ！」
+<PAUSE>
+<NAME_PLATE>
+　というドナの言葉は嬉しいが、
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「ああ！　じっとしていられない！
+　お前を見ていると胸が熱くなる。
+　私も一緒に戦わせてくれ！」
+<PAUSE>
+<NAME_PLATE>
+　そのブリュンヒルドのセリフは意味不明だ。
+<PAUSE>
+<NAME_PLATE>
+　さらに他の鬼神乙女（ワルキューレ）たちも
+先を争うように乱入してきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m185a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m185a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「一人だけズルいぞ、ブリュンヒルド！」
+<PAUSE>
+//　※立ち絵
+//　　鬼神乙女立ち絵
+//　　　　＊決戦アリーナ「希少な上級鬼族」より流用
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「私も勇者（エインフェリア）と
+　一緒に戦う！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「私だって！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「あなたには指１本触れさせないわ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「なんなんだこれは……？」
+<PAUSE>
+<NAME_PLATE>
+　俺が戦うのを見るんじゃなかったのか？
+<PAUSE>
+<NAME_PLATE>
+　と呆気にとられていると、
+<PAUSE>
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フェンリル
+「うぉおおおおおおおおおおんん！！」
+<PAUSE>
+//　※立ち絵
+//　　フェンリル＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　フェンリルが悲しみに叫びながら、
+駄々をこねるように激しく身をよじった。
+<PAUSE>
+<NAME_PLATE>
+　主みんなに裏切られた気分なのだろう。
+こいつもかわいそうにな。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ところで、フェンリルの身体には
+北欧神話にある魔法の鎖グレイプニルよろしく
+鎖が何本も絡みついている。
+<PAUSE>
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　そんな身体でイヤイヤをすれば当然、
+鎖が激しくぶん回されるわけで、
+<PAUSE>
+<NAME_PLATE>俺
+「ぐはっっっ！！」
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　運の悪さには定評のある俺に
+その一本が見事にぶち当たり、
+<PAUSE>
+<NAME_PLATE>ドナ
+「ふうま！！」
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「勇者（エインフェリア）！！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「ああ、そんな！」
+<PAUSE>
+<NAME_PLATE>
+　ドナやブリュンヒルド、
+他の（ワルキューレ）たちの声を聞きながら、
+俺はあっさりとぶっ倒れたのだった。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――
+<PAUSE>
+//【背景：洞窟の中＿昼】【時間：昼】
+//　※MonstersSurvive_nc009aより流用
+//nc035a
+<NAME_PLATE>俺
+「う……うう……」
+<PAUSE>
+<BG>nc035a,IN, 1000
+<NAME_PLATE>
+　目を覚ますと、
+皆が俺を不安そうに覗き込んでいた。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>1,chr_t0231a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドナ
+「ふうま、大丈夫か！？」
+<PAUSE>
+//　※立ち絵
+//　　【試験兵装】ドナ・バロウズ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「ああ、大丈夫らしい」
+<PAUSE>
+<ACTOR>0,chr_t0232a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「人間とは思えない回復能力だな。
+　それでこそ勇者（エインフェリア）だ。
+　また一つお前を深く知ることができたぞ」
+<PAUSE>
+//　※立ち絵
+//　　ブリュンヒルド立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m185a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「私の治癒の能力があったればこそだ。
+　痛いところがあれば言ってくれ。
+　それから私はサーラだ」
+<PAUSE>
+//　※立ち絵
+//　　鬼神乙女立ち絵
+//　　　　＊決戦アリーナ「希少な上級鬼族」より流用
+<NAME_PLATE>俺
+「なんともないようだ、ありがとう」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　礼を言って身体を起こすと、
+フェンリルが低い声で唸った。
+<PAUSE>
+<ACTOR>0,ts_m187a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フェンリル
+「がるるるる……」
+<PAUSE>
+//　※立ち絵
+//　　フェンリル＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m185a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m185a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「こら！　フェンリル！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「伏せ！」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「そこで反省していろ！」
+<PAUSE>
+<NAME_PLATE>フェンリル
+「くーーーーーん」
+<PAUSE>
+<NAME_PLATE>
+　鬼神乙女（ワルキューレ）たちに
+口々に叱られ、
+フェンリルは悲しそうな声で鳴いた。
+<PAUSE>
+<NAME_PLATE>
+　どうやら鬼神乙女（ワルキューレ）たちに
+お仕置きされたらしく、しょぼんとしている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「俺の実力なんてこんなもんだ。これで
+　分かっただろう？　俺はお前たちの言う
+　勇者（エインフェリア）なんかじゃない」
+<PAUSE>
+<ACTOR>0,chr_t0232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「いや、私たち全員が
+　お前を勇者（エインフェリア）と認めた」
+<PAUSE>
+<NAME_PLATE>俺
+「は？　なんで？」
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「それはお前が私たちに示してくれた」
+<PAUSE>
+<NAME_PLATE>
+　ブリュンヒルドは力強く言い、
+鬼神乙女（ワルキューレ）たちも頷く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m185a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m185a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「ああ、勇者（エインフェリア）だ」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「間違いないわ」
+<PAUSE>
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「“天帝”の意を宿した子種の持ち主よ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「いや、意味が分からないんだが……」
+<PAUSE>
+<ACTOR>0,chr_t0231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドナ
+「全く鈍感な奴だな」
+<PAUSE>
+<NAME_PLATE>
+　ドナは呆れたような顔をしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「私たちはお前を勇者（エインフェリア）と
+　認め、その上でお前の意思を
+　尊重することにした」
+<PAUSE>
+<NAME_PLATE>俺
+「というと？」
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「私たちの誰を選ぶかは
+　お前の意思次第ということだ」
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「しきたりでは勇者（エインフェリア）の
+　種を宿せるのは一人だが、
+　それに縛られる必要もない」
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「お前が望むだけ、我々に子種を与えてくれ」
+<PAUSE>
+<NAME_PLATE>ブリュンヒルド
+「もちろん、すぐには決められないだろう。
+　人間とはそういうものだとドナに聞いた。
+　だから今日はこれで帰ることにする」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「俺がぶっ倒れてる間に何を話したんだ？」
+<PAUSE>
+<ACTOR>0,chr_t0231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドナ
+「色々とな。女同士の話だ」
+<PAUSE>
+<NAME_PLATE>
+　俺に言うつもりはないらしい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「では魔界に帰るぞ、みんな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ブリュンヒルドの合図で
+鬼神乙女（ワルキューレ）たちが
+立ち上がった。
+<PAUSE>
+<NAME_PLATE>
+　そして一人一人、俺に別れを告げていく。
+<PAUSE>
+<NAME_PLATE>
+　表情は相変わらず分かりにくいのだが、
+どう考えても恋する乙女の調子で。
+<PAUSE>
+<ACTOR>0,ts_m185a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「ふうま、私のことを覚えていてくれ」
+<PAUSE>
+<ACTOR>1,ts_m185a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「あなたを待ってるから」
+<PAUSE>
+<ACTOR>2,ts_m185a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼神乙女（ワルキューレ）
+「私を選んでね、ダーリン」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ブリュンヒルド
+「みんなお前を気に入ったのだ。
+　もちろん私もだ。お前に惚れた。
+　私に子種をくれることを心から願っている」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m185a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m185a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m185a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼神乙女（ワルキューレ）一同
+「ふうま、またねーーーー！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　誰かの能力を使ったのだろう、
+鬼神乙女（ワルキューレ）たちは
+フェンリルを連れて一斉に消えていった。
+<PAUSE>
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<ACTOR>0,chr_t0231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドナ
+「モテモテだな」
+<PAUSE>
+//　※立ち絵
+//　　【試験兵装】ドナ・バロウズ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ドナは呆れているような
+同情しているような笑い顔だ。
+<PAUSE>
+<NAME_PLATE>
+　俺はちょっと冷や汗だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ピーピーピーピーー♪
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うおっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　いきなり通信端末が鳴った。
+アスカからの連絡だ。
+<PAUSE>
+<NAME_PLATE>俺
+「お、俺だ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、やっと繋がった。
+　ふうま、こっちは全部片付けたわ。
+　そっちは大丈夫？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、なんとかな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「よかった。
+　ドナ、身体の方は平気？」
+<PAUSE>
+<ACTOR>0,chr_t0231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドナ
+「ああ、もう大丈夫だ……くく」
+<PAUSE>
+<NAME_PLATE>アスカ
+「なんで笑ってんの？
+　まあいいわ、さっきの海岸で合流しましょ」
+<PAUSE>
+<NAME_PLATE>俺
+「りょ、了解」
+<PAUSE>
+<NAME_PLATE>
+　俺は通信を切った。
+<PAUSE>　
+<NAME_PLATE>ドナ
+「アスカには内緒にしておくか？」
+<PAUSE>
+<NAME_PLATE>俺
+「頼む……」
+<PAUSE>
+<NAME_PLATE>
+　これは大変なことになったぞ。
+<PAUSE>
+<NAME_PLATE>俺
+「とりあえず一つ一つ問題を片付けていこう」
+<PAUSE>
+<NAME_PLATE>ドナ
+「そうした方がいいな」
+<PAUSE>
+//【背景：DSO日本支部アジト前＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc024aより流用
+//nc176a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc176a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　後日―――。
+<PAUSE>
+//【背景：DSO日本支部アジト研究室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ３_nc025aより流用
+//nc181a
+<BGM_PLAY>bgm208,1000
+<BG>nc181a,IN, 1000
+<ACTOR>0,k_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「アスカ、あなたに届け物よ。
+　差出人の名前はないけれど、
+　品名に『返品不可』ってあるわ」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍通常立ち絵＿対魔忍衣装（コートあり）
+//　　　＊対魔忍アサギ3の立ち絵より流用
+<NAME_PLATE>仮面のマダム
+「念のためスキャンしたけど
+　中身に問題はなし。はいどうぞ」
+<PAUSE>
+<ACTOR>0,k_t003a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,as_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「はあ？　返品不可？」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカは届け物を手に
+怪訝そうにしていたが、
+すぐにその正体に思い当たる。
+<PAUSE>
+<ACTOR>1,as_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「もう、ジョークにセンスがないのよ。
+　やだこれ私があげた店のじゃない。
+　なんにも考えてないんだから」
+<PAUSE>
+<NAME_PLATE>アスカ
+「文句言ってやらなきゃ。
+　メールメールっと」
+<PAUSE>
+<NAME_PLATE>
+　この前教えてもらったふうまのアドレスに
+いそいそとメールを打ち始めるアスカだった。
+<PAUSE>
+//→エピローグ終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

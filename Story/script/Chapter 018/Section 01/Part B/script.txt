@@ -1,0 +1,291 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：アミダハラ廃墟地区２＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc211a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m131a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンパンパンパンッ！！
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ名物の武装難民の奇襲を受けた
+女囚キャラバン。
+<PAUSE>
+<NAME_PLATE>傭兵
+「この人食い野郎どもが！！」
+<PAUSE>
+<NAME_PLATE>
+　傭兵たちも必死に反撃しているが、
+なにせ地の利はあちらにある。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンパンパンパンッ！！
+<PAUSE>
+<NAME_PLATE>傭兵
+「ぐうっっ！！」
+<PAUSE>
+<NAME_PLATE>女囚
+「ぎゃああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　傭兵も女囚もおかまいなしに
+見る見るこちらの数が減っていく。
+<PAUSE>
+<NAME_PLATE>
+　あっという間に壊滅状態だ。
+<PAUSE>
+<NAME_PLATE>武装難民
+「ひゃはははははははははっ！！」
+「クシャアアアアアアアアアアアア！！」
+<PAUSE>
+<NAME_PLATE>
+　殺意というより食欲を刺激されたかのように
+武装難民たちが嫌な雄叫びを上げている。
+<PAUSE>
+<NAME_PLATE>
+　そして、残るわずかばかりの抵抗に
+トドメをさすため、一斉に突撃を開始した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,kr_t005g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら（俺）
+「あちゃー……どうするよマジで」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>
+　ヒュンヒュン！！！！
+<PAUSE>
+<NAME_PLATE>
+　耳のすぐそばを銃弾が通過していく。
+<PAUSE>
+<NAME_PLATE>
+　まごまごしているうちに、
+いよいよ万事休すだ。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　と、思った時―――
+<PAUSE>
+<NAME_PLATE>？？？
+「おらああああ！！！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　橋の向こうから、
+大剣を持った女が駆け込んできて
+武装難民の首を立て続けに跳ね飛ばした。
+<PAUSE>
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<SE_PLAY>se054
+<GROUP>
+<ACTOR>3,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m132a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　さらに、その後ろからは
+武装したトロールの軍勢が押し寄せてくる。
+<PAUSE>
+<ACTOR>5,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「お前ら、まとめて始末するよ！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>トロール
+「おおっっ！！」
+「この人食いどもがっっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　なんだ？　救援か？
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「た、助かった！　カウーラだ！」
+<PAUSE>
+<NAME_PLATE>
+　しぶとく生き残っていたチョビ髭オヤジが
+死体の隙間から這い出してきた。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「カウーラ？」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「おお、あんたも生きてたか。
+　アミダハラ監獄の看守長だ！！
+　トロールどもは部下の獄卒よ！！」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+（そうか……あの女が……）
+<PAUSE>
+<NAME_PLATE>カウーラ
+「今度はアンタらが食われる番だよ。
+　このカウーラの魔剣で魂刈り取って
+　あげるから！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>カウーラ
+「あーーーははっははははははっっ！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　カウーラは歓喜の表情で、
+大剣を縦横無尽に振り回している。
+<PAUSE>
+<NAME_PLATE>
+　俺が知っているどんな剣術、
+武術の動きでもない。
+太刀筋すら一定していない。
+<PAUSE>
+<NAME_PLATE>
+　明らかな我流。
+殺意と享楽の本能のままに動いているようだ。
+しかし強い。
+<PAUSE>
+<SE_PLAY>se027
+<WAIT>500
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カウーラ
+「そらそらそらっ！
+　一人っ、二人っ、三人っ！
+　あははっ！　楽しいねえっ！！」
+<PAUSE>
+<NAME_PLATE>
+　見る見るうちに、
+一人、二人、三人と敵を斬り捨てていく。
+<PAUSE>
+<NAME_PLATE>
+　獄卒のトロールたちもよく鍛えられていて、
+人食い武装難民の敵ではない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　連中はさっきまでの奇襲の勢いが嘘のように
+あっという間に散り散りに逃げていった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>きらら（俺）
+「ふう……助かったみたいだな……」
+<PAUSE>
+<NAME_PLATE>
+　しかし、周囲は死体の山だ。
+<PAUSE>
+<NAME_PLATE>
+　生き残った女囚は俺一人のようだ。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>奴隷商人
+「へへへ、助かったぜ、カウーラ」
+<PAUSE>
+<ACTOR>5,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「相変わらず悪運が強いねえ
+　ちゃっかり生き残ってるよ」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　愛想笑いをするチョビ髭オヤジを一瞥し、
+カウーラは俺にゆっくりと近づいてきた。
+<PAUSE>
+<ACTOR>5,chr_t0165a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,kr_t005a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「アタシはカウーラ。看守長のカウーラだ」
+<PAUSE>
+<NAME_PLATE>
+　武装難民たちを撫で斬りにした時と同じく、
+さも楽しそうな目で俺を見ている。
+<PAUSE>
+<ACTOR>2,kr_t005c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「ど、どうも……
+　助けてくれてありがとうございます……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>
+　俺はぺこりと頭を下げる。
+<PAUSE>
+<NAME_PLATE>
+　無論、初対面だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、知らない相手ではない。
+<PAUSE>
+<NAME_PLATE>
+　今回の任務の協力者だ。
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄潜入には
+当然様々なバックアップが必要だ。
+<PAUSE>
+<NAME_PLATE>
+　そのバックアップの一つがカウーラ、
+つまり買収した看守長である。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「対魔忍のお嬢さんよ！
+　契約は一度助けるってことだけど、
+　これはオマケにしてあげるよ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「理解したか？
+　“一度”助ける以外はアンタとアタシは
+　囚人と看守長ってことだ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「たっぷり虐めてやるから期待しとけよな」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+（こいつは……）
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄の看守長カウーラ。
+<PAUSE>
+<NAME_PLATE>
+　どうも単純な内通者ではないようだ。
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

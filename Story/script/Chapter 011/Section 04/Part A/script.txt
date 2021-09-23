@@ -1,0 +1,236 @@
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　細心の注意を払って入り口ゲートに
+接近する俺達。だが――
+<PAUSE>
+<NAME_PLATE>
+　そこで見た光景は、
+まったく予想外のものだった。
+<PAUSE>
+//【背景：ヨミハラ入り口＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC033aより流用
+<BG>nc121a,IN, 1000
+<NAME_PLATE>俺
+「はあ？　なんだありゃ――」
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「か～っ！？　何度も言うたやろ！？
+　こっちはあんたらとコトを構える気は
+　これっぽっちもあらへんってっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+</GROUP>
+<NAME_PLATE>
+　炎の魔人・ヘスティアの
+苛立ったような叫びと、
+辺り一帯に溢れる激しい戦闘音。
+<PAUSE>
+<NAME_PLATE>
+　ゲート前に陣取った米連部隊と
+ヨミハラの住人の間で戦闘が起こっていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,400
+<GROUP>
+<BG>nc121a,IN, 200
+<TRANSITION>TR54, IN,800
+</GROUP>
+<ACTOR>1,s_t001d,CENTER, CENTER, IN, linear, 200
+<NAME_PLATE>鹿之助
+（お、おいふうま……！？
+　一体どうなってんだよあれ！！？）
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+（わ、わからんが……俺達を追って
+　ヨミハラに侵入したのを、
+　敵対行為と見なした、とか……？）
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+（って、うおっっ！？　あれは――）
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,400
+<GROUP>
+<BG>nc121a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>2,chr_t0010a,LEFT, LEFT, IN, linear, 200
+<NAME_PLATE>イングリッド
+「――ならば兵をひけ！！　ここは
+　我々ノマドが支配するゲートである！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊対魔忍RPGローンチガチャのカードイラストを流用
+<ACTOR>3,chr_t0004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>朧
+「アハハハ！　そうそう！！
+　あんた達米連が簡単に入れるほど、
+　ヨミハラはお安くないのよぉ」
+<PAUSE>
+//　※立ち絵
+//　　朧
+//　　　＊対魔忍RPGローンチガチャのカードイラストを流用
+<NAME_PLATE>俺
+（おっ、おいおいおい――！！）
+<PAUSE>
+<NAME_PLATE>
+　“魔界騎士”イングリッド。
+<PAUSE>
+<NAME_PLATE>
+　そして“裏切りの対魔忍”朧。
+<PAUSE>
+<NAME_PLATE>
+　俺も資料でしか見たことないノマドの
+大幹部二人が、サイボーグ兵士ヘスティアと
+激しい戦闘を繰り広げていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,400
+<ACTOR_OUT>3,RIGHT,linear,400
+</GROUP>
+<ACTOR>0,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「だ～か～らっ！！
+　対魔忍どもがうちらのサイボーグを
+　パクろうとしとるんや！！！」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「ヒドイやろ！？　最低やろ！？
+　それさえ妨害できれば良いんや！！
+　なんなら金も払うでぇ！？」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア立ち絵
+//　　　　＊対魔忍RPG用に新デザイン
+<ACTOR>0,ts_m070a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,chr_t0010a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「馬脚をあらわしたな下郎が――。
+　魔界騎士が金などに釣られるか！！」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>3,chr_t0004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>朧
+「あら、良いじゃない。
+　値段次第で、アタシは話を聞いて
+　あげてもいいわよ☆」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「おっほぉ～！？　そっちの
+　厚化粧の姐さん、話がわかるわ～」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「朧ッ！！？
+　貴様、少しは真面目に――」
+<PAUSE>
+<NAME_PLATE>朧
+「アハハ！　ジョーダンよ♪
+　あの高そうなサイボーグボディを
+　頂いた方が、お金になりそうだし」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヘスティア
+「――なんやてぇ！！？」
+<PAUSE>
+<NAME_PLATE>
+　ふざけたようなやり取りをしつつ、
+三人は壮絶な戦いを続けている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（いやいやいやいや……。
+　バケモノだな、あいつら……）
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+（……俺知ってるぞ。ああいうの、
+　チートって言うんだろチート）
+<PAUSE>
+<NAME_PLATE>蛇子
+（うーん……。蛇子の足があと
+　１０本多ければ、かろうじて……）
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　あのアサギ先生と互角に戦い、何度も
+窮地に陥れたというノマド幹部の二人である。
+<PAUSE>
+<NAME_PLATE>
+　俺達があれほど手こずったヘスティアさえ、
+イングリッドと朧相手では防戦一方だ。
+<PAUSE>
+<NAME_PLATE>俺
+「だけど、これはチャンスだ！
+　今なら米連の目を盗んで
+　ゲートを抜けられる！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>5,ts_m076a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヤマタノオロチ
+「おや？　つまらないねぇ……。
+　あっちには参加しないのかい？」
+<PAUSE>
+//　※立ち絵
+//　　ヤマタノオロチ
+//　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「するわけあるか！！？」
+<PAUSE>
+<NAME_PLATE>
+　ヤマタノオロチの戦闘狂ぶりに呆れつつ、
+俺は皆に声をかけた。
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+<NAME_PLATE>俺
+「あんなヤバイ連中を相手にしてたら
+　命が幾つあっても足りないからな――」
+<PAUSE>
+<NAME_PLATE>俺
+「あの三人の死角になるようなルートを
+　選んで、速やかにここを突破しよう！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t001f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,h_t002f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>二人
+「「了解っ」」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→S402a

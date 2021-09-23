@@ -1,0 +1,1550 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：アミダハラ廃墟地区＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<BG>chrnc0168a,IN, 1000
+<NAME_PLATE>
+　日本最大の廃棄都市アミダハラ。
+<PAUSE>
+<NAME_PLATE>
+　まさに“泣く子も黙る”その
+危険な廃墟地区を、てくてくと歩く
+獣人の女の子の姿があった。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「ふんっ、ここがアミダハラか。
+　ウワサには聞いてたけど、
+　案外大したことなさそうだぞ！」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー立ち絵
+//　　　＊トラジロー01カードイラストより流用
+<NAME_PLATE>
+　東京キングダムのギャング組織、
+獣王会の若頭・トラジローである。
+<PAUSE>
+<NAME_PLATE>
+（獣王会は、自分の好きなそれっぽい
+　役職を自由に名乗っていいシステムに
+　なっている）
+<PAUSE>
+<NAME_PLATE>トラジロー
+「こんな所におつかいに来るくらい、
+　オレ一人でらくしょーだぞ。
+　それなのにあいつらときたら――」
+<PAUSE>
+<NAME_PLATE>
+　などと荒廃した通りを歩きながら
+プンスカした顔のトラジロー。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダムから
+この廃棄都市にやってくる間、
+トラジローはご機嫌斜めであった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　というのも――。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　あれは、トラジローが
+アミダハラに出発する直前のこと。
+<PAUSE>
+//【背景：東京キングダム＿獣王会アジト＿夜】【時間：夜】
+//　※陰陽騎士トワコ_nc006aより流用
+<BG>nc012a,IN, 1000
+<NAME_PLATE>
+　東京キングダム・獣王会アジト。
+<PAUSE>
+<ACTOR>1,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャング１
+「うーん。兄貴、
+　本当にトラ一人で大丈夫かなぁ」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ギャング１
+「あいつ、適当なところで
+　野宿したり拾い食いしたりで、
+　おなか壊したりしそうじゃない？」
+<PAUSE>
+<ACTOR>1,ts_m039a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m074a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>灰狼一郎太
+「あーわかるわかる。やっぱり
+　トラだけじゃ危ないかなぁ？」
+<PAUSE>
+//　※立ち絵
+//　　ワーウルフ
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「がるる……」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー立ち絵
+//　　　＊トラジロー01カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　当人そっちのけでわいわいと
+話し合っている獣王会の面々。
+<PAUSE>
+<NAME_PLATE>
+　どうやらトラジローにアミダハラまで
+おつかいを頼もうとしているのだが、
+<PAUSE>
+<NAME_PLATE>
+　やっぱり一人で遠くに行かせるのは
+心配だなぁという顔の一同であった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング２
+「いや、つっても兄貴、
+　俺らも忙しいからトラに
+　頼むしかなかったわけで」
+<PAUSE>
+<NAME_PLATE>ギャング３
+「そうそう。猫の手ならぬ
+　トラの手も借りたいってやつ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ts_m074a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>灰狼
+「うーん。そうなんだけどなぁ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　このところ獣王会は急速に
+勢力を拡大しているが、それに
+人手の方が追いついていない。
+<PAUSE>
+<NAME_PLATE>
+　今回のアミダハラへのおつかいも、
+トラジロー一人に頼まざるを得ない状況だ。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、獣王会の面々にとって
+トラジローは可愛い妹のようなもの。
+<PAUSE>
+<NAME_PLATE>
+　なので皆すごく心配顔で――
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャングたち
+「気をつけろよー」「お小遣いあるかー？」
+「知らないやつについていくなよー」
+「電車の乗り換え大丈夫かー？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ギャング
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「むぐぐぐ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m074a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>灰狼
+「よし！　じゃあこうしよう！
+　やっぱり俺がトラについていくよ」
+<PAUSE>
+<NAME_PLATE>灰狼
+「なーに３日くらい寝ないで働けば、
+　スケジュールの調整くらい簡単――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>トラジロー
+「あーもう！！
+　みんなうるさいのだ！」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「おつかいくらいオレ一人で余裕だから、
+　兄貴はアジトでグースカ寝てればいいのだ！
+　行ってきます！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se128
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガチャン！　ドタドタドタ！
+<PAUSE>
+<ACTOR>0,ts_m074a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>灰狼
+「あー。行っちゃった……」
+<PAUSE>
+<NAME_PLATE>
+　ドアを蹴っ飛ばして出発する
+トラジローの背中を見送って、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　獣王会の面々は「大丈夫かなぁ」と
+顔を見合わせるのであった。
+<PAUSE>
+//【背景：黒画面】
+//【背景：アミダハラ廃墟地区＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0168a,IN, 1000
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>トラジロー
+「もう、いらんことばっかり言って！
+　あいつら全員うんこなのだ！」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー立ち絵
+//　　　＊トラジロー01カードイラストより流用
+<NAME_PLATE>
+　という理由でプンスカしている
+反抗期気味のトラジロー。
+<PAUSE>
+<NAME_PLATE>
+　獣王会の面々の親心も、
+当人にはめんどくさいだけのようだ。
+<PAUSE>
+<NAME_PLATE>
+　と、そこで――
+<PAUSE>
+<NAME_PLATE>トラジロー
+（だいだい、あのダメ熊が
+　暴れたりしなければこんなことに
+　ならなかったのだ……！）
+<PAUSE>
+<NAME_PLATE>
+　トラジローは、今回のおつかいの
+きっかけとなった騒動を思い返す。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ダメ熊というのは、
+トラジローの幼馴染でもある
+獣王会の幹部・白熊タローのこと。
+<PAUSE>
+//　※立ち絵
+//　　白熊タロー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>0,ts_m204a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　十日ほど前、東京キングダムの
+“五強”幹部が集まる酒宴で白熊タローは
+酔って大暴れをしてしまい――
+<PAUSE>
+<NAME_PLATE>
+　五強同士がトラブルになった際、
+解決するために定めたルールによって、
+<PAUSE>
+<NAME_PLATE>
+　この廃棄都市にあるアミダハラ監獄に、
+一時的に幽閉されることになった。
+<PAUSE>
+<NAME_PLATE>
+（アミダハラ監獄は女囚用の監獄だが、
+　今回のような特別な取り決めによって
+　隔離区画に男の囚人を収監することがある）
+<PAUSE>
+//【背景：アミダハラ廃墟地区＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0168a,IN, 1000
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>トラジロー
+「まったく、白熊といい兄貴といい、
+　うちの連中はオレがいないと
+　てんでダメなんだから……！」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー立ち絵
+//　　　＊トラジロー01カードイラストより流用
+<NAME_PLATE>
+　普段は気のいい熊の獣人だが、
+おなかが減ったり酒に酔うと
+ひどい暴れん坊になってしまう。
+<PAUSE>
+<NAME_PLATE>
+　そんな白熊タローの釈放に
+必要な金を持参して迎えに行くのが、
+今回のトラジローの役目である。
+<PAUSE>
+<NAME_PLATE>トラジロー
+（まあ、ダメダメな奴らだけど、
+　みんなオレのファミリーだからな。
+　ちゃんと面倒を見てやるのだ……！）
+<PAUSE>
+<NAME_PLATE>
+　などとツンツンしながらトラジローは
+目的地であるアミダハラ監獄に向かう。
+<PAUSE>
+//【背景：黒画面】
+//【背景：アミダハラ監獄＿夜】【時間：夜】
+//　※免罪の皇女アリア＿nc007bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0181b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、アミダハラ監獄――。
+<PAUSE>
+//【背景：アミダハラ監獄＿所長室＿昼夜共通】【時間：朝】
+//　※鋼殻のアイ_nc014aより流用
+//nc339a
+<BGM_PLAY>bgm314,1000
+<BG>nc339a,IN, 1000
+<ACTOR>1,ti_t005e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鉄華院カヲル
+「は？　もう一度
+　仰ってくださいますか……？」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_スーツ
+<NAME_PLATE>
+　凛としたスーツ姿の女性が
+来客に鋭い視線を向ける。
+<PAUSE>
+<NAME_PLATE>
+　所長室のソファに腰掛けた少女は、
+それを受け止めて優雅に微笑んだ。
+<PAUSE>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>少女
+「ええ、何度でも♪」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>少女
+「『白熊タロー』という名だったかしら？
+　こちらの監獄に収監されている獣人――
+　あれを私たちに引き渡してくださいませ」
+<PAUSE>
+<NAME_PLATE>カヲル
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　スーツ姿の美女が訝しげに目を細める。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,ti_t005e,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　彼女の名は鉄華院カヲル。
+<PAUSE>
+<NAME_PLATE>
+　鎖術の達人として知られる対魔忍だ。
+<PAUSE>
+<ACTOR>1,ti_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　通称“鉄鎖のカヲル”。
+<PAUSE>
+<NAME_PLATE>
+　忍法“鎖遁の術”によって
+両掌から鎖を出現させ、
+<PAUSE>
+<NAME_PLATE>
+　それを自在に操って鞭のように敵を攻撃、
+あるいは巻き付け鎖縛、絞め殺しもする。
+<PAUSE>
+<NAME_PLATE>
+　さらに彼女の鎖は“邪なる鎖縛”とも呼ばれ
+この鎖に捕縛された者の罪の重さの分だけ
+鎖は頑丈に重くなるという。
+<PAUSE>
+<NAME_PLATE>
+　かつて彼女は、ふうま八将二車家に
+仕える幹部であったが、
+<PAUSE>
+<NAME_PLATE>
+　現在は対魔忍組織から独立し、
+ここアミダハラ監獄の支配者として
+闇の世界に独自の勢力を築いている。
+<PAUSE>
+<NAME_PLATE>
+　そして、
+そんなカヲルと相対しているのが――。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「ふふ♪　どうかされましたか？」
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ti_t005d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カヲル
+「いえ、失礼しました。
+　少々急な話だったもので……」
+<PAUSE>
+<NAME_PLATE>
+　カヲルは言葉を濁す。
+<PAUSE>
+<NAME_PLATE>
+　目の前の少女――そして、彼女の
+申し出には奇怪な点が幾つもあった。
+<PAUSE>
+<NAME_PLATE>カヲル
+（こんな少女が、内調の使者……？
+　それに、なぜあの獣人を……）
+<PAUSE>
+<NAME_PLATE>
+　そう――。
+<PAUSE>
+<NAME_PLATE>
+　目の前の少女は、“内調”――
+内閣情報調査局からの使者だと名乗り、
+<PAUSE>
+<NAME_PLATE>
+　数日前にこのアミダハラ監獄に
+収監された獣人の引き渡しを要求した。
+<PAUSE>
+<NAME_PLATE>カヲル
+（……気に入らないわね、何もかも）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　まず内調の意図が読めない。
+<PAUSE>
+<NAME_PLATE>
+　内調と言えば国内外で発生する
+様々な陰謀事案の背後にいるとされる
+諜報組織。
+<PAUSE>
+<NAME_PLATE>
+　どんな事件に関わっていても
+不思議ではない胡乱な者たちではあるが……。
+<PAUSE>
+<NAME_PLATE>
+　だとしても、なぜあの熊の獣人――
+東京キングダムで起きたギャング同士の
+いざこざに首を突っ込むのか。
+<PAUSE>
+<NAME_PLATE>
+　いや、それよりも――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ti_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カヲル
+「…………」
+<PAUSE>
+<NAME_PLATE>少女
+「ふふっ――」
+<PAUSE>
+<NAME_PLATE>
+　この少女の存在自体が、
+不可解なほどカヲルを苛立たせた。
+<PAUSE>
+<NAME_PLATE>
+　ミランダ・クローゼット。
+<PAUSE>
+<NAME_PLATE>
+　内調の使者とはとうてい思えない、
+旧家の令嬢のような優美な佇まい――
+だが、思い過ごしだろうか。
+<PAUSE>
+<NAME_PLATE>
+　カヲルには、この少女が纏う空気
+そのものが何か禍々しく感じられる。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「もちろん、あなた――
+　カヲルと呼んでいいかしら？
+　の、お気持ちもわかりますわ」
+<PAUSE>
+<NAME_PLATE>
+　妙に親し気に呼びかけ、
+眼帯の少女が言葉を続ける。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「このアミダハラ監獄は、
+　政府にも闇の諸勢力にも――
+　あらゆる勢力に属さない中立の施設」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「たとえ内調の要請であろうと、
+　簡単に首を縦に振るわけにはいかない――
+　そうおっしゃりたいのでしょう？」
+<PAUSE>
+<NAME_PLATE>カヲル
+「……ご理解いただいているようで、
+　何よりです」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ふふっ♪　でも――
+　あなたは私たちに“借り”がある」
+<PAUSE>
+<NAME_PLATE>
+　眼帯の少女が無邪気ともいえる
+優しい笑みを見せる。
+<PAUSE>
+<NAME_PLATE>カヲル
+「借り――」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「“双子の鬼姉妹”のことですわ」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「あれは、私たち内調があなたを
+　信頼してこの監獄に預けたもの」
+<PAUSE>
+<NAME_PLATE>
+　米連と魔界の技術を使い生み出された
+人型兵器である双子鬼。
+<PAUSE>
+<NAME_PLATE>
+　内調はそれを研究材料にするために奪取し、
+一時的にこのアミダハラ監獄に預けていた
+ことがあった。しかし――。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「それを――ふふっ♪
+　こともあろうに五車の対魔忍に
+　奪い返されてしまうなんて――」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「私だったら、恥ずかしくて
+　そんな澄ました顔はしてられませんわ♪
+　ねえカヲル、そうは思いません？」
+<PAUSE>
+<ACTOR>1,ti_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「………」
+<PAUSE>
+<NAME_PLATE>
+　少女はくすくすと含み笑いを漏らす。
+<PAUSE>
+<NAME_PLATE>
+　煽るでも挑発するでもなく、
+単純に面白がっているという笑い――
+それがなおさら不気味で苛立たしい。
+<PAUSE>
+<NAME_PLATE>カヲル
+「その借りを返せ、と？」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「簡単なことでしょう？
+　それだけで、カヲルと私たちは
+　また元通り仲良くなれる♪」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「“五強”でしたっけ？
+　そんな新興ギャングに義理立てするより、
+　ずっとあなたのためになると――」
+<PAUSE>
+<ACTOR>1,ti_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「お断りします、残念ながら」
+<PAUSE>
+<NAME_PLATE>
+　少女の言葉を遮りカヲルは首を振った。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「あら……？」
+<PAUSE>
+<NAME_PLATE>カヲル
+「確かに、あの双子鬼の件は
+　こちらの失態でした」
+<PAUSE>
+<NAME_PLATE>カヲル
+「ですがその補填は、今回の要請とは
+　別の形で行わせていただきます」
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄が存続しているのも、
+その高い独立性ゆえだ。
+<PAUSE>
+<NAME_PLATE>
+　どの勢力にも属さないからこそ、
+あらゆる勢力から囚人を受け入れる
+ことができる。
+<PAUSE>
+<NAME_PLATE>
+　もしここで内調の恫喝に屈して
+便宜を図ってしまえば、
+<PAUSE>
+<NAME_PLATE>
+　中立を旨とするアミダハラ監獄の
+信用は大きく損なわれ、政治的立場を
+危うくする恐れすらある。
+<PAUSE>
+<NAME_PLATE>
+　それは、内調との関係を少しばかり
+損ねたとしても避けたい事態であった。
+<PAUSE>
+<NAME_PLATE>カヲル
+「どうしてもあの獣人の
+　身柄が必要とおっしゃるのなら」
+<PAUSE>
+<NAME_PLATE>カヲル
+「依頼主である東京キングダム
+　“五強”の許可を得てください。
+　それが当監獄のルールです」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「本気で言ってるの、カヲル？
+　うーん、私にはあまり賢い選択とは
+　思えませんが――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイン！！！！
+<PAUSE>
+<BG>nc339a,IN, 500
+<NAME_PLATE>ミランダ
+「―――――」
+<PAUSE>
+<NAME_PLATE>
+　少女の眼前で銀色の一閃。
+<PAUSE>
+<NAME_PLATE>
+　ミランダが持ち込んだ書類の束を
+貫くようにして、テーブルの上に
+カヲルのクナイが突き立っていた。
+<PAUSE>
+<ACTOR>1,ti_t005d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カヲル
+「――お引き取り願いましょうか、
+　内調の使者殿」
+<PAUSE>
+<NAME_PLATE>カヲル
+「誰とも知らぬ小娘に“カヲル”呼ばわり
+　されていつまでも笑っていられるほど、
+　私は優しくはない」
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄の支配者、
+“鉄鎖のカヲル”の静かな威圧。
+<PAUSE>
+<NAME_PLATE>
+　気の弱い者ならそれだけで
+失禁しかねない苛烈さである。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<ACTOR>1,ti_t005d,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「フフ――♪」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,ti_t005d,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ミランダ
+「“誰とも知らぬ”なんて、
+　そんな冷たいこと言わないで♪」
+<PAUSE>
+//　※この辺りでいったんミランダの立ち絵を消す感じでお願いします。
+<ACTOR>1,ti_t005h,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カヲル
+「！！！！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、カヲルがテーブルに突き立てた
+クナイがぐにゃりと“変形”し、
+<PAUSE>
+<SE_PLAY>se117
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　細い縄のような形状となって
+それを握るカヲル自身に襲い掛かり、
+一瞬できつく縛められていた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>カヲル
+（こ、この忍法は――！！？）
+<PAUSE>
+<NAME_PLATE>
+　身体を縛められたことより、
+まずその事実に愕然とする。
+<PAUSE>
+<NAME_PLATE>
+　カヲルは、この忍法の
+使い手をよく知っていた。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれはあり得ない。
+<PAUSE>
+<NAME_PLATE>
+　彼女が知るその“男”は、数年前、
+忍同士の戦いに敗れて死んだはず――
+<PAUSE>
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「ふふ♪　お久しぶりね、カヲル。
+　――“お母さん”の言うことは
+　ちゃんと聞きなさい♪」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵＿邪眼露出差分。
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カヲル
+「貴様！！？　卍鉄か！！！？」
+<PAUSE>
+<NAME_PLATE>
+　縛められ、身動きのできない
+カヲルの前で少女が眼帯を外す。
+<PAUSE>
+<NAME_PLATE>
+　その下には、赤々と禍々しく輝く
+サイボーグ強化された邪眼――。
+<PAUSE>
+<NAME_PLATE>
+　“金属を自在に変形させる力”を持つ
+邪眼“天津麻羅”があった。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「フフ、感動の再会ねカヲル♪
+　あなたがちっとも気づかないから、
+　“お母さん”楽しくなっちゃった♪」
+<PAUSE>
+<NAME_PLATE>カヲル
+「黙れ外道！！！
+　よりにもよって――
+　貴様が母などと名乗るなっ！！」
+<PAUSE>
+<NAME_PLATE>
+　血が沸騰するような怒りに駆られて
+カヲルが叫ぶ。
+<PAUSE>
+<NAME_PLATE>
+　少女は、そんなカヲルの
+反応を愉しむようにニタリと
+唇を妖しく吊り上げ――
+<PAUSE>
+<NAME_PLATE>
+　いや、それはもう“少女”ではないと
+カヲルは察している。
+<PAUSE>
+<NAME_PLATE>
+　“天津麻羅”の邪眼を持つ以上、
+それは間違いない。
+<PAUSE>
+<NAME_PLATE>
+　――『鉄華院卍鉄』。
+<PAUSE>
+<NAME_PLATE>
+　目の前の少女は、彼女の父であり、
+<PAUSE>
+<NAME_PLATE>
+　そして彼女と彼女の母を不幸と
+絶望の底へと追い込んだ憎き相手。
+<PAUSE>
+<NAME_PLATE>
+　もとふうま弾正の側近、そして、
+かつての鉄華院家当主でもあった男――。
+<PAUSE>
+<NAME_PLATE>カヲル
+「父上、なぜ生きて……
+　それに……その娘の身体は……？」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ふふ、素敵でしょう♪」
+<PAUSE>
+<NAME_PLATE>
+　ケタケタと笑った少女がくるりと
+可憐な仕草で身体を回して見せる。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「せっかく身体を新しくするんだから、
+　刺激的なものを選ばないと♪
+　カヲルもどう？　楽しいわよ♪」
+<PAUSE>
+<NAME_PLATE>
+　肉体は精神に影響を与える。
+<PAUSE>
+<NAME_PLATE>
+　もとの肉体を完全に破壊され、
+現在は脳すら素体の機能を
+一部借りているような状態だ。
+<PAUSE>
+<NAME_PLATE>
+　男は、もはや自分が老人の
+身体を持っていたことすら忘れ――
+<PAUSE>
+<NAME_PLATE>
+　生まれた時から少女の身体だった
+という異様な錯覚すら抱き始めている。
+<PAUSE>
+<NAME_PLATE>カヲル
+「そういうことね……。
+　まぁ、誰よりも生き汚い貴方が
+　大人しく死ぬとは思っていなかったわ」
+<PAUSE>
+<NAME_PLATE>
+　鉄華院卍鉄は“生き延びる”ことに
+何よりも執着していた男だ。
+<PAUSE>
+<NAME_PLATE>
+　恐らく、ふうま抜け忍衆の
+頭目として活動していた時から――
+<PAUSE>
+<NAME_PLATE>
+　あるいはそれ以前から、
+卍鉄はサイボーグと人体改造技術に
+優れた内調と手を結び、
+<PAUSE>
+<NAME_PLATE>
+　己が敗北した場合の備えを
+密かに重ねていたに違いない。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「あら、嬉しいわ♪
+　“お母さん”が恋しくて、
+　死んだ事を認められなかったのね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>カヲル
+「――戯言を！！　カウーラ！」
+<PAUSE>
+<NAME_PLATE>？？？
+「了解だよっ！！！」
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカッ！！！
+<PAUSE>
+<NAME_PLATE>ミランダ
+「！！！？」
+<PAUSE>
+<NAME_PLATE>
+　カヲルの号令と同時に巨大な剣を
+手にした影が室内に飛び込んでくる。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<ACTOR>0,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　隣室に控えさせていたカヲルの腹心、
+アミダハラ監獄の看守長カウーラだ。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「おらおらァ！！！
+　脳髄をぶちまけなお嬢ちゃん！！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴォオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　唸りを上げてカウーラの大剣が強襲する。
+<PAUSE>
+<BG>nc339a,IN, 500
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「あらあら♪
+　なにかと思ったら――」
+<PAUSE>
+<NAME_PLATE>
+　それを見上げて少女がニタリと笑い、
+邪眼“天津麻羅”を発動させる。
+<PAUSE>
+<NAME_PLATE>
+　剣やナイフ、銃、あるいは戦車でも――
+金属の道具を持つ敵は少女にとって
+全てただのカモでしかない。
+<PAUSE>
+<NAME_PLATE>
+　カウーラの持つ剣を“変形”させ、
+その首を刎ねてやろうとして――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミランダ
+「！！？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「へへっ！！
+　今なにかしたのかいお嬢ちゃん！」
+<PAUSE>
+//　※斬撃エフェクトなど
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイインン！！！
+<PAUSE>
+<NAME_PLATE>
+　襲いかかる刃をかろうじて己が持つ
+強化ナイフを“変形”させてガードし、
+そのまま後方に飛び退った。
+<PAUSE>
+<NAME_PLATE>
+　カウーラが振り下ろした大剣は、
+“天津麻羅”に反応しなかったのだ。
+<PAUSE>
+<BG>nc339a,IN, 500
+<ACTOR>0,ts_m178b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「ふふっ♪　なるほど、
+　面白い番犬を飼っているのね」
+<PAUSE>
+<ACTOR>1,chr_t0165a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「ああァ！？」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ti_t005e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カヲル
+「――落ち着きなさいカウーラ。
+　油断のならない相手よ」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_スーツ
+<NAME_PLATE>
+　低く唸って追撃しようとする
+カウーラをカヲルが抑える。
+<PAUSE>
+<NAME_PLATE>
+　少女の視界から外れたことで邪眼の効果が
+途切れ、縛めから逃れることができた。
+<PAUSE>
+<NAME_PLATE>
+　カヲルは隠し持っていたクナイなどの
+金属物を投げ捨てて少女と対峙する。
+<PAUSE>
+<NAME_PLATE>カヲル
+「“死んだとは思っていなかった”――
+　そう言ったでしょう？」
+<PAUSE>
+<NAME_PLATE>カヲル
+「貴方が、再び私の前に現れた時の
+　備えはしていたわ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0165a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　カウーラが振り下ろした剣は、
+ただの剣ではない。
+<PAUSE>
+<NAME_PLATE>
+　その刃によって人の魂を刈り取る、
+魔剣ニルガル。
+<PAUSE>
+<NAME_PLATE>
+　たとえ金属製であっても、
+強大な魔の力を宿した武器は
+邪眼の力を跳ね返すことができる。
+<PAUSE>
+<NAME_PLATE>
+　卍鉄の“天津麻羅”に対抗できる
+魔剣ニルガルを持つこと――。
+<PAUSE>
+<NAME_PLATE>
+　それが、彼女がカウーラを
+重用している理由のひとつであった。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「へえ……♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ti_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カヲル
+「改めて宣告するわ、鉄華院卍鉄」
+<PAUSE>
+<NAME_PLATE>カヲル
+「現鉄華院の当主として、
+　内調のイヌに堕ちた裏切り者を粛清する。
+　――覚悟することね、父上」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル戦闘立ち絵_スーツ衣装＿鎖
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ti_t006d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　カヲルの手のひらから二本の鎖が現れる。
+<PAUSE>
+<NAME_PLATE>
+　忍法“鎖遁の術”によって出現した
+彼女の意のままに動く鎖――
+<PAUSE>
+<NAME_PLATE>
+　忍法で生み出された鎖ゆえ、
+これも邪眼“天津麻羅”の影響を受けない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「全く、久しぶりに会ったら
+　小生意気な娘になって――。
+　躾けが必要ね、あの頃みたいに♪」
+<PAUSE>
+<NAME_PLATE>
+　妖しく笑った少女が強化ナイフを構える、
+その時――。
+<PAUSE>
+//【背景：黒画面】
+//【背景：アミダハラ監獄＿地下施設＿昼夜共通】【時間：朝】
+//　※監獄アカデミア_NC012aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc103a,IN, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ドオオオオオオオオオオン！！！！
+<PAUSE>
+//　※可能であれば画面揺れるなど爆発の演出などお願いします。
+//【背景：アミダハラ監獄＿調査室＿昼夜共通】【時間：朝】
+//　※監獄戦艦２_背景nc018aより流用
+<BGM_PLAY>bgm209,1000
+<BG>nc213a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m132a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>獄卒たち
+「な、なんだ、爆発！？」
+「どうした、何が起こった……？」
+<PAUSE>
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　調査室に詰めていた獄卒たちが
+狼狽した声を上げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　突然、地下深くから
+地鳴りのような爆発音が轟き、
+<PAUSE>
+<NAME_PLATE>
+　それに続いて、看守や獄卒たちに
+緊急事態を知らせる警報がけたたましく
+鳴り響いたのだ。
+<PAUSE>
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「むむ？　一体何なのだ？」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー立ち絵
+//　　　＊トラジロー01カードイラストより流用
+<NAME_PLATE>
+　そして、その調査室にはアミダハラ
+監獄にやってきたトラジローもいた。
+<PAUSE>
+<NAME_PLATE>
+　監獄入り口でボディチェックを済ませ、
+白熊釈放のための金を払ったところまでは
+良かったのだが、
+<PAUSE>
+<NAME_PLATE>
+　最終的な釈放には所長の許可が必要であり、
+その所長が現在来客中ということで、
+この調査室で長々と待たされていた。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「おい。爆発は良いけど、
+　釈放の許可はいつ下りるのだ」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「オレはもう待ちすぎておなか
+　ペコペコなんだぞ！」
+<PAUSE>
+<NAME_PLATE>
+　プンスカしたトラジローが声をかけると、
+慌てたような顔の獄卒が取り囲んでくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m132a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>獄卒１
+「い、いや、ダメだ……。
+　もうお前は、監獄には入れない」
+<PAUSE>
+<NAME_PLATE>獄卒２
+「き、緊急事態が起こったら、
+　部外者は監獄から追い出す。
+　マニュアルにそう書いてある……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>トラジロー
+「はあっ！！？　なんで
+　オレが追い返されるのだ！？」
+<PAUSE>
+<NAME_PLATE>トラジロー
+「白熊を釈放するための金は渡したぞ！？
+　いじわるしてないで、
+　さっさとあのダメ熊を返すのだ！！！」
+<PAUSE>
+<ACTOR>0,ts_m157a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>獄卒１
+「し、知らない……。それ、
+　マニュアルに書いてない……」
+<PAUSE>
+<NAME_PLATE>
+　あまり知能の高くない獄卒トロールは
+マニュアル通り動くことしか頭にないらしい。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　じたばたするトラジローの小さな体を
+強引に摘まみ上げ、そのまま監獄の外へと
+放り出そうとする。
+<PAUSE>
+<NAME_PLATE>トラジロー
+「あー、もう！！！
+　このお馬鹿トロールじゃ話にならん！！
+　手を離すのだ――」
+<PAUSE>
+<NAME_PLATE>
+　バチンっと獄卒トロールの手を
+叩き落とすと同時にトラジローは
+くるりと体を一回転して獣人化。
+<PAUSE>
+//　※トラジロー立ち絵この辺で消えます。
+<NAME_PLATE>
+　血相を変えて掴みかかってくる
+獄卒たちに向かって――。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>トラジロー
+『ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡＡＡＡッ！！！』
+<PAUSE>
+//　※立ち絵
+//　　ワータイガー
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>獄卒たち
+「！！？」
+「あがっ！？　がっ、あぁ……」
+<PAUSE>
+<SE_PLAY>se024
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドサドサッ！！！
+<PAUSE>
+<NAME_PLATE>
+　一瞬で目を回した獄卒トロールたちが
+次々に床に崩れ落ちていく。
+<PAUSE>
+<NAME_PLATE>
+　生物の本能に訴えかけて肉体と精神を縛る、
+ワータイガー必殺の『大咆哮』である。
+<PAUSE>
+<NAME_PLATE>トラジロー
+（ふんっ！！　こんな奴ら、
+　オレの牙と爪でグシャってしても
+　良かったんだけどな！）
+<PAUSE>
+//　※立ち絵
+//　　ワータイガー
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>トラジロー
+（でも兄貴が、道中ムダに人を殺すと
+　トラブルになるから止めとけって
+　言ってたから――）
+<PAUSE>
+<NAME_PLATE>トラジロー
+（失神だけで勘弁してやったぞ！
+　ありがたく思えっ！！）
+<PAUSE>
+<NAME_PLATE>
+　なんだかんだ言いつつ、兄貴の
+言いつけには素直なトラジローであった。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<SE_PLAY>se002_01
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ビー、ビー、ビー！！！
+<PAUSE>
+<NAME_PLATE>獄卒たち
+「ち、地下で爆発……！」
+「あのクマの獣人が、
+　隔離区画で暴れている……！」
+<PAUSE>
+//　※立ち絵なし
+//【背景：アミダハラ監獄＿調査室＿昼夜共通】【時間：朝】
+//　※監獄戦艦２_背景nc018aより流用
+<BGM_PLAY>bgm209,1000
+<BG>nc213a,IN, 1000
+<NAME_PLATE>
+　けたたましい警報に混じって、
+そんな獄卒たちの声が調査室の外の
+廊下を通り過ぎていく。
+<PAUSE>
+<NAME_PLATE>
+　獄卒たちは爆発の対応で手一杯で
+トラジローの動きに気付いた様子はない。
+<PAUSE>
+<ACTOR>0,ts_m157a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>トラジロー
+「クマの獣人が暴れてる？？
+　まったく、あいつは……、
+　ほんとに暴れん坊なダメ熊なのだ」
+<PAUSE>
+//　※立ち絵
+//　　トラジロー立ち絵
+//　　　＊トラジロー01カードイラストより流用
+<NAME_PLATE>
+　ともあれ監獄が混乱しているのは好都合だ。
+<PAUSE>
+<NAME_PLATE>
+　獣人化を解いたトラジローは、
+警報が鳴り響く施設内に悠々と入っていった。
+<PAUSE>
+//【背景：黒画面】
+//【背景：アミダハラ監獄＿所長室＿昼夜共通】【時間：朝】
+//　※鋼殻のアイ_nc014aより流用
+//nc339a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　再び所長室――。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<BG>nc339a,IN, 1000
+<ACTOR>0,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「なんだい今の爆発……！？
+　こりゃあタダ事じゃないよ所長！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　突然の爆発音、それを受けて囚人や
+看守たちの狼狽する声がこの所長室まで
+届いてくる。
+<PAUSE>
+<NAME_PLATE>
+　監獄地下施設――凶悪犯のみを収容する
+隔離区画で何かが起きたのだ。
+<PAUSE>
+<ACTOR>0,ti_t006e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カヲル
+「………父上、貴方の差し金？」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル戦闘立ち絵_スーツ衣装＿鎖
+<NAME_PLATE>
+　油断なく強化ナイフを構える少女に
+カヲルが低く問う。
+<PAUSE>
+<NAME_PLATE>
+　この者が訪れたタイミングで
+爆発が起きた。偶然のはずがない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「さあ♪　でも、こんなに
+　騒がしくちゃ戦う気にならないわね。
+　今日はもうお開きかしら……？」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵＿邪眼露出差分。
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>カヲル
+「………」
+<PAUSE>
+<NAME_PLATE>
+　少女が白々しく首を傾げる。
+<PAUSE>
+<NAME_PLATE>
+　確かにナイフは構えているものの、
+少女が自分から仕掛ける気配はない。
+<PAUSE>
+<NAME_PLATE>
+　それどころか、すでに目的を
+達したかのような満足げな表情で――。
+<PAUSE>
+<NAME_PLATE>カヲル
+（戦う気がない？
+　一体どういうこと……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m132a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>獄卒
+「ほ、報告しますカヲル様……！」
+<PAUSE>
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ドスドスと地響きを立てて所長室に
+獄卒トロールが飛び込んでくる。
+<PAUSE>
+<NAME_PLATE>獄卒
+「地下施設で爆発が……！
+　特別房の隔壁が破壊され、
+　そこから出た獣人が大暴れを――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「あのクマ野郎が……？」
+<PAUSE>
+<NAME_PLATE>
+　カウーラが訝しげな声を出す。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「いや、大暴れって言ったって、
+　あいつ、牢の中では借りてきた
+　ネコみたいに大人しかったけど……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　クマの獣人――白熊タローは、
+腹を空かせたり酔ったりすると、
+鋼鉄をも破壊する危険な怪物になるが、
+<PAUSE>
+<NAME_PLATE>
+　普段は大人しい性格で、
+監房では従順で模範的な囚人だった。
+それがなぜ大暴れなど――？
+<PAUSE>
+<ACTOR>0,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>獄卒
+「そ、それが……どこからか
+　酒を手に入れたようで、
+　泥酔して狂暴になっており……」
+<PAUSE>
+<NAME_PLATE>獄卒
+「もはや、我々だけでは
+　手の付けようがなく……」
+<PAUSE>
+<ACTOR>1,chr_t0165a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カウーラ
+「はあ！？　なんだいそりゃ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m178b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「あらあら、
+　大変なことになってるわね♪
+　行かなくていいの、カヲル？」
+<PAUSE>
+<ACTOR>1,ti_t005e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カヲル
+「………っ」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_スーツ
+<NAME_PLATE>
+　微かに顔をしかめてカヲルは
+“鎖遁の術”を解いた。
+<PAUSE>
+<NAME_PLATE>
+　ミランダの真意がどうあれ、
+今は選択の余地がないようだ。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,ti_t005e,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>カヲル
+「地下に向かうわよ、カウーラ。
+　監獄の混乱を治めるわ」
+<PAUSE>
+<NAME_PLATE>
+　暴れ回る獣人によって
+他の囚人の房まで破られれば、
+監獄は取り返しのつかない状況に陥る。
+<PAUSE>
+<ACTOR>1,ti_t005e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0165a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「りょ、了解だよ所長。
+　でも――」
+<PAUSE>
+<NAME_PLATE>
+　“あいつはいいのか？”と、
+カウーラは眼帯の少女をちらりと見る。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>0,ts_m132a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,ti_t005d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「内調の使者殿はお帰りになる。
+　あなた、外までお送りしなさい」
+<PAUSE>
+<NAME_PLATE>獄卒
+「はっ……！」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,ti_t005d,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　そう短く獄卒に命じると、
+カヲルは妖しく笑う少女を一瞥する。
+<PAUSE>
+<ACTOR>1,ti_t005d,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m178b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カヲル
+「――父上、二度目はないわ。
+　次に私の前に現れた時が貴方の最期。
+　覚えておきなさい」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ええ。楽しみねカヲル♪」
+<PAUSE>
+<NAME_PLATE>カヲル
+「………」
+<PAUSE>
+//　※カヲル、カウーラ立ち絵消えます。
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　冷たい嫌悪の視線を投げ掛け、
+カヲルはカウーラと共に地下に急ぐ。
+<PAUSE>
+<ACTOR>1,ts_m132a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　その場には少女ミランダと獄卒が残された。
+<PAUSE>
+<NAME_PLATE>獄卒
+「で、ではお客人、
+　出口まで案内しますので……」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ありがとう♪
+　でも、その必要はないわ。
+　一人で帰れるもの――」
+<PAUSE>
+<NAME_PLATE>獄卒
+「へっ……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャ！！！！
+<PAUSE>
+//　※鮮血エフェクトなど
+<NAME_PLATE>
+　瞬間、獄卒の首が飛んだ。
+<PAUSE>
+<NAME_PLATE>
+　被っていた鉄兜を“変形”させ、
+その首をねじ切ったのだ。
+<PAUSE>
+<BG>nc339a,IN, 500
+<ACTOR>0,ts_m178b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+（フフ……さあて、あとは
+　あのバット女がちゃんと仕事をするか、
+　高みの見物といきましょう……♪）
+<PAUSE>
+<NAME_PLATE>
+　鮮血を浴びて妖しく笑う少女――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その姿が、衣服に仕込まれた
+光学迷彩によって徐々に消失していった。
+<PAUSE>
+//→プロローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

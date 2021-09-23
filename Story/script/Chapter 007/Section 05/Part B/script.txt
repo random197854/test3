@@ -1,0 +1,388 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：都内某所＿ヒラジマ所有の研究施設の入り口前広場＿夜】【時間：夜】
+<BGM_PLAY>bgm601,1000
+<BG>nc069a,IN, 1000
+<NAME_PLATE>
+　ギーッ……ジャギーッ……
+<PAUSE>
+<NAME_PLATE>
+　機械女、ファウストの体から
+嫌な異音が鳴り響く。
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+「くッ………」
+<PAUSE>
+//　※立ち絵
+//　　ファウスト＿汎用立ち絵
+<NAME_PLATE>さくら
+「部下のやつらはやっつけたよ！
+　後はあんただけなんだから！
+　キャラ作り機械女さん！！」
+<PAUSE>
+<NAME_PLATE>
+　ファウストの部下たちも手練だったが、
+さくらの影遁の術の前に次々と倒れていく。
+<PAUSE>
+<NAME_PLATE>ファウストの部下
+「ファウスト……様……
+　こいつ、影から……ぐゥッ……」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「――――――！」
+<PAUSE>
+<NAME_PLATE>
+　己の不利が決定的になったと見るや、
+ファウストの判断は早かった。
+<PAUSE>
+<NAME_PLATE>俺
+「げっ！？！」
+<PAUSE>
+<NAME_PLATE>
+　まるで体から湧き出したかのように、
+大量の手榴弾を地面に落としながら、
+ファウストは飛翔する。
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「マジかよ！？
+　――ヤバい、みんな伏せろっっっ！！」
+<PAUSE>
+//【背景：白画面】
+<GROUP>
+<SE_PLAY>se037
+<BG>nc069a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドォォォン……！
+<PAUSE>
+<NAME_PLATE>
+　轟音とともに、煙がもうもうとあがる。
+<PAUSE>
+<NAME_PLATE>俺
+（くそっ！　何も見えん……！）
+<PAUSE>
+//【背景：都内某所＿ヒラジマ所有の研究施設の入り口前広場＿夜】【時間：夜】
+<ACTOR>0,ws_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「お～い。みんな生きてる～？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>俺
+「あ、ああ……なんとかな……
+　ファウストには……逃げられたか」
+<PAUSE>
+<NAME_PLATE>
+　ファウストの姿はすでに見えない。
+手榴弾には殺傷能力はほとんどなく、
+いわば煙幕、目くらましだったようだ。
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m053a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「いやー、酷い目にあったが、
+　おかげで命拾いしたぜ！　ガハハハ！！」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+<NAME_PLATE>オーク傭兵
+「それにしても姉ちゃん、
+　あんた対魔忍だったとはな！！」
+<PAUSE>
+<ACTOR>0,ws_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「えっへへ、
+　バレちゃしょうがないね～。
+　実はそうなんだ」
+<PAUSE>
+//<NAME_PLATE>
+//　ファウストの部下たちは強かったが、
+//さくらの忍法“影遁の術”の前では、
+//敵ではなかった。
+//<PAUSE>
+<NAME_PLATE>オーク傭兵
+「強いわけだぜ！！
+　おじさん騙されちゃったよ！　ガハハハ！」
+<PAUSE>
+<NAME_PLATE>さくら
+「まーね、美人で強いさくらちゃん！
+　で、通ってるから？　私」
+<PAUSE>
+<NAME_PLATE>俺
+（そうなのか？）
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「気も腕っぷしも強い娘か！　いいねいいね、
+　おじさん、さくらちゃんみたいな対魔忍なら
+　お嫁さんにしたいな～！　ガハハハ！」
+<PAUSE>
+<NAME_PLATE>さくら
+「何それ～！　アハハハ！
+　おじさん変なこというんだから！」
+<PAUSE>
+<NAME_PLATE>
+　よく分からないが、オークのおっさんと
+さくらが仲良く笑っている。
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ、意気投合するのはいいが、
+　あんまりここにいるとヤバイぜ」
+<PAUSE>
+<ACTOR>0,ws_t002b,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>1,ts_m053a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>オーク傭兵
+「おっ、それもそうだな！
+　こんな場所でハデに戦闘したんだ、
+　それこそ対魔忍の部隊なんか来た日にゃあ」
+<PAUSE>
+<NAME_PLATE>俺
+「それもだが、米連の追手に襲撃される
+　可能性が高い。
+　場所もバレてるだろうしな」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「だな。んじゃ、俺たちはこれで逃げるぜ」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「タダ働きになっちまったが、
+　あんたらのお陰で助かったよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「こっちこそ助かった。
+　じゃあな、
+　悪さして対魔忍に退治されるなよおっさん」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「グハハ！　そんなヘマしねえさ。
+　あんたらも達者でな！」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「――と、そうそう小僧よ」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「お前、腕っぷしはイマイチだが、
+　良い指揮官になるぜ。
+　悪の道に走る時は俺たちに声かけな」
+<PAUSE>
+<ACTOR>1,ts_m053a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　おっさんはそう言うと、
+顔に似合わぬウィンクを残して去って行った。
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう……、そりゃどうも」
+<PAUSE>
+<NAME_PLATE>俺
+（オークのおっさんに褒められるってのも、
+　ぞっとしないな……）
+<PAUSE>
+<ACTOR>1,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ふー！　一件落着だね！
+　私たちも帰ろう！　ふうま君」
+<PAUSE>
+<NAME_PLATE>俺
+「その前にこの“荷物”をどうするかだが……
+　運ぶとしても、二人では厳しいし、
+　だからってここに放っておくわけにも……」
+<PAUSE>
+<NAME_PLATE>
+　残された“荷物”を前に俺は考え込む。
+<PAUSE>
+<ACTOR>1,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「あ～っ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「な、何だよ急に！？」
+<PAUSE>
+<ACTOR>1,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「私たちもタダ働きじゃない！！」
+<PAUSE>
+<NAME_PLATE>俺
+「あーそうだな、まあ今回は仕方ない。
+　俺が貸してる金なら、
+　返すのはいつでも良いから」
+<PAUSE>
+<ACTOR>1,ws_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「それより高級ディナーだよ！
+　ねねね、それ売っぱらったらダメかな！？」
+<PAUSE>
+<NAME_PLATE>俺
+「良いと思ってるのか！？」
+<PAUSE>
+<ACTOR>1,ws_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「うう、でも～……
+　はぁ……高級ディナー……」
+<PAUSE>
+<NAME_PLATE>
+　さくらはうなだれているが、
+まあ今回は命があっただけで良しとしよう。
+<PAUSE>
+<ACTOR>1,ws_t002h,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+（美味しいバイトなんて、
+　そうそう無いってことだよな）
+<PAUSE>
+<NAME_PLATE>
+　実は俺もほんの少しばかり、いやそこそこ、
+無事に仕事を終えて報酬が貰えればいいなあ、
+と思ってはいた。
+<PAUSE>
+<NAME_PLATE>俺
+（これからも当分は小遣い貧乏生活か。
+　やれやれだ……）
+<PAUSE>
+<BGM_STOP>1000
+<BG_OUT>1000
+//【黒画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：東京キングダム繁華街＿夜】【時間：夜】
+<BG>nc008a,IN, 1000
+<NAME_PLATE>
+　同じころ。
+<PAUSE>
+<ACTOR>0,tk_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ツバキ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ツバキ立ち絵
+<NAME_PLATE>
+　傭兵・ツバキが夜の歓楽街を歩いていた。
+<PAUSE>
+<NAME_PLATE>ツバキ
+「…………」
+<PAUSE>
+<ACTOR>0,tk_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　彼女は元・対魔忍。
+ある事情で抜け忍となった。
+<PAUSE>
+<NAME_PLATE>
+　以来、フリーの傭兵として生きている。
+顧客は魔族や裏社会の者たち。
+今回の護送任務も、そんな仕事のひとつだ。
+<PAUSE>
+<NAME_PLATE>
+　依頼人は、犯罪組織ノマドに、
+深い関わりを持つ男である。
+<PAUSE>
+//【背景：東京キングダム＿怪しいナイトクラブ＿夜】【時間：夜】
+<BGM_PLAY>bgm610,1000
+<BG>nc043a,IN, 1000
+<NAME_PLATE>
+　ツバキが入ったのは一軒のナイトクラブだ。
+ボーイに案内されて、
+“依頼人”が待つボックス席へと向かう。
+<PAUSE>
+<ACTOR>0,tk_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ツバキ
+「私だ。
+　約束の品を持ってきた」
+<PAUSE>
+<NAME_PLATE>
+　“依頼人”がツバキを見て重々しく頷いた。
+薄暗い中、その表情はほとんど見えないが。
+<PAUSE>
+<NAME_PLATE>依頼人
+「ご苦労だったな。
+　……相棒の機械女はどうした？」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「後で合流予定だ」
+<PAUSE>
+<NAME_PLATE>依頼人
+「その様子だと、首尾は上々のようだな」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「上々……まあね。
+　狙い通り奴らは、
+　“エサ”の方に食い付いたよ」
+<PAUSE>
+<NAME_PLATE>依頼人
+「“エサ”……
+　米連から盗んだガラクタか」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「ああ、街中で傭兵を募ったり、
+　物々しく警護して運んだおかげで、
+　米連はそっちに集中してくれた」
+<PAUSE>
+<NAME_PLATE>依頼人
+「その間にノーマークとなったお前が、
+　悠々と品物を運んできたと」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「そういうことだ」
+<PAUSE>
+<NAME_PLATE>依頼人
+「傭兵達は使い捨てか。
+　クク……エグいことを考えるもんだぜ」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「傭兵とはそういう存在さ。
+　弱いものは利用され、
+　強いものだけが大金を得る」
+<PAUSE>
+<NAME_PLATE>依頼人
+「そうだったな。
+　ところでブツは？」
+<PAUSE>
+<NAME_PLATE>
+　ツバキは運んできた箱をテーブルに置いた。
+<PAUSE>
+<NAME_PLATE>
+　米連の研究所から盗み出したもののうち、
+ドローンの内部らしきものはただのガラクタ。
+“依頼人”の本命はこちらの品物である。
+<PAUSE>
+<NAME_PLATE>依頼人
+「よし」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「中身は確かめないのか？
+　――二車骸佐よ」
+<PAUSE>
+<ACTOR>0,tk_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,g_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>二車骸佐
+「不要だ。
+　お前の仕事は信用できるからな」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐通常立ち絵＿武器なし
+<NAME_PLATE>
+　“依頼人”二車骸佐。
+<PAUSE>
+<ACTOR>0,g_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　彼は“約束の品”を見て、
+ニヤリと唇を歪める。
+<PAUSE>
+<NAME_PLATE>
+　必要なパーツは揃った。
+あとは計画を実行するのみだ――と。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,g_t002b,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section５終了

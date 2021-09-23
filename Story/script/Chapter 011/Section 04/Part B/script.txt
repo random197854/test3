@@ -1,0 +1,204 @@
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：東京地下坑道跡＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC032aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc120a,IN, 1000
+<NAME_PLATE>俺
+「いや～悪い悪い。戻るのが遅くなった」
+<PAUSE>
+<NAME_PLATE>
+　俺は頭をかきながら
+皆が休憩している所に戻った。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの入り口ゲートを抜けて、
+約１時間。
+<PAUSE>
+<NAME_PLATE>
+　念のため武装難民の縄張りを避けた
+俺達は、来た道をそのまま戻るようにして
+地上に向かっていた。
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「おせーよふうま。
+　オシッコのついでにワームに
+　食われたのかと思ったぞ」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「いやいや。流石の俺も
+　そこまでノロマじゃねーよ」
+<PAUSE>
+<NAME_PLATE>
+　そして、今の俺達は坑道跡の暗がりで
+一休みをしている最中。
+<PAUSE>
+<NAME_PLATE>
+　佐郷さんの体を気遣って休憩している間に、
+俺は小便と用事を済ませてきたわけであった。
+<PAUSE>
+<ACTOR>0,s_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「おかえり、ふうまちゃん。
+　今みんなで『大変だったね～』って
+　お話をしてたのよ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ、今回の任務か？
+　確かに、ここまで来れば
+　もう達成したも同然だもんな」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,s_t001b,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>鹿之助
+「そうそう！！　今回も俺、
+　何回も死にかけたし！　ほんと、
+　ヤマタノオロチさん様々だよ～」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が鬼族の女傭兵に笑顔を向ける。
+<PAUSE>
+<NAME_PLATE>
+　共に死地を切り抜けた事で、
+いつの間にか彼女とも打ち解けた
+雰囲気になっていた。
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,ts_m076a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヤマタノオロチ
+「ヒヒ……気にする事ァない。
+　あたしは傭兵だからねぇ。
+　金さえ貰えればそれでいいのさ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「またまた～。
+　そんな謙遜しちゃって！！
+　そういう所もシブいよなぁ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「うふふ。本当よねぇ♪」
+<PAUSE>
+<NAME_PLATE>
+　和気藹々なムードの一同。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<NAME_PLATE>
+　俺だけは、その輪に入らずにいた。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>2,ts_m076a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>俺
+「……そうだな。お陰で助かった。
+　だが俺は、あんたに聞きたいことが
+　あるんだよ、ヤマタノオロチ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>佐郷
+「若様……？」
+<PAUSE>
+//　※立ち絵
+//　　亡命サイボーグ
+//　　　　＊決戦アリーナのモンスターイラスト【米連】スレーヤーを流用
+<NAME_PLATE>ヤマタノオロチ
+「おや。何だねふうまの坊ちゃん。
+　あたしのスリーサイズでも
+　ご所望かい？」
+<PAUSE>
+<BGM_PLAY>bgm610,1000
+<NAME_PLATE>俺
+「クク、それも興味あるね。
+　だが……俺がいま聞きたいのは、
+　アジトが襲撃された時のことだ」
+<PAUSE>
+<NAME_PLATE>ヤマタノオロチ
+「ほぅ？　襲撃――」
+<PAUSE>
+<NAME_PLATE>
+　すっと女戦士の気配が冷たくなった。
+<PAUSE>
+<NAME_PLATE>
+　恐らく俺しか気付かないような、
+ほんの些細な変化である。
+<PAUSE>
+<NAME_PLATE>俺
+「どうしてあんなことが起きたのか、
+　ずっと気になっていたんだよ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「どうしてって……？
+　米連の差し金だろ。あいつら、
+　ヨミハラに入って来れないから」
+<PAUSE>
+<NAME_PLATE>俺
+「――だとしても、どうやって
+　アジトの場所を知った？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そりゃお前……俺達が来た時に、
+　誰かが尾行してたり、とか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ありえないね。あの時、
+　俺達を尾行している奴はいなかった。
+　そこには自信がある」
+<PAUSE>
+<NAME_PLATE>
+　アジトへ向かう際は、
+細心の注意を払って動いていた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「じゃあ……アジトの情報が
+　どこかから漏れていた？」
+<PAUSE>
+<NAME_PLATE>俺
+「それもないだろう。
+　俺は静流を信用している」
+<PAUSE>
+<NAME_PLATE>俺
+「潜入任務のプロであるあの人が、
+　アジトがバレるようなミスを
+　犯すはずがない」
+<PAUSE>
+<NAME_PLATE>蛇子
+「えっと？　じゃあ……？」
+<PAUSE>
+<NAME_PLATE>
+　そう――。ならば、
+残る可能性は限られてくる。
+<PAUSE>
+<NAME_PLATE>佐郷
+「………誰かが、
+　意図的に情報をリークした」
+<PAUSE>
+<NAME_PLATE>ヤマタノオロチ
+「ヒヒ……」
+<PAUSE>
+<NAME_PLATE>
+　鬼族の女戦士が笑った。
+<PAUSE>
+<NAME_PLATE>
+　明らかにそれは友好ではなく、
+敵意、あるいは禍々しい狂気を秘めた
+危険な笑みである。
+<PAUSE>
+<NAME_PLATE>俺
+「俺があんたに聞きたいのも、
+　その点だ。ヤマタノオロチ――」
+<PAUSE>
+<NAME_PLATE>俺
+「あんたが、俺達を嵌めたのか？」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section４終了

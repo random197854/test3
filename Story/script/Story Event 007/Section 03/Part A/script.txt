@@ -1,0 +1,128 @@
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：海水浴場＿昼】【時間：昼】
+//　※俺と冴子さんと寝取られメール_背景nc011aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc166a,IN, 1000
+<NAME_PLATE>
+　リリムに投げつけられたかき氷のせいで、
+俺とアイナは“淫の氣”を浴びてしまった。
+<PAUSE>
+<NAME_PLATE>
+　この氣が全身に回ったら、
+人間は発情が止まらなくなり、
+淫魔たちに精を貪られてしまうのだという。
+<PAUSE>
+<ACTOR>0,chr_t0111a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミーティア
+「た、大変です！
+　ふうまさんが美味しく頂かれちゃう……！」
+<PAUSE>
+//　※立ち絵
+//　　ミーティア
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なんでちょっと嬉しそうなんだよ！
+　くそっ、美味しく頂かれてたまるか」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m017a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m018a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>インキュバス
+「もう手遅れなんだから、
+　諦めて受け入れるんだね♪」
+<PAUSE>
+//　※立ち絵
+//　　インキュバス
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>サキュバス
+「理性を捨てれば極上の淫楽を味わえるわよ。
+　ま、だいたい精根尽きて死んじゃうけど♪」
+<PAUSE>
+//　※立ち絵
+//　　サキュバス
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「悪いがそういうのは俺の趣味じゃないな」
+<PAUSE>
+<NAME_PLATE>
+　俺はサキュバスの手を振り払った。
+<PAUSE>
+<NAME_PLATE>サキュバス
+「強情ね！　ますます美味しそうだわ♪
+　ミーティアが手を出さないなら、
+　私が頂いちゃおうかしら」
+<PAUSE>
+<NAME_PLATE>インキュバス
+「じゃあ僕はそっちのお嬢さんを貰おう。
+　そんな格好しちゃって、
+　いやらしいことが好きなんだろう？」
+<PAUSE>
+//　※立ち絵
+//　　インキュバス
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「お、俺！？　これは違う！
+　ＤＳＯ日本支部の事務職員から借りたら、
+　サイズが合わなかっただけで……っ」
+<PAUSE>
+//　※立ち絵
+//　　アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>1,ts_m017a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　俺にはサキュバス、
+アイナにはインキュバスが、
+艶めかしく身を擦りよせてくる。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+（く……っ！？
+　なんだ、たまらなくイイ香りが……！？）
+<PAUSE>
+<NAME_PLATE>ミーティア
+「だ、だめですってば！
+　ふうまさんは……」
+<PAUSE>
+<NAME_PLATE>サキュバス
+「ミーティア。
+　あなたもイイ子にしてるばっかりじゃ、
+　欲しいものも手に入らないわよ♪」
+<PAUSE>
+<NAME_PLATE>インキュバス
+「時に優雅に、時に強引に。
+　相手の心と体を揺さぶってこそ、
+　極上の精を頂けるのさ♪」
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>アイナ
+「……っ離れろこの野郎！」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se050
+<ACTOR_OUT>1,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アイナと俺は、同時に淫魔たちを
+突き放した。
+<PAUSE>
+<ACTOR>2,chr_t0131a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「くっそ……ふうま、戦闘だ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ！」
+<PAUSE>
+//→S302a
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

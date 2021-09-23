@@ -1,0 +1,2201 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・東京線路＿朝】【時間：朝】
+//　※対魔忍アサギZERO_NC079aより流用
+//nc428a
+<BGM_PLAY>bgm313,1000
+<BG>nc428a,IN, 1000
+<ACTOR>0,ts_m269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　サキュラは真っ直ぐに近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　どうやら空中に浮かんでいるようで
+細い足はまるで動いていない。
+<PAUSE>
+<NAME_PLATE>
+　その移動速度も想像よりずっとゆっくりだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あいつの武器はあの触手と、
+　そこから放たれるエネルギー弾よ。
+　見ての通り動きは遅いわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「でも対魔忍や魔族の攻撃を
+　軽減させるシールドで守られてる。
+　単純な次元シールドとはまた別のやつ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そのせいでゆきかぜくらいしか
+　まともなダメージを与えられない」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私もサイボーグだったころなら
+　なんとかなったけど今は無理」
+<PAUSE>
+<NAME_PLATE>俺
+「要は動きが遅くて硬い移動砲台か」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そう」
+<PAUSE>
+<NAME_PLATE>
+　アスカは頷いた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「普段は用心のためか知らないけど
+　護衛のハンターを山ほど周りに置いて、
+　遠間からチクチク攻めてくるわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「でもなぜかあいつは一人で徘徊してる。
+　あと音にやたら敏感。
+　音でこっちの動きを把握してる」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　などと話していると、
+<PAUSE>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　サキュラの触手がこちらに向いた。
+そこに分かりやすくエネルギーが溜まっていく。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうま！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「来るわよ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「っっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャアアアアアンンンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　耳障りな音がして
+触手からエネルギー弾が飛んできた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　俺たちが飛び退いた場所にそれは当たり、
+隠れていたビルの瓦礫が派手に吹き飛んだ。
+<PAUSE>
+<BG>nc428a,IN, 500
+<NAME_PLATE>
+　威力はかなりのものだが、
+発射のタイミングが丸わかりだ。
+<PAUSE>
+<NAME_PLATE>
+　おかげで初見にも拘わらず、
+躱すのはさほど難しくなかった。
+<PAUSE>
+<NAME_PLATE>俺
+「意外と分かりやすい攻撃だな」
+<PAUSE>
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あいつら基本人間を舐めてるのよ。
+　固さと火力だけが取り柄ね」
+<PAUSE>
+<NAME_PLATE>俺
+「アルサールと同じだな」
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「どうする？
+　私が陽動してゆきかぜの火力でやる！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うん、結局はそれしか方法がないし」
+<PAUSE>
+<NAME_PLATE>
+　それがいつもの二人の戦法か。
+<PAUSE>
+<NAME_PLATE>俺
+「待て、このあたりには住人がいるんだろ？
+　それにゆきかぜの火力に頼る倒し方では
+　応用性がない」
+<PAUSE>
+<NAME_PLATE>俺
+「そういう手強い敵ならなおさら
+　誰でも倒せるようにしないとな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ＆ゆきかぜ
+「……！！」
+「……！！」
+<PAUSE>
+<NAME_PLATE>
+　二人はハッとしたようだった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+（そうよね。
+　いつまでも私の火力に頼ってたら駄目よね）
+<PAUSE>
+<NAME_PLATE>アスカ
+（来たばっかりなのに
+　これからのことを考えてくれてる。
+　だからふうまなのよ！）
+<PAUSE>
+<NAME_PLATE>俺
+「さて、どうするかな……」
+<PAUSE>
+<NAME_PLATE>アスカ
+（そうよ、どうするの？）
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+（あんな化け物どうやって……？）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人は俺の答えを待っている。
+<PAUSE>
+<NAME_PLATE>
+　よし、やってみるか。
+<PAUSE>
+<NAME_PLATE>俺
+「接近してじっくり見たい。
+　二人とも陽動を頼む」
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「なっ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「近づいて見たい？」
+<PAUSE>
+<NAME_PLATE>俺
+「俺はまだあいつが
+　ノロノロ動いているところと
+　一発撃ったところしか見ていない」
+<PAUSE>
+<NAME_PLATE>俺
+「二人が力押しで倒せるというなら、
+　逆に少し時間を稼いでくれ」
+<PAUSE>
+<NAME_PLATE>俺
+「その間に俺が奴に近づいて、
+　あいつの性質を見極める」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょっと、随分大胆じゃない？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは黙っていたが、
+アスカは暗に「やめろ」という口調で
+言ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「俺にも色々あったんだ。
+　妙な力の原因が少し分かったり、
+　マルジャーナのガーディアンを倒したりな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それほんと？
+　ゆきかぜ、どう思う？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが俺を見る。
+俺が頷くと、覚悟を決めたように、
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アスカ、ふうまを信じよう。
+　ふうまはやるときは必ずやってくれる」
+<PAUSE>
+<NAME_PLATE>
+　その言葉にアスカはちょっと
+ムッとした様子で、
+<PAUSE>
+<NAME_PLATE>アスカ
+「わ、私だって信じてるわよ。
+　なによ自分ばっかり」
+<PAUSE>
+<ACTOR>0,as_t014a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「じゃあまたこれ着てって。
+　直撃は無理だけど気休めくらいになるから」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ（コートなし）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アスカはまたコートを俺に手渡した。
+<PAUSE>
+<NAME_PLATE>俺
+「助かる」
+<PAUSE>
+<NAME_PLATE>
+　俺はそれを羽織った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　サキュラはまた物陰に隠れた俺たちが
+出てくるのを待っているのか、
+<PAUSE>
+<NAME_PLATE>
+　無理に攻撃してこようとはせず、
+触手にエネルギーをチャージしたまま
+動きを止めている。
+<PAUSE>
+<NAME_PLATE>
+　ということは、
+俺が出ればすぐに撃ってくるかな。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ行くか」
+<PAUSE>
+<NAME_PLATE>
+　俺はひょいっと奴の前に姿を現した。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あっっ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうまっ！」
+<PAUSE>
+<NAME_PLATE>
+　二人が驚く声がした。
+<PAUSE>
+<NAME_PLATE>
+　さすがに振り返る余裕はないが、
+<PAUSE>
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　サキュラは予想通りのタイミングで
+俺に撃ってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「よしきたっ！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc428a,IN, 500
+<NAME_PLATE>
+　分かりやすすぎる。
+<PAUSE>
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャアアアアアンンンッッ！！
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc428a,IN, 500
+<NAME_PLATE>
+　俺は約束組手のようなその攻撃を
+難なく躱した。
+<PAUSE>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　するとサキュラは両手の触手に
+小さなエネルギー弾をいくつも生み始めた。
+<PAUSE>
+<NAME_PLATE>
+　二回撃って二回外して、
+ただ撃っては当たらないと判断したようだ。
+ということは―――
+<PAUSE>
+<NAME_PLATE>俺
+「次は連射かな？」
+<PAUSE>
+<NAME_PLATE>
+　その通りだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャギャギャギャギャンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　チャージを終えて、
+小さなエネルギー弾が次々と放たれる。
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱりな！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc428a,IN, 500
+<NAME_PLATE>
+　この手の弾幕は現代でもお馴染みだ。
+それを避けることには慣れている。
+<PAUSE>
+<NAME_PLATE>
+　ＳＦ世界のコーデリアでも
+ダーマとかいうパワードスーツを相手に
+同じようなことをした。
+<PAUSE>
+<NAME_PLATE>
+　あのダーマとこのサキュラと、
+どちらの技術レベルが高いのかは分からないが、
+少なくともこちらは攻撃に捻りがない。
+<PAUSE>
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　音で察知し、攻撃する狙いは正確だが、
+タイミングが一本調子で逆に読みやすい。
+<PAUSE>
+<NAME_PLATE>俺
+「はっっ！！　たあっっ！　やあっ！！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc428a,IN, 500
+<NAME_PLATE>
+　俺は機械にはとらえにくい動きで、
+全てを軽々と―――とまでは
+さすがにいかなかったが、
+<PAUSE>
+<NAME_PLATE>
+　降り注ぐエネルギー弾をなんとか躱し、
+サキュラに接近していく。
+<PAUSE>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　少しヤバかったものもあったが、
+それはアスカが貸してくれたコートが
+しっかり防いでくれた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし、二人が陽動に動いてくれている
+気配がないのだが、
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc428a,IN, 1000
+<GROUP>
+<ACTOR>0,as_t014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>ゆきかぜ
+「ふうま、良い動きしてる」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>アスカ
+「大口を叩くだけのことはあるわね」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ（コートなし）
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「この世界にいたふうまよりも
+　ずっとちゃんと対魔忍してる。
+　強くなってる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「一流とまではいかないけど
+　十分に前線で戦えるレベルね。
+　格好いいじゃない」
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「うん。
+　って感心してる場合じゃないわ！
+　アスカ！　陽動陽動！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あっ、そうだった。
+　もういきなり格好よくなるから！」
+<PAUSE>
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ふうま！　やるじゃない！！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「後は私たちに任せなさい！」
+<PAUSE>
+<NAME_PLATE>俺
+「頼む！」
+<PAUSE>
+<NAME_PLATE>
+　そろそろ一人では限界というタイミングで、
+二人が陽動のために飛び出してくれた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　サキュラはかなりの所まで
+近づいてきた俺をあっさり無視して、
+二人に攻撃の矛先を変えた。
+<PAUSE>
+<BG>nc428a,IN, 500
+<ACTOR>0,ts_m269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　やはりな。
+<PAUSE>
+<NAME_PLATE>
+　あいつは対魔忍や魔族との戦闘を
+想定して作られたものらしい。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　つまりただ近づいてくる雑魚よりも
+対魔粒子が圧倒的に高い二人の方を
+優先して狙うというわけだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　おかげで俺はその後は悠々と
+サキュラのすぐ近くの物陰まで近づいて、
+その動きをじっくりと観察できた。
+<PAUSE>
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はっ、はあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　まずゆきかぜが遠間から立て続けに
+レーザー雷撃を繰り出した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「でやあああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ（コートなし）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　それを牽制に
+アスカが接近戦を仕掛けていく。
+<PAUSE>
+<BG>nc428a,IN, 500
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　サキュラは俺と同じように、
+小さなエネルギー弾を連発して
+二人を迎撃しようとするが、
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc428a,IN, 500
+<GROUP>
+<ACTOR>0,as_t014a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　俺でも躱すことのできる攻撃が
+あの二人に当たるわけがない。
+<PAUSE>
+<NAME_PLATE>
+　逆にゆきかぜの雷撃を次々と食らい、
+その隙間を掻い潜るように繰り出される
+アスカのブレードもただ受け続ける。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「――――――」
+<PAUSE>
+<NAME_PLATE>
+　サキュラが触手を振り回して、
+別の何か―――おそらく全方向へ向けての
+無差別攻撃をしようとした時には、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「風神・斬風陣っっ！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ（コートなし）
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカはもう身を引いていて、
+いつ忍法の溜めをしたかも分からないほど速い
+かまいたち攻撃を食らわせていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「逸刀流・胡蝶乱舞！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（雷剣）
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　翻弄されるサキュラに向かって、
+瞬時にアスカと役割を入れ替えたゆきかぜが
+二刀雷剣で乱れ斬りを浴びせかける。
+<PAUSE>
+<NAME_PLATE>
+　その連係は見事と言うほかなく、
+二人がどれだけ長い間共に戦ってきたか分かる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして俺にしっかり見てもらうためだろう
+意識して色々なことをやってくれている。
+<PAUSE>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　サキュラは二人にされるがままだが、
+逆に言うとそれでも平気ということだ。
+<PAUSE>
+<NAME_PLATE>
+　実際、攻撃を受け続けているのに、
+一見してほとんどダメージを負っていない。
+対・対魔忍用の防壁は堅固だ。
+<PAUSE>
+<NAME_PLATE>
+　やはり火力による力技、
+この場合は最大パワーのゆきかぜの雷撃で
+あの防壁を破るしか方法がないのだろうか？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は俺のために陽動攻撃を続ける二人を
+見ながら考えをまとめる。
+<PAUSE>
+<BG_OUT>1000
+<ACTOR>0,ts_m269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ブレインフレーヤーのガーディアン、
+サキュラ。
+<PAUSE>
+<NAME_PLATE>
+　機械と生体を融合させたようなあの姿は
+以前戦ったパズズやオ＝ズと同じだ。
+<PAUSE>
+<NAME_PLATE>
+　それにしてはあの二体、
+特に喋りまくっていたパズズのような
+意思がまったく感じられない。
+<PAUSE>
+<NAME_PLATE>
+　攻撃も防御も呆れるほど単調だ。
+<PAUSE>
+<NAME_PLATE>
+　防御力があるのをいいことに、
+淡々と同じペースで当たらない攻撃を
+続けている。
+<PAUSE>
+<NAME_PLATE>
+　人間である二人が疲れるのを
+待っているのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　そうだとしても自律型兵器としては
+あまりにも芸がない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc428a,IN, 500
+<NAME_PLATE>
+　いや、待てよ。
+<PAUSE>
+<NAME_PLATE>
+　さっきの話では、
+今までのサキュラは単独行動はせず、
+護衛を周りに置いて戦うという。
+<PAUSE>
+<NAME_PLATE>
+　このサキュラは何故単独行動なんだ？
+<PAUSE>
+<NAME_PLATE>
+　何かの故障か？
+<PAUSE>
+<NAME_PLATE>
+　そもそもサキュラには
+無敵の防壁があるのに何故護衛がいる？
+<PAUSE>
+<NAME_PLATE>俺
+（もしかして……）
+<PAUSE>
+<NAME_PLATE>
+　こいつはブレインフレーヤーたちにとって
+ドローンのような存在なのではないか？
+<PAUSE>
+<NAME_PLATE>
+　ドローンが規定の戦術を逸脱して
+単独で彷徨っているということは
+今はコントロール不能状態か？
+<PAUSE>
+<NAME_PLATE>
+　それならば単調な攻撃しか
+してこないことも説明が付く。
+<PAUSE>
+<NAME_PLATE>俺
+（だとしたら……）
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺は物陰に潜みながら、
+サキュラの周りをゆっくりと動き、
+そのボディを詳細に観察した。
+<PAUSE>
+<NAME_PLATE>俺
+（あった！！！）
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>
+　背中の機械部分に小さな傷が見える。
+<PAUSE>
+<NAME_PLATE>
+　銃弾が命中したような痕跡があり、
+装甲が一部剥がれて、生体部分が損傷し、
+<PAUSE>
+<NAME_PLATE>
+　虹色に輝く回路のようなものが
+パチパチとショートしている。
+<PAUSE>
+<NAME_PLATE>
+　コントロール不能になった原因が
+あの損傷によるものだとしたら？
+<PAUSE>
+<NAME_PLATE>
+　強力な防壁を持つサキュラ運用に
+必ず護衛をつけていた意味とは？
+<PAUSE>
+<NAME_PLATE>
+　損傷部位あたりに防壁の穴があって、
+それはサキュラをコントロールするために
+必要なセキュリティ―ホールでは？
+<PAUSE>
+<NAME_PLATE>俺
+（試してみるか……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺はサキュラから距離を取りつつ、
+お馴染みのハンドサインで作戦を指示した。
+<PAUSE>
+<ACTOR>0,chr_t0277e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「アスカ！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜは瞬時にそれを理解して、
+連係攻撃の手を休めることなく
+アスカにも伝える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「分かった。
+　正確な位置は私が確かめる。
+　牽制よろしく！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「了解っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　二人は何の疑いもなく
+俺の作戦を開始した。
+<PAUSE>
+<NAME_PLATE>
+　俺は二人を信じ、作戦の推移と
+結果を見守るだけだ。
+<PAUSE>
+<NAME_PLATE>
+　まず動いたのはゆきかぜだった。
+<PAUSE>
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「幻影不知火・電！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ_攻撃
+//　※複数出してください
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>2,chr_t0277f,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277f,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜの周囲に四つの雷球が出現し、
+その雷球がゆきかぜの姿に変わった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　さらにゆきかぜ自身も雷を身に纏い、
+五人のゆきかぜが目まぐるしく動きながら
+サキュラに雷撃を撃ちまくった。
+<PAUSE>
+<NAME_PLATE>
+　雷を使った分身による多重攻撃だ。
+もうどれが本物のゆきかぜなのか、
+俺にも分からない。
+<PAUSE>
+<BG>nc428a,IN, 500
+<NAME_PLATE>俺
+「幻影不知火……」
+<PAUSE>
+<NAME_PLATE>
+　俺の時代ではまだ行方不明の
+ゆきかぜの母親の二つ名を冠した技か。
+<PAUSE>
+<NAME_PLATE>
+　話で聞いただけだが、
+彼女も水遁の術による分身を
+得意としていたという。
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ×５
+「はぁああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　後は想像するしかないが、
+あのゆきかぜは母親と再会し、
+そして別れを経験しているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　でなければあんな凄まじい分身攻撃を
+繰り出せるわけがない。
+<PAUSE>
+<BG>nc428a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　サキュラの対・対魔忍防壁は
+忌々しいことにそれすらも防いでいたが、
+本命は背後に回ったアスカだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「風神の術！！　ダストデビル！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ（コートなし）
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グオォオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　旋風が巻き起こった。
+<PAUSE>
+<NAME_PLATE>
+　それも土埃や建物の瓦礫など
+細かい粉塵を大量に含んだ
+黒々とした旋風だ。
+<PAUSE>
+<NAME_PLATE>
+　激しく渦巻く黒い粉塵が
+サキュラの背中にぶち当たる。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の力を減衰させる防御障壁は
+しぶとくその旋風を防いでいる。
+<PAUSE>
+<BG>nc428a,IN,1000
+<NAME_PLATE>
+　あれでも駄目かと
+諦めかけたその時―――。
+<PAUSE>
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あった！
+　背中、小指くらいの穴！」
+<PAUSE>
+<NAME_PLATE>
+　アスカが叫んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あの塵旋風は攻撃ではない。
+穴の位置を特定するためのスキャンだ。
+<PAUSE>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>サキュラ
+「―――！！」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　途端、サキュラは急に身体を動かして、
+攻撃の目標をアスカに変更した。
+<PAUSE>
+<NAME_PLATE>
+　今まで意思が感じられなかったのに、
+弱点を見破られて大慌てという動きだ。
+<PAUSE>
+<NAME_PLATE>
+　普通、弱点は隠すか、
+見せるならそれ自体を罠にするものだ。
+<PAUSE>
+<NAME_PLATE>俺
+（焦りすぎだな）
+<PAUSE>
+<NAME_PLATE>
+　俺は勝利を確信した。
+<PAUSE>
+<NAME_PLATE>サキュラ
+「！！！！」
+<PAUSE>
+<NAME_PLATE>
+　サキュラはあたふたしながら
+また小さなエネルギー弾を大量に
+触手に集めていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふふん」
+<PAUSE>
+<NAME_PLATE>
+　アスカは一歩も動かない。
+<PAUSE>
+<NAME_PLATE>
+　今までの立場が逆転したかのように
+悠然と腕組みして攻撃を待っていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「！！！！！！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャギャギャギャギャギャギャギャギャ
+ギャギャギャギャギャギャギャ！！
+<PAUSE>
+<NAME_PLATE>
+　これまでの数倍のエネルギー弾の雨が
+アスカに降り注ぐ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　アスカは避けようともしない。
+全てのエネルギー弾を食らっていた。
+<PAUSE>
+<NAME_PLATE>
+　だが俺は少しも慌てなかった。
+<PAUSE>
+<NAME_PLATE>
+　予想できたのだ。
+きっとあれは幻だと。
+<PAUSE>
+<NAME_PLATE>
+　どうやってかは分からないが
+風神の術で可能にした―――
+<PAUSE>
+<BG>nc428a,IN, 500
+<NAME_PLATE>俺
+「空蝉の術か……」
+<PAUSE>
+<NAME_PLATE>
+　仮面の対魔忍の得意技だ。
+<PAUSE>
+<NAME_PLATE>
+　それを使うということは、
+もう彼女もこの世界にはいないのだろう。
+<PAUSE>
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　俺の呟きが聞こえたかのように、
+アスカが俺を見やった。
+<PAUSE>
+<NAME_PLATE>
+　『私は大丈夫だから気にしないで』
+<PAUSE>
+<NAME_PLATE>
+　寂しげな、だが強い意思を感じさせる目が
+そう言っている気がした。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうま、よく見てて！
+　これが今の私の力！」
+<PAUSE>
+<NAME_PLATE>
+　そして俺がよく知るアスカと同じ、
+自信に満ちた表情になり、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　空蝉のアスカがふっと消えた次の瞬間、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>アスカ
+「風神・殺陣華ッ！！」
+<PAUSE>
+<NAME_PLATE>
+　数百体のアスカが出現していた。
+<PAUSE>
+<NAME_PLATE>
+　殺陣華、それは最強の対魔忍、
+井河アサギの技だ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「穴があるなら広げてあげる！！！」
+<PAUSE>
+<NAME_PLATE>
+　数百人のアスカがサキュラに襲いかかる。
+<PAUSE>
+<NAME_PLATE>
+　その全てが渦巻く風の剣を持っていた。
+<PAUSE>
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「はぁああああああああああああああああああ
+　ああああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　無数の風の刺突がサキュラの防壁にある
+蟻の一穴に集中し、
+<PAUSE>
+<SE_PLAY>se039
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピシイイイイッッ！ッ！！
+<PAUSE>
+<NAME_PLATE>
+　見えない防壁に虹色の亀裂が入り、
+音を立てて四散した。
+<PAUSE>
+<BG>nc428a,IN, 500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「見たか！」
+<PAUSE>
+<NAME_PLATE>
+　一人に戻ったアスカが
+サキュラの真正面に立った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「！！！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　サキュラは二本の触手に
+ありったけのエネルギーを集めて、
+至近距離のアスカに叩きつけた。
+<PAUSE>
+<NAME_PLATE>
+　あれでは自分も巻き込まれかねない。
+もはや正常な判断能力を失っている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「食らうかあっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカは自分を中心に竜巻を発生させ、
+サキュラの苦し紛れの自爆攻撃弾を逸らし、
+一瞬で間合いに踏み込んだ。
+<PAUSE>
+<BG>nc428a,IN, 500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「素手マッハパーーンチッ！！」
+<PAUSE>
+<SE_PLAY>se001
+<NAME_PLATE>
+　今と変わらぬネーミングセンスを発揮しつつ、
+サキュラの腹部に風神パンチを決める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「～～～～～～～」
+<PAUSE>
+<NAME_PLATE>
+　今の今までパニック状態だったくせに
+サキュラはそんなパンチなど効かないと
+嘲笑うかのように、
+<PAUSE>
+<NAME_PLATE>
+　全身をクネクネと動かして、
+触手でアスカを捕らえようとするが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「悪いけどあんたもう死んでるから」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　アスカはそれをするりと逃れて、
+サキュラから距離を取った。
+<PAUSE>
+<ACTOR>0,ts_m269b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サキュラ
+「！？！？！？！？」
+<PAUSE>
+//　※立ち絵
+//　　サキュラ（攻撃）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　のっぺらぼうの顔に
+疑問が浮かんだかに思えたが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　次の瞬間、サキュラの身体から
+暴風が巻き起こった。
+<PAUSE>
+<NAME_PLATE>
+　それは透明な身体も中の骨格も斬り刻み、
+さらに細かく細かくバラバラにして、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その血肉ごと飲みこんで、
+サキュラの全てを塵と化してしまった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<BG>nc428a,IN, 500
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「やったあ！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ（コートなし）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アスカはぐいっとガッツポーズを決めた。
+<PAUSE>
+<NAME_PLATE>
+　その無邪気な仕草は幼くなってしまった
+今のアスカによく似合っていた。
+<PAUSE>
+<ACTOR>0,as_t014a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ねえ、私の活躍の場は？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>
+　一方、普通に大人になったゆきかぜは
+幻影不知火という大技まで使ったのに、
+結局は牽制しかできずに少し不満そうだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「こないだふうまの前で
+　散々活躍したんでしょ？
+　今回は私の番だから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なにそれ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「せっかくこの身体になったんだし、
+　若くて格好いい私を見せないとね」
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「それ喧嘩売ってる？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「べっつにーー」
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ま、まあ……
+　私の大人の魅力には敵わないけど」
+<PAUSE>
+<NAME_PLATE>アスカ
+「大人の魅力ねえ。
+　胸は昔と変わらない。
+　っていうか今の私にも負けてるけど」
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「うっさい！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　軽口を叩き合う二人。
+頼もしい限りだ。
+<PAUSE>
+<NAME_PLATE>
+　まさに風神と雷神。
+ベストパートナーだ。
+<PAUSE>
+<NAME_PLATE>俺
+「やったな、二人とも」
+<PAUSE>
+<ACTOR>0,yu_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「まあねっ」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは誇らしげに笑っただけだが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふうま……」
+<PAUSE>
+<NAME_PLATE>
+　アスカは俺がここにいるのが
+信じられないかのような顔をした。
+<PAUSE>
+<NAME_PLATE>
+　まるで夢か幻を見ているかのような。
+<PAUSE>
+<NAME_PLATE>俺
+「どうした？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「……ううん、なんでもない」
+<PAUSE>
+<NAME_PLATE>
+　アスカはひどく切なそうな顔を
+したかと思うと、
+<PAUSE>
+<NAME_PLATE>アスカ
+「なんでもない、ふうまっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　満面の笑みを浮かべて抱きついてきた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<ACTOR>0,yu_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なにやってんのよ、アスカ！！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「さっき言ったでしょ。
+　倒した後にハグするって。
+　ふうま、ふうまっ、あははっ、ふうまっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アスカは俺の名を連呼しながら、
+身体をスリスリと擦りつけてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「ど、どうしたいきなり！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どうもしない。
+　ふうまがいるのが嬉しいだけっ！」
+<PAUSE>
+<NAME_PLATE>
+　ストレートに好意を伝えてくるアスカ。
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……」
+<PAUSE>
+<NAME_PLATE>
+　戸惑う俺。
+<PAUSE>
+<ACTOR>0,yu_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「こらーー！
+　二人とも離れろーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　ヤキモチを焼くゆきかぜ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　こんな状況、俺の時代ではなかった。
+やっぱりここは未来なんだな。
+<PAUSE>
+//【背景：荒廃した魔都・東京＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC074aより流用
+//nc419b
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc419b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後は危険な相手に出くわすこともなく、
+俺は二人に連れられて、荒廃した街を進み、
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「このビルの下よ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　そう言われなければ分からない
+周りと同じように廃墟となったビルの一つ、
+その隠された入口からまた地下に入った。
+<PAUSE>
+//【背景：荒廃した魔都・東京アジトエントランス＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_nc083aより流用
+//nc429a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc429a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そこも地下鉄に通じているようで、
+幾つもの階段やもう動かないエスカレーターを
+延々と下っていく。
+<PAUSE>
+<NAME_PLATE>
+　本来の照明は消えてしまっていたが
+長いケーブルで裸電球が点々と灯っていて、
+歩くのに困るほどではない。
+<PAUSE>
+<NAME_PLATE>
+　ただ天井があちこち崩れて
+道もふさがっていたりして、
+そのたびに迂回させられる。
+<PAUSE>
+<NAME_PLATE>
+　２０分ほどもグルグルと歩き続け、
+さすがに少し嫌になってきたところで、
+人影が見えた。
+<PAUSE>
+//　※立ち絵
+//　　レジスタンス
+//　　　＊モンスターイラストより流用
+//　※二人出してください
+<GROUP>
+<ACTOR>0,ts_m270a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m270a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　どうやら見張りのようだ。
+近づいていく俺たちを警戒している。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ただいま」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「見張りお疲れさま」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>
+　二人は彼らに親しげに話しかけた。
+<PAUSE>
+<NAME_PLATE>
+　彼らは軽く手を上げてそれに応じ、
+後ろにいた俺に気づいてハッと瞠目した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m270a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m270a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レジスタンス
+「もしや彼が？」
+「英雄ふうまなのか！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「そう。
+　無事ここまで連れてきたわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ついでに例の野良サキュラも
+　倒してきたわ。彼の指揮でね」
+<PAUSE>
+<NAME_PLATE>
+　アスカとゆきかぜは俺の両脇に立って、
+自慢げに俺を紹介した。
+<PAUSE>
+<NAME_PLATE>
+　俺に熱い視線を注いでいた彼らは
+パッと顔を輝かせた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m270a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m270a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レジスタンス
+「英雄ふうま、よく来てくれた！」
+<PAUSE>
+<NAME_PLATE>レジスタンス
+「あのサキュラを倒してくるとは。
+　二人に聞いていた通りだ！」
+<PAUSE>
+<NAME_PLATE>レジスタンス
+「あなたがいれば百人力だ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ど、どうも……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「歓迎はあとあと」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アビゲイルはどこ？」
+<PAUSE>
+<NAME_PLATE>レジスタンス
+「奥で待っている」
+<PAUSE>
+<NAME_PLATE>アスカ
+「行くわよ、ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああ……」
+<PAUSE>
+<NAME_PLATE>
+　見張りの熱い視線を背中に感じつつ、
+俺は奥へ進んで行く。
+<PAUSE>
+<NAME_PLATE>俺
+「お前らどんだけ話を盛ったんだよ」
+<PAUSE>
+<NAME_PLATE>
+　英雄扱いされているのは聞いていたが、
+あそこまでとは。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まあ、ちょっとだけね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まるっきり嘘ってわけじゃないから。
+　現にさっきふうまのおかげで
+　サキュラを倒せたじゃない？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうそう、来て早々に
+　英雄ふうまの名を上げたものね」
+<PAUSE>
+<NAME_PLATE>俺
+「勘弁してくれ」
+<PAUSE>
+<NAME_PLATE>
+　本来の能力以上に期待されても
+お互いにとって良いことはない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺に会いたがっているという
+“参謀”もあんな感じなのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと不安になってきた。
+<PAUSE>
+//【背景：荒廃した魔都・東京アジト市場＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_nc084aより流用
+//nc430a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc430a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　地下道をしばらく歩くと、
+屋台がずらりと並んでいる場所に出た。
+<PAUSE>
+<NAME_PLATE>
+　大賑わいとまではいかないが、
+店主がいて、客がいて、普通に人の営みがある。
+<PAUSE>
+<NAME_PLATE>
+　ここまで氷漬けの街や廃墟しか
+見ていなかったから少しホッとした。
+<PAUSE>
+<NAME_PLATE>俺
+「ここは市場か？」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「それほど大したものじゃないけどね」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「一応、レジスタンス内で通用する通貨は
+　作ってみたけど、まだ物々交換が中心」
+<PAUSE>
+<NAME_PLATE>
+　アスカは謙遜するように言ったが
+その顔は誇らしげだった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふうま、喉渇いてない？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、カラカラだ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ゆきかぜ、久しぶりにコーラでも飲まない？
+　持ってきた缶詰と交換して」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「コーラ？　贅沢すぎない？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>アスカ
+「ふうまが来てくれた歓迎。
+　サユリだって許してくれるわ。
+　あの子ふうまに会いたがってたし」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そうね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺たちはここに来る途中、
+とあるビルに寄り道していた。
+<PAUSE>
+<NAME_PLATE>
+　元はコンビニだったそこには、
+フルーツ缶の入った箱が隠されていた。
+<PAUSE>
+<NAME_PLATE>
+　多くは語ってくれなかったが、
+そこでサユリという仲間が命を落としたそうだ。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「おじさん、コーラ三つちょうだい。
+　これ一つと交換でどう？」
+<PAUSE>
+<NAME_PLATE>商人
+「パイナップルの缶詰か。
+　またすげえもん見つけてきたな。
+　いいぜ、持ってきな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ありがと」
+<PAUSE>
+<NAME_PLATE>
+　アスカは２５０ｍｌの缶コーラを
+三つ持ってきた。
+<PAUSE>
+<NAME_PLATE>
+　屋台にそのまま置かれていたので、
+当然まったく冷えていない。
+<PAUSE>
+<NAME_PLATE>アスカ
+「こんな屋台じゃ冷蔵庫まではね」
+<PAUSE>
+<NAME_PLATE>
+　アスカは肩をすくめると、
+水筒に残っていた水を缶にかけ
+風神の術による気化熱でサッと冷やした。
+<PAUSE>
+<NAME_PLATE>アスカ
+「はい」
+<PAUSE>
+<NAME_PLATE>俺
+「サンキュ」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「コーラとかすごい久しぶり」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私もよ」
+<PAUSE>
+<NAME_PLATE>
+　二人は俺よりも嬉しそうに缶を開け、
+ゴクゴクと飲み始めた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「あーー、美味しーーー！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「久しぶりに飲むと
+　しみじみ美味しいわね、コーラ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「スカッと爽やかってやつ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それ懐かしい！」
+<PAUSE>
+<NAME_PLATE>
+　本当に美味しそうだ。
+<PAUSE>
+<NAME_PLATE>
+　だが俺にとってはどこでも買えて、
+いつでも飲める味だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　飲み物や食べ物に溢れた
+元の世界の豊かさを改めて実感してしまう。
+<PAUSE>
+//【背景：荒廃した魔都・東京アジト住空間＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC085aより流用
+//nc431a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc431a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さらに進んで行くと、
+居住区といった感じの場所に出た。
+<PAUSE>
+<NAME_PLATE>
+　元は地下鉄のトンネルだった狭い空間
+いっぱいに小屋が建ち並んでいた。
+<PAUSE>
+<NAME_PLATE>
+　増築に次ぐ増築を繰り返したらしく、
+どこがどうなっているか分からないほど
+ゴチャゴチャしている。
+<PAUSE>
+<NAME_PLATE>
+　つまり俺が想像していた以上の人々が
+ここに住んでいるということだ。
+<PAUSE>
+<NAME_PLATE>
+　そして狭い通路では
+未来で初めて見る子供たちが遊んでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「子供がいるんだな」
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「少しずつ増えてきてるわ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「本当はこんな地下じゃなくて、
+　外で思いっきり遊ばせてあげたいんだけど」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>アスカ
+「そのうちきっとね」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「うん必ず」
+<PAUSE>
+<NAME_PLATE>
+　子供たちを見る二人の目は温かかった。
+それもまた俺の知らない二人の表情だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして俺は建ち並んだ建物のうちの一つ、
+見張りが立つ小屋に入っていった。
+<PAUSE>
+//【背景：荒廃した魔都・東京アジト住空間＿部屋＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC086aより流用
+//nc432a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc432a,IN, 1000
+<ACTOR>0,ts_m273a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+「待っていたわ」
+<PAUSE>
+//　※立ち絵
+//　　アビゲイル
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　そこで俺を待っていた相手に驚く。
+<PAUSE>
+<NAME_PLATE>俺
+「機械生命体！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「驚くのも無理もないわ。
+　機械生命体はタコ野郎の忠実な下僕で
+　あるはずだから」
+<PAUSE>
+<NAME_PLATE>
+　銀色の身体をした
+どう見てもブレインフレーヤー製の
+女性型マシーンは言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「大丈夫。味方よ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「ふうまを連れてきたわ」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m273a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アビゲイル
+「レジスタンスの参謀を務めるアビゲイルよ」
+<PAUSE>
+//　※立ち絵
+//　　アビゲイル
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「よ、よろしく」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「テセラックが失われ
+　多くの機械生命体が自我を持った」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「引き続き忠誠を誓うもの、放浪に出るもの、
+　そして反乱するもの」
+<PAUSE>
+<NAME_PLATE>アスカ
+「彼女は反乱した方ってわけ」
+<PAUSE>
+<NAME_PLATE>
+　戸惑う俺に構わず
+いきなり説明を始めたアビゲイルを見て、
+アスカがフォローを入れた。
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「私は私よ。
+　タコ野郎たちの下僕でいるのは
+　我慢がならない。だからここに来た」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「そして、そう思わせてくれる
+　きっかけとなった人物、
+　ふうま小太郎に感謝している」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「だから会いたいと思った。
+　だから二人にあなたを連れてきてもらった。
+　会えて嬉しい、ふうま小太郎」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なるほど……」
+<PAUSE>
+<NAME_PLATE>
+　俺を呼んだ理由は分かった。
+だが本題はこれからだ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014_01
+<NAME_PLATE>
+　と思った所で身体に異変が生じた。
+電気が弾けるようにパチパチ鳴っている。
+<PAUSE>
+<NAME_PLATE>
+　別に痛くも痒くもないのだが、
+<PAUSE>
+<NAME_PLATE>俺
+「なんか俺、変なことになってないか？」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「タイムリミットが来たようね」
+<PAUSE>
+<NAME_PLATE>俺
+「タイムリミット？」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「アスカから説明はあったかしら？
+　これは次元ビーコンよ。
+　いつも必ず持っていて欲しい」
+<PAUSE>
+<NAME_PLATE>
+　アビゲイルは虹色に輝く小さなコインを
+俺に差し出した。
+<PAUSE>
+<NAME_PLATE>俺
+「アスカ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「こっちの世界へのふうまの召喚は
+　まだ確立したテクノロジーじゃない。
+　タイムリミットがあるのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「このパチパチはその知らせか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「タイムリミットが近づいて、
+　元の世界に戻ってしまう合図。
+　まさかこんなに早いなんて」
+<PAUSE>
+<NAME_PLATE>
+　アスカは辛そうに俯いた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ごめんね、なんか慌ただしくて」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>
+　ゆきかぜも寂しそうだったが、
+以前、俺の時代から帰った時よりは
+落ち着いていた。
+<PAUSE>
+<NAME_PLATE>俺
+「構わない。
+　少しは役に立てたようだしな。
+　アジトにも来れて良かった」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m273a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「アビゲイルも会ったばかりだがまたな」
+<PAUSE>
+<NAME_PLATE>アビゲイル
+「次に会うのを楽しみにしているわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふうまっ！」
+<PAUSE>
+<NAME_PLATE>
+　アスカは顔を上げて、
+俺の両手を強く握りしめた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ねえ、聞いて！
+　また必ず呼び出すから！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、わかった」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ちょっとアスカ……。
+　（キスするつもりね、そんなこと――）」
+<PAUSE>
+<NAME_PLATE>アスカ
+「はあっっ！！
+　（邪魔させない！！）」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぶあああっっ！！
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<SE_PLAY>se010
+<NAME_PLATE>ゆきかぜ
+「わあっっ！」
+<PAUSE>
+<NAME_PLATE>
+　アスカはいきなり風を起こして
+ゆきかぜを向こうに吹っ飛ばすと、
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>アスカ
+「また私に会いに来て、約束っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺に飛びつくようにまた抱きついて、
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちゅっ」
+<PAUSE>
+<NAME_PLATE>
+　今度はキスしてきた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　ふわっとした唇の感触。
+<PAUSE>
+<NAME_PLATE>
+　前回はゆきかぜ。
+今回はアスカか！？
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あーーーやっぱりキスした！！」
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「なによ、ゆきかぜだって
+　どうせ過去でしたんでしょ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そ、そりゃしたけど、
+　私に会いに来てなんて
+　図々しいこと言ってないわ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「図々しいって何よ。
+　私の素直な気持ちよ！」
+<PAUSE>
+<NAME_PLATE>
+　二人が言い争う声が聞こえる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　けれど俺の意識は急速に薄れていき、
+<PAUSE>
+<NAME_PLATE>
+　そして―――
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ゆきかぜ
+「何ニヤついてんのよ！？」
+<PAUSE>
+//【背景：五車学園＿地下訓練施設＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO＿NC015aより流用
+<UI_DISP>OFF, 0
+<BG>nc002a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「はっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　聞き慣れた声で俺は目覚めた。
+<PAUSE>
+<NAME_PLATE>
+　目の前にいるのは、
+<PAUSE>
+<NAME_PLATE>俺
+「ゆ、ゆきかぜか？」
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,chr_t0112a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　大人ではない、今のゆきかぜだ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なに？　私だったら不満？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、そんなことはないが……」
+<PAUSE>
+<NAME_PLATE>
+　キョロキョロと周りを見渡す。
+<PAUSE>
+<NAME_PLATE>
+　五車学園の地下訓練室だ。
+<PAUSE>
+<NAME_PLATE>
+　シミュレーターの椅子に俺は座っていた。
+<PAUSE>
+<NAME_PLATE>
+　そう、元の世界だ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なかなか起きないから心配してたら、
+　いきなり寝言でアスカの名前呼んで！
+　あんたアスカの夢見てたの？」
+<PAUSE>
+<NAME_PLATE>俺
+「夢……？
+　え？　今の夢だったのか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「知らないわよ！　バカ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ゆきかぜはそう言い捨てると、
+プンプンして行ってしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺は呆然とするばかりだ。
+<PAUSE>
+<NAME_PLATE>
+　本当に未来に呼ばれたのか、
+ただの夢だったのか分からない。
+<PAUSE>
+<NAME_PLATE>俺
+「ん……？」
+<PAUSE>
+<NAME_PLATE>
+　何か手に握っている。
+<PAUSE>
+<NAME_PLATE>
+　そういえばキスされたとき
+アスカにも何か渡されたような。
+<PAUSE>
+<NAME_PLATE>
+　手を開くと、
+アビゲイルからもらったコインと
+古ぼけたチョコがあった。
+<PAUSE>
+<NAME_PLATE>
+　“ハッピーバレンタイン”
+パッケージにはそう書かれていた。
+<PAUSE>
+<NAME_PLATE>
+　賞味期限の日付は今年だったが、
+あのアスカと共に長い長い時間を
+過ごしてきたそれはボロボロだった。
+<PAUSE>
+<NAME_PLATE>
+　きっとあの世界の俺のために用意し、
+その俺が死んでしまったために、
+渡すことができなかったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　そのチョコをずっと取っておいたのだ。
+<PAUSE>
+<NAME_PLATE>
+　キスするくらいの想いと一緒に。
+<PAUSE>
+<NAME_PLATE>俺
+「食べたらお腹壊しそうだぞ、アスカ」
+<PAUSE>
+<NAME_PLATE>
+　チョコに込められた気持ちを噛みしめ、
+俺は未来のアスカに呟いた。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

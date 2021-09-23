@@ -1,0 +1,412 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：空港ロビー＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿NC001aより流用
+<BGM_PLAY>bgm404,1000
+<BG>nc225a,IN, 1000
+<ACTOR>0,ts_m142b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サイボーグ
+「ちっ！！
+　二人まとめて始末しろ！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント曹長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　トランク砲を持ったサイボーグが命令した。
+<PAUSE>
+<NAME_PLATE>
+　多分、あれが隊長だろう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>リーナ
+「え？　二人！？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　勝手に戦闘を始めたリーナは
+一瞬、キョトンとしていたが、
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<GROUP>
+<ACTOR>1,ts_m141b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m141b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>サイボーグ
+「死ねっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　肩にマシンガンのサイボーグたちが
+その銃口をこちらに向けると、
+<PAUSE>
+<NAME_PLATE>リーナ
+「危ない！」
+<PAUSE>
+<NAME_PLATE>
+　迷うことなく、アスカの前に立ち、
+大剣を構えて、銃口にその身をさらした。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>1,ts_m141c,LEFT, LEFT, NONE, linear, 0
+<ACTOR>2,ts_m141c,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガッッ！！
+<PAUSE>
+<NAME_PLATE>
+　一人二門、両肩のマシンガンが
+一斉に火を噴く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>3,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「無駄だあっっっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se042
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キンキンキンキンキンキンキンッ！！
+<PAUSE>
+<NAME_PLATE>
+　澄んだ音が響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　風とともに桜が舞ったかと思うと
+不思議な力で銃弾を跳ね返すリーナ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「……わ、すごい」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカも似たようなことはできるが、
+結構アンドロイドアームの強度頼みだ。
+<PAUSE>
+<NAME_PLATE>
+　剣と風を操る力による技だろうか？
+ついさっきまでのオロオロした様子の彼女とは
+まるで別人だ。
+<PAUSE>
+<NAME_PLATE>
+　しかも、ただ弾丸を弾くだけでなく、
+その威力を殺して、跳弾で周りに被害が
+でないようにしている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「魔界騎士ってのは本当みたいね」
+<PAUSE>
+<NAME_PLATE>
+　思わず感心してしまうアスカに
+リーナが剣を振り回しながら叫ぶ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「なにしてる！　早く逃げろ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「逃げろって言ったって……」
+<PAUSE>
+<NAME_PLATE>
+　勘違いして戦闘を始めたのはリーナだが、
+サイボーグに狙われているのはアスカだ。
+逃げても追いかけてくるだろう。
+<PAUSE>
+<NAME_PLATE>
+　まあ、本来はリーナがメモリーカードを
+受け取る予定のようだから、それを狙う連中と
+戦っているのは正しいのだが。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　ともかく、サイボーグが所構わず
+撃ち始めたせいで空港は大混乱だ。
+<PAUSE>
+<ACTOR>0,ts_m142b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サイボーグ
+「くそが！　これでも食らえ！」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント曹長（武器）
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>
+　部下たちの銃撃では倒せないと見た男が
+トランク砲をこちらに向けた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょっ！　本気！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m142c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　ぶっ放されたのは榴弾か焼夷弾か、
+とにかく間違いなく当たると爆発する奴だ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「こしゃくな！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「じゃないっての！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　迷わずぶった斬ろうとする
+リーナの頭越しに、アスカは風の術を使った。
+<PAUSE>
+<NAME_PLATE>アスカ
+「風よっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>4,as_t012f,CENTER, CENTER, IN, linear, 500
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　ごぉおおおおおっっ！！
+<PAUSE>
+<NAME_PLATE>リーナ
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　驚くリーナの眼前で突風が巻き起こり、
+飛んできた砲弾を逸らす。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　とっさに人のいない方向に飛ばしたが、
+その先までは面倒みきれない。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガァアアアアアアアンンッ！！
+<PAUSE>
+<NAME_PLATE>
+　案の定、空港の一角で爆発が起こった。
+<PAUSE>
+<NAME_PLATE>
+　壁だの柱だの天井だのが崩れ、
+炎が次々と上がっていく。
+<PAUSE>
+<NAME_PLATE>
+　ただでさえ混乱していた空港は
+一気に大パニックへと移行した。
+<PAUSE>
+//【背景：空港ロビー（炎上）＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿NC001eより流用
+<BG>nc225b,IN, 1000
+<ACTOR>4,as_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ありゃあ……
+　これって私のせいじゃないよね……」
+<PAUSE>
+<NAME_PLATE>
+　しかし、マダムの怒った顔は想像できる。
+<PAUSE>
+<NAME_PLATE>
+　げんなりするアスカに、
+リーナが目を丸くする。
+<PAUSE>
+<ACTOR>4,as_t011c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「風の技？　お前、何者だ？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>4,as_t011f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そんなことより
+　あいつらをやっつけるわよ！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>リーナ
+「もちろんだ！　この狼藉者どもめ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナが魔剣をきりりと構える。
+<PAUSE>
+<NAME_PLATE>アスカ
+「さっきは手加減したけど、
+　今度はちょっと本気出すわよ！」
+<PAUSE>
+<NAME_PLATE>
+　アスカは風の刃、かまいたちを使おうと、
+風遁の術のモーションに入った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　が、それより先に
+リーナの剣が別の風を巻き起こした。
+<PAUSE>
+<NAME_PLATE>リーナ
+「必殺！！“チェリーフラーリィ”！！」
+<PAUSE>
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ずばあっ！
+<PAUSE>
+<NAME_PLATE>
+　裂帛の気合で剣を振り下ろす。
+<PAUSE>
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　桜色に輝く刃を包むように
+魔力を帯びた風と大量の花びらが舞い上がり、
+サイボーグたちにドッと流れてゆく。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<NAME_PLATE>
+　ザシュッッッ！！
+ザシュザシュザシュッッ！！
+<PAUSE>
+<NAME_PLATE>サイボーグ
+「うががががががっっ！！」
+「ぐあぁあああああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　鋭い刃と化した無数の花びらが
+サイボーグたちをズタズタに切り裂く。
+<PAUSE>
+<NAME_PLATE>
+　“必殺”と言うだけのことはある。
+凄まじい威力だ。
+<PAUSE>
+<NAME_PLATE>
+　花びらを刃に変えている分、
+アスカのかまいたちより上かもしれない。
+<PAUSE>
+<NAME_PLATE>
+　それに桜の花びらの舞いの中で
+サイボーグが破壊されていく様は
+なんというか華麗だ。
+<PAUSE>
+<NAME_PLATE>
+　思わず見とれてしまう。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc225b,IN, 500
+<ACTOR>3,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「またつまらぬものを斬ってしまった」
+<PAUSE>
+<NAME_PLATE>
+　リーナはリーナで見得を切っていた。
+ちょっと頬のあたりがにやけている。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>3,chr_t0104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>4,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あなたも風を使うのね」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>リーナ
+「そうだ。私はリーナ。
+　誇り高きノマドの魔界騎士だ」
+<PAUSE>
+<ACTOR>4,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「なんにも隠す気ないとか……」
+<PAUSE>
+<NAME_PLATE>
+　思わず突っ込みたくなるほど
+堂々としている。
+<PAUSE>
+<NAME_PLATE>リーナ
+「それでお前は何者だ？」
+<PAUSE>
+<NAME_PLATE>
+　当然の質問だったが、
+アスカはちょっと慌てた。
+<PAUSE>
+<NAME_PLATE>
+　なにせ相手はノマドの魔界騎士。
+正体を明かせるわけがない。
+<PAUSE>
+<NAME_PLATE>アスカ
+「え？　わ、私？
+　ええと、通りすがりの風使いよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうか。助かった」
+<PAUSE>
+<NAME_PLATE>
+　とっさに出た適当な返事に、
+リーナはあっさりと納得している。
+<PAUSE>
+<NAME_PLATE>
+　あまりこだわらない性格のようだ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「でも、あいつら私じゃなく
+　お前を狙っていたみたいだな。
+　どういうことだ？」
+<PAUSE>
+<ACTOR>4,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ええと、そ、それは―――」
+<PAUSE>
+<NAME_PLATE>
+　さすがにそれは誤魔化せそうにない。
+<PAUSE>
+<NAME_PLATE>
+　もう間違ってメモリーカードを
+受け取ってしまったことから説明して、
+<PAUSE>
+<NAME_PLATE>
+　リーナにも詳しい事情を聞かないと
+駄目だろう。
+<PAUSE>
+<NAME_PLATE>
+　と、思ったところで、
+甲高い声が響きわたった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>5,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「これはいったい何事ですか！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>
+　また変なのが現れていた。
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>5,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+

@@ -1,0 +1,163 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　深月たちは執事の重森を倒し、
+蜘蛛の貴婦人の部屋になだれ込んだ。
+<PAUSE>
+//【背景：蜘蛛の貴婦人の部屋＿夜】【時間：夜】
+//　※対魔忍紅_NC012aを流用
+<GROUP>
+<SE_PLAY>se128
+<BG>nc125a,IN, 1000
+</GROUP>
+<BGM_PLAY>bgm406,1000
+<NAME_PLATE>
+　貴婦人を名乗るだけあって
+そこは立派な寝室だった。
+<PAUSE>
+<NAME_PLATE>
+　天蓋付きのベッド、
+来客用のソファーにテーブル、
+壁には暖炉もある。
+<PAUSE>
+<NAME_PLATE>
+　暗がりの中、赤や青や黄色の提灯が
+妖しい雰囲気を醸し出している。
+<PAUSE>
+<NAME_PLATE>
+　そして、なにより異様な光景に
+深月は思わず声を出していた。
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「あっ、見てください」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　天井から１０個以上の
+巨大な糸玉が吊されて
+ユラユラと揺れている。
+<PAUSE>
+<NAME_PLATE>
+　白く細い糸をグルグル巻きにした
+縦１メートル、横５０センチほどの
+蚕の繭のような塊だ。
+<PAUSE>
+<NAME_PLATE>
+　きっとあの中に
+蜘蛛の貴婦人に捕らわれた人間が
+生きたまま入れられているに違いない。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,chr_t0044a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>燐
+「あのどれかに眞田もいるはずだ。
+　一つ一つ開けて確かめるしかないな」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>六穂
+「灰汁抜きの最中だっけ？
+　おとなしくていいね」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「必ず助け出します。
+　できれば他の人たちも」
+<PAUSE>
+<NAME_PLATE>燐
+「そうしたいところだが」
+<PAUSE>
+<NAME_PLATE>六穂
+「簡単にはさせてくれそうにないね」
+<PAUSE>
+<NAME_PLATE>
+　深月は扇を、燐は電輝刀を、
+六穂は毒針を構えた。
+<PAUSE>
+<NAME_PLATE>
+　三人とも臨戦態勢だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そんな深月たちを嘲笑うかのように、
+奥のベッドで寝ていた蜘蛛の貴婦人が
+のろのろと起き出してきた。
+<PAUSE>
+<ACTOR>3,ts_m117a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蜘蛛の貴婦人
+「なんじゃ、騒がしいの」
+<PAUSE>
+//　※立ち絵
+//　　蜘蛛の貴婦人＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　深月たちに気づいても、
+まだ眠そうな顔をしている。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「重森め。やられたのか。
+　あやつも存外役立たずじゃの」
+<PAUSE>
+<NAME_PLATE>深月
+「ええ、あの人は倒しました」
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「まあよい」
+<PAUSE>
+<NAME_PLATE>
+　忠実な執事が倒されたことすら
+別に気にしていないような態度だ。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「じゃが、妾の部屋にまで足を
+　踏み入れるとは。物分りの悪い虫けらは
+　退治してやらねばならんの」
+<PAUSE>
+<NAME_PLATE>
+　それだけが不快なのだろう。
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は
+その８本の脚をギシッ、ギシッと
+苛立たしげに軋らせた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「退治されるのはあなたです！
+　覚悟してください！」
+<PAUSE>
+<NAME_PLATE>
+　深月はきっぱりと言い放った。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「くくく、この妾を退治するか」
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人は軽く笑ってから、
+その氷のように冷たい瞳をギラリと輝かせた。
+<PAUSE>
+<NAME_PLATE>蜘蛛の貴婦人
+「この愚か者どもが」
+<PAUSE>
+//→S502a
+<ACTOR_OUT>3,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

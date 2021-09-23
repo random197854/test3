@@ -1,0 +1,1488 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：滑走路＿夜】【時間：夜】
+//　※対魔忍アサギ３のnc039aから流用
+<BGM_PLAY>bgm304,1000
+<BG>nc227a,IN, 1000
+<ACTOR>0,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「奥義・幻刀二連！！
+　食らいなさい！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　最初に仕掛けたのは巴だった。
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　初動で強烈な殺気の刃を飛ばして
+斬撃の幻影を見せ、
+<PAUSE>
+<NAME_PLATE>
+　それに気を取られた敵に
+必殺の一撃を放つ奥義だ。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「軽佻浮薄なり！！」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　金棒が轟と唸る。
+<PAUSE>
+<NAME_PLATE>
+　弁慶は斬撃の幻影を相殺しようとし、
+<PAUSE>
+<NAME_PLATE>
+　それが幻であると気づくや、
+少しも油断せずに、
+次ぐ巴の本命の一撃をも打ち落としていた。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>巴
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>弁慶
+「殺気を餌に見せての連撃か。
+　いきなりそのような小細工とは。
+　女に相応しい児戯よな」
+<PAUSE>
+<NAME_PLATE>巴
+「私を侮辱するのですか！？」
+<PAUSE>
+<NAME_PLATE>弁慶
+「失望しておるのよ。
+　対魔忍とはこんなものか。
+　連撃の見本を見せてくれるわ！」
+<PAUSE>
+<NAME_PLATE>
+　弁慶が金棒を振り下ろした。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　闘気が衝撃波となって巴に迫る。
+<PAUSE>
+<NAME_PLATE>巴
+「はあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　風のごとく刃が鞘走る。
+<PAUSE>
+<NAME_PLATE>
+　巴は真正面から衝撃波を打ち落とすが、
+<PAUSE>
+<NAME_PLATE>弁慶
+「ぬおおおおおおおおっ！！」
+<PAUSE>
+<NAME_PLATE>
+　衝撃波の後を追う形で突進した
+弁慶が彼女の間合いに入り込んでいる。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>巴
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　その巨体からは想像もできぬ動きだ。
+<PAUSE>
+<NAME_PLATE>巴
+「しまっ―――」
+<PAUSE>
+<NAME_PLATE>
+　巴は剣を構え直す時間もない。
+<PAUSE>
+<NAME_PLATE>弁慶
+「諸行無常なりィッッ！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG_OUT>1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　弁慶が致命の一撃を
+食らわせようとした瞬間、
+<PAUSE>
+<NAME_PLATE>リーナ
+「やあああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<NAME_PLATE>
+　ガギィイインッ！！
+<PAUSE>
+<NAME_PLATE>
+　凄まじい火花が飛び散った。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>2,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　割って入ったリーナが、
+サクラブロッサムを横から金棒に
+叩きつけたのだ。
+<PAUSE>
+<NAME_PLATE>弁慶
+「小癪な！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　弁慶は逸らされた金棒で
+すぐさまリーナを突き上げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>リーナ
+「とおっ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは軽やかに宙を舞ってそれを躱し、
+<PAUSE>
+<NAME_PLATE>リーナ
+「桜花煙幕！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　剣で巻き上げた土埃を桜の花びらに変えて、
+弁慶の目をくらませる。
+<PAUSE>
+<NAME_PLATE>弁慶
+「ぬっ！？」
+<PAUSE>
+<NAME_PLATE>
+　その隙にリーナと巴は素早く身を引く。
+<PAUSE>
+<BG>nc227a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0172a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>リーナ
+「大丈夫か！？」
+<PAUSE>
+<NAME_PLATE>巴
+「あ、ありがとうございます！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「さっき助けてもらったお礼だ！」
+<PAUSE>
+<NAME_PLATE>巴
+「はいっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「ふはははは！！
+　花びらの目くらましとは風流じゃな！
+　見事見事！！」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　弁慶は気にした様子もない。
+<PAUSE>
+<NAME_PLATE>
+　はらはらと舞う桜に包まれ
+呵呵大笑している。
+<PAUSE>
+//【背景：夜空＿夜】【時間：夜】
+//　※対魔聖甲アリスのnc028cから流用
+<ACTOR_OUT>1,CENTER,linear,400
+<GROUP>
+<BG>nc228a,IN, 200
+<TRANSITION>TR27, IN,800
+</GROUP>
+<ACTOR>4,as_t012f,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>アスカ
+「じゃあ、これならどうよ！
+　風神・斬風陣っっ！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵（風遁）＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカも黙って見ていたわけではない。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　花びらに囲まれて喜んでいる弁慶に向かって
+容赦なくかまいたちの術を叩きつける。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グゴォオオオオオオオオオオオオツ！！！
+<PAUSE>
+<NAME_PLATE>
+　アスカの怒りに呼応して、
+さっき以上に激しい真空の刃が
+弁慶を押し包んだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし―――
+<PAUSE>
+//【背景：滑走路＿夜】【時間：夜】
+//　※対魔忍アサギ３のnc039aから流用
+<BG>nc227a,IN, 500
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「かまいたちの術か！！
+　僥倖である！！」
+<PAUSE>
+<NAME_PLATE>
+　弁慶は金棒の真ん中を持つと、
+扇風機のように頭上で回し始めた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se108_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブンブンブンブンブンブンブンブンッ！！
+<PAUSE>
+<NAME_PLATE>アスカ
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　力任せの風が巻き起こった。
+<PAUSE>
+<NAME_PLATE>
+　アスカのかまいたちとは逆方向の風だ。
+<PAUSE>
+<NAME_PLATE>
+　それで真空刃を相殺している。
+<PAUSE>
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「見事見事！
+　儂に血を流させるとは久しぶりよ。
+　お前の首、ますます欲しくなってきたわ」
+<PAUSE>
+<NAME_PLATE>
+　頬から僅かに血が飛び散っているが、
+ほんのかすり傷だ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「どういう対応力よ……」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　軽口を叩きつつも、
+アスカは慄然としていた。
+<PAUSE>
+<NAME_PLATE>
+　あんな強引な破り方は見たことがない。
+<PAUSE>
+<NAME_PLATE>
+　名のあるサイボーグを
+次々と倒してきたという噂に
+間違いはないようだ。
+<PAUSE>
+<NAME_PLATE>弁慶
+「まずは一つ。
+　楽しませてもろうたわ」
+<PAUSE>
+<NAME_PLATE>弁慶
+「しかし、そろそろ小癪なサイボーグの力を
+　見せてもらいたいものよな」
+<PAUSE>
+<NAME_PLATE>
+　弁慶は余裕綽綽でこちらを見ている。
+<PAUSE>
+<NAME_PLATE>
+　三人の次の出方、特にアスカに
+期待しているという顔だ。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>3,as_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（サイボーグの力って、
+　それが使えたら苦労はないっての）
+<PAUSE>
+<ACTOR>3,as_t011c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　内心でぼやきつつも、リーナと巴に近づく。
+<PAUSE>
+<ACTOR>3,as_t011c,CENTER, RIGHT, NONE, linear, 1000
+<NAME_PLATE>アスカ
+「二人とも大丈夫？」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<ACTOR>0,chr_t0172a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>巴
+「ええ。ですが恐ろしい男です。
+　私の技をいきなり見抜いた上、
+　あの動き、人間業ではありません」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私も目くらましをかけるだけで
+　精一杯だった。
+　奴には全く隙がない」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>3,as_t011d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「私の術もあんな馬鹿馬鹿しい方法で
+　破られるなんてね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「いつもなら
+　アンドロイドアーム＆レッグがあるから、
+　もっと他にやりようもあるんだけど」
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>0,chr_t0172a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>巴
+「いつもなら？
+　その手足は違うのですか？」
+<PAUSE>
+<ACTOR>3,as_t011c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「これは日常用」
+<PAUSE>
+<NAME_PLATE>巴
+「日常用？」
+<PAUSE>
+<NAME_PLATE>
+　巴が不思議そうな顔をする。
+<PAUSE>
+<NAME_PLATE>
+　まあ、生身の人は手足に
+日常用と戦闘用があるなんて思わないだろう。
+<PAUSE>
+<NAME_PLATE>アスカ
+「武器はついてないの。
+　ただの高性能な手足」
+<PAUSE>
+<NAME_PLATE>アスカ
+「今日はホントたまたまここに来て、
+　たまたま人に間違えられて、
+　たまたまあんなのに襲われてるの」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「す、すまない……
+　こんなことになるとは……」
+<PAUSE>
+<NAME_PLATE>
+　リーナがまたしょぼんとしかけるが、
+<PAUSE>
+<NAME_PLATE>アスカ
+「謝るのは後でいいわ。リーナ、
+　私一人の風じゃ奴を仕留められない。
+　二人がかりでいくわよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「分かった」
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士は力強く頷く。
+<PAUSE>
+<NAME_PLATE>巴
+「ならば、私は時間稼ぎをしましょう」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍もそう請け負った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「さてさて、女武者たち。
+　作戦は決まったか？
+　せいぜい儂を楽しませてみよ！」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　弁慶が時間切れだとばかりに
+金棒の底で地面をズンと叩いた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「その傲慢、
+　私たち三人で打ち砕いてみせます！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　時間稼ぎ役の巴が弁慶に突進する。
+<PAUSE>
+<GROUP>
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,as_t012f,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>アスカ
+「忍法・風神の術！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵（風遁）＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>リーナ
+「サクラにアラシ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカとリーナは息を合わせて
+風の術のモーションに入った。
+<PAUSE>
+<NAME_PLATE>
+　二人を取り囲む大気が
+ゆっくりと、だが力強く渦を巻き始める。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「やああっ！！　はっ！！
+　でやああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<NAME_PLATE>
+　巴が息も吐かせぬ攻撃を繰り出す。
+<PAUSE>
+<NAME_PLATE>
+　刀身が光の帯となって見える連撃だ。
+<PAUSE>
+<NAME_PLATE>
+　時間稼ぎのために得意の居合いを使わず、
+あえて接近戦を仕掛けている。
+<PAUSE>
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィンッ！！　ギッィンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　激しい火花が二人の間で飛び散る。
+<PAUSE>
+<NAME_PLATE>
+　一見、巴が優勢のように見える。
+<PAUSE>
+<BG>nc227a,IN, 500
+<NAME_PLATE>
+　が、そうではなかった。
+<PAUSE>
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「なかなかの太刀筋じゃ！
+　だが所詮は女の細腕！
+　ぬるいぬるい！！」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>巴
+「くっ！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>
+　絶え間なく繰り出される斬撃を
+弁慶はことごとく受け止めている。
+<PAUSE>
+<NAME_PLATE>弁慶
+「では、儂の番といくか！」
+<PAUSE>
+<NAME_PLATE>
+　ひとたび弁慶が攻撃を繰り出すや、
+あっという間に巴が劣勢となった。
+<PAUSE>
+<NAME_PLATE>巴
+「くっっ！！　このっっ！！」
+<PAUSE>
+<NAME_PLATE>弁慶
+「もっと気合を入れぬか。
+　その長い刀が泣くぞ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギイインッ！！　ギャイイインッ！！
+<PAUSE>
+<NAME_PLATE>
+　振り回される金棒が
+巴の刀を右に左にと面白いように弾く。
+<PAUSE>
+<NAME_PLATE>巴
+「お、おのれっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　弁慶は明らかに手加減しているのに、
+巴は防御で手一杯。
+<PAUSE>
+<NAME_PLATE>
+　かろうじて躱している、
+いや躱させてもらっている状態だ。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あいつ一人じゃ無理だ！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　仲間思いの魔界騎士が叫んだ。
+<PAUSE>
+<NAME_PLATE>
+　まだ二人分の風は高まりきっていないのに
+今にも飛び出していきそうだ。
+<PAUSE>
+<GROUP>
+<ACTOR>3,as_t012f,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>アスカ
+「まだよ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「だけど！！」
+<PAUSE>
+<NAME_PLATE>
+　ここが堪えどころだ。
+<PAUSE>
+<ACTOR>3,as_t012g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「大丈夫！　一人じゃないわ！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵（風遁）＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>リーナ
+「えっ？」
+<PAUSE>
+<ACTOR>3,as_t012c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「どうせそろそろ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「儂の相手をするにはまだ未熟！！」
+<PAUSE>
+<NAME_PLATE>
+　金棒が凄まじい唸りを上げた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047_01
+<NAME_PLATE>
+　ギイインッッ！！
+<PAUSE>
+<NAME_PLATE>巴
+「あっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>
+　弁慶の一撃を受け止めきれず、
+巴の体勢が大きく崩れた。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「涅槃寂静を与えんっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　金棒が大上段に振り上げられた。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>巴
+「無念っっ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　とどめの一撃が放たれる寸前、
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバッッッ！！
+<PAUSE>
+<NAME_PLATE>弁慶
+「ぐっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、弁慶の背中が斜めに切り裂かれた。
+<PAUSE>
+<NAME_PLATE>
+　バッと血飛沫が舞う。
+<PAUSE>
+<BG>nc227a,IN, 500
+<ACTOR>1,ts_m143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>弁慶
+「なにやつ！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　弁慶がガバッと振り返ると、
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<ACTOR>4,yt_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>山田
+「危ないところでしたね」
+<PAUSE>
+//　※立ち絵
+//　　山田太郎＿戦闘立ち絵
+//　　　＊鋼鉄の魔女アンネローゼより流用
+<NAME_PLATE>
+　光学迷彩を解いた山田が姿を現す。
+<PAUSE>
+<NAME_PLATE>リーナ
+「あいつは！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ほらやっぱり出てきた」
+<PAUSE>
+<NAME_PLATE>
+　どうせずっと隠れて見ていて、
+出てくるタイミングを伺っていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　さっき空港内で声をかけられたので、
+今度も多分そうだろうと考えていた。
+<PAUSE>
+<ACTOR>4,yt_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m143a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弁慶
+「うぬぬぬぬぬ！！
+　今まで姿も現さず、後ろからとは！
+　貴様もサイボーグか！！」
+<PAUSE>
+//　※立ち絵
+//　　千住院弁慶＿立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　弁慶は鬼の形相だ。
+<PAUSE>
+<NAME_PLATE>
+　背中の傷は決して浅くはない。
+怒りがその痛みを上回っているようだ。
+<PAUSE>
+<NAME_PLATE>山田
+「山田太郎と申します。
+　短い間でしょうが、お見知りおきを」
+<PAUSE>
+//　※立ち絵
+//　　山田太郎＿戦闘立ち絵
+//　　　＊鋼鉄の魔女アンネローゼより流用
+<NAME_PLATE>
+　山田はまったく意に介さず、
+今にも名刺でも出しそうな顔で
+ごく普通に挨拶していた。
+<PAUSE>
+<NAME_PLATE>弁慶
+「おのれえいっ！！
+　このガラクタがあああ！！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　弁慶は巴のことを完全に忘れ、
+怒りのまま山田に襲いかかろうとした。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　その瞬間―――
+<PAUSE>
+<ACTOR>0,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「秘剣・無間抜刀！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　巴が超高速の居合いを放っていた。
+<PAUSE>
+<NAME_PLATE>
+　彼女の一族に伝わる念動力系の秘剣。
+<PAUSE>
+<NAME_PLATE>
+　それが山田が不意打ちした背中の
+まったく同じ箇所を正確に切り裂く。
+<PAUSE>
+<BG>ef005a,NONE
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぶっしゅうううううっ！！
+<PAUSE>
+<NAME_PLATE>
+　背中から噴水のように血が噴き出した。
+<PAUSE>
+<NAME_PLATE>弁慶
+「ぐはあっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　さしもの弁慶もがっくりと
+その場に膝を突いた。
+<PAUSE>
+<BG>nc227a,IN, 500
+<GROUP>
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,as_t012f,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>アスカ
+「今よ！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「よおしっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二人分の風はマックスまで高まっている。
+<PAUSE>
+<NAME_PLATE>
+　弁慶の動きも止まった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>3,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>アスカ
+「風神！！　超烈風斬！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵（風遁）＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカが放つ真空の大竜巻が、
+<PAUSE>
+<NAME_PLATE>リーナ
+「華麗に咲き乱れろ！！
+　ブロッサム・トルネード！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　リーナが巻き起こす桜刃の大嵐が、
+<PAUSE>
+<NAME_PLATE>
+　二つの風の相乗効果で弁慶を呑み込んだ。
+<PAUSE>
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴォオオオオオオオオオオオオオオオオオ
+オオオオオオオオオオオオオオオオオオオオ
+オオオオオオッ！！！！
+<PAUSE>
+<NAME_PLATE>弁慶
+「ぬおおおおおおおおおおおおおおお
+　おおおおおおおおおおおおおおっっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　弁慶は一歩も動くことが出来ない。
+<PAUSE>
+<SE_PLAY>se097
+<NAME_PLATE>
+　地獄の大竜巻の中で
+その身を切り裂かれるしかない。
+<PAUSE>
+<NAME_PLATE>弁慶
+「この卑怯者どもがああああああああ！！！」
+<PAUSE>
+<NAME_PLATE>
+　竜巻が真っ赤に染まっていく。
+<PAUSE>
+<NAME_PLATE>
+　弁慶の姿が徐々に削られていき、
+乱れ飛ぶ血肉に混じって分からなくなる。
+<PAUSE>
+<NAME_PLATE>
+　サイボーグ狩りの異名を持つ男は
+彼が破壊したサイボーグと同じように
+バラバラになって絶命した。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc227a,IN, 1000
+<ACTOR>3,as_t005c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アスカ
+「ま、正々堂々じゃないけどね」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカはようやく息を吐いた。
+<PAUSE>
+<ACTOR>3,as_t005c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「まとめてかかってこいと
+　言ったのはあいつだ。
+　なにも恥じることはないぞ」
+<PAUSE>
+<NAME_PLATE>
+　リーナもサクラブロッサムを鞘に収めた。
+<PAUSE>
+<NAME_PLATE>
+　巴が二人に近づいてきた。
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>0,chr_t0172a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>巴
+「お二人ともお見事です」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<ACTOR>3,as_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あなたもね。
+　時間稼ぎありがとう」
+<PAUSE>
+<ACTOR_OUT>3,RIGHT,linear,1000
+<GROUP>
+<ACTOR>2,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>リーナ
+「魔界騎士と対魔忍とＤＳＯの共闘か。
+　イングリッド様が聞いたら驚くぞ。
+　でもいいコンビネーションだったな」
+<PAUSE>
+<NAME_PLATE>
+　リーナは単純に嬉しそうだ。
+<PAUSE>
+<NAME_PLATE>巴
+「……そうですね」
+<PAUSE>
+<NAME_PLATE>
+　巴はちょっと複雑そうだったが、
+二人に向かって、改めて深く頭を下げる。
+<PAUSE>
+<NAME_PLATE>巴
+「先ほどは、私の勘違いで、
+　お二人にあんなことをしてしまって、
+　本当に申し訳ありませんでした」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ううん、気にしないで。
+　今日はもう勘違いされてばかりだし」
+<PAUSE>
+<NAME_PLATE>リーナ
+「お前がいなかったら勝てなかったしな。
+　私の髪を斬ったのも許してやろう」
+<PAUSE>
+<NAME_PLATE>巴
+「ありがとうございます」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>3,as_t005d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「でもなんで勘違いって分かったの？」
+<PAUSE>
+<NAME_PLATE>巴
+「それはあの方に教えてもらいました」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　巴は振り返って、山田を見やった。
+<PAUSE>
+<ACTOR>4,yt_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>山田
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　山田太郎＿通常立ち絵
+//　　　＊鋼鉄の魔女アンネローゼより流用
+<NAME_PLATE>
+　山田は腕のブレードを元に戻し、
+三人から離れた所で涼しい顔をしている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「そんなことだと思ったわ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「何者だ？」
+<PAUSE>
+<NAME_PLATE>
+　溜息を吐くアスカに、
+リーナが首をかしげている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、そっか。
+　リーナは顔知らないんだっけ。
+　あなたと私を間違えた間抜けな情報屋」
+<PAUSE>
+<NAME_PLATE>リーナ
+「なっ！？　お前が諸悪の根源か！」
+<PAUSE>
+<NAME_PLATE>
+　リーナが山田に駆け寄っていく。
+<PAUSE>
+<ACTOR>4,yt_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>山田
+「申し訳ありません。
+　でも諸悪の根源はないでしょう？」
+<PAUSE>
+<ACTOR>4,yt_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>山田
+「約束の時間に現れないあなたにも
+　落ち度はありますよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「う……それはそうだが、
+　おかげで私は大変な目にあったんだぞ！！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それは私のセリフ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「あうう……、
+　す、すまない……」
+<PAUSE>
+<NAME_PLATE>
+　リーナはまたしょぼーんとする。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「で、これ結局なんのデータなの？
+　コレが今回のドタバタの原因なんだから
+　いい加減話してちょうだい」
+<PAUSE>
+<NAME_PLATE>
+　アスカは例のメモリーカードを
+取り出して尋ねる。
+<PAUSE>
+<NAME_PLATE>リーナ
+「そ、それは……」
+<PAUSE>
+<NAME_PLATE>
+　この期に及んでだんまりだ。
+<PAUSE>
+<NAME_PLATE>
+　アスカはきっぱりと言った。
+<PAUSE>
+<NAME_PLATE>アスカ
+「私はＤＳＯの人間よ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あなたのことは結構好きだけど、
+　この世に混乱をもたらすようなものなら
+　渡すわけにはいかないわ」
+<PAUSE>
+<NAME_PLATE>巴
+「私もです。今日は共に戦いましたが、
+　あなたはノマドの魔界騎士。
+　対魔忍として見過ごせないものはあります」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そんなものじゃない！！」
+<PAUSE>
+<NAME_PLATE>
+　二人に詰め寄られ、
+リーナは大声を出した。
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>4,yt_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>山田
+「ええ、そんなものではないですよ」
+<PAUSE>
+<NAME_PLATE>
+　取引相手の山田がリーナに助け船を出す。
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうなの？」
+<PAUSE>
+<NAME_PLATE>山田
+「私が教えてもいいですが、
+　ここはあなたが正直に言った方が
+　いいのでは？」
+<PAUSE>
+<NAME_PLATE>
+　山田がそう促すと
+リーナもついに観念したらしく、
+<PAUSE>
+口を開いた。
+<PAUSE>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「うう……、そ、それは……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「うん、それは？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様のパーソナルデータだ！」
+<PAUSE>
+<ACTOR>3,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「はあ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「だ、だから……
+　イングリッド様の……個人的な……
+　情報とか……そういうのだ……」
+<PAUSE>
+<NAME_PLATE>
+　リーナは真っ赤になって
+ゴニョゴニョ言った。
+<PAUSE>
+<ACTOR>3,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「イングリッドってあなたの上役でしょ？
+　なんでそのデータをあなたが欲しがるの？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様になにかプレゼントを
+　差し上げたいんだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「でも、どんなものがお好きかわからないし、
+　イングリッド様はご自分のことを
+　あまり喋らないから……それで……」
+<PAUSE>
+<NAME_PLATE>
+　部活の先輩に憧れる後輩のような
+顔をしている。
+<PAUSE>
+<ACTOR>3,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「それで上役のデータを
+　もらおうとしたわけ？　呆れた」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ううう……」
+<PAUSE>
+<NAME_PLATE>
+　しかし、アスカも今日は
+マダムへのプレゼントを買いに来たのだ。
+<PAUSE>
+<NAME_PLATE>
+　敵味方とはいえ、
+似たようなことをやっているリーナに
+親近感がわくのも確かだ。
+<PAUSE>
+<NAME_PLATE>
+　ただ、まだ納得できない部分がある。
+<PAUSE>
+<ACTOR>3,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「でも何でサイボーグ軍団が空港破壊してまで
+　それを手に入れようとしていたわけ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それは……分からない」
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<NAME_PLATE>
+　リーナは「分かるか？」と言いたげに
+山田を見た。
+<PAUSE>
+<ACTOR>4,yt_t001b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>山田
+「私にもさっぱりです」
+<PAUSE>
+<NAME_PLATE>アスカ
+「本当なの？」
+<PAUSE>
+<NAME_PLATE>山田
+「ええ、少なくともＤＳＯや対魔忍の方々が
+　心配するようなものは一切ありません。
+　私もそんな危険は冒せませんしね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「中身を確認してみるしかないわね」
+<PAUSE>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「えええええええええ！？」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<ACTOR>3,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「なんでそんな驚くのよ？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「だ、だって、だって……」
+<PAUSE>
+<ACTOR>3,as_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「だってなに？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「あうあうあう……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>2,LEFT,linear,1000
+<NAME_PLATE>
+　アタフタしているリーナは放っておいて、
+山田にメモリーカードを渡す。
+<PAUSE>
+<ACTOR>4,yt_t001b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ちょっと見せてくれる？」
+<PAUSE>
+<NAME_PLATE>山田
+「仕方ありませんね」
+<PAUSE>
+<NAME_PLATE>
+　山田はメモリーカードを受け取り、
+自分の端末で中身を開いた。
+<PAUSE>
+<ACTOR>3,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「これが中身！？　なによこれ！！」
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　どう見ても隠し撮りした
+イングリッドの写真の数々だった。
+<PAUSE>
+<NAME_PLATE>
+　剣をとって戦っているのは分かる。
+<PAUSE>
+<NAME_PLATE>
+　しかし、晴れ着だの水着だの
+魔界騎士らしからぬプライベート写真まで
+ごっそりだ。
+<PAUSE>
+<ACTOR>3,as_t005e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あのねえ……」
+<PAUSE>
+<NAME_PLATE>
+　アスカがなにか言うより先に、
+リーナがわーっとまくし立てた。
+<PAUSE>
+<ACTOR>2,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「しょ、しょうがないだろ！！
+　イングリッド様は写真を撮られるのも
+　嫌がるんだ！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「たまに撮っても
+　すぐ表情が固くなってしまうし！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「だからほら見ろ、これとかこれとか！
+　こんなに自然で凜々しくてカッコ良くて！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「わ、私はイングリッド様を
+　心から尊敬してるんだ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「こういう写真が欲しいんだ！！
+　しょうがないだろ！！」
+<PAUSE>
+<NAME_PLATE>
+　耳まで赤くして力説するリーナに、
+アスカは呆れかえった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「なんでもいいけど、
+　どうしてこれを奪おうとしていたのか
+　さっぱり分からないわね……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「も、もう良いだろ？
+　メモリーカードを返してくれ！」
+<PAUSE>
+<NAME_PLATE>
+　恥ずかしそうに、
+そのくせ力いっぱい手を出す。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ノマドの大幹部なんかに義理はないけど
+　これ本当に渡して良いのかしら？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「な、なんでだ！
+　そんなこと言うと、
+　この剣に物を言わせるぞ！！」
+<PAUSE>
+<NAME_PLATE>
+　また剣に手をかけるリーナに
+アスカは冷たく突っ込んだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「イングリッドにバラすわよ。
+　あなたが隠し撮り写真を欲しがってたって」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「うわあああああああ！！
+　それだけはやめてくれえ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「それは酷いです！！」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>
+　ずっと黙っていた巴がいきなり口を挟む。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ほら、この子も酷いって言ってるでしょ」
+<PAUSE>
+<NAME_PLATE>巴
+「違います！
+　酷いのはアスカさん、あなたです！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「はあ？」
+<PAUSE>
+<ACTOR>0,chr_t0172a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>2,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>巴
+「リーナさん、私、分かります！
+　あなたの気持ち、
+　私、とてもよくわかります！！」
+<PAUSE>
+<NAME_PLATE>
+　巴はリーナの手をガシッと握った。
+<PAUSE>
+<NAME_PLATE>リーナ
+「分かってくれるか？」
+<PAUSE>
+<NAME_PLATE>巴
+「はい！！」
+<PAUSE>
+<NAME_PLATE>
+　目がキラキラしている。
+<PAUSE>
+<NAME_PLATE>巴
+「私も戦闘教官の蓮魔（はすま）先生を
+　心から尊敬しています」
+<PAUSE>
+<NAME_PLATE>巴
+「先生に近づけるように、
+　あのような立派な対魔忍になれるように
+　日々努力を重ねています」
+<PAUSE>
+<NAME_PLATE>巴
+「そんな方の素敵な写真があったら
+　欲しくなって当然じゃないですか！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうだろ？　そうだろ？」
+<PAUSE>
+<NAME_PLATE>巴
+「はい！！」
+<PAUSE>
+<NAME_PLATE>
+　なんだか意気投合している。
+<PAUSE>
+<NAME_PLATE>
+　アスカはドン引きだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ええーー！！
+　あなたたちちょっとおかしいわよ！
+　イングリッドに悪いと思わないの？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「悪くない！　ちっとも悪くない！」
+<PAUSE>
+<NAME_PLATE>巴
+「その通りです！！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「絶対おかしいって！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「おかしくない！」
+<PAUSE>
+<NAME_PLATE>巴
+「おかしいのはアスカさん、あなたです！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうだそうだ！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ストーカーに言われたくないわ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「誰がストーカーだ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「あんたたちに決まってるでしょ！」
+<PAUSE>
+<NAME_PLATE>巴
+「なんて無礼な！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ほんとに決闘するか！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>山田
+「やれやれ、困りましたね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「他人事みたいに言うな！」
+<PAUSE>
+<NAME_PLATE>
+　馬鹿馬鹿しい言い争いが始まった。
+<PAUSE>
+<NAME_PLATE>
+　人違いから始まったアスカのトラブルは
+まだ終わりそうになかった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　最終的にイングリッドの写真データは
+リーナの手に渡され、
+<PAUSE>
+<NAME_PLATE>
+　そのコピーをアスカも預かることで
+話は決着した。
+<PAUSE>
+<NAME_PLATE>
+　そして、アスカはまたマダムに
+小言を食らうことになったのであった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「やってられないわ、まったく」
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

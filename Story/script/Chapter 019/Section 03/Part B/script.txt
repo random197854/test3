@@ -1,0 +1,88 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　同時刻―――。
+<PAUSE>
+//【背景：荒野＿夕方】【時間：昼】
+//　※対魔忍アサギ2_nc010bより流用
+<BG>nc137a,IN, 1000
+<NAME_PLATE>
+　最後のモンスターを倒すと
+周囲の風景が一変した。
+<PAUSE>
+//【背景：五車学園地下訓練施設＿演習室】【時間：昼】
+//　※対魔忍アサギZEROの背景NC016bより流用
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc090a,IN, 1000
+<ACTOR>0,a_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ふぅ………」
+<PAUSE>
+//　※立ち絵
+//　　アサギ立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストＳＲから流用
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　アサギは五車学園の地下演習室にいた。
+<PAUSE>
+<NAME_PLATE>
+　立体映像とロボットを組み合わせた
+シミュレーションによる訓練施設だ。
+<PAUSE>
+<NAME_PLATE>
+　そこで一人、いつものトレーニングを
+していたところだ。
+<PAUSE>
+<NAME_PLATE>
+　敵のレベルはマックス、
+戦闘終了後の評価ポイントも更新したが、
+その顔は不満そうだ。
+<PAUSE>
+<ACTOR>0,a_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「サラマンダーはともかく、
+　矢車弥右衛門、少し設定が甘いわね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「これじゃ誰でも勝ててしまうわ。
+　もうちょっと強くしないと」
+<PAUSE>
+<NAME_PLATE>
+　などと言いながら、
+教師権限でシミュレーターの設定を
+弄っていると、
+<PAUSE>
+<NAME_PLATE>アサギ
+「……ん？」
+<PAUSE>
+<NAME_PLATE>
+　ふと何者かの視線を感じた。
+<PAUSE>
+<NAME_PLATE>
+　振り返るが誰もいない。
+<PAUSE>
+<NAME_PLATE>アサギ
+「また紫が覗いていたのかしら？」
+<PAUSE>
+<NAME_PLATE>
+　アサギは首をかしげつつ設定を終えて、
+演習室を後にした。
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　その彼女を何者かが隠れ見ていた。
+<PAUSE>
+<NAME_PLATE>
+　“最強の対魔忍”にも気づかれることなく。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+

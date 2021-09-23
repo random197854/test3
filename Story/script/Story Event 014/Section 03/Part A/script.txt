@@ -1,0 +1,951 @@
+//シナリオ部分【Section３】
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：地下遺跡＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc015aより流用
+//nc184a
+<BG>nc184a,IN, 1000
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「きゃっ！」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　消えたときと同様、
+現れるのもいきなりだった。
+<PAUSE>
+<NAME_PLATE>
+　俺とゆきかぜはどことも知れない場所に
+空間転移させられていた。
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あーもう！
+　なにがどうなってるのよ！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは握っていた俺の手を
+邪険に離しながらまず文句を言った。
+<PAUSE>
+<NAME_PLATE>俺
+「どうやら古代遺跡かなにかのようだな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「古代遺跡ぃ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「この感じはな」
+<PAUSE>
+<NAME_PLATE>
+　俺は周囲を見渡す。
+<PAUSE>
+<NAME_PLATE>
+　無論、見覚えなどない場所だが、
+何百年という長い年月を経てきた空間特有の
+息苦しいような場の気配を感じる。
+<PAUSE>
+<NAME_PLATE>
+　以前シュヴァリエらと共に訪れた
+魔術師バルド・バルドの
+書庫があった古代遺跡。
+<PAUSE>
+<NAME_PLATE>
+　あるいは、近ごろ紫水やコロ先輩と彷徨った
+五車学園の図書室の下の古代遺跡とも同じだ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「どこの古代遺跡よ？」
+<PAUSE>
+<NAME_PLATE>俺
+「待て。今調べてる。
+　ＧＰＳは……駄目だ。繋がらない。
+　そっちはどうだ？　場所が分かるか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は端末を取り出して調べたが、
+電波が届かない場所のようだ。分からない。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜも自分の端末をチェックして
+首を振った。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私のもだめ。
+　じゃあどこだかわかんないとこに
+　いきなり飛ばされたって事！？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうなるな。
+　それよりなんなんだ、その格好は？」
+<PAUSE>
+<NAME_PLATE>
+　今、聞くことでもないと思ったが、
+聞かずにはいられなかった。
+<PAUSE>
+<NAME_PLATE>
+　ウェディングドレスなど着ている訳を。
+<PAUSE>
+<NAME_PLATE>
+　なんと言っても目に付きすぎるし、
+あの格好にはあまり良い思い出がない。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんなんだじゃないわよ。
+　これあんたの仕業でしょ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？　なにが？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「このウェディングドレスよ！
+　昨日、私の家にいきなり現れたのよ。
+　玄関になんかフワフワ浮いてたの！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだそりゃ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私が聞きたいわよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ちょっと触ったら勝手に着ちゃって
+　おまけに脱げなくなっちゃったのよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「しょうがないからこのまま学校に来たけど、
+　なんか男子がみんなプロポーズしてくるし、
+　もうわけ分かんないわよ！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはまくし立てたが
+わけが分からないのは俺の方だ。
+<PAUSE>
+<NAME_PLATE>俺
+「今の話のどこに、
+　俺の仕業になる場所があるんだ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そんなの決まってるじゃない。
+　原因はふうま、あんただからよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「だからなんで俺が原因なんだよ！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「一年前のこと忘れたとは言わせないわ！
+　あとお正月のことも！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あんたの周り、
+　しょっちゅうウェディングドレスの子が
+　現れてトラブル起こしてるじゃないの！」
+<PAUSE>
+<NAME_PLATE>
+　と、ウェディングドレスのゆきかぜが
+俺を激しく糾弾する。
+<PAUSE>
+<NAME_PLATE>
+　そう言われると弱い。
+<PAUSE>
+<NAME_PLATE>俺
+「そ、それはそうだが、
+　お前のそのウェディングドレスについては
+　俺はなにも知らないぞ……」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふん、どーだか。
+　いきなりウェディングドレスが現れるわ、
+　突然プロポーズされまくるわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「こんな異常事態、
+　絶対あんたの仕業に決まってるわ！
+　もう疑いの余地なしよ！」
+<PAUSE>
+<NAME_PLATE>
+　全く身に覚えのない新郎の浮気を
+思い込みで責め立てる新婦のような言い草だ。
+<PAUSE>
+<NAME_PLATE>俺
+「俺は知らん。
+　そんな怪しいウェディングドレスに
+　触るのが悪いんだろうが！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「触りたくて触ったわけじゃないわ！
+　ドレスの方から勝手に触ってきたの！」
+<PAUSE>
+<NAME_PLATE>俺
+「触ったのは確かだろうが！
+　俺なんか何もしてないのに
+　いきなり女子に殺されそうになったんだぞ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふん、どうせまたなんかやったんでしょ。
+　きっと天罰ね、天罰。
+　わたしはそのとばっちりよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだと！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なによ！」
+<PAUSE>
+<SE_PLAY>se014_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチバチッッ！！
+<PAUSE>
+<NAME_PLATE>
+　睨み合う俺たちの間で火花が飛び散る。
+<PAUSE>
+<NAME_PLATE>
+　比喩ではなく、
+実際にゆきかぜの身体が稲光っている。
+<PAUSE>
+<NAME_PLATE>俺
+「………………！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「……………………！」
+<PAUSE>
+<NAME_PLATE>
+　険悪になりかけた俺たちだったが、
+二人だけでこんな場所に飛ばされてしまい、
+<PAUSE>
+<NAME_PLATE>
+　なにより今のところ
+お互いが唯一、正気でいられる相手なのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「待て、喧嘩してる場合じゃない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「……そうね。
+　とりあえず、ここがどこだか確かめないと」
+<PAUSE>
+<NAME_PLATE>俺
+「一緒にここに飛ばされたってことは、
+　なんであれ原因は同じようだし、
+　手がかりがあるかもしれない」
+<PAUSE>
+<NAME_PLATE>俺
+「まずは状況の確認。
+　どっちのせいだとかは後回しだ。
+　それでどうだ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いい考えね」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは頷いた。
+<PAUSE>
+<NAME_PLATE>
+　瞬間湯沸かし器のような性格だが、
+冷静になるべきときは、そうなれる相手だ。
+<PAUSE>
+<NAME_PLATE>
+　そして何が起こるか分からない今、
+雷撃の対魔忍はパートナーとして
+申し分なしだ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは仲違いの危機を脱し、
+どことも知れぬ古代遺跡の探索を開始した。
+<PAUSE>
+//【背景：地下遺跡＿祭壇＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc003aより流用
+//nc185a
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc185a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、その頃。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　遺跡の最深部では女神ジュノが
+未だ科学魔法陣ギャラルホルンが生み出した
+重力フィールドの虜となっていた。
+<PAUSE>
+<NAME_PLATE>
+　その目の前では
+狂乱の魔術師ドクター・サイクロプスが
+神の力を手に入れようと躍起になっている。
+<PAUSE>
+<ACTOR>1,ts_m182a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクター・サイクロプス
+「どうなっているのだ！
+　計測するたびにデータが変わる。
+　それが神の力の本質だとでもいうのか！」
+<PAUSE>
+//　※立ち絵
+//　　ドクター・サイクロプス＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ドクター・サイクロプス
+「このドクター・サイクロプスには
+　理解させないつもりか！
+　おのれ神め！！」
+<PAUSE>
+<ACTOR>1,ts_m182a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m095a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ジュノ
+「あのさー。
+　人間がジュノの力を理解するとか
+　手に入れるとか絶対ムリだしー」
+<PAUSE>
+//　※立ち絵
+//　　ジュノ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ジュノ
+「なんか偶然できたっぽいその魔法陣で
+　ジュノを閉じ込めただけで満足して、
+　もう諦めたらー？」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ジュノ別に天罰とか興味ないから、
+　これ開けてくれたら何もしないで
+　帰ってあげる」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「黙れこのアバズレ神め！
+　やってやる。やってやるぞ。
+　私はドクター・サイクロプスだ！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「あーあ、ほんとめんどくさ」
+<PAUSE>
+<NAME_PLATE>
+　ジュノは飽き飽きしていたようだが、
+ふと何かに気づいて顔を上げた。
+<PAUSE>
+<NAME_PLATE>ジュノ
+「あっ、あの二人が来てる」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクター・サイクロプス
+「なっ！？　誰が来ただと！？
+　そうか貴様、己の使徒を呼び寄せたな！」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「使徒？　ぷっ」
+<PAUSE>
+<NAME_PLATE>
+　ドクター・サイクロプスの決めつけに、
+ジュノは軽く噴き出して、
+<PAUSE>
+<NAME_PLATE>ジュノ
+「別に使徒とかじゃないけど、
+　まあ知り合いって言うか、
+　こんなとこにずっといてらんないし」
+<PAUSE>
+<NAME_PLATE>ジュノ
+「ちょっとした助っ人ってとこ？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「おのれ、何者だ！？」
+<PAUSE>
+<NAME_PLATE>
+　ドクターは不規則に明滅する杖を掲げた。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「ギャラルホルンよ。
+　愚かしい侵入者の姿を映し出せ！！」
+<PAUSE>
+<NAME_PLATE>
+　遠視の魔法だ。
+<PAUSE>
+<NAME_PLATE>
+　杖の先に二人の侵入者の姿が浮かんだ。
+<PAUSE>
+<NAME_PLATE>
+　ふうまとゆきかぜである。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「男と女？
+　しかも女はウェディングドレスだと！！
+　ふざけおって！！」
+<PAUSE>
+<NAME_PLATE>
+　なにか気に障ることでもあったのか、
+ドクターは雷のような怒声を発した。
+<PAUSE>
+<NAME_PLATE>
+　一方、ジュノは遠視の映像を覗き込んで、
+首をかしげている。
+<PAUSE>
+<NAME_PLATE>ジュノ
+「あっれー？　誰あの子？　知らない顔だし。
+　でもジュノのウェディングドレス着てる。
+　おっかしいなー」
+<PAUSE>
+<NAME_PLATE>
+　ジュノの呟きなど
+聞こえなかったかのように、
+ドクターは杖をさかんに振り回す。
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「忌々しい神の使徒どもが！
+　ドクター・サイクロプスの邪魔はさせん！
+　我が下僕どもよ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ぼっ、ぼっ、ぼっ、ぼっ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「グルルルルル！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊モンスターイラストから流用
+//　※何体か出してください。
+<NAME_PLATE>
+　いくつもの鬼火が召喚されていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m082a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ガーゴイル
+「ＧＵＲＲＲＲＲＲ！！」
+<PAUSE>
+//　※立ち絵
+//　　ガーゴイル
+//　　　　＊モンスターイラストから流用
+//　※何体か出してください。
+<NAME_PLATE>
+　祭壇に置かれていたガーゴイルたちも
+金属を擦り合わせるかのような
+耳障りな声をあげて動き始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ドクター・サイクロプス
+「行け！！
+　やつらを八つ裂きにして―――」
+<PAUSE>
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「あーー、ふうまだ！
+　ゆきかぜも一緒にいる！」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　場違いなほど明るい声で
+ドクターの口上に割り込んできたのは
+ヤタガラス族のミナサキだ。
+<PAUSE>
+<NAME_PLATE>
+　金の匂いがすればどこでも出没し、
+大変な混乱をもたらして反省もしない
+リリムと並ぶトラブルメーカーだ。
+<PAUSE>
+<NAME_PLATE>
+　どういうわけか、
+彼女もウェディングドレスを着ている。
+<PAUSE>
+<ACTOR>0,chr_t0125a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m182a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドクター・サイクロプス
+「知っているのか、ヤタガラス！？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「あいつはふうま。
+　対魔忍でボクの天敵だよ。
+　いっつも良いところを邪魔するんだ」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「対魔忍だと！？
+　女は何者だ！？　あれも対魔忍か！？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「あいつはゆきかぜ。
+　ボクの妹が世話になってて、
+　結構優しいらしいけど」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ふうまと一緒にいるときは
+　別人みたいに凶暴になるんだ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「あたりかまわず雷を落として、なんでも
+　壊しまくる破壊王だよ。きっとドクターの
+　計画も邪魔しにきたんだよ」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「やはりそうか！　ならばお前も行け！！
+　奴らに私の偉大なる計画の
+　邪魔をさせるな！」
+<PAUSE>
+<NAME_PLATE>
+　ドクターは杖を振って命令したが、
+ミナサキは面倒臭そうな顔で聞き返した。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「えーー？
+　それって追加報酬くれるの？」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「追加報酬？　なにを馬鹿な。
+　私が新たな神を生み出した暁には
+　金銀財宝など思うがままなのだぞ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「そういう将来の神払いとかじゃなくて、
+　いつもニコニコ現金払いがいいな。
+　でなきゃ行かないよー」
+<PAUSE>
+<NAME_PLATE>ドクター・サイクロプス
+「この守銭奴のヤタガラスめ。
+　ええい、これでも持っていけ！」
+<PAUSE>
+<NAME_PLATE>
+　ドクターは懐から財布を取り出し、
+ミナサキに放り投げた。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「へーい、まいどありー。
+　よーし、ふうまめー、覚悟しろーー！
+　お前たちボクに続けー！」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「グルルルルル！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊モンスターイラストから流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m082a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ガーゴイル
+「ＧＵＲＲＲＲＲＲ！！」
+<PAUSE>
+//　※立ち絵
+//　　ガーゴイル
+//　　　　＊モンスターイラストから流用
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　財布ごとせしめたミナサキは、
+鬼火、ガーゴイルを引き連れて
+ふうまの迎撃に出かけるのだった。
+<PAUSE>
+//【背景：地下遺跡＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc015aより流用
+//nc184a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc184a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「―――で、バステトは元の世界に帰って、
+　時間も動き出し、
+　無事新年が来たというわけだ」
+<PAUSE>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「へ～～～～～～～～～～。
+　そんなことになってたんだ」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>俺
+「なってたんだ。
+　今さらだけど、寒風干しありがとうな。
+　あれがなかったらヤバかった」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「え？　ああ、うん。
+　別にあげるつもりだったからいいんだけど
+　猫神が持っていったとかなんか変な気分」
+<PAUSE>
+<NAME_PLATE>
+　自分が持ってきたお土産が
+バステトのお供え物になったと知って、
+ゆきかぜは妙な顔になっていた。
+<PAUSE>
+<NAME_PLATE>
+　俺は古代遺跡を探索しながら
+これまでの神様がらみの出来事を語っていた。
+<PAUSE>
+<NAME_PLATE>
+　異世界で瑞獣にされたことから始まって、
+ジュノの嫌がらせでアンジェと祝福されたこと
+猫年に関わる時間停止のドタバタなどだ。
+<PAUSE>
+<NAME_PLATE>
+　どれもこれも普通なら信じられないだろうが
+自分もこんな目にあっているので、
+ゆきかぜも分かってくれたようだ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「神様が普通に現れるとか信じられないけど、
+　ふうまだからそういう馬鹿げたことも
+　あるのかな」
+<PAUSE>
+<NAME_PLATE>俺
+「俺だから納得とか、
+　本当に勘弁して欲しいんだが」
+<PAUSE>
+<NAME_PLATE>
+　ぼやく俺にゆきかぜは口を尖らせる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でも、こうやって話聞くと、
+　やっぱりこれもふうまがらみの
+　トラブルって気がするわ」
+<PAUSE>
+<NAME_PLATE>
+　“これ”のところで
+ウェディングドレスの裾を持ち上げて
+俺にアピールする。
+<PAUSE>
+<NAME_PLATE>俺
+（俺もそんな気がする……）
+<PAUSE>
+<NAME_PLATE>
+　説明しているうちにそう思えてきたのだが、
+同意すると責められそうなので黙っていた。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜもそれ以上追求することなく、
+今度は周りを見渡して、別の文句を言った。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それにしてもだだっ広いわね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「古代遺跡だかなんだか知らないけど
+　こんなとこあてもなく
+　歩き続けてらんないわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「確かにな。
+　ガーディアンの類いが
+　出てこないのは幸いだが」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ガーゴイルとかそういうの？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうそう。
+　あと鬼火とかゾンビとかな。
+　こういう場所ではお馴染みだ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「けど、なんか敵が出てきてくれれば、
+　少しは状況も分かるんじゃない。
+　どんな奴の仕業とかさ」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃそうかもしれないが、
+　そこれそ出てくるのを待つしかないな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あーあ。
+　コントラ・デクストラ・アベニューとか
+　どっかに書いてあればいいのに」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃ助かるな。
+　ボスまで一直線か。楽で良いな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でしょ？」
+<PAUSE>
+<NAME_PLATE>
+　有名なＲＰＧゲームのダンジョンに
+書いてあった言葉だ。
+<PAUSE>
+<NAME_PLATE>
+　右の逆に進め、つまり左に行け
+といったヒントだ。
+<PAUSE>
+<NAME_PLATE>
+　こんなときにそんなフレーズを思い出すとは
+さすがＹ－ｋａｚｅＸちゃんだ。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは笑って、
+だが今は右も左もないので、
+またあてもなく進んで行く。
+<PAUSE>
+<NAME_PLATE>
+　歩きながら俺はふと思いついて、
+提案してみた。
+<PAUSE>
+<NAME_PLATE>俺
+「なあ、また手でも繋いでみるか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「は？　なに言ってんの？」
+<PAUSE>
+<NAME_PLATE>俺
+「さっき学校で手を繋いだら、
+　ここに飛ばされただろ。
+　また繋いだらなにか変わるかと思ってな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「また変なとこに飛ばされたら
+　どうすんのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「その可能性はあるな。
+　ちょっと思いついて言ってみただけだ。
+　やめとくか」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの言うことはもっともだ。
+<PAUSE>
+<NAME_PLATE>
+　俺があっさり引いてそのまま歩いていると、
+しばらくして今度はゆきかぜから言ってきた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あのさ、手繋いでみる？」
+<PAUSE>
+<NAME_PLATE>俺
+「あん？」
+<PAUSE>
+<NAME_PLATE>
+　思わず足を止めて顔を見ると、
+ゆきかぜはなぜか慌てたように、
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「か、勘違いしないでよ。
+　ちょっとやってみてもいいかなって
+　思っただけだから。ただ手を繋ぐだけだし」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか。いいぞ、ほら」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺が手を差し出すと、
+自分からやろうと言ってきたくせに
+すぐには握ろうとしない。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんか改まってそう手を出されると
+　やりにくいわね」
+<PAUSE>
+<NAME_PLATE>俺
+「別に緊張するほどのことじゃないだろ。
+　ただ手を繋ぐだけだ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「わ、分かってるわよ」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは言い、ガシッという感じで
+やけに強く手を握ってきた。
+<PAUSE>
+<NAME_PLATE>
+　今度はそれで空間転移の歪みが
+発生したりはしなかったが、
+<PAUSE>
+<NAME_PLATE>
+　ピキーーン☆
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺＆ゆきかぜ
+「「……！！」」
+<PAUSE>
+<NAME_PLATE>
+　俺たちはハッと顔を見合わせた。
+<PAUSE>
+<NAME_PLATE>
+　同時に“それ”を感じたのだ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんか聞こえるっていうか
+　感じない？」
+<PAUSE>
+<NAME_PLATE>俺
+「お前もか？
+　あっちに行けって
+　言われてるような気がするな」
+<PAUSE>
+<NAME_PLATE>
+　俺がその気がした方を指さすと、
+ゆきかぜが強く頷く。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうそう。神の啓示っていうか、
+　なんかピキーンって無駄に閃く感じ」
+<PAUSE>
+<NAME_PLATE>俺
+「神の啓示か。
+　それはそれで嫌な予感しかしないんだが」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あてもなく歩くよりはいいでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあな」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は同意し、二人で手を繋いだまま、
+その神の啓示的なものに従って進んで行った。
+<PAUSE>
+<NAME_PLATE>
+　で、その先に待っていたのは――
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「あらわれたなー。
+　ヘンタイふうま！
+　この先はボクが一歩も行かせないぞ！」
+<PAUSE>
+//　※立ち絵
+//　　【純白と黒翼】ミナサキ
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「グルルルルル！！」
+<PAUSE>
+<NAME_PLATE>ガーゴイル
+「ＧＵＲＲＲＲＲＲ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊モンスターイラストから流用
+//　　ガーゴイル
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>俺
+「………………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「知ってる顔が現れたわね。
+　しかもウェディングドレスで」
+<PAUSE>
+//　※立ち絵
+//　【雷撃の花嫁】水城ゆきかぜ＿立ち絵
+//　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>俺
+「よりによってアイツか。
+　嫌な予感が当たった」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「これ神の啓示じゃなかったみたいね」
+<PAUSE>
+<NAME_PLATE>
+　まだ俺と繋いだままの手を
+ゆきかぜがぶらんぶらんと投げやりに振った。
+<PAUSE>
+<NAME_PLATE>俺
+「そもそも神の啓示ってのは
+　そういうものなのかもな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なのかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「俺の知ってる神は
+　ろくなことをしない奴ばかりだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,chr_t0125a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「いくぞー、ふうま。
+　今日のボクは一味ちがうぞ！
+　このドレスのパワーを見せてやる！」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ……。
+　とりあえずアイツを締め上げよう。
+　少しは何か分かるだろう」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だといいけど……」
+<PAUSE>
+<NAME_PLATE>
+　あまり期待できそうにないという顔で
+ゆきかぜが俺から手を離した。
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,791 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：五車町全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC007aより流用
+<BG>nc162b,IN, 1000
+<NAME_PLATE>
+　ふうま小太郎は
+今だ米連に囚われの身。
+<PAUSE>
+<NAME_PLATE>
+　そしてセンザキの拠点が
+何者かに壊滅させられた。
+<PAUSE>
+//【背景：五車学園＿校門前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<UI_DISP>OFF, 0
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そんな折も折、
+政府と対魔忍を繋ぐ事務方のトップ、
+<PAUSE>
+<NAME_PLATE>
+　内務省公共安全庁、
+調査第三部＜セクションスリー＞の部長、
+<PAUSE>
+<NAME_PLATE>
+　山本信繁（やまもとのぶしげ）は
+五車学園を訪れていた。
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC009aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc006a,IN, 1000
+<GROUP>
+<ACTOR>0,a_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ya_t001c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>山本信繁
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギZEROより流用
+<NAME_PLATE>井河アサギ
+「山本部長、これからどうするの？
+　ふうま小太郎はまだ解放されていないわ」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>アサギ
+「西園寺炎斗から殴り込みをかけさせろって
+　せっつかれてるんだけど」
+<PAUSE>
+<NAME_PLATE>
+　と彼をせっつくようなアサギに
+山本は苦虫を噛みつぶしたような顔をした。
+<PAUSE>
+<ACTOR>1,ya_t001f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「抑えておけ。
+　そちらは私が政治的に対処している。
+　そんなことをされては元も子もない」
+<PAUSE>
+//　※立ち絵
+//　　山本通常立ち絵＿スーツ衣装
+//　　　＊対魔忍アサギZEROより流用
+<NAME_PLATE>アサギ
+「それは分かるけどね。
+　あんまり長引くとうちの生徒たちにも
+　彼が米連に拘束されていることがバレるわよ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「炎斗はああ見えて物わかりがいいけど、
+　ここにはあなたの言うことを聞かない
+　跳ねっ返りが大勢いることを忘れないでね」
+<PAUSE>
+<ACTOR>1,ya_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「自分が一番そうだと言いたげだな」
+<PAUSE>
+<NAME_PLATE>
+　生徒がいないときには、
+一人で突っ走りがちだった昔と変らない
+あえてそうしているようなアサギに溜息を吐く。
+<PAUSE>
+<NAME_PLATE>山本
+「あまり私を脅すな。
+　五車が米連の核兵器を盗んだという疑惑は
+　思った以上に深刻なのだ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「どうせまた内調の、
+　あの峰舟子の横槍でしょ？」
+<PAUSE>
+<NAME_PLATE>山本
+「それもある」
+<PAUSE>
+<NAME_PLATE>
+　山本は頷いて続けた。
+<PAUSE>
+<NAME_PLATE>山本
+「だが最近頻発している五車への襲撃に備え、
+　戦力をここに集結していたのが
+　かなり問題になっていてな」
+<PAUSE>
+<NAME_PLATE>山本
+「今回の核騒動と相まって米連と政府は
+　五車反乱の疑惑を高めている状況だ。
+　私もその説明に手を焼いている」
+<PAUSE>
+<NAME_PLATE>
+　その説明の途中から
+眉間に皺を寄せていったアサギは
+最後まで聞いて怒りも露わに言った。
+<PAUSE>
+<ACTOR>0,a_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「まったく。
+　政府は昔からそうなのよね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「対魔忍が一つ所に集まっても危ない、
+　色んな所に散らばっても危ないって
+　一体どうしろっていうのよ」
+<PAUSE>
+<NAME_PLATE>
+　こういう癇癪を起こしたような顔も
+生徒の前では見せない。
+<PAUSE>
+<NAME_PLATE>
+　確かに内調がちょっかいをかけなくても、
+とかく政府は見えない敵に備えるより、
+見える味方に足枷を付けることに熱心だ。
+<PAUSE>
+<NAME_PLATE>山本
+「そうとんがるな。
+　それで極秘回線ではなく
+　私を直接ここに呼んだ理由はなんだ？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「囚われの身のふうま君から連絡があったの」
+<PAUSE>
+<ACTOR>1,ya_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「なに？　誰に？
+　いったいどうやってだ？」
+<PAUSE>
+<NAME_PLATE>
+　今度は山本が声を上げる番だった。
+<PAUSE>
+<NAME_PLATE>
+　方々に手を尽くしているが、
+米連のガードは堅く、ふうまとの連絡は
+未だつかない。
+<PAUSE>
+<NAME_PLATE>
+　それが捕まった本人から行われるとは。
+<PAUSE>
+<ACTOR>0,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「上原鹿之助君にね。
+　連絡方法は独立遊撃隊の
+　極秘のネットワークだって」
+<PAUSE>
+<NAME_PLATE>アサギ
+「彼には私にも計り知れない
+　組織や種族を越えた人脈があるから」
+<PAUSE>
+<NAME_PLATE>
+　アサギの答えも感心するというより
+呆れているかのようだった。
+<PAUSE>
+<NAME_PLATE>
+　だが、すぐにその表情を引き締め、
+<PAUSE>
+<ACTOR>0,a_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「伝えてきたのは、
+　現在の状況を踏まえての彼の仮説、
+　衝撃的な内容よ」
+<PAUSE>
+<ACTOR>1,ya_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>山本
+「むう……これは」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　メモ書きを見せられ、山本は絶句した。
+<PAUSE>
+<NAME_PLATE>
+　それは恐るべき仮説であった。
+<PAUSE>
+//※シナリオ注
+//　主人公は内調による五車に対する核攻撃があるという仮説を立てた。
+//　わざわざ何度も襲撃して五車に戦力を集結させて、それを五車反乱の兆候と米連や政府に工作したとしてもそれで五車が粛清されるとは考えにくい。疑いはやがて晴れるだろう。
+//　すると内調の狙いは何だろう？
+//　内調がクリアを使ってアサギの暗殺を狙ったようにアサギの死が目的なら、むしろ五車への戦力集中は目的を困難にするだけだ。
+//　そこで主人公が推測したのは、五車になるべく戦力を集めての核攻撃。
+//　それなら全ての辻褄が合う、五車が米連から奪った核兵器を誤って爆発させたと処理できる、
+//　しかも邪魔な五車の戦力をアサギごと一気に消せる策だと喝破した。
+<ACTOR>0,a_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「それともう一つ。悪いニュースよ」
+<PAUSE>
+<NAME_PLATE>
+　アサギは山本の返事を待たずに続ける。
+<PAUSE>
+<NAME_PLATE>アサギ
+「センザキの拠点が破壊された影響で、
+　うちと他の各拠点、それから政府とを繋ぐ
+　安全な通信に深刻な影響が出ているわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「部長に直接ここに来てもらったのも
+　そのせい」
+<PAUSE>
+<ACTOR>0,a_t001e,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ya_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>山本
+「それは私も危惧している。
+　これからまた官邸に向かうつもりだ」
+<PAUSE>
+<NAME_PLATE>山本
+「だが、ふうま小太郎のこの仮説、
+　これは早急に対処する必要がある」
+<PAUSE>
+<NAME_PLATE>
+　もしセンザキの拠点の破壊が
+この仮説に連動しているとしたら、
+<PAUSE>
+<NAME_PLATE>
+　その目的は対魔忍の通信網を分断し、
+五車町を情報的に孤立させることだろう。
+<PAUSE>
+<NAME_PLATE>
+　それが実行されてしまった今、
+一刻の猶予も許されない。
+<PAUSE>
+<ACTOR>0,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「そうね。
+　対処方法はいろいろ考えられるけど、
+　私としては―――」
+<PAUSE>
+<NAME_PLATE>山本
+「聞こう」
+<PAUSE>
+<NAME_PLATE>アサギ
+「彼の救出を優先したい」
+<PAUSE>
+<NAME_PLATE>アサギ
+「鹿之助君を信じてないわけじゃないけど、
+　いきなり伝えられたこの情報も
+　私たちを攪乱するため」
+<PAUSE>
+<NAME_PLATE>アサギ
+「あるいは敵が望む方向に
+　私たちを誘導する罠かもしれない。
+　彼に直接会う必要があるわ」
+<PAUSE>
+<NAME_PLATE>山本
+「ふむ。しかし米連から強引に
+　彼を奪還すればさらなる摩擦を呼ぶ事になる。
+　それでも彼を五車に戻したいと？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そこはそれ強引に奪い返すんじゃなくて
+　もうちょっと穏便な手段で。
+　できれば米連に気づかれずにこっそりとね」
+<PAUSE>
+<NAME_PLATE>
+　アサギは軽い調子で言った。
+<PAUSE>
+<NAME_PLATE>
+　穏便と言っているが、もう手段は選ばない。
+全て自分に任せてくれと言う顔だ。
+<PAUSE>
+<NAME_PLATE>
+　山本は迷わなかった。
+<PAUSE>
+<NAME_PLATE>山本
+「分かった。
+　五車は幾度となくアサギ、君に救われてきた。
+　君の判断を信じよう」
+<PAUSE>
+<ACTOR>0,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「感謝します」
+<PAUSE>
+//【背景：五車学園＿グラウンド＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC012aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc003a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　山本とアサギとの間で
+そんな話がまとまっていた頃―――。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,s_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「たああっ！！
+　とりゃあああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち絵_対魔忍衣装手電気ぶら
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　上原鹿之助は一人、
+校庭で鍛錬をしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズルズルズルズルズルズルズルズルズル！！
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「なんだ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　何か重くて太いものが激しくのたくる音に
+鹿之助が顔を上げると、
+<PAUSE>
+<ACTOR>1,h_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>相州蛇子
+「鹿之助ちゃん！　大変大変大変！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服タコ化
+<NAME_PLATE>
+　両足をタコ化した蛇子が
+ものすごい勢いで地面を這ってきた。
+<PAUSE>
+<ACTOR>1,h_t003f,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,s_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うわ、どうした蛇子。
+　いきなりタコ化して？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵_対魔忍衣装
+<NAME_PLATE>蛇子
+「そんなことより大変なの。鹿之助ちゃん！
+　ふうまちゃんが米連に捕まったんだって！
+　アミダハラで逮捕されちゃったんだって！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は両手をブンブン振り回し、
+タコ足もビタンビタンくねらせる。
+<PAUSE>
+<ACTOR>0,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　ハッと目を見張る鹿之助に、
+蛇子はさらに畳みかけてきた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「アサギ先生のとこに山本部長が珍しく来てて
+　なんかすっごい険しい顔してたから」
+<PAUSE>
+<ACTOR>1,h_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子、いったい何話してるのかなって
+　タコ足センサーでこっそり聞いちゃったの。
+　そしたらふうまちゃんが逮捕されたって！」
+<PAUSE>
+<ACTOR>0,s_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そうか……」
+<PAUSE>
+<ACTOR>1,h_t003f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうかじゃないでしょ！
+　ふうまちゃんが捕まったんだよ！
+　早くなんとかしなくちゃ！」
+<PAUSE>
+<NAME_PLATE>
+　とにかくどこかに行くつもりなのか、
+いきなり鹿之助をタコ足で捕まえようとする。
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ご、ごめん、俺それ知ってた！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は慌ててそれを避けながら、
+蛇子に謝った。
+<PAUSE>
+<ACTOR>1,h_t003d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>
+　驚いてタコ足を止める蛇子に説明する。
+<PAUSE>
+<ACTOR>0,s_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「捕まってるふうまから
+　俺に連絡があったんだ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃんから！？
+　え？　ふうまちゃん大丈夫なの？
+　あっちで酷いこととかされてないの？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「それは大丈夫らしい。
+　俺はこっちでなんとかするから
+　下手に動くなってさ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「特にゆきかぜとかきらら先輩とかには
+　絶対に知らせるなって」
+<PAUSE>
+<NAME_PLATE>
+　それは安心させるための言葉だったが、
+蛇子はプーッと頬を膨らませた。
+<PAUSE>
+<ACTOR>1,h_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「んもーー、ふうまちゃんってば！
+　そういうとこ、いっつもそうなんだから！」
+<PAUSE>
+<NAME_PLATE>
+　今ここにふうまがいたら
+タコ墨を思いっきり吹き付けそうな顔だ。
+<PAUSE>
+<ACTOR>1,h_t003f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子たちがどんだけ心配するか
+　ちーーっとも分かってない！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ほんとだよなあ」
+<PAUSE>
+<NAME_PLATE>
+　実のところ、鹿之助も同感だった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　未来のゆきかぜの力を借りて、
+次元ケータイなどというＳＦな方法で
+連絡してきたのは驚いたし、
+<PAUSE>
+<NAME_PLATE>
+　それで伝えられたことも、
+とんでもなく重要な内容だったが、
+<PAUSE>
+<NAME_PLATE>
+　自分の身の安全のことは
+二の次にしてしまうのが
+ふうまらしい。
+<PAUSE>
+<NAME_PLATE>
+　蛇子が怒るのも無理はない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t003d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「あ、鹿之助ちゃん、
+　もしかしてそれで鍛錬してるの？
+　ふうまちゃんを助けにいくため？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「まあな。
+　詳しいことはアサギ校長に
+　口止めされて言えないんだ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「だけどきっとふうまがさ、
+　俺を必要とするだろうからその準備？」
+<PAUSE>
+<ACTOR>1,h_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうだね！　じゃあ蛇子もやる！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>1,h_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　蛇子はパッと対魔忍スーツに着替え、
+タコ足四刀流の素振りを始める。
+<PAUSE>
+<ACTOR>1,h_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんを助けて
+　蛇子たちに心配ばっかりかけるとこ
+　し～～っかり謝ってもらうんだからっ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「やあっ、たあっ、とりゃああっ！！
+　ふうまちゃんのバカああっ！！」
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「うわ、こええ……」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　墨まみれのタコ殴りにされているふうまが
+目に見えるようだったが、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　人をこんなに心配させているのだから、
+それもしょうがないかと思う鹿之助だった。
+<PAUSE>
+//【黒画面】
+//※場面転換。
+//【背景：ブレインシティ地上部＿朝】【時間：朝】
+//　※対魔忍アサギZERO_NC093aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm313,1000
+<BG>nc427a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m316a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m316a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m316a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>シチズン
+「敵は三人だが油断するな！」
+<PAUSE>
+//　※立ち絵
+//　　シチズン
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　ブレインシティの武装市民、
+通称シチズンが小銃を斉射してくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m317a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m317a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m317a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ファイター
+「クソ女どもが！！
+　死ねえええええええええっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ファイター
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギューンッ！！　ビギューンッ！！
+<PAUSE>
+<NAME_PLATE>
+　その後ろからファイターが、
+ブレインフレーヤー製の大出力火器を連発する。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<ACTOR>0,ma_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「糞が！
+　わらわら出てきやがって！」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん戦闘カード_フレイムファン防御
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　舞華はフレイムファン、
+空中浮遊する四枚のプラズマ化した刀身で
+それらの攻撃を防御しつつ、
+<PAUSE>
+<NAME_PLATE>
+　向かってくる敵集団に向かって、
+次々と火球を放っていた。
+<PAUSE>
+<NAME_PLATE>舞華
+「おらおらおらおらあああああっ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>シチズン
+「ぐああっっっ！！」
+<PAUSE>
+<NAME_PLATE>ファイター
+「ぎゃああっっ！！」
+<PAUSE>
+<SE_PLAY>se015
+<NAME_PLATE>
+　普通の装備しかないシチズンは
+なんの抵抗もできずに火だるまになり、
+<PAUSE>
+<NAME_PLATE>
+　重装甲に身を固めたファイターですら
+数秒と耐えられずに爆散するしかないが、
+とにかく数が多い。
+<PAUSE>
+<NAME_PLATE>
+　まだ目標に到達していないというのに、
+敵集団に発見され、ここで足止めされている。
+<PAUSE>
+<BG>nc427a,IN, 500
+<ACTOR>1,ma_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「くそがっ！
+　これじゃキリがねえぜ！！」
+<PAUSE>
+<ACTOR>1,ma_t003a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ぼやいてる暇ないわ！
+　ゆきかぜ！　Ｅ２６方向から狙撃兵！！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0277f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ_攻撃
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギューーンッ！！
+<PAUSE>
+<NAME_PLATE>
+　風で敵の位置を読んだアスカの指示で、
+ゆきかぜのレーザー雷撃が狙撃兵を射貫いた。
+<PAUSE>
+<BG>nc427a,IN, 500
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おっ、あの距離を当てるか。
+　やるな、ゆきかぜ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「舞華もね！
+　ファイターがまるごと吹っ飛ぶとか
+　なかなか見れないわ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そんなこと言ってないで攻撃！
+　でやあああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカの放った旋風が
+固まっていたシチズンの一団を
+遙か上空に吹き飛ばした。
+<PAUSE>
+<BG>nc427a,IN, 500
+<NAME_PLATE>
+　いずれ劣らぬ三人は
+敵の数を次々と減らしていくが、
+それでもまだ敵集団の圧力の方が上だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ma_t003a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「このままじゃ包囲されるぞ！
+　アスカ、どうすんだ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「撤退はできない。
+　ここは敵の庭だから持久戦は不利。
+　時間の勝負よ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR>1,chr_t0277b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「突破するしかないってこと！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR>0,ma_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「待ってたぜその言葉！
+　強引なのは得意分野だ！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR>1,chr_t0277b,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「私が活路を開くわ。
+　トールハンマー……」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　ゆきかぜの身体が稲光りを発し出すが、
+ずっとやる準備をしていたらしく、
+舞華の方が早かった。
+<PAUSE>
+<ACTOR>0,ma_t004c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おっとこっちが先だぜ！
+　てめぇらまとめてぶっとびやがれ！！」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん戦闘カード_フレイムクロー発動２
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　舞華が放った大火球が
+敵集団を真っ直ぐに焼いていき、
+一本の焦げた道ができあがった。
+<PAUSE>
+<BG>nc427a,IN, 500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ゴーーーッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それを合図に、
+三人は強行突破を開始した。
+<PAUSE>
+//→S502a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

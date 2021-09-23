@@ -1,0 +1,780 @@
+//☆第24章【Section３】シナリオ
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：センザキ＿コンテナ埠頭＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿nc069aより流用
+<BG>nc300a,IN, 1000
+<NAME_PLATE>
+　同日・夜――。
+<PAUSE>
+<NAME_PLATE>
+　霧の深い夜だった。
+<PAUSE>
+<NAME_PLATE>
+　肌にまとわりつくミルクのような
+白い濃霧の中に、のんきな囁き声。
+<PAUSE>
+<BGM_PLAY>bgm407,1000
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m126b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤス
+「いやー、なるほど！！
+　ミランダさんもあの連中に
+　襲われたことがあったんすね」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<NAME_PLATE>ヤス
+「だからおいらたちも、
+　同じ目的なんだと当たりをつけた」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「ふふ、そうですね。
+　私もお二人と同じように、
+　この件について調べている時に――」
+<PAUSE>
+<NAME_PLATE>
+　その時は、私一人だったので
+逃げるしかなかったんですけれど、
+と少女は恥ずかしそうに笑う。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「でも、すみません。
+　その過程を飛ばしていきなり
+　“私も同じ”なんて言ったりして」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>ミランダ
+「おかしなことを言う女だと
+　びっくりされたでしょう、
+　エリカさん？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「い、いや、そんなことは……
+　っていうかコラ、ヤス！！」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「いま私ら張り込みしてるんだからね！
+　美人が一緒だからって
+　へらへらしない！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤス
+「うへえっ！？
+　へらへらなんてしてないっすよ～」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「ふふっ♪　なんだか楽しいですね。
+　お二人が一緒でよかった」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「私一人では心細くて
+　たまらなかったでしょうから――」
+<PAUSE>
+<NAME_PLATE>
+　ミランダが艶やかに微笑む。
+<PAUSE>
+<NAME_PLATE>
+　やはり奇妙なほどの優雅な笑み。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0153a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エリカ
+（……なに言ってんの。
+　怖がったりするわけないでしょ、
+　あれだけナイフを使える奴が）
+<PAUSE>
+<NAME_PLATE>
+　エリカが内心でこっそりと考える。
+<PAUSE>
+<NAME_PLATE>
+　単純なヤスはもうすっかり
+ミランダと打ち解けているようだが、
+<PAUSE>
+<NAME_PLATE>
+　エリカはどうしても彼女の存在に
+違和感をぬぐい切れなかった。
+<PAUSE>
+<NAME_PLATE>エリカ
+（私の考えすぎならいいけど……）
+<PAUSE>
+//【背景：センザキ＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+//nc262a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc262a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　半日前。
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　エリカが路地裏で遭遇した少女は、
+ミランダ・クローゼットと名乗った。
+<PAUSE>
+<NAME_PLATE>
+　港湾地区を縄張りにする
+クローゼット商会ボス、
+カール・クローゼットの娘。
+<PAUSE>
+<NAME_PLATE>
+　それが、彼女が単身で失踪事件の
+調査をしている理由なのだという。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「――父の行状に不審があるのです」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　関係の深かったセンザキの
+ボスたちと距離を置くようになり、
+<PAUSE>
+<NAME_PLATE>
+　常に何かに怯えるようにひどく
+落ち着きのない態度を取るようになった。
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「――と同時に、港湾地区で
+　奇妙な事件が起きているのを知りました」
+<PAUSE>
+<NAME_PLATE>
+　クローゼット商会の縄張りで起きた、
+ストリートチルドレンの連続失踪。
+<PAUSE>
+<NAME_PLATE>
+　少しずつ街の人間の口の端に
+のぼるようになってきた怪事件だ。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「いつもの父であれば、
+　このような事態を見過ごしません」
+<PAUSE>
+<NAME_PLATE>
+　それはボスの義務でもある。
+<PAUSE>
+<NAME_PLATE>
+　縄張りで起きたトラブルは、
+ボスがすぐに掌握するのが鉄則だ。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「しかし、今回は違っていた――」
+<PAUSE>
+<NAME_PLATE>
+　カール・クローゼットは
+何も動きを見せなかった。
+<PAUSE>
+<NAME_PLATE>
+　だけでなく、事件について問い質した
+ミランダを露骨に避けるようになった。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「――何かが起こっている、
+　私はそう気付きました」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そしてミランダは単身での
+調査を開始した。
+<PAUSE>
+<NAME_PLATE>
+　父親カール・クローゼットの
+縄張りである港湾地区のスラム街。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そこで聞き込みを行っていたところ、
+同じく事件の調査にやってきたエリカと
+ヤスが襲撃される場面に遭遇した――。
+<PAUSE>
+//【背景：センザキ＿コンテナ埠頭＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿nc069aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm407,1000
+<BG>nc300a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>エリカ
+「ねえミランダ。
+　あんたどうしてこんなことを？」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>ミランダ
+「――はい？
+　なんでしょうかエリカさん？」
+<PAUSE>
+//　※立ち絵
+//　　ミランダ・クローゼット立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　エリカの囁きに
+ミランダが振り向いた。
+<PAUSE>
+<NAME_PLATE>
+　女のエリカでもはっとしてしまう
+際立った美貌である。
+<PAUSE>
+<NAME_PLATE>エリカ
+「い、いや……
+　この調査のことよ」
+<PAUSE>
+<NAME_PLATE>エリカ
+「あんた、別に親父さんの組織の
+　人間ってわけじゃないんでしょ？」
+<PAUSE>
+<NAME_PLATE>エリカ
+「なのに、なんでこんな
+　危ないことに首を突っ込んでるの」
+<PAUSE>
+<NAME_PLATE>
+　自分を棚に上げてエリカが聞く。
+<PAUSE>
+<NAME_PLATE>
+　ただエリカは歴戦の傭兵であるが、
+ミランダは一般人（ナイフや護衛術の
+心得はあるようだが）。
+<PAUSE>
+<NAME_PLATE>
+　危険度には歴然とした違いがある。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「………世のため人のため、
+　ではいけませんか？」
+<PAUSE>
+<NAME_PLATE>エリカ
+「は？」
+<PAUSE>
+<NAME_PLATE>
+　エリカが目を丸くすると、
+ミランダが困ったように微笑を返す。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「いえ、エリカさんが
+　当惑される気持ちもわかります」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「私は、父が裏稼業で稼いだ――
+　汚れた金でここまで育てられた娘」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「きれいごとを言う資格はない、
+　そう思われても仕方ありません」
+<PAUSE>
+<NAME_PLATE>エリカ
+「そ、そこまで言わないけれど……」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「それでも――
+　限度があると思ったのです」
+<PAUSE>
+<NAME_PLATE>
+　口ごもるエリカに「構いませんよ」と
+言うように微笑むミランダ。
+<PAUSE>
+<NAME_PLATE>エリカ
+「限度……？」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「――はい。
+　人間として守らなければならない、
+　最後の一線のこと」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「今、この街では子供たちが
+　次々に姿を消しているようです。
+　それが、何か邪な目的であったら――」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「そして、もしその企みに
+　父が関わっているのだとしたら、
+　それは許してはいけないこと」
+<PAUSE>
+<NAME_PLATE>エリカ
+「ま、まあ、そうだね……」
+<PAUSE>
+<NAME_PLATE>
+　その点はエリカも異論はない。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「それが、私が調査を始めた理由です。
+　父が関わっているとしても――
+　いえ、その可能性があるからこそ」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「それを阻止し、告発するのが
+　むしろ娘である私の責務――ふふっ」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「というのは、
+　少し恰好をつけすぎでしょうか」
+<PAUSE>
+<NAME_PLATE>エリカ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　何か思案する様子のエリカ、だが
+その隣のヤスは大いに感激したようだ。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m126b,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤス
+「なるほど～っ！！
+　えらい！　おいらは
+　感服したっすミランダさん！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※「カンザキ食堂」イベントで使用したヤスの立ち絵でお願いします。
+//　　※今度は手に持っているものをメモ帳あるいは虫眼鏡などの調査中風に修正
+<NAME_PLATE>ヤス
+「親子の情もある――しかし、
+　それより大事な人としての道もある！
+　く～っ、泣けるっす！！」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「あら♪　――ふふっ。
+　ありがとうございます、ヤスさん」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「まあミランダ、あんたが意外と
+　正義の人ってわかってよかったわ」
+<PAUSE>
+<NAME_PLATE>エリカ
+「これから、一緒に修羅場に
+　踏み込むかもしれないんだしね」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「………あの『幽霊船』のことですね」
+<PAUSE>
+<NAME_PLATE>
+　二人の目が濃霧に煙る
+夜のコンテナ埠頭に向けられる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そこにあるのは、ボロボロに古びて
+放置された何隻かの貨物船――。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――エリカたちは二つの証言を
+組み合わせてこの埠頭を割り出した。
+<PAUSE>
+//【背景：センザキ＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+//　※証言を得た時の回想です。モノクロやセピアなど回想風の画面加工をお願いします。
+//　※証言回想の場面は立ち絵なしでお願いします。
+<BGM_PLAY>bgm203,1000
+<BG>nc262b,IN, 1000
+<NAME_PLATE>
+　まずひとつは、路地裏で襲撃してきた
+チンピラたちから引き出した証言。
+<PAUSE>
+<NAME_PLATE>チンピラ
+『し、知らねえよぉ！！？
+　俺たちは頼まれただけだ！！！』
+<PAUSE>
+<NAME_PLATE>チンピラ
+『街の酒場で声をかけてきた、
+　変な仮面をつけた気味の悪い男だ！』
+<PAUSE>
+<NAME_PLATE>チンピラ
+『そいつが、いくらでもカネは払う、
+　この辺を探る奴を残さず潰せって――』
+<PAUSE>
+<NAME_PLATE>
+　続いて、それを聞いたミランダの言葉。
+<PAUSE>
+<NAME_PLATE>ミランダ
+『――聞いたことがあります』
+<PAUSE>
+<NAME_PLATE>ミランダ
+『父の縄張りに、現在は使われていない
+　寂れたコンテナ埠頭があります』
+<PAUSE>
+<NAME_PLATE>ミランダ
+『そこに――“出る”らしいのです』
+<PAUSE>
+<NAME_PLATE>ミランダ
+『背の高い、奇妙な仮面をつけた男』
+<PAUSE>
+<NAME_PLATE>ミランダ
+『その男が、海からやってきた亡霊を率いて、
+　子供たちを幽霊船に引き込む――』
+<PAUSE>
+<NAME_PLATE>ミランダ
+『そんな噂が――』
+<PAUSE>
+//　※証言回想終了
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　かくしてエリカたちは
+その奇妙な『仮面の男』を探るため、
+噂の出元である埠頭に張り込んだ。
+<PAUSE>
+//【背景：センザキ＿コンテナ埠頭＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿nc069aより流用
+<BGM_PLAY>bgm407,1000
+<BG>nc300a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m126b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ヤス
+「でも、何者なんですかねぇ？
+　その――仮面をつけた
+　亡霊みたいな男って」
+<PAUSE>
+<NAME_PLATE>エリカ
+「さあねぇ？
+　意外と本物の幽霊だったりして」
+<PAUSE>
+<NAME_PLATE>
+　古くから貿易港として栄えていたためか、
+センザキは薄気味悪い海の怪談に事欠かない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤス
+「ひえぇっ！？
+　お、オバケは勘弁っす姉御～！？」
+<PAUSE>
+<NAME_PLATE>ヤス
+「おいら、そいつがめっぽう苦手で――」
+<PAUSE>
+<NAME_PLATE>
+　気弱なヤスはもうチビリそうになっている。
+<PAUSE>
+<NAME_PLATE>エリカ
+「このおバカ、冗談よ冗談っ！
+　だいたい幽霊がチンピラに
+　カネ払うわけないでしょ！」
+<PAUSE>
+<NAME_PLATE>ヤス
+「ふぁっ！？
+　い、言われてみれば……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m178a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミランダ
+「――あえて噂を流している、
+　という線もありますね」
+<PAUSE>
+<NAME_PLATE>エリカ
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　ミランダが低くそう囁いた。
+<PAUSE>
+<NAME_PLATE>ミランダ
+「霧の夜に出没する亡霊――。
+　そんな噂があれば、
+　不審な人影も少しはごまかせる」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「人を遠ざけたり、
+　発覚までの時間を稼いだり――
+　そんな効果も期待できる」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「何事か企む者にとっては
+　都合のいいことばかりです」
+<PAUSE>
+<ACTOR>0,ts_m178a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「なるほど……。
+　ない話でもないわね」
+<PAUSE>
+<NAME_PLATE>
+　まぁ正体が何だろうと構いやしないわ、
+とエリカは考える。
+<PAUSE>
+<NAME_PLATE>
+　相手が誰だろうと――
+それこそ大統領でも麻薬王でも、
+気に食わない奴ならぶっ飛ばす。
+<PAUSE>
+<NAME_PLATE>
+　それがエリカの傭兵としての
+心意気なのだから。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　――その時。
+<PAUSE>
+<ACTOR>0,ts_m126b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤス
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>ヤス
+「あ、姉御っ！！
+　あそこの船のところに――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m178a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>エリカ
+「ええ、現れたわね……」
+<PAUSE>
+<NAME_PLATE>ミランダ
+「………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　濃霧の中から染み出したように。
+<PAUSE>
+<NAME_PLATE>
+　物陰に身をひそめる三人の前に、
+奇怪な『仮面の男』が姿を見せた。
+<PAUSE>
+<ACTOR>0,ts_m179a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『――――――』
+<PAUSE>
+//　※立ち絵
+//　　シルバースカル立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　同時刻。
+<PAUSE>
+//【背景：センザキ-港湾近くの邸宅＿夜】【時間：夜】
+//　※対魔忍紅＿NC010aより流用
+//nc207a
+<BG>nc207a,IN, 1000
+<NAME_PLATE>
+　センザキの繁華街を離れた
+港湾地区のある邸宅―――
+<PAUSE>
+//【背景：センザキ＿魔女の屋敷＿エントランス＿夜（消灯）】【時間：夜】
+//　※対魔忍アサギZERO＿NC050cより流用
+//nc147a
+<BGM_PLAY>bgm509,1000
+<BG>nc147a,IN, 1000
+<ACTOR>0,kn_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「２２：５０――。
+　これより探索を開始する」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>
+　屋敷に潜入した紅が
+口元に寄せた端末に囁く。
+<PAUSE>
+<NAME_PLATE>
+　通信の相手は篝だ。
+<PAUSE>
+<NAME_PLATE>
+　篝は屋敷の外で状況に
+変化がないかの監視を行っている。
+<PAUSE>
+<NAME_PLATE>篝
+『――了解です紅様！』
+<PAUSE>
+<NAME_PLATE>篝
+『こちらは異常なし！！
+　外の監視はお任せくださいね！』
+<PAUSE>
+<NAME_PLATE>紅
+「ああ。よろしく頼む」
+<PAUSE>
+<NAME_PLATE>
+　主との初任務がうれしいのか、
+やけに張り切っているらしい篝の声。
+<PAUSE>
+<NAME_PLATE>
+　それに苦笑しつつ紅は、
+屋敷のエントランスを見回した。
+<PAUSE>
+<NAME_PLATE>紅
+（ふむ……）
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛の情報によれば。
+<PAUSE>
+<NAME_PLATE>
+　この屋敷は、裏切りの疑惑のある
+カール・クローゼットと関係が深いとされる
+魔女の住処（すみか）。
+<PAUSE>
+<NAME_PLATE>
+　しかし今は違う。
+<PAUSE>
+<NAME_PLATE>
+　屋敷は無人で何の気配もない。
+<PAUSE>
+<NAME_PLATE>
+　他ならぬカールの手によって
+暗殺者が送り込まれ、主を含めて
+全ての住人が皆殺しになったからだ。
+<PAUSE>
+<NAME_PLATE>紅
+「………」
+<PAUSE>
+<NAME_PLATE>紅
+（恐らく魔女は口を封じられた）
+<PAUSE>
+<NAME_PLATE>
+　それが銃兵衛と紅の推測。
+<PAUSE>
+<NAME_PLATE>
+　知ってはいけない秘密を知りすぎた。
+<PAUSE>
+<NAME_PLATE>
+　あるいはそれをネタに脅迫した。
+<PAUSE>
+<NAME_PLATE>
+　事実は不明だが、ともあれ
+魔女は暗殺されてこの世から去った。
+<PAUSE>
+<NAME_PLATE>紅
+（だが、不審なことがある）
+<PAUSE>
+<NAME_PLATE>
+　屋敷が荒らされていない。
+<PAUSE>
+<NAME_PLATE>
+　高級そうな家具や調度品も手つかずで、
+家探しされた形跡もない。
+<PAUSE>
+<NAME_PLATE>
+　口を封じただけで満足したのか？
+<PAUSE>
+<NAME_PLATE>
+　魔女が情報を残しているかも
+しれないのに？
+<PAUSE>
+<ACTOR>0,kn_t008e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+（答えは――探ろうとしても
+　できなかった、だな）
+<PAUSE>
+<NAME_PLATE>
+　一歩屋敷に踏み入れた瞬間にわかった。
+<PAUSE>
+<NAME_PLATE>
+　奇妙な魔力が屋敷に充満している。
+<PAUSE>
+<NAME_PLATE>
+　おそらく主の死と同時に発動する
+種類の魔術トラップ。
+<PAUSE>
+<NAME_PLATE>
+　それによって暗殺を企てたものは、
+魔女の秘密に手が出せなくなった。
+<PAUSE>
+<NAME_PLATE>
+　ならば、今からでもこちらが
+屋敷を探る意味はある。
+<PAUSE>
+//【背景：センザキ＿魔女の屋敷＿食堂＿夜（消灯）】【時間：夜】
+//　※監獄アカデミア_NC011bより流用
+//nc102a
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc102a,IN, 1000
+<NAME_PLATE>
+　紅がエントランスから広間へ
+移動すると――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔物
+「ＧＲＵＵＵＵＵＵＵ――」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>紅
+「ふっ。遅い出迎えだな」
+<PAUSE>
+<NAME_PLATE>
+　そんな紅の推測を裏付けるように、
+四方から魔物が湧き出した。
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

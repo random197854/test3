@@ -1,0 +1,551 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：東京キングダム全景＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc001aより流用
+<BG>nc007a,IN, 1000
+<NAME_PLATE>
+　東京キングダム。
+<PAUSE>
+<NAME_PLATE>
+　東京湾上に浮かぶ廃棄都市、
+面積約３８平方キロメートルの人工島。
+<PAUSE>
+<NAME_PLATE>
+　かつて政府の一大プロジェクト
+『東京キングダム・シティ』として建設、
+第二の都心として期待されたこの島は、
+<PAUSE>
+<NAME_PLATE>
+　企業誘致の失敗、さらに東京湾
+地下鉄工事の大幅な遅れから
+不便なばかりの孤島と成り果て、
+<PAUSE>
+<NAME_PLATE>
+　ついに１０年前に開発が全面中止、
+事実上捨てられた幻の都市となった。
+<PAUSE>
+//【背景：東京キングダム繁華街＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc002aより流用
+<BG>nc008a,IN, 1000
+<NAME_PLATE>
+　そして、現在。
+<PAUSE>
+<NAME_PLATE>
+　無法地帯となった島には数々の
+闇の住人――犯罪者やテロリスト、
+魔族、魑魅魍魎が流れ着き、
+<PAUSE>
+<NAME_PLATE>
+　それぞれが好き勝手に欲望を貪る
+退廃と享楽のスラムと化している――。
+<PAUSE>
+//【黒画面】
+//【背景：クラブ・ペルソナ店内＿夜】【時間：夜】
+//　※堕ちる人妻の背景nc009bより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc022a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そんな東京キングダムの
+一角にある豪奢なナイトクラブ。
+<PAUSE>
+<NAME_PLATE>
+　ここでは今夜も、“表”の世界では
+許されない放埓で背徳的な遊びに
+没頭する淫らな男女の姿がある……
+<PAUSE>
+<NAME_PLATE>
+　いや、そのはずであったが。
+<PAUSE>
+<ACTOR>0,k_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「はぁ。今日も閑古鳥ね。
+　これじゃ商売あがったりだわ」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍汎用立ち絵＿コート衣装
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<NAME_PLATE>
+　閑散とした店内を見渡して
+仮面の美女がやれやれと苦笑した。
+<PAUSE>
+<NAME_PLATE>
+　彼女はこの店、
+クラブ・ペルソナのオーナー。
+<PAUSE>
+<NAME_PLATE>
+　通称“マダム”。
+<PAUSE>
+<NAME_PLATE>
+　クラブ・ペルソナは東京キングダムでも
+一、二を争う豪奢なクラブというだけでなく、
+<PAUSE>
+<NAME_PLATE>
+　オーナーである仮面のマダムが
+凄腕の情報屋として
+強い影響力を持っていることから、
+<PAUSE>
+<NAME_PLATE>
+　現在では“五強”のひとつに
+数えられるまでになっている。
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+（……でも、そのことが
+　今はアダになっているみたいね）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　現在、東京キングダムでは
+“五強”同士の抗争が激化している。
+<PAUSE>
+<NAME_PLATE>
+　当然、その一角であるクラブ・ペルソナも
+戦いに巻き込まれる可能性が高く、
+<PAUSE>
+<NAME_PLATE>
+　闇の街の事情に通じる者であれば、
+わざわざ危険をおかして
+そんな店に遊びに来ようとは思わない。
+<PAUSE>
+<BG>nc022a,IN, 500
+<NAME_PLATE>
+　ゆえにここ数日、クラブ・ペルソナは
+閑散とした開店休業のような状態。
+<PAUSE>
+<NAME_PLATE>
+　――とはいえ、
+彼女の“本来の任務”からすれば、
+これはこれで都合がいい。
+<PAUSE>
+<ACTOR>1,chr_t0121a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ウィムル
+「……しかしマダム、
+　どうしてこのようなことに？」
+<PAUSE>
+//　※立ち絵
+//　　ウィムル
+//　　　　＊カードイラストより流用
+<ACTOR>1,chr_t0121a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,k_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「ああ。どうしたのウィムル」
+<PAUSE>
+<NAME_PLATE>
+　儚げな表情の美女が囁くように問う。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0121a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　彼女の名はウィムル。
+<PAUSE>
+<NAME_PLATE>
+　米連が研究している『強化魔族』の
+実験体とされてしまった女魔族。
+<PAUSE>
+<NAME_PLATE>
+　クラブ・ペルソナは、実は米連ＤＳＯ
+（防衛科学研究室）の東京キングダムに
+おける情報収集のための出先機関であり、
+<PAUSE>
+<NAME_PLATE>
+　その関係から、彼女も追加人員として
+この店に派遣されていた。
+<PAUSE>
+<ACTOR>1,chr_t0121a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,k_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ウィムル
+「はい。この、五強の争いのことです。
+　彼らは共通の利益のため、
+　“互いに争わず”という協定を結んだ」
+<PAUSE>
+<NAME_PLATE>ウィムル
+「こちらに来る前、
+　私はそのように聞かされたのですが」
+<PAUSE>
+<ACTOR>0,k_t003c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>仮面のマダム
+「それは……
+　まあ、状況が変わったのよ。
+　ほんの一週間ほど前にね」
+<PAUSE>
+<NAME_PLATE>ウィムル
+「変わった……？」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「二車の坊やが、あの悪趣味な
+　魔科医の手下どもとケンカを始めたわ」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「“二車忍軍”と、ノマド大幹部
+　フュルストの腹心・沙無羅威ニールセン
+　率いる“沙無羅威”の全面対決――」
+<PAUSE>
+<NAME_PLATE>
+　それが現在、東京キングダム全域を
+騒がせている一大事件であった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　同盟関係にあったと思われていた
+二つの組織の決裂、そして突然の抗争勃発。
+<PAUSE>
+<NAME_PLATE>
+　街の至る所で小競り合いや戦闘が起こり、
+街の住人たちは戦々恐々としている状態だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,k_t003c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0121a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>仮面のマダム
+「こうなってしまえば、
+　もう協定なんて何の意味もないわ」
+<PAUSE>
+<NAME_PLATE>
+　二車と沙無羅威だけではない。
+<PAUSE>
+<NAME_PLATE>
+　五強の他の二つの組織、
+“獣王会”と“鬼武衆”もひそかに
+動きを見せているという情報もある。
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「今、この街は丸ごと戦場のようなものよ。
+　私たちも“五強”の一角、
+　巻き込まれる可能性は十分にある」
+<PAUSE>
+<NAME_PLATE>
+　むしろ、それを警戒して
+彼女はウィムルを呼び寄せたのだった。
+<PAUSE>
+<NAME_PLATE>
+　米連の研究実験によって
+絶大なるパワーを得た『強化魔族』。
+<PAUSE>
+<NAME_PLATE>
+　ウィムルを待機させておけば、
+いかなる敵に対しても対抗できる。
+<PAUSE>
+<NAME_PLATE>
+　それだけの強さを彼女は持っている。
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「とは言っても、あくまで
+　私たちの任務は情報収集――」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「状況を見守り、この抗争が
+　どんな結末を迎えるかを見届ける」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「もちろん火の粉が降りかかれば
+　自衛はするけれど、こちらから
+　手を出すつもりはない」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「ウィムル、
+　あなたもそれは心しておいて」
+<PAUSE>
+<NAME_PLATE>ウィムル
+「はい。了解しました……」
+<PAUSE>
+<NAME_PLATE>
+　複雑そうな顔でウィムルが囁く。
+<PAUSE>
+<NAME_PLATE>
+　彼女の願いは強大な敵に討たれることだ。
+<PAUSE>
+<NAME_PLATE>
+　抗争が始まったと聞いて、
+少しだけそれを期待したのだが……。
+<PAUSE>
+<NAME_PLATE>
+　果たして今回、彼女が戦いの渦中に入る
+可能性はどれくらいあるだろうか。
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「ともあれ、
+　警戒と情報分析を続けましょう」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「どんな事態が起ころうと、
+　すぐ私たちも動けるように――」
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc042a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　東京キングダム、
+“二車忍軍支配地域”。
+<PAUSE>
+//【背景：東京キングダム＿二車忍軍支配のナイトクラブ＿昼夜共通】【時間：夜】
+//　※対魔忍紅_NC007aより流用
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0180a,IN, 1000
+<ACTOR>0,o_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>土橋権左
+「ただいま戻りましたお館様」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左立ち絵
+//　　　　＊土橋権左01(自然SR)イラストを流用
+<ACTOR>0,o_t004b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,g_t007a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「権左か。報告を頼む。
+　戦の状況はどうなっている」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐立ち絵
+//　　　　＊二車骸佐01(魔性SR)イラストを流用
+<NAME_PLATE>
+　帰還した二車家執事、
+土橋権左の声に骸佐が顔を上げた。
+<PAUSE>
+<NAME_PLATE>
+　ここは二車忍軍が所有する
+ナイトクラブ。
+<PAUSE>
+<NAME_PLATE>
+　平時は客で賑わうこの店も、
+現在は二車の作戦司令部となっている。
+<PAUSE>
+<NAME_PLATE>権左
+「ざっと見たところ、
+　今はうちが優勢に進めてますね」
+<PAUSE>
+<NAME_PLATE>権左
+「奴らの本拠に向かった先陣の第一隊、
+　縄張りを潰して回ってる第二隊、
+　どちらも順調って報告が来てますぜ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「そうか。しかし、
+　思った以上に手応えがないな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ヨミハラでの決別を契機に
+フュルスト――そして、その傘下である
+沙無羅威との戦いが始まった。
+<PAUSE>
+<NAME_PLATE>
+　それから数日。
+<PAUSE>
+<NAME_PLATE>
+　骸佐たち二車忍軍は、
+精鋭である幹部たちの働きもあり、
+順調に敵の縄張りを切り崩している。
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t004b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>権左
+「まあ、ちょっと前に奴らの幹部一人が
+　米連に始末されたようですからね。
+　兵隊どもが浮足立っている」
+<PAUSE>
+<NAME_PLATE>権左
+「攻めるにはちょうどいい
+　タイミングだったってことでしょうな」
+<PAUSE>
+<NAME_PLATE>骸佐
+「ふむ……。
+　今のところは、な」
+<PAUSE>
+<NAME_PLATE>権左
+「クク。仰る通りで、お館様」
+<PAUSE>
+<NAME_PLATE>
+　主のつぶやきに権左が
+にやりと笑ってうなずく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　沙無羅威は五強の一角。
+<PAUSE>
+<NAME_PLATE>
+　何よりフュルストの配下が大挙して
+組織に加わっているという情報もある。
+<PAUSE>
+<NAME_PLATE>
+　このまま勝ちを得られるとは、
+主従のどちらも考えていない。
+<PAUSE>
+<NAME_PLATE>
+　そして、奴らが仕掛けてきた時に備え、
+骸佐は“奥の手”の準備も進めている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t004b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>権左
+「それに、あとひとつ」
+<PAUSE>
+<NAME_PLATE>権左
+「獣王会にも不穏な動きが見られますね。
+　それも気になる点です」
+<PAUSE>
+<NAME_PLATE>骸佐
+「ああ。奴らか……」
+<PAUSE>
+<NAME_PLATE>
+　骸佐がわずかに表情を曇らせる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　獣王会とは、骸佐が壊滅に追い込んだ
+龍門の傘下だった組織である。
+<PAUSE>
+<NAME_PLATE>
+　その襲撃の際に使用したガス兵器によって
+先代のボスがゾンビ化し、
+<PAUSE>
+<NAME_PLATE>
+　現在でも獣王会のメンバーは
+二車に激しい遺恨を抱えている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t004b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>権左
+「我々が沙無羅威と戦争を始めたってことは、
+　奴らには漁夫の利の大チャンスだ」
+<PAUSE>
+<NAME_PLATE>権左
+「当然、何かを狙ってくるでしょう」
+<PAUSE>
+<NAME_PLATE>骸佐
+「奴らとは、できれば
+　争いたくないものだがな……」
+<PAUSE>
+<NAME_PLATE>
+　骸佐が小さくつぶやいた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あの抗争の結果、多くの巻き添えが出た。
+<PAUSE>
+<NAME_PLATE>
+　そのことは後悔していない。
+<PAUSE>
+<NAME_PLATE>
+　だが、それが理由でさらに
+犠牲が増えるのは避けたかった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t004b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>権左
+「クク、お館様。
+　それは勝手な言い分でしょうな、
+　向こうからしてみれば」
+<PAUSE>
+<NAME_PLATE>骸佐
+「……わかっている」
+<PAUSE>
+<NAME_PLATE>
+　人の恨みは簡単には消えない。
+<PAUSE>
+<NAME_PLATE>
+　それは骸佐自身、
+身に染みて理解していることだ。
+<PAUSE>
+<NAME_PLATE>権左
+「ただ、こちらにできる最大限――
+　弩竜を調停の使者に立てました」
+<PAUSE>
+<NAME_PLATE>権左
+「もしこれで奴らが
+　矛を収めてくれなければ……」
+<PAUSE>
+<NAME_PLATE>骸佐
+「その時は、打ち破るしかないな。
+　他の全ての敵と同じく」
+<PAUSE>
+<NAME_PLATE>骸佐
+「それが、俺たちのやり方だ」
+<PAUSE>
+<NAME_PLATE>権左
+「御意」
+<PAUSE>
+<NAME_PLATE>
+　愚かで血に濡れた道である。
+だが今さら引き返すつもりはない。
+<PAUSE>
+<NAME_PLATE>権左
+「ではお館様、そろそろ
+　客人がやってくる頃合いだ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「そうだな」
+<PAUSE>
+<NAME_PLATE>
+　権左に促されて骸佐が立ち上がる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　その時、血相を変えた配下の忍が
+店の外から駆け込んでくる。
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>下忍１
+「しゅ、襲撃です骸佐様っ！！
+　お気を付けください、
+　恐ろしい強さの女が外で暴れて――」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（男）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>骸佐
+「なに……？」
+<PAUSE>
+//→S202a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

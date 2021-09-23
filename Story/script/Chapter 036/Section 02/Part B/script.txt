@@ -1,0 +1,603 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・東京商店街跡＿夜】【時間：夜】
+//　※対魔忍アサギZERO__NC081bより流用
+//nc422a
+<BGM_PLAY>bgm509,1000
+<BG>nc422a,IN, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ここで少し敵をやりすごしましょう」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「まったくワラワラワラワラよく出るわね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「夜しか動けないからまだ助かるわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「まあね。昼は昼でこのあたりは
+　面倒な奴らが現れるし」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「二人で潜入するには感染者が徘徊している
+　夜が好都合なんだけど」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ずっとその相手をしてるのは
+　こっちも精神的に来るしね」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「メンタルオバケのアスカでも？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「誰がメンタルオバケよ。
+　今は二人だけなんだから
+　弱音の一つも言いたくなるわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「お互いにね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカとゆきかぜは
+感染者たちから逃れるため、
+廃墟の一つに身を隠していた。
+<PAUSE>
+<NAME_PLATE>
+　感染者はブレインフレーヤーのＢＣ兵器で、
+未知のウイルスに感染した人間の成れの果てだ。
+<PAUSE>
+<NAME_PLATE>
+　人としての知性を喪失し、凶暴化、
+異常な怪力と生命力を誇る。
+<PAUSE>
+<NAME_PLATE>
+　視角、聴覚は弱まっているが、
+嗅覚、特に血の匂いに敏感、
+１キロ先でもその匂いを嗅ぎつける。
+<PAUSE>
+<NAME_PLATE>
+　紫外線に当たると皮膚が火傷を負うため、
+昼間は暗闇に潜んでいる、
+<PAUSE>
+<NAME_PLATE>
+　全身の体毛が抜け落ちた異様な外観と
+あいまって、まるで吸血鬼だ。
+<PAUSE>
+<NAME_PLATE>
+　感染者に噛まれるとウイルスに感染し
+平均４８時間以内で“感染者”へと変容し
+連中の仲間入りをしてしまう。
+<PAUSE>
+<NAME_PLATE>
+　敵としてはそれほどの脅威ではなく、
+出血などして匂いを嗅ぎつけられなければ
+戦わずに逃げることも難しくはない。
+<PAUSE>
+<NAME_PLATE>
+　ただ、このあたりは数が多かった。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ここコンビニだったみたいね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍
+<NAME_PLATE>
+　ゆきかぜが建物の奥に行き、
+何か残っていないかと物色し始めた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「懐かしい言葉ね。
+　でも今さら探したって何もないわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私もそう思うけど、
+　万が一って事はあるし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ないない。
+　大人しくＥブロックでも食べたら」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　アスカは腰を下ろし、
+レジスタンスの間で常用されている
+携帯食を取り出した。
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, CENTER, NONE, linear, 1000
+<ACTOR>1,yu_t004d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「それまずいから」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私が昔食べてた
+　サイボーグ用の調整食よりはまし」
+<PAUSE>
+<ACTOR>1,yu_t004c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そんなにまずかったの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「これが美味しく感じるくらいね」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　アスカはＥブロックを囓った。
+<PAUSE>
+<NAME_PLATE>
+　エネルギーを補給するためだけの、
+とても食べ物とは思えないブロックだが、
+一応は味らしいものがついている。
+<PAUSE>
+<ACTOR>1,yu_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「どんだけ。
+　ん～～、やっぱりないかあ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「諦めなさいよ。
+　あんまりゴソゴソやってると、
+　サキュラが来るでしょ」
+<PAUSE>
+<ACTOR>1,yu_t004c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「あ……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「どうしたの？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「……あった、フルーツ缶」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「うそっ！」
+<PAUSE>
+<ACTOR>1,yu_t004c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　アスカはガバッと立ち上がり、
+ゆきかぜに駆け寄った。
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「見て見て見て見て！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜが指さす先、
+床にある隠し倉庫のようなところに、
+フルーツ缶が箱でごっそり残っていた。
+<PAUSE>
+<NAME_PLATE>
+　白桃、黄桃、みかん、パイナップル、
+りんご、洋梨、さくらんぼ、色とりどりだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「信じられない！！」
+<PAUSE>
+<NAME_PLATE>
+　近くにサキュラがいたら
+間違いなく寄ってくる声を出す。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「ねーー、探せばあるでしょ。
+　賞味期限７年過ぎてるけどね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「贅沢言わない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「言ってみただけ。
+　ど・れ・に・し・よ・う・か・な～～」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはフルーツ缶を並べて、
+いきなり指さしで選び始めた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「待って待って、今ここで開けるの？
+　これは大切な物資だし、
+　後で回収してみんなに―――」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「一個くらいいいでしょ。
+　見つけた人の特権。
+　なにアスカ、食べたくないの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「……え？
+　そりゃ食べたいわよ。
+　こんなの食べたいに決まってるでしょ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「じゃあ、開けよ。
+　どれにするか選ばせてあげる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「いいの？　私が選んで？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いいよ」
+<PAUSE>
+<NAME_PLATE>
+　意外なゆきかぜの言葉、
+文字通りの甘い誘惑に、
+<PAUSE>
+<NAME_PLATE>
+　レジスタンスのリーダーとしてとか、
+こんなことやってる場合じゃないとかいう
+思いは吹っ飛んだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「待って待って待って！
+　えっと、えっとね……う、うーーん。
+　じゃあ……桃缶！」
+<PAUSE>
+<NAME_PLATE>
+　３０秒ほども悩んだすえ、
+白桃の桃缶を手に取った。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはウンウンと頷く。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「やっぱり？
+　フルーツ缶と言えば桃缶だものね。
+　早く開けて開けて」
+<PAUSE>
+<NAME_PLATE>アスカ
+「う、うん」
+<PAUSE>
+<NAME_PLATE>
+　缶切りのいらないタイプだ。
+<PAUSE>
+<NAME_PLATE>
+　ドキドキして手が震えるのを感じながら
+パカッと蓋を開けた。
+<PAUSE>
+<NAME_PLATE>アスカ＆ゆきかぜ
+「うわあ～～～」
+「うわあ～～～」
+<PAUSE>
+<NAME_PLATE>
+　立ち上ってきた甘くて懐かしい
+桃缶の香りに同時に声が上がる。
+<PAUSE>
+<NAME_PLATE>
+　大切なシロップをこぼさないように
+真っ白な桃を中から取りだし、
+二人一緒に―――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>アスカ＆ゆきかぜ
+「ぱくっ」
+「ぱくっ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ＆ゆきかぜ
+「～～～～～～～～～～～っっ！」
+「～～～～～～～～～～～っっ！」
+<PAUSE>
+<NAME_PLATE>
+　なめらかな歯ごたえ、とろけるような舌触り、
+口の中いっぱいに広がる甘い味。
+<PAUSE>
+<NAME_PLATE>
+　二人ともしばらくプルプルするだけで、
+もう言葉にならない。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うわっ、あまーい」
+<PAUSE>
+<NAME_PLATE>アスカ
+「桃缶ってこんなに甘かった？
+　本気で舌が蕩けそう」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ねーー、おいしーー」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あーーだめ、顔が笑っちゃう」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アスカ、すごいだらしない顔してる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ゆきかぜだって」
+<PAUSE>
+<NAME_PLATE>
+　しばし戦士であることを忘れ、
+甘い物好きの女子に戻る二人だったが、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　がたっ……
+<PAUSE>
+<NAME_PLATE>
+　誰かが店に入ってくる気配がした。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「はっ！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「誰っ！？」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m216a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サユリ
+「アスカさん？　ゆきかぜ……さん？」
+<PAUSE>
+//　※立ち絵
+//　　【対魔忍】ふうま土遁衆(女)
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>アスカ
+「サユリ！」
+<PAUSE>
+<NAME_PLATE>
+　二人に先行して偵察を行っていた
+レジスタンスの一人、元ふうま土遁衆の
+サユリだった。
+<PAUSE>
+<NAME_PLATE>
+　アスカとゆきかぜを見て、
+サユリは嬉しそうな顔をしたものの、
+その体はふらついている。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「やられたの！？」
+<PAUSE>
+<NAME_PLATE>
+　急いで駆け寄り肩を貸すゆきかぜに
+サユリは辛そうに言った。
+<PAUSE>
+<NAME_PLATE>サユリ
+「申し訳ありません……
+　私以外は全て……サキュラに……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「単独で徘徊しているサキュラはいるのね？」
+<PAUSE>
+<NAME_PLATE>サユリ
+「はい……確認しました……
+　よかった……役目を果たせました……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　サユリはそれだけ言うと、
+もう立っているのも辛いのか、
+その場にしゃがみこんだ。
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「サユリ、私たちは行かなきゃならない。
+　あなたのことは回収するよう連絡しておくわ。
+　悪いけどここで一人で頑張って」
+<PAUSE>
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　そう指示を下すアスカを
+ゆきかぜがチラリと見たが、
+口に出しては何も言わない。
+<PAUSE>
+<NAME_PLATE>サユリ
+「その……必要はありません……
+　私……感染者に……やられて……」
+<PAUSE>
+<NAME_PLATE>
+　サユリは首を振って、
+左肩についた傷を見せた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「……！」
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そんな……！」
+<PAUSE>
+<NAME_PLATE>
+　二人は息を飲んだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　僅かなひっかき傷だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし感染者にやられたということは
+もうウイルスに冒されている。
+<PAUSE>
+<NAME_PLATE>サユリ
+「もうすぐ……タイムリミットです……
+　だから私、ここで……けじめをつけようと…
+　やっぱり……イヤですから……」
+<PAUSE>
+<NAME_PLATE>
+　二人はサユリがここに来た理由を知った。
+<PAUSE>
+<NAME_PLATE>サユリ
+「アスカさん……お願いできますか？」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「分かった」
+<PAUSE>
+<NAME_PLATE>
+　込み上げる感情を抑え、
+アスカは冷静に頷いた。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「待って」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ゆきかぜ！」
+<PAUSE>
+<NAME_PLATE>
+　反論しようとするアスカに
+ゆきかぜは静かに首を振り、
+サユリに笑顔で話しかけた。
+<PAUSE>
+<BGM_PLAY>bgm409,1000
+<ACTOR>1,yu_t004b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「サユリ、私たちね
+　今ここでおやつの時間だったの」
+<PAUSE>
+<NAME_PLATE>サユリ
+「おやつ……？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「偶然ここでこれを見つけてね。
+　ほら、桃缶」
+<PAUSE>
+<NAME_PLATE>サユリ
+「わあ……すごい……」
+<PAUSE>
+<NAME_PLATE>
+　サユリの顔が僅かに綻ぶ。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「食べるでしょ？」
+<PAUSE>
+<NAME_PLATE>
+　尋ねる声はかすかに震えていた。
+<PAUSE>
+<NAME_PLATE>サユリ
+「はい……頂きます……」
+<PAUSE>
+<ACTOR>1,yu_t004b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「サユリはこういうタイミングは
+　逃さないものね」
+<PAUSE>
+<NAME_PLATE>
+　アスカも言った。
+当たり前の日常のように。
+<PAUSE>
+<NAME_PLATE>サユリ
+「ええ、そうなんです……私」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　サユリは弱々しく微笑み、
+ゆきかぜが差し出した桃を口に含んだ。
+<PAUSE>
+<NAME_PLATE>サユリ
+「美味……しい……
+　すごく……懐かしい味がします……」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うん……うん……」
+<PAUSE>
+<NAME_PLATE>サユリ
+「楽しかった……頃の……味……
+　でも……いいのかな、私だけ……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「大丈夫。
+　みんなの分もちゃんとあるから」
+<PAUSE>
+<NAME_PLATE>サユリ
+「そう……よかった……
+　私……最期に……こん……な……
+　いつ……か……また……みんなで……」
+<PAUSE>
+<NAME_PLATE>
+　サユリの声が次第に途切れていく。
+<PAUSE>
+<NAME_PLATE>
+　胸の鼓動も収まっていき、
+穏やかな顔のまま動かなくなった。
+<PAUSE>
+<NAME_PLATE>
+　アスカが風を操って、
+彼女が苦しむことのないように
+その呼吸を止めさせたのだ。
+<PAUSE>
+<NAME_PLATE>
+　忌まわしいウイルスに支配される前に、
+人の尊厳を保ったまま、
+サユリは永遠の眠りについたのだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「残りはあなたが食べて」
+<PAUSE>
+<NAME_PLATE>アスカ
+「またね、サユリ」
+<PAUSE>
+<NAME_PLATE>
+　サユリを横たえ、桃缶の残りを供えて
+立ち上がった。
+<PAUSE>
+<NAME_PLATE>
+　二人とも涙は流していなかった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ずっとこんな別れを繰り返してきたのだ。
+<PAUSE>
+<NAME_PLATE>
+　ふうまが死んでから、ずっと……。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

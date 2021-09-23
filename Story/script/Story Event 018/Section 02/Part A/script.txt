@@ -1,0 +1,739 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：どこかのレストラン＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC072aより流用
+//nc363a
+<BGM_PLAY>bgm203,1000
+<BG>nc363a,IN, 1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+（アタシ、フランシス、魔界の鬼族。
+　美味しいお酒と、美味しい料理が大好き）
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>フランシス
+（けど、それでちょ～っとしくじって
+　鬼族の街から追い出されちゃった）
+<PAUSE>
+<NAME_PLATE>フランシス
+（それで人間界にやってきたんだけど、
+　こっちで飲み食いするにも
+　やっぱお金がいる）
+<PAUSE>
+<NAME_PLATE>フランシス
+（しょうがないからマフィアを立ち上げて
+　アタシ好みの飯屋を作ったり、
+　料理人を集めたりしたんだけど―――）
+<PAUSE>
+<NAME_PLATE>シェフ
+「ミス・フランシス。
+　魔界鶏のマレンゴ風でございます」
+<PAUSE>
+<NAME_PLATE>フランシス
+「うわ、うっまそーー！
+　いっただっきまー……え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アタシがナイフとフォークを手にしたら、
+店の外に黒塗りの車が止まった。
+<PAUSE>
+<NAME_PLATE>
+　なんかよくあるシチュエーション。
+って思った途端。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガ！！
+<PAUSE>
+<NAME_PLATE>
+　銃撃の嵐。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　そう、どっかのギャングの襲撃。
+<PAUSE>
+<NAME_PLATE>
+　アタシは平気だけど、シェフは蜂の巣。
+店はメチャクチャ、料理もメチャクチャ。
+<PAUSE>
+<NAME_PLATE>フランシス
+「あああーーーーーーー！！
+　アタシのマレンゴ風がーーー！！」
+<PAUSE>
+//【背景：どこかのバー＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC045aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　馴染みのバーに行った時も。
+<PAUSE>
+<NAME_PLATE>バーテンダー
+「よう、フランシス。
+　三倍鬼殺し、ようやく手に入ったぜ。
+　やるだろ？」
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「やるやる、すぐ持ってきて！
+　瓶ごと！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　人間界じゃなかなか手に入らない
+三倍鬼殺し。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　グラスにたっぷり注いで
+さあ乾杯ってとこで、
+<PAUSE>
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鉄砲玉
+「フランシス！
+　死ねええええええええ！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>フランシス
+「え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　どっかの組のバカが
+ドスを腰だめに突っ込んできた。
+<PAUSE>
+<NAME_PLATE>
+　もちろんアタシは大丈夫だったけど、
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se044
+<NAME_PLATE>
+　ガチャーン。
+<PAUSE>
+<NAME_PLATE>フランシス
+「うわああああ！！
+　三倍鬼殺しの瓶が割れたーーー！！」
+<PAUSE>
+//【背景：どこかの縁日＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC071bより流用
+//nc364a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc364a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　お祭りの縁日の時だって、
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「おっちゃん、焼き鳥にビール！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>おっちゃん
+「へい、毎度」
+<PAUSE>
+<NAME_PLATE>フランシス
+「やっぱこれだよねーー！」
+<PAUSE>
+<NAME_PLATE>
+　プシュッ！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　キンキンに冷えた缶ビールを
+開けたところで、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガガ！！
+ドカンドカンドカン！！
+<PAUSE>
+<NAME_PLATE>フランシス
+「へ？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング
+「フランシスぅうう！！」
+「ぶっ殺したるぅう！！」
+「天誅ぅううう！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊カードイラストを流用
+//　※複数出してください
+<NAME_PLATE>
+　どっかの組織の連中が
+雪崩を打って襲ってきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　そのときもアタシは
+なんともなかったけど、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　どぼどぼどぼどぼ―――
+<PAUSE>
+<NAME_PLATE>フランシス
+「あーーーーーーー！！
+　アタシのビールがーーーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　缶ビールは穴だらけ、中身はダダ漏れ。
+お祭りも台無し。
+<PAUSE>
+<NAME_PLATE>フランシス
+「あーーもうやってらんない！！」
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>フランシス
+「はあ……お腹空いた……」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>フランシス
+（美味しいお酒と料理のために
+　組織を作ったのに）
+<PAUSE>
+<NAME_PLATE>フランシス
+（いつの間にか日々命を
+　狙われるマフィア生活。
+　アタシもうウンザリ）
+<PAUSE>
+<NAME_PLATE>フランシス
+（なにもかも面倒になって、
+　ファミリーには内緒でヨミハラに
+　来ちゃった）
+<PAUSE>
+<NAME_PLATE>フランシス
+（昔、縁があって
+　ちょっと住んだことがあったし）
+<PAUSE>
+<NAME_PLATE>フランシス
+（好きなだけ飲み食いできて、
+　誰にも襲われなくて、
+　ついでにモテて最高の毎日）
+<PAUSE>
+<NAME_PLATE>フランシス
+（でも、ちょっとハメを外しすぎたみたい。
+　お金結構持ってきたはずなんだけど、
+　いつの間にかすっからかん）
+<PAUSE>
+<NAME_PLATE>フランシス
+（虎の子もさっき取られて一文無し。
+　しかもお腹はペコペコ。
+　ああ、どうしよう）
+<PAUSE>
+<NAME_PLATE>
+　ぐーーーーーーーーーーー。
+<PAUSE>
+<NAME_PLATE>
+　お腹がまた鳴った、
+<PAUSE>
+<NAME_PLATE>
+　さっきからもう限界と訴えている。
+<PAUSE>
+<NAME_PLATE>フランシス
+「もう……こうなったら娼婦でもして
+　お金を稼ぐしかないかなあ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se010
+<NAME_PLATE>
+　ばたん。
+<PAUSE>
+<NAME_PLATE>
+　気がついたら、
+フランシスは仰向けにひっくり返っていた。
+<PAUSE>
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>フランシス
+「でも、ダメ……
+　お腹が空きすぎて動けない」
+<PAUSE>
+<NAME_PLATE>
+　ぐーーーー、ぐーーーー、ぐーーーー。
+<PAUSE>
+<NAME_PLATE>
+　もはや警告音だ。
+<PAUSE>
+<NAME_PLATE>
+　地下都市ヨミハラの
+パイプとかがゴチャゴチャ絡まった
+汚い天井が見えた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「アタシ、ここで最後かも。
+　グルメ旅行の果て、ヨミハラで行き倒れ。
+　やだあ、誰かなにか食べさせてぇ……」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「さくさく」
+<PAUSE>
+<NAME_PLATE>
+　お菓子が口の中でほどけていく音がした。
+<PAUSE>
+<NAME_PLATE>
+　それから甘い匂いも。
+<PAUSE>
+<NAME_PLATE>フランシス
+「な、なにこの音？　この匂い？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「もぐもぐ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「これはお菓子？　お菓子がそばに？
+　どこ、どこ？」
+<PAUSE>
+<BG>nc122a,IN, 500
+<NAME_PLATE>
+　頑張って顔をそちらに向けると、
+白いワンピース姿の少女がいた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「じーーー」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>
+　アサギ探偵事務所のマスコット。
+異界生物のナーサラだった。
+<PAUSE>
+<NAME_PLATE>
+　もちろんフランシスは知らない。
+<PAUSE>
+<NAME_PLATE>フランシス
+「わ、すっごい美少女。
+　天使？　マジ天使？
+　もしかしてアタシもう死んでる？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「死んでない、生存、確認」
+<PAUSE>
+<NAME_PLATE>フランシス
+「え？　あ、そう。
+　ええと、なにしてんの？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「観察、行き倒れ、興味深い」
+<PAUSE>
+<NAME_PLATE>フランシス
+「興味深いって……」
+<PAUSE>
+<NAME_PLATE>
+　別次元の異界生物であるナーサラにとっては
+知識の蓄積、好奇心の充足がその存在意義だ。
+<PAUSE>
+<NAME_PLATE>
+　無一文の腹ぺこでひっくり返っていた
+フランシスに興味を持ったようだ。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「さくさく、もぐもぐ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「あ、あのさ……」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ぱくぱく、なに？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはリスさんポシェットから
+クッキーを取り出しては食べている。
+<PAUSE>
+<NAME_PLATE>
+　フランシスの視線はそこに集中していた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「そのクッキーは？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「アサギの手作り、美味しい、さくさく」
+<PAUSE>
+<NAME_PLATE>フランシス
+「うん、すっごくおいしそ。
+　ねえ、それアタシに一つくれない？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラの手がぴたりと止まった。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「食べたい？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「メチャクチャ食べたい。
+　ていうか、アタシお腹が空きすぎて
+　動けないの」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「さく……もぐ……もぐ……」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは摘まんでいたクッキーを
+ゆっくり囓りながら考えていたが、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「ああ、美味しそう！
+　ねえお願い！　ちょうだい！！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「お腹が空きすぎ、理解。
+　緊急事態、あげる」
+<PAUSE>
+<NAME_PLATE>フランシス
+「マジ？　サンキュー！」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは新しいクッキーを一枚、
+フランシスの口元に差し出した。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ぱくっ！」
+<PAUSE>
+<NAME_PLATE>
+　彼女はそれに食らいつく。
+<PAUSE>
+<NAME_PLATE>フランシス
+「うっわ、うっま。
+　これすっげーうっま。
+　もう一つ！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　もう一枚。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ぱくっ。
+　くう、すっげえうまっ。マジ？
+　もう一つ、頼むもう一つ！」
+<PAUSE>
+<NAME_PLATE>
+　もう一枚、二枚、三枚……。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「パクパク、面白い、もっと食べて」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ぱくっ、ぱくっ
+　くあああ超美味い。美味すぎる！」
+<PAUSE>
+<NAME_PLATE>
+　まるで餌付けをするように、
+ナーサラは次々とクッキーを与えていき、
+そして―――
+<PAUSE>
+<NAME_PLATE>フランシス
+「もう一つ、もう一つ！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「もうない。空っぽ」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかリスさんポシェットは
+すっからかんになっていた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「え？　うそっ。
+　アタシ全部食べちゃった？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「あんまり美味かったから。
+　あんたのおやつだよね、マジごめん！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスは慌てて頭を下げる。
+ナーサラは別に気にした風もなく、
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「いい。興味深かった。
+　アサギ、いつでも作ってくれる」
+<PAUSE>
+<NAME_PLATE>フランシス
+「いつでも？
+　ひょっとしてお抱えのパティシエ？
+　あんたいいとこのお嬢様？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはふるふると首を振った。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「アサギ、探偵。
+　私、ナーサラ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「へー、探偵。
+　で、あんたはナーサラ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「そう」
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「アタシはフランシス。
+　やっと動けるようになった。
+　サンキュー」
+<PAUSE>
+<NAME_PLATE>
+　フランシスはナーサラに手を差し出し、
+二人は握手をした。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「握手、ニギニギ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「手ちっちゃい。可愛い」
+<PAUSE>
+<NAME_PLATE>
+　ようやく人心地ついたフランシスだったが、
+<PAUSE>
+<NAME_PLATE>フランシス
+「けどやっぱクッキーじゃ
+　腹一杯にはならないなあ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ねえ大食いチャレンジの店とか知らない？
+　ラーメン１０人前１０分でタダとかさ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「知らない」
+<PAUSE>
+<NAME_PLATE>フランシス
+「そっかー。
+　じゃあやっぱ娼館でバイトしようかなあ」
+<PAUSE>
+<NAME_PLATE>
+　諦めたように呟いたフランシスに
+ナーサラがふと思いついたように言った。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「うち、来る？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「え？
+　なんか食べさせてくれるの？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「もうすぐ、ご飯。
+　アサギ、食事、用意してる」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「マジ！
+　行く行く！！
+　そんなの絶対行く！！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスの顔がパーッと輝いた。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「じゃあ、こっち、ついてきて」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ついてくついてく。ラッキー♪」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「らっきー」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ナーサラのあとに
+いそいそとついて行こうとしたその時、
+妙な連中が立ちはだかった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサシン
+「待ちな、フランシス！」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ハイオーク
+「へっへっへ、
+　ようやく見つけたぜ」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>フランシス
+「へ？」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　どう見てもアサシンという覆面男と
+ハイオークの二人組だ。
+<PAUSE>
+<NAME_PLATE>アサシン
+「ファミリーの連中もつれずに
+　こんなところを一人旅とはな。
+　殺してくれって言ってるようなもんだぜ」
+<PAUSE>
+<NAME_PLATE>ハイオーク
+「うちのシマを荒らしてくれたお礼
+　たっぷりさせてもらうぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「あちゃーー。
+　こんなとこまでアタシの客？」
+<PAUSE>
+<NAME_PLATE>
+　こういうのが嫌でヨミハラに来たのにと
+フランシスは面倒くさそうな顔をした。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「何者？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラも別に緊張してはいない。
+同時に興味もないという顔をしていた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「まあなんていうか、
+　アタシを狙ってる悪い奴みたいな？
+　ちょっと待ってて。すぐぶっ潰すから」
+<PAUSE>
+<NAME_PLATE>
+　フランシスは背中にしょっていたデコ金棒を
+軽々と手に取った。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「状況、把握、フランシス、守る」
+<PAUSE>
+<NAME_PLATE>フランシス
+「平気平気。アタシ超強いし」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ナーサラ、フランシス、守りたい」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはやけにきっぱりと言った。
+<PAUSE>
+<NAME_PLATE>
+　二人組に興味はないが、
+フランシスを守るのはやってみたい。
+そんな調子だった。
+<PAUSE>
+<NAME_PLATE>フランシス
+「わっ、なんか格好いいセリフ。
+　ヒーローみたい」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「そう、正義のヒーロー」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはこくんと頷いて、
+突然くるくると軽やかに回り出し、
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「興味津々、フラフラパワー、ナーサラ」
+<PAUSE>
+<NAME_PLATE>
+　ピシッとポーズを決めた。
+<PAUSE>
+<NAME_PLATE>
+　それを見たフランシスの顔が綻ぶ。
+<PAUSE>
+<NAME_PLATE>フランシス
+「あははは、なにそれ決め台詞？
+　じゃあアタシもアタシも！
+　えっとねーーー」
+<PAUSE>
+<NAME_PLATE>フランシス
+「美味しい酒に美味しいごはん！
+　フランシス！」
+<PAUSE>
+<NAME_PLATE>
+　こちらもポーズを決める。
+<PAUSE>
+<NAME_PLATE>
+　セリフもポーズもいまいちあっていないが、
+敵を怒らせるには十分だった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m075a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m152a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサシン
+「ふざけてんじゃねえ！！」
+<PAUSE>
+<NAME_PLATE>ハイオーク
+「まとめてぶっ殺してやる！！」
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

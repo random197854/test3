@@ -1,0 +1,836 @@
+//☆マップ05シナリオ
+//作成者：里見ヨシカ
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：まえさき市の奥＿昼】【時間：昼】
+//　※姫神さま以下略_nc001aより流用
+<BG>nc143a,IN, 1000
+<NAME_PLATE>
+　まえさき市の奥には、
+広大な山塊が広がっている。
+<PAUSE>
+//【背景：山道＿昼】【時間：昼】
+//　※姫神さま以下略_nc010aより流用
+<BG>nc138a,IN, 1000
+<NAME_PLATE>
+　かつては林業を営む村が点在していたが、
+過疎の時代に次々と消滅。
+<PAUSE>
+<NAME_PLATE>
+　そのうちに交通手段も途絶え、
+今では登山者もあまり近づかない、
+忘れられた秘境となっていた。
+<PAUSE>
+//【背景：山の中＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc028a,IN, 1000
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>セラステス
+「確かにこの辺のはずなんだけどなぁ……
+　とんでもねえクソ山ん中じゃねえかよ。
+　このＧＰＳ壊れてんじゃねえのかぁ？」
+<PAUSE>
+//　※立ち絵
+//　　【電磁砲装備】セラステス
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　静かな緑に不似合いな赤毛の女が、
+ＧＰＳを睨みながらうろうろしている。
+<PAUSE>
+<NAME_PLATE>
+　彼女の名はセラステス。
+若くして世界各地の戦地を駆ける、
+腕利きの傭兵である。
+<PAUSE>
+<SE_PLAY>se076
+<NAME_PLATE>セラステス
+「んー、どこだよもう……」
+<PAUSE>
+<NAME_PLATE>
+　何を探しているのか、
+しきりに岩陰を覗いたり、
+倒木をひっくり返したり。
+<PAUSE>
+<NAME_PLATE>
+　そこへ――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>覆面の男
+「おい、何者だ？！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>風を纏う男
+「こんな所で何をしている？」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　突然、武装した男たちが現れ、
+セラステスを包囲した。
+<PAUSE>
+<NAME_PLATE>セラステス
+「ん？
+　お前らこそ何だ？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「あたいは探し物してるだけだ。
+　金も貰わずに無関係の人間と
+　ドンパチやる気はない、消えな」
+<PAUSE>
+<NAME_PLATE>覆面の男
+「金……傭兵か？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「そうだけど、今はオフだ」
+<PAUSE>
+<NAME_PLATE>風を纏う男
+「傭兵が、こんな山奥で
+　いったい何を探している？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「何だっていいだろうが。
+　面倒くせえな……」
+<PAUSE>
+<NAME_PLATE>
+　セラステスの顔に苛立ちが浮かぶ。
+<PAUSE>
+<NAME_PLATE>
+　報酬なしで人を殺す趣味はないが、
+邪魔をされるなら話は別だ。
+<PAUSE>
+<NAME_PLATE>
+　相手はどうやら二人だけだし、
+一発やっちまうか――
+<PAUSE>
+<NAME_PLATE>
+　と考えたそのとき。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>3,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m014a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>覆面の女
+「動くな、質問に答えろ」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（女）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>風を纏う女
+「暴れれば容赦はしない」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆（女）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　いつの間にか忍び寄ったか。
+仲間らしき二人が現れ、
+背後から刀を突きつけていた。
+<PAUSE>
+<NAME_PLATE>セラステス
+「へえ……？
+　お前ら、どうやらタダの人間じゃねえな？
+　気配の消し方、見事なもんだ」
+<PAUSE>
+<NAME_PLATE>
+　セラステスの目が輝く。
+戦闘狂の本性が疼き出したのだ。
+<PAUSE>
+<NAME_PLATE>セラステス
+（こいつら何者だ？
+　ちょっと面白くなってきやがった）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,ts_m013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>覆面の男
+「質問に答えろ」
+<PAUSE>
+<NAME_PLATE>セラステス
+「嫌だって言ったら？」
+<PAUSE>
+<NAME_PLATE>風を纏う男
+「なんだと……！？」
+<PAUSE>
+<NAME_PLATE>
+　彼らの殺気が膨れ上がるのを、
+リーダーらしき女がたしなめる。
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>3,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>覆面の女
+「待ちなさい。
+　先遣隊の連絡が途絶えて久しいのだ。
+　ここで妙な女の相手をしている暇はないぞ」
+<PAUSE>
+<NAME_PLATE>覆面の男
+「……確かに」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>4,ts_m014a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>風を纏う女
+「警告はしたぞ。
+　立ち去れ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セラステス
+「――あれ？　消えた？
+　ん？　えっ？」
+<PAUSE>
+<NAME_PLATE>
+　辺りにはすでに気配すらない。
+奇妙な人間達は、
+まさに風のごとく消えてしまった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セラステス
+「――あっ！？　
+　今のもしかして、
+　日本のニンジャってやつか！？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「すげえ！！
+　ニンジャと会っちゃったぜ！」
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　人間たちとの遭遇から、
+しばらくの後。
+<PAUSE>
+//【背景：洞窟入口＿昼】【時間：昼】
+//　※姫神さま以下略_nc011aより流用
+<BGM_PLAY>bgm206,1000
+<BG>nc141a,IN, 1000
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セラステス
+「やれやれ、やーっと見つけたぜ。
+　これが蛇神様の洞窟とやらか……」
+<PAUSE>
+//　※立ち絵
+//　　【電磁砲装備】セラステス
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　セラステスはやっと、
+目的の洞窟を見つけた。
+<PAUSE>
+<NAME_PLATE>セラステス
+「それにしても、さっきの連中。
+　本当にニンジャだったのかな！？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「写真撮らせてもらうんだったぜ。
+　技も見せてもらいたいし……」
+<PAUSE>
+<NAME_PLATE>セラステス
+「って、いやいや。
+　今はとりあえず蛇神様だ！」
+<PAUSE>
+<NAME_PLATE>
+　セラステスは洞窟へ踏み込むと、
+足場の悪さもものともせず、
+どんどん奥へ進んでいく。
+<PAUSE>
+//【背景：洞窟最深部＿昼】【時間：昼】
+//　※LILITH_IZM_04_nc005aより流用
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BG_OUT>1000
+<BG>nc142a,IN, 1000
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セラステス
+「静かだな……」
+<PAUSE>
+<NAME_PLATE>
+　蛇のようにうねった洞窟を、
+無心に前へ進んでいくと、
+ぽっかりと巨大な空間に出た。
+<PAUSE>
+<NAME_PLATE>
+　地底湖が水をたたえ、
+その脇には朽ちた道具や骨が散乱している。
+祭祀に使われたものだろうか。
+<PAUSE>
+<NAME_PLATE>セラステス
+「蛇神様ね……」
+<PAUSE>
+<NAME_PLATE>
+　彼女はそのかけらを拾い上げ、
+地底湖の中へ放り込んだ。
+<PAUSE>
+<NAME_PLATE>セラステス
+「まったく人間ってのは勝手だ。
+　ある国じゃ悪魔、ある国じゃ神様か」
+<PAUSE>
+<NAME_PLATE>セラステス
+「あたいも世が世なら、
+　神様扱いされてたのかな。
+　笑っちまうぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<ACTOR>0,chr_t0019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　彼女は人の姿に化けているが、
+本来の姿は半人半蛇の、
+ナーガ族という魔族である。
+<PAUSE>
+<NAME_PLATE>
+　しかし人間界で人に育てられた彼女は、
+魔界も同族も知らなかった。
+<PAUSE>
+<NAME_PLATE>
+　小さい頃はその姿から、
+人々に奇異の目を向けられ、からかわれ、
+苛められてきたが、
+<PAUSE>
+<NAME_PLATE>
+　それに負けじと強さを磨き、
+若いうちから傭兵として生計を
+立てられるまでになった。
+<PAUSE>
+<NAME_PLATE>
+　そして様々な戦場を転々とする中で、
+魔界や魔族について知った彼女は、
+<PAUSE>
+<NAME_PLATE>
+　自分の種族――ナーガ族について
+知りたいと考え、行く先々の国で
+蛇にまつわる伝説を調べて回っている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc142a,IN, 1000
+<NAME_PLATE>
+　そして、日本へ来て目をつけたのが、
+この洞窟というわけだ。
+<PAUSE>
+<NAME_PLATE>
+　かつてこの辺りには蛇を信仰する村があり、
+この洞窟は蛇神様の棲みかと呼ばれて、
+何百年もの間信仰を集めていたという。
+<PAUSE>
+<NAME_PLATE>
+　しかし村が廃村になってからは、
+蛇神様を祀る者もいなくなり、
+洞窟の存在も忘れられていた。
+<PAUSE>
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セラステス
+「結構デカイ洞窟だな。
+　まだ先へ続いてそうだが、
+　道は地底湖の中か」
+<PAUSE>
+<NAME_PLATE>
+　水へ潜って先を調べるか、
+だけど出口がなかったら、さすがのあたいも
+死んじまう――などと考えていると。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>覆面の男
+「さきほどの女、ここまで来るとは」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>覆面の女
+「先遣隊の全滅と、
+　なにか関係が？」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（女）
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セラステス
+「！？　さっきのニンジャども！？
+　どっから出てきやがった！？」
+<PAUSE>
+<NAME_PLATE>セラステス
+（おいおい、たった今まで全く、
+　なんの気配もなかったぞ……）
+<PAUSE>
+<NAME_PLATE>
+　閉鎖空間で敵に囲まれたくらいでは
+動じないセラステスだが、
+このときは少なからず驚いていた。
+<PAUSE>
+<NAME_PLATE>セラステス
+（しかもここ、洞窟だぜ。
+　あたいに気配を察知させずに
+　洞窟の中をここまで来たっていうのか）
+<PAUSE>
+<NAME_PLATE>
+　静寂と闇に包まれた洞窟の中では、
+わずかな音も大きく反響し、
+動きは空気の流れをつくる。
+<PAUSE>
+<NAME_PLATE>
+　熟練の兵でも気配を消すのは無理だろう。
+ましてセラステスはナーガ族、
+人間よりも鋭い感覚を持っているのに。
+<PAUSE>
+<NAME_PLATE>セラステス
+（やっぱりニンジャか？！
+　本物なのか？！！）
+<PAUSE>
+<NAME_PLATE>セラステス
+（どうする？
+　このまま一度戦ってみるか？
+　その前に記念撮影頼んどくか？）
+<PAUSE>
+<NAME_PLATE>覆面の男
+「おい、何をニヤニヤしている？」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>セラステス
+「へへ。やっぱ戦うのが先かな！
+　あたいが勝ったら記念撮影してもらうよ！」
+<PAUSE>
+<NAME_PLATE>覆面の男
+「は？？？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　と、ニンジャ（？）たちと
+セラステスが睨み合ったそのとき――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+//SE：水柱が上がる音
+<GROUP>
+<SE_PLAY>se114
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ザバアアアアン！！
+<PAUSE>
+<NAME_PLATE>
+　突如、激しい水音が反響し、
+洞内に水飛沫が降り注ぐ。
+<PAUSE>
+<NAME_PLATE>セラステス
+「！？　なんだ！？」
+<PAUSE>
+<NAME_PLATE>覆面の男
+「しまった！」
+<PAUSE>
+<GROUP>
+<ACTOR>5,ts_m088a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se086
+</GROUP>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>怪物
+『ＧＹＳＨＡＡＡＡＡＡ！！！！』
+<PAUSE>
+//　※立ち絵
+//　　バジリスク立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　地底湖から飛び出したのは、
+巨大な蛇の怪物。
+<PAUSE>
+<NAME_PLATE>風を纏う男
+「現れたか！
+　くそっ、喰らえ！　風遁・疾風！」
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074
+</GROUP>
+<NAME_PLATE>
+　風を纏ったニンジャが、
+大蛇の顔めがけて術を発動する。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>覆面の男
+「ダメだ！　そいつを見るな！」
+<PAUSE>
+<NAME_PLATE>風を纏う男
+「え？
+　――」
+<PAUSE>
+<NAME_PLATE>覆面の男
+「……遅かったか」
+<PAUSE>
+<NAME_PLATE>
+　ほんの一瞬。
+蛇の瞳に睨まれたニンジャは、
+その場で固まって石となった。
+<PAUSE>
+<NAME_PLATE>覆面の男
+「くそっ！
+　先にその目を潰してやる！」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　覆面のニンジャは、蛇の視線を避けながら、
+跳躍してその顔に迫る。
+<PAUSE>
+<SE_PLAY>se084
+<NAME_PLATE>大蛇
+『ＦＳＨＡＡＡＡＡＡ！！』
+<PAUSE>
+<NAME_PLATE>覆面の男
+「ぐっ！？　ぶぐっ！？
+　げぶおぉぉ……」
+<PAUSE>
+<NAME_PLATE>
+　しかし大蛇の吐きだす瘴気に触れ、
+喉を掻き毟りながら落下する。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セラステス
+「ど、どうなってんだ！？」
+<PAUSE>
+<NAME_PLATE>
+　目の前で繰り広げられる虐殺に、
+一瞬驚いたセラステスだったが、
+<PAUSE>
+<NAME_PLATE>セラステス
+「とりあえず、
+　このままじゃヤバいな！！」
+<PAUSE>
+<SE_PLAY>se040
+<NAME_PLATE>
+　すぐに気を持ち直し、
+大蛇の首元目掛けて、
+大きな銃を構える。
+<PAUSE>
+<NAME_PLATE>大蛇
+『ＧＹＡＡＡＡ……』
+<PAUSE>
+<NAME_PLATE>
+　その気配に気づいたか、
+大蛇はこちらを振り向き、
+鋭い瞳で睨みつける。
+<PAUSE>
+<NAME_PLATE>セラステス
+「やべっ！？」
+<PAUSE>
+<NAME_PLATE>
+　石にされる――そう思ったが、
+指は固まることなく、引き金を引いた。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se036
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガァァン！
+<PAUSE>
+<NAME_PLATE>大蛇
+『ＵＧＧＡＡ！？』
+<PAUSE>
+<SE_PLAY>se099
+<NAME_PLATE>
+　命中――
+しかし弾丸は鱗に弾かれる。
+<PAUSE>
+<NAME_PLATE>セラステス
+「うっそだろ！？」
+<PAUSE>
+<NAME_PLATE>大蛇
+『ＳＹＡＡＡＡＡＡ！』
+<PAUSE>
+<SE_PLAY>se084
+<NAME_PLATE>
+　驚いた大蛇は興奮したのか、
+手当たり次第に毒息を撒き散らしていく。
+<PAUSE>
+<NAME_PLATE>風を纏う女
+「う、うあああっ……」
+<PAUSE>
+<NAME_PLATE>仮面の女
+「だ、駄目だ、撤退を……」
+<PAUSE>
+<NAME_PLATE>
+　毒息に当てられたニンジャたちは、
+あっけなくその場に倒れる。
+<PAUSE>
+<NAME_PLATE>セラステス
+「おい、ニンジャども！？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「って、あたいは大丈夫だな。
+　人間にしか効かないのか？」
+<PAUSE>
+<NAME_PLATE>
+　セラステスは毒息ブレスの中を突進し、
+至近距離から銃弾を撃ち込む。
+<PAUSE>
+<SE_PLAY>se036
+<NAME_PLATE>
+　ガァン！！！
+<PAUSE>
+<SE_PLAY>se036
+<NAME_PLATE>
+　ドォン！！！
+<PAUSE>
+<NAME_PLATE>大蛇
+『ＧＹＡＡ！？』
+<PAUSE>
+<NAME_PLATE>セラステス
+「くそっ！？
+　なんて硬いんだよ！？」
+<PAUSE>
+<NAME_PLATE>
+　何発弾を撃ち込んでも、
+鱗はやっと少し傷ついた程度だ。
+<PAUSE>
+<SE_PLAY>se086
+<NAME_PLATE>大蛇
+『ＧＹＡＡＡＡＡＡ！』
+<PAUSE>
+<NAME_PLATE>
+　それでも大蛇は痛みを感じているのか、
+大きな尾でセラステスを打ち払おうとする。
+<PAUSE>
+<NAME_PLATE>セラステス
+「当たるかよ！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>5,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　セラステスは飛び退くと、
+近くの岩陰へと避難し、
+大蛇の様子を観察する。
+<PAUSE>
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セラステス
+「もしかしなくても、
+　伝説の蛇神様？　ってのは、
+　こいつのことだよな……」
+<PAUSE>
+<NAME_PLATE>セラステス
+「まさかこいつ、ナーガ族のなれの果てか？
+　あたいも何百年かしたら、
+　こんなんなっちゃうのか……？」
+<PAUSE>
+<NAME_PLATE>俺
+「違うぜ。
+　こいつはバジリスク。ナーガ族の眷族だ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セラステス
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　セラステスが振り向くと、
+そこには新たなニンジャが三人。
+<PAUSE>
+<NAME_PLATE>
+　――いや、さっきのニンジャたちとは、
+何か少し様子が違う。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>6,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,h_t004c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>上原鹿之助
+「うわあなんだよあれ！！
+　超でっかいぞ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「目は見るなよ二人とも！
+　石になるぞ！」
+<PAUSE>
+<ACTOR>7,h_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>相州蛇子
+「分かってるわ！
+　だけどやりにくいわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（タコ化）
+<GROUP>
+<ACTOR>6,s_t001c,LEFT, LEFT, NONE, linear, 0
+<ACTOR>7,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+</GROUP>
+<NAME_PLATE>セラステス
+（若いのと、ビビってんのと、
+　……タコ……？）
+<PAUSE>
+<NAME_PLATE>蛇子
+「どうする？　ふうまちゃん」
+<PAUSE>
+<NAME_PLATE>俺
+「まずは仲間を助ける。
+　急いで治療すれば助かるはずだ」
+<PAUSE>
+<ACTOR>6,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「だけど、
+　あの蛇はどうするんだよ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「バジリスクの相手は、
+　俺とこの人がする」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>セラステス
+「え！？　あたい！？」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子と鹿之助、
+　二人は倒れている対魔忍たちの救出を頼む」
+<PAUSE>
+<ACTOR>6,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あのバカでっかい蛇の相手を、
+　この知らない人と！？
+　正気かよふうま！？」
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫、考えがあるんだ。
+　俺を信じろ！　早く行け！」
+<PAUSE>
+<ACTOR>7,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「了解！　あとでちゃんと説明してよね！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　二人はそう言うと、
+倒れているニンジャたちを担ぎあげ、
+出口に向かって走りだした。
+<PAUSE>
+<ACTOR>0,chr_t0115a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>セラステス
+「おい、誰だか知らないけど、
+　随分と適当な事を言ってくれるよな。
+　この化物と対峙してんのはあたいだぜ？」
+<PAUSE>
+<NAME_PLATE>
+　そう言いながら、セラステスは
+目の前の男を見定める。
+<PAUSE>
+<NAME_PLATE>
+　一瞬で状況を把握し、
+助かる見込みのある人間の救出を指示。
+<PAUSE>
+<NAME_PLATE>
+　それができるこの若者も、
+倒れた仲間を手早く救出していった二人も、
+どうやら只者ではない。
+<PAUSE>
+<NAME_PLATE>セラステス
+（だが、その割には、
+　まったく強者の匂いがしないぜ）
+<PAUSE>
+<NAME_PLATE>セラステス
+「あんた、弱いだろ。
+　なんで残った？」
+<PAUSE>
+<NAME_PLATE>
+　セラステスは単刀直入に聞いてみる。
+<PAUSE>
+<NAME_PLATE>俺
+「強いだけじゃ、あいつには勝てないからだ。
+　俺はふうま。あんたは？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「セラステス。傭兵だ。
+　なあ、あんたもニンジャなのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　ああ、そうだが」
+<PAUSE>
+<NAME_PLATE>セラステス
+「へへっ！　そうか！
+　それならまあ、いいや」
+<PAUSE>
+<NAME_PLATE>俺
+「？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「で、どうするんだよ？
+　こいつ、マジで攻撃が通じないぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「弾丸は通じないさ。たぶん俺の刃も。
+　この化け物を屈服させられるのは、
+　あんたの真の力だけだ」
+<PAUSE>
+<NAME_PLATE>セラステス
+「あたいの？」
+<PAUSE>
+<NAME_PLATE>俺
+「バジリスクの石化も毒も効かない――
+　セラステス、あんたはナーガ族なんだろ？」
+<PAUSE>
+<NAME_PLATE>セラステス
+「へえ！　随分と詳しいみたいだな。
+　気に入ったぜ。後で聞きたい事が山程ある。
+　だがまずは……」
+<PAUSE>
+<NAME_PLATE>
+　するとセラステスの下半身が変化し、
+半人半蛇のナーガ族本来の姿へと変化する。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,chr_t0019a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>セラステス
+「本気出してこいつを倒すか！」
+<PAUSE>
+//　※立ち絵
+//　　セラステス立ち絵
+//　　　＊恒常ガチャのHRセラステスのカード表イラストを流用
+<NAME_PLATE>俺
+「ああ、いくぞ！」
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

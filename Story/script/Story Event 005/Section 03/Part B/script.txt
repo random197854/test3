@@ -1,0 +1,494 @@
+//FileNo:S305a
+//シーン名：エピローグ
+//シーン説明：
+//【背景：町はずれの公園＿夜】【時間：夜】
+//　※カーラTheBloodLord＿nc001aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc131a,IN, 1000
+<NAME_PLATE>
+　町は避け峠を幾度も超え、
+俺達は五車から一番近い都市、
+まえさき市まで辿りついた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ふー、なんとか撒いたかしら」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>鹿之助
+「はあはあ、こんなに走ったの
+　久しぶりだな」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>0,h_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「途中、トラックの荷台に乗れたのは
+　助かったわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「仮面女め、傭兵まで雇ってるとは。
+　なんとしても“Ｇ”に正体を晒さずに、
+　沙耶を抹殺するつもりなんだな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>沙耶ＮＥＯ
+「うーん……」
+<PAUSE>
+//　　※立ち絵なし
+<NAME_PLATE>俺
+「もうすぐ五車だからな。
+　もう少し我慢してくれ」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドオオン！！！
+<PAUSE>
+<NAME_PLATE>俺
+「おわっ！？」
+<PAUSE>
+<NAME_PLATE>
+　考えごとをしていると、
+突然、目の前の地面に、
+空から火球が降ってきた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>鹿之助
+「うわあああ！？
+　な、なんだよ！？　隕石か！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「違うわ！　あいつよ！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（タコ化）
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>？？？
+「おーおー、チョロチョロ逃げおって！！」
+<PAUSE>
+<NAME_PLATE>
+　巻き上がる火の粉の中から、
+聞き覚えのある声が響く。
+<PAUSE>
+<ACTOR>2,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「けど残念やな！
+　アンタらはここで丸焼きや。
+　あ、沙耶ＮＥＯは返してもらうで」
+<PAUSE>
+//　※立ち絵
+//　　ヘスティア
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「ヘスティア……」
+<PAUSE>
+<NAME_PLATE>
+　現れたのは“Ｇ”の追っ手、ヘスティア。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「どうしてここが！？」
+<PAUSE>
+<NAME_PLATE>
+　工事現場での特殊兵士たちの動きといい、
+おそらく沙耶の体に発信器かなにかが
+仕込まれているのだろう。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうま！　どうするよ！
+　コイツ確か強いよな！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……」
+<PAUSE>
+<NAME_PLATE>
+　いちど戦った相手だ、データは持っている。
+だが、それはあちらも同じこと。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「なにボーっとしとるんや！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se090
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ボウッ！！
+<PAUSE>
+<NAME_PLATE>
+　しかし策を巡らせる間もなく、
+ヘスティアの炎が俺の足元を襲う。
+<PAUSE>
+<NAME_PLATE>俺
+「うわっ！？」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「お前が“アタマ”やったな。
+　最初に潰す！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se090
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ゴウッ！
+<PAUSE>
+<NAME_PLATE>俺
+「くっ！？」
+<PAUSE>
+<NAME_PLATE>
+　さらにもう一発。
+足場を奪われた俺はよろけて、
+沙耶を取り落としてしまう。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「もろたで！
+　丸焼きや！！！」
+<PAUSE>
+<NAME_PLATE>
+　ヘスティアの改造された腕に、
+再び炎が宿る。
+<PAUSE>
+<NAME_PLATE>俺
+（しまった――）
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ふうま！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装（電気あり）
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014_01
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ビジジジッ！！
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「痛ったぁ！？」
+<PAUSE>
+<NAME_PLATE>
+　間一髪、
+ヘスティアの腕を電気が走る。
+<PAUSE>
+<NAME_PLATE>
+　炎はあらぬ方向へ飛び、
+花壇の脇に生えた雑草を燃やした。
+<PAUSE>
+<ACTOR>0,h_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん！　沙耶ＮＥＯちゃん！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（タコ化）
+<NAME_PLATE>
+　蛇子のタコ足が伸びて、俺と沙耶を
+火の絨毯から助け出す。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>2,ts_m070a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヘスティア
+「なんやぁ？
+　相変わらず往生際の悪い奴らやな……」
+<PAUSE>
+<NAME_PLATE>
+　しかし、すぐに次の一撃が
+俺を狙っている。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「今度こそ潰したる！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、お、おい、待て！！
+　お、お、お、お前の相手は、
+　お、お、お、お、俺だ！！！」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「はあ！？」
+<PAUSE>
+<ACTOR>2,ts_m070a,CENTER, LEFT, NONE, linear, 700
+<GROUP>
+<SE_PLAY>se003
+<ACTOR>1,s_t002d,RIGHT, RIGHT, IN, linear, 700
+</GROUP>
+<NAME_PLATE>
+　どーん。
+<PAUSE>
+<NAME_PLATE>
+　と、ヘスティアの前に飛び出したのは、
+なんと鹿之助である。
+<PAUSE>
+<NAME_PLATE>
+　震えているように見えるのは、
+身体にまとわせた電気のせい、
+だけではあるまい。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「ん？　この前ヘボな手裏剣よこした
+　ガキやないかい」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「今度こそ燃やされたいんか？　あ？」
+<PAUSE>
+<ACTOR>1,s_t002h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひいいっ……」
+<PAUSE>
+<ACTOR>1,s_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「い、いや！
+　こ、今度こそ倒してやるんだからな！
+　かかか覚悟しろよ！？」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はじりじりと後ずさりながらも、
+視線だけはきっとヘスティアを睨む。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「蛇子！
+　ふうまと沙耶ＮＥＯの護衛をたのむ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「わ、わかった……
+　でも足震えてるわよ鹿之助ちゃん！？」
+<PAUSE>
+<ACTOR>1,s_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「お、男には戦う時ってのがあるんだああ！」
+<PAUSE>
+<NAME_PLATE>
+　カッコいいことを言っているが、
+顔は泣きべそ、
+足はガクガク状態である。
+<PAUSE>
+<NAME_PLATE>蛇子
+「鹿之助ちゃん、
+　カッコ良さそうでかっこ悪いわ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「う、うるしゃいぞおおお！！！」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「なんや、ちょっとオモロいガキやないか。
+　気合い入れて吹っ飛ばしたるわ！！！」
+<PAUSE>
+<SE_PLAY>se015
+<NAME_PLATE>
+　ゴオオオオオオ！！
+<PAUSE>
+<NAME_PLATE>
+　ヘスティアの手が、
+今までで最大の火を充填する。
+<PAUSE>
+<ACTOR>1,s_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひいいっ！
+　い、いや、負けないからなあ！」
+<PAUSE>
+<SE_PLAY>se030_01
+<NAME_PLATE>
+　バチバチッ！！
+<PAUSE>
+<NAME_PLATE>
+　負けじと鹿之助は電気を纏った。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「ふん、懲りんやっちゃなあ。
+　そんなん効かんて、この前も
+　……っ！！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「バッテリー・オン！
+　くらえ、
+　“バンビーノ・スパーク”っっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装（小鹿）
+<GROUP>
+<SE_PLAY>se030_01
+<ACTOR>1,s_t005c,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_PRIORITY>2, 10
+</GROUP>
+<NAME_PLATE>
+　ヘスティアの炎が放たれるより早く、
+パワーアップされた電気の小鹿が、
+ヘスティアに襲いかかる。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「わははは！
+　なんやそれ！　おもろいな！
+　電気の鹿か！」
+<PAUSE>
+<NAME_PLATE>
+　ヘスティアは鹿之助の術を舐め切り、
+余裕で笑って見ていた。
+<PAUSE>
+<ACTOR>1,s_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「いけ、腕だっ！」
+<PAUSE>
+<NAME_PLATE>
+　小鹿の姿をなしたそれは、
+ヘスティアのアームに飛び込んだ。
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「なんや、こんなもんで、
+　うちのサイボーグアームがなあ……」
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+</GROUP>
+<NAME_PLATE>
+　バヂィッ！！
+<PAUSE>
+<NAME_PLATE>
+　サイボーグアームから派手な火花が散る。
+<PAUSE>
+<NAME_PLATE>
+　それは一瞬で終わり、
+なんの傷もないように見えたが――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヘスティア
+「あががっ！？　腕がぁ！？
+　何してくれとんねんこのクソガキャァ！」
+<PAUSE>
+<ACTOR>1,s_t005b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ふー、はー」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「って息あがっとんのかい！」
+<PAUSE>
+<ACTOR>1,s_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「せ、静電気ってのは電流は弱いけど、
+　電圧はすっごい高いんだからな！！」
+<PAUSE>
+<NAME_PLATE>
+　一瞬とはいえ、高圧の電気を受けた
+機械仕掛けの腕はショートし、
+武器としての機能を失っていた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「だから機械を扱う時、
+　静電気は絶対禁物なんだ！　ぞ！」
+<PAUSE>
+<NAME_PLATE>ヘスティア
+「く、ビックリさせおって……
+　ええわ！　お前なんか足で充分や！」
+<PAUSE>
+<ACTOR>1,s_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ふ、ふうま！　なにしてるんだ！
+　先に行けよ！　早く！」
+<PAUSE>
+<NAME_PLATE>俺
+「だけど……」
+<PAUSE>
+<ACTOR>1,s_t005e,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「いーいーかーらあああ！！！
+　男は男に任せるもんだろ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、わかった。
+　死ぬなよ鹿之助」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<BG_OUT>1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　あまりに必死な鹿之助の剣幕に押され、
+俺達はその場から走りだした。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：五車町への田舎道＿夜】【時間：夜】
+//　※MonstersSurvive_nc004cより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc113b,IN, 1000
+<NAME_PLATE>
+　すっかり夜も更けてきた。
+俺達は月明かりだけを頼りに、
+街灯もない旧道を走っていた。
+<PAUSE>
+<NAME_PLATE>
+　この道の脇に、
+隠された登山口がある。
+それが五車へと続く山への入り口だ。
+<PAUSE>
+<ACTOR>0,h_t004g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「鹿之助ちゃん大丈夫かしら」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装（タコ化）
+<NAME_PLATE>俺
+「ビビリのあいつが作ってくれたチャンスだ。
+　なんとしても沙耶を、
+　五車まで連れ帰るぞ」
+<PAUSE>
+<ACTOR>0,h_t004e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうね、了解！
+　って待ってふうまちゃん！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子がさっと俺を制止して、
+タコ足の先を指差す。
+吸盤センサーが何かを察知した合図だ。
+<PAUSE>
+<ACTOR>0,h_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そこの岩陰の人！
+　出てきなさいっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>3,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「ふう。やっと現れたわね。
+　“Ｇ”の連中に殺されたかと思ったわ」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「秋津……！！」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section３終了

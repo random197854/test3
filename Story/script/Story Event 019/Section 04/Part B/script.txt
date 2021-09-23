@@ -1,0 +1,268 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：センザキ神社裏参道＿昼】【時間：朝】
+//　※輪姦倶楽部＿nc002bより流用
+//nc378a
+<BGM_PLAY>bgm313,1000
+<BG>nc378a,IN, 1000
+<ACTOR>0,s_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「新年早々、喧嘩すんなよな！
+　電遁の術・スパーク！！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち絵＿制服衣装
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,s_t007f,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシイッ！
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の電遁を足に受け、
+サーフショップの男たちが一斉に転ぶ。
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>チンピラ１
+「うわっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>チンピラ２
+「いってえ……
+　つか、このガキどっかで……」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵
+//　　　　＊モンスターイラストを流用
+<ACTOR>0,s_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「俺もなーんかお前らと戦うのは
+　初めてじゃないような気がするんだけど、
+　よく思い出せないんだよね……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc378a,IN, 500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、センザキの地元ギャングたちは。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガッ！！
+<PAUSE>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「おらおら！　喧嘩両成敗だ！」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>センザキのギャング
+「げげっ、金崎銃兵衛さん！？」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（男）
+//　　　　＊モンスターイラストを流用
+//　　アサシン
+//　　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「何だか知らねえが、こっちはセンザキあげて
+　正月を盛り上げてんだよ。
+　喧嘩は三が日明けてからにしてくれや」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>センザキのアサシン
+「す、すいません銃兵衛さん！」
+<PAUSE>
+<NAME_PLATE>センザキ
+「くそ、銃兵衛さんが後ろ盾にいたのかよ……
+　相手が悪い、逃げろ！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　さすがセンザキの顔役だけある。
+地元のギャングたちは銃兵衛を見ただけで、
+顔色を変えて逃げていった。
+<PAUSE>
+<NAME_PLATE>俺
+「さすがだな……」
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,ts_m190b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タツヤ先輩
+「すんません、助かりました！」
+<PAUSE>
+//　※立ち絵
+//　　タツヤ先輩＿異形化
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　片隅で必死に弟分たちを諫めていた
+タツヤ先輩がズルズルと進み出て、
+銃兵衛に頭……のあたりを下げる。
+<PAUSE>
+<ACTOR>0,ts_m190b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m097a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「あ、相変わらず不気味だな……」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「しかしお前らも頑固だな。
+　いい加減何企んでんのか言えよ？
+　事によっちゃ協力してやるが……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>タツヤ先輩
+「何も企んでないっす！」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「俺たちセンザキの皆さんに
+　愛されるいいサーフショップを
+　作り上げて……」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「『初心者もベテランも大歓迎！
+　充実の品揃えとサポート体制で、
+　皆様のマリンライフをお手伝い！』」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「……したいんすけど、
+　毎日あいつらが来るもんで、
+　開店休業状態で……」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「せめて神頼みでもと思って、
+　辛丑拝みに行くとこだったんです」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「はあ……そのナリじゃ無理もねえよなあ。
+　つか話してみると案外まともだな。
+　人間ってマジなのか」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「あざっす！
+　色々あって今はマジメっす！」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「……けど、センザキの皆さんの
+　迷惑になるっつんなら、
+　撤退した方がいいのかなあ……」
+<PAUSE>
+<NAME_PLATE>
+　その見た目に反して、
+真剣に語るタツヤ先輩の姿に、
+銃兵衛も心動かされたのか。
+<PAUSE>
+<NAME_PLATE>
+　銃を下ろし、やれやれと
+肩をすくめてみせる。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「……ま、
+　やるだけやってみたら」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「どうも俺がバックについてるって
+　思いこんだみたいだし、
+　当分あいつらも店には来ねえだろ」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「マジすか！
+　ありがとうございます！」
+<PAUSE>
+<NAME_PLATE>タツヤ先輩
+「お詣りする前から
+　ご利益があったってもんだな。
+　おいお前ら起きろ！　行くぞ」
+<PAUSE>
+<NAME_PLATE>チンピラ１
+「へ、へい」
+<PAUSE>
+<NAME_PLATE>チンピラ２
+「いてて……まだ足痺れてるぜ」
+<PAUSE>
+//　　※ここでは手下二人は座り込んでるので立ち絵なし
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　タツヤ先輩は、電撃でへたりこんだ
+手下たちを無理やり起こすと、
+本殿の方へズルズルと去っていく。
+<PAUSE>
+<ACTOR>1,ts_m097a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>銃兵衛
+「……なんつうか、
+　確かに悪い奴じゃなさそうだな……」
+<PAUSE>
+<ACTOR>1,ts_m097a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,s_t003e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うん、悪い奴じゃないはずなんだけど、
+　なんでそう思うのか、
+　どうしても思い出せないんだよな……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助もまた不思議そうに、
+奴らの後ろ姿を眺めている。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>銃兵衛
+「ま、トラブルさえなきゃいいさ。
+　行くぞ、辛丑はもうすぐだぜ」
+<PAUSE>
+//【背景：センザキ神社裏参道＿昼】【時間：朝】
+//　※輪姦倶楽部＿nc002bより流用
+//nc378a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc378a,IN, 1000
+<ACTOR>0,ts_m203a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ミスター・フール
+「ああびっくりした……
+　なんだ今の奇っ怪な奴は」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ミスター・フール
+「しかし……ククク、
+　やっと辛丑にお目にかかれそうだ……」
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

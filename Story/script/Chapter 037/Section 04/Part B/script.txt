@@ -1,0 +1,1341 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：ベオウルフの館＿外観＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc003aより流用
+//nc442b
+<BGM_PLAY>bgm313,1000
+<BG>nc442b,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m031a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m030a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>門番
+「貴様、やる気か！」
+<PAUSE>
+//　※立ち絵
+//　　羅刹オークロード
+//　　　＊モンスターイラストより流用
+//　　羅刹オーク
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　リーナが抜刀したのを見て、
+門番たちは気色ばんだ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「お前たちが力尽くで入れと言ったんだろう。
+　やっぱり普通に入れてくれるのか？」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>門番
+「ふざけるな！
+　どこの馬の骨とも分からぬ輩が！」
+<PAUSE>
+<NAME_PLATE>門番
+「痛い目に遭わせてやらあ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　門番たちは大斧を構えて
+リーナに振り下ろしてきた。
+<PAUSE>
+<BG>nc442b,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ふうん」
+<PAUSE>
+<NAME_PLATE>
+　相手は羅刹オーク。
+<PAUSE>
+<NAME_PLATE>
+　魔界に住むオーク氏族の中でも
+頂点に立つという凶暴な戦士の氏族だが、
+<PAUSE>
+<NAME_PLATE>
+　イングリッドの右腕として
+日々闘いを繰り返しているリーナからすれば
+ずいぶんとぬるい攻撃だった。
+<PAUSE>
+<NAME_PLATE>リーナ
+「パワーはあるがキレがないな。
+　それじゃノマドの門番は任せられないな」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　ひょいひょいと斧を躱しながら、
+感じたことをそのまま口にする。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m031a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m030a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>門番
+「なにっ！？」
+「ノマドだと！？　貴様いったい！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私はノマドの魔界騎士だ。
+　てやっ、そいやっっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシバシッ！！
+<PAUSE>
+<NAME_PLATE>門番
+「ぐふっっ！！」
+「ま、魔界騎士……だと……？」
+<PAUSE>
+<SE_PLAY>se024
+<NAME_PLATE>
+　風の魔力を使うほどのこともなく、
+カルメラをも驚かせた剣速による峰打ちで
+あっさり門番たちを昏倒させる。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「さて、入るか」
+<PAUSE>
+//【背景：ベオウルフの館＿廊下＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc012aより流用
+//nc444a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc444a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　門番を打ち倒して、
+館に入ったリーナだったが、
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ベオウルフ様はどこだろう？
+　このまま勝手に歩き回ると
+　あらぬ誤解を受けそうだな」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ふとそのことに気づいて、
+廊下で立ち止まる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m155a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m091a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m017a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>女三人組
+「ええーー？　それって本当？」
+「直接聞いたから間違いない」
+「それはたまんないわね」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（女）
+//　　　＊モンスターイラストより流用
+//　　サキュバス
+//　　　＊モンスターイラストより流用
+//　　魔女
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　向こうから剣士とサキュバスと魔女の
+女三人組が楽しげに話しながら歩いてくる。
+<PAUSE>
+<NAME_PLATE>
+　ちょうどいい。聞いてみよう。
+<PAUSE>
+<NAME_PLATE>リーナ
+「あーー、ちょっとすまないが」
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女三人組
+「なっ！？」
+「おまえ何者だっ！？」
+「誰の許しを得てここに入った！」
+<PAUSE>
+<NAME_PLATE>
+　リーナを見て三人はさっと顔色を変えた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「あ、いや違う。
+　別に怪しい者じゃない。
+　私はベオウルフ様に会いに来たんだ」
+<PAUSE>
+<NAME_PLATE>剣士
+「なにっ？　刺客かっ！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ええっ？　そうじゃない」
+<PAUSE>
+<NAME_PLATE>サキュバス
+「よくもノコノコと！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ちょっと待ってくれ、話を―――」
+<PAUSE>
+<NAME_PLATE>魔女
+「問答無用！」
+<PAUSE>
+<NAME_PLATE>
+　駄目だ。聞く耳を持たない。
+<PAUSE>
+<NAME_PLATE>
+　剣士は迷わず抜刀して走り出し、
+サキュバスは鞭を手に飛んでくる。
+<PAUSE>
+<NAME_PLATE>
+　その後ろから魔女が
+瘴気の矢を幾つも放ってきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「うーん、困ったな」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　リーナは仕方なく剣を抜き、
+とりあえず瘴気の矢を風で切り払った。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　次いでリーナの手前、
+５メートルくらいまで近づいてきた
+サキュバスの鞭をバックステップで躱す。
+<PAUSE>
+<NAME_PLATE>
+　さらに剣士のたたみかけるような
+斬り込みを剣で右に左に受け流した。
+<PAUSE>
+<NAME_PLATE>
+　そして傷つけるつもりは
+少しもなかったが、
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「たあっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　大振りの薙ぎ払いで剣士を後ろに引かせ、
+自分も大きく距離を取った。
+<PAUSE>
+<BG>nc444a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m155a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m091a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m017a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>女三人組
+「こいつっ！」
+「やるっ！」
+「いったい何者っ！？」
+<PAUSE>
+<NAME_PLATE>
+　女たちはさっきの門番より手練れで、
+三人がかりの連係攻撃も巧みだった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　と、その攻撃をさばきながら
+評価するだけの余裕が今のリーナにはある。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「しょうがない。
+　すこし大人しくしてくれ。
+　チェリーバインド！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　話を聞いてもらうために
+リーナはサクラブロッサムを一閃させた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パッと舞い上がった大量の花びらが
+三人の身体にビッシリと張り付いて、
+その動きを止めた。
+<PAUSE>
+<BG>nc444a,IN, 500
+<NAME_PLATE>女三人組
+「駄目だ、動けない！」
+「桜の花びら？」
+「なんだこの力は！？」
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「すまない。
+　私はノマドの魔界騎士の―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ちゃんと説明しようとしたところで、
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m023a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>衛兵
+「あそこにいたぞ！！」
+「逃がすな！！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵(男)
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<NAME_PLATE>
+　衛兵がどっと集まってきた。
+やはり聞く耳は持たなそうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「私はリーナ！
+　ノマドの魔界騎士だ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　とりあえずそれだけ叫んで、
+リーナはその場を逃げ出した。
+<PAUSE>
+//【背景：ベオウルフの館＿廊下２＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc002aより流用
+//nc445a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc445a,IN, 1000
+<ACTOR>0,ts_m043a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ハイオーク
+「この曲者が！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>リーナ
+「だからそうじゃない！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ベシッッ！！
+<PAUSE>
+<SE_PLAY>se023
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>ハイオーク
+「ぐふっっ！！」
+<PAUSE>
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>闇の従者
+「ベオウルフ様のもとに
+　行かせるわけにはまいりません！」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>リーナ
+「ちょっと話を聞いてくれ！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バシッッ！！
+<PAUSE>
+<SE_PLAY>se023
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>闇の従者
+「がっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　もう完全に侵入者扱いだ。
+<PAUSE>
+<NAME_PLATE>
+　襲いかかってくる相手を
+仕方なく峰打ちで次々倒しながら、
+リーナは館を彷徨っていた。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「まいったなあ。
+　こんなつもりじゃなかったんだが。
+　誰か話の分かる相手は―――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「曲者！
+　狼藉はそこまでです！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「またか……」
+<PAUSE>
+<ACTOR>1,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アデルハイト
+「リーナ！？」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵
+//　　　＊キャラクターイラストより流用
+<ACTOR>1,ts_m277a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「あっ、ハイジ！」
+<PAUSE>
+<NAME_PLATE>
+　やっと知った顔が現れた。
+<PAUSE>
+<NAME_PLATE>
+　しっかり剣を抜いているが、
+リーナを見て唖然としている。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「こんな所で何をしてるのですか？
+　あなたを名乗る者が侵入したと聞きましたが、
+　まさか本当にあなただったとは！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>リーナ
+「違うんだ。
+　ちょっと話を聞いてくれ！」
+<PAUSE>
+//【黒画面】
+//　※かくかくしかじかの間
+//【背景：ベオウルフの館＿廊下２＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc002aより流用
+//nc445a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc445a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>アデルハイト
+「まったく。
+　なにをやっているのですか」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器なし）
+//　　　＊キャラクターイラストより流用
+<NAME_PLATE>アデルハイト
+「そんなことをしたら
+　曲者扱いされるのは当然です。
+　あなたという人はほんとにもう」
+<PAUSE>
+<NAME_PLATE>
+　リーナの話を聞いたアデルハイトは
+心底呆れたという顔をしていた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「そういうつもりじゃなかったんだが
+　門番が力尽くで入ってみろと……」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「そんな挑発に乗ってどうしますか」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「あの二人は無作法者ですが、
+　イングリッド様から頂いた紹介状を渡せば
+　それを無視するようなことはありません」
+<PAUSE>
+<NAME_PLATE>リーナ
+「すまない」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「……はあ、分かりました。
+　わたくしがベオウルフ様のもとに
+　お連れします」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ありがとう。助かる。
+　大変なことになって困ってたんだ」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それはこちらのセリフです。
+　リーナのおかげで
+　てんやわんやの大騒ぎです」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ごめん」
+<PAUSE>
+<NAME_PLATE>
+　反省して小さくなるリーナを見て、
+アデルハイトはやれやれと首を振った。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「この館にいる者を次々と、
+　それも殺さずに倒しながら歩き回るなど」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「そんな馬鹿なことをするのも、
+　できるのもあなたくらいです」
+<PAUSE>
+<NAME_PLATE>
+　と溜息を吐いたが、
+一方でリーナの目的を知って
+感心したように言った。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それにしても原初の魔界騎士の試練とは。
+　わたくしも話だけは知っていましたが、
+　あえてそれを目指すとはリーナらしいですね」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「確か試練を受けるためには、
+　三人の魔界騎士に認めて貰う必要があるとか。
+　ベオウルフ様、イングリッド様、それから」
+<PAUSE>
+<NAME_PLATE>リーナ
+「カルメラ様の所になら行ってきたぞ。
+　認可の魔法もかけてもらった。
+　イングリッド様には出るときにな」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ではベオウルフ様が最後の一人ですね。
+　原初の魔界騎士の試練への志願者、
+　きっとお喜びになるに違いありません」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトはそう言ってくれたのだが、
+<PAUSE>
+//【背景：ベオウルフの館＿私室＿昼】【時間：昼】
+//　※エルフ姫ニィーナ＿nc016aより流用
+//nc446a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc446a,IN, 1000
+<ACTOR>0,ts_m279a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ベオウルフ
+「ふうん。
+　原初の魔界騎士の試練をね。
+　今どき物好きだね」
+<PAUSE>
+//　※立ち絵
+//　　ベオウルフ＿立ち絵（武器なし）
+//　　　＊キャラクターイラストより流用
+<NAME_PLATE>
+　リーナから話を聞き、
+イングリッドの招待状を見せても、
+ベオウルフはあまり興味がなさそうだった。
+<PAUSE>
+<ACTOR>0,ts_m279a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「そうですか？」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>ベオウルフ
+「残念ながら栄誉ある魔界騎士も
+　世俗の埃にまみれて久しい」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「イングリッドはそんな魔界を
+　さっさと見限ったけれど、
+　私はそんな気概もない」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「こうやって領地に引きこもって
+　しがない隠遁生活さ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうなんですか……」
+<PAUSE>
+<NAME_PLATE>
+　自嘲するようなベオウルフに
+リーナは戸惑いを隠しきれなかった。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m279a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　赤い瞳に銀色の長い髪、
+鍛え上げられた身体はとても格好いいが、
+全体的に気怠げな雰囲気を纏っている。
+<PAUSE>
+<NAME_PLATE>
+　昨夜、町の人たちが言っていたように、
+竜殺しのイメージからはちょっと違う。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「竜殺しの英雄がこんな有様で
+　がっかりしたかい？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「いえ、そんなことはありません！」
+<PAUSE>
+<NAME_PLATE>
+　気持ちを見透かされてしまい、
+リーナは慌てて首を振ったが、
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「別にいいさ。
+　とにかく事情は理解したよ。
+　手紙にも『君のことをよろしく』とある」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「私の認可が欲しいならあげるよ。
+　イングリッドとカルメラが認めたんだ。
+　今さら私が見る必要もないだろう」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>リーナ
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　いきなり魔法をかけ始めるベオウルフに
+リーナはさらに困惑し、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m279a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アデルハイト
+「ベオウルフ様！！」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器なし）
+//　　　＊キャラクターイラストより流用
+<NAME_PLATE>
+　少し前から険しい顔でプルプルしていた
+アデルハイトは我慢できなくなったように
+大声を出した。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「なんだい？
+　いきなり大きな声を出して」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「わたくしがっかりしました。
+　心底がっかりしました」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「リーナは自分を見てもらうために
+　ベオウルフ様に会いに来たのですよ。
+　なのに、なんですかその態度は！」
+<PAUSE>
+<NAME_PLATE>
+　師匠であるベオウルフを
+思いきり怒鳴りつける。
+<PAUSE>
+<NAME_PLATE>リーナ
+「いや、ハイジ
+　別に私のことはどうでも……」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「いえ、言わせてください」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「ハイジ？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「いいですか、ベオウルフ様。
+　親友のイングリッド様の頼みを
+　そんな風にいい加減にすませるとは」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それでも魔界騎士ですか、
+　“竜殺しのベオウルフ“ですか。
+　わたくし弟子として恥ずかしいです！」
+<PAUSE>
+<NAME_PLATE>
+　ものすごい剣幕だ。
+リーナはイングリッドにこんな態度を
+とったことはない。驚いた。
+<PAUSE>
+<NAME_PLATE>
+　言われたベオウルフは
+むしろそれを面白がっている風だった。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「君がそんなに他人のために
+　ムキになるなんて珍しいね。
+　彼女は君のなんなんだい？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ライバルです」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「ライバル？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「互いに真の魔界騎士を目指すライバル。
+　そして大切な友人です」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「そうなのかい、リーナ？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「はい、そうです」
+<PAUSE>
+<NAME_PLATE>
+　リーナが頷くと、
+ベオウルフは合点がいったような顔になり、
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m279a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ベオウルフ
+「なるほどね」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「アデルハイトが人間界から帰ってきて
+　少し変わったと思っていたけれど
+　君のおかげか」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「ではちゃんと実力を見てあげよう。
+　私の目の前でアデルハイトと戦ってくれ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「え？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「リーナと私が？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m279a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「ライバルならできるだろう？
+　君が私やイングリッドに続くに足る者か
+　見定めさせてもらうよ」
+<PAUSE>
+//【背景：ベオウルフの館＿大広間＿昼】【時間：昼】
+//　※女剣闘士ミネルヴァ_nc005aより流用
+//nc447a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc447a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　立ち会いは大広間で行うことになった。
+<PAUSE>
+<NAME_PLATE>
+　リーナとアデルハイトは
+そこでベオウルフが来るのを待っていた。
+<PAUSE>
+<NAME_PLATE>
+　二人が戦うのを見たいと言った後、
+急にちょっと用を思い出したと、
+どこかに行ってしまったのだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「ベオウルフ様は
+　なにをなさっているのだろうか？」
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>アデルハイト
+「さあ、なにを考えているのか
+　よく分からないお方ですから」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器なし）
+//　　　＊キャラクターイラストより流用
+<NAME_PLATE>
+　まだちょっと怒っているような顔の
+アデルハイトだったが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「やあ、待たせたね。
+　これをどこにしまったのか忘れていてね」
+<PAUSE>
+//　※立ち絵
+//　　ベオウルフ＿立ち絵
+//　　　＊キャラクターイラストより流用
+<NAME_PLATE>アデルハイト
+「……っ！」
+<PAUSE>
+<NAME_PLATE>
+　ベオウルフがそう言いながら姿を現した途端、
+瞠目し、全身を緊張させた。
+<PAUSE>
+<NAME_PLATE>
+　竜殺しの魔界騎士は槍の穂先が
+赤熱している刃になった黒いグレイブを
+手にしていた。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ブラッディグレイブ……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ブラッディグレイブ？」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「竜殺しの武器です。
+　あの赤く禍々しい刃は倒した竜の生き血を
+　吸ってあれほどまでに輝いているとか」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ベオウルフ様があれを手にするのを見るのは、
+　本当に久しぶりです」
+<PAUSE>
+<NAME_PLATE>
+　その圧倒的なプレッシャーに
+アデルハイトはブルッと身震いした。
+<PAUSE>
+<NAME_PLATE>
+　もちろんリーナもそれは感じていたが、
+そういう自分を圧倒するすごい人物なら
+いつも見ている。
+<PAUSE>
+<NAME_PLATE>
+　だから逆に今までのモヤモヤした気持ちが
+ようやく消えていくのが分かった。
+<PAUSE>
+<ACTOR>0,ts_m279b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「ベオウルフ様、とても格好いいです！」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「そうかい？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様がダークフレイムを
+　持っている時のように決まっています。
+　すごく魔界騎士って感じです！」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「はは、それは光栄だね」
+<PAUSE>
+<NAME_PLATE>
+　リーナの反応を
+ベオウルフは面白がっているようだった。
+<PAUSE>
+<NAME_PLATE>
+　そしてリーナの佩刀を見て尋ねる。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「その剣はサクラブロッサムだね。
+　君はもうその真の力を引き出せるのだろう？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい、この前ハイジと一緒に
+　魔界ブローカーのアザンを倒した時に
+　できるようになりました」
+<PAUSE>
+<NAME_PLATE>リーナ
+「今すぐやりましょうか？」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「それには及ばないよ。
+　では真の力は使わないでもらおうかな。
+　それくらいのハンデはいるだろうしね」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アデルハイト
+「そんな、ベオウルフ様！」
+<PAUSE>
+<NAME_PLATE>
+　ハンデありの勝負と聞いて、
+アデルハイトが異議を唱えようとしたが、
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「彼女はイングリッドに魔界騎士を
+　名乗ることをもう許されている」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「君はそうではない。
+　その違いさ、アデルハイト」
+<PAUSE>
+<NAME_PLATE>
+　ベオウルフは反論を許さない
+クールな口調で言った。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「……分かりました」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アデルハイトは己の未熟を恥じるように頷き
+だがリーナに対しては真っ直ぐな目で一礼し、
+その剣を抜いた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アデルハイト
+「リーナ、よろしくお願いします」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵
+//　　　＊キャラクターイラストより流用
+//　※剣を抜く
+<NAME_PLATE>リーナ
+「お願いします」
+<PAUSE>
+<NAME_PLATE>
+　リーナも一礼して
+サクラブロッサムをすらりと抜く。
+<PAUSE>
+//　※立ち絵
+//　　【桜嵐舞闘】リーナ＿立ち絵
+//　　　＊カードイラストより流用
+//　※二人左右に並べてください。
+<NAME_PLATE>
+　ベオウルフが見ている前で、
+二人は対峙した。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　剣を頭上に天高く掲げた
+リーナの変則的な構えに対し、
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトはサウスポーながら
+剣をやや下後方に引き、盾をしっかり掲げた
+基本に忠実な構えた。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「始め」
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>アデルハイト
+「では、まいります」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se003
+<NAME_PLATE>
+　先に動いたのはアデルハイトだった。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一切の迷いのない踏み込みから、
+リーナに鋭く斬り込んできた。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se098
+<NAME_PLATE>アデルハイト
+「はっ！　はっっ！　はああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　斬り上げ、打ち下ろし、
+薙ぎ払い、そして突き。
+<PAUSE>
+<NAME_PLATE>
+　今日ここで相手をした誰よりも速く、
+そして正確な攻撃だ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「たあっ、とわっ、なんのっ！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc447a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　スピードに乗ったその連続技を
+リーナはトリッキーな動きでことごとく躱す。
+<PAUSE>
+<NAME_PLATE>リーナ
+「お返しにいくぞ！
+　てやっ、そいやっ、たああっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　斬り返しの連続攻撃。
+<PAUSE>
+<NAME_PLATE>
+　まだ風は使わない。
+剣の速さと技だけで攻め込んでいく。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「くっ！　はっ！　やあっっ！」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギインッ、ギインッ、ギインッ！
+<PAUSE>
+<NAME_PLATE>
+　その構え同様、右に左に上に下に
+変則的に繰り出される攻撃を
+アデルハイトは剣と盾で見事に捌く。
+<PAUSE>
+<BG>nc447a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「ハイジやるな！
+　この前より上手くなっているぞ！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「それはお互い様です、リーナ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　挨拶代わりに技を交換して、
+二人はさっと距離を取った。
+<PAUSE>
+<ACTOR>0,ts_m279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+（いい動きだ。
+　一見、でたらめな我流のようだが、
+　実戦で磨き上げられている）
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+（イングリッドが送ってくるはずだ。
+　悔しいが師としては負けているな）
+<PAUSE>
+<NAME_PLATE>
+　だがそれは始める前から
+おおよそ分かっていたことだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　武装したベオウルフの姿を見て、
+アデルハイトは気圧されていたが、
+リーナは目をキラキラさせていた。
+<PAUSE>
+<NAME_PLATE>
+　それでいて油断もしていなかった。
+あんな反応をされたのは初めてだ。
+<PAUSE>
+<ACTOR>0,ts_m279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「アデルハイト、本気を出したまえ」
+<PAUSE>
+<NAME_PLATE>
+　竜殺しの魔界騎士は愛弟子に言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m277a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「はいっ！」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（魔眼）
+//　　　＊キャラクターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>1,ts_m277c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　その右目が光を放ち始める。
+<PAUSE>
+<NAME_PLATE>リーナ
+「魔眼か！」
+<PAUSE>
+<NAME_PLATE>
+　彼女の一族に代々伝わる力だ。
+<PAUSE>
+<NAME_PLATE>
+　家を興した始祖は
+あらゆる敵の急所を瞬時に見抜き、
+すべて一撃で倒したという。
+<PAUSE>
+<NAME_PLATE>
+　もちろんアデルハイトに
+まだそこまでの力はないが、
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「わたくしのこの魔眼、
+　あなたの弱点を全て見通しています！」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+（全てとは大きく出たね。
+　それだけ本気ということか。
+　本当にいい友人を得たようだね）
+<PAUSE>
+<ACTOR>1,ts_m277c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「なら来い！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「参ります！
+　ブラッディレイドッ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アデルハイトの魔眼がひときわ強く輝き、
+超高速の連続突きが繰り出された。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「やああああああああああああっっ！！」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+（むっ……これなら……！？）
+<PAUSE>
+<NAME_PLATE>
+　その予想以上の鋭さに
+師であるベオウルフも瞠目したが、
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「とわあああああああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　リーナはまるでどこを攻められるのか
+分かっていたかのように全て剣でいなし、
+<PAUSE>
+<NAME_PLATE>リーナ
+「てやああっ！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビシュッ！
+<PAUSE>
+<NAME_PLATE>
+　反撃に繰り出した旋風が
+アデルハイトの手から剣を吹き飛ばした。
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「あっっ！」
+<PAUSE>
+<NAME_PLATE>
+　床に落ちた剣が
+甲高い音を立てて転がった。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc447a,IN, 500
+<ACTOR>0,ts_m279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「そこまで！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リーナの勝ちだ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m277a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「ありがとうございました！」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「ありがとうございました」
+<PAUSE>
+<NAME_PLATE>
+　アデルハイトは一礼すると、
+すっきりしたような顔で言った。
+<PAUSE>
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アデルハイト
+「わたくしのブラッディレイド、
+　見せるのは初めてでしたのに
+　見事にいなされてしまいました」
+<PAUSE>
+//　※立ち絵
+//　　アデルハイト＿立ち絵（武器なし）
+//　　　＊キャラクターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「アデルハイトも正直に攻めすぎたけれど、
+　君はイングリッドに弱点を攻められることに
+　慣れているのじゃないか？」
+<PAUSE>
+<ACTOR>0,ts_m279b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「仰る通りです
+　なにしろ私は弱点だらけですから」
+<PAUSE>
+<NAME_PLATE>
+　率直すぎる言い回しに
+ベオウルフは噴き出した。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「あははは。確かにそうだが。
+　それでその強さか、素晴らしいね。
+　イングリッドはそんな君になんと？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「弱点はむろん直すべきだが、
+　そこを攻められ慣れていれば
+　むしろ有効な反撃に繋がると」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「まさにそれを体現していたね。
+　あの最強の魔界騎士と比べられては
+　いかに君の魔眼でも敵うはずがないよ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m277b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アデルハイト
+「だとしても
+　わたくしは今のリーナに真っ直ぐに
+　全力でぶつかりたかったのです」
+<PAUSE>
+<NAME_PLATE>
+　その通り、真っ直ぐな弟子の言葉に
+ベオウルフは満足げに頷いた。
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「見ていてそれが分かったよ。
+　気持ちのいい闘いだった」
+<PAUSE>
+<NAME_PLATE>アデルハイト
+「はい」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「さて、リーナ。
+　改めて君に原初の魔界騎士の試練を
+　受ける資格ありと認めさせてもらうよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ありがとうございます」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ベオウルフはリーナに魔法をかけながら
+こんなことを言った。
+<PAUSE>
+<ACTOR>0,ts_m279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ベオウルフ
+「原初の魔界騎士の祭壇は
+　アウルボザ山の山頂にある。
+　無論険しい道のりだ」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「イングリッドの薫陶をうけた君に
+　今さら私が言うこともないのだけれど、
+　一つだけ助言を与えておこう」
+<PAUSE>
+<NAME_PLATE>ベオウルフ
+「『真の魔界騎士になるためには
+　誰よりも自分に勝たなければならない』
+　それを覚えておくといいよ」
+<PAUSE>
+<NAME_PLATE>
+　それが三人目の魔界騎士、
+竜殺しのベオウルフがくれた
+励ましの言葉だった。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

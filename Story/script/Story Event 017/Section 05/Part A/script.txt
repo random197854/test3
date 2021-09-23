@@ -1,0 +1,285 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+<NAME_PLATE>
+　そして、話は現在に戻る――。
+<PAUSE>
+//【背景：センザキ＿繁華街１＿夜】【時間：夜】
+//　※対魔忍紅_NC004aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc061a,IN, 1000
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯ！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン王
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<NAME_PLATE>俺
+「くっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　俺の視界一杯に迫りくる
+デビルランタン王の蒼い炎。
+<PAUSE>
+<NAME_PLATE>
+　このままではやられる――。
+<PAUSE>
+<NAME_PLATE>
+　だがその時。
+<PAUSE>
+<NAME_PLATE>
+　俺の頭に浮かんだのは、
+さっきの中華屋での会話だった。
+<PAUSE>
+<NAME_PLATE>俺
+（そうだ……俺には、
+　まだやらなきゃならないことが
+　山ほどあるんだっ！）
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　それは、骸佐のこと――。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が俺を信頼し、
+任せてくれた独立遊撃隊の任務。
+<PAUSE>
+<NAME_PLATE>
+　それを終わらせないうちに
+こんな所でやられるなんて――。
+<PAUSE>
+<NAME_PLATE>俺
+「うおぉおおおおおっ！！！！」
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc061a,IN, 500
+<NAME_PLATE>
+　俺は決死の覚悟で迫る炎をかき分け、
+地面を滑るようにしてそれを避けた。
+<PAUSE>
+<NAME_PLATE>俺
+（やった！　かわしたぜ――んっ？）
+<PAUSE>
+<GROUP>
+<ACTOR>2,chr_t0266a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0161a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0160a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>紅＆きらら＆蛇子
+「小太郎！！」
+「ふうま！！！」
+「ふうまちゃん！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴン！　ゴン！　ゴン！！！
+<PAUSE>
+<NAME_PLATE>俺たち
+「いったあああああああっ！！！？」
+<PAUSE>
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯ……？』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　盛大に頭をぶつける俺たち。
+<PAUSE>
+<NAME_PLATE>
+　どうやら蛇子ときらら先輩と紅は、
+俺を助けるために飛び出したのだが、
+<PAUSE>
+<NAME_PLATE>
+　俺が自力で回避したために目測が狂い、
+頭をごつんとぶつけた上にどちゃあっと
+四人まとめて倒れてしまったようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m097a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t014d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ええええええっ！！？？
+　お前ら、なに楽しそうなこと
+　やってんだーーっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+//　※立ち絵加工　パーティー用の『とんがり帽子』の装着をお願いします。
+<NAME_PLATE>銃兵衛
+「ヒャハハ、モテモテじゃねえか若！
+　まあ一門を率いる男は
+　それくらいじゃねえとなぁ」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0267a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0268a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「おやびーん！？
+　人に働けって言っておいて
+　それはどーいうことだいっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>颯
+「くっ、なんて大胆な……！？
+　あれくらいできなければ、
+　自分を変えることなど……っ！！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】弓走颯
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　あまりのことに外野の連中が
+俺たちを見て大盛り上がりしている。
+<PAUSE>
+<NAME_PLATE>俺
+「う、うるさいっ！
+　これは、たまたまというか
+　不慮の事故というか――」
+<PAUSE>
+<NAME_PLATE>俺
+「というかみんな、邪魔だから
+　早く俺の上からどいてくれっ！？」
+<PAUSE>
+<NAME_PLATE>
+　女子三人に上から乗っかられて
+全く動けない。
+<PAUSE>
+<NAME_PLATE>
+　色んなところが柔らかくて
+いい匂いがして、とにかく大変である。
+<PAUSE>
+<NAME_PLATE>きらら
+「わ、わかってるわよ……！
+　ていうかふうま、
+　あんたどこ触ってるの！！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】鬼崎きらら
+//　　　　＊カードイラストより流用
+<NAME_PLATE>蛇子
+「えーっ！？　邪魔って何よっ！？
+　ふうまちゃんのピンチだと思って
+　助けに入ったのにー！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】相州蛇子
+//　　　　＊カードイラストより流用
+<NAME_PLATE>紅
+「そ、そうだったな……。
+　ふうまほどの男であれば
+　私の助けなど不要だった……」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】心願寺紅
+//　　　　＊カードイラストより流用
+<NAME_PLATE>紅
+「すまん、しかし
+　つい身体が動いてしまって……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うるせええええっ、
+　お前らさっさとどけーーっ！！」
+<PAUSE>
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯ！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン王
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<NAME_PLATE>俺たち
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　さすがの反応であった。
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺の上でわちゃわちゃやっていた
+女子三人がデビルランタン王の攻撃を
+察知して一瞬で飛び退り、
+<PAUSE>
+<BG>nc061a,IN, 500
+<NAME_PLATE>
+　そこで俺も、何とか起き上がって
+体勢を立て直すことができた。
+<PAUSE>
+<NAME_PLATE>俺
+「と、とにかく――っ！！
+　ばらばらに動いてたら
+　状況は悪くなるばかりだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「皆、俺が指示を出す！
+　協力してこのタコどもを
+　やっつけるぞっ！」
+<PAUSE>
+<NAME_PLATE>一同
+「「「了解っ！！！」」」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　デビルランタン王、そして
+タコ生物の大群と対峙し、
+俺と仲間たちが構えをとった。
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

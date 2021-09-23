@@ -1,0 +1,558 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町＿五車学園前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　その日―――。
+<PAUSE>
+//【背景：五車町＿五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC009aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc006a,IN, 1000
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>
+　逸刀流剣士にして、神遁の術の使い手、
+獅子神自斎（ししがみじさい）は内密に
+アサギに呼び出されていた。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,a_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「まずはこれを見てちょうだい」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　いつになく硬い表情をしたアサギが
+一枚の写真を自斎に手渡す。
+<PAUSE>
+<NAME_PLATE>自斎
+「……！」
+<PAUSE>
+<NAME_PLATE>
+　それに写っていたのは
+自斎も何度か世話になっている研ぎ師の
+惨殺死体だった。
+<PAUSE>
+<NAME_PLATE>
+　左肩から右脇腹まで
+袈裟懸けに一刀両断されている。
+<PAUSE>
+<NAME_PLATE>
+　写真で見ても分かるほど
+凄まじい切り口だ。
+<PAUSE>
+<NAME_PLATE>自斎
+「誰の仕業です？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「秋山凜子」
+<PAUSE>
+<NAME_PLATE>自斎
+「ありえません」
+<PAUSE>
+<NAME_PLATE>
+　一切の感情を交えず告げたアサギの言葉を
+自斎は即座に否定した。
+<PAUSE>
+<NAME_PLATE>アサギ
+「死体の切り口を分析した結果、
+　石切兼光で斬った痕跡が発見されたわ。
+　それは間違いのない事実よ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「研ぎ師の家のすぐ近くに、
+　同様の三人の剣士の死体もあった。
+　いずれも達人の一撃で殺されていたわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「凜子はこの件について報告もせず、
+　現在、完全に連絡を絶っているわ。
+　五車に戻ってきてすらいない」
+<PAUSE>
+<NAME_PLATE>アサギ
+「アミダハラに向ったとの目撃証言もある。
+　これでは疑うなという方が無理よ」
+<PAUSE>
+<NAME_PLATE>自斎
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　自斎の表情は少しも変わらない。
+<PAUSE>
+<NAME_PLATE>
+　いくら疑わしい情報を聞かされても
+凜子がやったなどとは思わないという顔だ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「万が一、理由はどうあれ、
+　次期対魔忍のエースのあの子が
+　無実の人間を殺したとしたら一大事よ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「今は私と山本部長のレベルで抑えているけど
+　内調にでも知られたら、
+　五車存続の危機にもなりかねないわ」
+<PAUSE>
+<NAME_PLATE>自斎
+「私にどうしろと？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「獅子神自斎、極秘の任務を与えるわ。
+　早急にアミダハラに赴き、
+　秋山凜子を確保しなさい」
+<PAUSE>
+<NAME_PLATE>アサギ
+「逸刀流を極めた彼女を抑えられるのは
+　あなたくらいよ」
+<PAUSE>
+<NAME_PLATE>自斎
+「逸刀流の剣士として、
+　私では凛子先輩の足元にも及びません」
+<PAUSE>
+<NAME_PLATE>アサギ
+「最悪の場合、
+　超常の力を使うのもやむを得ないわ。
+　これはあなたにしかできないことよ」
+<PAUSE>
+<NAME_PLATE>
+　封印されし忌神を使ってでも。
+<PAUSE>
+<NAME_PLATE>
+　その命に自斎も
+さすがに即答はしなかったが、
+<PAUSE>
+<NAME_PLATE>自斎
+「……分かりました」
+<PAUSE>
+<NAME_PLATE>
+　凜子の身にただならぬ事態が起こったのは
+間違いなかろうと、任務に承知した。
+<PAUSE>
+<NAME_PLATE>アサギ
+「事態は急を要するわ。
+　普通に追いかけても、間に合わない」
+<PAUSE>
+<NAME_PLATE>アサギ
+「アミダハラには
+　ちょっとした知り合いがいるから、
+　彼女に協力してもらって」
+<PAUSE>
+<NAME_PLATE>自斎
+「彼女？」
+<PAUSE>
+<ACTOR>1,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「あの街で探偵をやってるわ。
+　ちょっと癖のある人物だけど、凄腕よ」
+<PAUSE>
+<NAME_PLATE>
+　アサギは今日初めて、
+ほんの少しだけ笑みを浮かべた。
+<PAUSE>
+//【背景：アミダハラ全景＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc001aより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc269a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　日本最大の廃棄都市、それがアミダハラだ。
+<PAUSE>
+<NAME_PLATE>
+　日本第三の都市として栄えていたが、
+各国の思惑が絡んだ半島戦争の結果として、
+新たな“魔界の門”が生まれると、
+<PAUSE>
+<NAME_PLATE>
+　そこを中心に闇の住人が集まり始め、
+１０年も経った頃には、国家などを超越した
+巨大な廃棄都市ができあがっていた。
+<PAUSE>
+<NAME_PLATE>
+　しかも、元々の享楽的な土地柄ゆえか、
+無法地帯ならではのサービスに加え、
+<PAUSE>
+<NAME_PLATE>
+　その“無法であること”それ自体を
+観光資源とする外向きの歓楽街まで作られ、
+<PAUSE>
+<NAME_PLATE>
+　魔族、盗賊、悪党、ゴロツキが闊歩し、
+争いや諍い、銃声や爆発の絶えない街中を
+<PAUSE>
+<NAME_PLATE>
+　観光客がおっかなびっくり、興味津々、
+時には巻き添えを食らいながら見物するという
+世界でも類を見ない奇妙な街ができあがった。
+<PAUSE>
+<NAME_PLATE>
+　今では観光による収益は
+アミダハラ本来の無法サービスと比べても、
+軽視できないものであるため、
+<PAUSE>
+<NAME_PLATE>
+　街に金を落としてくれる一般人には
+可能な限り手を出さないという不文律が
+できあがっている。
+<PAUSE>
+<NAME_PLATE>
+　そんなアミダハラに、
+一人、秋山凜子は潜入しようとしていた。
+<PAUSE>
+//【背景：アミダハラ廃墟地区１＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc002aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc077a,IN, 1000
+<ACTOR>0,chr_t0141a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<NAME_PLATE>
+　今、彼女はアミダハラ観光ツアーの客に
+混じって行動している。
+<PAUSE>
+<NAME_PLATE>
+　アミダハラにおいて、
+観光客向けのエリアとしては、
+キタやシンサイ、キョウバシなどが有名だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、そこに行くには、
+武装難民がはびこる廃墟地区を
+必ず通らなければならない。
+<PAUSE>
+<NAME_PLATE>
+　武装難民は、
+無法と享楽の街アミダハラから
+さらに外れた存在だ。
+<PAUSE>
+<NAME_PLATE>
+　観光客には手を出さないなどという
+暗黙の了解も彼らには関係ない。
+<PAUSE>
+<NAME_PLATE>
+　護衛なしでの廃墟地区の移動など自殺行為。
+ツアーの基本サービスとして
+護衛が付いているのだった。
+<PAUSE>
+<NAME_PLATE>
+　凜子を含め、ツアーの客は１０人ほど。
+<PAUSE>
+<NAME_PLATE>
+　護衛の数も同じくらいだ。
+小銃やサブマシンガンで武装している。
+<PAUSE>
+<NAME_PLATE>
+　街の住人を中心に、
+元軍人、あるいは傭兵崩れといった連中だ。
+<PAUSE>
+<NAME_PLATE>
+　歩き方や、警戒の仕方を見る限り、
+戦闘には慣れているようだが、
+腕はそこそこといった感じだ。
+<PAUSE>
+<NAME_PLATE>凜子
+（一人というのは落ち着かないな……）
+<PAUSE>
+<NAME_PLATE>
+　凜子がこの街に来るのは
+これが初めてではない。
+<PAUSE>
+<NAME_PLATE>
+　最近は、アミダハラ監獄への潜入任務で
+来たことがある。
+<PAUSE>
+<NAME_PLATE>
+　あの時は先行する対魔忍が
+潜入の手引きをしてくれて、
+凜子はその段取りに従えばよかった。
+<PAUSE>
+<NAME_PLATE>
+　今は対魔忍の任務とは関係ない、
+というより、完全に逸脱している行動だ。
+<PAUSE>
+<NAME_PLATE>
+　アミダハラに入ったとしても、
+その先のあてがあるわけでもない。
+<PAUSE>
+<NAME_PLATE>凜子
+（私に来いといった以上、
+　いずれ源之助から
+　接触があるとは思うが……）
+<PAUSE>
+<ACTOR>0,chr_t0141a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,on_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>護衛の少女
+「アミダハラは初めてですか？」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹通常＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　護衛の一人が気さくに話しかけてきた。
+<PAUSE>
+<NAME_PLATE>
+　セーラー服と機関銃という、
+実にアミダハラらしい格好の少女だ。
+<PAUSE>
+<NAME_PLATE>
+　年は凜子より少し下くらいか。
+他の護衛と違って殺伐とした感じがない。
+<PAUSE>
+<NAME_PLATE>凜子
+「前に来たことがある。
+　一人で来るのは初めてだが」
+<PAUSE>
+<NAME_PLATE>護衛の少女
+「ひょっとして武者修行さんですか？」
+<PAUSE>
+<NAME_PLATE>凜子
+「なぜそう思う？」
+<PAUSE>
+<NAME_PLATE>
+　若干の戸惑いを感じつつ、凜子は尋ねた。
+<PAUSE>
+<NAME_PLATE>
+　目立たぬように、
+今は対魔忍スーツを着ていない。
+<PAUSE>
+<NAME_PLATE>
+　落椿村正もそれと分からぬよう
+楽器ケースに入れている。
+<PAUSE>
+<NAME_PLATE>
+　普通の観光者にしか見えないはずだが。
+<PAUSE>
+<NAME_PLATE>護衛の少女
+「だって、剣豪さんっぽい雰囲気が
+　漂ってますから」
+<PAUSE>
+<NAME_PLATE>凜子
+「分かるのか？」
+<PAUSE>
+<NAME_PLATE>
+　そこまで当てられてさすがに驚く。
+<PAUSE>
+<ACTOR>1,on_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>護衛の少女
+「それはもう。
+　女剣士って格好いいですよね」
+<PAUSE>
+<NAME_PLATE>護衛の少女
+「私の知り合いにも一人いるんですけど、
+　憧れちゃうなあ」
+<PAUSE>
+<NAME_PLATE>
+　少女は目をキラキラさせている。
+<PAUSE>
+<NAME_PLATE>凜子
+（私はそんなに剣呑な気配を
+　漏らしていたのか？　反省しないと）
+<PAUSE>
+<NAME_PLATE>
+　そう思ったが、少女にはこう言った。
+<PAUSE>
+<NAME_PLATE>凜子
+「いい目をしているな。
+　さすがアミダハラの住人だ」
+<PAUSE>
+<ACTOR>1,on_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「えへへ、褒められちゃった。
+　あ、私、音無美樹（おとなしみき）って
+　いいます」
+<PAUSE>
+<NAME_PLATE>凜子
+「秋山凜子だ」
+<PAUSE>
+<NAME_PLATE>美樹
+「名前も剣豪っさんぽいですね。
+　私は音無なのに、全然おとなしくないって
+　いっつも言われてるんですよ。えへへ」
+<PAUSE>
+<NAME_PLATE>
+　美樹は笑いながら言いつつも、
+周囲に素早く視線を走らせている。
+<PAUSE>
+<NAME_PLATE>
+　凜子も不穏な気配が漂い始めたのを
+感じていた。
+<PAUSE>
+<NAME_PLATE>凜子
+「空気が変わって来たな」
+<PAUSE>
+<NAME_PLATE>美樹
+「このへんはトサボリ、
+　別名追い剥ぎストリートっていって、
+　結構危ないとこなんですよ」
+<PAUSE>
+<NAME_PLATE>凜子
+「人食いの武装難民が出没するとか」
+<PAUSE>
+<ACTOR>1,on_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「そうなんです。人を食べるんです。
+　なにも人を食べなくてもいいですよね。
+　他に食べる物はいっぱいあるのに」
+<PAUSE>
+<NAME_PLATE>凜子
+「……そうだな」
+<PAUSE>
+<NAME_PLATE>
+　美樹はあっけらかんと話していた。
+<PAUSE>
+<NAME_PLATE>
+　微妙にズレている気がする。
+<PAUSE>
+<NAME_PLATE>
+　彼女の性格なのか、
+アミダハラ住人が皆そうなのか。
+<PAUSE>
+//【背景：アミダハラ廃墟地区２＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BG>nc211a,IN, 1000
+<NAME_PLATE>
+　一行は追い剥ぎストリートを進む。
+<PAUSE>
+<NAME_PLATE>
+　護衛たちが警戒を強めている。
+<PAUSE>
+<NAME_PLATE>
+　無駄なお喋りをするなと指示され、
+凜子以外の観光客の顔が強ばってくる。
+<PAUSE>
+<NAME_PLATE>
+　そして、大正時代に架設されたという
+橋にさしかかったところで、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,chr_t0141a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+（いるな……）
+<PAUSE>
+//　※立ち絵
+//　　凜子＿私服立ち絵
+//　　　　＊カードイラスト【高嶺の花】秋山凜子より流用
+<NAME_PLATE>
+　誰よりも早く、
+凜子が待ち伏せの気配に気づいた。
+<PAUSE>
+<NAME_PLATE>凜子
+「美樹、敵かどうかは分からないが、
+　人が隠れているぞ。
+　あの橋の両側、数は２０人ほどだ」
+<PAUSE>
+<ACTOR>0,chr_t0141a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,on_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>美樹
+「え？　分かるんですか？
+　すごい。さすが剣豪さん」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹通常＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>
+　美樹は驚きに目を見張ると、
+他の護衛に素早くそれを伝えた。
+<PAUSE>
+<NAME_PLATE>
+　護衛たちは、怯える観光客に
+「勝手に動くな」などと警告してから、
+戦闘態勢を取る。
+<PAUSE>
+<ACTOR>1,on_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>美樹
+「凜子さん、隠れているのは
+　あのあたりですよね？」
+<PAUSE>
+<NAME_PLATE>
+　美樹が指差して凜子に確認する。
+<PAUSE>
+<NAME_PLATE>凜子
+「そうだ」
+<PAUSE>
+<NAME_PLATE>美樹
+「わかりました。
+　ありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　美樹はぺこりと頭を下げた。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,on_t001c,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　と、そこまでは予想通りだったが、
+<PAUSE>
+<ACTOR>1,on_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>美樹
+「こらあ、そこにいる武装難民！！」
+<PAUSE>
+<NAME_PLATE>美樹
+「隠れてるのはバレバレですよ！！
+　もし私たちを襲ってくるつもりなら
+　こうです！！」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹戦闘＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>1,on_t002f,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズガガガガガガガガガガガガッ！！
+<PAUSE>
+<PAUSE>
+　いきなりぶっ放した。
+<PAUSE>
+<NAME_PLATE>
+　警告もなにもあったものではない。
+<PAUSE>
+//　※立ち絵
+//　　武装難民立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　人食い武装難民立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m069a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m131a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　当然、隠れていた武装難民たちが
+一斉に躍り出てきた。
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

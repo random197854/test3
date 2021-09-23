@@ -1,0 +1,481 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：センザキの商店街＿昼】【時間：昼】
+//　※ゆずみなつ_nc017aより流用
+//nc376a
+<BGM_PLAY>bgm313,1000
+<BG>nc376a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク兵
+「ぐわー」
+<PAUSE>
+//　※立ち絵
+//　　オーク兵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>オーク
+「やられたー」
+<PAUSE>
+//　※立ち絵
+//　　オーク
+//　　　＊モンスターイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se024
+<NAME_PLATE>
+　どさ。どさっ。
+<PAUSE>
+<NAME_PLATE>
+　オークたちは、いまいち精彩に欠ける
+雑な吹っ飛び方で地面に倒れる。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「な、なんか、
+　随分簡単に倒れるな」
+<PAUSE>
+<NAME_PLATE>
+　戸惑っていると、
+倒れたオーク達がむくりと起き上がる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク
+「なーんちゃって！」
+<PAUSE>
+<NAME_PLATE>オーク兵
+「新春初ドッキリ大成功だぜ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ど、ドッキリ？！」
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<NAME_PLATE>オーク兵
+「あんたが噂のふうま、
+　紅ちゃんのいい人だな！」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　え？」
+<PAUSE>
+<NAME_PLATE>オーク
+「いやー、センザキに紅ちゃんの
+　いい人が来るって聞いて、
+　ここはひとつ盛り上げてやろうってな」
+<PAUSE>
+<NAME_PLATE>オーク兵
+「五車から帰ってきたときの、
+　紅ちゃんのヘコみっぷりったら、
+　そりゃもう可哀そうだったからな」
+<PAUSE>
+<NAME_PLATE>オーク
+「そうそう！
+　健気にイカソーメン啜っちゃって……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kn_t006j,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「こ、こら！　そんなんじゃない！
+　変なこというなよ！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿私服
+<NAME_PLATE>
+　ひゅーひゅーと盛り上がるオークたちに、
+紅が真っ赤になって慌てている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「おいおいお前ら。
+　新年早々紅を困らせんなよ」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>俺
+「あれ？　あんたは……」
+<PAUSE>
+<NAME_PLATE>
+　顔や体に無数の傷がある、
+歴戦のオーク。
+以前、任務やバイトで共闘した傭兵だ。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「久しぶりだな兄ちゃん。
+　茶化してすまなかった」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「紅とは幼馴染なんだってな。
+　色々と噂は聞いてるぜ」
+<PAUSE>
+<NAME_PLATE>俺
+「噂って……」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「あちこちで活躍してるそうじゃねえか。
+　俺の目に狂いはなかったな」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、いやあ……」
+<PAUSE>
+<NAME_PLATE>
+　褒められて、嬉しいが
+少し申し訳ない気持ちになる。
+<PAUSE>
+<NAME_PLATE>
+　活躍と言っても、それは俺自身というより
+協力してくれる皆の力だからだ。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「なんだ、柄にもなく恐縮してんな。
+　自信持てよ、人脈ってのもまた
+　実力のうちだからよ」
+<PAUSE>
+<NAME_PLATE>
+　オーク傭兵は俺の心を見抜いたように、
+どんと肩を叩く。
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「ま、とにかく今年もよろしくな。
+　ほら、お前ら行くぞ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク兵
+「へい！
+　ふうま、紅ちゃんを泣かすなよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0287a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「うふふふふ、
+　紅様ってばモテモテですねえ☆」
+<PAUSE>
+//　※立ち絵
+//　　【初春】槇島あやめ
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　立ち去っていくオークたちの姿を眺め、
+あやめさんは楽しそうに、
+『リリス・スーパーストロング』を開けた。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、あやめさん、
+　それ以上飲まないほうが……」
+<PAUSE>
+<ACTOR>0,ts_m165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>篝
+「大丈夫です。
+　あやめ様が酔っ払っていても、
+　私が常に見守ってますから。フフフ」
+<PAUSE>
+//　※立ち絵
+//　　篝
+//　　　＊モンスターイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ひいっ！？」
+<PAUSE>
+<NAME_PLATE>
+　『新春大売り出し』の看板の裏から、
+にゅっと制服姿の女が生えてきた。
+<PAUSE>
+<NAME_PLATE>
+　もと心願寺家の下忍で、
+弾正の反乱を生き延びて妖魔化し、
+今は紅の従者になった篝である。
+<PAUSE>
+<NAME_PLATE>俺
+「か、篝。
+　相変わらず不気味だが元気そうだな……」
+<PAUSE>
+<NAME_PLATE>篝
+「ええ、ええ。
+　若様……いえ、お館様のおかげにて。
+　今は紅様を陰からお守りしています」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>石川あむ
+「そしてお館様のことは、
+　私が陰からお守りします♪」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストを流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うおっ！？」
+<PAUSE>
+<NAME_PLATE>
+　さらに。
+店先のマネキン人形だと思っていたものが、
+突然俺たちの前に飛び出してくる。
+<PAUSE>
+<NAME_PLATE>
+　その存在感の薄さで、
+ふうま宗家御庭番・壱番隊筆頭に抜擢された
+筋金入りの隠密・石川あむだ。
+<PAUSE>
+<NAME_PLATE>あむ
+「家からご一緒していましたのに、
+　お館様ってば全く気づかれないから」
+<PAUSE>
+<NAME_PLATE>俺
+「マジか。全然わからなかった。
+　さすがあむだな……」
+<PAUSE>
+<NAME_PLATE>
+　まあ、こうして俺の警護をしているのは、
+ただの趣味らしいのだが……。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m165a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>あむ
+「私たちがお守りしてますから、皆さんは
+　安心してお正月をお楽しみください」
+<PAUSE>
+<NAME_PLATE>篝
+「どんなに酔っ払っても大丈夫です、ヒヒッ」
+<PAUSE>
+<NAME_PLATE>あむ・篝
+「「ねー」」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人はなんだか意気投合している。
+ストーカー気質同士、
+気があうのだろうか。
+<PAUSE>。
+<ACTOR>0,kn_t006b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「いやあ、
+　篝に友達ができてよかったよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　紅もニコニコと見守っているが、
+どうにも空恐ろしさを感じるのは
+俺だけだろうか。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「そういえばお館様」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<NAME_PLATE>あむ
+「鹿之助先輩の姿が
+　見えませんが？」
+<PAUSE>
+<NAME_PLATE>俺
+「あれ？　本当だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　辺りを見渡してみるが、
+鹿之介の姿は見当たらない。
+人混みを抜ける中ではぐれたのか。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子、
+　鹿之助見てないか？」
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「そういえば、
+　さっきからいないわね」
+<PAUSE>
+<NAME_PLATE>俺
+「またあいつは……。
+　仕方ない、探してくるから、
+　ちょっと待っててくれ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は銃兵衛にそう告げると、
+抜けたばかりの人混みに戻る。
+<PAUSE>
+<ACTOR>0,chr_t0269a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あむ
+「あっ、私も探します！」
+<PAUSE>
+//【背景:黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、当の鹿之助は―――
+<PAUSE>
+//【背景：センザキの商店街＿昼】【時間：昼】
+//　※ゆずみなつ_nc017aより流用
+//nc376a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc376a,IN, 1000
+<ACTOR>1,s_t003d,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>鹿之助
+「だーかーらー、義兄さんじゃないってば！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<ACTOR>0,ts_m218a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>西園寺爆斗
+「いーや、
+　家からつけてきたから間違いねえ！
+　顔だってクリソツだ！」
+<PAUSE>
+//　※立ち絵
+//　　西園寺爆斗
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>鹿之助
+「人違いだってば！
+　ていうか、家からつけてくんなよー！」
+<PAUSE>
+<NAME_PLATE>爆斗
+「そう言わずに！　お願いだ義兄さん、
+　妹さんのお名前だけでも教えてくだせえ！」
+<PAUSE>
+<NAME_PLATE>俺
+（いたいた、鹿之助のやつ。
+　ってあれは……）
+<PAUSE>
+<NAME_PLATE>
+　鹿之助に向かって、なにやら必死に
+リーゼント頭を下げているのは
+五車学園の同級生・西園寺爆斗だ。
+<PAUSE>
+<ACTOR>1,s_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あーもう、分かった！
+　とにかく今は困るから帰ってくれよ！
+　あと義兄さんはやめてくれ！」
+<PAUSE>
+<NAME_PLATE>俺
+「おい鹿之助、何してんだ」
+<PAUSE>
+<ACTOR>1,s_t003d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ふうま！
+　なんかこいつ勘違いしてるみたいでさ」
+<PAUSE>
+<NAME_PLATE>爆斗
+「あっ、兄貴！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m218a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　西園寺は俺の顔を見ると、
+駆け寄ってきて頭を下げる。
+<PAUSE>
+<NAME_PLATE>俺
+「兄貴？」
+<PAUSE>
+<NAME_PLATE>爆斗
+「この前、タイマン張って
+　俺が負けたじゃないすか。
+　だから兄貴ッス」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう……」
+<PAUSE>
+<NAME_PLATE>
+　あのときの勝利は、ほとんど偶然の
+ようなものだが、それは黙っておく。
+<PAUSE>
+<NAME_PLATE>爆斗
+「それにしても……」
+<PAUSE>
+<NAME_PLATE>
+　西園寺は俺と鹿之助の顔を
+交互に見る。
+<PAUSE>
+<NAME_PLATE>爆斗
+「既に義兄さんとダチだなんて……
+　一歩遅れをとっちまったな☆」
+<PAUSE>
+<NAME_PLATE>爆斗
+「だけど俺は諦めねえぜ！
+　ぜったい、あのコと仲良くなって、
+　一緒にドライブするんだぜ！」
+<PAUSE>
+<NAME_PLATE>爆斗
+「というわけで早速、辛丑に
+　恋愛成就をお願いするんだぜー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　西園寺はそう言い残すと、
+神社の方へと駆け去っていった。
+<PAUSE>
+<NAME_PLATE>俺
+「なに言ってるんだ西園寺のやつ？」
+<PAUSE>
+<ACTOR>0,s_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え、さ、さあ……」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の目が泳ぐ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「まあいいや、とにかく行こうぜ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃあ！？」
+<PAUSE>
+//　　※立ち絵なし
+<NAME_PLATE>俺
+「なんだ？」
+<PAUSE>
+<ACTOR>0,s_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「蛇子の声だぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「屋台通りの方からだな。
+　行くぞ」
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

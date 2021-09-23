@@ -1,0 +1,312 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ジョンの館＿拷問室＿昼夜兼用】【時間：夜】
+//　※LILITH＿ZIM＿06＿nc016aを流用
+//nc361a
+<BGM_PLAY>bgm313,1000
+<BG>nc361a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m223a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m223a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>拷問具の悪霊
+「死ネエエエエエエエエエエエ！！！」
+「苦シメェエエエエエエエエエエエッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鉄の処女＿立ち絵
+//　　　　　＊新規デザイン
+//　※複数出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ko_t008g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（くっ……逸刀流・居合っ）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ko_t010g,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se102
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　コロ先輩が魂の居合を放った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m223a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>拷問具の悪霊
+「ギャアアアアアアアアアアアッッ！！」
+<PAUSE>
+<NAME_PLATE>
+　悪霊の一体が断末魔の悲鳴を発する。
+<PAUSE>
+<NAME_PLATE>
+　だが、いつもより斬れ味が鈍い。
+一撃で倒し切れていない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ko_t008h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（くぅっ……）」
+<PAUSE>
+<NAME_PLATE>
+　ひどく辛そうだ。
+<PAUSE>
+<NAME_PLATE>
+　魂遁の術の使い手のコロ先輩は
+霊魂への感受性が強すぎるのだ。
+<PAUSE>
+<NAME_PLATE>
+　拷問部屋に漂う悪霊のあまりの数、
+その怨念の強さに能力が仇になっている。
+<PAUSE>
+<ACTOR>0,ko_t008g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>孤路
+「（拷問具を壊して。
+　力の拠り所を失えば弱まる）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「鹿之助、聞いたか！
+　まず俺たちで拷問具を壊すんだ！
+　ビビってる暇は無いぞ！」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「お、おう！
+　ちょっと聞こえなかったけど
+　やってやるぜ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち絵＿対魔忍
+<ACTOR>0,s_t004f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　なんだかんだで土壇場には強い鹿之助が
+手裏剣をキリリと構えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「コロ先輩はミレーヌを守ってください。
+　それから弱った敵にトドメを！」
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（お願い）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　コロ先輩は頷き、
+ミレーヌを背にして、
+俺たちの後ろに下がった。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m223a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m223a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m223a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「でやああっっ！！」
+<PAUSE>
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　俺は刀を抜いて敵に斬り掛かる。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「とりゃりゃあああっっっ！！」
+<PAUSE>
+<SE_PLAY>se139_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　鹿之助も爆弾手裏剣を次々と放つ。
+<PAUSE>
+<NAME_PLATE>拷問具の悪霊
+「アアアアアアアアアアア！！！」
+「アアアアアアアアアアア！！！」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の居合と違って、
+エネルギー体のような悪霊そのものには
+あまりダメージを与えられない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが拷問器具を破壊すると、
+悪霊たちは怨念の拠り所を失って、
+弱々しく漂い出す。
+<PAUSE>
+<ACTOR>0,ko_t010g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（はっっ）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装＿斬撃1
+<NAME_PLATE>
+　そこをコロ先輩が的確に仕留めていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>拷問具の悪霊
+「ギャアアアアアアアアアアアアアッ！！」
+<PAUSE>
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「いや……こわい……こわい……」
+<PAUSE>
+<ACTOR>0,ko_t008e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（もう苦しまないで）」
+<PAUSE>
+<NAME_PLATE>
+　ミレーヌは怯えるばかりだが、
+コロ先輩は悪霊を斬りつけながら、
+その成仏を祈っていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一体、二体と敵を減らしていき
+なんとか全てを撃退したと思ったが、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<BG>nc361a,IN, 500
+<NAME_PLATE>孤路
+「（うっ……）」
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子（ミレーヌ）
+「お姉ちゃん！！」
+<PAUSE>
+<NAME_PLATE>
+　ミレーヌの声に振り返った。
+コロ先輩が床に倒れている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「コロ先輩！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は慌てて駆け寄り、
+その体を抱き起こす。
+<PAUSE>
+<NAME_PLATE>
+　外傷はどこにもないようだが
+意識を失っている。
+<PAUSE>
+<ACTOR>0,h_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「お……お姉ちゃんは……
+　ミレーヌを……オバケからかばって……」
+<PAUSE>
+<NAME_PLATE>俺
+「ミレーヌのせいじゃない」
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「でも……でも……
+　お姉ちゃん……ごめんなさい……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ミレーヌはうずくまり
+泣きじゃくるばかりだ。
+<PAUSE>
+<ACTOR>0,s_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「コロ先輩、大丈夫なのか？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>俺
+「意識を失っているだけだ。
+　無理をしたせいだろう。
+　いずれ目を覚ますと思うが」
+<PAUSE>
+<ACTOR>0,s_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「け、けどよ、
+　一番頼りになるコロ先輩に
+　ここで倒れられちゃ……」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子はミレーヌに取り憑かれたままだし、
+俺と鹿之助の二人でどうしたらいいか。
+<PAUSE>
+<NAME_PLATE>俺
+「まずこの部屋から出よう。
+　もっと安全な場所に」
+<PAUSE>
+<ACTOR>0,s_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そ、そうだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺がコロ先輩をおんぶしたその時。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴーンーゴーンゴーン♪
+<PAUSE>
+<NAME_PLATE>
+　魔術師の館に鐘の音が響きわたった。
+<PAUSE>
+<NAME_PLATE>
+　１２時の鐘だ。
+<PAUSE>
+<ACTOR>0,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子（ミレーヌ）
+「呼んでる……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　ミレーヌがすっくと立ち上がった。
+<PAUSE>
+<NAME_PLATE>蛇子（ミレーヌ）
+「パパが呼んでる。
+　ミレーヌを呼んでるの……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そのままフラフラと歩き出す。
+もう俺たちを気にしてはいない。
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助、追うぞ！」
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「おう！！」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは迷うことなくミレーヌを追った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ついに儀式が始まろうとしているのだ。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

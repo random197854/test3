@@ -1,0 +1,678 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：アミダハラ監獄＿監房＿昼夜共通】【時間：昼】
+//　※対魔忍紅_NC014aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc214a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m132a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>カウーラ
+「鬼崎きららはどこだ！？」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　カウーラが獄卒を引き連れ、
+Ｈ監房に飛び込んで来た。
+<PAUSE>
+<NAME_PLATE>女囚
+「し、知らないよ！」
+<PAUSE>
+//　※立ち絵
+//　　女囚立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　看守長のいつにない剣幕に
+女囚たちが震え上がる。
+<PAUSE>
+<NAME_PLATE>女囚
+「看守長、いったい何だっていうんだ？」
+<PAUSE>
+//　※立ち絵
+//　　ベテラン女囚立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　別の女囚がこちらは多少冷静に尋ねたが、
+<PAUSE>
+<NAME_PLATE>カウーラ
+「黙りな！
+　監房をくまなく探すんだ！」
+<PAUSE>
+<NAME_PLATE>
+　カウーラは人の魂を吸う魔剣を
+これ見よがしに振りかざし、
+獄卒に命令した。
+<PAUSE>
+<NAME_PLATE>獄卒
+「りょ、了解！」
+<PAUSE>
+//　※立ち絵
+//　　獄卒立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　トロールの獄卒が監房の中を
+オタオタと探し始める。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「どこに行きやがったんだ」
+<PAUSE>
+<NAME_PLATE>
+　カウーラはイライラした調子で
+さかんに無線に連絡を入れている。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「いいか。
+　草の根分けてもあのウシ乳を探し出せ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「傷は付けるんじゃないよ。
+　アイツはアタシのオモチャで
+　大事な商品なんだからね」
+<PAUSE>
+<NAME_PLATE>
+　しかし、部下からは
+きらら発見の報告は一向に返ってこない。
+<PAUSE>
+<NAME_PLATE>
+　食堂や運動場、シャワールームや娯楽室、
+他の監房にもいない。
+<PAUSE>
+<NAME_PLATE>
+　しかも、きららより前に投獄された
+鹿之助まで消えているという。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「どうなってんだ！？」
+<PAUSE>
+<ACTOR>0,chr_t0165a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m132a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>獄卒
+「か、看守長。
+　ウシ乳はどこにもいません！」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ちっ。ここもか！
+　おいユキカゼ！　あのウシ乳はどこだ？
+　出てきて知ってることを話しな！」
+<PAUSE>
+<NAME_PLATE>獄卒
+「その……ユキカゼもいねえみてえで」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カウーラ
+「はあ！？　寝言も大概にしな！」
+<PAUSE>
+<NAME_PLATE>
+　獄卒の報告が信じられないのか、
+カウーラは目を血走らせて
+自ら監獄内を探し回る。
+<PAUSE>
+<NAME_PLATE>
+　しかし、Ｈ監房のボスであるユキカゼこと
+リリムも確かに消えている。
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0165a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>カウーラ
+「アンタたち、これはどういうことだ！？」
+<PAUSE>
+<NAME_PLATE>女囚
+「どういうことだって！？」
+「アタシたちにもよく……なあ？」
+<PAUSE>
+//　※立ち絵
+//　　女囚立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>カウーラ
+「モゴモゴ喋ってんじゃないよ！」
+<PAUSE>
+<NAME_PLATE>
+　カウーラは手近な女囚の太股に
+魔剣を無造作に突き刺した。
+<PAUSE>
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女囚
+「ぐぐっっ！」
+<PAUSE>
+//　※立ち絵
+//　　ベテラン女囚立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>カウーラ
+「ユキカゼにきらら、そして鹿之助は
+　一緒なんだろ！？　どこに行った！？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「魔剣に魂を食われたくなかったら
+　今すぐ洗いざらい喋りな！」
+<PAUSE>
+<NAME_PLATE>女囚
+「し、知らねえよ！
+　は、歯ブラシが光ったかと思ったら
+　青い女が突然現れたんだ！」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「青い女……！？」
+<PAUSE>
+<NAME_PLATE>女囚
+「し、信じねえかもしれねえけど、
+　いきなり出てきた青い女が
+　ボスたちを連れて消えたんだよ！」
+<PAUSE>
+<NAME_PLATE>
+　魔剣に太股を刺された女は
+今にも死にそうな顔で必死に答える。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「アンタら、そろいもそろって」
+<PAUSE>
+<NAME_PLATE>女囚
+「う、嘘じゃないよ、看守長！」
+<PAUSE>
+<NAME_PLATE>女囚
+「アタイたちだって何が
+　起こったかさっぱりなんだ！」
+<PAUSE>
+<NAME_PLATE>女囚
+「青い女が現れて、なんだかわからないうちに
+　次の瞬間、き、消えてたんだ！　本当だ！」
+<PAUSE>
+<NAME_PLATE>
+　他の女たちも口々に訴える。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ちっ……」
+<PAUSE>
+<NAME_PLATE>
+　カウーラは舌打ちして
+女囚から魔剣を引き抜いた。
+<PAUSE>
+//【背景：アミダハラ監獄＿地下監房＿昼夜共通】【時間：昼】
+//　※陰陽騎士トワコ_nc013aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その少し前のことだ。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<BG>chrnc0142c,IN, 1000
+<NAME_PLATE>
+　カヲルの鎖に捕らえられたさくらを
+鉄華院カヲルが尋問していた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「アウッ！？　鎖締めすぎッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら立ち絵
+//　　　　＊対魔忍ＲＰＧの井河さくら02のカードイラストより流用
+<ACTOR>3,ti_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カヲル
+「なら、白状しなさいな」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_対魔忍衣装
+<NAME_PLATE>
+　カヲルは鎖でさくらの全身を
+グルグル巻きにして締め上げてゆく。
+<PAUSE>
+<NAME_PLATE>さくら
+「なにをさ！」
+<PAUSE>
+<NAME_PLATE>カヲル
+「井河さくら、お前が出てくるくらいだ。
+　これだけじゃないんだろ？」
+<PAUSE>
+<NAME_PLATE>さくら
+「………」
+<PAUSE>
+<NAME_PLATE>カヲル
+「そもそもどうやって脱獄するつもりだい？」
+<PAUSE>
+<NAME_PLATE>さくら
+「………」
+<PAUSE>
+<NAME_PLATE>カヲル
+「他に侵入した者がいるとか？　え？」
+<PAUSE>
+<NAME_PLATE>さくら
+「………」
+<PAUSE>
+<ACTOR>3,ti_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>カヲル
+「もっと痛い目にあいたいようだね」
+<PAUSE>
+<NAME_PLATE>
+　カヲルはさくらを
+ギリギリと締め上げていく。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「あぐぅうッ！？」
+<PAUSE>
+<NAME_PLATE>
+　最強の対魔忍の妹として、
+今まで何度となく敵に捕らえられ、
+様々な拷問を受けてきたさくらだが、
+<PAUSE>
+<NAME_PLATE>
+　捕縛された者の罪の重さの分だけ
+頑丈で重くなると言うカヲルの鎖に、
+さすがに苦しそうだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「うぐぅうっっ……これは……ちょっと
+　きつくなってきたかな……ぐぐううっ」
+<PAUSE>
+<ACTOR>3,ti_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>カヲル
+「死にたいのかしら？」
+<PAUSE>
+<NAME_PLATE>さくら
+「それは……嫌だなぁ……うぎぎぎぎ」
+<PAUSE>
+<ACTOR>3,ti_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>4,chr_t0140a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ソフィ
+「ダメダメお姉ちゃんを傷つけないでよ！」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「酷い事しないでー！」
+<PAUSE>
+//　※立ち絵
+//　　ユフィ＆ソフィ立ち絵
+//　　　　＊対魔忍ＲＰＧのカードイラストより流用
+<ACTOR>3,ti_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「そう？
+　ならあなたたちがお姉ちゃんの代わりに
+　鎖で縛られてみる？」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「遠慮しまーす！」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「じゃあ、これの出番ね」
+<PAUSE>
+<NAME_PLATE>
+　ユフィとソフィは歯ブラシを取り出した。
+<PAUSE>
+<ACTOR>3,ti_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「歯ブラシ？」
+<PAUSE>
+<NAME_PLATE>
+　カヲルが僅かに眉をひそめる。
+<PAUSE>
+<NAME_PLATE>
+　全てを楽しんでいるような双子鬼の性格は
+理解していたが、さすがに予想外だったのだ。
+<PAUSE>
+<NAME_PLATE>ソフィ
+「うん、ダメダメお姉ちゃんが
+　ピンチになったら、これを使ってって
+　言われたんだ」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「今こそそのピンチね」
+<PAUSE>
+<NAME_PLATE>さくら
+「お、お姉ちゃんはもうちょっと早く
+　使って欲しかったなあ……くくく」
+<PAUSE>
+<ACTOR>3,ti_t001h,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カヲル
+「はっ！？
+　あなたたち、一体なにを！？」
+<PAUSE>
+<NAME_PLATE>ソフィ
+「じゃあいくよ！　スイッチ―――」
+<PAUSE>
+<ACTOR>3,ti_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>カヲル
+「待ちなさい！」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「オーン！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,500
+<ACTOR_OUT>4,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN,1000
+<NAME_PLATE>
+　双子鬼が掲げた歯ブラシが光った。
+<PAUSE>
+<NAME_PLATE>
+　真っ白な閃光が広がる。
+<PAUSE>
+<NAME_PLATE>カヲル
+「くっっ！」
+<PAUSE>
+<NAME_PLATE>
+　何かの攻撃を警戒し、
+カヲルは反射的に身構える。
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間、眩い彼女の眼前に、
+四人の影が出現した。
+<PAUSE>
+<GROUP>
+<ACTOR>5,kr_t006a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>6,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,s_t001c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>5
+</GROUP>
+<NAME_PLATE>
+　鬼崎きらら、リリム、鹿之助、そして―――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<ACTOR>8,rn_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　秋山凜子であった。
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+//　　リリム立ち絵
+//　　　＊対魔忍RPGリリム02のカードイラストより流用
+//　　上原鹿之助汎用立ち絵＿対魔忍
+//　　秋山凜子立ち絵
+//　　　＊対魔忍RPG01のカードイラストより流用
+//【黒画面】
+//　※視点切り替えのための間
+//【背景：アミダハラ監獄＿地下監房＿昼夜共通】【時間：昼】
+//　※陰陽騎士トワコ_nc013aより流用
+<ACTOR_OUT>8,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm406,1000
+<BG>chrnc0142c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺たちは薄暗い部屋に跳躍を遂げていた。
+<PAUSE>
+<NAME_PLATE>
+　あのＨ監房よりも狭くて薄暗い、
+恐らくは拷問用の部屋だ。
+<PAUSE>
+<NAME_PLATE>
+　その証拠に、さくら先生が床の上に
+縛り上げられている。
+<PAUSE>
+//　※立ち絵
+//　　井河さくら立ち絵
+//　　　　＊対魔忍ＲＰＧの井河さくら02のカードイラストより流用
+<NAME_PLATE>
+　鎖でグルグル巻きにされて苦しそうだが、
+俺たちを見る目は「トホホ、ごめん」という
+感じでいつも通りだ。
+<PAUSE>
+<ACTOR>3,ti_t001h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そんなさくら先生を拘束しているのは、
+アミダハラ監獄の長、鉄華院カヲル。
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル通常立ち絵_対魔忍衣装
+<NAME_PLATE>
+　俺にとっては、子供の頃から頭の上がらない
+綺麗で怖いお姉さんだ。
+<PAUSE>
+<NAME_PLATE>
+　あの頃と少しも変わらない。
+いや、いっそう綺麗で怖い顔になっている。
+<PAUSE>
+<NAME_PLATE>
+　だが、いきなり出現した俺たちに、
+さすがに驚きの表情を浮かべていた。
+<PAUSE>
+<NAME_PLATE>
+　さくら先生とカヲルの向こうで
+ターゲットの双子鬼が歯ブラシを掲げていた。
+<PAUSE>
+//　※立ち絵
+//　　ユフィ＆ソフィ立ち絵
+//　　　　＊対魔忍ＲＰＧのカードイラストより流用
+<NAME_PLATE>
+　どうやらさくら先生ではなく
+あの双子が歯ブラシの
+スイッチをいれたらしい。
+<PAUSE>
+<NAME_PLATE>
+　どんな状況だったのか不明だが
+なぜか二人とも楽しそうにしている。
+<PAUSE>
+//　※立ち絵オフ
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　ともかく、きらら先輩に化けた俺、
+鹿之助、ついでのリリム、主役の凜子先輩は
+敵本拠地に跳躍を遂げていた。
+<PAUSE>
+<NAME_PLATE>
+　アミダハラ監獄潜入作戦における
+俺の最後のカード、それが凜子先輩だ。
+<PAUSE>
+<NAME_PLATE>
+　つまり、凜子先輩の空遁の術による
+“空間跳躍”を利用した奇襲＆脱出である。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、いかに凜子先輩といえど
+いつでもどこでも好きなところに
+空間跳躍できるわけではない。
+<PAUSE>
+<NAME_PLATE>
+　その使用には制限があり、
+凜子先輩は普段、視界内だけで跳躍を
+行っているという。
+<PAUSE>
+<NAME_PLATE>
+　さもないと、跳躍した先が壁の中という
+大惨事もあり得るからだ。
+<PAUSE>
+<NAME_PLATE>
+　そこで俺が技術部に開発を要請したのが、
+歯ブラシに仕込んだ特殊なＧＰＳ装置だ。
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩からはＧＰＳ装置の距離と角度が
+知覚できる仕組みになっている。
+<PAUSE>
+<NAME_PLATE>
+　それを使うことで
+視界の外からある程度自由に、正確に
+空間跳躍が可能となったのだ。
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩は日々鍛錬中であるが、
+現在のところ４００メートルの範囲で
+視界ゼロ空間跳躍が実現した。
+<PAUSE>
+<NAME_PLATE>
+　その４００メートル内に入るために、
+歯ブラシを持って監獄内に潜入する必要が
+あったのだ。
+<PAUSE>
+<ACTOR>3,ti_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カヲル
+「……………ッ！」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル_戦闘立ち絵鎖あり
+<NAME_PLATE>
+　完全な奇襲。
+<PAUSE>
+<NAME_PLATE>
+　しかし、カヲルの反応は素早かった。
+<PAUSE>
+<ACTOR>3,ti_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　状況を瞬時に判断したのか、
+さらに二本の鎖を生み出して、
+ユフィ＆ソフィをその鎖で捕縛した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ソフィ
+「きゃーーーー」
+<PAUSE>
+<NAME_PLATE>ユフィ
+「捕まったーー」
+<PAUSE>
+//　※立ち絵
+//　　ユフィ＆ソフィ立ち絵
+//　　　　＊対魔忍ＲＰＧのカードイラストより流用
+<NAME_PLATE>
+　双子鬼は揃って悲鳴を上げたが
+あいかわらず面白がっているような顔だ。
+<PAUSE>
+<ACTOR>3,ti_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>カヲル
+「簡単に逃がすわけにはいかないわよ」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル_戦闘立ち絵鎖あり
+<NAME_PLATE>さくら
+「あたた………ちょっと！
+　この人数相手に一人で勝てると
+　思ってるの！？」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら立ち絵
+//　　　　＊対魔忍ＲＰＧの井河さくら02のカードイラストより流用
+<NAME_PLATE>さくら
+「ここは降伏しちゃった方がいいよ！
+　って痛いから！　鎖締まってるから！！」
+<PAUSE>
+<NAME_PLATE>
+　カヲルの鎖で芋虫のように簀巻きにされた
+さくら先生が降伏を促す。
+<PAUSE>
+<NAME_PLATE>
+　ここにいる中では、間違いなく最強の
+凜子先輩をも上回る実力者のはずだが、
+<PAUSE>
+<NAME_PLATE>
+　カヲルの鎖遁の術に捕まってしまっては
+さすがに動けないようだ。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そうだ！　そうだ！
+　さくら先生とユフィとソフィを解放しろ！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<ACTOR>3,ti_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>カヲル
+「フフ……雁首揃えているけど
+　能力を封印された囚人ばかりよね？」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル_戦闘立ち絵鎖あり
+<NAME_PLATE>リリム
+「その通りだ！」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+//　　　＊対魔忍RPGリリム02のカードイラストより流用
+<NAME_PLATE>鹿之助
+「くぅ～～封印さえなければ！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>リリム
+「地獄の雷をお見舞いしてやるのに～～！」
+<PAUSE>
+<NAME_PLATE>
+　リリムと鹿之助はこれでもかと胸をはって
+仲良く堂々と戦力ゼロ宣言している。
+<PAUSE>
+<ACTOR>3,ti_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>カヲル
+「あなたたちはどうするの？」
+<PAUSE>
+<NAME_PLATE>
+　カヲルは俺と凜子先輩を油断なく見ながら、
+チャラチャラと鎖を鳴らした。
+<PAUSE>
+<NAME_PLATE>
+　再生能力を封じられているわけではないが、
+俺が徒手空拳でカヲルに立ち向かえるか？
+<PAUSE>
+<NAME_PLATE>
+　とても無理だ。
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーとの戦闘訓練で実力は付いたが
+カヲル相手に素手で
+戦えるほどではないだろう。
+<PAUSE>
+<NAME_PLATE>
+　カヲルは二車家の幹部格だったが、
+ふうま一門の中でその実力は抜き出ていて、
+鉄鎖のカヲルの名は対魔忍全体に轟いている。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「俺は遠慮しておくよ」
+<PAUSE>
+<ACTOR>3,ti_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>カヲル
+「すると私と戦えるのは、
+　確か……“斬鬼の対魔忍”の
+　あなただけよね？」
+<PAUSE>
+//　※立ち絵
+//　　鉄華院カヲル_戦闘立ち絵鎖あり
+<ACTOR>3,ti_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>8,rn_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>凜子
+「如何にも。
+　鉄鎖のカヲル殿と死合えるとは恐悦至極」
+<PAUSE>
+//　※立ち絵
+//　　秋山凜子立ち絵
+//　　　＊対魔忍RPG01のカードイラストより流用
+<NAME_PLATE>
+　凜子先輩は静かに石切兼光の鯉口を切った。
+<PAUSE>
+<GROUP>
+<ACTOR>8,rn_t002a,LEFT, LEFT, NONE, linear, 0
+<ACTOR_FRONT>3
+</GROUP>
+<NAME_PLATE>凜子
+「対魔忍、秋山凜子、参る」
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>8,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,376 @@
+//☆ゆきかぜイベント【Section５】シナリオ
+//FileNo:S501a
+//シーン名：プロローグ
+//※S405aのシナリオの続き
+//【背景：五車学園＿正門前＿夕方】【時間：夕方】
+//　※対魔忍アサギZEROの背景NC008bより流用
+<BG>nc054b,IN, 3000
+<NAME_PLATE>俺
+「やっと学校も終わったな」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なんか今日は、
+　いっぱい戦って大変だったわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「そうだな」
+<PAUSE>
+<ACTOR>2,s_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ほとんどしなくていい戦いだったような気が
+　するけどなあ……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「まあな」
+<PAUSE>
+<NAME_PLATE>
+　授業が全て終わり、
+さすがに自主訓練などする気にもなれず、
+さっさと帰ろうとしていると。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm203,1000
+<ACTOR>0,yu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ちょっといい？」
+<PAUSE>
+<NAME_PLATE>
+　正門の所にゆきかぜが待っていた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「あ……ゆきかぜちゃんだ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「な、なんか悪い予感がまたしてきた」
+<PAUSE>
+<NAME_PLATE>俺
+「ゆきかぜか。何の用だ？
+　今日一緒に戦ったよしみで一緒に遊ぼう、
+　とかいう顔じゃなさそうだな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うん。
+　そういう楽しい話じゃないんだ。ごめんね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「この子たちがふうまに用があるって」
+<PAUSE>
+<NAME_PLATE>
+　珍しくすまなそうな顔をした
+ゆきかぜの後ろから、
+対魔忍の新兵が何人か現れた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001c,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>4,ts_m059a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍新兵
+「っっ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女)
+<NAME_PLATE>
+　皆、女だ。
+<PAUSE>
+<NAME_PLATE>
+　しかも俺を憎しみの目で見ている。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「えっとね、この子たちは」
+<PAUSE>
+<NAME_PLATE>俺
+「言わなくても分かる。
+　こないだのふうまの反乱で、
+　知り合いを殺されたとかだろう？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「う、うん、あたり」
+<PAUSE>
+<NAME_PLATE>対魔忍新兵
+「お前がふうまの当主なの？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、当主には違いない」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍新兵
+「くっ、お前が！」
+<PAUSE>
+<NAME_PLATE>対魔忍新兵
+「お前たちふうまのせいでっ！」
+<PAUSE>
+<ACTOR>4,ts_m059a,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「お、おい、ふうま！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ちょっと、違うわよ！
+　こないだの反乱にふうまちゃんは
+　関わってないから！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「あんな馬鹿な真似をしたのは、
+　骸佐とその取り巻きよ！
+　ふうまちゃんは悪くないわ！！」
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そ、そうだよ。アサギ先生に聞いただろ！
+　反乱を起こしたのはふうまのごく一部で、
+　ふうま全部じゃないって！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001f,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>4,ts_m059a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍新兵
+「それは分かってるわ。
+　でもお前が当主としてしっかりしていれば、
+　あんなことは起こらなかった。違う！？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そう言われると一言もないな。
+　骸佐を止められなかったのは、
+　俺にも責任の一端がある」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍新兵
+「ふざけるな！
+　わかっていたなら、なぜ……！！」
+<PAUSE>
+<NAME_PLATE>俺
+「別にふざけてなどいない。
+　だから俺は……」
+<PAUSE>
+<GROUP>
+<ACTOR>4,ts_m059a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,yu_t001f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ちょっと待って待って！
+　そうやってがなりあうのやめようよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふうまも、
+　人の神経逆なでするような言い方やめ！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜの周りに、
+バチッと電気火花が飛び散った。
+<PAUSE>
+<NAME_PLATE>
+　仕方ないので黙る。
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「私もこんなとこで言い争いさせるつもりで、
+　この子たち連れてきたわけじゃないから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「この子たちだって、
+　ふうまに責任がないことは分かってるの」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜのその言葉に、
+女対魔忍たちはうなだれる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でも、それはそれとして、
+　ふうまが許せない気持ちもあるの」
+<PAUSE>
+<ACTOR>0,yu_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「あ、ふうま個人じゃなくて、
+　ふうまの当主が許せないって気持ちね。
+　そういうの分かるでしょ？」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは俺に尋ねつつ、返事など聞かずに
+どんどん話を続ける。
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そういうドロドロっとした気持ち、
+　溜めとくと絶対よくないから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いったん解放させてあげようって、
+　それで私連れてきたの」
+<PAUSE>
+<NAME_PLATE>
+　後はもう分かるでしょとばかりに、
+ゆきかぜは口を閉じた。
+<PAUSE>
+<NAME_PLATE>俺
+「あのな、その解放っていうのが
+　何をすることか一応聞いていいか？」
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「え？　
+　そんなのお互い本気でやりあうことに
+　決まってるでしょ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、もちろん、死なない程度にね」
+<PAUSE>
+<NAME_PLATE>
+　予想通りの答えが返ってきて、
+俺はげんなりした。
+<PAUSE>
+<NAME_PLATE>俺
+「俺が強くないのは知ってるだろう。
+　ただボコられろってことかよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それじゃお互いすっきりしないでしょ。
+　いつもみたいにその二人と一緒でいいよ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「え？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ちょ、ちょっと待て！」
+<PAUSE>
+<NAME_PLATE>
+　なりゆきを見守っていた二人がギョッと
+するが、ゆきかぜは構わず続ける。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,yu_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふうま。今のふうまの本気で、
+　この子たちの相手してあげてよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「その代わり、私はこっちに付くから」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「待て待て待てーーーー！
+　なんでそっちに付くんだ。
+　しかも俺は全く関係な――むぐぐぐぐぐ」
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　全力で抗議しようとした鹿之助の口を、
+蛇子が塞いだ。
+<PAUSE>
+<ACTOR>1,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、どうする？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、やるしかないか……」
+<PAUSE>
+<NAME_PLATE>
+　さもないと、この場は収まりそうにない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ふふぐ、ふぐうぐううーーーー！！」
+（いやだあ、俺は関係ないーーー！！）
+<PAUSE>
+<ACTOR>0,h_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「それって本気で？」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうことだろ。ゆきかぜ？」
+<PAUSE>
+<GROUP>
+<ACTOR>1,h_t002e,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「そっ、こういうのは後腐れがないように
+　しないとね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私も今日でみんなの力が分かったから、
+　ちょっと本気出すよ♪」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ゆきかぜは嬉しそうに、
+バチッ、バチッと電気火花を散らしている。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ふごごごごーーーーー！！」
+（殺されるーーーー！！）
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>俺
+「蛇子、タコ化しろ。
+　そうしないとゆきかぜの相手はできないぞ」
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,h_t005a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「しょうがないか。よいしょっと」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装
+<NAME_PLATE>
+　覚悟を決めた蛇子の下半身が、
+ズルッとタコに変化した。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ほらほら、鹿之助ちゃんも準備して」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「なんでこんなことになるんだああああ！！」
+<PAUSE>
+<ACTOR>0,h_t005a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　鹿之助が悲鳴を上げ、
+女たちとゆきかぜが躍りかかってきた。
+<PAUSE>
+<ACTOR>0,ts_m059a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>対魔忍新兵
+「ふうま、覚悟！！」
+<PAUSE>
+<GROUP>
+<ACTOR>4,ts_m059a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,yu_t002a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「覚悟っ！！」
+<PAUSE>
+<NAME_PLATE>俺
+（お前が言うなよな……！）
+<PAUSE>
+<ACTOR>0,yu_t002a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section５-ＭＡＰ画面１へ
+//=================================================================

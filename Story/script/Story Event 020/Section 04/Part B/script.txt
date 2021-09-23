@@ -1,0 +1,132 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿とあるバー＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0101a,IN, 1000
+<NAME_PLATE>俺
+「そうか。沙無羅威の幹部、
+　サイボーグ殺人鬼サイエント……」
+<PAUSE>
+<ACTOR>0,chr_t0299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ソニア
+「ええ。
+　何を言ってるかわからない、
+　完全に頭のイカれたクソ野郎よ」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　自分を棚に上げてソニアが言う
+<PAUSE>
+<NAME_PLATE>ソニア
+「大富豪だったあいつは、資産の全てを体の
+　サイボーグ強化につぎ込んでるって話でね」
+<PAUSE>
+<NAME_PLATE>ソニア
+「米連軍でも迂闊に手を出せないっていう
+　バケモノじみた性能の殺人マシーンよ」
+<PAUSE>
+<NAME_PLATE>ソニア
+「そんな奴だから、私も熱くなれるかもって
+　暗殺の仕事を受けたんだけど――
+　でも、やっぱり機械野郎はぜんぜんダメ」
+<PAUSE>
+<NAME_PLATE>ソニア
+「ちっとも体が疼かない。で、
+　途中で逃げて帰ってきたってわけ」
+<PAUSE>
+<NAME_PLATE>俺
+「えぇ……お前、
+　むちゃくちゃ勝手だな」
+<PAUSE>
+<NAME_PLATE>
+　まあ、知ってはいたけれど。
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、そんなイカれた
+　殺人サイボーグと、沙無羅威か。
+　厄介だな……」
+<PAUSE>
+<ACTOR>0,chr_t0299a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0300a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紫水
+「どうしたの、お館くん？
+　難しい顔をして」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿抜刀
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺がつぶやくと、
+隣に座る紫水が聞いてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「あぁ。ここも全く
+　安全じゃないと思ってな」
+<PAUSE>
+<NAME_PLATE>
+　沙無羅威は、
+広域犯罪結社ノマドの傘下。
+<PAUSE>
+<NAME_PLATE>
+　五強の他の組織よりも
+高い諜報力を持っているだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「……ソニア。
+　仲間に連絡したところ悪いが、
+　ここを離れた方がいいかも知れない」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「この周辺は沙無羅威の縄張りだ。
+　下手をしたら既に奴らは――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<GROUP>
+<ACTOR>0,ts_m181a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m181a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+『ＵＯＯＯＯＯＯＯＯＯ！！！！』
+『ＵＯＯＯＯＯＯＯＯＯ！！！！』
+『ＵＯＯＯＯＯＯＯＯＯ！！！！』
+<PAUSE>
+//　※立ち絵
+//　　ＫＮＳ８レプリカント
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ＫＮＳ８レプリカント
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>紫水
+「っ！？」
+<PAUSE>
+<NAME_PLATE>ソニア
+「くっ！？　こいつら――」
+<PAUSE>
+<NAME_PLATE>
+　轟音を立てて入口をぶち破り
+サイボーグ兵が襲いかかってきた。
+<PAUSE>
+//→Section４終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

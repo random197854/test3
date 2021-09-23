@@ -1,0 +1,894 @@
+//シナリオ部分【Section４】
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：廃校舎＿正門前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC004aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　一夜明けた。
+<PAUSE>
+<NAME_PLATE>
+　アサギ、不知火、
+そして九郎ほか配下の対魔忍は、
+<PAUSE>
+<NAME_PLATE>
+　刺客の追っ手を逃れて、
+秘密のアジトにたどり着いていた。
+<PAUSE>
+<NAME_PLATE>
+　そこは五車近郊の町にある
+廃校となった学校の校舎だった。
+<PAUSE>
+//【背景：廃校舎＿廊下＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC005aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc005a,IN, 1000
+<ACTOR>0,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍
+「アサギ様！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男）
+//　　　＊カードイラストより流用
+<NAME_PLATE>対魔忍
+「ご無事でございましたか！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女）
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍
+「長老衆どもめ
+　ついに動き出したか！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　＊カードイラストより流用
+<NAME_PLATE>対魔忍
+「なんの！　長老衆ごとき。
+　アサギ様さえいれば恐れるものはない」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（女）
+//　　　＊カードイラストより流用
+<NAME_PLATE>対魔忍
+「そうとも。
+　宗家の正当な後継者たる
+　アサギ様のお力があれば！」
+<PAUSE>
+<NAME_PLATE>対魔忍
+「アサギ様、新しき井河のために、
+　次こそは私をお供に加えてくださいませ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>対魔忍
+「私も！！」
+「それがしも！！」
+「アサギ様、是非に！！」
+<PAUSE>
+<NAME_PLATE>
+　救出部隊に加わらず、
+ここで待機していた部下たちが
+彼女の無事を出迎えてくれる。
+<PAUSE>
+<NAME_PLATE>
+　アサギの理想に共鳴する者、
+アサギの強さに心酔する者、
+<PAUSE>
+<NAME_PLATE>
+　彼女が宗家の
+正統な後継者だから付き従う者、
+<PAUSE>
+<NAME_PLATE>
+　長老衆に恨みを持つ者、
+旧態依然としたやり方に反発する者、
+<PAUSE>
+<NAME_PLATE>
+　理由は様々ではあるが、
+概ね井河一門の中でも次代を背負う若手達だ。
+<PAUSE>
+<ACTOR>0,a_t011a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「心配をかけたな。
+　今後のことについて話し合う。
+　皆を地下に集めてくれ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍
+「「「はっ！」」」
+<PAUSE>
+<NAME_PLATE>
+　彼らは意気盛んに散っていった。
+<PAUSE>
+<ACTOR>0,a_t011a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>不知火
+「アサギ様、人気者ね」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<ACTOR>0,a_t011c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「からかうな
+　戦意が旺盛なのは結構なのだがな」
+<PAUSE>
+<NAME_PLATE>不知火
+「彼らはまだ実戦経験に乏しいわ。
+　長老衆の練れ者にどれだけ対応できるか」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ゆっくり経験を積ませてやる余裕はない。
+　いったい何人が生き残れるか。
+　ん……九郎はどこにいった？」
+<PAUSE>
+<NAME_PLATE>
+　一緒に戻ってきたはずの
+八津九郎の姿が消えている。
+<PAUSE>
+<NAME_PLATE>不知火
+「ここの警備態勢を見てくるって。
+　相変わらずじっとしてられない人ね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「……見てくる」
+<PAUSE>
+<NAME_PLATE>不知火
+「ふふ、両眼が見えないのにね。
+　でもだからこそ観えるものがあるみたいね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　九郎は盲目の対魔忍だ。
+だが元からそうだったわけではない。
+<PAUSE>
+<NAME_PLATE>
+　彼は井河家の下忍の家系である
+八津家の生まれだが、長いこと対魔忍の能力に
+目覚めなかった。
+<PAUSE>
+<NAME_PLATE>
+　忍法が使えないのならばと、
+陸上自衛軍のレンジャー部隊に志願し、
+任務中に両眼を失い、除隊した。
+<PAUSE>
+<NAME_PLATE>
+　運命の皮肉か、その失明がきっかけで
+八津家伝来の能力“不死覚醒”に目覚める。
+<PAUSE>
+<NAME_PLATE>
+　百人力とも称される怪力と
+ほとんど不死に近い再生能力。
+<PAUSE>
+<NAME_PLATE>
+　だが力が目覚める前に失った両眼だけは
+再生することはなかった。
+<PAUSE>
+<NAME_PLATE>
+　その代りに第六感的な超感覚を獲得し、
+本人曰く、周囲の状況を目があるもの以上に
+細やかに色彩までも察知するという。
+<PAUSE>
+<NAME_PLATE>
+　それがいかなる能力によるものかは
+アサギは知らない。九郎も教えてくれない。
+<PAUSE>
+<NAME_PLATE>
+　愚痴が多い皮肉屋なのを除けば、
+五車生え抜きの対魔忍とは一風異なる
+頼りになる仲間だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,a_t011c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「まあ警備態勢のチェックはあいつに
+　まかせておけば大丈夫だろう」
+<PAUSE>
+<NAME_PLATE>不知火
+「そういえば、さくらちゃんと紫ちゃんは？
+　まさかここに来るとかないわよね？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「私が諭して安全な場所に避難させた。
+　二人とも闘いに参加したがっていたがな」
+<PAUSE>
+<NAME_PLATE>不知火
+「ならよかった」
+<PAUSE>
+<NAME_PLATE>アサギ
+「あの二人をこのゴタゴタに
+　巻き込みたくはない」
+<PAUSE>
+<NAME_PLATE>不知火
+「……そうね。
+　みんなが待っているわ。
+　早く行きましょう」
+<PAUSE>
+//※注　アサギ19歳時　さくらと紫　12歳
+//【背景：廃校舎＿地下アジト＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC006aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0248b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　廃校の地下。
+<PAUSE>
+<NAME_PLATE>
+　そこがアジトの本部だ。
+<PAUSE>
+<NAME_PLATE>
+　有志によって改造されて
+今はパブのようになっている。
+<PAUSE>
+<NAME_PLATE>
+　アサギに従う若き対魔忍達が
+そこに集まっていた。
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男）
+//　　　＊カードイラストより流用
+//　　対魔忍新兵（女）
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　対魔忍斥候（女）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　皆、自分たちで何かをやろうという
+決意に満ちた顔をしている。
+<PAUSE>
+<NAME_PLATE>
+　アサギは一同を見渡し、口を開いた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「昨晩、かねてから私と対立していた
+　井河長老衆の一部がクーデターを起こした」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>アサギ
+「奴らは五車の要所を制圧、
+　同時に私の暗殺を目論んだが、
+　そちらの方は失敗した。当然だがな」
+<PAUSE>
+<NAME_PLATE>対魔忍
+「さすがアサギ様」
+「お見事でございます」
+<PAUSE>
+<NAME_PLATE>
+　彼らの尊敬の眼差しを感じながら
+アサギは続けた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「クーデター部隊の長は
+　長老衆筆頭にして井河家執事、
+　葉取星舟（はとりせいしゅう）」
+<PAUSE>
+<NAME_PLATE>アサギ
+「つまり私の祖母だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>対魔忍
+「むう……」
+「やはり……」
+「おばば様が……」
+<PAUSE>
+<NAME_PLATE>
+　星舟の恐ろしさは知れ渡っている。
+<PAUSE>
+<NAME_PLATE>
+　想像はしていたのだろうが、
+一同に騒めきが拡がった。
+<PAUSE>
+<NAME_PLATE>
+　アサギはそれを手で制し、
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「長老衆のうち誰が星舟についたか
+　まだ完全に確認はできていないが、
+　私の伯母、井河扇舟は加わっている」
+<PAUSE>
+<NAME_PLATE>アサギ
+「腰巾着の娘だしな。予想通りだ。
+　昨夜、私の暗殺部隊に混じって現れたが
+　残念ながら逃がしてしまった」
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>不知火
+「鴉野一門も加わっているようね」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>不知火
+「昨夜のこのこ現れた鴉野魎馬は
+　私が首を跳ねて倒したけれど、
+　本当に死んだかどうかなんともいえないわ」
+<PAUSE>
+<NAME_PLATE>
+　不知火がそうつけ加えた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「九郎、昨夜の被害を報告してくれ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　警備態勢のチェックから戻ってきた九郎に
+アサギは声を掛ける。
+<PAUSE>
+<ACTOR>0,ku_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>九郎
+「人的被害はほぼ皆無。
+　多少手傷を受けた者はいたが死者はゼロ。
+　事前に決起を察知していたのが幸いしたな」
+<PAUSE>
+//　※立ち絵
+//　　八津九郎立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>0,ku_t002a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,a_t011c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「そうか」
+<PAUSE>
+<NAME_PLATE>
+　それ以上は口にしないが、
+思わず安堵の表情が浮かぶ。
+<PAUSE>
+<NAME_PLATE>九郎
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　九郎が「まだ甘いな」と
+言いたげな顔をしていたが、
+それは気にしないことにして尋ねる
+<PAUSE>
+<NAME_PLATE>アサギ
+「五車の井河以外の家々の動向はどうだ？」
+<PAUSE>
+<NAME_PLATE>九郎
+「静観、その一言だ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「中立を保って事態の推移を見守っている。
+　内輪もめは勝手にやれというところか」
+<PAUSE>
+<NAME_PLATE>九郎
+「それに乗じようとする輩の気配も
+　今のところはない」
+<PAUSE>
+<NAME_PLATE>九郎
+「星舟と裏で繋がっている奴らはいるだろうが
+　それも内輪もめの流れがある程度決まるまで
+　動きを見せないだろう」
+<PAUSE>
+<NAME_PLATE>アサギ
+「政府の方は？」
+<PAUSE>
+<NAME_PLATE>九郎
+「同じだ。内輪もめにどうケリが付こうが
+　結果的に五車での井河の勢力が弱まるなら
+　政府にとっては万々歳だろう」
+<PAUSE>
+<ACTOR>1,a_t011e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「万一、騒動が五車全体に拡がるようであれば
+　治安維持の名目で政府の部隊を
+　介入させるか。そうはさせない」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アサギは自分に言い聞かせた。
+<PAUSE>
+<NAME_PLATE>
+　そうならないためにも時間はかけられない。
+迅速に事態を収拾させなければ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,a_t011c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>不知火
+「ふうまの残党はどうなの？
+　彼らこそ井河に色々と思うところが
+　あるでしょう？」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　不知火が思い出したように言った。
+確かにその通りだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　かねてより井河長老衆と対立していた
+ふうま一族の長、ふうま弾正。
+<PAUSE>
+<NAME_PLATE>
+　彼が決起したのは少し前のことだ。
+<PAUSE>
+<NAME_PLATE>
+　激しい戦闘の末、ふうま弾正は敗死。
+<PAUSE>
+<NAME_PLATE>
+　井河長老衆は勢いにのって
+ふうまを滅ぼすべく、その里を襲撃し、
+壊滅的な被害を与えた。
+<PAUSE>
+<NAME_PLATE>
+　だが生き残った幼い次期当主、
+ふうま小太郎が単身、井河一門の若き当主
+すなわちアサギのもとへ現れる。
+<PAUSE>
+<NAME_PLATE>
+　アサギは井河一門の当主として
+彼およびその配下たちを庇護することを決め、
+長老衆も停戦せざるを得なくなった。
+<PAUSE>
+<NAME_PLATE>
+　その後、ふうま一門は二つに分裂。
+<PAUSE>
+<NAME_PLATE>
+　幼いふうま小太郎を頭に
+五車に恭順しようとするふうま宗家と、
+それをよしとしないふうま残党。
+<PAUSE>
+<NAME_PLATE>
+　ふうま残党は五車を出奔し、
+井河一門への復讐の機会を狙っている。
+<PAUSE>
+<NAME_PLATE>
+　アサギはふうま残党との和平や、
+その他の有力名門との融和に動いているが、
+<PAUSE>
+<NAME_PLATE>
+　井河一門の覇権を狙う井河長老衆は、
+それに強く反発、
+今回ついに決裂状態となった。
+<PAUSE>
+<NAME_PLATE>
+　つまり井河一門による五車の一極支配を望む
+長老衆の野望をアサギが阻止した事が
+今回のクーデターの原因といえた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ku_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,a_t011c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「九郎、どうなのだ？」
+<PAUSE>
+<NAME_PLATE>九郎
+「なんとも言えないな」
+<PAUSE>
+//　※立ち絵
+//　　八津九郎立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　九郎は彼にしては珍しく
+自信がなさそうに言った。
+<PAUSE>
+<NAME_PLATE>九郎
+「だがふうま残党は絶対数が少ない。
+　表だって介入してくることはまずあるまい」
+<PAUSE>
+<NAME_PLATE>九郎
+「我らが双方共倒れになることを願いつつ
+　隙あらばとどめを刺す。
+　そんなところだろう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「ふうまの残党はそれでいいとして、
+　当主の坊やは今どうしてるの？
+　今、五車においておくのは危険よ」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<ACTOR>1,chr_t0311a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,a_t011c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「すでに五車から離れてもらった。
+　あの子を殺されたら、ふうまとの和平の線が
+　完全に途切れてしまうからな」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>不知火
+「どこにいるかは私にも教えないと？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「星舟にも手を出せないところとだけ
+　言っておこう」
+<PAUSE>
+//　※注　後で甲河家部隊とふうま宗家部隊が一緒に出てくるので、甲河の里に小太郎と骸佐だけは預けているとか。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ku_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>九郎
+「一つ付け加えるなら、
+　長老衆も一枚岩ではない。
+　そこは俺が裏工作済みだ」
+<PAUSE>
+//　※立ち絵
+//　　八津九郎立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>九郎
+「クーデターに参加しなかった者、
+　参加はしたが乗り気でない者、
+　面従腹背を決め込んでいる者もいるだろう」
+<PAUSE>
+<NAME_PLATE>九郎
+「今後の趨勢によって
+　奴らはどうとでも転ぶ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「狸どもめ。
+　せいぜい高みの見物を
+　気取っていればいい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「で、あなたはどうするつもり？」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　不知火が皆を代表して尋ねる。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　誰もがアサギの長としての
+判断を待っていた。
+<PAUSE>
+<NAME_PLATE>
+　星舟率いるクーデター部隊、
+それに対抗するアサギたち、
+<PAUSE>
+<NAME_PLATE>
+　海千山千の長老衆たち、
+傍観を決め込む政府、他の家々など
+情勢は錯綜している。
+<PAUSE>
+<NAME_PLATE>
+　だがアサギはリーダーとして
+あえてばっさりと決断した。
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「目下の敵は葉取星舟だ。
+　まずはやつを倒す」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<ACTOR>0,a_t011c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>不知火
+「いいの？
+　お祖母様相手では
+　やりにくいんじゃない？」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　不知火が聞いてきた。
+<PAUSE>
+<NAME_PLATE>
+　本気でそう思っているのではなく、
+ここにいる皆にその答えを聞かせてあげて
+という問いかけだった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「そうでもない」
+<PAUSE>
+<NAME_PLATE>アサギ
+「昨夜、扇舟ははぐらかしていたが、
+　父の死にあの妖怪が関係していると
+　私は見ている」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ならば私の仇だ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アサギの父、井河主膳（いがわしゅぜん）が
+任務中に死んだのは彼女が１４の時。
+<PAUSE>
+<NAME_PLATE>
+　主膳は実の母親である葉取星舟とは
+激しく対立していた。
+<PAUSE>
+<NAME_PLATE>
+　その死には疑念が多い。
+<PAUSE>
+<NAME_PLATE>
+　直接的にしろ間接的にしろ
+間違いなく星舟が関わっているはずだ。
+<PAUSE>
+<NAME_PLATE>
+　己のためならば血を分けた
+息子を殺すことも厭わない妖怪だ。
+<PAUSE>
+<NAME_PLATE>
+　事実、アサギも暗殺しようとした。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに母、菊は
+アサギと妹のさくらが幼いころに
+病没している。
+<PAUSE>
+<NAME_PLATE>
+　悲しいことではあったが、
+その死に疑うところはなかった。
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「星舟は私の父の仇だ。
+　だが私怨によって奴と戦うのではない。
+　それは覚えていてくれ」
+<PAUSE>
+//　※立ち絵
+//　　若いアサギ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギZEROの立ち絵より流用
+<NAME_PLATE>アサギ
+「また私に仇討ちをさせようなどと思うな。
+　倒せる機会があれば迷わず倒せ」
+<PAUSE>
+<NAME_PLATE>
+　アサギは皆と、そして自分にも
+言い聞かせるように言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ku_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>不知火
+「それはもちろん了解」
+<PAUSE>
+//　※立ち絵
+//　　幻影不知火01(魔性ＳＲ)
+//　　　＊カードイラストより流用
+<NAME_PLATE>九郎
+「当たり前のことを言うな」
+<PAUSE>
+//　※立ち絵
+//　　八津九郎立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「そうだな。
+　九郎、星舟の居場所は
+　調べているだろうな？」
+<PAUSE>
+<ACTOR>1,a_t011c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ku_t002a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>九郎
+「無論。
+　敵の布陣もすでに確認している」
+<PAUSE>
+<NAME_PLATE>
+　九郎は地図を広げた。
+<PAUSE>
+<NAME_PLATE>九郎
+「姫神ヶ岳。
+　その社に奴はいる」
+<PAUSE>
+<NAME_PLATE>
+　地図には星舟の居場所、
+そして敵の配置が記載されていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「ずいぶんと分かりやすい布陣ね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　星舟のそばに僅かな護衛部隊があり、
+彼女を囲むように四方に大部隊を配している。
+<PAUSE>
+<NAME_PLATE>
+　その狙いは至ってシンプルだ。
+<PAUSE>
+<NAME_PLATE>
+　自らを囮として敵を誘い込み、
+襲撃があれば四方から兵を中央に殺到させて
+敵を包囲殲滅するという策だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ku_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,a_t011c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アサギ
+「私を誘い出す罠だな」
+<PAUSE>
+<NAME_PLATE>九郎
+「間違いなく」
+<PAUSE>
+<NAME_PLATE>
+　頷く九郎の顔は暗い。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　この情報を収集してきた彼は
+アサギ以上に危機感を抱いているだろう。
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ならば私はその誘いに乗る」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>不知火
+「アサギ！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「長引けば五車を制圧している分、
+　あちらが優位になる」
+<PAUSE>
+<NAME_PLATE>アサギ
+「傍観を決め込む輩にも
+　余計な時間を与えたくない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ku_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0311a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>九郎
+「あえて死中に活を求めるか。
+　お前らしいな、アサギ」
+<PAUSE>
+<NAME_PLATE>不知火
+「本当にね」
+<PAUSE>
+<NAME_PLATE>
+　九郎がニヤリと笑い、
+不知火も呆れ顔になった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>対魔忍
+「ならば我らもお供します！」
+「共に死地に！　アサギ様！」
+「アサギ様！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男）
+//　　　＊カードイラストより流用
+//　　対魔忍新兵（女）
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　＊カードイラストより流用
+//　※立ち絵
+//　　対魔忍斥候（女）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　対魔忍達が一斉に身を乗り出してきたが、
+<PAUSE>
+<ACTOR>0,a_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「駄目だ」
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　アサギはそれをきっぱりと断った。
+なにか言いかける彼らを制して、
+<PAUSE>
+<ACTOR>0,a_t011c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ku_t002a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「九郎、
+　お前は全ての戦力を率いて五車を急襲。
+　クーデター部隊が制圧した要所を奪還しろ」
+<PAUSE>
+<NAME_PLATE>九郎
+「承知」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0311a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>不知火
+「アサギ、あなたはどうするの？
+　まさか……」
+<PAUSE>
+<ACTOR>1,chr_t0311a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,a_t011a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「馬鹿正直に突っ込んだりはしない。
+　私にも策がある」
+<PAUSE>
+<NAME_PLATE>
+　アサギは不敵に微笑んだ。
+<PAUSE>
+//→S402a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

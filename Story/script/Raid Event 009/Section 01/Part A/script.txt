@@ -1,0 +1,1167 @@
+//☆レイド09シナリオ
+//作成者：飯田和彦
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：まえさき市繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc111a,IN, 1000
+<NAME_PLATE>
+　１０月某日。
+<PAUSE>
+<NAME_PLATE>
+　ハロウィンの夜、まえさき市繁華街は
+突然の狂騒に包まれていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>男
+「うわああああっ！？
+　なっ、なんだこいつら、
+　こっちに来るなぁぁぁっ！！！」
+<PAUSE>
+<ACTOR>0,ts_m054a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>暴徒たち
+「ウェーイ♪　ウェーイ♪」
+「ウェーイ♪　ウェーイ♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　逃げ惑う人々に暴徒が襲いかかる。
+<PAUSE>
+<NAME_PLATE>警官１
+「クソ、止まれ！！
+　一体なんなんだこいつらは！？」
+<PAUSE>
+<NAME_PLATE>警官２
+「班長！　向こうで奴らが軽トラを
+　引き倒して――ああ！？
+　こっちにもやってくる！！」
+<PAUSE>
+<NAME_PLATE>警官１
+「ぐぅ！？　数が多すぎる！！」
+<PAUSE>
+<NAME_PLATE>暴徒たち
+「ウェーイ♪　ウェーイ♪」
+「ウェーイ♪　ウェーイ♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　あまりの数と勢いに警官たちの
+制止も押し流される。
+<PAUSE>
+<NAME_PLATE>
+　思い思いのハロウィンコスをした
+若者たちが暴徒と化して暴れ回り――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そんな光景を空中から楽しげに
+見下ろしているのが、かぼちゃ頭の
+奇妙な魔物である。
+<PAUSE>
+<ACTOR>2,ts_m130a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハロウィンの悪霊
+『ウケケケケ、
+　ハッピー♪　ハッピー♪』
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『暴れろ暴れろ人間どもっ！！
+　そうやって、日頃の鬱憤を思い切り
+　晴らしてやればいいのさ～♪』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　『ハロウィンの悪霊』。
+<PAUSE>
+<NAME_PLATE>
+　鬱屈した人々の自制心を解き放ち、
+破壊衝動に従うだけの暴徒に変える
+という能力を持つ。
+<PAUSE>
+<NAME_PLATE>
+　そんな迷惑な魔物が、ハロウィンに
+浮き立つ夜の繁華街に出現したのだった。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『人間はストレスを溜めすぎだからねぇ。
+　つらいことなんて忘れてハッピーに
+　なっちゃえばいいのさ、ほーら♪』
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女
+「や、やめてぇっ！？　アタシは
+　ハッピーになんてなりたく――」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se106
+<NAME_PLATE>
+　魔物の目がピカーっと輝いて
+怪光線が発射された。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<SE_PLAY>se010
+<NAME_PLATE>
+　逃げ惑うギャング風の女がそれを
+浴びてバタリと倒れる。だが、
+それからすぐに――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>女
+「うぐ！？　ううぅ………」
+<PAUSE>
+<ACTOR>3,ts_m055a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女
+「うぇーい♪　うぇーい♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビ姉御
+//　　　　＊モンスターイラストより流用
+//　※立ち絵がゾンビ姉御に変わるのは意図的なものです。洗脳されたことの表現。
+<GROUP>
+<ACTOR>0,ts_m054a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>3
+</GROUP>
+<NAME_PLATE>暴徒たち
+「ウェーイ♪　ウェーイ♪」
+「ウェーイ♪　ウェーイ♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>ハロウィンの悪霊
+『ウケケケケケ！！
+　ハッピー♪　ハッピー♪』
+<PAUSE>
+<NAME_PLATE>
+　立ち上がったギャング風の女が
+暴徒に合流して暴れ始める。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　顔色はゾンビのように青白いが
+掛け声だけは妙に楽しげな暴徒たち。
+<PAUSE>
+<NAME_PLATE>
+　彼らの蛮行で街の混乱は深まる
+ばかり――だが、その時。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm304,1000
+<NAME_PLATE>？？？
+「そこまでだ、あやかしの者！！！！
+　貴様がこの騒動の元凶だな！？」
+<PAUSE>
+<ACTOR>2,ts_m130a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハロウィンの悪霊
+『っ！？？　なんだお前は！？』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　魔物の前に油断なく剣を構えた
+若い女が立ち塞がった。
+<PAUSE>
+<ACTOR>4,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>心願寺紅
+「私は対魔忍・心願寺紅。
+　人心を惑わす悪鬼外道め――
+　使命によって貴様を討ち滅ぼす！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+<NAME_PLATE>
+　精悍な表情の女が鋭く名乗りを上げる。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍とは、人に害を為す“魔のもの”を
+討つために組織された忍達の名称だ。
+<PAUSE>
+<NAME_PLATE>
+　この夜も“魔物出現”の報せを受け、
+対魔忍・心願寺紅が急行してきたのだった。
+<PAUSE>
+<ACTOR>4,chr_t0161a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,ts_m130a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ハロウィンの悪霊
+『対魔忍……？　お前、
+　それにしちゃ浮かれた格好だが』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「あっ！？　いや、これは……」
+<PAUSE>
+<NAME_PLATE>
+　紅が目に見えて動揺した。
+<PAUSE>
+<NAME_PLATE>
+　確かにハロウィンの
+悪霊の指摘通りである。
+<PAUSE>
+<NAME_PLATE>
+　紅が身につけているのは、
+ハロウィンがモチーフらしい
+魔女風の衣装。
+<PAUSE>
+<NAME_PLATE>
+　普段の戦闘機能がついている
+対魔忍スーツとはまったく違う。
+<PAUSE>
+<NAME_PLATE>
+　全体的にひらひらした可愛らしい
+デザインで、戦いに臨むようには
+到底見えないのんきな格好だ。
+<PAUSE>
+<NAME_PLATE>紅
+「こ、これは……気にするなっ！
+　戦闘において着ているものなど
+　大した意味はない！」
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『いやぁ気になるだろ。
+　それ、どう見てもノリノリの
+　パーティー衣装だし――』
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『なあ？
+　お前らも気になるよな』
+<PAUSE>
+<NAME_PLATE>暴徒たち
+「ウェーイ♪　ウェーイ♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　話を振られた暴徒たちが紅を指差して
+「ウェイウェイ」と囃し立てた。
+<PAUSE>
+<NAME_PLATE>紅
+「う、うるさい！　これには……
+　色々と事情があるんだっ！！」
+<PAUSE>
+<NAME_PLATE>
+　そう――。
+紅とて好きでこのような浮かれた
+格好で戦いに来たわけではない。
+<PAUSE>
+<NAME_PLATE>
+　これには、当人にもどうしようもない
+やむにやまれぬ事情があったわけで……。
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一日前。
+<PAUSE>
+//【背景：センザキ某所＿心願寺一党のアジト＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ　のnc028aから流用
+<BGM_PLAY>bgm309,1000
+<BG>nc209a,IN, 1000
+<NAME_PLATE>
+　センザキ・心願寺一党のアジト。
+<PAUSE>
+<ACTOR>4,chr_t0161a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紅
+「な、なあ、あやめ。
+　これ、変じゃないかな……？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+<ACTOR>5,ay_t002r,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>槇島あやめ
+「ええ。お似合いですよ、紅様」
+<PAUSE>
+//　※立ち絵
+//　　槙島あやめ通常立ち絵＿スーツ衣装
+//　　　　＊対魔忍紅の立ち絵より流用
+<NAME_PLATE>
+　少し呆れたように答えるあやめ。
+<PAUSE>
+<NAME_PLATE>
+　このやり取りもすでに何回目だろうか。
+<PAUSE>
+<NAME_PLATE>
+　紅は明日のハロウィンで着る
+衣装の仕上がりが気になるらしく、
+<PAUSE>
+<NAME_PLATE>
+　こうして必要もないのに前の晩から
+何度も着てチェックをしているのだった。
+<PAUSE>
+<NAME_PLATE>紅
+「そ、そうか！　それは良かった！
+　いや、私は着るものにこだわりが
+　あるわけじゃないから気にしないが――」
+<PAUSE>
+<NAME_PLATE>紅
+「でも、誘ってくれたあいつに
+　恥をかかすわけにはいかないからな！
+　変じゃなくて良かった！」
+<PAUSE>
+<ACTOR>5,ay_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>あやめ
+「ええ。小太郎様もきっと
+　気に入って下さると思いますよ」
+<PAUSE>
+<NAME_PLATE>紅
+「本当か！？　そうだと良いなぁ、
+　えへっ、えへへ……」
+<PAUSE>
+<ACTOR>5,ay_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>あやめ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　いつになく浮かれた様子の主を見て
+「やれやれ」という顔をするあやめ。
+<PAUSE>
+<NAME_PLATE>
+　紅がこうなっている原因は、
+ふうま宗家の現当主である小太郎と
+再会したことにあった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　数週間前――。
+<PAUSE>
+<NAME_PLATE>
+　米連から逃亡したサイボーグ対魔忍の
+事件に絡んで、紅は小太郎と久しぶりに
+顔を合わせた。
+<PAUSE>
+<NAME_PLATE>
+　実に数年ぶりの再会である。
+<PAUSE>
+<NAME_PLATE>
+　その時は色々と立て込んでいて
+あまり話す余裕もなかったのだが、
+<PAUSE>
+<NAME_PLATE>
+　「落ち着いたら改めて会おう」と
+互いの連絡先を交換して別れていた。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、二人とも任務や修行で
+多忙の身だ。
+<PAUSE>
+<NAME_PLATE>
+　なかなか予定が合わず、ようやく
+ハロウィンの日にオフが重なった。
+<PAUSE>
+<NAME_PLATE>
+　そこで――
+<PAUSE>
+<NAME_PLATE>俺
+「ちょうど良いや。まえさき市で
+　ハロウィン祭りをするみたいだからさ、
+　お前も一緒に行こうぜ！」
+<PAUSE>
+<NAME_PLATE>
+　と小太郎に誘われ、紅もハロウィンの
+仮装行列に参加することになったのだ。
+<PAUSE>
+<ACTOR>4,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+（しかしあいつ、
+　すごくカッコ良くなってた……）
+<PAUSE>
+<NAME_PLATE>紅
+（話す時だって、あんなに賢そうに
+　ハキハキ喋っていたし……はぁ）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　思い出すとドキドキしてしまう紅だった。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<BGM_PLAY>bgm203,1000
+<BG>black,IN, 1000
+<NAME_PLATE>
+　――元ふうま八将・心願寺家の娘である
+紅と、ふうま宗家の嫡男である小太郎は、
+幼い頃からの付き合い、
+<PAUSE>
+<NAME_PLATE>
+　いわゆる幼馴染みである。
+<PAUSE>
+<NAME_PLATE>
+　幼い頃の紅は、特殊な出生の事情から
+塞ぎ込みがちな子供だった。
+<PAUSE>
+<NAME_PLATE>
+　周囲から孤立し、祖父であり
+師匠でもある心願寺幻庵の他に
+親しく話す相手もいない。
+<PAUSE>
+<NAME_PLATE>
+　そこに現れたのが、
+ふうま小太郎である。
+<PAUSE>
+<NAME_PLATE>
+　小太郎は、紅の出生の事情を
+気にすることなく明るく接し、
+<PAUSE>
+<NAME_PLATE>
+　蛇子や骸佐、銃兵衛といった
+彼の仲間の輪にも、
+紅を引き入れてくれた。
+<PAUSE>
+<NAME_PLATE>
+　他の子供と同じように
+日々を楽しむことを教えてくれた。
+<PAUSE>
+<NAME_PLATE>
+　丁度、ふうま弾正の反乱から数年が
+経過し、里の緊張も和らいできた頃である。
+<PAUSE>
+<NAME_PLATE>
+　逆境にありながら明るさを忘れない
+彼や仲間たちの存在は、いつの間にか
+紅の心の支えとなっていた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その後、しばらくして――
+<PAUSE>
+<NAME_PLATE>
+　紅は、反乱に荷担した責を負い
+隠居する祖父と共に五車を離れる
+ことになるのだが、
+<PAUSE>
+<NAME_PLATE>
+　そうして疎遠になった後も、
+小太郎への感謝と淡い憧れの気持ちは
+消えることはなかった。
+<PAUSE>
+<BGM_PLAY>bgm309,1000
+<BG>nc209a,IN, 1000
+<ACTOR>4,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+（そんなあいつが
+　誘ってくれたんだ……）
+<PAUSE>
+<NAME_PLATE>紅
+（今回のハロウィン、是が非でも
+　完璧に振る舞わなければ……！）
+<PAUSE>
+<NAME_PLATE>
+　紅が改めて決意を固める。
+<PAUSE>
+<NAME_PLATE>紅
+「……あやめ、ちょっと良いか？」
+<PAUSE>
+<ACTOR>4,chr_t0161a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>5,ay_t002b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>あやめ
+「はい？　なんでしょう」
+<PAUSE>
+<NAME_PLATE>紅
+「とりっくおあとりーと……？
+　だったかな？」
+<PAUSE>
+<NAME_PLATE>紅
+「今から、あの掛け声の練習をするから
+　ちゃんとできてるか見てくれないか？」
+<PAUSE>
+<ACTOR>5,ay_t002a,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>あやめ
+「は……！？」
+<PAUSE>
+<NAME_PLATE>
+　あやめが瞠目した。
+<PAUSE>
+<NAME_PLATE>
+　真面目で誠実なのは紅の長所である。
+<PAUSE>
+<NAME_PLATE>
+　だが一方で、その度が過ぎて時折
+よくわからない奇行に走ることがあった。
+<PAUSE>
+<NAME_PLATE>紅
+「今回のハロウィンは、
+　あいつの友人も来るというからな」
+<PAUSE>
+<NAME_PLATE>紅
+「もし私のとりっくおあとりーとが
+　不出来だったら、誘ってくれた
+　あいつの顔にドロを塗ることに――」
+<PAUSE>
+<NAME_PLATE>あやめ
+「紅様、考え過ぎです」
+<PAUSE>
+<NAME_PLATE>紅
+「むっ？　考え過ぎ？」
+<PAUSE>
+<NAME_PLATE>
+　紅が首を傾げた。
+<ACTOR>5,ay_t002r,LEFT, LEFT, NONE, linear, 0
+<PAUSE>
+<NAME_PLATE>あやめ
+「何と言いますか……
+　今のハロウィンは特に作法もない、
+　気軽なイベントですからね」
+<PAUSE>
+<ACTOR>5,ay_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>あやめ
+「細かい事は気にせず、
+　普通に楽しめばいいと思いますよ」
+<PAUSE>
+<NAME_PLATE>紅
+「そ、そうか。普通に……」
+<PAUSE>
+<NAME_PLATE>
+　まだちょっとよくわからない
+という顔で紅が首をひねる。
+<PAUSE>
+<NAME_PLATE>あやめ
+「それに、一緒に来るのは
+　蛇子ちゃんなんですよね？
+　気を使う必要はないと思いますが」
+<PAUSE>
+<NAME_PLATE>紅
+「ま、まあ、そうなのだが……。
+　他に知らない人も来ると言うし……」
+<PAUSE>
+<NAME_PLATE>
+　相州蛇子も、紅が幼い頃に
+遊んだ友達のひとりだ。
+<PAUSE>
+<NAME_PLATE>
+　今回は小太郎だけでなく、
+久しぶりに蛇子に会えるのも
+紅は楽しみだった。
+<PAUSE>
+<NAME_PLATE>あやめ
+「何にしても、それだけ楽しみに
+　なさっているのです。約束には
+　遅れないようにしてくださいね」
+<PAUSE>
+<ACTOR>5,ay_t002r,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>あやめ
+「生憎私は、朝から任務なので
+　お声かけできませんが……」
+<PAUSE>
+<NAME_PLATE>紅
+「うむ、わかってる！
+　私だって時間くらいは守れるぞ！」
+<PAUSE>
+<NAME_PLATE>
+　心配そうな顔のあやめに向けて
+紅が大きく肯いた。
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――というのが一日前。
+<PAUSE>
+//【背景：まえさき市繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc111a,IN, 1000
+<ACTOR>4,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+（だから、こんなことしてる
+　場合じゃないのに……！！？）
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+<NAME_PLATE>
+　ハロウィンの悪霊と相対しつつ
+紅は内心で半泣きであった。
+<PAUSE>
+<NAME_PLATE>
+　小太郎との待ち合わせの時間まで
+あと３０分ほど。
+<PAUSE>
+<NAME_PLATE>
+　本当ならば、もう待ち合わせ場所に
+向かってなければならないのだが――。
+<PAUSE>
+<NAME_PLATE>紅
+（うぅ、あの仮面女め！
+　こんな時に依頼して来なくても
+　いいじゃないか……！？）
+<PAUSE>
+<NAME_PLATE>
+　それは、紅がアジトを出る
+約１５分前のこと。
+<PAUSE>
+<NAME_PLATE>
+　待ち合わせ場所に向かおうと
+ウキウキしてハロウィン衣装に
+着替えたところで、連絡が入った。
+<PAUSE>
+<NAME_PLATE>
+　相手は“お得意様”である
+米連所属の仮面女。
+<PAUSE>
+<NAME_PLATE>
+　彼女曰く、まえさき市で迷惑な
+魔物が暴れている。
+<PAUSE>
+<NAME_PLATE>
+　こちらは別の任務があって動けないので、
+ただちに急行して討伐して欲しい、と。
+<PAUSE>
+<NAME_PLATE>
+　正直なところ心が揺れた。
+<PAUSE>
+<NAME_PLATE>
+　魔物の討伐が長引けば、小太郎たちと
+ハロウィンを楽しむことができなくなる。
+<PAUSE>
+<NAME_PLATE>
+　しかしその迷いも一瞬。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍ならば私情より任務を
+優先させるのは当然のこと。
+<PAUSE>
+<NAME_PLATE>紅
+（だが、任務さえ終わらせれば
+　何も文句はないんだろうっ！？）
+<PAUSE>
+<NAME_PLATE>紅
+「ハァァ――！！！」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　という悲壮な決意を胸に、
+紅は激しく切り込んでいく。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『くぅっ！？』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギィィンッ！！！
+<PAUSE>
+<NAME_PLATE>
+　刃と魔物が持つランタンが激突し、
+鉄が軋むような音を響かせた。
+<PAUSE>
+<BG>nc111a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m130a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0161a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハロウィンの悪霊
+『ケケ……
+　浮かれた格好をしていても
+　中身は対魔忍ってことか』
+<PAUSE>
+<NAME_PLATE>
+　ニヤリと不敵に笑って
+魔物が後方に飛び退いた。
+<PAUSE>
+<NAME_PLATE>
+　流石は名の通った魔物である。
+<PAUSE>
+<NAME_PLATE>
+　最初の激突だけで紅の実力を
+ある程度察知したのだろう。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『……だけどオイラだって
+　簡単にやられるつもりはねえ。
+　こっちにも事情がある』
+<PAUSE>
+<NAME_PLATE>紅
+「事情……？」
+<PAUSE>
+<ACTOR_OUT>4,RIGHT,linear,1000
+<ACTOR>2,ts_m130a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ハロウィンの悪霊
+『ああ。オイラがただの遊びで
+　こんな悪戯を仕掛けてると思ったかい？
+　それは了見違いってもんだ』
+<PAUSE>
+<NAME_PLATE>
+　混乱の続く街を見下しながら
+魔物がゆっくりと語り始めた。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『オイラはハロウィンの悪霊――
+　人間ども、特に生きるのに疲れた
+　哀れな連中の想いから生まれた存在さ』
+<PAUSE>
+<NAME_PLATE>
+　毎日がつらい、仕事が疲れる、
+残業が多い、ストレスが溜まる、たまには
+しがらみを忘れて思い切りハジケたい――
+<PAUSE>
+<NAME_PLATE>
+　そんな現代人の負の思念が集積して
+生まれたのがハロウィンの悪霊だ。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『ウケケ……わかるかい？
+　鬱屈した想いはいつか澱んで腐っちまう。
+　だからオイラは悪戯を仕掛けるのさ』
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『疲れた人間どもの魂に寄り添い、
+　解放し、この夜の全てをハッピーに変える。
+　そいつがオイラの――』
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>紅
+「えいっ」
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　魔物の語りを一切聞かず
+紅がズバッと剣で切り込んだ。
+<PAUSE>
+<BG>nc111a,IN, 500
+<ACTOR>2,ts_m130a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ハロウィンの悪霊
+『うおおぃいいっ！！？
+　お、お前……オイラが今ちょっと
+　良い話をしているとこだろう！？」
+<PAUSE>
+<ACTOR>4,chr_t0161a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紅
+「……？　いや、すまん。
+　お前が何なのかは興味ないし
+　何より今は時間がない」
+<PAUSE>
+<NAME_PLATE>紅
+「ただ迷惑行為をしているのは確かなので
+　さっさと滅ぼさせてもらう」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<NAME_PLATE>
+　紅はズバッズバッと剣を振るって
+逃げ惑う魔物を追い込んでいく。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハロウィンの悪霊
+『ヒィイイ！？　なんたる杓子定規！
+　お前みたいな奴がいるから
+　世界はハッピーじゃなくなるんだ！』
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『えぇい、燃えちまえっ！！
+　フレイムランタン！』
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<NAME_PLATE>
+　ゴオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　振り向きざまにかざしたランタンから
+紅蓮の炎が熱風と共に吹き寄せる。
+<PAUSE>
+<NAME_PLATE>
+　瞬時に紅の周囲を包み込む炎の渦――。
+<PAUSE>
+<NAME_PLATE>紅
+「ふんっ。笑止だな」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　紅は少しも怯まず
+炎の中に踏み込んだ。
+<PAUSE>
+<SE_PLAY>se006
+<BG>ef004a,IN, 200
+<NAME_PLATE>
+　そして剣を一閃。
+<PAUSE>
+<NAME_PLATE>
+　そこから生まれた風の刃が
+視界を覆う炎を一瞬で吹き散らす。
+<PAUSE>
+<BG>nc111a,IN, 1000
+<ACTOR>2,ts_m130a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハロウィンの悪霊
+『っ！！？』
+<PAUSE>
+<NAME_PLATE>紅
+「さあこれで任務完了だ！
+　覚悟――！！！」
+<PAUSE>
+<NAME_PLATE>紅
+（これなら間に合う！！
+　待っていてくれ、ふうまっ！）
+<PAUSE>
+<NAME_PLATE>
+　紅が一気に距離を詰める。
+<PAUSE>
+<NAME_PLATE>
+　油断、と言うより気の焦りだろう。
+<PAUSE>
+<NAME_PLATE>
+　紅は一秒でも早く任務を
+終了させたかった。
+<PAUSE>
+<NAME_PLATE>
+　そして、そういった勇み足を
+フォローする従者のあやめも、
+この夜は同行していなかった。
+<PAUSE>
+<NAME_PLATE>
+　ゆえに――。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『ウケケケ、かかったな対魔忍！！
+　行けハッピーどもっ！！』
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m054a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>暴徒たち
+「ウェーイ♪　ウェーイ♪」
+「ウェーイ♪　ウェーイ♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「なっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　開けた視界の先に大勢の暴徒がいた。
+<PAUSE>
+<NAME_PLATE>
+　ランタンの炎で紅の視界を塞いだ一瞬、
+魔物が自分の周囲に呼び寄せたのである。
+<PAUSE>
+<NAME_PLATE>紅
+「くっ！？　こいつら――」
+<PAUSE>
+<NAME_PLATE>
+　ゾンビのようにわらわらと
+暴徒達の手が伸びてくる。
+<PAUSE>
+<NAME_PLATE>
+　切り伏せようとして一瞬、躊躇した。
+<PAUSE>
+<NAME_PLATE>
+　暴徒とはいえ元々は操られている
+だけの一般人だ。
+<PAUSE>
+<NAME_PLATE>
+　そんな紅の迷いをついて
+暴徒達の足下から魔物の触手が
+するすると忍び寄る――。
+<PAUSE>
+<SE_PLAY>se117
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「！？？　し、しまった……っ」
+<PAUSE>
+<ACTOR_FRONT>2
+<NAME_PLATE>ハロウィンの悪霊
+『一丁上がり～♪
+　捕まえたぜ対魔忍っ！！』
+<PAUSE>
+<NAME_PLATE>
+　両足首と両手首。
+<PAUSE>
+<NAME_PLATE>
+　意外なほどのパワーで魔物の触手が
+絡みつき、紅の自由を奪っていた。
+<PAUSE>
+<NAME_PLATE>紅
+「く、クソ……こんな……
+　ふざけた敵に……！？」
+<PAUSE>
+<NAME_PLATE>
+　不覚であった。
+<PAUSE>
+<NAME_PLATE>
+　待ち合わせ時間に気が急くあまり、
+暴徒達の動きを完全に見逃していた。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『ウケケ！　何と言われようと
+　こうなったらオイラの勝ちさ♪』
+<PAUSE>
+<NAME_PLATE>
+　余裕たっぷりに笑いながら
+かぼちゃ頭の魔物が近づいてくる。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ハロウィンの悪霊
+『さあ、お前もなかなか鬱屈が
+　溜まっていそうだからねぇ？』
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『全部忘れて、楽しい楽しい
+　ハッピーにしてやるよ、ほーら♪』
+<PAUSE>
+<NAME_PLATE>紅
+「うぐっ！？　ぐぐぐ……っ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se106
+<NAME_PLATE>
+　ピカピカ～と魔物の目が輝き、
+洗脳光線が浴びせられる。
+<PAUSE>
+//【白画面】
+<BG>white,IN, 1000
+<NAME_PLATE>
+　……体の力が入らない。
+<PAUSE>
+<NAME_PLATE>
+　体の魔力を集めて抵抗しようにも、
+その意識すらすぐに曖昧になって
+薄れてしまう。
+<PAUSE>
+<NAME_PLATE>
+　「うぇーい♪うぇーい♪」という
+お気楽な声が頭の中に鳴り響き、
+<PAUSE>
+<NAME_PLATE>
+　今すぐにでも暴れ出したくて
+仕方がなくなっていく……。
+<PAUSE>
+<NAME_PLATE>紅
+（うう……だ、ダメだ……、
+　こんな術には負けられない……）
+<PAUSE>
+<NAME_PLATE>紅
+（私は、この敵を倒して……
+　あいつと、ハロウィンのお祭りに……）
+<PAUSE>
+<NAME_PLATE>
+　その時。
+<PAUSE>
+<NAME_PLATE>？？？
+「――――Ｓｕｐｅｒ　Ｆｒｅｅｚｅ！！！」
+<PAUSE>
+//【背景：まえさき市繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<SE_PLAY>se111
+<NAME_PLATE>
+　ビギイイイイイイイイイインッ！！
+<PAUSE>
+<NAME_PLATE>暴徒たち
+「ウェーーーーーーーイ！！？？？」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc111a,IN,500
+<NAME_PLATE>
+　出現した巨大な氷柱に紅に群がっていた
+暴徒たちが吹っ飛ばされた。
+<PAUSE>
+<NAME_PLATE>紅
+「！！？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+<ACTOR>2,ts_m130a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハロウィンの悪霊
+『なっ、なんだぁ！！？』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　その拍子に拘束がわずかに弛む。
+<PAUSE>
+<SE_PLAY>se010
+<NAME_PLATE>
+　紅は地面に倒れ込むようにして
+魔物の触手から脱出した。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>紅
+「っ……。
+　一体、今のは……？」
+<PAUSE>
+<NAME_PLATE>
+　そして、呻きながら
+顔を上げると――。
+<PAUSE>
+<ACTOR>6,chr_t0160a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼崎きらら
+「ったく、一体
+　なんなのよこの騒ぎ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<NAME_PLATE>
+　そこにいたのは、セクシーな
+ハロウィン衣装を着た若い女。
+<PAUSE>
+<NAME_PLATE>
+　紅は知らないが――。
+<PAUSE>
+<NAME_PLATE>
+　彼女の名前は鬼崎きらら。
+五車の学生対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　実はきららも小太郎がハロウィンに
+誘ったメンバーの一人であり、
+<PAUSE>
+<NAME_PLATE>
+　家を出る１５分前、ウキウキしながら
+ハロウィン衣装に着替えたところで
+魔物討伐の指令が下って、
+<PAUSE>
+<NAME_PLATE>
+　「遅刻しちゃうじゃない！」とキレそうに
+なりながら急行してきたのだった。
+<PAUSE>
+<NAME_PLATE>紅
+「あ、ありがとう……。
+　君は……いや、そんなことを
+　聞いている場合じゃないな」
+<PAUSE>
+<NAME_PLATE>紅
+「私は時間がないんだ」
+<PAUSE>
+<NAME_PLATE>きらら
+「奇遇ね。私も急いでいるの。
+　一秒でも早く任務を終わらせたい」
+<PAUSE>
+<NAME_PLATE>紅
+「ほう？」
+<PAUSE>
+<NAME_PLATE>
+　二人が鋭く視線を交わす。
+<PAUSE>
+<NAME_PLATE>
+　お互い何者かはわからないが、
+似たような目的で動いているらしい。
+<PAUSE>
+<NAME_PLATE>
+　――ならば、それで充分。
+<PAUSE>
+<NAME_PLATE>
+　というより今は、待ち合わせの
+時間が何よりも重要だ。
+<PAUSE>
+<ACTOR>6,chr_t0160a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>4,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紅
+「さっさと片付けるか」
+<PAUSE>
+<NAME_PLATE>きらら
+「ええ。やっちゃうわよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハロウィンの悪霊
+『ヒィッ！？』
+<PAUSE>
+<NAME_PLATE>
+　ヴァンパイアハーフの対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　そして、鬼族の力と忍術のふたつを
+併せ持つハイブリッド対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　恐怖で硬直する魔物に向けて、
+二人の圧倒的強者が踏み出した。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『い、いや……それは、
+　ちょっとズルくない……？』
+<PAUSE>
+//→プロローグ終了
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

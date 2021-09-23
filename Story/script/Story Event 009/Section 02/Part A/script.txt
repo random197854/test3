@@ -1,0 +1,622 @@
+//☆ストーリー09【Section２】シナリオ部分
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：ステーキハウスごくえん＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc022aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc074a,IN, 1000
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「どいつもこいつも手応えないわねえ。
+　そんなに着込んでるから、
+　少しはやるかと思ったのに」
+<PAUSE>
+//　　※立ち絵
+//　　アスタロト
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　店に乗り込んできた兵士の一団は、
+さきほどの男たちより多少武装していたが、
+やはりアスタロトの敵ではなかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>男たち
+「あ、ありがとうございました！」
+<PAUSE>
+//　　※立ち絵
+//　　武装難民
+//　　　　＊モンスターイラストより流用
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　助けられた格好になった男たちは、
+いっそう深く頭を下げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスタロト
+「別にお礼を言われる筋合いはないわ。
+　あなたたちも今から
+　燃やしてあげるんだから」
+<PAUSE>
+<SE_PLAY>se090
+<NAME_PLATE>
+　アスタロトの手に獄火が灯る。
+男たちは「ひいいっ」と床に縮こまった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「ままま待って下さいアスタロトさん！」
+<PAUSE>
+//　　※立ち絵
+//　　【お気楽夢魔】リリム
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミナサキ
+「アスタロトさんが本気出したら、
+　店が吹き飛んじゃうっすよう！
+　私達のドル箱がっ！！」
+<PAUSE>
+//　　※立ち絵
+//　　ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　止めに入ったのはリリム＆ミナサキである。
+アスタロトは邪魔そうに二人を見遣ったが、
+ふっと火を消した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「やれやれ、
+　人間界の建物は脆いわね……」
+<PAUSE>
+<NAME_PLATE>男たち
+「――……」
+<PAUSE>
+<NAME_PLATE>
+　男たちが安堵の吐息を漏らす。
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「おじさんたちも帰ってくれないかなあ？
+　商売の邪魔した分のそんがいばいしょーも、
+　しっかり払ってね！！」
+<PAUSE>
+<NAME_PLATE>
+　追いたてるミナサキたちを無視し、
+男たちは奥のアスタロトに声をかけた。
+<PAUSE>。
+<NAME_PLATE>銃を構えていた男
+「あ、あのー、アスタロトさん！
+　どうか聞いてください！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「しつこいわね。
+　そんなに燃やされたいの？」
+<PAUSE>
+<NAME_PLATE>銃を構えていた男
+「違います！
+　俺達、このヨミハラを
+　ブッ壊したいんです！！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「この街を……？」
+<PAUSE>
+<NAME_PLATE>
+　アスタロトは微かに興味を示す。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「どういうことなの？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>銃を構えていた男
+「俺達は、もともと魔界で生まれた
+　兄弟なんです……
+　なあ、兄貴」
+<PAUSE>
+<NAME_PLATE>兄貴
+「ああ、弟よ。
+　だが、魔界の環境は俺達低級魔族には
+　過酷すぎたんだ」
+<PAUSE>
+//　　※立ち絵
+//　　武装難民
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　奇しくも彼らにも火を扱う能力があったが、
+その火力はせいぜいバーナー程度。
+<PAUSE>
+<NAME_PLATE>
+　弱肉強食の魔界では生きていけないと、
+人間界へ逃げてきて、
+ヨミハラに蠢く“武装難民”の一員となった。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「武装難民？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　“武装難民”――。
+<PAUSE>
+<NAME_PLATE>
+　闇の町に流れ込み、武装しながら
+漂う人々のことを、
+いつしかそう呼ぶようになった。
+<PAUSE>
+<NAME_PLATE>
+　魔界からの流民もいれば、
+闇社会にも居場所を失った人間など、
+その構成は雑多。
+<PAUSE>
+<NAME_PLATE>
+　皆もといた土地にいられなくなり、
+流れてきた“ワケアリ”の人々である――。
+<PAUSE>
+<ACTOR>4,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「どの闇の町にもいるらしいけど、
+　ここヨミハラの武装難民は
+　特に有名だよねえ」
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの建造には、ノマドの指示のもと、
+武装難民たちが広く関わったという。
+<PAUSE>
+<NAME_PLATE>
+　そのためか、ヨミハラの武装難民は、
+他の町の武装難民よりも強い繋がりを持ち、
+一定の力を持っているのだ。
+<PAUSE>
+<ACTOR>3,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「そんなキミたちが、
+　どうしてヨミハラをブッ壊そうと？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>弟
+「武装難民って言ったって、
+　所詮は闇社会。
+　弱肉強食の世界です」
+<PAUSE>
+<NAME_PLATE>兄貴
+「そして俺達は弱い。当然最下層です。
+　リーダー格の連中とじゃ、
+　暮らしは天と地ほども違う」
+<PAUSE>
+<NAME_PLATE>
+　男たちは自嘲気味に語った。
+<PAUSE>
+<NAME_PLATE>弟
+「安い仕事を請け、何度も騙されながら、
+　それでも俺達、三兄弟で力をあわせて
+　やってきたんでさぁ」
+<PAUSE>
+<NAME_PLATE>リリム
+「三兄弟？」
+<PAUSE>
+<NAME_PLATE>
+　リリムが首をかしげる。
+目の前には二人しかいないのだ。
+<PAUSE>
+<NAME_PLATE>弟
+「二人だけじゃないかって言うんでしょう。
+　もう一人、俺の下に末の弟がいたんですよ。
+　だけど、あいつは……」
+<PAUSE>
+<NAME_PLATE>
+　弟は悔しそうに目を伏せる。
+<PAUSE>
+<NAME_PLATE>
+　いわく――。
+<PAUSE>
+<NAME_PLATE>
+　末弟は武装難民のグループを取り仕切る
+ボスにだまされ、魔族実験の被検体として
+ノマドに売られてしまったのだという。
+<PAUSE>
+<NAME_PLATE>兄貴
+「慌てて助けに行きましたよ。
+　だけど悲しいかな、俺達は弱い」
+<PAUSE>
+<NAME_PLATE>兄貴
+「警備の奴らにこてんぱんにやられ、
+　なんとか逃げ出したものの、
+　逆にマークされる身になっちまいました」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「まあ、そうでしょうね」
+<PAUSE>
+<NAME_PLATE>兄貴
+「その後、弟が非道な実験に晒されて、
+　そのまま殺されたことを知りました……」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ふんふん、ヒドい話だねぇ」
+<PAUSE>
+<NAME_PLATE>兄貴
+「ボスにたてついて武装難民にも戻れないし、
+　ノマドにも追われる身になり……
+　詰んだ……もう完全に詰んだ」
+<PAUSE>
+<NAME_PLATE>弟
+「そのうちノマドの追手か、
+　難民のボスの手下に俺達は殺される」
+<PAUSE>
+<NAME_PLATE>弟
+「だけどこのままじゃ死んでも死にきれない！
+　そう思った俺達は、
+　最期にヨミハラを破壊することにした！」
+<PAUSE>
+<NAME_PLATE>兄貴
+「それが俺達にできる唯一の復讐だ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人は話し終えてしょんぼりと座った。
+<PAUSE>
+<NAME_PLATE>リリム
+「ヨミハラを破壊とは、
+　またでっかく出たねえ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「だけど、まあ理屈は合うよね」
+<PAUSE>
+<NAME_PLATE>
+　ノマドが武装難民たちの力を得て作らせた、
+地底都市ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　そして両者とも、
+ここから多大な利益を吸い上げている。
+<PAUSE>
+<NAME_PLATE>
+　そのヨミハラを破壊することは、
+実利と信念の両方から、
+彼らへの復讐になると兄弟は考えたのだ。
+<PAUSE>
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「やりたいことはわかったけど、
+　人の力に頼ろうなんてつまらないわね。
+　自分たちでやってみたらどう？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>弟
+「やってみましたとも！
+　一か八か、ノマドの持ってる娼館を
+　爆破しようとしてみた」
+<PAUSE>
+<NAME_PLATE>兄貴
+「だけど悲しいかな、俺達はこの通り弱い……
+　あえなく失敗して
+　追われる身になっちまった」
+<PAUSE>
+<NAME_PLATE>リリム
+「それでうちの店に隠れようとしたの？
+　いい迷惑だねまったく！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「さっきの兵士たちは、
+　その追手というわけだね」
+<PAUSE>
+<NAME_PLATE>
+　兄弟は、木を隠すなら森とばかり、
+裏通りでもひときわ賑わっていた
+この店に飛び込んだのだ。
+<PAUSE>
+<NAME_PLATE>弟
+「俺達の力じゃノマドから逃げ切れない。
+　だけど、お姉さんの力があれば……
+　逃げるどころか、一発逆転だってできる！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「何それ。完全に他力本願じゃない。
+　私に何のメリットもないわね」
+<PAUSE>
+<NAME_PLATE>兄貴
+「頼むこの通りだ、
+　俺達の全財産を差し出してもいい」
+<PAUSE>
+<NAME_PLATE>
+　兄弟は頭を下げ、身につけた宝石や
+食料を差し出す。
+<PAUSE>
+<NAME_PLATE>
+　これが彼らの全財産。
+棲み家をもたない武装難民は、全財産を
+こうして身につけているのだ。
+<PAUSE>
+<NAME_PLATE>
+　アスタロトはそれを見る事もせず、
+しっしっと手で払う仕草をした。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「いらないわ」
+<PAUSE>
+<NAME_PLATE>兄貴
+「で、ですよねぇ……」
+<PAUSE>
+<NAME_PLATE>弟
+「やっぱ俺達だけでやるしかないぜ、兄貴」
+<PAUSE>
+<NAME_PLATE>兄貴
+「だけどあの強い奴が、
+　いつまた飛んでくるかわかんねえし……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスタロト
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　諦めて帰りかけた兄弟の言葉に、
+アスタロトが反応する。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「待ちなさい。
+　強い奴ですって？」
+<PAUSE>
+<NAME_PLATE>弟
+「はい。そりゃあもう」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「私より？」
+<PAUSE>
+<NAME_PLATE>弟
+「いやいやまさかそんな！
+　……と言いたいとこだが、わかんねえな。
+　あいつ、火にはとことん強いからなあ」
+<PAUSE>
+<NAME_PLATE>兄貴
+「おい、なんて事言うんだよ！」
+<PAUSE>
+<NAME_PLATE>
+　兄が諌めるがアスタロトは嬉しそうである。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「どんな奴なの？」
+<PAUSE>
+<NAME_PLATE>弟
+「デカくて、とんでもねぇパワーを持った
+　男――たぶん男です」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「ふうん……♪」
+<PAUSE>
+<NAME_PLATE>
+　アスタロトは満足そうにほくそ笑む。
+<PAUSE>
+<NAME_PLATE>
+　強い男――それはまさに、
+彼女が探し求めるものだ。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「そうね。手伝ってもいいわよ♪
+　その強い奴に会えるなら」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>兄貴
+「ほ、本当ですか！！！」
+<PAUSE>
+<NAME_PLATE>
+　涙を滲ませて走りよる兄弟をよそに、
+アスタロトはリリムとミナサキを振り返る。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「リリム、ミナサキ、
+　あなた達の言う通りだったわね。
+　ここにいれば強い男に会えるって」
+<PAUSE>
+<NAME_PLATE>リリム
+「でしょでしょ！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ヤタガラス、ウソツカナイ！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「もう少し経ってなにもなかったら、
+　私を騙した罪で生きたまま燃やそうと
+　思ってたんだけど♪」
+<PAUSE>
+<NAME_PLATE>リリム
+「ひぃぃ助かった……あ、うん！
+　良かったよアスタロトさん！！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ぼ、ボクたち応援してるよ……！」
+<PAUSE>
+<NAME_PLATE>
+　小動物ふたりは引きつった笑いを浮かべ、
+アスタロトに手を振る。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「じゃあさっそく行くわよ！」
+<PAUSE>
+<NAME_PLATE>兄貴
+「えっ！？　準備とかは……」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「そんなのいらないわ」
+<PAUSE>
+<NAME_PLATE>
+　変わり身の早さに慄く兄弟を急かし、
+アスタロトはさっそく外へ出発した。
+<PAUSE>
+//【背景：ヨミハラ裏町＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC035bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc127b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　外に出ると、雨が降っていた。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラにはよく雨が降る。
+地上の雨が何年もかけて地中を伝い、
+地下水となって滴り落ちてくる雨だ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「で、その強い奴っていうのは
+　どこにいるの？」
+<PAUSE>
+//　　※立ち絵
+//　　　アスタロト
+//　　　　＊カードイラストより流用
+<NAME_PLATE>弟
+「それはわかりません」
+<PAUSE>
+//　　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>兄貴
+「ただあいつ、火の匂いをかぎつけると、
+　必ず現れやがるんです」
+<PAUSE>
+//　　※立ち絵
+//　　武装難民
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>アスタロト
+「あらそう♪　じゃあ簡単に会えるわね。
+　さっそく火をつけましょうか」
+<PAUSE>
+<SE_PLAY>se090
+<NAME_PLATE>
+　アスタロトは手をかざし、
+獄炎を召喚するが、兄弟は慌てて止める。
+<PAUSE>
+<NAME_PLATE>兄貴
+「いやいや、ここじゃちょっと！
+　この雨ですから！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「あら、この程度何の問題もないわ。
+　蒸発させてしまえばいいのよ」
+<PAUSE>
+<NAME_PLATE>弟
+「アスタロトさんが燃やすにふさわしい、
+　もっといい場所があるんです！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　雨の中、三人がわいわい揉めていると――。
+<PAUSE>
+<ACTOR>5,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「あーっ！　見つけたぞテロリスト！」
+<PAUSE>
+//　　※立ち絵
+//　　　【桜嵐舞闘】リーナ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ばらばらと飛び出してきたのは、
+兵士たちを従え、長い剣を携えた女。
+<PAUSE>
+<SE_PLAY>se054
+<ACTOR>6,ts_m091a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,ts_m091a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>5
+<NAME_PLATE>女兵士
+「見かけない女を連れていますね」
+<PAUSE>
+//　　※立ち絵
+//　　　魔族傭兵（女）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>アスタロト
+「なぁに？　あなた……」
+<PAUSE>
+<NAME_PLATE>リーナ
+「私はノマドの騎士リーナ！
+　イングリッド様のもとで日々鍛錬に勤しむ、
+　騎士軍の一員よ！」
+<PAUSE>
+<NAME_PLATE>
+　リーナはドヤっと名乗りをあげると、
+アスタロトの後ろの二人を指差す。
+<PAUSE>
+<NAME_PLATE>リーナ
+「お姉さんは見かけない顔だけど、
+　そっちの二人は館を爆破しようとした
+　テロリストじゃない！」
+<PAUSE>
+<NAME_PLATE>弟
+「げ、魔界騎士かよ！
+　面倒なのに見つかった」
+<PAUSE>
+<NAME_PLATE>兄貴
+「なんでここがわかったんだよ！？」
+<PAUSE>
+<NAME_PLATE>
+　店を出てすぐのこんな所で、
+早くも捕捉されてしまうとは。
+<PAUSE>
+<NAME_PLATE>リーナ
+「ヨミハラの治安を憂う正義の一般市民さんが
+　通報してくれたのよ！
+　あ、懸賞金届けなきゃね」
+<PAUSE>
+<NAME_PLATE>兄貴
+「くそ……」
+<PAUSE>
+<NAME_PLATE>
+　二人の犯行、これからの行動、
+そして居場所を知り通報する人物――
+<PAUSE>
+<NAME_PLATE>
+　それは二人しか思い浮かばないが、
+今はさておくことにする。
+<PAUSE>
+<NAME_PLATE>女兵士
+「リーナさん、あの女は強そうですよ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ヨミハラの平和を乱すテロリストめ！
+　サクラブロッサムの塵となるがいい！」
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>5,CENTER,linear,1000
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

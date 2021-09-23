@@ -1,0 +1,592 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・東京市場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC078aより流用
+//nc458a
+<BGM_PLAY>bgm314,1000
+<BG>nc458a,IN, 1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「私たちになにか用？」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「いきなり武器を向けてくるとか
+　穏やかじゃないわね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　せっかくの楽しい時間を邪魔されて、
+二人とも不機嫌そうな顔になった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m098a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>警備兵
+「レジスタンスの甲河アスカに
+　水城ゆきかぜだな」
+<PAUSE>
+//　※立ち絵
+//　　警備員
+//　　　＊モンスターイラストより流用
+//   オーク兵
+//　　　＊モンスターイラストより流用
+//　※複数並べてください
+<NAME_PLATE>
+　人間の警備兵は銃を、オーク兵は斧を
+油断なく構えている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,yu_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「へえ、私たちって知って
+　こういうことしてきたんだ。
+　でも戦うなら市場の外の方がいいわね」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゆきかぜは少しも臆することなく、
+警告の意味でバチッと放電した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m098a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>警備兵
+「っっ！！」
+「ぬうっ！！」
+<PAUSE>
+//　※立ち絵
+//　　警備員
+//　　　＊モンスターイラストより流用
+//   オーク兵
+//　　　＊モンスターイラストより流用
+//　※複数並べてください
+<NAME_PLATE>
+　連中は怯えたように後ずさり、
+最初に声をかけてきた男が言った。
+<PAUSE>
+<NAME_PLATE>警備兵
+「バロネスがお呼びだ。同行してもらおう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「“吊るし屋”が私たちに？」
+<PAUSE>
+<NAME_PLATE>
+　アスカは怪訝そうに眉をひそめただけだが
+ゆきかぜの顔はますます険しくなった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「用があるならあっちから
+　出向いてきなさいってのよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「大体私たちがイヤだって言ったら
+　どうしろって言われてるの？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチッ、バチバチッ！！
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m090a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m090a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m098a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>警備兵
+「い、いや……それは……」
+<PAUSE>
+<NAME_PLATE>
+　雷神の恐ろしさに警備兵たちは怯え、
+まともに武器も構えられなくなる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「彼らはおつかいなんだから可哀そうよ」
+<PAUSE>
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「はあ、しょうがないわね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　つきまとわれでもしたら鬱陶しい。
+二人は呼び出しに応えることにした。
+<PAUSE>
+//【背景：荒廃した魔都・酒場“吊るし屋＿昼】【時間：昼】
+//nc459a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc459a,IN, 1000
+<ACTOR>0,ts_m299a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ギガース
+「“吊るし屋”へようこそ。
+　“雷神”、“風神”」
+<PAUSE>
+//　※立ち絵
+//　　“吊るし屋”ギガース01(魔性ＳＲ)
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　二人を出迎えたのは
+この薄汚い酒場“吊るし屋”の女主人。
+<PAUSE>
+<NAME_PLATE>
+　そして町を支配する魔族の大ボス、
+ギガースだった。
+<PAUSE>
+<NAME_PLATE>
+　通称バロネス。
+シティの名の由来だ。
+<PAUSE>
+<NAME_PLATE>
+　彼女に逆らったものは
+みな町の広場で“吊るされる”ことから
+“吊るし屋”の異名でも怖れられている。
+<PAUSE>
+<NAME_PLATE>
+　そして、荒廃した東京に跋扈し、
+“彼女の町”以外を荒らし回る
+“レイダー”たちの支配者でもあった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ゆきかぜは無言。
+代わりにアスカが口を開いた。
+<PAUSE>
+<ACTOR>1,as_t013a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「久しぶりね、“吊るし屋”
+　あら、見慣れない子がいるわね」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR>0,ts_m299a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ギガース
+「めざといな。
+　せっかくだから紹介しておく。
+　来い、メーティス」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+//<ACTOR>0,ts_m300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メーティス
+「バロネス、なんなの？
+　命令はこの二人を殺すことなの？」
+<PAUSE>
+//　※立ち絵
+//　　メーティス
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　呼ばれて出てきたのは、
+左右それぞれに四門の砲塔を備えた
+機械少女だ。
+<PAUSE>
+//<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「いきなり面白い冗談ね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゆきかぜがようやく口を開き、
+殺気だった電気がバチッと散った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+//<ACTOR>1,ts_m300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メーティス
+「すごい電気なの！
+　これはメーティスの天敵なの！」
+<PAUSE>
+<NAME_PLATE>
+　メーティスと名乗った機械少女も
+さっと警戒する。
+<PAUSE>
+//<ACTOR>1,ts_m300a,CENTER, RIGHT, NONE, linear, 1000
+//<ACTOR>0,ts_m299a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,ts_m299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギガース
+「慌てるなメーティス。
+　ただの自己紹介だ」
+<PAUSE>
+<NAME_PLATE>メーティス
+「自己紹介？
+　それはなんなの？」
+<PAUSE>
+<NAME_PLATE>
+　首をかしげるメーティスに
+ギガースは少し考えてから、
+<PAUSE>
+<NAME_PLATE>ギガース
+「そうだな。
+　お互いに警戒すべき相手だと
+　しっかり記憶しておくことかな」
+<PAUSE>
+//<GROUP>
+//<ACTOR_OUT>0,LEFT,linear,1000
+//<ACTOR_OUT>1,RIGHT,linear,1000
+//</GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「言い得て妙ね」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　街を牛耳る魔族の言葉に
+アスカがニヤリとする。
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふん」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは苛立たしげに
+鼻を鳴らしただけだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ギガースはどちらも気にせず、
+メーティスに二人を紹介する。
+<PAUSE>
+//<GROUP>
+//<ACTOR>1,ts_m300a,RIGHT, RIGHT, IN, linear, 1000
+//<ACTOR>0,ts_m299a,LEFT, LEFT, IN, linear, 1000
+//</GROUP>
+<ACTOR>0,ts_m299a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギガース
+「こっちが甲河アスカ。
+　あっちが水城ゆきかぜ」
+<PAUSE>
+<NAME_PLATE>ギガース
+「ただの人間だが
+　ブレインフレーヤーのガーディアンを
+　簡単にぶち壊す化物だ」
+<PAUSE>
+<NAME_PLATE>メーティス
+「それは確かに怖い怖いなの。
+　メーティス、よく覚えておくの」
+<PAUSE>
+//<GROUP>
+//<ACTOR_OUT>0,LEFT,linear,1000
+//<ACTOR_OUT>1,RIGHT,linear,1000
+//</GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「素敵な紹介ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは怖い笑みを浮かべ、
+アスカは表向きは冷静に話を続けた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,as_t013a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m299a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「この子、ひょっとして
+　元ブレインフレーヤーの機械生命体？」
+<PAUSE>
+<NAME_PLATE>ギガース
+「そう。
+　おたくのアビゲイルと同じだ」
+<PAUSE>
+<NAME_PLATE>ギガース
+「どういうわけか意思を持って、
+　今は私の用心棒をしている」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+//<ACTOR>0,ts_m300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メーティス
+「そうなの。
+　メーティスは意思を持ってしまったの。
+　なので自分で考えて行動してるの」
+<PAUSE>
+<NAME_PLATE>
+　メーティスは自慢げに胸を張った。
+<PAUSE>
+<NAME_PLATE>
+　意思を持ったばかりで精神年齢が幼いのか、
+それを装っているのかは分からない。
+<PAUSE>
+<NAME_PLATE>
+　はっきりしているのは、
+この喋りは鬱陶しいということだ。
+<PAUSE>
+//<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,as_t013a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m299a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「アビゲイルとはだいぶ違うようね。
+　もう自己紹介はいいわ」
+<PAUSE>
+<NAME_PLATE>ギガース
+「メーティス、さがっていいぞ」
+<PAUSE>
+<NAME_PLATE>メーティス
+「はいなの。
+　メーティス、さがるの」
+<PAUSE>
+<NAME_PLATE>
+　とても意思があるとは思えない様子で
+メーティスは言われるままに身を引く。
+<PAUSE>
+<NAME_PLATE>アスカ
+「で、用件は？」
+<PAUSE>
+<ACTOR>0,ts_m299b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ギガース
+「なに、大したことじゃない。
+　先ごろ私たちのセクトの一つが攻撃され
+　とっておきの原発が台無しにされた」
+<PAUSE>
+//　※立ち絵
+//　　“吊るし屋”ギガース01(魔性ＳＲ)差分毒タバコ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ギガースは毒を含んでいる煙草を
+ゆったりと燻らせた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうらしいわね。それで？」
+<PAUSE>
+<NAME_PLATE>
+　風でその煙をぴしゃりと遮断しつつ、
+アスカが尋ねる。
+<PAUSE>
+<NAME_PLATE>ギガース
+「そのことについて
+　お前たちが知っていることがあれば
+　教えて欲しいと思ってな」
+<PAUSE>
+<NAME_PLATE>ギガース
+「お前たちレジスタンスは
+　私とは違う情報網を持っているだろう？」
+<PAUSE>
+<NAME_PLATE>
+　ごく普通の世間話のように聞いてくる。
+<PAUSE>
+<NAME_PLATE>
+　原発の破壊が目的だったわけではないが、
+過去の世界からふうまを呼ぶために、
+セクトに侵入したのは確かだ。
+<PAUSE>
+<NAME_PLATE>
+　それをおくびにも出さず
+アスカは答えた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「別に話すことはないわ。
+　襲われたって噂を聞いただけ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あんなとこ普通の人間の私たちは
+　近づきたくもないし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「逆にあなたがあそこを支配してるのだから
+　原発の管理はしっかりしてってくらいね」
+<PAUSE>
+<NAME_PLATE>ギガース
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ギガースは意味ありげに沈黙してから、
+<PAUSE>
+<NAME_PLATE>ギガース
+「だろうな。まあいい」
+<PAUSE>
+<NAME_PLATE>ギガース
+「お前たちも何かと動いているようだが、
+　私の“ビジネス”に損害を与えるようなら
+　黙ってはいないということだ」
+<PAUSE>
+<NAME_PLATE>ギガース
+「それを言っておきたくてな」
+<PAUSE>
+<NAME_PLATE>
+　ギガースはまた煙管を咥え、
+美味そうに毒の紫煙を燻らせた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「それはお互い様でしょ？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　さっきからずっと怖い笑顔のゆきかぜが
+ビシッと放電してそれに応えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ギガースの部下たちが殺気だったが、
+当の本人はまるで気にしていない。
+<PAUSE>
+<NAME_PLATE>
+　アスカはもう少し我慢してという顔をしたが、
+口に出してはなにも言わない。
+<PAUSE>
+<NAME_PLATE>
+　メーティスだけが呑気に反応していた。
+<PAUSE>
+//<ACTOR>0,ts_m300a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メーティス
+「うーー。
+　ビリビリ恐ろしい女なの」
+<PAUSE>
+//　※立ち絵
+//　　メーティス
+//　　　＊カードイラストより流用
+//<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,as_t013a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m299b,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「私たちは無関係よ。
+　レイダー同士がやりあったんじゃないの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「きっとたまたま電気が
+　欲しかったんじゃないかしら」
+<PAUSE>
+<NAME_PLATE>ギガース
+「私もそう思う。
+　もし犯人を見つけたら教えてくれ」
+<PAUSE>
+<ACTOR>0,ts_m299b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　ギガースは用件はすんだとばかりに
+煙管をトンと叩いて吸い殻を捨てた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「わかった」
+<PAUSE>
+<NAME_PLATE>ギガース
+「話は終わった。
+　さて、この店のお酒はみな本物だ。
+　飲んでいくかい？」
+<PAUSE>
+<NAME_PLATE>ギガース
+「わざわざ来てもらった礼に
+　私が奢ろう」
+<PAUSE>
+<NAME_PLATE>アスカ
+「遠慮するわ。
+　これからまた仕事なの」
+<PAUSE>
+<NAME_PLATE>ギガース
+「そうか。上手くいくといいな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ありがとう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカは社交辞令に答えたが、
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　我慢の限界が来ていたゆきかぜは
+無言のままだった。
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

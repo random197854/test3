@@ -1,0 +1,110 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿繁華街２＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc111a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング１
+「このロリコン外道め！
+　子供たちの笑顔は俺が守る！！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵立ち絵
+//　　　　＊モンスターイラスト流用
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラスト流用
+<NAME_PLATE>ギャング２
+「田舎のお母さんが泣いてるぞ！
+　更生しろこの野郎っ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「あーもう！！！　だから
+　違うって言ってるだろー！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se003
+<NAME_PLATE>
+　襲いかかってくるギャングたちの
+攻撃を俺は必死でかわす。
+<PAUSE>
+<NAME_PLATE>
+　言動からして気のいい奴らっぽいし、
+そもそもミナサキに乗せられてるだけだから
+この人たちを攻撃するわけにもいかない。
+<PAUSE>
+<NAME_PLATE>女の子（ミナサキ）
+「ククク。大変だねえ親分♪
+　５００円で助けてあげてもいいよー？」
+<PAUSE>
+//　※注：女の子の姿になっている状態なのでミナサキの立ち絵なし
+<NAME_PLATE>
+　女の子の姿のミナサキが
+ニヤニヤしながら言ってくる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ふざけるな！
+　そんな大金払えるか！？」
+<PAUSE>
+<NAME_PLATE>女の子（ミナサキ）
+「じゃあロリコン犯として
+　捕まったらいいんじゃなーい？
+　面会には行ってあげる！」
+<PAUSE>
+<NAME_PLATE>俺
+「くそ！？
+　そんな人生はつらすぎる！」
+<PAUSE>
+<ACTOR>1,ts_m023a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャング１
+「あっ！？　待てロリコン犯っ！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　反撃できないとなれば、
+ここは逃げの一手である。
+<PAUSE>
+<NAME_PLATE>
+　俺はギャングたちに背を向け、
+路地の奥に向かって走り出し――
+その時。
+<PAUSE>
+<NAME_PLATE>？？？
+「待ちなさいっ！！！
+　ロリコン犯ってあなたね！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピッキィイイイイイイン！！！！
+<PAUSE>
+<NAME_PLATE>俺
+「ええええええええっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　どこかで聞いたような声と共に
+走り出そうとした俺の足元が凍り付いた。
+<PAUSE>
+<NAME_PLATE>
+　これではもう逃げられない。
+<PAUSE>
+<NAME_PLATE>俺
+（マズい！？　俺の人生終了か――）
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

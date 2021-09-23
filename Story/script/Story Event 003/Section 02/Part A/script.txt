@@ -1,0 +1,365 @@
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：五車学園＿校舎裏の森＿昼】【時間：昼】
+<BG>nc004a,IN, 1000
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,ts_m061a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「なるほど。
+　確かに気配を感じるな……」
+<PAUSE>
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　俺（イノシシ）は、地面に鼻面を近づけて
+ふんふんと匂いを嗅ぎながら呟いた。
+<PAUSE>
+<NAME_PLATE>
+　俺を“身代わり”にした福猪・清麻呂は、
+人の姿に化けて姿を隠しているという。
+<PAUSE>
+<NAME_PLATE>
+　そうなってしまえば、大猪という姿形で
+判別できないので探し出すことは困難だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、同時にこの次元に召喚されたことで
+魂の一部を共有している俺であれば、
+清麻呂の気配を追うことができる。
+<PAUSE>
+<NAME_PLATE>
+　これが、アサギさんが俺に
+『君ならば探し出すことができる』
+と言った理由である。
+<PAUSE>
+<ACTOR>0,ts_m061a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0084a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「どう？　何かわかった？」
+<PAUSE>
+//　※立ち絵
+//　　ＺＥＲＯアサギ立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<NAME_PLATE>俺
+「ええ。匂いからすると、奴は山から下りて
+　集落の方に向かってますね……」
+<PAUSE>
+<NAME_PLATE>
+　木を隠すなら森の中ということだろう。
+<PAUSE>
+<NAME_PLATE>
+　人に化けているなら、人が大勢いる
+街中の方が隠れるのに都合がいい。
+<PAUSE>
+<NAME_PLATE>アサギ
+「……それはちょっと厄介ね。
+　街中に紛れられると見失う可能性もある」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ……。人が多い場所だと、
+　それだけ気配も薄れるだろうし……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「急ぐ必要があるわね。でも、
+　なるべく目立たないように――ぷぷっ」
+<PAUSE>
+<NAME_PLATE>
+　アサギさんが俺を見て
+おかしそうに吹きだした。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「アサギさん！？　な、なんだよ、
+　いきなり人の顔を見て！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「い、いえ、ごめんなさい……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ごく当たり前の顔で
+　イノシシと話しているのが、
+　ちょっと可笑しくなって……ぷぷっ」
+<PAUSE>
+<NAME_PLATE>俺
+「いやいや！？　もっと真面目にやろうよ！？
+　俺が一生イノシシでいるかどうかの
+　瀬戸際なんだから！！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ふふ、わかってるわ。
+　大丈夫、私も真剣だから♪」
+<PAUSE>
+<NAME_PLATE>
+　アサギさんはツボに入った様子で
+クスクスと笑っている。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、それならいいんですけど……」
+<PAUSE>
+<NAME_PLATE>
+　やれやれと思いつつ、
+俺は気になっていたことを聞いてみた。
+<PAUSE>
+<NAME_PLATE>俺
+「そう言えばアサギさん、どうして
+　俺が“身代わり”とわかったんです？」
+<PAUSE>
+<NAME_PLATE>
+　最初に遭遇した対魔忍たちは、
+問答無用に俺（イノシシ）を襲ってきた。
+<PAUSE>
+<NAME_PLATE>
+　でもアサギさんは、俺が“身代わり”だと
+予測していたようだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ああ、それは……君の情報が入った時、
+　ちょうど稲毛屋というお店のおばあさんと
+　一緒にいたから」
+<PAUSE>
+<NAME_PLATE>俺
+「稲毛屋……？」
+<PAUSE>
+<NAME_PLATE>
+　俺の次元にもある、
+五車の学生の憩いの場になっている
+あのお店のことだろうか。
+<PAUSE>
+<NAME_PLATE>アサギ
+「そのおばあさんとは、去年のちょっとした
+　事件で知り合って……そのお礼を兼ねて
+　一緒に初詣に行くところだったの」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど。それで晴れ着だったんですね」
+<PAUSE>
+<NAME_PLATE>
+　色々ありすぎてスルーしていたが、
+アサギさんはこんな山の中なのに
+華やかな晴れ着姿だった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ああこれ？　似合ってない？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いえ、けっこういいと思います」
+<PAUSE>
+<NAME_PLATE>
+　本当はめちゃくちゃ似合って可愛かったが、
+照れくさいのでそのくらいにしておいた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ふふ、ありがとう♪　おばあさんが
+　若い頃に着てたものをいただいたの」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？　お古なんですか！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「そ、それは別に良いでしょう！？
+　似合ってるんだから……
+　似合ってるのよね？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ！？　も、もちろん！！
+　変なこと言ってすみません……！」
+<PAUSE>
+<NAME_PLATE>
+　危ない危ない。機嫌を損ねて
+イノシシ探しを手伝ってもらえなくなったら
+大問題だ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「と、とにかく……その時一緒にいた
+　おばあさんからアドバイスをもらった。
+　“身代わり”の可能性があるって」
+<PAUSE>
+<NAME_PLATE>俺
+「身代わり……俺のことですね」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。稲毛屋のおばあさんが
+　若い頃にも一度、この儀式が行われた
+　ことがあるらしいわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「その時にも身代わりが使われたって――」
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「でも、この身代わりの情報は、
+　まだ他の勢力には伝わっていない」
+<PAUSE>
+<NAME_PLATE>アサギ
+「対魔忍だけでなく、魔族や米連――
+　彼らも福のエネルギーを目当てに
+　動いてるらしいわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「身代わりと知らない以上、
+　彼らは本気で君を討ち取りにくる」
+<PAUSE>
+<NAME_PLATE>俺
+「おいおい……」
+<PAUSE>
+<NAME_PLATE>
+　予想以上に大変な事態に巻き込まれていた。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、でも！？　対魔忍の連中には、
+　アサギさんから言えば
+　一発なんじゃないですか？」
+<PAUSE>
+<NAME_PLATE>俺
+「アサギさんは対魔忍の頭領だし、
+　みんな言うこと聞くと思うけど……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「私が頭領？　私が命令できるのは
+　井河一門だけよ。五車の対魔忍とは
+　距離を置いてるから」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？　そうなのか……？」
+<PAUSE>
+<NAME_PLATE>俺
+（俺の次元では校長先生なのに……
+　こっちでは違うのかな？）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺が首を傾げると、アサギさんが
+疑わしそうな目で聞いてきた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「君の方こそ何者？　対魔忍の事情を
+　知っているようだけど……？」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、いや、俺は……」
+<PAUSE>
+<NAME_PLATE>
+　何と説明したらいいものか、
+と俺が口ごもったところに――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>？？？
+「うふふ。豚さん、みーつけた♪」
+<PAUSE>
+//　※立ち絵
+//　　フェリシア立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<BGM_PLAY>bgm406,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>二人
+「っ！？」
+「なに！？」
+<PAUSE>
+<ACTOR>2,chr_t0087a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　俺達が振り向くと、
+そこにはやはり晴れ着姿の少女がいた。
+<PAUSE>
+<NAME_PLATE>少女
+「あけましておめでとう、おねーさん。
+　とつぜんだけど、その豚さん
+　ちょうだい？　ふぇりにお年玉♪」
+<PAUSE>
+<NAME_PLATE>アサギ
+「…………魔族ね」
+<PAUSE>
+<NAME_PLATE>
+　少女の言葉に答えず、
+アサギさんが険しい顔で呟いた。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m061a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,chr_t0084a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「魔族……？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「言ったでしょう？
+　様々な勢力――魔族や米連も、
+　君が持つエネルギーを狙っている」
+<PAUSE>
+<NAME_PLATE>俺
+「で、でも！？　俺は偽物だぞ！？
+　俺を討ったって福のエネルギーとやらは
+　得られないんでしょう！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。だから完全にとばっちり」
+<PAUSE>
+<NAME_PLATE>俺
+「ひどい話だ！！」
+<PAUSE>
+<NAME_PLATE>
+　こそこそと俺とアサギさんが
+言い交わしていると、少女が苛立ったように
+ぷーっと頬を膨らませた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0087a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少女
+「ふーん……。ふぇりをムシするんだ。
+　じゃあ、ふぇりの方から遊んであげる」
+<PAUSE>
+<NAME_PLATE>
+　少女がパチンと指を鳴らす。
+<PAUSE>
+<NAME_PLATE>
+　同時に、少女の背後から武装した
+魔族の一団が現れた。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,ts_m023a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>魔族傭兵
+「お呼びですか、フェリシア様」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（男）＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<ACTOR>4,ts_m022a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「福のエネルギーは
+　フェリシア様のものだぜ！」
+<PAUSE>
+//　※立ち絵
+//　　オーク傭兵＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>アサギ
+「逃げる……余裕はなさそうね。
+　あの少女は私が相手をする！
+　君は雑魚どもを片付けて！」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、わかった！！」
+<PAUSE>
+<NAME_PLATE>
+　こうなったらやるしかない。
+<PAUSE>
+<NAME_PLATE>
+　身構える俺とアサギさんに、
+魔族の一団が襲いかかってきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+//→Section２-ＭＡＰ画面１へ
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

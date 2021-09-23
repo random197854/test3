@@ -1,0 +1,154 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：特務機関Ｇの施設＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用 
+<BGM_PLAY>bgm314,1000
+<BG>nc047a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m069a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m131a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>武装難民
+「なんだお前らは！！」
+「どけどけどけえええええ！！」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　＊モンスターイラストより流用
+//　　人食い武装難民
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「なんだ？」
+<PAUSE>
+<NAME_PLATE>
+　戦闘態勢をとった俺たちに向かって、
+連中は口々に「どけ」と喚いていた。
+<PAUSE>
+<NAME_PLATE>
+　よく分からないが言われたとおりに
+横にどいてやると、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se054
+<NAME_PLATE>
+　ドドドドドドドドドド！！
+<PAUSE>
+<NAME_PLATE>
+　連中は一人残らず
+俺たちを無視して素通りしていく。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「なんか戦う気はないみたいだね」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら通常立ち絵＿制服
+//　　　＊対魔忍アサギZEROから流用
+<NAME_PLATE>アスカ
+「なんなのよこいつら」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0336a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リノア
+「ずいぶんと怯えていますね」
+<PAUSE>
+//　※立ち絵
+//　　リノア・セリング＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m069a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>武装難民
+「うわあああああ！！
+　うあわああああああああ！！」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「お前らここでなにしてたんだ。
+　なにがあったんだ？」
+<PAUSE>
+<NAME_PLATE>
+　俺は向こうから走ってきた、
+というより逃げてきた一人を
+捕まえて尋ねたが、
+<PAUSE>
+<NAME_PLATE>武装難民
+「う、うるせえっ！！
+　早く逃げなきゃやべえんだよ！！
+　バケモノだぞ！　バケモノ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「バケモノ？　どんなやつだ？」
+<PAUSE>
+<NAME_PLATE>武装難民
+「い、いいから離せっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se078
+<NAME_PLATE>
+　そいつは怯えきった顔で
+俺の手を引き剥がすと
+一目散に逃げていった。
+<PAUSE>
+<NAME_PLATE>
+　他の奴らも同じだ。
+とてもなにかを聞ける状態ではない。
+<PAUSE>
+<NAME_PLATE>
+　怪物だ逃げろと喚きながら、
+あっという間にいなくなってしまった。
+<PAUSE>
+<NAME_PLATE>
+　無駄な闘いをしなくてすんだのは
+助かったが、
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「バケモノが出たぞかー」
+<PAUSE>
+<NAME_PLATE>俺
+「今回の任務も一筋縄じゃいかないようだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0336a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「そうみたいね」
+<PAUSE>
+<NAME_PLATE>リノア
+「ラプラス、
+　不確定名バケモノ、データ収集開始」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　小型核爆弾の回収任務。
+<PAUSE>
+<NAME_PLATE>
+　早くも暗雲が立ちこめてきたようだ。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

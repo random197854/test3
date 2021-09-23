@@ -1,0 +1,528 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：優吾のバーの事務所＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc008bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc101a,IN, 1000
+<ACTOR>0,ts_m225a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　沙無羅威ニールセンが使う得物は
+最も柔らかい剛剣と言われる妖刀・天ノ弱。
+<PAUSE>
+//　※立ち絵
+//　　沙無羅威ニールセン立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　使い手が刀身に魔力を通すことで
+無限に形を変える魔性の剣。
+<PAUSE>
+<NAME_PLATE>
+　天駆ける魔界の魔獣アプサラスの羽を
+鍛えて作り出した妖刀。
+<PAUSE>
+<NAME_PLATE>
+　羽のように軽く鋼鉄よりも切れ味鋭く頑丈、
+そして、ある時はムチのように大きくしなり、
+槍のように鋭く伸縮し、
+<PAUSE>
+<NAME_PLATE>
+　またある時は剣先が幾筋にも分かれて
+敵となる者の体を絡めとり、寸断する。
+<PAUSE>
+<NAME_PLATE>
+　ニールセンは主であるフュルストから
+強大な魔力を与えられたことで、
+<PAUSE>
+<NAME_PLATE>
+　この変幻自在の妖刀を操る恐るべき
+魔の剣法を会得した。
+<PAUSE>
+<NAME_PLATE>ニールセン
+「シャアアアアアア！！！！」
+<PAUSE>
+//　※斬撃演出など
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　鋭い呼気と共に妖刀の切っ先が
+愚かな裏切者・二車骸佐の体に迫る。
+<PAUSE>
+<BG>nc101a,IN, 500
+<NAME_PLATE>
+　同時に――。
+<PAUSE>
+<ACTOR>0,f_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「あなたには期待していたんですがねえ。
+　しかし、その体だけ頂ければ、
+　それはそれで使い道がある」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>
+　嘲るように笑うフュルストの右手から
+滲み出したどす黒い瘴気が実体化する。
+<PAUSE>
+<NAME_PLATE>
+　それは醜い肉腫であった。
+<PAUSE>
+<NAME_PLATE>
+　ぐちゃぐちゃじゅるじゅると
+肉汁と腐臭をまき散らしながら、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　この高位魔族の右手から伸びた
+おぞましき肉の刃が、目の前に佇む
+元対魔忍の若者を襲う――。
+<PAUSE>
+<BG>nc101a,IN, 500
+<ACTOR>0,g_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ふんっ。
+　まあ、当然こうなるわな」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐立ち絵
+//　　　　＊二車骸佐01(魔性SR)イラストを流用
+<NAME_PLATE>
+　迫る怪物たちの攻撃を前にして
+骸佐は不敵に笑う。
+<PAUSE>
+<NAME_PLATE>
+　足場が悪く狭い小部屋の中である。
+<PAUSE>
+<NAME_PLATE>
+　逃げ場はない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG_OUT>1000
+<NAME_PLATE>
+　悠然と佇む骸佐の体に
+怪物たちの刃が深々と突き刺さる。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<BG>nc101a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m225a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,f_t001d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ニールセン
+「っ！！！？」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「ホホ、これはこれは……♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　刃が突き刺さった瞬間であった。
+<PAUSE>
+<NAME_PLATE>
+　フュルストたちの攻撃が素通りする。
+<PAUSE>
+<NAME_PLATE>
+　それを受けた骸佐の体には、
+まるで水面に石を投げ入れたように
+静かな波紋が広がるばかりであった。
+<PAUSE>
+<NAME_PLATE>骸佐
+「警告したぜ、フュルスト。
+　俺たちの邪魔をするなら容赦はしない。
+　――あばよ、腐れ魔族ども！」
+<PAUSE>
+<NAME_PLATE>
+　そう不敵に告げた骸佐の姿が、
+水が蒸発するように霧散して消える。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>0,ts_m225a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,f_t001c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ニールセン
+「ふゅ、フュルスト様！！？
+　奴は一体……」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「これは、“幻影”ですね。
+　そして術の痕跡は新しい――
+　まだ遠くには逃げていないでしょう」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「急ぎなさいニールセン、
+　配下どもに奴を追わせるのです！」
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ繁華街＿夜】【時間：夜】
+//　※対魔忍ユキカゼ_nc013aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc365a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数分後。
+<PAUSE>
+<NAME_PLATE>
+　闇の街ヨミハラの表通りを
+血相を変えて走り回る一団がいた。
+<PAUSE>
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークチーフ
+「てめえら気合入れて探せ！！！
+　標的の人間を見つければ、
+　報酬はフュルスト様からたんまりだぞ！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ハイオーク
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ハイオーク
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ハイオーク
+「応っ！！！」
+<PAUSE>
+<ACTOR>2,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　彼らは沙無羅威、そして
+フュルスト配下のオーク兵士たち。
+<PAUSE>
+<NAME_PLATE>
+　欲望と殺意に眼をギラつかせ、
+逃亡した二車忍軍の頭領の行方を追う。
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ繁華街＿路地裏＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc062a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そんな一団をやり過ごすように
+路地裏に身を潜める幾つかの影があった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>楽尚之助
+「ひとまずは難を逃れたようですね。
+　ご無事で何よりでした、お館様」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<ACTOR>1,g_t007a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ああ。
+　お前にも世話をかけたな、尚之助」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐立ち絵
+//　　　　＊二車骸佐01(魔性SR)イラストを流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m063a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　バーからの退路を手引きした
+配下の美剣士に骸佐がうなずく。
+<PAUSE>
+<NAME_PLATE>
+　二車忍軍幹部・楽尚之助。
+<PAUSE>
+<NAME_PLATE>
+　骸佐が幼少の頃より二車家に仕える忠臣。
+居合を得意とする二刀流の剣客対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍総隊長・井河アサギと同じ
+異能系忍法・“隼の術”の使い手であり、
+<PAUSE>
+<NAME_PLATE>
+　悠然とした構えからの超高速の
+二刀流抜刀術で敵を一瞬に葬るという。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、さらにもう一人。
+<PAUSE>
+<NAME_PLATE>
+　骸佐たちが身を潜める路地裏には
+ずんぐりとした巨大な影があった。
+<PAUSE>
+<ACTOR>0,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼蜘蛛三郎
+「でも骸佐様。
+　よくあいつらの所から脱出できたね」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>三郎
+「あのフュルストっておじさん、
+　頭ツルツルなのに無茶苦茶ヤバい
+　魔科医なんでしょ？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「クク。まあ、そうだなぁ」
+<PAUSE>
+<NAME_PLATE>
+　そのあんまりな物言いに骸佐が苦笑する。
+<PAUSE>
+<NAME_PLATE>
+　剛毛と棘で全身を包んだ巨大な蜘蛛の
+背中にちょこんと少女が腰かけている。
+<PAUSE>
+<NAME_PLATE>
+　鬼蜘蛛三郎。
+<PAUSE>
+<NAME_PLATE>
+　彼女も骸佐に仕える二車幹部の一人。
+<PAUSE>
+<NAME_PLATE>
+　巨大な鬼蜘蛛と一心同体となり、
+意のままに操る優秀な“獣遁使い”。
+<PAUSE>
+<NAME_PLATE>
+　鬼蜘蛛は鋼鉄をも引き裂く強靭な牙、
+そして生きたまま獲物を溶解させる
+凶悪な神経毒を持ち、
+<PAUSE>
+<NAME_PLATE>
+　またその口から吐き出される糸によって
+敵を絡め取り、高層ビルの屋上までも
+容易く飛翔するという。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,g_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「確かにあのハゲはヤバいな。
+　ノマドの中でもとびっきり得体の知れねえ、
+　敵に回したくねえ化け物だ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「まっ、だからこそ今日は、
+　それなりの準備をしたってわけだが」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>三郎
+「準備？　なにそれ骸佐様」
+<PAUSE>
+<NAME_PLATE>
+　首をかしげる三郎に尚之助が言う。
+<PAUSE>
+<ACTOR>1,ts_m063a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「ああ。三郎は知らなかったのですね。
+　今日、会合が行われた酒場――」
+<PAUSE>
+<NAME_PLATE>尚之助
+「あの店の主人、
+　古賀優吾は我々の身内ですよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「そうなの！？」
+<PAUSE>
+<NAME_PLATE>
+　巨大な鬼蜘蛛――大五郎の上で
+三郎がきょとんと目を丸くする。
+<PAUSE>
+<NAME_PLATE>
+　そんな妹分の素直な反応にうなずきつつ、
+穏やかに尚之助が続ける。
+<PAUSE>
+<NAME_PLATE>尚之助
+「優吾は、もう何年も各地の闇の街に潜入し、
+　我らに情報を届けている“草”――
+　つまり潜入工作員」
+<PAUSE>
+<NAME_PLATE>尚之助
+「幻を操る忍法使いで、
+　己の姿形を変える程度はお手の物」
+<PAUSE>
+<NAME_PLATE>尚之助
+「現在はここヨミハラでバーの主人となり、
+　ノマドや魔界の情報を
+　我々に届けてくれているのです」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<ACTOR>0,ts_m224a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　月遁の術“鏡花水月”の使い手、
+古賀優吾。
+<PAUSE>
+<NAME_PLATE>
+　その幻を操る力によって一瞬だけ
+フュルストとニールセンの目をくらませ、
+骸佐が酒場から脱出する隙を作り出した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG>nc062a,IN, 1000
+<ACTOR>0,g_t007a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>骸佐
+「まぁ俺も、今日の会合が平和に
+　終わるとは思ってなかったからな……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　フュルストの不穏な動きは
+優吾からの報告で耳に入っている。
+<PAUSE>
+<NAME_PLATE>
+　その上、東京キングダムで奴らが
+画策しているという抗争――
+どうにもキナ臭い話が多すぎる。
+<PAUSE>
+<NAME_PLATE>
+　これは、いよいよ
+奴らと手を切る頃合いか。
+<PAUSE>
+<NAME_PLATE>
+　そう判断した骸佐は、それとなく
+会合の場所を『あの酒場』と指定し、
+<PAUSE>
+<NAME_PLATE>
+　そこの主人である優吾に
+もしもの場合に備えさせた。
+<PAUSE>
+<ACTOR>0,g_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ってわけで、
+　すまねえな、尚之助、三郎。
+　今日、また俺たちには敵が増えた」
+<PAUSE>
+<NAME_PLATE>骸佐
+「面倒をかけるが……
+　これからも力を貸してくれ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　勝手に決別を告げた骸佐を
+フュルストが許すことはないだろう。
+<PAUSE>
+<NAME_PLATE>
+　最悪の場合、まず奴の傘下である
+沙無羅威と戦争になる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m063a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>尚之助
+「いえ、賢明な判断かと」
+<PAUSE>
+<NAME_PLATE>
+　尚之助が穏やかに首を振る。
+<PAUSE>
+<NAME_PLATE>尚之助
+「奴らは我々――というより、
+　全ての人間を玩具としか見ていない」
+<PAUSE>
+<NAME_PLATE>尚之助
+「従い続ければ必ず食い尽くされる。
+　いずれは手を切らなければ
+　ならない相手でした」
+<PAUSE>
+<NAME_PLATE>三郎
+「尚兄と同意見！
+　あいつらなんか偉そうだし、
+　前から気に入らなかったのよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,g_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「クク。ありがとよ」
+<PAUSE>
+<NAME_PLATE>
+　骸佐が苦笑してうなずいた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　闇の世界で多くの組織と敵対し、
+四面楚歌と言ってもいい状況。
+<PAUSE>
+<NAME_PLATE>
+　それでも骸佐が戦いを続けられるのは、
+こうして支えてくれる忠臣たちの
+存在ゆえであろう。
+<PAUSE>
+<ACTOR>0,g_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「さて、そろそろこの辛気臭え
+　穴倉からオサラバするか」
+<PAUSE>
+<NAME_PLATE>骸佐
+「このヨミハラはノマドの庭、
+　奴らは街の出口で網を張っているはずだ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「突破するにはひと騒ぎすることになる。
+　やれるか、尚之助、三郎？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m063a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>尚之助＆三郎
+「ええ。お供しますよお館様」
+「了解っ！　敵なんて全員
+　大五郎のエサにしちゃうんだから！」
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

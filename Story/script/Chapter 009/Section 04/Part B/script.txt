@@ -1,0 +1,163 @@
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：ブローカーの店＿迷宮】【時間：昼】
+<BG>nc102a,IN, 1000
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　メモ書きを頼りに進んでいく間も、
+当然、鬼火の群れは襲いかかってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「いててて……。
+　あの鬼火の野郎、
+　思いっきり噛みやがって……」
+<PAUSE>
+<NAME_PLATE>
+　痛いというか、すごく熱い。
+<PAUSE>
+<NAME_PLATE>
+　延々と歩き詰めの疲れもあってか、
+さっきの交戦で軽く負傷してしまった。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「少しひやっとしたわ。
+　あの時、ふうまは首を噛まれたかと思った」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。俺も死んだかと思ったよ」
+<PAUSE>
+<NAME_PLATE>
+　獅子神や尚之助のような
+達人ならともかく、俺のような凡人には
+鬼火でも充分な脅威である。
+<PAUSE>
+<NAME_PLATE>自斎
+「でも、凄い反応で腕で防いでみせた。
+　とてもサポート専門には見えない
+　反応だった」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか？　まあ、今日は体の調子が
+　良いのか、体が軽く感じるんだ。
+　マグレだと思うけど」
+<PAUSE>
+<NAME_PLATE>自斎
+「謙虚なんだな……それでケガは？　痛む？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>
+　獅子神が心配そうに聞いてくる。
+<PAUSE>
+<NAME_PLATE>
+　口ぶりこそ淡々としてクールだが、
+実はこの少女が優しい性格だと
+一緒に歩くうちにわかってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「うーん、ケガと言えばケガなんだけど……
+　問題ないかな」
+<PAUSE>
+<NAME_PLATE>自斎
+「そう……？　でも気を付けて。
+　無理をしてやられでもしたら、
+　こっちが困る」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、無理とかじゃなくて……
+　ケガ、なぜか勝手に治っていくんだよな」
+<PAUSE>
+<NAME_PLATE>自斎
+「えっ……？」
+<PAUSE>
+<NAME_PLATE>
+　獅子神がまじまじと俺の顔を見る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（まあ、俺自身も
+　意味がわからないんだが……）
+<PAUSE>
+<NAME_PLATE>
+　鬼火に噛みつかれ、
+火傷まで負っていたはずの腕。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかそれが、
+ちょっと痛みが気になる程度まで
+治癒している。
+<PAUSE>
+<NAME_PLATE>
+　通常ではとてもあり得ない
+治癒速度であった。
+<PAUSE>
+<NAME_PLATE>俺
+（これも、骸佐に刺された時と
+　一緒なのか……？）
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「治癒能力なんて紫先生みたい。
+　それがふうまの忍法？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「うーん。そういうことなんだろうな、
+　たぶん」
+<PAUSE>
+<NAME_PLATE>自斎
+「なにそれ」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、まだ確かなことは
+　何もわからんと言うか……？」
+<PAUSE>
+<NAME_PLATE>
+　その診断をしてもらおうと思ったら、
+なぜかこんな事件に巻き込まれたのだから。
+<PAUSE>
+<ACTOR>0,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「小太郎様が、治癒系の忍法に
+　覚醒された……。とても興味深いですね」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　俺達の話を聞いて、
+尚之助がすっと目を細める。
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐には内緒だぞ。
+　まあ、もう知ってると思うけど」
+<PAUSE>
+<NAME_PLATE>尚之助
+「それは……ご想像にお任せします」
+<PAUSE>
+<NAME_PLATE>
+　尚之助が芝居がかった様子で首を振る。
+<PAUSE>
+<NAME_PLATE>
+　そんな話をしているうちに――
+いよいよ最後の扉に到着した。
+<PAUSE>
+<NAME_PLATE>俺
+「さて『火を越えた先に８』――メモ書きは
+　ここまでだ。俺の考えが正しければ、
+　この先に迷宮の出口がある」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,526 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：荒野＿夕方】【時間：昼】
+//　※対魔忍アサギ2_nc010bより流用
+<BG>nc137a,IN, 1000
+<NAME_PLATE>俺
+「ふう……」
+<PAUSE>
+<NAME_PLATE>
+　最後のモンスターを倒すと
+周囲の風景が一変した。
+<PAUSE>
+//【背景：五車学園地下訓練施設＿演習室】【時間：昼】
+//　※対魔忍アサギZEROの背景NC016bより流用
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc090a,IN, 1000
+<NAME_PLATE>
+　俺がいるのは五車学園の地下演習室。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<NAME_PLATE>
+　立体映像とロボットを組み合わせた
+シミュレーションによる訓練施設だ。
+<PAUSE>
+<NAME_PLATE>
+　この夏はお庭番のライブラリーを伴って、
+しょっちゅう稽古にやって来ていた。
+<PAUSE>
+<NAME_PLATE>
+　で、今日はというと、昨日初めて会った
+なお先輩に呼び出されて、やりたくもない
+模擬戦闘をやったというわけだ。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「アサギ校長に評価されているだけはあるね」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>
+　なお先輩はつんとすました顔で言った。
+<PAUSE>
+<NAME_PLATE>俺
+「はあ、どうも……」
+<PAUSE>
+<NAME_PLATE>なお
+「一年の君なんかでは
+　まず勝てない相手にしたんだけどね」
+<PAUSE>
+<NAME_PLATE>俺
+「そうですか」
+<PAUSE>
+<NAME_PLATE>なお
+「ふん」
+<PAUSE>
+<NAME_PLATE>
+　しかし、出てきた相手は
+矢車弥右衛門にサラマンダー。
+<PAUSE>
+<NAME_PLATE>
+　前者は今は袂を分かったとはいえ、
+昔から良く知っている二車の幹部、
+きらら先輩と一緒に本物と戦ったこともある。
+<PAUSE>
+<NAME_PLATE>
+　後者はカオス・アリーナで戦った蛇子から
+その性質や戦法など詳しく話を聞いている。
+<PAUSE>
+<NAME_PLATE>
+　そしてなにより、アサギ校長から頼まれて
+両方のシミュレーション設定を手伝っている。
+<PAUSE>
+<NAME_PLATE>
+　つまり勝って当たり前だ。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、そんな裏の事情は
+先輩には言ってない。
+<PAUSE>
+<NAME_PLATE>
+　わざと負ける手もあったのだが、
+ライブラリーとの特訓の成果か、
+なんとなく勝ってしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「あの……もう、いいでしょうか？」
+<PAUSE>
+<NAME_PLATE>
+　俺がおずおずと帰ろうとすると、
+なお先輩が噛みついてきた。
+<PAUSE>
+<NAME_PLATE>なお
+「それは僕に君の実力を
+　認めろっていうこと？」
+<PAUSE>
+<NAME_PLATE>なお
+「新部隊の隊長にふさわしいのは
+　自分だってそう言ってるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「いえ、そういうことではなく、
+　新設部隊の隊長候補とか
+　俺まだよく分かりませんし」
+<PAUSE>
+<NAME_PLATE>俺
+「今は独立遊撃隊だけで手一杯なので、
+　万が一そういう打診があっても、
+　辞退させてもらおうかと……」
+<PAUSE>
+<NAME_PLATE>なお
+「それじゃ僕が君に隊長を
+　ゆずられたことになるじゃないか。
+　そんなの僕のプライドが許さないよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ……」
+<PAUSE>
+<NAME_PLATE>
+　面倒くさい人だなあ。
+<PAUSE>
+<NAME_PLATE>
+　正直、自分が知りもしない
+新設部隊の隊長候補だからと、
+<PAUSE>
+<NAME_PLATE>
+　なお先輩に付き合わされて、
+うんざりしているのだが、
+<PAUSE>
+<NAME_PLATE>
+　なにせこれだけの美人だ。
+どこか有無を言わさない雰囲気があって、
+結局、模擬戦までやらされている。
+<PAUSE>
+<NAME_PLATE>なお
+「君の指揮能力は一応認めてあげるよ。
+　だけど僕の本当の要求は別にあるのさ」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺が新設部隊の隊長候補になっているのが
+正しいかどうかを試すという話だったのに
+明らかに方向転換している。
+<PAUSE>
+<NAME_PLATE>俺
+「あの、次は何をしろと……」
+<PAUSE>
+<NAME_PLATE>なお
+「僕の部隊に入隊を認める。
+　だから、そこで実力を示すことだね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えええええ！？」
+<PAUSE>
+<NAME_PLATE>
+　さすがにそれは勘弁して欲しい。
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっと待ってください。
+　俺、自分の部隊のこともありますし、
+　そんなことする理由が―――うぐっ」
+<PAUSE>
+<NAME_PLATE>なお
+「君さ」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩が俺のネクタイを掴んで
+グイと自分の方に引き寄せた。
+<PAUSE>
+<NAME_PLATE>俺
+「せ、先輩……ち、近いです……／／／／／」
+<PAUSE>
+<NAME_PLATE>
+　ほとんど唇と唇が触れてしまいそうな
+近距離だ。
+<PAUSE>
+<NAME_PLATE>なお
+「この町では恐ろしい殺人事件が
+　起きているんだ。
+　君はそれを知ってほっとけるのかい？」
+<PAUSE>
+<NAME_PLATE>
+　先輩の息が唇にひたひたと当たる。
+先輩の良い匂いも漂ってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「うっ……そんなこと、急に言われても……」
+<PAUSE>
+<NAME_PLATE>なお
+「言われても？」
+<PAUSE>
+<NAME_PLATE>
+　先輩はさらに顔を近づけてくる。
+<PAUSE>
+<NAME_PLATE>
+　最早、唇が触れ合った気がする位置で囁く。
+<PAUSE>
+<NAME_PLATE>なお
+「ほっとけるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「……ほっとけないです……／／／／」
+<PAUSE>
+<NAME_PLATE>なお
+「よし♪
+　では僕の部隊メンバーを紹介するよ」
+<PAUSE>
+<NAME_PLATE>
+　先輩は俺のネクタイをパッと離した。
+<PAUSE>
+<NAME_PLATE>
+　ほとんど仰け反っていた俺は
+危うく尻餅をつきそうになる。
+<PAUSE>
+<NAME_PLATE>なお
+「なにしてるんだい。
+　早く来なよ」
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　先輩はいそいそと演習室を出ていく。
+<PAUSE>
+<SE_PLAY>se082
+<BG_OUT>1000
+<NAME_PLATE>
+　とぼとぼついていく俺。
+<PAUSE>
+<NAME_PLATE>
+　外のロビーで待っていたのは―――
+<PAUSE>
+//【背景：五車学園地下訓練施設】【時間：昼】
+//　※対魔忍アサギZEROの背景NC015aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG>nc002a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>なお
+「紹介しよう。
+　僕の誇るべき風紀隊のメンバーだ」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<ACTOR>1,ko_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>？？？
+「…………ぶつぶつ」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>
+　一人目。
+<PAUSE>
+<NAME_PLATE>
+　右目を髪の毛で隠した
+妙に影が薄い感じで、
+その割に胸が目立つ女性だ。
+<PAUSE>
+<NAME_PLATE>
+　そして、二人目。
+<PAUSE>
+<ACTOR>2,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、はーい♪」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+//　※解説
+//　　穂稀なおが男なのを蛇子は知りません。コロ先輩は知っている設定です。
+<NAME_PLATE>俺
+「蛇子！？
+　何でお前がいるんだ！？」
+<PAUSE>
+<ACTOR>2,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「学級委員はみんな自動的に
+　風紀隊に入るんだもの」
+<PAUSE>
+<NAME_PLATE>俺
+「マジかよ！？」
+<PAUSE>
+<NAME_PLATE>なお
+「蛇子は知ってるよね。
+　彼女は死々村孤路（ししむらころ）。
+　僕の親友でもある」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>
+　なお先輩が一人目を紹介した。
+<PAUSE>
+<NAME_PLATE>
+　この人も初めて見る。
+<PAUSE>
+<NAME_PLATE>
+　ネクタイの色からして
+なお先輩と同じ学年のようだ。
+<PAUSE>
+<NAME_PLATE>孤路
+「…………ぶつぶつ」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>
+　先輩はぺこりと頭を下げて、
+モゴモゴと口を動かした。
+<PAUSE>
+<NAME_PLATE>
+　無口な人だなと思ったが、
+もしかしたら何か喋っている？
+<PAUSE>
+<NAME_PLATE>
+　という思いが顔に出たのだろう、
+なお先輩が説明してくれた。
+<PAUSE>
+<NAME_PLATE>なお
+「コロちゃんは声が小さいから
+　無口だと勘違いされるんだ」
+<PAUSE>
+<ACTOR>1,ko_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>孤路
+「……ぶつぶつ」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>なお
+「ああ、そうだね。
+　コロちゃんは本当はとても話し好きだ」
+<PAUSE>
+<NAME_PLATE>孤路
+「……ぶつぶつぶつ」
+<PAUSE>
+<ACTOR>2,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「コロ先輩はちょっと声が
+　小さいだけですよね」
+<PAUSE>
+<NAME_PLATE>孤路
+「ぶつぶつ……ぶつぶつ」
+<PAUSE>
+<ACTOR>2,h_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「えーー、そうなんですか？
+　ふうまちゃん、聞いた？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、全然。
+　というか、まるで聞こえん」
+<PAUSE>
+<ACTOR>1,ko_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>孤路
+「ぶつぶつ……ぶつぶつ」
+<PAUSE>
+<NAME_PLATE>
+　また俺に向かってなにか言った。
+<PAUSE>
+<NAME_PLATE>
+　口の動きからして、
+同じことを繰り返したように見えるが。
+<PAUSE>
+<NAME_PLATE>俺
+「？？？」
+<PAUSE>
+<NAME_PLATE>なお
+「君は耳が悪いね。
+　一年で有名な君に一度会いたいと思ってた
+　だってさ」
+<PAUSE>
+<NAME_PLATE>
+　全然聞こえない言葉を
+なお先輩が通訳してくれた。
+<PAUSE>
+<ACTOR>2,h_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「コロ先輩、どうですか？
+　ふうまちゃんと初めて会って」
+<PAUSE>
+<NAME_PLATE>孤路
+「ぶつぶつぶつ……」
+<PAUSE>
+//※「聞いてたより可愛い」的なことを言った。
+<ACTOR>2,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ですよねーーー♪」
+<PAUSE>
+<NAME_PLATE>なお
+「コロちゃんは趣味が良くないね」
+<PAUSE>
+<ACTOR>1,ko_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>孤路
+「ぶつぶつ……」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩と蛇子には聞き取れているが、
+俺にはさっぱりだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、二人の反応から
+褒められているような気がしたので、
+とりあえず頭を下げる。
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとうございます。コロ先輩」
+<PAUSE>
+<ACTOR>1,ko_t001f,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>孤路
+「…………！」
+<PAUSE>
+<NAME_PLATE>
+　なぜかコロ先輩はビクッと驚いて、
+顔を伏せた。
+<PAUSE>
+//※初対面の男の子にいきなり下の名前で呼ばれたので。
+<NAME_PLATE>なお
+「ふん」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は不満そうに鼻を鳴らし、
+<PAUSE>
+<ACTOR>2,h_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんたら」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は肘で俺をつつく。
+<PAUSE>
+<ACTOR>1,ko_t001j,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>孤路
+「……ぶつぶつ」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩はプルプルと顔を振っている。
+<PAUSE>
+//※「私は平気」的なことを言っている。
+<NAME_PLATE>俺
+「え？　なんですか？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「いきなり下の名前。
+　女の先輩だよ」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、すいません。つい」
+<PAUSE>
+<ACTOR>1,ko_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>孤路
+「……ぶつぶつ」
+<PAUSE>
+<NAME_PLATE>なお
+「コロちゃんはそれでいいってさ」
+<PAUSE>
+<NAME_PLATE>孤路
+「……ぶつぶつ」
+<PAUSE>
+<NAME_PLATE>
+　言ってることは聞こえないが、
+コクコクと頷く。
+<PAUSE>
+<NAME_PLATE>俺
+「どうも」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「はいはい。
+　挨拶はそれくらいでいいよね！」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩がパンパンと手を叩いて
+自分に注目させる。
+<PAUSE>
+<NAME_PLATE>なお
+「五車風紀隊。
+　本日の捜査開始するよ！」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>蛇子
+「はーい♪」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>孤路
+「………ぶつぶつ」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>なお
+「ふうまくん、返事！」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　あ、はい」
+<PAUSE>
+<NAME_PLATE>なお
+「この僕の隊に入れてあげたんだ。
+　役に立たないと承知しないよ」
+<PAUSE>
+<NAME_PLATE>俺
+（別に望んでいないんだがなあ……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　こうして俺は
+五車で起きている連続殺人事件の捜査に
+巻き込まれたのだった。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

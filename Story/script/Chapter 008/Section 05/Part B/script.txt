@@ -1,0 +1,597 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：東京港湾地区＿廃墟街＿夜】【時間：夜】
+<BGM_PLAY>bgm321,1000
+<BG>nc077a,IN, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「――魔装六刀流
+　“ヘキサグラム・スプレッド”！！」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<GROUP>
+<SE_PLAY>se007
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 300
+<BG>nc077a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガッギィィイィィィン！！！
+<PAUSE>
+<NAME_PLATE>
+　暗闇の中に六つの刃筋がきらめく。
+<PAUSE>
+<ACTOR>0,ts_m056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八百比丘尼
+「くぅ……！？」
+<PAUSE>
+//　※立ち絵
+//　　八百比丘尼＿汎用立ち絵
+<NAME_PLATE>
+　秋津の強烈な斬撃――
+それを受けきれず、
+八百比丘尼が大きくよろめく。
+<PAUSE>
+<ACTOR>0,ts_m056a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「よし！！　その調子だ！！」
+<PAUSE>
+<NAME_PLATE>
+　戦況は優勢。
+八百比丘尼をはじめ、ふうま忍軍は、
+俺たちの息の合った戦いに押されていた。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子、煙幕が切れそうだ！　頼む！」
+<PAUSE>
+<ACTOR>0,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「わかった！
+　すうーー……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵タコ化＿対魔忍衣装（武器装備）
+<GROUP>
+<ACTOR>0,h_t005j,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ブシャアァァッ！
+<PAUSE>
+<NAME_PLATE>
+　蛇子は大きく息を吸い込んだかと思うと、
+タコ墨で辺りを黒く染める。
+<PAUSE>
+<ACTOR>0,h_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「こんなもんでいい！？」
+<PAUSE>
+<NAME_PLATE>俺
+「完璧だ！
+　『人魚の碧眼』も見えなければ発動しない。
+　鹿之助！！　敵の位置は――！？」
+<PAUSE>
+<ACTOR>0,h_t005e,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,s_t001h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ちょちょちょっと待って！
+　えーと、…………」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>0,s_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「わかった！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は、電遁の術を応用した電波ソナーで
+暗闇と煙幕の中でも敵の位置を察知する。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、秋津に位置を伝えてくれ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「う、うん！！
+　行くよ、電遁の術“スパーク”っ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t002f,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se014
+<BG>nc077a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　そして、静電気の輝きで、
+強力なアタッカーである秋津に
+敵の位置を伝達する。
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「ふん――なかなかやるじゃない！
+　わかったわ、そこねっ！！？」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se011
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ザシュ！！
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「がはっ……！？」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ザク、ザシュ――
+<PAUSE>
+<NAME_PLATE>
+　八百比丘尼の身体が、
+吹き飛ばされて地面へ転がる。
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「くっ……こ、の、……」
+<PAUSE>
+<NAME_PLATE>
+　全身に斬撃を受け、
+荒れたアスファルトを血が汚す。
+<PAUSE>
+<NAME_PLATE>
+　それでも致命傷を避けているのは、
+さすがの手練というべきか――
+<PAUSE>
+<NAME_PLATE>
+　他のふうま忍者たちも、
+戦えそうな者はもう残っていなかった。
+<PAUSE>
+<ACTOR>0,ts_m056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八百比丘尼
+「くっ……驚いたわね。
+　お前ほどの手練が何故、
+　“目抜け”の味方をする？」
+<PAUSE>
+<NAME_PLATE>秋津
+「目抜け？　アイツのこと？
+　まあ成り行きって奴よ」
+<PAUSE>
+<NAME_PLATE>秋津
+「でもアイツを軽く見ない方がいいわよ。
+　アイツはあんたたちの力を、
+　完全に把握して適切に指揮した」
+<PAUSE>
+<NAME_PLATE>秋津
+「ま、そんなものなくたって、
+　私は強いけどね。
+　で、さっさと降伏したら？」
+<PAUSE>
+<NAME_PLATE>
+　秋津は地面に倒れた八百比丘尼を見下ろす。
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「降伏？
+　ふふ、それはどうかしら……？」
+<PAUSE>
+<ACTOR>0,ts_m056a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>秋津
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　秋津は怪訝な顔で首をかしげ――
+そして、次の瞬間。
+<PAUSE>
+<NAME_PLATE>
+　カサ、カサカサカサ――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？　クモたちが――」
+<PAUSE>
+<NAME_PLATE>
+　対象を追尾する機械仕掛けの蜘蛛が、
+巣でもつつかれたように騒ぎだす。
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「この音は……まさか！？
+　ターゲットがすぐ近くにいるわ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なに！？　ターゲットって、つまり――」
+<PAUSE>
+<ACTOR>0,g_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「あ゛あぁぁあぁああああああああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　骸佐夜叉髑髏化立ち絵＿夜叉髑髏化衣装（武器装備）
+<GROUP>
+<ACTOR>0,g_t004a,CENTER, CENTER, OUT, linear, 0
+<SE_PLAY>se007
+<BG>ef002a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガッキッィィィィィン！！！
+<PAUSE>
+<BG>nc077a,NONE
+<NAME_PLATE>俺
+「んぐぅぅっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　廃ビルの屋上から、何かが直撃する――
+それは骸佐！
+<PAUSE>
+<NAME_PLATE>俺
+「ぐ……」
+<PAUSE>
+<NAME_PLATE>
+　強烈な一撃だった。
+不意打ちに俺は吹っ飛ばされ、
+背中が瓦礫に激突する。
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐ァ…………っ」
+<PAUSE>
+<ACTOR>0,g_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「クハハハ！！
+　ざまぁねえな、目抜けぇ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよ、お前……
+　珍しく、頭を使いやがって……」
+<PAUSE>
+<NAME_PLATE>
+　この廃墟にたどり着いた、
+否、誘き出された時から薄々気付いていた。
+<PAUSE>
+<NAME_PLATE>俺
+「お前の狙いは……
+　初めから、この俺だったんだな」
+<PAUSE>
+<NAME_PLATE>
+　八百比丘尼たちを戦わせておき、
+俺を指示役に回らせることで、
+他の三人から孤立させる。
+<PAUSE>
+<NAME_PLATE>
+　その俺を、忍んでいた骸佐が奇襲する、
+そういう段取りだったのだ。
+<PAUSE>
+<NAME_PLATE>骸佐
+「いつもてめえだけ頭が良いみたいな
+　ツラしてやがったからな、
+　一杯食わせてやったんだよ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ふ……まあ……
+　お前よりは、確実に良いけどな……？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「なんだァ！？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,g_t004a,CENTER, CENTER, OUT, linear, 0
+<SE_PLAY>se007
+<BG>ef002a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　――ガキィン！！
+<PAUSE>
+<BG>nc077a,NONE
+<NAME_PLATE>俺
+「くぅぅ！？」
+<PAUSE>
+<NAME_PLATE>
+　骸佐の大太刀が、容赦なく俺を襲う。
+白兵戦の実力差は歴然、
+俺は防戦一方だった。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、おい！　大丈夫かよふうま！！
+　今助けにいくからな！」
+<PAUSE>
+<NAME_PLATE>
+　と、動こうとする蛇子たちの前に――
+<PAUSE>
+//　※立ち絵
+//　　ふうま刺客
+<ACTOR>0,ts_m015a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「なによ！　こんな奴ら！！
+　私の魔装六刀流で――」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<ACTOR>0,ts_m015a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ts_m056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八百比丘尼
+「待て」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「お前の相手は私だろう？」
+<PAUSE>
+<NAME_PLATE>
+　倒れていた八百比丘尼の瞳が、
+妖しく光り、秋津を捉える。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>秋津
+「っ！？　眼が！？
+　しまっ――」
+<PAUSE>
+<NAME_PLATE>
+　隙を突いた比丘尼の忍法、
+『人魚の碧眼』が秋津を襲う。
+<PAUSE>
+<NAME_PLATE>秋津
+「―……ッグッ！」
+<PAUSE>
+<NAME_PLATE>
+　生命エネルギーが、奪われていく。
+秋津は強烈な倦怠感に見舞われ、
+へなへなと地面に座り込む。
+<PAUSE>
+<NAME_PLATE>
+　一方エネルギーを吸い取った八百比丘尼の
+傷は、一瞬のうちに回復していた。
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「フフフ……形勢逆転ね？
+　――はァアっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m056a,CENTER, CENTER, OUT, linear, 300
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>秋津
+「キャアアッ！！！」
+<PAUSE>
+<NAME_PLATE>
+　八百比丘尼の強烈な一撃が、
+秋津にクリーンヒットする。
+<PAUSE>
+<NAME_PLATE>秋津
+「――……ッ……」
+<PAUSE>
+<NAME_PLATE>
+　吹き飛ばされた小さな体は壁に激突し、
+沈黙する。
+<PAUSE>
+<NAME_PLATE>
+　一方――
+<PAUSE>
+<ACTOR>0,g_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ハッハハハ！！！
+　悔しいよなぁ？　悔しいよな目抜けぇ？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「結局てめえは一人じゃ何もできねえ。
+　人の助けがなければ、
+　ただの能無しってことがわかってよぉ！」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだと……？」
+<PAUSE>
+<NAME_PLATE>
+　言葉で俺を煽り立てながら、
+激しく大太刀を振るう骸佐。
+<PAUSE>
+<NAME_PLATE>
+　孤立無援となった俺は、
+ただ避けることしかできない。
+<PAUSE>
+<NAME_PLATE>骸佐
+「ククク……
+　無力ってのはもはや一種の罪だな」
+<PAUSE>
+<NAME_PLATE>骸佐
+「力がなければ、何も手に入らねえ。
+　だから、俺は誰よりも
+　でかい力を手に入れる」
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐、お前……っ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「もう終わりか？
+　ならば死ねッッ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+（来た！！　今だ――）
+<PAUSE>
+<GROUP>
+<ACTOR>0,g_t004a,CENTER, CENTER, OUT, linear, 0
+<SE_PLAY>se007
+<BG>ef002b,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガギンッ！！！
+<PAUSE>
+<BG>nc077a,NONE
+<NAME_PLATE>俺
+「なにっ……！？」
+<PAUSE>
+<NAME_PLATE>
+　骸佐の大太刀は、その大きさゆえに
+大振りする前に隙ができる。
+俺はその隙を狙って斬り込んだのだが――
+<PAUSE>
+<NAME_PLATE>
+　弾き飛ばされたのは俺の忍者刀。
+力の差は想像以上だった。
+<PAUSE>
+<NAME_PLATE>俺
+（骸佐も成長してるってことか！）
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,g_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>骸佐
+「弱いぜ、“お館様”。
+　お前じゃ無理って事だ」
+<PAUSE>
+<NAME_PLATE>俺
+「骸――
+　っっ？」
+<PAUSE>
+<NAME_PLATE>
+　骸佐の顔から、いつの間にか先程までの
+冷笑が消えていた。
+<PAUSE>
+<NAME_PLATE>
+　それはむしろ、
+覚悟を決めた男の顔。
+そして、俺にだけ届く声で――
+<PAUSE>
+<NAME_PLATE>骸佐
+「あとは俺に任せろ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間。
+<PAUSE>
+<SE_PLAY>se031
+<NAME_PLATE>俺
+「あがっ！？　ぐっ……うぅぅ……っ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR>0,g_t004a,CENTER, CENTER, OUT, linear, 500
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　大太刀の切っ先は、
+俺の心臓を貫いていた。
+<PAUSE>
+//【黒画面】
+<NAME_PLATE>俺
+（……っ、…………
+　蛇子……鹿之助……っ）
+<PAUSE>
+<NAME_PLATE>
+　貫かれた心臓に、
+外気の気配を感じる。
+痛み、そして大量の出血。
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「骸佐さま、
+　“目抜け”の仲間を捕らえました。
+　処刑しますか？」
+<PAUSE>
+<NAME_PLATE>骸佐
+「目的は果たした。捨ておけ」
+<PAUSE>
+<NAME_PLATE>八百比丘尼
+「御意」
+<PAUSE>
+<NAME_PLATE>
+　骸佐と八百比丘尼の去る音。
+やがて痺れと静寂がやってきて、
+俺はひとり、虚無の世界へと落ちていった。
+<PAUSE>
+//【白画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+<NAME_PLATE>
+　一面に溢れる光。
+<PAUSE>
+<NAME_PLATE>
+　浮遊感、そして安らぎ。
+生まれる前は、このような感覚に
+包まれていたのだろうか。
+<PAUSE>
+<NAME_PLATE>俺
+（これは、死後の世界か？）
+<PAUSE>
+<NAME_PLATE>俺
+（だとしたら悪くはない……）
+<PAUSE>
+<NAME_PLATE>
+　この心地よい浮遊感に、
+いつまでも包まれていたいとさえ――
+<PAUSE>
+//【背景：東京港湾地区＿廃墟街＿夜】【時間：夜】
+<BG>nc077a,IN, 1000
+<NAME_PLATE>俺
+「っハア……！？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ふうま！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「ふうまちゃん！！！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵タコ化＿対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「――ハア、ハアっ……
+　蛇子？　鹿之助？
+　なんだ、お前らも死んだのか……」
+<PAUSE>
+<BGM_PLAY>bgm606,1000
+<NAME_PLATE>
+　視界が突然はっきりすると、
+長いこと息を止めていたような苦しさが
+込み上げる。
+<PAUSE>
+<NAME_PLATE>
+　目の前には、蛇子と鹿之助の顔。
+二人とも呆然と口を開け、
+目に涙までたたえている。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「ゾンビってわけじゃないようね……」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<NAME_PLATE>俺
+「なんだ……秋津、
+　お前までぽかんとして……」
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふ、ふうまお前、蘇ったんだよ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<UI_DISP>OFF, 0
+<GROUP>
+<ACTOR>0,s_t001f,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section５終了

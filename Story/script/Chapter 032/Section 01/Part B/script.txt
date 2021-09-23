@@ -1,0 +1,630 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：都内某所道路＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC023bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc161a,IN, 1000
+<ACTOR>0,as_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「食らえ！
+　抹殺マシンガン！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装抹殺マシンガン
+//　　　＊対魔忍アサギ３より流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,as_t010d,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　アスカのアンドロイドアームが火を噴いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,yu_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はっ！　そんな攻撃！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　ゆきかぜは両手の雷銃を掲げた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「雷壁！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<NAME_PLATE>
+　バリバリバリバリッ！！
+<PAUSE>
+<NAME_PLATE>
+　雷遁の力が作り出す強力な力場が
+放たれた銃弾を逸らしていく。
+<PAUSE>
+<BG>nc161a,IN, 500
+<ACTOR>0,as_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ならこれはどう！？
+　皆殺しミサイル！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装皆殺しミサイル
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,as_t007d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　防御に回ったゆきかぜに
+アスカが次なる攻撃を畳みかけた。
+<PAUSE>
+<NAME_PLATE>
+　超小型のミサイルが次々と
+ゆきかぜに向かって放たれる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,yu_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「同じこと！
+　はああああああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　猛々しい気合の声と共に
+ゆきかぜが放つ雷光が輝きを増した。
+<PAUSE>
+<NAME_PLATE>
+　途端、ミサイルは目標を見失い、
+明後日の方向へと飛んで行き、
+それぞれ勝手に爆発している。
+<PAUSE>
+<BG>nc161a,IN, 500
+<ACTOR>1,as_t002c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「やるわね。
+　私も風で操ってるのに
+　電子回路を丸ごと吹っ飛ばすなんて」
+<PAUSE>
+<ACTOR>0,yu_t002a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「鹿之助ほど上手くないけどね。
+　あなたのマシンガンもミサイルも
+　私には通用しない」
+<PAUSE>
+<ACTOR>1,as_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「じゃあ直接攻撃しかないわね！
+　剣は銃よりも強し！　風神ブレード！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装＿手足ブレード
+<SE_PLAY>se016
+<ACTOR>1,as_t003f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　アスカは両手両足からブレードを出し、
+接近戦で一気に仕留めようとした。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうは問屋が卸さないわ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バギュンッ！
+バギュバギュンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは雷銃を連射して、
+アスカから距離を取ろうとする。
+<PAUSE>
+<BG>nc161a,IN, 500
+<ACTOR>1,as_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ちいっ！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　大きさもスピードも違う雷弾が
+アスカを次々と襲う。
+<PAUSE>
+<NAME_PLATE>
+　対処しづらい手慣れた牽制だ。
+迷わずに逃げる動きも素早い。
+アスカも容易には接近できない。
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はあっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　しかも、躱したと思った雷弾の一つが
+ギュンッと突然曲がって彼女を追撃してきた。
+<PAUSE>
+<BG>nc161a,IN, 500
+<ACTOR>1,as_t003f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「っとおっ！
+　風神スパイラルキック！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装＿手足ブレード
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>1,as_t009d,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカの足が鋭く跳ね上がった。
+<PAUSE>
+<NAME_PLATE>
+　ゴオッと旋風が巻き起こり、
+雷弾を辛くも大気に散らした。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+<NAME_PLATE>
+　バチバチッ！！
+<PAUSE>
+<NAME_PLATE>
+　放電による電気火花が
+鋼鉄の手足の表面で嫌な音を立てる。
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t003a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ふう、危ない危ない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「誘導弾を使えるのは
+　そっちだけじゃないのよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それを言うなら私だって
+　この距離からやれる攻撃は
+　マシンガンとミサイルだけじゃないわ」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装＿手足ブレード
+<NAME_PLATE>ゆきかぜ
+「へえ、見せてくれる？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>アスカ
+「見て後悔しなさい！！
+　必殺・対魔超粒子砲！！
+　ハァアアアアアアアアアアアアッ！！」
+<PAUSE>
+//※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0069a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アスカは両手をゆきかぜに向けた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　広げた掌の間に旋風が巻き起こり、
+凄まじいエネルギーとなって収束していく。
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「そっちがその気なら！
+　ライトニングシューター！
+　リミッター解除！！」
+<PAUSE>
+//　※立ち絵
+//　　水城ゆきかぜ
+//　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ゆきかぜもまた雷遁の力を全開にした。
+凄まじい放電と共に全身が眩く輝く。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「食らいなさい！！
+　トーーーール……え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　対魔超粒子砲とトールハンマー。
+<PAUSE>
+<NAME_PLATE>
+　互いに距離をとっての
+最大威力の技のぶつけ合い。
+<PAUSE>
+<NAME_PLATE>
+　と思った直前。
+<PAUSE>
+<ACTOR>0,chr_t0069a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「やっぱやめ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　アスカがゆきかぜに突っ込んできた。
+<PAUSE>
+<NAME_PLATE>
+　風の力をブーストに使い、
+今までで一番のスピードで。
+<PAUSE>
+<ACTOR>0,yu_t002c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「しまっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　対魔超粒子砲のモーションは罠だった。
+気づいたがもう遅い。
+<PAUSE>
+<NAME_PLATE>
+　焦って撃った雷撃は躱され、
+慌てて距離を取ろうとするが、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「ちょっ！　なにこれ！？」
+<PAUSE>
+<NAME_PLATE>
+　今度は風が足に絡みついて動けない。
+こっそり足元に風を流されていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　それが分かった時には、
+アスカがゆきかぜにブレードを
+突きつけていた。
+<PAUSE>
+<ACTOR>0,chr_t0069a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「勝負ありね」
+<PAUSE>
+//　※立ち絵
+//　　【鋼鉄の対魔忍】甲河アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「ひっかかったーーー！
+　くやしいーーーーー！！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ゆきかぜがバチバチと
+地団駄を踏んだところで、
+周囲の景色がふっと変わった。
+<PAUSE>
+//【背景：バーチャル空間＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC016bより流用
+<EFFECT_FLASH>WHITE, 1000
+<BG>nc090a,IN, 1000
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　そこは五車学園の地下にある演習施設。
+<PAUSE>
+<NAME_PLATE>
+　そう、今までのは戦闘訓練だった。
+<PAUSE>
+<NAME_PLATE>
+　彼女たちが指揮していた風遁衆やドローンも
+シミュレーターが生み出した幻影だ。
+<PAUSE>
+<NAME_PLATE>
+　五車町とＤＳＯとは同盟関係にあり、
+共同で演習施設の機能強化をしている。
+<PAUSE>
+<NAME_PLATE>
+　今日はそれぞれの若きエースである
+ゆきかぜとアスカに協力してもらい、
+戦闘訓練のアップデートが行われていた。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、二人が言っていた
+『ここで会ったが百年目』『今日こそ決着』は
+すべてその場のアドリブだ。
+<PAUSE>
+<NAME_PLATE>
+　そもそも彼女たちがちゃんと会うのは
+今日が初めてだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,yu_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あーあ、負けちゃった。
+　さすが鋼鉄の対魔忍ね。
+　悔しいけど楽しかったわ」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵_対魔忍
+//　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　負けたゆきかぜはサバサバした様子で
+アスカに手を差し出した。
+<PAUSE>
+<NAME_PLATE>アスカ
+「私もよ、雷撃の対魔忍」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　勝ったアスカは握手に応じたが、
+その顔はちょっと複雑そうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,m_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>八津紫
+「どうした、アスカ。
+　勝ったのに浮かない顔だな」
+<PAUSE>
+//　※立ち絵
+//　　紫通常立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　監督役の八津紫が怪訝そうに尋ねる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,as_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「今のは運が良かっただけだし。
+　なにより彼女はもっと強いはずだから」
+<PAUSE>
+<ACTOR>0,yu_t001b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あはっ、やっぱりそう思う？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,m_t002f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫
+「やっぱりじゃない、ゆきかぜ！！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが顔を輝かせた途端、
+紫の雷が落ちた。
+<PAUSE>
+<NAME_PLATE>紫
+「最後のあれはなんだ！
+　あんなにあっさり引っかかって
+　少しは罠だと思わなかったのか！？」
+<PAUSE>
+<ACTOR>0,m_t002f,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あ～～～～、
+　ちょっとは思ったんですけど」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「噂の対魔超粒子砲の威力がどれくらいか
+　私のトールハンマーとぶつけて
+　確かめてみたいなーーって」
+<PAUSE>
+<ACTOR>1,yu_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「だってほらこれシミュレーションだし」
+<PAUSE>
+<ACTOR>0,m_t002g,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紫
+「馬鹿者！！！」
+<PAUSE>
+<NAME_PLATE>
+　二度目の雷。
+<PAUSE>
+<ACTOR>1,yu_t001i,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ひゃっ」
+<PAUSE>
+<NAME_PLATE>
+　雷撃の対魔忍は首をすくめた。
+<PAUSE>
+<ACTOR>0,m_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紫
+「シミュレーションだからこそ
+　真面目にやらないでどうする！
+　罰として演習場１０周だ！」
+<PAUSE>
+<NAME_PLATE>
+　紫は演習場の壁を指さした。
+<PAUSE>
+<ACTOR>1,yu_t001g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「うわっ、紫先生きびしー！」
+<PAUSE>
+<ACTOR>0,m_t002g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紫
+「さっさと行け！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,yu_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はーい。
+　じゃあちょっと走ってくるね。
+　アスカ、後で大技なしでまたやろっ？」
+<PAUSE>
+<ACTOR>1,as_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「いいわね」
+<PAUSE>
+<ACTOR>0,yu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「んじゃ、いってきまーす！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　ゆきかぜはニコニコしながら
+罰のランニングを始めた。
+<PAUSE>
+<ACTOR>1,as_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　元気なその様子を見ながら、
+アスカは気持ちがモヤモヤするのを
+感じていた。
+<PAUSE>
+<ACTOR>1,as_t001c,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　さっきゆきかぜに言ったことは嘘ではない。
+なんだか勝った気がしない。
+<PAUSE>
+<NAME_PLATE>アスカ
+（本当のあなたはもっともっと強いはず。
+　だってこないだ私に勝ったんだから）
+<PAUSE>
+<NAME_PLATE>
+　未来から来たという
+大人になったゆきかぜの
+圧倒的な強さを思い出す。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　彼女はあそこまで強くなれる。
+それだけの伸びしろがある。
+<PAUSE>
+<NAME_PLATE>
+　一人の対魔忍として
+単純にそれを羨ましく思う。
+<PAUSE>
+<NAME_PLATE>
+　と同時に、大人のゆきかぜは
+ずっとふうまのことを
+好きだったみたいだから、
+<PAUSE>
+<NAME_PLATE>
+　あの走ってる今のゆきかぜも
+ふうまに対してそういう気持ちなの？
+とか。
+<PAUSE>
+<NAME_PLATE>
+　でも、あれは未来は未来でも、
+この現在から続いている未来じゃなくて、
+単に未来に相当する別世界で、
+<PAUSE>
+<NAME_PLATE>
+　だからやっぱり大人ゆきかぜと
+今のゆきかぜとは別人で、
+ふうまに対する気持ちも別なの？
+<PAUSE>
+<NAME_PLATE>
+　とか考えなくてもいいことを
+やたらと考えてしまう。
+<PAUSE>
+<ACTOR>1,as_t001i,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+（なんで私がこんな気分に
+　ならなきゃいけないのよ。
+　ああもう面倒くさい）
+<PAUSE>
+<NAME_PLATE>アスカ
+（ふうまのやつが、今のゆきかぜには
+　内緒にしてくれとか頼むからよ。
+　気持ちはわかるけどさ）
+<PAUSE>
+<ACTOR>1,as_t001i,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,m_t002c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>紫
+「アスカ、変な顔をしてどうした？」
+<PAUSE>
+<ACTOR>1,as_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「なんでもない」
+<PAUSE>
+<NAME_PLATE>
+　アスカは素っ気なく答えたが、
+紫は逆にそれを気にした風に
+躊躇いがちにまた聞いてきた。
+<PAUSE>
+<ACTOR>0,m_t002h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紫
+「あーーー、その、なんだ。
+　今日はアサギ様には会わないのか？」
+<PAUSE>
+<ACTOR>1,as_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　どうやらアスカがアサギのことで
+悩んでいると思ったらしい。
+<PAUSE>
+<ACTOR>1,as_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+（別にあいつのことなんて
+　全然考えてなかったけど、
+　そっちはそっちで面倒くさいわね）
+<PAUSE>
+<ACTOR>1,as_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「んーーーいいわ。
+　こないだケイリーを連れてきたときに
+　会ったし」
+<PAUSE>
+<NAME_PLATE>紫
+「そうか……」
+<PAUSE>
+<NAME_PLATE>
+　紫はアスカとアサギとの
+ちょっとややこしい関係を知っている。
+<PAUSE>
+<NAME_PLATE>
+　アサギに対する彼女の複雑な気持ちも
+話したことはないが察しているはずだ。
+<PAUSE>
+<NAME_PLATE>
+　だからそれ以上勧めてはこなかったが、
+やっぱり残念そうな顔はしていた。
+<PAUSE>
+<ACTOR>1,as_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ごめんね、気を遣わせちゃって」
+<PAUSE>
+<NAME_PLATE>
+　アサギはともかく紫には悪いと思い、
+アスカはそう言って肩をすくめた。
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,746 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：まえさき市繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<BGM_PLAY>bgm205,1000
+<BG>nc111a,IN, 1000
+<ACTOR>0,ts_m130a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハロウィンの悪霊
+『ええい、クソッ！！
+　奴らをぶっ潰せハッピーども！！』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR>1,ts_m054a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>暴徒たち
+「ウェーイ♪　ウェーイ♪」
+「ウェーイ♪　ウェーイ♪」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　わらわらと暴徒たちが寄ってくる。
+<PAUSE>
+<NAME_PLATE>
+　それは攻撃と同時に盾でもある。
+<PAUSE>
+<NAME_PLATE>
+　人を守るのが使命である対魔忍は
+元は一般人の暴徒を傷つけられない。
+<PAUSE>
+<NAME_PLATE>
+　狡猾な魔物はそれを熟知し、
+利用してきているのだった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<ACTOR>3,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「“神眼”―――」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+<NAME_PLATE>
+　紅の邪眼が朱く染まった。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　迫り来る暴徒に向けて、
+刃に込めた魔力を一気に解放する。
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　斬ッ―――！
+<PAUSE>
+//　※戦闘エフェクトなどお願いします。
+<BG>nc111a,IN, 500
+<GROUP>
+<ACTOR>1,ts_m054a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>暴徒たち
+「！？？　う、うぇ……………」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ゾンビギャング
+//　　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<GROUP>
+<ACTOR>1,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>暴徒たち
+「………ぐぅ……」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストより流用
+//　※立ち絵がギャングに変わるのは意図的なものです。洗脳が解けたことの表現。
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se024
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドサっ！！　ドサっ！！
+<PAUSE>
+<NAME_PLATE>
+　まるで糸の切れた人形のように
+次々と崩れ落ちる暴徒たち。
+<PAUSE>
+<ACTOR>3,chr_t0161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「ふぅ。こんなものか――」
+<PAUSE>
+<NAME_PLATE>
+　あらゆる“存在”を見定め、
+断ち切る紅の奥義・神眼剣。
+<PAUSE>
+<NAME_PLATE>
+　それによって暴徒を操っている
+魔物の呪縛だけを断ち切ったのだ。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>ハロウィンの悪霊
+『なんだとおおおおぉっ！？』
+<PAUSE>
+<ACTOR>4,chr_t0160a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「へえ、やるじゃないあんた！！
+　じゃあ次は私の番――」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<ACTOR_OUT>4,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se111
+<NAME_PLATE>
+　ビギイイイイイイイイイインッ！！
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『ヒィイイイイイイイ！！！？』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　魔物の真下から氷柱が隆起する。
+<PAUSE>
+<NAME_PLATE>
+　きららが“霜の鬼神”の力で
+チャージした巨大な氷塊。
+<PAUSE>
+<NAME_PLATE>
+　形勢不利と見て逃走しようとしていた
+魔物が見事にその中に封じ込められた。
+<PAUSE>
+<BG>nc111a,IN, 500
+<NAME_PLATE>ハロウィンの悪霊
+『お、おいおい！？　なんだこりゃ、
+　ええっ！？　ええぇえええっ！？』
+<PAUSE>
+<NAME_PLATE>
+　氷中でジタバタともがく魔物。
+<PAUSE>
+<NAME_PLATE>
+　当然、ピクリとも動けない。
+<PAUSE>
+<NAME_PLATE>
+　そして恐怖でちびりかけている
+ハロウィンの悪霊の目に、
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0160a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　獲物を狩る野獣の眼光で迫ってくる
+二人の女の姿が映った。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『い、いやいや、待て待て待てっ！？
+　大丈夫、話せばわか――』
+<PAUSE>
+<NAME_PLATE>紅＆きらら
+「いくわよっ！」
+「いくぞ！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<NAME_PLATE>紅
+「真空の刃は全てを切り裂く――
+　絶技・旋風陣！！！」
+<PAUSE>
+<NAME_PLATE>きらら
+「これが鬼族の力よ！
+　必殺・凍奔征走―――ッ！！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ハロウィンの悪霊
+『うぎゃあああああああああっ！！！』
+<PAUSE>
+//　※立ち絵
+//　　ハロウィンの悪霊
+//　　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パキィィイイイインン！！
+<PAUSE>
+<NAME_PLATE>
+　透き通った音が響き渡る。
+<PAUSE>
+<NAME_PLATE>
+　紅の刃ときららの突進を受けて、
+動きを封じる氷柱ごと魔物が砕け散った。
+<PAUSE>
+<NAME_PLATE>
+　ネオンに飾られたハロウィンの街に、
+キラキラと輝く氷の破片が舞い落ちる。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc111a,IN, 500
+<NAME_PLATE>ハロウィンの悪霊
+『そ、そうか……オイラ、
+　やられちまったのか……？』
+<PAUSE>
+<NAME_PLATE>
+　本体を砕かれ、半ば思念だけの
+状態になった魔物が弱々しく微笑んだ。
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『まあ、でも……これで
+　良かったのかも知れないな……』
+<PAUSE>
+<NAME_PLATE>ハロウィンの悪霊
+『だって……人から強制された
+　ハッピーなんて、本当のハッピー
+　じゃないもんな……へへっ』
+<PAUSE>
+<NAME_PLATE>
+　と、今さら悟ったような事を言いつつ
+迷惑な魔物はハロウィンの夜に消えていった。
+<PAUSE>
+<NAME_PLATE>
+　そして。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<GROUP>
+<ACTOR>3,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0160a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>紅＆きらら
+「やったなっ！」
+「お疲れさまっ！！」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<SE_PLAY>se071
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パシーン！！
+<PAUSE>
+<NAME_PLATE>
+　意気揚々とハイタッチをする二人。
+<PAUSE>
+<NAME_PLATE>
+　見事なコンビネーションであった。
+<PAUSE>
+<NAME_PLATE>
+　『時間がない』という一点で
+団結した二人は、目を見張る連携で
+あっという間に任務を完了。
+<PAUSE>
+<NAME_PLATE>
+　これで操られていた者も目を覚まし、
+街の混乱も治まることだろう。
+<PAUSE>
+<NAME_PLATE>きらら
+「私は鬼崎きらら！
+　五車の対魔忍よ。あなたは？」
+<PAUSE>
+<NAME_PLATE>紅
+「心願寺紅。
+　ゆえあって五車と離れて
+　活動している対魔忍だ」
+<PAUSE>
+<NAME_PLATE>きらら
+「へえ初耳。そんな子もいたのね」
+<PAUSE>
+<NAME_PLATE>紅
+「うむ。とはいえ、五車と
+　敵対しているわけではないからな。
+　警戒はしないでくれ」
+<PAUSE>
+<NAME_PLATE>きらら
+「もちろん！
+　あなた良い人みたいだし！」
+<PAUSE>
+<NAME_PLATE>
+　きららがにこやかに笑う。
+<PAUSE>
+<NAME_PLATE>
+　似たような目的で戦ったことで
+妙な連帯感が生まれたようだ。
+<PAUSE>
+<NAME_PLATE>紅
+「あ、ありがとう……。
+　いや、面と向かってそう言われると
+　少し照れてしまうが……」
+<PAUSE>
+<NAME_PLATE>紅
+「そう言えば、今日は
+　君もハロウィンのお祭りに？」
+<PAUSE>
+<NAME_PLATE>きらら
+「えっ？」
+<PAUSE>
+<NAME_PLATE>紅
+「実は、私はそれで急いでいたんだ。
+　君も似たような格好をしているし」
+<PAUSE>
+<NAME_PLATE>
+　紅が互いの衣装を指差した。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍と名乗りつつ、二人とも
+かなり浮かれた格好をしている。
+<PAUSE>
+<NAME_PLATE>きらら
+「あー、そうそう！
+　私もハロウィンに行くところ」
+<PAUSE>
+<NAME_PLATE>きらら
+「最近仲良くしてる後輩に、
+　一緒に行こうって誘われて！」
+<PAUSE>
+<NAME_PLATE>
+　後輩・ふうま小太郎の顔を
+思い出しながらきららが言う。
+<PAUSE>
+<NAME_PLATE>きらら
+「ちょっと生意気な奴なんだけどね、
+　ま～、そこが放っておけなくて
+　可愛いって言うか♪」
+<PAUSE>
+<NAME_PLATE>紅
+「ふふ、そうか……。
+　仲が良い後輩がいて羨ましいな」
+<PAUSE>
+<NAME_PLATE>きらら
+「まーねえ♪　でも、そっちも
+　似たようなものじゃない？」
+<PAUSE>
+<NAME_PLATE>きらら
+「すっごく急いで戦ってたし、
+　大事な人との約束でもあるんでしょ？」
+<PAUSE>
+<NAME_PLATE>紅
+「い、いや……そうだな、
+　大事な人って言うか……」
+<PAUSE>
+<NAME_PLATE>紅
+「久しぶりに会った幼馴染みが、
+　お祭りに誘ってくれたんだ……」
+<PAUSE>
+<NAME_PLATE>
+　幼馴染み・ふうま小太郎の顔を
+思い出しながら紅が言う。
+<PAUSE>
+<NAME_PLATE>紅
+「あいつは……私と違って、
+　明るくて、皆の人気者で……
+　とにかくすごい奴なんだ！」
+<PAUSE>
+<NAME_PLATE>きらら
+「へ～、幼馴染み！？
+　なんか良いじゃん、そういうの♪」
+<PAUSE>
+<NAME_PLATE>
+　互いに淡い想いを口にして
+意気投合する二人。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに、その相手が一緒なことに
+どちらもまったく気付いていない。
+<PAUSE>
+<NAME_PLATE>紅
+「う、うん。そういうわけだから、
+　待ち合わせ場所に急がないと！」
+<PAUSE>
+<NAME_PLATE>きらら
+「そうね！
+　途中まで一緒に行きましょ♪」
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方その頃。
+<PAUSE>
+//【背景：まえさき市＿おしゃれな街並み＿夜】【時間：夜】
+//　※MonstersSurvive_nc016bから流用
+<BGM_PLAY>bgm208,1000
+<BG>nc110a,IN, 1000
+<GROUP>
+<ACTOR>5,s_t003c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>6,h_t001c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>上原鹿之助
+「ふうまの奴おそいなー。
+　俺達も早く着替えたいのに」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服衣装
+<NAME_PLATE>相州蛇子
+「そうねぇ。
+　迷子にでもなってるのかしら？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>
+　待ち合わせ場所では、制服姿の
+鹿之助と蛇子が他の皆を待っていた。
+<PAUSE>
+<NAME_PLATE>
+　二人は学園から直接来たので
+衣装はバッグの中に入っている。
+<PAUSE>
+<NAME_PLATE>
+　言い出しっぺの小太郎も
+途中まで一緒だったのだが、
+<PAUSE>
+<NAME_PLATE>
+　「しまった！衣装を忘れてきた！」と、
+いったん家に引き返していた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「というか、今日来るのって
+　きらら先輩と……あと、
+　蛇子たちの幼馴染みだっけ？」
+<PAUSE>
+<ACTOR>6,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そそ。紅ちゃんね」
+<PAUSE>
+<ACTOR>5,s_t003a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「どういう人なんだ？
+　なんか、前にふうまが久しぶりに
+　会ったって言ってたけど」
+<PAUSE>
+<NAME_PLATE>
+　蛇子が肯くと鹿之助が
+興味津々で聞いてくる。
+<PAUSE>
+<ACTOR>6,h_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん。蛇子も会うのは
+　久しぶりだから、最近のことは
+　わからないけど……」
+<PAUSE>
+<ACTOR>6,h_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「でも、良い子よ紅ちゃん。
+　すごく真面目で優しくて！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「へー。じゃあ俺も
+　仲良くなれそうかな！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「もちろんよ♪
+　あ～、それにしても、
+　みんな遅いわね…………あら？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　人混みをかきわけてやってくる
+二人に蛇子が気付いた。
+<PAUSE>
+<NAME_PLATE>
+　先輩の鬼崎きららと、もう一人。
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0160a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>きらら
+「あっ、いたいた！
+　おーい蛇子ちゃん鹿之助くん！
+　お待たせ～♪」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「えっ！？　蛇子……？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+<NAME_PLATE>蛇子
+「あれれ？
+　きらら先輩と……紅ちゃん？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なになにっ！？
+　どうしたんだっ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「いや、だから――
+　その人が、紅ちゃん。
+　蛇子たちの幼馴染みよ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なに！？」
+<PAUSE>
+<NAME_PLATE>きらら
+「えぇっ！？」
+<PAUSE>
+<NAME_PLATE>
+　きららが目を丸くして紅を見る。
+<PAUSE>
+<NAME_PLATE>紅
+「い、いや待て蛇子っっ！
+　じゃあ、こっちの彼女は――」
+<PAUSE>
+<NAME_PLATE>蛇子
+「鬼崎きらら先輩。
+　今日一緒に行くメンバーよ」
+<PAUSE>
+<NAME_PLATE>紅＆きらら
+「「あー………」」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<NAME_PLATE>
+　顔を見合わせる紅ときらら。
+<PAUSE>
+<NAME_PLATE>
+　ようやくここで気付いたのだ。
+二人とも、まったく同じ理由で
+急いでいたことに。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「へー、そうだったんだ。
+　でもなんで、そんな二人が一緒に？」
+<PAUSE>
+<NAME_PLATE>紅
+「そ、それは……さっきまで、
+　彼女と共に魔物討伐をしていて――」
+<PAUSE>
+<NAME_PLATE>
+　戸惑いながら紅が、ここまでの
+経緯を二人に説明する。
+<PAUSE>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR>4,chr_t0160a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　それを聞き流しながら、きららは
+まったく別のことを考えていた。
+<PAUSE>
+<NAME_PLATE>きらら
+（彼女がふうま達の幼馴染み……？
+　じゃあ、さっき言っていた、
+　“大事な人”っていうのは――）
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「っっ！？？」
+<PAUSE>
+<NAME_PLATE>
+　きららはハッと気がついた。
+<PAUSE>
+<NAME_PLATE>
+　“明るくて、皆の人気者”。
+<PAUSE>
+<NAME_PLATE>
+　そんな紅の言葉に当てはまるのは、
+どう考えてもただひとり――！
+<PAUSE>
+<NAME_PLATE>きらら
+（蛇子ちゃんのことっ！！？
+　そ、そう言えば、確かに……）
+<PAUSE>
+<NAME_PLATE>きらら
+（彼女、途中にあった屋台のたこ焼きを
+　物欲しそうに見ていたわ……！）
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　とんでもない勘違いである。
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,s_t003b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　そして、一方の紅も。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なるほどな～。まっ、
+　とにかく俺は上原鹿之助。
+　仲良くしてくれよな、紅っ！」
+<PAUSE>
+<NAME_PLATE>紅
+「う、うむっ。
+　よろしく、鹿之助――」
+<PAUSE>
+<NAME_PLATE>紅
+（なんという可愛らしい男子だ……）
+<PAUSE>
+<NAME_PLATE>紅
+（彼が、彼女がさっき言っていた、
+　“最近仲良くしてる後輩”……）
+<PAUSE>
+<NAME_PLATE>
+　後輩と聞いて一瞬小太郎の事かとも
+思ったが、すぐに違うと気がついた。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら小太郎はカッコいいからだ。
+<PAUSE>
+<NAME_PLATE>
+　“放っておけなくて可愛い”
+というのはちょっと違う。
+<PAUSE>
+<ACTOR_OUT>5,RIGHT,linear,1000
+<ACTOR>4,chr_t0160a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「そ、そうだったのね……。
+　なんていうか、改めてよろしく、紅」
+<PAUSE>
+<NAME_PLATE>きらら
+「女の子同士のアレって大変かもだけど、
+　私は応援する！！」
+<PAUSE>
+<NAME_PLATE>紅
+「？？　よくわからないが……
+　ともあれ君とは仲良くなれそうだ！」
+<PAUSE>
+<NAME_PLATE>
+　二人が笑みを見せる。
+<PAUSE>
+<NAME_PLATE>
+　色々と盛大に勘違いをしながらも、
+かくして紅ときららは友達になった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、そこに――。
+<PAUSE>
+<NAME_PLATE>？？？
+「おーい、悪い悪いっ！
+　みんな待ったか～！？」
+<PAUSE>
+<GROUP>
+<ACTOR>5,s_t003c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>6,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「あっ、ふうまちゃん！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「おせーよ、ふうま」
+<PAUSE>
+<NAME_PLATE>
+　家で着替えてきたのだろう、
+人混みをかきわけてピエロの
+仮装をした青年がやってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　手招きする蛇子と鹿之助、
+そして。
+<PAUSE>
+<GROUP>
+<ACTOR>3,chr_t0161a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,chr_t0160a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅＆きらら
+「やっと来たのねふうま！？」
+「やっと来たのかふうま！？」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】心願寺紅より流用
+//　※立ち絵
+//　　鬼崎きらら
+//　　　　＊対魔忍ＲＰＧカードイラスト【ハロウィン】鬼崎きららより流用
+<NAME_PLATE>
+　ハロウィン衣装のふたりが
+満面の笑顔で振り向いた。
+<PAUSE>
+//→エピローグ終了
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,230 @@
+<BG>nc105a,IN, 1000
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+<BGM_PLAY>bgm404,1000
+<NAME_PLATE>
+　五車学園校門前で、アサギさんと
+眞田焔の一騎打ちが続いていた。
+<PAUSE>
+<ACTOR>0,chr_t0086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>焔
+「さあ行くぜ！
+　忍法・火遁槍炎陣っ！！」
+<PAUSE>
+//　※立ち絵
+//　　眞田焔立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<ACTOR>1,chr_t0084a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「くっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ＺＥＲＯアサギ立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<NAME_PLATE>
+　炎を纏わせた槍による
+眞田焔の凄まじい斬撃――。
+<PAUSE>
+<NAME_PLATE>
+　アサギさんはそれを目にも留まらぬ
+スピードでくぐり抜け、果敢に攻撃を
+仕掛けていく。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　キィン！！　ガキィン――！！
+<PAUSE>
+<NAME_PLATE>焔
+「アハハ、やるねえ！
+　あんた最高だよ、井河アサギ！！」
+<PAUSE>
+<NAME_PLATE>焔
+「ダチとの初詣をぶっちして来た甲斐が
+　あったってもんだ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「こいつも初詣か……いや、そうじゃなくて、
+　アサギさん大丈夫か！？」
+<PAUSE>
+<NAME_PLATE>
+　立ち塞がる火遁衆と相対しながら
+俺はアサギさんに声をかけた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ、問題ないけれど……
+　でも、こんなことしてる場合じゃないのに、
+　まったく……」
+<PAUSE>
+<NAME_PLATE>
+　アサギさんがやれやれとばかりに
+ため息をつく。
+<PAUSE>
+<NAME_PLATE>
+　俺も加勢に行きたいところだが、
+火遁衆がそれを許してくれそうにない。
+<PAUSE>
+<NAME_PLATE>焔
+「さあ、これで終わりじゃないだろう？
+　楽しませてくれよ――！」
+<PAUSE>
+<NAME_PLATE>
+　ニヤリと好戦的に笑った焔が
+アサギに向けて槍を構える。
+<PAUSE>
+<NAME_PLATE>アサギ
+「い、いや、待ちなさい！
+　あなたには連絡が行ってないの！？」
+<PAUSE>
+<NAME_PLATE>焔
+「ハア？　連絡？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ここにいる彼は“身代わり”！
+　討ち取っても意味がないわ！
+　矛を収めなさい！」
+<PAUSE>
+<NAME_PLATE>焔
+「アハハ、なに言ってるかわかんねえや。
+　さあ行くよ、井河アサギ！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「くっ、話を聞かないタイプね……。
+　仕方がない、いくわよ！！」
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　――ガキィィン！！！
+<PAUSE>
+<NAME_PLATE>
+　鋭く得物を打ち合わせ、
+弾かれたように距離を取る二人。
+<PAUSE>
+<NAME_PLATE>
+　戦いの様子は一進一退。
+<PAUSE>
+<NAME_PLATE>
+　決着までまだ時間はかかるだろう
+という状況である。
+<PAUSE>
+<NAME_PLATE>
+　そこに――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m028a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>火遁衆
+「隊長！　本部より報告が！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　眞田焔の配下らしい忍が駆けつけてきた。
+<PAUSE>
+<ACTOR>2,ts_m028a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>焔
+「報告ぅ？　なんだよ、
+　これからってところに」
+<PAUSE>
+<NAME_PLATE>火遁衆
+「はい。稲毛屋の主人から
+　情報提供があったようです」
+<PAUSE>
+<NAME_PLATE>火遁衆
+「今我々が追っている猪は、“身代わり”
+　――ただの囮である可能性が高い、と」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,600
+<NAME_PLATE>焔
+「なにぃ！？」
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>0,chr_t0086a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　焔が、火遁衆と相対している
+俺（イノシシ）をギロリと睨んだ。
+<PAUSE>
+<NAME_PLATE>焔
+「そこの猪！？　お前、
+　身代わりって奴なのか！？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「えっ？　まあ、そうらしいぞ」
+<PAUSE>
+<NAME_PLATE>
+　俺が答えると、
+焔は愕然としたように呟いた。
+<PAUSE>
+<NAME_PLATE>焔
+「マジかよ……。
+　お前ら、それを先に言ってくれよ」
+<PAUSE>
+<ACTOR>0,chr_t0086a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0084a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「言ったけど！？　私、ついさっき
+　それを言ったんだけど！？」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>焔
+「あら？　そうだったか？　悪い悪い！
+　闘いが面白くて聞いてなかったわ」
+<PAUSE>
+<NAME_PLATE>
+　焔はケラケラと笑って構えを解いた。
+<PAUSE>
+<NAME_PLATE>焔
+「そういうことなら、
+　もうやり合う理由もないな。まあ、
+　それなりに愉しめたからこっちは満足だ！」
+<PAUSE>
+<NAME_PLATE>焔
+「……で、なんだ？　今度は、
+　こいつらに協力すればいいのか？」
+<PAUSE>
+<NAME_PLATE>火遁衆
+「そのようですね。
+　この猪は、本物の福猪の気配を
+　察知できるそうです」
+<PAUSE>
+<NAME_PLATE>
+　焔の言葉に配下の火遁衆が肯いた。
+<PAUSE>
+<NAME_PLATE>焔
+「よーし、じゃあそこの偽猪！！
+　案内を頼むぜ！　私らが本物の
+　猪のところまで付き合ってやるよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「助かったけど……さっきの子といい
+　この人といい、なんか釈然としないわね」
+<PAUSE>
+<NAME_PLATE>
+　先ほどと同じく、複雑な顔で
+ため息をつくアサギさんと俺だった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

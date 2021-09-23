@@ -1,0 +1,477 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【背景：和室（炎上）＿夜】【時間：夜】
+//　※戦国魔姦_nc018bを流用
+<BGM_PLAY>bgm320,1000
+<BG>nc198a,IN, 1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se090
+<NAME_PLATE>
+　ゴオッ！
+<PAUSE>
+//　　※立ち絵
+//　　アスタロト
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アスタロトの獄炎は、
+炎の牙を剥きながら、炎王に襲いかかる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m128a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>炎王
+「なんの！！！」
+<PAUSE>
+//　　※立ち絵
+//　　　炎王
+//　　　　＊モンスターイラストから流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se136
+<NAME_PLATE>
+　ドシャアアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　炎王はそれをものともせず、
+大量の放水で無力化すると、
+その拳をアスタロトに向けて振るう。
+<PAUSE>
+<NAME_PLATE>
+　それはただただ火力と放水力の戦いだった。
+<PAUSE>
+<ACTOR>1,ts_m128a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0156a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「やるわね！
+　これならどうかしら！？」
+<PAUSE>
+//　　※立ち絵
+//　　アスタロト
+//　　　　＊カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se015
+<NAME_PLATE>
+　アスタロトは、一層大きな獄炎を召喚する。
+<PAUSE>
+<NAME_PLATE>
+　アスタロトの操る獄炎は、
+魔界の灼熱の大地から召喚されたもの。
+<PAUSE>
+<NAME_PLATE>
+　大地の脈動がある限り、
+その炎は尽きることなく、
+アスタロトの下僕として彼女に従うのだ。
+<PAUSE>
+<NAME_PLATE>炎王
+「ふんっ！
+　いいね、情熱的だ！」
+<PAUSE>
+<NAME_PLATE>
+　炎王は嬉しそうにその炎に向かい、
+放水口を向ける。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「水をかけたくらいで、
+　私の獄炎は消せないわよ♪」
+<PAUSE>
+<NAME_PLATE>炎王
+「どうかな！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se136
+<NAME_PLATE>
+　炎王の放った水はシールド状になり、
+アスタロトの炎を受けとめて、
+消してしまった。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「驚いた……♪
+　ただの水で私の獄炎を消すなんて♪」
+<PAUSE>
+<NAME_PLATE>炎王
+「我が情熱はどんな炎も消すのだ！
+　……と言いたいところだが、
+　これはただの水ではないのだよ！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「へえ？」
+<PAUSE>
+<NAME_PLATE>炎王
+「ここヨミハラの、さらに地下深くに住む
+　水の精霊の女王を捕え、
+　その涙を混ぜた、強力な消火液だ！」
+<PAUSE>
+<NAME_PLATE>炎王
+「涙を流し続けさせるために、それは厳しい
+　拷問を続けているが、
+　これもヨミハラの防災のため！」
+<PAUSE>
+<NAME_PLATE>炎王
+「どんな非道な手を使っても、
+　必ず！　火を！　消す！
+　それが私！　炎王だ！！！！！！」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「なんて邪悪な消火精神なの♪」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「いいわ、勝負しましょう。
+　あなたが勝ったら、
+　私に求婚する資格をあげてもいいわよ」
+<PAUSE>
+<NAME_PLATE>
+　アスタロトの手が、かつてない熱を帯びる。
+<PAUSE>
+<NAME_PLATE>炎王
+「そんなものはいらないが、
+　君が燃やすというなら私は消そう！！」
+<PAUSE>
+<NAME_PLATE>
+　と同時に、炎王がさらに消火液をチャージ。
+文字通り、最大決戦の火蓋が
+切って落とされようとしていた。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、そのとき――
+<PAUSE>
+<NAME_PLATE>？？？
+「待ちなさい！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　ぱっと辺りに場違いな花びらが散る。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>炎王
+「誰だっ！？」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>2,sz_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「あーあ。
+　これは思った以上ね」
+<PAUSE>
+//　　※立ち絵
+//　　　高坂静流
+//　　　　＊カードイラストから流用
+<NAME_PLATE>
+　姿を現したのは、
+広場で見かけた対魔忍の女。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　――と、いつのまにか姿を消していた
+武装難民兄弟もいる。
+<PAUSE>
+//　　※立ち絵
+//　　　武装難民
+//　　　　＊モンスターイラストから流用
+//　　　ギャング
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>アスタロト
+「あら、どうしたの今更♪」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「あなたたちの目的……
+　えーとなんだったかしら、
+　とにかく存分に燃やしてあげるわよ♪」
+<PAUSE>
+<NAME_PLATE>
+　強い奴と会えたアスタロトは上機嫌で、
+途中で二人が逃げた事など気にも留めない。
+<PAUSE>
+<NAME_PLATE>兄貴
+「そ、それなんですけど、
+　もうやめにしてもらいたくて……」
+<PAUSE>
+<NAME_PLATE>兄貴
+「ヨミハラをブッ壊すなんて言ったけど、
+　正直、現実味はなかったっていうか……」
+<PAUSE>
+<NAME_PLATE>弟
+「ボヤでも出して、ビビらせられたら
+　いいなくらいの気持ちで」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスタロトの力に怖れをなした兄弟は、
+道中で見かけた対魔忍の静流に、
+助けを求めに行ったのだった。
+<PAUSE>
+<NAME_PLATE>
+　魔に対抗する力をもつ対魔忍なら、
+あるいはアスタロトを止めてくれるかも
+しれないと。
+<PAUSE>
+<NAME_PLATE>
+　しかし、アスタロトは彼女を見て
+むしろ好戦的な笑みを浮かべる。
+<PAUSE>
+<ACTOR>2,sz_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「あなた対魔忍って人ね？
+　女に興味はないけど、
+　強いっていうなら話は別よ♪」
+<PAUSE>
+<NAME_PLATE>静流
+「ご期待に添えなくて悪いけど、
+　私、戦いにきたわけじゃないの」
+<PAUSE>
+<NAME_PLATE>静流
+「あなたたちを止めて、
+　被害を最小限にするだけよ」
+<PAUSE>
+<NAME_PLATE>
+　煽るようなアスタロトに対し、
+静流は淡々としている。
+<PAUSE>
+<NAME_PLATE>炎王
+「対魔忍か！　協力願う！
+　この女性を抑えてくれ。
+　私がその間にありったけの水で消火を……」
+<PAUSE>
+<NAME_PLATE>静流
+「こら、あなたもよ炎王さん」
+<PAUSE>
+<NAME_PLATE>
+　しかし炎王に対しても、静流は
+まるで生徒を叱るような態度で諌める。
+<PAUSE>
+<NAME_PLATE>静流
+「あなたがこれ以上、水の精霊の女王を
+　イジメるのは見過ごせないの」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>炎王
+「なにを！？
+　消火の正義の前に、多少の犠牲は……」
+<PAUSE>
+<NAME_PLATE>静流
+「多少じゃ済まないわ！
+　水の精霊の女王が死ねば、
+　ヨミハラの水源が枯れる」
+<PAUSE>
+<NAME_PLATE>静流
+「そうしたらヨミハラは壊滅、
+　あなたはもちろん消防をクビ。
+　炎王だって廃棄処分にされるでしょうね」
+<PAUSE>
+<NAME_PLATE>
+　静かに、しかし確実に痛いところを突き、
+炎王を現実に直面させる静流。
+<PAUSE>
+<NAME_PLATE>炎王
+「う、うう……」
+<PAUSE>
+<SE_PLAY>se103
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　炎王はそんな静流にたじろぎ、
+ドスンと地面に膝をついた。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　一方アスタロトも、
+そんな彼を見てやる気をなくした様子だ。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「――……あーあ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「なんだか気分が削がれちゃったわ。
+　強い相手かと思ったけど、
+　たかだか説教されてたじろぐなんて」
+<PAUSE>
+<NAME_PLATE>炎王
+「ま、待ってくれ！
+　また場所を変えて、再戦を……！！！」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>アスタロト
+「もうあなたに興味ないわ。
+　――ウェスタ！」
+<PAUSE>
+<ACTOR>1,chr_t0156a,CENTER, RIGHT, NONE, linear, 1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se090
+<NAME_PLATE>
+　どこへともなくアスタロトが呼びかけると、
+ゴオッ……と炎が湧き立ち、
+その中にウェスタの姿が浮かび上がる。
+<PAUSE>
+<SE_PLAY>se015
+<ACTOR>5,chr_t0138a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ウェスタ
+『アスタロト様、およびでしょうか』
+<PAUSE>
+//　※立ち絵
+//　　ウェスタ立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスタロト
+「帰るわ」
+<PAUSE>
+<NAME_PLATE>ウェスタ
+『は……？』
+<PAUSE>
+<NAME_PLATE>
+　ウェスタは一瞬怪訝な顔をしたが、
+この主の気まぐれはいつものことである。
+<PAUSE>
+<NAME_PLATE>ウェスタ
+『畏まりました。
+　人間界は埃っぽいことでしょう、
+　湯浴みの用意などさせておきましょう』
+<PAUSE>
+<NAME_PLATE>アスタロト
+「ええ、熱々で頼むわね♪」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se090
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>
+　そう言うとアスタロトは、
+炎に包まれて消えた。
+<PAUSE>
+<NAME_PLATE>炎王
+「待ってくれ……！！！」
+<PAUSE>
+<NAME_PLATE>
+　しかし、もう返事はなく、
+ただ火が赤々と燃えるだけであった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：首都圏新外郭放水路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC031aより
+<BGM_PLAY>bgm506,1000
+<BG>nc119a,IN, 1000
+<NAME_PLATE>
+　その後。
+<PAUSE>
+<NAME_PLATE>
+　火災は無事に炎王によって消し止められ、
+被害はグリードハウスの一部にとどまった。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの住人たちは、
+騒ぎがあったことも知らず過ごしている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m128a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,sz_t001d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>炎王
+「いやあ、止めてくださって
+　ありがとうございました」
+<PAUSE>
+//　　※立ち絵
+//　　　炎王
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>炎王
+「私、炎を前にすると
+　見境がなくなってしまって……」
+<PAUSE>
+<NAME_PLATE>
+　地上とヨミハラをつなぐ出入り口、
+新外郭放水路。
+<PAUSE>
+<NAME_PLATE>
+　炎王は申し訳なさそうに、
+その巨体を静流の前に屈めていた。
+<PAUSE>
+<ACTOR>2,sz_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「まるで闘牛ね。
+　確かにヨミハラで火災は一大事だけど、
+　これからは消火以外の事も一応考えてね？」
+<PAUSE>
+//　　※立ち絵
+//　　　高坂静流
+//　　　　＊カードイラストから流用
+<NAME_PLATE>炎王
+「はい！　――ん？」
+<PAUSE>
+<SE_PLAY>se121
+<ACTOR>2,sz_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　そのとき炎王の眼が光り、
+サイレンが鳴り響く。
+緊急通信の合図だ。
+<PAUSE>
+<NAME_PLATE>炎王
+「はい、こちら炎王！！
+　――なに？　貧民地区で出火？
+　原因は路地でのバーベキュー？」
+<PAUSE>
+<NAME_PLATE>炎王
+「おのれ貧民共め！
+　消火後、防災のために
+　貧民は粛清だ！！！」
+<PAUSE>
+<SE_PLAY>se121
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　火事の通報を受けたらしい炎王は、
+物騒な事を宣言しながら消防車へと姿を変え、
+サイレンを響かせながら戻っていった。
+<PAUSE>
+<ACTOR>2,sz_t001d,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>静流
+「……全っ然、懲りてないわね」
+<PAUSE>
+<NAME_PLATE>
+　ここからヨミハラへは複雑な坑道を
+通らねばならないはずだが、
+<PAUSE>
+<NAME_PLATE>
+　炎王はそれすらも強行突破して、
+現場へ駆けつけるのだろう。
+<PAUSE>
+<ACTOR>2,sz_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「ま、これ以上首を突っ込むと
+　ややこしくなりそうだし。
+　――さて、私も帰りますか」
+<PAUSE>
+<ACTOR>2,sz_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「……あの女魔族のことも、
+　一応報告しておかなきゃね」
+<PAUSE>
+<NAME_PLATE>
+　遠ざかっていくサイレンを背に、
+静流は地上へと歩き出す。
+<PAUSE>
+//→Section５終了
+<ACTOR_OUT>2,CENTER,linear,1000
+<SE_PLAY>se082
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

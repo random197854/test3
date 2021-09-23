@@ -1,0 +1,281 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：東京キングダム＿高級料理店＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼの背景nc022aより流用
+<BGM_PLAY>bgm410,1000
+<BG>nc074a,IN, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「はァっ！！」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 500
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>ゾンビ店員
+「オウアオアアアア！？！？！！」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビ姉御立ち絵
+<NAME_PLATE>
+　個室内に乱入したゾンビ達は、
+秋津の刀捌きの前に次々と倒れていく。
+<PAUSE>
+<NAME_PLATE>俺
+（近くで見ると、本当に凄い太刀筋だな。
+　美しささえ感じるほどだ）
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m055a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m054a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゾンビ店員達
+「お客サマ……お静かニ……」
+「……タダ今……お伺いしマス……」
+<PAUSE>
+//　※立ち絵
+//　　ゾンビギャング立ち絵
+//　※立ち絵
+//　　ゾンビ姉御立ち絵
+<NAME_PLATE>
+　しかし、その戦闘の音が、
+さらなるゾンビを引きよせて
+しまっているようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m055a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,ts_m054a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「本当にしつこいわね？！
+　そろそろ疲れてきたんだけど！」
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,k_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「ゆっくり考えている時間はないようね。
+　隊長さん、依頼は引き受けてくれるかしら？
+　ワクチンも打ち終わったでしょう」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍通常立ち絵＿対魔忍衣装（コートあり）
+<NAME_PLATE>俺
+「……ああ」
+<PAUSE>
+<ACTOR>0,k_t003e,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　俺は空になったアンプルを投げ捨て、
+蛇子たちと顔を見合わせてうなずく。
+<PAUSE>
+<ACTOR>0,h_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ええ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>0,h_t002e,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「当然だよな」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>0,s_t001c,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　骸佐の捕縛は、独立遊撃隊の最重要任務。
+その骸佐が危険な生物兵器を保有し、
+闇世界に勢力を築こうとしている。
+<PAUSE>
+<NAME_PLATE>俺
+「依頼されるまでもないぜ。
+　絶対に阻止してやる」
+<PAUSE>
+<NAME_PLATE>俺
+「――と、その前に少しだけ、
+　確認したいことがあるんだが？」
+<PAUSE>
+<ACTOR>0,k_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「なにかしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「なぜわざわざ俺達に依頼する？
+　あんたも米連の人間なら、
+　自分のコマを動かした方が話は早いだろう」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「ダメよ。今は動かせない」
+<PAUSE>
+<NAME_PLATE>俺
+「どうしてだ？」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「彼はどうやって知ったのかしら？
+　米連のトップシークレットである、
+　ＣＤウィルスの存在を」
+<PAUSE>
+<NAME_PLATE>俺
+「…………。
+　なるほどな……」
+<PAUSE>
+<NAME_PLATE>
+　つまり内通者の存在。
+<PAUSE>
+<NAME_PLATE>
+　米連の中に、ノマドに情報を
+売っている奴がいる可能性が高いという事だ。
+<PAUSE>
+<NAME_PLATE>俺
+「で、あんたは俺たちを使って、
+　秘密裏にこの件を処理したいと」
+<PAUSE>
+<ACTOR>0,k_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面のマダム
+「そうよ♪
+　それからもうひとつ」
+<PAUSE>
+<ACTOR>0,k_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面のマダム
+「米連もいくつかの組織に分かれていて、
+　一枚岩でない事は知っているわよね」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「他の米連組織も今頃、盗まれたウィルスを
+　追っているはず……」
+<PAUSE>
+<ACTOR>0,k_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面のマダム
+「あなたには、その誰よりも早く、
+　品物を奪取してきて欲しいの」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ……」
+<PAUSE>
+<NAME_PLATE>俺
+「奪ってくるのはいいが、
+　それをあんたに渡して、
+　悪用されないっていう保証は？」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「ないわね。
+　信じてもらうしかないわ」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「私たちの目的は、
+　魔界の技術を破壊・封印する事。
+　邪魔する者は誰であろうと容赦しない」
+<PAUSE>
+<NAME_PLATE>俺
+「同じ米連の機関だとしてもか？」
+<PAUSE>
+<NAME_PLATE>仮面のマダム
+「そういうこと」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ。
+　とんでもない厄介事だな……」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>俺
+「……わかった、信じるよ。
+　ウィルスは、
+　あんたに渡すのが一番らしい」
+<PAUSE>
+<NAME_PLATE>
+　そんな危険なウィルスは、
+一刻も早く取り戻し、
+この世から葬り去らねばならない。
+<PAUSE>
+<NAME_PLATE>
+　それは利害とか駆け引きとか、
+そういうものを超えた大きな目的だ。
+<PAUSE>
+<ACTOR>0,k_t003b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面のマダム
+「フフ♪　素敵な答えね、隊長さん」
+<PAUSE>
+<NAME_PLATE>
+　仮面女は愉快そうに微笑み、
+個室の入り口でゾンビを押し止めている
+秋津に向けて叫ぶ。
+<PAUSE>
+<ACTOR>0,k_t003g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面のマダム
+「秋津！！
+　彼らをウィルスの所へ案内して」
+<PAUSE>
+<ACTOR>0,k_t003g,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「ああ？　やっと話がまとまったのね！」
+<PAUSE>
+//　※立ち絵
+//　　黄泉秋津立ち絵
+<NAME_PLATE>
+　秋津は一瞬で窓際まで後退すると、
+その高価そうなガラスに、
+背中の剣を叩きこんだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 500
+<SE_PLAY>se039
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガチャーン！！！
+<PAUSE>
+<NAME_PLATE>秋津
+「さあ、さっさと来て」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。
+　蛇子！　鹿之助！！　脱出だ！！
+　その窓から裏に逃げるぞ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「――あんたは？」
+<PAUSE>
+<ACTOR>0,k_t003g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面のマダム
+「ゾンビどもの処理は任せなさい、
+　さあ行って！」
+<PAUSE>
+<NAME_PLATE>
+　仮面のマダムは優雅に笑い、
+なだれ込んでくるゾンビたちに向かい、
+戦闘の構えをとる。
+<PAUSE>
+<ACTOR>0,k_t003g,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+（ゾンビは一手に引き受けるってか――
+　立ち往生するんじゃないぜ、
+　仮面の姉さんよ！）
+<PAUSE>
+<ACTOR>0,ak_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>秋津
+「なにしてるの！？　早く！」
+<PAUSE>
+<NAME_PLATE>俺
+「おう！」
+<PAUSE>
+<NAME_PLATE>
+　俺は秋津の割ったガラス窓に飛び込み、
+裏通りへと脱出する。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ak_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section２終了

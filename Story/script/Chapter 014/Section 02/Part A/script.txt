@@ -1,0 +1,640 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：センザキ＿繁華街裏通り＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC047bより流用
+//nc156a
+<BGM_PLAY>bgm509,1000
+<BG>nc156a,IN, 1000
+<NAME_PLATE>
+　ちょっとしたゴタゴタはあったが、
+センザキの顔役で幼馴染の銃兵衛から
+心願寺紅の情報を得ることができた。
+<PAUSE>
+<NAME_PLATE>
+　それを元に、
+俺とゆきかぜは行動を開始した。
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「心願寺紅と槇島あやめね。
+　二人ともふうま一門の人なのね」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵_対魔忍
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//既存
+<NAME_PLATE>俺
+「そうだ。紅とは銃兵衛とかと同じ幼馴染。
+　あやめさんはあまり知らないが
+　紅の従者みたいな人だ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それで？
+　その人たちと私は戦うことになるの？」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは迷いなく尋ねてきたが、
+俺は答えを躊躇ってしまった。
+<PAUSE>
+<ACTOR>0,yu_t001f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「黙ってないでさっさと話す！」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「私はふうまの銃よ。
+　言われなくても私はあんたを守る」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「守るためには、
+　あんたをなにから守るのか知っておきたい」
+<PAUSE>
+<NAME_PLATE>
+　いつにない、ゆきかぜの真剣な表情。
+<PAUSE>
+<NAME_PLATE>
+　俺の前でこんな顔をしたことはない。
+<PAUSE>
+<NAME_PLATE>
+　あるいは、自分でも意識していなかったが、
+ゆきかぜにこんな態度をとらせてしまうほど
+今日の俺は普段と違っているのだろうか。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「話して、ふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「……分かった」
+<PAUSE>
+//【黒画面】
+//【背景：ある闇の町の繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+//nc111a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　少し前―――
+<PAUSE>
+<NAME_PLATE>
+　ある闇の町に潜入した時のことだ。
+<PAUSE>
+<BGM_PLAY>bgm206,1000
+<BG>nc111a,IN, 1000
+<NAME_PLATE>俺
+「今、ターゲットと接触して
+　“もの”を渡した。これから戻る」
+<PAUSE>
+<NAME_PLATE>蛇子
+『こちらからも視認したわよ。
+　私たちはどうすれば良い？』
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+//既存
+<NAME_PLATE>俺
+「無事渡せたしバックアップはもう大丈夫だ。
+　先に宿に戻っててくれ」
+<PAUSE>
+<NAME_PLATE>蛇子
+『分かったわ。
+　ふうまちゃん気を付けて戻ってね』
+<PAUSE>
+<NAME_PLATE>俺
+「了解。通信終了」
+<PAUSE>
+<NAME_PLATE>
+　蛇子との通信を終え、アジトに戻るため、
+尾行を警戒しながら移動を開始する。
+<PAUSE>
+//【背景：ある闇の町の繁華街＿廃ビル＿夜】【時間：夜】
+//　※悪の女幹部_NC_011-Bより流用
+//nc157a
+<SE_PLAY>se078
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc157b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　裏通りから、路地裏に入り、廃ビルの中へ。
+<PAUSE>
+<NAME_PLATE>
+　俺が入ってすぐ。
+<PAUSE>
+//　※立ち絵
+//　　峰舟子立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//ts_m099a
+<NAME_PLATE>
+　女が一人、同じビルへ入った。
+<PAUSE>
+<NAME_PLATE>
+　尾けられている。
+<PAUSE>
+//　※立ち絵、いったん消す。
+<NAME_PLATE>俺
+「俺になにか用ですか？」
+<PAUSE>
+<NAME_PLATE>
+　廃ビルの死角を利用し、
+女の背後に回り込んで声をかける。
+<PAUSE>
+<NAME_PLATE>
+　俺を尾行していたらしい女は、
+逆に後ろをとられたことに驚いた様子もなく
+ゆっくりと振り返った。
+<PAUSE>
+<ACTOR>1,ts_m099a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>峰舟子
+「はじめまして。
+　私は峰。峰舟子（みね　ふなこ）。
+　君はふうま小太郎君よね？」
+<PAUSE>
+//　※立ち絵
+//　　峰舟子立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//ts_m099a
+<NAME_PLATE>俺
+「さくら、待機だ。
+　敵ではないことは分かった」
+<PAUSE>
+<NAME_PLATE>舟子
+「さくら？」
+<PAUSE>
+<NAME_PLATE>俺
+「いえ、こっちの話で……。
+　あの、これお返しします」
+<PAUSE>
+<NAME_PLATE>
+　俺は女、峰舟子から奪っていた
+身分証を返した。
+<PAUSE>
+<NAME_PLATE>
+　そこには確かに『峰舟子』
+『内閣情報調査局』『局長』とある。
+<PAUSE>
+<NAME_PLATE>
+　つまり目の前の女は
+政府の高官ということだ。
+<PAUSE>
+<NAME_PLATE>舟子
+「驚いたわね。
+　さすがは噂の独立遊撃部隊の隊長さんね」
+<PAUSE>
+<NAME_PLATE>
+　女は大げさに目を見張ったが
+俺はなにもしていない。
+<PAUSE>
+<NAME_PLATE>
+　誰かに尾行されていたので、
+例によってバイトで影に潜んでいたさくらに
+すってもらって、正体を確認しただけだ。
+<PAUSE>
+<NAME_PLATE>俺
+「芝居はやめてください。俺を
+　信用させるためにワザと尾行を発見させ、
+　身分証を盗ませたんじゃないですか？」
+<PAUSE>
+<NAME_PLATE>舟子
+「そうだとしたら、
+　君は何故、私が敵ではないと判断したの？」
+<PAUSE>
+<NAME_PLATE>俺
+「内調のリーダーが誰かくらいは
+　顔も含め知ってますよ。
+　あることでいろいろ調べたんで」
+<PAUSE>
+<NAME_PLATE>舟子
+「そう。話が早いわね。
+　君と相談したいのよね。個人的に」
+<PAUSE>
+<NAME_PLATE>俺
+「分かりました。
+　さくら、外してくれ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>2,ws_t005c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「大丈夫なの？」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+//　　　＊対魔忍RPGカードイラストより流用
+//既存
+<NAME_PLATE>
+　さくらが俺の影から
+ひょいと姿を現して聞いてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「たぶんな」
+<PAUSE>
+<ACTOR>2,ws_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「近くにいるから
+　なにかあれば呼んでおくれよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　そう言って、そのへんの影に紛れていった。
+<PAUSE>
+<ACTOR>1,ts_m099a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舟子
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　人が影からいきなり現れて、
+また影に消える。
+<PAUSE>
+<NAME_PLATE>
+　身分証をすられるより、よほど驚きだろうに
+峰舟子は平然としている。
+<PAUSE>
+<NAME_PLATE>俺
+「相談っていうのはなんです？」
+<PAUSE>
+<NAME_PLATE>舟子
+「私は今、ある男の暗殺事件を
+　調査しているの」
+<PAUSE>
+<NAME_PLATE>舟子
+「佐郷文庫、知ってるわよね？」
+<PAUSE>
+<NAME_PLATE>俺
+「だから俺に接触してきた」
+<PAUSE>
+<NAME_PLATE>
+　相手は内調だ。
+<PAUSE>
+<NAME_PLATE>
+　俺が佐郷の護衛に関わったことなど
+せんこく調査済みだろう。
+<PAUSE>
+<NAME_PLATE>舟子
+「あの時は私たち内調が佐郷を
+　預かる手筈だったのよ」
+<PAUSE>
+<NAME_PLATE>
+　それはあの後、俺が独自に調査した
+結果とも一致している。
+<PAUSE>
+<NAME_PLATE>
+　五車の里が、佐郷を内閣情報調査局に
+引き渡そうとしていたこと。
+<PAUSE>
+<NAME_PLATE>
+　だからこそ、内調の最高責任者である
+局長の名前や顔も知っていたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「内調は誰が暗殺の首謀者だと
+　睨んでいるんです？」
+<PAUSE>
+<NAME_PLATE>舟子
+「あなたたちを妨害していた
+　米連の組織特務機関“Ｇ”」
+<PAUSE>
+<NAME_PLATE>俺
+「分かりやすい犯人像だ」
+<PAUSE>
+<NAME_PLATE>
+　俺の皮肉に、峰舟子はあっさり頷いた。
+<PAUSE>
+<NAME_PLATE>舟子
+「そうね。分かりやすすぎる
+　もし違ったとしたら？」
+<PAUSE>
+<NAME_PLATE>俺
+「………？」
+<PAUSE>
+<NAME_PLATE>舟子
+「私は井河アサギを疑っている」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「アサギ校長が！？
+　そんなことがあるわけがない！！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は反射的に答えていた。
+<PAUSE>
+<NAME_PLATE>
+　予想外の言葉だったからではない。
+<PAUSE>
+<NAME_PLATE>
+　可能性の一つとして、
+それは確かに俺の頭にあった。
+<PAUSE>
+<NAME_PLATE>
+　井河アサギが佐郷文庫を殺させたと。
+<PAUSE>
+<NAME_PLATE>舟子
+「本当にアサギが潔白であると
+　信じられるの？」
+<PAUSE>
+<NAME_PLATE>舟子
+「佐郷はふうま反乱の主犯格で
+　五車で彼を恨むものは多い」
+<PAUSE>
+<NAME_PLATE>舟子
+「私たち内調に彼が保護される前に
+　抹殺しようと考えたとしたら？」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな！？　そんなことは……」
+<PAUSE>
+<NAME_PLATE>
+　峰舟子が畳みかけてくる。
+<PAUSE>
+<NAME_PLATE>
+　俺は反論しようとするが、
+すぐには言葉が出てこない。
+<PAUSE>
+<NAME_PLATE>
+　俺の感情はともかく、
+理性がそれを否定しきれないからだ。
+<PAUSE>
+<NAME_PLATE>舟子
+「ねえ？　否定できない推理よね。
+　そこで私たちは君に依頼したいの。
+　佐郷を暗殺した首謀者が誰か、その調査を」
+<PAUSE>
+<NAME_PLATE>舟子
+「アサギが暗殺の首謀者でないと分かれば
+　君も安心できるでしょう？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「………ッ！？」
+<PAUSE>
+//【黒画面】
+//【背景：センザキ＿繁華街裏通り＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC047bより流用
+//nc156a
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc156a,IN, 1000
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,yu_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>ゆきかぜ
+「アサギ先生が佐郷って人を
+　暗殺したっていうの！？
+　心願寺紅と槇島あやめって人を使って！？」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵_対魔忍
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//既存
+<NAME_PLATE>俺
+「わからない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「わからないってなによ！！
+　そんなことあるわけないでしょ！！」
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+</GROUP>
+<NAME_PLATE>
+　ゆきかぜの怒声に呼応して、
+裏路地のネオンがいくつか吹き飛んだ。
+<PAUSE>
+<NAME_PLATE>
+　これだからセンザキに来るまで
+細かい事情を話さなかったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「だが、槇島あやめは狙撃の名手で
+　可能性は否定できない」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だからって！！」
+<PAUSE>
+//小爆発SE
+<GROUP>
+<SE_PLAY>se120
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ボンッ！　ボボンッ！！
+<PAUSE>
+<NAME_PLATE>俺
+「少し落ち着け。電気も抑えろ。
+　目立ちすぎだ」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「むっふーーーーー」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは盛大に鼻息を吐いてから、
+感情を押し殺すように言った。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アサギ校長が佐郷って人を
+　暗殺したってなると事態は深刻よ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「心願寺紅や槇島あやめ、
+　下手したら五車と戦うことになるかもね」
+<PAUSE>
+<NAME_PLATE>俺
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　言われるまでもなく分かっている。
+<PAUSE>
+<NAME_PLATE>
+　俺が押し黙ってしまうと、
+ゆきかぜは俺を気遣うような顔になる。
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「まあ、蛇子や鹿之介を外した理由は
+　分かったわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でも、あの二人怒るわよ。
+　そんな深刻な任務だからこそ呼べってね」
+<PAUSE>
+<NAME_PLATE>俺
+「今回は人数を動かして目立つのは
+　得策じゃない」
+<PAUSE>
+<NAME_PLATE>俺
+「少数精鋭、最高の戦力で挑みたかった」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それで私？」
+<PAUSE>
+<NAME_PLATE>俺
+「他に考えられない」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ふん！　言うじゃない。
+　その判断は支持するわ」
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そして私はふうまの銃。どんな時もね。
+　覚えておきなさいよ！」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜがようやくいつもの
+いや、いつも以上にやる気のある顔になった。
+<PAUSE>
+//【背景：センザキ＿繁華街裏通り＿ナイトクラブ内＿夜】【時間：夜】
+//　※監獄アカデミア_NC010aより流用
+//nc043a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc043a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　裏通りのナイトクラブ。
+<PAUSE>
+<NAME_PLATE>
+　そこが目的地だ。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛によれば、このナイトクラブの
+裏のオーナーが心願寺家だという。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜを待機させ、
+まずは俺一人が客としてそこに出向く。
+<PAUSE>
+<NAME_PLATE>俺
+「紅を呼んでくれ」
+<PAUSE>
+<NAME_PLATE>
+　傅く黒服の男たちにその名前を出すと、
+連中の表情が一変した。
+<PAUSE>
+<NAME_PLATE>
+　俺は次いで現れた人相の悪い連中に、
+店の裏口へと連れて行かれる。
+<PAUSE>
+<NAME_PLATE>俺
+（まあ、ここまでは予定通りか……）
+<PAUSE>
+//【背景：センザキ＿繁華街裏通り＿ナイトクラブ内の裏＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+//nc062a
+<SE_PLAY>se082
+<BG>nc062a,IN, 1000
+<NAME_PLATE>
+　ナイトクラブの用心棒１０人ほどが
+俺を取り囲む。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>3,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>魔族傭兵
+「兄ちゃん何者だ？」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（男）立ち絵
+//　　　　＊モンスターイラストから流用
+//既存
+<NAME_PLATE>俺
+「小太郎が来たと言えば分かる。
+　いいから紅を呼んでくれ」
+<PAUSE>
+<ACTOR>4,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオーク
+「この店には紅なんて女はいねえって
+　言ってんだろ！？」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+//既存
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>俺
+「いるのは分かっている。
+　小太郎だ。それだけ伝えてくれ」
+<PAUSE>
+<NAME_PLATE>魔族傭兵
+「てめえ、ふざけてんのか！」
+<PAUSE>
+<NAME_PLATE>
+　取り付く島もないとはこのことだ。
+<PAUSE>
+<NAME_PLATE>
+　呼んだらすぐに出て来るとも
+思ってはいないが。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+『ねえ？　助ける？』
+<PAUSE>
+<NAME_PLATE>
+　密かに耳に装着している通信端末に
+ゆきかぜからの通信が入る。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、そのまま待機だ。
+　必ず動きがあるはずだ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+『大丈夫なの？』
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫。任せてくれ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔族傭兵
+「おいコラ！？
+　なにブツブツ言ってんだてめえ！？」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（男）立ち絵
+//　　　　＊モンスターイラストから流用
+//既存
+<NAME_PLATE>ハイオーク
+「怪しい奴だな。
+　ちいと痛い目にあってくか兄ちゃんよぉ」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+//既存
+<NAME_PLATE>
+　用心棒どもが一斉にすごんでくる。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ、これも予定通りか……）
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

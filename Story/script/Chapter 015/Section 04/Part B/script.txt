@@ -1,0 +1,619 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//シーン説明：
+//【黒画面】
+//【背景：五車町山間部＿沢＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc028a,IN, 1000
+<NAME_PLATE>
+　三つ巴の戦闘は激しさを増していた。
+<PAUSE>
+<ACTOR>0,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>三郎
+「大五郎プレス！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　鬼蜘蛛がその巨体に似合わぬ素早さで
+跳躍した。
+<PAUSE>
+<NAME_PLATE>
+　頭上より高速で落下し、
+雫を押し潰そうとする。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se103
+<ACTOR>0,ts_m066a,CENTER, CENTER, IN, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ズンッ！！！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>1,ts_m109a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>雫
+「あはは」
+<PAUSE>
+//　※立ち絵
+//　　黒騎雫立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+//　※立ち絵すぐに消す
+<ACTOR_OUT>1,CENTER,linear,500
+<NAME_PLATE>
+　雫は寸前で姿を消して、
+それをあっさり回避する。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<NAME_PLATE>御庭番
+「「ぎゃあっっっ！！」」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（女）立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　雫を攻撃していたふうま忍者数人が
+巻き添えを食らい、鬼蜘蛛にぺしゃんこに
+潰された。
+<PAUSE>
+<NAME_PLATE>
+　数人分の赤くおぞましいシミが
+大地に広がる。
+<PAUSE>
+<BG>nc028a,IN, 500
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ライブラリー
+「バーニングブレード！！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　部下の死を一顧だにせず、
+仕込みブレードを赤熱化させた
+ライブラリーが三郎に斬りかかる。
+<PAUSE>
+<NAME_PLATE>
+　ふうま御庭番の長の名に恥じぬ、
+疾風にも似た激しさだ。
+<PAUSE>
+<ACTOR>0,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「大五郎！！」
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＨＹＡＡＡ！」
+<PAUSE>
+<NAME_PLATE>
+　三郎は大五郎の足を掲げさせ、
+斬撃を防ごうとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギインッ！！
+<PAUSE>
+<NAME_PLATE>
+　鋼よりも強靱な鬼蜘蛛の足は
+赤熱した刃を止めた。
+<PAUSE>
+<NAME_PLATE>
+　が、それは一瞬のことで―――。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「はっ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　ライブラリーが鋭く呼気を発すると、
+超高温のブレードが鬼蜘蛛の外殻を
+強引に焼き溶かし、切断する。
+<PAUSE>
+<SE_PLAY>se134
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ジュワッ！！
+<PAUSE>
+<NAME_PLATE>
+　どす黒い血がバッと噴き出したが、
+ブレードの熱で瞬時に蒸発する。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＧＩＧＹＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+<NAME_PLATE>
+　鬼蜘蛛は金属を擦り合わせたような
+ひどく耳障りな悲鳴をあげて、
+たまらずに後ろに飛び逃げる。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<BG>nc028a,IN, 500
+</GROUP>
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>ライブラリー
+「逃がさん」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーは冷徹に告げ、
+追撃を加えようと、さらに踏み込む。
+<PAUSE>
+<NAME_PLATE>三郎
+「だ、大五郎ウェブ！！！」
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＨＹＡＡＡＡＡＡＡＡＡＡＡＡ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　動揺しつつも下された三郎の命に、
+大五郎は怒りの咆哮を発して、
+必殺の蜘蛛糸を放とうとした。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「甘いな」
+<PAUSE>
+//　※ライブラリー立ち絵オフ
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　まるで分かっていたかのように、
+ライブラリーは蜘蛛糸の放出より先に
+周囲に溶け込むように消えている。
+<PAUSE>
+<NAME_PLATE>
+　勢いよく吐き出された大量の蜘蛛糸は
+目標を失って空しく広がるばかりだ。
+<PAUSE>
+<NAME_PLATE>三郎
+「き、消えた！？
+　大五郎―――」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se011
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッ！！！
+<PAUSE>
+<NAME_PLATE>
+　三郎が次の命令を発するより早く、
+ライブラリーは鬼蜘蛛の背後に出現して
+斬りかかっていた。
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＧＵＧＩＧＹＡＡＡＡ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<BG>nc028a,IN, 500
+<NAME_PLATE>
+　臀部に深手を負わされ、
+鬼蜘蛛は悲痛な咆哮を発した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「後ろから！？」
+<PAUSE>
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>
+　鬼蜘蛛が斬られてから、
+三郎はようやくライブラリーに気づく。
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＧＹＡＧＹＡＧＹＡＧＹＡ！！」
+<PAUSE>
+<NAME_PLATE>
+　大五郎はもはや三郎の命令を待たず、
+切断された前足を忙しなく動かして、
+本能のままに土中に逃げようとする。
+<PAUSE>
+<NAME_PLATE>三郎
+「に、逃げたら駄目！
+　大五郎！！　やめて！　大五郎！！」
+<PAUSE>
+<NAME_PLATE>
+　三郎は声を上擦らせ、
+必死に大五郎に命じて、逃亡を止める。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「見事な鬼蜘蛛のコントロールだ。
+　しかし先代に比べればまだ修行が足りぬ」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　三郎と鬼蜘蛛を見つめ、
+ライブラリーは静かに告げた。
+<PAUSE>
+<ACTOR>2,ts_m104a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>三郎
+「一体、何者なの？」
+<PAUSE>
+<NAME_PLATE>
+　今の一撃、本当なら
+三郎も大五郎も倒されていた。
+<PAUSE>
+<NAME_PLATE>
+　あえてダメージの少ない臀部に
+斬りつけたのだ。
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーを見つめる三郎の瞳には、
+五車町に来て初めて敵への恐れがあった。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「対魔忍ライブラリー。
+　ふうま小太郎に忠誠を誓いし者だ」
+<PAUSE>
+<NAME_PLATE>三郎
+「ふうま小太郎？
+　あの目抜けのふうま小太郎？
+　あんな弱い奴になんで？」
+<PAUSE>
+<NAME_PLATE>
+　三郎は恐怖を隠そうとするかのように、
+嘲笑まじりに言った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「忍の主に必要なのは武辺にあらず。
+　おのが命を捧げてもよいという器だ」
+<PAUSE>
+<NAME_PLATE>三郎
+「器？
+　そんなものが
+　あの目抜けにあるっていうの？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「無論。
+　でなければここにおらぬ」
+<PAUSE>
+<NAME_PLATE>三郎
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーの迷いのない口調、
+その言葉以上に伝わってくる信念の強さに、
+三郎は気圧されたように押し黙った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「我が主に忠誠を誓うなら命までは取らぬ。
+　どうする？」
+<PAUSE>
+<NAME_PLATE>三郎
+「わ、笑わせる。
+　三郎が忠誠を誓うのは二車骸佐さまだけ」
+<PAUSE>
+<NAME_PLATE>
+　三郎は骸佐の配下であるという矜持に
+すがりつくように言った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「残念だ」
+<PAUSE>
+//　※ライブラリー立ち絵オフ
+<ACTOR_OUT>2,RIGHT,linear,1000
+<NAME_PLATE>
+　ライブラリーがふっと姿を消した。
+<PAUSE>
+<ACTOR>0,ts_m066a,LEFT, CENTER, NONE, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「っっ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>
+　次の一撃で勝負をつけるつもりだ。
+<PAUSE>
+<NAME_PLATE>三郎
+「大五郎ウェブ・サーフェス！！！」
+<PAUSE>
+<NAME_PLATE>
+　三郎はさっき逃げだそうとした鬼蜘蛛に
+力強く命令を発した。
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＨＹＡＡＡＡ！！！
+　ＨＹＡＡＡＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+<NAME_PLATE>
+　大五郎もまた激しい咆哮をあげ、
+広げた顎から蜘蛛糸を放出した。
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛糸は彼女たちを中心に四方八方に広がり
+巨大な蜘蛛の巣のような防御陣を形成する。
+<PAUSE>
+<NAME_PLATE>
+　およそ半径１０メートル。
+ひとたび触れたら離さない蜘蛛糸の結界は、
+たとえ敵がどこから来ようとも迎え撃てる。
+<PAUSE>
+<NAME_PLATE>三郎
+「私は骸佐さまに仕える鬼蜘蛛三郎。
+　来い！」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+『その意気やよし』
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーの声が聞こえた。
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛糸がその音でわずかに振動する。
+<PAUSE>
+<NAME_PLATE>
+　真正面？？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>ライブラリー
+「鬼蜘蛛三郎、覚悟」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵（赤熱化）
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<SE_PLAY>se093
+<ACTOR>2,ts_m104b,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ゴォオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　再び姿を現したライブラリーは
+全身が赤熱化していた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「なっ！？」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se015
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　ボッ！　ボッ！　ボッ！　ボッ！　ボッ！！
+ボボボオオオオオッ！！！
+<PAUSE>
+<NAME_PLATE>
+　必殺の蜘蛛糸結界は、
+ライブラリーに触れた途端、いやそれより先に
+次々と燃え尽きていく。
+<PAUSE>
+<NAME_PLATE>三郎
+「くっっ！！」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「終わりだ」
+<PAUSE>
+<NAME_PLATE>
+　灼熱と化したライブラリーが襲いかかった。
+<PAUSE>
+<NAME_PLATE>
+　赤い死が迫る。
+<PAUSE>
+<NAME_PLATE>
+　もう逃げ場はない。
+<PAUSE>
+<NAME_PLATE>三郎
+「骸佐さま、お許しを」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,CENTER,linear,500
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　三郎が覚悟を決めた瞬間、
+<PAUSE>
+<GROUP>
+<SE_PLAY>se006
+<BG>ef004a,IN, 500
+</GROUP>
+<WAIT>1000
+<GROUP>
+<SE_PLAY>se007
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　シュッッ！！　ガギンッ！！！
+<PAUSE>
+<NAME_PLATE>
+　交差する二本の刃が超高速で繰り出され、
+赤熱化したライブラリーごと
+攻撃を弾き返した。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「むっ！？」
+<PAUSE>
+<NAME_PLATE>
+　新たな敵の出現に、
+ライブラリーは三郎を救おうとした
+二刀の勢いに乗るように身を引く。
+<PAUSE>
+<SE_PLAY>se003
+<BGM_STOP>1000
+<BG>nc028a,IN, 500
+<ACTOR>3,ts_m063a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>尚之助
+「ここは退きますよ、三郎！」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「尚兄！？」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　三郎の窮地を救ったのは尚之助であった。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「楽尚之助か」
+<PAUSE>
+<NAME_PLATE>尚之助
+「対魔忍ライブラリー殿でしたか？
+　お初にお目にかかります」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　三郎の窮地を救った尚之助は
+悠然とした態度で頭を下げた。
+<PAUSE>
+<NAME_PLATE>
+　それは明らかな隙だったが、
+ライブラリーはピクリとも動かない。
+<PAUSE>
+<ACTOR>3,ts_m063a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,ts_m104b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「突然の乱入、ご無礼いたしました。
+　また、二車の者どもの不躾な行いに
+　ついてもお詫び致します」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「おぬしはお館様の命を
+　狙いにきたのではないのか？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「それは今日の私の任ではございません」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「今日の……な」
+<PAUSE>
+<NAME_PLATE>尚之助
+「はい。今日の私は少々手間のかかる
+　子供らの守り役です」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「あまり役にたっていないようだ」
+<PAUSE>
+<NAME_PLATE>尚之助
+「お恥ずかしい限りです。
+　これ以上のご迷惑をかけぬよう、
+　このまま帰していただけませんか？」
+<PAUSE>
+<NAME_PLATE>三郎
+「え？　尚兄？
+　雫はどうするのよ！」
+<PAUSE>
+<NAME_PLATE>
+　窮地を救われた三郎が抗議の声をあげる。
+<PAUSE>
+<NAME_PLATE>
+　気がつけば、雫はいなくなっていた。
+<PAUSE>
+<NAME_PLATE>尚之助
+「それはライブラリー殿にお任せしましょう」
+<PAUSE>
+<NAME_PLATE>
+　尚之助は涼しい声で言った。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>尚之助
+「お願いできますか？」
+<PAUSE>
+<NAME_PLATE>
+　尚之助とライブラリーはしばし見つめ合う。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「よかろう、去るがよい」
+<PAUSE>
+<NAME_PLATE>尚之助
+「感謝致します。
+　では三郎、行きますよ」
+<PAUSE>
+<NAME_PLATE>三郎
+「くっ……お、覚えていろ！！」
+<PAUSE>
+//　※立ち絵オフ
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　見事な捨て台詞を残して、
+三郎と尚之助を乗せた鬼蜘蛛は
+大ジャンプで逃げていった。
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>2,ts_m104b,RIGHT, CENTER, NONE, linear, 1000
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ライブラリーはようやく赤熱化を解き、
+残った部下たちに向き直った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「お前たちは鬼蜘蛛三郎らを追え！
+　ただし戦わず距離を取り監視を続けよ！」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「無理に戦うなよ。
+　彼らが五車の領域から出ればよしだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>御庭番衆
+「「はっっ！！」」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（女）立ち絵
+//　　　　＊モンスターイラストから流用
+//　　ふうま火遁衆（女）立ち絵
+//　　　　＊モンスターイラストから流用
+<SE_PLAY>se003
+<NAME_PLATE>
+　御庭番たちは即座に追跡にかかる。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「残るはあの少年か。
+　任されたからにはなんとかしないとな」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーは独りごちると、
+自らは雫を追って、消えていった。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

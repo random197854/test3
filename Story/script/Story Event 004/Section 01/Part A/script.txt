@@ -1,0 +1,270 @@
+//☆ストーリー04【Section１】シナリオ
+//作成者：里見ヨシカ
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//シーン説明：
+//※ある日の早朝
+//【黒画面】
+//シーン開始。
+//【背景：五車町の外れの森＿朝】【時間：朝】
+//　※対魔忍ムラサキ_nc008aより流用
+<BG>chrnc0086a,IN, 3000
+<BGM_PLAY>bgm407,1000
+<NAME_PLATE>
+　早朝、
+五車町と外界とを繋ぐ山道の傍ら。
+<PAUSE>
+<NAME_PLATE>
+　霜に濡れた地面を踏んで、
+ふたりの女が向かい合っていた。
+<PAUSE>
+<ACTOR>0,chr_t0041a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま災禍
+「……それで？」
+//　※立ち絵
+//　　ふうま災禍
+//　　　　＊ローンチカードイラストより流用
+<PAUSE>
+<NAME_PLATE>？？？
+「我々の関係を再確認したいって話さ」
+<PAUSE>
+//　※立ち絵なし
+<NAME_PLATE>災禍
+「…………再確認、とは」
+<PAUSE>
+<NAME_PLATE>？？？
+「ここじゃ密談もナンだ。
+　とりあえず一緒に来てくれよ。
+　お互いトラブルは避けたいだろ？」
+<PAUSE>
+<NAME_PLATE>災禍
+「…………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 500
+<BG_OUT>1000
+<BGM_STOP>1000
+<WAIT>1000
+//【背景：五車学園＿正門＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC008aより流用
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<SE_PLAY>se021
+<NAME_PLATE>
+　キーンコーン……
+カーンコーン……
+<PAUSE>
+//【背景：五車学園＿廊下＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC025aより流用
+<BG>nc005a,IN, 1000
+<BGM_PLAY>bgm309,1000
+<NAME_PLATE>俺
+（ロッカー異常なし、
+　机も異常なし……か）
+<PAUSE>
+<NAME_PLATE>
+　放課後。
+俺は何度も自分の席やロッカーを
+確認していた。
+<PAUSE>
+<NAME_PLATE>俺
+（………おかしいな）
+<PAUSE>
+<NAME_PLATE>俺
+（恋する乙女が秘めたる心を告白する、
+　年に一度のチャンスだというのに）
+<PAUSE>
+<NAME_PLATE>
+　そう、今日はバレンタインデー。
+この日ばかりは、対魔忍養成機関たる
+五車学園にもそわついた雰囲気が漂う。
+<PAUSE>
+<NAME_PLATE>
+　俺は……残念ながら、
+いつもどおりの一日を過ごしていた。
+<PAUSE>
+<NAME_PLATE>俺
+（襲撃事件もあったし、
+　なんとなく俺に近づきにくい、
+　そんな気持ちもわかるぞ）
+<PAUSE>
+<NAME_PLATE>俺
+（だが、独立遊撃隊の隊長に任命された俺に、
+　密かに思いを寄せる女子の、
+　一人や二人や十人くらいいても……）
+<PAUSE>
+<NAME_PLATE>
+　などと過剰な（？）期待をしつつ、
+いつもよりゆっくり廊下を歩いていると。
+<PAUSE>
+<ACTOR>1,s_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「お疲れふうま！
+　お前もチョコゼロかよ！」
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿制服
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が清々しい顔で声をかけてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助、お前もか」
+<PAUSE>
+<ACTOR>1,s_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「俺は初めから期待してなかったしな！
+　まあ元気出せよふうま」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ、お前に慰められるとはな。
+　しかしまだわからんぞ、そこの曲がり角で、
+　女子が待ってる可能性だって……ん？」
+<PAUSE>
+<ACTOR>1,s_t003a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,rn_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>秋山凜子
+「やあ、ふうまに上原。お疲れ」
+//　※立ち絵
+//　　秋山凜子
+//　　　　＊カードイラストより流用
+<PAUSE>
+<NAME_PLATE>
+　角から現れたのは、秋山凜子先輩。
+その手には、色とりどりの包みで
+山盛りになった段ボールを抱えている。
+<PAUSE>
+<ACTOR>1,s_t003d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「凜子先輩……それ、全部チョコ……？」
+<PAUSE>
+<ACTOR>2,rn_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「ああ、今年もこの有様だ。
+　同級生から後輩までいろんな女子がくれる。
+　友チョコ？　というやつだろうか」
+<PAUSE>
+<ACTOR>2,rn_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「気を使ってくれるのはありがたいが、
+　持って帰るのも一苦労でな……」
+<PAUSE>
+<NAME_PLATE>俺
+「気を使ってるわけじゃないと
+　思いますよ……」
+<PAUSE>
+<NAME_PLATE>
+　箱の中には、本気っぽい手作りチョコや、
+高級スイーツブランドの、
+綺麗な包装紙も見える。
+<PAUSE>
+<NAME_PLATE>俺
+（まえさき市のデパートで、毎年
+　行列ができるって蛇子が言ってたとこだ。
+　凜子先輩も罪つくりだな）
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>2,rn_t001a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　凜子先輩は女子たちからも大人気で、
+密かにファンクラブが存在しているとかいう
+噂もあるのだ。
+<PAUSE>
+<ACTOR>2,rn_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「ではまた明日な、二人とも。
+　若いさくら先生によろしく」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう言って凜子先輩は箱を抱えて去る。
+<PAUSE>
+<ACTOR>1,s_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「すげえなー……
+　さすが凜子先輩だぜ！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<SE_PLAY>se050
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　眼を輝かせる鹿之助を横目に、
+俺が複雑な気持ちで肩を落としていると、
+いきなりドンと背中を叩かれる。
+<PAUSE>
+<NAME_PLATE>
+　振り返るとそこにいたのは、
+待望の俺に想いを寄せる女生徒――
+ではなく。
+<PAUSE>
+<BGM_PLAY>bgm605,1000
+<GROUP>
+<ACTOR>3,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>4,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>5,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>3
+</GROUP>
+<NAME_PLATE>クラスメイト１
+「おう、ふうまの坊ちゃんよぉ」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男）
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「げっ……」
+<PAUSE>
+<NAME_PLATE>
+　そこには同じクラスの男達がいた。
+骸佐と仲のよかった連中で、
+以前から何かと俺に絡んでくる。
+<PAUSE>
+<NAME_PLATE>クラスメイト２
+「男同士で仲良く下校ってとこ見ると、
+　チョコ貰えてねーんだな！」
+<PAUSE>
+<NAME_PLATE>クラスメイト３
+「だから言っただろ！
+　腰抜けお坊ちゃまがモテるわけねーって！」
+<PAUSE>
+<NAME_PLATE>クラスメイト１
+「賭けは俺の勝ちだぜ！！！　ギャハハ！」
+<PAUSE>
+<NAME_PLATE>俺
+「うっせえ！　悪趣味な賭けしやがって。
+　そういうお前らはいくつ貰ったんだよ！？」
+<PAUSE>
+<NAME_PLATE>クラスメイト１
+「…………」
+<PAUSE>
+<NAME_PLATE>クラスメイト２
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>クラスメイト３
+「…………」
+<PAUSE>
+<BGM_PLAY>bgm404,1000
+<NAME_PLATE>クラスメイトたち
+「――………あ？
+　やんのかコラ！！！」
+<PAUSE>
+<NAME_PLATE>
+　何か心の傷に触れてしまったらしい。
+クラスメイトたちは怒りのオーラを滾らせ、
+俺達に襲いかかってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

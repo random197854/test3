@@ -1,0 +1,843 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：鬼武衆地下牧場＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007a
+<BGM_PLAY>bgm313,1000
+<BG>nc036a,IN, 1000
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「ふふふ……」
+<PAUSE>
+//　※立ち絵
+//　　椿隠形鬼立ち絵
+//　　　　＊モンスターイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　隠形鬼はすぐさま姿を消した。
+<PAUSE>
+<NAME_PLATE>
+　正々堂々と戦う気など
+少しもないようだった。
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「あいつまた消えた！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　フランシスは苛立たしげに言うが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0164b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「問題ない。
+　この世から消えたわけじゃない」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵（邪眼差分）
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　亜希は普段とは完全に別人の
+クールな表情で居合いの構えをとった。
+<PAUSE>
+<NAME_PLATE>
+　見えない相手の気配を感じて斬る。
+<PAUSE>
+<NAME_PLATE>
+　彼女にとっては
+かすり傷ですら致命の一撃だ。
+<PAUSE>
+<NAME_PLATE>
+　邪眼“死裂”によって
+敵は自らその身を引き裂いていく。
+<PAUSE>
+<NAME_PLATE>
+　それはたとえ亜希が隠形鬼の姿を
+見ていなくても関係ない。
+<PAUSE>
+<NAME_PLATE>
+　敵が亜希の目を見たら最期だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0271a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「そうですね。
+　たとえ姿が見えなくとも……」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊【魅惑の眼差し】ユーリ02を流用
+<NAME_PLATE>
+　ユーリも躊躇うことなく
+アイマスクを取った。
+<PAUSE>
+<NAME_PLATE>
+　彼女にはきっかけの
+かすり傷すら必要ない。
+<PAUSE>
+<NAME_PLATE>
+　ユーリの目を見てしまった瞬間、
+魅了の力によってどんな残酷な死も
+思いのままだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、四人のうちで
+必要とあれば最も非情になれるのが、
+“雪の魔娼”のユーリだった。
+<PAUSE>
+<ACTOR>0,chr_t0271a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0164b,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>亜希
+「…………」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　邪眼使いの二人は背中を合わせ、
+姿を消した隠形鬼がどこから来ても
+“見られる”ように身構えた。
+<PAUSE>
+<NAME_PLATE>
+　つまり、阿吽の呼吸で
+受けに回ったのだが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m226a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カトブレパス
+「グアアアアアアアアアアアッ！！」
+<PAUSE>
+//　※立ち絵
+//　　カトブレパス立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　その直後、カトブレパスが
+狂ったような雄叫びを発して
+彼女たちに突っ込んできた。
+<PAUSE>
+<NAME_PLATE>
+　さっき殺さなかったとは言え、
+このタイミングでの魔獣の突進。
+姿を消した隠形鬼が何かしたに違いない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0164b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「わざわざ姿を消して
+　こいつをけしかけてくるかなっ！！」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「姑息な手を使うというのは
+　本当のようですね！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m226a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カトブレパス
+「グガアアアアアアアアアアアアッッ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　二人はカトブレパスの突撃を
+さっと左右に飛び退いて躱した。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　それだけでなく、
+双方とも避けざまに刀を繰り出す。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギインッッ！　ギインッッ！！
+<PAUSE>
+<NAME_PLATE>
+　カトブレパスの鉄の皮膚に
+火花が散ったがそれだけだ。
+ほとんどダメージを与えていない。
+<PAUSE>
+<BG>nc036a,IN, 500
+<ACTOR>0,ts_m226a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　さっき二人に皮膚を剥がれた怒りで
+カトブレパスの勢いが倍増している上、
+<PAUSE>
+<NAME_PLATE>
+　それを隠れ蓑にした
+隠形鬼の不意打ちを警戒せねばならず、
+どうしても攻撃が不十分になる。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「待ってろ。
+　今アタシがフォローに！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　フランシスが援護に回ろうとした時、
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　椿隠形鬼立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　またしてもその背後に隠形鬼が出現した。
+<PAUSE>
+<NAME_PLATE>
+　カトブレパスを利用すると見せかけて、
+またフランシスを狙ってきたのだ。
+<PAUSE>
+<NAME_PLATE>
+　最初に仕留められなかった故の
+暗殺者のこだわりであろうか。
+<PAUSE>
+<NAME_PLATE>椿隠形鬼
+「滅殺」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se107_01
+<NAME_PLATE>
+　隠形鬼はレーザーカタナを繰り出した。
+<PAUSE>
+<BG>nc036a,IN, 500
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「無駄」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>
+　またナーサラが割って入った。
+<PAUSE>
+<NAME_PLATE>
+　今度は自分の身体を投げ出すのではなく、
+ちゃんとハリセンで防御しようとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「だろうと思ったわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　隠形鬼の姿が陽炎のように崩れた。
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ダミー？」
+<PAUSE>
+<NAME_PLATE>
+　敵もさるもの。
+またナーサラに防がれることを
+見越した空蝉の術だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「とった」
+<PAUSE>
+<NAME_PLATE>
+　本物の隠形鬼が別の角度から
+フランシスに奇襲を仕掛ける。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「アタシを舐めんなこらあああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　怒号と共にフランシスが金棒を振った。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギギャアアアアアアアアアンッ！！
+<PAUSE>
+<NAME_PLATE>
+　レーザーカタナと金棒が擦れ合い、
+火花とデコが派手に飛び散った。
+<PAUSE>
+<BG>nc036a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m227a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0109a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>椿隠形鬼
+「ほう、防ぐか」
+<PAUSE>
+<NAME_PLATE>フランシス
+「あったりまえ！！
+　ぶっちめてやらあああああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　隠形鬼は今度は姿を隠さなかった。
+<PAUSE>
+<NAME_PLATE>
+　ならばとフランシスは
+自分から接近戦を仕掛けていく。
+<PAUSE>
+<NAME_PLATE>フランシス
+「鬼のくせにやることがセコすぎだって！！」
+<PAUSE>
+<NAME_PLATE>椿隠形鬼
+「見解の相違だ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「言ってろこらああああああっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイインッ！　ギィインンンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　フランシスが暴風のように繰り出す金棒を
+隠形鬼はやすやすと捌いていた。
+<PAUSE>
+<NAME_PLATE>
+　姿を消しての暗殺だけかと思いきや、
+接近戦のスキルでもフランシスを
+明らかに上回っている。
+<PAUSE>
+<BG>nc036a,IN, 500
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「どうしたどうした？」
+<PAUSE>
+<NAME_PLATE>
+　隠形鬼が攻勢に転じるや否や
+フランシスはあっという間に
+追い込まれていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ちょっこれマジでやばいっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「すごく、ピンチ、援護困難」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラがフォローに入る隙もない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m227a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「覚悟」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se107_01
+<NAME_PLATE>
+　隠形鬼は詰め将棋のような冷徹さで
+致命の一撃を繰り出した。
+<PAUSE>
+<NAME_PLATE>
+　狙いは心臓。
+わざと受け止めることもできない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「アタシ死ぬっ！？」
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc036a,IN, 500
+<ACTOR>0,ts_m228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「やめぬか」
+<PAUSE>
+//　※立ち絵
+//　　峠金鬼立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　だが必殺の刃は突如現れた別の鬼によって
+完全に防がれていた。
+<PAUSE>
+<NAME_PLATE>
+　風鈴を幾つも付けた一文字笠を被った鬼だ。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>フランシス
+「あっ、峠金鬼（とうげきんき）！」
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「フランシス殿、お久しゅう」
+<PAUSE>
+<NAME_PLATE>
+　牙を剥いた恐ろしげな顔とは裏腹に
+涼やかな声が返ってきた。
+<PAUSE>
+<ACTOR>0,ts_m228a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m227a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>椿隠形鬼
+「邪魔立てするか」
+<PAUSE>
+<NAME_PLATE>
+　隠形鬼が苛立たしげに刀に力を込めるが、
+峠金鬼のそれは鉄壁のごとくびくともしない。
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「フランシス殿は
+　我らが主・速疾鬼殿のご友人だぞ。
+　それを知っての狼藉か」
+<PAUSE>
+<NAME_PLATE>
+　峠金鬼は椿隠形鬼を冷静に叱責した。
+<PAUSE>
+<NAME_PLATE>椿隠形鬼
+「ちっ、そうであったな……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　隠形鬼はとぼけたような声を出し、
+そのまま姿をふっと消してしまった。
+<PAUSE>
+<NAME_PLATE>
+　暗殺者としての興が削がれたのか
+今までの態度が嘘のような呆気なさだった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>1,chr_t0109a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ふーーーー。
+　今のやばかったーーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスは安堵の息を吐いた。
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「フランシス殿、お詫び致す。
+　あやつ、ただただ口実を見つけて
+　誰かを暗殺したい痴れ者にて」
+<PAUSE>
+<NAME_PLATE>フランシス
+「それはアタシも知ってたんだけどね。
+　でも今のはマジ死ぬって焦った。
+　助けてくれてサンキュー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「知り合い？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラが怪訝さと興味を半々にして
+フランシスをじっと見ている。
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ま、まあね……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　フランシスが困ったように
+頭をかいていると、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズッシーーーンンンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　少し離れたところで、
+カトブレパスが派手に
+ひっくり返っていた。
+<PAUSE>
+<NAME_PLATE>
+　今までずっと突進を繰り返し、
+亜希とユーリにようやく
+気絶させられたのだった。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「ちょっとちょっとどういうこと？
+　なんかフランシスがここのボスと
+　友達とかいう話が聞こえてきたけど」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「フランシスさん？
+　どういうことですか？」
+<PAUSE>
+<NAME_PLATE>
+　亜希とユーリが近づいてくる。
+<PAUSE>
+<NAME_PLATE>
+　二人とも突然いなくなった敵と
+その代わりに現れた別の鬼に
+疑いの目をしていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「あはは、実はそうなんだ。
+　ごめんっっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　もう誤魔化せないと悟ったか、
+フランシスはガバッと頭を下げた。
+<PAUSE>
+<NAME_PLATE>
+　そして、彼女が鬼武衆のボス速疾鬼と
+旧知の間柄、飲み友達であることが明かされ、
+<PAUSE>
+<NAME_PLATE>
+　彼女自身もマフィア
+『フランシス・ファミリー』の
+ボスであることが暴露されたのであった。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに、彼女の危機を救った峠金鬼も
+椿隠形鬼と同じく鬼武衆幹部の一人だった。
+<PAUSE>
+<NAME_PLATE>
+　ドローンの監視カメラで
+フランシスを確認し、
+椿隠形鬼を止めに来たのだという。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「ふーん、そういうこと」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「やっぱりここの場所も
+　知ってらしたんですね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「でもでも今はアタシ、
+　別にファミリーのボスとして
+　この街に来たわけじゃないから」
+<PAUSE>
+<NAME_PLATE>フランシス
+「この牧場に来たのだって、
+　単にあいつの皮膚を盗む手伝いだしさ。
+　たまたま、たまたま」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「それ全然言い訳になってないよ」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「その通りです」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「あ、やっぱり？」
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m228a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>峠金鬼
+「フランシス殿、悪ふざけが過ぎますぞ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「うう……ご、ごめん」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　亜希とユーリにじろりと睨まれ、
+命の恩人の峠金鬼にまで叱られて、
+さすがのフランシスもしょんぼりしていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「イジメ、よくない」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ナーサラ優しいっ！！」
+<PAUSE>
+<NAME_PLATE>
+　たった一人フォローしてくれたナーサラに
+フランシスは抱きついた。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「友達、ギュー、嬉しい」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「アタシもーー！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「ああもう！
+　ナーサラちゃんは甘いんだから！
+　そこがいいとこなんだけどーーー！」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はあ……
+　まあ、無事に済んだということに
+　しておきますか」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラとフランシスの姿に亜希が悶え、
+ユーリが色々諦めたように溜息を吐いている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m228a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>峠金鬼
+「フランシス殿のご友人ですか？」
+<PAUSE>
+<NAME_PLATE>
+　峠金鬼が一同を見て尋ねた。
+<PAUSE>
+<NAME_PLATE>
+　主の友人のさらに友人ということで、
+明らかに侵入者、盗人である彼女らにも
+一応の礼節を保っていた。
+<PAUSE>
+<ACTOR>0,ts_m228a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0109a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「まあねー」
+<PAUSE>
+<NAME_PLATE>フランシス
+「どうしてもカトブレパスの皮膚が
+　いるっていうから、
+　アタシもつい一緒に忍びこんじゃった」
+<PAUSE>
+<NAME_PLATE>フランシス
+「でね、峠金鬼、悪いんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　フランシスが控えめに、
+だが厚かましくも切り出す。
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「皆まで言わずとも結構。
+　今回はこちらにも不手際があり申した。
+　それは進呈いたそう」
+<PAUSE>
+<NAME_PLATE>
+　すでに切り取られてしまった
+カトブレパスの皮膚二枚を見て、
+峠金鬼は言った。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ほんと？
+　いやー、マジ感謝。
+　峠金鬼、超いい男！！」
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「世辞はいりませぬ。
+　これ以上の騒ぎになる前に
+　お引き取りくださいませ」
+<PAUSE>
+<NAME_PLATE>
+　さすがに溜息混じりの峠金鬼に
+盗人一行は牧場を追い出されたのだった。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　さて、その後―――。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ2_nc003cより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc215a,IN, 1000
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「かんぱーーい！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>フランシス
+「かんぱーーい！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊【ＡＣＴシスター】フランシス02を　　　流用
+<NAME_PLATE>亜希
+「んぐんぐんぐんぐ。
+　ぷはーーー、美味しい」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ぐびっぐびっぐびっ。
+　ぷはーーーー。最高っ！」
+<PAUSE>
+<NAME_PLATE>
+　亜希とフランシスの二人は
+事務所で仕事終わりの祝杯をあげていた。
+<PAUSE>
+<NAME_PLATE>
+　全くタイプの違う対魔忍剣士と鬼戦士。
+<PAUSE>
+<NAME_PLATE>
+　牧場でも色々あったが、
+結局は互いの実力を認め合い、
+何より酒飲み同士で意気投合していた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　カトブレパスの皮膚も二枚手に入れ、
+一枚はユーリが美琴にそのまま渡し、
+<PAUSE>
+<NAME_PLATE>
+　もう一枚は買い取ってもらって、
+かなりの報酬となっていた。
+<PAUSE>
+<NAME_PLATE>
+　要はめでたしめでたしであったが、
+渋い顔をしているのが二人。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「あの大飯食らいの大酒飲み、
+　ここに居座るつもりのようじゃぞ」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>クローンアサギ
+「食事代にお酒代。
+　儲けがどんどん消えていきそう。
+　はあ……頭が痛いわ」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ立ち絵
+//　　　　＊カードイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そしてもう一人、
+ナーサラはニコニコしていた。
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「新しい仲間、新しい交流、興味深い」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>ナーサラ
+「これから、楽しみ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　メンバーが一人増えて、
+探偵事務所はますます賑やかに、
+事件も目白押しになりそうだった。
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+
+

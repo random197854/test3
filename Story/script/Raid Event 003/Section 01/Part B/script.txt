@@ -1,0 +1,628 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：近隣都市まえさき市妖しい繁華街地区＿夜】【時間：夜】
+//　※堕ちる人妻の背景nc008bより流用
+<BGM_PLAY>bgm207,1000
+<BG>nc041a,IN, 3000
+<NAME_PLATE>
+　様子がおかしい舞華と俺達の戦闘が
+開始されていた。
+<PAUSE>
+<NAME_PLATE>俺
+「やめろ、舞華っっ！！
+　俺達のことがわからないのか！？」
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「てめえらのことなんか知るかァ！！
+　とりあえず死ねええええええええええ
+　えええええっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華立ち絵
+//　　　＊対魔忍RPGカードより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカン！！　ドカン――ッ！！
+<PAUSE>
+<NAME_PLATE>
+　舞華が手にした得物――冥途バズーカを
+俺達に向けて撃ちまくっている。
+<PAUSE>
+<NAME_PLATE>俺
+「くっ！？　気をつけろ、二人ともっ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「狙いを散らせ！！
+　一箇所に固まるとやられるぞ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,s_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「う、うん！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化（武器）
+<PAUSE>
+<ACTOR_PRIORITY>2, 10
+<NAME_PLATE>鹿之助
+「わ、わかった！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍電気
+<GROUP>
+<ACTOR>2,s_t002d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t005d,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　冥途バズーカから次々と発射される
+爆裂弾を避けながら、俺は蛇子と鹿之助に
+指示を下す。
+<PAUSE>
+<NAME_PLATE>
+　舞華とは、前に実技試験で同じチームに
+なったことがある。
+<PAUSE>
+<NAME_PLATE>
+　その時に、ある程度舞華の戦闘の
+クセを掴んでいたから良かったものの――、
+<PAUSE>
+<NAME_PLATE>
+　そうでなければ、一瞬で三人とも
+蒸発させられていたに違いない。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おい、てめえらァ！！
+　うろちょろすんじゃねえぞ、鬱陶しい！！
+　さっさと消し炭になりやがれ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「うるせえ！！　なってたまるか！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカン！！　ドカン――ッ！！
+<PAUSE>
+<NAME_PLATE>
+　路地裏に派手な爆音を轟かせながら
+舞華の攻撃が続く。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　そして――そんな戦いの様子を見て
+フュルストが愉快そうに声をかけてくる。
+<PAUSE>
+<ACTOR>3,f_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホ。彼女の言う通りですよ、ふうま君。
+　こう逃げ回ってばかりでは良いデータが
+　集まらない」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「――フュルスト！！
+　お前、舞華に何をした！？」
+<PAUSE>
+<NAME_PLATE>
+　舞華は『お前らのことなんて知らない』と
+言って、殺意を込めた容赦ない攻撃を
+くり出してくる。
+<PAUSE>
+<NAME_PLATE>
+　どうやら俺達のことは完全に頭の中から
+消え去っているらしい。
+<PAUSE>
+<ACTOR>3,f_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>フュルスト
+「答える必要はないでしょう？
+　どうせあなた達は、この場で彼女に
+　殺されるんですから――」
+<PAUSE>
+<NAME_PLATE>俺
+「クソ……この変態ジジイ……！！」
+<PAUSE>
+<ACTOR>3,f_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　だが……舌打ちしながらも、俺は
+この事態を頭の中で分析し、見極めていた。
+<PAUSE>
+<NAME_PLATE>
+　さっき集めた行方不明者の情報に
+『別人のような性格になって戻ってきた』と
+いうものがあった。
+<PAUSE>
+<NAME_PLATE>
+　まさに今の舞華の状況と同じである。
+<PAUSE>
+<NAME_PLATE>
+　もしフュルストが洗脳実験のようなことを
+行っていて、行方不明者はその被害者だと
+したら……
+<PAUSE>
+<ACTOR>3,f_t001b,CENTER, CENTER, IN, linear, 1000
+<BGM_STOP>1000
+<NAME_PLATE>フュルスト
+「ホホホ……」
+<PAUSE>
+<NAME_PLATE>俺
+（もしや、あれが――！？）
+<PAUSE>
+<NAME_PLATE>
+　フュルストが手に持った入力端末のような
+器具が目に入った。
+<PAUSE>
+<NAME_PLATE>
+　フュルストは俺達と舞華の
+戦いを観察しながら、盛んにそれを
+操作している……
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<ACTOR>3,f_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「蛇子！！　鹿之助！！
+　今はフュルストを狙え！！
+　奴が手に持った、あの装置だ！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は一瞬で判断し、指示を下していた。
+<PAUSE>
+<NAME_PLATE>
+　三対一とはいえ舞華に勝つのは困難だし、
+そもそも傷つけるわけにはいかない。
+<PAUSE>
+<NAME_PLATE>
+　ならば、舞華を操っている可能性のある
+フュルストを先に叩く――
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「了解っ、ふうまちゃん！！」
+<PAUSE>
+<ACTOR_PRIORITY>2, 10
+<NAME_PLATE>鹿之助
+「お前、失敗したら責任取れよぉぉっ！？」
+<PAUSE>
+<NAME_PLATE>
+　それぞれの反応を見せながら、蛇子と
+鹿之助がフュルストに向けて駆ける。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　しかし、黙って攻撃を受ける
+フュルストではなかった。
+<PAUSE>
+<NAME_PLATE>フュルスト
+「おっと？　それは困りますねぇ。
+　――私を守りなさい、舞華」
+<PAUSE>
+<NAME_PLATE>
+　命じると同時に手元の端末を操作――
+それに反応して舞華が動く。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「うぅっ！？　……ま、待て、糞ども！！
+　てめえらの相手は俺だろうが！！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「っ！？　舞華ちゃん！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいいいいい！？
+　神村さん、許してえぇぇぇぇっ！！」
+<PAUSE>
+<NAME_PLATE>
+　すかさず冥途バズーカを向けて二人の
+動きを遮ろうとする舞華。
+<PAUSE>
+<NAME_PLATE>
+　だが――そこまでが俺の計算だった。
+<PAUSE>
+<NAME_PLATE>俺
+「悪いな、舞華。ちょっと寝ててくれ」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ボカっ！！
+<PAUSE>
+<NAME_PLATE>舞華
+「んぐっ！？」
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<SE_PLAY>se010
+<NAME_PLATE>
+　ドサリと舞華が倒れる。
+<PAUSE>
+<NAME_PLATE>
+　急な命令に従おうとすれば、
+どうしても動きに隙ができる。
+<PAUSE>
+<NAME_PLATE>
+　俺はそれを狙って背後に回り込み、
+舞華の後頭部を強打したのだった。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ふうまちゃん！！」
+<PAUSE>
+<ACTOR_PRIORITY>2, 10
+<NAME_PLATE>鹿之助
+「やった！！　凄いぞ、ふうま！！」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「なんと！？
+　そちらが狙いだったとは――」
+<PAUSE>
+<NAME_PLATE>俺
+「残念だったな、ジジイ。これで
+　あんたを守る奴はいなくなったぞ」
+<PAUSE>
+<NAME_PLATE>
+　舞華の妨害がなければ恐いものはない。
+<PAUSE>
+<NAME_PLATE>
+　俺達は、少し焦った表情をしている
+フュルストを取り囲むが……
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t005a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>3,f_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フュルスト
+「ホホ……まだ、終わったわけでは
+　ありませんよ？」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……？」
+<PAUSE>
+<NAME_PLATE>
+　俺達三人に取り囲まれながらも、
+フュルストは不敵な笑みを浮かべて――
+<PAUSE>
+<NAME_PLATE>フュルスト
+「この度の実験は、洗脳によって人間に
+　秘められた潜在能力を発揮させるという
+　ものです」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「さあ、彼女の本当の力を見せてもらい
+　ましょうか――」
+<PAUSE>
+<NAME_PLATE>
+　と手に持った入力端末を操作する。
+すると――
+<PAUSE>
+<ACTOR>3,f_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>舞華
+「うぐぅううううううううううっ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「――舞華っ！？」
+<PAUSE>
+<NAME_PLATE>
+　気を失っていたと思われた舞華が
+突然呻き出した。
+<PAUSE>
+<NAME_PLATE>
+　体全体から放出される凄まじいまでの
+爆炎のエネルギー。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　きつく顔を歪めた舞華は、
+ゆっくり立ち上がって――
+俺達に、冥途バズーカを向けた。
+<PAUSE>
+<NAME_PLATE>舞華
+「くそ……てめえええぇ……っ！！
+　よくもやってくれたなぁぁ……っ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「マズい！！　二人とも、
+　何としても回避しろっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　俺は蛇子と鹿之助に叫んだ。
+<PAUSE>
+<NAME_PLATE>
+　舞華の体を包む爆炎のエネルギーを
+見ればわかる。
+<PAUSE>
+<NAME_PLATE>
+　『潜在能力を解放する実験』――、
+それを発揮した今の舞華の危険度は、
+先ほどまでとは段違いだ。
+<PAUSE>
+<NAME_PLATE>フュルスト
+「ホホホホホホ！！
+　やっておしまいなさい、舞華っ！！」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「今こそフルパワーです！！
+　その生意気な小僧どもを
+　焼き払うのです！！」
+<PAUSE>
+<NAME_PLATE>
+　フュルストが勝ち誇った笑いを
+響かせた。
+<PAUSE>
+<NAME_PLATE>
+　次の瞬間――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「うるせえええええ、糞ジジイ！！
+　焼かれるのはてめえだあああああああぁぁ
+　ぁぁあぁっ！！！」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「ホ……？」
+<PAUSE>
+<NAME_PLATE>
+　なんと舞華が冥途バズーカを向けて
+いたのは、俺達を通り越して向こう――
+<PAUSE>
+<NAME_PLATE>
+　“マスター”であるはずのフュルスト
+だった。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>舞華
+「――食らえっ！！！
+　全力“愚麗寧怒＜グレネイド＞”！！！」
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 3000
+<SE_PLAY>se005
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドオォオォオオオォオオンッッッ！！！
+<PAUSE>
+<NAME_PLATE>
+　辺りが一瞬明るくなるほどの爆発――
+<PAUSE>
+<NAME_PLATE>
+　それまでフュルストが立っていた場所に、
+壮絶な火柱が立ち上がっていた。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「舞華っ！？　お前、どうして！？」
+<PAUSE>
+<NAME_PLATE>
+　舞華は洗脳されて正気を失っているはず
+だった。それなのに、どうして――？
+<PAUSE>
+<NAME_PLATE>舞華
+「あぁ、ふうまか……。
+　さっき俺を殴ったのはお前だよな？
+　あれで、なんかすっきりした……」
+<PAUSE>
+<NAME_PLATE>
+　まだ殴られた頭が痛むのか、
+舞華が顔をしかめながら答える。
+<PAUSE>
+<NAME_PLATE>舞華
+「それから……なんか、いきなり力が
+　グワーっと湧いてきたんだよ。
+　いや、よくわかんねえけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「力が……？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　舞華はしきりに首をひねっている。
+どうして正気に戻れたのか、自分でも
+よくわかってない様子だった。
+<PAUSE>
+<NAME_PLATE>フュルスト
+「ホホホ、なるほど……。
+　頭部への衝撃、そして潜在能力の解放に
+　よって、精神も活性化されたようですね」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「まさか、こんなことが起こるとは……
+　面白い実験結果が得られましたね」
+<PAUSE>
+<NAME_PLATE>
+　ふいに、爆炎と煙の向こうから
+耳障りな含み笑いが聞こえてきた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「フュルスト！！？」
+<PAUSE>
+<NAME_PLATE>舞華
+「てめえ、まだ生きてたのか！！」
+<PAUSE>
+<NAME_PLATE>
+　俺達は勢いよく飛び込んで爆炎と煙を
+掻き分ける。だが――
+<PAUSE>
+<NAME_PLATE>舞華
+「ちっ……。逃げられたか……」
+<PAUSE>
+<NAME_PLATE>
+　そこにはもうフュルストの姿はなく、
+闇の門で姿を消した後らしい瘴気の渦が、
+わずかに残されているだけだった。
+<PAUSE>
+//【黒画面】
+//【背景：近隣都市まえさき市妖しい繁華街地区＿夜】【時間：夜】
+//　※堕ちる人妻の背景nc008bより流用
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<TRANSITION>TR26, OUT, 1000
+<BG>black, NONE
+<WAIT>1000
+<UI_DISP>ON, 0
+<BG>nc041a,NONE
+<TRANSITION>TR26, IN, 1000
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>俺
+「やれやれ。ひとまず一件落着か」
+<PAUSE>
+<NAME_PLATE>
+　元凶のフュルストには逃げられて
+しまったが、行方不明だった舞華を発見し、
+正気に戻すことができた。
+<PAUSE>
+<NAME_PLATE>
+　おおむね任務達成と言っていいだろう。
+<PAUSE>
+<ACTOR>2,s_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ふぅ～。恐かったぁ……。
+　でも神村さん、正気に戻ってよかったね」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>0,ma_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「あぁ。お前らにも迷惑かけちまったな。
+　マジで恩に着るぜ、ありがとな」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>2,s_t001i,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うひぃっ！？　い、いやぁ、
+　俺達は、友達として当然のことをした
+　までで……えへっ、えへへへ……」
+<PAUSE>
+<NAME_PLATE>
+　憧れの舞華に感謝されて、鹿之助は
+大いに舞い上がっている。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、何回か消し炭にされそうに
+　なったけどな」
+<PAUSE>
+<NAME_PLATE>舞華
+「クク、悪かったって言ってるだろ？
+　お前らにはあとで何かおごるからよ、
+　勘弁してくれ」
+<PAUSE>
+<NAME_PLATE>
+　ニヤリと不敵な笑みを見せる舞華。
+<PAUSE>
+<NAME_PLATE>
+　洗脳から醒めたショックも抜けて、
+だいぶいつも通りになっていた。
+<PAUSE>
+<ACTOR>2,s_t001i,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「それにしても、フュルストのやつ、
+本当に許せない！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>舞華
+「あぁ、全くだぜ！！　あのジジイ、
+　次に会ったら絶対にぶっ殺してやる！」
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うん。舞華ちゃんも災難だったよね。
+　きっと、凄く卑怯な手を使われて
+　捕まっちゃったんでしょ？」
+<PAUSE>
+<NAME_PLATE>
+　するとなぜか、舞華は明らかに動揺して、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「えっ！？　そ、そうだな……っ！！
+　あいつ、マジでクソ汚い罠をしかけて
+　きやがったからよ、アハハ……」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？　お前、何か慌ててないか？」
+<PAUSE>
+<NAME_PLATE>舞華
+「ば、バカ野郎っ！！
+　そんなわけねえだろ……！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ふーん……？
+　いや、実は俺も気になってたんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「相手はノマドの幹部とは言え、
+　お前ほどバカ強い奴が、どうして
+　捕まったんだって――」
+<PAUSE>
+<NAME_PLATE>舞華
+「そっ、そんなことより、あれだ！！
+　うちの家族が心配してるだろうからな、
+　さっさと帰ろうぜっ！！」
+<PAUSE>
+<NAME_PLATE>
+　などと言いつつ、舞華は足早に
+駅の方へと歩いて行く。
+<PAUSE>
+<ACTOR>0,ma_t001a,LEFT, LEFT, OUT, linear, 1000
+<NAME_PLATE>俺
+「……まっ、俺達も帰るか」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そうだね。みんな今日もお疲れさま♪」
+<PAUSE>
+<NAME_PLATE>
+　舞華が捕まった事情は聞けなかったが、
+まあ、無事に戻ったんだし別に良いか。
+<PAUSE>
+<ACTOR>1,h_t002a,RIGHT, RIGHT, OUT, linear, 1000
+<NAME_PLATE>
+　そして俺達は、舞華に続いて駅へと
+歩いていった。
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+（うう、クソッタレ……！！
+　こいつらに言えるわけねえからな……）
+<PAUSE>
+<NAME_PLATE>舞華
+（キメキメのギャルメイク体験コースに
+　釣られて、あんなジジイに引っかけられた
+　なんてよぉ……！！）
+<PAUSE>
+<ACTOR>0,ma_t001a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→エピローグ終了
+//=================================================================

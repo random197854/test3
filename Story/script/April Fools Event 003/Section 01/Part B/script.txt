@@ -1,0 +1,611 @@
+//=================================================================
+//エピローグ
+//【背景：とある山の山中＿夜】【時間：夜】
+//　※MISAO_nc011cより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc037a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m258b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m258a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼タコ
+「ターコ」「ターコ」
+「ターコ」「ターコ」
+<PAUSE>
+//　※立ち絵
+//　　鬼タコ蛇子
+//　　　＊タコ蛇子の立ち絵+おでこから角を二本生やす
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「“鹿の呼吸・参の型、
+　小鹿疾走（バンビーノ・スパーク）”！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助（炭治郎役）
+//　　　＊鹿之助の戦闘立ち絵に市松模様の羽織
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ばりばりばりっ！
+しゅばばばっ！
+<PAUSE>
+<NAME_PLATE>
+　鬼タコの群れを電気の子鹿が駆け抜け、
+一本の道を作る。
+<PAUSE>
+<BG>nc037a,IN, 500
+<ACTOR>0,s_t017e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ぜー、はー。
+　もうちょっとで麓だ！
+　一気に駆け抜けるぜ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>赤鬼
+「きょ！　やっと見つけましたでしゅ！」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>青鬼
+「ちょこまかと逃げ回って、
+　小賢しいガキでござーますね！？」
+<PAUSE>
+//　※立ち絵
+//　　赤鬼
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>鹿之助
+「げっ……」
+<PAUSE>
+<NAME_PLATE>
+　駆け出そうとした俺の前に、
+再びガチの鬼たちが立ちはだかった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　もうちょっとで麓だっていうのに――
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「し、仕方ない！
+　やってやる！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「“鹿の呼吸、弐の型――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>赤鬼
+「させねーでしゅ！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どがっ！
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ぐっ！？」
+<PAUSE>
+<NAME_PLATE>
+　電気を溜めるわずかな隙に、
+槍の柄を脇腹に突きこまれ、
+俺は地面に膝をついた。
+<PAUSE>
+<ACTOR>0,ts_m025a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>青鬼
+「ホホホ！　殺してはいけません！
+　千五百年にわたって受け継がれし拷問術で、
+　アレの居場所を吐かせるのです！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あ、アレ……！？
+　アレってなんだ？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「誤魔化しても無駄でござーます！
+　素直に吐けば我が一族に伝わる拷問術で、
+　活き造りにしてやりましょう！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「冗談じゃないぜ！
+　だからアレってなんだよ！？」
+<PAUSE>
+<NAME_PLATE>赤鬼
+「このガキ、吐く気はないようでしゅ！
+　この場で捌いて生き血を抜くでしゅ！」
+<PAUSE>
+<NAME_PLATE>青鬼
+「そうでござーますね！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「わけわかんねーよ！
+　くっ、とりあえず一旦逃げて……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m258a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m258d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼タコたち
+「タコー」
+「タコー」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うわ！？
+　ぐずぐずしてたら鬼タコも
+　集まってるぅ！？」
+<PAUSE>
+<NAME_PLATE>鬼タコたち
+「タコー」
+「タコー」
+<PAUSE>
+<NAME_PLATE>
+　鬼たちと対峙している間に、
+俺は鬼タコの大群に囲まれていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t017g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「絶体絶命ってやつだ……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+（このままタコたちの触手に揉まれ、
+　鬼たちの秘伝の拷問術とやらで
+　アレコレされちゃうのか！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あっ、ちなみに鬼タコは、
+桐生さんが遺伝子操作で作ったヤツで、
+<PAUSE>
+<NAME_PLATE>
+　２４時間で無害なタコに戻るけど、
+２４時間は制御不能で凶暴な
+ヤバイタコです。
+<PAUSE>
+<ACTOR>0,s_t017f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「くそ！
+　これも対魔忍の主人公の
+　運命だというのなら……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>1000
+<ACTOR>0,kr_t007b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼崎きらら
+「あー、いたいた鹿之助！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら（鬼舞辻無惨役）
+//　　＊きらら通常立ち絵（1枚目のカード絵）に白いハットを被せる
+<NAME_PLATE>
+　と、突然藪をかきわけて現れたのは、
+ラスボス役の鬼崎きらら先輩だった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,kr_t007b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t017d,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「きらら先輩！？
+　出番はまだ先のはずじゃ……」
+<PAUSE>
+<ACTOR>0,kr_t007a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「あんまり遅いから見に来たの！
+　こっちはずっと出番待ってるのに、
+　いつまで山に籠ってるの！？」
+<PAUSE>
+<NAME_PLATE>きらら
+「舞も、紙でムゲン城のセット作るの
+　そろそろ限界だって言ってるわよ！？」
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩との対決シーンは、
+紙気使いの七瀬舞が紙でグラウンドに作った
+本物さながらのセットで行われる予定だ。
+<PAUSE>
+<NAME_PLATE>
+　七瀬舞はそこで、
+ずっと出番を待っているらしい。
+<PAUSE>
+<ACTOR>1,s_t017e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「すみません！
+　俺も早く下りたいんですけど、
+　この鬼たちが……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>赤鬼
+「きょ？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「おたく、なんざーます？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,kr_t007d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t017e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>きらら
+「あら、本物の鬼まで雇ったの？
+　学生映画のわりに本格的なのね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「違うんです、この鬼たち、
+　出演者じゃないんです。
+　乱入してきたんですよ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「だけど、そのまま撮影続けろって、
+　アサギ先生が……」
+<PAUSE>
+<ACTOR>0,kr_t007a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら
+「ふうん。
+　つまり邪魔者ってことね」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>赤鬼
+「失礼な女でしゅ！！
+　邪魔なのはお前でしゅ！！！
+　…………？」
+<PAUSE>
+<NAME_PLATE>
+　赤鬼はきらら先輩に向かって
+喚いていたが、ふと不思議そうに
+首をかしげた。
+<PAUSE>
+<ACTOR>0,ts_m025a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>赤鬼
+「この女、仄かに鬼の匂いがするでしゅね」
+<PAUSE>
+<NAME_PLATE>青鬼
+「ホホホ、なんだ鬼でしたか。
+　私たちに協力するなら許してやりますよ、
+　あなたもアレを探しにきたのでしょう？」
+<PAUSE>
+<NAME_PLATE>
+　と――
+きらら先輩の雰囲気が変わった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,kr_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「そこの赤いの、
+　今なんて言ったの？」
+<PAUSE>
+<NAME_PLATE>赤鬼
+「え？」
+<PAUSE>
+<ACTOR>0,kr_t007f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「人が気にしてることを……っ！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>青鬼
+「ホ！？
+　こいつ、なんだかヤバイざーます！？」
+<PAUSE>
+<NAME_PLATE>きらら
+「許さないわ！！！
+　最高に痛い氷で凍結させてあげる！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　きらら先輩の体から、
+突き刺すような凍気が溢れ出す。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m025a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m026a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>赤鬼
+「きょ！？！？　この寒さ……！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「ホホホォ！！！？
+　まさか、あのお方の……！？！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,kr_t007f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「“Ｓｕｐｅｒ　Ｆｒｅｅｅｅｚｅ”っ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>赤鬼
+「きょぉぉぉ！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「ホッホホオオォ！？」
+<PAUSE>
+<SE_PLAY>se054
+<BG>nc037a,IN, 500
+<NAME_PLATE>
+　きらら先輩の凍気に怯えた鬼たちは、
+間一髪“Ｓｕｐｅｒ　Ｆｒｅｅｚｅ”を避け、
+半分凍りながら逃げ出した。
+<PAUSE>
+<ACTOR>0,kr_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「ちっ、逃がしたわね……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ＰＩＰＩＰＩＰＩ……
+<PAUSE>
+<NAME_PLATE>
+　そのとき、再びまりから
+着信が入る。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>まり
+『もしもし、きらら先輩！？
+　困っちゃいます！
+　ラスボスが出てきちゃ……』
+<PAUSE>
+<ACTOR>0,kr_t007f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「監督ってば！？
+　あんまり待たせるから、
+　こっちから来ちゃったわ！」
+<PAUSE>
+<NAME_PLATE>まり
+『すみません、
+　ちょっとハプニングがあったので』
+<PAUSE>
+<NAME_PLATE>まり
+『朝までに撮りきらなきゃいけないし、
+　時間も押してるんですけど～』
+<PAUSE>
+<ACTOR>0,kr_t007e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「あらそう、じゃあ脚本変更して
+　ここで私が鹿之助と対決する、
+　ってことでどう？」
+<PAUSE>
+<NAME_PLATE>まり
+『あっ、いいですね！
+　鬼が乱入した分、
+　尺も伸びちゃいましたし……』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t017e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「えっ！？
+　舞の作った城は……」
+<PAUSE>
+<NAME_PLATE>まり
+『後で合成させてもらいます。
+　さて、じゃあ続けてラストシーン！
+　きらら先輩とのバトルいきますね！』
+<PAUSE>
+<ACTOR>0,s_t017d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「えええええ！？」
+<PAUSE>
+//【背景：五車学園シミュレーションルーム＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC015aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm208,1000
+<BG>nc002a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　後日――
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「いやー、何度見てもいいな！
+　鬼たちが出てきたときはびっくりしたけど、
+　おかげで迫真のシーンになったっていうか」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助通常立ち絵＿制服衣装
+<ACTOR>1,h_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「うーん、蛇子ももっと
+　活躍したかったなあ」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<NAME_PLATE>
+　俺たちは、学園のシミュレーションルームで
+出来上がった映画を見ていた。
+<PAUSE>
+<NAME_PLATE>蛇子
+「タコ壺の中は、思ったより
+　居心地よかったけど……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ふうま
+「猪突猛進！　猪突猛進！」
+<PAUSE>
+<ACTOR>0,s_t003c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「……ふうま、もうとっくに
+　撮影終わってるぞ？」
+<PAUSE>
+<NAME_PLATE>ふうま
+「猪突猛進！　猪突猛進！」
+（戻れないんだよ！　何とかしてくれ！）
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃんったら、
+　その役よっぽど気に入ったのね」
+<PAUSE>
+<ACTOR>0,s_t003b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「わかるぜ。なんだかんだ俺も
+　あの羽織着るとテンション上がったもんな」
+<PAUSE>
+<NAME_PLATE>蛇子
+「蛇子も！
+　次は蛇子も戦いの場面やりたいなー」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いいな！
+　まりにリクエストしとこうぜ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ふうま
+「猪突猛進ー！！」
+<PAUSE>
+<NAME_PLATE>
+　春の昼下がり。
+出来上がった映画を眺めながら、
+視聴覚室に和やかな笑いが溢れる――
+<PAUSE>
+<ACTOR>0,s_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+（……そういや、鬼たちが探してた
+　“アレ”って何だったんだ？）
+<PAUSE>
+//【背景:黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：どこかの城＿夜】【時間：夜】
+//　※戦国魔姦_nc018aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc198b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+「アレを取り損なったようね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>壱の鬼族
+「申し訳ございませ――
+　グゥッ！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「誰が喋っていいと言ったかしら」
+<PAUSE>
+<NAME_PLATE>？？？
+「この千余年。
+　アレは巧妙にその姿を隠してきた」
+<PAUSE>
+<NAME_PLATE>？？？
+「その場所をやっと突き止めたと思ったら、
+　宿敵・対魔忍どもの本拠地ですって？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>弐の鬼族
+「（そんなことを私たちに言われても……）
+　……ゲブゥッ！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「もういい、
+　はなからお前たちには期待していない」
+<PAUSE>
+<NAME_PLATE>？？？
+「私が出るわ。
+　ふふふ、待っていなさい対魔忍ども」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――速報――
+<PAUSE>
+<NAME_PLATE>
+五車学園興行ランキング一位！
+大ヒット『蛸刺の刃』、
+“ヨミハラ編”制作決定！
+<PAUSE>
+<NAME_PLATE>
+いよいよ、黒幕の黒幕の黒幕が登場！
+彼らの狙う“アレ”とは一体！？
+<PAUSE>
+<NAME_PLATE>
+２０８７年春、
+全五車劇場公開予定！！！
+<PAUSE>
+<ACTOR>0,h_t008j,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「たこーん」
+<PAUSE>
+//　※立ち絵
+//　　蛇子inタコ壺（禰豆子役）
+//　　　＊タコ壺から蛇子（蛇子通常立ち絵の首から上）が顔を出している。
+//　　　　口には茎ワサビをくわえている。
+//→終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

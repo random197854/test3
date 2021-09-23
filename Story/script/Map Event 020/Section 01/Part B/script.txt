@@ -1,0 +1,965 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：ゲームイベントメイン会場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC020aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc060a,IN, 1000
+<NAME_PLATE>俺
+「大会を邪魔するわけにいかない。
+　逃げるぞ！」
+<PAUSE>
+<NAME_PLATE>
+　俺はドロレスを抱え上げ、
+迷わずその場を逃げ出した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「ひゃっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「うわっ軽っ」
+<PAUSE>
+<NAME_PLATE>
+　見た目が小さいから
+大した重さではないと思っていたが、
+見た目以上に細くて軽い。
+<PAUSE>
+<NAME_PLATE>ドロレス
+「おお、お姫様抱っこ！？」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは驚きつつも
+俺にギュッと抱きついてくる。
+<PAUSE>
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「くそっ、逃がしゃしないよ！」
+<PAUSE>
+//　※立ち絵
+//　　アイグレー立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ＦＢＧ
+「手前ら！！」
+「逃がすか！！」
+「追え！！」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アイグレーとＦＢＧの連中が
+追いかけてくるが、
+逃げ足ならこちらの方が上だ。
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>ドロレス
+「まま、まさかのお姫様抱っこ。
+　ゆ、ゆ、夢のシチュエーションパート２。
+　ちょっ、動画動画！　ヤバス！」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスはと言うと
+興奮した様子でスマホを取り出し、
+逃げる俺たちを自撮りし始めた。
+<PAUSE>
+<NAME_PLATE>俺
+「そんなもん撮ってる場合か」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「だ、だってこんなの初めてだし、
+　絶好のチャンスだし、
+　ちょ、ちょっとカメラ見て」
+<PAUSE>
+<NAME_PLATE>俺
+「なんで？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「い、いいから見て見て。
+　ニヤッとして、お、お願い」
+<PAUSE>
+<NAME_PLATE>俺
+「しょうがないな」
+<PAUSE>
+<NAME_PLATE>
+　俺は逃げながらカメラの方を見つつ、
+ちょっとだけ笑ってみせた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「ウィイイイイイイイ！！」
+<PAUSE>
+<NAME_PLATE>
+　妙な歓声を上げるドロレスに
+なんだか力が抜けそうになっていると、
+ブーーーンというプロペラの音がした。
+<PAUSE>
+<NAME_PLATE>
+　小型ドローンが俺たちを追ってくる。
+さっき企業ブースでも見た最新型だ。
+そのカメラがしっかり俺たちを捉えている。
+<PAUSE>
+<NAME_PLATE>俺
+「あんなものを使ってくるとは、
+　あいつら意外と準備がいいな」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ち、違う違う、あれ私。私が操作してる。
+　そ、そこにいいのがあったから。
+　ちょっと、ハ、ハッキング」
+<PAUSE>
+<NAME_PLATE>俺
+「お前かよ。なんでまた？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「だ、だっていい映像が欲しいし。
+　自動追尾モード。これでバッチリ。
+　み、見てみる？　すごいよ」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスはドローンからの映像が
+映っているスマホを差し出したが、
+そんなものを見ている場合ではない。
+<PAUSE>
+<NAME_PLATE>俺
+「いいよいいよ。
+　狙われてるんだろ？
+　ずいぶん余裕があるな」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「よ、よくあることだし。
+　でも、そっちも結構慣れてる的な？
+　お姉ちゃんのことも知ってたし」
+<PAUSE>
+<NAME_PLATE>俺
+「慣れてるっていうか、
+　なんかこんなことばっかりだ。
+　せっかくゲーム大会に来たのに全く」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「そ、そうなの？
+　ひょっとして不幸体質？」
+<PAUSE>
+<NAME_PLATE>俺
+「かもなあ……」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あっ、今のやれやれ顔。
+　す、すごく良かった、うひひ♪」
+<PAUSE>
+<NAME_PLATE>
+　またいい絵が撮れたらしい。
+ドロレスは俺の腕の中で
+嬉しそうに身体を揺すった。
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　やれやれと思いつつ、
+お姫様だっこで会場を走り回って、
+外に出ると、
+<PAUSE>
+//【背景：ゲームイベント会場外＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC038aより流用
+//nc329a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc392a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　連中が先回りして待ち構えていた。
+<PAUSE>
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「そこの男。
+　どこのどいつか知らないけど、
+　ずいぶんと舐めた真似をしてくれるねえ」
+<PAUSE>
+//　※立ち絵
+//　　アイグレー立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゲーマーオーク
+「あんな目立つ真似をして
+　逃げられると思ってるのか？」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<NAME_PLATE>ゲーマートロール
+「ヘッヘッヘ。
+　どうせ外に出てくると思ってたぜ」
+<PAUSE>
+<NAME_PLATE>ゲーマー熊
+「ここなら邪魔は入らねえ。
+　俺の体毛をたっぷり味わってもらうぜ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「ま、待ち伏せされてたね」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「らしいな」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「もう終わりだよ、ドロレス」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「たっぷり可愛がってやってから
+　彼氏と一緒に切り刻んで
+　イングリッドに送ってやるよ」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「か、彼氏とか。
+　さっき会ったばかりだし、
+　け、けど誤解させちゃった？　ウェヒヒ」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ドロレスはこの状況でもまだ余裕がある。
+というか明らかに楽しんでいた。
+<PAUSE>
+<NAME_PLATE>
+　その証拠にドローンを高く上げて、
+全員が入る俯瞰の画を撮っている。
+<PAUSE>
+<NAME_PLATE>
+　もっとも俺も慌ててはいない。
+<PAUSE>
+<NAME_PLATE>
+　来た。
+<PAUSE>
+<NAME_PLATE>
+　せっかくなのでカメラを意識して
+ちょっと格好を付けて言ってやった。
+<PAUSE>
+<NAME_PLATE>俺
+「ふっ、もう終わり？
+　悪いがそれは無理だと思うぜ」
+<PAUSE>
+<SE_PLAY>se119
+<NAME_PLATE>
+　―――シュタッ。
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01（科学ＳＲ）
+//　　　カードイラストより流用。
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,tu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　颯爽と現れたのは鶴だ。
+<PAUSE>
+<ACTOR>0,tu_t007b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ご主人様、お待たせしました」
+<PAUSE>
+<NAME_PLATE>
+　俺とドロレスに背を向け、
+連中の前に立ちはだかる。
+<PAUSE>
+<NAME_PLATE>俺
+「見つけてくれてなにより」
+<PAUSE>
+<NAME_PLATE>鶴
+「はっ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ドロレス
+「ひょおおおお！！
+　メ、メイド登場！！」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは大興奮だ。
+<PAUSE>
+<NAME_PLATE>
+　俺だって闇雲に
+逃げていたわけではない。
+<PAUSE>
+<NAME_PLATE>
+　はぐれてしまった鶴に見つけて貰おうと、
+わざとお姫様抱っこで派手に動いていたのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　場内で戦うわけにはいかないし、
+もともと逃げ切ることが目的ではない。
+<PAUSE>
+<NAME_PLATE>
+　ここで奴らに見つかるのは予定通り。
+そして期待通りに鶴が現れてくれた。
+<PAUSE>
+<NAME_PLATE>
+　本気で逃げなかったのは、
+後でゲーム大会を見るため。当然だ。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「はあン、メイド？
+　いったい何の冗談だい？」
+<PAUSE>
+<ACTOR>0,tu_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様に仇なす愚か者はあなたですか」
+<PAUSE>
+<NAME_PLATE>
+　鶴は寒気がするような怖い声で言った。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「……っ」
+<PAUSE>
+<NAME_PLATE>
+　その迫力にアイグレーが気圧される。
+<PAUSE>
+<NAME_PLATE>鶴
+「ご主人様、お下がりくださいませ。
+　後は私におまかせ―――」
+<PAUSE>
+<NAME_PLATE>
+　鶴はこちらをチラリと見て、
+<PAUSE>
+<ACTOR>0,tu_t007d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鶴
+「なあっ！」
+<PAUSE>
+<NAME_PLATE>
+　なぜかぐらりとよろけた。
+<PAUSE>
+<ACTOR>0,tu_t007e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「そ、そんな、ご主人様、またしても
+　そんな胸の小さい女と」
+<PAUSE>
+<ACTOR>0,tu_t007d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「はっ！　もしやご主人様の趣味は貧乳？
+　それでは私はどうしたら……」
+<PAUSE>
+<NAME_PLATE>
+　よく聞こえないが、
+なにかブツブツと呟いている。
+<PAUSE>
+<NAME_PLATE>俺
+「鶴、どうかしたか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鶴
+「な、なんでもございません！」
+<PAUSE>
+<NAME_PLATE>
+　鶴はハッとしてアイグレーを見直すと、
+さっきよりどうでも良さそうに言った。
+<PAUSE>
+<ACTOR>0,tu_t007c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「逃げるなら追いません。
+　ですが戦うというなら殲滅します」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「メイド女が笑わせてくれる！
+　まとめて死ね！！」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「お前たち！！
+　まずはあの女からだ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ＦＢＧ
+「「「イェエエエエエエエエエエッ！！」」」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,tu_t007c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「機遁の術……」
+<PAUSE>
+<NAME_PLATE>
+　微かな呟き。
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01（科学ＳＲ）_両足機巧変化“ブレード”
+//　　　カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,tu_t008c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　次の瞬間、鶴の両足、
+サイボーグレッグが鋭いブレードに
+変化した。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイグレー
+「このメイド女、対魔忍か！？」
+<PAUSE>
+<ACTOR>0,tu_t009b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ご主人様の忠実なるメイド。
+　対魔忍、出雲鶴と申します。
+　お見知りおきを」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴カードＣ_機巧変化“ブレード”
+<NAME_PLATE>
+　鶴はスカートを両手で持ち上げ、
+優雅に一礼した。
+<PAUSE>
+<NAME_PLATE>
+　刃と化した足以外は普段と同じ仕草、
+だがその顔には普段からは想像もできない
+ゾッとするような冷笑が浮かんでいる。
+<PAUSE>
+<NAME_PLATE>
+　それは敵を死出の旅に送り出す
+死神を思わせた。
+<PAUSE>
+<ACTOR>0,tu_t008c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「お覚悟なさいませ」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　鶴が動いた。
+<PAUSE>
+<NAME_PLATE>
+　疾い。
+<PAUSE>
+<NAME_PLATE>鶴
+「はっ、はっ、はっっ！」
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　華麗に舞うように
+両足のブレードを繰り出す。
+<PAUSE>
+<NAME_PLATE>ＦＢＧ
+「ぐあっっ！！」
+「ぎゃっ！」
+「ふぐっっ」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<BG>nc392a,IN, 500
+<NAME_PLATE>
+　ＦＢＧの連中が仲良く吹っ飛ばされた。
+<PAUSE>
+<NAME_PLATE>
+　全て足技だ。
+<PAUSE>
+<NAME_PLATE>
+　同じくサイボーグレッグを持つ
+ふうま災禍の足技を見慣れている俺も
+初めて見る動き。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の格闘術“対魔殺法”の中には
+足技だけでなる秘技が存在するという。
+<PAUSE>
+<ACTOR>0,tu_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　鶴が使った技はそれに違いない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「役立たずどもが！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,tu_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「後はあなたお一人です。
+　いかがなさいますか？」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「舐めんじゃないよ！」
+<PAUSE>
+<NAME_PLATE>鶴
+「では―――」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　鶴がまた動いた。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「ちいっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　アイグレー立ち絵
+//　　　＊モンスターイラストより流用
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィンギィンギィンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　耳障りな音と共に
+火花にしては大きすぎる炎が飛び散った。
+<PAUSE>
+<BG>nc392a,IN, 500
+<NAME_PLATE>ドロレス
+「おお、防いだ」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスの言う通り、
+アイグレーは鶴のブレードを
+炎の二刀で受けきってみせた。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラのギャング団で
+女ボスをやっていただけのことはある。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m252a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,tu_t008c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鶴
+「それなりにはやるようですね」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「メイドの足遊びなんか
+　このアタシには通用しないよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>
+　アイグレーは自分から攻撃しようと、
+両手の剣を振りかぶった。
+<PAUSE>
+<ACTOR>0,tu_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ではこちらでお相手を」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01（科学ＳＲ）_機巧変化“ライフル”
+//　　　カードイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,tu_t010c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　今度は鶴の右腕が変化した。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「え？」
+<PAUSE>
+//　※立ち絵
+//　　アイグレー立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　アイグレーは呆気にとられている。
+<PAUSE>
+<NAME_PLATE>
+　敵の腕がライフルになったことに
+頭がついていっていない。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「う、腕がライフル？？？
+　はっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　その銃口が自分を捉えていることに
+気づいた時には―――
+<PAUSE>
+<NAME_PLATE>鶴
+「機遁の術“最期巖（さいごがん）”」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガガガガガガ！！
+<PAUSE>
+<NAME_PLATE>アイグレー
+「ぐあああああああああっ！！」
+<PAUSE>
+<NAME_PLATE>
+　鶴の右腕が火を噴いていた。
+<PAUSE>
+<NAME_PLATE>
+　弾丸は全てアイグレーの土手っ腹に
+吸い込まれていく。
+<PAUSE>
+<NAME_PLATE>
+　着弾の衝撃でアイグレーは剣を構えたまま、
+後ろに吹っ飛ばされた。
+<PAUSE>
+<NAME_PLATE>アイグレー
+「ぐぐぐ……ぐ……ぐう……
+　こ、こんな……しょぼい攻撃で……
+　このアタシを……た、殺せると……」
+<PAUSE>
+<NAME_PLATE>
+　アイグレーは忌々しげに呻いている。
+全弾食らったにもかかわらず
+死んでいない。
+<PAUSE>
+<NAME_PLATE>鶴
+「暴徒鎮圧用のゴム弾です」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「なっ……！？」
+<PAUSE>
+<NAME_PLATE>鶴
+「まだ戦うというなら
+　次はそのお腹に風穴を開けます」
+<PAUSE>
+<NAME_PLATE>鶴
+「それとも減らず口がきけなくなるまで
+　ゴム弾をさしあげますか？
+　私はそれでもかまいませんが」
+<PAUSE>
+<NAME_PLATE>アイグレー
+「くっ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺からは見えないが、
+鶴はきっと虫けらを見るような
+冷たい目をしていたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　アイグレーは怯えたように
+鶴から顔を背けた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m250a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m251a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m249a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ＦＢＧ
+「ぐぐ……あ、姉御……」
+「すいやせん……まさかこんな……」
+「このアマ……つ、強すぎやす……うう」
+<PAUSE>
+//　※立ち絵
+//　　ゲーマーオーク立ち絵
+//　　　＊オークを加工して使用
+//　　ゲーマートロール立ち絵
+//　　　＊トロールを加工して使用
+//　　ゲーマー忍熊立ち絵
+//　　　＊忍熊を加工して使用
+<NAME_PLATE>
+　さっき一瞬でやられたＦＢＧの連中も
+ヨロヨロと立ち上がっていた。
+<PAUSE>
+<NAME_PLATE>
+　皆、峰打ちで気絶させられていただけだ。
+<PAUSE>
+<NAME_PLATE>
+　相手は鶴を本気で殺そうとしていたのに、
+鶴には最初からその気はなかった。
+<PAUSE>
+<NAME_PLATE>
+　完全に子供扱いしていたのだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m252a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイグレー
+「お、覚えときな……畜生っ……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se054
+<NAME_PLATE>
+　分かりやすい負け惜しみの台詞を吐き、
+アイグレーたちはすごすごと逃げていった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,tu_t007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「ご主人様、
+　これでよろしかったでしょうか？」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01（科学ＳＲ）
+//　　　カードイラストより流用。
+//　※手足をノーマルに戻す。
+<NAME_PLATE>
+　手足を元に戻した鶴が言った。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、助かる
+　よく気を利かせてくれた」
+<PAUSE>
+<ACTOR>0,tu_t007b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ご主人様が楽しみにしていたイベントを
+　あんな無粋な者どもの血で汚すわけには
+　まいりませんから」
+<PAUSE>
+<NAME_PLATE>俺
+「でもよくやってくれた。
+　殺さずに敵の戦意を削ぐのは
+　ただ殺すより難しいからな」
+<PAUSE>
+<NAME_PLATE>鶴
+「お褒めにあずかり光栄にございます」
+<PAUSE>
+<NAME_PLATE>
+　鶴はそう言った後、
+ちょっと躊躇ったように、こうつけ加えた。
+<PAUSE>
+<ACTOR>0,tu_t007a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鶴
+「ご主人様、もうそれは
+　おやめになってもいいと思いますが」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>鶴
+「あの、お姫様だっこを」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、そうだな」
+<PAUSE>
+<NAME_PLATE>
+　そういえば、
+ずっとドロレスを抱えっぱなしだった。
+俺は彼女を下ろす。
+<PAUSE>
+<ACTOR>0,tu_t007a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「ウェヒヒ。
+　あ、ありがと。すごいもの見た。
+　美少女メイド、超カッコヨス」
+<PAUSE>
+<NAME_PLATE>鶴
+「ありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　鶴はもう一度頭を下げる。
+<PAUSE>
+<NAME_PLATE>俺
+（さすがライブラリーの娘だな）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺は心の中で感嘆していた。
+<PAUSE>
+//【背景：ゲームイベントメイン会場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC020aより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm502,1000
+<BG>nc060a,IN, 1000
+<ACTOR>0,chr_t0112a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>ゆきかぜ
+「はああっっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　【雷撃の新学期】水城ゆきかぜ立ち絵
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　ゆきかぜが大きくジャンプした。
+<PAUSE>
+<NAME_PLATE>
+　その体が鮮やかな弧を描く。
+月面宙返りからの―――
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「とりゃああああ！！
+　超速雷撃連打
+　（スーパーエレクトリックアターック）！」
+<PAUSE>
+<NAME_PLATE>
+　マンガみたいな必殺技が炸裂した。
+<PAUSE>
+<NAME_PLATE>
+　会場がドッと沸き立つ。
+<PAUSE>
+<NAME_PLATE>
+　決まった。優勝はゆきかぜだ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おおおおおおおおおおお！」
+<PAUSE>
+<NAME_PLATE>
+　気がついたら俺は拳を振り上げていた。
+<PAUSE>
+<ACTOR>0,chr_t0303a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「うきゃあああああああああああ！！」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ドロレスも絶叫している。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,tu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鶴
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　出雲鶴01（科学ＳＲ）
+//　　　カードイラストより流用。
+//　※手足をノーマルに戻す。
+<NAME_PLATE>
+　鶴は無言。
+<PAUSE>
+<NAME_PLATE>
+　まだちょっとゆきかぜに思うところが
+ありそうではあるが、
+<PAUSE>
+<NAME_PLATE>
+　とにかく、俺たちは無事、
+大会を観戦することができたのだった。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――
+<PAUSE>
+//【背景：ゲームイベント会場＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC039aより流用
+//nc393a
+<BGM_PLAY>bgm502,1000
+<BG>nc393a,IN, 1000
+<ACTOR>0,chr_t0246a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「あっ、ドロレス！
+　や～～～～～っと見つかった！
+　よかったーー！！」
+<PAUSE>
+//　※立ち絵
+//　　【サマーストーム】リーナ
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0246a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0303a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「や、やっときた」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス２
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　結局、ドロレスがリーナと再会できたのは、
+ゲーム大会が終わってからだった。
+<PAUSE>
+<NAME_PLATE>リーナ
+「すまない。待たせたな。
+　やっぱり私はこういう場所は苦手だ。
+　すっかり人混みに酔ってしまった」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「つ、付き合わせちゃってごめん」
+<PAUSE>
+<NAME_PLATE>リーナ
+「全然構わないぞ。
+　リリスと偶然会えたしな。
+　ドロレスは楽しめたか？」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「す、すごく楽しかった！
+　イベントもゲーム大会もぜ、全部」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「あ、あとね、あとね……、
+　また会いたいと思う人間に出会えたかも。
+　ウェヒヒヒヒ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「そうなのか、よかったな！
+　その話を聞かせてくれるか」
+<PAUSE>
+<NAME_PLATE>ドロレス
+「い、いいよ。あのね……」
+<PAUSE>
+<NAME_PLATE>
+　ドロレスは嬉しそうに話し始めた。
+<PAUSE>
+//→エピローグ終了。
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,758 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//
+//【背景：五車学園＿校舎内校長室＿昼】//【時間：昼】
+<BGM_PLAY>bgm320,1000
+<BG>nc006a,IN
+<ACTOR>0,ts_m006a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>異形の魔物
+「ＧＹＧＡＡＡＡＡＡッッッッッっ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　オーガ奴隷立ち絵
+<GROUP>
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　２メートル以上はあろうかという
+巨体から繰り出される拳が、
+校長室の壁をぶち抜いた。
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ……！　なんてタフな野郎だ！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「こいつらはオーガ奴隷と呼ばれる鬼族だ！
+　知能は低いが強靭な肉体とパワーを
+　持っている、気をつけろ！」
+<PAUSE>
+//　※立ち絵
+//　　アサギ戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>蛇子
+「小細工の通じる相手じゃないってことね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>オーガ奴隷
+「ＧＹＧＡＡＡＡＡＡッッッッッっ！！！！」
+<PAUSE>
+<SE_PLAY>se013
+<EFFECT_QUAKE>HORIZONTAL,0.5,500
+<NAME_PLATE>
+　でたらめに振り回すだけの攻撃だが、
+それだけに動きが読めず、
+当たれば瀕死の重傷は避けられないだろう。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひぃいいいいい！？
+　お、おいふうま！
+　アサギ先生大丈夫かなあ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ……」
+<PAUSE>
+<ACTOR>0,ts_m006a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　アサギ先生はフュルストが召喚した
+オーガ奴隷たちを相手に、
+鬼神の強さを発揮して互角以上に戦っている。
+<PAUSE>
+<NAME_PLATE>俺
+（敵の数は、一、二……十匹か）
+<PAUSE>
+<NAME_PLATE>
+　まさに校長室を埋め尽くす勢いの巨体たち。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 500
+<NAME_PLATE>
+　まるでその隙間を縫うように光の軌跡が
+移動したかと思うと、次々にオーガたちに
+傷がつけられていく。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生の目にもとまらぬ剣撃だ。
+<PAUSE>
+<GROUP>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「すげえ………」
+<PAUSE>
+<NAME_PLATE>蛇子
+「美しいわね……実力差に哀しくなるけど」
+<PAUSE>
+<NAME_PLATE>
+　しかし敵の数が多いうえ、
+タフなオーガ奴隷たちは
+なかなか倒れる気配すら見せない。
+<PAUSE>
+<NAME_PLATE>俺
+（やみくもに振り回すだけの奴らだが、
+　それだけに、急所に飛び込むのは危険が伴う
+　なかなか致命傷をつけるのは難しいか……）
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「な、なあ、アサギ先生を助けようぜ！！
+　微力でも助けになるはずだ」
+<PAUSE>
+<NAME_PLATE>
+　“正義の対魔忍”鹿之助が訴える。
+腰は引けているが。
+<PAUSE>
+<NAME_PLATE>俺
+「おお、何か策があるのか？」
+<PAUSE>
+<ACTOR>2,s_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ない！　そこはふうま、お前の担当だろ」
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱそうなるかよ……」
+<PAUSE>
+<NAME_PLATE>
+　俺は一瞬のうちに考えを巡らせる。
+複数のオーガ、スピードのあるアサギ先生……
+そして何か使えそうなものは……
+<PAUSE>
+<NAME_PLATE>俺
+「よし、プランＢだ」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「お、おう！　プランＢだな！　って
+　何だそれ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「説明する時間はない。
+　指示を出すから、その通り動け」
+<PAUSE>
+<ACTOR>2,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ちゃんとした作戦なんだろうな！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、一発しか使えないとっておきだ！
+　蛇子、準備いいな」
+<PAUSE>
+<ACTOR>1,h_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「も、もう。仕方ないわね……うひ、えへへ」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひぃいいい！？
+　蛇子の様子がおかしいぞ！？
+　心までタコになっちまったのか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いいから俺を信じろ！
+　よし、作戦開始するぞ……」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004b,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>俺
+「おーいデカブツどもーー！！
+　こっちにもいるぞーーー！！　おらっ！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>
+　俺は転がっていた椅子で、
+近くにいたオーガ奴隷のケツを
+思いっきり殴る。
+<PAUSE>
+<ACTOR>0,ts_m006a,CENTER, CENTER, IN, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーガ奴隷
+「ＧＹＧＡＡＡＡＡＡッッッッッっ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　オーガが雄叫びをあげると、
+他のオーガたちもこちらを振り返り、
+腕を上げて向かってきた。
+<PAUSE>
+<NAME_PLATE>俺
+「いまだ！」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺と鹿之助、蛇子は
+それぞれ別方向に飛び回避すると、
+<PAUSE>
+<TRANSITION>TR13, OUT, 100
+<ACTOR>0,ts_m006a,CENTER, CENTER, OUT, linear, 0
+<WAIT>300
+<BG>nc006a,NONE
+<TRANSITION>TR13, IN,100
+<ACTOR>0,h_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「見てなさいよ～～へっぷ、
+　獣遁の術・タコじゃぁぁんぷ！！！！」
+<PAUSE>
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.2,125
+<NAME_PLATE>
+　まずは蛇子がタコ足をしならせてジャンプ。
+そのままオーガ奴隷たちのちょうど頭上、
+天井に張り付いた。
+<PAUSE>
+<ACTOR>0,h_t005b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふえっへっへ……うぷっ、
+　獣遁の術“タコ墨シャワー”！！！！」
+<PAUSE>
+<NAME_PLATE>
+　続いて蛇子の口からタコ墨が放たれ、
+まるでスプリンクラーのように、ひとところに
+集まったオーガ奴隷たちを墨に染めた。
+<PAUSE>
+<ACTOR>0,h_t005b,CENTER, CENTER, OUT, linear, 0
+<TRANSITION>TR37, IN, 100
+<BG>black,NONE
+<EFFECT_FLASH>WHITE, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーガ奴隷
+「ＧＹＡＡＡＡＡＡッッッっ？？？！！」
+<PAUSE>
+<NAME_PLATE>
+　視界を奪われたオーガ奴隷たちは
+拳を闇雲に振り回し暴れまわる。
+<PAUSE>
+<NAME_PLATE>俺
+「見事だ蛇子！！！」
+<PAUSE>
+<BG>nc006a,IN, 500
+<ACTOR>0,s_t001h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「また同じ手じゃないかよ！！？
+　トンカチで割れる相手じゃないぜ！！？！」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「しかもなんか墨薄くないか！！？
+　余計暴れてるし！！
+　どうすんだよ！！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「次はお前だ鹿之助！！！」
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　きょとんとする鹿之助を、
+俺は全力で掴み上げると振りかぶった。
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「えっ？　えっ？」
+<PAUSE>
+<NAME_PLATE>俺
+「行っけええええええええええええ！！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se013
+<ACTOR_OUT>0,RIGHT,linear,300
+<EFFECT_QUAKE>HORIZONTAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　鹿之助の小柄な体は放物線を描いて
+オーガ奴隷の頭上に飛んでいく。
+<PAUSE>
+<NAME_PLATE>俺
+（よし、不安だったが、
+　上手く投げられたぜ！）
+<PAUSE>
+<TRANSITION>TR54, OUT, 100
+<WAIT>300
+<TRANSITION>TR54, IN,100
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 300
+<NAME_PLATE>鹿之助
+「ぎゃあああああああああ
+　あああああああああああああああ」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助、静電気だッ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「はあああああああああ！？？？？？
+　静電気いいい？！？！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いいからやれ！！
+　死にたくないだろ！！！！」
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「だあああああっ！
+　わかったよもおおおお！！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助は潰れた饅頭みたいな顔で
+叫びながら、
+その体にか弱い電気を纏わせた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「電遁の術・静電気いいいいい！！！！」
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, CENTER, NONE, linear, 0
+<GROUP>
+<SE_PLAY>se014
+<EFFECT_FLASH>WHITE, 500
+</GROUP>
+<NAME_PLATE>
+　鹿之助から放たれたか細い放電は、
+小さな小さな雷となってオーガ奴隷に
+直撃する。
+<PAUSE>
+<ACTOR>0,s_t002f,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　すると――
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ゴオッ！！！
+<PAUSE>
+<NAME_PLATE>
+　オーガ奴隷の全身を覆っていたタコ墨が、
+一瞬で真赤に燃えあがった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>オーガ奴隷たち
+「ＧＹＧＡＡＡＡＡＡッッッ
+　ッッッっ！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　オーガ奴隷たちは、
+何が起こったのかわからず、
+炎を振り払おうと上体を震わせた。
+<PAUSE>
+<NAME_PLATE>俺
+「よしっ！！　よくやったぞ鹿之助！！！」
+<PAUSE>
+<NAME_PLATE>
+　しかしこのままでは鹿之助も
+炎にまっしぐらである。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうまあああああああああああ！！！
+　燃える、もえるううう！！！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そ～～～れっ♪」
+<PAUSE>
+<NAME_PLATE>
+　間一髪――というところで、
+鹿之助の胴体をタコ足がぬるっと
+キャッチした。
+<PAUSE>
+<ACTOR>0,a_t003e,CENTER, CENTER, IN, linear, 500
+<NAME_PLATE>アサギ
+「よくやった！！　後は任せろ！」
+<PAUSE>
+<NAME_PLATE>
+　間髪いれず飛び出したのはアサギ先生。
+半狂乱で暴れ回る奴隷オーガの足元を
+光が一閃する。
+<PAUSE>
+<ACTOR>0,a_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「忍法・光陣華」
+<PAUSE>
+//　※立ち絵
+//　　アサギ高速で弾き返し立ち絵
+//　　　　＊対魔忍アサギ３のイベントEV002bの背景を透明化、血潮を削除し立ち絵として流用
+<GROUP>
+<SE_PLAY>se011
+<ACTOR>0,stv001a,CENTER, CENTER, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>オーガ奴隷たち
+「ＧＹＧＡＡＡＡＡＡッッッッッっ！！！！！
+　………………………………」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,250
+</GROUP>
+<NAME_PLATE>
+　オーガたちは雄叫びをあげたかと思うと、
+ドサッ……という音と共に次々崩れ落ちた。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が、
+その速さで炎の中をかいくぐり、
+オーガ奴隷たちの腱を切って回ったのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（今のが忍法・光陣華か……！
+　対魔忍アサギの操る
+　異能系忍法「隼の術」の真髄……！！）
+<PAUSE>
+<NAME_PLATE>
+　聞いた事はあったが見るのは初めてだ。
+ごくわずかな時間、五感五体が強化され、
+数倍の時間のように行動できる。
+<PAUSE>
+<NAME_PLATE>
+　周囲の者からは光のようなスピードで
+行動しているように見える――と。
+<PAUSE>
+<BGM_STOP>1500
+<ACTOR>0,a_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「やったわね」
+<PAUSE>
+<ACTOR>1,h_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「正義は勝つのよね♪　わっしょーい！」
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　蛇子はタコ足でよく分からない
+決めポーズをしている。
+<PAUSE>
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「い、いったい何が起きたんだ！？
+　蛇子はなんかヘンだし……」
+<PAUSE>
+<NAME_PLATE>俺
+「ここに来る途中、理科室に寄っただろ？
+　アルコールをそこで拝借したんだよ。
+　それを蛇子に飲ませて墨に混ぜて放った」
+<PAUSE>
+<NAME_PLATE>俺
+「で、そこにお前の静電気で
+　火をつけたってわけだ」
+<PAUSE>
+<ACTOR>1,h_t004j,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うぇっへへーい♪」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は完全に酔っ払っている。
+<PAUSE>
+<ACTOR>2,s_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「い、一発しか使えないって
+　こういう事かよ……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「よく考えたわね。
+　理科室でアルコールを拝借するなんて、
+　なかなか不良の発想だわ」
+<PAUSE>
+<NAME_PLATE>俺
+「これで一件落着……なのか？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,a_t002a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>2,s_t001g,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004j,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>時子
+「お館様！！！
+　……この有様は……！？」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿対魔忍衣装
+<ACTOR>0,t_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「時子！」
+<PAUSE>
+<NAME_PLATE>
+　そこへ、時子が飛び込んできた。
+校長室の惨状に血相を変えている。
+<PAUSE>
+<NAME_PLATE>俺
+「時子、俺は大丈夫だ。
+　このとおり傷も負っていない」
+<PAUSE>
+<ACTOR>0,t_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「お、お館様……
+　ご無事でなによりです」
+<PAUSE>
+<NAME_PLATE>俺
+「そっちは大丈夫だったのか」
+<PAUSE>
+<ACTOR>0,t_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「申し訳ありません……。
+　権左には逃げられてしまいました」
+<PAUSE>
+<NAME_PLATE>時子
+「途中までは互角に戦っていたのですが、
+　反乱軍たちが一斉に撤退すると同時に、
+　彼も……」
+<PAUSE>
+<NAME_PLATE>俺
+「主人の撤退を察知して逃げたか……」
+<PAUSE>
+<ACTOR>0,t_t002g,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,a_t002c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「時子、ご苦労。
+　敵の追撃には誰か出ているか？」
+<PAUSE>
+<ACTOR>0,t_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>時子
+「紫先生が。追撃の指揮を執っています」
+<PAUSE>
+<NAME_PLATE>アサギ
+「なるほど。報告ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　ひととおりの報告が済むと、
+アサギ先生はふう、と溜め息をつき、
+やさしい顔に戻って俺の顔を見た。
+<PAUSE>
+<ACTOR>2,a_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「助かったわ。
+　時子がいつも話している
+　当主くんというのは君ね」
+<PAUSE>
+<NAME_PLATE>俺
+「は、はい……」
+<PAUSE>
+<NAME_PLATE>
+　最強の対魔忍アサギに微笑みかけられ、
+俺は柄にもなく緊張する。
+<PAUSE>
+<ACTOR>2,a_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「なるほど、君がね」
+<PAUSE>
+<NAME_PLATE>俺
+「俺、そんなに噂になってるんですか……？」
+<PAUSE>
+<ACTOR>2,a_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ええ、さくらからよく授業を
+　エスケープするって聞いてるわよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,125
+<NAME_PLATE>俺
+「うぐっ……」
+<PAUSE>
+<ACTOR>2,a_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「だけど、敵の狙いを察知して
+　ここまで来たのはあなただけよ。
+　どうして分かったのかしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「え、いや、明らかにこの校舎を
+　戦力の空白地帯にしようっていう
+　用兵だったので……」
+<PAUSE>
+<ACTOR>2,a_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ふむ……。詳しく説明してくれるかしら？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　俺は手早く頭を整理した。
+<PAUSE>
+<NAME_PLATE>俺
+「敵は寡兵です。
+　時間を掛ければ反乱は失敗する」
+<PAUSE>
+<NAME_PLATE>俺
+「なら奴らが勝利するには大将首を
+　取るしかない。
+　大将首、つまり校長の首です」
+<PAUSE>
+<NAME_PLATE>俺
+「校長は校舎にいる。奴らは精鋭を校舎に
+　送り込み、校舎の周辺で乱戦を起こす。
+　一種のゲリラ戦法です」
+<PAUSE>
+<NAME_PLATE>俺
+「その乱戦に耳目を集め、
+　校舎への援軍を妨害する、
+　あるいはそう意識させないようにする……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「私を孤立させて討つ作戦か」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ。俺はそう見たので
+　ここへ急いできたわけです。首謀者、
+　おそらく骸佐がここにいると思って……」
+<PAUSE>
+<ACTOR>2,a_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「素晴らしい。優秀な学生が
+　随分長い間隠れていたようね」
+<PAUSE>
+<NAME_PLATE>俺
+「お、俺が優秀！？」
+<PAUSE>
+<NAME_PLATE>
+　褒められたのだが、
+俺はその言葉に胸が重くなる気がした。
+<PAUSE>
+<NAME_PLATE>俺
+「そんなことはありません。骸佐の考えを
+　察知できなかったんですよ。ノマドと
+　組むまで思い詰めてるって事を……」
+<PAUSE>
+<NAME_PLATE>
+　以前の骸佐は、態度こそ悪くても、
+対魔忍を裏切るようなことは
+決してしなかった。
+<PAUSE>
+<NAME_PLATE>
+　そんな奴をここまで追い込んだのは、
+俺にも少なからず責任があるだろう。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様……」
+<PAUSE>
+<NAME_PLATE>俺
+「身分にこだわらない、しきたりに
+　縛られないふりをして、その実、
+　当主としての責任から逃げてただけです」
+<PAUSE>
+<NAME_PLATE>俺
+「俺は奴らの言う通り“目抜け”だ」
+<PAUSE>
+<ACTOR>2,a_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「……。そうだな、君の気持ちもわかる……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「しかし、そう思うなら、
+　今からでも当主としての
+　責任を果たしてみてはどうか」
+<PAUSE>
+<NAME_PLATE>俺
+「責任？　でも、
+　骸佐たちはもう行っちまったんですよ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「君を独立遊撃隊の隊長に任命する。
+　ふうま一門をもう一度まとめあげ、
+　二車骸佐を捕らえよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！？」
+<PAUSE>
+<ACTOR>0,t_t002d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>時子
+「！！！！」
+<PAUSE>
+<NAME_PLATE>アサギ
+「反乱軍の策に惑わされず、
+　真の目的を見抜いた慧眼」
+<PAUSE>
+<ACTOR>2,a_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「そしてさっきの、臨機応変な戦い方。
+　君には充分に素質がある。心配するな」
+<PAUSE>
+<NAME_PLATE>俺
+「俺が………」
+<PAUSE>
+<NAME_PLATE>アサギ
+「まだ何か気になるか？」
+<PAUSE>
+<NAME_PLATE>俺
+「奴の……骸佐の抹殺を
+　命じないのですか……！？」
+<PAUSE>
+<ACTOR>2,a_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「二度は言わない。君を独立遊撃隊の隊長に
+　任命する。受諾するのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「じゅ、受諾します！
+　必ず骸佐を生きたまま、
+　ここへ連れ戻してみせます！」
+<PAUSE>
+<ACTOR>2,a_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「よろしい」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生はいつもの優しい顔に戻り、
+にっこりと笑った。
+<PAUSE>
+<GROUP>
+<ACTOR>2,a_t002b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,t_t002d,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<WAIT>500
+<ACTOR>0,h_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふゃ～～～～！！　ふうまちゃん、
+　すっごいじゃん！　やったじゃああん♪」
+<PAUSE>
+<NAME_PLATE>
+　すかさず、酔っ払った蛇子が
+タコ足を巻き付けてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子っ！？　やめろ！！」
+<PAUSE>
+<NAME_PLATE>時子
+「！？　蛇子ちゃん、お酒くさい……！」
+<PAUSE>
+<ACTOR>0,h_t004j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うっへっへ、祝杯あげよ～～～！！
+　時子せんせぇえ、
+　稲毛屋のアイスで祝杯っすう！！」
+<PAUSE>
+<ACTOR>0,h_t004j,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,s_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「！！　お、俺も行く！！　ていうか、あれ
+　だ、俺、副隊長になってやってもいいぞ！？
+　ふうまひとりじゃ頼りないからな！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……前途多難だな……」
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR>2,s_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,h_t004j,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ともかく、こうして反乱事件は
+一旦幕を閉じ、俺は独立遊撃隊・隊長に
+任命された。
+<PAUSE>
+<NAME_PLATE>
+　この先にどんな事件が
+待ち受けているのか――
+<PAUSE>
+<NAME_PLATE>俺
+（ま、退屈せずには済みそうだな。
+　待ってろよ骸佐……！！）
+<PAUSE>
+//→Section５終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

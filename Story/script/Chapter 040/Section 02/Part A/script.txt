@@ -1,0 +1,609 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：荒廃した魔都・東京駅前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC080aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc428a,IN, 1000
+<NAME_PLATE>
+　ふうま小太郎が
+米連に囚われたのと同じ時。
+<PAUSE>
+<NAME_PLATE>
+　それとは別の次元、
+彼からは未来と呼ばれるその世界。
+<PAUSE>
+<NAME_PLATE>
+　次元侵略者ブレインフレーヤーによって
+破壊された東京を彼女たちは歩いていた。
+<PAUSE>
+<NAME_PLATE>
+　一人は水城ゆきかぜ、雷神の対魔忍。
+一人は甲河アスカ、風神の対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　そしてもう一人、
+かつて爆炎の対魔忍と呼ばれていた女、
+神村舞華だった。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>神村舞華
+「久しぶりだな、東京に来たのは」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん01（科学ＳＲ）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　舞華は崩壊が進む街並みを見ながら
+感慨深げに呟いた。
+<PAUSE>
+<NAME_PLATE>
+　ブレインフレーヤーとの過酷な闘いで
+多くの対魔忍が散っていった中、
+<PAUSE>
+<NAME_PLATE>
+　彼女は仲間と別れ、人里からも離れて、
+一人、隠遁生活を営んでいたのだ。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「ずーっとあそこに引きこもってたの？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　別にそのことを非難する風でもなく
+ゆきかぜが淡々と尋ねた。
+<PAUSE>
+<NAME_PLATE>舞華
+「色々と面倒になっちまったんだよ」
+<PAUSE>
+<NAME_PLATE>
+　舞華の返事も素っ気ないものだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>甲河アスカ
+「気持ちは分かるけどね」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　レジスタンスのリーダーという立場だが、
+同じ思いを抱くことがあるのだろう、
+アスカがあっさりと同意した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「分かってるなら
+　何度も何度も尋ねてくるなよ。
+　鬱陶しくてしょうがねえ」
+<PAUSE>
+<NAME_PLATE>舞華
+「私は名前も変えて隠れてたのによ」
+<PAUSE>
+<NAME_PLATE>
+　不満げな舞華にゆきかぜが言った。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「小さな村がレイダーの襲撃を
+　何度も何度も撃退してるとか
+　ついでにセクトも潰したとか」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「目立つ真似をするからよ。
+　おまけにものすごい炎の使い手が
+　いると聞いたらね」
+<PAUSE>
+<NAME_PLATE>舞華
+「しょうがねえだろ。
+　黙ってやられるわけにはいかねえしよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「襲われてる人たちを無視するほど
+　世捨て人にはなれなかったみたいね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「ふん、悪いかよ」
+<PAUSE>
+<NAME_PLATE>
+　舞華がぶすっとした顔になると、
+ゆきかぜは笑顔でこう返した。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ちっとも。
+　おかげで身体は鈍ってないみたいだし」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「何度も何度も誘っておいてなんだけど、
+　技が錆び付いてたら意味ないからね」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0365a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>舞華
+「言ってくれるじゃねえか。
+　お前らの噂も聞いてるぜ」
+<PAUSE>
+<NAME_PLATE>舞華
+「あのアルサールをぶち殺した上に、
+　ガーディアンを次々と壊してるそうだな。
+　やるじゃねえか」
+<PAUSE>
+<NAME_PLATE>
+　かつてその二人と共に
+最前線で戦っていた頃の
+不敵な表情が蘇る。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「まあね。
+　って言いたいとこだけど、
+　正直ふうまのおかげよ」
+<PAUSE>
+<NAME_PLATE>舞華
+「それだけどよ。
+　話を聞いてもまだ信じらんねえな」
+<PAUSE>
+<NAME_PLATE>舞華
+「ふうまが死なずにすんで
+　おまけにこっちにやって来るとかよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　舞華の感心するというより
+もはや呆れているような言葉に
+ゆきかぜは軽く肩をすくめた。
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ほんとだってば。
+　私が過去に行ってちゃんと助けてきたもの。
+　ふうまだけじゃなくて鹿之助もね」
+<PAUSE>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「なんなんだよそりゃ。
+　マジでＳＦじゃねえか」
+<PAUSE>
+<NAME_PLATE>舞華
+「アスカも知らない間に
+　そんな姿になっちまってるしよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　舞華は妙なものを見るような目で、
+ふうまが生きていた頃よりも
+若い姿のアスカを見やった。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「これは実験の失敗。
+　まあ、あの頃より若い姿で
+　ふうまに会えるのはいいけどね」
+<PAUSE>
+<NAME_PLATE>
+　アスカはその若い姿の自分を
+自慢げに見下ろしてみたりする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「お気楽な奴だぜ」
+<PAUSE>
+<NAME_PLATE>
+　二人に隠遁場所から引っ張り出され、
+ぼやく舞華の顔をゆきかぜが楽しそうに
+覗き込む。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ねえねえ、舞華」
+<PAUSE>
+<NAME_PLATE>舞華
+「なんだよ、その面は」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「やっぱり今回付き合ってくれたのは、
+　ふうまがこっちに来れるって分かったから？
+　そんなに会いたい？　会いたいよね？」
+<PAUSE>
+<NAME_PLATE>舞華
+「…………」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　からかうようなその言い方に
+眉を顰めた舞華の代わりにアスカが答えた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「そりゃ会いたいに決まってるでしょ。
+　会いたくないわけないわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「だよねーー」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「うるせえな。
+　それだけが理由じゃねえよ。
+　まあ会いたくねえってつったら嘘だけどな」
+<PAUSE>
+<NAME_PLATE>
+　舞華はぶっきらぼうに答えてから、
+<PAUSE>
+<NAME_PLATE>舞華
+「けど私もだいぶ変わっちまったからなあ。
+　ふうまの奴、今の私を見てどう思うかな」
+<PAUSE>
+<NAME_PLATE>
+　独りごちるように付け加え、
+突然、髪型を気にしたりし始める。
+<PAUSE>
+<NAME_PLATE>
+　女性としてはやはりそのあたりが
+気がかりなようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「舞華ときめいてる」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ねーー」
+<PAUSE>
+<NAME_PLATE>
+　あの頃と違い、ゆきかぜは大人になり、
+アスカは子供になってしまってと、
+<PAUSE>
+<NAME_PLATE>
+　方向は違うが
+以前同じ気持ちを味わった二人は
+クスクスと笑い始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「なに二人してニヤニヤしてんだよ。
+　うぜえな」
+<PAUSE>
+<NAME_PLATE>
+　舞華は思わず赤面し、
+足元にあった瓦礫を蹴飛ばした。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ねえねえねえ、舞華」
+<PAUSE>
+<NAME_PLATE>舞華
+「今度はなんだよ！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あの頃はヤンキーで、今は姐さん風で
+　ファッションの方向性は
+　あんまり変ってないじゃない？」
+<PAUSE>
+<NAME_PLATE>舞華
+「それがどうした！？
+　どんな格好しようが私の勝手だろ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ギャルっぽい服とかもう持ってないの？
+　あの頃たまにこっそり着てたじゃない？
+　あと可愛い服とかさ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「なああっ！？」
+<PAUSE>
+<NAME_PLATE>
+　舞華はギョッとしたように目を剥いた。
+顔がますます赤くなっていく。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「へーー、
+　舞華ってそういうの着るんだ？
+　意外」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「実は可愛いモノ好きだよ。
+　ほら、今も頭につけてるかんざしとか
+　可愛いでしょ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あ、ほんとだ。
+　ちょっと可愛いね。似合ってる」
+<PAUSE>
+<NAME_PLATE>舞華
+「な、な、な……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そういうの好きなら着れば―――
+　あーー、さすがにちょっと厳しいか」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あーー、年齢的に」
+<PAUSE>
+<NAME_PLATE>
+　二人に残念そうな目で見られ、
+舞華はついに癇癪を起こした。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「うるせえよ、お前ら！
+　言われなくたってこの年で
+　そんなギャルの格好とかしねえよ！」
+<PAUSE>
+<NAME_PLATE>舞華
+「大体、あの頃だってふうまの前で
+　そんな格好したこと一度もねえよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あれ？　そうだった？」
+<PAUSE>
+<NAME_PLATE>舞華
+「そうだよ！
+　あんまりつまんねえこと
+　ゴチャゴチャぬかすと帰るぞ！」
+<PAUSE>
+<NAME_PLATE>
+　くるりと背を向ける舞華の腕を
+ゆきかぜとアスカが両側から掴んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「もー、そんな拗ねないでってば」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうそう。
+　ふうまのことだから
+　今の舞華も気に入ってくれるって」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「心配しない心配しない」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>舞華
+「そんな心配なんかしてねえ！」
+<PAUSE>
+<NAME_PLATE>
+　さっきと明らかに違うことを言う舞華は
+ふと妙なことに気づいて声を尖らせる。
+<PAUSE>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「おいお前ら、どこに行くつもりだ？
+　道が違ってるだろ？」
+<PAUSE>
+<NAME_PLATE>舞華
+「レジスタンスのアジトに
+　行くんじゃないのか？」
+<PAUSE>
+<NAME_PLATE>
+　舞華に尋ねられ、
+二人はそれを言い忘れていた
+という顔になった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「あ、ごめん、行かない」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私たちのアジトに行くのよ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0365a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞華
+「お前らの？
+　レジスタンスを抜けたのか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「違うけど、少し距離を取った方が
+　動きやすい事もあるのよ。
+　ごめんね、言ってなくて」
+<PAUSE>
+<NAME_PLATE>舞華
+「構わねえさ。
+　私も今更のこのこ顔出したくねえしな」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　舞華は無愛想に言い、
+腕を掴んでいた二人の手を
+面倒くさそうに引き剥がした。
+<PAUSE>
+//【背景：荒廃した魔都・東京アーケード商店街＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC104bより流用
+//nc471a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc470a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　夜になった。
+<PAUSE>
+<NAME_PLATE>
+　かつては人間でありながら
+今は人を食う化物と化した感染者が
+地上を徘徊する時間帯だ。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜ、アスカ、舞華の三人は
+廃墟のビルが建ち並ぶ地区を離れ、
+<PAUSE>
+<NAME_PLATE>
+　かつての住宅街、
+もちろん今は住む者もいなくなった
+エリアに入り込んでいた。
+<PAUSE>
+<NAME_PLATE>
+　そして、とある商店街の跡地に
+さしかかったところで、
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「んーーーーーーっ！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「いっちに、いっちにっと」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜとアスカはいきなり
+腕を伸ばしたり、屈伸をしたりし始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0365a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「そりゃなんの準備だ？」
+<PAUSE>
+//　※立ち絵
+//　　舞華姐さん01（科学ＳＲ）
+//　　　＊カードイラストより流用
+<NAME_PLATE>ゆきかぜ
+「運動の準備」
+<PAUSE>
+<NAME_PLATE>アスカ
+「このあたりは感染者の巣になってて
+　お陰でレイダーはいないかわりに
+　毎回“運動”になるのよ」
+<PAUSE>
+<NAME_PLATE>舞華
+「へっ。
+　そりゃ良い運動になりそうだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あっけらかんと言う二人に
+舞華も不敵な笑みを浮かべ、
+コキコキと指の関節を鳴らす。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「準備はいい？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0365a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「おっけー」
+<PAUSE>
+<NAME_PLATE>舞華
+「いつでもいいぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「んじゃ。
+　よーい、どん！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　三人は一斉に走り出した。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m271a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>感染者
+「あーー、うーー、あうーー」
+「あーー、うーー、あうーー」
+「あーー、うーー、あうーー」
+<PAUSE>
+<NAME_PLATE>
+　感染者たちの唸り声が近づいてきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

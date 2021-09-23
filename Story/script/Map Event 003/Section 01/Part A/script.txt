@@ -1,0 +1,1746 @@
+//FileNo:S001a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町＿ふうま邸前＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC025aより流用
+<BG>nc056a,IN, 1000
+<BGM_PLAY>bgm307,1000
+<NAME_PLATE>
+　とある休日。
+<PAUSE>
+<NAME_PLATE>
+　俺は自宅で思い切りだらけていた。
+<PAUSE>
+//【背景：五車町＿ふうま邸リビング＿朝】【時間：昼】
+//　※対魔忍アサギZEROの背景NC026aより流用
+<BG>nc081a,IN, 1000
+<NAME_PLATE>俺
+（あー、ヒマだな……）
+<PAUSE>
+<NAME_PLATE>
+　最近きつい任務が続いたので
+休日くらいゆっくりしようと
+思っていたのだが。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、
+こう何もやることがないと退屈する。
+<PAUSE>
+<NAME_PLATE>
+　こういう時に重宝する遊び相手の
+若いさくらも、今日はバイト探しに出かけて
+家にいなかった。
+<PAUSE>
+<NAME_PLATE>俺
+「ふぁ……」
+<PAUSE>
+<NAME_PLATE>俺
+（仕方がない。暇つぶしに
+　稲毛屋のアイスでも食いに行くか）
+<PAUSE>
+//【背景：五車町＿町並み＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　五車町は小さな町である。
+<PAUSE>
+<NAME_PLATE>
+　適当に散歩してるだけで
+知った顔とよくぶつかるし――
+<PAUSE>
+<NAME_PLATE>
+　この日も、家から出て少し歩いたところで
+お馴染みの奴らに行き当たった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>上原鹿之助
+「ひいいいいいい！！
+　や、やめろ蛇子！！　これは
+　人権侵害という奴だからな～～～！！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>相州蛇子
+「なに言ってるの。特訓しようって
+　言ったのは鹿之助ちゃんの方でしょう？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ぐぅ！？　それは、そうだけどよぉ……」
+<PAUSE>
+<NAME_PLATE>俺
+「なにやってんだお前ら」
+<PAUSE>
+<NAME_PLATE>
+　蛇子と鹿之助である。
+<PAUSE>
+<NAME_PLATE>
+　なぜか蛇子はもうタコ化していて、
+鹿之助がタコ足に絡みつかれている。
+<PAUSE>
+<NAME_PLATE>
+　ここが対魔忍の町だから良いものの、
+他でこんなことをしてたら大騒ぎだ。
+<PAUSE>
+<ACTOR>1,h_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あっ、ふうまちゃん。お出かけ？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、適当に散歩。
+　今日は任務もないしダラダラしてる」
+<PAUSE>
+<ACTOR>0,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「お、おいっ！！　なんとかしてくれよ、
+　ふうま～！？　特訓やるからって
+　蛇子が放してくれないんだよ～！？」
+<PAUSE>
+<NAME_PLATE>
+　タコ足に捕まってる鹿之助が
+半泣きで訴えてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「特訓？」
+<PAUSE>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うん、自主訓練。
+　最近、大変な任務が多いでしょう？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「だから蛇子たちもレベルアップしないとって
+　鹿之助ちゃんと話してて」
+<PAUSE>
+<NAME_PLATE>俺
+「あー、たしかに」
+<PAUSE>
+<NAME_PLATE>
+　つい最近、
+俺も死ぬような目に遭ったばかりである。
+<PAUSE>
+<NAME_PLATE>俺
+「えらいな、鹿之助。やる気じゃん」
+<PAUSE>
+<ACTOR>0,s_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「や、やる気はあるけどさぁ～。
+　休みの日は家でのんびりしたい……」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「だーめ。鹿之助ちゃん、
+　自分で言い出したことなんだから、
+　しっかり特訓するの」
+<PAUSE>
+<ACTOR>0,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「うぅ～、ひでえよぉ」
+<PAUSE>
+<NAME_PLATE>俺
+「う～ん……」
+<PAUSE>
+<NAME_PLATE>
+　口は災いの元というやつだ。
+<PAUSE>
+<NAME_PLATE>
+　しっかり者の蛇子の前で
+軽はずみなことは言えない。
+<PAUSE>
+<ACTOR>1,h_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんも一緒に特訓する？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、俺はパスだ。
+　ついこないだひどい目にあったばかりだし」
+<PAUSE>
+<ACTOR>1,h_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうよね。じゃあ、また今度」
+<PAUSE>
+<ACTOR>0,s_t001f,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ちょ、ちょっと待て！？
+　なんでふうまだけ特訓免除なんだよ～！？」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんは病み上がりでしょ？
+　ほら、行くわよ鹿之助ちゃん」
+<PAUSE>
+<ACTOR>0,s_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うわあああああああああああ～～！！
+　ふうま、俺を助けろ～～～～！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　蛇子のタコ足に絡められたまま
+鹿之助が学園の方に連れ去られていった。
+<PAUSE>
+<NAME_PLATE>俺
+「がんばれよー」
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿町並み＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（ん？　なんだありゃ……）
+<PAUSE>
+<NAME_PLATE>
+　稲毛屋までやってくると、
+店先で婆さんが誰かと揉めていた。
+<PAUSE>
+<NAME_PLATE>婆さん
+「うーん、そんなこと言われたってねぇ」
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「わたし、任務する。だめ？」
+<PAUSE>
+//　※立ち絵　
+//　　クリア・ローベル立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>婆さん
+「ダメとかじゃなくて、
+　こっちも商売だからさ。
+　そこをわかってくれないと」
+<PAUSE>
+<NAME_PLATE>？？？
+「しょうばい……？」
+<PAUSE>
+<NAME_PLATE>婆さん
+「なんだ、そこからかい？
+　こいつは困ったねぇ」
+<PAUSE>
+<NAME_PLATE>俺
+「何をしてるんですか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は何となく興味を惹かれて
+声をかけてみた。
+<PAUSE>
+<NAME_PLATE>婆さん
+「おや、ふうまの坊ちゃん。
+　実は、この子がうちのアイスを食べたいって
+　言ってねぇ」
+<PAUSE>
+<NAME_PLATE>俺
+「アイス……？」
+<PAUSE>
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　俺は稲毛屋の婆さんと話をしていた
+少女の顔を見た。
+<PAUSE>
+<NAME_PLATE>
+　ちまっとしているが、とても可愛らしい。
+この辺では見かけたことのない少女である。
+<PAUSE>
+<NAME_PLATE>俺
+「売り切れ、とかですか？」
+<PAUSE>
+<NAME_PLATE>婆さん
+「そんなわけないよ。
+　ただ、お金がないって言うのさ」
+<PAUSE>
+<NAME_PLATE>俺
+「お金が――」
+<PAUSE>
+<NAME_PLATE>
+　それなら売ってもらえるはずがない。
+<PAUSE>
+<NAME_PLATE>？？？
+「お金の代わりに、任務する。
+　わたし、がんばる」
+<PAUSE>
+<NAME_PLATE>婆さん
+「って言われてもねぇ。
+　今日は特にすることもないし」
+<PAUSE>
+<NAME_PLATE>俺
+「そうですね……」
+<PAUSE>
+<NAME_PLATE>
+　平日の稲毛屋は学園帰りの
+五車の学生で賑わうのだが、今日は休日。
+<PAUSE>
+<NAME_PLATE>
+　見るからに婆さんはヒマそうだ。
+<PAUSE>
+<NAME_PLATE>？？？
+「アイス、だめ……？　ここのアイス
+　美味しい、そう聞いたのに……」
+<PAUSE>
+<NAME_PLATE>
+　ちょっと悲しそうに少女が言う。
+<PAUSE>
+<NAME_PLATE>
+　妙に片言である。日本人でもなさそうだし、
+どこから来たのだろう？
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>婆さん
+「う～ん、そんな顔されると
+　こっちも弱いねぇ」
+<PAUSE>
+<NAME_PLATE>婆さん
+「ちょっと、ふうまの坊ちゃん。
+　この子に奢ってやってくれないかい？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「は！？　俺ですか！？」
+<PAUSE>
+<NAME_PLATE>
+　なぜか俺のところにお鉢が回ってきた。
+<PAUSE>
+<NAME_PLATE>婆さん
+「ふうまの頭領と言えば
+　お大尽で有名じゃないか。
+　あんたも沢山小遣いを貰ってるんだろう？」
+<PAUSE>
+<NAME_PLATE>俺
+「うっ！？　い、いや、俺の小遣いは……」
+<PAUSE>
+<NAME_PLATE>
+　人に言えないくらいの切ない金額だ。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「じー……」
+<PAUSE>
+<NAME_PLATE>俺
+（ぐっ！？　なぜ俺をそんな目で見る！？）
+<PAUSE>
+<NAME_PLATE>
+　明らかに何かを期待する目で
+少女が俺を見上げていた。
+<PAUSE>
+<NAME_PLATE>婆さん
+「ここで太っ腹な所を見せるのが
+　男の器量ってもんだと思うけどねぇ」
+<PAUSE>
+<NAME_PLATE>婆さん
+「嬢ちゃん、うちのアイス食べたいんだろ？」
+<PAUSE>
+<NAME_PLATE>？？？
+「食べたい」
+<PAUSE>
+<NAME_PLATE>婆さん
+「じゃあ、このお兄ちゃんに言いな。
+　素敵なお兄ちゃん、奢ってって」
+<PAUSE>
+<NAME_PLATE>？？？
+「素敵なお兄ちゃん、奢って」
+<PAUSE>
+<NAME_PLATE>俺
+「すごい棒読みなんだけど……」
+<PAUSE>
+<NAME_PLATE>婆さん
+「違う違う。もっと色気を出して――
+　うふ～んっ♪　お兄ちゃん、奢って♪
+　こうだよ」
+<PAUSE>
+<NAME_PLATE>？？？
+「うふーん。お兄ちゃん、奢って」
+<PAUSE>
+<NAME_PLATE>俺
+「ほとんど変わってないんだが……
+　というか婆さん、こんな子に
+　何を教えてるんですか」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>婆さん
+「なぁに、房術の基本って奴さ。
+　可愛い女におねだりされて
+　嫌がる男はいないからねぇ、ヒヒ」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ。おねだり……」
+<PAUSE>
+<NAME_PLATE>
+　そう言えば、稲毛屋の婆さんはその昔、
+凄腕の房術使いとして活躍していたそうだ。
+<PAUSE>
+<NAME_PLATE>
+　もっとも今では、どこをどう見ても
+ただのしなびた婆さんなのだが。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、仕方ないか。
+　じゃあ、アイスをひとつ」
+<PAUSE>
+<NAME_PLATE>婆さん
+「毎度あり！　ひとつでいいのかい？」
+<PAUSE>
+<NAME_PLATE>俺
+「え、ええ……俺は、
+　今は腹が減ってないから……」
+<PAUSE>
+<NAME_PLATE>俺
+（金欠なだけだよ、こんちくしょう！！）
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿町並み＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc078a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（はぁ。やれやれ……）
+<PAUSE>
+<NAME_PLATE>
+　俺達は店先の腰掛けに並んで座って、
+少女だけがアイスを頬張っている。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ぺろぺろ。ぺろぺろ………
+　ふわぁ、おいしいっ♪」
+<PAUSE>
+<NAME_PLATE>
+　少女は稲毛屋のアイスが
+大変気に入ったようだ。
+<PAUSE>
+<NAME_PLATE>
+　まるで生まれて初めて
+アイスを食べたかのように、
+目をキラキラさせて喜んでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃ良かった。
+　これで不味いとか言われたら
+　奢った俺が浮かばれない」
+<PAUSE>
+<NAME_PLATE>俺
+「……で、お前、名前は？」
+<PAUSE>
+<NAME_PLATE>？？？
+「…………クリア」
+<PAUSE>
+<NAME_PLATE>
+　ぺろぺろとアイスを舐めながら
+少女が答えた。
+<PAUSE>
+<NAME_PLATE>俺
+「その名前……やっぱり外国人か。
+　どこから来たんだ？」
+<PAUSE>
+<NAME_PLATE>
+　見たところ少女は一人のようだ。
+<PAUSE>
+<NAME_PLATE>
+　引率が必要な年齢でもなさそうだが、
+見るからに危なっかしい感じはある。
+<PAUSE>
+<NAME_PLATE>クリア
+「遠く」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ。遠く、ねぇ……」
+<PAUSE>
+<NAME_PLATE>
+　五車町は、対魔忍やその才を持つ者が
+集められ住まう地だ。
+<PAUSE>
+<NAME_PLATE>
+　中には大昔に海外に渡った忍もいるらしく、
+見た目１００％外人の対魔忍も存在する。
+<PAUSE>
+<NAME_PLATE>
+　彼女もそんな外人対魔忍のひとりだろうか？
+<PAUSE>
+<NAME_PLATE>俺
+「外国から来たのか？
+　何かの任務で招集された、とか」
+<PAUSE>
+<NAME_PLATE>クリア
+「覚えていない」
+<PAUSE>
+<NAME_PLATE>俺
+「は……？」
+<PAUSE>
+<NAME_PLATE>
+　覚えてない……？
+<PAUSE>
+<NAME_PLATE>俺
+「いや、覚えてないってことはないだろう？
+　大体この店のアイスのことだって、
+　誰かに聞いて来たんだろう？」
+<PAUSE>
+<NAME_PLATE>クリア
+「…………？」
+<PAUSE>
+<NAME_PLATE>
+　クリアはキョトンとしている。
+<PAUSE>
+<NAME_PLATE>俺
+「うーん……。もしかしてお前、
+　日本語がよくわかってないのか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「日本語。わたし、ペラペラだよ」
+<PAUSE>
+<NAME_PLATE>
+　ぜんぜんペラペラではなかった。
+<PAUSE>
+<NAME_PLATE>俺
+「あー、わかったわかった。
+　アイス溶けるぞ。早く食べろ」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん」
+<PAUSE>
+<NAME_PLATE>
+　クリアがぱくぱくとアイスを食べ始めると、
+俺達は無言になった。
+<PAUSE>
+<NAME_PLATE>
+　クリアは自分から喋るタイプでも
+なさそうだし、俺もこんな子に初対面で
+何を話せばいいのかわからない。
+<PAUSE>
+<NAME_PLATE>
+　ただ、幸せそうにパクつくクリアを
+見ていると、改めてこっちも
+アイスが食べたくなってくる。
+<PAUSE>
+<NAME_PLATE>俺
+（はぁ。ここのアイス美味いんだよなぁ……）
+<PAUSE>
+<NAME_PLATE>俺
+（もうちょっと俺にお小遣いがあれば……
+　さくらと一緒にバイト捜そうかなぁ……）
+<PAUSE>
+<NAME_PLATE>クリア
+「………………食べる？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ？」
+<PAUSE>
+<NAME_PLATE>
+　見ると、クリアがアイスを差し出していた。
+<PAUSE>
+<NAME_PLATE>俺
+「俺か？」
+<PAUSE>
+<NAME_PLATE>クリア
+「？　他にいる？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、いないけど……いいのか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「ちょっとだけ。欲しそうな顔してたし」
+<PAUSE>
+<NAME_PLATE>俺
+「はは、お前いい奴だな。
+　じゃあお言葉に甘えて」
+<PAUSE>
+<NAME_PLATE>
+　クリアが差し出したアイスをパクッとやる。
+<PAUSE>
+<NAME_PLATE>俺
+「くあ～～～～！！　やっぱ美味いな、
+　稲毛屋のアイス！！　なあ！？」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん」
+<PAUSE>
+<NAME_PLATE>俺
+「もう一口くれ」
+<PAUSE>
+<NAME_PLATE>
+　パクッ。美味い。
+<PAUSE>
+<NAME_PLATE>
+　すると、クリアが手に持ったアイスを
+すっと引く。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよ？　もっと食わせろ」
+<PAUSE>
+<NAME_PLATE>クリア
+「もうだめ。これクリアの」
+<PAUSE>
+<NAME_PLATE>俺
+「金を払ったのは俺だぞ。
+　俺には食う権利がある！」
+<PAUSE>
+<NAME_PLATE>クリア
+「むー。やだ」
+<PAUSE>
+<NAME_PLATE>
+　ムリヤリ食べようとすると
+ジタバタと抵抗する。
+<PAUSE>
+<NAME_PLATE>
+　面白くなってきてクリアとじゃれていると、
+後ろから驚いたような声が飛んできた。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,yu_t001d,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>水城ゆきかぜ
+「ちょ、ちょっとふうま！？
+　あんた何やってんのよっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>俺
+「なんだ、ゆきかぜか」
+<PAUSE>
+<NAME_PLATE>
+　クラスメイトの水城ゆきかぜである。
+<PAUSE>
+<NAME_PLATE>
+　以前はあまり接点がなかったが、
+最近色々あってよく話すようになっていた。
+<PAUSE>
+<ACTOR>3,yu_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なんだ、じゃないわよ！？
+　あんた、まさか……そんな小さな子と
+　デートしてるの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ！？　そんなわけねーだろ！！」
+<PAUSE>
+<ACTOR>3,yu_t001e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「じゃあなによ」
+<PAUSE>
+<NAME_PLATE>俺
+「アイス奢ってやったんだよ。
+　こいつが金持ってないっていうから、
+　稲毛屋の婆さんに乗せられて」
+<PAUSE>
+<NAME_PLATE>俺
+「大体こいつとは
+　さっき知り合ったばかりだし、
+　デートもクソもない」
+<PAUSE>
+<ACTOR>3,yu_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なんだ。ああビックリした……。
+　ヤダ、ふうまがじぽってる！？
+　とか思っちゃった」
+<PAUSE>
+<NAME_PLATE>俺
+「じぽってねーよ。というか何だよじぽって」
+<PAUSE>
+<NAME_PLATE>
+　謎の専門用語が飛び出した。
+<PAUSE>
+<ACTOR>3,yu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「べ、別にわかんないならいいのよ。
+　えっと……ごめんね、そっちの子。
+　大きな声出しちゃって」
+<PAUSE>
+<ACTOR>3,yu_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　俺に対するのとはまるで違う優しい顔で
+ゆきかぜがクリアに言う。
+<PAUSE>
+<NAME_PLATE>クリア
+「……………………」
+<PAUSE>
+<NAME_PLATE>
+　しかしクリアは、
+なぜかゆきかぜを警戒する様子で
+すっと俺の背中に隠れてしまう。
+<PAUSE>
+<ACTOR>3,yu_t001d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「えっ！？　な、なに……？
+　私、何か変なことした……？」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃお前アレだよ。こういう小さい子は、
+　一目でお前が凶暴な性格ってわかるんだ」
+<PAUSE>
+<ACTOR>3,yu_t001f,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「凶暴って何よ！？
+　ぶっとばすわよ馬鹿ふうま！！」
+<PAUSE>
+<NAME_PLATE>クリア
+「…………っ」
+<PAUSE>
+<ACTOR>3,yu_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ああ！？　ご、ごめんね……
+　また大きい声出しちゃった……」
+<PAUSE>
+<NAME_PLATE>俺
+（やっぱり凶暴じゃねーか……）
+<PAUSE>
+<NAME_PLATE>
+　いくらなだめても
+クリアが警戒を解かないので、
+ゆきかぜも諦めたようだ。
+<PAUSE>
+<NAME_PLATE>
+　ふ～っとため息をついて俺の方に向き直る。
+<PAUSE>
+<ACTOR>3,yu_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ところで、あんた何してるの？
+　こんなところで」
+<PAUSE>
+<NAME_PLATE>俺
+「俺か？　散歩だよ。
+　今日は休みで任務もないしな」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふーん。いいわね、
+　落ちこぼれはヒマそうで」
+<PAUSE>
+<NAME_PLATE>俺
+「うるせーな。お前こそ何してるんだよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「私は今から学園に行くところ」
+<PAUSE>
+<NAME_PLATE>俺
+「学園？　休日なのに？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そう。アサギ先生に用があって――」
+<PAUSE>
+<NAME_PLATE>俺
+「アサギ先生って……確か、政府関係の仕事で
+　五車の外に出てなかったか？」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は五車学園の校長であり、
+五車の対魔忍のまとめ役だ。
+<PAUSE>
+<NAME_PLATE>
+　その関係上、政府のお偉いさんの所に
+度々会議に出かけている。
+<PAUSE>
+<ACTOR>3,yu_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「うん。でも、もうすぐ戻ってくるらしいから
+　……もう一回、直談判をね」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ……」
+<PAUSE>
+<NAME_PLATE>俺
+（そう言えば……こいつ、前にもアサギ先生に
+　何か訴えてたな……）
+<PAUSE>
+<NAME_PLATE>
+　行方不明と噂の
+母親に関係することだろうか？
+<PAUSE>
+<NAME_PLATE>
+　……などと考えていると、
+ゆきかぜはぱっと後ろを振り向いて。
+<PAUSE>
+<ACTOR>3,yu_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「でも、まだちょっと時間あるし、
+　寄り道していこうかな！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<SE_PLAY>se078
+</GROUP>
+//※効果音
+<ACTOR>2,chr_t0088a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「――お婆ちゃん！
+　何か冷たいものちょーだい！！」
+<PAUSE>
+<NAME_PLATE>婆さん
+「おや、ゆきかぜちゃん。今日も元気だねぇ」
+<PAUSE>
+<NAME_PLATE>
+　と、稲毛屋の中に入っていく。
+<PAUSE>
+<NAME_PLATE>俺
+「相変わらず騒々しい奴だな……
+　まあ、悪い奴じゃないから気にするなよ」
+<PAUSE>
+<NAME_PLATE>クリア
+「………………うん」
+<PAUSE>
+<NAME_PLATE>
+　クリアは店に入るゆきかぜの背中を
+ちょっと見つめたあと、
+<PAUSE>
+<NAME_PLATE>
+　残っていたアイスをパクパクと
+急ぐようにして片付け、席を立った。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ。お前、もう行くのか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん。アイス、おいしかった」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃ良かった。
+　今度はちゃんと金持って来いよ。じゃあな」
+<PAUSE>
+<NAME_PLATE>
+　そう声をかけると、立ち去りかけたクリアが
+ふと思いついたように戻ってくる。
+<PAUSE>
+<NAME_PLATE>クリア
+「…………………………」
+<PAUSE>
+<NAME_PLATE>
+　そしてなぜか、俺の手をちょこんと掴んだ。
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだ……？」
+<PAUSE>
+<NAME_PLATE>クリア
+「もうちょっと。一緒にいたい」
+<PAUSE>
+<NAME_PLATE>俺
+「は……？」
+<PAUSE>
+<NAME_PLATE>クリア
+「だめ？」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、まあ……どうせヒマだしな。
+　構わないけど、もう奢る金はないぞ」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん。いい」
+<PAUSE>
+<NAME_PLATE>俺
+（妙な奴になつかれたな……）
+<PAUSE>
+<NAME_PLATE>
+　俺が立ち上がると、それを待っていたように
+クリアはてくてくと歩き出す。
+<PAUSE>
+<NAME_PLATE>
+　だが、またもや何歩も歩かないうちに
+くるりと振り返った。
+<PAUSE>
+<NAME_PLATE>クリア
+「……名前、教えて」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、言ってなかったか。
+　ふうまだよ、ふうま小太郎」
+<PAUSE>
+<NAME_PLATE>クリア
+「ふうま。わかった」
+<PAUSE>
+<NAME_PLATE>俺
+「いきなり呼び捨てかよ」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　やれやれ、と苦笑しつつ俺は
+クリアのあとについて稲毛屋の前を離れた。
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿丘＿昼】【時間：昼】
+//　※対魔忍ユキカゼの背景NC008aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc117a,IN, 1000
+<UI_DISP>ON, 0
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>
+　五車町の丘――。
+<PAUSE>
+<NAME_PLATE>
+　一年中、季節の草花が
+咲き乱れる美しい丘で、
+ひそかな町の人気スポットである。
+<PAUSE>
+<NAME_PLATE>俺
+「いい所だろ？
+　ここで昼寝すると気持ちが良いんだ」
+<PAUSE>
+<NAME_PLATE>
+　金欠なこともあるし、クリアのような子が
+喜びそうな所も見当がつかない。
+<PAUSE>
+<NAME_PLATE>
+　なので俺は、お気に入りの場所である
+この丘に連れてきた。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「わぁ、きれい！」
+<PAUSE>
+//　※立ち絵　
+//　　クリア・ローベル立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>俺
+「気に入ったか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん！　ふうま、好き！」
+<PAUSE>
+<NAME_PLATE>俺
+「そっ、そうですか……！！」
+<PAUSE>
+<NAME_PLATE>俺
+（これは……少し危険だな！！）
+<PAUSE>
+<NAME_PLATE>
+　花を見て無邪気に喜ぶクリアの様子に、
+俺は今さらながら危機感を覚えた。
+<PAUSE>
+<NAME_PLATE>
+　俺自身は全くそんな気はないのだが……
+何も知らないような少女を好き勝手に
+連れ回している。
+<PAUSE>
+<NAME_PLATE>
+　これ、傍から見ると思いっきり
+通報案件なのでは……？
+<PAUSE>
+<NAME_PLATE>俺
+「お、お前……
+　家とかに連絡しなくていいのか？」
+<PAUSE>
+<NAME_PLATE>クリア
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　少し気になってクリアに聞いてみた。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、こんなフラフラ歩き回ってたら、
+　保護者の人が心配するだろう？」
+<PAUSE>
+<NAME_PLATE>俺
+（そして、万が一親御さんに見つかったら
+　俺が通報されかねないしな！！）
+<PAUSE>
+<NAME_PLATE>クリア
+「もうした。平気」
+<PAUSE>
+<NAME_PLATE>俺
+「へ？　いつのまに……」
+<PAUSE>
+<NAME_PLATE>
+　そんな素振りは全く見てないのだが……
+スマホでメールでもしたのだろうか。
+<PAUSE>
+<NAME_PLATE>俺
+「で、向こうはなんて？」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん。もうちょっと平気だって」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか……？」
+<PAUSE>
+<NAME_PLATE>
+　要領を得ない。
+けれど、保護者に連絡を入れたのなら
+問題ないのかな？
+<PAUSE>
+<NAME_PLATE>クリア
+「今は自由時間。
+　だから、ふうまと遊びたい」
+<PAUSE>
+<NAME_PLATE>クリア
+「……だめ？」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ。よくわからないが……
+　これも男の器量というヤツか。
+　仕方がない、付き合ってやるよ」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん！」
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿丘＿昼】【時間：昼】
+//　※対魔忍ユキカゼの背景NC008aより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc117a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「おっ！？　ちょうど良かった、
+　これで遊ぼうぜ」
+<PAUSE>
+<NAME_PLATE>
+　良いものを見つけた。
+<PAUSE>
+<NAME_PLATE>
+　俺は誰かが忘れていったらしき
+フライングディスクを拾って、
+クリアに向けて構えた。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「？　なに？」
+<PAUSE>
+<NAME_PLATE>俺
+「遊び道具だよ。
+　まあ、追いかけっこするよりは
+　楽しいだろう」
+<PAUSE>
+<NAME_PLATE>クリア
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　首を傾げているクリアに向かって
+ディスクを投げた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クリア
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　クリアはさっとそれを避ける。
+<PAUSE>
+<NAME_PLATE>クリア
+「……宣戦布告？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちげーよ。そういう遊び。
+　避けるんじゃなくて。
+　受け止めて投げ返すんだ」
+<PAUSE>
+<NAME_PLATE>クリア
+「受け止めて、投げ返す？」
+<PAUSE>
+<NAME_PLATE>
+　クリアがキョトンとした顔をする。
+<PAUSE>
+<NAME_PLATE>俺
+「知らないのか？　フライングディスク」
+<PAUSE>
+<NAME_PLATE>クリア
+「初めて見た」
+<PAUSE>
+<NAME_PLATE>俺
+「マジか……」
+<PAUSE>
+<NAME_PLATE>
+　今の子はこういうおもちゃで
+遊ばないんだろうか。
+<PAUSE>
+<NAME_PLATE>
+　軽く世代のギャップを感じつつ、
+俺は地面に落ちたディスクを拾い上げた。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあ、もう一回な。それ！」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん……キャッチ。これを、投げ返す」
+<PAUSE>
+<NAME_PLATE>
+　さっきよりも優しく投げてやると、
+クリアは簡単にそれ受け止め、
+こちらに投げ返してきた。
+<PAUSE>
+<SE_PLAY>se006
+<NAME_PLATE>
+　――ビュン！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おわっ！？」
+<PAUSE>
+<NAME_PLATE>
+　空気を切り裂くような
+ものすごいスピードだった。
+<PAUSE>
+<NAME_PLATE>
+　思わずさっと身をかわすと、
+クリアが不思議そうに聞いてくる。
+<PAUSE>
+<NAME_PLATE>クリア
+「受け止めて、投げ返さないの？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、
+　ちょっとビックリしただけだ……」
+<PAUSE>
+<NAME_PLATE>
+　完全に予想外だ。まさか、
+あんな剛速球が返ってくるとは――。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃ、じゃあもう一回な」
+<PAUSE>
+<NAME_PLATE>
+　俺は後ろに飛んでいったディスクを
+拾ってきて、再度クリアに投げる。
+<PAUSE>
+<NAME_PLATE>クリア
+「キャッチ。これを、投げ返す」
+<PAUSE>
+<SE_PLAY>se006
+<NAME_PLATE>
+　――ビュン！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おう！？」
+<PAUSE>
+<NAME_PLATE>
+　さっきと同じすごいスピード――
+だが、今度は来るとわかっていたので、
+何とか受け止めることができた。
+<PAUSE>
+<NAME_PLATE>俺
+「ハハハ！！　見たか、
+　これが俺の実力だ！！」
+<PAUSE>
+<NAME_PLATE>クリア
+「……？　ふうま、早く次」
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、はい……」
+<PAUSE>
+<NAME_PLATE>
+　また俺が投げ返し、
+クリアがそれを投げ返す。
+<PAUSE>
+<NAME_PLATE>
+　そんな風にしてリレーを続けると、
+少しずつクリアが笑顔になってきた。
+<PAUSE>
+<NAME_PLATE>クリア
+「えへへっ。ふうま、これ楽しいね♪」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうか！」
+<PAUSE>
+<NAME_PLATE>クリア
+「うん♪　もう一回いくよ――えい」
+<PAUSE>
+<SE_PLAY>se006
+<NAME_PLATE>
+　――ビュン！！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うぐぅっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　クリアがコツを掴んできたのか、
+もはや人間離れしたスピードになった
+ディスクを俺は必死でキャッチした。
+<PAUSE>
+<NAME_PLATE>俺
+（く、くそぉ！　こいつ、
+　恐ろしい運動神経してやがる……！）
+<PAUSE>
+<NAME_PLATE>
+　クリアが満面の笑みで楽しんでいるのに、
+こっちはリレーを繋ぐので精一杯だ。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の中では最低クラスとはいえ、
+一応は俺も常人以上の動きが
+できるはずなのに――。
+<PAUSE>
+<NAME_PLATE>クリア
+「ふうま、もっと強く投げて」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、わかった。
+　――ってスマン、クリア！　ミスった！」
+<PAUSE>
+<NAME_PLATE>
+　力の加減を間違え、
+ディスクをとんでもない高さに
+投げてしまった。
+<PAUSE>
+<NAME_PLATE>クリア
+「大丈夫――んしょ」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　クリアが跳躍した。
+<PAUSE>
+<NAME_PLATE>
+　常人では絶対にあり得ない
+数メートルの高さまで。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「はい、キャッチ。
+　……ふうま？　どうしたの？」
+<PAUSE>
+<NAME_PLATE>
+　ディスクを手に軽々と着地したクリアが
+首を傾げて聞いてくる。
+<PAUSE>
+<NAME_PLATE>
+　……これを見せられたら、イヤでも気付く。
+<PAUSE>
+<NAME_PLATE>
+　薄々感じていた疑念が、確信に変わる。
+<PAUSE>
+<NAME_PLATE>
+　――クリアは異常だ。
+絶対に通常の人間ではない。
+<PAUSE>
+<NAME_PLATE>俺
+「クリア、お前……？」
+<PAUSE>
+<NAME_PLATE>
+　俺が知らない外国の対魔忍……
+だったら、何も問題はない。
+<PAUSE>
+<NAME_PLATE>
+　だが、そうでなかったら？
+<PAUSE>
+<NAME_PLATE>
+　一体こいつは何者で、
+何のために五車町に……？
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　その時。
+<PAUSE>
+<NAME_PLATE>クリア
+「……………………呼んでる」
+<PAUSE>
+<NAME_PLATE>
+　ビクッと、
+クリアが弾かれたように顔を上げた。
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<NAME_PLATE>クリア
+「…………アサギ、戻った」
+<PAUSE>
+<NAME_PLATE>俺
+「なに？　アサギ先生……！？」
+<PAUSE>
+<NAME_PLATE>
+　さっき会ったゆきかぜが、
+アサギ先生は今日、
+もうすぐ戻ってくると言っていた。
+<PAUSE>
+<NAME_PLATE>クリア
+「わたし、届ける。お腹の中の……」
+<PAUSE>
+<NAME_PLATE>俺
+「お腹の中？
+　お前、一体なんのことを言って……？」
+<PAUSE>
+<NAME_PLATE>クリア
+「………………………………」
+<PAUSE>
+<NAME_PLATE>
+　クリアは答えない。
+<PAUSE>
+<NAME_PLATE>
+　ただ悲しそうな顔でうつむいている。
+そして……。
+<PAUSE>
+<NAME_PLATE>クリア
+「……任務だから」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「任務っ！？
+　ちょっと待て、クリアっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　クリアを引き止めようと手を伸ばす
+――が、それをするりとかわされる。
+<PAUSE>
+<NAME_PLATE>クリア
+「ふうま、楽しかった。バイバイ――」
+<PAUSE>
+<SE_PLAY>se078
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　駆け出すクリア。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>
+　ブウン――という奇妙な機械音に続き、
+その右手にはブレード、左手には
+シールドのようなものが展開された。
+<PAUSE>
+//　※クリア立ち絵のブレード＋シールド差分がありましたら、ここからお願いします。
+<NAME_PLATE>俺
+「っ！？　お、おいおい……」
+<PAUSE>
+<NAME_PLATE>
+　さっきのクリアの言葉から考えると――。
+<PAUSE>
+<NAME_PLATE>
+　駆け出したあいつが向かった先は、
+五車学園――！？
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「イヤな予感しかしないぞ！？
+　クリア、待てっ！！」
+<PAUSE>
+//【背景：五車町＿町並み＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC019aより流用
+<BG>nc078a,IN, 1000
+<NAME_PLATE>俺
+「クソ！！
+　やっぱりとんでもない運動能力だ！！」
+<PAUSE>
+<NAME_PLATE>
+　こっちも全力で走っているのに、
+全く追いつけない。
+<PAUSE>
+<NAME_PLATE>
+　あっという間に先行するクリアの背中は
+見えなくなり――
+<PAUSE>
+<NAME_PLATE>
+　そして、五車学園のある方角から
+大勢の叫び声や戦闘音が
+わずかに聞こえてくる。
+<PAUSE>
+<NAME_PLATE>俺
+（あいつ……
+　本当にアサギ先生を狙っていたのか！？）
+<PAUSE>
+//【背景：五車学園＿正門前＿朝】【時間：昼】
+//　　※対魔忍アサギZEROの背景NC008aより流用
+<BG>nc054a,NONE
+<TRANSITION>TR01, IN,1000
+<SE_PLAY>se078
+<NAME_PLATE>俺
+「はぁ、はぁ……やっと着いたけど、
+　これは……」
+<PAUSE>
+<NAME_PLATE>
+　学園正門では、
+すでに激しい戦闘が始まっていた。
+<PAUSE>
+<NAME_PLATE>
+　学園に侵入しようとするクリア、
+それに対する警備の対魔忍たちである。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「……アサギ、どこ？」
+<PAUSE>
+//　※立ち絵　
+//　　クリア・ローベル立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　クリアは、捕らえた対魔忍のひとりを
+少女とは思えない力で締め上げている。
+<PAUSE>
+<NAME_PLATE>対魔忍
+「言うものかっ！
+　対魔忍を見くびるな侵入者め！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>クリア
+「そう」
+<PAUSE>
+<NAME_PLATE>
+　クリアが無感情に言って、
+対魔忍を投げ捨てた。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ゴウッ――！！
+<PAUSE>
+<NAME_PLATE>対魔忍
+「あがっ！？　ぐおぉ……っ！」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の体がゴミ屑のように
+軽々と吹き飛び、植え込みの煉瓦に
+グシャリとめり込んだ。
+<PAUSE>
+<NAME_PLATE>俺
+（おいおい……）
+<PAUSE>
+<NAME_PLATE>
+　ディスクで遊んでいた時にも見せていた、
+クリアの力の片鱗。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍と互角――
+いや、互角以上の凄まじい膂力であった。
+<PAUSE>
+<NAME_PLATE>クリア
+「…………………」
+<PAUSE>
+<NAME_PLATE>
+　そして、こんな状況にも関わらず
+クリアの顔には何の感情も見られない。
+<PAUSE>
+<NAME_PLATE>
+　さっき遊んでいた時とは
+別人のような冷たさだ。
+<PAUSE>
+<ACTOR>2,chr_t0088a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,yu_t002f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「このぉ！！？　いい加減にしなさいっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>
+　クリアを応戦している中には、
+ゆきかぜや蛇子、鹿之助の姿もあった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1500
+<SE_PLAY>se030_02
+<BG>ef011a,NONE
+</GROUP>
+<NAME_PLATE>
+　苛立ったように雷銃をぶっ放すゆきかぜ――
+<PAUSE>
+<BG>nc054a,IN, 500
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　しかしその攻撃も、クリアが持つシールドで
+完全に防がれてしまう。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,yu_t002d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「もう！！　あの盾、邪魔よっ！！」
+<PAUSE>
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ゆきかぜちゃん！！　だったら蛇子が――」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「蛇子っ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「いつもみたくタコ墨で見えなくしてあげる！
+　鹿之助ちゃん、探知お願い！」
+<PAUSE>
+<NAME_PLATE>クリア
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　いつものようにタコ墨で視界を奪い、
+鹿之助の電波ソナーで探知するという作戦だ。
+<PAUSE>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR>0,s_t002d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ああ！？　ダメだって！！
+　蛇子、ちょっと待てぇええっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍衣装（電気）
+<NAME_PLATE>蛇子
+「えっ……？」
+<PAUSE>
+<NAME_PLATE>
+　なぜか鹿之助が制止しようとするが、
+間に合わなかった。
+<PAUSE>
+<NAME_PLATE>
+　ぴゅ～っと蛇子のタコ墨が
+クリアに向かって放たれ――
+<PAUSE>
+<NAME_PLATE>クリア
+「むー。邪魔……」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1500
+<NAME_PLATE>
+　ブゥゥゥゥン――！！！
+<PAUSE>
+<NAME_PLATE>蛇子
+「ええっ！！？　蛇子のタコ墨がっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　無感情な呟きと共に
+クリアの持つシールドから放たれた輝き――。
+<PAUSE>
+<NAME_PLATE>
+　それが触れると同時に、
+撒き散らされた蛇子のタコ墨は
+一瞬で蒸発していった。
+<PAUSE>
+<ACTOR>0,s_t002e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あー……。
+　いや、でもむしろ良かったのか……？」
+<PAUSE>
+<ACTOR>1,h_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「鹿之助ちゃん、
+　良かったってどういうこと！？」
+<PAUSE>
+<ACTOR>0,s_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「そ、それは……あの剣と盾だよ！！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が、クリアの奇妙な白い輝きを放つ
+ブレードとシールドを指差した。
+<PAUSE>
+<ACTOR>0,s_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あの装備から変な粒子が出てるんだ。
+　それが、俺の電波ソナーを
+　ジャミングしてる！！」
+<PAUSE>
+<ACTOR>1,h_t005f,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「ええっ！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「いつもみたくタコ墨を使ったら、
+　俺まで見えなくなっちゃうよ！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そんな！？
+　じゃあ、どうすればいいの！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「……アサギ、どこ？」
+<PAUSE>
+<NAME_PLATE>
+　いつもの連携が通じず
+困惑した様子の蛇子達にクリアが接近する。
+<PAUSE>
+<NAME_PLATE>俺
+（ああ、もう！！　なにやってんだよ！！）
+<PAUSE>
+<NAME_PLATE>俺
+「やめろ、クリア！！
+　そいつらに手を出すな！！」
+<PAUSE>
+<NAME_PLATE>クリア
+「………………ふうま？」
+<PAUSE>
+<NAME_PLATE>
+　クリアの動きが止まった。
+<PAUSE>
+<NAME_PLATE>
+　俺の方を振り向いて、
+不思議そうな顔で首を傾げる。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「！？　今だ――っ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 3000
+<SE_PLAY>se030_02
+<BG>ef011a,NONE
+</GROUP>
+<NAME_PLATE>
+　その隙を付いて、
+ゆきかぜが雷銃をぶっ放した。
+<PAUSE>
+<NAME_PLATE>
+　クリアの背中に
+必殺の雷撃弾が襲いかかる。
+<PAUSE>
+<NAME_PLATE>俺
+「ば、馬鹿！！？　ちょっと待てぇ！！」
+<PAUSE>
+<NAME_PLATE>クリア
+「？　ふうま……？」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<BG>nc054a,IN, 500
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　とっさに俺はクリアに飛びかかり、
+抱きかかえるようにして
+ゆきかぜの攻撃を回避した。
+<PAUSE>
+<ACTOR>3,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なにするのよ！？
+　ふうま、あんたどういうつもり！？」
+<PAUSE>
+<NAME_PLATE>俺
+「うるせえな！
+　俺だってよくわかんねえよ！！」
+<PAUSE>
+<NAME_PLATE>
+　強力すぎるゆきかぜの雷撃弾に
+巻き込まれるなんて御免こうむる。
+<PAUSE>
+<NAME_PLATE>
+　だが、反射的に体が動いていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「はあ！？　あんた、その子は刺客よ！！
+　アサギ先生を狙ってる！！」
+<PAUSE>
+<NAME_PLATE>俺
+「わかってるよ！！　でもこいつ、
+　さっき一緒にアイス食ったんだよ！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「それがなんなのよ！！？　どきなさい！！
+　あんたも撃たれたいの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「なわけねえだろ！！　それでもだよ！！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「もう！！　あんた何言ってるのよ！！？」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>2,chr_t0088a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クリア
+「………………………………………」
+<PAUSE>
+<NAME_PLATE>
+　そんなやり取りをするゆきかぜと俺を、
+クリアは無感情な瞳で見つめていた。
+<PAUSE>
+<NAME_PLATE>
+　しかし――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クリア
+「………………っ！？　だ、ダメ……違う。
+　ふうま、対魔忍じゃない……」
+<PAUSE>
+<NAME_PLATE>俺
+「あ……？」
+<PAUSE>
+<NAME_PLATE>
+　クリアが苦しげに呻いていた。
+<PAUSE>
+<NAME_PLATE>
+　頭の上にちょこんと付けられている
+装置のようなものがチカチカと点滅している。
+<PAUSE>
+<NAME_PLATE>クリア
+「ダメ……ふうま、攻撃しない……。
+　忍法の力、なかった……」
+<PAUSE>
+<NAME_PLATE>俺
+「おい！？　どうしたクリア！？」
+<PAUSE>
+<NAME_PLATE>クリア
+「きょ、拒否……い、イヤ……
+　あっ、あぁぁぁあぁぁ
+　あああああああああああっ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　刃で貫かれたようにクリアの体が
+ガクガクと痙攣し、次の瞬間――。
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se001
+</GROUP>
+<NAME_PLATE>俺
+「ぐはっ！？」
+<PAUSE>
+<NAME_PLATE>
+　上にのしかかっていた俺を凄まじい力で
+跳ね除け、立ち上がったクリアの瞳からは、
+完全に意志の光が失われていた。
+<PAUSE>
+<NAME_PLATE>クリア
+「………………ゼンイン、コロス……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おい！？　クリア！？」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ダメよふうま！！　戦うしかない！！！」
+<PAUSE>
+<NAME_PLATE>
+　叫びかわす俺達に向けて、
+クリアのブレードの狙いがつけられた。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→プロローグ終了

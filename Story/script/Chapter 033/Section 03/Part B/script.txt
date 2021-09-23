@@ -1,0 +1,98 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿二車忍軍支配地域＿昼夜共通】【時間：夜】
+//　※陰陽騎士トワコ_nc005aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc042a,IN, 1000
+<ACTOR>0,kn_t001a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>紅
+「沙無羅威！？　というと、
+　東京キングダム“五強”の……」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅ＳＲ01（魔性）
+//　　　　＊ＲＰＧカードイラストを流用
+<ACTOR>1,g_t003c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「ああ。ノマド配下のクソ魔族どもだ」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装（武装）
+<NAME_PLATE>骸佐
+「あの妙な刀を持っている野郎が、
+　そのボスのニールセン。そして
+　もう片方の四本脚がオロバス――」
+<PAUSE>
+<NAME_PLATE>
+　どちらも上級魔族を凌ぐ魔力を持ち、
+フュルストの配下の中でも“四天王”と
+呼ばれる一騎当千の怪物たち。
+<PAUSE>
+<NAME_PLATE>骸佐
+「奴らは、あの魔科医のハゲから
+　おかしな力を授けられている」
+<PAUSE>
+<NAME_PLATE>骸佐
+「ただでさえバカ強え奴らだったが、
+　今では完全に手の付けられない化け物だ」
+<PAUSE>
+<NAME_PLATE>紅
+「そうか、ノマドの魔科医……
+　フュルストか……」
+<PAUSE>
+<NAME_PLATE>
+　紅の瞳がギラリと光る。
+<PAUSE>
+<NAME_PLATE>
+　出生にとある秘密を抱える紅にとって、
+ノマドは看過できない“敵”である。
+<PAUSE>
+<NAME_PLATE>骸佐
+（だが、腑に落ちねえ……）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　次々と“闇の門”から出現する
+沙無羅威の兵士を見て骸佐が思案する。
+<PAUSE>
+<NAME_PLATE>
+　いかにフュルストといえど、
+これほどの大軍を転送するほどの魔力を
+持っているはずが――。
+<PAUSE>
+<NAME_PLATE>
+　その時、そんな骸佐の疑念に応えるように。
+<PAUSE>
+<ACTOR>0,f_t001b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フュルスト
+「ホホホホ！　クソだのバカだの、
+　相変わらず元気ですねえ、骸佐さん」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>フュルスト
+「さあ、脆弱な人間が私に牙をむいた報い、
+　その体にしっかりと刻んであげますよ♪」
+<PAUSE>
+<NAME_PLATE>
+　ひときわ昏く輝く“闇の門”から
+姿を現す闇の魔科医フュルスト。
+<PAUSE>
+<NAME_PLATE>
+　その腕に、禍々しい瘴気をまとった
+一冊の魔導書を携えて。
+<PAUSE>
+//→Section３終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,161 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：五車学園＿プール＿昼】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm311,1000
+<BG>nc051a,IN, 1000
+<ACTOR>0,ws_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ほらほらっ！！　もう逃げ場ないよ！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<NAME_PLATE>俺
+「くそっ……！！」
+<PAUSE>
+<NAME_PLATE>
+　若いさくら先生といえど、
+その実力は圧倒的である。二刀で追われ、
+あっという間に追い詰められてしまった。
+<PAUSE>
+<NAME_PLATE>俺
+（後ろは水際……どうする！？）
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「侵入者、覚悟っ！」
+<PAUSE>
+<NAME_PLATE>
+　さくら先生の影から黒い刃が生え出て、
+一斉に襲いかかってくる。
+<PAUSE>
+<NAME_PLATE>俺
+（うわっ……！！）
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, RIGHT, NONE, linear, 500
+<ACTOR>2,rn_t001f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>凜子
+「待て！！」
+<PAUSE>
+//　※立ち絵
+//　　凜子戦闘立ち絵_対魔忍衣装
+<ACTOR>0,ws_t005a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「凜子さん！？　なに？　トドメ差したい？」
+<PAUSE>
+<ACTOR>2,rn_t001j,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「いや違う、誤解なんだ！
+　この男は侵入者などではなくて、
+　えーと……」
+<PAUSE>
+<ACTOR>2,rn_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「弟！　そう、私の弟なんだ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はあ！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>0,ws_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ほええ！？」
+<PAUSE>
+<NAME_PLATE>
+　その言葉に、
+さくら先生は驚いた顔で固まった。
+<PAUSE>
+<ACTOR>0,ws_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「………弟ねぇ……？」
+<PAUSE>
+<NAME_PLATE>
+　さくら先生は俺の顔をまじまじと見つめる。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+（う、うっ……）
+<PAUSE>
+<NAME_PLATE>さくら
+「……………」
+<PAUSE>
+<BGM_PLAY>bgm401,1000
+<ACTOR>0,ws_t005b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ほんとだ！　そっくりだね！！！」
+<PAUSE>
+<NAME_PLATE>俺＆凜子
+「「えええええええええ」」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは思わず声をあげてしまった。
+<PAUSE>
+<ACTOR>0,ws_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「ん？　えええええって何？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、いや、よ、良く言われるよね………
+　り、凜子せ……姉ちゃん……」
+<PAUSE>
+<ACTOR>2,rn_t001k,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>凜子
+「あ、ああ……しんがぃ………
+　嬉しい限りだな弟よ」
+<PAUSE>
+<NAME_PLATE>
+　俺たちはしどろもどろになりつつ必死で
+取り繕う。せっかく凜子先輩がかばって
+くれたのだ、ここで怪しまれるわけには……
+<PAUSE>
+<ACTOR>0,ws_t005b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「やだなぁー、だったら早く言ってくれれば
+　いいのにぃ！　もう！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ws_t005b,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>2,rn_t001k,LEFT, LEFT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　さくら先生の手が、
+ばんばんと俺の背中を叩く。
+<PAUSE>
+<NAME_PLATE>俺
+（よ、よかった……
+　今も昔もさくら先生が単純で…）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　俺が心底胸をなでおろした――そのとき。
+<PAUSE>
+//【背景：次元の狭間】【時間：昼】
+//※吉川解説
+//　立ち絵はそのままで背景だけ変わるようにお願いします。
+<BG>nc052a,NONE
+<EFFECT_FLASH>WHITE, 500
+<NAME_PLATE>俺
+「な、なんだ！？」
+<PAUSE>
+<BGM_PLAY>bgm610,1000
+<NAME_PLATE>
+　辺りの景色が一変し、
+大きな渦のようなものに巻かれる。
+<PAUSE>
+<NAME_PLATE>さくら
+「きた！　侵入者だよ、気をつけて！！」
+<PAUSE>
+<NAME_PLATE>俺
+「気をつけるって言っても、うわっ！？」
+<PAUSE>
+<NAME_PLATE>凜子
+「大丈夫かふう……弟よ！！
+　くっ……一体何事だ！！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section２終了

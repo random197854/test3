@@ -1,0 +1,258 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//シーン説明：
+//※１日目　昼
+//=================================================================
+//※S105aのシナリオの続き
+//【背景：五車学園＿プール＿昼】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm401,1000
+<BG>nc051a,IN, 1000
+<NAME_PLATE>俺
+「ぜえはあ……
+　逃げ足だけは自信がついてきたな…」
+<PAUSE>
+<NAME_PLATE>
+　闇の街とは違い、ここは勝手知ったる
+五車学園だ。
+<PAUSE>
+<NAME_PLATE>
+　俺はさくら先生率いる対魔忍たちを
+どうにかまいて、プールまで逃げて来た。
+<PAUSE>
+<NAME_PLATE>俺
+（火遁使いが多かったからな……
+　水があるここなら少しは凌げるだろう……）
+<PAUSE>
+<NAME_PLATE>俺
+「ふうーー……」
+<PAUSE>
+<NAME_PLATE>
+　俺は大きく深呼吸し、特殊な呼吸法で
+息を整える。対魔忍というよりは忍者としての
+基本的な技術だ。
+<PAUSE>
+<NAME_PLATE>俺
+「それにしても、
+　俺は何で逃げまわってるんだ！？
+　それに……」
+<PAUSE>
+<NAME_PLATE>
+　逃走中に奇妙なことに気がついた。
+すれ違った生徒たちに、
+誰ひとり知った顔がいないのだ。
+<PAUSE>
+<NAME_PLATE>俺
+（助けを求めることもできん。
+　まるで悪夢だ……いや、本当に悪夢だったら
+　どんなにいいか）
+<PAUSE>
+<NAME_PLATE>
+　しかし、頬をつねろうとも、
+顔を洗おうとも、夢が醒める気配はない。
+<PAUSE>
+<NAME_PLATE>？？？
+「ちょっと、そこの君」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！！！！？　もう見つかったのか！？」
+<PAUSE>
+<NAME_PLATE>凜子
+「一年のふうま君じゃないか？！」
+<PAUSE>
+//　※立ち絵
+//　　凜子通常立ち絵_対魔忍衣装
+<ACTOR>0,rn_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「凜子先輩……！？」
+<PAUSE>
+<NAME_PLATE>
+　そこにいたのは、
+なんとあの“斬鬼の対魔忍”まさにさっき
+鹿之助と噂していた秋山凜子であった。
+<PAUSE>
+<NAME_PLATE>
+　その凜子先輩が、
+目を見開いて俺の名前を呼んでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「り、凜子先輩……
+　俺の名前、わかるんですか？」
+<PAUSE>
+<ACTOR>0,rn_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「君も私がわかるようだな」
+<PAUSE>
+<NAME_PLATE>俺
+「お、俺……感動です！！！　さっきから、
+　全く知ってる奴がいなくて……！
+　さくら先生は襲ってくるし……」
+<PAUSE>
+<NAME_PLATE>凜子
+「ああ、私も全く同じだった」
+<PAUSE>
+<NAME_PLATE>俺
+「え！？」
+<PAUSE>
+<ACTOR>0,rn_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「何を隠そう私も少し前に、
+　この不思議な世界に飛ばされて来たのだ」
+<PAUSE>
+<NAME_PLATE>俺
+「えええッ！！？　……って、
+　ここは異世界か何かなんですか？」
+<PAUSE>
+<NAME_PLATE>凜子
+「おそらくはな……」
+<PAUSE>
+<NAME_PLATE>
+　凜子先輩は、ことの経緯を話してくれた。
+<PAUSE>
+<ACTOR>0,rn_t001e,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>
+　数日前、ひとりで鍛錬をしていたところ、
+急な目眩に襲われて、
+いつの間にかこの世界に来ていたのだという。
+<PAUSE>
+<NAME_PLATE>
+　この世界――俺たちの知る“五車学園”とは
+少し異なるこの世界に。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ最初は気付かず、アサギ校長に
+用があったので校長室へ行った。するとなんと
+校長は別の人物。
+<PAUSE>
+<NAME_PLATE>
+　驚いた凜子は教室へ戻るも、
+そこに自分の席はなく、
+見知ったクラスメイトすらもいない。
+<PAUSE>
+<NAME_PLATE>
+　危うく騒ぎになりかけたが、
+偶然“この世界の凜子”に出会う。
+<PAUSE>
+<NAME_PLATE>
+　彼女の協力で「秋山家の遠い親戚だが
+対魔忍の素質が急に目覚めた」という事にして
+もらったのだそうだ。
+<PAUSE>
+<ACTOR>0,rn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「そして、転校生として学園生活を
+　送りながら、事態を見極めることに
+　したのだ」
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっと待ってくださいよ。
+　この世界の凜子先輩って！？」
+<PAUSE>
+<ACTOR>0,rn_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「幼いが利発な子だよ」
+<PAUSE>
+<NAME_PLATE>俺
+「幼い……？」
+<PAUSE>
+<ACTOR>0,rn_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「うむ。君もこの世界のさくら先生を
+　見ただろう？　この世界のさくら先生は
+　私たちと同じ学生だ」
+<PAUSE>
+<NAME_PLATE>
+　何だか脳みそが捻れそうだ。
+さすがの俺のアタマも、
+こんな事態には対応していない。
+<PAUSE>
+<NAME_PLATE>俺
+「ええとですね………つまりこの世界は……」
+<PAUSE>
+<ACTOR>0,rn_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>凜子
+「過去の世界のようだ。
+　ただし、私たちの直接の過去、
+　というわけではないだろう」
+<PAUSE>
+<NAME_PLATE>凜子
+「思うに、この世界には無限の次元と
+　時系列があって……」
+<PAUSE>
+<NAME_PLATE>俺
+「ややこしいですね………」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,ws_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「いたな曲者！！！
+　尋常に打ち首獄門だよ！！！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+<BGM_PLAY>bgm311,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！　やばい……！
+　すいません凜子先輩、俺逃げます！」
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>1,ts_m014a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m013a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍１
+「尋常にのこぎり挽きよ！！！」
+<PAUSE>
+//　※立ち絵
+//　　風遁衆(女)立ち絵
+//　　風遁衆(男)立ち絵
+<NAME_PLATE>対魔忍２
+「尋常に釜茹でだ！！！」
+<PAUSE>
+<NAME_PLATE>
+　しかし、新手の対魔忍たちに
+プールの四方を囲まれる。
+<PAUSE>
+<NAME_PLATE>俺
+「せめて意見まとめろよ！」
+<PAUSE>
+<NAME_PLATE>凜子
+「ふうま君、これは一体！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,ts_m014a,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>2,ts_m013a,LEFT, LEFT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ws_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「凜子さん離れて！！！
+　そいつ多分性犯罪者だよ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「“たぶん”で人を性犯罪者にするなよ！？」
+<PAUSE>
+<ACTOR>0,ws_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ここにいるのが何よりの証拠！
+　これからここで女子の水泳の授業があるのを
+　知っての所業だろう！」
+<PAUSE>
+<NAME_PLATE>凜子
+「そ、そうなのかふうま君！？
+　見損なったぞ！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「えええ！？　凜子先輩！！？」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ws_t005f,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section２-ＭＡＰ画面１へ

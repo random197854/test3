@@ -1,0 +1,437 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：汎用田舎のあぜ道＿昼】【時間：昼】
+//　※MISAO_nc002aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc114c,IN, 1000
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「お、お前は……あの時の……」
+<PAUSE>
+<NAME_PLATE>
+　俺は思いだしていた。
+<PAUSE>
+<NAME_PLATE>
+　数年前、別宅からの帰り道、
+こいつと会ったことを。
+<PAUSE>
+<NAME_PLATE>
+　その時すでに
+あの紫水と会っていたことを。
+<PAUSE>
+<NAME_PLATE>
+　なぜ今の今まで
+そんな大切なことを忘れていたんだ。
+<PAUSE>
+<NAME_PLATE>少年
+「その顔は僕のことを
+　思い出してくれたのかい？」
+<PAUSE>
+//　※立ち絵
+//　　黒斗（吸血鬼差分）
+//　　　※カードイラストより流用
+<NAME_PLATE>少年
+「そう、まあ言ってみれば
+　因縁の相手というわけさ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,ts_m237a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m237a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　あいつの影から這い出た魑魅魍魎たちが
+俺の周りをウゾウゾと取り囲んでいく。
+<PAUSE>
+//　※立ち絵
+//　　貪欲なる闇
+//　　　※モンスターイラストより流用
+//※複数出してください
+<NAME_PLATE>俺
+「因縁の相手だと……？
+　俺とお前が……？？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少年
+「なんだ？
+　そこまでは思い出せないのかい？」
+<PAUSE>
+//　※立ち絵
+//　　黒斗（吸血鬼差分）
+//　　　※カードイラストより流用
+<NAME_PLATE>少年
+「まあその方がいいかもね。
+　下手に思い出されても
+　厄介が増えるだけだし」
+<PAUSE>
+<NAME_PLATE>
+　あいつはあの時と同じ、
+妙に思わせぶりな表情をしていた。
+<PAUSE>
+<NAME_PLATE>
+　すぐに俺を殺すつもりはないのか？
+ならこういうタイプは喋らせるに限る。
+<PAUSE>
+<NAME_PLATE>俺
+「あの時と同じように
+　俺を処分しにきたのか？」
+<PAUSE>
+<NAME_PLATE>少年
+「それは自分を過大評価しているよ。
+　あの時も会ったのはたまたまだしね」
+<PAUSE>
+<NAME_PLATE>少年
+「今日も人間界に用事があって
+　立ち寄っただけ。
+　ここで処分するつもりもない。安心して」
+<PAUSE>
+<NAME_PLATE>少年
+「君と“交換して得た力”は
+　気に入っているしね」
+<PAUSE>
+<NAME_PLATE>
+　案の定、奴は勝手にペラペラと喋り始めた。
+<PAUSE>
+<NAME_PLATE>
+　あの時も今回も偶然。
+<PAUSE>
+<NAME_PLATE>
+　人間界に別に用事があった。
+<PAUSE>
+<NAME_PLATE>
+　ここで俺を処分するつもりはい。
+<PAUSE>
+<NAME_PLATE>
+　どこまで本当か分からなかったが、
+最後のセリフだけは聞き捨てならなかった。
+<PAUSE>
+<NAME_PLATE>俺
+「交換？
+　まさか俺の魔性の力はお前の……？」
+<PAUSE>
+<NAME_PLATE>
+　目の前にいるこいつの気配、
+あの魔性の力を使ったときの嫌な感じ。
+<PAUSE>
+<NAME_PLATE>
+　そう、同じだ。
+<PAUSE>
+<NAME_PLATE>少年
+「おっと少し喋りすぎたかな。
+　危ない危ない」
+<PAUSE>
+<NAME_PLATE>
+　奴は俺の誘いに乗って、
+そこまで喋るのも予定通りと言いたげに
+大げさに肩をすくめた。
+<PAUSE>
+<NAME_PLATE>少年
+「ただ君に奪われた僕の力の一部を
+　放置するわけにもいかないからね」
+<PAUSE>
+<NAME_PLATE>少年
+「命は奪わないよ。
+　君を囚えておく事にしたんだ」
+<PAUSE>
+<NAME_PLATE>
+　やつは不気味な笑みを浮かべた。
+<PAUSE>
+<NAME_PLATE>
+　囚えられてどうなるか。
+<PAUSE>
+<NAME_PLATE>
+　きっとこの場で処分されるよりも
+厄介なことになるに違いない。
+<PAUSE>
+<NAME_PLATE>俺
+「くっ……」
+<PAUSE>
+<NAME_PLATE>
+　あの時は紫水がいた。
+亜希姉も俺を助けてくれた。
+<PAUSE>
+<NAME_PLATE>
+　今は俺一人。
+<PAUSE>
+<NAME_PLATE>
+　一人でこの場を切り抜けなければならない。
+<PAUSE>
+<NAME_PLATE>
+　だがやるしかない。
+俺だってあの頃とは違う。
+<PAUSE>
+<NAME_PLATE>
+　躊躇うことなく刀を抜く。
+<PAUSE>
+<NAME_PLATE>少年
+「抵抗するつもりかい？
+　まあ止めはしないよ」
+<PAUSE>
+<NAME_PLATE>俺
+「そうさせてもら―――ぐっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いきなり額が焼けるように熱くなった。
+<PAUSE>
+<NAME_PLATE>
+　俺を囚えるための魔術かなにかか！？
+<PAUSE>
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少年
+「なんだい？　その額の文様は？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「文様！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　あいつの仕業じゃないのか！？
+いったい俺の身に何が起こってる？
+<PAUSE>
+<NAME_PLATE>
+　戸惑う俺の目の前の空間が不意に揺らぎ、
+あの魔女が現れた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se112
+<ACTOR>0,ts_m084a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エウリュアレー
+「やっとお呼びがかかったわね。
+　待ちかねたわよ、ふうまの坊や♪」
+<PAUSE>
+//　※立ち絵
+//　　エウリュアレー立ち絵
+//　　　＊モンスターイラストから流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「エウリュアレー！？」
+<PAUSE>
+<NAME_PLATE>
+　古代より魔界を彷徨う伝説の魔女にして、
+絶大な力を持つ神格の魔族。
+<PAUSE>
+<NAME_PLATE>
+　古き神々の呪いで両腕を失い、
+その代わりに“見えざる手”という魔術に
+よって二対の大剣を自在に操る。
+<PAUSE>
+<NAME_PLATE>
+　気まぐれに人間界に出現しては
+災厄と混沌をもたらす
+制御不能のトリックスター。
+<PAUSE>
+<NAME_PLATE>
+　なぜか俺を気にしていて、
+以前、東京キングダムではひどい試練を
+受けさせられた。
+<PAUSE>
+<NAME_PLATE>俺
+「お前、なぜここに？」
+<PAUSE>
+<NAME_PLATE>エウリュアレー
+「うふふ、前におまじないのキスを
+　してあげたじゃない」
+<PAUSE>
+<NAME_PLATE>エウリュアレー
+「あいつが坊やの近くに現れたら、
+　いつでもどこでも私を呼び出してって。
+　約束したわよ」
+<PAUSE>
+<NAME_PLATE>エウリュアレー
+「あれは私を強制転移させるための魔術。
+　今いいところだったから
+　急に呼ばれて驚いたわ、エッチ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「あのキスが！？
+　おい、そんな約束してないぞ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>エウリュアレー
+「あら、そうだったかしら。
+　まあいいじゃない。
+　大ピンチだったんでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうだが……」
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<NAME_PLATE>エウリュアレー
+「挨拶代わりにまずは雑魚を
+　排除しておこうかしら、うふふ」
+<PAUSE>
+<NAME_PLATE>
+　目隠しで覆われたエウリュアレーの顔の
+口元がうっすらと微笑んだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<WAIT>500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボシュッッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　二対の大剣が互いに逆方向に一閃し、
+俺を取り囲んでいた闇の化物たちが
+一瞬で全て消滅していた。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>少年
+「やれやれ、厄介な魔女が出たね」
+<PAUSE>
+<NAME_PLATE>少年
+「妙な護符に守られているだけかと思ったら、
+　君までいたとはね」
+<PAUSE>
+<ACTOR>0,ts_m236b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m084a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エウリュアレー
+「会える日を楽しみにしてたわ。
+　ちょっと想像していた姿と違うけど」
+<PAUSE>
+<NAME_PLATE>少年
+「僕にも色々あってね」
+<PAUSE>
+<NAME_PLATE>エウリュアレー
+「名は体を表す。
+　今のあなたはなんて呼べばいいかしら？」
+<PAUSE>
+<NAME_PLATE>黒斗
+「じゃあ黒斗（くろと）と
+　呼んでくれるかい？」
+<PAUSE>
+<NAME_PLATE>俺
+「黒斗……？」
+<PAUSE>
+<NAME_PLATE>
+　知らない名だ。
+<PAUSE>
+<NAME_PLATE>
+　だが胸の奥がぎりりと痛んだ。
+<PAUSE>
+<NAME_PLATE>エウリュアレー
+「よろしく、黒斗。
+　それじゃ挨拶も済ませたし、
+　死になさい！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　“見えざる手”、二対の大剣が
+黒斗に襲いかかった。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>黒斗
+「せっかちだね」
+<PAUSE>
+<NAME_PLATE>
+　黒斗は掌から闇を湧き出させて、
+それを苦もなく受け止める。
+<PAUSE>
+<NAME_PLATE>黒斗
+「９貴族のうちの……
+　死霊卿にでも頼まれたのかい？」
+<PAUSE>
+<ACTOR>0,ts_m236b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m084a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エウリュアレー
+「答える理由はないわ」
+<PAUSE>
+<NAME_PLATE>黒斗
+「失った腕と引き換えに僕を殺せ。
+　そんなところかな？」
+<PAUSE>
+<NAME_PLATE>エウリュアレー
+「さあねっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<WAIT>500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　エウリュアレーの二対の大剣と
+黒斗が繰り出す闇が激しくぶつかり合う。
+<PAUSE>
+<NAME_PLATE>
+　俺やきらら先輩を試した時とは
+明らかに様子が違う。
+<PAUSE>
+<NAME_PLATE>
+　エウリュアレーは本気だ。
+<PAUSE>
+<NAME_PLATE>
+　あの黒斗はそれほどの相手なのだ。
+<PAUSE>
+<BG>nc114c,IN, 500
+<ACTOR>0,ts_m084a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エウリュアレー
+「坊や、油断しないで」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m236b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>黒斗
+「君にはこれの相手をして貰おうかな。
+　大丈夫、殺しはしないよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>2,ts_m237a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m237a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m237a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>貪欲なる闇
+「ぐぢゅるぐぢゅるぐぢゅる！！」
+「ぐぢゅるぐぢゅるぐぢゅる！！」
+「ぐぢゅるぐぢゅるぐぢゅる！！」
+<PAUSE>
+//　※立ち絵
+//　　貪欲なる闇
+//　　　※モンスターイラストより流用
+//　※複数出してください
+<NAME_PLATE>
+　黒斗が呼び出した貪欲なる闇が
+とてもそうは思えない音を発して
+俺に迫ってきた。
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

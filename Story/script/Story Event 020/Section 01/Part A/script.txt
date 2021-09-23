@@ -1,0 +1,448 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車学園＿地下訓練施設＿演習室（柱なし）昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC016bの背景を流用
+<BG>nc090a,IN, 1000
+<NAME_PLATE>
+　五車学園・地下施設。
+<PAUSE>
+//【背景：五車学園＿地下訓練施設＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC015aの背景を流用
+<BGM_PLAY>bgm208,1000
+<BG>nc002a,IN, 1000
+<NAME_PLATE>
+　その日の授業の終了後。
+<PAUSE>
+<NAME_PLATE>
+　俺たちは課外演習のため
+地下の訓練施設に集まっていた。
+<PAUSE>
+<NAME_PLATE>
+　現在、この訓練施設では米連ＤＳＯとの
+共同で機能のアップデートが進められていて、
+俺たちもその試運転に協力しているのだ。
+<PAUSE>
+<NAME_PLATE>
+　参加しているのは、俺のクラスと
+隣のクラスの有志２０名ほど。
+<PAUSE>
+<NAME_PLATE>
+　皆、熱い正義の心を持って
+修行に励む対魔忍の卵たちである。
+<PAUSE>
+<NAME_PLATE>
+　新たな施設がどれくらい己の力を
+高めてくれるのか、それを確かめるべく
+真剣な面持ちで訓練に挑む――。
+<PAUSE>
+<NAME_PLATE>
+　かと思われたが、この日ばかりは
+全くそうはならず。
+<PAUSE>
+<ACTOR>0,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女子学生１
+「あ、あの……
+　山田君、これ受け取って！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女）
+//　　　　＊モンスターイラストより流用
+<ACTOR>1,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>男子学生１
+「俺にチョコを！？
+　ほ、本当かいマキちゃん！！？」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男）
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>女子学生２
+「ほ、ほら！　これ私から！
+　どうせあんたみたいな不良にチョコを
+　あげる子なんていないんでしょ！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（女）
+//　　　　＊モンスターイラストより流用
+<ACTOR>1,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>男子学生２
+「フッ――。
+　確かにお前だけだぜ、
+　サンキューな、アケミ……」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男）
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、あちこちで男女の学生が
+浮かれた空気を作っていた。
+<PAUSE>
+<NAME_PLATE>
+　そう。今日はバレンタイン。
+<PAUSE>
+<NAME_PLATE>
+　闇の世界で悪と戦う対魔忍学生も
+年頃の若者には違いなく、
+<PAUSE>
+<NAME_PLATE>
+　この日ばかりは皆バレンタインに
+気もそぞろという状況だ。
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>上原鹿之助
+「くそー。
+　みんな青春しやがって！！！
+　うらやましいぜ、なぁふうま？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ああ、全くだぜ！
+　今に見てろよモテ男ども！」
+<PAUSE>
+<NAME_PLATE>
+　そして、そんな周囲の様子を
+ぐぬぬと唇を噛みつつ邪魔をしないように
+横目で見ている俺たち。
+<PAUSE>
+<NAME_PLATE>
+　例年のように、今年も俺と鹿之助は
+蛇子と身内以外チョコゼロのチョコ貧民。
+<PAUSE>
+<NAME_PLATE>
+　チョコ祭りに浮つく周囲をしり目に、
+『けっ、あんなのお菓子業界の陰謀だろ！』と
+悪態をついて拗ねるばかりの切ない境遇で。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>女の子
+「あ、あのー、ふうまさんっ！
+　これ受け取ってください！」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　今、あなた何て言った？
+<PAUSE>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>篠原まり
+「こ、これっ！
+　バレンタインのチョコレートですっ！」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>まり
+「い、いえ、そのー……？
+　深い意味とかは、特にあったり
+　なかったりなんですけれどー……」
+<PAUSE>
+<NAME_PLATE>まり
+「と、とりあえず！
+　お友達のしるしと言いますか！
+　えへ、えへへ……」
+<PAUSE>
+<ACTOR>0,chr_t0119a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>七瀬舞
+「まりちゃん先輩落ち着いて。
+　はい。私もです、ふうまさん。
+　ほんの気持ちです」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞01立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR>2,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>望月卯奈
+「はーい！　鹿之助くんも！
+　いつもお世話になってるお礼だよー！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈01立ち絵
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺＆鹿之助
+「な、何いいいいっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　全く期待していない所からの
+不意打ちであった。
+<PAUSE>
+<NAME_PLATE>
+　俺たちのところにやってきたのは、
+隣のクラスの仲良し女子三人組。
+<PAUSE>
+<ACTOR_FRONT>0
+<NAME_PLATE>
+　土遁使いの真面目な委員長、篠原まり。
+<PAUSE>
+<ACTOR_FRONT>1
+<NAME_PLATE>
+　クールで読書好きの紙気使い、七瀬舞。
+<PAUSE>
+<ACTOR_FRONT>2
+<NAME_PLATE>
+　そして元気で人懐っこいうさぎの対魔忍、
+望月卯奈。
+<PAUSE>
+<NAME_PLATE>
+　以前の任務で知り合いになった三人が、
+それぞれ可愛い包装のチョコを
+俺と鹿之助に手渡してくれた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「こ、これは夢か、幻か……！？」
+<PAUSE>
+<NAME_PLATE>俺
+「女の子から貰えるバレンタインチョコ……
+　そんなものが、
+　現実に存在するなんて……！？」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ふ、ふうま！？
+　俺のほっぺたをつねってくれ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>2,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>卯奈
+「あはは。
+　二人とも反応大げさすぎだよー」
+<PAUSE>
+<NAME_PLATE>舞
+「幻の古代遺跡を見つけた人の
+　ような顔になってますね。
+　びっくりです」
+<PAUSE>
+<NAME_PLATE>まり
+「えへへ。なんだか
+　よろこんでもらえて恐縮ですっ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>女の子
+「あれ？　まりたち今渡したの？
+　じゃあついでに私も渡しておくね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！！？」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「はい、これ私から！
+　バレンタインのチョコレート♪」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR>0,yu_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「あっ！　か、勘違いしないでよね。
+　これはあくまでも義理チョコ！
+　でも感謝は本命並みにしときなさい！」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「で、あとクリアとカラスからも
+　預かってるわよ、はいこれ♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ma_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>神村舞華
+「おう、ふうま、鹿之助！
+　こいつは俺からだ！　お前らには
+　いつも世話になってるからなぁ」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華01立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>2,ha_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弓走颯
+「こ、これは私から……！
+　喜んでくれると、うれしいが……」
+<PAUSE>
+//　※立ち絵
+//　　弓走颯01立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0077a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>獅子神自斎
+「……私も。
+　こういうイベント初めてだから
+　ちょっと照れくさいけれど」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR>1,chr_t0269a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>石川あむ
+「お館様！　よろしければ私も！！」
+<PAUSE>
+//　※立ち絵
+//　　石川あむ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺＆鹿之助
+「なにいいいっ！？」
+「うおおおおおおおおおおっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　夢でも幻でもなく、
+それは確かな現実であった。
+<PAUSE>
+<NAME_PLATE>
+　クラスメイトの水城ゆきかぜ、
+神村舞華、弓走颯、
+<PAUSE>
+<NAME_PLATE>
+　そして隣のクラスの獅子神自斎、
+さらに後輩でふうま宗家御庭番である
+石川あむまで――。
+<PAUSE>
+<NAME_PLATE>
+　今までの任務や遊撃隊の活動で
+知り合った女の子たちが、
+次々にチョコを手渡してくれた。
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだこれはっ！？
+　ついに来たのか、
+　俺たちの時代が――！！？」
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うおおおおっ！！
+　や、ヤバいぞふうま、
+　もうこれチョコ大名だろ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t002e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>相州蛇子
+「ちょ、ちょっとちょっとー！？
+　二人とも喜びすぎなんだけどー！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　すると、プクーと頬を膨らませた
+蛇子が俺たちに絡んでくる。
+<PAUSE>
+<NAME_PLATE>蛇子
+「さっき蛇子がチョコ渡したときは、
+　なんかふわっとした反応だったのに～！」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いやだって……
+　お前のチョコ、墨入ってるし」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うんうん」
+<PAUSE>
+<NAME_PLATE>
+　なぜか蛇子の作るチョコは毎年
+謎のタコ墨アレンジがされている。
+<PAUSE>
+<NAME_PLATE>
+　うれしいのは間違いないが、
+食べるのに若干の覚悟が必要なのだ。
+<PAUSE>
+<ACTOR>0,h_t002f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「なによ！　そんなに言うなら、
+　来年のふうまちゃんのチョコは
+　タコ墨１００％にしちゃうんだから！」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、わかったわかった！
+　いや、墨入りでも
+　うれしいのはうれしい――」
+<PAUSE>
+<NAME_PLATE>俺
+「って待てお前！？
+　なんで今の話の流れでさらに
+　墨を推してくるんだよ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺と蛇子のいつもの珍妙なやり取りに
+周りの友人たちがどっと沸いた。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして、一方――。
+<PAUSE>
+//【黒画面】
+//【背景：五車学園＿地下訓練施設＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC015aの背景を流用
+<BGM_PLAY>bgm208,1000
+<BG>nc002a,IN, 1000
+<ACTOR>0,chr_t0174a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>磯咲伊紀
+（くっ！？　いつの間に
+　こんなに彼を狙うメスブ……
+　じゃなくてライバルが！？）
+<PAUSE>
+//　※立ち絵
+//　　磯咲伊紀01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>伊紀
+（このタイミングで
+　渡しても印象が薄れるし、
+　これは策の練り直しねっ！！）
+<PAUSE>
+<NAME_PLATE>
+　と、ゴリゴリの本命チョコを抱えて
+渡すに渡せなくなった水遁使いの優等生、
+磯咲伊紀が、
+<PAUSE>
+<NAME_PLATE>
+　キラーンと妖しく目を輝かせ、
+柱の陰から愛しのふうま小太郎の様子を
+うかがっているのだった。
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

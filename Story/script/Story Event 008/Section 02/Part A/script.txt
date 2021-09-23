@@ -1,0 +1,1389 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ町の広場＿昼夜共通＿雨】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034bより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc122b,IN, 1000
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「嫌な雨。
+　気持ちまで湿ってきそう」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　深月は憂鬱な気分で呟いた。
+<PAUSE>
+<NAME_PLATE>
+　このじっとりと重い雨がいつ止むのかと
+つい空を見上げてしまう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかし、深月がいるのは、
+東京の地下３００メートルのヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　見えるのは天井―――というよりも、
+乱雑に突き出したビルの底だけだ。
+<PAUSE>
+<NAME_PLATE>
+　しかも、地上から盗み引いている
+無数の電線、通信ケーブル、水道管、ガス管が
+無秩序に絡み合っていて、
+<PAUSE>
+<NAME_PLATE>
+　まるで都市という巨大な生き物の内臓を
+見せられている気がしてくる。
+<PAUSE>
+<NAME_PLATE>
+　この雨も、地表に降った雨が
+何年もかけて地下まで浸み落ちた漏水で、
+鉄が錆びたような匂いがする。
+<PAUSE>
+<NAME_PLATE>
+　溜息を吐いて、街並みに目を移せば、
+どの建物も目が痛くなるような下品な
+ネオンで彩られている。
+<PAUSE>
+<NAME_PLATE>
+　露店には怪しげな商品が並び、
+堅気に見えない人間ばかりが行き交い、
+まるで犯罪都市の見本だ。
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「眞田先輩は
+　こんな街に売られて……」
+<PAUSE>
+<NAME_PLATE>
+　今回の救出対象、
+五車学園の先輩に思いをはせる。
+<PAUSE>
+//【黒画面】
+//　※立ち絵
+//　　眞田焔立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<ACTOR>1,chr_t0056a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　眞田焔。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍屈指の火遁の使い手だ。
+<PAUSE>
+<NAME_PLATE>
+　長らく実戦に身を置き、
+数多の魔族との戦闘をこなし、
+その実力は折り紙つき。
+<PAUSE>
+<NAME_PLATE>
+　ただ同じ対魔忍からの評判は
+決して良いものではない。
+<PAUSE>
+<NAME_PLATE>
+　曰く、血の気が多く、
+闘う事しか考えていない。
+<PAUSE>
+<NAME_PLATE>
+　曰く、対魔忍とは名ばかりの戦闘狂。
+<PAUSE>
+<NAME_PLATE>
+　まだ任務を共にしたことはなかったが、
+確かにそう思えるふしはあった。
+<PAUSE>
+<NAME_PLATE>
+　深月がまだ五車学園にいたころ、
+焔が一人でふらりとやってきたことが
+何度かあった。
+<PAUSE>
+<NAME_PLATE>
+　誰かに会いに来るとかではなく、
+任務の合間に、暇つぶしの特訓と称して、
+誰彼構わず戦いに来るのだ。
+<PAUSE>
+<NAME_PLATE>
+　相手は教師も生徒もお構いなしで、
+しかもまったく手加減をしないので、
+大抵の生徒に恐れられていた。
+<PAUSE>
+<NAME_PLATE>
+　当時、クラス委員長だった深月も
+相手をさせられたことがある。
+<PAUSE>
+<NAME_PLATE>
+　確かに、長槍に火遁を織り交ぜた
+戦闘スタイルは豪快の一言で、
+<PAUSE>
+<NAME_PLATE>
+　それに風遁で対抗した深月のことも
+焔はかなり喜んでいたようだったが、
+正直、楽しい思い出ではなかった。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通＿雨】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034bより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG>nc122b,IN, 1000
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>深月
+「あの眞田先輩が
+　捕まってしまったなんて……」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　深月はふうと溜息を吐いた。
+<PAUSE>
+<NAME_PLATE>
+　焔は任務中に行方不明となったそうだ。
+<PAUSE>
+<NAME_PLATE>
+　その詳しい経緯は不明だが、
+あのボスルクという奴隷商人の話では、
+<PAUSE>
+<NAME_PLATE>
+　名前も知らない流れの奴隷商人から、
+焔を手に入れたのだという。
+<PAUSE>
+<NAME_PLATE>
+　その時、焔は火遁の力を
+無力化されていたとのことだ。
+<PAUSE>
+<NAME_PLATE>
+　そうでもなければ、
+あの焔が大人しく商品として
+売られるわけがない。
+<PAUSE>
+<NAME_PLATE>
+　それでもボスルクは
+焔が対魔忍と知って扱いに困り、
+そのまま奴隷オークションに流した。
+<PAUSE>
+<NAME_PLATE>
+　焔はここヨミハラの“土雲（つちぐも）”
+という組織に買われ、その後の消息は不明だ。
+<PAUSE>
+<ACTOR>0,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「眞田先輩、
+　無事だといいんですが……」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　あまり好きな先輩ではなかったが、
+それとこれとは別だ。
+<PAUSE>
+<NAME_PLATE>
+　なんとしても助け出さなければ。
+<PAUSE>
+<NAME_PLATE>
+　そのために、
+ここで仲間と合流する手筈なのだが、
+まだ現れない。
+<PAUSE>
+<NAME_PLATE>
+　雨はあいかわらず降り続けている。
+<PAUSE>
+<NAME_PLATE>
+　永遠に止むことがないかとすら
+思えてくる。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>深月
+「あったかい紅茶が飲みたいな。
+　アッサムにミルクと砂糖をいっぱい入れて」
+<PAUSE>
+<NAME_PLATE>
+　思わずそんなことを呟き、
+肌寒さにブルッと震えていると、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「ほんとこの雨、鬱陶しいわよね」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵
+//　　　　＊対魔忍RPG【チョコ教師】高坂静流より流用。
+<NAME_PLATE>
+　いきなり後ろから誰かに抱きつかれた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「ひゃあっ！」
+<PAUSE>
+<NAME_PLATE>
+　あれこれ考えていたが、ここは敵地。
+ぼんやりしていたわけではない。
+<PAUSE>
+<NAME_PLATE>
+　心臓が止まるかと思うほど驚いて、
+対魔忍にあるまじき声を上げると、
+懐かしい顔がすぐ近くにあった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<GROUP>
+<BG>nc122b,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>2,sz_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「こ、高坂先生！？」
+<PAUSE>
+<NAME_PLATE>静流
+「ごめんなさい。
+　待たせちゃったかしら？」
+<PAUSE>
+<NAME_PLATE>
+　静流は深月に抱きついたまま言った。
+<PAUSE>
+<NAME_PLATE>
+　昔と変わらぬ豊かな胸のふくらみが
+深月の背中にグイグイと当たってくる。
+<PAUSE>
+<NAME_PLATE>深月
+「い、いえ、
+　今来たところですから」
+<PAUSE>
+<ACTOR>2,sz_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「嘘ばっかり。
+　身体がこんなに冷えてるわよ
+　ねえ、どこかで二人で温めあいましょうか」
+<PAUSE>
+<NAME_PLATE>深月
+「ええ？」
+<PAUSE>
+<ACTOR>2,sz_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「会いたかったわ、深月」
+<PAUSE>
+<NAME_PLATE>
+　彼女を下の名前で呼び、
+さらに強く抱きしめて、艶っぽい声で囁く。
+<PAUSE>
+<NAME_PLATE>
+　甘い薔薇の香りがふわりと
+鼻をくすぐった。
+<PAUSE>
+<NAME_PLATE>
+　同じ女なのにちょっとドキドキしたが、
+深月は冷静に返した。
+<PAUSE>
+<ACTOR>2,sz_t003c,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「高坂先生、
+　もうそういう冗談はやめてください」
+<PAUSE>
+<ACTOR>2,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「あはは、さすがにもうひっかからないわね」
+<PAUSE>
+<NAME_PLATE>
+　静流は笑いながら、
+あっさり身体を離した。
+<PAUSE>
+<ACTOR>2,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　久しぶりに会った元恋人のような雰囲気、
+もちろんそんな関係ではない―――が
+一瞬で消えている。
+<PAUSE>
+<NAME_PLATE>深月
+「学生時代に何度もやられましたから。
+　今も生徒にそういう過剰な
+　スキンシップをしてるんですか？」
+<PAUSE>
+<NAME_PLATE>
+　深月の皮肉に
+静流はけろりとした顔で言う。
+<PAUSE>
+<NAME_PLATE>静流
+「時々ね。女の武器を使うのも使われるのも
+　対魔忍には必要なスキルだもの。
+　星乃さんは今も苦手？」
+<PAUSE>
+<NAME_PLATE>深月
+「必要があれば。
+　でも好きじゃないです」
+<PAUSE>
+<NAME_PLATE>
+　生真面目に答える深月に
+静流はくすりと笑った。
+<PAUSE>
+<NAME_PLATE>静流
+「相変わらずね。
+　でも元気そうで嬉しいわ」
+<PAUSE>
+<NAME_PLATE>深月
+「私もです。
+　お久しぶりです。高坂先生」
+<PAUSE>
+<NAME_PLATE>
+　深月は深く頭を下げた。
+<PAUSE>
+<ACTOR>2,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「もう先生はいいのよ」
+<PAUSE>
+<NAME_PLATE>深月
+「いえ、私にとって先生は先生ですから」
+<PAUSE>
+<ACTOR>2,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「そういう生真面目なところ。
+　変わらないわね」
+<PAUSE>
+<NAME_PLATE>
+　深月を見つめる静流の目が
+かつての教え子を見るそれになる。
+<PAUSE>
+<NAME_PLATE>
+　深月にとっても、
+懐かしい恩師との再会だった。
+<PAUSE>
+<NAME_PLATE>静流
+「星乃さん、お手柄ね。
+　あなたのおかげで眞田さんの消息が
+　つかめたわ」
+<PAUSE>
+<NAME_PLATE>深月
+「眞田先輩は無事なんですか？」
+<PAUSE>
+<ACTOR>2,sz_t003d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「多分、今のところはね」
+<PAUSE>
+<NAME_PLATE>深月
+「……………」
+<PAUSE>
+<ACTOR>2,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「とりあえずアジトに行きましょう。
+　久しぶりの子がもう一人待ってるわよ」
+<PAUSE>
+<NAME_PLATE>深月
+「え？　誰ですか？」
+<PAUSE>
+<ACTOR>2,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「それは会ってのお楽しみ♪」
+<PAUSE>
+<NAME_PLATE>
+　静流は昔、授業でなにか
+サプライズをしたときのような
+悪戯っぽい顔で言った。
+<PAUSE>
+//【背景：ヨミハラ裏町のある酒場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　アジトはヨミハラの裏町にある酒場だった。
+<PAUSE>
+<NAME_PLATE>
+　深月を待っていたのは確かに久しぶりの、
+だが、予想もしていなかった相手だった。
+<PAUSE>
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「やあ、委員長」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「柳さん？」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　柳六穂（やなぎむつほ）が
+スツールから立ち上がって軽く手を上げた。
+<PAUSE>
+<NAME_PLATE>
+　静流のように抱きついたりはしなかったが、
+ある意味、静流のときよりも驚いた。
+<PAUSE>
+<NAME_PLATE>六穂
+「久しぶりだね。卒業以来かな」
+<PAUSE>
+<NAME_PLATE>深月
+「そうですね。お久しぶりです」
+<PAUSE>
+<NAME_PLATE>六穂
+「“扇嵐の対魔忍”の名は轟いてるよ。
+　さすが委員長だね」
+<PAUSE>
+<NAME_PLATE>
+　昔のように“委員長”と呼ばれることに
+妙な気恥ずかしさを覚えつつ、こう返した。
+<PAUSE>
+<NAME_PLATE>深月
+「そんな、柳さんこそ。
+　数々の単独任務を成功させたとか。
+　お見事です」
+<PAUSE>
+<NAME_PLATE>六穂
+「まあ、それなりにね」
+<PAUSE>
+<NAME_PLATE>
+　六穂は自慢するでも謙遜するでもなく、
+どうでもよさそうに肩をすくめた。
+<PAUSE>
+<NAME_PLATE>
+　その捉えどころのない様子は、
+昔と少しも変わりない。
+<PAUSE>
+<NAME_PLATE>
+　深月と六穂は、
+五車学園のクラスメートだった。
+<PAUSE>
+<NAME_PLATE>
+　それが一番正確な表現だ。
+<PAUSE>
+<NAME_PLATE>
+　学生時代は、あまり深くつきあうことが
+できなかったからだ。
+<PAUSE>
+<NAME_PLATE>
+　毒使いの家系のエリートである六穂は
+その能力故に他の生徒から恐れられていたし、
+<PAUSE>
+<NAME_PLATE>
+　六穂本人も
+他人を避けているようなところがあって、
+いつも一人でいた。
+<PAUSE>
+<NAME_PLATE>
+　深月は六穂とも友達になりたかったのだが、
+勉強や遊びに誘っても断られることが多く、
+<PAUSE>
+<NAME_PLATE>
+　ごくたまに応じてくれても、
+六穂は終始どうでも良さそうな顔で、
+無理に付き合わせて悪い気になった。
+<PAUSE>
+<NAME_PLATE>
+　学校を卒業してからも、六穂は誰かと
+チームを組んだりすることもなく、
+単独任務ばかりだと聞いていたが。
+<PAUSE>
+<NAME_PLATE>
+　そんな思いが顔に出たのだろうか、
+六穂が深月をまじまじと見ていた。
+<PAUSE>
+<NAME_PLATE>六穂
+「いつもぼっちのボクが一緒で
+　驚いてるって顔だね、委員長？」
+<PAUSE>
+<NAME_PLATE>深月
+「い、いえ、そんな。
+　よろしくお願いします、柳さん」
+<PAUSE>
+<NAME_PLATE>六穂
+「こちらこそよろしくね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,sz_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「確か二人はツーマンセルの校内実技大会で
+　組んだんじゃなかったかしら？」
+<PAUSE>
+//　※立ち絵
+//　　静流通常立ち絵
+//　　　　＊対魔忍RPG【チョコ教師】高坂静流より流用。
+<NAME_PLATE>
+　深月をここに連れてきた静流が
+ふと思い出したように言った。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「ええ……はい、そうです……」
+<PAUSE>
+<NAME_PLATE>
+　深月は曖昧に頷いたが、
+六穂はちょっと顔をしかめた。
+<PAUSE>
+<NAME_PLATE>六穂
+「静流先生、いきなり嫌なことを
+　思い出させてくれるね」
+<PAUSE>
+<NAME_PLATE>六穂
+「勝負には勝ったけど、コンビプレイが
+　全くできてないって失格になったんだよ。
+　だよね、委員長？」
+<PAUSE>
+<NAME_PLATE>深月
+「……はい」
+<PAUSE>
+<NAME_PLATE>
+　今、思い返せば、
+あの大会は六穂ともっと深く
+付き合えたかもしれない機会だった。
+<PAUSE>
+<NAME_PLATE>
+　六穂の言うとおり、
+大失敗に終わったわけだが。
+<PAUSE>
+<NAME_PLATE>静流
+「あら、そうだったかしら。
+　じゃあ今回はうまくやってちょうだいね」
+<PAUSE>
+<NAME_PLATE>六穂
+「気楽に言ってくれるね。
+　まあ努力するよ」
+<PAUSE>
+<NAME_PLATE>深月
+「……頑張ります」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そう答えるしかなかったが、
+内心では少し不安になった。
+<PAUSE>
+<NAME_PLATE>
+　六穂は学生時代と同じく、
+一見気さくな感じだけれど、
+なにを考えているのかよく分からない。
+<PAUSE>
+<ACTOR>2,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>静流
+「さてと、みんな揃ったことだし、
+　現在の状況を説明するわね」
+<PAUSE>
+<NAME_PLATE>静流
+「まずは眞田さんが囚われていると思われる敵
+　“土雲”についてだけど」
+<PAUSE>
+<NAME_PLATE>静流
+「ヨミハラの一角を支配していて、
+　中華連合系の組織・龍門と同盟して、
+　ノマドと敵対しているわ」
+<PAUSE>
+<NAME_PLATE>静流
+「組織の規模は中規模だけれど、
+　ボスの“蜘蛛の貴婦人”こと
+　葛城（かつらぎ）は高位魔族のようね」
+<PAUSE>
+<NAME_PLATE>深月
+「高位魔族……」
+<PAUSE>
+<NAME_PLATE>六穂
+「貴婦人とは、またご大層な二つ名だね」
+<PAUSE>
+<ACTOR>2,sz_t003f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「そうね。
+　でも、ノマドの大幹部にも匹敵する
+　強力な存在という噂よ」
+<PAUSE>
+<NAME_PLATE>静流
+「その名の通り、蜘蛛の力を持っていて、
+　人間や魔族の精気を吸収して
+　美しさや力を維持しているとか」
+<PAUSE>
+<NAME_PLATE>静流
+「眞田さんも早く助け出さないと、
+　たとえ生きていたとしても、
+　精気を吸い取られて廃人になってしまうわ」
+<PAUSE>
+<NAME_PLATE>深月
+「そんな……」
+<PAUSE>
+<NAME_PLATE>六穂
+「―――で、どういう作戦でいくの？
+　もう考えてあるんだよね、静流先生？」
+<PAUSE>
+<NAME_PLATE>
+　六穂の問いに、静流は頷いた。
+<PAUSE>
+<ACTOR>2,sz_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「こちらとは別に、
+　すでにヨミハラに潜入して
+　別のアジトで待機中の部隊があるわ」
+<PAUSE>
+<NAME_PLATE>深月
+「別部隊ですか？」
+<PAUSE>
+<NAME_PLATE>静流
+「最近“噂の”独立遊撃隊よ。
+　それが正面から攻撃を仕掛けて
+　陽動をかけることになっているの」
+<PAUSE>
+<NAME_PLATE>静流
+「その隙に、私が発見した裏口から
+　土雲のアジトに潜入して、
+　眞田さんを救出するプランね」
+<PAUSE>
+<NAME_PLATE>六穂
+「蜘蛛のなんちゃらはどうするんだい？
+　始末した方がいいのかな？」
+<PAUSE>
+<ACTOR>2,sz_t003h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「相手の強さは未知数よ。
+　もし噂が本当だとしたら、
+　戦闘は避けるべきでしょうね」
+<PAUSE>
+<NAME_PLATE>深月
+「……そうですね。
+　ここは街全体が敵地のようなものです。
+　悠長に戦っている暇はないと思います」
+<PAUSE>
+<ACTOR>2,sz_t003d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「そういうことね」
+<PAUSE>
+<NAME_PLATE>
+　静流のプランに頷く深月を横目に、
+六穂はうんざりしたような顔になった。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「あの戦闘バカは
+　相変わらずはた迷惑な存在だね」
+<PAUSE>
+<NAME_PLATE>六穂
+「一人で勝手に死ぬならまだしも、
+　敵に捕まるなんてね。
+　さっさと自害でもしてくれたら楽なのにさ」
+<PAUSE>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「柳さん、そんな言い方は良くないです」
+<PAUSE>
+<NAME_PLATE>
+　そういえば、
+こういう毒のあることを
+言う人だったなあと思い出す。
+<PAUSE>
+<NAME_PLATE>六穂
+「なに言ってるのさ。
+　委員長だってアイツには
+　酷い目にあっただろ？」
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクは逃げてたけど、
+　委員長はアイツのお遊びに
+　真面目につきあってたじゃないか？」
+<PAUSE>
+<NAME_PLATE>深月
+「そうでしたけど……
+　でも、同じ対魔忍ですし、
+　やはり助けなければ」
+<PAUSE>
+<NAME_PLATE>六穂
+「委員長は相変わらず真面目だね。
+　ボクはあんなバカはどうでもいいけど、
+　これも任務だからね。つきあうよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,sz_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　やる気がなさそうな六穂に対して、
+静流が笑い出した。
+<PAUSE>
+<NAME_PLATE>静流
+「うふふ、柳さんはふうま君のことが
+　心配なのよね？」
+<PAUSE>
+<ACTOR>2,sz_t003b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「なっ？　そんなことないよ！」
+<PAUSE>
+<NAME_PLATE>
+　六穂が即座に否定する。
+<PAUSE>
+<NAME_PLATE>深月
+「ふうま君？
+　それって独立遊撃隊の―――」
+<PAUSE>
+<ACTOR>2,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「隊長さんよ。
+　ちょっと前に柳さんと組んだことがあって」
+<PAUSE>
+<NAME_PLATE>
+　静流は思わせぶりに
+六穂をチラリと見てから、
+<PAUSE>
+<ACTOR>2,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「そうね……柳さんの恋人候補って
+　とこかしら？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「違うってば！
+　静流先生、あんまり変なこと言うと
+　承知しないよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　六穂がむきになって噛みついていた。
+<PAUSE>
+<NAME_PLATE>
+　こんな態度、学生時代には
+一度だって見たことがない。
+<PAUSE>
+<NAME_PLATE>
+　深月はちょっと驚いてしまった。
+<PAUSE>
+<NAME_PLATE>
+　独立遊撃隊のふうま小太郎。
+<PAUSE>
+<NAME_PLATE>
+　少し前に五車町で反乱を起こした
+ふうまの一派―――の反乱に加わらなかった
+ふうま当主だ。
+<PAUSE>
+<NAME_PLATE>
+　忍法が全く使えないとも聞く。
+どうやら変わった人物らしい。
+<PAUSE>
+<NAME_PLATE>
+　静流はしばらく
+六穂をからかって遊んでいたが、
+ふいに真顔に戻って言った。
+<PAUSE>
+<ACTOR>2,sz_t003d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「私はふうま君たちのフォローに回るから、
+　あなたたちでアジトに潜入して、
+　眞田さんを救出してちょうだい」
+<PAUSE>
+<NAME_PLATE>深月
+「え？　高坂先生が私たちを
+　指揮してくださるんじゃないんですか？」
+<PAUSE>
+<NAME_PLATE>
+　静流が指揮官だと思っていた深月は
+驚いて聞き返す。
+<PAUSE>
+<ACTOR>2,sz_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>静流
+「あなたたちなら大丈夫でしょ。
+　任せるわ。隊長は星乃さんがしてね」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「え？　で、でも？？」
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクはいいよ」
+<PAUSE>
+<NAME_PLATE>
+　静流はいきなり深月を隊長に指名し、
+六穂もあっさりそれを了解した。
+<PAUSE>
+<NAME_PLATE>
+　深月は戸惑うばかりだ。
+<PAUSE>
+<NAME_PLATE>深月
+「でも柳さん、
+　私、本格的な任務の隊長経験は初めてで、
+　ちょっと自信が―――」
+<PAUSE>
+<NAME_PLATE>六穂
+「って言っても、ボクたち二人だし
+　初顔合わせってわけじゃないし、
+　なんとかなるだろ」
+<PAUSE>
+<NAME_PLATE>深月
+「ですが、柳さんもご存じでしょうが、
+　私はツメが甘いので……」
+<PAUSE>
+<NAME_PLATE>六穂
+「ああ、そういえば、
+　よくさくら先生とかに言われてたね」
+<PAUSE>
+<NAME_PLATE>六穂
+「でも、ボクは上に立つタイプじゃないし、
+　委員長に従うよ」
+<PAUSE>
+<NAME_PLATE>深月
+「で、でも……」
+<PAUSE>
+<NAME_PLATE>
+　突然のことに
+どうしてもまごついてしまう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「星乃！　なんだそのざまは！！
+　貴様！　それでも対魔忍か！！」
+<PAUSE>
+<NAME_PLATE>深月
+「は、はい！！
+　申し訳ありません！！
+　上原先生！！」
+<PAUSE>
+<NAME_PLATE>
+　突然の怒鳴り声に
+ほとんど反射的に答えてから、
+<PAUSE>
+<NAME_PLATE>深月
+「え？　上原先生？」
+<PAUSE>
+<GROUP>
+<BG>chrnc0101a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>4,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　びっくりして声のしたほうを見ると、
+その人物が物陰から姿を現した。
+<PAUSE>
+<NAME_PLATE>燐
+「まったくお前は相変わらずだな」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「お久しぶりです！」
+<PAUSE>
+<NAME_PLATE>
+　つい背筋がビシッとしていた。
+<PAUSE>
+<NAME_PLATE>
+　電輝の対魔忍、上原燐（うえはらりん）。
+<PAUSE>
+<NAME_PLATE>
+　五車学園の臨時講師、
+野外戦専門の鬼教官として、
+深月も散々しごかれた相手だ。
+<PAUSE>
+<NAME_PLATE>六穂
+「うわ～～、
+　面倒なのが出てきたなあ」
+<PAUSE>
+<NAME_PLATE>
+　六穂が言わなくてもいいことを
+わざわざ口にする。
+<PAUSE>
+<NAME_PLATE>燐
+「柳、お前も変わらないようだな」
+<PAUSE>
+<NAME_PLATE>六穂
+「人間そんなに変われないよ、先生」
+<PAUSE>
+<NAME_PLATE>
+　燐の怖い目でジロリと睨まれても、
+六穂はどこふく風だ。
+昔からそうだった。
+<PAUSE>
+<ACTOR>4,chr_t0044a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>2,sz_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「言い忘れてたけど、
+　上原先生には、サポート役として
+　二人についてもらうわ」
+<PAUSE>
+<NAME_PLATE>
+　静流が思い出したように言った。
+今までわざと秘密にしていたのだ。
+<PAUSE>
+<NAME_PLATE>深月
+「え？　本当ですか？」
+<PAUSE>
+<NAME_PLATE>
+　深月はぱっと顔を輝かせるが、
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>燐
+「馬鹿者。喜ぶな！
+　お前たちがしっかりやれそうなら、
+　出てこないつもりだったのだ！」
+<PAUSE>
+<NAME_PLATE>深月
+「すいません！」
+<PAUSE>
+<NAME_PLATE>
+　この声で怒鳴られると、
+学生時代に戻ってしまったかのように、
+反射的に首をすくめてしまう。
+<PAUSE>
+<ACTOR>2,sz_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>静流
+「うふふ、そのときはこっそり二人を
+　サポートするつもりだったのよね、
+　上原先生」
+<PAUSE>
+<NAME_PLATE>燐
+「高坂、言わなくていいことを言うな」
+<PAUSE>
+<NAME_PLATE>
+　燐はぴしりと釘を刺す。
+<PAUSE>
+<ACTOR>2,sz_t003a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　静流は「あ、口が滑っちゃった」
+という顔をして口元を手で押さえた。
+<PAUSE>
+<ACTOR_OUT>2,RIGHT,linear,1000
+<ACTOR>4,chr_t0044a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　燐は深月と六穂を真っ直ぐに見た。
+<PAUSE>
+<NAME_PLATE>燐
+「いいかお前たち、
+　私はあくまでもサポートだ」
+<PAUSE>
+<NAME_PLATE>燐
+「お前たちを指揮したりはしない。
+　チームリーダーは星乃、お前だ」
+<PAUSE>
+<NAME_PLATE>燐
+「それができると思ったから任命した。
+　いいな？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「は、はい！」
+<PAUSE>
+<NAME_PLATE>
+　まだちょっと自信のない自分に
+発破をかけるつもりで、深月は強く頷いた。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　こうして、深月をリーダーに、
+六穂と燐の三人でチームを組むことになった。
+<PAUSE>
+<ACTOR>2,sz_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「うまくやれそうね。じゃあ、
+　隠し球について教えておこうかしら。
+　まあ念のためにね」
+<PAUSE>
+<NAME_PLATE>
+　静流がそう切り出して、
+より詳細な打ち合わせが始まった。
+<PAUSE>
+//【背景：ヨミハラ下水道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc126a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数時間後、
+深月、六穂、燐の三人は
+ヨミハラの下水道へと潜っていた。
+<PAUSE>
+<BGM_PLAY>bgm209,1000
+<NAME_PLATE>
+　静流の調べによれば、土雲のアジトへは
+この下水道から潜入できるとのことで、
+そこまでの詳細な地図ももらっている。
+<PAUSE>
+<NAME_PLATE>
+　先頭を行くのは深月、
+そのすぐ後ろに六穂。
+<PAUSE>
+<NAME_PLATE>
+　燐はサポート役として、
+二人から少し離れてついて来ている。
+<PAUSE>
+<NAME_PLATE>
+　地上からの漏水が
+雨となって降るヨミハラのさらに下水道だ。
+<PAUSE>
+<NAME_PLATE>
+　その不潔さは推して知るべしで、
+しかも分かれ道や分流もやたらとあって、
+地図があっても迷いそうだ。
+<PAUSE>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「はぁ……」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　つい溜息を吐くと、
+似たような気分だったのか、
+六穂が話しかけてきた。
+<PAUSE>
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>六穂
+「酷い匂いだ。
+　委員長、鼻は大丈夫かい？」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>深月
+「大丈夫です」
+<PAUSE>
+<NAME_PLATE>
+　そう答えたが、
+鼻は大分前から馬鹿になっていた。
+<PAUSE>
+<NAME_PLATE>六穂
+「ボクは感覚がおかしくなってきたよ。
+　馬鹿な先輩のおかげでとんだ苦労だ」
+<PAUSE>
+<NAME_PLATE>深月
+「柳さん」
+<PAUSE>
+<NAME_PLATE>六穂
+「はいはい。分かってるって。
+　もう言わないよ」
+<PAUSE>
+<NAME_PLATE>
+　六穂は「委員長は真面目だね」と
+いう顔をして、肩をすくめた。
+<PAUSE>
+<NAME_PLATE>
+　深月は声をひそめて、言い直す。
+<PAUSE>
+<NAME_PLATE>深月
+「いえ、そうではなくて、
+　この地下道、魔物が潜んでいるそうなので、
+　できるだけ静かにしたほうがいいです」
+<PAUSE>
+<NAME_PLATE>六穂
+「へえ、魔物なんているんだ？」
+<PAUSE>
+<NAME_PLATE>深月
+「以前、ここを通った部隊の報告書に
+　書いてありました」
+<PAUSE>
+<NAME_PLATE>深月
+「魔界ワスプとデビルワームに
+　襲われたそうです」
+<PAUSE>
+<NAME_PLATE>六穂
+「さすが委員長、
+　下調べは万全ってわけだね」
+<PAUSE>
+<NAME_PLATE>深月
+「いえ、そんなことは―――あ」
+<PAUSE>
+<NAME_PLATE>
+　深月は謙遜しようとして、
+ふとあることに気づいて立ち止まった。
+<PAUSE>
+<NAME_PLATE>六穂
+「どうしたの？
+　風でそいつらの気配でも感じた？」
+<PAUSE>
+<NAME_PLATE>
+　六穂が追いついてきて尋ねた。
+<PAUSE>
+<NAME_PLATE>深月
+「いえ、その部隊って、
+　柳さんのお知り合いがいる
+　独立遊撃隊だったなと……」
+<PAUSE>
+<NAME_PLATE>六穂
+「えっ？
+　そうなんだ、ふーん」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se082
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　六穂はそれだけ言って、
+そそくさと先に歩き始めた。
+<PAUSE>
+<NAME_PLATE>
+　明らかに不自然な態度で、
+深月はちょっと興味が出てきて、
+六穂の横にさっと並んだ。
+<PAUSE>
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>深月
+「柳さん、ふうまさんって
+　どんな方なんですか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「ど、どんなって別にボクとあいつは
+　なんでもないよ」
+<PAUSE>
+<NAME_PLATE>
+　まずさりげなく話をふったのに、
+いきなり強い調子でそう返ってきた。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>深月
+「えっ？」
+<PAUSE>
+<NAME_PLATE>六穂
+「なにさ？」
+<PAUSE>
+<NAME_PLATE>深月
+「いえ、私は当主なのに、
+　ふうまの反乱に加わらなかったって、
+　どういう人かなって思っただけで」
+<PAUSE>
+<BGM_PLAY>bgm502,1000
+<NAME_PLATE>
+　つい頬が緩んできてしまう。
+<PAUSE>
+<NAME_PLATE>深月
+「別に柳さんとの関係を
+　聞いたわけでは……うふふ」
+<PAUSE>
+<NAME_PLATE>六穂
+「あ……」
+<PAUSE>
+<NAME_PLATE>
+　六穂は気まずそうに顔を逸らした。
+<PAUSE>
+<NAME_PLATE>
+　ダメ、逃がしませんと、
+深月はそっちに回り込む。
+<PAUSE>
+<NAME_PLATE>深月
+「え？　なんでもないとかなんでもあるとか、
+　柳さんにとってふうまさんって
+　そういう人なんですか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「な、なんでもあるなんて言ってないだろ。
+　なに言ってるのさ、委員長！」
+<PAUSE>
+<NAME_PLATE>
+　すごく動揺している。
+こんな六穂は見たことがない。
+<PAUSE>
+<NAME_PLATE>深月
+「わっ、わっ！
+　昔の柳さんからは
+　ちょっと信じられないです！！」
+<PAUSE>
+<NAME_PLATE>深月
+「ふうまさん、どんな人なのかな。
+　私、興味が出てきました！！」
+<PAUSE>
+<NAME_PLATE>六穂
+「どんな人でもないよ！
+　委員長、妙な勘繰りは
+　やめてくれよ！」
+<PAUSE>
+<NAME_PLATE>深月
+「でも柳さんが好きになるなんて、
+　よっぽどの人ですよね？
+　しかも年下ですよ！　年下！！」
+<PAUSE>
+<NAME_PLATE>六穂
+「す、好きなんて
+　ボクは一言も言ってない！
+　年下とか関係ないよ！」
+<PAUSE>
+<NAME_PLATE>深月
+「え～～でもでも、
+　柳さんがそういう反応するって事は
+　やっぱり―――」
+<PAUSE>
+<NAME_PLATE>六穂
+「やっぱりってなにさ。
+　委員長いい加減に―――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<WAIT>1000
+<GROUP>
+<ACTOR_OUT>3,RIGHT,linear,1000
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ゴツン！！　ゴツン！！
+<NAME_PLATE>深月
+「あいたっ！」
+<PAUSE>
+<NAME_PLATE>六穂
+「いたっ！」
+<PAUSE>
+<NAME_PLATE>
+　いきなり頭に拳骨が来た。
+<PAUSE>
+<NAME_PLATE>
+　二人ともだ。
+<PAUSE>
+<NAME_PLATE>
+　並んで頭を抱える。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか接近してきていた
+上原先生の仕業だ。
+<PAUSE>
+<ACTOR>4,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「お前ら、遠足にでも来ているつもりか」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　容赦のない一撃。
+<PAUSE>
+昔のままだ。
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,chr_t0135a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>深月
+「すいません」
+<PAUSE>
+<NAME_PLATE>六穂
+「久しぶりに食らったよ、この拳骨」
+<PAUSE>
+<NAME_PLATE>
+　油断していたのか、
+六穂も涙目になっていて、
+ちょっと恨めしげに深月を見る。
+<PAUSE>
+<NAME_PLATE>深月
+「ごめんなさい、柳さん。
+　今は任務中ですから、
+　余計なお喋りはなしにしましょう」
+<PAUSE>
+<NAME_PLATE>六穂
+「そうして欲しいね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>燐
+「もう遅い。
+　騒ぎを聞きつけて魔物が近づいてきた」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「えっ？」
+<PAUSE>
+<NAME_PLATE>六穂
+「あ、本当だ」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　遠くからブーンという
+羽音が聞こえてくる。
+<PAUSE>
+<NAME_PLATE>
+　それに混じって、
+ズルズルズルとなにか巨大なものが
+這いずってくるような音も響いている。
+<PAUSE>
+<NAME_PLATE>燐
+「ふう……先が思いやられる」
+<PAUSE>
+<NAME_PLATE>
+　燐が溜息交じりで呟いた直後、
+下水道の奥から音の主が姿を現した。
+<PAUSE>
+<GROUP>
+<ACTOR>5,ts_m067a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>6,ts_m067a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔界ワスプ
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+//　※立ち絵
+//　　魔界ワスプ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<GROUP>
+<ACTOR>7,ts_m072a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>7
+<SE_PLAY>se086
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>デビルワーム
+「ＧＲＵＵＵＵＵＵＵＵＵＵ！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　デビルワーム立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストから流用
+<NAME_PLATE>
+　魔界ワスプとデビルワーム。
+<PAUSE>
+<NAME_PLATE>
+　報告書にあったとおりの魔物だった。
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>7,CENTER,linear,1000
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

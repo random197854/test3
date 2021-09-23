@@ -1,0 +1,793 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：アミダハラ全景＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc001aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc210a,IN, 1000
+<NAME_PLATE>
+　アミダハラ。それは日本最大の廃棄都市だ。
+<PAUSE>
+<NAME_PLATE>
+　かつては日本第三の都市として栄えていたが
+米連と中華連合の代理戦争となった半島紛争の
+とばっちりを受け、
+<PAUSE>
+<NAME_PLATE>
+　何者かによって撃ち込まれた未だ正体不明の
+しかし性質が悪いことだけは明らかな弾頭の
+ミサイル攻撃によって完全な廃墟と化した。
+<PAUSE>
+<NAME_PLATE>
+　もはや再生不可能と思われたその町は
+紛争の当事者ですら思いも寄らぬかたちで、
+復興を遂げることとなった。
+<PAUSE>
+<NAME_PLATE>
+　魔界に通じる境界。
+すなわち、新たな“魔界の門”が
+出現したのだ。
+<PAUSE>
+<NAME_PLATE>
+　そこに引き寄せられるように魔界の住人が、
+さらに無法者たちが集まり始め、
+<PAUSE>
+<NAME_PLATE>
+　わずか１０年余りで、
+アミダハラは日本最大の
+廃棄都市へと変貌した。
+<PAUSE>
+<NAME_PLATE>
+　この場合、成長と言えるかどうかは別にして
+ともかくも大きな町となった。
+<PAUSE>
+<NAME_PLATE>
+　町と名の付いたものが膨らめば、
+無法と法治の境目に
+巨大な歓楽街が形成される。
+<PAUSE>
+<NAME_PLATE>
+　“無法ならではのサービス”を求める客も
+全国から殺到した。
+<PAUSE>
+<NAME_PLATE>
+　それは廃棄都市の収入源となって、
+アミダハラをさらに成長、
+いや変貌させていった。
+<PAUSE>
+<NAME_PLATE>
+　そこに住む人々たちの様々な思惑により、
+あるいはそれを越えて、まるで町そのものが
+なにかの意志を持っているかのように。
+<PAUSE>
+<NAME_PLATE>
+　現在、アミダハラ内には二つの地区がある。
+<PAUSE>
+<NAME_PLATE>
+　魔界の門の影響を受けやすく、
+未だ紛争の絶えない廃墟地区。
+<PAUSE>
+<NAME_PLATE>
+　そして、
+一見したところ普通の街並みと変わらない、
+観光地としても栄えている町地区だ。
+<PAUSE>
+<NAME_PLATE>
+　有名な町地区としては、
+キタやシンサイ、キョウバシなどがある。
+<PAUSE>
+<NAME_PLATE>
+　観光客の殆どはそんな町地区を訪れるが、
+そのためには武装難民がはびこる廃墟地区を
+通らなければならない。
+<PAUSE>
+<NAME_PLATE>
+　護衛なしでの廃墟地区の移動は自殺行為。
+町に入る前に護衛を雇うのは観光客の常識だ。
+<PAUSE>
+<NAME_PLATE>
+　無論、１００％安全であるはずがなく、
+日々、何人もの観光客がアミダハラの闇に
+飲み込まれていく。
+<PAUSE>
+<NAME_PLATE>
+　それでも、なにかに誘われるように、
+人々はアミダハラを目指していく。
+<PAUSE>
+<NAME_PLATE>
+　そして、今日もまた一人。
+<PAUSE>
+//※アミダハラ監獄の説明、後に回します。
+//【背景：アミダハラ廃墟地区１＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc002aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc077a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　今、日本最大の廃棄都市アミダハラに
+対魔忍、鬼崎きららが立つ。
+<PAUSE>
+<ACTOR>0,kr_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>奴隷商人
+「おい！　なに突っ立ってやがる。歩け！」
+<PAUSE>
+<ACTOR>0,kr_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「は、はい！」
+<PAUSE>
+<ACTOR>0,kr_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　否、表現に正確性を欠いた。
+<PAUSE>
+<NAME_PLATE>
+　今は首輪手枷足枷をされた哀れな姿、
+女囚・鬼崎きららである。
+<PAUSE>
+<NAME_PLATE>
+　彼女はこの町の名物の一つ、
+アミダハラ監獄へと引き立てられていた。
+<PAUSE>
+<NAME_PLATE>
+　そこは政府と、魔界の支配層
+（９つの有力貴族が支配する寡頭政）との
+協定で造られた女性専用の監獄だ。
+<PAUSE>
+<NAME_PLATE>
+　政府が捕らえた魔界出身の女性犯罪者に加え
+魔界の支配層から指名手配された魔界出身の
+女性犯罪者が収監されている。
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「ちんたら歩いてるんじゃねえぞ！
+　こんなとこで死にてえのか！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　武装したチョビ髭のオヤジが
+錆びたカラシニコフをきららに突きつけた。
+<PAUSE>
+<NAME_PLATE>
+　男はアミダハラ監獄に出入りしている業者で
+囚人や物資を届ける商いをしているという。
+<PAUSE>
+<NAME_PLATE>
+　きららの他、幾人かの女囚を連れ、
+その数倍の数の傭兵に警護をさせながら、
+<PAUSE>
+<NAME_PLATE>
+　キャラバンの様にして
+薄汚れたビルの谷間の道を南へ南へ、
+<PAUSE>
+<NAME_PLATE>
+　廃棄都市アミダハラの中心地、
+シンサイ近くにあるアミダハラ監獄を
+目指している。
+<PAUSE>
+<NAME_PLATE>
+　チョビ髭オヤジは放置された車の上に
+飛び乗ると、皆に向かって喋り始めた。
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「この辺りはトサボリ、
+　別名追剥ストリートって言ってな」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「移送中の囚人で腹を満たそうっていう
+　偏食の武装難民が出没するんで
+　有名な場所だ」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「連中は人を食うから臭くて馬鹿になってるが
+　執念深い」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「だから急いで歩け。
+　奴らはお前ら囚人を肉としか見ていねえ。
+　襲われれば皆殺しにされる」
+<PAUSE>
+<NAME_PLATE>
+　そう言って、きららたちを急かさせる。
+<PAUSE>
+<NAME_PLATE>
+　それでさっきから
+銃を突きつけられた女囚たちよりも
+あの男が緊張していたのだ。
+<PAUSE>
+<NAME_PLATE>
+　きらら以外の女たちは先刻承知らしく、
+「うるせんだよ」「びびりやがって」などと
+悪態を吐いている。
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「ちっくしょう。
+　さっきから鼻先がムズムズしやがる。
+　どうにも悪い予感がするぜ」
+<PAUSE>
+<NAME_PLATE>
+　チョビ髭オヤジはぶつくさ言いながら、
+なぜかきららのところに戻ってきた。
+<PAUSE>
+<ACTOR>0,kr_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして、小声で話しかけてくる。
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「あんた、いったいなにをやらかしたんだ？」
+<PAUSE>
+<ACTOR>0,kr_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「え？　な、なにをって？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+
+<NAME_PLATE>奴隷商人
+「とぼけんなよ。
+　あんたは他の女どもとは違う。
+　俺にゃわかんだよ」
+<PAUSE>
+<ACTOR>0,kr_t005g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「そんな……私は別に……」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「あんた、対魔忍だろ？」
+<PAUSE>
+<ACTOR>0,kr_t005d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「…………！」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「図星か。なにをやらかしたんだ？」
+<PAUSE>
+<NAME_PLATE>きらら
+「え！？　その……」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「なんで天下の対魔忍が
+　アミダハラ監獄の囚人なんかになるんだ？
+　なあ？」
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<BGM_STOP>1000
+<NAME_PLATE>きらら
+（アミダハラ監獄の囚人になった理由。
+　それは―――）
+<PAUSE>
+//【背景：五車町＿五車学園前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BGM_PLAY>bgm203,1000
+<BG>nc054a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　きっかけは、ある日のことだ。
+<PAUSE>
+//【背景：五車町＿五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC009aより流用
+<BG>nc006a,IN, 1000
+<NAME_PLATE>俺
+「急ぎの要件と聞きましたが」
+<PAUSE>
+<ACTOR>1,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「急ぎの案件よ」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>アサギ
+「鹿之助が投獄されたわ」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助が？」
+<PAUSE>
+<ACTOR>1,a_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ある任務中に襲撃され失踪。
+　そこまでは彼の場合よくあるけど……」
+<PAUSE>
+<ACTOR>1,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「その後、アミダハラ監獄を監視している
+　別のチームから鹿之助が投獄されたと
+　報告があったわ」
+<PAUSE>
+<NAME_PLATE>俺
+「ええと……
+　あそこって女囚を集めた監獄ですよね……」
+<PAUSE>
+<ACTOR>1,a_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ええ……」
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助は男ですよね？」
+<PAUSE>
+<ACTOR>1,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「そのはずよ……」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は真顔で言った。
+<PAUSE>
+<NAME_PLATE>
+　一方、俺は溜息を吐く。
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助の奴、なにやってんだか。
+　それで独立遊撃隊が鹿之助を救出に？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、いや、そうか、
+　アミダハラ監獄って確か……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「二車家の元幹部、
+　あなたもよく知る鉄華院カヲルが
+　支配してるわ」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<BG_OUT>1000
+<ACTOR>2,ti_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　鉄華院（てっかいん）カヲル。
+<PAUSE>
+<NAME_PLATE>
+　ふうま八将二車家に仕えた元幹部だ。
+<PAUSE>
+<NAME_PLATE>
+　現在はふうまからは離れ、
+廃棄都市アミダハラで
+アミダハラ監獄を支配している。
+<PAUSE>
+<NAME_PLATE>
+　年は時子と同じくらいで、時子ほど甘くなく
+俺にとっては子供の頃から頭の上がらない、
+怖いお姉さん的存在だ。
+<PAUSE>
+<NAME_PLATE>
+　俺の幼馴染で、やはりふうまから離れた
+金崎銃兵衛とは仲がよく、「姉御」「銃兵衛」
+と昔から呼び合っていた。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<BG>nc006a,IN, 1000
+<ACTOR>1,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「嫌そうな顔ね」
+<PAUSE>
+<NAME_PLATE>俺
+「あの人、苦手なんですよね」
+<PAUSE>
+<ACTOR>1,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「安心しなさい。
+　今回は“ふうま小太郎”として
+　彼女に会う必要はないわ」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　俺がカヲルと交渉して
+　鹿之助を監獄から救出するって
+　任務じゃないんですか？」
+<PAUSE>
+<ACTOR>1,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それだけじゃないの。
+　ふうま君、あなたには監獄に
+　潜入してもらいたいわ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「潜入！？　俺がですか！？
+　どうやって！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「彼女の力を借りるわ。
+　鬼崎きらら、入りなさい」
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：アミダハラ廃墟地区１＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc002aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc077a,IN, 1000
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<ACTOR>0,kr_t005a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　というわけで、
+今、俺はきらら先輩に化けている。
+<PAUSE>
+<NAME_PLATE>
+　例の“変わり身の術”で俺ときらら先輩の
+見た目が入れ替わっているのだ。
+<PAUSE>
+<NAME_PLATE>
+　そしてアサギ先生の手筈で、
+アミダハラ行きの女性犯罪者として
+引っ立てられている。
+<PAUSE>
+<NAME_PLATE>
+　前にエウリュアレーと戦った時
+ほんの一瞬、きらら先輩になったことはあるが
+こんなに長い間、変わっているのは初めてだ。
+<PAUSE>
+<NAME_PLATE>
+　多少は慣れてきたが、
+姿も声も自分と違うのはやはり妙な感じだ。
+<PAUSE>
+<NAME_PLATE>
+　その上、なぜか奴隷商人の頭に気に入られて
+やたらと話しかけられている。
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「よう、なにをやったのか、
+　隠さねえで、話しちまえよ」
+<PAUSE>
+<ACTOR>0,kr_t005g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「な、なにをやったかですか……」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「よっぽどのことやらかさねえと
+　アミダハラなんかに投獄されねえぜ」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「しかもあんたは対魔忍だ。
+　普通じゃまずあり得ねえ」
+<PAUSE>
+<NAME_PLATE>
+　妙にしつこい男だ。
+周りの女囚たちも耳をそばだてている。
+<PAUSE>
+<NAME_PLATE>
+　あまり隠しているのも不自然か。
+<PAUSE>
+<ACTOR>0,kr_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「その……ちょっと政府の人間を
+　凍らせてしまって……」
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「ほう？　なんでまた？」
+<PAUSE>
+<ACTOR>0,kr_t005g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「その人を護衛していたんですが、
+　その……セクハラが酷くてつい……
+　気がついたら、氷漬けの死体に」
+<PAUSE>
+<NAME_PLATE>
+　周囲へのちょっとした牽制の意味も込めて、
+適当に話を盛っておく。
+<PAUSE>
+<NAME_PLATE>奴隷商人
+「ぐははははは！
+　可愛い顔してヤルじゃねえか！
+　まあ、しっかりお勤めしてくるんだな！」
+<PAUSE>
+<ACTOR>0,kr_t005g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「そ、そうします……」
+<PAUSE>
+<NAME_PLATE>
+　大笑いする奴隷商人に恐縮しつつ、
+俺はなるべく目立たないように歩き続けた。
+<PAUSE>
+//【背景：アミダハラ廃墟地区２＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc211a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そんなこんなで、
+囚人移送キャラバンは進んでいく。
+<PAUSE>
+<NAME_PLATE>
+　見た目は１００％きらら先輩なので、
+俺が男だと疑うものはいない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、俺本人はどうにも落ち着かない。
+<PAUSE>
+<NAME_PLATE>
+　なにせ普通に歩いているだけで、
+胸がブルンブルンと揺れまくる。
+<PAUSE>
+<ACTOR>0,kr_t005g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら（俺）
+「しかし重いなあ、この胸……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>きらら（俺）
+「はぁ……よくこんなの二つぶら下げて
+　動けるよな……」
+<PAUSE>
+<NAME_PLATE>
+　ずっしり重たいだけでなく、
+別に揺らそうとしなくても、上下左右に暴れて
+歩いていて実に目の毒だ。
+<PAUSE>
+<NAME_PLATE>
+　その上、見えるのは胸ばかりで、
+足下がろくにわからず、
+危なくてしょうがない。
+<PAUSE>
+<NAME_PLATE>
+　普通に歩くだけでこれだ。
+<PAUSE>
+<NAME_PLATE>
+　こんなものをぶら下げたまま、
+よくきらら先輩は格闘なんかできるものだ。
+<PAUSE>
+<NAME_PLATE>
+　ぶるん、ぶるん、ぶるん、ぶるん―――
+<PAUSE>
+<ACTOR>0,kr_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「しかしこれは……むむむ……」
+<PAUSE>
+<NAME_PLATE>
+　気にしてはいけないと思えば思うほど、
+頭がきらら先輩の（今は俺の）胸のことで
+いっぱいになっていく。
+<PAUSE>
+<NAME_PLATE>
+　これでは任務どころではない。
+<PAUSE>
+<ACTOR>0,kr_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「待てよ、いっそ思い切って
+　一回ぐいっと揉んでしまったほうが、
+　気にならなくてすむのでは？」
+<PAUSE>
+<ACTOR>0,kr_t005i,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「うん、それはいい考えだな。
+　ここは任務遂行のため思いきって触るか？
+　でもなあ……」
+<PAUSE>
+//※きらら先輩回想、一瞬
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<ACTOR>0,kr_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「触ったら殺すわよ」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+//【背景：アミダハラ廃墟地区２＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc004aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc211a,IN, 1000
+<ACTOR>0,kr_t005g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら（俺）
+「って、言われてるんだよな。
+　おっぱい触ったら本人に感覚は
+　伝わるのか？　それはヤバいな」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>
+　などとグルグル考えているうちに
+いつしか俺の手は胸に伸びていき―――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>傭兵
+「おい！　そこのウシ乳！！！
+　ブツブツ言ってねえで早く歩け！」
+<PAUSE>
+<ACTOR>0,kr_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「わああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　いきなり後頭部をグイと銃口で突かれ、
+俺は触る直前だった胸からバッと手を離した。
+<PAUSE>
+<ACTOR>0,kr_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「わ、わかったよ！」
+<PAUSE>
+<ACTOR>0,kr_t005a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　やったのはチョビ髭オヤジの部下の傭兵だが
+今のタイミング、
+きらら先輩の警告に違いない。
+<PAUSE>
+<NAME_PLATE>
+　もっとも、本物のきらら先輩にウシ乳なんて
+言ったら、速攻氷像になっているだろうが。
+<PAUSE>
+<NAME_PLATE>
+　ともあれ、俺は囚人仲間の隊列に
+早歩きで追い付こうとする。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ちょうどキャラバンは
+大正時代に架設されたという
+橋を渡っていた。
+<PAUSE>
+<NAME_PLATE>
+　その時だ。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パァンッ！！！！
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　甲高い銃声が響きわたった。
+<PAUSE>
+<ACTOR>0,kr_t005d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「！！！！」
+<PAUSE>
+<NAME_PLATE>
+　同時に、さっきの傭兵が
+俺に覆いかぶさるように倒れた。
+<PAUSE>
+<NAME_PLATE>
+　頭に風穴をあけて。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「ちょっ！！？　マジかよ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　反射的に地面に伏せる。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パァンッ！　パパアンッ！！
+<PAUSE>
+<NAME_PLATE>
+　さらに数発の銃声。
+<PAUSE>
+<NAME_PLATE>
+　囚人たちの悲鳴。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「な、なんだ！？
+　いったいなんだよっ！！！！？」
+<PAUSE>
+<NAME_PLATE>
+　俺は死んだ傭兵の身体を脇に退けつつ、
+這いつくばったまま、周囲を確認する。
+<PAUSE>
+//　※立ち絵
+//　　武装難民立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　人食い武装難民立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<GROUP>
+<ACTOR>2,ts_m131a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンパンッ！　パンパンパンッ！！
+<PAUSE>
+<NAME_PLATE>
+　薄汚い格好をした男たちが
+橋の両側から発砲している。
+<PAUSE>
+<NAME_PLATE>
+　チョビ髭オヤジが言っていた
+人食いの武装難民だろうか。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「これって完全に待ち伏せじゃないか！！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>女囚
+「冗談じゃないよ！！」
+<PAUSE>
+<NAME_PLATE>
+　パニックになった囚人の一人が立ち上がって
+逃げ出そうとした。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「おいよせ、下手に動くな！」
+<PAUSE>
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パンパンパンパンッ！！
+<PAUSE>
+<NAME_PLATE>女囚
+「ぎゃあっ！！」
+<PAUSE>
+<NAME_PLATE>
+　迂闊な女はあっという間に蜂の巣になる。
+<PAUSE>
+<NAME_PLATE>
+　それを見て動揺した何人かが立ち上がり、
+次々と敵の的にされていく。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「クソ！？　監獄に着く前に喰われたら
+　シャレにならんぞ」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>
+　今の俺は首輪に手枷足枷で
+抵抗したくても抵抗できない。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩の姿をしているとはいえ、
+例の魔性の力はそのままだから、
+多少は撃たれても大丈夫だろうが。
+<PAUSE>
+<NAME_PLATE>
+　拘束されたまま、何発か食らうのを覚悟で
+無理やり逃げるか？
+<PAUSE>
+<NAME_PLATE>
+　しかしそれでは、
+アミダハラ監獄に女囚として潜入するという
+計画はおじゃんだ。
+<PAUSE>
+<NAME_PLATE>
+　いや、それは既に破綻しているか？
+<PAUSE>
+<NAME_PLATE>
+　どうする？
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

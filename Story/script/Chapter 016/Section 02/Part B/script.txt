@@ -1,0 +1,614 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿廃墟地区＿夜】【時間：夜】
+//　※陰陽騎士トワコ_nc002aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc134a,IN, 1000
+<ACTOR>0,ts_m034a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>異界のゴーレム
+「ＧＹＹＹＹＹＹＹＹ！！！」
+<PAUSE>
+//　※立ち絵
+//　異界のゴーレム立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　魔術師によって生み出された
+ゴーレムが足音を立てて迫ってくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,kr_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「氷尖＜ｉｃｅ　ａｒｒｏｗ＞」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵_対魔忍
+<ACTOR_OUT>1,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se111
+<NAME_PLATE>
+　キンッ！　キンッ！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>異界のゴーレム
+「ＧＹッ！？」
+<PAUSE>
+//　※立ち絵
+//　異界のゴーレム立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　きらら先輩が鋭く手を振り下ろした瞬間、
+ゴーレムの歩みがガチリと止まった。
+<PAUSE>
+<NAME_PLATE>
+　見れば、氷でできたクナイが
+金属の脚を地面に縫い付けている。
+<PAUSE>
+<NAME_PLATE>俺
+「早い」
+<PAUSE>
+<NAME_PLATE>
+　初めて見る術だ。
+その発動の素早さに瞠目する。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩は空気中の水分から
+氷クナイを作り出して放つ技を
+編み出したらしい。
+<PAUSE>
+<NAME_PLATE>
+　あの魔女エウリュアレーとの戦いを経て、
+冷気の急速チャージを
+戦闘に取り入れたようだ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、あのゴーレム相手に
+あの程度の足止めでは―――
+<PAUSE>
+<NAME_PLATE>異界のゴーレム
+「ＧＹＹＹＹＹＹＹＹ！！！！」
+<PAUSE>
+<SE_PLAY>se039
+<NAME_PLATE>
+　バリンッ！　バリンッ！！
+<PAUSE>
+<NAME_PLATE>
+　危惧したとおり、
+ゴーレムは力任せに凍結を破って、
+きらら先輩を襲おうとする。
+<PAUSE>
+<NAME_PLATE>
+　その瞬間―――
+<PAUSE>
+<ACTOR>1,kr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「凍拳＜ｆｒｅｅｚｉｎｇ　ｃｏｌｄ＞！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵_対魔忍_冷気チャージ
+<NAME_PLATE>
+　きらら先輩の右腕にチャージされていた
+冷気が炸裂した。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se111
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピキィイイイイイイイインンッッ！！！
+<PAUSE>
+<NAME_PLATE>
+　超氷結のアイスクローが
+ゴーレムを一瞬にして氷結させ、
+硬い鉱物よりさらに固い氷像ができあがる。
+<PAUSE>
+<NAME_PLATE>
+　なるほど。
+氷クナイは１００％の冷気を
+チャージする時間を稼ぐための
+牽制というわけか。
+<PAUSE>
+<NAME_PLATE>
+　全部一人でやろうとするあたりが
+実にきらら先輩らしい。
+<PAUSE>
+<NAME_PLATE>きらら
+「よーし！
+　デカブツは倒したわよ！
+　次はグールを―――えええっ！？」
+<PAUSE>
+<NAME_PLATE>
+　見事にゴーレムを倒し、
+グールにとりかかろうとした
+きらら先輩が唖然とする。
+<PAUSE>
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドンッ！　ドンッ！　ドンッ！！
+ドンッ！　ドンッ！　ドンッ！！
+<PAUSE>
+<NAME_PLATE>
+　さっきから銃声が鳴りひびくたびに、
+廃墟のあちこちから湧いて出てきた、
+グールが次々に消滅している。
+<PAUSE>
+<ACTOR>2,chr_t0147a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンリード
+「あははははは！
+　準備運動にちょうどいいね！！！」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー立ち絵
+//　　　　　＊対魔忍ＲＰＧキャラカードイラストより流用
+<NAME_PLATE>
+　アンリードの仕業だ。
+<PAUSE>
+<NAME_PLATE>
+　早撃ちの技といい、威力といい、
+恐るべきものだ。
+<PAUSE>
+<NAME_PLATE>
+　一発で一体。
+確実にグールを倒している。
+というか、粉みじんにしている。
+<PAUSE>
+<NAME_PLATE>
+　あの銃、ジェットリボルバーと言っていたが
+ただのリボルバー拳銃ではないようだ。
+おそらく弾丸も。
+<PAUSE>
+<NAME_PLATE>
+　あんなグールどころか、オーガあたりも
+余裕で吹き飛ばすことができるだろう。
+<PAUSE>
+<ACTOR>2,chr_t0147a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,kr_t003a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「ちょっと！！
+　そんなバンバンバンバン倒さないでよ！
+　私の分がなくなっちゃう！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵_対魔忍
+<NAME_PLATE>アンリード
+「早いもの勝ちだよ！
+　やっと銃が温まってきたんだからね！
+　ほらほらほらほら！！」
+<PAUSE>
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バンバンバンバンバンバン！！
+<PAUSE>
+<NAME_PLATE>
+　いつリロードしているのかも分からない。
+<PAUSE>
+<NAME_PLATE>
+　面白いようにグールが消し飛んでいく。
+<PAUSE>
+<ACTOR>0,kr_t003b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>きらら
+「ああもう！！
+　いちいち１００％とか溜めてらんない！
+　どりゃああああああああああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵_対魔忍_冷気チャージ
+<NAME_PLATE>
+　きらら先輩も負けじと氷の拳を振り回し、
+グールを凍らせたり、砕いたりし始めた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,h_t005e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「あの二人、すっげ～～～～」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>蛇子
+「鹿之助ちゃん、なに感心してるの！
+　蛇子たちも負けられないわ！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化(武器)
+<NAME_PLATE>鹿之助
+「お、おう！」
+<PAUSE>
+<ACTOR>3,h_t005f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「タコ足四刀流っ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>2,s_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「バンビーノ・スパーク！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍電気
+<NAME_PLATE>
+　蛇子や鹿之助も頑張っていた。
+<PAUSE>
+<NAME_PLATE>
+　アンリードやきらら先輩には
+遠く及ばないが、
+確実に怪物たちを葬っていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　で、俺はというと―――
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ。指揮は不要だな」
+<PAUSE>
+<NAME_PLATE>
+　完全に観戦モードだった。
+<PAUSE>
+<NAME_PLATE>
+　しかし、もう一人よりはマシだ。
+<PAUSE>
+<ACTOR>4,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「終わったら教えて」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ立ち絵
+//　　　　＊ローンチのシュヴァリエ01を流用
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　戦う気も、見る気もないのか、
+シュヴァリエは廃墟の瓦礫の上に腰掛けて
+本を読み出す始末だった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――――
+<PAUSE>
+//【背景：センザキ＿廃墟地区＿教会＿夜】【時間：夜】
+//　※陰陽騎士トワコ_nc003aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc192a,IN, 1000
+<NAME_PLATE>
+　二人が大活躍し、二人が頑張り、
+二人が遊んでいた廃墟での戦いも終わり、
+俺たちは目的地である教会に到着した。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,h_t004g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ふふふふうま………
+　や、やばそうな教会だよな……」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>蛇子
+「い、いかにもよね……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化
+<NAME_PLATE>
+　鹿之助はいつにも増してブルブルで、
+蛇子も怖々と辺りを窺っている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0147a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンリード
+「魔術師の棲家は教会の地下だよ。
+　ふふん、いよいよだね」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー立ち絵
+//　　　　　＊対魔忍ＲＰＧキャラカードイラストより流用
+<ACTOR>0,kr_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「はん、やっぱりね。
+　根暗な魔術師に相応しいわ」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　アンリードときらら先輩は
+これからが本番と意気揚々としていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「どんな魔術でシュヴァリエを
+　歓迎してくれるのかしら。
+　退屈なものでなければいいけど」
+<PAUSE>
+<NAME_PLATE>
+　シュヴァリエも期待するものがあるのか、
+ずっと読んでいた本をパタンと閉じた。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、入るぞ」
+<PAUSE>
+//【背景：センザキ＿廃墟地区＿教会内＿夜】【時間：夜】
+//　※陰陽騎士トワコ_nc004aより流用
+//新規　nc086b
+<ACTOR_OUT>4,CENTER,linear,1000
+<SE_PLAY>se082
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<SE_PLAY>se095
+<NAME_PLATE>
+　ギギィイイイイ。
+<PAUSE>
+<BG>nc086c,IN, 1000
+<NAME_PLATE>
+　実に嫌な音のする扉を開いて、
+教会に入っていくと、
+<PAUSE>
+<NAME_PLATE>
+　ボッ、ボッ、ボッ、ボッ、ボッ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,h_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「か、勝手に火が！！！？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍タコ化
+<NAME_PLATE>鹿之助
+「ひぃいいいいい！？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　祭壇の蝋燭がひとりでに灯っていく。
+<PAUSE>
+<NAME_PLATE>
+　これは怖い。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ふうまあ～～～～！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぎゅうっっ！！
+<PAUSE>
+<NAME_PLATE>
+　鹿之助が涙腺を崩壊させて、
+俺にしがみついてきた。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐっっ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「きゃああああ、ふうまちゃんっっ！！」
+<PAUSE>
+<SE_PLAY>se117
+<NAME_PLATE>
+　ぎゅるるるるるるるるるっっ！！
+<PAUSE>
+<NAME_PLATE>俺
+「ちょっ、まて―――むぐうっ！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子まで悲鳴を上げ、
+なぜかタコ足を俺に絡ませて、
+ぎゅうぎゅう締めてくる。
+<PAUSE>
+<NAME_PLATE>俺
+「ぐぐぐ……く、くるし……ばか……
+　おまえら……は、離せ……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「怖い怖い怖い！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「もうだめだ、もうだめだああ！！」
+<PAUSE>
+<NAME_PLATE>
+　ぎゅっぎゅっぎゅ～～～～～～～～っ！！
+<PAUSE>
+<NAME_PLATE>俺
+「うううう……ぐぐぐう……」
+<PAUSE>
+<NAME_PLATE>
+　だ、だめだ……つぶれるう……
+<PAUSE>
+<NAME_PLATE>
+　死ぬう……
+<PAUSE>
+<NAME_PLATE>きらら
+「ちょっと、なに遊んでんのよ」
+<PAUSE>
+<NAME_PLATE>
+　ひんやり☆
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃっ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うわっ、つめたっ！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子のタコ足がシュルシュルっと解け、
+鹿之助もビクッとして俺から離れた。
+<PAUSE>
+<ACTOR>0,kr_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　きらら先輩が氷で二人を
+ぴしゃりとやってくれたらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「ふう……助かった。
+　お前ら、俺を殺す気か」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「わ、わりい。つい」
+<PAUSE>
+<NAME_PLATE>蛇子
+「蛇子もつい。
+　ごめんね、ふうまちゃん」
+<PAUSE>
+<NAME_PLATE>俺
+「ったく」
+<PAUSE>
+<ACTOR>0,kr_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「なによこれくらい！
+　お化けより鬼の方が怖いんだから」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　きらら先輩が呆れたように
+俺たちを見ていた。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダムでの繁華街では
+危なっかしかったが、“現場”となれば
+非常に頼もしい限りだ。
+<PAUSE>
+<NAME_PLATE>
+　お化けの類もまったく平気そうだ。
+<PAUSE>
+<NAME_PLATE>
+　考えてみれば、お化けの親戚みたいな鬼族、
+きらら先輩が聞けば怒るだろうが―――の血が
+半分入っているのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>4,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「お化けじゃないわ。
+　封印が解かれて魔法が活性化してるのよ」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ立ち絵
+//　　　　＊ローンチのシュヴァリエ01を流用
+<NAME_PLATE>鹿之助
+「封印が？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「解かれた？」
+<PAUSE>
+<NAME_PLATE>きらら
+「誰が解いたのよ、そんなもの。
+　傍迷惑ね」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり難民が地下の壁を壊し、
+　魔術師の棲家の封印を解いたせいで、
+　魔法的なものが溢れ出している？」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「正確な表現ではないけれど、
+　悪くはないイメージね」
+<PAUSE>
+<ACTOR>4,chr_t0040a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0147a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンリード
+「棲家の外でこの始末、相当面白いわね」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー立ち絵
+//　　　　　＊対魔忍ＲＰＧキャラカードイラストより流用
+<NAME_PLATE>
+　腕が鳴るという風に
+アンリードが口笛を鳴らした。
+<PAUSE>
+<NAME_PLATE>俺
+「どういうことだ？」
+<PAUSE>
+<NAME_PLATE>アンリード
+「棲家の主は相当やり手の
+　魔術師だってことよ、隊長さん」
+<PAUSE>
+<NAME_PLATE>俺
+「やり手の魔術師か……」
+<PAUSE>
+<NAME_PLATE>
+　前にきらら先輩と対決した
+魔女エウリュアレーのことを思い出す。
+<PAUSE>
+<NAME_PLATE>
+　どうも魔法関係には運が悪いようだ。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩もあの魔女を
+思い出したようだが、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kr_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「魔術師のくせに生意気ね。
+　今度はぎったんぎったんに凍らしてやるわ」
+<PAUSE>
+<NAME_PLATE>
+　などと、どこかの猫型ロボットアニメの
+いじめっ子みたいなことを呟いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0147a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンリード
+「隊長さん、
+　ここで引き返すなんてのはなしだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「当然だ。行くぞ」
+<PAUSE>
+<NAME_PLATE>きらら
+「そうこなくちゃ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うう、嫌な予感がする」
+<PAUSE>
+<NAME_PLATE>蛇子
+「蛇子、お化けみたいのはやだな」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「なにが待っているのかしら、うふふ」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　俺たちは、教会の地下へと
+足を踏み入れていった。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

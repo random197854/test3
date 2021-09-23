@@ -1,0 +1,1373 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//シナリオ開始
+//【背景：製薬会社ビル・地下実験室＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc030aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc075a,IN, 1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「食らえ！」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+//※レーザーっぽいエフェクト
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピュンッ！
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<NAME_PLATE>
+　アイナは迷わず大佐の脳天を撃ち抜いた。
+<PAUSE>
+<NAME_PLATE>
+　ベレー帽を被った額のど真ん中に
+レーザー特有の小さな穴が空いた。
+<PAUSE>
+<NAME_PLATE>
+　しかし――
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「それがどうかしたのかね？」
+<PAUSE>
+//　※立ち絵
+//　　ヴィクター大佐
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　大佐は平然としていた。
+しかも額の穴が見る見る塞がっていく。
+<PAUSE>
+<NAME_PLATE>アイナ
+「マジかよ」
+<PAUSE>
+<NAME_PLATE>
+　さすがに唖然とする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「なら、私が。
+　この不届き者、私の斧を食らいなさい！」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　奈々華が次に仕掛けた。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　今までと同じように真正面から行き、
+大斧を振り上げて叩きつけた。
+<PAUSE>
+<NAME_PLATE>奈々華
+「せやあああっっっ！！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「ふふふ」
+<PAUSE>
+<NAME_PLATE>
+　大佐は避けようとすらしない。
+<PAUSE>
+<NAME_PLATE>
+　口元に薄笑いを浮かべたまま、
+棒立ちでそれを受けた。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシュッ！！
+<PAUSE>
+<NAME_PLATE>
+　刃が大佐の肩口に食い込み、
+軍服が裂けて、血飛沫が舞った。
+<PAUSE>
+<BG>nc075a,IN, 500
+<NAME_PLATE>
+　だがそれは肩から数センチほどで、
+大斧は恐るべき筋肉の鎧に刃先を食い込ませて
+そこで止まっていた。
+<PAUSE>
+<ACTOR>0,chr_t0152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「そんなっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「ほう、この身体を傷つけるとは。
+　小娘にしてはなかなかのパワーだ。
+　だが！」
+<PAUSE>
+<NAME_PLATE>
+　痛みも感じていないのか
+大佐は肩に食い込んだ斧をベリッと引き剥がし
+同時にナイフを繰り出してきた。
+<PAUSE>
+<NAME_PLATE>奈々華
+「っっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　奈々華はそれを避けようとするが
+間に合わない。ナイフが二の腕を切り裂く。
+<PAUSE>
+<NAME_PLATE>
+　機関銃の弾すら弾き返すほどの
+奈々華の白い肌がぱっくりと割れて、
+赤い血が噴き出した。
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「奈々華！」
+<PAUSE>
+<ACTOR>1,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>奈々華
+「大丈夫、かすり傷です！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は筋肉にギュッと力を込めて、
+溢れ出た血を無理やり止めた。
+<PAUSE>
+<NAME_PLATE>
+　しかし鉄壁覚醒を破られたことに
+驚きを隠せないでいる。
+<PAUSE>
+<NAME_PLATE>奈々華
+「でも、なんて身体。
+　それに傷がもう回復している。
+　もしかしたら私以上かも」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　レーザーで撃たれた額と同様、
+肩の傷がそこだけ別の生き物のように
+もう再生を始めている。
+<PAUSE>
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「貴様もなかなかに頑健な肉体を
+　持っているようだな」
+<PAUSE>
+<NAME_PLATE>
+　ヴィクター大佐は感心したように言い、
+頬についた奈々華の返り血をペロリと舐めた。
+その眉がひそめられる。
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「ん？　この血、この味、覚えがあるぞ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「え……？」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「なんだ、お前はあの対魔忍ではないか。
+　そうかそうか！　私を見に来たのか！！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「どうだこの身体は！？
+　お前の血のエキスで
+　私はこれほどの肉体を手に入れたぞ！！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「私の糧となったことを
+　誇りに思うがいい！！
+　ふははははははははは！！」
+<PAUSE>
+<NAME_PLATE>
+　また妙なスイッチが入ったらしく、
+大佐は二人を無視して哄笑を始めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>奈々華
+「…………」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あのボケ老人、お前の顔は忘れても、
+　血の味は覚えてたらしいぜ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「……それは忘れていて欲しかったです」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は嫌悪に顔を歪めている。
+<PAUSE>
+<NAME_PLATE>アイナ
+「それにしても、
+　頭をぶち抜いても死にやしねえとは、
+　ふざけたクソジジイだぜ」
+<PAUSE>
+<NAME_PLATE>
+　タイプゼロのレーザーブレードなら
+あの非常識な肉体を斬れるかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、さっきのナイフ捌きを見ては、
+とても接近戦をする気にはなれない。
+<PAUSE>
+<NAME_PLATE>アイナ
+「奈々華、何か手はあるか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「私の能力を元にしているのなら、
+　その回復能力には限度があるはずです。
+　私に考えがあります」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は大佐の出方を気にしつつ、
+アイナにそっと耳打ちした。
+<PAUSE>
+<NAME_PLATE>アイナ
+「了解だ。タイミングは俺にあわせろ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>奈々華
+「お任せします！」
+<PAUSE>
+<SE_PLAY>se027
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　奈々華は斧を激しく振り回しながら、
+再び大佐に接近戦を仕掛けていった。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「ん？　なんだ？　お前は？
+　この私と戦おうというのか？」
+<PAUSE>
+<NAME_PLATE>
+　呆れたことにもう奈々華を忘れている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「対魔忍、仲森奈々華！　参ります！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　奈々華も律儀に名乗りを上げ、
+大斧を凄まじい勢いで繰り出した。
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「面白い。
+　では少し遊んでやろう。
+　ベテランの力というものを思い知るがいい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef002a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイインッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　大斧が大佐のナイフで受け止められた。
+<PAUSE>
+<NAME_PLATE>
+　激しい火花が飛び散る。
+<PAUSE>
+<NAME_PLATE>奈々華
+「くああっっっ！！
+　でやああああっっ！！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「ほう、そうくるか！」
+<PAUSE>
+<BG>ef002b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se047
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　奈々華は大斧を振り下ろし、薙ぎ払い、
+渾身の力を込めて突き入れた。
+<PAUSE>
+<NAME_PLATE>
+　その一撃一撃が鋼鉄のドローンを
+簡単にスクラップにするほどの威力だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、大佐はその暴風のような攻撃を
+二本のナイフで軽々と受け止める。
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「小娘にしてはなかなかのパワーだ！」
+<PAUSE>
+<NAME_PLATE>
+　力はほぼ互角だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、早さと技量で
+ヴィクター大佐は奈々華を圧倒していた。
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「どうしたどうした！？
+　パワーを活かし切れておらんぞ！」
+<PAUSE>
+//※血飛沫エフェクト
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブシュッッ！！
+<PAUSE>
+<NAME_PLATE>奈々華
+「くっっ！」
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「どこもかしこも隙だらけだ！
+　ここも！　ほらここも！！」
+<PAUSE>
+//※血飛沫エフェクト
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザクッッ！！　ビシュッッ！！
+<PAUSE>
+<BG>nc075a,IN, 500
+<NAME_PLATE>奈々華
+「うっっ！　ぐっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　大佐のナイフが鋭く走るたびに
+奈々華の身体が切り裂かれていく。
+<PAUSE>
+<ACTOR>0,chr_t0152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「このっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　致命傷は一つとしてない。
+<PAUSE>
+<NAME_PLATE>
+　だがそれは奈々華が避けているというより、
+大佐が奈々華を弄んでいるからだ。
+<PAUSE>
+<NAME_PLATE>
+　必死に応戦する奈々華の身体が
+流れ出した血で染まっていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「それでも兵士か！？
+　もっと私を楽しませたらどうだ。
+　せっかく遊びに来たのだからな！」
+<PAUSE>
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>奈々華
+「黙りなさいっっ！！
+　でやああっっ！　とりゃああああっっ！！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「おっ！　いいぞその調子だ
+　少しは良くなってきたぞ！
+　これなら見込みがある！」
+<PAUSE>
+<NAME_PLATE>
+　あの顔は奈々華との闘い、
+いや遊びを心から楽しんでいる顔だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だがそのせいで、
+もう半分以上頭がぼけている大佐は
+アイナのことをすっかり忘れている。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「いつまでも調子に乗ってんじゃねえ！！」
+<PAUSE>
+//※レーザーっぽいエフェクト
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<NAME_PLATE>
+　ピュンビュンビュンッビュンッ！！
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アイナの狙いすましたレーザーが
+大佐の両手両足の腱を正確にぶち抜いた。
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　両手からナイフが落ち、
+大佐はがっくりとその場に膝を突く。
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「今だ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>奈々華
+「爆砕剛斧！！」
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<NAME_PLATE>アイナ
+「脳みそぶちまけやがれ！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se032
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アイナはもう一度頭を撃ち、
+奈々華は大上段から胸板、すなわち心臓に
+斧を振り下ろした。
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「ぐはっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　大佐の頭が衝撃で後ろに仰け反り、
+巨大な刃が間違いなく心臓深く食い込んだ。
+<PAUSE>
+<NAME_PLATE>
+　人間の最大の急所である
+脳と心臓の同時破壊。
+<PAUSE>
+<NAME_PLATE>
+　いくら異常な再生能力があるとしても、
+これなら通じるであろうと踏んでの策だ。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc075a,IN, 500
+<NAME_PLATE>
+　ヴィクター大佐は仰向けにひっくり返り、
+そのまま動かなくなった。
+<PAUSE>
+<NAME_PLATE>
+　――かに思われたが、
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>ヴィクター大佐
+「ぐふふふふぐぐ！！
+　む、無駄だあああああああ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「なにい！？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「そんなっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se001
+<NAME_PLATE>
+　割れた脳髄と心臓を急速に再生させながら
+ヴィクター大佐はがくんと起き上がり、
+奈々華を素手で殴り付けた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>奈々華
+「うがっっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華はそれをまともに食らって
+壁際まで吹き飛ばされる。
+<PAUSE>
+<NAME_PLATE>アイナ
+「奈々華！！」
+<PAUSE>
+<SE_PLAY>se012
+<NAME_PLATE>
+　実験室の壁に勢いよく叩きつけられ
+奈々華はピクリとも動かない。
+<PAUSE>
+<NAME_PLATE>
+　気絶したのか死んでしまったのか、
+床にダラダラと血が流れ出す。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「畜生、あれでも死なねえってのかよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイナだけでは打つ手がない。
+<PAUSE>
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「ハハ……ハハ……ハハハハハ！」
+<PAUSE>
+<NAME_PLATE>
+　ヴィクター大佐はまた二人のことを
+忘れたかのようにくるりと背を向けた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そしてやけに楽しげな様子で、
+そばにあった妙な装置を動かし始める。
+<PAUSE>
+<NAME_PLATE>
+　実験室にずらりと並んでいたカプセルに
+次々と明かりが灯っていく。
+<PAUSE>
+<NAME_PLATE>アイナ
+「なっっ！？」
+<PAUSE>
+<NAME_PLATE>
+　そのカプセルの全てに子供たちがいた。
+<PAUSE>
+<NAME_PLATE>
+　誘拐された子供たちだ。
+<PAUSE>
+<NAME_PLATE>
+　大佐はカプセルの子供たちを見ながら、
+うっとりとした顔で語り始める。
+<PAUSE>
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「私は死なぬ。決して死なぬ。
+　そして、お前たちもだ。私の子供たちよ。
+　今はまっさらな我が子たちよ」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「この私が真の兵士に教育してやろう。
+　そして戦うのだ、この父と共に。
+　それが私の夢だ。愛しい子供たちよ」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>アイナ
+「黙れ」
+<PAUSE>
+<NAME_PLATE>
+　魔界の底から響きわたるような声がした。
+<PAUSE>
+<NAME_PLATE>
+　それが自分の口から出たものとは、
+アイナは気がついていなかった。
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか右目の眼帯が外れ、
+瞳が真っ赤に染まっていることも。
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「なんだ貴様？
+　誰の許可を得てここに入ってきた？」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「私たちの邪魔をするな。
+　ここは私と子供たちの神聖な―――」
+<PAUSE>
+<NAME_PLATE>アイナ
+「その薄汚え口を今すぐ閉じやがれ！
+　このゲス野郎！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　血の色をした右目を燃え上がらせ、
+アイナはヴィクター大佐に突っ込んでいた。
+<PAUSE>
+<NAME_PLATE>
+　かつて感じたことのないような魔力が
+全身を駆け巡っている。
+<PAUSE>
+<NAME_PLATE>
+　この力でアイツを倒す。
+<PAUSE>
+<NAME_PLATE>
+　いや、殺す！
+<PAUSE>
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「貴様あっ！！」
+<PAUSE>
+<NAME_PLATE>
+　大佐がアイナを迎え撃とうとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが今の彼女の目には
+その動きはスローモーションのように遅い。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se107_01
+<NAME_PLATE>アイナ
+「おらあああっっ！！」
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュウウウウウウッッ！！
+<PAUSE>
+<NAME_PLATE>
+　ブレードモードにしたタイプゼロで
+大佐の両腕を根元からぶった斬った。
+<PAUSE>
+<BG>nc075a,IN, 500
+<NAME_PLATE>ヴィクター大佐
+「無駄だ！！！
+　いくら斬り落とされようとも――」
+<PAUSE>
+<NAME_PLATE>
+　腕はすぐにまたくっつこうとしているが、
+<PAUSE>
+<NAME_PLATE>アイナ
+「うるせええ！！」
+<PAUSE>
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アイナは流れるように
+タイプゼロのフルバーストを発動させ、
+その鬱陶しい腕を立て続けに撃ち抜いた。
+<PAUSE>
+<NAME_PLATE>
+　再生しようとするよりも早く、
+何度も何度もレーザーで焼き、
+その再生能力に陰りが見え始める。
+<PAUSE>
+<BG>nc075a,IN, 500
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヴィクター大佐
+「わ、私の腕がっ！？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「どうした！？
+　決して死なねえ体じゃねえのか！？」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「私は無敵だ！！！
+　理想の兵士の体を手に入れたのだ！！！」
+<PAUSE>
+<NAME_PLATE>アイナ
+「その糞妄想ごとこの世から消えやがれ！！
+　ゼロレンジフルバースト！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　至近距離での高出力レーザー連続発射。
+<PAUSE>
+<NAME_PLATE>
+　アイナは撃ちまくった。
+<PAUSE>
+<NAME_PLATE>
+　何発も何発も何発も何発も何発も何発も
+何発も何発も何発も何発も何発も何発も
+何発も何発も――。
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「ぐはっっ！　うぐあっっ！！　がっっ！！
+　うがっっ！！　があああああああっっ！！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　不死の肉体は凄まじいレーザー照射で
+数限りなく撃ち抜かれ、
+ついに再生が止まった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<BG>nc075a,IN, 500
+<NAME_PLATE>ヴィクター大佐
+「う……ぐ……うう……ああ……」
+<PAUSE>
+<NAME_PLATE>
+　大佐はよろよろと虚空を見つめている。
+<PAUSE>
+<NAME_PLATE>
+　その顔から仮初めの若さが失われ、
+狂気の表情が消えていく。
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「お……おお！
+　ジョンソン一等兵、ブロンズ軍曹……！
+　生き返ってくれたか………」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「わ……私はようやく果たしたぞ……
+　お前たちとの約束を……」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「お前達のように………
+　下劣な政治屋の犠牲となって……
+　優秀な兵たちが犬死にせぬように……」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「理想の兵士……不死の体を………
+　家族のもとに返してやるのだ……」
+<PAUSE>
+<NAME_PLATE>
+　それがヴィクター大佐の
+不死の兵士を求めた老人の最期の言葉だった。
+<PAUSE>
+<NAME_PLATE>アイナ
+「はぁっ、はぁっ、はぁっ、はぁっ」
+<PAUSE>
+<NAME_PLATE>
+　アイナはピクリとも動かなくなった
+ヴィクター大佐の死体を前にブルブルと
+震えていた。
+<PAUSE>
+<NAME_PLATE>
+　赤い瞳が殺意にまだ染まっている。
+<PAUSE>
+<NAME_PLATE>
+　自分が自分でなくなるような
+強い衝動が、あるいは誘惑が
+治まってくれない。
+<PAUSE>
+<NAME_PLATE>アイナ
+「はぁ、はぁぁ、はぁあっ……くそ」
+<PAUSE>
+<NAME_PLATE>
+　忌まわしい魔族の欲望から
+アイナを救ってくれたのは、
+聞こえてきた弱々しい声だった。
+<PAUSE>
+<ACTOR>0,chr_t0217a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「ア、アイナさん……お見事です……」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「奈々華！」
+<PAUSE>
+<NAME_PLATE>
+　それに気づいた途端、
+赤い目の殺意がフッと消え、
+アイナは彼女に駆け寄っていた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「大丈夫か？」
+<PAUSE>
+<NAME_PLATE>
+　起き上がろうとしている
+奈々華に肩を貸す。
+<PAUSE>
+<NAME_PLATE>奈々華
+「ええ、なんとか……
+　肋骨が何本か折れてしまいましたが、
+　まあ……すぐにくっつきます」
+<PAUSE>
+<NAME_PLATE>アイナ
+「お前もふざけた回復能力だぜ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「おかげさまで……」
+<PAUSE>
+<NAME_PLATE>
+　二人にようやく笑みが浮かんでいた。
+<PAUSE>
+//【黒画面】
+//※時間経過の間
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：製薬会社ビル・地下実験室＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc030aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc075a,IN, 1000
+<NAME_PLATE>
+　闘いの後、アイナと奈々華の二人は
+子供たちの入れられたカプセルを調べていた。
+<PAUSE>
+<ACTOR>0,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「大丈夫そうだな。
+　全員眠らされているだけだ。
+　なんの改造もうけちゃいねえ」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<ACTOR>1,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>奈々華
+「本当ですか？
+　私の血液とかを入れられてたりは？」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<NAME_PLATE>アイナ
+「それも大丈夫だ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あのジジイ、まっさらなとこを
+　教育してやるとかぬかしてたからな
+　まだ何もする前だ。間一髪だったな」
+<PAUSE>
+<NAME_PLATE>奈々華
+「そうですか……よかった」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ああ」
+<PAUSE>
+<NAME_PLATE>
+　二人は安堵の息を吐いた。
+<PAUSE>
+<NAME_PLATE>奈々華
+「じゃあ、この子たちを
+　早く解放してあげないと」
+<PAUSE>
+<NAME_PLATE>アイナ
+「もちろんだ。
+　けど、これだけ大がかりな誘拐だぜ。
+　ここの連中、素直に解放するか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「あ……それもそうですね。
+　どうしましょうか？
+　先に上を壊滅させておきますか？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ド直球だな。
+　そりゃ確かに確実だけどよ」
+<PAUSE>
+<NAME_PLATE>
+　二人が今後の方針について
+話し合っていると、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>？？？
+「それは私に任せて」
+<PAUSE>
+<ACTOR>0,as_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　なにもないところからいきなり声がして、
+スーッと何者かが姿を現した。
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>奈々華
+「光学迷彩？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「誰だお前！？」
+<PAUSE>
+<NAME_PLATE>？？？
+「誰だは酷いなあ。
+　今までこっそりあなたのこと
+　助けてあげたでしょ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私はＤＳＯの甲河（こうかわ）アスカよ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「甲河アスカ？　あの鋼鉄の死神か？」
+<PAUSE>
+<NAME_PLATE>
+　会うのは初めてだが、
+その名は裏社会では広く知られている。
+噂通り両手両足の全てがサイボーグだ。
+<PAUSE>
+<NAME_PLATE>アスカ
+「あたり。あなたのことも良く知ってるわ。
+　凄腕の魔物ハンター、
+　アイナ・ウィンチェスター」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そっちのあなたは
+　五車の対魔忍の仲森奈々華ね。
+　初めまして」
+<PAUSE>
+<NAME_PLATE>奈々華
+「は、はい」
+<PAUSE>
+<NAME_PLATE>
+　突然現れたＤＳＯの女に
+奈々華は困惑を隠しきれないでいる。
+<PAUSE>
+<NAME_PLATE>
+　アスカはそんなことにはお構いなく、
+ヴィクター大佐の死体を見て、
+感心したようにアイナに言った。
+<PAUSE>
+<NAME_PLATE>アスカ
+「さっきのアレ、
+　ゼロレンジフルバーストだっけ？
+　すごい威力だったわね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「最後くらい手助けしようかと思ったけど、
+　必要なかったもの」
+<PAUSE>
+<NAME_PLATE>
+　その上から目線の言い草に
+アイナは軽く舌打ちした。
+<PAUSE>
+<ACTOR>0,as_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「ちっ。
+　ここに来てから妙に都合がいいと
+　思ってたが、お前の仕業か」
+<PAUSE>
+<NAME_PLATE>アイナ
+「こそこそ隠れて何してやがったんだ？
+　事と次第によっちゃ承知しねえぞ」
+<PAUSE>
+<ACTOR>0,as_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「そう怖い顔しないで。
+　私は私で今までやることがあったのよ。
+　まあ聞いて」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカはそう前置きして話し始めた。
+<PAUSE>
+<NAME_PLATE>
+　それはアイナと奈々華が
+怪しげなタレコミで知った以上の
+今回の真相だった。
+<PAUSE>
+<NAME_PLATE>
+　ヴィクター大佐は台湾危機、半島戦争で
+活躍した米連の元大佐だ。
+<PAUSE>
+<NAME_PLATE>
+　当時から遺伝子改造や投薬による
+超人兵士の開発に携わっており、
+数多くの功績をあげた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、魔族の出現により
+米連の軍事開発の主流が魔界の技術の利用に
+移ったため、次第に権力基盤を失っていく。
+<PAUSE>
+<NAME_PLATE>
+　やがて不遇のままに退役し、
+米連に軍事用薬物を提供している
+アーカムバイオ社の顧問となったところを、
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「この国の内調に利用されたようなの。
+　それはまだ確証がとれてないんだけどね」
+<PAUSE>
+<NAME_PLATE>
+　アスカは肩をすくめて話を続ける。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大佐は長年の夢であった不死の兵士と、
+軍人としてのかつての力を
+取り戻すことを目指し、
+<PAUSE>
+<NAME_PLATE>
+　内調の協力のもと違法な人体実験を続け、
+自身も超人と呼ぶにふさわしい
+若々しい肉体を取り戻す。
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「でも、やっぱり副作用があったのよね。
+　今日ここで調べたところによると」
+<PAUSE>
+<ACTOR>0,as_t001c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「頭がいかれちまうんだろ。
+　あのジジイ、３秒前に話した俺たちのことも
+　覚えてられなかったぜ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そういうこと。
+　肉体の再生によって脳に障害が生じ、
+　記憶、知能が劣化していったようよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「次第に精神に異常をきたして、
+　子供を誘拐して己のみに忠実な不死の軍団を
+　作ろうなんてしはじめたわけ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「さすがに内調も手に負えなかったみたいで、
+　米連の各組織に大佐の情報をリークして」
+<PAUSE>
+<NAME_PLATE>アスカ
+「使い捨ての道具として
+　消されることになった」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まあ、そんな感じね」
+<PAUSE>
+<NAME_PLATE>アイナ
+「それじゃ俺たちは
+　この国の内調の尻拭いをしたってことかよ。
+　ムカつくぜ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>奈々華
+「なんてことを。許せません」
+<PAUSE>
+<NAME_PLATE>
+　憤慨する二人に
+アスカはどこか達観したように言った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「私の任務はいつもそんなよ」
+<PAUSE>
+<ACTOR>0,as_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「誰かの尻拭いだろうがなんだろうが、
+　ろくでなしが一人でも減るんなら
+　いいことじゃない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「そうだけどよ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「なぜ今ごろ私たちの前に
+　姿を現したんですか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,as_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「お詫びとお礼のためかな？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「こそこそ隠れてたのは謝るわ。
+　でもあなたたちが暴れてくれたおかげで
+　私も助かったから」
+<PAUSE>
+<NAME_PLATE>アイナ
+「なにがだよ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「その隙に大佐の研究に関する
+　諸々のデータを処分できたから。
+　ＤＳＯとしてはそれが本分だし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ついでにここのシステムに残っていた
+　あなたたちのデータも全部消しておいたわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ヴィクター大佐は謎のテロリストに襲われて
+　全ての実験データと共に死亡。
+　実験も再開不能で中止。そうなるはずよ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ふん、よかったじゃねえか。
+　めでたしめでたしだな」
+<PAUSE>
+<NAME_PLATE>
+　口を尖らせるアイナに
+アスカはごめんごめんと言う顔をして、
+<PAUSE>
+<NAME_PLATE>アスカ
+「そのお礼と言ってはなんだけど、
+　子供たちのことは私に任せてくれない？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あなたはフリーの魔物ハンターだし、
+　そっちのあなたは対魔忍で
+　米連がらみは手を出しにくいだろうし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それにＤＳＯはこういうことの
+　後始末は得意なのよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「今から二人がかりで
+　このビルを壊滅させるよりはいいでしょ？
+　そんなのここの子供たちも危ないし」
+<PAUSE>
+<NAME_PLATE>アイナ
+「しょうがねえな。
+　じゃあ、まかせるとすっか」
+<PAUSE>
+<ACTOR>0,as_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ありがと。
+　あなたもそれでいい？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「はい。お任せします」
+<PAUSE>
+<NAME_PLATE>
+　アスカの提案に二人とも同意する。
+<PAUSE>
+<ACTOR>0,as_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「じゃあ、後は私がなんとかするから、
+　あなたたちはなるべくこっそり
+　出ていってくれる？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「おう、頼んだぜ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「よろしくお願いします」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　二人が実験室を出て行こうとすると、
+アスカがふと思い出したように言った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm317,1000
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「あ、そうだ。対魔忍のあなた。
+　独立遊撃隊の隊長やってる
+　ふうまって知ってる？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「え？　……はい。
+　会ったことはないですが
+　名前くらいは……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「知り合いじゃないんだ。
+　そっか、んーじゃいいわ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「なんでしょう？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょっと伝えて欲しいことがあったのよ。
+　『こないだのお返しどうなってるの』って。
+　知り合いじゃないならいいわ。ごめんね」
+<PAUSE>
+<NAME_PLATE>奈々華
+「あ、はい……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　怪訝そうな奈々華に代わって
+今度はアイナが言った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「なんだお前、ふうまと知り合いなのかよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「え？　あなたもそうなの？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あのムッツリスケベだろ？」
+<PAUSE>
+<ACTOR>0,as_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「ムッツリスケベ？」
+<PAUSE>
+<NAME_PLATE>
+　眉をひそめるアスカに
+アイナは溜息混じりに続けた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「初めて会ったときは海で、
+　二人とも任務だったんだけど水着でよ。
+　真面目な顔してジロジロ見てんだあいつ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「…………」
+<PAUSE>
+<NAME_PLATE>アイナ
+「こないだの正月も酷い目にあったぜ。
+　いきなりウェディングドレス着せられて、
+　変な猫と戦わされてよ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「それ聞いたことあるわ。
+　ひょっとしてアンジェが一緒じゃなかった？
+　背中から触手を出すほわわんって感じの子」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あん？　あいつとも知り合いか？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「あの子もＤＳＯだもの」
+<PAUSE>
+<NAME_PLATE>アイナ
+「へーそうなんだ。言ってなかったな」
+<PAUSE>
+<NAME_PLATE>
+　アスカの眉間の皺はますます深くなる。
+<PAUSE>
+<NAME_PLATE>アスカ
+「もう一人いたって聞いたけど、
+　ウェディングドレスの子」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ああいたいた。対魔忍でいたな。
+　すげえ弓使いのゆみ、ゆば……
+　なんとかって名前の」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>奈々華
+「弓走颯（ゆばしりはやて）さんですか？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あー、そうそう、そいつ。
+　なんだ、そっちも知り合いか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「何度か一緒に訓練を行ったことがあります。
+　努力家でとても真面目な子ですが、
+　そんなことが……」
+<PAUSE>
+<NAME_PLATE>
+　奈々華も訝しげな顔になっていく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t001c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ちょっとその話詳しく聞かせて。
+　その前の水着の任務の話も」
+<PAUSE>
+<NAME_PLATE>奈々華
+「私も聞きたいです。
+　独立遊撃隊のふうまさんには紫先生も
+　期待されているらしいですし」
+<PAUSE>
+<NAME_PLATE>アイナ
+「別にいいけどよ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　妙なところで
+盛り上がり始めてしまった三人。
+<PAUSE>
+<NAME_PLATE>
+　子供たちの解放と施設からの脱出は
+もう少し先になりそうだった。
+<PAUSE>
+//※おわり
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

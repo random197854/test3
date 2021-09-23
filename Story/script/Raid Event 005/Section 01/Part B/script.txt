@@ -1,0 +1,434 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカルの背景＿nc018bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc066a,IN, 1000
+<ACTOR>0,ts_m080a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリムムオー
+「えーい♪　ほーら♪　あっそーれ♪」
+<PAUSE>
+//　※立ち絵
+//　　淫魔勇者リリムムオー
+//　　　＊モンスターイラストから流用
+//SE：連続で大きな武器を振る音
+<SE_PLAY>se108
+<NAME_PLATE>
+　ブンッ。
+ブオンッ。
+シュオッ。
+<PAUSE>
+<NAME_PLATE>
+　ヤバそうな残像を描きながら、
+リリムムオーの鎌が次々と俺達を襲う。
+<PAUSE>
+<NAME_PLATE>ミーティア
+「きゃっ！
+　やめなさいリリム！」
+<PAUSE>
+//　※立ち絵
+//　　ミーティア
+//　　　＊カードイラストから流用
+<NAME_PLATE>リリムムオー
+「誰がやめるもんか！
+　圧倒的武力で蹂躙するのは楽しいなあ！
+　逃げ惑え愚民ども！」
+<PAUSE>
+//SE：すばやく連続で武器を振る音
+<SE_PLAY>se108_01
+<NAME_PLATE>
+　ヒュンッ。
+バシュッ。
+ビュオンッ。
+<PAUSE>
+<NAME_PLATE>俺
+「くっ……
+　このやろっ！」
+<PAUSE>
+<NAME_PLATE>俺
+（こんな奴に狩られるなんて、
+　不本意にも程がある！）
+<PAUSE>
+<NAME_PLATE>
+　俺は転がっていた鉄パイプを拾い、
+リリムムオーの腹めがけて
+フルスイングする。
+<PAUSE>
+<NAME_PLATE>俺
+「おらあああああっ！」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se099
+</GROUP>
+<NAME_PLATE>
+　ゴーーンンンン……
+<PAUSE>
+<NAME_PLATE>俺
+「いってえええ！！」
+<PAUSE>
+<NAME_PLATE>
+　しかしその身体は想像以上に硬く、
+俺の手は骨まで痺れてしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「こりゃ本格的な装甲だぞ！？
+　米連の強化外骨格と互角、
+　下手したらそれ以上かも……」
+<PAUSE>
+<NAME_PLATE>俺
+（こんな兵装を作れる“友達”って、
+　一体なんなんだよ！？）
+<PAUSE>
+<NAME_PLATE>俺
+「ミーティア、あれ何とかできないのか」
+<PAUSE>
+<NAME_PLATE>ミーティア
+「と言われましても……
+　私は物理的戦闘には弱いので。
+　まして機械が相手では」
+<PAUSE>
+<NAME_PLATE>
+　このままではリリムを捕えるどころか、
+こっちの命が危ない。
+<PAUSE>
+<NAME_PLATE>俺
+（くそ……仕方がない……）
+<PAUSE>
+<NAME_PLATE>
+　こいつを黙らせる方法、
+それはただひとつ。
+<PAUSE>
+<NAME_PLATE>
+　俺はポケットに手を突っ込み、
+なけなしの小遣いを取り出す。
+<PAUSE>
+<NAME_PLATE>俺
+（くそ、屈辱だ！！
+　まして今月はまだ、
+　貰ったばかりだというのに……っ）
+<PAUSE>
+<NAME_PLATE>
+　震えながら数枚の札を出し、
+リリムムオーに向かって差しだす。
+<PAUSE>
+<NAME_PLATE>リリムムオー
+「おや、君も世の中というものが
+　分かってきたようだね」
+<PAUSE>
+<NAME_PLATE>
+　リリムムオーは満足そうに、
+宙返りして動きを止めた。
+<PAUSE>
+<NAME_PLATE>
+　そのとき――
+<PAUSE>
+<NAME_PLATE>？？？
+「ふうま、どいて！！」
+<PAUSE>
+<NAME_PLATE>俺
+「？！　その声……」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,700
+</GROUP>
+<NAME_PLATE>
+　聞きなれた声に、
+俺がリリムムオーから跳び去ると、
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<EFFECT_FLASH>WHITE, 1000
+//SE：ビーム発射音
+<SE_PLAY>se109
+</GROUP>
+<NAME_PLATE>
+　ドォォン……！！
+<PAUSE>
+<NAME_PLATE>リリムムオー
+「びへぇぇぇっ！？」
+<PAUSE>
+<NAME_PLATE>
+　突如現れた大きな雷球が、
+リリムムオーの頭を直撃する。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,yu_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ふー。ちゃんと命中してよかったわ！」
+<PAUSE>
+//　※立ち絵
+//　　水城ゆきかぜ
+//　　　＊初期カードイラストから流用
+<NAME_PLATE>俺
+「ゆきかぜ！
+　ついてきてたのか！」
+<PAUSE>
+<ACTOR>1,yu_t001d,CENTER, CENTER, NONE, linear, 0
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>ゆきかぜ
+「ひ、暇つぶしよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ご丁寧に対魔忍スーツに着替えて、
+　ライトニングシューターを装備してか？」
+<PAUSE>
+<ACTOR>1,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「こ、これは……
+　あんたが道を外した時のためよ！」
+<PAUSE>
+<ACTOR>1,yu_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「スケベふうまをサキュバスと
+　二人っきりにしておくなんて、
+　何しでかすかわからないもの！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「何か悪さしようとしたら、
+　すぐ黒コゲにしようと思って、
+　スタンバイしてたのっ！」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ！？　サキュバスったって、
+　この人は依頼主だぞ！？
+　そんな変な事するかよ！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「わかんないわよ！
+　ふうまだもん！」
+<PAUSE>
+<ACTOR>1,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　不毛な言い争いをしていると、
+後ろからそっとミーティアが耳打ちする。
+<PAUSE>
+<ACTOR>1,yu_t001e,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,chr_t0111a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミーティア
+「違います、ふうまさん。
+　ゆきかぜさんはきっと、
+　ヤキモチを焼いているんですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ヤキモチ？」
+<PAUSE>
+<ACTOR>1,yu_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「はぁ！？
+　ちがっ、ちょっとミーティア！？」
+<PAUSE>
+<NAME_PLATE>ミーティア
+「うふふ、私にはわかります。
+　これでもサキュバスですからね♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>リリム
+「ぐ、ぐふう……
+　ひ……ひきょうなりぃ……」
+<PAUSE>
+//　※立ち絵
+//　　リリム
+//　　　＊カードイラストから流用
+<ACTOR>3,ri_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　焦げ臭い匂いに振り向くと、
+ブスブスと煙をあげるリリムムオーから、
+リリムが転がり出ていた。
+<PAUSE>
+<NAME_PLATE>
+　ミーティアがそれをすかさず捕まえる。
+<PAUSE>
+<ACTOR>3,ri_t001a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,chr_t0111a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミーティア
+「リリム！　御用です。
+　今度こそ反省しなさい」
+<PAUSE>
+<NAME_PLATE>リリム
+「くっ……ここまでか……
+　ぐふう」
+<PAUSE>
+//【背景：繁華街＿夜】【時間：夜】
+//　※僕のエルフお姉さんの背景・街中繁華街_夜より流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm604,1000
+<BG>nc132a,IN, 1000
+<ACTOR>2,chr_t0111a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ミーティア
+「お世話になりました」
+<PAUSE>
+//　※立ち絵
+//　　ミーティア
+//　　　＊カードイラストから流用
+<NAME_PLATE>ミーティア
+「ふうまさんがリリムの予想を下回る力を
+　よく理解していたおかげで、
+　無事に捕まえることができました」
+<PAUSE>
+<NAME_PLATE>
+　ミーティアは、
+縄でぐるぐる巻きにしたリリムを引き連れて、
+深々と頭を下げる。
+<PAUSE>
+<NAME_PLATE>俺
+「もう二度と野放しにしないでくれよ」
+<PAUSE>
+<NAME_PLATE>ミーティア
+「もちろん。――あ、それと」
+<PAUSE>
+<NAME_PLATE>
+　ミーティアの顔が、
+すっと耳に寄せられる。
+<PAUSE>
+<NAME_PLATE>ミーティア
+「このお礼は、またの機会に必ず……♪」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、ああ……」
+<PAUSE>
+<NAME_PLATE>
+　不意に色っぽく囁かれ、
+俺は小さな声で答えることしかできない。
+<PAUSE>
+<NAME_PLATE>俺
+（こう見えても、
+　やっぱり淫魔なんだな……）
+<PAUSE>
+<NAME_PLATE>リリム
+「ふうまのバカヤローー！！
+　おぼえてやがれ！」
+<PAUSE>
+<NAME_PLATE>俺
+「さらばだリリム。
+　きれいさっぱり忘れてやるから、
+　もう二度と現れんなよ～」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　とにかくこれで一件落着。
+去る二人を晴れやかな気持ちで見送り、
+さて、と踵を返す。
+<PAUSE>
+<ACTOR>1,chr_t0112a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「これでまた貸しひとつね、ふうま」
+<PAUSE>
+//　※立ち絵
+//　　【雷撃の新学期】水城ゆきかぜ
+//　　　＊カードイラストから流用
+<NAME_PLATE>俺
+「そうだな、助かった
+　……っていつのまに着替えたんだ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「町中で対魔忍スーツは目立つでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「人目のある道を避けて、
+　まっすぐ帰ればいいだろ……っておい」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うふふ～」
+<PAUSE>
+<NAME_PLATE>
+　気づけばゆきかぜの手が、
+俺の腕をがっしと掴んでいる。
+<PAUSE>
+<NAME_PLATE>俺
+「何だよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ～あ、雷撃ぶっぱなしたら
+　おなか空いちゃったなあ～♪」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……、
+　しょうがないな。何が食いたい？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「んー。ステーキ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はあ！？　そんなに金ないぞ！？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「冗談だってば！
+　ナックのハンバーガーでいいよ♪」
+<PAUSE>
+<NAME_PLATE>
+　俺の腕を引っ張りながら、
+にっこりと笑うゆきかぜ。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ……
+　男心を騒がせるのは、なにも
+　淫魔だけじゃないな）
+<PAUSE>
+<NAME_PLATE>
+　俺はポケットの中で、
+ゆきかぜに守られた小遣いを握りしめた。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカルの背景＿nc018bより流用
+<BG>nc066a,IN, 1000
+<NAME_PLATE>
+　同じ頃。
+<PAUSE>
+<NAME_PLATE>
+　嵐が去り、
+静まりかえった工事現場に、
+一つの人影が現れた。
+<PAUSE>
+<SE_PLAY>se078
+<NAME_PLATE>
+　それはリリムムオーの残骸に駆け寄ると、
+傷ましげにそこに座り込む。
+<PAUSE>
+<SE_PLAY>se010
+<NAME_PLATE>？？？
+「あああ……私の作品が無残な姿に……！」
+<PAUSE>
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+<NAME_PLATE>？？？
+「まあいい、これはあくまで試作品だ。
+　次は対魔忍の雷撃にも耐える、
+　完全なる作品を作ってみせよう」
+<PAUSE>
+<NAME_PLATE>
+　影は焼け焦げたリリムムオーの部品を
+回収すると、
+静かにその場を去っていった。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

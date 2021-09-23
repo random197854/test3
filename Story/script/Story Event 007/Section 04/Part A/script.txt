@@ -1,0 +1,190 @@
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：ホテル別棟外観＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc026aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc169a,IN, 1000
+<NAME_PLATE>
+　浜辺から、歩くこと１０分ほど。
+<PAUSE>
+<ACTOR>0,chr_t0111a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミーティア
+「あれが別棟、ＶＩＰ専用のヴィラです」
+<PAUSE>
+//　※立ち絵
+//　　ミーティア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　よく手入れされた庭に建つ洋館は、
+ホテルの別棟というより、
+瀟洒なお屋敷といった雰囲気だ。
+<PAUSE>
+<NAME_PLATE>
+　それもそのはずで、ここは一日一組、
+それもＶＩＰしか泊まれないという、
+特別なヴィラなのである。
+<PAUSE>
+<NAME_PLATE>ミーティア
+「薬があるのは、おそらく食堂だと思います。
+　すみませんが、私はここまでで……」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、充分助かった」
+<PAUSE>
+<ACTOR>0,chr_t0111a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0131a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「ありがとな、淫魔らしくない淫魔さん！」
+<PAUSE>
+//　※立ち絵
+//　　アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミーティア
+「ぐさっ……
+　とにかく、気をつけてくださいね」
+<PAUSE>
+<NAME_PLATE>ミーティア
+「別棟は、それはもう厳重に
+　警備されていますから」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0131a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　そう言い置いて、
+ミーティアは帰っていった。
+<PAUSE>
+<NAME_PLATE>俺
+「さて、ここからだな。
+　どうやって潜入するかの作戦を……」
+<PAUSE>
+<NAME_PLATE>
+　人目を避けて入り込むには……。
+しかしそんな考えは、またもや
+アイナの声に遮られる。
+<PAUSE>
+<NAME_PLATE>アイナ
+「は？　正面突破だろ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええ！？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「だって時間ねーんだぞ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあそうだけど……」
+<PAUSE>
+<NAME_PLATE>アイナ
+「邪魔する奴はぶちのめしていけば、
+　おんなじことだろーが。
+　淫魔の連中、腕っぷしは弱いしな！」
+<PAUSE>
+<NAME_PLATE>俺
+「いやいやいや、待てって……」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>1,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺の制止も聞かず、
+アイナは茂みから飛び出して行ってしまった。
+<PAUSE>
+<NAME_PLATE>俺
+（弱いって言ってもなあ……）
+<PAUSE>
+<NAME_PLATE>俺
+（浜辺で遊んでる連中と、
+　ＶＩＰ専用ヴィラの警備してる連中が、
+　同じだとは思えんぞ！？）
+<PAUSE>
+<NAME_PLATE>
+　しかし、行ってしまったものは仕方ない。
+俺はアイナの後を追い、
+エントランスに向かって走り出した。
+<PAUSE>
+//【背景：ホテル別棟エントランス＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC050aより流用
+<SE_PLAY>se078
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc147b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　正面玄関へ突入し、
+ロビーを横切ろうとすると、
+案の定、従業員に止められる。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m016a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>3,ts_m019a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ボーイ
+「お客様。
+　このエリアはＶＩＰ専用です。
+　ＩＤはお持ちですか？」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>メイド
+「ＶＩＰの方の顔はすべて記憶しております。
+　失礼ですが、
+　お二人は初めて拝見するお顔で……」
+<PAUSE>
+//　※立ち絵
+//　　闇の侍女
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+（まあ、こうなるよな……）
+<PAUSE>
+<NAME_PLATE>メイド
+「一般客室棟はあちらでございます。
+　よろしければ、ご案内を……」
+<PAUSE>
+<NAME_PLATE>
+　水着姿のおかげか、幸い俺達は
+迷い込んだだけの一般客だと思われている。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　この誤解を利用して、なんとか、
+食堂まで入り込めないだろうか。
+見学に来た、とか何とか言って――
+<PAUSE>
+<NAME_PLATE>
+　しかし。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm304,1000
+<ACTOR>1,chr_t0131a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「早速出たな淫魔！　やってやるぜ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「～～ってまあこうなるよなああ！！
+　……くそっ、仕方ない！」
+<PAUSE>
+<NAME_PLATE>
+　こうなってはやるしかない。
+アイナの辞書に穏便という
+文字がないのはよくわかった。
+<PAUSE>
+<NAME_PLATE>
+　アイナは拳を、
+俺はテーブルの花瓶を武器に、
+淫魔たちに立ち向かっていく――
+<PAUSE>
+//→S402a
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

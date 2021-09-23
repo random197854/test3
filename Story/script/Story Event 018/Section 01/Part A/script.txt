@@ -1,0 +1,535 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ入り口＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC033aより流用
+<BG>nc121a,IN, 1000
+<NAME_PLATE>
+　ヨミハラは東京の地下３００メートルにある
+犯罪都市だ。
+<PAUSE>
+<NAME_PLATE>
+　そこの名物の一つが地下に降る雨だ。
+<PAUSE>
+<NAME_PLATE>
+　地上の雨が地中を伝って、
+地下の天井から再び降ってくるのだ。
+<PAUSE>
+<NAME_PLATE>
+　そのため、もう一つのヨミハラ名物、
+組織の抗争から個人の喧嘩沙汰まで、
+飽きることなく流れる血は、
+<PAUSE>
+<NAME_PLATE>
+　その地下の雨によってすぐに洗い流され、
+忘れられてしまう。
+<PAUSE>
+<NAME_PLATE>
+　常に死と隣り合わせの、
+だが腕に覚えのある者にとっては
+たまらない魅力を放つ街。
+<PAUSE>
+<NAME_PLATE>
+　そんなヨミハラを
+女が一人歩いていた。
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　ユーリ、それが彼女の名だ。
+<PAUSE>
+<NAME_PLATE>
+　無論、本名ではない。
+それを知るものはもう誰もいない。
+<PAUSE>
+<NAME_PLATE>
+　裏社会では、もう一つの名、
+『雪の魔娼』も広く知れ渡っている。
+<PAUSE>
+<NAME_PLATE>
+　得意とする仕事は暗殺。
+<PAUSE>
+<NAME_PLATE>
+　だが、ヨミハラに来てからというもの
+ユーリはその仕事をしていなかった。
+<PAUSE>
+<NAME_PLATE>
+　元々、気分屋なところもある彼女だが、
+<PAUSE>
+今はいわば病気療養中だった。
+<PAUSE>
+<NAME_PLATE>
+　それでも身についた習性で
+ユーリはごく自然に気配を殺し、
+誰の気も引かないように歩く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大抵の街ならそれで問題ないが、
+ここは生き馬の目を抜くヨミハラだ。
+<PAUSE>
+<NAME_PLATE>
+　オークとトロールの二人組が
+彼女を目ざとく見つけて声をかけてきた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m046a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク
+「よう美人の姉ちゃん、一人かい？」
+<PAUSE>
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>トロール
+「このへんは物騒だぜ。
+　よかったら俺たちが案内してやろうか？」
+<PAUSE>
+//　　トロール立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　どうということのないナンパだった。
+声にも特に悪意は感じられない。
+<PAUSE>
+<NAME_PLATE>
+　だからといって応じる理由もないが。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「いえ、結構です……」
+<PAUSE>
+<NAME_PLATE>オーク
+「遠慮は無用だぜ。
+　そんなもん目に着けて危ねえしな。
+　それで見えてんのかい？」
+<PAUSE>
+<NAME_PLATE>トロール
+「ほっといたらすぐに攫われちまうぜ。
+　俺たちが一緒なら安心だ」
+<PAUSE>
+<NAME_PLATE>
+　二人はユーリのアイマスクを見て、
+気遣い半分、下心半分といった調子で言った。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「一人で大丈夫です」
+<PAUSE>
+<NAME_PLATE>オーク
+「そう言わずによ」
+<PAUSE>
+<NAME_PLATE>トロール
+「俺たちに任せとけって」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はあ……」
+<PAUSE>
+<NAME_PLATE>
+　ユーリは軽く溜息を吐いて、
+アイマスクを僅かにずらした。
+<PAUSE>
+<NAME_PLATE>オーク
+「おお、すっげえ美人！」
+<PAUSE>
+<NAME_PLATE>トロール
+「なんでそんなもんで隠してんだ！？」
+<PAUSE>
+<NAME_PLATE>
+　ユーリと目を合わせたナンパ男たちは
+喜んだ直後、急にソワソワし始めた。
+<PAUSE>
+<NAME_PLATE>オーク
+「わ、悪い、姉ちゃん。
+　急に用事を思い出しちまった！」
+<PAUSE>
+<NAME_PLATE>トロール
+「お、俺もだ。
+　今すぐ行かなきゃなんねえ。
+　すまねえ、また今度にしてくれ！」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「いえ、ご親切にどうも」
+<PAUSE>
+<NAME_PLATE>
+　ユーリはアイマスクを元に戻し、
+軽く頭を下げた。
+<PAUSE>
+<NAME_PLATE>オーク
+「じゃあな！！　気をつけろよ！！」
+<PAUSE>
+<NAME_PLATE>トロール
+「変なのに引っかかるんじゃねえぞ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　オークとトロールの二人組は
+ドタバタと走り去っていった。
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「ふふ……」
+<PAUSE>
+<NAME_PLATE>
+　これがユーリの能力、魅眼。
+<PAUSE>
+<NAME_PLATE>
+　目を合わせた相手を魅了し、
+短時間だが自在に操ることができる。
+<PAUSE>
+<NAME_PLATE>
+　恐るべき力だが反動も大きく、
+彼女の意思では能力のオンオフが出来ない。
+<PAUSE>
+<NAME_PLATE>
+　いつもアイマスクをつけているのは
+そのためだ。
+<PAUSE>
+<NAME_PLATE>
+　それどころか、
+少し前までは目に異常な痛みがあり、
+いずれは失明の不安さえあった。
+<PAUSE>
+<NAME_PLATE>
+　だが、今はほとんど痛みを感じない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ユーリ
+「ずいぶんと治ってきたようですね」
+<PAUSE>
+<NAME_PLATE>
+　ナンパ男を撃退しただけだが、
+その顔には笑みが浮かんでいた。
+<PAUSE>
+//【背景：ホテルの一室＿夜】【時間：夜】
+//　※監獄戦艦外伝＿NC015aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc167a,IN, 1000
+<ACTOR>0,mk_t001a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>桐生美琴
+「じゃあ、診せてもらおうかしら。
+　アイマスクをとってちょうだい。
+　でも私を魅了したらダメよ」
+<PAUSE>
+//　※立ち絵
+//　　桐生美琴立ち絵
+//　　　　＊カードイラスト（まだ未実装）を流用
+<NAME_PLATE>
+　魔科医、桐生美琴は
+いつものように気さくな口調で言った。
+<PAUSE>
+<NAME_PLATE>
+　彼女がユーリの主治医であり、
+ヨミハラにやって来たのも
+目の治療をしてもらうためだった。
+<PAUSE>
+<NAME_PLATE>
+　魔界一の魔界医として知られている彼女。
+<PAUSE>
+<NAME_PLATE>
+　しかし医療技術の向上と好奇心のためなら、
+事の善悪どころか、時に患者すら顧みない
+マッドドクターとしても有名だ。
+<PAUSE>
+<NAME_PLATE>
+　だがユーリのことは気に入っているらしく、
+（珍しい邪眼への興味もあるだろうが）
+ずっと親身になって治療してくれている。
+<PAUSE>
+<ACTOR>0,mk_t001a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0271a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「はい」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊【魅惑の眼差し】ユーリ02を流用
+<NAME_PLATE>
+　ユーリはアイマスクを外した。
+<PAUSE>
+<NAME_PLATE>
+　今も能力が発動している両眼で
+美琴を静かに見据える。
+<PAUSE>
+<NAME_PLATE>美琴
+「やっぱりこの目で見られると
+　ゾクッとするわね」
+<PAUSE>
+<NAME_PLATE>
+　美琴はそれが楽しいことで
+あるかのように言った。
+<PAUSE>
+<NAME_PLATE>
+　もちろんユーリは美琴を
+魅了しようとはしていないが、
+<PAUSE>
+<NAME_PLATE>
+　自分で能力を止められない以上、
+少なからずその影響を受けているはずだ。
+<PAUSE>
+<NAME_PLATE>
+　それにしては美琴の様子に変化はなく、
+ユーリと目を合わせるのを躊躇いもしない。
+<PAUSE>
+<NAME_PLATE>
+　魔界医としての好奇心のためか、
+魔術師から譲り受けたと言っている
+鬼神の右腕のおかげか。
+<PAUSE>
+<NAME_PLATE>美琴
+「うんうん……」
+<PAUSE>
+<NAME_PLATE>
+　いずれにしろ、美琴は興味津々で
+ユーリの瞳をしばらく診てから
+満足げに言った。
+<PAUSE>
+<NAME_PLATE>美琴
+「ずいぶんと良くなってきているわ」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「最近は嘘のように痛みが和らいでいます。
+　先生には感謝しています」
+<PAUSE>
+<NAME_PLATE>美琴
+「でも、抜本的な治療をしたわけじゃないわ。
+　完治にはもう少し時間が必要ね」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はい」
+<PAUSE>
+<NAME_PLATE>美琴
+「それに今も
+　能力は常時発動しているのでしょ？
+　それもいずれはなんとかしないとね」
+<PAUSE>
+<NAME_PLATE>
+　美琴はまだ出したままの邪眼を
+覗き込んで言った。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「そのことは……もう諦めています」
+<PAUSE>
+<NAME_PLATE>
+　それはユーリの素直な気持ちであったが、
+美琴は彼女をたしなめるように言った。
+<PAUSE>
+<NAME_PLATE>美琴
+「ダメよそんなんじゃ。
+　こんな綺麗な顔をいつも隠してるなんて
+　もったいないわ」
+<PAUSE>
+<NAME_PLATE>美琴
+「それに好きな相手と目も
+　合わせられないなんて切ないでしょ？」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「そんな人はいません」
+<PAUSE>
+<NAME_PLATE>美琴
+「ますますだめよ」
+<PAUSE>
+<NAME_PLATE>美琴
+「恋人の一人や二人は作りなさい。
+　あまり高望みせずにね。
+　これは魔科医としての言葉」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はあ……」
+<PAUSE>
+<NAME_PLATE>
+　これを言われるのも初めてではない。
+<PAUSE>
+<NAME_PLATE>
+　また目と関係ない話になってきたと
+思っていると、美琴は続けて、
+<PAUSE>
+<NAME_PLATE>美琴
+「私の古い友達で理想の男を何百年も
+　捜し続けてる諦めの悪い娘がいるけど、
+　そりゃもう悲惨よ」
+<PAUSE>
+<NAME_PLATE>美琴
+「昨日もいい男がいないいないって
+　散々愚痴を聞かされたわ」
+<PAUSE>
+<NAME_PLATE>美琴
+「自分より強い男とか
+　馬鹿なこと言ってないで、
+　手近なところで試せばいいのにね」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　とりあえず反応に困る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG_OUT>1000
+<NAME_PLATE>
+　名前を隠しているし、会ったことはないが、
+その友達とは獄炎の女王アスタロトのことだ。
+<PAUSE>
+<NAME_PLATE>
+　ここヨミハラで絶大な勢力を誇る
+ノマドの首領エドウィン・ブラックに
+匹敵する力の持ち主との噂だが、
+<PAUSE>
+<NAME_PLATE>
+　美琴の話しぶりからは
+そんな様子は少しも感じられない。
+<PAUSE>
+<NAME_PLATE>
+　こんなところで話のネタにされていて
+ちょっと同情してしまう。
+<PAUSE>
+<BG>nc167a,IN, 500
+<ACTOR>1,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　ともかく患者としての立場を守って、
+ノーコメントでアイマスクを着け直す。
+<PAUSE>
+<ACTOR>1,chr_t0200a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,mk_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>美琴
+「あ、ごめんなさい。
+　とりあえず今までと同じ薬を出しておくわ。
+　もう少し様子を見ましょう」
+<PAUSE>
+<NAME_PLATE>ユーリ
+「はい」
+<PAUSE>
+<NAME_PLATE>美琴
+「それで、今後の治療代についてなんだけど、
+　あなたに一つ依頼があるの」
+<PAUSE>
+<NAME_PLATE>
+　そう前置きして、美琴は話を始めた。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方、その頃―――
+<PAUSE>
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「うわ、やばい！
+　思いっきり追ってきてる！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　ヨミハラの街をギャルが走っていた。
+<PAUSE>
+<NAME_PLATE>
+　頭にツノ、虎縞のビキニ、
+派手にデコった金棒。
+<PAUSE>
+<NAME_PLATE>
+　ギャルはギャルでも鬼ギャルだった。
+<PAUSE>
+<NAME_PLATE>
+　彼女の名はフランシス。
+<PAUSE>
+<NAME_PLATE>フランシス
+「あちゃあ、まいったなあ。
+　見逃してくんないかなあ～～っ！！」
+<PAUSE>
+<NAME_PLATE>
+　誰かに追われているらしく、
+しきりに後ろを気にしている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m091a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔族傭兵（男）
+「くおらあっ、待ちやがれ！！」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（男）立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>魔族傭兵（女）
+「逃がしゃしないよ！！　このアマ！！」
+<PAUSE>
+//　　魔族傭兵（女）立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>
+　彼女を追いかけているのは
+魔族の傭兵たちだ。
+<PAUSE>
+<NAME_PLATE>
+　皆、それなりの強者なのだろうが、
+ギャルとはいえフランシスは鬼だ。
+<PAUSE>
+<NAME_PLATE>
+　本来なら逃げる必要などない相手から
+ひたすら逃げている。
+<PAUSE>
+<NAME_PLATE>フランシス
+「待って待って待って！
+　別にアタシは逃げてるんじゃないって！！」
+<PAUSE>
+<NAME_PLATE>
+　いや、本人にそのつもりはないらしい。
+<PAUSE>
+<NAME_PLATE>魔族傭兵（男）
+「ふざけんじゃねえっっ！！」
+<PAUSE>
+<NAME_PLATE>魔族傭兵（女）
+「まとめて袋にしちまいなっっ！！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「やっぱ無理か～～っっ！！
+　ああもうしょうがないっ！」
+<PAUSE>
+//→S102a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

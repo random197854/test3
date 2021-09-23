@@ -1,0 +1,244 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//シーン開始。
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　数分後。
+<PAUSE>
+<NAME_PLATE>
+　フランシスの周りには
+魔族傭兵が一人残らず転がっていた。
+<PAUSE>
+<NAME_PLATE>
+　だが誰も死んではいない。
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ごめん、ほんとごめん」
+<PAUSE>
+<NAME_PLATE>
+　やったフランシスも
+悪いのは自分であるかのように
+ペコペコ謝っている。
+<PAUSE>
+<NAME_PLATE>魔族傭兵
+「ま、待ちやがれ……」
+<PAUSE>
+//　※立ち絵
+//　　魔族傭兵（男）立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>魔族傭兵
+「さ、酒代……よこしな……」
+<PAUSE>
+//　　魔族傭兵（女）立ち絵
+//　　　　＊モンスターイラストから
+<NAME_PLATE>フランシス
+「だから今度払うって。
+　今はちょ～～っと手持ちが足りないだけ。
+　ツケにしといて。ね？　ね？」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　すまなそうな顔をしているのも当然。
+実は飲み屋の請求から逃げていたのだった。
+<PAUSE>
+<NAME_PLATE>
+　つまり食い逃げである。
+<PAUSE>
+<NAME_PLATE>フランシス
+「食い逃げじゃないから。
+　今度絶対払うから。
+　じゃ、じゃあね～～～～～」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　フランシスはそう言って、
+そそくさと立ち去ろうとするが、
+<PAUSE>
+<ACTOR>0,chr_t0004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>朧
+「そんなことが許されると思ってるのかい？」
+<PAUSE>
+//　※立ち絵
+//　　朧立ち絵
+//　　　　＊カードイラストを流用
+<SE_PLAY>se016
+<NAME_PLATE>
+　シャキン！
+<PAUSE>
+<NAME_PLATE>
+　突然、フランシスの喉元に
+鉤爪が突きつけられた。
+<PAUSE>
+<NAME_PLATE>
+　ノマドの大幹部の一人、朧だ。
+<PAUSE>
+<ACTOR>0,chr_t0004a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「うわあ出たっ！」
+<PAUSE>
+<NAME_PLATE>朧
+「アタシの店でさんざん飲んでおいて
+　ツケを踏み倒す気じゃないだろうね？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「そんなわけないから。
+　飲み代はきっちりと払う。
+　それがアタシのモットーだし」
+<PAUSE>
+<NAME_PLATE>
+　さすがにノマドの大幹部相手に
+喧嘩をする気は無いのか、言い訳を始める。
+<PAUSE>
+<NAME_PLATE>朧
+「そりゃ結構だね。
+　だったらツケなんて寝言は止めて、
+　今すぐそこに隠してる金出しな」
+<PAUSE>
+<NAME_PLATE>
+　朧は鉤爪の先を
+フランシスのビキニトップスに向けた。
+<PAUSE>
+<NAME_PLATE>
+　そこにはいざというときのための
+どうしてもピンチになったときに使う
+虎の子の一万円が収めてある。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「うそっ！　なんで知ってるの？」
+<PAUSE>
+<NAME_PLATE>朧
+「くくく、匂うのさ。
+　金を隠してる匂いがね」
+<PAUSE>
+<NAME_PLATE>フランシス
+「隠してるわけじゃないんだって。
+　このお金を取られたら
+　路銀がつきちゃうの」
+<PAUSE>
+<NAME_PLATE>
+　ぐーーーーー。
+<PAUSE>
+<NAME_PLATE>
+　突然、フランシスのお腹が鳴った。
+<PAUSE>
+<NAME_PLATE>朧
+「あんだけ飲み食いしといて
+　ずいぶんと腹ぺこみたいだねえ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「そうそう。
+　だからこれ取られちゃうと
+　ご飯も買えなくなるわけ！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「だから許して、この通り！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスは手を合わせて頼むが、
+返事は嘲笑だった。
+<PAUSE>
+<NAME_PLATE>朧
+「アハハハハ！！
+　それでアタシが許すとでも
+　思ってるのかい？」
+<PAUSE>
+<NAME_PLATE>朧
+「ツケにたっぷり利子を上乗せして、
+　ノマド総出でアンタのファミリーに
+　取り立てに行ってやろうか？」
+<PAUSE>
+<NAME_PLATE>朧
+「アタシはそっちの方が楽しいけどねぇ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ええーー、それはやめて」
+<PAUSE>
+<NAME_PLATE>
+　ファミリーと言われて、
+フランシスの顔色が変わる。
+<PAUSE>
+<NAME_PLATE>朧
+「なら身体で払うかい？
+　最近、アタシのペットが壊れちまって、
+　新しいのを探してたのさ」
+<PAUSE>
+<NAME_PLATE>朧
+「鬼の身体なら色々と遊び甲斐が
+　ありそうだねえ、ククク」
+<PAUSE>
+<NAME_PLATE>
+　朧はサディスティックに笑いながら、
+鉤爪の先で露出した彼女の肌を撫で回した。
+<PAUSE>
+<NAME_PLATE>
+　それでかすり傷一つ付くこともなかったが、
+フランシスの身体がぞわぞわと震えた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ペ、ペット？
+　うーん、それもちょっとーー」
+<PAUSE>
+<NAME_PLATE>朧
+「じゃあ金出しな！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「わ、わかったわよ……」
+<PAUSE>
+<NAME_PLATE>
+　フランシスは観念し、
+ビキニの裏から小さく折りたたんだ
+最後の一万円を取り出した。
+<PAUSE>
+<NAME_PLATE>フランシス
+「こんな悲しい別れになるなんて。
+　バイバイ、アタシの一万円」
+<PAUSE>
+<NAME_PLATE>朧
+「なんだ。払うのかい、残念。
+　じゃあ、まいどありー♪」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<NAME_PLATE>
+　朧はあっさりそれを受け取ると、
+魔族傭兵たちを蹴飛ばして起こしながら
+店に帰っていった。
+<PAUSE>
+<NAME_PLATE>
+　お釣りはくれなかった。
+<PAUSE>
+<ACTOR>1,chr_t0109a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>フランシス
+「はあ、これですっからかん」
+<PAUSE>
+<NAME_PLATE>フランシス
+「さすがにファミリーのみんなには
+　泣きつけないし、どうしよう。
+　てかお腹空いたーーーー」
+<PAUSE>
+<NAME_PLATE>
+　ぐーーーーーー。
+<PAUSE>
+<NAME_PLATE>
+　さっきよりも盛大にお腹が鳴った。
+<PAUSE>
+<NAME_PLATE>
+　鬼ギャルのフランシス。
+このままでは行き倒れだった。
+<PAUSE>
+//→Section１終了
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

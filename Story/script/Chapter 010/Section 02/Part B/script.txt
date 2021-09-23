@@ -1,0 +1,374 @@
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：首都圏新外郭放水路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC031aより
+<BG>nc119a,IN, 1000
+<GROUP>
+<BGM_PLAY>bgm207,1000
+<ACTOR>0,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,ts_m069a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>武装難民たち
+「逃がすな！！　囲め！！」
+「おう！！　容赦するなッ！！」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<SE_PLAY>se036_03
+<EFFECT_FLASH>WHITE, 1500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガガガガガガガ――！！！
+<PAUSE>
+<NAME_PLATE>
+　広大な地下空間に小銃の音が響き渡る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<SE_PLAY>se042
+<ACTOR>2,h_t005f,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ふうまちゃん鹿之助ちゃん、
+　こっちよ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「ああ！！　助かる！！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,s_t001h,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うひゃあああ！！
+　へ、蛇子ありがとう……！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　俺たちは蛇子のタコ足で銃撃をガードして
+もらいつつ、隙を見て応戦する。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>4,u_t005g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「なんだってんだ畜生！？
+　こっちは安くない金払ったのに！！」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（武器持ち）
+<NAME_PLATE>
+　そして、文句をタラタラこぼしながら、
+佐那さんが武装難民を切り伏せていた。
+<PAUSE>
+<NAME_PLATE>佐那
+「あの金でどれだけ飲みに行けるか
+　わかってんのか！？　あァ！？」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,700
+<GROUP>
+<BG>ef009b,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se011
+</GROUP>
+<NAME_PLATE>
+　ズシャ！！　ザシュ――！！！
+<PAUSE>
+<NAME_PLATE>武装難民
+「あぎゃ！？」
+「ひぐぅううぅッ！！！」
+<PAUSE>
+<BG>nc119a,IN, 700
+<ACTOR>4,u_t005g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+（これはまた…………流石だな）
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生が信頼を寄せていただけある。
+<PAUSE>
+<NAME_PLATE>
+　ついさっき酔って俺たちに
+絡んでいた人とは思えない、
+正統的とも言える鮮やかな剣技だった。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ――
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<ACTOR>3,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「や、ヤバイよふうま！！！
+　どんどん敵が増えてくるっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　どれだけの人数が
+この地下空間をねぐらにしているのか。
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+<ACTOR_OUT>3,CENTER,linear,1000
+<SE_PLAY>se054
+<ACTOR>0,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,ts_m069a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>
+　小銃を手にした武装難民は、
+わらわらと闇の中から湧き出してきて
+止まらない。
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、このままじゃ囲まれる！！
+　佐那さん、一度退いて立て直しましょう！
+　蛇子、煙幕だ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「うっ、うん！！
+　わかったわ――え～いっ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<SE_PLAY>se084
+<ACTOR>2,h_t005j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　ぴゅーと煙幕――蛇子のタコ墨が
+武装難民たちの前に撒き散らされた。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>武装難民
+「うべっ！？　なんだこりゃ！？」
+「ま、前が見えねえぞ！？」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>佐那
+「おおッ！？　ナイス蛇子！！
+　じゃあお前らいったん退くぞ！！」
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>俺たち
+「了解っ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：首都圏新外郭放水路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC031aより
+<BG>nc119a,IN, 1000
+<BGM_PLAY>bgm407,1000
+<NAME_PLATE>
+　１０分後。
+<PAUSE>
+<ACTOR>0,ts_m069a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,ts_m069a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>武装難民
+「まだ遠くには逃げてないぞ！！」
+「殺せば報酬たんまりだ！　逃すな！！」
+<PAUSE>
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　武装難民
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　俺たちが身を潜めている物陰のすぐ傍を、
+武装難民の一団が駆け抜けていく。
+<PAUSE>
+<NAME_PLATE>
+　捜索は手広く行われているようで、
+どうにも身動きが取れない状況だ。
+<PAUSE>
+<NAME_PLATE>俺
+「奴らの縄張りから出れば追ってこないと
+　思ったんですが……
+　そう甘くなかったですね」
+<PAUSE>
+<NAME_PLATE>
+　それどころか、どういうわけか
+俺たちを殺すと報酬まで出るらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「佐那さん、何か心当たりありますか？
+　奴らに恨みを買うような」
+<PAUSE>
+<ACTOR>4,u_t001e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>佐那
+「いやぁ何もねえって！？
+　アタシにも、何が何やら……」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（武器持ち）
+<NAME_PLATE>
+　俺がヒソヒソと問うと、佐那さんが
+困惑顔で答える。
+<PAUSE>
+<NAME_PLATE>俺
+「金を握らせていたんですよね？」
+<PAUSE>
+<ACTOR>4,u_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「おう。こんなこと初めてだよ。
+　今までは問題なくヨミハラまで
+　行けたんだけどなぁ……」
+<PAUSE>
+<NAME_PLATE>俺
+「ふむ……」
+<PAUSE>
+<NAME_PLATE>俺
+（今回に限って何か不測の事態が……？）
+<PAUSE>
+<NAME_PLATE>
+　あの手の連中が意味も無く
+稼ぎをふいにするとは思えないし、
+<PAUSE>
+<NAME_PLATE>
+　それに、奴らが口にしていた『報酬』
+という言葉も気になった。
+<PAUSE>
+<NAME_PLATE>俺
+「佐那さんが酔っ払ってアイツらと
+　ケンカしたんじゃないとしたら……」
+<PAUSE>
+<ACTOR>4,u_t001g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>佐那
+「おい」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、可能性の話ですから……
+　とにかく……」
+<PAUSE>
+<NAME_PLATE>俺
+「他に考えられるのは、
+　もっと金払いの良い奴らが
+　別口で現れた、とか……？」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<ACTOR>2,h_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、どういうこと？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「さあな。
+　情報が少なくて、まだ何とも言えない。
+　ただ、予定が大幅に狂ったのは確かだな」
+<PAUSE>
+<NAME_PLATE>
+　あの様子だと、奴らがすんなりと
+縄張りを通してくれるとは思えない。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>4,u_t001h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>佐那
+「参ったな……。
+　奴らの縄張りが通れないとなると、
+　ヨミハラに行くのはかなり面倒になる……」
+<PAUSE>
+//　※立ち絵
+//　　上月佐那通常立ち絵＿対魔忍衣装（武器持ち）
+<ACTOR>4,u_t001h,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>3,s_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そ、そんな……！？
+　こっそり端っこの方を通るとか、
+　ダメなんですか……？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>佐那
+「うーん。あまり気が進まないな。
+　奴らは夜目が利くから」
+<PAUSE>
+<NAME_PLATE>佐那
+「いや、他のルートも無くはないんだけど……
+　そっちはそっちでなぁ……」
+<PAUSE>
+<NAME_PLATE>
+　と、佐那さんも判断に困っている様子。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「じゃ、じゃあ……おい！？　
+　俺たちどうするんだよふうまっ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+（奴らの翻意の理由を探りつつ、
+　無事に縄張りを越える方法は……？）
+<PAUSE>
+<NAME_PLATE>
+　少し考え、俺はお手軽にその二つが
+達成できる方法を思いついた。
+<PAUSE>
+<NAME_PLATE>俺
+「よし！！　思い切って
+　『あれ』を試してみるか！！」
+<PAUSE>
+<GROUP>
+<ACTOR>3,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>二人
+「『あれ』……？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+//→Section２終了
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

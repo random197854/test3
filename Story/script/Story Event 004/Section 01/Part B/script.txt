@@ -1,0 +1,142 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//シーン説明：
+//【背景：五車学園＿廊下＿昼】【時間：昼】
+//　　※対魔忍アサギZEROの背景NC011aより流用
+<BG>nc005a,IN, 1000
+<BGM_PLAY>bgm404,1000
+<ACTOR>0,sa_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「こらぁーー！
+　廊下で乱闘しないの！
+　下校時間過ぎてるよ！！」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿教師衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>3,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>クラスメイト１
+「ひえっ」
+<PAUSE>
+<NAME_PLATE>クラスメイト２
+「ごめんなさい」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　いつのまにそこに立っていたのか、
+さくら先生の一喝に、暴れていた俺達は
+仲良く竦み上がる。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>クラスメイト３
+「ふ、ふん。
+　さくら先生に免じて見逃してやる！」
+<PAUSE>
+<NAME_PLATE>クラスメイト１
+「とにかくそこまで言うなら、
+　本命チョコの１コも貰ってみやがれ、
+　坊ちゃんが」
+<PAUSE>
+<NAME_PLATE>俺
+「お、おう、実はな、
+　貰う約束はしてるんだ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,s_t003d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ええっ！　そうだったのかよふうま？」
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿制服
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>3,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>クラスメイト２
+「はん、どーせハッタリだろ」
+<PAUSE>
+<NAME_PLATE>クラスメイト１
+「そこまで言うなら明日持ってきてみろよ？
+　貰えねぇほうに賭けてやるからさぁ！
+　ギャハハハ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,sa_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「きーみーたーちー？
+　まーだーいーたーのー？？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m037a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>3,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>クラスメイトたち
+「うわ！　すいません！
+　おい、絶対だぞふうま！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se054
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　悪友たちはそう言って退散する。
+<PAUSE>
+<NAME_PLATE>俺
+「くそう……俺達も帰るぞ鹿之助」
+<PAUSE>
+<ACTOR>4,s_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「けどふうま、本当に貰うアテあるのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ない」
+<PAUSE>
+<ACTOR>4,s_t003d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「やっぱりぃぃぃ！」
+<PAUSE>
+<ACTOR>4,s_t003e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「どうすんだよ宣言しちゃって。
+　蛇子なら今任務中でいないから、
+　義理チョコくれないぜ？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、あのタコスミチョコはちょっと
+　勘弁願いたいけどな」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+<NAME_PLATE>
+　しかし、後に引けなくなってしまった。
+俺は頭を悩ませながら、
+帰路につくのだった。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

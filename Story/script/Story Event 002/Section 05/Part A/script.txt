@@ -1,0 +1,312 @@
+//☆ストーリー02
+//【Section５】シナリオ
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：幽霊城地下の洞窟＿夜】
+//【時間：夜】
+//　※MonstersSurvive_nc009a より流用
+<BGM_PLAY>bgm506,1000
+<BG>nc035a,IN, 3000
+<NAME_PLATE>
+　以前の幽霊城がそうだったように――
+<PAUSE>
+<NAME_PLATE>
+　どうやら“妄想の世界”にも、一定以上の
+距離を進むと迷ってしまうような
+仕掛けがあるらしい。
+<PAUSE>
+<NAME_PLATE>
+　だから、閉じ込められた者が“世界”の
+外に出ようとしても、グルグルと同じ所を
+堂々巡りするだけで抜け出すことはできない。
+<PAUSE>
+<NAME_PLATE>
+　だけど鹿之助の電波ソナーがあれば、
+状況はまったく変わってくる。
+<PAUSE>
+<NAME_PLATE>
+　“電波の跳ね返り”が不自然な所を見つけ、
+その場所へと進んでいく。
+<PAUSE>
+<NAME_PLATE>
+　すると、そこは違う者が
+造りだした“妄想の世界”――
+<PAUSE>
+<NAME_PLATE>
+　そんな風にして、俺達は次から次へと
+“妄想の世界”を渡り歩き、突破していった。
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t001g,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,as_t005h,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「いや、なんて言うか……
+　本当に、疲れたよね……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>アスカ
+「え、ええ……。疲れたわ……、
+　肉体的って言うより、主に精神的に……」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>
+　アスカと鹿之助がげんなりした顔で
+歩いている。
+<PAUSE>
+<NAME_PLATE>
+　俺達は現在、幾つもの“妄想の世界”を
+抜け、薄暗い洞窟のような場所を進んでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、あんだけの数の“妄想”を
+　見せられたらなぁ……」
+<PAUSE>
+<NAME_PLATE>
+　俺も二人に同意する。
+<PAUSE>
+<NAME_PLATE>
+　ここに辿り付くまで、２０にも及ぶ
+“妄想の世界”を突破してきた。
+<PAUSE>
+<NAME_PLATE>
+　それはすなわち、２０人の“妄想”を
+目にしたということでもあり――
+<PAUSE>
+<NAME_PLATE>鹿之助
+「凄い変態プレイばっかりだったよね……。
+　米連の人たちって、
+　色々溜まってるのかな……？」
+<PAUSE>
+<NAME_PLATE>俺
+「言ってやるな。
+　奴らだって大変なんだよ……」
+<PAUSE>
+<NAME_PLATE>
+　過酷な任務のストレスからだろうか。
+<PAUSE>
+<NAME_PLATE>
+　奴らの“妄想”は妙な方向に
+針が振り切っていて、
+通過する俺達を心底げんなりさせていた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「まったく……これだから
+　男って生き物は……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「だから何で俺を見るんだよ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺はあそこまでヤバくなかっただろう――と
+主張しようとしたが、
+<PAUSE>
+<NAME_PLATE>
+　冷静に考えるとどっちもどっちのような
+気がしてきたので止めておいた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「とにかく、あとどれくらい？
+　私、もうああいうの見るの
+　ゴメンなんだけど」
+<PAUSE>
+<GROUP>
+<ACTOR>1,s_t001g,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,as_t005h,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>2,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「うふっ。それなら心配いらないわ。
+　あなた達は、
+　ここから歩く必要はないんだから」
+<PAUSE>
+//　※立ち絵
+//　　不知火立ち絵
+//　　　　＊対魔忍ＲＰＧSR報酬カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「誰っ――！？」
+<PAUSE>
+<NAME_PLATE>
+　何の気配も感じさせず、一瞬だった。
+<PAUSE>
+<NAME_PLATE>
+　突然、その女は俺達の前に現れた。
+<PAUSE>
+<NAME_PLATE>？？？
+「ふふ。ごきげんよう、
+　可愛らしい坊やたち♪」
+<PAUSE>
+<NAME_PLATE>
+　匂い立つような色香を纏った妖艶な女。
+<PAUSE>
+<NAME_PLATE>
+　この上なく魅力的だが、嵌まったら二度と
+抜け出せないような底なしの
+危うさも感じられる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいいいいいいいぃいいぃいっ！？
+　こっ、この人は……！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうま、この人だよ！！
+　俺があの時、お城の中で見たすっごく
+　キレイな幽霊だ！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……！？」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の言う『あの時』とは、
+幽霊城の騒ぎのことだろう。
+<PAUSE>
+<NAME_PLATE>
+　ということは……？
+<PAUSE>
+<NAME_PLATE>魔女
+「ふふっ♪　そうね。
+　私が、あなた達が探している『魔女』――
+　ということになるのかしら？」
+<PAUSE>
+<NAME_PLATE>
+　やはりこの女こそが、
+探し求めていた今回の元凶。
+<PAUSE>
+<NAME_PLATE>
+　俺達を幻の世界に
+閉じ込めた『幻影の魔女』――
+<PAUSE>
+<NAME_PLATE>俺
+「わざわざ出迎えに来たってことは――
+　この先に、例の“魔界の門”ってのが
+　あるんだな？」
+<PAUSE>
+<NAME_PLATE>魔女
+「ええ。その通りよ。
+　この先へ真っ直ぐ進むと、
+　“魔界の門”――」
+<PAUSE>
+<NAME_PLATE>魔女
+「だから私は、すごく困ってるの。
+　あなた達が勝手に動き回って、
+　こんな所まで近づいて――」
+<PAUSE>
+<NAME_PLATE>
+　そして魔女は俺達を見つめて妖しく微笑む。
+<PAUSE>
+<NAME_PLATE>魔女
+「ねえ、坊やたち？　ここは
+　大人しく引いてくれないかしら……？」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……？」
+<PAUSE>
+<NAME_PLATE>
+　ここまで来て、俺達に撤退しろだと――？
+<PAUSE>
+<NAME_PLATE>魔女
+「もしあなた達が引いてくれたら、
+　望む通りの素敵な“夢”を作ってあげる」
+<PAUSE>
+<NAME_PLATE>魔女
+「さっき見せた以上の、
+　本当に素敵な“夢”――。
+　うふっ。悪い取引じゃないと思うけど？」
+<PAUSE>
+<NAME_PLATE>
+　確かに、なかなか魅力的な提案だ。
+<PAUSE>
+<NAME_PLATE>
+　米連の奴らが嵌まり込んでたように、
+何でも欲望が叶う世界というのは、
+間違いなくひとつの理想郷だろう。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　だが――
+<PAUSE>
+<NAME_PLATE>俺
+「ゴメンだね。
+　いくら幸せだろうと、
+　俺は偽物なんて欲しくない」
+<PAUSE>
+<NAME_PLATE>
+　俺は、魔女の誘惑をキッパリとはねのけた。
+<PAUSE>
+<NAME_PLATE>
+　欲しいのは本物だけ――それも、
+自分の力で手に入れてこそ、だ。
+<PAUSE>
+<ACTOR>2,si_t003a,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>0,as_t005d,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,s_t001a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「へー。でも、それ本音かしら……？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うーん？　俺はちょっと欲しいけどなぁ」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、お前ら……？
+　人がせっかく格好良く決めたんだからさぁ」
+<PAUSE>
+<NAME_PLATE>
+　疑わしそうなアスカと、“夢”の世界に
+ちょっと未練がある様子の鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　まったく、緊張感のない連中だ。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<GROUP>
+<ACTOR>0,as_t005d,RIGHT, RIGHT, OUT, linear, 1000
+<ACTOR>1,s_t001a,LEFT, LEFT, OUT, linear, 1000
+</GROUP>
+<ACTOR>2,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔女
+「あらあら？　……でも、そう言うと
+　思ってたわ♪　じゃあ予定通り、
+　実力行使させてもらうわね」
+<PAUSE>
+<NAME_PLATE>俺
+「っ！？」
+<PAUSE>
+<NAME_PLATE>
+　突如、魔女の体を包む殺気が膨れ上がる。
+<PAUSE>
+<NAME_PLATE>
+　油断ならない相手と察したのか、
+アスカが制服を脱ぎ捨て戦闘態勢に――
+<PAUSE>
+<ACTOR>2,si_t003a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,as_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「さあ、本番よ！！！
+　二人とも、気をつけて――！！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿対魔忍衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>魔女
+「――さあ始めましょう。
+　楽しませてね、坊やたち♪」
+<PAUSE>
+<ACTOR>0,as_t002f,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→Section５-ＭＡＰ画面１へ
+//=================================================================

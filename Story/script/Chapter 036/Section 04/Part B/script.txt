@@ -1,0 +1,429 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：廃墟の都市の地下鉄＿昼夜兼用】【時間：夜】
+//　※対魔忍アサギZERO_NC095aより流用
+//nc425a
+<BGM_PLAY>bgm313,1000
+<BG>nc425a,IN, 1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふうまは自分の身を守るのに専念して。
+　ここであんたがやられたら
+　目も当てられない」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「そうさせてもらう。
+　たいして武器もないしな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は自分の世界でシミュレーションを
+受けていた時の格好、つまり制服のままだ。
+<PAUSE>
+<NAME_PLATE>
+　忍者刀は身体から外していたので、
+手持ちの武器は身につけていた
+数本のクナイだけだ。
+<PAUSE>
+<NAME_PLATE>
+　一応それを両手に握ったが、
+アスカとゆきかぜの二人を差しおいて、
+レイダーとやりあうつもりはない。
+<PAUSE>
+<NAME_PLATE>
+　遠慮なく物陰に隠れさせてもらう。
+<PAUSE>
+<ACTOR>1,chr_t0277f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「アスカ、どうする？
+　ここで連中を全滅させたって
+　また後から湧いて出るわよ」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（攻撃）
+//　　　＊カードイラストより流用
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「駅が近いわ。
+　なるべく血が出るように戦って」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「血？
+　ああ、なるほどね。了解」
+<PAUSE>
+<NAME_PLATE>アスカ
+「じゃあ速攻で行くわよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「了解！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se003
+<NAME_PLATE>
+　俺には意味の分からないやりとりをして、
+二人は躊躇うことなくレイダーに突っ込んだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レイダー
+「ヒヒャヒャヒャヒャヒャヒャッ！！」
+「死ね死ね死ねえええええええ！！！」
+<PAUSE>
+//　※立ち絵
+//　　レイダー
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガガガッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　レイダーたちが一斉に撃ってきたが、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ヒュンッッ！！
+<PAUSE>
+<NAME_PLATE>レイダー
+「なっ！？」
+「消えたっ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　連中が驚くのも無理はない。
+<PAUSE>
+<NAME_PLATE>
+　現代の二人を見慣れている俺ですら
+一瞬見失いそうになるほどの鋭い動きで、
+銃撃を躱して敵集団の懐に飛び込む。
+<PAUSE>
+<ACTOR>0,chr_t0277e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「雷剣っ！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ（雷剣）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ゆきかぜの両手から雷の剣が伸びた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「はっっ、はっ、はぁああっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レイダー
+「ぎゃあっ！！」
+「ぐあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　二刀雷剣がレイダーの手足や胴体を
+次々と切り裂いていく。
+<PAUSE>
+<BG>nc425a,IN, 500
+<ACTOR>0,chr_t0277e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　前に俺の時代で見せてくれたときと同様、
+逸刀流の剣は洗練されていて、圧倒的だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、手足を失う前の身体に戻ったという
+アスカの戦いぶりにも俺は瞠目していた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「対魔殺法“鬼斬離”！！」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバババババババババッッ！！
+<PAUSE>
+<NAME_PLATE>
+　レイダー数人が
+一瞬にしてバラバラになった。
+<PAUSE>
+<BG>nc425a,IN, 500
+<NAME_PLATE>俺
+「あの技は……」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　両手のナックルブレード。
+あの対魔忍スーツのデザイン、
+そしてあのコート。
+<PAUSE>
+<NAME_PLATE>
+　未来のアスカの姿は
+仮面の対魔忍を想起させた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「でやああっっ！！
+　はっっ！！　たあああっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　そして風のように駆け巡りながら刃を振るう
+あの動きはまるでアサギ先生のようだ。
+<PAUSE>
+<BG>nc425a,IN, 500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「食らえ　風刃乱舞！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グォオオオオオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　トンネルに吹き荒れるかまいたち。
+<PAUSE>
+<NAME_PLATE>
+　風神の術の威力も俺が知るアスカを
+上回っている気がする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レイダー
+「くそっ！！　こいつら！！」
+「ば、化け物かっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0277e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「やっと分かった？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「もう遅いけど！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　未来のアスカ、ゆきかぜ、
+恐るべき二人によってレイダーたちは
+全身をズタズタに斬り刻まれ、倒されていく。
+<PAUSE>
+<NAME_PLATE>
+　トンネルは天井も床も壁も血に染まり、
+凄まじい匂いが漂っていた。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc425a,IN, 500
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そろそろよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　アスカがニヤリとし、敵から離れた。
+<PAUSE>
+<ACTOR>1,chr_t0277e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ようやく登場ね」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　ゆきかぜもさっと身を引く。
+<PAUSE>
+<NAME_PLATE>
+　なんだ？
+<PAUSE>
+<NAME_PLATE>
+　まだレイダーたちは残っているが。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m271a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>？？？
+「あーー、うーーー、ああーーーー」
+「あーー、うーーー、ああーーーー」
+「あーー、うーーー、ああーーーー」
+<PAUSE>
+//　※立ち絵
+//　　感染者
+//　　　＊モンスターイラストより流用
+//　※複数出してください。
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　不気味な呻り声がして、
+はげ頭のゾンビのような連中が
+地上に続く階段からゾロゾロと下りてきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se132
+<NAME_PLATE>
+　そいつらはレイダーに襲いかかると、
+手、足、頭、胴体、どこにでも噛みついて、
+その肉を貪り始めた。
+<PAUSE>
+<NAME_PLATE>？？？
+「がりっ、がりがりっっ！！」
+「ぐちゃぐちゃぐちゃっっっ！！」
+<PAUSE>
+<NAME_PLATE>レイダー
+「く、喰われるっ！！」
+「来るなっ、来るなあああっ！！」
+「ぎゃあああ！　やめろおおお！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　レイダーたちはパニック状態に陥り、
+ゾンビたちに銃撃を浴びせかけるが、
+<PAUSE>
+<NAME_PLATE>
+　そいつらは銃弾などものともせず、
+その痛みすら感じていないような様子で、
+おぞましい食欲を満たそうとする。
+<PAUSE>
+<BG>nc425a,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「な、なんだ！？」
+<PAUSE>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「感染者よ」
+<PAUSE>
+<NAME_PLATE>俺
+「感染者！？」
+<PAUSE>
+<ACTOR>1,chr_t0277e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「ブレインフレーヤーのウイルスにやられた
+　人食いゾンビってとこ。
+　血の匂いに敏感ですぐ集まってくるのよ」
+<PAUSE>
+<NAME_PLATE>俺
+「血の匂い。そういうことか」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そういうこと」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それでアスカはわざと
+敵に血を流させるように戦っていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　敵を倒すために、別の敵を利用する。
+人食いゾンビですらも。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　個人としての圧倒的な強さだけでなく、
+リーダーとして冷静かつ非情な判断だ。
+<PAUSE>
+<NAME_PLATE>
+　ともすれば対魔超粒子砲を
+ぶっ放していた今のアスカとは一味違う。
+<PAUSE>
+<NAME_PLATE>アスカ
+「今のうちに逃げるわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「感染者様々だな」
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「噛まれたら仲間入りするからね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「マジかよ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「マジよ。
+　そうなったら治せないから」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふうまはあの変な力で
+　助かるかもしれないけど注意して」
+<PAUSE>
+<NAME_PLATE>俺
+「わ、分かった」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　この未来は聞いていた以上に
+壮絶な世界のようだ。
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　俺は戦々恐々としつつ
+感染者たちの食堂から離れていった。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

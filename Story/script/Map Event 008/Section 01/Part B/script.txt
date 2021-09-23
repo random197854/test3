@@ -1,0 +1,748 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+<BG>black,NONE
+<NAME_PLATE>
+　さらに２日後――イベント当日。
+<PAUSE>
+//【背景：青空＿昼】【時間：昼】
+//　※青空背景などを流用
+<BG>nc093a,IN, 1000
+<NAME_PLATE>アナウンス
+『――皆さんお待たせしました、
+　集計結果の発表です！』
+<PAUSE>
+<NAME_PLATE>アナウンス
+『センザキ商店主組合主催、
+　第２４回、秋の屋台料理コンテスト、
+　栄えある第１位は―――』
+<PAUSE>
+//【背景：センザキ＿繁華街＿市民公園＿昼】【時間：昼】
+//　※僕のエルフお姉さん背景　街中駅前より流用
+<BGM_PLAY>bgm604,1000
+<BG>nc089a,IN, 1000
+<NAME_PLATE>
+　センザキ・市民公園。
+<PAUSE>
+<NAME_PLATE>
+　穏やかな秋の陽射しの下、
+料理コンテストは盛況のうちに終了した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0155a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0141a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>女の子１
+「美味しかったですね～、秋山さん♪
+　特にあの、優勝した屋台のカニ炒飯！」
+<PAUSE>
+//　※立ち絵
+//　　【私服】喜瀬蛍
+//　　　　＊カードイラスト　【私服】喜瀬蛍より流用
+<NAME_PLATE>女の子２
+「うむっ。
+　他にも美味しい店が沢山あった。
+　来年はぜひ皆も連れてこよう！」
+<PAUSE>
+//　※立ち絵
+//　　【私服】秋山凛子
+//　　　　＊カードイラスト　【私服】秋山凛子より流用
+//　※注　蛍と凛子の名前欄が『女の子』なのは意図的なものです。カメオ出演的な雰囲気。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　満足そうに語り合いながら
+女の子達が通り過ぎていく。
+<PAUSE>
+<NAME_PLATE>
+　危険な闇の町・センザキも、
+この日ばかりは例外のようだ。
+<PAUSE>
+<NAME_PLATE>
+　コンテストに出される料理を目当てに、
+荒事とは無縁の人々も大勢やってきていた。
+<PAUSE>
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+（やれやれ……。
+　何とか役目は果たしたな）
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　そんな人の流れを眺めながら
+ライブラリーはほっと息を吐く。
+<PAUSE>
+<NAME_PLATE>
+　使用する素材が同格ならば
+あとは料理人の腕が物を言う。
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーの料理は、エリカが
+取ってきたレア食材・モンスタークラブの
+働きもあって見事に優勝。
+<PAUSE>
+<NAME_PLATE>
+　僅差でフランシスファミリーが出した
+料理を上回ったという結果だった。
+<PAUSE>
+<ACTOR>2,ts_m104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>3,chr_t0153a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エリカ
+「お疲れさま、ライブラリーさん！
+　何て言うか――
+　今回はホントありがとう！！！」
+<PAUSE>
+//　※立ち絵
+//　　エリカ・ブラックモア
+//　　　　＊カードイラスト　エリカ・ブラックモアより流用
+<NAME_PLATE>ライブラリー
+「いや、こちらこそ
+　力になれて良かった」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「そもそも君が取ってきた食材が
+　なければ負けていただろうしね」
+<PAUSE>
+<NAME_PLATE>エリカ
+「じゃあ皆の勝利だね！
+　あはっ、やったね私達っ！！」
+<PAUSE>
+<NAME_PLATE>エリカ
+「これで店を明け渡さずに済むし――
+　きっとおやっさんも喜ぶよ！」
+<PAUSE>
+<NAME_PLATE>
+　エリカがぐっと親指を上げる。
+<PAUSE>
+<NAME_PLATE>
+　レア食材・モンスタークラブは
+強敵だったらしく、エリカの顔や
+肌には幾つか傷が残っていたが、
+<PAUSE>
+<NAME_PLATE>
+　その表情はどこまでも明るく
+晴れやかだった。
+<PAUSE>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR>4,ts_m126a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヤス
+「ふぁ～やりやしたねぇ。
+　これで客足も戻れば安心なんですが」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　※可能であれば手に持っているものを中華鍋あるいはメニュー表などに修正
+<NAME_PLATE>エリカ
+「戻るわよ。今日はいい宣伝になったし、
+　大体、おやっさんの料理は
+　凄く美味しいんだから！」
+<PAUSE>
+<NAME_PLATE>ヤス
+「ですよねぇ？
+　どうしていきなり、あんなに
+　お客が減っちゃったのか」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーとエリカ達が
+そんなことを話していると。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,chr_t0109a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「あ～っ、いたいたぁ♪
+　やるじゃーんそこのアンタ！
+　料理ちょー美味しかったよぉ」
+<PAUSE>
+//　※立ち絵
+//　　フランシス
+//　　　　＊カードイラスト　フランシスより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「うわぁ！？
+　なによこの酔っ払い！？」
+<PAUSE>
+<NAME_PLATE>
+　大きな酒瓶を抱えた際どい
+格好の女がフラフラと寄ってきた。
+<PAUSE>
+<NAME_PLATE>ヤス
+「うひぃっ！？　あ、姉御っ！
+　この人、アレです！！
+　フランシスファミリーの――」
+<PAUSE>
+<NAME_PLATE>エリカ
+「はあ！？　この変なのがぁ！？」
+<PAUSE>
+<NAME_PLATE>
+　鬼娘フランシスは上機嫌に笑いながら
+ライブラリーの肩に手を回す。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ねーねー。
+　うちの専属シェフにならない？
+　アンタのこと気に入っちゃった☆」
+<PAUSE>
+<NAME_PLATE>エリカ
+「はあ！？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「誘いは嬉しいが私は主持ちでね。
+　明日から仕事に戻る身だ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「いーってそんなのぉ。
+　ぜったい、フランシスの
+　ファミリーのが待遇いいよ♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>エリカ
+「ちょ、ちょっとぉ！？
+　あんた、何しれっとギャングが
+　誘いかけてるのよ！？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「へーきへーき♪
+　うちは明るく楽しい
+　ギャングがモットーだから」
+<PAUSE>
+<NAME_PLATE>エリカ
+「ギャングに明るいも楽しいも
+　ないでしょう！？」
+<PAUSE>
+<NAME_PLATE>ヤス
+「ま、まあまあ姉御、
+　ここは穏便に……！」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「ふっ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ワイワイと騒ぐエリカ達を見て
+ライブラリーが微笑する。
+<PAUSE>
+<NAME_PLATE>
+　たまには、このような
+賑やかさも良いものだ。
+<PAUSE>
+<NAME_PLATE>
+　だが、その一方で。
+<PAUSE>
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「………」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーは、先程の
+エリカ達との話が気になっていた。
+<PAUSE>
+<NAME_PLATE>
+　いや、イベントの準備をしている
+時から常にその疑問は頭にあった。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+（店の客足が途絶えた理由……）
+<PAUSE>
+<NAME_PLATE>ライブラリー
+（店主の腕が落ちていないのに、
+　借金が必要なほど経営が傾くだろうか？）
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>2,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　………。
+<PAUSE>
+//【背景：センザキ＿繁華街＿加納の私室＿夜】【時間：夜】
+//　※対魔忍ユキカゼの背景　nc004aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc205a,IN, 1000
+<NAME_PLATE>
+　センザキ某所・加納の私室。
+<PAUSE>
+<ACTOR>6,ts_m124c,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>加納
+「糞が！　こっちが“クリーン”に
+　進めてれば調子に乗りやがって――」
+<PAUSE>
+//　※立ち絵
+//　　実業家・加納
+//　　　　＊妻ネトリ立ち絵　狩野隆郁より流用
+<NAME_PLATE>加納
+「もう構わねえ！
+　全員ぶっ潰してやる！！」
+<PAUSE>
+<NAME_PLATE>加納
+「死に損ないのジジイも、
+　あのエリカという女も！！
+　サイボーグ料理野郎もだ！！！」
+<PAUSE>
+<NAME_PLATE>
+　荒々しく怒りを吐き出す加納。
+<PAUSE>
+<NAME_PLATE>
+　青年実業家然とした姿は仮のもの、
+こちらがこの男本来の姿であった。
+<PAUSE>
+<NAME_PLATE>
+　表ではクリーンを装いつつ、
+裏ではたちの悪い組織と結託して
+数々の悪事を働く腐れ外道。
+<PAUSE>
+<NAME_PLATE>
+　今回の件もそうである。
+<PAUSE>
+<NAME_PLATE>
+　店の立地を手に入れるため、
+密かに近隣に悪評をばら撒き、
+出入りの業者にも圧力をかけた。
+<PAUSE>
+<NAME_PLATE>
+　資金繰りに困った店主にカネを貸し、
+店を巻き上げる直前までいった。
+<PAUSE>
+<NAME_PLATE>
+　酒好きの店主が酔った時を見計らって
+階段から突き落とし、大怪我をさせた。
+<PAUSE>
+<NAME_PLATE>
+　勿論、起死回生のコンテストに
+出られなくするためである。だが――
+<PAUSE>
+<NAME_PLATE>
+　そんな男の目論見も、エリカや
+ライブラリーの働きで無に帰した。
+<PAUSE>
+<ACTOR>6,ts_m124d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>加納
+（ヒヒ、こうなったら仕方がねえ……）
+<PAUSE>
+<NAME_PLATE>
+　加納は奥の手を使うことを選んだ。
+<PAUSE>
+<NAME_PLATE>
+　それは、男が後ろ盾にしている新港区の
+武闘派組織・流星会。
+<PAUSE>
+<NAME_PLATE>
+　揉み消しの“コスト”を考えて
+コロシは避けようとしていたが――
+これ以上は時間のムダだ。
+<PAUSE>
+<NAME_PLATE>
+　抵当として店の権利の大半は
+押さえてある。
+<PAUSE>
+<NAME_PLATE>
+　あとは攫って一筆書かせた上で、
+海にでも沈めてやれば――
+<PAUSE>
+<NAME_PLATE>配下
+『社長。流星会の
+　権堂さんからお返事が――』
+<PAUSE>
+<ACTOR>6,ts_m124a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>加納
+「おう。やっと来たか」
+<PAUSE>
+<NAME_PLATE>
+　加納の端末に連絡が来る。
+<PAUSE>
+<NAME_PLATE>
+　今回の件の“始末”を依頼するため、
+配下を新港区まで出向かせていた。
+<PAUSE>
+<NAME_PLATE>加納
+「兵隊の数は揃えてくれたか？
+　あのエリカって女は手強いらしいからな」
+<PAUSE>
+<NAME_PLATE>
+　生意気な口をきく女傭兵――
+あの見た目と体つきは一級品だ。
+<PAUSE>
+<NAME_PLATE>
+　“始末”する前に、あの女はこちらで
+存分に可愛がってやろう。
+<PAUSE>
+<NAME_PLATE>
+　娼館に売り飛ばすのも良い、
+生まれたことを後悔させるほど
+嬲ってやっても良い。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<NAME_PLATE>配下
+『い、いえ……
+　権堂さんは、“絶縁”だと』
+<PAUSE>
+<NAME_PLATE>配下
+『うちとはもう何も関係ない。
+　二度と連絡してくるな、と……』
+<PAUSE>
+<ACTOR>6,ts_m124g,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>加納
+「ああァ！？
+　そりゃなんの冗談だ！！？」
+<PAUSE>
+<ACTOR>6,ts_m124c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>配下
+『わ、わかりません……！！
+　ただ権堂さんは、ひどくお怒りで……』
+<PAUSE>
+<NAME_PLATE>配下
+『“お前は絶対に手を出しちゃならない奴に
+　手を出した”――』
+<PAUSE>
+<NAME_PLATE>配下
+『“死にたいなら勝手に死ね、
+　こっちは無関係だ”――と』
+<PAUSE>
+<NAME_PLATE>加納
+「どういうことだ！？
+　一体何を言っている！！？」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「クク……そりゃあ、おっさん。
+　あんたがやり過ぎたってことさ。
+　これじゃ俺も見過ごせない」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>6,ts_m124g,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>7,ts_m097a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>加納
+「！！？　お前――！！？
+　だ、誰だっ！？
+　警備はどうした――」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にかドアが開いて、
+部屋の中に男がいた。
+<PAUSE>
+<NAME_PLATE>
+　飄々とした笑みを浮かべた
+金髪の若い男。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「警備？　ケケ、そんなの
+　全員とっくにくたばってるよ」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「まっ、心配すんな。
+　あんたもすぐにあっちに逝く」
+<PAUSE>
+<NAME_PLATE>加納
+「なっ、なんだとぉ……！？」
+<PAUSE>
+<NAME_PLATE>
+　ガチャガチャと手を震わせて
+警備員の詰め所に連絡する。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　――が、返答なし。
+<PAUSE>
+<NAME_PLATE>加納
+「お、お前は、なんだ……？
+　いや……あの店にいた
+　チンピラか……！？」
+<PAUSE>
+<NAME_PLATE>
+　加納が思い出す。
+店を訪れた際、この若い男を
+何度か見かけた事があった。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「チンピラ？　違うね。
+　俺はギャングスターさ」
+<PAUSE>
+<BGM_PLAY>bgm504,1000
+<NAME_PLATE>加納
+「！！？　ぎゃ、ぎゃんぐ――」
+<PAUSE>
+<NAME_PLATE>
+　その戯けたような言葉と、先程の
+権堂の異様な態度が繋がった。
+<PAUSE>
+<NAME_PLATE>
+　新港区の武闘派組織すら恐れる、
+“絶対に手を出してはいけない相手”。
+<PAUSE>
+<NAME_PLATE>
+　元対魔忍、センザキの闇を支配する
+“ギャングスター”・金崎銃兵衛――。
+<PAUSE>
+<NAME_PLATE>加納
+「まままままさかっ！！？
+　おっ、お前……いや、あなた様が、
+　あの有名な――」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「知らなかったのかい？
+　あの小汚い店は俺の縄張りだ」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「確かに俺のシマからはちょっと
+　離れているが――
+　なかなか悪くない料理を出すからな」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「特別に俺の縄張りに入れている」
+<PAUSE>
+<NAME_PLATE>加納
+「いいいえ知らなかったんですっ！！
+　私はちっとも、あなた様に逆らう
+　つもりなんてこれっぽっちも――」
+<PAUSE>
+<NAME_PLATE>加納
+「おおおお許しください！！！
+　金なら払う！！！
+　払わしてくださいっっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　泣きつき、土下座せんばかりの
+勢いで加納が訴える。
+<PAUSE>
+<NAME_PLATE>
+　――今ならよくわかる。
+<PAUSE>
+<NAME_PLATE>
+　流星会が突然手を引いたのは、
+この危険な男が絡んでいるのを
+知ったからだ。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「ハハハ、そりゃ気の毒に。
+　だが“知らなかった”ってのは
+　俺らの世界じゃ一番の罪だ」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「そんでお前は、これから
+　その報いを受けることになる――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>加納
+「ひぃっ！！！
+　こ、このクソが――ッ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　銃兵衛が無造作に歩み寄る――
+その顔面に向けて加納が発砲した。
+<PAUSE>
+//　※演出　発砲演出など。
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se094
+<NAME_PLATE>
+　連続する銃声。
+<PAUSE>
+<NAME_PLATE>
+　デスクに隠していた拳銃だ。
+<PAUSE>
+<NAME_PLATE>
+　このままではやられる――ならば
+やられる前に、そう考えたのだ。
+<PAUSE>
+<ACTOR>7,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>銃兵衛
+「クク。おやおや――？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>加納
+「！！！？？？」
+<PAUSE>
+<NAME_PLATE>
+　だが、信じがたいことが起きた。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛に命中したはずの銃弾は、
+何のダメージも与えることなく
+そのまま後方にすり抜ける。
+<PAUSE>
+<NAME_PLATE>加納
+「じゃ、邪眼……？
+　“サイクロプス”……」
+<PAUSE>
+<NAME_PLATE>
+　噂だけは聞いていた。
+<PAUSE>
+<NAME_PLATE>
+　金崎銃兵衛の邪眼能力――
+“金色の丸い眼＜サイクロプス＞”。
+<PAUSE>
+<NAME_PLATE>
+　金属を自在に操り――
+また邪眼発動中は全ての金属の攻撃は
+彼の体をすり抜けるという。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「おっと、そっちは知ってたか。
+　じゃあ褒美に思い切り派手に
+　苦しんで死なせてやるよ」
+<PAUSE>
+<NAME_PLATE>加納
+「あぎぃ！？　ぎぃいいいいいい
+　いいいいいいいいっ！！！！」
+<PAUSE>
+//　※演出　鮮血効果など。
+<ACTOR_OUT>7,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<NAME_PLATE>
+　激痛と共に加納の視界が
+真っ赤に染まった。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛のクナイで加納の
+右の眼球が引き抜かれたのだ。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「またハエどもが、このセンザキに
+　たかってこねぇように――
+　まっ、これも“ギャングの掟”だ」
+<PAUSE>
+<NAME_PLATE>加納
+「ひいぃいいいいいいいいいいい
+　いいいいいっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　絶望し、悲鳴を上げる加納。
+<PAUSE>
+<NAME_PLATE>
+　その赤く染まった視界の中で、
+銃兵衛がゆっくり腕を振り上げた。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　………。
+<PAUSE>
+//【背景：センザキ＿繁華街＿夜＿雨】【時間：夜】
+//　※対魔忍アサギZERO_NC046cより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc144b,IN, 1000
+<SE_PLAY>se096
+<NAME_PLATE>
+　センザキの街に雨が降る。
+<PAUSE>
+<ACTOR>7,ts_m097a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ひと仕事終えた銃兵衛が
+雨に濡れながら歩いていると。
+<PAUSE>
+<ACTOR>7,ts_m097a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「……傘をささないのか？」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>銃兵衛
+「よお、サイボーグの旦那」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　エリカと店を手伝った、
+妙に料理が達者なサイボーグだ。
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛は彼が誰か知っていたし、
+恐らく向こうもこちらの素性を
+知っているだろう。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「いい男ってのは雨に濡れるものだろ？
+　んで、何か用かい？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「……あの男、加納が死んだようだ。
+　随分残酷な死に方でな」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「へえ、そうかい」
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛は肩をすくめた。
+<PAUSE>
+<NAME_PLATE>
+　そう言えば少し腹が減ったな、
+と思い出す。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「それから――エリカが食材を取りに
+　魔界に行った時のことだ」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「巨大蟹と戦った際、鬼族の女戦士が
+　突然現れ、窮地を救ってくれたそうだ。
+　誰かに雇われたらしい」
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「はん！　物好きな奴がいたもんだ。
+　用はそれだけかい？」
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>7,RIGHT,linear,1000
+<NAME_PLATE>
+　銃兵衛が彼の前を通り過ぎる。
+<PAUSE>
+<NAME_PLATE>
+　帰りにまたあの店に寄っていくかな。
+<PAUSE>
+<NAME_PLATE>
+　エリカが店にいれば、クソ不味い
+ラーメンでも作ってくれるだろう――
+そんなことを考えながら。
+<PAUSE>
+<ACTOR>3,ts_m104a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ライブラリー
+「ふふ、なるほど」
+<PAUSE>
+<NAME_PLATE>
+　銃兵衛の背中を見送るサイボーグ
+対魔忍が、楽しげに言った。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「愉快な甘ちゃんばかり集まる店か」
+<PAUSE>
+//→エピローグ終了
+<ACTOR_OUT>3,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

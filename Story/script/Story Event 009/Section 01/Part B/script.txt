@@ -1,0 +1,108 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：ステーキハウスごくえん＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc022aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc074a,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>男たち
+「「すみませんでした！！！」」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストから流用
+//　　武装難民
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　闖入者たちはアスタロトに軽くひねられ、
+残ったのはたったの二人ばかり。
+<PAUSE>
+<NAME_PLATE>
+　彼らは頭をすりつけんばかりに、
+揃って土下座していた。
+<PAUSE>
+<ACTOR>0,chr_t0156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスタロト
+「あーあ、期待外れ。
+　魔界の虫でももう少し強いわよ？」
+<PAUSE>
+//　※立ち絵
+//　　アスタロト
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスタロト
+「こんなに弱くても生きていられるなんて、
+　人間界って平和なのねえ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「まあ私は郷に従うつもりはないけど♪
+　不出来な自分を呪って燃え死になさい♪」
+<PAUSE>
+<NAME_PLATE>男たち
+「ひいぃ……」
+<PAUSE>
+<NAME_PLATE>
+　これでもかとばかりにひれ伏す男たちを、
+アスタロトはゴミとばかりに燃やそうとする。
+<PAUSE>
+<NAME_PLATE>
+　すると、男の一人が
+決死のまなざしで顔をあげた。
+<PAUSE>
+<NAME_PLATE>銃を構えていた男
+「ま、待って下さい！！！
+　姉さんのその強さを見込んで、
+　頼みがあります！！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>アスタロト
+「誰が姉さんよ。私はアスタロト。
+　悪いけど、弱い奴に興味はないの♪」
+<PAUSE>
+<NAME_PLATE>銃を構えていた男
+「そこをひとつ、話だけでも……」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se128
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドンッ！
+<PAUSE>
+<SE_PLAY>se054
+<NAME_PLATE>
+　そのとき、再び乱暴に扉が開かれ、
+今度は武装した兵士の一団が、
+店へなだれこんできた。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>1,ts_m098a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m098a,RIGHT, RIGHT, IN, linear, 1000
+<SE_PLAY>se040
+</GROUP>
+<NAME_PLATE>重装備の男
+「見つけたぞ！　捕えろ！！！」
+<PAUSE>
+//　※立ち絵
+//　　警備兵（男）
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　今度は武装した兵士の一団だ。
+彼らはアスタロト――ではなく、
+土下座する男たちに銃を向ける。
+<PAUSE>
+<NAME_PLATE>銃を構えていた男
+「ひえええっ！！！」
+<PAUSE>
+//→Section１終了
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

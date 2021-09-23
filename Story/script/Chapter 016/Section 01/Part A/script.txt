@@ -1,0 +1,914 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車学園＿正門前＿朝】【時間：昼】
+//　※対魔忍アサギZERO＿NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　ある日の放課後。
+<PAUSE>
+//【背景：五車学園＿図書室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO＿NC058aより流用
+//新規　nc182a
+<BGM_PLAY>bgm604,1000
+<BG>nc182a,IN, 1000
+<NAME_PLATE>
+　授業が終わって、
+これという用事もなかった俺は
+学園の図書室に足を運んでいた。
+<PAUSE>
+<NAME_PLATE>
+　名前は図書室だが、実際は
+校舎の地下何階にも渡る巨大図書館で、
+五車の蔵書が数多く収められている。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の本拠地であるから、
+忍者や忍法に関する蔵書は相当なものだ。
+<PAUSE>
+<NAME_PLATE>
+　古くから伝わる秘伝書や巻物から始まって、
+対魔忍の最新の研究成果まで揃っている。
+<PAUSE>
+<NAME_PLATE>
+　数は少ないが魔族や魔界に関する本もあり、
+敵の性質から、能力、その対抗策まで
+先人の知恵を学ぶことができる。
+<PAUSE>
+<NAME_PLATE>
+　大抵の本は、俺たち学生でも
+自由に棚からとって
+読んでいいことになっているが、
+<PAUSE>
+<NAME_PLATE>
+　一冊一冊、閲覧申請がいるものや、
+中にはアサギ先生直々の立ち会いが必要な
+稀少かつ危険な本もあるという。
+<PAUSE>
+<NAME_PLATE>
+　古書のメンテナンスや復元を
+行うセクションもあり、
+研究機関並みの設備が整っている。
+<PAUSE>
+<NAME_PLATE>
+　ひところ俺はここに入り浸って、
+自分に宿った魔性について調べていたが、
+あまりいい結果は得られなかった。
+<PAUSE>
+<NAME_PLATE>
+　今日はなにを調べるという目的もなく、
+古書が収められている階を適当にぶらついて、
+目に付いた本を読みあさっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「確か次の棚を右だったかな？」
+<PAUSE>
+<NAME_PLATE>
+　本を何冊も小脇に抱え、
+本棚から本棚へと歩き回る。
+<PAUSE>
+<NAME_PLATE>
+　なにしろ図書室は広く、
+本というやつは妙に重い。
+<PAUSE>
+<NAME_PLATE>
+　読み終えた本を棚に
+返すだけでも一苦労だ。
+<PAUSE>
+<NAME_PLATE>
+　とか思っているうちから、
+また一冊見つけてしまった。
+<PAUSE>
+<NAME_PLATE>俺
+「中島流砲術秘伝・水遁之巻か」
+<PAUSE>
+<NAME_PLATE>
+　江戸の末期、天保のころに書かれたもので、
+砲術、つまり当時の火縄銃や大筒における
+水遁の術活用についての秘伝書のようだ。
+<PAUSE>
+<NAME_PLATE>
+　中島流といえば、かの大塩平八郎も学んだ
+江戸砲術の名門だ。
+<PAUSE>
+<NAME_PLATE>
+　それが鉄砲と相性がいい火遁ではなく、
+火を弱める水遁の秘伝を残していたとは
+興味深い。
+<PAUSE>
+<NAME_PLATE>俺
+「とりあえず読んでおくか」
+<PAUSE>
+<NAME_PLATE>
+　戻した本と入れ替えるように抱える。
+<PAUSE>
+<NAME_PLATE>
+　そんな感じで、本を元の棚に戻したり、
+新しい本を選んだりしてから、
+読書スペースに戻ると、
+<PAUSE>
+<ACTOR>0,am_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「……………」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水通常立ち絵＿普段着
+//新規　am_t001a
+<NAME_PLATE>
+　彼女の姿が目に入った。
+<PAUSE>
+<NAME_PLATE>
+　広い図書室で今日も一人、
+読書に耽っている少女。
+<PAUSE>
+<NAME_PLATE>俺
+（図書子さん、今日もいるな……）
+<PAUSE>
+<NAME_PLATE>
+　このあたりの深い階まで来て、
+蔵書を読み耽る人間は少ない。
+<PAUSE>
+<NAME_PLATE>
+　学生では俺くらいだ。
+<PAUSE>
+<NAME_PLATE>
+　だからみな顔見知りである。
+<PAUSE>
+<NAME_PLATE>
+　そう、彼女も。
+<PAUSE>
+<NAME_PLATE>
+　話したことはない。
+<PAUSE>
+<NAME_PLATE>
+　名前も知らない少女。
+<PAUSE>
+<NAME_PLATE>
+　いつも私服だ。
+<PAUSE>
+<NAME_PLATE>
+　一度帰宅してからここに来るのだろうか？
+<PAUSE>
+<NAME_PLATE>
+　不思議な女子だ。
+<PAUSE>
+<NAME_PLATE>
+　向こうはどうか知らないが、
+俺はすっかり顔を覚えてしまった。
+<PAUSE>
+<NAME_PLATE>
+　話しかけるのも簡単だが、していない。
+<PAUSE>
+<NAME_PLATE>
+　俺はこういう場所では一人でいたい。
+<PAUSE>
+<NAME_PLATE>
+　きっとあの子もそうだろう。
+<PAUSE>
+<NAME_PLATE>
+　だから、“図書室の図書子さん”と
+心の中で勝手に命名するだけにしている。
+<PAUSE>
+<NAME_PLATE>
+　図書子さんを見ると、
+いつも懐かしい気持ちになる。
+<PAUSE>
+<NAME_PLATE>
+　図書室の同志的な
+勝手な仲間意識のせいかもしれない。
+<PAUSE>
+<NAME_PLATE>
+　不思議なことに、
+図書子さんを見かけるのは
+この図書室の中だけで、いつも一人だ。
+<PAUSE>
+<NAME_PLATE>
+　学校の外ではもちろん、
+図書室に入ってくるところも、
+出てくるところも見たことがない。
+<PAUSE>
+<NAME_PLATE>
+　そして、探そうとするといない。
+気がつくといて、いつの間にか消えている。
+<PAUSE>
+<NAME_PLATE>
+　まるで図書室に現れる
+読書好きの女の子の幽霊のようだ。
+<PAUSE>
+<NAME_PLATE>
+　だったら話しかけたりして
+二度と現れなくなったら元も子もない。
+<PAUSE>
+<NAME_PLATE>
+　このまま遠くから
+たまに見ているのが正解というものだ。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：五車学園＿図書室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO＿NC058aより流用
+//新規　nc182a
+<BG>nc182a,IN, 1000
+<SE_PLAY>se021
+<NAME_PLATE>
+　♪～～～～♪　♪～～～～～♪
+<PAUSE>
+<NAME_PLATE>俺
+「あ……」
+<PAUSE>
+<NAME_PLATE>
+　静謐な図書室に
+お馴染みの音楽が流れ始めた。
+<PAUSE>
+<NAME_PLATE>
+　もうすぐ閉館のお知らせだ。
+<PAUSE>
+<NAME_PLATE>
+　ここの図書委員は短気な人間で、
+すぐに扉を閉めようとする。
+<PAUSE>
+<NAME_PLATE>
+　のんびりしていると図書室に閉じ込められ、
+明日の開館まで
+出られないなんてことがありうる。
+<PAUSE>
+<NAME_PLATE>
+　まだ読書の途中だったが
+本を閉じて帰り支度を始めた。
+<PAUSE>
+<NAME_PLATE>俺
+（図書子さんは……）
+<PAUSE>
+<NAME_PLATE>
+　やはり見当たらない。
+<PAUSE>
+<NAME_PLATE>
+　今日もいつの間にか消えている。
+<PAUSE>
+<NAME_PLATE>
+　残っているのは俺だけだ。
+<PAUSE>
+<NAME_PLATE>
+　手早く本を元に戻し、
+急いで図書室を出た。
+<PAUSE>
+//【背景：五車学園＿正門前＿夕方】【時間：夕方】
+//　※対魔忍アサギZERO＿NC008bより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc054b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　外はもう夕方だ。
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿NC025bより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc056b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　家に着く頃には日が暮れていた。
+<PAUSE>
+<ACTOR>1,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「あ！　やっと帰ってきた！
+　おかえり～～～！！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服
+//　　　　＊対魔忍アサギＺＥＲＯから流用
+<NAME_PLATE>
+　珍しくさくらが門前で俺を待っていた。
+<PAUSE>
+<NAME_PLATE>
+　いつぞやのブレインフレーヤー事件以来、
+すっかりうちの居候だが、だからといって
+普段は俺を待っていたりはしない。
+<PAUSE>
+<NAME_PLATE>
+　あてがった部屋でゴロゴロしているか、
+人のゲームを勝手にプレイしたりしている。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「もう！　遅いよふうま君！」
+<PAUSE>
+<NAME_PLATE>俺
+「なにか約束してたっけ？」
+<PAUSE>
+<ACTOR>1,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「違う！　これだよこれ！」
+<PAUSE>
+<NAME_PLATE>
+　さくらは持っていた手紙を
+グイと差し出した。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>俺
+「手紙？」
+<PAUSE>
+<ACTOR>1,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふうま君あてだけど、ほら見て見て！」
+<PAUSE>
+<NAME_PLATE>
+　確かに宛名は俺だ。
+ひっくり返すと、
+西洋風の封蝋が施されている。
+<PAUSE>
+<ACTOR>1,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「これ不思議な手紙でさ！
+　なにしても全然あかないのさ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ん？」
+<PAUSE>
+<NAME_PLATE>さくら
+「手ではあけられないし、
+　ペーパーナイフでもダメだったし、
+　私の忍者刀でも傷一つ付かないんだよ」
+<PAUSE>
+<ACTOR>1,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ね！　すごいでしょ！　不思議でしょ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、すごいし、不思議だが―――
+　お前、俺への手紙を
+　なに覗こうとしてんだよ」
+<PAUSE>
+<ACTOR>1,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふうま君に女の子から手紙だよ！？
+　先に読みたいに
+　決まってるじゃん浮気もの！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだよそれ！？
+　そもそも、どうして女の子からの手紙って
+　分かるんだよ」
+<PAUSE>
+<ACTOR>1,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「これ！　ここ見てよ！」
+<PAUSE>
+<NAME_PLATE>
+　さくらが指さす部分には、
+赤い口紅でされたキスマークがある。
+<PAUSE>
+<NAME_PLATE>
+　そしてキスマークとともに
+小さく名前が書かれているのが見えた。
+<PAUSE>
+<NAME_PLATE>
+　“シュヴァリエ”と。
+<PAUSE>
+<NAME_PLATE>俺
+「シュヴァリエって……」
+<PAUSE>
+<ACTOR>1,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「さあ、ふうま君白状して。
+　このシュヴァリエって何者なんだい！？
+　隠すとためにならないよ」
+<PAUSE>
+<NAME_PLATE>
+　さくらはニヤニヤしながら、
+シュヴァリエからの手紙をチラチラと振った。
+<PAUSE>
+<NAME_PLATE>俺
+「隠すことなんてねえよ。
+　東京キングダムの錬金術師だ」
+<PAUSE>
+<ACTOR>1,ws_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「れんきんじゅつし～～～？」
+<PAUSE>
+<NAME_PLATE>
+　俺は魔性について書かれた本を探しに
+東京キングダムに行ったこと、
+<PAUSE>
+<NAME_PLATE>
+　そこでギャングの揉め事に巻き込まれ、
+その過程でシュヴァリエとも知り合ったこと
+などを説明した。
+<PAUSE>
+<ACTOR>1,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「え～～～、そんだけえ？」
+<PAUSE>
+<NAME_PLATE>俺
+「そんだけだ。
+　本を探してくれるよう頼んでおいたから、
+　それが見つかったって手紙じゃないか」
+<PAUSE>
+<NAME_PLATE>
+　つまり、俺が傷を受けても
+魔性の力で再生してしまうことに関して
+書かれていそうな本だ。
+<PAUSE>
+<ACTOR>1,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「じゃあじゃあ
+　なんでキスマークとかつけるの？
+　むむむ～～～怪しい」
+<PAUSE>
+<NAME_PLATE>俺
+「なにも怪しくねえよ。
+　キスマークは知らん。趣味だろ。というか、
+　人の手紙を勝手に見ようとするな」
+<PAUSE>
+<NAME_PLATE>
+　俺はさくらから手紙を奪うと、
+小刀で封蝋を開けようとした。
+<PAUSE>
+<NAME_PLATE>さくら
+「無理だって！
+　その封筒あかないよ！」
+<PAUSE>
+<NAME_PLATE>
+　すぱっ。
+<PAUSE>
+<ACTOR>1,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「えええええええ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「普通にあくじゃないか」
+<PAUSE>
+<NAME_PLATE>さくら
+「だって、確かになにしても……
+　おっかしいなあ～～～～～？」
+<PAUSE>
+<NAME_PLATE>
+　さくらが首をかしげて
+ブツブツ言っているが、
+無視して中身を確認する。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+//【黒画面】
+//　※立ち絵
+//　　シュヴァリエ立ち絵
+//　　　　＊報酬キャラのシュヴァリエ02を流用
+//　※主人公はこの姿のシュヴァリエしか見たことがないので
+<ACTOR>2,chr_t0100a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>シュヴァリエ
+『シュヴァリエの書物に
+　興味を持った人間へ』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『好奇心は力強い知性の最も
+　永久的な特性の一つ』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『あなたは今もシュヴァリエと同じ
+　心を持ち続けているかしら？』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『もしそうならすぐにいらっしゃい。
+　恐怖の解毒剤となる知識の源を
+　シュヴァリエが与えてあげるわ』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『知己の多きは人間の一大快楽よ。
+　あなたとの再会をシュヴァリエも
+　心待ちにしていると知りなさい』
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　えらく回りくどい書き方だが、
+要するに俺の探している本が見つかったから、
+すぐに会いに来いということだろう。
+<PAUSE>
+<NAME_PLATE>
+　手紙はまだ続いている。
+<PAUSE>
+<ACTOR>2,chr_t0100a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+『ところで知っていて？
+　女性の手紙はたいてい『追伸』の中に
+　いちばん肝心の用件が書いてあるのよ』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『だからあなたも
+　シュヴァリエの追伸は用心して読むべきね』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『追伸
+　この手紙には砂男の呪いがかかっているわ』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『シュヴァリエが興味を持ったあなたしか
+　読むことが叶わぬようにね。
+　それが男と女がかわす手紙の理よ』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『邪魔するような無粋者は
+　永久の眠りにつくことになるでしょうね』
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+『天と地の間のすべてを知らんとする者。
+　シュヴァリエ』
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿夜】【時間：夜】
+//　※対魔忍アサギZERO＿NC025bより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<BG>nc056b,IN, 2000
+<NAME_PLATE>俺
+「永久の眠り？
+　マジかよ！？　さくら………！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「グーーーーー、グーーーーーー」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服
+//　　　　＊対魔忍アサギＺＥＲＯから流用
+<NAME_PLATE>俺
+「……遅かった」
+<PAUSE>
+<NAME_PLATE>
+　さくらを見ると、
+いつの間にか地べたにへたり込んで
+思いきり寝ていた。
+<PAUSE>
+<NAME_PLATE>
+　砂男の呪いとやらに見事にかかったようで、
+揺すっても声をかけても起きやしない。
+<PAUSE>
+<NAME_PLATE>俺
+「こりゃ問答無用でシュヴァリエに
+　会いに行かないと駄目か」
+<PAUSE>
+<NAME_PLATE>
+　本もさることながら、
+さくらにかかった呪いを解いてもらわないと。
+<PAUSE>
+<NAME_PLATE>さくら
+「ぐ～～～～、ぐ～～～～～」
+<PAUSE>
+<NAME_PLATE>俺
+「自業自得だし、
+　ここに放っておきたいけどな」
+<PAUSE>
+<NAME_PLATE>さくら
+「ぐ～～～～、ぐぐ～～～～～～」
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　―――
+<PAUSE>
+//【背景：東京キングダム全景＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc001aより流用
+<BG>nc007a,IN, 1000
+<NAME_PLATE>
+　翌日。
+<PAUSE>
+<NAME_PLATE>
+　俺はさっそくシュヴァリエを訪ねるために、
+いつものように鹿之助や蛇子を伴って、
+東京キングダムに向かったのだが、
+<PAUSE>
+//【背景：東京キングダム＿繁華街＿夜】【時間：夜】
+//　※対魔忍紅＿NC004aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc061a,IN, 1000
+<ACTOR>3,kr_t001f,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼崎きらら
+「ちょっと！　戦闘はまだなの？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「あるわけないでしょう！」
+<PAUSE>
+<NAME_PLATE>
+　なぜかこの人までいた。
+<PAUSE>
+<ACTOR>3,kr_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　鬼崎きらら先輩。
+<PAUSE>
+<NAME_PLATE>
+　強力な氷の力と、鬼の力を合わせ持った
+スーパー対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　以前、とある任務でコンビを組んだのを
+きっかけに知り合ったのだが、
+<PAUSE>
+<NAME_PLATE>
+　俺の東京キングダム行きをどこかで知って、
+「卒業までもっと戦闘経験を積みたい」と
+勝手についてきたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「知り合いの錬金術師を
+　訪ねるだけって言ってるでしょう？」
+<PAUSE>
+<ACTOR>3,kr_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「嘘ばっかり！　この前だって五車で
+　二車の連中と大立回りしたって
+　聞いたんだから！」
+<PAUSE>
+<NAME_PLATE>
+　夏休み中の黒騎雫の襲撃のことか。
+<PAUSE>
+<NAME_PLATE>
+　よりによって俺を殺しにやって来て、それに
+鬼蜘蛛三郎やら楽尚之助やらが加わって、
+色々と面倒なことになった―――そうだ。
+<PAUSE>
+<NAME_PLATE>
+　全部、後で知ったのだが。
+<PAUSE>
+<NAME_PLATE>俺
+「俺は何もやってませんよ。
+　うちのライブラリーが密かに活躍してたのを
+　後から教えてもらったくらいで」
+<PAUSE>
+<ACTOR>3,kr_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「ふんっ。
+　五車一番のトラブルメーカーが
+　なに謙遜してるの！」
+<PAUSE>
+<NAME_PLATE>きらら
+「あんたはトラブルを呼び込む体質なの。
+　それをあんたが知ってるかどうかなんて
+　これっぽっちも関係ないから！」
+<PAUSE>
+<NAME_PLATE>俺
+「なんて酷い言い草だ」
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<GROUP>
+<ACTOR>4,s_t001b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>相州蛇子
+「うふふ、確かにそうよね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>上原鹿之助
+「否定はできないよな」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　蛇子と鹿之助がきらら先輩に味方する。
+<PAUSE>
+<NAME_PLATE>俺
+「お前らまで……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<ACTOR>3,kr_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「でしょう！
+　さあ、私の実績づくりのためにトラブルを
+　呼び込みなさい。全部凍らせてやるわ！」
+<PAUSE>
+<ACTOR>3,kr_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「悪魔怪獣なんでもこいよ！」
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩は準備万端とばかりに
+腰に手を当てた。
+<PAUSE>
+<NAME_PLATE>
+　俺のそばにいれば、勝手に活躍の場が
+提供されると信じて疑ってないようだ。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>俺
+「おい蛇子」
+<PAUSE>
+<NAME_PLATE>
+　俺は蛇子に小声で話しかける。
+<PAUSE>
+<ACTOR>5,h_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なに、ふうまちゃん？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>俺
+「きらら先輩をしっかり
+　見張っておいてくれよ。そうでなくても
+　色んな意味で目立つんだから」
+<PAUSE>
+<NAME_PLATE>
+　トレードマークのリボン付きツインテール。
+ボンッ、キュッ、ボンの超ナイスボディ。
+それを隠す気がない露出過多スーツ。
+<PAUSE>
+<NAME_PLATE>
+　目立つところしかない。
+<PAUSE>
+<ACTOR>5,h_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「大丈夫よ。きらら先輩は強いし」
+<PAUSE>
+<NAME_PLATE>俺
+「あのな。そういうことじゃ―――」
+<PAUSE>
+<ACTOR>5,h_t002b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>4,s_t001d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「あれ？　きらら先輩いないぞ」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<ACTOR>5,h_t002d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺＆蛇子
+「「えええええ！？」」
+<PAUSE>
+<NAME_PLATE>
+　確かにきらら先輩がいない。
+<PAUSE>
+<NAME_PLATE>
+　いつも突然いなくなるのは
+鹿之助の役なのに。
+<PAUSE>
+<ACTOR>4,s_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あ！　いたぞ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鹿之介が指差す方向を見ると、
+雑踏の中、いかにも怪しい連中が
+きらら先輩に話しかけていた。
+<PAUSE>
+<GROUP>
+<ACTOR>6,ts_m018a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,ts_m017a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>怪しい売り子（男）
+「今なら５万円相当のエステが無料で
+　受けられますよ」
+<PAUSE>
+//　※立ち絵
+//　　インキュバス立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>怪しい売り子（男）
+「あなたのようなメスｂｔ……美しい女性に
+　是非受けていただきたいです」
+<PAUSE>
+<NAME_PLATE>怪しい売り子（女）
+「特別キャンペーン中で、
+　今なら催ｉｎ………美肌効果抜群の
+　アロマミストサービスもついてきます♪」
+<PAUSE>
+//　※立ち絵
+//　　サキュバス立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「おい、あれって……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「淫魔族っぽいわね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR>3,kr_t001i,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>きらら
+「ふふん。
+　あなたたちなかなか目の付け所がいいわね。
+　もうちょっと話を聞かせなさい」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>きらら
+「よさそうだったら、
+　ちょっとくらい試してあげてもいいわよ。
+　もちろん無料でね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　美肌効果がある特別なエステが無料で
+体験キャンペーン中。
+<PAUSE>
+<NAME_PLATE>
+　いかにもＡＶに出てきそうな奴だが、
+きらら先輩は
+ホイホイついて行きそうになっている。
+<PAUSE>
+<NAME_PLATE>
+　あの人、あんなに強いのに、
+あんな格好してるのに、
+疑う心がないのか！？
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<BGM_PLAY>bgm304,1000
+<GROUP>
+<ACTOR>4,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>5,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ま、まずいよなふうま！？」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>俺
+「ああ、やばい！　助けるぞ！！！」
+<PAUSE>
+<ACTOR>5,h_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「きらら先輩、だめーーー！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　俺たちは慌てて割って入ろうとしたが、
+別の売り子がさっと立ちはだかった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>4,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>6,ts_m018a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>8,ts_m018a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>怪しい売り子（男）
+「ああ、なんだあ、ガキども」
+「俺たちを誰だと思ってんだ！」
+<PAUSE>
+//　※立ち絵
+//　　インキュバス立ち絵
+//　　　　＊モンスターイラストより流用
+//　　インキュバス立ち絵
+//　　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>8,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>7,ts_m017a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>9,ts_m017a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>怪しい売り子（女）
+「商売の邪魔はさせないよ」
+<PAUSE>
+//　※立ち絵
+//　　サキュバス立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　こいつらを倒すしかない。
+<PAUSE>
+<NAME_PLATE>
+　早くしないと、
+きらら先輩が大変なことになってしまう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>7,LEFT,linear,1000
+<ACTOR_OUT>9,RIGHT,linear,1000
+</GROUP>
+//→S102a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

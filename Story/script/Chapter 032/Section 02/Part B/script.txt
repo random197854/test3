@@ -1,0 +1,61 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：森の空き地＿夜】【時間：夜】
+//　※MISAO_nc011cより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc199a,IN, 1000
+<ACTOR>0,hu_t001e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「くそっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　※カードイラストより流用
+<NAME_PLATE>
+　もう一人で戦うしかない。
+<PAUSE>
+<NAME_PLATE>
+　正体不明の闇の化物に追われ、
+森の少し開けた場所で覚悟を決めたとき、
+<PAUSE>
+<ACTOR>0,hu_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　奴らが消えていた。
+<PAUSE>
+<NAME_PLATE>
+　闇から現れた化物たちは
+影も形もなくなっていた。
+<PAUSE>
+<NAME_PLATE>
+　けれど、周囲の不気味な感覚、
+まるで魔界にいるような違和感は
+消えていない。
+<PAUSE>
+<NAME_PLATE>俺
+「なにがどうなってるんだ。
+　俺は悪夢の中にいるのか……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>少年
+「悪夢の中か。それは上手い表現だね。
+　ずっと夢のような世界にいるんだよ。
+　君と僕は」
+<PAUSE>
+//　※立ち絵
+//　　黒斗
+//　　　※カードイラストより流用
+<ACTOR>0,ts_m236a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そこに一人の少年が立っていた。
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

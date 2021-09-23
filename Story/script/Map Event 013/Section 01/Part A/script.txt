@@ -1,0 +1,1932 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：魔都・東京全景＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2の背景NC002より流用
+<BG>nc001a,IN, 1000
+<NAME_PLATE>
+　“魔都”東京。
+<PAUSE>
+<NAME_PLATE>
+　闇の勢力が入り交じり、
+人の欲望が渦を巻く街。
+<PAUSE>
+<NAME_PLATE>
+　そこでは敵味方を問わず、
+誰もが他者を出し抜こうと躍起になっている。
+<PAUSE>
+<NAME_PLATE>
+　そのためには手段など問われない。
+<PAUSE>
+//【背景：製薬会社ビル・入り口＿夜】【時間：夜】
+//　※鋼殻のアイ_nc004bより流用
+<BG>nc174a,IN, 1000
+<NAME_PLATE>
+　アーカムバイオ社。
+<PAUSE>
+<NAME_PLATE>
+　表向きは米連に軍事用薬物を提供している
+真っ当な製薬会社も例外ではない。
+<PAUSE>
+//【背景：製薬会社ビル・廊下１＿夜】【時間：夜】
+//　※漂流艦獄クロノス_nc003aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc017a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m129a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m129a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン
+「―――――」
+「―――――」
+「―――――」
+<PAUSE>
+//　※立ち絵
+//　　警備ドローン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<NAME_PLATE>
+　７．６２ｍｍ機関銃の銃身を突き出した
+警備用ドローンが音もなく飛んでいる。
+<PAUSE>
+<NAME_PLATE>
+　通称“ガーゴイル”。
+米連が開発した優秀なドローンだが
+日本では所有を禁止されている。
+<PAUSE>
+<NAME_PLATE>
+　ましてここは軍事基地ではなく、
+製薬会社だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+（どこが真っ当な製薬会社だ。
+　バリバリの違法ドローンじゃねえか。
+　こりゃ間違いなくやってやがるな）
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　アイナ・ウィンチェスターは
+ドローンの監視の目を逃れながら、
+内心で独りごちた。
+<PAUSE>
+<NAME_PLATE>
+　フリーの魔物ハンターとして
+米連の軍とも取引のある彼女だが、
+<PAUSE>
+<NAME_PLATE>
+　今夜ここに潜入したのは、
+軍からの依頼でははない。
+<PAUSE>
+<NAME_PLATE>
+　アイナ個人としての行動、
+ありていにいえば怒りに駆られてだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　彼女が取引をしている米連の組織に
+こんなタレコミがあったのだ。
+<PAUSE>
+<BG>nc174a,IN, 1000
+<NAME_PLATE>
+　東京にあるアーカムバイオ社で
+『不死の兵士』の開発が行われている。
+<PAUSE>
+<NAME_PLATE>
+　責任者はハンス・エドワルド・ヴィクター。
+<PAUSE>
+<NAME_PLATE>
+　かつての台湾危機、それに続く半島戦争で
+活躍した米連の元大佐で、
+７０を越えた老人だという。
+<PAUSE>
+<NAME_PLATE>
+　その開発には誘拐した孤児を使っての
+非合法な人体実験まで行われているとまで
+タレコミにはあった。
+<PAUSE>
+<NAME_PLATE>
+　アーカムバイオ社は米連の各軍との
+繋がりが深い製薬会社だ。
+<PAUSE>
+<NAME_PLATE>
+　組織も迂闊に手を出すわけにはいかず、
+まずタレコミの真偽を調査することとなったが
+アイナはいてもたってもいられなかった。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　幼い頃、魔族に両親を殺され、
+孤児院で育てられてきた彼女には、
+<PAUSE>
+<NAME_PLATE>
+　自分と同じ境遇の子供たちが
+おぞましい実験に使われているなど
+とても我慢できなかったのだ。
+<PAUSE>
+<BG>nc017a,IN, 1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+（死なない兵士なんて
+　馬鹿な研究をするのはこいつらの勝手だ）
+<PAUSE>
+<NAME_PLATE>アイナ
+（けど子供を実験に使うなんて
+　許しちゃおけねえ）
+<PAUSE>
+<NAME_PLATE>アイナ
+（この俺がヴィクター大佐とかいう
+　ふざけたジジイの息の根を止めてやる）
+<PAUSE>
+<NAME_PLATE>
+　アイナは強い義憤を覚えながら、
+うろつく警備ドローンを睨み付けた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m129a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m129a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン
+「―――――」
+「―――――」
+「―――――」
+<PAUSE>
+//　※立ち絵
+//　　警備ドローン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<NAME_PLATE>
+　あれを破壊するのは簡単だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、そうすれば、
+間違いなく他のドローンが殺到するだろう。
+<PAUSE>
+<NAME_PLATE>
+　一人でその相手ができるか？
+<PAUSE>
+<NAME_PLATE>
+　今日は組織のサポートもなく、
+文字通りの単独行動だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　その上――。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「俺はまだコイツを使いこなせてねえ。
+　くそ、こんな時に情けねえ」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　アイナは『タイプゼロ』と名付けられた
+二丁の新型のガンを強く握りしめた。
+<PAUSE>
+//【背景：ビーチの外れ＿昼】【時間：昼】
+//　※堕ちる人妻＿nc019aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc165a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>メカニック
+『では、タイプゼロのテストを始める。
+　アイナ、準備はいいかい？』
+<PAUSE>
+<NAME_PLATE>
+　スピーカーから聞こえたメカニックの声に、
+アイナは仏頂面でこう返した。
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「準備はいいけどよ。
+　なんでシミュレーションのステージが
+　この海岸なんだよ！？」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　以前、対魔忍のふうまと酷い目にあった
+見覚えのある、ありすぎる海岸だ。
+<PAUSE>
+<NAME_PLATE>
+　あの“淫の氣”とかにやられたことを
+思い出すと、いまだにうんざりしてくる。
+<PAUSE>
+<NAME_PLATE>メカニック
+『ステージは君の今までの
+　戦闘データに基づいて自動設定される』
+<PAUSE>
+<NAME_PLATE>メカニック
+『シミュレーターがここを選んだ理由が
+　なにかあるんじゃないかな』
+<PAUSE>
+<NAME_PLATE>
+　報告書でその時のことも
+全て知っているメカニックが答えた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「絶対に俺への嫌がらせだ。
+　くそシミュレーターの野郎」
+<PAUSE>
+<NAME_PLATE>メカニック
+『何か言ったかい？』
+<PAUSE>
+<NAME_PLATE>アイナ
+「なんでもねえよ。さっさと始めてくれ」
+<PAUSE>
+<SE_PLAY>se040_02
+<NAME_PLATE>
+　アイナは、新型のガン『タイプゼロ』を
+左右それぞれの手で構えた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>メカニック
+『了解、テスト開始』
+<PAUSE>
+<NAME_PLATE>
+　ブゥウンと耳障りな羽音をたてて
+最初の敵が現れた。
+<PAUSE>
+//　※立ち絵
+//　　魔界ワスプ立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何匹か出してください。
+<GROUP>
+<ACTOR>0,ts_m067a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m067a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「まずは魔界ワスプか」
+<PAUSE>
+<NAME_PLATE>
+　無論、本物ではない。
+<PAUSE>
+<NAME_PLATE>
+　この手の施設ではお馴染みの
+立体映像とロボットを組み合わせた
+模擬戦闘のターゲットだ。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、攻撃もしてくるし、
+当たればそれなりのダメージも受ける。
+<PAUSE>
+<NAME_PLATE>アイナ
+「食らえ！」
+<PAUSE>
+<NAME_PLATE>
+　アイナは編隊を組んで迫ってくる
+魔界ワスプに狙いを定め、
+素早く引き金を引いた。
+<PAUSE>
+//※レーザーっぽいエフェクト
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピュン、ピュン、ピュン！
+ぼぼぼんっ！
+<PAUSE>
+<NAME_PLATE>
+　レーザーが魔界ワスプを次々と撃墜する。
+アイナに近づくこともできない。
+<PAUSE>
+<BG>nc165a,IN, 1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「へへん、どうだ！」
+<PAUSE>
+<NAME_PLATE>メカニック
+『なかなか順調だね。
+　次はブレードモードを試してくれ』
+<PAUSE>
+<NAME_PLATE>アイナ
+「了解」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　魔界ワスプが消えて、
+次のターゲットが現れた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m018a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m017a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　頭に角、背中に羽が生えた淫魔族の男女。
+インキュバスにサキュバスだ。
+<PAUSE>
+//　※立ち絵
+//　　サキュバス
+//　　　　＊モンスターイラストより流用
+//　　インキュバス
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>アイナ
+「この敵のラインナップは
+　やっぱりシミュレータの嫌がらせだ。
+　いくぜ、ブレードモード！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アイナは『タイプゼロ』のスイッチを
+切り換えた。
+<PAUSE>
+<SE_PLAY>se107
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　心地よい駆動音がして、
+両手のガンがブレードモードに変わる。
+<PAUSE>
+<NAME_PLATE>
+　ただのブレードではない。
+刀身がレーザーで出来た剣だ。
+<PAUSE>
+<NAME_PLATE>
+　今までのガンに代わる
+『タイプゼロ』の新機能の一つがこれだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m018a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m017a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>サキュバス
+「………………」
+<PAUSE>
+<NAME_PLATE>インキュバス
+「……………………」
+<PAUSE>
+<NAME_PLATE>
+　男女の淫魔は別に驚いた様子もなく、
+無言で近接攻撃をしかけてくる。
+物足りないがしょうがない。
+<PAUSE>
+<NAME_PLATE>アイナ
+「おらおらおらっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se107_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　サキュバスの鞭、インキュバスの爪を躱し、
+アイナは両手のガンブレードで斬りつけた。
+<PAUSE>
+<BG>nc165a,IN, 500
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「どうだ！」
+<PAUSE>
+<NAME_PLATE>
+　何かを斬ったという感覚も無く
+ブレードが通り抜けた淫魔族の身体が
+ばっさりと切断された。
+<PAUSE>
+<NAME_PLATE>アイナ
+「たまには剣ってのも悪くねえな。
+　ちょっと手応えがなさすぎだけどよ」
+<PAUSE>
+<NAME_PLATE>
+　アイナは満足げに嘯いたが、
+メカニックからは訝しげな言葉が返ってきた。
+<PAUSE>
+<NAME_PLATE>メカニック
+『おかしいな。
+　ブレードの出力が予想より低い。
+　アイナ、手加減していないかい？』
+<PAUSE>
+<NAME_PLATE>アイナ
+「ああん？
+　するわけねえだろ。次来い。
+　どうせあいつが出てくんだろ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m103a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリムムオー・改
+『呼ばれて飛び出て、
+　淫夢勇者リリムムオー・改！　参・上！！』
+<PAUSE>
+//　※立ち絵
+//　　リリムムオー・改
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　その予想通り、次のターゲットは、
+あの海岸で戦った嘘くさいロボットだった。
+<PAUSE>
+<NAME_PLATE>アイナ
+「くっそ、やっぱりだ。
+　まさかあのオマヌケサキュバスが
+　中に入ってるんじゃねえだろうな？」
+<PAUSE>
+<NAME_PLATE>メカニック
+『そこまでは再現不能だったよ。
+　喋るようにはしてみたけどね』
+<PAUSE>
+<NAME_PLATE>アイナ
+「変なとこに凝りやがって。
+　あの時はちょっと苦戦したが、
+　このタイプゼロの力を見せてやる！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイナは普段からずっと着けている
+右目の眼帯を外した。
+<PAUSE>
+<NAME_PLATE>
+　その金色の目は幼い頃、
+魔族に抉り取られた目の代わりに、
+植え付けられた高位魔族の目だ。
+<PAUSE>
+<NAME_PLATE>
+　アイナは自身の血と引き換えに
+その目の魔力を、人にあらざる力を
+駆使することがきる。
+<PAUSE>
+<NAME_PLATE>
+　そして『タイプゼロ』は
+彼女だけのフルバーストモードを
+発動させることが可能になる。
+<PAUSE>
+<NAME_PLATE>
+　そのはずであった。
+<PAUSE>
+<NAME_PLATE>アイナ
+「いくぜ、フルバースト！！」
+<PAUSE>
+<NAME_PLATE>
+　金色の目が赤く輝き出す。
+<PAUSE>
+<NAME_PLATE>
+　彼女の血が魔族の目に吸われているのだ。
+<PAUSE>
+<NAME_PLATE>
+　だが、その魔の輝きは安定していない。
+金色と赤との間で不規則に明滅している。
+<PAUSE>
+<NAME_PLATE>アイナ
+「モードが変わんねえぞ！
+　どうなってんだよこれ！」
+<PAUSE>
+<NAME_PLATE>メカニック
+『もっと魔力を高めるんだ。
+　どんどん出力が下がっているぞ』
+<PAUSE>
+<NAME_PLATE>アイナ
+「言われなくてもやってる！！
+　おらああああああっ！！」
+<PAUSE>
+<ACTOR>0,ts_m103a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アイナは右目に意識を集中させて、
+ポンコツロボットを睨み付けた。
+<PAUSE>
+<NAME_PLATE>
+　だが、いつも右目の力を使う時の
+あの魔力が全身を駆け巡る感じが
+湧き上がってこない。
+<PAUSE>
+<NAME_PLATE>
+　ガンのモードも変わらない。
+<PAUSE>
+<NAME_PLATE>アイナ
+「くそ、どうなってやがるっ！！」
+<PAUSE>
+<NAME_PLATE>メカニック
+『アイナ、攻撃が来るぞ』
+<PAUSE>
+<NAME_PLATE>アイナ
+「なっ？　しまっっ――」
+<PAUSE>
+<NAME_PLATE>リリムムオー・改
+『食らえ！　目からビィイイイム！！』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビイイイイイイイッ！！
+<PAUSE>
+<NAME_PLATE>アイナ
+「おわっっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　インチキロボットが冗談のような
+目からビームを放った。
+<PAUSE>
+<BG>nc165a,IN, 1000
+<NAME_PLATE>
+　アイナはそれを避けることが出来ず、
+シミュレーターはあっさりと
+彼女の敗北判定を下した。
+<PAUSE>
+<ACTOR>0,ts_m103a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリムムオー・改
+『見いたかあ！　淫夢勇者の力！！
+　ふははははははは！！』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ご丁寧に高笑いまでして
+シミュレーターの作り出したロボットは
+去っていった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>アイナ
+「ちっくしょう！」
+<PAUSE>
+//【背景：シミュレーションルーム＿＿昼夜共通】【時間：朝】
+//　※対魔忍アサギZEROの背景NC016aより流用
+<BG>nc292a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　海岸だった周囲の景色が
+シミュレーションルームのそれに変わる。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>アイナ
+「すまねえ、テスト失敗だ」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>メカニック
+『いや、それも一つのテスト結果だよ。
+　これから原因を調べてみよう』
+<PAUSE>
+<NAME_PLATE>アイナ
+「なんでフルバーストにならなかったんだ？
+　俺のこの目にあわせて調整したんだろ？」
+<PAUSE>
+<NAME_PLATE>メカニック
+『それはそうなんだがね。ただ……』
+<PAUSE>
+<NAME_PLATE>アイナ
+「なんだよ？」
+<PAUSE>
+<NAME_PLATE>メカニック
+『いや、君が力を出そうとすればするほど
+　逆に出力は下がっていった』
+<PAUSE>
+<NAME_PLATE>メカニック
+『ひょっとして君はその目の力を使うのを
+　恐れているのではないかと思ってね』
+<PAUSE>
+<NAME_PLATE>アイナ
+「…………」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　アイナは何も言うことができず、
+右目を再び眼帯で覆った。
+<PAUSE>
+//【背景：製薬会社ビル・廊下１＿夜】【時間：夜】
+//　※漂流艦獄クロノス_nc003aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc017a,IN, 1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アイナ
+（言えてるぜ。
+　確かに俺はこの目を恐れてる）
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　結局あの後、何度やっても
+フルバーストモードを起動できなかった。
+<PAUSE>
+<NAME_PLATE>
+　アイナ自身が目の力を使うのを
+恐れているのではないかという言葉は
+正鵠を射ている。
+<PAUSE>
+<NAME_PLATE>
+　以前は右目の力を使うと、
+血が奪われて貧血を起こすだけだったが、
+<PAUSE>
+<NAME_PLATE>
+　最近は肉体が自分のものでなくなるような、
+魔族の力に呑み込まれていくような、
+そんな危うい感覚がある。
+<PAUSE>
+<NAME_PLATE>
+　この魔族の力を使い続けるうちに、
+彼女自身が魔族に、両親を殺した憎むべき敵に
+なってしまうという恐れがあった。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「けどよ、たとえ俺がどうなろうと、
+　やらなきゃいけないことはある」
+<PAUSE>
+<NAME_PLATE>アイナ
+「子供たちを俺みてえな目に
+　合わせるわけにはいかねえ」
+<PAUSE>
+<NAME_PLATE>
+　アイナは呟き、強い決意とともに
+右目の眼帯を外そうとした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m129a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m129a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン
+「…………！」
+「…………！」
+「…………！」
+<PAUSE>
+//　※立ち絵
+//　　警備ドローン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<NAME_PLATE>
+　突然、ドローンたちの動きが変わった。
+<PAUSE>
+<NAME_PLATE>
+　なにかに慌てたように一斉に動き出し、
+アイナが隠れているのとは逆方向に
+すっ飛んでいく。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　まるでそっちにアイナとは別の
+侵入者が現れたかのような騒ぎだ。
+<PAUSE>
+//　※ドローン立ち絵オフ
+<NAME_PLATE>
+　唖然とするうちに、
+ドローンは一台もいなくなってしまった。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　最悪、ドローンの大群と一戦交えようと
+決めた覚悟は空回りだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「ま……ただで行かせてくれるんならいいか」
+<PAUSE>
+<NAME_PLATE>
+　アイナは拍子抜けしつつ、
+ドローンが消えた通路を
+コソコソと進んで行った。
+<PAUSE>
+//【背景：製薬会社ビル・廊下２＿夜】【時間：夜】
+//　※監獄戦艦_nc006aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0143a,IN, 1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アイナ
+（よし、ここまでは順調だぜ）
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　アイナはドローンや監視カメラを避けて、
+なんとか警備室の前までたどり着いていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ここまで一度も戦闘を行わずに済んだのは
+かなりの幸運といえた。
+<PAUSE>
+<NAME_PLATE>
+　さすがに警備室に突入するとなれば、
+ドンパチなしではすまないだろうが、
+<PAUSE>
+<NAME_PLATE>
+　あそこを制圧してしまえば、
+後は鬱陶しいドローンや監視カメラを
+気にする必要はなくなる。
+<PAUSE>
+<NAME_PLATE>
+　ヴィクター大佐とやらの居場所、
+人体実験を行っている場所も分かるはずだ。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+（さて………）
+<PAUSE>
+<NAME_PLATE>
+　当たり前だが警備室の扉には
+ロックがかかっている。
+<PAUSE>
+<NAME_PLATE>
+　都合良く中から誰かが
+出てくるとかでもなければ、
+こちらから解除するしかない。
+<PAUSE>
+<NAME_PLATE>
+　見るからに強固そうなロックを解除すべく、
+ハッキング用の端末を取り出したその時、
+<PAUSE>
+<NAME_PLATE>
+　いきなり扉のロックを示すランプが
+開錠に変わった。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　まさか誰かが出てくる！？
+<PAUSE>
+<NAME_PLATE>アイナ
+（都合が良すぎねえか！？）
+<PAUSE>
+<SE_PLAY>se040_02
+<NAME_PLATE>
+　さすがに驚きつつも、
+出てきた奴をぶちのめすため、
+アイナはサッと身構えた。
+<PAUSE>
+<NAME_PLATE>
+　しかし誰も出てくる様子はない。
+ただ鍵が開いただけだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+（どうなってんだ？）
+<PAUSE>
+<NAME_PLATE>
+　釈然としないものはあったが、
+アイナは警戒しつつ扉を開けた。
+<PAUSE>
+//【背景：製薬会社ビル・警備室＿夜】【時間：夜】
+//　※鋼殻のアイ_nc017aを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc294a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m098a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m098a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>警備員
+「はっ！？」
+「だ、誰だ！？」
+<PAUSE>
+//　※立ち絵
+//　　警備兵立ち絵
+//　　　＊モンスターイラストより流用
+//　※二人出してください。
+<NAME_PLATE>
+　椅子に座って監視カメラの映像を
+見ていた警備員が振り返った。
+<PAUSE>
+<NAME_PLATE>
+　数は二人だ。
+<PAUSE>
+<NAME_PLATE>
+　どう見ても、いきなり扉が開いて
+びっくり仰天という顔をしている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「悪いな、侵入者だ」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se001
+<NAME_PLATE>
+　アイナはダッシュでかけながら答え、
+大慌てで立ち上がろうとする警備員を
+一人は掌底で、もう一人は肘打ちで眠らせた。
+<PAUSE>
+<NAME_PLATE>
+　よほど驚いていたらしく、
+二人ともそばに置いていた小銃を
+手にする暇も無かった。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「なにがどうなってんだ？」
+<PAUSE>
+<NAME_PLATE>
+　あっさり倒せたのはラッキーだが、
+なぜいきなり警備室のロックが
+開いたのだろう？
+<PAUSE>
+<NAME_PLATE>
+　さっきドローンが急にどこかに
+行ってしまったことといい、
+<PAUSE>
+<NAME_PLATE>
+　まるで誰かがアイナをこっそり
+助けてくれているかのようだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「なんか気持ちわりいな……」
+<PAUSE>
+<NAME_PLATE>
+　そうは思ったが、
+とりあえず気絶した警備員を縛り上げ、
+ロッカーに放り込んで鍵をかけておく。
+<PAUSE>
+<NAME_PLATE>
+　そして頂戴した警備員のＩＤを使って、
+警備システムにまんまと侵入する。
+<PAUSE>
+<NAME_PLATE>アイナ
+「よしよし」
+<PAUSE>
+<NAME_PLATE>
+　まずは自分が不審者として警備システムに
+引っかからないように設定した。
+<PAUSE>
+<NAME_PLATE>
+　さらに警備システムに嘘のデータを流して、
+ここで何が起こっても外部からは
+分からないようにした。
+<PAUSE>
+<NAME_PLATE>アイナ
+「さて、クソジジイはどこにいやがるんだ？」
+<PAUSE>
+<NAME_PLATE>
+　館内のマップを出して調べてみると、
+どうやら地下の最下層にヴィクター大佐の
+管理区域があるようだ。
+<PAUSE>
+<NAME_PLATE>
+　だが、そこに監視カメラはなく、
+警備室からその様子を
+把握することはできない。
+<PAUSE>
+<NAME_PLATE>アイナ
+「いかにもって感じだな。
+　なら行ってみるだけさ」
+<PAUSE>
+<NAME_PLATE>
+　アイナは地下に行くルートを確認するが、
+その最中、ある部屋のデータが気になった。
+<PAUSE>
+<NAME_PLATE>アイナ
+「なんだこりゃ？
+　ＳＡＭＰＬＥ　ＴＡＩＭＡＮＩＮ？」
+<PAUSE>
+<NAME_PLATE>
+　あの対魔忍のことだろうか？
+<PAUSE>
+<NAME_PLATE>
+　その部屋の監視映像は呼び出せるようだ。
+アイナはそれをモニタに表示させた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「なっ！？　これは？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイナは絶句する。
+<PAUSE>
+<NAME_PLATE>
+　そこには許しがたいものが映っていた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「ふざけやがって！」
+<PAUSE>
+<NAME_PLATE>
+<BGM_STOP>1000
+　アイナは吐き捨て、警備室を飛び出した。
+<PAUSE>
+//【背景：製薬会社ビル・実験室１＿夜】【時間：夜】
+//　※ぽよぽよおっぱいサマ_nc007aを流用
+<SE_PLAY>se078
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc295a,IN, 1000
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アイナ
+「ひでえことしやがる」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　その実験室には怪しげな水溶液の詰まった
+カプセルが置かれていた。
+<PAUSE>
+<NAME_PLATE>
+　そこに一人の少女が入れられている。
+<PAUSE>
+<NAME_PLATE>
+　カプセルに繋がれた装置には、
+「ＮＡＮＡＫＡ ＮＡＫＡＭＯＲＩ」と
+被験者の名が示され、
+<PAUSE>
+<NAME_PLATE>
+　五車の対魔忍であることも読み取れた。
+<PAUSE>
+<NAME_PLATE>
+　脈拍、心拍数、呼吸、血圧、体温などの
+少女のバイタルデータも表示されており、
+<PAUSE>
+<NAME_PLATE>
+　それによると、
+少女は意識のない状態にさせられて、
+血液その他を採取されているようだった。
+<PAUSE>
+<NAME_PLATE>カプセルの少女
+「――――――」
+<PAUSE>
+<NAME_PLATE>
+　カプセルの中で少女は
+まるで眠っているように目を閉じていた。
+<PAUSE>
+<NAME_PLATE>
+　その表情は意外にも穏やかだが、
+好き好んでこんな目にあっているはずがない。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「こいつも助けてやらねえとな」
+<PAUSE>
+<NAME_PLATE>
+　ひとまずこのいかがわしい装置を止め、
+血液その他の採取もストップさせた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「けど、困っちまったな。
+　こいつがいつ目覚めるか分からねえし、
+　ほっとくわけにもいかねえし」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　……ごぽっ。
+<PAUSE>
+<NAME_PLATE>
+　カプセルの中から大きな泡の音がした。
+<PAUSE>
+<NAME_PLATE>アイナ
+「……ん？」
+<PAUSE>
+<NAME_PLATE>
+　何気なく顔を上げると、
+少女の目が開いていた。
+<PAUSE>
+<NAME_PLATE>カプセルの少女
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　少女はいきなり拳を握りしめると、
+<PAUSE>
+<NAME_PLATE>アイナ
+「え……？」
+<PAUSE>
+<SE_PLAY>se044
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリイイイイイインンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　素手でカプセルをぶち壊した。
+<PAUSE>
+<NAME_PLATE>アイナ
+「おわあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　中に入っていた水溶液が
+ドッと溢れ出てくる。
+<PAUSE>
+<NAME_PLATE>
+　少女は自分で開けたカプセルの大穴から
+出てくると、けほけほと咳き込み始めた。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<ACTOR>0,chr_t0217a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カプセルの少女
+「うううう、酷い夢を見ました。
+　あれ？　なんで私びしょ濡れ？
+　あれれ？　ここはどこですか？」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0217a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「な、な、な……」
+<PAUSE>
+<NAME_PLATE>
+　二の句が継げないアイナと少女の目が合う。
+<PAUSE>
+<NAME_PLATE>カプセルの少女
+「あ、どうも。
+　こんにちは。どなたですか？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「そ、それはこっちのセリフだ！
+　なんなんだお前は！」
+<PAUSE>
+<NAME_PLATE>奈々華
+「私ですか？
+　対魔忍、
+　仲森奈々華（なかもりななか）です」
+<PAUSE>
+<NAME_PLATE>
+　少女――仲森奈々華はぺこりと頭を下げ、
+キョロキョロとあたりを見渡しながら言った。
+<PAUSE>
+<NAME_PLATE>奈々華
+「あの、なんだか頭がボンヤリしてて、
+　ここはどこですか？
+　なんで私はこんなとこにいるんですか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「ば、馬鹿野郎！
+　寝ぼけてんじゃねえ！！
+　お前はここに捕まってたんだよ！」
+<PAUSE>
+<NAME_PLATE>奈々華
+「捕まって？
+　えっ！？　ええーーーーーーっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は素っ頓狂な声を上げた。
+<PAUSE>
+<SE_PLAY>se053
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　パリン。
+<PAUSE>
+<NAME_PLATE>
+　その大声で奈々華が壊した
+カプセルの強化ガラスが割れた。
+<PAUSE>
+<NAME_PLATE>奈々華
+「なにか壊れてますけど？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「お前が今ぶっ壊したんだよ。
+　俺の目の前で。素手で。
+　あそこに閉じ込められてたんだよ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「あ、なるほど……」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ったく、なんなんだよお前は」
+<PAUSE>
+<NAME_PLATE>奈々華
+「……すいません」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は困惑したような顔をしている。
+しかし、それはアイナも同じだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「しょうがねえな。
+　俺はアイナ・ウィンチェスター。
+　フリーの魔物ハンターだ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ここはアーカムバイオ社。製薬会社だ。
+　ここで非合法の人体実験が行われてるって
+　タレコミがあって忍び込んだんだ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「その途中でお前を見つけたんだよ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「人体実験……そうでした！
+　思い出しました！」
+<PAUSE>
+<NAME_PLATE>アイナ
+「今度は何だ！？」
+<PAUSE>
+<NAME_PLATE>
+　ようやく頭がしゃっきりしてきたのか
+奈々華は勢い込んで話し始めた。
+<PAUSE>
+<NAME_PLATE>奈々華
+「私たち対魔忍のところにも
+　子供たちを誘拐して人体実験をしてるって
+　出所不明のタレコミがあったんです」
+<PAUSE>
+<NAME_PLATE>アイナ
+「そっちもか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「はい！　私はその真偽を
+　確かめる斥候任務中に、その……
+　敵の罠にかかって囚われたようです」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ようですじゃねえ。囚われてたんだよ。
+　しかもその敵に
+　お前も利用されてたみたいだぜ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あのカプセルに入れられて、
+　血液だかなんだかを採取されてた」
+<PAUSE>
+<NAME_PLATE>
+　アイナが顎をしゃくると
+奈々華は悔しそうに肩を落とした。
+<PAUSE>
+<NAME_PLATE>奈々華
+「……不覚です」
+<PAUSE>
+<NAME_PLATE>奈々華
+「日頃から敵を目の前にすると後先考えずに
+　突っ込んでしまうと注意されていたのですが
+　またやってしまったようです」
+<PAUSE>
+<NAME_PLATE>アイナ
+「まあ、偶然俺が来て助かったんだから
+　いいじゃねえか」
+<PAUSE>
+<NAME_PLATE>奈々華
+「それはそうですが……あ、いえ、
+　アイナさんには感謝しかありません。
+　本当にありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は深く頭を下げる。
+<PAUSE>
+<NAME_PLATE>アイナ
+「いいってことよ。　それにしても
+　すげえ回復能力だな。こんなに
+　早く目覚めるとは思ってなかったぜ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「こんなに早く？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「あの装置を止めたらすぐ目を覚ましたぜ。
+　それに血だかなんだかを吸われてたのに、
+　別になんともなさそうじゃねえか」
+<PAUSE>
+<NAME_PLATE>奈々華
+「それは私の『鉄壁覚醒』の能力です。
+　耐久力と回復力にはちょっと自信が
+　あるんです」
+<PAUSE>
+<NAME_PLATE>アイナ
+「耐久力と回復力か……。
+　それで攫われたんだな」
+<PAUSE>
+<NAME_PLATE>奈々華
+「と言うと？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ここで行ってるのは……笑うなよ。
+　『不死の兵士』の開発だとさ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>奈々華
+「不死の兵士！？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「開発主任はヴィクター大佐。
+　台湾危機、半島戦争の生き残りで
+　もう７０を越えたジジイだ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「そいつが誘拐した子供を
+　不死の兵士に仕立てあげようって
+　最低最悪の話だ」
+<PAUSE>
+<NAME_PLATE>アイナ
+「お前の『鉄壁覚醒』か？
+　そのすげえ耐久力と回復力は
+　さぞ研究の役に立つんだろうぜ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「許せません！
+　そんなことのために子供たちを！！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華は怒りにブルブル震え、
+地団駄を踏みならした。
+実験室の床にビシビシと亀裂が走る。
+<PAUSE>
+<NAME_PLATE>
+　カプセルを素手で破壊していたが、
+耐久力と回復力だけでなく、
+とんでもない怪力の持ち主のようだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「ああ、許せねえよな」
+<PAUSE>
+<NAME_PLATE>アイナ
+「俺はこれからそのヴィクター大佐って
+　クソジジイをぶっ潰しにいくつもりだ。
+　一緒に来るか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「もちろんです！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　奈々華が力強く頷いたところで、
+<PAUSE>
+<BGM_STOP>1000
+<SE_PLAY>se041
+<NAME_PLATE>
+　ウ～～！！　ウ～～！！　ウ～～！！
+<PAUSE>
+<NAME_PLATE>
+　突然、館内に警報が鳴り始めた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>奈々華
+「っ！！」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ちっ。
+　カプセルをぶっ壊したのがまずかったな。
+　セキュリティに見つかっちまったようだぜ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それをすぐさま証明するかのように、
+警備ドローンがドッと部屋に突入してきた。
+<PAUSE>
+//　※立ち絵
+//　　警備ドローン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<BGM_PLAY>bgm304,1000
+<GROUP>
+<ACTOR>0,ts_m129a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m129a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「こいつはもう戦うしかねえな！」
+<PAUSE>
+<NAME_PLATE>
+　アイナは素早く遮蔽物に身を隠し、
+二丁のガンを抜いたが、
+<PAUSE>
+<NAME_PLATE>奈々華
+「ええと……」
+<PAUSE>
+<NAME_PLATE>
+　奈々華はなぜか突っ立ったまま
+キョロキョロしている。
+<PAUSE>
+<NAME_PLATE>アイナ
+「おい、何やってんだ！
+　早くどっかに隠れろ！」
+<PAUSE>
+<NAME_PLATE>奈々華
+「私の斧は？　私の斧は？
+　……あ、あった！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華はドローンには目もくれず、
+部屋の隅に置いてあった馬鹿でかい斧を
+取りに行く。
+<PAUSE>
+<NAME_PLATE>ドローン
+「――――」
+「――――」
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　警備ドローン立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　ドローンが奈々華に向けて
+７．６２ｍｍを容赦なくぶっ放した。
+<PAUSE>
+<NAME_PLATE>
+　間違いなく当たったように見えたのだが、
+奈々華は何ごともなかったように大斧を掴み、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「これさえあれば百人力です！」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華
+//　　　　＊カードイラストより流用
+<SE_PLAY>se027
+<NAME_PLATE>
+　ブゥン、ブゥンとものすごい音を立てて
+斧を振り回すと、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガガガッ！！
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ドローンが雨あられと撃ってくるのも構わず
+猪突猛進に突っ込んで行く。
+<PAUSE>
+<NAME_PLATE>奈々華
+「鉄壁覚醒っ！！
+　せやああああああああああああああっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガアアアアッッ！　グシャアアアッ！！
+ボガボガアアアアッ！！
+<PAUSE>
+<NAME_PLATE>
+　アイナが大斧を振り回すたびに
+ドローンが玩具のように粉砕されていく。
+<PAUSE>
+<BG>nc295a,IN, 500
+<NAME_PLATE>
+　弾は何発も身体に当たっているが、
+奈々華は全く意に介していない。
+<PAUSE>
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「なんなんだアイツは！？」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　アイナが唖然とする間に、
+奈々華は敵をスクラップにしてしまった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0217a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「よし、撃退しました！」
+<PAUSE>
+<NAME_PLATE>
+　満足げに大斧の柄を床にずしんと下ろす。
+<PAUSE>
+<ACTOR>0,chr_t0217a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アイナ
+「おい、大丈夫か？
+　普通に弾くらってなかったか？」
+<PAUSE>
+<NAME_PLATE>奈々華
+「あ、はい。これくらいなら平気です。
+　言ったでしょう？　耐久力と回復力には
+　ちょっと自身があるんです！」
+<PAUSE>
+<NAME_PLATE>
+　奈々華はにっこりと笑って、
+自慢げに胸を張った。
+<PAUSE>
+<NAME_PLATE>
+　確かに、その胸や他の場所など
+弾が当たった部分は少し赤くなっていたが、
+別にどうということはなさそうだ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「あっははははは！」
+<PAUSE>
+<NAME_PLATE>
+　アイナは敵地の真っ只中であるのも
+忘れて大笑いしていた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「いくら自信があるつったって
+　お前、猪突猛進すぎだろ。
+　やることがメチャクチャだぜ」
+<PAUSE>
+<NAME_PLATE>
+　まだ新しい銃を使いこなせず
+攻撃力に不安のある今、素晴らしい助っ人だ。
+<PAUSE>
+<NAME_PLATE>奈々華
+「アイナさん
+　もちろんこのまま行くんですよね？」
+<PAUSE>
+<NAME_PLATE>アイナ
+「当たり前だ。
+　クソジジイがいるのは地下だ。
+　行くぜ！」
+<PAUSE>
+<NAME_PLATE>奈々華
+「はい！」
+<PAUSE>
+<SE_PLAY>se041
+<NAME_PLATE>
+　警報はまだ派手に鳴り続けている。
+<PAUSE>
+<NAME_PLATE>
+　さっき警備システムに侵入して
+外部にバレないように細工してきたが、
+もうそれも意味がない。
+<PAUSE>
+<NAME_PLATE>
+　このまま地下最下層にある
+ヴィクター大佐の実験室まで行くしかない。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　二人は迷わず部屋を飛び出した。
+<PAUSE>
+//【背景：製薬会社ビル・廊下２＿夜】【時間：夜】
+//　※監獄戦艦_nc006aより流用
+<SE_PLAY>se054
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm304,1000
+<BG>chrnc0143a,IN, 1000
+<ACTOR>0,ts_m098a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>警備員
+「対魔忍が逃げ出したぞ！！！」
+<PAUSE>
+//　※立ち絵
+//　　警備兵立ち絵
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アイナ
+「邪魔だどけえ！！」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>奈々華
+「押し通ります！！」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+//【背景：製薬会社ビル・廊下１＿夜】【時間：夜】
+//　※漂流艦獄クロノス_nc003aより流用
+<SE_PLAY>se035
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc017a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m011a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>ドローンワスプ
+「ＢＵＵＵＵＵＵＵＵＮＮＮ」
+<PAUSE>
+//　　ドローン・ワスプ
+//　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m029a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン・ドッグ
+「ＧＵＲＵＵＵＵＵＵＵＵＵ」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ドッグ立ち絵
+//　　　＊モンスターイラストより流用
+//　※何台か出してください。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「またドローンかよ！　しつけえな！！」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>奈々華
+「いくら出てきても無駄です！！
+　剛斧旋風！！」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+//【背景：製薬会社ビル・廊下３＿夜】【時間：夜】
+//　※監獄戦艦3_nc010aより流用
+<SE_PLAY>se109_01
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc296a,IN, 1000
+<ACTOR>0,ts_m012a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>強化外骨格
+「ここから先には行かせん！」
+<PAUSE>
+//　※立ち絵
+//　　XPS-11Aボーン立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>奈々華
+「強化外骨格！！
+　これはちょっと手強いかもです！」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<NAME_PLATE>アイナ
+「ＸＰＳ－１１Ａか。確かにあいつは強力だ。
+　だがこちとらその弱点くらいとっくに
+　お見通しなんだよ！　そこだっ！」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+//　※レーザーっぽいエフェクト
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ピュン、ピュン、ピュン、ピュン！
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「馬鹿め。そんなレーザーごときで。
+　な、なんだ、どうなっている！？
+　なにも見えん！　銃も動かん！！」
+<PAUSE>
+<BG>nc296a,IN, 500
+<ACTOR>0,chr_t0218a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイナ
+「へへっ、わりいな。
+　ミニガンの制御系とセンサーを潰した。
+　棺桶の中で潰れちまいな」
+<PAUSE>
+<NAME_PLATE>強化外骨格
+「そ、そんな馬鹿なっ！？
+　おのれええええっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>奈々華
+「ごめんなさいっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<WAIT>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　グシャッッッ！！
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――
+<PAUSE>
+//【背景：製薬会社ビル・廊下３＿夜】【時間：夜】
+//　※監獄戦艦3_nc010aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc296a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「ようやく最下層だな」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>奈々華
+「さっきから警報が止まってますね」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<NAME_PLATE>アイナ
+「うるせえだけだからな。
+　俺たちは止められないってことに
+　ここの連中も気づいたんだろ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「はい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人の目の前には
+地下実験室への扉がある。
+<PAUSE>
+<NAME_PLATE>
+　扉の横のプレートには
+開発主任「ドクトル・ヴィクター」とあった。
+<PAUSE>
+<NAME_PLATE>
+　無論、扉にはロックがかかっている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0217a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>奈々華
+「ここですね」
+<PAUSE>
+<NAME_PLATE>アイナ
+「なにがドクトルだ。ふざけやがって」
+<PAUSE>
+<NAME_PLATE>奈々華
+「扉を壊します」
+<PAUSE>
+<NAME_PLATE>アイナ
+「任せた」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se027
+<NAME_PLATE>
+　アイナが大斧を振りかぶると、
+<PAUSE>
+<NAME_PLATE>
+　スーーッ。
+<PAUSE>
+<NAME_PLATE>
+　ロックが外れ、勝手に扉が開いた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アイナ
+「クソジジイめ。
+　どうやら俺たちを歓迎するつもりらしいぜ」
+<PAUSE>
+<NAME_PLATE>奈々華
+「望むところです」
+<PAUSE>
+<NAME_PLATE>
+　二人は躊躇うことなく、
+実験室に足を踏み入れた。
+<PAUSE>
+//【背景：製薬会社ビル・地下実験室＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc030aより流用<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>nc075a,IN, 1000
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>軍人
+「ようこそ、招かれざる客よ。
+　そして私に素晴らしいサンプルを
+　提供してくれた対魔忍よ」
+<PAUSE>
+//　※立ち絵
+//　　ヴィクター大佐
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　待っていたのは、ベレー帽に軍服の
+見るからに軍人といった感じの
+マッチョだった。
+<PAUSE>
+<NAME_PLATE>アイナ
+「てめえ誰だ？
+　俺たちはヴィクター大佐とかいう
+　クソジジイを探してるんだよ！」
+<PAUSE>
+//　※立ち絵
+//　　【ゼロレンジシューター】アイナ・ウィンチェスター
+//　　　　＊カードイラストより流用
+<NAME_PLATE>奈々華
+「人のことをサンプルとは何ごとです！
+　ヴィクター大佐はどこにいるんですか！
+　答えなさい！」
+<PAUSE>
+//　※立ち絵
+//　　仲森奈々華もしくは【猪突猛進】仲森奈々華
+//　　　　＊カードイラストより流用
+<NAME_PLATE>軍人
+「分からないかね。
+　はははは、分からないだろうな」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「私がそうだ。
+　ハンス・エドワルド・ヴィクター。
+　それがこの私だよ！」
+<PAUSE>
+<NAME_PLATE>アイナ
+「ふざけんな。
+　もう７０を越えたジジイじゃ
+　なかったのかよ」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「そう、私は老いさらばえてしまった。
+　かつての栄光を誰一人、私自身ですら
+　忘れてしまうほどにね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヴィクター大佐
+「だから！　私は取り戻したのだ！
+　この若さを！　力を！！
+　かつてと同じように、いやそれ以上に！！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「そして私は手に入れる！！　私の
+　意のままになる若き兵士を！！　決して
+　死なない兵士！　そう無敵の軍団だ！」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「さあ共に行こう！　戦場という名の荒野へ！
+　硝煙と血の香り漂う懐かしきあの場所へ！！
+　ふははははははは！！」
+<PAUSE>
+<NAME_PLATE>
+　ヴィクター大佐を名乗る老人、
+いや元老人は目に明らかな狂気を浮かべて
+高笑いしている。
+<PAUSE>
+<NAME_PLATE>
+　目の前にいる二人のことなど
+全く見えていないかのようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0152a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0218a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>奈々華
+「本当にあの人がそうなんでしょうか？」
+<PAUSE>
+<NAME_PLATE>
+　奈々華の顔は強ばっていた。
+<PAUSE>
+<NAME_PLATE>アイナ
+「らしいな。だが若返ったかわりに
+　頭はすっかりイカレちまったらしいぜ
+　いや、きっと元からだな」
+<PAUSE>
+<NAME_PLATE>
+　アイナは心底ウンザリして言った。
+<PAUSE>
+<NAME_PLATE>
+　その声が聞こえたのか
+ヴィクター大佐がハッとこちらを見た。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m175a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヴィクター大佐
+「な、なんだ、貴様たち！？
+　そこで何をしている！？
+　誰の許しを得てここに入ってきた！？」
+<PAUSE>
+<NAME_PLATE>ヴィクター大佐
+「私の研究の邪魔をするつもりか！？
+　そうはさせんぞ！！
+　誰にも私の邪魔はさせん！！」
+<PAUSE>
+<NAME_PLATE>
+　ヴィクター大佐は喚き散らしている。
+<PAUSE>
+<NAME_PLATE>
+　ついさっき二人に大演説をしたのを
+すっかり忘れている顔だ。
+<PAUSE>
+<NAME_PLATE>アイナ
+「うるせえ！！
+　ボケ老人はとっととくたばりやがれ！！」
+<PAUSE>
+<NAME_PLATE>
+　アイナは頭のいかれた軍人に
+銃を突きつけた。
+<PAUSE>
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

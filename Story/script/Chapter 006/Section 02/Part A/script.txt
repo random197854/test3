@@ -1,0 +1,405 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：黒画面】
+<NAME_PLATE>蛍
+「あれは、昨日の朝早くのことです……」
+<PAUSE>
+//　※立ち絵なし
+//【背景：ある山村の通り＿朝】【時間：朝】
+//　※姫神さま以下略の背景nc003aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc023b,IN, 1000
+<GROUP>
+<ACTOR>2,h_t002e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「えっと、この先です蛍先輩」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>蛍
+「了解です。蛇子ちゃん、
+　ここからは十分警戒してください」
+<PAUSE>
+//　※立ち絵
+//　　喜瀬蛍
+<NAME_PLATE>蛇子
+「はいっ」
+<PAUSE>
+<NAME_PLATE>
+　五車町からほど近くにある寒村。
+蛇子と蛍は、人目を避けて疾走していた。
+<PAUSE>
+<ACTOR>2,h_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「返り討ちにされた対魔忍の人たちは、
+　どうしているんですか？」
+<PAUSE>
+<NAME_PLATE>蛍
+「医療チームのもとで治療中です。
+　終わったら、アサギ先生が
+　事情聴取をするみたいですよ」
+<PAUSE>
+<ACTOR>2,h_t002g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「命に別状はないんですね。
+　よかった……のかな」
+<PAUSE>
+<NAME_PLATE>
+　二人はアサギからの指令を受け、
+昨夜起きた、とある事件の
+調査に向かっているところだ。
+<PAUSE>
+<NAME_PLATE>
+　事件の現場は、五車町近郊にある
+二車家邸宅――つまり骸佐の実家。
+<PAUSE>
+<GROUP>
+<ACTOR>2,h_t002g,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　アサギ曰く――
+<PAUSE>
+//【背景：黒画面】
+<BG>nc006a,IN, 1000
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「二車家を勝手に襲撃した対魔忍たちが、
+　返り討ちにあう事件があった」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+<NAME_PLATE>アサギ
+「対魔忍の中でも義憤に燃えるものたちが、
+　独断で行ったものらしい。
+　勿論、私の指示ではない」
+<PAUSE>
+<NAME_PLATE>アサギ
+「二車家には骸佐の母と侍女ひとりが住む。
+　骸佐の母は、正気を失って久しいと聞く」
+<PAUSE>
+<NAME_PLATE>アサギ
+「骸佐が対魔忍に敵対したからといって、
+　無力な母がいるだけの家を襲撃するなど、
+　許されることではない」
+<PAUSE>
+<NAME_PLATE>アサギ
+「対魔忍を返り討ちにしたのは、
+　おそらく骸佐だろうが、それは正当防衛」
+<PAUSE>
+<NAME_PLATE>アサギ
+「この件に関しては、
+　私たちは彼を責めるつもりはないわ」
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, OUT, linear, 1000
+//【背景：ある山村の通り＿朝】【時間：朝】
+//　※姫神さま以下略の背景nc003aより流用
+<BG>nc023b,IN, 1000
+<NAME_PLATE>
+　――といった事情を骸佐の母に説明して、
+襲撃事件についても調査する、
+というのが今回の任務だ。
+<PAUSE>
+<NAME_PLATE>
+　そして昔から面識のある蛇子が選ばれた。
+念のため、護衛役として
+喜瀬蛍が同行している。
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「あ！　先輩、見えてきました！
+　あのお屋敷が二車の家です」
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, OUT, linear, 1000
+//【背景：ある山村＿邸宅前＿朝】【時間：朝】
+<BG>nc024b,IN, 1000
+<GROUP>
+<ACTOR>2,h_t002c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ここへ来るのは久しぶりだなあ……」
+<PAUSE>
+<NAME_PLATE>
+　二車家の庭には朝日がやさしく降り注ぎ、
+手入れされた小さな花を照らしている。
+とても刃傷沙汰の現場とは思えなかった。
+<PAUSE>
+<NAME_PLATE>蛍
+「ここが対魔忍の手で襲撃されたのですか。
+　アサギ校長に従わず、勝手に動く人が
+　いるなんて許せませんね」
+<PAUSE>
+<ACTOR>2,h_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛍先輩、アサギ校長先生を
+　尊敬してるんですね」
+<PAUSE>
+<NAME_PLATE>蛍
+「もちろんです！
+　アサギ先生は我ら五車学園生徒の憧れ。
+　あっ、でも個人的には、紫先生が……」
+<PAUSE>
+<ACTOR>2,h_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「紫先生？」
+<PAUSE>
+<NAME_PLATE>蛍
+「あっいえ、なんでも！
+　それより行きましょう」
+<PAUSE>
+<NAME_PLATE>
+　蛍は大きな戦斧を担ぎなおし、
+玄関へ向かって歩く。
+<PAUSE>
+<ACTOR>2,h_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そういえば、紫先生も、
+　武器は大きな斧ですよね……」
+<PAUSE>
+<NAME_PLATE>蛍
+「え？　なに？
+　それより蛇子ちゃんもほら、
+　戦闘準備して！」
+<PAUSE>
+<ACTOR>2,h_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あっはい！」
+<PAUSE>
+<ACTOR>2,h_t004e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　蛇子は忍法“獣化忍”の力を解放する。
+<PAUSE>
+<NAME_PLATE>
+　“獣化忍”とは、その身に獣の力を
+宿す忍法。彼女は“Ｄｅｖｉｌｆｉｓｈ”、
+つまりタコ化する。
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵タコ化＿対魔忍衣装（武器装備）
+<NAME_PLATE>蛍
+「蛇子ちゃん、人の気配はある？」
+<PAUSE>
+<ACTOR>2,h_t004g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はタコ足の吸盤をひくひくさせる。
+タコの吸盤は吸い付くだけでなく、臭いを
+嗅ぎ取るセンサーのような働きもするのだ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「……人の気配はしないです。
+　けど、これは……この臭いは、
+　別の、何か……」
+<PAUSE>
+<NAME_PLATE>蛍
+「人ではない者の臭いがすると？」
+<PAUSE>
+<ACTOR>2,h_t004c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「はい、微かですが」
+<PAUSE>
+<NAME_PLATE>蛍
+「油断せずに行きましょう」
+<PAUSE>
+<NAME_PLATE>
+　蛍は斧を構えると、力を籠めた。
+軽々と持ち運んでいた蛍の戦斧に、
+重量感が宿る。
+<PAUSE>
+<NAME_PLATE>
+　蛍は触れたものの重さを操る力の持ち主だ。
+得物を軽量化して振るうだけでなく、
+<PAUSE>
+<NAME_PLATE>
+　敵へのインパクトの瞬間に重さを増す事で、
+あの紫に匹敵するほどの破壊力を発揮する、
+見た目にそぐわぬパワープレイ型である。
+<PAUSE>
+<NAME_PLATE>
+　一方、蛇子は何か引っかかった様子で、
+考え込んでいた。
+<PAUSE>
+<ACTOR>2,h_t004g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん……」
+<PAUSE>
+<NAME_PLATE>蛍
+「どうしたのですか？
+　何か気になる事でも？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「いえ、この臭い……どこかで……」
+<PAUSE>
+<NAME_PLATE>蛍
+「体を動かせば思い出すかもしれませんよ。
+　とにかく先へ進みましょう」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ごく最近……学校……えっと……
+　あっ……あの時の！！！」
+<PAUSE>
+<ACTOR>2,h_t004d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　蛇子の中で、臭いと記憶が
+ぴったりと符合する。
+同時に押し寄せる強い危機感。
+<PAUSE>
+<ACTOR>2,h_t004f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛍先輩、逃げましょう！！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛍
+「え？」
+<PAUSE>
+<NAME_PLATE>
+　それは――“魔の臭い”。
+つい先日の五車学園の騒動、
+そこで遭遇した、あの者と同じ。
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+<NAME_PLATE>蛇子
+「蛍先輩、うしろっ！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛍
+「！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,h_t004f,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<NAME_PLATE>
+　蛇子が思い出すのを待っていたかのように、
+蛍の背後が開き“あの者”が現れる。
+<PAUSE>
+<ACTOR>0,f_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　フュルスト――
+<PAUSE>
+<NAME_PLATE>
+　それはまさに、蛇子が感じた気配の主。
+五車学園に潜入し、アサギを襲撃したうえ、
+骸佐ととも消えたノマドの大幹部だ。
+<PAUSE>
+<NAME_PLATE>蛍
+「はぁっ！！！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　ヒュンッ！
+<PAUSE>
+<NAME_PLATE>
+　蛍は一瞬で攻撃モーションに移り、
+振り向きざまの一閃でフュルストの胴体を
+切断する。
+<PAUSE>
+<GROUP>
+<ACTOR>0,f_t001a,CENTER, CENTER, OUT, linear, 500
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　――……ドサッ。
+<PAUSE>
+<NAME_PLATE>
+　フュルストの体は横一文字に切断され、
+あっけなく地面に倒れた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,h_t004b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「すごい！！！
+　さすがです蛍先輩！！」
+<PAUSE>
+<NAME_PLATE>蛍
+「いえ待って！　手応えが妙です！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,h_t004b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ht_t001a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　制止する蛍の目の前で、
+両断されたフュルストの肉体が溶けだし、
+おぞましい液体に変化していく。
+<PAUSE>
+<NAME_PLATE>フュルスト
+『骸佐さんの御母堂を捕ら……もとい、
+　保護しようとわざわざ来てみれば
+　……ホホホ！』
+<PAUSE>
+//　※立ち絵なし
+<NAME_PLATE>
+　フュルストだった液体は、
+みるみるうちに盛り上がり、人の形を成し、
+やがて元の姿に戻る。
+<PAUSE>
+<NAME_PLATE>フュルスト
+「可愛い対魔忍がお二人。
+　これは思わぬ収穫ですねえ♪」
+<PAUSE>
+//　※立ち絵
+//　　フュルスト通常立ち絵＿魔科医衣装
+<ACTOR>0,ht_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛍
+「蛇子ちゃん、気をつけて！
+　こいつはただの魔物じゃない……！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ええ、知ってます……！」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「今日はこの娘たちを拾って帰りますかね。
+　ちょうどコレクションに空きが出たところ」
+<PAUSE>
+<NAME_PLATE>フュルスト
+「対魔忍ならばお客様たちも
+　大喜びしてくださるでしょう……ホホホ」
+<PAUSE>
+<NAME_PLATE>
+　フュルストが何やら呪文を唱えると、
+中空に門が開き、怪物が出現する。
+<PAUSE>
+<ACTOR>0,ht_t001a,CENTER, CENTER, OUT, linear, 500
+//　※立ち絵
+//　　ハーピー
+//　　//　　＊対魔忍RPG用に新デザイン
+//　　フレイムハーピー
+//　　//　　＊ハーピーの色違いバージョン
+<GROUP>
+<ACTOR>2,ts_m044a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m045a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フュルスト
+「さあ、対魔忍の小娘どもを捕えなさい♪
+　多少の傷は構いません。
+　命さえあれば復元できますからね……！」
+<PAUSE>
+<NAME_PLATE>蛍
+「蛇子ちゃん、いける！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「やるしかないってことですね……！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>2,ts_m044a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m045a,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+//<SCENARIO_END>
+//→Section２-ＭＡＰ画面１へ

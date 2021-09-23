@@ -1,0 +1,146 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：近隣都市まえさき市＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+//　※立ち絵
+//　　井河影臣立ち絵（頭部なし）
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc262a,IN, 1000
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　どさり。
+<PAUSE>
+<NAME_PLATE>
+　砂袋を落としたような音を立てて、
+頭部をなくした影臣が地に伏した。
+<PAUSE>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「無駄な時間を過ごした」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　斉藤は呟き、その場を立ち去ろうとした。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>斉藤半次郎
+「……ん？」
+<PAUSE>
+<NAME_PLATE>
+　腹部が濡れていた。
+<PAUSE>
+<NAME_PLATE>
+　妙に生温かくヌルヌルとしている。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（なんだ？）
+<PAUSE>
+<NAME_PLATE>
+　それは股間を伝わり、
+両足を通って地面に落ちていく。
+<PAUSE>
+<NAME_PLATE>
+　血の匂いが斉藤の鼻を突いた。
+<PAUSE>
+<NAME_PLATE>
+　たった今倒した影臣のものではない。
+<PAUSE>
+<ACTOR>0,ts_m150b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>斉藤半次郎
+「くッ………！？」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵（腹部負傷）
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　　　　※笹
+//　　　　　　イラストを加工して腹部に血糊追加してください。
+<NAME_PLATE>
+　強烈な痛みが襲ってきた。
+<PAUSE>
+<NAME_PLATE>
+　勝利したはずの斉藤の顔が歪む。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（ば、馬鹿な……どういう事だッ!？）
+<PAUSE>
+<NAME_PLATE>
+　気がつけば、四つの手で腹を押さえていた。
+<PAUSE>
+<NAME_PLATE>
+　馴染みのテーラーで仕立てたスーツが
+じっとりと血に染まっていた。
+<PAUSE>
+<NAME_PLATE>
+　まったく攻撃された覚えがないのに
+彼はかなりの深手を負っていた。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+（や、奴はどうやって私に攻撃した！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　思わず転がった影臣を睨み付ける。
+<PAUSE>
+<NAME_PLATE>
+　もちろん頭のない死体が答えるはずがない。
+<PAUSE>
+<NAME_PLATE>
+　ないはずだったが―――
+<PAUSE>
+<ACTOR>1,ts_m151b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　むくり。
+<PAUSE>
+//　※立ち絵
+//　　井河影臣立ち絵（頭部なし）
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>斉藤半次郎
+「なにっ！？」
+<PAUSE>
+<NAME_PLATE>
+　何かの冗談のように
+頭のない影臣の死体が起き上がった。
+<PAUSE>
+<NAME_PLATE>
+　しかも、吹き飛んだ首の切り口から
+生えるように頭が復活していく。
+<PAUSE>
+<ACTOR>1,ts_m151a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河影臣
+「よオ、どうやって俺の頭を吹き飛ばした？」
+<PAUSE>
+//　※立ち絵
+//　　井河影臣立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　影臣は新しい頭の調子をはかるように
+首の関節をコキコキと鳴らした。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「き、貴様……！？」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「忍法が謎なのはあんただけじゃないぜ？」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「くっ……」
+<PAUSE>
+<NAME_PLATE>
+　斉藤半次郎ＶＳ井河影臣。
+<PAUSE>
+<NAME_PLATE>
+　戦いはまだ終わっていない。
+<PAUSE>
+//→S302a
+<ACTOR_OUT>1,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,449 @@
+//☆マップ01シナリオ部分
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//シーン説明：
+//【黒画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：城跡＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc028a,IN, 3000
+<NAME_PLATE>
+　五車学園の裏手には、
+緑あふれる山林が広がっている。
+<PAUSE>
+<NAME_PLATE>
+　学園の戦闘訓練にも使用されるこの場所で、
+今、運命を賭けた戦いが始まろうとしていた。
+<PAUSE>
+<ACTOR>0,ws_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「ついにこの時が来たみたいね、ふうま君。
+　私とキミ、どちらが生き残るのか……」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+//　　　　＊決戦アリーナの若いさくら第一弾のカードイラストを流用
+<NAME_PLATE>
+　対魔忍スーツに身を包んださくらからは、
+静かな闘志が立ちのぼっている。
+<PAUSE>
+<NAME_PLATE>俺
+「正直、俺はお前とは戦いたくなかったがな」
+<PAUSE>
+<NAME_PLATE>
+　まさに一触即発。
+このさわやかな森に不似合いな緊張感が、
+俺とさくらの間に張り詰めていた。
+<PAUSE>
+<NAME_PLATE>さくら
+「言わないでふうま君。
+　それは私だって同じ――」
+<PAUSE>
+<NAME_PLATE>さくら
+「キミに恨みなんてない、むしろ感謝してる。
+　ずっと仲良くしたいと思ってるよ。
+　……でも、それは許されないんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「忍びの宿命って奴か。つらいな……」
+<PAUSE>
+<NAME_PLATE>
+　互いに憎からず思っていても、
+時には命をかけて戦わなければならない、
+それが忍びの哀しき“宿命”。
+<PAUSE>
+<NAME_PLATE>
+　そもそも、事の発端は――
+<PAUSE>
+//【黒画面】
+<ACTOR>0,ws_t001a,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 0
+<TRANSITION>TR14, OUT, 1000
+<BG>black, NONE
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　二日前の深夜のこと。
+<PAUSE>
+//【背景：五車町＿ふうま邸若いさくらの部屋＿夜】【時間：夜】
+//　※対魔忍アサギZEROの背景NC030bより流用
+<BG>nc088a,NONE
+<TRANSITION>TR14, IN,1000
+<NAME_PLATE>
+　ふうま、つまり俺の屋敷にある、
+さくらの部屋――
+<PAUSE>
+<NAME_PLATE>
+　異次元からやってきて、
+帰れなくなった若いさくらは、
+ここに居候として住んでいる。
+<PAUSE>
+<NAME_PLATE>
+　どうすれば元の世界へ戻れるのか。
+依然として何の手がかりも掴めないままだが、
+本人はあまり深刻に考えていないようだ。
+<PAUSE>
+<NAME_PLATE>
+　そんなことより、むしろ――
+<PAUSE>
+<BGM_PLAY>bgm401,1000
+<ACTOR>0,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「イエーーーーーーーーーーイ！！
+　ヘッドショット大成功！！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服衣装
+//　　　　＊対魔忍アサギZEROから流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「見た見た、ふうま君！？
+　いまの私のスーパープレイを！！
+　イエス！！　イエーーーーーーース！！」
+<PAUSE>
+<NAME_PLATE>
+　さくらの声が深夜の部屋に響く。
+ゲームパッドを振り上げて大興奮である。
+<PAUSE>
+<NAME_PLATE>俺
+「お、おい、いくら誰もいないからって、
+　あんまり大声で騒ぐなよ！？」
+<PAUSE>
+<NAME_PLATE>
+　今さくらが夢中になっているのは、
+俺がお年玉やらお小遣いを貯めて買い集めた、
+数々のゲームだった。
+<PAUSE>
+<NAME_PLATE>
+　詳しい仕組みはよくわからないが、
+さくらのいた次元は、どうやらこの次元より
+過去を走っているようである。
+<PAUSE>
+<NAME_PLATE>
+　つまり俺のゲームは彼女にとって、
+文字通り次世代の最新版ばかり、
+というわけだ。
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「ふおおおお、本当にこれすっごいね！
+　傾けるだけで視点が動くなんて！！
+　画面もすっごい綺麗！　写真みたい！！」
+<PAUSE>
+<NAME_PLATE>俺
+「おい、敵はまだ３人残ってるからな！？
+　油断するなよ！
+　俺はそっちから回り込む！」
+<PAUSE>
+<NAME_PLATE>さくら
+「イエッサー、隊長っ！！」
+<PAUSE>
+<NAME_PLATE>
+　そして、俺もまた、
+良い遊び相手ができたことでゲーム熱が再燃。
+さくらと共に嵌まり込んでいるのだった。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、さくらはそっちで……
+　ダメだ！　いま撃ったら反撃されるっ……」
+<PAUSE>
+<NAME_PLATE>さくら
+「あ～待って！！　ダメ！！　痛い！！
+　ヤバイ！！　ふうま君、ダメ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「待て待て！！　今助けにいく！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「うん、来て来て！！　あ～、上手い！
+　ふうま君、上手い！！」
+<PAUSE>
+<NAME_PLATE>俺
+「よし、今度は後ろから攻める！
+　そっちも行け！　今だっ！」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「うんうん！　行くよ行くよ、行くよ
+　……………………
+　イエス！！　よっしゃーーーーーーっ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺達
+「「イエーーーーイ！！」」
+<PAUSE>
+<NAME_PLATE>
+　最高のリザルトに満足しながら、
+俺たちはパシッとハイタッチをする。
+<PAUSE>
+<NAME_PLATE>さくら
+「いや～！　最高だね！！
+　ふうま君、どうしてそんなに上手なの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「フフフ、
+　毎日の練習を欠かさないからな俺は！」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「そっか～。
+　私も練習すれば上手くなるかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「なるだろ。
+　もう一戦いくか、付き合うぜ？」
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「いいの？　もうこんな時間だけど？」
+<PAUSE>
+<NAME_PLATE>
+　さくらの指差す方を見ると、
+時計は３時半を指していた。
+<PAUSE>
+<NAME_PLATE>
+　ちなみに深夜の３時半である。
+明日は休み……ではなく普通に学校もあり、
+普段ならとっくに寝ている時間なのだが。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、大丈夫だろ。
+　睡眠なら授業中に取ればいいし」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふうま君、不良だねー」
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ？　じゃあ止めるか？」
+<PAUSE>
+<NAME_PLATE>さくら
+「えへへ。やる～♪」
+<PAUSE>
+<NAME_PLATE>俺
+「だろ？」
+<PAUSE>
+<NAME_PLATE>
+　俺はさらにコンティニューボタンを押す。
+そう、今日は俺たち二人を止めるものは、
+何もないのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「普段は時子がうるさく言って、
+　まともにゲームもできやしないんだ。
+　少しぐらいハメを外してもいいだろ」
+<PAUSE>
+<NAME_PLATE>俺
+「時子が出張でいない……
+　こんなチャンスはなかなか無いからな」
+<PAUSE>
+<NAME_PLATE>さくら
+「時子さん、厳しいもんね～。
+　ゲームは一日一時間！　とか言うし」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだよ。全く、あいつは頭が固くて――」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, OUT, linear, 1000
+<BGM_STOP>3000
+<ACTOR>1,t_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま時子
+「申し訳ありません、お館様。
+　一日ほど、予定を早めて
+　戻ってまいりました」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿秘書衣装
+//　　　　＊決戦アリーナの新時子立ち絵より流用
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>さくら
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　緩み切った空気に、戦慄が走る。
+<PAUSE>
+<NAME_PLATE>
+　俺たちが恐る恐る振り向くと――
+時子の冷たい目が見下ろしていた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺達
+「ぎゃ～～～～～～～～～～～～～っ！！？」
+<PAUSE>
+//【黒画面】
+<ACTOR>1,t_t001c,CENTER, CENTER, OUT, linear, 1000
+<UI_DISP>OFF, 0
+<TRANSITION>TR14, OUT, 1000
+<BG>black, NONE
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+（やれやれ……
+　世にも恐ろしい体験だったぜ……）
+<PAUSE>
+//【背景：城跡＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+<BG>nc028a,NONE
+<TRANSITION>TR14, IN,1000
+<NAME_PLATE>
+　あれから俺たちは、
+朝まで３時間ほど正座させられ、説教を受け、
+ある特別訓練を約束させられた。
+<PAUSE>
+<NAME_PLATE>
+　その訓練というのが――
+この裏山での、競争形式の隠密訓練。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>1,t_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「二人ともご存じでしょうが、この先は、
+　高度なトラップが随所に仕掛けられた、
+　隠密訓練用の区画になっています」
+<PAUSE>
+//　※立ち絵
+//　　新時子通常立ち絵＿対魔忍衣装
+//　　　　＊決戦アリーナの新時子立ち絵より流用
+<NAME_PLATE>時子
+「突破するには、身体能力だけでなく、
+　高度な知識や観察力が必要――」
+<PAUSE>
+<NAME_PLATE>時子
+「ここを抜けて、先にチェックポイントまで
+　辿りついた方を勝ちとします」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、待ってくれよ。ここって確か、
+　プロの対魔忍も訓練に使う上級エリアで、
+　訓練中に怪我人も出るとかなんとか――」
+<PAUSE>
+<ACTOR>1,t_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「ええ」
+<PAUSE>
+<NAME_PLATE>
+　時子はにっこりと笑った。
+<PAUSE>
+<NAME_PLATE>時子
+「弛みきった対魔忍としての自覚を
+　叩き直すには、このくらいの刺激が、
+　必要ではないかと思いまして」
+<PAUSE>
+<NAME_PLATE>俺
+「うぐっ……」
+<PAUSE>
+<ACTOR>1,t_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「相手への妨害は自由。
+　助っ人をどう使うのも自由ですが、ゴールは
+　本人がしなければいけないものとします」
+<PAUSE>
+<NAME_PLATE>
+　各々２人ずつ助っ人を呼んでいいと言われ、
+合計４人の助っ人たちが、すでにコースの中で
+待機している。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>時子
+「準備はいいですか、二人とも？」
+<PAUSE>
+<BGM_PLAY>bgm304,1000
+<GROUP>
+<ACTOR>1,t_t002c,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ws_t001a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「うん、時子さん！　いつでもいいよ！」
+<PAUSE>
+//　※立ち絵
+//　　若いさくら立ち絵
+//　　　　＊決戦アリーナの若いさくら第一弾のカードイラストを流用
+<NAME_PLATE>俺
+「ああ……。俺もだ」
+<PAUSE>
+<NAME_PLATE>
+　いよいよだ。
+俺たちの緊張が高まる。
+<PAUSE>
+<NAME_PLATE>さくら
+「ふうま君には悪いけど……
+　お小遣いの権利は私のものだから！」
+<PAUSE>
+<NAME_PLATE>俺
+「ふん、取れるものなら取ってみろ！！」
+<PAUSE>
+<NAME_PLATE>
+　そう、これが、『ゆずれない戦い』の理由。
+<PAUSE>
+<NAME_PLATE>
+　『訓練で勝った方がお小遣いの権利を獲る』
+<PAUSE>
+<NAME_PLATE>
+　現在、さくらの小遣いは、
+俺の小遣いの中から捻出している。
+<PAUSE>
+<NAME_PLATE>
+　たまに時子も援助してくれているようだが、
+基本的に、拾って来た犬の面倒は、
+責任を持って自分で見るというアレである。
+<PAUSE>
+<NAME_PLATE>俺
+（そのお小遣いの権利がさくらに移れば……
+　今度は俺が飼われる犬の身分てことだ！
+　それだけは絶対避けねばならん！）
+<PAUSE>
+<NAME_PLATE>
+　まさに死活問題。
+ゲームもおやつも、全て金が必要なのである。
+<PAUSE>
+<NAME_PLATE>さくら
+「フフ…………」
+<PAUSE>
+<NAME_PLATE>俺
+（クソ！！　さくらの奴、
+　なんて邪悪な目をしてやがるんだ！？）
+<PAUSE>
+<NAME_PLATE>
+　その目には、稲毛屋のアイスやら、
+可愛い洋服やら、新しいゲームやら、
+あらゆる欲望が渦を巻いていた。
+<PAUSE>
+<ACTOR>0,ws_t001a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+（な、何としても勝たねば……）
+<PAUSE>
+<NAME_PLATE>俺
+（チャンスはあるはずだ。
+　身体能力ではまず勝ち目はないが、
+　隠密訓練は知識や観察力がものをいう）
+<PAUSE>
+<NAME_PLATE>俺
+（それでも勝てそうにないなら仕方がない。
+　その時は手段を選ばず――。
+　さくら、恨みっこなしだぜ）
+<PAUSE>
+<ACTOR>1,t_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「――それでは訓練始め！！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,t_t002f,CENTER, CENTER, OUT, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　時子の声を合図に、
+俺たちは森の奥へと駆けだした。
+<PAUSE>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//→プロローグ終了
+//=================================================================

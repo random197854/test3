@@ -1,0 +1,597 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+<NAME_PLATE>
+　一方、同じ頃。
+<PAUSE>
+//【背景：東京キングダム＿繁華街＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc002aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc008a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　“五強”の抗争が終結し、
+新たに“四強”の支配地域となった
+東京キングダム。
+<PAUSE>
+<NAME_PLATE>
+　そんな闇の街の片隅で、
+もう一つの追う者と追われる者の
+ドラマが繰り広げられていた。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「ほいほいほい☆
+　鬼さんこちら～！」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　追われているのは、
+でっぷりとした丸い体の、
+愛嬌たっぷりのピエロである。
+<PAUSE>
+<NAME_PLATE>
+　名前はミスター・フール。
+<PAUSE>
+<NAME_PLATE>
+　いかにも無害そうな外見に反し、
+その本性は邪悪。
+<PAUSE>
+<NAME_PLATE>
+　特異な能力によって密かに
+人の運命を弄び、破滅に追い込むのを
+愉しむ悪辣な魔族であった。
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（はぁ～。まったくもう、
+　腹立たしい奴らだよ～っ！！）
+<PAUSE>
+<NAME_PLATE>
+　そんな害悪ピエロが、内心で
+ぼやきながら闇の街の通りを大逃走。
+<PAUSE>
+<NAME_PLATE>
+　――ミスター・フールは
+不機嫌であった。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら近頃何をやっても失敗続き。
+<PAUSE>
+<NAME_PLATE>
+　彼は以前、地下都市ヨミハラの
+カジノを根城にしていたのが、
+<PAUSE>
+<NAME_PLATE>
+　突然やってきた乱暴者たちに
+それが滅茶苦茶にされてしまったのだ。
+<PAUSE>
+<NAME_PLATE>
+　まあ、そのカジノはいい加減飽きていて、
+最後に盛大に遊んで潰してやろうと
+考えていたので、
+<PAUSE>
+<NAME_PLATE>
+　奴らの無粋な行動も
+寛大なる心で許してやって構わない。
+<PAUSE>
+<NAME_PLATE>
+　しかしその後だ。
+<PAUSE>
+<NAME_PLATE>
+　センザキという町で
+ひと遊びしようと企んでいたのだが、
+<PAUSE>
+<NAME_PLATE>
+　そこでもまた乱暴者たちに
+邪魔されて追い出された。
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（本当にイライラする奴らだよ、
+　あの“対魔忍”って乱暴者は～！！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>火遁衆
+「くぅっ！！！？
+　いつまでもチョロチョロと！！」
+「逃がさんぞっ！」
+<PAUSE>
+//　※立ち絵
+//　　火遁衆（男）
+//　　　＊モンスターイラストより流用
+//　　火遁衆（女）
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう。
+<PAUSE>
+<NAME_PLATE>
+　いつも彼の遊びを邪魔する
+“対魔忍”とかいう無粋な集団。
+<PAUSE>
+<NAME_PLATE>
+　現在も、この東京キングダムに
+流れ着いた彼をしつこく
+追い回しているのだった。
+<PAUSE>
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ma_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0056a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>眞田焔
+「おらァ！！　てめえの
+　手下は全員燃やしてやったぜ！
+　大人しく観念しやがれ変態ピエロ！！」
+<PAUSE>
+<NAME_PLATE>神村舞華
+「お前には何度もコケにされたからなぁ！
+　もう逃げられねえぞっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　眞田焔01
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　神村舞華01
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「おほほ～！　怖い怖い～☆」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　一方、そんな乱暴者集団――
+五車対魔忍火遁衆を率いるのは、
+血気盛んな二人のくノ一。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ma_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0056a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　火遁衆参番隊筆頭の
+ヤンキー娘、眞田焔。
+<PAUSE>
+<NAME_PLATE>
+　そしてその後輩の対魔忍学生、
+“爆炎の対魔忍”神村舞華。
+<PAUSE>
+<NAME_PLATE>
+　彼女たち火遁衆は、
+『変幻自在に何にでも化けられる』
+能力を危険視した五車から指令を受け、
+<PAUSE>
+<NAME_PLATE>
+　執拗にミスター・フールを
+追いかけていた。
+<PAUSE>
+<NAME_PLATE>焔
+「しかしアレだなぁ。
+　どうも腑に落ちねえな舞華」
+<PAUSE>
+<NAME_PLATE>舞華
+「なんですか姉御っ！？」
+<PAUSE>
+<NAME_PLATE>
+　焔が隣を駆ける後輩に言う。
+<PAUSE>
+<NAME_PLATE>
+　舞華は焔の特攻スピリットを尊敬して
+“姉御”と呼んで慕っている。
+<PAUSE>
+<NAME_PLATE>焔
+「いや、あのクソピエロだよ」
+<PAUSE>
+<NAME_PLATE>焔
+「あんなへなへなで弱そうなのになぁ。
+　本当にあいつ危険なのか？」
+<PAUSE>
+<NAME_PLATE>舞華
+「あー、危険は危険なんですけど、
+　それ以上にめんどくさい奴なんですよ、
+　あのクソピエロ」
+<PAUSE>
+<NAME_PLATE>焔
+「へー？　どんな感じで？」
+<PAUSE>
+<NAME_PLATE>舞華
+「いやぁ、なんか
+　チョロチョロ変身とかして、
+　ぜんぜん正面から戦わねえし」
+<PAUSE>
+<NAME_PLATE>舞華
+「そういうのウザいじゃないですか。
+　こっちも頭使わないとだし」
+<PAUSE>
+<NAME_PLATE>焔
+「あー、わかる。戦いってのは
+　ドカーンとすっきり決めたいよな！」
+<PAUSE>
+<NAME_PLATE>舞華
+「ですよね！！？」
+<PAUSE>
+<NAME_PLATE>
+　舞華が激しく同意し、後ろに続く
+火遁衆も皆「うんうん」とうなずいている。
+<PAUSE>
+<NAME_PLATE>
+　彼女たち火遁衆は、
+五車の中でも指折りの単細胞が
+集まっているようだ。
+<PAUSE>
+<NAME_PLATE>舞華
+「で、前に姉御がいない時も、
+　俺たちだけで何回かあいつを
+　追っかけたんですけど……」
+<PAUSE>
+<NAME_PLATE>舞華
+「その時も、
+　散々おちょくられただけで
+　結局逃げられちまって……」
+<PAUSE>
+<NAME_PLATE>
+　学生離れした豊満なバストを
+揺らして腹立たしそうに唸る舞華。
+<PAUSE>
+<NAME_PLATE>
+　変身能力と熟練のマジックを使う
+ミスター・フールに、さすがの
+舞華もほとほと手を焼いているらしい。
+<PAUSE>
+<NAME_PLATE>
+　――と、それを聞いて焔が
+一気に奮い立つ。
+<PAUSE>
+<NAME_PLATE>焔
+「へえ！？　舞華をけむに巻くとは、
+　間抜けな面してなかなか
+　面白れえピエロじゃねえかっ！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「あ、姉御！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　流石は火遁衆のリーダーである。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR>0,chr_t0056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　うずうずが止まらなくなった焔が、
+話の途中で逃走するピエロに突撃した。
+<PAUSE>
+<NAME_PLATE>焔
+「おらおらおらァ！！？
+　このクソピエロ、その妙な技ってやつ、
+　やれるもんならやってみやがれええっ！！」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「ふわっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオオッ！！！！
+<PAUSE>
+<NAME_PLATE>
+　火遁の力で槍の柄を爆発させ、
+ロケットのように猛スピードで突進する。
+<PAUSE>
+<NAME_PLATE>
+　焔得意の強襲技・煙槍爆突だ。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズシュ！！！！
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「あがっ！！？
+　ぐぅぅうううううっ！！！？
+　こ、この乱暴者めえ……」
+<PAUSE>
+<BG>nc008a,IN, 500
+<ACTOR>0,ma_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「すげえ！！？
+　流石だぜ姉御っ！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>火遁衆
+「隊長！！」
+「やったか！！？」
+<PAUSE>
+<NAME_PLATE>
+　舞華と火遁衆が
+興奮と快哉の声を上げる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　一瞬で距離を詰めた焔の槍が
+ピエロの丸い体を貫き、
+炎と共に切り裂いていた。
+<PAUSE>
+<ACTOR>0,chr_t0056a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>焔
+「へへっ、どんなもんだい！！
+　私にかかればこんな変態ピエロ、
+　一発でぶっ殺して……んん？？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　何か手応えがおかしい。
+<PAUSE>
+<NAME_PLATE>
+　そう首をひねった焔の眼前で。
+<PAUSE>
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「おほほほほ！
+　ざーんねん外れだよ～♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼん☆
+<PAUSE>
+<NAME_PLATE>焔
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　火炎槍で貫かれたはずの
+ミスター・フールの体が虹色の
+煙と共に弾け、
+<PAUSE>
+<NAME_PLATE>
+　そこから無数の白い何かが
+飛び出してきた。
+<PAUSE>
+<SE_PLAY>se133
+<NAME_PLATE>
+　バサバサバサバサバサーー！！
+<PAUSE>
+<NAME_PLATE>？？？
+「ぽっぽー」
+<PAUSE>
+<NAME_PLATE>焔
+「おわあああぁっ！？
+　なっ、なんだこりゃあ！！？
+　こいつ、あっちに行けっ！！」
+<PAUSE>
+<NAME_PLATE>舞華
+「ぺっぺっ！！
+　こ、これ鳥ですよ姉御！？
+　ハト！　鳩っ！！」
+<PAUSE>
+<NAME_PLATE>
+　それはマジックで使う鳩であった。
+<PAUSE>
+<NAME_PLATE>
+　焔の突撃を待ち受けていた
+ミスター・フールは、その直前に
+変わり身のマジックで鳩を放った。
+<PAUSE>
+<NAME_PLATE>
+　それがバサバサバサーと
+焔と舞華の体にまとわりついている。
+<PAUSE>
+<NAME_PLATE>火遁衆
+「隊長！！？」
+「こ、このハトめ！！！」
+<PAUSE>
+<NAME_PLATE>ハト
+「ぽっぽー」
+<PAUSE>
+<NAME_PLATE>
+　慌てて火遁衆が二人の救援に走る。
+<PAUSE>
+<SE_PLAY>se133
+<NAME_PLATE>
+　バサバサバサバサバサー。
+<PAUSE>
+<BG>nc008a,IN, 500
+<NAME_PLATE>
+　二人の体を覆っていたハトが飛び去り、
+再び姿が見えるようになった。すると。
+<PAUSE>
+<NAME_PLATE>火遁衆
+「ええっ！？」
+「隊長、その恰好は！？」
+<PAUSE>
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>焔
+「あァ？　恰好――
+　なんだこりゃあぁああ！！？」
+<PAUSE>
+//　※立ち絵
+//　　眞田焔02（晴れ着）
+//　　　　＊カードイラストより流用
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「姉御！？　それに俺までぇ！？」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華03（バニー衣装）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　マジックによる早着替えであった。
+<PAUSE>
+<NAME_PLATE>
+　焔はお正月の晴れ着衣装。
+<PAUSE>
+<NAME_PLATE>
+　舞華はこの前のバニー衣装。
+<PAUSE>
+<NAME_PLATE>
+　ハトにまとわりつかれている隙に
+ミスター・フールは焔と舞華を
+強制早着替えさせていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「おほほほ～♪　そんな浮かれた
+　格好の方がお似合いだよねー」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「まったく、あんたたちは突っ込むしか
+　能の無いパッパラパーだから、
+　楽しくていいよ～☆」
+<PAUSE>
+<NAME_PLATE>
+　焔と舞華の得物もマジックの
+早着替えによって無力化されていた。
+<PAUSE>
+<NAME_PLATE>
+　焔の火炎槍はゴム製となり、
+舞華の“冥途バズーカ”はなぜか
+小さな水鉄砲にチェンジしてる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　ピエロはその水鉄砲を拾って
+ぴゅーと二人に水をひっかけ、
+けらけらと笑って逃げて行った。
+<PAUSE>
+<NAME_PLATE>ハト
+「ぽっぽー」
+<PAUSE>
+<NAME_PLATE>
+　そしてついでとばかりに、
+飛び去ったマジックのハトから
+二人の頭にぽちゃっとフンまで落とされる。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「……………」
+<PAUSE>
+<NAME_PLATE>舞華
+「……………」
+<PAUSE>
+<NAME_PLATE>火遁衆
+「た、隊長！？
+　落ち着いて！！」
+「そうだ！　舞華も冷静に！」
+<PAUSE>
+<NAME_PLATE>
+　憤怒で硬直する二人に
+火遁衆がおっかなびっくり声をかける。
+<PAUSE>
+<NAME_PLATE>
+　気の荒い火遁衆の中でも
+群を抜いて短気な二人である。
+<PAUSE>
+<NAME_PLATE>
+　下手をすると周りに被害が出る。
+<PAUSE>
+<NAME_PLATE>焔
+「ククク……なるほどな舞華ァ！！
+　確かに、あいつはやばい奴……」
+<PAUSE>
+<NAME_PLATE>焔
+「ってより、恐ろしく
+　ムカつく野郎だなぁ！！！？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「でしょう姉御っっ！？」
+<PAUSE>
+<NAME_PLATE>
+　怒髪天の様子の焔と舞華。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　マジックの達人であり、
+いざとなったら自在に姿を変えられる
+ミスター・フールは、
+<PAUSE>
+<NAME_PLATE>
+　その気になればどこまでも逃亡可能。
+<PAUSE>
+<NAME_PLATE>
+　捕らえるのは非常に困難な
+厄介極まりない相手である。
+<PAUSE>
+<NAME_PLATE>
+　だが、今日の追跡部隊は一味違う。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「もう絶対にぶっ殺す！！
+　そのために今日は『助っ人』まで
+　用意したんだからなぁ！」
+<PAUSE>
+<NAME_PLATE>舞華
+「あぁ！　その通りだぜ姉御！
+　今日という今日は逃がさねえ。
+　みんな、追っかけるぞ！」
+<PAUSE>
+<NAME_PLATE>火遁衆
+「応っ！！」
+<PAUSE>
+<SE_PLAY>se054
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　闇の街に消えたピエロを追って
+火遁衆たちが走り出した。
+<PAUSE>
+//→S202a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

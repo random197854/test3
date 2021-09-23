@@ -1,0 +1,991 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：南国のリゾート地＿倉庫の保管室＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC013aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc179a,IN, 1000
+<ACTOR>0,as_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「さあ――行くわよ！！！」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+//　※注　以下、適時アスカの戦闘立ち絵とエフェクトを組み合わせて激しいラッシュの演出をお願いします。
+<ACTOR>0,as_t008d,CENTER, CENTER, NONE, linear, 0
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se001
+</GROUP>
+<NAME_PLATE>
+　ガッ！！
+<PAUSE>
+//　※戦闘エフェクト
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装マッハパンチ
+//　　　　＊対魔忍アサギ３より流用
+<ACTOR>0,as_t009d,CENTER, CENTER, NONE, linear, 0
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se031
+</GROUP>
+<NAME_PLATE>
+　ザシュ――！！
+<PAUSE>
+//　※戦闘エフェクト
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装スパイラルキック
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>アスカ
+「はああああああああっ！！！」
+<PAUSE>
+<ACTOR>0,as_t006d,CENTER, CENTER, NONE, linear, 0
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<SE_PLAY>se007
+</GROUP>
+<NAME_PLATE>
+　ギィィィンッ！！
+<PAUSE>
+//　※戦闘エフェクト
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装風神・陣刃
+//　　　　＊対魔忍アサギ３より流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>馬超
+「アァアァアァアァアアッ！！？」
+<PAUSE>
+//　※立ち絵
+//　　馬超
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　苦悶の形相で咆吼する馬超。
+<PAUSE>
+<NAME_PLATE>
+　目にも留まらぬアスカのラッシュであった。
+<PAUSE>
+<NAME_PLATE>
+　アンドロイドアームの出力を利用した
+マッハパンチで飛び込み、
+<PAUSE>
+<NAME_PLATE>
+　スパイラルキック、“風神・陣刃”と、
+科学と忍術を複合させた得意の戦法で
+馬超の体を切り刻む。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>馬超
+「アアァアァアァアアア！！！！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ぐぅっ！？　こ、こいつ――」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　金属質の触手による横殴りの一撃が
+アスカの腹部にめり込んだ。
+<PAUSE>
+<NAME_PLATE>
+　かろうじて後ろに飛んで致命傷は
+避けたが、それでもダメージは大きい。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>仮面の対魔忍
+「――アスカ！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「へ、平気……っ！！　でも、
+　なんなのよこの怪物……っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　アスカが苛立たしげに唇を噛む。
+<PAUSE>
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　――手強い。
+<PAUSE>
+<NAME_PLATE>
+　単純なパワーも脅威だが、
+それよりも再生能力が厄介だ。
+<PAUSE>
+<NAME_PLATE>
+　決死の思いで懐に飛び込み、
+幾つも深手を負わせたはずが――
+<PAUSE>
+<NAME_PLATE>
+　あっという間にそれが再生し、
+もうダメージすらないように見える。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t002d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,chr_t0143a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>仮面の対魔忍
+「……説明したでしょう？
+　奴はアサギとブラックの細胞から
+　造られた怪物――簡単にはいかないわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「はぁ……。つくづく迷惑な
+　おばさんよね。自分の細胞くらい
+　しっかり管理しろってーの！」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「ふふ。今度あったら直接
+　言ってあげなさい――来るわよ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「っ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>馬超
+「アァアァァアアァアアアアアア
+　アァアアアアア！！！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se106
+<NAME_PLATE>
+　咆吼する馬超の両腕――その間の
+空間が歪み、不可視の波動が放出される。
+<PAUSE>
+<NAME_PLATE>
+　それは、絶大な破壊力を秘めた重力の渦。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょ、ちょっとぉ！？
+　どーしろっていうのよこれぇ！！」
+<PAUSE>
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　とっさに身を伏せたアスカの頭上を
+重力の渦が通過する。
+<PAUSE>
+<SE_PLAY>se109
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　破壊の坩堝となったそれに巻き込まれ、
+室内の設備が轟音を立てて崩壊した。
+<PAUSE>
+<BG>nc179a,IN, 500
+<ACTOR>2,chr_t0143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面の対魔忍
+「――場所を変えるわよ、アスカ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「え？」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「ここじゃあなたの火力を充分に
+　活かせない。良い場所があるわ」
+<PAUSE>
+<NAME_PLATE>
+　ただでさえこの保管室は狭い。
+<PAUSE>
+<NAME_PLATE>
+　その上、今は馬超に破壊された設備や
+出品物の残骸、警備兵の死体が散らばり、
+足の踏み場もない有様――。
+<PAUSE>
+<NAME_PLATE>
+　これでは、どう足掻いても
+劣勢に立たされるだけである。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「――あやめ！
+　そっちから抜けられる！？」
+<PAUSE>
+//【背景：南国のリゾート地＿倉庫内の通路２＿夜】【時間：夜】
+//　※漂流艦獄クロノス_nc003bより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<BG>chrnc0061a,IN, 500
+<ACTOR>3,chr_t0142a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「ええ、大体片付いたわ――」
+<PAUSE>
+//　※立ち絵
+//　　槙島あやめ
+//　　　　＊カードイラスト槙島あやめ２より流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>警備兵
+「うぐっ！？」
+<PAUSE>
+<SE_PLAY>se023
+<NAME_PLATE>
+　ドサっ――！
+<PAUSE>
+<NAME_PLATE>
+　答えると同時に額を撃ち抜かれた
+警備兵が崩れ落ちた。
+<PAUSE>
+<NAME_PLATE>
+　今、あやめは通路側で
+増援の警備兵を迎え撃っている。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　警備兵の残りは数人ほど。
+<PAUSE>
+<NAME_PLATE>
+　この数ならば簡単に突破できるだろう。
+<PAUSE>
+//【背景：南国のリゾート地＿倉庫の保管室＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2_NC013aより流用
+<BG>nc179a,IN, 500
+<ACTOR>2,chr_t0143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面の対魔忍
+「良いわ！　すぐに動きましょう。
+　――アスカ、牽制をお願い！」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>0,as_t010d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「了解～っ！！
+　ほらほら、鬼さんこちら～っ！」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装殺戮マシンガン
+//　　　　＊対魔忍アサギ３より流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガ――！！！
+<PAUSE>
+<NAME_PLATE>
+　通路を目指して駆けながら
+アスカがアンドロイドアームに
+仕込んだマシンガンを撃ちまくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>馬超
+「アアアァアアアアアアッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　馬超
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　肉が抉れ、鮮血と共に弾け飛ぶ。
+<PAUSE>
+<NAME_PLATE>
+　馬超は憤怒の咆吼を響かせ、
+通路を駆ける三人の後を追った。
+<PAUSE>
+//【背景：南国のリゾート地＿ホテルのショーアリーナ＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc042aより流用
+//新規　nc180a
+<GROUP>
+<SE_PLAY>se003
+<ACTOR_OUT>1,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc180a,IN, 1000
+<ACTOR>0,as_t002f,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アスカ
+「ここね！？　戦い易い場所！！」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+<ACTOR>2,chr_t0143a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>仮面の対魔忍
+「ええ、ここで奴を始末するわ！」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<NAME_PLATE>
+　通路を抜けた先にあったのは、
+ホテルのショーアリーナ。
+<PAUSE>
+<NAME_PLATE>
+　充分な広さもあり、今はショーが
+行われる時間帯でもない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ここならば、対魔忍の中でも
+トップクラスのアスカの火力を
+存分に発揮できる。
+<PAUSE>
+<ACTOR>3,chr_t0142a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>あやめ
+「待って！？　あそこに――！」
+<PAUSE>
+//　※立ち絵
+//　　槙島あやめ
+//　　　　＊カードイラスト槙島あやめ２より流用
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>仮面の対魔忍
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　だが、ひとつ誤算があった。
+<PAUSE>
+<NAME_PLATE>
+　三人が飛び込んだアリーナの片隅に
+ホテルの制服を着た男女の姿が――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>男女
+「なっ、なんだ！？」
+「きゃあああ！？　なにあの怪物！？」
+<PAUSE>
+<NAME_PLATE>
+　逢い引きでもしていたのか、それとも
+単に仕事の残りでも片付けていたのか。
+<PAUSE>
+<NAME_PLATE>
+　いずれにしても、恐怖で硬直した
+男女はアリーナに飛び込んできた
+馬超の格好の獲物である。
+<PAUSE>
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>馬超
+「アアアァアアァアアアアアァァ
+　アァァアアアアアアッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　馬超
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,as_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ちょ！？　冗談じゃないわよ！！！」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギ３より流用
+//【イベントＣＧ：アスカ負傷１】【時間：夜】
+//　※対魔忍アサギ3_ev112aを流用
+//新規　stv013a
+<ACTOR_OUT>0,CENTER,linear,1000
+<EV>stv013a,IN, 1000
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se039
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バキィィイッ！！！
+<PAUSE>
+<NAME_PLATE>
+　一般人であるホテルスタッフを
+見殺しにはできない。
+<PAUSE>
+<NAME_PLATE>
+　馬超が彼らに放った触手――その前に
+アスカは身を投げ出すように立ち塞がった。
+<PAUSE>
+//【イベントＣＧ：アスカ負傷２】【時間：夜】
+//　※対魔忍アサギ3_ev112bを流用
+//新規　stv013b
+<EV>stv013b,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ぐぅぅううううううっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　代償は大きかった。
+<PAUSE>
+<NAME_PLATE>
+　アンドロイドブレードに続いて、
+鋼鉄の両脚も――。
+<PAUSE>
+<NAME_PLATE>馬超
+「アアアァァアアアアアアアアア
+　アアアアアッ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　猛り狂った馬超の叫び。
+<PAUSE>
+<NAME_PLATE>
+　両脚を破壊され、地面に転がった
+アスカに金属質の触手が襲いかかる。
+<PAUSE>
+//【背景：南国のリゾート地＿ホテルのショーアリーナ＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc042aより流用
+<BG>nc180a,IN, 1000
+<ACTOR>2,chr_t0143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面の対魔忍
+「――アスカ！！！」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,chr_t0142a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+「馬超！！　こっちを向きなさい！！」
+<PAUSE>
+//　※立ち絵
+//　　槙島あやめ
+//　　　　＊カードイラスト槙島あやめ２より流用
+<SE_PLAY>se094
+<NAME_PLATE>
+　連続する銃声――。
+<PAUSE>
+<NAME_PLATE>
+　あやめの放った銃弾が馬超の後頭部を
+吹き飛ばし、同時に仮面の女がアスカを
+抱えて後方離脱する。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>馬超
+「アアァアァアアアァアア！！！！」
+<PAUSE>
+<NAME_PLATE>あやめ
+「ぐっ――」
+<PAUSE>
+<NAME_PLATE>
+　当然、馬超にダメージはない。
+<PAUSE>
+<NAME_PLATE>
+　吹き飛ばされた後頭部の肉が
+異様な速度で再生する。
+<PAUSE>
+<NAME_PLATE>
+　それどころか瞬時に触手を後方に
+展開してあやめの腹を打つ。
+<PAUSE>
+//　※戦闘エフェクトなど
+<ACTOR_OUT>1,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　とっさに体を捻らなければ、
+内臓をごっそり抉られていただろう。
+<PAUSE>
+<BG>nc180a,IN, 500
+<ACTOR>3,chr_t0142a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>あやめ
+（どうする！？　このまま戦うのは
+　リスクが大きすぎるが――）
+<PAUSE>
+<NAME_PLATE>
+　自分の武器では再生能力のある
+馬超を倒すのは不可能だ。
+<PAUSE>
+<NAME_PLATE>
+　ならば、いったん距離を取るか――
+と考えた所でアスカを抱えて後方に
+飛んだ仮面の女と目が合った。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<NAME_PLATE>あやめ
+「………仕方がないわね」
+<PAUSE>
+<NAME_PLATE>
+　何度か任務を共にし、
+仮面の女のやり方は理解している。
+<PAUSE>
+<NAME_PLATE>
+　襲いかかる馬超を目の前に、
+あやめは静かに精神を集中させた。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>1,ts_m110a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>馬超
+「アアァアァアァアァアアァアアァ
+　アアアア！！！」
+<PAUSE>
+<NAME_PLATE>あやめ
+「忍法・“時読み”――」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　あやめの視界の中で、殺到する馬超の
+触手が二重写しのように大きくぶれる。
+<PAUSE>
+<NAME_PLATE>
+　その“未来の映像”を頼りに全ての
+触手を紙一重でくぐり抜け――
+<PAUSE>
+<NAME_PLATE>
+　あやめは、馬超の体にナイフと
+銃弾を連続で叩き込んだ。
+<PAUSE>
+//　※戦闘エフェクトなど
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<WAIT>500
+<SE_PLAY>se031
+<BG>ef005a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>馬超
+「アアァ！！？　アアァァァアアァ
+　アァアアァアア！！！」
+<PAUSE>
+<BG>nc180a,IN, 500
+<NAME_PLATE>
+　“時読み”は、あやめが得意とする
+“風読み”を対人格闘に特化させた
+忍法である。
+<PAUSE>
+<NAME_PLATE>
+　己を取り巻く風の流れを計測し、
+数瞬先の未来を完全予測する――。
+<PAUSE>
+<NAME_PLATE>あやめ
+（まあ、今は大して役に立たないけど――）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　精神負荷の大きい“時読み”は
+長く使うことができない。
+<PAUSE>
+<NAME_PLATE>
+　そもそも再生力のある馬超に
+あやめの攻撃は通用しないのだ。
+<PAUSE>
+<NAME_PLATE>
+　このままではいずれ
+なぶり殺しになるだけだろう。
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>あやめ
+「でも……この程度で充分でしょ？」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「ええ♪　相変わらず良い仕事ね、あやめ」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<NAME_PLATE>馬超
+「――――！！？」
+<PAUSE>
+//　※立ち絵
+//　　槙島あやめ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　振り向く馬超――
+<PAUSE>
+<NAME_PLATE>
+　その胸の中心に、気配を殺して
+接近した仮面の女のナイフが深々と
+突き刺さった。
+<PAUSE>
+//　※戦闘エフェクトなど
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<BG>ef005a,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>馬超
+「アァアァアァアアアッ！！！！？」
+<PAUSE>
+<NAME_PLATE>
+　同時に――咆吼した馬超の
+触手が仮面の女の体を貫く。
+<PAUSE>
+//　※戦闘エフェクトなど
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<BG>ef006c,NONE
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「ふふっ」
+<PAUSE>
+<BG>nc180a,IN, 500
+<ACTOR>2,chr_t0143a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　貫かれたはずの仮面の女の体がぱっと
+書類の束となって弾け飛び、次の瞬間、
+無傷で着地してニヤリと笑う。
+<PAUSE>
+<NAME_PLATE>
+　忍法“空蝉の術”による変わり身だ。
+<PAUSE>
+<NAME_PLATE>馬超
+「アァアア！！？　アァアァァァアアア
+　アァアアアアアアッ！！！！」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「不思議でしょう？
+　今突き刺した傷は再生しない。
+　なぜなら――」
+<PAUSE>
+<NAME_PLATE>
+　龍門の科学者を尋問した
+仮面の女は知っていた。
+<PAUSE>
+<NAME_PLATE>
+　馬超の体内には再生能力を司る
+コアがある。
+<PAUSE>
+<NAME_PLATE>
+　女がナイフを突き立てたのは、
+まさにその再生コアであった。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「準備はできたわ―――アスカ！！」
+<PAUSE>
+//【イベントＣＧ：アスカ必殺技１】【時間：夜】
+//　※対魔忍アサギ3_ev113aを流用
+//新規　stv014a
+<ACTOR_OUT>2,CENTER,linear,1000
+<EV>stv014a,IN, 1000
+<NAME_PLATE>アスカ
+「オッケ～～～！！
+　こっちも準備万端ッ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　狂乱する怪物に向け、アスカが
+アンドロイドアームを構えていた。
+<PAUSE>
+<SE_PLAY>se106
+<NAME_PLATE>
+　その両腕の間に膨大な対魔粒子が
+収束し、渦を巻く。
+<PAUSE>
+<NAME_PLATE>
+　全てはこのための布石であった。
+<PAUSE>
+<NAME_PLATE>
+　あやめが囮となり、その隙を狙って
+仮面の女が再生コアを破壊し、
+<PAUSE>
+<NAME_PLATE>
+　そして、後方に下がったアスカが
+最大火力の奥義を叩き込む――。
+//【イベントＣＧ：アスカ必殺技２】【時間：夜】
+//　※対魔忍アサギ3_ev113bを流用
+//新規　stv014b
+<EV>stv014b,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「いっけえええぇえぇえっっ！！！！」
+<PAUSE>
+//【イベントＣＧ：アスカ必殺技２】【時間：夜】
+//　※対魔忍アサギ3_ev113cを流用
+//新規　stv014c
+<EV>stv014c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>アスカ
+「必殺・対魔超粒子砲ォオオオオオオオ
+　オオオオオ！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　放出される光の奔流――。
+<PAUSE>
+<NAME_PLATE>
+　巨大なエネルギーが馬超を呑み込み、
+その全てを焼き尽くしていった。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,NONE
+<SE_PLAY>se109
+<NAME_PLATE>馬超
+「アァアァァァァアァァァアアアアァア
+　アアアアアア！！！？！！！？」
+<PAUSE>
+//【背景：南国のリゾート地＿ホテルのショーアリーナ＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc042aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<WAIT>1000
+<BG>nc180a,IN, 500
+<SE_PLAY>se057
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ゴゴゴゴゴゴゴゴゴゴ――。
+<PAUSE>
+<BGM_PLAY>bgm406,1000
+<ACTOR>3,chr_t0142a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>あやめ
+「って、なに！？　建物が――」
+<PAUSE>
+//　※立ち絵
+//　　槙島あやめ
+//　　　　＊カードイラスト槙島あやめ２より流用
+<ACTOR>2,chr_t0143a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>仮面の対魔忍
+「あ、アスカ！？
+　あなたやりすぎよ……！」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<NAME_PLATE>アスカ
+「えっ！！？？　う、ウソ！？？」
+<PAUSE>
+//　　※注：両脚が破壊されているので、以下アスカは立ち絵なしでお願いします。
+<NAME_PLATE>
+　威力がありすぎたようだ。
+<PAUSE>
+<NAME_PLATE>
+　馬超を消滅させた対魔超粒子砲は、
+そのまま建物外壁までぶち抜いた。
+<PAUSE>
+<NAME_PLATE>
+　アリーナの天井が崩れ、
+次々と瓦礫の塊が落下する――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ちょっ！！？？　ま、待って！？
+　いま私、動けないんだけど――」
+<PAUSE>
+<GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ガッ――！！！！
+<PAUSE>
+<BG>ef005a,IN, 1000
+<NAME_PLATE>
+　アスカの頭部に巨大な瓦礫が直撃する。
+<PAUSE>
+//　※打撃、鮮血エフェクトなど。
+<NAME_PLATE>アスカ
+「あっ――」
+<PAUSE>
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　視界が暗転し、意識が薄れる。
+<PAUSE>
+<NAME_PLATE>
+　そんなアスカの姿をかき消すように、
+無数の瓦礫が辺りを埋め尽くしていった。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<WAIT>1500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　……。
+<PAUSE>
+//【背景：DSOのアジト＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc024aより流用
+<BG>nc176a,IN, 1000
+<NAME_PLATE>
+　数日後――。
+<PAUSE>
+//【背景：DSOのアジト＿ラボ＿昼】【時間：昼】
+//　※対魔忍アサギ３_nc025aより流用
+//新規　nc181a
+<BGM_PLAY>bgm506,1000
+<BG>nc181a,IN, 1000
+<ACTOR>2,k_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>仮面の対魔忍
+「――ええ、協力に感謝するわ。
+　お陰で馬超を破壊できた」
+<PAUSE>
+//　※立ち絵
+//　　仮面の対魔忍汎用立ち絵＿コート衣装
+//　　　　＊対魔忍ＲＰＧカードイラスト仮面の対魔忍３より流用
+<NAME_PLATE>
+　通信端末を持った仮面の女が微笑む。
+<PAUSE>
+<NAME_PLATE>
+　アンドロイド兵器の開発やメンテ
+ナンスを行う、ＤＳＯが所有する
+秘密ラボである。
+<PAUSE>
+<NAME_PLATE>
+　崩壊するショーアリーナから脱出し、
+何とか帰国を果たした仮面の女は、
+<PAUSE>
+<NAME_PLATE>
+　現在、このラボにて今回の任務の
+後処理などを行っていた。
+<PAUSE>
+<ACTOR>2,k_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面の対魔忍
+「そうね。こちらも少なくない
+　“代償”を払うことになったけど、
+　それは受け入れるしかない――」
+<PAUSE>
+<ACTOR>2,k_t003a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面の対魔忍
+「ええ。じゃあ、あなたの主にも
+　よろしく言っておいて。
+　また連絡するわ」
+<PAUSE>
+<NAME_PLATE>
+　ピッ――。
+<PAUSE>
+<NAME_PLATE>
+　通信端末を切った仮面の女が、
+深くため息をついてラボの中央を見る。
+<PAUSE>
+<ACTOR>2,k_t003c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>仮面の対魔忍
+「そう……。
+　確かに馬超は破壊できたけど、
+　“代償”も大きかったわね」
+<PAUSE>
+//【イベントＣＧ：アスカメンテナンス１】【時間：夜】
+//　※対魔忍アサギ3ev086aを流用
+//新規　stv015a
+//　※注　『アスカは無事じゃなかったかも知れない』という感じのシリアス風のＢＧＭ（もしくは無音）などお願いします。
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>1000
+<EV>stv015a,IN, 1000
+<NAME_PLATE>アスカ
+「――――」
+<PAUSE>
+<NAME_PLATE>
+　そこには、アンドロイドの
+両手両足を失った甲河アスカがいた。
+<PAUSE>
+<NAME_PLATE>
+　目を閉じている。
+<PAUSE>
+<NAME_PLATE>
+　眠っているのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　その呼吸は死んだように静かである。
+<PAUSE>
+<NAME_PLATE>
+　その姿をしばらく眺め、
+ふいに仮面の女がにっこりと笑った。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「――起きなさいアスカ。
+　ご要望のケーキを買ってきたわよ」
+<PAUSE>
+//【イベントＣＧ：アスカメンテナンス２】【時間：夜】
+//　※対魔忍アサギ3ev086bを流用
+//新規　stv015b
+//　※注　『やっぱりアスカは無事でした』という感じのコミカル風のＢＧＭなどお願いします。
+<BGM_PLAY>bgm317,1000
+<EV>stv015b,NONE
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ほんとっ！！？
+　新港区の、例の新しいお店！！？」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「もちろん。３時間も行列待ち。
+　あなたのお陰で散々だったわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「え～っ？　でも、頑張ったご褒美に
+　何でも好きなものって言ったし～」
+<PAUSE>
+<NAME_PLATE>
+　つまり、それが“代償”である。
+<PAUSE>
+<NAME_PLATE>
+　アスカは新しいアンドロイドアームと
+レッグが来るまでラボから動けない。
+<PAUSE>
+<NAME_PLATE>
+　なので、そんな“功労者”アスカのため、
+仮面の女が自腹で
+お使いをしてあげているのだった。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ふわぁ。それにしてもヒマよねー。
+　ねえマダム、からかって遊ぶから
+　ふうま呼んでよ」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「なに言ってるの。
+　うちのラボに五車の人間を
+　入れられるわけないでしょう？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「う～ん、そりゃそっか……。
+　ていうか、マダムがあやめさんと
+　話してるの聞いたけど」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「なに？　島の時の話？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そう。あの倉庫のところで。
+　………ふうまって、
+　紅とも知り合いだったの？」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「ああ――」
+<PAUSE>
+<NAME_PLATE>
+　ホテルの地下に潜入する前、
+ふうま小太郎やあやめの主に
+ついて話していた。
+<PAUSE>
+<NAME_PLATE>
+　光学迷彩で隠れていたアスカも
+それを聞いていたのだろう。
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「やっぱり気になる？
+　あなたの恋敵かも知れないしね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「ちょ――！？
+　な、何をそんな……全然、
+　そういうアレじゃないし……」
+<PAUSE>
+<NAME_PLATE>アスカ
+「――そんなことより！！
+　早くケーキとお茶！
+　こっちは待ってたんだからね！」
+<PAUSE>
+<NAME_PLATE>仮面の対魔忍
+「はいはい♪
+　かしこまりました、お嬢様――」
+<PAUSE>
+<EV_OUT>1000
+<NAME_PLATE>
+　急に慌て出したアスカが
+そっぽを向く。
+<PAUSE>
+<NAME_PLATE>
+　仮面の女は微笑んで、箱から
+ケーキをふたつ取り出した。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<WAIT>1000
+<SCENARIO_END>

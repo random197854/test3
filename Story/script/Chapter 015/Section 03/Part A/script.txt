@@ -1,0 +1,625 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//シーン説明：
+//【黒画面】
+//【背景：五車町＿全景＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC007aより流用
+<BG>nc162b,IN, 1000
+<NAME_PLATE>
+　二車家の幹部・黒騎雫に
+命を狙われているなどつゆ知らず―――。
+<PAUSE>
+//【背景：五車町＿ふうま邸前＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC025aより流用
+<NAME_PLATE>俺
+「ただいま～～」
+<PAUSE>
+<BGM_PLAY>bgm307,1000
+<BG>nc056a,IN, 1000
+<ACTOR>0,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「あ、ふうま君、おかえりっ！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服
+//　　　＊対魔忍アサギＺＥＲＯの立ち絵を流用
+<NAME_PLATE>
+　蛇子と稲毛屋で別れて家に帰ってくると、
+さくらがちょうど中から出てきて、
+門の前でばったり出会った。
+<PAUSE>
+<NAME_PLATE>
+　異次元騒動以来、居候を決め込んでいるが、
+今の『おかえり』という言い方からして、
+すっかりここが我が家だ。
+<PAUSE>
+<NAME_PLATE>さくら
+「いや～～、今日もあっついね～～！」
+<PAUSE>
+<NAME_PLATE>
+　さくらはますます強くなっていく
+午後の陽射しを嬉しそうに見上げた。
+<PAUSE>
+<NAME_PLATE>俺
+「お前、どこいくんだ？」
+<PAUSE>
+<NAME_PLATE>さくら
+「暑いからプール！
+　ふうま君も一緒に行こっ！」
+<PAUSE>
+<NAME_PLATE>
+　そう言って、俺の返事も聞かずに
+グイッと腕を引く。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ええ！？　嫌だよ。
+　俺、学校から帰ってきたばっかしだし」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　思わずその手を離すと、
+断られると思っていなかったのか、
+さくらは驚いたように目を剥いた。
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「何だよそれ！
+　こんな可愛いさくらちゃんが
+　誘っているのに即拒否って酷いよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「俺は午前中みっちり鍛錬してきたんだよ」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「じゃあ、午後は水中戦の鍛錬がいいね♪」
+<PAUSE>
+<NAME_PLATE>俺
+「『じゃあ』じゃねえっての。
+　普通のプールでそんなことできるか」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「なら普通に泳ぎに行こうよ。
+　プールサイドで焼きそばとコーラ
+　奢ってあげるからっ」
+<PAUSE>
+<NAME_PLATE>俺
+「プールサイドで焼きそばとコーラか。
+　あれは確かに妙に美味いけどさ」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「でしょでしょ？
+　ほら行こっ、ふうまくん。
+　早くしないと夏が終わっちゃうよ」
+<PAUSE>
+<NAME_PLATE>俺
+「まだ始まったばかりだ」
+<PAUSE>
+<ACTOR>0,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「ぶ～～～～～～～！！
+　なんでそんなにテンション低いの！？
+　帰ってくるの待ってたのにぃ～～！！」
+<PAUSE>
+<NAME_PLATE>
+　さくらは不満そうにぶうたれた。
+<PAUSE>
+<NAME_PLATE>俺
+「待ってたのかよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「待ってたんだってば。
+　この美少女さくらちゃんがだよ？
+　嬉しくないの？」
+<PAUSE>
+<NAME_PLATE>俺
+「お前居候で、家にいる時はいるし、
+　今さらたいして嬉しくないな」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「も～～なんで～～～！！」
+<PAUSE>
+<NAME_PLATE>
+　さくらはどすんどすんと
+派手に地団駄を踏む。
+<PAUSE>
+<NAME_PLATE>俺
+「大体、プールはさすがにマズくないか？」
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「なんで？」
+<PAUSE>
+<NAME_PLATE>俺
+「大人のさくら先生とかアサギ校長に
+　会ったらどうすんだよ」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「大丈夫大丈夫。
+　タイムパラドックスとか次元の崩壊とか、
+　起きないってば。現に起きてないでしょ」
+<PAUSE>
+<NAME_PLATE>
+　さくらはカラカラと笑いながら、
+気楽に手を振った。
+<PAUSE>
+<NAME_PLATE>俺
+「別にそんなことは心配していないが」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　この若いさくらは、俺たちの世界の過去、
+だが人間関係や出来事が違う過去に相当する
+別次元から飛ばされてきた。
+<PAUSE>
+<NAME_PLATE>
+　ブレインフレーヤーとかいう
+タコみたいな異次元人のせいだ。
+<PAUSE>
+<NAME_PLATE>
+　で、そいつを殺したせいで、
+自分の世界に帰れなくなった。
+<PAUSE>
+<NAME_PLATE>
+　その時は、俺自身もさくら本来の世界、
+つまりこことはちょっと違う過去次元に
+飛ばされたのだが、
+<PAUSE>
+<NAME_PLATE>
+　そこには同じ目にあった凜子先輩がいて、
+なんと先輩は幼い自分自身と普通に出会って、
+しばらく暮らしていたのだという。
+<PAUSE>
+<NAME_PLATE>
+　しかし、子供の頃の自分と接していても、
+凜子先輩にはなにも起こらなかった。
+<PAUSE>
+<NAME_PLATE>
+　逆に、幼い頃に成長した自分―――その時は
+分からなくても、後で合点がいくような
+人物に会った記憶もないという。
+<PAUSE>
+<NAME_PLATE>
+　つまり同一人物だろうが、
+過去未来だろうが、別次元は別次元、
+互いに影響を及ぼしたりはしないらしい。
+<PAUSE>
+<NAME_PLATE>
+　もっとも、いるはずの人がいなかったり、
+世界が変わってしまったりといった事態を
+俺たちが認識できない可能性はあるが。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そんなＳＦ以前に問題なのは、
+アサギ校長やさくら先生に居候さくらが
+会うことによる“ややこしさ”だ。
+<PAUSE>
+<NAME_PLATE>
+　きっとトラブルになって
+厄介事を招くに決まっている。
+<PAUSE>
+<NAME_PLATE>
+　お気楽なさくらも、
+さすがにそれは同意見だ。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、凜子先輩経由でゆきかぜが
+居候さくらを知ったように、
+いずれバレてしまう状況ではあるのだが。
+<PAUSE>
+<ACTOR>0,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ねえ、ふうまくん、行こうよ。
+　行こうよぉ！」
+<PAUSE>
+<NAME_PLATE>
+　さくらはめげずに
+また俺の腕を引っ張る。
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱりプールとかはダメだ。
+　あんな人の多いところはな」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「じゃあ川！
+　山の方で川遊びしようよ！
+　それなら大丈夫でしょ！」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、山の方で川遊びなら
+　大丈夫だろうけど……」
+<PAUSE>
+<NAME_PLATE>さくら
+「ね！
+　ふうま君の影に隠れて移動すれば
+　誰にも見つからないし！」
+<PAUSE>
+<NAME_PLATE>俺
+「暑いのにまた出掛けるのもな……」
+<PAUSE>
+<ACTOR>0,ws_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「お願い！　一生のお願い！！」
+<PAUSE>
+<NAME_PLATE>
+　今度はバチッと手を合わせて拝んできた。
+<PAUSE>
+<NAME_PLATE>俺
+「何回目だよそれ」
+<PAUSE>
+<ACTOR>0,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「いいじゃんいいじゃん。
+　一生は長いんだからさ！」
+<PAUSE>
+<NAME_PLATE>俺
+「意味が分からん」
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「おーねーがーい。
+　もう暑くて死にそうだよーー！」
+<PAUSE>
+<NAME_PLATE>俺
+「だったらクーラーの効いた部屋で
+　ゴロゴロしてろよ。
+　俺はそうするつもりだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「んも～～～～！！
+　私は夏は夏らしくバシャバシャ
+　水遊びがしたいの！」
+<PAUSE>
+<NAME_PLATE>さくら
+「泳ぎたい泳ぎたい泳ぎたい～～～！！」
+<PAUSE>
+<NAME_PLATE>
+　なんという駄々っ子だ。
+<PAUSE>
+<NAME_PLATE>俺
+「仕方ねえな。
+　じゃあ掃除当番３日分な」
+<PAUSE>
+<NAME_PLATE>さくら
+「２日分！」
+<PAUSE>
+<NAME_PLATE>
+　その上、値切ろうとする。
+<PAUSE>
+<NAME_PLATE>俺
+「あのな」
+<PAUSE>
+<NAME_PLATE>
+　俺の顔が渋くなったのを見て、
+さくらはすかさず言った。
+<PAUSE>
+<ACTOR>0,ws_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「プラス、帰ってきたら、
+　明日まで『ＳＥＫＩＲＯＮＩＮ』は
+　ふうま君に返す！」
+<PAUSE>
+<NAME_PLATE>俺
+「……ふむ、それならいいか」
+<PAUSE>
+<ACTOR>0,ws_t009a,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「いやった～～～～～～ッ！！」
+<PAUSE>
+<NAME_PLATE>
+　よっぽど行きたかったらしい。
+<PAUSE>
+<NAME_PLATE>
+　さくらは満面の笑みを浮かべて万歳をした。
+<PAUSE>
+<NAME_PLATE>
+　ということで、帰ってきたばかりだが、
+またさくらと川に行くことになった。
+<PAUSE>
+//【黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方その頃―――
+<PAUSE>
+//【背景：五車町-水城家外観＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC049aより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc146a,IN, 1000
+<NAME_PLATE>
+　五車町の市街地から離れ、
+町を壁のように取り囲む山々のうちの一つ、
+その中腹に巨大な城がそびえている。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍の名門であると同時に、
+かつて金融業で財をなしたことで知られる
+水城家の邸宅だ。
+<PAUSE>
+<NAME_PLATE>
+　外敵の侵入を防ぐための水堀、
+その周囲に広がる見通しのよい中庭、
+そこに黒騎雫が現れた。
+<PAUSE>
+<NAME_PLATE>
+　綺麗に手入れされた庭木の影から
+いきなり出現したのである。
+<PAUSE>
+<ACTOR>1,ts_m109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>雫
+「あれー？」
+<PAUSE>
+//　※立ち絵
+//　　黒騎雫立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>
+　雫は眼前に広がるヨーロッパじみた光景に
+素っ頓狂な声を出した。
+<PAUSE>
+<NAME_PLATE>雫
+「こんな所にお城？
+　五車の町に行こうと思ったんだけど
+　変なとこに出ちゃったな」
+<PAUSE>
+<NAME_PLATE>
+　当人にも予想外のことであるらしく
+首をかしげているが、その顔は楽しげだ。
+<PAUSE>
+<NAME_PLATE>雫
+「こんな城があるなんて知らなかったよ。
+　まったく対魔忍の里は謎がいっぱいだね」
+<PAUSE>
+<NAME_PLATE>雫
+「やっぱりあのお城には
+　お姫様とかいたりするのかな？」
+<PAUSE>
+<NAME_PLATE>雫
+「きっと奥には秘密の部屋があって、
+　たくさんの財宝が隠されていて、
+　それを守る衛兵もいるんだろうね」
+<PAUSE>
+<NAME_PLATE>
+　雫は城を見上げながら、
+面白そうに独りごちた。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「そこの君……」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>1,CENTER,linear,400
+<GROUP>
+<BG>nc146a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<ACTOR>2,ts_m104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　突然、雫の背後から声がかけられた。
+<PAUSE>
+<NAME_PLATE>
+　声の主は対魔忍ライブラリーだ。
+<PAUSE>
+<NAME_PLATE>雫
+「へえ……」
+<PAUSE>
+<NAME_PLATE>
+　自分に気配を悟らせずに接近した男に
+雫はますます楽しそうに振り返った。
+<PAUSE>
+<ACTOR>2,ts_m104a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m109a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>雫
+「おじさん誰？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「私は対魔忍ライブラリー、
+　五車警護の任を務める者だ」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーは静かな口調で言った。
+<PAUSE>
+<NAME_PLATE>
+　彼は小太郎に稽古をつけた後、自分と同じく
+若き当主に忠誠を誓うふうま忍者を率いて、
+御庭番として五車の警備をしていた。
+<PAUSE>
+<NAME_PLATE>
+　ふうま宗家を守るだけではなく、
+五車を守り、五車の住人から信頼を得ることが
+御庭番の務めと考えているのだった。
+<PAUSE>
+<NAME_PLATE>雫
+「おじさんサイボーグだよね？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「如何にも。
+　君は侵入者のようだね」
+<PAUSE>
+<NAME_PLATE>雫
+「そうだよ。
+　どうして分かったの？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「君の纏う気だ」
+<PAUSE>
+<NAME_PLATE>雫
+「僕の気？
+　へえ、どんな感じがしたの？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「ふむ、夜の海といった所かな。
+　暗くて深い闇が広がっている」
+<PAUSE>
+<NAME_PLATE>雫
+「鋭いねえ、おじさん」
+<PAUSE>
+<NAME_PLATE>
+　相対する二人は対照的だった。
+<PAUSE>
+<NAME_PLATE>
+　雫は新しい玩具を見つけた子供のように
+好奇心を剥き出しにしている。
+<PAUSE>
+<NAME_PLATE>
+　対するライブラリーは侵入者を前に
+まるで穏やかな水面のように
+その感情を把握させない。
+<PAUSE>
+<NAME_PLATE>雫
+「部下も優秀そうだね」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（男）
+//　　　　＊モンスターイラストから流用
+//　　ふうま火遁衆（男）
+//　　　　＊モンスターイラストから流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>3,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ライブラリーの部下である
+ふうま御庭番衆が風のごとく現れ、
+雫の退路を断つように陣取った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライブラリー
+「君には聞きたいことがある」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍ライブラリー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストよ
+<ACTOR>1,ts_m109a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>雫
+「うん、なに？」
+<PAUSE>
+//　※立ち絵
+//　　黒騎雫立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラスト立ち絵
+<NAME_PLATE>ライブラリー
+「学園裏で警備の対魔忍が殺されていた。
+　君のような少年が現場で目撃されている」
+<PAUSE>
+<NAME_PLATE>雫
+「あれは僕がやったんじゃないよ」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「では誰がやったのかな？」
+<PAUSE>
+<NAME_PLATE>雫
+「それは内緒だよ。
+　告げ口は嫌いだからね」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「では君のことについて聞こう。
+　一体何者だ？」
+<PAUSE>
+<NAME_PLATE>雫
+「僕？　僕は黒騎雫」
+<PAUSE>
+<NAME_PLATE>
+　少しも隠す素振りを見せずに
+雫はあっさりと正体を明かした。
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「黒騎？　二車の上忍だな。
+　先代の当主をよく知っているが
+　君は少し雰囲気が違うようだ」
+<PAUSE>
+<NAME_PLATE>
+　答えるライブラリーの声に
+僅かに意外そうな感情が交じった。
+<PAUSE>
+<NAME_PLATE>
+　雫もこちらは驚きを素直に表して
+目を丸くする。
+<PAUSE>
+<NAME_PLATE>雫
+「へえ、おじさん、
+　父上のこと知ってるんだ！？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「いささかね。
+　ふむ、君は彼の息子か」
+<PAUSE>
+<NAME_PLATE>雫
+「機械のおじさん、
+　ふうまに詳しいのかい？
+　なら、ふうま小太郎を知らない？」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「彼にどんな用が？」
+<PAUSE>
+<NAME_PLATE>
+　ライブラリーの口調は変わらなかったが、
+その鉄の仮面の下で瞳が鋭く光る。
+<PAUSE>
+<NAME_PLATE>
+　まるでそれが見えたかのように、
+雫は嬉々として答えた。
+<PAUSE>
+<NAME_PLATE>雫
+「目抜けの当主様を抹殺するのさ。
+　そしたら骸佐様が
+　僕を認めてくれるだろ？」
+<PAUSE>
+<NAME_PLATE>雫
+「尚兄や八百比丘尼の婆さんなんかより
+　僕が一番役に立つんだってね」
+<PAUSE>
+<NAME_PLATE>ライブラリー
+「驚いた。
+　お館様を狙う刺客とはな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>御庭番
+「！！！！！！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（男）
+//　　　　＊モンスターイラストから流用
+//　　ふうま火遁衆（男）
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　まるで一息にベールを剥ぐように、
+雫を包囲するライブラリーとふうま御庭番の
+殺気が膨れあがった。
+<PAUSE>
+<NAME_PLATE>雫
+「へえ、おじさんたち、あの目抜け当主に
+　仕えてるんだ！　面白くなってきた」
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

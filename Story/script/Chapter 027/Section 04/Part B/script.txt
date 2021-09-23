@@ -1,0 +1,254 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：路地裏＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc066a,IN, 1000
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「へへっ、そんな剣で俺たちに―――」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビュンビュンッ！！
+<PAUSE>
+<NAME_PLATE>刺客
+「ぐがっっ！？」
+<PAUSE>
+<NAME_PLATE>
+　偉そうに能書きをたれようとしていた
+刺客の胸に小さな穴が二つ空いた。
+<PAUSE>
+<NAME_PLATE>
+　そいつは驚愕の表情を浮かべたまま、
+うつ伏せにぶっ倒れる。
+<PAUSE>
+<BG>nc066a,IN, 500
+<ACTOR>0,my_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「誰が剣だけで戦うと言いました？」
+<PAUSE>
+<NAME_PLATE>
+　その左手にはレーザーガンが握られている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「こ、このアマ！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊モンスターイラストより流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　早くも仲間を一人倒された刺客が
+彼女に向かって銃（こちらは実弾）を
+ぶっ放すが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,my_t004e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「無駄です！」
+<PAUSE>
+<SE_PLAY>se085
+<NAME_PLATE>
+　マヤはパッとマントをひるがえして
+それを防いでいた。
+<PAUSE>
+<NAME_PLATE>
+　どうやら防弾マントのようだ。
+<PAUSE>
+<NAME_PLATE>
+　そして躊躇うことなくその敵に近づき、
+今度は怒りの剣を閃かせる。
+<PAUSE>
+<NAME_PLATE>マヤ
+「はっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>刺客
+「ぐはっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　アリシアによく鍛えられているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　その太刀筋は昨夜の男爵などより
+遙かに鋭く、敵の急所を一撃で切り裂いた。
+<PAUSE>
+<NAME_PLATE>
+　血飛沫が舞い、刺客がまた一人倒れた。
+<PAUSE>
+<BG>nc066a,IN, 500
+<NAME_PLATE>俺
+「すごいな」
+<PAUSE>
+<NAME_PLATE>
+　もちろん俺もその勇姿を呑気に
+見物していたわけではない。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「はっっ！　はあっっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　マヤのマントのような便利なものはないが
+この手の闘いにはもう慣れている。
+<PAUSE>
+<NAME_PLATE>
+　迷うことなく敵集団に飛び込んで、
+パンパンと焦って撃ってくる弾を躱しながら、
+一人、二人、三人と立て続けに斬り捨てた。
+<PAUSE>
+<NAME_PLATE>
+　悪いが容赦しない。
+<PAUSE>
+<BG>nc066a,IN, 500
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>刺客
+「なっ！？　き、貴様らっ！？」
+<PAUSE>
+<NAME_PLATE>
+　もう残るはあと一人だ。
+<PAUSE>
+<NAME_PLATE>俺
+「やっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　俺は戦うか逃げるか躊躇している刺客の
+銃を持っている手首を斬り飛ばしてから、
+刃をくるりと返して峰打ちで仕留めた。
+<PAUSE>
+<NAME_PLATE>刺客
+「ぐはっっっ！！」
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc066a,IN, 500
+<ACTOR>0,my_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「フーマ、よくやりました。
+　恐るべき早業ですね」
+<PAUSE>
+<NAME_PLATE>
+　マヤは言い、
+呻いている生き残りに近づいて、
+その喉元に切っ先を突きつけた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,my_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>マヤ
+「誰の命令で私の命を狙いました？
+　さあ白状なさい！」
+<PAUSE>
+<NAME_PLATE>刺客
+「ぐぐぐ……そ、それは―――」
+<PAUSE>
+<NAME_PLATE>
+　腕も覚悟もない刺客が
+簡単に口を割ろうとしたその時。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　全身を戦慄が貫いた。
+<PAUSE>
+<NAME_PLATE>
+　死の予感だ。
+<PAUSE>
+<NAME_PLATE>
+　ここにいてはまずい。
+<PAUSE>
+<NAME_PLATE>
+　やられる！
+<PAUSE>
+<NAME_PLATE>俺
+「マヤ様っっ！！」
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マヤ
+「えっ！？」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　とっさにマヤに抱きついて、
+そこから大きく飛び退いた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガッッ！！
+<PAUSE>
+<NAME_PLATE>
+　俺たちがいた場所を機銃掃射が駆け抜けた。
+<PAUSE>
+<NAME_PLATE>
+　刺客の身体がボロ切れのように吹っ飛ぶ。
+<PAUSE>
+<NAME_PLATE>
+　むろん即死だ。
+<PAUSE>
+<BG>nc066a,IN, 500
+<NAME_PLATE>俺
+「なんだ！？」
+<PAUSE>
+<NAME_PLATE>
+　とにかくマヤをかかえて物陰に隠れ、
+新たな敵の正体を確認する。
+<PAUSE>
+//　※立ち絵
+//　　ダーマ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m202a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ずんぐりむっくりしたロボットだ。
+<PAUSE>
+<NAME_PLATE>
+　なんだアイツは！？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それに答えてくれたのはマヤだった。
+<PAUSE>
+<ACTOR>0,my_t002d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>マヤ
+「まさかパワードスーツ！？」
+<PAUSE>
+<NAME_PLATE>
+　その声は震えていた。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

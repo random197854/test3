@@ -1,0 +1,187 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：アミダハラ＿大通り＿朝】【時間：朝】
+<BGM_PLAY>bgm313,1000
+<BG>nc273a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m082a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「グルルルルル！！」
+<PAUSE>
+<NAME_PLATE>ガーゴイル
+「ＧＵＲＲＲＲＲＲ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　ガーゴイル
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　敵はかなりの数だ。
+<PAUSE>
+<NAME_PLATE>
+　対する凜子はたった一人。
+<PAUSE>
+<NAME_PLATE>
+　当然のように、
+数を頼みに彼女を取り囲もうとする。
+<PAUSE>
+<NAME_PLATE>
+　しかし、それより早く、
+凜子の落椿村正が真一文字に走った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,rn_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「逸刀流・一ノ秘技“鳳仙花”
+　散れっっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　秋山凜子戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シュパアッッ！！
+<PAUSE>
+<NAME_PLATE>
+　紫電一閃。
+<PAUSE>
+<NAME_PLATE>
+　ただの一振りで、
+半数以上の魔物が両断された。
+<PAUSE>
+<BG>nc273a,IN, 500
+<ACTOR>0,rn_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「よし」
+<PAUSE>
+<NAME_PLATE>
+　凜子は一つ頷いた。
+<PAUSE>
+<NAME_PLATE>
+　やむを得ず抜いたあの時とは違う。
+<PAUSE>
+<NAME_PLATE>
+　落椿村正は
+完全に彼女の意志で操られていた。
+<PAUSE>
+<NAME_PLATE>
+　輝く刃は凜子の迷いのない心に
+落椿村正が喜びの声を上げているようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「ハッッ！！」
+<PAUSE>
+<NAME_PLATE>ガーゴイル
+「ＧＵＲＲＲＲＲ！！？！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>凜子
+「やあっっ！！」
+<PAUSE>
+<NAME_PLATE>鬼火
+「ギャアッッ！！」
+<PAUSE>
+<NAME_PLATE>
+　凜子は逸刀流を存分に発揮して、
+使い魔たちをバッタバッタと薙ぎ倒す。
+<PAUSE>
+<NAME_PLATE>
+　その技は圧倒的で全く危なげがない。
+<PAUSE>
+<BG>nc273a,IN, 500
+<ACTOR>0,on_t001b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>美樹
+「すごーい！
+　アンネローゼさんみたい！」
+<PAUSE>
+//　※立ち絵
+//　　音無美樹＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<ACTOR>1,n_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ノイ
+「惚れ惚れするね。
+　あの妖刀を完全に操っているよ」
+<PAUSE>
+//　※立ち絵
+//　　ノイ＿立ち絵
+//　　　　＊鋼鉄の魔女アンネローゼより立ち絵を流用
+<NAME_PLATE>美樹
+「凜子さん、かっこいいーー」
+<PAUSE>
+<NAME_PLATE>ノイ
+「あの清冽さ。
+　まさしく逸刀流だ。
+　あの嬢ちゃんの婆さんを思い出すねえ」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか表に出てきた二人が
+凜子の戦いぶりを見物している。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,rn_t002e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「やああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc273a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　凜子が全ての使い魔を倒すまで、
+三分とかからない。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　その直後だ。
+<PAUSE>
+<ACTOR>0,rn_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>凜子
+「む……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　倒した使い魔たちの血が集まって
+地面に文字を描き始めた。
+<PAUSE>
+<NAME_PLATE>
+　最初からそれが目的だったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　使い魔はただのメッセンジャー。
+<PAUSE>
+<NAME_PLATE>
+　『今夜０時、阿弥陀城で待つ』
+<PAUSE>
+<NAME_PLATE>
+　血文字はそう書かれていた。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

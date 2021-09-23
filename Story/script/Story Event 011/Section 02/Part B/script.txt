@@ -1,0 +1,328 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ふうま別邸＿居間＿昼】【時間：昼】
+//　　※対魔忍アサギ３_nc010aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc235a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>忍者
+「――驕ったな、弾正の執事！
+　その手負いで我らに勝てると
+　思うたかっ！！？」
+<PAUSE>
+//　　※立ち絵
+//　　　ふうま下忍
+//　　　　＊カードイラストより流用
+//　　※立ち絵
+//　　　ふうま火遁衆
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「ふんっ。どのような体でも
+　貴様ら如きに負けんよ――」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音立ち絵＿対魔忍衣装
+//　　　　　＊ふうま天音02カードイラストより流用
+<NAME_PLATE>
+　天音が唇を歪める。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　神速で振り下ろされる刃をするりと
+受け止め、そのままの勢いで相手を
+地面に叩きつけた。
+<PAUSE>
+<SE_PLAY>se023
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>忍者
+「ぐはっ！！？」
+<PAUSE>
+//　　※立ち絵
+//　　　ふうま下忍
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　頸椎をへし折られた忍が
+血反吐を吐いた。
+<PAUSE>
+<NAME_PLATE>
+　ふうま体術・波の型と呼ばれる戦法だ。
+<PAUSE>
+<NAME_PLATE>
+　これならば少しも己の力を使わず、
+負傷した体を庇いながら戦うことができる。
+<PAUSE>
+<ACTOR>1,ts_m002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>忍者
+「くそっ！？
+　ここは一先ず退け！！！」
+<PAUSE>
+//　　※立ち絵
+//　　　ふうま火遁衆
+//　　　　＊カードイラストより流用
+<BGM_STOP>1000
+<SE_PLAY>se054
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　手傷を負った一団は、戦いに
+固執することなくその場から消えた。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「ふんっ。やはりただの斥候か……」
+<PAUSE>
+<NAME_PLATE>
+　天音はあえてそれを見送った。
+<PAUSE>
+<NAME_PLATE>
+　右足の負傷は思った以上に大きい。
+追ったところで成果は得られまい。
+<PAUSE>
+<NAME_PLATE>天音
+（それに、そもそも私は――）
+<PAUSE>
+<NAME_PLATE>天音
+「ぐぅっ……」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ふいに腹部に刺すような痛み。
+<PAUSE>
+<NAME_PLATE>
+　体術で誤魔化すにも限界が
+あったようだ。
+<PAUSE>
+<NAME_PLATE>
+　天音が敵――忍たちの頭目から
+受けた深手は、右足と、そして
+この腹部を大きく貫く刺し傷。
+<PAUSE>
+<NAME_PLATE>
+　押さえた手のひらの下から
+ジクジクと血が滲んでくる。
+<PAUSE>
+<NAME_PLATE>
+　天音は痛みに顔を歪めながら、
+がっくりと床に膝をついた。
+<PAUSE>
+<ACTOR>0,hu_t001e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>小太郎
+「――天音さんっ！？
+　だ、大丈夫ですかっ！！？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま小太郎少年時代立ち絵＿私服
+//　　　　＊表情差分などなしで描き下ろしを用意
+<NAME_PLATE>天音
+「！？　お前――隠れていろと
+　言っておいたろうがっ！？」
+<PAUSE>
+<NAME_PLATE>
+　顔を真っ青にした小太郎が
+駆け込んでくる。
+<PAUSE>
+<NAME_PLATE>
+　どうやら言いつけを守らず、
+天音の戦いを密かに見ていたようだ。
+<PAUSE>
+<ACTOR>0,hu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>小太郎
+「す、すみません……！　でも、
+　天音さんの傷が気になって……」
+<PAUSE>
+<NAME_PLATE>天音
+「………本物のうつけだな、
+　忍がこの程度で弱るものか」
+<PAUSE>
+<NAME_PLATE>
+　天音が吐き捨てる――が、
+それはただの虚勢であった。
+<PAUSE>
+<NAME_PLATE>
+　腹部の傷は深く、刻一刻と
+天音の命を蝕みつつある。
+<PAUSE>
+<NAME_PLATE>小太郎
+「あ、あと……
+　それに、今の連中は……？」
+<PAUSE>
+<NAME_PLATE>小太郎
+「五車の対魔忍でもないし……
+　ふうまの忍とも、違っていた
+　と思うんだけど……」
+<PAUSE>
+<NAME_PLATE>天音
+「ふうまの忍ではあるさ。
+　ただし――その抜け忍だがな」
+<PAUSE>
+<NAME_PLATE>小太郎
+「……！！」
+<PAUSE>
+<NAME_PLATE>天音
+「奴らは弾正様の亡きあと米連に
+　亡命した、元ふうまの抜け忍衆」
+<PAUSE>
+<NAME_PLATE>天音
+「つまり、私と同じ立場と境遇――
+　いわば同志という奴だ」
+<PAUSE>
+<ACTOR>0,hu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>小太郎
+「天音さんと、同じ……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ふうま弾正の反乱後――。
+<PAUSE>
+<NAME_PLATE>
+　その配下だった忍たちの大半は、
+新たに当主となった小太郎と共に
+五車に恭順したが、
+<PAUSE>
+<NAME_PLATE>
+　一方で、それを良しとせずに
+戦い続ける者もいた。
+<PAUSE>
+<NAME_PLATE>
+　天音もその中の一人であり、
+さっき襲ってきたのもその一団。
+だが――。
+<PAUSE>
+<ACTOR>0,hu_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小太郎
+「で、でも、どうしてそれが、
+　天音さんを襲って……？」
+<PAUSE>
+<NAME_PLATE>天音
+「私が一抜けしようとしたからさ。
+　奴らと共に戦うのが馬鹿馬鹿しくなった」
+<PAUSE>
+<NAME_PLATE>
+　だから追っ手をかけられた。
+<PAUSE>
+<NAME_PLATE>
+　粛清し、一党を抜けようとする
+者の見せしめとするために。
+<PAUSE>
+<NAME_PLATE>小太郎
+「抜けようと……？
+　何かあったんですか……？」
+<PAUSE>
+<NAME_PLATE>天音
+「お前に関係あるか？
+　あまり私に立ち入るな、うつけ」
+<PAUSE>
+<NAME_PLATE>小太郎
+「あ……。
+　ご、ごめんなさい……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　少年が傷ついたように目を伏せた。
+<PAUSE>
+<NAME_PLATE>天音
+（……………愚かなのは、私だな）
+<PAUSE>
+<NAME_PLATE>
+　彼が悪くないのはわかっている。
+<PAUSE>
+<NAME_PLATE>
+　そうすることでしか、敗れたふうま
+一門に生き延びる道がなかったことも。
+<PAUSE>
+<NAME_PLATE>
+　しかし弾正を唯一の主として慕う
+天音にとっては。
+<PAUSE>
+<NAME_PLATE>
+　彼の死後、いち早く五車に下った
+小太郎と、その守り役である時子を
+良く思うことは難しかった。
+<PAUSE>
+<NAME_PLATE>天音
+「………そんなことより、
+　お前は隠れる算段でもしておけ」
+<PAUSE>
+<NAME_PLATE>天音
+「さっきの連中はただの斥候だ。
+　すぐに加勢を引き連れて戻ってくる」
+<PAUSE>
+<ACTOR>0,hu_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小太郎
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　小太郎が顔を上げて天音を見る。
+<PAUSE>
+<NAME_PLATE>天音
+「奴らの目的は私だ。
+　私の首さえ取れば満足して去るだろう」
+<PAUSE>
+<NAME_PLATE>
+　もちろんいくら雑魚に囲まれようと、
+天音は後れを取るつもりはない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　だが、次は必ず“奴”がくる。
+<PAUSE>
+<NAME_PLATE>
+　弾正亡き後、残兵をまとめて米連に下り、
+ふうま抜け忍衆の頭目となった男が。
+<PAUSE>
+<NAME_PLATE>天音
+（本当は、ここから逃がして
+　やれれば良かったんだがな……）
+<PAUSE>
+<NAME_PLATE>
+　この件は小太郎とは無関係だ。
+<PAUSE>
+<NAME_PLATE>
+　巻き込むつもりはなかった。
+<PAUSE>
+<NAME_PLATE>
+　だが“弾正の息子”と知られたら、
+奴らが放置することはないだろう。
+<PAUSE>
+<NAME_PLATE>
+　そして、すでにこの館は
+抜け忍衆に包囲されているはずだ。
+<PAUSE>
+<NAME_PLATE>
+　逃げ道はない。
+<PAUSE>
+<NAME_PLATE>
+　運が良ければ、奴らは小太郎の
+存在に気付かず去るだろうが――。
+<PAUSE>
+<NAME_PLATE>
+　天音がそこまで考えた時、
+思いがけない力強い声で少年が言った。
+<PAUSE>
+<ACTOR>0,hu_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>小太郎
+「そっ、そういうことなら――
+　任せてください、天音さん！
+　俺に考えがある！」
+<PAUSE>
+<NAME_PLATE>天音
+「なに……？」
+<PAUSE>
+//→Section２終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

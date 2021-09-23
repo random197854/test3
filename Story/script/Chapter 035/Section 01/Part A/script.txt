@@ -1,0 +1,467 @@
+//=================================================================
+//FileNo:S101a
+//シーン名：プロローグ
+//【黒画面】
+<NAME_PLATE>
+　その森の奥には
+大きなお城のような家があった。
+<PAUSE>
+//【背景：五車町山中＿ゆきかぜの家＿昼】【時間：昼】
+//　※対魔忍アサギZERO＿NC049aより流用
+//　※夢回想中なので背景はモノクロ、またはセピア加工などでお願いします。
+//nc146d
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm307,1000
+<BG>nc146d,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　絵本の中から出てきたような
+きらきらとした美しいお城。
+<PAUSE>
+<NAME_PLATE>
+　そこには仲の良い家族が住んでいた。
+<PAUSE>
+<NAME_PLATE>
+　強くて頼りになるお父さん。
+<PAUSE>
+<NAME_PLATE>
+　優しくてきれいなお母さん。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと変だけど面倒見のいい老執事。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんな大人たちに見守られて
+すくすくと育つ、元気一杯の女の子。
+<PAUSE>
+<NAME_PLATE>？？？
+（…………？）
+<PAUSE>
+<NAME_PLATE>？？？
+（あぁ……これは……）
+<PAUSE>
+<NAME_PLATE>
+　明るい笑顔にあふれた毎日。
+<PAUSE>
+<NAME_PLATE>
+　陽だまりのような優しい記憶。
+<PAUSE>
+<NAME_PLATE>
+　幸せだった。
+<PAUSE>
+<NAME_PLATE>
+　そんな幸せな日々が、
+いつまでも続くと思っていた。
+<PAUSE>
+<NAME_PLATE>
+　……いつまでも続く、
+はずだった。
+<PAUSE>
+//【背景：五車町-水城家エントランス＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC050aより流用
+//　※夢回想中なので背景はモノクロ、またはセピア加工などでお願いします。
+//nc147d
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc147d,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>女の子
+『えへへ。おかーさん。
+　おたんじょーびおめでとーっ！』
+<PAUSE>
+<NAME_PLATE>女の子
+『はいっ！　これ♪
+　じいやといっしょにおたんじょーびの
+　けーきつくったんだ』
+<PAUSE>
+<NAME_PLATE>女の子
+『それから、えへへ♪
+　これは……どうしようかなぁ？』
+<PAUSE>
+<NAME_PLATE>女の子
+『じつは、ないしょだけど、
+　おとーさんといっしょに
+　おかいものに行って……』
+<PAUSE>
+<NAME_PLATE>女の子
+『それで……はいっ♪
+　いつもがんばっている
+　おかーさんに、プレゼント！』
+<PAUSE>
+<NAME_PLATE>女の子
+『えへへ♪　このプレゼントは、
+　これからもみんなで、ずっとずっと、
+　いっしょにいられるようにって――』
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>？？？
+（！！！！？）
+<PAUSE>
+<NAME_PLATE>？？？
+（ああっ！！　いや、ちがうのっ！？
+　わたしは、わたしは――あぁあぁあぁぁ
+　ああぁぁぁあああぉ！！！）
+<PAUSE>
+//【背景：ヨミハラ繁華街＿路地裏＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc031aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc009a,IN, 1000
+<ACTOR>1,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>男
+「ま、魔女様っ！！？
+　どうかされましたか……！？
+　お気を確かに！！」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>幻影の魔女
+「っ！？
+　あ、あぁ……沢北……」
+<PAUSE>
+//　※立ち絵
+//　　水城不知火立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　配下の男の声で彼女は目を覚ます。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　そこは、あの優しく温かな
+森の奥から遠く離れた場所。
+<PAUSE>
+<NAME_PLATE>
+　幾多の人魔が闇に蠢く
+地下都市の薄汚れた路地裏だ。
+<PAUSE>
+<NAME_PLATE>沢北
+「休息のところ
+　お声がけして申しわけございません」
+<PAUSE>
+<NAME_PLATE>沢北
+「何やら主様が
+　うなされていたようなので……
+　もしや傷口でも開いたのかと」
+<PAUSE>
+<ACTOR>1,ts_m019a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,si_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「いえ、何でもないわ……。
+　今のは……
+　少し悪い夢を見ていただけ」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「傷の方も……大丈夫。
+　今はだいぶ楽になっているわ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　気がかりそうな目を向けている
+配下の男――沢北に彼女がうなずく。
+<PAUSE>
+<ACTOR>0,si_t003a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　見るものを圧倒するような妖艶な
+肉体を持つ絶世の美女。
+<PAUSE>
+<NAME_PLATE>
+　淫魔族の大幹部として知られる
+『幻影の魔女』である。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+（まさか、こんなときに
+　あの頃の夢を見るなんて……）
+<PAUSE>
+<NAME_PLATE>
+　これも何かの罰かしら――
+と彼女は自嘲的に考える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　彼女は今、少数の
+配下とともに逃亡中であった。
+<PAUSE>
+<NAME_PLATE>
+　同胞だと思っていた相手から
+突然の攻撃を受け、かわす隙もなく
+下腹部を深く抉られた。
+<PAUSE>
+<NAME_PLATE>
+　その傷を癒そうと少しだけ
+休息するつもりが、いつの間にか
+まどろんでいたようだ。
+<PAUSE>
+<ACTOR>0,si_t003a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「それより状況は？
+　私が眠っていた間、
+　何か良い知らせはあった？」
+<PAUSE>
+<ACTOR>1,ts_m019a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>沢北
+「いえ、生憎と……。
+　逆に悪い知らせがいくつか」
+<PAUSE>
+<NAME_PLATE>沢北
+「“奴ら”の手によって、
+　この区画は完全に封鎖されたようです」
+<PAUSE>
+<NAME_PLATE>沢北
+「それから、別ルートで
+　逃走した者たちの連絡が途絶えました。
+　恐らく始末されたかと……」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「そう……。
+　お世辞にも良い状況とは
+　言えないわね……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やはりこれが“罰”なのかもね、
+と彼女は再び自嘲的に微笑んだ。
+<PAUSE>
+<NAME_PLATE>
+　大切なものを捨ててきた罰。
+<PAUSE>
+<NAME_PLATE>
+　だが、今それに思い耽る余裕はない。
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「とにかく、
+　やれるだけのことはやりましょう」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「この区画さえ抜け出せれば、
+　“奴ら”も表立って動けなくなる。
+　そうすれば一息つけるわ」
+<PAUSE>
+<NAME_PLATE>沢北
+「御意。お供いたします」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　現在、魔女と配下の男がいるのは
+彼女を攻撃した“ある者”たちの支配区域。
+<PAUSE>
+<NAME_PLATE>
+　強い結界が張られ、
+“魔女”と呼ばれる彼女ですら
+万全に術を使うことができない。
+<PAUSE>
+<NAME_PLATE>
+　ここで敵に囲まれれば
+命にかかわる事態となるだろう。
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「あなたたちにも世話をかけるわ」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「この傷さえなければ、もう少し
+　楽をさせてあげられたんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　魔女が己の下腹部の傷に
+手を当てながら力なく笑う。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　“ある者”から受けた
+傷は思いのほか深い。
+<PAUSE>
+<NAME_PLATE>
+　何らかの呪いでも
+かけられているのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　魔力による治癒を続けているが、
+その回復は非常に緩慢だ。
+<PAUSE>
+<NAME_PLATE>
+　結界と呪いの傷。
+<PAUSE>
+<NAME_PLATE>
+　いかに幻影の魔女とはいえ、
+これでは力を出し切れない。
+<PAUSE>
+<ACTOR>0,ts_m019a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>沢北
+「いえ、私どもにはお気遣いなく」
+<PAUSE>
+<NAME_PLATE>沢北
+「“これよりあなたを真の主として
+　仕えよ”。それがあの方のご意思」
+<PAUSE>
+<NAME_PLATE>沢北
+「そして、私どもも
+　それに深く賛同しております」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「ふふ、そうだったわね……。
+　ありがとう沢北、
+　じゃあ行きましょ――」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　微笑んで立ち上がりかけた
+魔女の目が大きく見開かれた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボン！！！！！
+<PAUSE>
+//　※鮮血画面など
+<NAME_PLATE>沢北
+「あがっ！？　ああぁああああぁっ！！？」
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「さ、沢北っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、目の前に立っていた配下の
+右腕の肩から先が吹き飛んでいた。
+<PAUSE>
+<NAME_PLATE>
+　それに続き、路地の
+奥から凄まじい咆哮が響く。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<BG>nc009a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m260a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m260a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔獣たち
+「ＵＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯＯＯッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ミノタウロス
+//　　　＊モンスターイラストより流用
+//　　ミノタウロス
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m263a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m263a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔術師
+「いたぞっ！！！
+　魔女を逃がすなっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ダークチェイサー
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ダークチェイサー
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　地響きを立てて人身牛面の
+魔獣が狭い路地裏を進んでくる。
+<PAUSE>
+<NAME_PLATE>
+　さらにそれを操っているらしき
+魔術師の集団がその後ろに続く。
+<PAUSE>
+<NAME_PLATE>
+　配下の腕を吹き飛ばしたのも、
+この魔術師が放った電撃だ。
+<PAUSE>
+<ACTOR>0,si_t003a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>幻影の魔女
+「っ……。来たわね……」
+<PAUSE>
+<NAME_PLATE>
+　顔を強張らせた魔女が得物を構える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m263a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m260a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　人身牛面の魔獣ミノタウロスと
+それを操る魔術師たち。
+<PAUSE>
+<NAME_PLATE>
+　この者たちは皆、彼女を狙う
+敵から強大な魔力を授けられている。
+<PAUSE>
+<NAME_PLATE>
+　力を出し切れない状態の
+彼女には苦しい相手だが――
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、そこまで考えた瞬間、
+彼女の顔が凍り付く。
+<PAUSE>
+<NAME_PLATE>？？？
+「……探したわよ、幻影の魔女」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　魔術師たちとは反対側から、
+魔女を挟撃するようにやってくる
+一人の男の姿があった。
+<PAUSE>
+<NAME_PLATE>
+　筋骨隆々の体躯。
+<PAUSE>
+<NAME_PLATE>
+　過剰にゴージャスな衣装を
+誇らしげに着こなした奇怪な麗人。
+<PAUSE>
+<NAME_PLATE>
+　淫魔族幹部・アンブローズ。
+<PAUSE>
+<NAME_PLATE>幻影の魔女
+「そう……。
+　あなたも、私を討ちに来たのね、
+　アンブローズ」
+<PAUSE>
+//→S102a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

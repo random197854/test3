@@ -1,0 +1,635 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　東京の地下３００メートルにある
+無法都市ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　そこには地上では扱うことのできない
+魔界由来の様々な品物を売り買いする店が
+存在している。
+<PAUSE>
+<NAME_PLATE>
+　メルメ・エルヒェムの魔草屋も
+その一つだ。
+<PAUSE>
+//【背景：魔草屋＿店内＿昼夜共通】【時間：夜】
+//　※TentacleandWitches_nc019aより流用
+//nc418a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc418a,IN, 1000
+<ACTOR>0,chr_t0328a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>メルメ
+「うふふ。
+　今日はどんな新しい草花に出会えるかしら。
+　魔草よ、魔草よ、生まれておいで～～」
+<PAUSE>
+//　※立ち絵
+//　　メルメ・エルヒェム
+//　　　＊カードイラストより流用
+//　※背景差分で魔草を生やすところを見せたいのでメルメは画面右側に置いて、背景中央の魔法陣がある程度見えるようにしてください。
+<ACTOR_OUT>0,RIGHT,linear,1000
+<NAME_PLATE>
+　メルメは軽やかにハープをつま弾きながら、
+店の床に種をまいた。
+<PAUSE>
+//【背景：魔草屋＿店内（魔草）＿昼夜共通】【時間：夜】
+//　※TentacleandWitches_nc019bより流用
+//※ここで魔草が生えた背景オンリーを見せた後はメルメの表示位置は真ん中でかまいません。
+//nc418b
+<BG>nc418b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　すると石造りの床から草木が生え、
+にょきにょきと背を伸ばし始める。
+<PAUSE>
+<NAME_PLATE>
+　それらは本来、
+魔界でしか育つことのない草木、魔草だ。
+<PAUSE>
+<NAME_PLATE>
+　メルメは生まれてきた魔草に声をかけて、
+楽しそうに摘み取り始めた。
+<PAUSE>
+<ACTOR>1,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「まあ、マンドレイクさん。
+　今日もうちにきてくれたのね
+　ありがとう～」
+<PAUSE>
+//　※立ち絵
+//　　メルメ・エルヒェム
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　引き抜くと悲鳴を発し、
+聞いた人間を発狂させるというマンドレイクが
+メルメの手にかかればスルスルと抜けていく。
+<PAUSE>
+<NAME_PLATE>メルメ
+「あら、この香りはモーリュちゃんね。
+　うふふ、久しぶりね～、元気だった？」
+<PAUSE>
+<NAME_PLATE>
+　ギリシャ神話でヘルメスがオデュッセウスに
+与えたという伝説の薬草もメルメにとっては
+たまに尋ねてくる友達のようなものだ。
+<PAUSE>
+<NAME_PLATE>メルメ
+「まあまあ、あなたは初めての子ね。
+　ええ、お姉さんはちゃんと知ってるわよ
+　スパゲッティツリーくんね、よろしくね～」
+<PAUSE>
+<NAME_PLATE>
+　近年、魔界で発見されたばかりの奇草との
+出会いにメルメは顔を輝かせた。
+<PAUSE>
+<NAME_PLATE>
+　彼女は種や根さえあれば
+あらゆる場所に魔草を生やせる
+『萌草魔術』の使い手であり、
+<PAUSE>
+<NAME_PLATE>
+　そうやって生やしたハープと踊りで、
+魔草を自在に操る『魔草使い』でもあった。
+<PAUSE>
+<NAME_PLATE>
+　メルメが育てる魔草は究極の一品と言われ、
+この店は知る人ぞ知る隠れた名店であり、
+目利きな客の来訪が絶えないのだった。
+<PAUSE>
+<ACTOR>1,chr_t0328a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m021a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>魔術師
+「アンブロディアを探している。
+　ここに来ればあると思ったのだが」
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　＊カードイラストより流用
+<NAME_PLATE>メルメ
+「はいはい、もちろんございます～。
+　アンブロディアちゃん、良かったわね。
+　あなたを欲しい人が現れたわよ～」
+<PAUSE>
+<NAME_PLATE>魔術師
+「さすがだな。
+　少し見させてもらうぞ」
+<PAUSE>
+<NAME_PLATE>メルメ
+「どうぞどうぞ。
+　じっくりお選びになってくださいね～」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ts_m007a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ギャング姉御
+「あたし最近ちょっと疲れ気味でさ。
+　いい魔草はないかい？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　＊カードイラストより流用
+<NAME_PLATE>メルメ
+「それならハオマくんなんてどうかしら？
+　これを煎じて飲めば元気百倍よ。
+　でもあんまりこの子たちに頼らないでね～」
+<PAUSE>
+<NAME_PLATE>ギャング姉御
+「そうも言ってられなくてね。
+　ここで飲ませてもらっていいかい？」
+<PAUSE>
+<NAME_PLATE>メルメ
+「じゃあ、そこの土瓶を使って。
+　そうね、時間は１０分ってとこかしら～」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　馴染みの魔術師や
+女ギャングの相手をしていると
+カウンターの電話が鳴った。
+<PAUSE>
+<ACTOR>1,chr_t0328a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>メルメ
+「はいはい、メルメの魔草屋です～」
+<PAUSE>
+<NAME_PLATE>メルメ
+「サーナの佐那様？
+　いつもお世話になっています～～」
+<PAUSE>
+<NAME_PLATE>メルメ
+「え？　ハチサンが届いていない？
+　しょ、少々お待ちください～～」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルメ
+「す、すいません～～～。
+　発送を忘れていました。
+　申し訳ありません、今すぐに―――」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　問い合わせの電話でミスに気づき、
+メルメが大慌てになったとき。
+<PAUSE>
+<SE_PLAY>se128
+<NAME_PLATE>
+　バンッ！
+<PAUSE>
+<NAME_PLATE>
+　店の扉が勢いよく開かれた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>メルメ
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　思わずそちらを見る。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m122a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m266a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>覆面の客たち
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ライトニング
+//　　　＊モンスターイラストより流用
+//　※対魔忍＜魔性＞
+//　　　＊モンスターイラストより流用
+//　※ライトニングの左右に二体並べてください
+<NAME_PLATE>
+　入ってきたのは覆面姿の
+いかにも怪しい男たちだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「い、いらっしゃいませ？」
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの客は大抵怪しいので、
+入り方に驚きつつも、普通に応対した
+メルメだったが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　店にいた女ギャングと魔術師が
+男たちの殺気に反応した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m021a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m007a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ギャング姉御
+「なんだいあんた達は！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　＊カードイラストより流用
+<NAME_PLATE>魔術師
+「街外の者か」
+<PAUSE>
+//　※立ち絵
+//　　魔術師
+//　　　＊カードイラストより流用
+<NAME_PLATE>メルメ
+「え？　どうしたの～？」
+<PAUSE>
+<NAME_PLATE>ギャング姉御
+「襲撃だよ！」
+<PAUSE>
+<NAME_PLATE>魔術師
+「無粋な」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「え？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　メルメが戸惑い、
+客の二人が攻撃しようとした瞬間、
+<PAUSE>
+<NAME_PLATE>
+　男たちが動いた。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッッ！！　バシュウウッッ！！
+<PAUSE>
+<NAME_PLATE>魔術師
+「ぐはっっ！！」
+<PAUSE>
+<NAME_PLATE>ギャング姉御
+「ぎゃあっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　あっという間だった。
+<PAUSE>
+<BG>nc418b,IN,1000
+<NAME_PLATE>
+　生粋のヨミハラ住人、腕に覚えのある二人が
+メルメの目の前で惨殺されていた。
+<PAUSE>
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「ああっ！　そんな！」
+<PAUSE>
+<NAME_PLATE>
+　事ここに至って、
+メルメもようやく彼らが敵だと理解する。
+<PAUSE>
+<NAME_PLATE>メルメ
+「いきなりなにをするんですか？
+　あなたたちは何者ですか？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>暗殺部隊リーダー
+「アーカムバイオ製薬」
+<PAUSE>
+<NAME_PLATE>
+　覆面たちの一人がただ一言告げる。
+<PAUSE>
+<NAME_PLATE>
+　その名にメルメは覚えがあった。
+<PAUSE>
+<NAME_PLATE>メルメ
+「アーカムバイオ……？
+　では、あなたたちが魔草を？」
+<PAUSE>
+<NAME_PLATE>暗殺部隊リーダー
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　男は無言。
+<PAUSE>
+<NAME_PLATE>
+　メルメはそれを肯定と受け取った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「この子達に無理やり命令を
+　聞かせるなんて許しませんよ～！」
+<PAUSE>
+<NAME_PLATE>メルメ
+「争いごとは好きではないんですけど、
+　この子達の喜ぶ使い方を教えてあげます！」
+<PAUSE>
+<NAME_PLATE>メルメ
+「ハーベスト・プリズン～！」
+<PAUSE>
+<NAME_PLATE>
+　メルメは男たちに向かって種をまき、
+ハープをかき鳴らした。
+<PAUSE>
+<NAME_PLATE>
+　本来なら鋭く尖った魔草が生えてきて、
+敵を串刺しにするはずだが、
+なにも起らない。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルメ
+「え？
+　どうしたの、あなたたち？
+　なぜ生まれてこないのっ？」
+<PAUSE>
+<NAME_PLATE>
+　かつてこんなことは一度もなかった。
+<PAUSE>
+<NAME_PLATE>
+　暗殺部隊が現れたこと以上に
+メルメの顔に動揺が広がる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>暗殺部隊リーダー
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　さっきの男が右手にはめた奇妙な機械を
+無言で彼女に見せつけた。
+<PAUSE>
+<NAME_PLATE>メルメ
+「その腕の機械、とても嫌な感じがします。
+　それでこの子達が生まれてこないように？」
+<PAUSE>
+<NAME_PLATE>暗殺部隊リーダー
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　二人のお客を惨殺した時すら、
+少しも変化のなかった覆面の下の目が
+残酷に細められた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「なんて酷いことを……
+　みんな、ごめんなさい。
+　私は必ず戻ってきますから」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　メルメはさっと身を翻した。
+<PAUSE>
+<NAME_PLATE>
+　こんなこともあろうかと、
+カウンターの後ろに作っておいた
+隠し扉から即座に逃げ出す。
+<PAUSE>
+<NAME_PLATE>
+　暗殺部隊はその後を追おうと
+カウンターに殺到したが、
+<PAUSE>
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>暗殺部隊
+「ライトニング様、開きません。
+　向こうから鍵をかけられたようです」
+<PAUSE>
+<ACTOR>0,ts_m266a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ライトニング
+「探せ」
+<PAUSE>
+<NAME_PLATE>
+　ライトニング、そう呼ばれた男は
+冷たい声で部下に命令した。
+<PAUSE>
+<NAME_PLATE>暗殺部隊
+「「「はっ」」」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　彼らは素早く店の外に出て、
+さっと散らばっていく。
+<PAUSE>
+<ACTOR>0,ts_m266a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ライトニング
+「つまらん仕事だ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ライトニングは床に散らばっていた
+魔草の種を踏み潰した。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿路地裏＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC035aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc127a,IN, 1000
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その頃、米連ＤＳＯから五車学園への研修生
+ケイリー・マイヤーズは休日を利用して、
+ヨミハラにやって来ていた。
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ通常立ち絵
+//　　　※カードイラストより表情差分を新規作成
+<NAME_PLATE>
+　以前、先輩サイボーグの甲河アスカに
+この街に連れてこられたことがあり、
+<PAUSE>
+<NAME_PLATE>
+　ノマドの魔界騎士リーナと知り合ったり、
+探偵事務所のナーサラと友達になったりと、
+<PAUSE>
+<NAME_PLATE>
+　その後も何度かヨミハラ探索を続けるうち、
+すっかりこの街が気に入ってしまったのだ。
+<PAUSE>
+<NAME_PLATE>
+　普通なら武装難民がはびこる地下通路を
+通り抜けて来ることさえ困難な場所だが、
+<PAUSE>
+<NAME_PLATE>
+　そこはアンドロイドアーム＆レッグを
+装備した米連最新の人造生命体。
+<PAUSE>
+<NAME_PLATE>
+　生来の物怖じしない性格もあり、
+仮面のマダムやアスカには内緒で
+普通に遊びに来ているのだった。
+<PAUSE>
+<ACTOR>0,km_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「はーーーすっきりした。
+　ＤＳＯのメンテベッドよりよく眠れたみたい。
+　安眠屋か。面白い店があるなーー」
+<PAUSE>
+<NAME_PLATE>
+　今日は魔術師エレーナの安眠屋を試して、
+いつにも増して元気になったケイリーは、
+<PAUSE>
+<NAME_PLATE>
+　ゴロツキがいつ現れてもおかしくない
+ヨミハラの裏路地を意気揚々と歩いていた。
+<PAUSE>
+<ACTOR>0,km_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「次はどこ行こうかな。
+　ナーサラちゃんのとこに遊びにいこうかな」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「リーナのとこは……やっぱりヤバイかなあ。
+　ノマドの魔界騎士だし。
+　でも玄関のとこで呼んだら出てきそうだなあ」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ケイリーがこれからどうしようか
+考えていると、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「はあっ、はあっ、はあっ、はあっ！」
+<PAUSE>
+//　※立ち絵
+//　　メルメ・エルヒェム
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　覆面の男たちに店を襲撃され、
+隠し扉から辛くも逃れたメルメが
+向こうから走ってきた。
+<PAUSE>
+<NAME_PLATE>
+　無論、そんな事情を
+ケイリーが知るはずもない。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「どうしたんだろ、あんなに慌てて」
+<PAUSE>
+<NAME_PLATE>
+　ただそう思っただけだ。
+<PAUSE>
+<NAME_PLATE>メルメ
+「きゃっっ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　追っ手を気にしつつ逃げていたメルメは
+ケイリーを避けようとして転んでしまう。
+<PAUSE>
+<ACTOR>0,km_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「大丈夫？」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーは思わず手を差し出した。
+<PAUSE>
+<ACTOR>0,km_t001d,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0328a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メルメ
+「は、はい……すいません……」
+<PAUSE>
+<ACTOR>0,km_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「なんだか慌ててるけど
+　なにかあったの？」
+<PAUSE>
+<NAME_PLATE>メルメ
+「いえ……なんでも……はっ！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「ん……？」
+<PAUSE>
+<NAME_PLATE>
+　突然の人の気配。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　メルメがハッとして、
+ケイリーがやや呑気に顔を上げると、
+暗殺部隊が追いついてきていた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m122a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m122a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m122a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>暗殺部隊
+「逃げても無駄だ」
+「貴様はここで始末する」
+「そこの女、運が悪かったな」
+<PAUSE>
+//　※対魔忍＜魔性＞
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0328a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルメ
+「に、逃げてください……早く！」
+<PAUSE>
+<NAME_PLATE>
+　さっき店の客が殺されたのと同じように、
+メルメは今ここで会っただけのケイリーが
+また巻き添えになるのを恐れたが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　当の本人は平然としていた。
+むしろ感心したような顔になっていた。
+<PAUSE>
+<ACTOR>0,km_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「まただ。
+　いつもこんな場面に出くわすな。
+　さっすがヨミハラ」
+<PAUSE>
+<ACTOR>0,km_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ケイリー
+「お前たちこの人を殺して、
+　私もついでに始末するつもりだな。
+　そうはさせないぞ！」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ_戦闘立ち絵①_統合1
+<NAME_PLATE>
+　まるきり事情は分からなかったが、
+ケイリーはきりりと戦闘態勢を取った。
+<PAUSE>
+//→S202a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

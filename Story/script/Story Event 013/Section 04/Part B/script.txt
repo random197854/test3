@@ -1,0 +1,322 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：異世界廊下＿昼夜共通】【時間：昼】
+//　※装甲騎女イリス＿nc012aを流用
+<BGM_PLAY>bgm304,1000
+<BG>nc283a,IN, 1000
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「井河さくら！
+　なぜこんなところに貴様がいる！？」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>
+　それは当然の疑問だったが、
+<PAUSE>
+<ACTOR>1,chr_t0157a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「そんなことはあとあと！
+　とりあえずこの海洋軍団を倒さなきゃ！」
+<PAUSE>
+//　※立ち絵
+//　　さくら＿立ち絵
+//　　　＊【天真影傑】井河さくらを流用。
+<NAME_PLATE>さくら
+「見渡す限りの魚とイカかあ。
+　そんならこれで一網打尽。
+　忍法・影投網！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　さくらはイングリッドを無視して、
+周囲の雑魚に向けて両手を広げた。
+<PAUSE>
+<BG>black,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　シュパアアアアアアアアッッ！！
+<PAUSE>
+<NAME_PLATE>
+　伸ばした指の先から
+黒い影の網が放射状に拡がり、
+敵を一斉に絡め取っていく。
+<PAUSE>
+<BG>nc283a,IN, 500
+<NAME_PLATE>さくら
+「イングリッドちん、今だよ！！」
+<PAUSE>
+<NAME_PLATE>
+　さくらは振り返って、
+後は任せたとばかりにニコッと笑った。
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「いきなり現れてなんなんだ！！
+　う、唸れ！　ダークフレイム！！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド＿立ち絵
+//　　　＊カードイラストを流用
+<NAME_PLATE>
+　わけが分からないが、
+山ほどの敵を足止めしてくれている
+今がチャンスだ。
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは奥の手を使うのをやめ、
+ダークフレイムにたっぷりと魔力を込めて、
+大きく薙ぎ払った。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「でやあああああああああああっっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオオオッッ！！！
+<PAUSE>
+//　※立ち絵
+//　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　デススィール＿立ち絵
+//　　　　＊スィールの色違いバージョン
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se015
+<NAME_PLATE>
+　ボアアアアアアアアアアアアアアアッ！！！
+<PAUSE>
+//　※立ち絵
+//　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　キラーカナロア＿立ち絵
+//　　　　＊カロナアの色違いバージョン
+<NAME_PLATE>
+　ダークフレイムから伸びた炎が
+化けイカと化け魚の群れを端から
+一気に燃え上がらせていく。
+<PAUSE>
+<NAME_PLATE>
+　連中の全てが燃えカスとなって
+崩れおちるまで１分とかからなかった。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc283a,IN, 500
+<ACTOR>1,chr_t0157a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「おお、すごい威力。
+　さすがイングリッドちん」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>イングリッド
+「貴様、どういうつもりだ？」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドはさくらを睨み付けた。
+<PAUSE>
+<NAME_PLATE>
+　剣を突き付けこそしないが、
+その顔は今まで以上に険しくなっている。
+<PAUSE>
+<NAME_PLATE>
+　なんといっても宿命のライバル、
+最強の対魔忍、井河アサギの妹だ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「まさか貴様、私の留守を狙って、
+　ノマド本部を襲撃したのではなかろうな？」
+<PAUSE>
+<NAME_PLATE>さくら
+「しないしない。そんなことしないってば。
+　イングリッドちんを助けに来たんだよ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「私を助けにだと？
+　なにを馬鹿なことを！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「そう思うのは分かるけどさ、
+　ちょっと話を聞いてよ。
+　今ピンチを救ってあげたでしょ？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「……いいだろう。話してみろ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　イングリッドはさくらから話を聞いた。
+<PAUSE>
+<NAME_PLATE>
+　全てを見通す魔眼の持ち主、
+ダークエルフのナドラに導かれて、
+この異世界まで来たという経緯だ。
+<PAUSE>
+<NAME_PLATE>
+　無論、すぐに信じられるような話ではない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0157a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「ヨミハラを救う運命の流れが
+　私と貴様に繋がっているだと？
+　戯言もいい加減にしろ」
+<PAUSE>
+<NAME_PLATE>さくら
+「私だってそう言われただけだし、
+　よく分かんないよ」
+<PAUSE>
+<NAME_PLATE>
+　さくらは困ったように肩をすくめたが、
+ふと思い出したように懐からパスケースを
+取り出した。
+<PAUSE>
+<NAME_PLATE>さくら
+「あっ、そうだ。さっき会ったけど
+　リーナって魔界騎士の子がこれ見せたら
+　信用してくれるって言ってた」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「リーナが？」
+<PAUSE>
+<NAME_PLATE>さくら
+「宝物だって。
+　魔界騎士の免許証かなんか？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>イングリッド
+「いや、そんなものはないが―――」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドはパスケースを開ける。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>イングリッド
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「ほほう」
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　そこに入っていたのは、
+イングリッドのブロマイド写真だった。
+<PAUSE>
+<NAME_PLATE>
+　今と同じ魔界騎士の格好に加えて、
+晴れ着姿に水着姿まであった。
+しかもみんな写りが良い。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「な、なんだこれは！？
+　リーナめ、対魔忍になにを渡してるんだ！」
+<PAUSE>
+<NAME_PLATE>さくら
+「イングリッドちん、格好いい。
+　こんなの作って部下に配ってるの？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>イングリッド
+「配るかっ！」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは怒りか羞恥か
+真っ赤になってそれを握りつぶそうとする。
+<PAUSE>
+<NAME_PLATE>さくら
+「わっ、駄目だって。借り物なんだから。
+　あの子の宝物なんだよ」
+<PAUSE>
+<NAME_PLATE>
+　さくらは慌ててそれを取り返す。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「むむむむ～～～～～～～～～～～！！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「その『むむむ～～～』はなに？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「呆れかえっているのだ！
+　リーナめ、なにを考えているんだ、
+　まったく」
+<PAUSE>
+<NAME_PLATE>さくら
+「あ、そういう『むむむ』ね。
+　でも、これで信用してくれる？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「……するしかあるまい。
+　そんな馬鹿なものを持っているのは
+　私の部下でもリーナだけだ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「それが宝物だというのも
+　お前を信じて貸したというのも本当だろう」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドは諸々の感情を抑えるように、
+ふんと鼻息荒く言った。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ナドラが見た運命など信用できんが、
+　対魔忍のお前を信じたリーナのことは
+　信じられる」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「よかろう、ヨミハラのためだ。
+　お前とともに戦ってやる」
+<PAUSE>
+<NAME_PLATE>さくら
+「やった。チーム『さくイン』結成だね。
+　それとも『インさく』の方がいい？
+　あんまり語呂が良くないけど」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そんなことはどうでもいい。行くぞ」
+<PAUSE>
+<NAME_PLATE>さくら
+「ちょっと待ってってば。
+　握手くらいしようよ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「馴れ馴れしくするな。鬱陶しい」
+<PAUSE>
+<NAME_PLATE>さくら
+「イングリッドちん固いなあ」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「そのちんもやめろ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<SE_PLAY>se082
+</GROUP>
+<NAME_PLATE>
+　魔界騎士と対魔忍、イングリッドとさくら、
+普段は敵同士の二人は並んで歩き出した。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

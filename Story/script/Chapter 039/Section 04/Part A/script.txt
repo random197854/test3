@@ -1,0 +1,694 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【背景：荒廃した魔都・地下通路＿昼夜共通】【時間：昼】
+//　※LILITH_IZM_07_背景nc009aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc133a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m257c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　＊カードイラストより流用
+//　　おぼ猫
+//　　　＊既存イラストより流用
+//　※サイズを合わせて並べてください
+<NAME_PLATE>ゆきかぜ
+「ナーサラ？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「と変な猫」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　かつて東京の地下３００メートルに
+ヨミハラという町が存在していた。
+<PAUSE>
+<NAME_PLATE>
+　人間と魔族が当たり前に共存する犯罪都市、
+いわば闇のフロンティアであった。
+<PAUSE>
+<NAME_PLATE>
+　それを象徴するかのような
+ある探偵事務所がヨミハラにはあった。
+<PAUSE>
+<NAME_PLATE>
+　所長はあの井河アサギのクローン。
+<PAUSE>
+<NAME_PLATE>
+　メンバーは対魔忍のふうま亜希、
+元ノマドの魔女ミリアム、
+<PAUSE>
+<NAME_PLATE>
+　ギャングのボスをしていた鬼フランシス、
+そして異次元生物のナーサラ。
+<PAUSE>
+<ACTOR>0,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　彼女はその唯一の生き残りだ。
+<PAUSE>
+<NAME_PLATE>
+　“あの日”からずいぶん経つのに、
+ナーサラは少しも変わらない姿をしていた。
+<PAUSE>
+<NAME_PLATE>
+　まるでなにも起こらなかったように。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「そっか。
+　あの連中はナーサラから逃げてたんだ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「本能的に恐れたのね。
+　絶対に敵わないって」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜとアスカが納得したところで、
+ナーサラが口を開いた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m257c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「こんにちは」
+<PAUSE>
+<NAME_PLATE>猫
+「ボォ」
+<PAUSE>
+<NAME_PLATE>
+　嘘か真か、あのノマドの大幹部、
+朧が飼っていたという猫も変な声で鳴いた。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、うん、こんにちは」
+<PAUSE>
+<NAME_PLATE>アスカ
+「今日はこんな所を彷徨ってるの？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ナーサラ、彷徨ってる」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは頷いた。
+<PAUSE>
+<NAME_PLATE>
+　地下で彼女と会うのは
+これが初めてではない。
+<PAUSE>
+<NAME_PLATE>
+　“あの日”からずっと
+ナーサラは東京の地下を彷徨っている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ブレインフレーヤーのマルジャーナが
+同族による魔界への侵略を防ぐため、
+<PAUSE>
+<NAME_PLATE>
+　人間界と魔界を繋ぐ門を全て破壊し、
+その結果、ヨミハラが消滅した“あの日”から。
+<PAUSE>
+<NAME_PLATE>
+　失われた仲間を探し続けている。
+<PAUSE>
+<NAME_PLATE>
+　たった一人で。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「これからどこに行くの、ナーサラ？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「どこ？　決めてない。
+　行けるところ全部」
+<PAUSE>
+<NAME_PLATE>
+　淡々としたナーサラの答えに、
+ゆきかぜは躊躇いつつも聞いてみた。
+<PAUSE>
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そっか……。
+　ナーサラ、前にも言ったけど、
+　うちのアジトに来ない？」
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「別に一緒にブレインフレーヤーと
+　戦ってくれとかじゃなくて、
+　こんなとこで一人じゃ寂しいでしょ？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは首を振る。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ナーサラ、一人じゃない。
+　猫、一緒」
+<PAUSE>
+<NAME_PLATE>猫
+「ボォ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あ、うん。そうね。猫が一緒ね。
+　でもさ、もっと仲間とか友達とかいた方が
+　いいじゃない？　ね？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはまた首を振る。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ナーサラ、仲間、友達、いる。
+　アサギ、亜希、ミリアム、フランシス、
+　クロ、シロ、みんなと一緒にいたい」
+<PAUSE>
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ナーサラ……」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはそれ以上
+なにも言えなくなった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　彼女たちはもういないなどとは、
+死んでしまったなどとは口にできない。
+<PAUSE>
+<NAME_PLATE>
+　そんなことはナーサラにも
+とうに分かっているのだ。
+<PAUSE>
+<NAME_PLATE>
+　分かっていて彷徨っているのだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「ゆきかぜ、
+　ナーサラの好きにさせてあげよう」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でも」
+<PAUSE>
+<NAME_PLATE>アスカ
+「受け入れるには時間がかかるわ。
+　そうでしょ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「……そうだね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　自分たちのことを思い出し、
+ゆきかぜは悲しそうに頷いた。
+<PAUSE>
+<ACTOR>0,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ゆきかぜとアスカ、どこ行くの？」
+<PAUSE>
+<NAME_PLATE>
+　今度はナーサラが聞いてくる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「古い友達に会いにね」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「会えるといいね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ありがとう。
+　またどこかで会いましょ、ナーサラ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ばいばい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　また歩き出すナーサラを
+ゆきかぜがはっと呼び止める。
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「あ、待って待って。
+　ナーサラ、これあげる。野いちご。
+　甘い物好きだったでしょ？」
+<PAUSE>
+<NAME_PLATE>
+　さっき摘んだ野いちごの包みを手渡す。
+<PAUSE>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「好き。ありがとう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ナーサラは少しだけ微笑み、
+猫と一緒にどこかに去っていった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「…………」
+<PAUSE>
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　それを見送った二人の方が
+寂しげな顔をしていた。
+<PAUSE>
+<NAME_PLATE>アスカ
+「いつか私たちのとこにも来てくれるわよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「うん」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして二人はまた歩き始めた。
+<PAUSE>
+//【背景：荒廃した魔都・大通り跡＿昼夜共通】【時間：昼】
+//　※LILITH_IZM_07_背景nc007aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0162a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　地下道を抜け、外に出ると、
+夜になっていた。
+<PAUSE>
+<NAME_PLATE>
+　危険な感染者たちが
+地上をはびこる時間だ。
+<PAUSE>
+<NAME_PLATE>
+　だが、それ以上の脅威が待っている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「さて、この先が一番の難所ね」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「そういうこと。
+　気を引き締めて行くわよ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人はさらに北上していった。
+<PAUSE>
+//【背景：荒廃した魔都・東京近郊アリーナ跡＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC105bより流用
+//nc462a
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc460a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして夜半、その難所にたどり着く。
+<PAUSE>
+<NAME_PLATE>
+　レイダーの大規模セクトがあるエリアだ。
+<PAUSE>
+<NAME_PLATE>
+　かつての多目的アリーナの廃墟であり、
+レイダーたちはそこを砦としている。
+<PAUSE>
+<NAME_PLATE>
+　彼女に会うためにはどうしても
+ここを通らなければならない。
+<PAUSE>
+<NAME_PLATE>
+　これまではひたすら隠密行動で
+通り抜けてきたのだが、
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「なんか騒がしくない？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「いつもと雰囲気が違うわね
+　嫌な感じ」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　砦が妙にざわついている。
+<PAUSE>
+<NAME_PLATE>
+　ピリピリとした気配も漂っていた。
+<PAUSE>
+<NAME_PLATE>
+　今にも何かが起こりそうな、
+そんな予感がする。
+<PAUSE>
+<NAME_PLATE>
+　いつも以上に警戒しつつ、
+二人が進んで行くと――
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「見て」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「かなりの数ね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　砦の前の広場に
+レイダーたちが集まっていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m024b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m024b,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m024b,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ただの集会ではない。
+番犬のナイトドッグまで引き連れて
+部隊を編成している。
+<PAUSE>
+//　※立ち絵
+//　　レイダー
+//　　　＊モンスターイラストより流用
+//　　※複数出してください
+//　※立ち絵
+//　　ナイトドッグ
+//　　　＊モンスターイラストより流用
+//　　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ゆきかぜ
+「これからどこかを襲撃するって感じね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「みたいね。
+　ちょっと待って、話を聞いてみる」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人は物陰に潜みつつ、
+アスカが風遁の術を使った。
+<PAUSE>
+<NAME_PLATE>
+　レイダーたちの会話を
+盗み聞きするのだ。
+<PAUSE>
+<NAME_PLATE>
+　皆、好き勝手に騒いでいるので、
+それはいたって簡単なことだった。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「………………」
+<PAUSE>
+<NAME_PLATE>
+　アスカはしばらく黙っていたが、
+<PAUSE>
+<NAME_PLATE>アスカ
+「へーーー、そういうこと」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜでもゾクリとするような
+怖い声で呟いた。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なんなの？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ボスの命令で
+　この近くにあるレジスタンスの村を
+　襲撃するんだって」
+<PAUSE>
+<NAME_PLATE>アスカ
+「風神と雷神への報復にね」
+<PAUSE>
+<ACTOR>1,yu_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なんですって？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「女子供は保存食に捕らえて
+　男はその場で皆殺しだって
+　楽しそうに騒いでるわ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「人を呼び出しておいて
+　裏でやってくれるわね、ギガース」
+<PAUSE>
+<NAME_PLATE>
+　アスカは忌々しげに風遁の術を止めた。
+<PAUSE>
+<NAME_PLATE>
+　これ以上、レイダーたちの戯れ言を
+聞きたくないという顔だった。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「要するに原発をお釈迦にされた仕返しに
+　あいつらを使うつもりね」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なるほど。よーく分かったわ」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se014
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゆきかぜはアスカ以上に憤激していた。
+早くも全身がバチバチ鳴り始めている。
+<PAUSE>
+<NAME_PLATE>アスカ
+「ちょっと何するつもり？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「決まってるでしょ。
+　そのふざけた計画を阻止するのよ」
+<PAUSE>
+<NAME_PLATE>
+　すぐさま雷を落としそうな相棒を
+アスカはやれやれという顔で止める。
+<PAUSE>
+<NAME_PLATE>アスカ
+「待ちなさいよ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「なんで？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そりゃあそこにいる連中を
+　皆殺しにするくらい簡単だけど、
+　そんなことしたら報復合戦よ」
+<PAUSE>
+<NAME_PLATE>アスカ
+「いつか私たちの手に負えなくなって、
+　レジスタンスにも大規模な被害が出るわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「じゃどうするの？」
+<PAUSE>
+<NAME_PLATE>
+　今にも噛みつきそうな顔で尋ねる。
+<PAUSE>
+<NAME_PLATE>アスカ
+「私がこっそり連中を足止めするから、
+　ゆきかぜは村まで行って
+　みんなにアジトから避難するように指示して」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「足止めってどうやって？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「考えたんだけどね……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　アスカはニヤリと笑って
+ゆきかぜにそっと耳打ちした。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは思わず噴き出す。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ゆきかぜ
+「あはっ！
+　なんかそのやり方、すごくふうまっぽい」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そう思った？
+　あいつならどうするかなって考えてみたの」
+<PAUSE>
+<NAME_PLATE>
+　笑ったことで頭が冷えたのか、
+ゆきかぜもなにか思いついた顔になる。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「じゃあさ、
+　そうやって足止めしたついでに……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それをアスカにそっと囁くと、
+彼女もまた笑い出した。
+<PAUSE>
+<GROUP>
+<ACTOR>0,as_t013a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「あははっ！
+　いかにもふうまがやりそう」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「でしょでしょ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ギガースと面と向かって話し合ったときに、
+　落とし前もつけやすくなるわ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「じゃ、そういうことでよろしく」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ＯＫ」
+<PAUSE>
+<NAME_PLATE>
+　今ここにはいない、
+一度は失ったふうまへの想いが
+ゆきかぜとアスカを支えていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人は素早く別れる。
+<PAUSE>
+<NAME_PLATE>
+　アスカはレイダーたちの足止め。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは連中が狙っている村への連絡。
+そして村人の避難。
+<PAUSE>
+<NAME_PLATE>
+　さあ作戦開始だ。
+<PAUSE>
+//→S402a
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

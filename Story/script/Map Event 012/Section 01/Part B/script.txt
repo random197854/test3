@@ -1,0 +1,991 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：遊園地・ステージ＿昼】【時間：昼】
+//　※魔法少女フェアリーナイツ＿NC017aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc265a,IN, 1000
+<ACTOR>0,ts_m158a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ザンギャック（俺）
+「フハハハハハ！！
+　タイマファイブだと！？　面白い！
+　貴様らの戦いぶり、ここで見ていてやる！」
+<PAUSE>
+//　※立ち絵
+//　　ザンギャック＿立ち絵
+//　　　　＊魔法少女フェアリーナイツよりザンギャック立ち絵を流用
+<NAME_PLATE>
+　俺はそう言って、くまったんから
+そに子さんを守れるような位置に立つ。
+<PAUSE>
+<NAME_PLATE>
+　そしてさっき蛇子にもらったインカムで
+四人に指示した。
+<PAUSE>
+<NAME_PLATE>ザンギャック（俺）
+「観客にこれはショーだと思わせるんだ。
+　あまり派手な忍法は使うな。
+　蛇子もタコ化はなしだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　四人は頷き、忍者戦隊のリーダーらしい
+タイマレッドのゆきかぜはこう返してきた。
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマレッド
+「ザンギャック、あなたの手は借りないわ。
+　私たちの力、そこで見ていなさい！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　四人は一斉に飛び出した。
+<PAUSE>
+<NAME_PLATE>
+　まずはタイマレッドが
+ライトニングシューターを取り出し、
+くまったんの一体に向ける。
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマレッド
+「レッドサンダーシュート！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチッ、ぼんんっ！！
+<PAUSE>
+<NAME_PLATE>
+　電撃を食らったくまったんが
+派手に火花を散らして停止した。
+<PAUSE>
+<BG>nc265a,IN, 500
+<ACTOR>0,ws_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマイエロー
+「イエローシャドウクラッ～～シュ！」
+<PAUSE>
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿対魔忍衣装
+//　　　　＊対魔忍アサギZEROから流用
+//　　※顔にパピヨンマスクの差分を付ける
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボカッ！！　ぼぼんっっ！！
+<PAUSE>
+<NAME_PLATE>
+　続いてタイマイエローが
+影技で別のくまったんを粉砕する。
+<PAUSE>
+<BG>nc265a,IN, 500
+<ACTOR>0,s_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマグリーン
+「グ、グリーンシュリケン！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se139_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シュシュシュシュ！！　ぼんぼんっっ！！
+<PAUSE>
+<NAME_PLATE>
+　お次はグリーンの攻撃だ。
+いかにも忍者っぽく電遁の手裏剣を放って、
+くまったんを一度に何体も停止させた。
+<PAUSE>
+<BG>nc265a,IN, 500
+<ACTOR>0,h_t007f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマブルー
+「ん～～っと、
+　じゃあ、ブルーツインソード！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（武器）
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　シュッ！　シュッッ！！　ぼんっ！！
+<PAUSE>
+<NAME_PLATE>
+　最後はタイマブルーだ。
+<PAUSE>
+<BG>nc265a,IN, 500
+<NAME_PLATE>
+　いつもと同じ二刀流だが、
+それっぽい技の名前を口にしながら、
+くまったんの動きを止めた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m160a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,ts_m160a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m160a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>くまったん
+「グマーーーッ！！」
+「ググマーーー！！」
+「グマアアアア！！！」
+<PAUSE>
+//　※立ち絵
+//　　くまったん＿立ち絵
+//　　　　＊魔法少女ルキフェル桜花よりピンク熊立ち絵を流用
+<NAME_PLATE>ザンギャック（俺）
+（いいぞ、その調子だ）
+<PAUSE>
+<NAME_PLATE>
+　ステージに集まってきたくまったんが
+次々と倒されていく。
+<PAUSE>
+<NAME_PLATE>
+　いくら暴走しているとはいえ、
+相手は民生用のマスコットロボットだ。
+<PAUSE>
+<NAME_PLATE>
+　あの四人ならば派手すぎない程度に
+手加減をしても十分に倒すことができる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それでも、本当に戦っているようにしか
+見えないアクション（当たり前だが）に
+観客は大盛り上がりだ。
+<PAUSE>
+<ACTOR>0,chr_t0203a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマピンク
+「すごい……」
+<PAUSE>
+//　※立ち絵
+//　　すーぱーそに子＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　そに子さんも目の当たりにした
+対魔忍の技に呆然としている。
+<PAUSE>
+<ACTOR>0,chr_t0203a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m158a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ザンギャック（俺）
+「まあこれくらいはね。
+　後はあのデカブツだけだ」
+<PAUSE>
+//　※立ち絵
+//　　ザンギャック＿立ち絵
+//　　　　＊魔法少女フェアリーナイツよりザンギャック立ち絵を流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ビッグくまったん
+「グマッダン！！
+　ビ～～～ッグ、グマッダン！！
+　グマグマ～～～～～～！！！」
+<PAUSE>
+//　※立ち絵
+//　　ビッグくまったん＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　小さいくまったんが全滅したのを見て、
+ビッグくまったんは
+憤慨したように吠えている。
+<PAUSE>
+<NAME_PLATE>ザンギャック（俺）
+「みんな、
+　今ぐらいの感じであいつも倒せるか？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマレッド
+「楽勝！　はあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030
+<NAME_PLATE>
+　レッドの電撃。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t013e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマイエロー
+「うりゃあっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿対魔忍衣装
+//　　　　＊対魔忍アサギZEROから流用
+//　　※顔にパピヨンマスクの差分を付ける
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<NAME_PLATE>
+　イエローの影攻撃。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,s_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマグリーン
+「はっ、はっ、はっ、はっ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se139_01
+<NAME_PLATE>
+　グリーンの手裏剣十字打ち。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t007f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマブルー
+「えいっ、えいっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（武器）
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<NAME_PLATE>
+　ブルーの二刀乱れ斬り。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m161a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ビッグくまったん
+「グマーーーッ！！
+　ぐまぐまーーーーーーーっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ビッグくまったん＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　四人は次々と技を当てていくが、
+なにせ相手は全長５メートルもある巨体だ。
+<PAUSE>
+<NAME_PLATE>
+　手加減した攻撃では
+なかなか中枢までダメージが届かず、
+逆にかえって暴走を促してしまう。
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　両手をメチャクチャに振り回す
+ビッグくまったんの全身から
+漏電した電気火花が派手に飛んでいる。
+<PAUSE>
+<NAME_PLATE>
+　そのせいで、ビッグくまったんが
+電撃攻撃を仕掛けているように見える。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,yu_t002b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ws_t013e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>タイマレッド
+「こいつ結構頑丈！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>タイマイエロー
+「でっかすぎるよ、このクマ！」
+<PAUSE>
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿対魔忍衣装
+//　　　　＊対魔忍アサギZEROから流用
+//　　※顔にパピヨンマスクの差分を付ける
+<NAME_PLATE>ザンギャック（俺）
+「まずいな。
+　どうにかしてステージの外に誘導するか？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t007e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>タイマブルー
+「対魔忍ショーなのにそれじゃおかしいわ」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（武器）
+<NAME_PLATE>ザンギャック（俺）
+「だが、そんなこと言ってる場合じゃ」
+<PAUSE>
+<ACTOR>1,s_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>タイマグリーン
+「戦隊ヒーローっぽく合体必殺技で
+　トドメを刺した方がいいぜ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>ザンギャック（俺）
+「また面倒なことを」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが、確かにそっちの方が
+ヒーローショーっぽくはある。
+<PAUSE>
+<NAME_PLATE>
+　デンデケデンデケデンデケデンデケ♪
+<PAUSE>
+<NAME_PLATE>
+　タイマファイブの苦戦と見て取ったか、
+それっぽいＢＧＭまで流れ始めていた。
+<PAUSE>
+<NAME_PLATE>
+　逆にこうなったら早く倒さないと、
+ショーの展開上まずい。
+<PAUSE>
+<NAME_PLATE>
+　どうする！？
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマレッド
+「ああもう！
+　みんなの気を逸らせることができたら
+　私のトールハンマーで一発なのに！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>タイマレッド
+「ふうま、あんた怪人なんだから
+　そこでなんか目立つことやってよ！」
+<PAUSE>
+<NAME_PLATE>ザンギャック（俺）
+「なんかって言ったって……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0203a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマピンク
+「はっ……！
+　わ、わたしに任せてください！」
+<PAUSE>
+//　※立ち絵
+//　　すーぱーそに子＿立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ザンギャック（俺）
+「そに子さん！？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　彼女は愛用のギターを引っつかむと、
+ギュイイィィンと高らかに音を奏でた。
+<PAUSE>
+<NAME_PLATE>
+　お客さんたちの注目が一気に彼女に集まる。
+<PAUSE>
+<NAME_PLATE>タイマピンク
+「みなさん、タイマファイブが大ピンチです。
+　わたしたちにぽわわ～って
+　パワーをください！！」
+<PAUSE>
+<NAME_PLATE>タイマピンク
+「いきます、音遁の術～！！」
+<PAUSE>
+//変換して準備　ナンバーは「bgm801」で
+//※対魔忍RPG一周年記念の曲を流す。
+//　フルで聴く事も可能で、かつ途中でもスキップ可能にしてください。
+//仮でBGM挿入
+<BGM_PLAY>bgm801,1000
+<NAME_PLATE>
+　そに子さん、いやタイマピンクは
+元の段取り通りに歌い始めた。
+<PAUSE>
+<NAME_PLATE>
+　アニメ『対魔忍すーぱーそに子』の
+主題歌だ。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、子供たちはみんな歌える。
+<PAUSE>
+<NAME_PLATE>
+　ステージを中心に大合唱が始まった。
+<PAUSE>
+<NAME_PLATE>
+　お客さんたちの気が逸れていく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>ザンギャック（俺）
+「よし、今だ！！」
+<PAUSE>
+<ACTOR>0,yu_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>タイマレッド
+「ふうま！
+　なんか必殺技の名前お願い！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<NAME_PLATE>ザンギャック（俺）
+「な、なんか？
+　ええと……じゃあ、手を前に出して、
+　タイマビクトリーフラッシュ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t013a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>タイマイエロー
+「おお、それっぽい名前！」
+<PAUSE>
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿対魔忍衣装
+//　　　　＊対魔忍アサギZEROから流用
+//　　※顔にパピヨンマスクの差分を付ける
+<ACTOR>1,s_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>タイマグリーン
+「ナイスだ、ふうま！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助戦闘立ち絵＿対魔忍衣装
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,h_t007f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>タイマブルー
+「そに子さんも合わせて！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子戦闘立ち絵＿対魔忍衣装（武器）
+<ACTOR>1,chr_t0203a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>タイマピンク
+「は、はい！」
+<PAUSE>
+//　※立ち絵
+//　　すーぱーそに子＿立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　歌っているピンクを背にして、レッド、
+グリーン、ブルー、イエローが
+フォーメーションを組みさっと手を伸ばした。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>全員
+「タイマビクトリーフラーーッシュ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドガアアアアアアアアアンンッッ！！
+<PAUSE>
+<NAME_PLATE>ビッグくまったん
+「グマーーーッ！！」
+<PAUSE>
+//　※立ち絵
+//　　ビッグくまったん＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　目もくらむほどの閃光。そして雷鳴。
+<PAUSE>
+<NAME_PLATE>
+　忍者戦隊タイマファイブの必殺技
+タイマビクトリーフラッシュ。
+<PAUSE>
+<NAME_PLATE>
+　実はゆきかぜのトールハンマーが
+ビッグくまったんを完全に停止させた。
+<PAUSE>
+<NAME_PLATE>
+　見た目もド派手な必殺技に
+会場にどよめきが広がっていく。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<BG>nc265a,IN, 1000
+<ACTOR>0,ts_m158a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ザンギャック（俺）
+「よし、いいぞ、みんな！」
+<PAUSE>
+//　※立ち絵
+//　　ザンギャック＿立ち絵
+//　　　　＊魔法少女フェアリーナイツよりザンギャック立ち絵を流用
+<NAME_PLATE>
+　俺も思わずそう声を上げていたが、
+会場が妙にシーンとしていく。
+<PAUSE>
+<NAME_PLATE>タイマピンク
+「（ふうまさん、退場です、退場）」
+<PAUSE>
+<NAME_PLATE>
+　そに子さんがクイックイッと下手の方に
+目線を送っていた。
+<PAUSE>
+<NAME_PLATE>
+　しまった！
+今の俺はザンギャックだった！
+<PAUSE>
+<NAME_PLATE>ザンギャック（俺）
+「フハハハハハ！！
+　見事な戦いぶりだ！！
+　タイマファイブ！！」
+<PAUSE>
+//　※立ち絵
+//　　ザンギャック＿立ち絵
+//　　　　＊魔法少女フェアリーナイツよりザンギャック立ち絵を流用
+<NAME_PLATE>ザンギャック（俺）
+「今日のところはこれで引き下がってやろう！
+　だが次こそは必ず雌雄を決してやるぞ！！
+　さらばだ！！」
+<PAUSE>
+<NAME_PLATE>ザンギャック（俺）
+「フハハハハハハハハハ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は高笑いをしながら、
+悪役らしくステージから逃げていった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　エンディングテーマが流れ始め、
+客席から拍手と歓声が聞こえてきた。
+<PAUSE>
+//【背景：遊園地＿ロッカールーム＿昼】【時間：昼】
+//　※孕ませて青龍君＿nc002aより流用
+//　※楽屋として使用
+//　　もっと楽屋にふさわしいBANK背景があったらそれに変更。
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm604,1000
+<BG>nc266a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　こうして『対魔忍すーぱーそに子』ショーは
+無事に終了した。
+<PAUSE>
+<NAME_PLATE>
+　最後は『忍者戦隊タイマファイブ』ショーに
+なっていたが。
+<PAUSE>
+<NAME_PLATE>俺
+「そに子さん、ありがとう。
+　おかげで助かったよ」
+<PAUSE>
+<NAME_PLATE>
+　楽屋に戻り、着ぐるみを脱いで、
+俺は今日一番の功労者に頭を下げた。
+<PAUSE>
+<ACTOR>0,chr_t0203a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>そに子
+「そ、そんな……わたしはなにも。
+　みなさんこそ助けていただいて
+　本当にありがとうございました」
+<PAUSE>
+//　※立ち絵
+//　　すーぱーそに子＿立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR>1,ws_t005b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「なんのなんの。
+　それが私たち対魔忍の役目だからね♪」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギZEROから流用
+//　※パピヨンマスクは外している。
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,yu_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「そういうこと。気にしないで。
+　怖かったでしょ？
+　頑張ってくれてありがとう」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,s_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「でも、まさかいきなり歌を歌うとはなあ。
+　あの機転はすげえよ」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子もビックリしちゃった。
+　いつもはああいうとっさの機転は
+　ふうまちゃんの役目だしね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0203a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>そに子
+「あ、あれは段取り通りだったんです。
+　元々、最後はわたしが歌うことになってて
+　それでとっさに。それだけです」
+<PAUSE>
+<NAME_PLATE>
+　みんなから手放しで褒められ、
+そに子さんは照れくさそうだ。
+<PAUSE>
+<NAME_PLATE>俺
+「そうは言っても、
+　いきなりあんなことが起こって
+　本当に怖かったよね」
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとう、そに子さん」
+<PAUSE>
+<NAME_PLATE>そに子
+「い、いえ、そんな……」
+<PAUSE>
+<NAME_PLATE>
+　俺がもう一度礼を言うと、そに子さんは
+ちょっと迷った様子を見せてから、
+こう言った。
+<PAUSE>
+<NAME_PLATE>そに子
+「ごめんなさい……
+　わたし、本番前に、ふうまさんの様子が
+　変わったの気づいていました……」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>そに子
+「楽屋でインカムをもらったとき、
+　ふうまさん、すごく真剣な目をしてて、
+　ああ、わたしたちとは違うなって」
+<PAUSE>
+<NAME_PLATE>そに子
+「ふうまさんたちは、いつもあんな目で
+　わたしたちを守ってくれてるんだなって。
+　あれが本物の対魔忍なんですね」
+<PAUSE>
+<NAME_PLATE>そに子
+「皆さん、ありがとうございます」
+<PAUSE>
+<NAME_PLATE>
+　それを聞いて、
+俺は思わずこう口にしていた。
+<PAUSE>
+<NAME_PLATE>俺
+「そに子さんも本物の対魔忍だったよ。
+　対魔忍すーぱーそに子にタイマピンク、
+　格好良かったよ」
+<PAUSE>
+<NAME_PLATE>そに子
+「そ、そんな……
+　あれはただ、わたしもなにか
+　できることをしなくちゃって……」
+<PAUSE>
+<NAME_PLATE>そに子
+「その、対魔忍として……えへへ」
+<PAUSE>
+<NAME_PLATE>俺
+「ははは」
+<PAUSE>
+<NAME_PLATE>
+　はにかむそに子さんの笑顔が
+きらきらと輝いている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,yu_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「なんか良いムードね」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ユキカゼ２より立ち絵を流用
+<ACTOR>1,h_t002e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃん、
+　たまにああいう格好いいこと言うよね。
+　蛇子たちには言ってくれないのに」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ws_t005e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「そういうとこあるよね。
+　まあでも、相手はそに子ちゃんだし、
+　今日くらいはいいんじゃない？」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿対魔忍衣装
+//　　　　＊対魔忍アサギZEROから流用
+<NAME_PLATE>ゆきかぜ
+「まあ……今日くらいはね。
+　あの子が頑張ったのはホントだし」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「そうだ。
+　せっかくだからみんなで写真撮ろうぜ。
+　タイマファイブの記念写真！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>俺
+「お、いいな、撮ろう撮ろう」
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふうまちゃんは駄目よ。
+　タイマファイブじゃないでしょ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ws_t005a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「ふうま君は悪の怪人だしねー」
+<PAUSE>
+<ACTOR>1,yu_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「私たちの敵よね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「集合写真にいたら変だよな」
+<PAUSE>
+<NAME_PLATE>俺
+「えーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　こいつら、そろいもそろって。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0203a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>そに子
+「そ、それはふうまさんがかわいそうです。
+　写真はみんなで一緒にとりましょう。
+　そうしましょう」
+<PAUSE>
+//　※立ち絵
+//　　すーぱーそに子＿立ち絵
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「そに子さんは優しいなあ」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se115
+<NAME_PLATE>
+　ということで、みんなでパチリ。
+<PAUSE>
+<NAME_PLATE>
+　タイマファイブ＋俺の写真を
+撮ってもらった。
+<PAUSE>
+<NAME_PLATE>
+　しかし、今日の記念ということで
+俺はまたザンギャックの着ぐるみを
+着させられたのだった。
+<PAUSE>
+<NAME_PLATE>
+　トホホ……。
+<PAUSE>
+//【背景：五車町＿五車学園前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+//【背景：五車町＿五車学園＿校長室＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC009aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc054a,IN, 1000
+<WAIT>1000
+<BG>nc006a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　後日、俺はアサギ先生と
+今回の一件について話し合っていた。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+「事件を起こしたのはおそらく内調ね」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>俺
+「何か証拠が出たんですか？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「出るわけないわ。でも蛇の道は蛇。
+　彼らが五車にスパイを潜り込ませて
+　いるように私たちもって事よ」
+<PAUSE>
+<NAME_PLATE>俺
+「だとしたら手段を選ばずですね。
+　子供たちがたくさんいる場所で
+　テロだなんて……」
+<PAUSE>
+<NAME_PLATE>俺
+「それに、あのロボットは
+　本気で彼女を狙っていました」
+<PAUSE>
+<NAME_PLATE>アサギ
+「それが内調のやり方よ。
+　否、あの女の」
+<PAUSE>
+<NAME_PLATE>
+　あの女、以前俺に接触してきた
+峰舟子のことだ。
+<PAUSE>
+<NAME_PLATE>アサギ
+「内調は対魔忍を潰したくて
+　しょうがないようね」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　実際、今回の騒ぎで
+対魔忍はかなり叩かれていた。
+<PAUSE>
+<NAME_PLATE>
+　本物の対魔忍を参加させて
+イベントなどやったせいだと
+言っている者もいる。
+<PAUSE>
+<NAME_PLATE>
+　しかし、アサギ先生の進言を無視したうえ、
+対魔忍がいたおかげで人的被害はなかったので
+なんとかおとがめなしということになった。
+<PAUSE>
+<NAME_PLATE>俺
+「この先も内調には警戒が必要ですね」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>アサギ
+「そういうことね」
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生は重々しい顔で頷くと、
+ふと思い出したように話題を変えた。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,a_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ところで、忍者戦隊タイマファイブは
+　五人組らしいわね」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃタイマファイブですから」
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「それは不思議ね」
+<PAUSE>
+<NAME_PLATE>俺
+「なにがです？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「私はゆきかぜたち三人を
+　君のフォローに送ったのよ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「もう一人はそに子さんだとして、
+　あら？　数が合わないわね」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぎくっ。
+<PAUSE>
+<ACTOR>0,a_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「噂によると、タイマイエローっていう
+　仮面を付けた対魔忍がいたそうだけど、
+　誰なのかしらね？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや、俺がやったんですよ。
+　いやあ、あの時は一人で怪人をやったり
+　対魔忍をやったり大変でしたよ、あははは」
+<PAUSE>
+<NAME_PLATE>
+　俺はとにかく笑って誤魔化した。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生はものすごく
+何か言いたげな顔をしていたが、
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ま、そういうことにしておきましょう」
+<PAUSE>
+<NAME_PLATE>
+　と、俺への追及をやめてくれた。
+<PAUSE>
+<NAME_PLATE>
+　しかし、うちに居候している
+異次元の若いさくらのことが
+もう完全にバレている気がする。
+<PAUSE>
+<NAME_PLATE>
+　とにかく長居は無用だ。
+<PAUSE>
+<NAME_PLATE>俺
+「で、では、失礼します」
+<PAUSE>
+<ACTOR>0,a_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「はい、お疲れさま」
+<PAUSE>
+<NAME_PLATE>
+　だが、アサギ先生は出ていこうとする俺に
+こうつけ加えた。
+<PAUSE>
+<ACTOR>0,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「『対魔忍すーぱーそに子』の
+　プロデューサーさんから」
+<PAUSE>
+<NAME_PLATE>アサギ
+「タイマファイブを是非アニメ化したいって
+　オファーがきてるわよ？」
+<PAUSE>
+<NAME_PLATE>俺
+「か、勘弁してください～～～！」
+<PAUSE>
+<NAME_PLATE>
+　俺はこないだのザンギャックのように
+尻尾を巻いて逃げ出した。
+<PAUSE>
+//→エピローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

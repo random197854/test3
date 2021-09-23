@@ -1,0 +1,83 @@
+//FileNo:S205a
+//シーン名：エピローグ
+//【背景：米連地下秘密施設＿通路＿夜】//【時間：夜】
+<BG>nc017a,IN, 1000
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　俺たちは米連兵士たちを撃破し、
+やっと地下へと潜入した。
+<PAUSE>
+<NAME_PLATE>俺
+「こりゃあ……マジで
+　米連の秘密基地って感じだな」
+<PAUSE>
+<NAME_PLATE>
+　地下の様子は地上とは一変していた。
+地上の朽ちた廃工場がうそのように、
+整えられた通路が北と南に続いている。
+<PAUSE>
+<NAME_PLATE>俺
+「どっちから行ったものか……」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「うふふ♪　捕まったら国際問題ね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「他所様の土地に勝手に基地
+　作ってるんだからお互い様だろ」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「お、おいやばいって！
+　北から敵が来るぞ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　必死に電探していた鹿之助が声をあげる。
+<PAUSE>
+<ACTOR>1,h_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「南側は！？
+　やりすごせるならそうしたいわ」
+<PAUSE>
+<ACTOR>2,s_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「えーっと……だめだ！
+　後ろからも来てるよ～～！！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……さっそく挟み撃ちか。
+　数が少ない方はどっちだ？　鹿之助」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「えっと、北……かな、
+　そう変わらないけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「よし！！！　じゃあ北を突破するぞ！！！」
+<PAUSE>
+<ACTOR>1,h_t002f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「おっけー！　やったるわよ！！」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ひぃいいいいいい！！！！」
+<PAUSE>
+//→Section２終了
+<UI_DISP>OFF, 500
+<BGM_STOP>1500
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t002f,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>1500
+<SCENARIO_END>
+//=================================================================

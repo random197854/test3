@@ -1,0 +1,2174 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：ヨミハラ地下道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<BG>nc126a,IN, 1000
+<NAME_PLATE>
+　東京地下３００メートルという
+闇の底に存在する犯罪都市ヨミハラ。
+<PAUSE>
+<NAME_PLATE>
+　そんな闇の街の更に奥深く、
+アリの巣のように広がる地下道がある。
+<PAUSE>
+<NAME_PLATE>
+　もとは街の排水と下水処理のために
+作られた空間だったが、いつの頃からか
+狂暴な魔獣やワームたちの住処となり、
+<PAUSE>
+<NAME_PLATE>
+　また何者かによって拡張を続けられて
+地下迷宮化し、良からぬことを企む闇組織や
+魔術師たちの恰好の隠れ家ともなっている。
+<PAUSE>
+<NAME_PLATE>
+　そんな――腕に覚えのある者さえ
+立ち入るのを避ける危険な闇の地下道が、
+<PAUSE>
+<NAME_PLATE>
+　異界の少女ナーサラのお気に入りの
+お散歩コースであった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「にゃあにゃあ。皆、元気良好？
+　今日はお散歩日和」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m194c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>野良猫たち
+「にゃー」
+「にゃんにゃん」
+<PAUSE>
+//　※立ち絵
+//　　ネコマタ立ち絵（ストーリー15で使用した画像を流用）
+//　　　　＊モンスターイラスト
+//　※立ち絵
+//　　ネコマタ立ち絵（ストーリー15で使用した画像を流用）
+//　　　　＊モンスターイラスト
+<NAME_PLATE>
+　クッキーを手にしたナーサラの
+足もとに野良猫たちが集まっている。
+<PAUSE>
+<NAME_PLATE>
+　猫たちはナーサラの友達だ。
+<PAUSE>
+<NAME_PLATE>
+　この地下道をねぐらにしており、
+ナーサラは日課のお散歩の時に猫たちと
+知り合って仲良くなった。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「クッキーおいしい、ぱくぱく。
+　皆も摂取？」
+<PAUSE>
+<NAME_PLATE>野良猫たち
+「ごろにゃーん」
+「にゃうにゃう♪」
+<PAUSE>
+<NAME_PLATE>
+　散歩のお供に持ってきた
+探偵手作りの絶品クッキーだ。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラがそれを差し出すと、
+猫たちがうれしそうに喉を鳴らして
+食べ始める。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ネコちゃん。友達。
+　にゃんにゃんにゃん」
+<PAUSE>
+<NAME_PLATE>野良猫たち
+「にゃにゃー♪」
+<PAUSE>
+<NAME_PLATE>
+　美味しいものや楽しいことを
+分かち合うのは友達の証。
+<PAUSE>
+<NAME_PLATE>
+　もとは異界の生命体で、
+知識の収集にしか興味を示さなかった
+ナーサラであるが、
+<PAUSE>
+<NAME_PLATE>
+　居候先の騒がしい面々の影響だろうか、
+近頃では、その心の動きにも変化が
+生まれているようで。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+（友達、増える、うれしい。
+　心ぽかぽか……なんだか不思議？）
+<PAUSE>
+<NAME_PLATE>
+　漠然と知識を求めていた時は
+知らなかった感情だ。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは、その新しく芽生えた
+感情をもっとよく知りたいと思い、
+<PAUSE>
+<NAME_PLATE>
+　闇の街で暮らす人々や生き物と、
+自分から少しずつ関りを持つように
+なっていて、
+<PAUSE>
+<NAME_PLATE>
+　この散歩時の野良猫たちとの交流も、
+そんな活動のひとつであった。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、そんな時。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>野良猫たち
+「ふぎゃー！？」
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「？　ネコちゃん……？」
+<PAUSE>
+<NAME_PLATE>
+　突然クッキーを一緒に食べていた
+猫たちが悲鳴を上げて逃走する。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+（大きな影、怪物、後ろから？）
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはネコ語がわかる。
+<PAUSE>
+<NAME_PLATE>
+　それによると、猫たちはこちらに
+接近する“何か”の気配に怯えて
+逃げていったようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<NAME_PLATE>？？？
+『ＭＩＹＵＵＵＵＵＵＵＵＵＵＵＵＵ
+　ＵＵＵＵＵＵＵＵＵＵＵＵ……！』
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナーサラ
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　振り向いたナーサラの前に、
+奇怪な唸り声を上げる巨大な影が
+姿を見せた。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　…………
+<PAUSE>
+//【背景：ヨミハラ街の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　ある日のヨミハラ。
+<PAUSE>
+//【背景：ヨミハラ＿料理店＿昼夜共通】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc022aより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc074a,IN, 1000
+<NAME_PLATE>
+　繁華街の外れにある料理店で、
+自称“大魔女”のミリアムが
+素っ頓狂な声を出した。
+<PAUSE>
+<ACTOR>0,chr_t0279a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「なんだと？
+　私に魔術を教えてほしい？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム03
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミリアム
+「おぬし、そのために
+　こんな所までやってきたのか？」
+<PAUSE>
+<ACTOR>0,chr_t0279a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0040a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「ふむ。お前は昔と変わらず、
+　発狂したコトカリスのようにせっかちね」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>シュヴァリエ
+「答えは、否よ。シュヴァリエが
+　この街にやってきたのは
+　“鬼腕の魔科医”との取引のため」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「“魔術を習いたい”というのは、
+　シュヴァリエとは別の者」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムの前に座った
+美女が穏やかに笑って答える。
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,chr_t0040a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　彼女は魔界の錬金術師、
+シュヴァリエ。
+<PAUSE>
+<NAME_PLATE>
+　普段は東京キングダムに構えた
+秘密のアトリエに篭っているのだが、
+<PAUSE>
+<NAME_PLATE>
+　今日は幾つかの用事があって
+この地下都市を訪れていた。
+<PAUSE>
+<ACTOR>1,chr_t0040a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>0,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「あーそうだよなぁやっぱり。
+　おぬし、昔から殊勝にひとから
+　物を学ぶような奴ではなかったしな」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「それは偏見というものよ。
+　知の探究に区別はなし」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「必要とあれば、
+　シュヴァリエはいかなる者にも
+　頭を下げて教えを乞うわ」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「まぁ、ただ今まで、
+　それに値する知者に
+　出会ったことはないけれど」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「クク、ほらな？」
+<PAUSE>
+<NAME_PLATE>
+　変わってないな、
+とミリアムが苦笑する。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　傲慢かつ不遜、だがそれに
+相応しい実力を持つ錬金術師。
+<PAUSE>
+<NAME_PLATE>
+　シュヴァリエとミリアムは、
+旧知の間柄であった。
+<PAUSE>
+<NAME_PLATE>
+　ミリアムがまだ別の名前を名乗り、
+能力を封印される前のことだ。
+<PAUSE>
+<NAME_PLATE>
+　共同して魔術の研究を行い、
+世界の秘密に肉薄する幾つかの
+事実を発見したこともあった。
+<PAUSE>
+<NAME_PLATE>
+　しかしそれも今は昔。
+<PAUSE>
+<NAME_PLATE>
+　二人が魔界を出てからというもの、
+顔を合わせることはなく。
+<PAUSE>
+<NAME_PLATE>
+　今日、シュヴァリエから呼び出され、
+こうして久しぶりの再会となった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0040a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「えーと、じゃあおぬしは、
+　あのけったいな魔科医との
+　取引にきたというわけか」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「ええ。
+　桐生美琴が貴重なカトブレパスの
+　皮膚を入手したという話なのでね」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「シュヴァリエも相応の品を用意した。
+　物々交換の取引を行うわ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「あぁ、あの件か。
+　うちの奴らの仕事だな」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムが思い出してうなずく。
+<PAUSE>
+<NAME_PLATE>
+　少し前のことだ。
+<PAUSE>
+<NAME_PLATE>
+　魔科医・桐生美琴の依頼で、
+ナーサラやふうま亜希たち探偵チームが
+鬼族が経営する魔獣牧場に忍び込み、
+<PAUSE>
+<NAME_PLATE>
+　そこで飼育されている希少な魔獣、
+カトブレパスの皮膚を盗み出した。
+<PAUSE>
+<NAME_PLATE>
+　ミリアムはその場にはいなかったが、
+後からその時の話を聞かされた。
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「そうね。その取引と――
+　他にも幾つか用件がある」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「一週間ほどこの街に滞在するから、
+　その間、シュヴァリエの知人に
+　魔術の指南をしてほしい」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ふぅむ。それは別に構わんが……
+　その知人とやらはどこにいるのだ？
+　宿にでも待たせているのか？」
+<PAUSE>
+<NAME_PLATE>
+　待ち合わせ場所であるこの店に、
+シュヴァリエは一人で現れた。
+<PAUSE>
+<NAME_PLATE>
+　シュヴァリエの滞在中に授業を行う
+ということなので、その“知人”も
+ヨミハラに来ているはずであるが。
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「いえ、彼女はここにいるわ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「は？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　シュヴァリエが一冊の古びた本を
+取り出してテーブルに置いた。
+<PAUSE>
+<NAME_PLATE>
+　すると――。
+<PAUSE>
+<ACTOR>0,ts_m220c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「あの、初めまして、ミリアム先生。
+　こんな姿でごめんなさい。
+　私、ミレーヌっていいます」
+<PAUSE>
+//　※立ち絵
+//　　異界霊ミレーヌ
+//　　　　＊モンスターイラスト
+<NAME_PLATE>
+　古びた本から白いモヤのような
+ものが染み出し、やがてそれは
+可憐な少女の姿となった。
+<PAUSE>
+<ACTOR>0,ts_m220c,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「なんと！？　この子は霊体か！？」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムが目を丸くする。
+<PAUSE>
+<NAME_PLATE>
+　霊体自体はミリアムも見慣れているが、
+ここまではっきりとした意思や姿形が
+見られるのは珍しい。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0040a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「そう。ミレーヌは、
+　シュヴァリエとかつて
+　縁のあった魔術師の娘――」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「ゆえあって我がアトリエに
+　引き取ったのだけれど、
+　魔術を学びたいとのことなのでね」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「は、はい……！
+　シュヴァリエお姉ちゃんが
+　言っていました」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「ミリアム先生は、
+　古代魔術の専門家で、
+　とってもすごい魔術師だって……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「むっ？　まぁそうだのう、
+　こう見えてもわたしは、
+　超えらーい大魔女だからな！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0040a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「もっともそれは、
+　魔力を封印される前の話だけれど」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0279a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「う、うるさい！
+　魔力は、まぁちょっと減ってるけど、
+　知識はあの頃とそう変わらんわい！」
+<PAUSE>
+<NAME_PLATE>
+　少女の賞賛でいい気持ちになった
+ところをシュヴァリエに突っ込まれ、
+ミリアムが唇を尖らせる。
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「ふふ。だから、
+　そんなすごいミリアムさんに
+　先生になってほしいんです」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「わたしも、何かが
+　できるようになりたくて……」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+「助けてくれた、お兄ちゃんたち、
+　それから、パパのために……」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ふむ……？」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムが目を細めた。
+<PAUSE>
+<NAME_PLATE>
+　目の前の少女には、いわゆる
+怨霊のような濁りは感じられない。
+<PAUSE>
+<NAME_PLATE>
+　しかしその魂の奥底には、静かな
+悲しみの影が見え隠れしており、
+<PAUSE>
+<NAME_PLATE>
+　彼女が魔術を習いたいという理由も、
+恐らくそれに関係しているのだろう――
+となれば。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0040a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「引き受けてくれるかしら、
+　ミレーヌのこと？」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0279a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ミリアム
+「うむ！
+　そういうことなら任せておけ」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「その子の事情は知らぬが、
+　魔術とは己の失ったものを
+　取り戻すための力でもある！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「古代魔術を習得すれば、
+　実体を得る手助けにもなるだろうし」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「また、より快適に霊体で
+　生きるための知恵を得られよう！」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムは大きくうなずくと、
+両隣でふよふよ浮いている二匹の使い魔、
+シロとクロに目くばせをする。
+<PAUSE>
+<NAME_PLATE>
+　すると二匹は、何もない空間から
+メガネと教鞭を引っ張り出してきて。
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅっ」
+「ぴぴ～っ！！」
+<PAUSE>
+<ACTOR>1,chr_t0279b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ミリアム
+「よしっ！　早速はじめるぞミレーヌ、
+　大魔女のわたしがビシビシ鍛えてやる！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム03＿眼鏡差分
+//　　　　＊カードイラストより流用
+<ACTOR>1,chr_t0279b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m220c,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミレーヌ
+「は、はいっ！
+　お願いしますミリアム先生……！」
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　一方そのころ。
+<PAUSE>
+//【背景：ヨミハラ繁華街１＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc013aより流用
+//nc365a
+<BG>nc365a,IN, 1000
+<NAME_PLATE>
+　この日、ヨミハラの街にはもう一組、
+意外な来訪者の姿があった。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー・マイヤーズ
+「わわっ、あっちにもこっちにも
+　悪そうな人ばかり！
+　これがヨミハラの街か～」
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>ケイリー
+「スゴイねアスカ！
+　なんか私ゾクゾクしてきたよー！」
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,as_t005c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>甲河アスカ
+「はいはい。ケイリー、
+　興奮するのはいいけど、
+　大きな声は出さないでね」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ＿通常立ち絵（制服）
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「ここは魔族や悪党の巣だからね。
+　私たちの正体がバレたら、
+　それこそもう大変よ？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「わかってるよー。
+　うふふ、でも、それを聞いたら
+　余計にワクワクしてきちゃった」
+<PAUSE>
+<ACTOR>1,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「全く、遠足気分ねぇ。
+　まぁ似たようなものだけど」
+<PAUSE>
+<NAME_PLATE>
+　やれやれとため息をつくのは、
+制服姿の少女・甲河アスカだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、彼女の隣で初めて見る
+闇の街の光景に目を輝かせているのは、
+ケイリー・マイヤーズ。
+<PAUSE>
+<NAME_PLATE>
+　二人は米連系の特殊組織である
+“ＤＳＯ”に所属するエージェントだ。
+<PAUSE>
+<NAME_PLATE>
+　アスカが先輩で、ケイリーは後輩。
+<PAUSE>
+<NAME_PLATE>
+　正確には、ケイリーは
+とある事情でＤＳＯに加わったばかり。
+<PAUSE>
+<NAME_PLATE>
+　闇の街どころか研究所の外にすら
+ほとんど出たことがない。
+<PAUSE>
+<NAME_PLATE>
+　そこで“見学”という形で、
+先輩であるアスカが様々な場所を
+見せて回っている最中であった。
+<PAUSE>
+<ACTOR>1,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「それから、
+　街のバカどもに絡まれても
+　ケンカするのは無しね」
+<PAUSE>
+<NAME_PLATE>アスカ
+「私たちは“娼婦”なんだから。
+　騒ぎを起こすと、手を貸してくれた
+　親分さんに迷惑がかかる」
+<PAUSE>
+<NAME_PLATE>
+　アスカが小声で注意をする。
+<PAUSE>
+<NAME_PLATE>
+　魔族と悪党の街であるヨミハラに、
+米連系組織の構成員である二人が
+大手を振って入れるわけがない。
+<PAUSE>
+<NAME_PLATE>
+　そこでアスカは、ＤＳＯのヨミハラに
+おける協力組織に便宜を図ってもらい、
+“娼婦”という偽の身分を得ることにした。
+<PAUSE>
+<NAME_PLATE>
+　（二人が着ている制服や戦闘スーツも、
+『娼婦用のコスプレ』という名目だ）
+<PAUSE>
+<NAME_PLATE>
+　これでヨミハラの街を
+自由に歩き回ることができるが、
+<PAUSE>
+<NAME_PLATE>
+　しかし騒ぎを起こして正体が
+バレたりしたら、身分を保証した
+協力組織の立場が悪くなる。
+<PAUSE>
+<NAME_PLATE>
+　だから、喧嘩は控えないとダメよ、
+というアスカの小言であった。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「うん、わかってる♪　でも……
+　えへへ、なんか照れるよね」
+<PAUSE>
+<ACTOR>1,as_t005d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「へ？　何が？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「私とアスカ、
+　娼婦って思われてるせいかな？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「さっきから、すれ違う
+　おじさんたちが、すっごく
+　エッチな目で見てきて……えへへ」
+<PAUSE>
+<ACTOR>1,as_t005h,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「あぁ……」
+<PAUSE>
+<NAME_PLATE>
+　アスカとケイリーは、
+共にヨミハラの最高級娼婦にも
+負けない輝くような美少女だ。
+<PAUSE>
+<NAME_PLATE>
+　当然、男たちの目は二人に釘付けになり、
+「姉ちゃんどこの店だ、指名するぜ！」と
+下卑た声をかける者も大勢いた。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「こ、こんなに見られたら……
+　なんか、恥ずかしいって言うか、
+　ドキドキしちゃうって言うか」
+<PAUSE>
+<ACTOR>1,as_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「いやいや、そんなの
+　適当にスルーしときゃいいのよ。
+　相手したらつけ上がるから」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「う、うん、了解っ。
+　でもアスカはスゴイね……！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「こんな妖しい街にいるのに、
+　普段と同じで堂々として……！」
+<PAUSE>
+<NAME_PLATE>
+　場慣れしているアスカと違い、
+ケイリーは今日が闇の街初体験。
+<PAUSE>
+<NAME_PLATE>
+　目に映る全てが新鮮で、
+ワクワクが止まらないようであった。
+<PAUSE>
+<ACTOR>1,as_t005c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「まぁ何事も慣れよ慣れ。
+　あんただって、
+　何回か出入りすれば――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ギャングたち
+「クソぉおぉおおっ！！？
+　どけどけぇ、道を開けろぉお！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク
+//　　　　＊モンスターイラスト
+//　※立ち絵
+//　　ハイオークチーフ
+//　　　　＊モンスターイラスト
+<NAME_PLATE>ケイリー
+「わわっ、なに！？」
+<PAUSE>
+<NAME_PLATE>
+　広場の向こう側で騒ぎが起きていた。
+<PAUSE>
+<NAME_PLATE>
+　何事かわめき散らしながら
+人ごみの中を駆けていくオークたち。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、そんな彼らを
+背後から追跡しているのは――
+<PAUSE>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「全く、往生際の悪い連中ね……」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ01
+//　　　＊カードイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　深くフードを被った若い女。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーは知らないが、
+彼女は闇の街の探偵・クローンアサギ。
+<PAUSE>
+<NAME_PLATE>
+　彼女のオリジナルである井河アサギと、
+ここにいるアスカは浅からぬ因縁を持つ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,as_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「あの顔……。あいつの
+　クローンの生き残りが“Ｇ”から
+　逃げたって話は聞いてたけど……」
+<PAUSE>
+<ACTOR>0,as_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「――ごめんケイリー！
+　私、用事ができた、
+　先に宿に戻ってて！」
+<PAUSE>
+//　※立ち絵
+//　　甲河アスカ＿通常立ち絵（対魔忍スーツ）
+//　　　＊カードイラストより流用
+<NAME_PLATE>ケイリー
+「ええっ！　アスカ！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,as_t001f,CENTER, CENTER, NONE, linear, 0
+<WAIT>500
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　アスカの衣服が一瞬で
+対魔忍スーツに変じ、闇の街の
+奥へと風のように駆け去った。
+<PAUSE>
+<NAME_PLATE>
+　どうやらさっきのフードの女の
+後を追っていったようだ。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+「う、うそ……？
+　アスカどっか行っちゃった、
+　どうしよう……！？」
+<PAUSE>
+<NAME_PLATE>
+　ぽかーんと口を開けるケイリー。
+<PAUSE>
+<NAME_PLATE>
+　右も左もわからない闇の街に
+一人、取り残されてしまった。
+<PAUSE>
+<NAME_PLATE>
+　まぁ、宿の場所は覚えているので、
+アスカの指示通り戻って待っていれば
+問題はないのだけれど。
+<PAUSE>
+<NAME_PLATE>
+　でもせっかくワクワクする
+場所にいるのに、部屋に篭って
+待ってるだけっていうのも……。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「じー……」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<ACTOR>0,chr_t0274a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0280a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「わわっ！？　き、君は……？」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にそこにいたのだろうか。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーのすぐ隣に、ひらひらした
+ワンピースにリスさんポシェットを持った
+小柄な女の子が佇んでいた。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「え、えっと……？
+　どうしたの、君、迷子かな？」
+<PAUSE>
+<NAME_PLATE>？？？
+「迷子？　違う。
+　ナーサラはナーサラ」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「な、ナーサラちゃん……？」
+<PAUSE>
+<NAME_PLATE>
+　それが女の子の名前のようだ。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「機械の腕、カチコチ。足の方も？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「あっ。これが気になったの？
+　そうなんだ、私の両手と両足は、
+　機械でできているの」
+<PAUSE>
+<NAME_PLATE>
+　ケイリーが微笑んで少女に
+自分の右手を差し出した。
+<PAUSE>
+<NAME_PLATE>
+　どうやらそれが、この不思議な
+少女の興味を惹いていたらしい。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「これは、アンドロイドアームと
+　レッグって言ってね」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「私、少し前に色々あって
+　手と足がダメになっちゃったから、
+　代わりにつけてもらったの」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「機械の手、探偵と同じ。
+　少し最新？　興味深い……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「うひゃあっ！？
+　な、ナーサラちゃん……！？
+　くすぐったいよぉ……っ」
+<PAUSE>
+<NAME_PLATE>
+　機械化した腕や足をペタペタと
+少女が触りまくっていた。
+<PAUSE>
+<NAME_PLATE>
+　手足には疑似神経が通っているので、
+少し色っぽい声が出てしまう。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「手と足、ダメ。痛い？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「はぅ……えっ？
+　あっ、そうだね……
+　その時は大変だったけど」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「でも、今はぜんぜん平気だよ。
+　むしろこれをつけてからの方が
+　調子が良いくらい！」
+<PAUSE>
+<NAME_PLATE>
+　心配そうに見上げる少女に
+にっこりと笑う。
+<PAUSE>
+<NAME_PLATE>
+　ケイリー・マイヤーズは、
+米連の研究者によって造られた
+人工の忍法使いであった。
+<PAUSE>
+<NAME_PLATE>
+　強力な雷遁の力を持ち、
+しかしその強力すぎる能力の反動から
+両手両足が激しく蝕まれた。
+<PAUSE>
+<NAME_PLATE>
+　そこで、彼女を造った研究者は
+甲河アスカの両手両足の義肢を製造した
+ＤＳＯに助力を求め、
+<PAUSE>
+<NAME_PLATE>
+　アスカと同様に両手両足を
+アンドロイドアーム＆レッグに
+置き換えることで能力を安定させ、
+<PAUSE>
+<NAME_PLATE>
+　また、その義肢のメンテナンスと
+性能向上のため、ケイリー自身も
+ＤＳＯに所属することになった。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「今は平気。良かった。
+　これあげる」
+<PAUSE>
+<NAME_PLATE>
+　少女はこくりと肯くと、
+ケイリーの手にポシェットから
+取り出したクッキーを乗せる。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ばいばい」
+<PAUSE>
+<NAME_PLATE>ケイリー
+「あ、ありがとう……？」
+<PAUSE>
+<ACTOR_OUT>0,RIGHT,linear,1000
+<ACTOR>1,chr_t0280a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　現れた時と同様、少女はまた
+ふらふらとどこかに歩いていく。
+<PAUSE>
+<NAME_PLATE>ケイリー
+「な、なんだか不思議な子……」
+<PAUSE>
+<NAME_PLATE>
+　そもそも、危険な闇の街を
+どうしてあんな小さな女の子が
+平気な顔で歩いているのだろう。
+<PAUSE>
+<NAME_PLATE>
+　見れば見るほど不思議であった。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（うんっ！　なんだか面白そう、
+　あの子の後について行こっ！）
+<PAUSE>
+<NAME_PLATE>
+　ちょうど過保護なアスカと離れ、
+自由に動けるようになった所である。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ワクワクと目を輝かせながら
+ケイリーは少女の後を追った。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ繁華街２＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc021aより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG_OUT>1000
+<BGM_PLAY>bgm509,1000
+<BG>chrnc0271a,IN, 1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ナーサラ
+「………」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>ケイリー
+（こそこそ、こそこそ……）
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ふらふらと街を歩くナーサラの後を
+ケイリーがこっそりと続く。
+<PAUSE>
+<NAME_PLATE>
+　アンドロイドアームに内蔵された
+光学迷彩を使って姿を隠しているので、
+見つかる心配はないはずだ。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（でも、あの子どこに行くのかな……？
+　な、なんかどんどん、周りのお店が
+　エッチな感じになってくんだけど……）
+<PAUSE>
+<NAME_PLATE>
+　つい赤面してしまうケイリー。
+<PAUSE>
+<NAME_PLATE>
+　娼館らしき建物が軒を連ねる
+いかがわしい通りを、ナーサラは
+ふらふらと平気な顔で歩いていく。
+<PAUSE>
+<NAME_PLATE>
+　研究所育ちで性に疎いケイリーには、
+どうにも刺激の強い場所である。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、その時だった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m090a,CENTER, CENTER, IN, linear, 1000
+<ACTOR>2,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャングたち
+「おらァ！！
+　舐めやがってクソがっ！」
+「ぶっ殺してやる！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング
+//　　　　＊モンスターイラスト
+//　※立ち絵
+//　　魔族傭兵
+//　　　　＊モンスターイラスト
+//　※立ち絵
+//　　オーク兵
+//　　　　＊モンスターイラスト
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ダダダダダダダダ！！！
+<PAUSE>
+<NAME_PLATE>ケイリー
+（な、なに！？　撃ち合い！？）
+<PAUSE>
+<NAME_PLATE>
+　突然、通りに激しい銃撃と
+男たちのわめき声が響き始める。
+<PAUSE>
+<NAME_PLATE>
+　この街ではすっかりお馴染みの、
+ギャングたちの小競り合いだ。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（あわわわっ、
+　どうしようどうしよう！？）
+<PAUSE>
+<NAME_PLATE>ケイリー
+（止めないと周りの人に被害が……
+　あっ、でも、目立つなってアスカに
+　言われてるし……って、わああっ！？）
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ダダダダダダダ！！！
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「あう」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（た、大変っ！！？
+　あの女の子が撃たれちゃった！）
+<PAUSE>
+<NAME_PLATE>
+　銃撃戦の流れ弾だ。
+<PAUSE>
+<NAME_PLATE>
+　全く気にすることなく
+通りを歩いていた少女に直撃――。
+<PAUSE>
+<NAME_PLATE>
+　その小さな体が弾かれたように
+後方に吹き飛ばされる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>ケイリー
+「っ！！？」
+<PAUSE>
+<NAME_PLATE>
+　もう躊躇している場合ではない。
+<PAUSE>
+<NAME_PLATE>
+　とにかく女の子の手当てを――
+と、ケイリーが光学迷彩を解いて
+飛び出そうとした時。
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「何してるのあんたたちっ！？
+　カタギの皆さんにまで
+　弾が飛んでるじゃない！」
+<PAUSE>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドカ！！　バキッ！！
+<PAUSE>
+<NAME_PLATE>ギャングたち
+「ひぃいいっ！！？」
+「なっ、なにしやがるっ！！？」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（うわぁっ！！？
+　な、なんかすごい人が来た！！？）
+<PAUSE>
+<NAME_PLATE>？？？
+「ふんっ、ここは天下の往来よ。
+　ヤンチャするのも大概にしなさい！」
+<PAUSE>
+//　※立ち絵
+//　　アンブローズ
+//　　　　＊モンスターイラスト
+<NAME_PLATE>
+　恐るべき体術でギャングたちを
+叩きのめした謎の人物が、
+通りの真ん中で一喝する。
+<PAUSE>
+<NAME_PLATE>
+　男性……なのだろうか、
+筋骨隆々な身体に奇抜すぎる髪形、
+そしてゴージャスな衣装。
+<PAUSE>
+<NAME_PLATE>
+　そのどれをとっても
+『なんかすごい』としか
+言いようのない怪人物であった。
+<PAUSE>
+<NAME_PLATE>娼婦たち
+「きゃーーー！！
+　アンブローズ様～～っ！」
+「今日の髪形もステキですぅ！」
+<PAUSE>
+<NAME_PLATE>街の住人
+「お、おいおい、
+　あれは淫魔族の幹部だぞ！」
+<PAUSE>
+「とんでもねえ強さだぜ……！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（い、淫魔族……！？
+　わたし、初めてみた……！）
+<PAUSE>
+<NAME_PLATE>
+　淫魔族幹部アンブローズ。
+<PAUSE>
+<NAME_PLATE>
+　女であれば誰でも容易く虜にする
+強力なチャームの力を持ち、
+<PAUSE>
+<NAME_PLATE>
+　また、それだけでなく、
+男女を超えた究極の美しさを
+追求する孤高の人物である。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「あら？
+　声援ありがとう子猫ちゃんたち、
+　怪我はなかったかしら？」
+<PAUSE>
+<NAME_PLATE>
+　アンブローズが声をかけると、
+娼婦や街の住人がきゃーきゃーと
+盛大な歓声を上げる。
+<PAUSE>
+<NAME_PLATE>
+　どうやらアンブローズは
+闇の街で絶大な人望があるようで。
+<PAUSE>
+<NAME_PLATE>
+　そして、撃ち合いをしていた
+ギャングたちも、
+<PAUSE>
+<NAME_PLATE>
+　「へへー。参りました姐さん！」と
+すっかり恐れ入っている様子。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「ええ。わかれば良いのよ。
+　私も撃ち合いをするなとは言わないわ」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「でも闇に生きる私達にも仁義がある。
+　そこだけは忘れないように――って、
+　それどころじゃなかったわ！」
+<PAUSE>
+<NAME_PLATE>
+　ギャングたちに軽く説教をした
+アンブローズが道に倒れている
+少女を助け起こす。
+<PAUSE>
+<NAME_PLATE>
+　さっき流れ弾を食らったナーサラだ。
+<PAUSE>
+<ACTOR>0,ts_m177a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アンブローズ
+「だ、大丈夫あなた！？
+　痛かったわよね、今すぐお医者に
+　……って、無傷ね」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「もぐもぐ。
+　弾丸あまりおいしくない」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（ええっ！？　無傷っ！？
+　ど、どうして！！？）
+<PAUSE>
+<NAME_PLATE>
+　何事もなかったように
+少女が立ち上がった。
+<PAUSE>
+<NAME_PLATE>
+　あれだけ大量の銃弾を受けたのに、
+なぜか完全に無傷のようだ。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「あら、そう。
+　まあ怪我がなければそれで
+　何よりだけど」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「髪の毛、ぐるぐる。すごい」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「あら、ありがとう♪
+　触っていいわよ」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「……でも、あなたのほっぺも、
+　すごくツヤツヤでぷにぷにね」
+<PAUSE>
+<NAME_PLATE>
+　自慢の髪をナーサラに触らせながら
+感心したようにアンブローズが言う。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「思い出すわぁ……。
+　私にもあなたのような
+　ツヤツヤのほっぺの時があった」
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「本当にうらやましい……。
+　いえ、私も負けてられないわ！
+　――セバス、予約の時間は！？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ts_m019a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>闇の従者
+「はっ。アンブローズ様、
+　あと１５分ほどでございます」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者
+//　　　　＊モンスターイラスト
+<NAME_PLATE>
+　従者の男が恭しく答える。
+<PAUSE>
+<NAME_PLATE>
+　この日アンブローズは、
+ヨミハラのセレブ御用達である
+溶岩エステに向かう途中であった。
+<PAUSE>
+<NAME_PLATE>アンブローズ
+「時間はピッタリね。
+　じゃあ私は更なる美を磨いてくるわ」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アンブローズ
+「ぷにぷにのあなた、
+　それから街の子猫ちゃんたち、
+　また会いましょうっ！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ばいばい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　娼婦や街の住人の大歓声を背に
+アンブローズが悠々と去っていった。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（す、すごいっ！！
+　あの子も、あの変なお姉さんも、
+　とにかくどっちもすごいっ！）
+<PAUSE>
+<NAME_PLATE>
+　美と仁義を愛する淫魔族幹部。
+銃弾を平気で受け止める不思議な少女。
+<PAUSE>
+<NAME_PLATE>
+　どちらも研究所の中しか知らない
+ケイリーの想像を超えた存在だ。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（これが闇の街の人たち……。
+　じゃ、じゃあ次は、
+　どんなことが起こるのかな……！）
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アンブローズと別れたナーサラは
+またふらふらと歩き出している。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ケイリーは更なる期待に胸を膨らませ、
+こっそりとその後を追う。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ裏路地＿昼夜共通】【時間：夜】
+//　※対魔忍紅＿NC005aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc062a,IN, 1000
+<BGM_PLAY>bgm203,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ナーサラ
+「………」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>ケイリー
+（あれれ……？　今度は、
+　人のいないところに来ちゃった）
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　薄暗い裏路地を進むナーサラ、
+その前に立ち塞がるようにゆらりと
+怪しい影が現れた。
+<PAUSE>
+<ACTOR>0,chr_t0118a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「にゃにゃあ……
+　探偵のところの使いだにゃ？
+　ブツは持ってきてくれたのか？」
+<PAUSE>
+//　※立ち絵
+//　　メルシー01
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR>2,ts_m194c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>野良猫たち
+「にゃー」
+「にゃうにゃう」
+<PAUSE>
+//　※立ち絵
+//　　ネコマタ立ち絵（ストーリー15で使用した画像を流用）
+//　　　　＊モンスターイラスト
+//　※立ち絵
+//　　ネコマタ立ち絵（ストーリー15で使用した画像を流用）
+//　　　　＊モンスターイラスト
+<NAME_PLATE>ケイリー
+（わわっ！？
+　野良猫がたくさん……
+　それに、ネコの獣人さん！？）
+<PAUSE>
+<NAME_PLATE>
+　そこにいたのは、ヨミハラの
+地下道や裏路地で暮らす野良猫たち。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんなヨミハラの
+猫社会を率いる、もと野良猫の
+ケットシー・メルシーだ。
+<PAUSE>
+<NAME_PLATE>メルシー
+「お前にはうちの若いもんが
+　世話になってるらしいからにゃ。
+　礼を言っとくにゃあ」
+<PAUSE>
+<NAME_PLATE>野良猫たち
+「ふにゃー」
+「にゃんにゃん」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0118a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「にゃん。にゃうにゃう」
+<PAUSE>
+<NAME_PLATE>
+　なぜか鳴き声で返事をする少女。
+<PAUSE>
+<NAME_PLATE>メルシー
+「い、いや、お前は
+　ネコ語じゃなくて平気にゃ。
+　メルは人間語しゃべれるからにゃあ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「にゃー。
+　ヒト語しゃべれる。了承」
+<PAUSE>
+<NAME_PLATE>メルシー
+「まぁ、そんなことより
+　早く例のブツを出すのにゃ！」
+<PAUSE>
+<NAME_PLATE>メルシー
+「メルはもう待ちきれなくて……
+　はあはあ」
+<PAUSE>
+<NAME_PLATE>
+　メルシーは息を荒くしている。
+<PAUSE>
+何か不穏な様子である。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「例のブツ。これ？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルシーたち
+「ふにゃにゃにゃにゃあ～～っ！」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（ええぇ！！？）
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0118a,RIGHT, CENTER, NONE, linear, 1000
+<GROUP>
+<ACTOR>2,ts_m194c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>
+　ナーサラがポシェットから
+白い粉のようなものを取り出すと、
+メルシーと猫たちがそれに殺到した。
+<PAUSE>
+<NAME_PLATE>
+　にゃあにゃあと嬉しげに鳴いて
+白い粉の匂いを嗅ぎ、やがてコロリと
+地面に寝転がってしまう。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>メルシー
+「ふにゃああ♪
+　これこれ、この匂い、
+　たまらないにゃああ♪」
+<PAUSE>
+<NAME_PLATE>野良猫たち
+「にゃうにゃうー♪」
+「ゴロゴロ」
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「嗅ぎ過ぎは危険。注意」
+<PAUSE>
+<NAME_PLATE>メルシー
+「わかってるにゃ。
+　メルたちは更生したのにゃあ」
+<PAUSE>
+<NAME_PLATE>メルシー
+「でもこいつを一発キメたい
+　気分の日もあるのにゃあ。
+　はあはあ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「止めたいのに止められない。
+　複雑な感情。興味深い」
+<PAUSE>
+<NAME_PLATE>ケイリー
+（こ、これはもしかして……！
+　怪しいお薬の取引現場！！？）
+<PAUSE>
+<NAME_PLATE>
+　ハラハラと手に汗握るケイリー。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　実はヨミハラの野良猫たちは、
+バレンタインのマタタビチョコ事件以来、
+<PAUSE>
+<NAME_PLATE>
+　すっかり魔界マタタビの
+怪しい魅力にハマっていた。
+<PAUSE>
+<NAME_PLATE>
+　とは言え前回のように完全な
+ジャンキーになってはマズいので、
+<PAUSE>
+<NAME_PLATE>
+　前の事件でも使用した解毒薬、
+ネコビタマ草の成分を加えた中毒性の低い
+マタタビパウダーを作ってもらっている。
+<PAUSE>
+<NAME_PLATE>
+　このパウダーを製造しているのが、
+鬼腕の魔科医こと桐生美琴。
+<PAUSE>
+<NAME_PLATE>
+　そして魔科医と猫たちを仲介したのが
+闇の街の探偵クローンアサギであり、
+<PAUSE>
+<NAME_PLATE>
+　今日、ナーサラは事務所のおつかいで、
+このマタタビパウダーを猫たちに
+届けてあげたのだった。
+<PAUSE>
+<ACTOR>0,chr_t0118a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「ふにゃああ、この白い粉は
+　やっぱり最高にぶっ飛ぶにゃあ♪
+　じゃあお前、これが報酬にゃ」
+<PAUSE>
+<NAME_PLATE>
+　メルシーが書類の束のようなものを
+ナーサラに手渡した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　街を自由に闊歩する野良猫たちは
+人間の様々な行動を覗き見ている。
+<PAUSE>
+<NAME_PLATE>
+　その中には探偵の捜査に役立つ
+情報も色々とあったりするのだった。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（すごい、これが闇の街のリアル！？
+　あんな小さい女の子まで
+　裏稼業にどっぷりなのね……！）
+<PAUSE>
+<NAME_PLATE>
+　光学迷彩でこっそり覗き見る
+ケイリーはドキドキと興奮顔。
+<PAUSE>
+<NAME_PLATE>
+　実際のところマタタビパウダーは
+リハビリ用の薬という感じで
+危険は全くないのだが、
+<PAUSE>
+<NAME_PLATE>
+　それを知らないので無駄に
+ハラハラしている状況だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0274a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>メルシー
+「んじゃあ探偵によろしくにゃあ。
+　お前も、そのうちメルのおうちに
+　遊びに来るにゃ。歓迎するにゃぞ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「にゃあにゃあ。
+　おうち訪問楽しみ。ばいばい」
+<PAUSE>
+<NAME_PLATE>野良猫たち
+「にゃー♪」
+「にゃんにゃん」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>ケイリー
+（あっ！　あの子が行っちゃう！）
+<PAUSE>
+<NAME_PLATE>
+　メルシーや野良猫たちとお別れし、
+再び少女がてくてくと歩き出す。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ繁華街＿とある酒場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　次にナーサラが向かったのは、
+繁華街の片隅にある小さなバーだ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「これ。アサギから預かった資料」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<ACTOR>0,chr_t0274a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>高坂静流
+「あら♪
+　いらっしゃいナーサラちゃん。
+　おつかいご苦労さま」
+<PAUSE>
+//　※立ち絵
+//　　高坂静流（チョコ教師）
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　そこにいるのは高坂静流。
+<PAUSE>
+<NAME_PLATE>
+　五車学園で教師をしながら
+バーの店主としてヨミハラに潜入し、
+<PAUSE>
+<NAME_PLATE>
+　最近では町内会長の地位も得たという、
+なんだかよくわからないことになってる
+多忙すぎる凄腕対魔忍だ。
+<PAUSE>
+<NAME_PLATE>静流
+「うーん。なるほどー。
+　面白い道具はいくつかあるけど、
+　実際にやるとなると……」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「？　静流、悩み事？
+　クッキー食べる？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラから資料を受け取った静流は、
+早速それを開いて何か思案する表情。
+<PAUSE>
+<NAME_PLATE>静流
+「あっ。
+　ありがとうナーサラちゃん♪」
+<PAUSE>
+<NAME_PLATE>静流
+「実は、クリスマスのことでちょっとね。
+　せっかくだから町内会でも
+　何かイベントをしようと思ってて」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「クリスマス」
+<PAUSE>
+<NAME_PLATE>静流
+「そうそう。で、それに使えそうな
+　道具や魔獣を探偵さんにも
+　調べて貰ってたんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　クッキーをぱくつきながら、
+うーんと首をひねる静流。
+<PAUSE>
+<NAME_PLATE>
+　今のところ特に良いアイデアは
+思い浮かんでないらしい。
+<PAUSE>
+<NAME_PLATE>静流
+「まぁ、それはともかく！
+　ナーサラちゃんは
+　いつもお手伝いをして感心ね」
+<PAUSE>
+<NAME_PLATE>静流
+「あっちには、
+　あーんなことになってる
+　大人もいるのに」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「あっち？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ナーサラが振り向くと、
+そこにダメな大人たちが
+テーブルを囲んでいた。
+<PAUSE>
+<NAME_PLATE>ふうま亜希
+「ぐーぐー。
+　さーお姉さんの後ろに隠れるのだ、
+　子供たち……うへへへ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<GROUP>
+<ACTOR>0,ts_m228a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0273a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「なんらぁ！？　おまえ、
+　あーしの酒がのめねえってかぁ！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス02立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>峠金鬼
+「い、いや、フランシス殿……
+　拙者、これ以上は……うっぷ」
+<PAUSE>
+//　※立ち絵
+//　　峠金鬼立ち絵
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　探偵事務所のぐうたら居候
+ふうま亜希と、新入りの鬼ギャル
+フランシス。
+<PAUSE>
+<NAME_PLATE>
+　それから新興組織“鬼武衆”の幹部、
+峠金鬼（とうげきんき）であった。
+<PAUSE>
+<NAME_PLATE>
+　亜希は泥酔して居眠りをし、
+フランシスは峠金鬼のグラスに
+無理やり酒をついでいる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「三人ともぐでんぐでん。
+　泥酔。よっぱらい」
+<PAUSE>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「んにゃ～？
+　あーナーサラちゃんだー！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m228a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0273a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「あっ、ナーサラ！
+　あんたも一緒に飲もうよ！
+　駆けつけ百杯っ！」
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「これはナーサラ殿。
+　その節は我が身内がとんだ失礼を」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラが近くにいくと、
+酔っ払いどもが元気に絡んでくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　もう随分長く飲んでいるのか、
+三人のテーブルは空き瓶で一杯だ。
+<PAUSE>
+<NAME_PLATE>
+　先日の魔獣牧場の件で改めて
+事務所に挨拶に来た峠金鬼を亜希と
+フランシスが強引に連れ出し、
+<PAUSE>
+<NAME_PLATE>
+　それから延々と飲んでいたのだった
+（峠金鬼のおごりで）。
+<PAUSE>
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「飲むのダメ。これから用事。
+　友達のところ行く」
+<PAUSE>
+<ACTOR>0,chr_t0273a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ふえーしょんな～？
+　アタシふられてしょんぼり丸ー」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「じゃあナーサラちゃん。
+　代わりに君にはナデナデの刑だ！
+　ほらこっちこっち～」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「？　ナデナデうれしい。有益。
+　するの許可」
+<PAUSE>
+<NAME_PLATE>亜希
+「ふえー癒されるー。
+　ナデナデナデナデ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m228a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0273a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「んにゃーアタシもアタシもー♪
+　ほら、あんたもナデナデ
+　させてもらいなよ、峠金鬼」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>峠金鬼
+「拙者もでござるか！！？
+　そ、そんな無体なことは……」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「じー……」
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「な、ナーサラ殿……！？
+　い、いや、しかし、
+　この穢れのない幼気な瞳……」
+<PAUSE>
+<NAME_PLATE>峠金鬼
+「拙者のなかにも、
+　何か不思議な熱い気持ちが
+　生まれてきて……ごくっ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「こらこら。亜希、フランちゃん、
+　真面目なお侍さんを変な道に
+　引き込むのは止めなさい」
+<PAUSE>
+<ACTOR>1,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「あっ。静流ー」
+<PAUSE>
+<NAME_PLATE>
+　追加の酒を持ってきた静流が
+酔っ払いどもをたしなめる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「じゃあ皆、飲み過ぎはダメ。
+　健康第一。ばいばい」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0273a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「はーい。気を付けまーす」
+<PAUSE>
+<NAME_PLATE>
+　二人に好きなだけナデナデさせた後、
+軽く注意をしてナーサラが店を出る。
+<PAUSE>
+<NAME_PLATE>フランシス
+「さーて、ナデナデ分も補給したし、
+　気合入れて飲み直すかー！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「って亜希？　どうしたの、
+　そんな真面目な顔になって」
+<PAUSE>
+<ACTOR>1,chr_t0273a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m228a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>峠金鬼
+「亜希殿……？」
+<PAUSE>
+<NAME_PLATE>
+　フランシスと峠金鬼が
+不思議そうに亜希を見る。
+<PAUSE>
+<NAME_PLATE>
+　酔ってグダグダだった亜希の顔が、
+いつの間にか真剣なものに変わっていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「いや、うん……。
+　私の気のせいかな……？」
+<PAUSE>
+<NAME_PLATE>亜希
+「今、ナーサラちゃんの後ろに
+　何かの気配があったような――」
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ地下道＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC044aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc126a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ヨミハラ地下道。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+（はぁーすごかったぁ。
+　あれが闇の街の酒場……！）
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　ひとり地下道をふらふらと行く
+ナーサラをこっそり追跡しながら、
+<PAUSE>
+<NAME_PLATE>
+　姿を隠したケイリーが
+まだ興奮で頬を上気させている。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（鬼族の人や傭兵っぽい人、
+　それにオーク、魔族まで……
+　皆、すごく楽しそうで……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ナーサラの後について足を踏み入れた
+先ほどのバーのことである。
+<PAUSE>
+<NAME_PLATE>
+　今まで資料でしか見たことのない
+様々な種族や職業の者たちが、
+分け隔てなく酒を酌み交わしている。
+<PAUSE>
+<NAME_PLATE>
+　そんな闇の街の酒場の光景に、
+ケイリーはすっかり魅了されていた。
+<PAUSE>
+<ACTOR>0,chr_t0280a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ケイリー
+（私もいつか、あの中に混じって
+　お酒を飲んだりしてみたいなー）
+<PAUSE>
+<NAME_PLATE>ケイリー
+（あっ。でも、この街で気を抜くと
+　すぐエッチなことされちゃうって
+　アスカが言ってたから……）
+<PAUSE>
+<NAME_PLATE>ケイリー
+（うーん、難しいのかなあ。
+　あとでもう一回、アスカに
+　くわしく聞いてみないと……）
+<PAUSE>
+<NAME_PLATE>ケイリー
+（って、あの子、
+　どこまで行くの……！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「………」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>
+　ナーサラは地下道を歩いて
+どんどん奥へと進んでいるようだ。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（こんな変なところまで入って、
+　あの子、何をするんだろう……？）
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ地下＿魔獣牧場＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc036a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　数分後。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラ（とその後に続くケイリー）は、
+ぽっかりと開けた奇妙な地下空間に出た。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「………」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+（な、なにこの場所っ！？
+　変な動物が沢山いる……！？）
+<PAUSE>
+//　※立ち絵
+//　　ケイリー・マイヤーズ。
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　一見、自然の洞窟のようだが
+よく見ると違っている。
+<PAUSE>
+<NAME_PLATE>
+　地形と柵を利用して空間を
+幾つかに区切り、そこに様々な
+種類の奇怪な動物が集められている。
+<PAUSE>
+<NAME_PLATE>
+　ケイリーは知るよしもないが、
+ここは鬼族が経営する魔獣牧場。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<NAME_PLATE>
+　この時、そんな奇妙な空間よりも
+ケイリーの注意を惹いたのは。
+<PAUSE>
+<NAME_PLATE>ケイリー
+（この気配……！？
+　や、やっぱり誰かが
+　こっちを見ているよ……！）
+<PAUSE>
+<NAME_PLATE>
+　この洞窟に入る直前辺りから
+肌に感じていた密かな視線、
+あるいは殺気――。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんなケイリーの
+直感を裏付けるように。
+<PAUSE>
+<NAME_PLATE>？？？
+『ＭＩＹＵＵＵ……』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ケイリー
+「！！？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　じゅるじゅると蠢く巨大な影が、
+女の子の前に立ち塞がった。
+<PAUSE>
+<ACTOR>0,ts_m229a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『ＭＩＹＵＵＵＵＵＵＵＵＵＵＵＵＵ
+　ＵＵＵＵＵＵＵＵＵＵＵＵ……！』
+<PAUSE>
+//　※立ち絵
+//　　皇帝スライム
+//　　　　＊モンスターイラストを流用
+//→プロローグ終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

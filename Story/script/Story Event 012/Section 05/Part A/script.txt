@@ -1,0 +1,472 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム＿街はずれ＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc019aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc013a,IN, 1000
+<NAME_PLATE>
+　闇の町の街路にふたつの声が響いていた。
+<PAUSE>
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ワータイガー
+『ガアアアアアアアアアッ！！』
+<PAUSE>
+//　※立ち絵
+//　　ワータイガー＿汎用立ち絵
+//　　　　＊モンスターイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「ひええええええええっ！！？
+　やっぱりけもの
+　超こわいいいいいいいいいいいっ！！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　淫魔族の秘薬が入ったケースを
+抱えて逃走する卯奈と、それを追う
+獣人・ワータイガーだ。
+<PAUSE>
+<NAME_PLATE>卯奈
+（ふうま君には『大丈夫！』って言ったけど、
+　やっぱりあんまり大丈夫じゃないよーっ！）
+<PAUSE>
+<NAME_PLATE>
+　半泣きで疾走しながら、
+卯奈はそんなことを考える。
+<PAUSE>
+<NAME_PLATE>
+　獣人の咆哮を食らった体は、
+まだ完全に立ち直ってはいない。
+<PAUSE>
+<NAME_PLATE>
+　足がふらついて、
+いつもの速度で走れないのだ。
+<PAUSE>
+<NAME_PLATE>
+　これではあの恐ろしい獣人から
+逃げ切れるかどうかわからない。
+<PAUSE>
+<NAME_PLATE>
+　そのことは、卯奈自身も
+よくわかっていたのだが――
+<PAUSE>
+<NAME_PLATE>卯奈
+（でも！！　みんなのためだもん、
+　ここで私が頑張らないと――！）
+<PAUSE>
+<NAME_PLATE>
+　――望月卯奈は、うさぎの力を
+その身に宿した対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　そしてうさぎは、
+群れで行動する動物である。
+<PAUSE>
+<NAME_PLATE>
+　そんなうさぎの習性が影響して
+いるのかわからないが、
+<PAUSE>
+<NAME_PLATE>
+　卯奈は仲間や友達のことが大好きで、
+彼らを守るためには自分の危険を
+顧みない勇気と覚悟を持っていた。
+<PAUSE>
+<NAME_PLATE>
+　こうして危険な囮の役目を自ら
+買って出たのも、そのためである。
+<PAUSE>
+<NAME_PLATE>
+　だが、その一方で。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+（はうぅっ！？？
+　やっぱり来たああああああっ！！）
+<PAUSE>
+<NAME_PLATE>
+　単独で逃げ続けて数分。
+<PAUSE>
+<NAME_PLATE>
+　ふいに卯奈のお腹の下の方に
+むずむずとした感触が――。
+<PAUSE>
+<NAME_PLATE>
+　これもうさぎの力を
+身に宿している影響だろうか。
+<PAUSE>
+<NAME_PLATE>
+　卯奈は極端に孤独に対する
+ストレスに弱く、
+<PAUSE>
+<NAME_PLATE>
+　長時間の単独行動をすると
+決まっておしっこが近くなった。
+<PAUSE>
+<NAME_PLATE>
+　それが理由で、五車の教師からも
+“長時間の単独任務には不安が残る”
+という評価を受けていたりする。
+<PAUSE>
+<NAME_PLATE>
+　――そして今。
+<PAUSE>
+<NAME_PLATE>
+　皆と離れて一人で逃走している状況、
+<PAUSE>
+<NAME_PLATE>
+　さらに狂暴な野獣に追われている
+ストレスから、卯奈の膀胱は今にも
+決壊しそうな状態で――。
+<PAUSE>
+<NAME_PLATE>ワータイガー
+『ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡＡＡＡＡＡ！！』
+<PAUSE>
+<NAME_PLATE>卯奈
+「ぴゃあああああああああっ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　半泣きで夜の街を走る卯奈。
+<PAUSE>
+<NAME_PLATE>
+　二重のピンチであった。
+<PAUSE>
+<NAME_PLATE>
+　前門のおしっこ、後門のトラ。
+<PAUSE>
+<NAME_PLATE>
+　どちらも危機一髪の状況だ。
+<PAUSE>
+<NAME_PLATE>卯奈
+（出すしかないのっ！？
+　そうすればもうちょっと
+　スピードも出る！！？）
+<PAUSE>
+<NAME_PLATE>
+　最後の手段として走りながらの
+おしっこの開放も検討する。
+<PAUSE>
+<NAME_PLATE>
+　大変な醜態だが命には代えられない。
+<PAUSE>
+<NAME_PLATE>
+　とはいえそれは乙女として
+どうだろうか？
+<PAUSE>
+<NAME_PLATE>
+　などと軽くパニックになりながら
+卯奈が逃走を続けていると。
+<PAUSE>
+//　※注　卯奈視点なので以下の通信応答のところは主人公の名前欄は「小太郎」でお願いします。
+<NAME_PLATE>小太郎
+『卯奈！！　無事か――！？』
+<PAUSE>
+<NAME_PLATE>卯奈
+「ふうま君っ！？」
+<PAUSE>
+<NAME_PLATE>
+　端末に“即席チーム”の
+リーダー・ふうま小太郎から連絡が入る。
+<PAUSE>
+<NAME_PLATE>卯奈
+「まだ無事だけど……
+　ギリギリですうううううっ！！」
+<PAUSE>
+<NAME_PLATE>小太郎
+『ギリギリ？　なにが？
+　ま、まあ、とにかく――』
+<PAUSE>
+<NAME_PLATE>小太郎
+『お前の位置は端末の情報で
+　こっちも把握している。
+　そのまま真っすぐ走れっ！！』
+<PAUSE>
+<NAME_PLATE>小太郎
+『２ブロック先の工事現場――
+　そこまで全力で走るんだ！！』
+<PAUSE>
+<NAME_PLATE>卯奈
+「工事現場！？
+　そこになにがあるの！？」
+<PAUSE>
+<NAME_PLATE>小太郎
+『あーそれは……って、クソ！？』
+<PAUSE>
+<NAME_PLATE>卯奈
+「はい？」
+<PAUSE>
+<SE_PLAY>se042
+<NAME_PLATE>
+　端末の向こうで剣戟と銃撃の音。
+<PAUSE>
+<NAME_PLATE>
+　どうやら小太郎たちも
+激しい戦いの最中にあるようだ。
+<PAUSE>
+<NAME_PLATE>小太郎
+『すまん卯奈！！
+　説明してる余裕がない。
+　とにかく急げっ！！！』
+<PAUSE>
+<NAME_PLATE>小太郎
+『２ブロック先の工事現場、
+　そこに行けば必ず勝てる！！』
+<PAUSE>
+<NAME_PLATE>
+　ブツッ！！
+<PAUSE>
+<NAME_PLATE>
+　言うだけ言ってさっくりと
+小太郎が端末を切る。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「ふえええええええええええええ
+　ええええっ！！！！！？
+　なんなのぉぉおおおおおっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　全くわけがわからない――が、
+今は仲間を信じるしかない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se078
+<NAME_PLATE>
+　野獣とおしっこの危機に震えながら
+卯奈は夜の街をひた走る。
+<PAUSE>
+//【黒画面】
+//【背景：東京キングダム＿無人の工事現場＿夜】【時間：夜】
+//　※魔法少女ヒカル＿nc018bより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc066a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　小太郎に指示された工事現場に到着――。
+<PAUSE>
+<NAME_PLATE>
+　しかしそこは無人。
+<PAUSE>
+<NAME_PLATE>
+　卯奈の窮地を救ってくれそうな
+ものは何もない。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,chr_t0199a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>卯奈
+「ふえええええええええっ！！？
+　ふうまくぅうううううん！！！？
+　なにもないんだけどぉおぉっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　工事現場は袋小路だ。
+<PAUSE>
+<NAME_PLATE>
+　ここに入ってしまった以上、
+もう逃げ続けることも――。
+<PAUSE>
+<NAME_PLATE>ワータイガー
+『ＧＲＲＲＲＲＲＲ……』
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>卯奈
+「ふひゅっ！？」
+<PAUSE>
+<NAME_PLATE>
+　背後から獣の唸り声。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　卯奈が恐る恐る振り向くと、
+そこには――
+<PAUSE>
+<ACTOR>0,ts_m156a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ＧＡＡＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡ！！！！』
+<PAUSE>
+<NAME_PLATE>卯奈
+「ほええええええええっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　牙をむき出しにした
+野獣が襲い掛かってくる。
+<PAUSE>
+//　※注　爪の攻撃演出などお願いします。
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　一撃、二撃――持ち前の
+瞬発力でその攻撃を寸前でかわす。
+<PAUSE>
+<NAME_PLATE>
+　しかしこんなギリギリの
+回避が何度もできるとは思えない。
+<PAUSE>
+<BG>nc066a,IN, 500
+<NAME_PLATE>卯奈
+「ふぐぐ……っ！？」
+<PAUSE>
+<NAME_PLATE>
+　絶体絶命――。
+<PAUSE>
+<NAME_PLATE>
+　うさぎの本能ゆえか反射的に
+体が恐怖で縮こまる。
+<PAUSE>
+<NAME_PLATE>
+　しかし、卯奈にも
+対魔忍としての意地がある。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m156a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0199a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ワータイガー
+『グルル――ッ！！！
+　ガアアアアアアアアアッ！！！』
+<PAUSE>
+<NAME_PLATE>卯奈
+「の、望むところだこのやろーーっ！！
+　やられる前に、こっちだって
+　一発くらいぶん殴って――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>？？？
+「ッ――！！！」
+<PAUSE>
+//　※注　何か激突するような戦闘演出をお願いします。
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガキイイイイイン！！！
+<PAUSE>
+<NAME_PLATE>ワータイガー
+『ＧＹＡＡＡＡＡＡＡＡＡＡＡＡＡ
+　ＡＡＡＡＡＡ！！！？？』
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc066a,IN, 500
+<NAME_PLATE>
+　突然――
+<PAUSE>
+<NAME_PLATE>
+　卯奈とワータイガーの間に
+しなやかな白い影が飛び込んだ。
+<PAUSE>
+<NAME_PLATE>卯奈
+「……………………ほえ？」
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<ACTOR>0,a_t006a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「――待たせたわね卯奈。
+　ここまでよく頑張ったわ」
+<PAUSE>
+//　※立ち絵
+//　　井河アサギ立ち絵＿白装備衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　へっぴり腰で構えをとった
+卯奈を守るようにして、
+五車学園校長にして対魔忍総隊長――
+<PAUSE>
+<NAME_PLATE>
+　最強の対魔忍・井河アサギが
+そこに立っていた。
+<PAUSE>
+<NAME_PLATE>卯奈
+「アサギ先生～～～～～～～～～
+　～～～～っ！！！！？？？」
+<PAUSE>
+<NAME_PLATE>
+　心の底からの安堵で
+卯奈の全身から力が抜けた。
+<PAUSE>
+<NAME_PLATE>
+『そこに行けば必ず勝てる』――
+<PAUSE>
+<NAME_PLATE>
+　さっき小太郎はそう言ったが、
+まさしくその通りだった。
+<PAUSE>
+<NAME_PLATE>
+　この人――井河アサギがここに
+いるならもう何もかも大丈夫。
+<PAUSE>
+<NAME_PLATE>小太郎
+『――アサギ先生！！
+　卯奈は無事ですか！！？』
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ。
+　ギリギリ間に合ったようね」
+<PAUSE>
+<NAME_PLATE>
+　アサギが端末の声に応答する。
+<PAUSE>
+<NAME_PLATE>
+　アサギはこの日“試験任務”の
+監督役として闇の町にいた。
+<PAUSE>
+<NAME_PLATE>
+　小太郎たちとは別のチームに同行し、
+その任務遂行をサポートする役目。
+<PAUSE>
+<NAME_PLATE>
+　それを思い出した小太郎が、
+端末で卯奈の位置をアサギに伝え、
+<PAUSE>
+<NAME_PLATE>
+　最短の位置――この工事現場で
+二人が合流できるように指示したのだ。
+<PAUSE>
+<ACTOR>0,a_t006a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m156a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ワータイガー
+『ＧＲＲＲＲＲ……』
+<PAUSE>
+<ACTOR>0,a_t006c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「さて、困った獣ね。
+　うちの生徒に手を出すなんて――
+　お仕置きが必要かしら」
+<PAUSE>
+<NAME_PLATE>
+　突然の闖入者を
+警戒するように低く唸る人虎。
+<PAUSE>
+<GROUP>
+<ACTOR>0,a_t007b,RIGHT, RIGHT, NONE, linear, 0
+<SE_PLAY>se016
+</GROUP>
+<NAME_PLATE>
+　それを恐れる様子もなく、
+アサギは微笑して忍者刀を構えた。
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

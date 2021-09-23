@@ -1,0 +1,275 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【背景：五車町山中＿ゆきかぜの家＿エントランス＿夜（消灯）】【時間：夜】
+//　※対魔忍アサギZERO＿NC050cより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc147a,IN, 1000
+<SE_PLAY>se095
+<NAME_PLATE>
+　ガチャン、ギィィィイ……！
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m092a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m092a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>スケアクロウ
+『ヒ～ヒヒヒヒヒッ！！！』
+<PAUSE>
+//　※立ち絵
+//　　スケアクロウ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　スケアクロウ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「マジかよ！！？」
+<PAUSE>
+<NAME_PLATE>
+　閉じていた入り口のドアがバタンと開き、
+カカシの軍団がわらわらと入ってくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m093a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>冥界の執事
+『カンラカラカラ――！！
+　潰れるが良いふうまの小僧ども！』
+<PAUSE>
+<SE_PLAY>se008
+<NAME_PLATE>
+　ビュン！！！
+ビュンビュン！！！
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひぃいぃいいいっ！！？
+　あ、危ない！？　高そうな家具が
+　ガンガン降ってくるぅうぅっ！！」
+<PAUSE>
+<NAME_PLATE>
+　そしてこっちでは、襲いかかってくる
+家具や調度品から悲鳴を上げて
+逃げ回っている鹿之助。
+<PAUSE>
+<NAME_PLATE>
+　ポルターガイストと言う奴だろうか。
+<PAUSE>
+<NAME_PLATE>
+　ドクロ男――冥界の執事は、
+城内の家具や調度品を自在に操れるようだ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「逃げましょうふうまちゃん！
+　このままじゃ本当に潰されちゃうわ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、一時退却だ！　走るぞ鹿之助！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「お、おうっ！！
+　あっちの廊下だな～っ！？」
+<PAUSE>
+<NAME_PLATE>冥界の執事
+『ヌヌ？　逃げるとは卑怯な輩よ！！
+　――行けカカシども、
+　小僧どもを城から逃がすな！！』
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m092a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m092a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>スケアクロウ
+『ヒ～ヒヒヒヒヒッ！！！』
+<PAUSE>
+//　※立ち絵
+//　　スケアクロウ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　※立ち絵
+//　　スケアクロウ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　カンラカラカラという笑い声と、
+ぴょんぴょんと寄ってくるカカシ達。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se054
+<NAME_PLATE>
+　それらに追いかけられ、俺達は
+しばらく城内を逃げ回る事となった。
+<PAUSE>
+//【黒画面】
+//【背景：五車町山中＿ゆきかぜの家＿食堂＿夜（消灯）】【時間：夜】
+//　※対魔忍ユキカゼ2＿NC019aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc092a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　１０分後。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>
+　ようやくカカシの軍団を撒いた俺達は、
+城内の一室に身を潜めて一休みしていた。
+<PAUSE>
+<ACTOR>3,s_t006e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うぅ、信じられねぇぜ……。
+　ノリで城の悪魔とか言ってたら、
+　本当に出てくるなんて……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿制服(手裏剣)
+<NAME_PLATE>
+　オバケのたぐいが苦手な鹿之助が、
+まだ体をプルプルさせながら言う。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、悪魔ってより悪霊だな。
+　冥界の執事って言ってたけど……」
+<PAUSE>
+<ACTOR>4,h_t003g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ゆきかぜちゃんの家の……
+　執事さんなのかしら？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服（タコ化）
+<NAME_PLATE>俺
+「多分な。
+　この城とゆきかぜを守ってるってのは、
+　本当っぽかったし……」
+<PAUSE>
+<NAME_PLATE>俺
+（それに、あの幽霊執事については、
+　何かの本で読んだような気が――）
+<PAUSE>
+<NAME_PLATE>
+　さて、何だったっけ……？
+と首を捻ってもなかなか出てこない。
+<PAUSE>
+<ACTOR>3,s_t006d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「そ、そんならさ！
+　あのオバケ執事さんに謝っちまえば
+　良いんじゃないか！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「別に俺達、ゆきかぜの敵でも
+　何でもないんだし！！」
+<PAUSE>
+<ACTOR>3,s_t006e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>俺
+「話が通じればな。
+　厄介な事にあの幽霊ジジイ、
+　俺達を完全に敵だと思ってやがる」
+<PAUSE>
+<ACTOR>4,h_t003e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「主にふうまちゃんの
+　悪ふざけのせいでね……」
+<PAUSE>
+<NAME_PLATE>
+　じとーっという目で蛇子が俺を見る。
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや……まあ、それはあとで
+　反省するとして……」
+<PAUSE>
+<NAME_PLATE>俺
+「やっぱり、ゆきかぜかクリアを
+　見つけて説明してもらうしかないな」
+<PAUSE>
+<NAME_PLATE>
+　そうすれば、あの化物執事も
+俺達が敵じゃないとわかるだろう。
+<PAUSE>
+<ACTOR>4,h_t003g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「でも……捜すのも大変よ。
+　こんなに大きなおうちだもん」
+<PAUSE>
+<NAME_PLATE>
+　蛇子がぐるりと辺りを見る。
+<PAUSE>
+<NAME_PLATE>
+　王侯貴族の居城と見まがうばかりの
+広大な館。
+<PAUSE>
+<NAME_PLATE>
+　逃げている最中に蛇子に聞いた
+ところによると、
+<PAUSE>
+<NAME_PLATE>
+　水城家は、ゆきかぜの祖父の
+代には銀行をやっていたほどの
+資産家だったらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「そ、それはそうだけど……
+　ゆきかぜの匂いは辿れないのか？
+　お前の吸盤センサーで」
+<PAUSE>
+<ACTOR>4,h_t003c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「うーん……。それも
+　さっきから試してるんだけどね」
+<PAUSE>
+<ACTOR>4,h_t003g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あちこちに匂いがあって、
+　どこにいるかまではわからないの」
+<PAUSE>
+<NAME_PLATE>俺
+「そうか……。まあ、普段
+　あいつが暮らしてる家だからな」
+<PAUSE>
+<NAME_PLATE>
+　となると、しらみつぶしに
+探っていくしかないのか……。
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　――と、その時。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！？」
+<PAUSE>
+<SE_PLAY>se082
+<NAME_PLATE>
+　カツン……
+カツン……
+<PAUSE>
+<NAME_PLATE>俺
+（これは、足音――！？）
+<PAUSE>
+<NAME_PLATE>
+　ビクッとして顔を上げる俺達。
+<PAUSE>
+<NAME_PLATE>
+　広大で豪奢な水城家の食堂。
+<PAUSE>
+<NAME_PLATE>
+　その奥に広がる闇から、
+何者かがこちらに近づいて――。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

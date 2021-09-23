@@ -1,0 +1,389 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//【背景：荒廃した魔都・東京近郊アリーナ跡＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC105bより流用
+//nc460a
+<BGM_PLAY>bgm320,1000
+<BG>nc460a,IN, 1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「さてと―――」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　アスカはナイフを取り出し、
+自分の手を軽く切った。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「あいたっ」
+<PAUSE>
+<NAME_PLATE>
+　眉をしかめるアスカの手から
+じわりと血が溢れ出す。
+<PAUSE>
+<NAME_PLATE>アスカ
+「まさか久々の怪我が自分でとはね。
+　あいつならきっと……やれやれ。
+　なんてね♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アスカはくすりと笑い、
+また風遁の術を使った。
+<PAUSE>
+<NAME_PLATE>
+　風を使って血の匂いをエリアの外に
+それから地下へと運んでやる。
+<PAUSE>
+<NAME_PLATE>
+　感染者たちがいそうな場所に。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「おいでおいで。
+　いい匂いの血がここにあるわよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　効果はてきめんだった。
+<PAUSE>
+<NAME_PLATE>
+　１０分としないうちに
+その匂いに誘われてやって来た。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m301a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m301a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>バーバリアン
+「ギィイイイイイイイイイイイッ！！」
+「ギィイイイイイイイイイイイッ！！」
+<PAUSE>
+//　※立ち絵
+//　　バーバリアン
+//　　　＊モンスターイラストより流用
+//　　※２体出してください
+<NAME_PLATE>
+　金切り声を上げるバーバリアン。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>2,ts_m271a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m271a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m271a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>感染者
+「あーーーーー」
+「うーーーーー」
+「あーーーーー」
+<PAUSE>
+//　※立ち絵
+//　　感染者
+//　　　＊モンスターイラストより流用
+//　　※バーバリアンより多く３、４体出してください。
+<NAME_PLATE>
+　その後をついてくる感染者。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　それもものすごい数だ。
+レイダー部隊を遙かに上回っている。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ほーら、来た」
+<PAUSE>
+<NAME_PLATE>
+　アスカはほくそ笑んで
+自分の所には来ないように血止めをして、
+風もピタリと止めた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　当然、感染者たちの牙は
+ここに集まっていたレイダーたちに
+向けられることになった。
+<PAUSE>
+<NAME_PLATE>
+　若い女の新鮮な血の匂いに誘われ、
+いつも以上に貪欲となった牙が。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レイダー
+「か、感染者だ！！」
+「バーバリアンもいるぞ！」
+<PAUSE>
+//　※立ち絵
+//　　レイダー
+//　　　＊モンスターより流用
+//　　※複数出してください
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　突然の感染者の大襲来に
+レイダーたちは応戦を始めた。
+<PAUSE>
+<NAME_PLATE>
+　だが自分たち以上に凶悪な人食いに
+集まった全員がパニックに陥っている。
+<PAUSE>
+<NAME_PLATE>
+　それも当然だった。
+<PAUSE>
+<NAME_PLATE>
+　ちょっとでも傷を受けたが最後、
+いずれ自分も感染者になってしまうのだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レイダー
+「来るなっ、この化物ども！！」
+「ち、畜生っっ！！」
+「うわああああっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　元々、ろくに統制など取れていない
+ただ欲望のままに暴れるだけの集団だ。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>レイダー
+「くそっ、くそっっ！　ぐああっ！！」
+「ぎゃあっっ！」
+<PAUSE>
+<NAME_PLATE>
+　自分の命惜しさに好き勝手に撃ちまくり、
+敵だけでなく味方にも被害を出していた。
+<PAUSE>
+<BG>nc460a,IN, 500
+<NAME_PLATE>
+　それでも感染者はなんとか倒せていたが、
+数匹混じっているバーバリアンには
+蹂躙されるがままだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レイダー
+「なら死ねっっ！！」
+「まま、待てっ！！　うぎゃあああっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　そうするしかないのも確かだが、
+少しでも傷を受けた仲間は容赦なく殺し、
+<PAUSE>
+<NAME_PLATE>
+　それで流れた血が感染者たちを
+いっそう歓喜させることとなった。
+<PAUSE>
+<BG>nc460a,IN, 500
+<GROUP>
+<ACTOR>2,ts_m272a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m272a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m272a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>レイダー
+「うわああああああああ！！」
+「ひいいいいいいいっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　もはやレイダー部隊は烏合の衆だ。
+<PAUSE>
+<NAME_PLATE>
+　もちろん村を襲撃するどころではない。
+<PAUSE>
+<NAME_PLATE>
+　足止め成功だ。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「そろそろ助けにいきますか。
+　あんなに感染者が出歩いてたら
+　危ないものね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　これが二人の作戦だった。
+<PAUSE>
+<NAME_PLATE>
+　血の匂いで感染者たちをおびき寄せ、
+適当にレイダーの数を減らさせたところで
+助けに入ってギガースに恩を売る。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「対魔忍甲河アスカ、参上！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se003
+<NAME_PLATE>
+　アスカは高らかに名乗りを上げて
+渦中に飛び出していった。
+<PAUSE>
+//【背景：荒廃した魔都・廃ビル＿昼】【時間：昼】
+//　※悪の女幹部_nc011aより流用
+//nc157c
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc157c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　翌朝―――。
+<PAUSE>
+<NAME_PLATE>
+　感染者を一人残らず始末したアスカは
+待ち合わせ場所で大あくびをしていた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,as_t013a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ふああ～～～～、ねむい」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　そこにゆきかぜが現れる。
+目に隈だらけのアスカを見て言った。
+<PAUSE>
+<ACTOR>0,as_t013a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,yu_t004c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「お疲れさま、アスカ。
+　うっわ、酷い顔」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ
+//　　　＊カードイラストより流用
+<NAME_PLATE>アスカ
+「いきなり酷い顔とか言うな。
+　そっちもお疲れ、どうだった？」
+<PAUSE>
+//　※立ち絵
+//　　未来アスカ
+//　　　＊カードイラストより流用
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「村は大丈夫だった。
+　まだ襲われてなかったけど、
+　念のためみんなアジトに避難させたわ」
+<PAUSE>
+<ACTOR>1,yu_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「それからレイダーの報復に備えるように
+　アビゲイルへの伝言も頼んでおいた」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ありがと」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜが来て安心したのか、
+もう睡魔の限界のような声で答える。
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「アスカの方は？
+　自作自演大変だったでしょ？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「もう大変大変。
+　調子に乗って呼び出しすぎちゃって。
+　レイダーを守るためとかやる気出ないし」
+<PAUSE>
+<NAME_PLATE>アスカ
+「まあ、全滅はしなかったみたいだし、
+　それなりに恩は売れたんじゃない？
+　ふあ～～～～あ」
+<PAUSE>
+<NAME_PLATE>
+　美少女台無しの大あくびをまたする。
+<PAUSE>
+<ACTOR>1,yu_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「少し寝たら。
+　私、見張りしててあげるから」
+<PAUSE>
+<NAME_PLATE>アスカ
+「そうさせてもらうわ。
+　なんかすごい疲れた。おやすみ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　アスカは廃ビルの床に平気で横になると、
+すぐに寝息を立て始めた。
+<PAUSE>
+<ACTOR>1,yu_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「早っ。
+　まあ起きてから渡せばいいか。
+　はい、お土産」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<NAME_PLATE>
+　ゆきかぜはアスカの枕元に口紅を置いた。
+<PAUSE>
+<NAME_PLATE>
+　村に連絡しに行ったついでに、
+似合いそうな色のを一つもらってきたのだ。
+<PAUSE>
+<NAME_PLATE>
+　バロネスシティでは買えなかったし、
+夜通し戦ってくれた相棒へのお礼だった。
+<PAUSE>
+//→Section４終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,267 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム＿とあるバー＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<BGM_PLAY>bgm313,1000
+<BG>chrnc0101a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m181a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m181a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>サイボーグ兵
+『ＵＯＯＯＯＯＯＯＯＯ！！！！』
+『ＵＯＯＯＯＯＯＯＯＯ！！！！』
+<PAUSE>
+//　※立ち絵
+//　　ＫＮＳ８レプリカント
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ＫＮＳ８レプリカント
+//　　　　＊モンスターイラストを流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ダダダダダダダダダ！！！！
+<PAUSE>
+<NAME_PLATE>
+　銃撃と共に突っ込んでくる
+完全武装のサイボーグ兵の一団。
+<PAUSE>
+<NAME_PLATE>
+　巻き込まれた客たちの
+悲鳴と怒号で店内が騒然となる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「くっ、やっぱりかよっ！？
+　戦えるか、紫水、ソニア！？」
+<PAUSE>
+<NAME_PLATE>
+　狙いは間違いなく俺たちだ。
+<PAUSE>
+<NAME_PLATE>
+　ソニアの命を狙うサイボーグ
+殺人鬼・サイエントの手勢。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0300e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>紫水
+「うん。問題ない」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿抜刀
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ソニア
+「アハハハ！！
+　全く、しつこい奴らだねえ！？」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<UI_DISP>OFF, 500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ギィイイイイイ！！！
+<PAUSE>
+//　※斬撃エフェクトなど
+<NAME_PLATE>
+　俺が投擲したクナイ。
+<PAUSE>
+<NAME_PLATE>
+　そして紫水の刀とソニアのナイフが
+サイボーグ兵の装甲の隙間を的確に貫き、
+鮮やかに切り裂いた。
+<PAUSE>
+<NAME_PLATE>サイボーグ兵
+『ＵＯＯＯＯＯＯＯＯＯ！！？』
+『ＵＯＯＯＯＯＯＯＯＯ！！？』
+<PAUSE>
+<BG>chrnc0101a,IN, 500
+<NAME_PLATE>
+　テーブルや酒瓶をなぎ倒して
+派手に転倒する鋼の兵士たち。
+<PAUSE>
+<NAME_PLATE>
+　突然の襲撃であったが、
+ぎりぎりでそれを予測していたためか
+紫水もソニアも見事な動きだった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0300e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>紫水
+「お館くんには傷一つ付けさせない」
+<PAUSE>
+<NAME_PLATE>紫水
+「逸刀流“浅瀬仇波”
+　（あさせあだなみ）」
+<PAUSE>
+<NAME_PLATE>ソニア
+「ほーら！？　私を感じさせたければ
+　そのクソダサい装甲を外しておいで！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キィイイイ！！　ザシュ！！！
+<PAUSE>
+//　※斬撃エフェクトなど
+<NAME_PLATE>サイボーグ兵
+『ＵＯＯＯＯＯＯＯＯＯ！！？』
+『ＵＯＯＯＯＯＯＯＯＯ！！？』
+<PAUSE>
+<BG>chrnc0101a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0300e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　着実にサイボーグ兵を打ち倒す二人。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<NAME_PLATE>
+　だが店の入り口から次々と増援が現れ、
+襲撃の勢いは衰えない。
+<PAUSE>
+<NAME_PLATE>俺
+「裏口だ、二人とも！！
+　この狭い店内じゃ追い込まれる！」
+<PAUSE>
+<SE_PLAY>se054
+<BGM_STOP>1000
+<NAME_PLATE>
+　サイボーグ兵の攻撃をかいくぐり、
+俺たちはカウンター奥の裏口へと走る。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+//【背景：東京キングダム＿裏通り＿夜】【時間：夜】
+//　※対魔忍アサギ2_nc005cより流用
+<BGM_PLAY>bgm314,1000
+<BG>nc129a,IN, 1000
+<ACTOR>1,chr_t0300e,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>紫水
+「お館くん……」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】天宮紫水＿抜刀
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「……あぁ。そう簡単に
+　逃がしてくれないってことだな」
+<PAUSE>
+<ACTOR>0,chr_t0299a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ソニア
+「クク。やれやれだわ」
+<PAUSE>
+//　※立ち絵
+//　　【バレンタイン】ソニア
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m141b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142b,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>黒服
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ドローン兵器
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　ドローンドッグ
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ドローンワスプ
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　この建物周辺を
+完全に包囲していたのだろう。
+<PAUSE>
+<NAME_PLATE>
+　裏口から飛び出した俺たちを
+銃器を構えた黒服とドローン兵器の
+大群が待ち受けていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、その真ん中には。
+<PAUSE>
+<ACTOR>0,ts_m241a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>サイエント
+「フフフ、ようやく追いついたねえ！
+　さあソニア！　私と甘美なる
+　殺し合いに興じようじゃないか！！」
+<PAUSE>
+//　※立ち絵
+//　　サイエント
+//　　　　＊モンスターイラストを流用
+//→S502a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

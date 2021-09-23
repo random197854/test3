@@ -1,0 +1,541 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車学園＿校門前＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC008aより流用
+<BG>nc054a,IN, 1000
+<NAME_PLATE>
+　一方、五車学園では―――。
+<PAUSE>
+//【背景：五車学園＿地下訓練施設＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC015aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc002a,IN, 1000
+<ACTOR>0,ts_m099a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>峰舟子
+「とても有意義な視察でした。
+　ご協力に感謝しますわ、山本部長」
+<PAUSE>
+//　※立ち絵
+//　　峰舟子立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR>1,ya_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>山本
+「それは良かった。
+　こちらも峰さんのお役に立てて光栄だ」
+<PAUSE>
+//　※立ち絵
+//　　山本立ち絵＿スーツ衣装
+//　　　　＊対魔忍アサギＺＥＲＯから流用
+<NAME_PLATE>
+　事務的な笑み。形式的な挨拶。
+<PAUSE>
+<NAME_PLATE>
+　山本も峰も、互いが互いの内心に
+別の思惑があるのを知りつつ、
+何食わぬ顔で話している状況だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,a_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサギ
+（狸と狐の化かし合いね。
+　全く、付き合いきれないわ……）
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３から流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　内調の長・峰舟子による五車学園の
+視察が終了しようというところであった。
+<PAUSE>
+<NAME_PLATE>
+　アサギと山本の懸念に反して、視察中、
+峰は何も不審な動きを見せなかった。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<ACTOR>1,a_t001a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「ところで峰局長、視察団の
+　他のメンバーはどうされましたか？」
+<PAUSE>
+<ACTOR>0,ts_m099a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>峰舟子
+「他のメンバー？
+　本日の視察は私ひとりですが」
+<PAUSE>
+<NAME_PLATE>
+　一瞬の淀みもなく峰が答える。
+<PAUSE>
+<NAME_PLATE>
+　頬に挑発するような笑みを貼り付け、
+不自然なほど滑らかな返答だ。
+<PAUSE>
+<ACTOR>1,a_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「では万が一、この五車に
+　侵入者がいても内調とは無関係と？」
+<PAUSE>
+<NAME_PLATE>峰舟子
+「ええ。そもそも、
+　侵入者など存在しないでしょうから」
+<PAUSE>
+<ACTOR>1,a_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「……承知しました。
+　本日はありがとうございました、
+　ヘリまでお送りします」
+<PAUSE>
+<NAME_PLATE>峰舟子
+「お気遣いなく、井河校長。
+　ここで結構ですわ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<SE_PLAY>se082
+<NAME_PLATE>
+　慇懃に一礼し、部下のエージェントを
+引き連れた峰が施設から立ち去った。
+<PAUSE>
+<ACTOR>1,a_t001c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「相変らず胡散臭い女ね」
+<PAUSE>
+<ACTOR>0,ya_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>山本
+「同感だな。しかしアサギ、
+　あの最後の質問は？」
+<PAUSE>
+//　※立ち絵
+//　　山本立ち絵＿スーツ衣装
+//　　　　＊対魔忍アサギＺＥＲＯから流用
+<NAME_PLATE>
+　何かあったのか？　と山本が
+視線でアサギに問いかける。
+<PAUSE>
+<NAME_PLATE>アサギ
+「さっき報告が入ったわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「内調のヘリから正体不明の集団が
+　山中に散るのを確認した」
+<PAUSE>
+<ACTOR>0,ya_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>山本
+「……正体不明の？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「ええ、おそらく
+　光学迷彩のサイボーグ部隊よ」
+<PAUSE>
+<NAME_PLATE>
+　常人には決して感知できない
+不可視の部隊。
+<PAUSE>
+<NAME_PLATE>
+　だが辛うじて五車の警戒網が、
+そのほんのわずかな痕跡を捉えていた。
+<PAUSE>
+<ACTOR>0,ya_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>山本
+「なるほど。
+　それが目的の“視察団”か。
+　奴らの狙いは？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「まだ何も。
+　隠密部隊に追跡させているわ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>山本
+「ふむ、女狐め。
+　ここで何をするつもりだ……？」
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿斉藤家邸宅リビング＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC063aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc257a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　再び斉藤邸―――
+<PAUSE>
+<ACTOR>0,kr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「あんたじゃ私の敵じゃないわ。
+　しばらく眠ってなさい」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+<NAME_PLATE>咲志乃
+「ぐぅ……」
+<PAUSE>
+//　※立ち絵
+//　　咲志乃立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　完全に氷漬けで身動きのできない
+咲志乃が床に転がっている。
+<PAUSE>
+<NAME_PLATE>
+　そして、その周囲には凍結して
+バラバラになった忍蜘蛛の死骸――。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>
+　俺たちが目を覚ました時、
+目に飛び込んできた光景がそれだった。
+<PAUSE>
+<NAME_PLATE>俺
+「きらら先輩！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「うう……これは一体……？」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_制服立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト差分より流用
+//　※解説
+//　　一行は斉藤邸に入った途端に眠らされたので制服衣装状態です。
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ko_t003f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弧路
+「………？」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路(立ち絵)_制服_刀装備
+<ACTOR>1,h_t001d,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「わわ？　死んでる
+　クモちゃんがたくさん……？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,kr_t001e,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「あっ！　みんな目が覚めた！？
+　どこか怪我してない？」
+<PAUSE>
+<NAME_PLATE>俺
+「はい、大丈夫です……。
+　というか俺たち、助けて
+　もらっちゃったみたいですね」
+<PAUSE>
+<NAME_PLATE>
+　俺は氷の張った天井を見上げて肯く。
+<PAUSE>
+<NAME_PLATE>
+　なるほど。きらら先輩はこれを
+知っていたから、あんな無茶な
+かまのかけ方ができたのか。
+<PAUSE>
+<NAME_PLATE>俺
+「いや、本当に助かりました。
+　見事な頭脳プレイでしたね、きらら先輩」
+<PAUSE>
+<ACTOR>0,kr_t001i,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>きらら
+「でしょー！？
+　もう脳筋だなんて言わせないんだから！」
+<PAUSE>
+<NAME_PLATE>
+　俺が言うと、きらら先輩が
+得意満面でえっへんと胸を張る。
+<PAUSE>
+<NAME_PLATE>
+　いや、こういう単純なところが
+心配ではあるんだけれど……。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ今回、先輩が見事な策で
+敵を出し抜いたことは間違いない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「頭脳プレイ？
+　それに、きららが何故ここに？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。それはですね――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、俺はなお先輩たちに、
+さっきの夢の中でのことを説明する。
+<PAUSE>
+<NAME_PLATE>
+　俺たちの後を追ってきたきらら先輩が
+夢の中で合流し、俺はそこで咲志乃の
+夢遁の術について解説した。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩はそれを聞いて、
+彼女にかまをかけることを
+思いついたらしい。
+<PAUSE>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「なるほどー。そうやって、
+　あの女の人の真意を引き出したんですね」
+<PAUSE>
+<ACTOR>0,ko_t003b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（きららすごい。名探偵♪）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「いや本当だよ。悔しいが、
+　今回ばかりはきららの機転に感謝だね」
+<PAUSE>
+<ACTOR>1,kr_t001i,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「そうよ！　なお、
+　ひとつ貸しだからね！」
+<PAUSE>
+<NAME_PLATE>なお
+「はいはい」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　夢遁の窮地から抜け出し、
+俺たちはほっと一息の表情。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　だが、本当の危機はこれからである。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>1,ko_t003c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（殺人鬼は、斉藤先生……）」
+<PAUSE>
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「ああ。さっきの話を聞く限り、
+　ほぼ間違いない……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺たちは顔を引き締める。
+<PAUSE>
+<NAME_PLATE>
+　五車に潜む殺人鬼は、
+もう俺たちの手の届くところにいる。
+<PAUSE>
+<ACTOR>0,h_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「……ふうまちゃん、
+　これからどうする？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだな……。ひとまず、
+　このリビングを怪しまれないように
+　できる限り片づけて……」
+<PAUSE>
+<NAME_PLATE>俺
+「それから、斉藤先生が
+　帰ってくる前に応援の部隊を……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そのときだった。
+<PAUSE>
+<NAME_PLATE>
+　ギィイイイイイイイイ……！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺たち
+「………！！？」
+<PAUSE>
+//【背景：五車町＿斉藤家邸宅リビング＿地下へ＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC063cより流用
+<NAME_PLATE>
+　突然、リビングの床から
+金属の軋むような不穏な響き。
+<PAUSE>
+<NAME_PLATE>
+　絨毯をどけると、そこには
+地下へ続く隠しハッチがあった。
+<PAUSE>
+<NAME_PLATE>俺
+「地下室か――！？」
+<PAUSE>
+<ACTOR>0,kr_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「……あるじが留守っていうの
+　嘘だったようね」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら立ち絵_対魔忍衣装
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>nc257c,IN, 1000
+<NAME_PLATE>
+　警戒する俺たちの前で、
+ハッチがひとりでに開いていく。
+<PAUSE>
+<ACTOR>1,h_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「じゃあ、この下に斉藤先生が？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「……なるほど。
+　殺人鬼の根城に招待してくれるのか」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお_制服立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト差分より流用
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,ko_t003c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（応援を待つ？　それとも……）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路(立ち絵)_制服_刀装備
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「……………」
+<PAUSE>
+<NAME_PLATE>
+　風紀隊みんなの目が自然と俺に集まる。
+<PAUSE>
+<NAME_PLATE>
+　ここは応援を待って
+いったん引く手は当然ある。
+<PAUSE>
+<NAME_PLATE>
+　奴の忍法には“人遁の術”だけでは
+説明できない謎がある。
+<PAUSE>
+<NAME_PLATE>
+　忍法不明の相手と戦うのは危険、
+これは対魔忍同士の戦闘における鉄則だ。
+<PAUSE>
+<NAME_PLATE>
+　警戒するのは当然だろう。
+<PAUSE>
+<NAME_PLATE>俺
+（でも、このチャンスを逃せば、
+　また奴に逃げられてしまう――）
+<PAUSE>
+<NAME_PLATE>
+　この場に俺たちを足止めするのが、
+奴がハッチを開けた目的かもしれない。
+<PAUSE>
+<NAME_PLATE>
+　地下の入り口に注目させ、
+応援を集めている間に、奴は別の
+出入口から悠々と脱出する――
+<PAUSE>
+<NAME_PLATE>
+　そんな可能性もなくはない。
+<PAUSE>
+<NAME_PLATE>
+　そもそも奴の人遁の術に
+多数の人員はもろ刃の剣だ。
+<PAUSE>
+<NAME_PLATE>
+　図書室の事件では、人の体から
+体を伝って奴は包囲から抜け出した。
+<PAUSE>
+<NAME_PLATE>
+　ならば少数精鋭で奴と戦う――
+それは悪い選択ではない。
+<PAUSE>
+<NAME_PLATE>
+　もちろん、奴の牙城に踏み込む
+危険を覚悟した上でだが。
+<PAUSE>
+<NAME_PLATE>俺
+「……応援は呼びます。だけど、
+　その到着を待つ気はない」
+<PAUSE>
+<NAME_PLATE>俺
+「俺たち風紀隊で、殺人鬼を――
+　斉藤半次郎を捕らえましょう」
+<PAUSE>
+<NAME_PLATE>
+　俺が低く囁くと、なお先輩が
+にやりと満足そうに肯く。
+<PAUSE>
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「いい決断だ。それでこそ
+　僕が見込んだトラブルメーカーだよ」
+<PAUSE>
+<ACTOR>1,kr_t001f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>きらら
+「とんでもなく悪い奴なんでしょ。
+　私たちでぶっ飛ばすわよ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,h_t001b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「蛇子、頑張るから！」
+<PAUSE>
+<ACTOR>0,ko_t003b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>弧路
+「（ふうま君は指揮に集中して）」
+<PAUSE>
+<NAME_PLATE>弧路
+「（私が護衛する。
+　殺人鬼なんかに触れさせない）」
+<PAUSE>
+<NAME_PLATE>俺
+「ありがとうございます。
+　――みんな、行こう！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　少数精鋭――この風紀隊
+メンバーならば不安はない。
+<PAUSE>
+<NAME_PLATE>
+　俺たちはうなずき合い、
+地下の闇へと踏み込んでいった。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

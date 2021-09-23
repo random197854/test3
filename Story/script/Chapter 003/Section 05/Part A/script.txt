@@ -1,0 +1,107 @@
+//☆第三章//【Section５】シナリオ
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//=================================================================
+//【背景：幽霊城地下の洞窟＿ホール】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm320,1000
+<BG>nc036a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m020a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>淫魔の女
+「急ぎなさい。
+　あの方より撤収の指令があった」
+<PAUSE>
+//　※立ち絵
+//　　白きサキュバス立ち絵
+<NAME_PLATE>魔術師
+「どうして急に！？」
+<PAUSE>
+//　※立ち絵
+//　　魔術師立ち絵
+<NAME_PLATE>
+　洞窟の最奥。
+高位な魔族と思しき二人が、
+なにやら壁を調べている。
+<PAUSE>
+<NAME_PLATE>淫魔の女
+「ここにあった魔界の門は、
+　閉じてから数百年は経っているであろう。
+　とうに使いものにはならぬ」
+<PAUSE>
+<NAME_PLATE>淫魔の女
+「活きておれば、
+　貴重な拠点となったであろうが……
+　これでは致し方ない。捨て置け」
+<PAUSE>
+<NAME_PLATE>魔術師
+「は、しかし閉じた門とはいえ、
+　調べれば貴重なデータ収集になりますぞ」
+<PAUSE>
+<NAME_PLATE>魔術師
+「せっかくあの方の力をお借りしてまで、
+　大々的に調査をしておりましたのに……」
+<PAUSE>
+<NAME_PLATE>淫魔の女
+「執着心は身を滅ぼすぞ、術師よ。
+　見張りをさぼってうろついていた
+　サキュバスたちが何者かにやられたようじゃ」
+<PAUSE>
+<NAME_PLATE>魔術師
+「まさか、このような山奥で！？」
+<PAUSE>
+<NAME_PLATE>淫魔の女
+「山奥といえど、すぐ近くに
+　対魔忍どもの巣窟があるのを忘れるでない」
+<PAUSE>
+<NAME_PLATE>魔術師
+「対魔忍……？
+　まさかあの方の雨の幻影陣が、
+　対魔忍どもに破られたとでも！？」
+<PAUSE>
+<NAME_PLATE>淫魔の女
+「忌まわしき対魔忍。
+　そのような力をもつ者がいても
+　おかしくはない」
+<PAUSE>
+<NAME_PLATE>魔術師
+「だが、苦労して見つけ出したここを、
+　対魔忍どもに渡すのは……」
+<PAUSE>
+<NAME_PLATE>淫魔の女
+「クク、渡すような真似はせぬ」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m020a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m021a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,h_t004f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「いたわ！　魔族よ！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>0,h_t004f,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,ts_m020a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m021a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>淫魔の女
+「ほれ、対魔忍どもじゃ。時間を稼ぎなさい。
+　あとは私が始末する」
+<PAUSE>
+<NAME_PLATE>魔術師
+「はっ……！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>2,ts_m020a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m021a,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section５-ＭＡＰ画面１へ

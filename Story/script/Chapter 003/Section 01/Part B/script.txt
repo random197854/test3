@@ -1,0 +1,203 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//==========================================
+//=======================
+//【背景：城跡＿昼】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm404,1000
+<BG>nc028a,IN, 1000
+<ACTOR>0,o_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「オラアアアアッ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左戦闘立ち絵＿対魔忍衣装（武器装備）
+<NAME_PLATE>
+　権左の渾身の一撃がさくら先生を襲う。
+<PAUSE>
+<NAME_PLATE>
+　しかし、そこにさくら先生の姿はなかった。
+<PAUSE>
+<ACTOR>0,o_t002e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「くそッ！！　またか！！
+　どこへ消えやがった！！！」
+<PAUSE>
+<NAME_PLATE>俺
+（自分の影にダイブして攻撃を
+　回避したのか！！）
+<PAUSE>
+<NAME_PLATE>
+　対魔忍・井河さくらの忍法は“影遁の術”。
+<PAUSE>
+<NAME_PLATE>
+　影に潜んだり、影から影へ移動することが
+できる。木漏れ日の差し込む森など、
+まさに絶好のフィールドだ。
+<PAUSE>
+<NAME_PLATE>
+　さらに――
+<PAUSE>
+<ACTOR>0,o_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「！！！　てめえら！！　避けろっ！！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t002h,CENTER, CENTER, OUT, linear, 1000
+<SE_PLAY>se016
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<BG>nc028a,NONE
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　バシュウウッ！！！
+<PAUSE>
+<NAME_PLATE>
+　あちこちの影から鋭い影の刃が出現する。
+<PAUSE>
+//　※立ち絵
+//　　エフェクト的に黒い影の刃を表示して演出してください。
+//　　//　※参考画像として対魔忍アサギ３のイベントＣＧを参照してください。
+<NAME_PLATE>下忍たち
+「ウギャアアアアッ！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　権左の叫びもむなしく、
+影の刃は一瞬で部下たちを切り裂いた。
+<PAUSE>
+<NAME_PLATE>権左
+「影に武器を仕掛けてやがったか……！！！」
+<PAUSE>
+<NAME_PLATE>権左
+「糞アマァッ！！？　卑怯だぞッ！！？」
+<PAUSE>
+<NAME_PLATE>
+　権左は槍で影の刃を受け流しながら、
+自分の間合いにさくら先生を
+捉えようとするが……
+<PAUSE>
+<NAME_PLATE>
+　すぐに影に潜ってしまうさくら先生を
+前に苦戦していた。
+<PAUSE>
+<NAME_PLATE>さくら
+「うしし♪　なんだって？
+　幽霊話を告白する気になったのかな？」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら戦闘立ち絵＿対魔忍衣装
+<ACTOR>0,o_t002h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「くっそォォ！！！　舐めやがって！！！」
+<PAUSE>
+<NAME_PLATE>
+　足元の影から攻撃されては、
+長物使いの権左は手も足も出せない。
+<PAUSE>
+<NAME_PLATE>俺
+（すごい……。
+　正直、姉の七光かと思っていたが……
+　井河さくら、圧倒的だ）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、こうも一方的なのは、相性の問題も
+　あるな。間合いにあっさり入り込まれて
+　しまうのでは、槍術も発揮しようがない）
+<PAUSE>
+<NAME_PLATE>
+　ともあれ、あの権左が一方的に
+やられているのは少し良い気味だ。
+<PAUSE>
+<ACTOR>0,o_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「わかった！　待った！！！」
+<PAUSE>
+<NAME_PLATE>
+　影の猛攻に、とうとう権左が音を上げる。
+<PAUSE>
+<NAME_PLATE>権左
+「井河の連中ってのは噂のダメ妹でさえ
+　この強さとは嫌になるねえ」
+<PAUSE>
+<NAME_PLATE>さくら
+「誰がダメ妹だよ！」
+<PAUSE>
+<NAME_PLATE>俺
+（まあ、普段があのザマだからな。
+　気持ちは分かる……）
+<PAUSE>
+<NAME_PLATE>さくら
+「ほれほれ。んで幽霊話を早く言い給え」
+<PAUSE>
+<ACTOR>0,o_t002c,CENTER, CENTER, NONE, linear, 1000
+<NAME_PLATE>権左
+「ああ、アレね。それがだな……
+　って誰が言うかよボケッ！！！」
+<PAUSE>
+<ACTOR>0,o_t002c,CENTER, CENTER, OUT, linear, 500
+<NAME_PLATE>
+　権左は土遁の術を使ってダイブ、
+たちまち地中に潜ってしまった。
+<PAUSE>
+<ACTOR>0,sa_t002g,CENTER, CENTER, IN, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「ちょっ、ちょっとーー！！？
+　教えてくれたっていいじゃん！！」
+<PAUSE>
+<NAME_PLATE>権左
+『覚えていろよダメ妹！！！
+　幽霊女の次に絶対殺すッ！！！』
+<PAUSE>
+//　※立ち絵なし
+<BGM_STOP>500
+<NAME_PLATE>
+　足元から聞こえる権左の声は、
+みるみる遠くなっていった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,sa_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「あーあ、行っちゃったかあ」
+<PAUSE>
+<NAME_PLATE>俺
+（権左……ただの突撃槍かと思っていたがな）
+<PAUSE>
+<NAME_PLATE>
+　優秀な対魔忍は引き際を知る。
+きちんと“逃げる”ことができるのは、
+ただの筋肉馬鹿ではない証だ。
+<PAUSE>
+<NAME_PLATE>俺
+（次に戦うときには、きっと影遁の術への
+　対策も練ってくるだろう。
+　……それにしても）
+<PAUSE>
+<NAME_PLATE>
+　雨の夜の幽霊城。
+そして、美女の幽霊。
+<PAUSE>
+<ACTOR>0,sa_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ねーねー、どうするう？　ふうま君。
+　美女の幽霊、探す？」
+<PAUSE>
+<NAME_PLATE>俺
+「一旦戻りましょう。
+　部隊を整えて、また来ますよ。
+　ちょっと面白くなりそうなんでね」
+<PAUSE>
+<NAME_PLATE>
+　すっかり傾きかけた日差しを受けながら、
+俺たちは学園へと下っていった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,sa_t002a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section１終了
+//☆第三章//【Section２】シナリオ

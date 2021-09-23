@@ -1,0 +1,1384 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：ブレインフレーヤーの遺跡３＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC098aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc415a,IN, 1000
+<ACTOR>0,ts_m265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オ＝ズ
+「オ……ズ……！！」
+<PAUSE>
+//　※立ち絵
+//　　オ＝ズ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　それが名前なのか何かの警告なのか
+遺跡の番人はオ＝ズと口走った。
+<PAUSE>
+<NAME_PLATE>
+　両肩の砲塔が輝き始め、
+何らかのエネルギーが収束していく。
+<PAUSE>
+<NAME_PLATE>
+　なにか撃つつもりだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「紙気・絶対守護領域！！」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　舞の反応は素早かった。
+<PAUSE>
+<NAME_PLATE>
+　瞬時に紙をばら撒き、
+最大の防御壁を展開する。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャアアアアアアンンンンンンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　直後、凄まじいビームが降り注いだ。
+<PAUSE>
+<NAME_PLATE>
+　紙の防御壁にボッと火が付く。
+<PAUSE>
+<NAME_PLATE>舞
+「くっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　信じられない熱量だ。
+<PAUSE>
+<NAME_PLATE>
+　紙気を操る舞の表情が険しさを増したが、
+<PAUSE>
+<NAME_PLATE>舞
+「はぁああああっっ！！」
+<PAUSE>
+<BG>nc415a,IN, 500
+<NAME_PLATE>
+　なんとか奴のビームを防ぎきった。
+<PAUSE>
+<NAME_PLATE>俺
+「助かった！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「ものすごいパワーです。
+　あれを連発されたら私も耐えられません」
+<PAUSE>
+<NAME_PLATE>翡翠
+「連続しては撃てないみたい。
+　チャージしてる」
+<PAUSE>
+//　※立ち絵
+//　　【翡色の疾風】由利翡翠＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オ＝ズ
+「オ……ズ…………オ……ズ……」
+<PAUSE>
+//　※立ち絵
+//　　オ＝ズ＿立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　翡翠先輩が言うとおり、
+奴はその場を動かずに
+ビームの再チャージを始めていた。
+<PAUSE>
+<NAME_PLATE>
+　だがそれはひどく
+ゆっくりしたものだ。
+<PAUSE>
+<NAME_PLATE>
+　何千年か何万年か知らないが、
+寝ている間も残しておいたビームエネルギーを
+今の一発で空にしたようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「なら次の一発が来る前に倒すぞ。
+　俺が奴の攻撃を誘う。
+　舞、防御を―――」
+<PAUSE>
+<NAME_PLATE>
+　頼むより早く、
+舞がその忍法を使った。
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「紙気・防衛陣！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　勝手に動いて
+俺を守ってくれる紙の盾だ。
+<PAUSE>
+<NAME_PLATE>舞
+「ですよね？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「それだ！
+　うぉおおおおおおおおおおおお！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　俺は派手な声を上げて、
+呑気にエネルギーをチャージしている
+オ＝ズに突進した。
+<PAUSE>
+<ACTOR>0,ts_m265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オ＝ズ
+「オ……ズ……！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　オ＝ズは面倒くさそうに
+俺に向かって右腕を振り下ろしてくる。
+<PAUSE>
+<NAME_PLATE>
+　力任せの一撃だ。
+明らかに俺を―――というより
+人間を舐めている。
+<PAUSE>
+<NAME_PLATE>
+　アルサールと同じだ。
+<PAUSE>
+<SE_PLAY>se003
+<BG>nc415a,IN, 500
+<NAME_PLATE>
+　最初から敵の気を引くことだけを
+目的としていた俺はそれを簡単に避けた。
+<PAUSE>
+<ACTOR>0,ts_m265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オ＝ズ
+「オ……ズ……！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　大きすぎる腕を空振りした勢いで
+奴の巨体が不格好に泳ぐ。
+<PAUSE>
+<NAME_PLATE>
+　舞はその隙を逃さない。
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「紙気・飛び千羽鶴っ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se139_02
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　がら空きのボディに
+鋼鉄をも切り裂く折り鶴が殺到した。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガギンガギンガギンッ！！
+<PAUSE>
+<NAME_PLATE>
+　だがそれは全て見えない障壁に
+跳ね返される。
+<PAUSE>
+<BG>nc415a,IN, 500
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「そんなっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「次元シールドか！」
+<PAUSE>
+<NAME_PLATE>
+　それもまたアルサールが使ったものだ。
+<PAUSE>
+<ACTOR>0,chr_t0322a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>翡翠
+「エネルギーの壁……それなら」
+<PAUSE>
+//　※立ち絵
+//　　【翡色の疾風】由利翡翠＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　翡翠先輩が俺と入れ替わるように、
+奴に攻撃を仕掛けようとしている。
+<PAUSE>
+<NAME_PLATE>俺
+「翡翠先輩、
+　対魔粒子を凝縮させれば
+　あの次元シールドは―――えっ！？」
+<PAUSE>
+<NAME_PLATE>翡翠
+「合食・吸撃っ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　俺が指示を出そうとした時には
+翡翠先輩は錫杖を突き出していた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　次元シールドに阻まれるかと思われたそれは
+逆にその部分に穴を開けていく。
+<PAUSE>
+<NAME_PLATE>
+　合食の術で次元シールドの力を
+吸いとっているのだ。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se033
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グサッッ！！
+<PAUSE>
+<NAME_PLATE>
+　尖った錫杖の先が奴の生体部分に
+突き刺さった。
+<PAUSE>
+<NAME_PLATE>オ＝ズ
+「オーーズ！！！」
+<PAUSE>
+<NAME_PLATE>
+　奴は怒りの咆哮を上げ、
+駄々っ子のように両手を振り回した。
+<PAUSE>
+<BG>nc415a,IN, 500
+<NAME_PLATE>
+　もちろん俺も翡翠先輩も
+そんなものを食らいはしない。
+<PAUSE>
+<NAME_PLATE>俺
+「よし、これで合食の術が効いた！」
+<PAUSE>
+<NAME_PLATE>
+　あの忍法の威力は
+さっき身をもって味わっている。
+<PAUSE>
+<NAME_PLATE>
+　奴の力は急速に失われていくはずだ。
+<PAUSE>
+<NAME_PLATE>
+　けれど翡翠先輩はすまなそうに言った。
+<PAUSE>
+<ACTOR>0,chr_t0322a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>翡翠
+「効いてはいる。
+　でもすごいエネルギー量。
+　ほとんど無尽蔵」
+<PAUSE>
+<NAME_PLATE>翡翠
+「時間がかかりすぎる。
+　私の術は短期決戦に向かない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オ＝ズ
+「オ……ズ……オ……ズ……」
+<PAUSE>
+<NAME_PLATE>
+　奴は俺たちから距離を取って、
+露骨に守りの態勢に入った。
+<PAUSE>
+<NAME_PLATE>
+　次元シールドが通用しないと分かって、
+接近戦を避け、ひたすらビームのチャージに
+専念する構えだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「ふうまさん、どうしますか？
+　早くしないと次の一発が」
+<PAUSE>
+<NAME_PLATE>翡翠
+「ここは撤退するのもあり。
+　きっと追ってはこない」
+<PAUSE>
+<NAME_PLATE>俺
+「でしょうね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺は考える。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　あの姿形、行動パターン、
+十中八九、奴はブレインフレーヤー製だ。
+<PAUSE>
+<NAME_PLATE>
+　同じブレインフレーヤーが作った
+パズズと戦った時のことを思い出す。
+<PAUSE>
+<NAME_PLATE>
+　あの時、大人のゆきかぜは
+鹿之助の力を増幅して、
+パズズの電子部品を破壊した。
+<PAUSE>
+<NAME_PLATE>
+　あれと同じように、
+奴の機械部分だけを
+破壊できないだろうか。
+<PAUSE>
+<NAME_PLATE>
+　見れば、長い間眠っていて、
+いきなり動き始めたせいだろう、
+機械部分の所々から火花が散っている。
+<PAUSE>
+<NAME_PLATE>
+　そしてあの凄まじいビーム。
+<PAUSE>
+<NAME_PLATE>
+　策は決まった。
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<NAME_PLATE>俺
+「ここで奴を倒す」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「はい！」
+<PAUSE>
+<NAME_PLATE>翡翠
+「どうするの？」
+<PAUSE>
+<NAME_PLATE>俺
+「翡翠先輩、合食の術で
+　できるだけ奴のチャージを
+　遅らせてください！」
+<PAUSE>
+<NAME_PLATE>翡翠
+「分かった、行くね。
+　あとはよろしく」
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,LEFT,linear,500
+<NAME_PLATE>
+　翡翠先輩は一切の疑義を挟まず、
+奴に向かって単身突撃した。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR>0,chr_t0322a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>翡翠
+「合食・襲撃っ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　軽やかに錫杖の音を鳴らしながら、
+自ら囮となって奴に接近戦を仕掛ける。
+<PAUSE>
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>翡翠
+「たあっ！　やあっ！！　はあっ！！」
+<PAUSE>
+<NAME_PLATE>オ＝ズ
+「オ……ズ！！　……オ……ズ！！」
+<PAUSE>
+<NAME_PLATE>
+　奴は苛立たしげに
+翡翠先輩に応戦する。
+<PAUSE>
+<NAME_PLATE>
+　だが力任せの攻撃は全て躱され、
+ご自慢の次元シールドも役には立たず、
+<PAUSE>
+<NAME_PLATE>
+　合食の術で少しずつ、少しずつ
+パワーを奪われていく。
+<PAUSE>
+<NAME_PLATE>
+　チャージの速度は
+目に見えて遅くなったが、
+それでも止まりはしない。
+<PAUSE>
+<BG>nc415a,IN, 500
+<NAME_PLATE>俺
+「翡翠先輩でも遅らせるのが限界か」
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「ふうまさん、私は？」
+<PAUSE>
+<NAME_PLATE>俺
+「チャージがピークに達した所で
+　奴の機械部分を最大パワーで攻撃だ。
+　それで奴を自爆させる」
+<PAUSE>
+<NAME_PLATE>舞
+「でも、私の紙であのシールドを
+　突破できるかどうか」
+<PAUSE>
+<NAME_PLATE>
+　不安そうな舞に
+俺はとっておきを差し出した。
+<PAUSE>
+<NAME_PLATE>俺
+「これを使ってくれ」
+<PAUSE>
+<NAME_PLATE>舞
+「紫水さんの本？」
+<PAUSE>
+<NAME_PLATE>俺
+「波遁の術でありったけパワーを込めた本だ。
+　きっとお前の力になってくれる」
+<PAUSE>
+<NAME_PLATE>舞
+「分かりました。やってみます」
+<PAUSE>
+<NAME_PLATE>俺
+「頼んだぞ。
+　うおぉおおおおおおおおおお！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　舞はふうまが時間稼ぎのために
+敵に突撃していくのを見ていた。
+<PAUSE>
+<NAME_PLATE>
+　そこには少しの恐れも感じられない。
+<PAUSE>
+<NAME_PLATE>
+　ただ己の役目を果たそうとしている。
+<PAUSE>
+<NAME_PLATE>
+　本当にすごいと思う。
+<PAUSE>
+<NAME_PLATE>
+　だから彼女もこんな溢れるような想いを
+彼に抱いたのだろう。
+<PAUSE>
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「紫水さん、
+　あなたの力、貸してください」
+<PAUSE>
+<NAME_PLATE>
+　舞は『初恋』を開いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　その途端、
+眩いばかりの波遁のエネルギーが
+本から溢れ出した。
+<PAUSE>
+<BG>nc415a,IN, 500
+<NAME_PLATE>
+　それは一人の女性の形をとっていく。
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水＿戦闘立ち絵（波遁オーラ）
+//　※加工
+//　　波遁のオーラっぽいものが全身を包んでいる。色は黄色とか金色。
+<ACTOR>0,am_t014a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞
+「紫水さん？」
+<PAUSE>
+<NAME_PLATE>紫水
+『私は天宮紫水』
+<PAUSE>
+<NAME_PLATE>紫水
+『これは私の残留思念。
+　紙気使いのあなたにしか見えないはず』
+<PAUSE>
+<NAME_PLATE>紫水
+『あなたのことは図書室でよく見ていた。
+　私と同じくらい本が好きなあなたと
+　お友達になりたかったけれど』
+<PAUSE>
+<NAME_PLATE>紫水
+『私はお館くんにしか見えないから、
+　ずっと覗き見してたみたいで
+　ごめんなさい』
+<PAUSE>
+<NAME_PLATE>紫水
+『私はそこではお館くんの力にはなれないから、
+　私の力を込めたこの本で
+　お館くんを助けてあげて。お願い』
+<PAUSE>
+<NAME_PLATE>
+　そんな想いが言葉ではなく、
+本を読むようにありありと伝わってきた。
+<PAUSE>
+<NAME_PLATE>舞
+「紫水さん、ふうまさんが私に
+　この本を託すって分かってたんですね。
+　やっぱり敵わないな」
+<PAUSE>
+<NAME_PLATE>舞
+「でもお館くんって呼び方は変です」
+<PAUSE>
+<NAME_PLATE>
+　舞はくすりと微笑んでから、
+<PAUSE>
+<ACTOR>0,am_t014a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞
+「紫水さん！
+　みんなであいつを倒しましょう！」
+<PAUSE>
+//　※立ち絵
+//　　【拘束の紙気】七瀬舞2＿立ち絵
+//　　　＊カードイラストより流用
+//　　天宮紫水＿戦闘立ち絵（波遁オーラ）
+//　※二人並べてください。
+<NAME_PLATE>
+　舞は『初恋』に紙気の力を注ぎ込んだ。
+<PAUSE>
+<NAME_PLATE>
+　一瞬で本が綺麗にバラバラになり、
+紙の一枚一枚が星形手裏剣に折られていく。
+<PAUSE>
+<NAME_PLATE>
+　波遁の力がプラスされたそれは、
+本物の星のように、初恋の想い出のように
+キラキラと光り輝いていた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m265a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オ＝ズ
+「オ……ズ……！！」
+<PAUSE>
+<NAME_PLATE>
+　敵の砲塔がギラギラと光っている。
+ビームはもう発射寸前だ。
+<PAUSE>
+<NAME_PLATE>舞
+「……！！」
+<PAUSE>
+<NAME_PLATE>
+　今だ。
+<PAUSE>
+<NAME_PLATE>
+　何も言わなくても二人がさっと引く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0207a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞
+「紙気・波遁流星っ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se008
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　星形手裏剣が流星雨のように
+オ＝ズに降り注いだ。
+<PAUSE>
+<NAME_PLATE>
+　それは次元シールドを簡単に突き破り、
+機械部分だけでなく全身を切り裂く。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　――――――！！！
+<PAUSE>
+<NAME_PLATE>
+　発射寸前だったビームが暴発。
+<PAUSE>
+<NAME_PLATE>
+　オ＝ズは最後にその言葉を言うこともできず、
+閃光の中で消滅していった。
+<PAUSE>
+<BG>nc415a,IN, 500
+<ACTOR>0,chr_t0322a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>翡翠
+「合食・共鳴障壁」
+<PAUSE>
+<NAME_PLATE>
+　翡翠先輩が錫杖を高く掲げていた。
+金属の輪が涼しげに共鳴している。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　合食の術で奪った力で障壁を作り、
+爆発の余波を防いでいた。
+<PAUSE>
+<NAME_PLATE>
+　おかげでこちらにはなんの被害もない。
+<PAUSE>
+<BG>nc415a,IN, 500
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞
+「やりましたね」
+<PAUSE>
+<NAME_PLATE>俺
+「ナイス」
+<PAUSE>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>翡翠
+「完全勝利」
+<PAUSE>
+<NAME_PLATE>
+　さすがに気が緩んだその瞬間、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　遺跡が突然輝き出した。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　俺たちのいる空間が歪んでいく。
+<PAUSE>
+<NAME_PLATE>
+　何度か経験のある空間転移の前兆だ。
+<PAUSE>
+<NAME_PLATE>翡翠
+「……！！」
+<PAUSE>
+<NAME_PLATE>俺
+「しまった！」
+<PAUSE>
+<NAME_PLATE>舞
+「ふうまさん！」
+<PAUSE>
+<NAME_PLATE>
+　奴を倒すことが
+トラップの引き金だったのか。
+<PAUSE>
+<NAME_PLATE>
+　それに気づいた時には
+俺たちは祭壇から転移させられていた。
+<PAUSE>
+//【背景：ブレインフレーヤーの遺跡最深部＿昼夜共通】【時間：昼】
+//　※対魔忍ユキカゼ2_NC020aより流用
+//nc416a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc416a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　転移先は巨大な空間だった。
+<PAUSE>
+<NAME_PLATE>
+　両側には正体不明の機械がそびえ立ち、
+奥の方は輝いていてよく見えない。
+<PAUSE>
+<NAME_PLATE>
+　そして正面にある法壇のような場所には
+異形の人物が座っていた。
+<PAUSE>
+<ACTOR>0,ts_m264a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「…………」
+<PAUSE>
+//　※立ち絵
+//　　賢明卿マルジャーナ＿立ち絵
+//　　＊モンスターイラストより流用
+<NAME_PLATE>
+　直立した宇宙タコのようだった。
+復活して悪魔じみた姿になった
+アルサールほど人間離れしてはいない。
+<PAUSE>
+<NAME_PLATE>
+　頭から二本の長い触手が垂れているが、
+まがりなりにも表情が分かる顔があり、
+<PAUSE>
+<NAME_PLATE>
+　ローブのような服の下には
+女性と思しきゆるやかな肉体があった。
+<PAUSE>
+<NAME_PLATE>
+　だが俺は一目で確信した。
+こいつはブレインフレーヤーの一族だと。
+<PAUSE>
+<NAME_PLATE>？？？
+「なんじゃ、おぬし達。
+　オ＝ズを破壊したのか」
+<PAUSE>
+<NAME_PLATE>？？？
+「見たところ人間のようだな。
+　褒美に妾自ら滅ぼしてやろう」
+<PAUSE>
+<NAME_PLATE>
+　そいつは椅子から立ち上がり、
+杖を掲げた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「奴はブレインフレーヤーだ！
+　やるぞ！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「はい、ふうまさん！」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>翡翠
+「了解」
+<PAUSE>
+//　※立ち絵
+//　　【翡色の疾風】由利翡翠＿立ち絵
+//　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺たちは即座に戦闘態勢を取るが、
+奴の方は怪訝そうな顔になった。
+<PAUSE>
+<ACTOR>0,ts_m264a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「そこの娘、今、ふうまと言ったか？
+　男、もしやおぬしの名はふうま小太郎か？」
+<PAUSE>
+<NAME_PLATE>俺
+「なぜ俺の名を？」
+<PAUSE>
+<NAME_PLATE>？？？
+「では水城ゆきかぜの願いは叶ったのだな。
+　それは僥倖」
+<PAUSE>
+<NAME_PLATE>？？？
+「よくぞテセラックを破壊してくれた。
+　礼を言うぞ」
+<PAUSE>
+<NAME_PLATE>
+　そいつは俺たちに向かって
+深く頭を下げた。
+<PAUSE>
+<NAME_PLATE>俺
+「どういうことだ？
+　ゆきかぜを知ってるのか？
+　お前はブレインフレーヤーじゃないのか？」
+<PAUSE>
+<NAME_PLATE>？？？
+「慌てるな。立ち話もなんじゃ。
+　そこに座るがよい。茶でも進ぜよう」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そいつが座り直して何か操作すると、
+床から椅子が三つ出てきた。
+<PAUSE>
+<NAME_PLATE>
+　そしてお茶の入った湯飲みと
+お菓子の乗った小皿がテーブルから出てきた。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<NAME_PLATE>？？？
+「心配するな。
+　毒など入っておらぬ」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「テセラックを破壊したおぬし達は
+　このマルジャーナの恩人。
+　そのような不義理はせぬ」
+<PAUSE>
+<NAME_PLATE>舞
+「マルジャーナ？
+　まさか古文書にのってた？」
+<PAUSE>
+<NAME_PLATE>俺
+「一万年以上だぞ。
+　それからずっと生きてるのか？」
+<PAUSE>
+<NAME_PLATE>
+　驚く俺たちに奴は平然と言った。
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「我々ブレインフレーヤーは
+　おぬし達より寿命が長いゆえな。
+　まずは名を教えてくれるか」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ふうま小太郎だ」
+<PAUSE>
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞
+「七瀬舞です」
+<PAUSE>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>翡翠
+「由利翡翠」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは席について名乗る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m264a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マルジャーナ
+「妾はマルジャーナ。
+　ブレインフレーヤーの女王じゃ」
+<PAUSE>
+<NAME_PLATE>俺
+「女王がなぜこんなところに？
+　お前たちブレインフレーヤーは
+　やはりこの地下に住んでいたのか？」
+<PAUSE>
+<NAME_PLATE>舞
+「女神ウシャスとして崇められていたのは
+　あなたたちなんですか？」
+<PAUSE>
+<NAME_PLATE>
+　矢継ぎ早に問いかける俺たちに
+マルジャーナは微笑んだ。
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「ウシャスとは懐かしい言葉じゃな。
+　そういうこともあった。それも昔の事よ」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「ここを知るのももう妾だけじゃ。
+　魔界の９貴族なぞをやるのも難儀なのでな。
+　たまに一人で来て心を癒やしておる」
+<PAUSE>
+<NAME_PLATE>
+　魔界の９貴族。
+<PAUSE>
+<NAME_PLATE>
+　いきなり出てきたその言葉にさらに驚く。
+<PAUSE>
+<NAME_PLATE>俺
+「魔界の９貴族だと？
+　ブレインフレーヤーは魔界まで
+　侵略してるのか？」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「そのような言われ方は心外。
+　と言いたいところだが
+　そう言われてもやむを得ぬ」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「女王たる妾の不徳じゃ。
+　だが全てのブレインフレーヤーが
+　他次元の侵略を望んでいるわけではない」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「妾はそのような者たちに嫌気が差してな。
+　ずいぶん前に志を同じくする
+　少数の者を率いて魔界に移ったのじゃ」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「無論、魔界を侵略する意図などはない。
+　大人しく隠遁生活を営んでおったのじゃが、
+　なにぶん我々は丈夫で寿命が長いゆえな」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「いつの間にか９貴族の一つなどと
+　言われるようになってしもうた」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「今は魔界の平和維持のため
+　９貴族の寡頭制維持を望んでおる。
+　賢明卿とは皮肉な呼び名じゃな」
+<PAUSE>
+<NAME_PLATE>
+　マルジャーナ、賢明卿とやらは自嘲したが
+想像を絶することばかりで言葉が出てこない。
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「驚いておるようじゃな。
+　さもあろう」
+<PAUSE>
+<NAME_PLATE>
+　彼女は一息入れるようにお茶を飲んだ。
+<PAUSE>
+<NAME_PLATE>
+　俺もつられて自分の分を口にする。
+美味い。
+<PAUSE>
+<NAME_PLATE>
+　しかも添えられたお茶菓子、
+これはゆきかぜの好きな―――
+<PAUSE>
+<NAME_PLATE>俺
+「涼屋の甘納豆だ……」
+<PAUSE>
+<NAME_PLATE>
+　一つ摘まんで思わず呟くと、
+マルジャーナは嬉しそうな顔になった。
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「おっ、分かるのか」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「水城ゆきかぜにわけてもらって
+　たいそう美味かったのでな。
+　ちと難儀じゃが常備しておる」
+<PAUSE>
+<NAME_PLATE>俺
+「待て待て。
+　ゆきかぜを知っているのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「話の流れからして、
+　この世界のゆきかぜじゃなくて、
+　別次元の成長したゆきかぜだろう？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「別次元のゆきかぜさん？」
+<PAUSE>
+<NAME_PLATE>翡翠
+「どういうこと？」
+<PAUSE>
+<NAME_PLATE>
+　二人が怪訝そうに俺を見る。
+<PAUSE>
+<NAME_PLATE>俺
+「後で詳しく説明するけど、
+　俺は別次元の成長したゆきかぜに
+　会ったことがあるんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「そしてブレインフレーヤーのアルサールが
+　探していたテセラックという遺物を破壊した。
+　その礼を言っていたな？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m264a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>マルジャーナ
+「あれは妾の大いなる過ちじゃ。
+　アルサールなどという一族の恥を
+　跳梁跋扈させたことも含めてな」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「テセラックは元々王家に代々伝わる秘宝。
+　それがいつ、どのように作られたのか
+　妾は知らぬ。伝わってもおらぬ」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「テセラックはあらゆる次元、あらゆる時代に
+　わたってただ一つだけ存在する
+　摩訶不思議な代物じゃからな」
+<PAUSE>
+<NAME_PLATE>俺
+「その王家の秘宝を
+　なんでアルサールが持っていたんだ？」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「うむ、妾は魔界に移住する際、
+　同族の追っ手から逃れるため、
+　テセラックを所持しておった」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「それが何者かに盗まれ、
+　アルサールめの手に渡ったのじゃ」
+<PAUSE>
+<NAME_PLATE>俺
+「あんな危険な代物を
+　破壊しようとは思わなかったのか？」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「そのようなことは考えもしなかった」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「万一、妾に離反した者たちが
+　魔界に攻め入ってきたとき、
+　対抗する力が必要じゃったからな」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「妾とて女王という立場に縛られておる。
+　だが結果的には誤りであったな」
+<PAUSE>
+<NAME_PLATE>
+　マルジャーナは深い悔恨を感じさせる
+表情で言った。
+<PAUSE>
+<NAME_PLATE>俺
+「だからテセラックを破壊しようとした
+　あのゆきかぜに協力したのか？」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「次元転移するために力を貸した。
+　先頃、テセラックの波動が
+　消失したことは観測しておる」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「死ぬはずじゃったおぬしも生きておる。
+　水城ゆきかぜは本懐を遂げたのじゃな」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、それには俺も立ち会った」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「よくぞテセラックを破壊してくれた。
+　罪深きブレインフレーヤーの長として
+　心より感謝しておる」
+<PAUSE>
+<NAME_PLATE>
+　マルジャーナは居住まいを正すと
+俺たちに深く頭を下げた。
+<PAUSE>
+<NAME_PLATE>
+　俺が知るブレインフレーヤーには
+全くそぐわないこの振る舞い。
+<PAUSE>
+<NAME_PLATE>
+　色々と言いたいことはあるが、
+今、彼女が敵でないのは間違いなかった。
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「それでおぬし達は
+　なぜここに来たのじゃ？」
+<PAUSE>
+<NAME_PLATE>俺
+「自分たちのすぐ足元に怪しい場所があったら
+　調べるのは当然だろう？」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「さようか」
+<PAUSE>
+<NAME_PLATE>
+　マルジャーナは頷き、少し考えてから、
+あっさりと言った。
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「ここはいい隠れ家じゃったのだが
+　そのように怪しまれてはやむを得ぬな。
+　封印するとしよう」
+<PAUSE>
+<NAME_PLATE>俺
+「封印？」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「その方がおぬし達には良いのであろう？」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、そうだが……」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「では問題は解決じゃな。
+　おぬし達は妾が地上まで転送してやろう」
+<PAUSE>
+<NAME_PLATE>マルジャーナ
+「久方ぶりに楽しい茶会じゃった。
+　ではまたな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「おい、ちょっと待て。
+　まだ話は終わって―――」
+<PAUSE>
+<NAME_PLATE>
+　なにか操作を始めたマルジャーナを
+俺は止めようとしたが、
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<NAME_PLATE>
+　次の瞬間、有無を言わさず
+また転移させられていた。
+<PAUSE>
+//【背景：五車学園＿正門＿深夜】【時間：深夜】
+//　※対魔忍アサギZERO_NC008dより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc054d,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「くそ。
+　まだ話は終わってないのに」
+<PAUSE>
+<NAME_PLATE>
+　気がつけば五車学園の正門前にいた。
+<PAUSE>
+<NAME_PLATE>
+　もうすっかり夜だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0322a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞
+「ずいぶんと勝手な人ですね。
+　人じゃないですけど」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>翡翠
+「マイペース」
+<PAUSE>
+//　※立ち絵
+//　　【翡色の疾風】由利翡翠＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「所詮はブレインフレーヤーだからな。
+　その上、魔界の９貴族ときた。
+　ん……なんだこれ？」
+<PAUSE>
+<NAME_PLATE>
+　いつの間にか何か手に持っている。
+<PAUSE>
+<NAME_PLATE>舞
+「本……ですね」
+<PAUSE>
+<NAME_PLATE>俺
+「持ってけってことか」
+<PAUSE>
+<NAME_PLATE>翡翠
+「お土産」
+<PAUSE>
+<NAME_PLATE>俺
+「テセラックを破壊した礼のつもりか」
+<PAUSE>
+<NAME_PLATE>舞
+「見せてもらえます？」
+<PAUSE>
+<NAME_PLATE>
+　俺は持たされていた本を手渡し、
+舞はそれを開いたが、
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>舞
+「知らない言語です。私にも読めません」
+<PAUSE>
+//【背景：五車学園＿図書室＿昼夜共通】【時間：昼】
+//　※対魔忍アサギZERO_NC058aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc182a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　地下都市は確かに封印されていた。
+<PAUSE>
+<NAME_PLATE>
+　エオスの祭壇にあった隠し扉もなくなり、
+その先に何かあった痕跡すら消えていた。
+<PAUSE>
+<NAME_PLATE>
+　アサギ先生に調査結果を報告し、
+マルジャーナにもらった本は現在も解析中だが、
+はかばかしい結果は上がっていない。
+<PAUSE>
+<NAME_PLATE>
+　それはそれとして、今日は―――
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<ACTOR>0,ko_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（……二魂……同体……）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装（刀なし）
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,am_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紫水
+「こんにちは」
+<PAUSE>
+//　※立ち絵
+//　　天宮紫水通常立ち絵＿普段着
+<ACTOR>0,am_t002h,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0323a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞
+「初めまして、紫水さん」
+<PAUSE>
+//　※立ち絵
+//　　【拘束の紙気】七瀬舞2
+//　　＊カードイラストより流用
+<NAME_PLATE>
+　紫水に会いたいという
+舞たっての希望で、
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩に協力をお願いして、
+紫水にまた実体化してもらった。
+<PAUSE>
+<NAME_PLATE>舞
+「この本、お返しします。
+　ありがとうございました」
+<PAUSE>
+<NAME_PLATE>紫水
+「うん、ありがとう」
+<PAUSE>
+<NAME_PLATE>
+　舞が紫水に『初恋』を返す。
+<PAUSE>
+<NAME_PLATE>
+　オ＝ズを倒すときにバラバラにしたはずだが、
+さすが紙気の使い手、完璧に元に戻っている。
+<PAUSE>
+<NAME_PLATE>紫水
+「やっとあなたに会えて嬉しい。
+　今日は三人でお喋りしよう」
+<PAUSE>
+<NAME_PLATE>舞
+「はい、いっぱいお喋りしましょう」
+<PAUSE>
+<NAME_PLATE>
+　二人は楽しそうに席に着いた。
+俺もその横に座ろうとしたのだが、
+<PAUSE>
+<NAME_PLATE>舞
+「ふうまさん？」
+<PAUSE>
+<ACTOR>0,am_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紫水
+「お館くん、なにしてるの？」
+<PAUSE>
+<NAME_PLATE>
+　二人に怪訝そうな顔をされる。
+<PAUSE>
+<NAME_PLATE>俺
+「三人で話すんじゃないのか？」
+<PAUSE>
+<ACTOR>0,am_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>舞＆紫水
+「はーーーーーーーー」
+「はーーーーーーーー」
+<PAUSE>
+<NAME_PLATE>
+　二人は息を合わせて
+心底呆れたように深い溜息を吐いた。
+<PAUSE>
+<ACTOR>0,am_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>紫水
+「私、舞、コロ。この三人」
+<PAUSE>
+<NAME_PLATE>舞
+「普通分かりませんか？
+　ふうまさん、ガールズトークに
+　加わるつもりだったんですか？」
+<PAUSE>
+<NAME_PLATE>紫水
+「コロも言ってる。『空気読んで』」
+<PAUSE>
+<NAME_PLATE>
+　ものすごい冷たい眼差しだ。
+<PAUSE>
+<NAME_PLATE>
+　どうやらさっきの溜息には
+コロ先輩の分も混じっていたらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「そんな……。
+　じゃあ俺はなんのためにここに」
+<PAUSE>
+<NAME_PLATE>紫水
+「お館くんがいないと
+　私がコロと入れ替われないから。
+　もう用は済んだ」
+<PAUSE>
+<NAME_PLATE>舞
+「ふうまさん、どこか行って下さい。
+　邪魔です」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺は二人、ではなく三人に
+追い払われてしまった。
+<PAUSE>
+<NAME_PLATE>
+　なんてひどい扱いだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,am_t002h,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0323a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　しかし、振り返ると、
+紫水と舞、そして見えないがコロ先輩が
+楽しそうに話し始めている。
+<PAUSE>
+<NAME_PLATE>
+　確かに俺は邪魔だな。
+微笑ましい気持ちになりながら
+その場を退散したのだった。
+<PAUSE>
+//→エピローグ終了。
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

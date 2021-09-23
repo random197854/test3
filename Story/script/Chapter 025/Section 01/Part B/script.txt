@@ -1,0 +1,269 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【背景：二車のアジト＿夜】【時間：夜】
+//　※対魔忍アサギ３_nc035aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc096a,IN, 1000
+<NAME_PLATE>
+　手合わせを終え、
+二人は執務室へ戻ってきていた。
+<PAUSE>
+<ACTOR>0,o_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>権左
+「なるほどねえ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左通常立ち絵
+<ACTOR>1,g_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「何がだ」
+<PAUSE>
+//　※立ち絵
+//　　二車骸佐戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>権左
+「いや、さっきの戦いを反芻してましてね」
+<PAUSE>
+<NAME_PLATE>権左
+「強敵を相手にしてこそ、
+　本領を発揮できるようになったという
+　わけですな」
+<PAUSE>
+<ACTOR>0,o_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「……俺の“夜叉髑髏”は、
+　戦いで敗れ去った亡者の怨念を
+　身に纏う力だ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「その数が多ければ多いほど、
+　俺の力もまた強くなる」
+<PAUSE>
+<NAME_PLATE>骸佐
+「つまり激しい戦いが行われた土地、
+　例えば古戦場などにおいては無敵だが、
+　戦うのがそんな場所ばかりとは限らん」
+<PAUSE>
+<NAME_PLATE>骸佐
+「強さが戦場に依存するのが、
+　俺の能力の弱点ともいえたわけだ。
+　――今まではな」
+<PAUSE>
+<ACTOR>1,g_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「だがこれなら……」
+<PAUSE>
+<NAME_PLATE>
+　骸佐はじっと掌を見つめる。
+<PAUSE>
+<NAME_PLATE>
+　修行を重ねて進化させた邪眼の力。
+権左と戦って、彼はその手応えを
+しかと感じていた。
+<PAUSE>
+<ACTOR>0,o_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>権左
+「ま、それだけじゃなく
+　剣捌きも随分と良くなられた」
+<PAUSE>
+<NAME_PLATE>
+　それは権左の忌憚なき評価だった。
+太刀筋の正確さ、重さ、全てが上達している。
+<PAUSE>
+<NAME_PLATE>
+　だが骸佐は、そんな権左を鋭い目で刺した。
+<PAUSE>
+<ACTOR>1,g_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「俺はまだまだだ。
+　それは嫌というほど自覚している」
+<PAUSE>
+<NAME_PLATE>骸佐
+「あまり褒めて慢心させるな。
+　愚かな頭領にはなりたくない」
+<PAUSE>
+<NAME_PLATE>権左
+「そいつぁ失礼しました」
+<PAUSE>
+<NAME_PLATE>骸佐
+「……だが、
+　お前の直言にはいつも感謝している」
+<PAUSE>
+<NAME_PLATE>権左
+「御意。
+　しかしこうなると、
+　課題はやはり“実戦”ですな」
+<PAUSE>
+<NAME_PLATE>骸佐
+「そうだな。俺には実戦が足りん。
+　それには………」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se051
+<NAME_PLATE>
+　と、そこへ。
+慌ただしく扉を叩く音がして、
+部下の男が駆け込んできた。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>下忍
+「骸佐様、権左様！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍（男）
+//　　＊モンスターイラストより流用
+<ACTOR>0,ts_m038a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,g_t002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>骸佐
+「何事だ？」
+<PAUSE>
+<NAME_PLATE>下忍
+「『大博徒』の翁が死体で発見されました」
+<PAUSE>
+<ACTOR>1,g_t002d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>骸佐
+「あのカジノの主人がか！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　『大博徒』とは、
+東京キングダムに数店舗を展開する
+闇カジノグループである。
+<PAUSE>
+<NAME_PLATE>
+　骸佐が龍門を倒してからというもの、
+シマにあった娼館や闇カジノなどは、
+そのまま二車忍軍の傘下に収まった。
+<PAUSE>
+<NAME_PLATE>
+　中でも闇カジノ『大博徒』は
+二車にあつく忠誠を示しており、
+<PAUSE>
+<NAME_PLATE>
+　また、その売り上げは、
+二車忍軍の大きな収入源にもなっていた。
+<PAUSE>
+<NAME_PLATE>
+　その『大博徒』のボスが
+暗殺されたというのだ。
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>下忍
+「未明に暗殺されたようです。
+　先程、裏通りで死体となって発見されたと」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,o_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,g_t002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>権左
+「あの用心深い爺さんがまさか……
+　そりゃ相当に恨みは買ってただろうが」
+<PAUSE>
+<NAME_PLATE>骸佐
+「本人も警戒はしすぎるほどしていたはずだ。
+　常に手練の護衛を連れていた」
+<PAUSE>
+<NAME_PLATE>権左
+「下手人は相当のやり手ですかね」
+<PAUSE>
+<NAME_PLATE>骸佐
+「あるいは、警戒されない身内の犯行か。
+　いずれにせよ、傘下の者が殺されたとあれば
+　放っておくわけにはいかん」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,ts_m038a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>下忍
+「すでに尚之助さまが、
+　捜査を開始しておられます」
+<PAUSE>
+<NAME_PLATE>骸佐
+「そうか。
+　引き続き報告を頼む」
+<PAUSE>
+<NAME_PLATE>下忍
+「はっ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　部下は頭を下げ、
+足早に部屋から去っていった。
+<PAUSE>
+<NAME_PLATE>骸佐
+「…………」
+<PAUSE>
+<NAME_PLATE>骸佐
+「権左」
+<PAUSE>
+<GROUP>
+<ACTOR>0,o_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>権左
+「はっ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「お前も尚之助に協力しろ」
+<PAUSE>
+<NAME_PLATE>権左
+「御意」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　権左は素早く一礼をすると、
+部屋を出ていこうとする。
+<PAUSE>
+<NAME_PLATE>
+　が、出口で主の方を振り返り、
+ひとこと、声をかけた。
+<PAUSE>
+<ACTOR>0,o_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「……お館様。
+　闇世界では殺し殺されるが常道ですぜ」
+<PAUSE>
+<NAME_PLATE>骸佐
+「わかっている」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　骸佐は振り返らずに答える。
+<PAUSE>
+<NAME_PLATE>
+　例えば万に一つ、権左がこの後、
+二度と戻らなかったとしても、
+<PAUSE>
+<NAME_PLATE>
+　それは闇に足を踏み入れた者の運命。
+それを背負っていく覚悟を、骸佐はとうに
+出来ているつもりだ。
+<PAUSE>
+<ACTOR>0,o_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>権左
+「御意」
+<PAUSE>
+<NAME_PLATE>
+　権左はいつものように、
+にやりと笑って出て行った。
+<PAUSE>
+//→Section１終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

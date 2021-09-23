@@ -1,0 +1,1092 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ＿納涼祭＿舞台＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC073a　より流用
+//nc337a
+<BGM_PLAY>bgm309,1000
+<BG>nc337a,IN, 1000
+<NAME_PLATE>
+　祭りやぐらの舞台では、
+踊り子ナディアによる
+招福の舞が始まっていた。
+<PAUSE>
+<ACTOR>0,chr_t0249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナディア
+「――さあ、このタイミング！
+　イングリッド、全力でお願い！！」
+<PAUSE>
+//　※立ち絵
+//　　【祭りの後】ナディア
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「まったく、
+　妙な祭りもあったものだな。
+　――ハァァアアアアアア！！！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊対魔忍RPGローンチガチャのカードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　不思議な現象が起きていた。
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　イングリッドの振り下ろした
+魔剣ダークフレイムが、大太鼓の
+鼓面のわずか数ミリ手前で、
+<PAUSE>
+<NAME_PLATE>
+　何か見えない膜でもあるかのように
+ふわりと受け止められる。
+すると――。
+<PAUSE>
+<BG>nc337a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se145
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドン！　ドドン！　ドン！
+<PAUSE>
+<SE_PLAY>se145
+<NAME_PLATE>
+　ドン！　ドドン！　ドン！
+<PAUSE>
+<NAME_PLATE>
+　まるで歓喜に震えるように、
+大太鼓が自ら軽快な音を響かせ始め、
+<PAUSE>
+<NAME_PLATE>
+　同時に、白くまばゆい光が太鼓の
+胴体から次々に噴き出し、祭りやぐらの
+遥か上へと昇っていく。
+<PAUSE>
+<ACTOR>0,chr_t0249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナディア
+「はーい、来た来た～♪
+　それじゃみんな注目、
+　福のパワーを拡散させるねー！」
+<PAUSE>
+<NAME_PLATE>ナディア
+「――ヨミハラを満たせ、
+　幸せのエネルギー！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　――おおおおおおおおおおおおお
+おおおおおおおおおおおっ！！！？
+<PAUSE>
+<NAME_PLATE>
+　やぐらの下で見守る人々から
+大きな歓声が上がる。
+<PAUSE>
+<NAME_PLATE>
+　それはまるで、夏の夜空に
+きらめく花火のようであった。
+<PAUSE>
+<NAME_PLATE>
+　招福の鈴を手にしたナディアの
+舞に導かれ、打ち上げられた光が
+ぱちんぱちんと弾けて、
+<PAUSE>
+<NAME_PLATE>
+　色とりどりの無数の輝きとなって
+ヨミハラの夜に散っていく――。
+<PAUSE>
+<ACTOR>0,ts_m076a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヤマタノオロチ
+「おやおや、こりゃあ
+　何とも愉快な出し物じゃないか！」
+<PAUSE>
+//　※立ち絵
+//　　ヤマタノオロチ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ヤマタノオロチ
+「――ねえガンマン？　どうせなら、
+　あたしらの誰が一番デカイ光を
+　ぶち上げられるか勝負しないかい？」
+<PAUSE>
+<ACTOR>0,ts_m076a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0147a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アンリード
+「へえ？　で、何を賭ける？」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ヤマタノオロチ
+「ヒヒ。そりゃもちろん、
+　今日の打ち上げの飲み代さ♪」
+<PAUSE>
+<NAME_PLATE>アンリード
+「クク、乗った！！
+　――じゃあ次はアタシが行くよ！
+　唸れ、ジェットリボルバー！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se145
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドン！　ドドン！　ドン！
+<PAUSE>
+<SE_PLAY>se145
+<NAME_PLATE>
+　ドン！　ドドン！　ドン！
+<PAUSE>
+<NAME_PLATE>
+　軽快な祭り太鼓と人々の歓声。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの幸いを祈る夏祭りは
+賑やかに続いていく。
+<PAUSE>
+//【黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　おなじ頃。
+<PAUSE>
+//【背景：ヨミハラ＿納涼祭＿屋台＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc015a　をお祭り風に加工流用
+//nc336a
+<BGM_PLAY>bgm314,1000
+<BG>nc336a,IN, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「私を、抹殺……」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊【夏祭り】クローンアサギのカードイラストより流用
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「自分のクローンであれば、
+　いずれ強大な力を持つはず――」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜紀
+//　　　　　＊ふうま亜紀01のカードイラストより流用
+<NAME_PLATE>亜希
+「それを放置するのは
+　世の秩序のためにならない。
+　それが上司の考えさ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……ずいぶん勝手な言い草ね」
+<PAUSE>
+<NAME_PLATE>
+　彼女とて望んでこのような
+存在として生まれたわけではない。
+<PAUSE>
+<NAME_PLATE>
+　他人の勝手な思惑で
+生死を左右されることなど、
+納得できるわけがない。
+<PAUSE>
+<NAME_PLATE>亜希
+「そうだね。まあ、上司も
+　そう思ったのか知らないけど……
+　ひとつ条件を出してきた」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「条件……？」
+<PAUSE>
+<NAME_PLATE>亜希
+「ああ。もし、あんたに
+　正義の心が芽生えているのなら」
+<PAUSE>
+<NAME_PLATE>亜希
+「今すぐに手を下さず、
+　もう少し様子を見てもいい――
+　だってさ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　正義の心――というのも、
+曖昧でよくわからない条件だ。
+<PAUSE>
+<NAME_PLATE>
+　そんなものをどう証明する？
+<PAUSE>
+<NAME_PLATE>亜希
+「今、ちょうど祭りやぐらで
+　ノマドの大幹部が太鼓を叩いてるだろ？
+　あいつを殺せばいい」
+<PAUSE>
+<NAME_PLATE>亜希
+「そうすれば、あんたに
+　正義の心があるって証明できる。
+　それが条件だ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ちょ、ちょっと待って……？
+　そんなこと、
+　できるわけないでしょう……！？」
+<PAUSE>
+<NAME_PLATE>
+　さすがに愕然とした。
+<PAUSE>
+<NAME_PLATE>
+　この平和なお祭りの夜に、
+そんな無体なことを――。
+<PAUSE>
+<NAME_PLATE>亜希
+「なぜ？　今日は平和に
+　やってるみたいだけど、
+　奴らノマドは闇の組織だよ」
+<PAUSE>
+<NAME_PLATE>亜希
+「私ら対魔忍の敵――
+　許してはいけない悪の根源」
+<PAUSE>
+<NAME_PLATE>亜希
+「それに、祭りの夜ってのも
+　実は都合が良いんだ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………？」
+<PAUSE>
+<NAME_PLATE>
+　戸惑いを隠せない彼女とは反対に、
+淡々とした顔で亜希が続ける。
+<PAUSE>
+<NAME_PLATE>亜希
+「いつもの夏祭りなら、警備が
+　それなりにいて無茶をするのは
+　難しいんだけどね」
+<PAUSE>
+<NAME_PLATE>亜希
+「でも今年は、あの踊り子ちゃんの
+　おかげでそれが最小限になっている」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そ、そうよ。仮に私が、
+　何かをしようとしたって……」
+<PAUSE>
+<NAME_PLATE>
+　祭りの広場周辺は、
+ナディアの踊りの力によって
+攻撃無効になっている。
+<PAUSE>
+<NAME_PLATE>亜希
+「うん。だけど、踊りが
+　止まればその効果もなくなるから」
+<PAUSE>
+<NAME_PLATE>亜希
+「――さっきの休憩時間、
+　やぐらの足場に細工をしてきたんだ」
+<PAUSE>
+<NAME_PLATE>亜希
+「ちょっと力を入れて押せば、
+　上の舞台が傾いて崩れるように」
+<PAUSE>
+<NAME_PLATE>
+　やぐらの舞台が崩れてしまえば、
+ナディアの踊りは確実に途切れる。
+そうなれば――。
+<PAUSE>
+<NAME_PLATE>亜希
+「あとはあんたが、
+　ネメシスの攻撃をあの大太鼓に
+　叩き込めばいい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　祝福の大太鼓には、
+ヨミハラの猛者たちが叩き手として
+己のパワーを注ぎ込んでいる。
+<PAUSE>
+<NAME_PLATE>
+　それを途中で破壊すれば、
+エネルギーは逆流・暴走して
+凄まじい破壊を引き起こすだろう。
+<PAUSE>
+<NAME_PLATE>
+　当然、その最前列にいる
+ノマド幹部イングリッドの命はない。
+<PAUSE>
+<ACTOR>1,chr_t0248a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「……大太鼓の暴発、
+　巻き込まれる人が出そうね」
+<PAUSE>
+<NAME_PLATE>
+　大太鼓の前にいるのは、
+イングリッドだけではない。
+<PAUSE>
+<ACTOR>1,chr_t0248a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「それがどうした？
+　ここは悪党と魔族の街だ。
+　慈悲はいらない」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………亜希、
+　あなたはそれで良いと思うの？」
+<PAUSE>
+<NAME_PLATE>亜希
+「もちろん心は痛むよ。
+　だけどノマドに打撃を与える好機だ。
+　個人の感情は捨てないと」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そう。それがあなたたちの“正義”
+　…………クソ食らえだわ」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは決然と言った。
+<PAUSE>
+<NAME_PLATE>亜希
+「えっ？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「私は探偵よ、亜希？
+　暗殺者やテロリストじゃない」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「誰かの命令に従ってほいほい
+　人を傷つけたり殺したり――
+　そんなことをするわけない」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「私は………
+　自分の信じる正義のために戦う。
+　それは譲れない」
+<PAUSE>
+<NAME_PLATE>亜希
+「提案には従わない？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ええ」
+<PAUSE>
+<NAME_PLATE>亜希
+「じゃあ予定通り、
+　あんたを始末するしかない」
+<PAUSE>
+<NAME_PLATE>
+　亜希が静かに刀の柄に手をかける。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……負ける気はないわ」
+<PAUSE>
+<NAME_PLATE>
+　最新最強の
+サイボーグアーム“ネメシス”を
+構えるクローンアサギ。
+<PAUSE>
+<NAME_PLATE>
+　亜希と直接剣を交えたことはないが、
+恐るべき達人であるのは知っている。
+<PAUSE>
+<NAME_PLATE>亜希
+「……もし、この場を切り抜けても、
+　対魔忍組織全てがあんたを追う」
+<PAUSE>
+<NAME_PLATE>亜希
+「どちらにしても
+　生きてはいられないよ、探偵」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「面白いわ。オリジナルとは、
+　一度本気で戦ってみたかった」
+<PAUSE>
+<NAME_PLATE>
+　彼女は迷いなく答える。
+<PAUSE>
+<NAME_PLATE>
+　たとえ命を失おうとも、
+譲れないものはある。
+<PAUSE>
+<NAME_PLATE>亜希
+「そうか。まあ、あんたなら
+　そう言うだろうと思ってた――」
+<PAUSE>
+<NAME_PLATE>
+　亜希が低くつぶやいて目を細める。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　それから――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「…………………“合格”！！！」
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>クローンアサギ
+「えっ？」
+<PAUSE>
+<NAME_PLATE>
+　突然、ニカっと笑って
+亜希が刀の柄から手を離した。
+<PAUSE>
+<NAME_PLATE>亜希
+「おっと。もう戦う気はないし、
+　探偵もネメシスを下ろして。
+　そんなの当たると死んじゃうよ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………どういうこと？」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが険しい目で問うと、
+亜希は申し訳なさそうに肩を丸める。
+<PAUSE>
+<NAME_PLATE>亜希
+「いやぁ。なんて言うか――。
+　こっちが本当の条件だったんだよ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「こっち……？」
+<PAUSE>
+<NAME_PLATE>亜希
+「そう。あんたが、ちゃんと
+　私の提案を突っぱねるかどうか」
+<PAUSE>
+<NAME_PLATE>亜希
+「大体うちの上司は、悪党だからって
+　無差別に命を奪うような人じゃない。
+　そこはあんたと一緒だね探偵」
+<PAUSE>
+<NAME_PLATE>亜希
+「だから――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　もしクローンアサギが簡単に
+ノマド幹部の暗殺に同意したり、
+<PAUSE>
+<NAME_PLATE>
+　あるいは、指令のために
+ヨミハラの住人を犠牲にするのを
+躊躇わなかったとしたら。
+<PAUSE>
+<NAME_PLATE>
+　それこそ許しがたい『悪』として、
+亜希はクローンアサギを始末しなければ
+ならなかった――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「えっと……？　じゃあ何？
+　やぐらに細工をしたっていうのも」
+<PAUSE>
+<NAME_PLATE>亜希
+「ああ。ブラフだよ。
+　あの休憩時間は、
+　本当にただトイレにいってただけ」
+<PAUSE>
+<NAME_PLATE>
+　亜希が照れたように笑うと、
+ほーっとクローンアサギの肩から力が抜ける。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「なによそれ……まったく、
+　人騒がせなんだから……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「すまん探偵！！
+　でも、どうしても確かめないと
+　いけなかったんだ……」
+<PAUSE>
+<NAME_PLATE>
+　亜希が申し訳なさそうに頭を下げる。
+<PAUSE>
+<NAME_PLATE>亜希
+「改めて謝るよ。
+　試すようなことして悪かった。
+　それに、今までのことも――」
+<PAUSE>
+<NAME_PLATE>亜希
+「私はあんたのことを見張ってた。
+　それをずっと黙ってた……」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが首を振る。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「気にしてないわ。
+　あなたがどう思おうと、
+　私はあなたを友人だと思っている」
+<PAUSE>
+<NAME_PLATE>
+　だから今まで、
+あの事務所で一緒に過ごしてきた。
+<PAUSE>
+<NAME_PLATE>
+　亜希に何か思惑があるのを
+薄々察していながら。
+<PAUSE>
+<NAME_PLATE>亜希
+「うん……。だからこそ、
+　気が咎めるっていうか……」
+<PAUSE>
+<NAME_PLATE>
+　しゅんとした顔でうつむく亜希。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<NAME_PLATE>亜希＆クローンアサギ
+「えっ？」
+<PAUSE>
+<GROUP>
+<BG>nc336a,IN, 200
+<TRANSITION>TR27, IN,800
+</GROUP>
+<NAME_PLATE>
+　二人の真ん中に小さな影が現れた。
+<PAUSE>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「……亜希と探偵。友達。仲良し」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　　＊ナーサラ01のカードイラストより流用
+<ACTOR>1,chr_t0091c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クロ
+「ぴぴ～っ！」
+<PAUSE>
+//　※立ち絵
+//　　使い魔クロ
+//　　　　＊マップ09イベントで使用したクロだけ切り抜き立ち絵を流用
+<NAME_PLATE>亜希
+「ナーサラちゃん……？」
+<PAUSE>
+<NAME_PLATE>
+　それはクロと一緒に
+祭り探検をしていたナーサラだ。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラは二人の手を取って、
+すっと握手をさせると。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ケンカはダメ。ふたり仲直り。
+　了承……？」
+<PAUSE>
+<NAME_PLATE>
+　心配そうに
+二人の顔を見上げるナーサラ。
+<PAUSE>
+<NAME_PLATE>
+　亜希とクローンアサギはそれを見て、
+それから、しばし顔を見合わせ――。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「……………ぷはっ！
+　あはは、そうだよなー。
+　ナーサラちゃんの言う通りだ！！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ふふっ、ええ♪　大丈夫、
+　私と亜希はケンカなんかしてないわ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「………？　では安心？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「もちろん。いま私たちは――
+　そう、明日の献立の話をしてたの」
+<PAUSE>
+<NAME_PLATE>亜希
+「そうだぞー！　明日の晩は
+　ナーサラちゃんの好きなオムライスだ！
+　上に旗もつけちゃうぞ～♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナーサラ
+「！　オムライス美味しい、
+　上の旗も有用……！」
+<PAUSE>
+<NAME_PLATE>クロ
+「ぴぴ～♪」
+<PAUSE>
+<NAME_PLATE>
+　目を輝かせるナーサラを見て、
+二人が笑ってうなずき合う。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　殺し合う寸前だったさっきの緊張感は、
+もうすっかりどこかに消えていた。
+<PAUSE>
+<NAME_PLATE>
+　そこに――。
+<PAUSE>
+<ACTOR>0,chr_t0196b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「おーい！！
+　こんなところにいたのかお前ら、
+　問題発生だぞー！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊【ＶＤラッピング】ミリアムのカ/ードイラストより流用
+//　　　　＊使い魔クロ無しに加工。
+//　※注　クロがナーサラについていったので立ち絵からクロを消去お願いします。
+<NAME_PLATE>ミリアム
+「あのアホアホコンビが
+　仕事放り出して逃げおった！！
+　お前らも捕まえるのに協力しろー！」
+<PAUSE>
+<NAME_PLATE>シロ
+「きゅきゅ～」
+<PAUSE>
+<NAME_PLATE>
+　血相を変えてミリアムとシロが
+こちらに駆けてくる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「おー。こりゃ大事件発生だ！
+　行こうか、探偵」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ええ。探偵団出動ね♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「了承」
+<PAUSE>
+<NAME_PLATE>クロ
+「ぴぴっ～！！」
+<PAUSE>
+<NAME_PLATE>
+　ミリアムと合流した一同は、
+明るい笑い声の溢れる祭り広場に
+戻っていった。
+<PAUSE>
+//【黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　かくして――。
+<PAUSE>
+<NAME_PLATE>
+　年に一度のヨミハラ夏祭りは
+大成功で終わり、一週間後。
+<PAUSE>
+//【背景：ヨミハラ歓楽街＿昼夜共通】【時間：昼】
+//　※対魔忍アサギＺＥＲＯ_NC035aより流用
+<BG>nc127a,IN, 1000
+<NAME_PLATE>
+　ヨミハラ繁華街・探偵事務所。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ2_nc003cより流用
+<BGM_PLAY>bgm506,1000
+<BG>nc215a,IN, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「はぁー。
+　なんか張り合いがないのう。
+　探偵、今日も奴は来ないのか」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　　＊ミリアム01のカードイラストより流用
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「ええ。特に連絡もないわ」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊クローンアサギ01のカードイラストより流用
+<NAME_PLATE>ミリアム
+「そうかー。いや、
+　いればいるでめんどくさい奴だが、
+　いないと妙に寂しいなぁ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「同意……」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　　＊ナーサラ01のカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「そうね……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　三人が話しているのは、
+もう一人の居候・ふうま亜希のこと。
+<PAUSE>
+<NAME_PLATE>
+　夏祭りの夜の問答で、
+『クローンアサギの監視』という
+亜希のヨミハラでの任務は完了。
+<PAUSE>
+<NAME_PLATE>
+　そして祭りの後、彼女は
+「皆またねー！」と元気に言って
+事務所から去っていった。
+<PAUSE>
+//【背景：ヨミハラ裏町のある酒場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>静流
+「私もね、あとで五車に戻って
+　聞いたんだけど――」
+<PAUSE>
+//　※立ち絵
+//　　静流立ち絵
+//　　　　　＊【チョコ教師】高坂静流のカードイラストより流用
+<NAME_PLATE>
+　夏祭りの数日後、クローンアサギは
+静流からそんな話を聞いた。
+<PAUSE>
+<NAME_PLATE>静流
+「彼女、あなたの安全を保障するため、
+　凄く熱心に井河アサギを説得してたみたい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+『あいつは悪じゃない！』と――。
+<PAUSE>
+<NAME_PLATE>
+　己のクローンを危険視する井河アサギに
+何度も進言し、ついにその考えを変えさせた。
+<PAUSE>
+<NAME_PLATE>
+　そして、その最後に。
+<PAUSE>
+<NAME_PLATE>
+　監視役としての自分の責任で、
+亜希は一回だけクローンアサギを
+試すことになったという。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>亜希
+『あいつは良い奴です。
+　ちゃんと正義の心を持っている』
+<PAUSE>
+<NAME_PLATE>亜希
+『だけど時に、悪よりたちの
+　悪い正義ってやつもいる』
+<PAUSE>
+<NAME_PLATE>亜希
+『最後の最後に、
+　私はそれを試します――』
+<PAUSE>
+<NAME_PLATE>
+　そう井河アサギと話がまとまり、
+あの祭りの夜の問答になった。
+<PAUSE>
+<NAME_PLATE>
+　失敗したら己の命で責任を取る、
+それほどの覚悟だったらしい。
+<PAUSE>
+<BG>chrnc0101a,IN, 1000
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「――不器用ね、彼女。
+　でも探偵さん、そういうところが
+　あなたと気が合ったのかしら♪」
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：昼】
+//　※対魔忍アサギ2_nc003cより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc215a,IN, 1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>クローンアサギ
+（本当、寂しくなるわ……）
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊クローンアサギ01のカードイラストより流用
+<NAME_PLATE>
+　クローンアサギはひとり胸の内で呟く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　亜希は、彼女が闇の街で初めて
+出会った友人だ。
+<PAUSE>
+<NAME_PLATE>
+　以来、何度も共に窮地を乗り越え、
+助けられてきた。
+<PAUSE>
+<NAME_PLATE>
+　たとえ監視任務がきっかけであっても、
+あの日々は嘘ではなかった――少なくとも
+彼女はそう信じている。
+<PAUSE>
+<NAME_PLATE>
+　でも、そんな亜希もヨミハラから
+去って行った。
+<PAUSE>
+<NAME_PLATE>
+　亜希が対魔忍の指令で動いている以上、
+次に会えるのはいつの日になるか――。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0247a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「ただいまー」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜紀
+//　　　　　＊【夏祭り】ふうま亜希02のカードイラストより流用
+<NAME_PLATE>クローンアサギ
+「えっ？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「なぬ？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「……？」
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅ？」「ぴぴ？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>一同
+「亜希～～～～～～～～～！！！？」
+<PAUSE>
+<NAME_PLATE>
+　ガチャリとドアを開けて、
+ごく当たり前のような顔で
+ふうま亜希が入ってきた。
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<NAME_PLATE>亜希
+「はぁ～。やっぱり
+　この事務所は落ち着くなぁ。
+　ってなに皆、そんなびっくりして」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「お、お前戻ってきたのか――
+　っていうか、その前に何だ
+　その恰好は――！！？」
+<PAUSE>
+<NAME_PLATE>
+　何から驚いていいかわからない、
+という顔のミリアムが叫ぶ。
+<PAUSE>
+<NAME_PLATE>
+　一週間ぶりに現れた亜希は、
+なぜかバリバリの祭り衣装であった。
+<PAUSE>
+<NAME_PLATE>亜希
+「え？　ミリアムちゃん知らないの？
+　今日はヨミハラ子供会のお神輿だよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「はああ？？　子供会ぃ……？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あぁ……そういえば……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　娼婦の子や魔族の子など、
+ここ闇の街ヨミハラにもそれなりの
+数の子供が住んでいる。
+<PAUSE>
+<NAME_PLATE>
+　そんな子供たちのために行われるのが、
+ヨミハラ子供会のお神輿だ。
+<PAUSE>
+<ACTOR>0,chr_t0247a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「うふふー。楽しみだなぁ♪
+　子供たちが元気にかつげるように、
+　しっかり応援しなくっちゃ！」
+<PAUSE>
+<ACTOR>0,chr_t0247a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「い、いや、でも……
+　ちょっと待って、亜希？」
+<PAUSE>
+<NAME_PLATE>
+　ニコニコと満面の笑みの亜希に
+クローンアサギが困惑しながら聞く。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あなた、ヨミハラでの
+　任務はもう終わったって……？」
+<PAUSE>
+<NAME_PLATE>亜希
+「ああ。探偵の見張りはね。
+　でも新しい任務を上司から
+　色々頼まれちゃってさ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あ、新しい……」
+<PAUSE>
+<NAME_PLATE>亜希
+「で、アジト探すのめんどうだから、
+　またここに居候していいかなー？
+　“友達”のよしみで！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………ふふっ」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが微笑んだ。
+<PAUSE>
+<NAME_PLATE>
+　友達の頼みを断る理由は何一つない。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「了解したわ。でも今まで通り、
+　こっちの仕事も手伝いなさいよ？」
+<PAUSE>
+<NAME_PLATE>亜希
+「もちろん！！」
+<PAUSE>
+<NAME_PLATE>
+　大きくうなずく亜希。
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0247a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　そして、まだ少し驚いている顔の
+ミリアムたちの方を向いて。
+<PAUSE>
+<NAME_PLATE>亜希
+「さあ、何をぼーっとしている、
+　ミリアムちゃんナーサラちゃん！
+　皆で子供会のお神輿に出陣だ！」
+<PAUSE>
+<NAME_PLATE>亜希
+「君たちにはお神輿を担ぐという
+　使命が待っているぞ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「くくっ……わはははははは！！
+　この愚か者め！　わたしは
+　子供じゃないと何度言えばわかる！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「了承。みんなでお神輿、楽しみ♪」
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅきゅ！」
+「ぴぴーっ！！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「はいはい。みんな、お隣に
+　迷惑だから騒ぐのは外に出てからね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　わいわいとはしゃぎながら
+仲間たちが街に出る。
+<PAUSE>
+<NAME_PLATE>
+　闇の街の探偵事務所は、
+今日も賑やかであった。
+<PAUSE>
+//→エピローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

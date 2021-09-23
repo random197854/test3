@@ -1,0 +1,446 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【背景：近隣都市まえさき市＿薄暗い裏通り＿夜】【時間：夜】
+<BGM_PLAY>bgm610,1000
+<BG>nc065a,IN, 1000
+<GROUP>
+<ACTOR>2,ws_t002e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「ちょっと、オイシイ仕事って本当なの？
+　キミ、また変なこと考えてない？」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服衣装
+<NAME_PLATE>ギャング
+「滅相もございません！
+　どうしてあなた様に嘘をつけましょうか！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+<ACTOR>2,ws_t002a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「それならいいけどぉ……」
+<PAUSE>
+<NAME_PLATE>
+　さくらが不審がるのも無理はない。
+<PAUSE>
+<NAME_PLATE>
+　ギャングに先導されて歩くうちに、
+俺たちは賑わう街からすっかり離れ、
+薄暗く人通りも少ない地区に来ていた。
+<PAUSE>
+<NAME_PLATE>俺
+（このあたりは強盗や人さらいも多い……
+　いわば犯罪多発地区だ）
+<PAUSE>
+<ACTOR>2,ws_t002e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「何か企んでるなら、
+　またガツーンだからね」
+<PAUSE>
+<NAME_PLATE>ギャング
+「信じてくださいませ！
+　姉御はちょっと、まだ仕事があるらしくて、
+　先導が俺じゃ頼りないのもわかりますけど」
+<PAUSE>
+<ACTOR>2,ws_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「この人、キャラ変わってるし……」
+<PAUSE>
+<NAME_PLATE>ギャング
+「へへ……」
+<PAUSE>
+<NAME_PLATE>
+　さくらに叩きのめされたせいだろうか、
+男は態度まですっかり変わっていた。
+<PAUSE>
+<NAME_PLATE>俺
+（この様子なら、おかしな考えは
+　持っていないだろう……
+　何かすればさくらの拳が飛ぶわけだし）
+<PAUSE>
+<NAME_PLATE>俺
+「しかし、その仕事って何なんだ？
+　そろそろ話して欲しいんだが……」
+<PAUSE>
+<NAME_PLATE>ギャング
+「あ゛ぁ～～～！？
+　なんでデメエに言わなぎゃ
+　なんねえんだ！？　ガギィ！！」
+<PAUSE>
+<ACTOR>2,ws_t002f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「こら！！　素直に教えなさい！」
+<PAUSE>
+<NAME_PLATE>ギャング
+「はい！！　ただいま！！
+　えーと内容はですね……」
+<PAUSE>
+<NAME_PLATE>俺
+（なんだ、このさくらとの対応の違いは……）
+<PAUSE>
+<NAME_PLATE>
+　どうやらコイツ、
+まったく戦闘に参加しなかった俺のことは
+相変わらず舐めまくっているようだ。
+<PAUSE>
+<NAME_PLATE>ギャング
+「内容は、まあ、傭兵ってヤツですね。
+　いわゆる用心棒の仕事です」
+<PAUSE>
+<NAME_PLATE>ギャング
+「大口のお客さんが、
+　緊急に腕の立つのを集めてるみたいで、
+　姉御のとこにも依頼がきたんですよ」
+<PAUSE>
+<ACTOR>2,ws_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「用心棒？
+　私、悪いことはイヤだよ？」
+<PAUSE>
+<NAME_PLATE>ギャング
+「いやいや！　その心配はいりませんって！」
+<PAUSE>
+<NAME_PLATE>さくら
+「ほんとにぃ？」
+<PAUSE>
+<NAME_PLATE>ギャング
+「たしか、荷物の護衛とかなんとか……」
+<PAUSE>
+<NAME_PLATE>ギャング
+「まあ、実のところ俺も、
+　詳しい話は知りませんがね」
+<PAUSE>
+<NAME_PLATE>さくら
+「ふーん……？」
+<PAUSE>
+<NAME_PLATE>俺
+（荷物の護衛？
+　襲撃が予想されるような何かを、
+　輸送しようとしているのか……？）
+<PAUSE>
+<NAME_PLATE>
+　と、聞きたいところだが、
+舐められている俺は黙っていることにする。
+<PAUSE>
+<NAME_PLATE>ギャング
+「危険なことは確からしいですな。
+　だからこそ、報酬が凄い。
+　俺が聞いた話だと……ちょっとお耳を拝借」
+<PAUSE>
+<ACTOR>2,ws_t002c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「なになに
+　……………………」
+<PAUSE>
+<ACTOR>2,ws_t002d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「え～っ！？　そんなに～！？」
+<PAUSE>
+<NAME_PLATE>
+　さくらが目を＄のマークにして飛び上がる。
+<PAUSE>
+<NAME_PLATE>ギャング
+「やる気になっていただけましたか」
+<PAUSE>
+<ACTOR>2,ws_t002b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「やるやる！　そんなの絶対やるっしょ！
+　ねっ、ふうまちん！？」
+<PAUSE>
+<NAME_PLATE>俺
+「なに？　俺もやるのか？」
+<PAUSE>
+<NAME_PLATE>さくら
+「もちろんだよ！
+　二人でお小遣いゲットして、
+　豪華なディナーだよ～♪」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、まあ、それも悪くはないが……」
+<PAUSE>
+<NAME_PLATE>ギャング
+「お！　着きましたぜ！
+　あそこでさぁ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ws_t002b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+//【黒画面】
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：近隣都市まえさき市＿無人の工事現場＿夜】【時間：夜】
+<BGM_PLAY>bgm506,1000
+<BG>nc066a,IN, 1000
+<ACTOR>0,ts_m039a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ギャング
+「ファウストさん！　連れてきました！
+　凄腕の兵士が二人っす！！」
+<PAUSE>
+<ACTOR>0,ts_m039a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,ts_m051a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ファウスト
+「凄腕ノ兵士？」
+<PAUSE>
+//　※立ち絵
+//　　ファウスト＿汎用立ち絵
+<NAME_PLATE>
+　到着したのは、廃棄された工事現場。
+そこに、人相の悪い男たちが二十人ほど、
+集められていた。
+<PAUSE>
+<NAME_PLATE>
+　それを纏めているのは、
+全身を機械化したような、
+異様な外見の女兵士。
+<PAUSE>
+<NAME_PLATE>ファウスト
+「信ジラレナイナ……。
+　コンナ子供ガ凄腕ノ兵士ダト……？」
+<PAUSE>
+<NAME_PLATE>ギャング
+「外見で判断しちゃいけませんぜ！！
+　確かに間抜けなツラしたガキドモですけど、
+　腕の方はヤバイくらい立ちますぜ！！」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「ホウ……？」
+<PAUSE>
+<NAME_PLATE>さくら
+「ひえっ！？　ロボ……の、女の人？」
+<PAUSE>
+<NAME_PLATE>ファウスト
+「私ハ『ファウスト』」
+<PAUSE>
+<NAME_PLATE>
+　女は電子音混じりの声で名乗り、
+機械で覆われた顔をこちらへ向ける。
+<PAUSE>
+<NAME_PLATE>俺
+（全身をサイボーグ化してるのか……
+　只者じゃないな）
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m051a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,ts_m039a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<NAME_PLATE>男達
+「なんだぁ？！
+　青臭いガキじゃねえか！」
+<PAUSE>
+<NAME_PLATE>男達
+「帰れ帰れ！　ガキの遊びじゃねえんだぞ！」
+<PAUSE>
+<NAME_PLATE>男達
+「何なら俺たちがオトナの遊び教えてやるぜ？
+　ギャハハハ！！！！」
+<PAUSE>
+<NAME_PLATE>
+　集まっていた男たちも、
+次々に野次を飛ばしてくる。
+<PAUSE>
+<NAME_PLATE>俺
+（相当に柄の悪い連中だな。
+　まあ舐められるのも無理は……）
+<PAUSE>
+<ACTOR>0,ws_t002f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「むきーっ！　何を失礼な！！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「傭兵任務なんて余裕なんだけど！！
+　こう見えてもね、私こそ、
+　あの最強と名高い対魔――」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「もごっ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺はさくらの口を慌てて塞いだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「も、もごごご！　もごもごご～～！？」
+（ふ、ふうまちん！？　なにすんのよ～！？）
+<PAUSE>
+<NAME_PLATE>俺
+（バカっ！！　なに素性明かそうとしてんだ！
+　よく見ろ、こいつら全員闇の住民どもだぞ）
+<PAUSE>
+<NAME_PLATE>さくら
+（へっ……？）
+<PAUSE>
+<NAME_PLATE>俺
+（中にはノマドの関係者もいるかもしれん。
+　軽はずみなこと言うとヤバいぜ！？）
+<PAUSE>
+<NAME_PLATE>
+　この場所に入った時から気付いていた。
+<PAUSE>
+<NAME_PLATE>
+　集まっている男たちの中には、
+資料で見かけた顔がいくつもある。
+<PAUSE>
+<NAME_PLATE>
+　どれも裏社会では名の通った連中で、
+犯罪組織ノマドと関わりを疑われている者も
+少なくない。
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+（じゃ、じゃあ！？
+　やっぱりこの人たち悪い人で、
+　これは悪い仕事……？）
+<PAUSE>
+<NAME_PLATE>俺
+（いや、それはわからない。
+　確実に良い人ではないだろうが、
+　ただ雇われただけの可能性もある）
+<PAUSE>
+<NAME_PLATE>
+　ノマドの組織形態は流動的で掴みにくく、
+構成員が参加していたとしても、
+一概にそれが組織の仕事だとは断言できない。
+<PAUSE>
+<NAME_PLATE>さくら
+（えっと、じゃあ……？
+　ふうま君、どうするの？）
+<PAUSE>
+<NAME_PLATE>俺
+（逆に俺は興味が出てきたな）
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+（えっ？）
+<PAUSE>
+<NAME_PLATE>俺
+（この仕事。
+　奴ら、一体何をするつもりなのか……
+　探ってみるのも一興か）
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+「何カゴチャゴチャ言ッテイルヨウダガ……、
+　実力ナラ試シテミレバ良イコトダ。
+　――オイ、ヤレ」
+<PAUSE>
+<NAME_PLATE>
+　ファウストの声に応えて、
+周りの傭兵たちが動き出す。
+<PAUSE>
+<NAME_PLATE>男達
+「やっと暴れさせてもらえるのかい！」
+「すっかり体鈍っちまった」
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ts_m053a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「じゃあ俺は、
+　こっちの可愛い嬢ちゃんと遊んでやるか」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+<NAME_PLATE>さくら
+（ど、どうしよう、ふうま君！？
+　バイト、引き受けちゃって良いのかな！？
+　実力、見せちゃっていいのかな！？）
+<PAUSE>
+<NAME_PLATE>俺
+（いいんじゃないのか。
+　俺も面白くなってきたところだ。
+　対魔忍だとバレない程度に暴れてやれ）
+<PAUSE>
+<NAME_PLATE>さくら
+（う、うん！　わかったよ！！）
+<PAUSE>
+<ACTOR>0,ts_m053a,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　さくらは頷くと、ぐっと拳を握りしめて、
+傭兵たちの方へ向き直った。
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「実力テストなら望むところだよ！！
+　最強さくらちゃんのチカラを見せてあげる、
+　かかってきなさい！！」
+<PAUSE>
+//　※立ち絵
+//　　さくら戦闘立ち絵A＿制服衣装
+<NAME_PLATE>オーク傭兵
+「なかなか良い度胸じゃねぇか！！！
+　気の強ぇ小娘は嫌いじゃないぜ！！！」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　さっそくオーク傭兵がさくらに掴みかかる。
+<PAUSE>
+<NAME_PLATE>俺
+（まあ、とはいえ……
+　さくらの方は問題ないだろう。
+　その辺の傭兵崩れに負けはしない）
+<PAUSE>
+<NAME_PLATE>
+　俺は、適当に乱闘してるふりでもして、
+やり過ごすか……などと考えていると、
+目の前にどこか翳のある女傭兵が進み出る。
+<PAUSE>
+<ACTOR>0,tk_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>女傭兵
+「……ツバキという。
+　今は、傭兵をしている身だ。
+　私が、お前の実力を見てやろう」
+<PAUSE>
+//　※立ち絵
+//　　ツバキ立ち絵
+<NAME_PLATE>俺
+「えっ、いや、その……なんというか……？
+　俺はあいつの付き添いみたいなものだし、
+　お手柔らかに……」
+<PAUSE>
+<NAME_PLATE>ツバキ
+「クク……お手柔らかにやって、
+　実力テストが成り立つと思うか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ですよねー……」
+<PAUSE>
+<NAME_PLATE>
+　女傭兵は相当の手練れのようだ。
+なにげない動作にも、隙がない。
+<PAUSE>
+<NAME_PLATE>俺
+（クソ……今さら逃げるわけにもいかないし、
+　やるしかないのか！！）
+<PAUSE>
+<NAME_PLATE>
+　実力テストだというなら、
+殺されはしないだろう、しないでくれ――
+<PAUSE>
+<NAME_PLATE>
+　と願いつつ、俺は仕方なく、
+戦闘態勢をとるのだった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,tk_t001a,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section２-ＭＡＰ画面１へ

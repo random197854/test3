@@ -1,0 +1,222 @@
+//FileNo:S501a
+//シーン名：プロローグ
+//【背景：ブローカーの店＿ボスの部屋＿昼】【時間：昼】
+<BG>nc102a,IN, 1000
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>
+　最後のドアを開けた先――。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se052
+<BG>nc103a,IN, 1000
+</GROUP>
+<NAME_PLATE>
+　そこは、今まで延々と続いていた
+奇妙な部屋とは違う、
+広大な地下通路だった。
+<PAUSE>
+<ACTOR>0,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「ここは……？」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<ACTOR>1,chr_t0077a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>自斎
+「っ！？　迷路を抜けた……！？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「おっ。良かった、正解だったか」
+<PAUSE>
+<NAME_PLATE>
+　間違っていたら
+何度でも考えるつもりだったが、
+一発で当たりは気持ちが良い。
+<PAUSE>
+<NAME_PLATE>俺
+「ここまで来ればゴールは近い。
+　この先を進めば“迷い辻”は破れるはずだ」
+<PAUSE>
+<NAME_PLATE>自斎
+「ふうま、スゴイ……」
+<PAUSE>
+<NAME_PLATE>尚之助
+「ええ。今日はつくづく、
+　貴方に驚かされますね……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「おっ、そうか？　まあ、でも喜ぶのは早い。
+　あとは三郎を見つけて――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「ＨＹＡＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+<NAME_PLATE>
+　突然、地下通路中に血も凍るような
+金切り声が響き渡った。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだっ！？」
+<PAUSE>
+<NAME_PLATE>
+　俺達が通路の先に目をこらす。そこには――
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>2,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「殺ス…………殺ス…………
+　侵入者、排除…………」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　全身に瘴気を纏った異形の大蜘蛛――。
+<PAUSE>
+<NAME_PLATE>
+　その背中の上に、瞳を虚ろに歪ませた
+制服姿の少女がちょこんと座っていた。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>1,chr_t0077a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>自斎
+「あ、あれは……一体！？」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<NAME_PLATE>俺
+「三郎だよ。鬼蜘蛛家は、
+　“獣遁”の中でも巨大な蜘蛛を操る
+　獣使いの一族なんだが……」
+<PAUSE>
+<ACTOR>1,chr_t0077a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m063a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>尚之助
+「……どうも様子がおかしいですね」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　俺や尚之助を見ても気付く素振りもない。
+いや、それどころか――。
+<PAUSE>
+<NAME_PLATE>自斎
+「いかにも操られているって雰囲気」
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼蜘蛛三郎
+「ＨＹＡＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　三郎が乗る巨大な蜘蛛が咆吼する。
+カリカリと硬質の肢で床を掻く。
+<PAUSE>
+<NAME_PLATE>
+　力を溜めているのだ。今にも俺達に
+襲いかからんという素振りである。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>0,ts_m063a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>尚之助
+「小太郎様、三郎は……！？」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　尚之助がわずかに瞳を昏くして問う。
+<PAUSE>
+<NAME_PLATE>
+　おかしくなった三郎を、
+殺すしかないのか――そう問うているのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫だ。シャドウに乗っ取られただけだ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>尚之助
+「では！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。殺さなくても三郎の意識を奪えば
+　シャドウを追い出せる。だが――」
+<PAUSE>
+<NAME_PLATE>
+　俺は禍々しいオーラを纏わせる
+巨大な鬼蜘蛛を観察する。
+<PAUSE>
+<NAME_PLATE>俺
+「正直、殺すより何倍も難しいぞ。
+　鬼蜘蛛に守られた三郎を気絶させるのは」
+<PAUSE>
+<NAME_PLATE>
+　尚之助は安堵したような笑みを浮かべると、
+すっと前に出た。
+<PAUSE>
+<NAME_PLATE>尚之助
+「――感謝します、小太郎様。
+　ここは我々にお任せを」
+<PAUSE>
+//　※立ち絵
+//　　楽尚之助＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　続いて、獅子神も刀を抜いて前に出る。
+<PAUSE>
+<ACTOR>0,ts_m063a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<SE_PLAY>se016
+<ACTOR>1,chr_t0077a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>自斎
+「そういうことね」
+<PAUSE>
+//　※立ち絵
+//　　獅子神自斎＿立ち絵
+//　　　　＊対魔忍RPGガチャカード表絵柄より流用ただし忌神なし
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼蜘蛛三郎
+「ＨＹＡＡＡＡＡＡＡＡＡＡＡＡＡＡ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　雄叫びを上げて突進してくる鬼蜘蛛に、
+二人の剣客対魔忍が立ち塞がった。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+//→Section５-ＭＡＰ画面１へ
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

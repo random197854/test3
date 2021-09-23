@@ -1,0 +1,871 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車町＿山畔家跡＿夜】【時間：夜】
+//　※TentacleandWitches_nc016bより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc221a,IN, 1000
+<ACTOR>0,chr_t0169c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「ふうまくん、指揮よろしく！」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿対魔忍衣装クナイボール
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>俺
+「はい！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m140a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m140a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>泥人形
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+//　※立ち絵
+//　　泥戦士（泥人形の色変え）立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+//　　泥戦士（泥人形の色変え）立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　前からは泥人形が、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<BG>nc221a,IN, 200
+<TRANSITION>TR01, IN,800
+</GROUP>
+<GROUP>
+<ACTOR>3,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「ギャッギャッギャギャッ！！」
+「グギギギギギギッッッ！！」
+「キシャーーーーーーッッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+//　※立ち絵
+//　　鬼火立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　後ろからは鬼火が迫ってくる。
+<PAUSE>
+<NAME_PLATE>
+　しかも、地面はドロドロで
+素早く動くのは難しい。
+<PAUSE>
+<NAME_PLATE>
+　ここは足を止めて迎え撃つ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「なお先輩は泥人形、コロ先輩は鬼火を。
+　敵を近づけさせないように」
+<PAUSE>
+<NAME_PLATE>俺
+「蛇子は俺と一緒に
+　中に入ってきたのを叩くぞ」
+<PAUSE>
+<GROUP>
+<ACTOR>5,chr_t0169c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>6,ko_t003g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「了解！！」
+<PAUSE>
+<NAME_PLATE>孤路
+「（分かった）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装（斬撃エフェクト）
+<NAME_PLATE>蛇子
+「うん」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装（武器）
+//　※注：タコ化しません
+<NAME_PLATE>
+　俺と蛇子を真ん中に挟んで、
+なお先輩とコロ先輩が互いに背を向けた。
+<PAUSE>
+<ACTOR>6,ko_t005g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>孤路
+「（逸刀流・居合）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装（斬撃エフェクト）
+<NAME_PLATE>なお
+「光遁の術・クナイボール！！！」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿対魔忍衣装クナイボール
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<WAIT>500
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバッ！！　ズバズバッッ！！
+ビッーーッ！！　ビビーーーッ！！
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩の見えない居合いが放たれ、
+なお先輩の浮遊クナイがレーザーを撃つ。
+<PAUSE>
+<NAME_PLATE>
+　泥人形や鬼火は俺たちに近づこうとする
+そばから倒されていく。
+<PAUSE>
+<NAME_PLATE>
+　俺や蛇子はなにもする必要がない。
+<PAUSE>
+<NAME_PLATE>
+　けれど、あいつらは倒しても倒しても
+復活してくる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>6,RIGHT,linear,1000
+</GROUP>
+<ACTOR>7,ts_m139a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>沼津
+「グヒヒヒヒ！！
+　頑張るじゃねえか！！
+　だがなあ！！」
+<PAUSE>
+//　※立ち絵
+//　　沼津彦四郎立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>沼津
+「全ては俺の計算内だぜ。
+　足を取られればさすがの逸刀流も
+　辛いよなあ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（うるさい）」
+<PAUSE>
+<NAME_PLATE>沼津
+「それに穂稀の忍法が一番厄介だったが
+　日が暮れたら随分威力が
+　弱ってるじゃあねえか？　ん？」
+<PAUSE>
+<NAME_PLATE>なお
+「本当にうるさいな。
+　コロちゃん、そろそろいくよ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（うん）」
+<PAUSE>
+<NAME_PLATE>なお
+「日が暮れたら威力が弱まるって？
+　僕をバカだと思ってるのかい？
+　自分の術の特性くらい知ってるよ！」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は今まで使っていなかった
+レーザーライフル“バルドル”を構えた。
+<PAUSE>
+<NAME_PLATE>なお
+「こいつには光のエネルギーを
+　溜めておくこともできるのさ」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩の対魔忍スーツから
+全てのクナイボールが一斉に放出され、
+俺たちの周りを取り囲んだ。
+<PAUSE>
+<NAME_PLATE>沼津
+「な、なんだ？　泥鎧！！」
+<PAUSE>
+<ACTOR_OUT>7,CENTER,linear,1000
+<NAME_PLATE>
+　沼津が慌てて全身を泥で覆った。
+<PAUSE>
+<NAME_PLATE>
+　今だ！！
+<PAUSE>
+<ACTOR>5,chr_t0169c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「光遁の術・リフレクション！！！」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,500
+<BG>ef011a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バルドルの銃口からショットガンのように
+拡散したレーザーが発射された。
+<PAUSE>
+<NAME_PLATE>
+　それは浮遊していたクナイボールに
+吸い込まれ、さらに細かく飛散し、
+<PAUSE>
+<NAME_PLATE>
+　レーザーのシャワーとなって、
+周囲の泥人形、鬼火、そして沼津に
+一斉に降り注いだ。
+<PAUSE>
+<BG>nc221a,IN, 500
+<NAME_PLATE>
+　俺たちを取り囲んでいた泥人形や鬼火が
+全て一瞬にして消滅した。
+<PAUSE>
+<NAME_PLATE>
+　全身を泥で防御した沼津にも
+レーザーシャワーは容赦なく注がれる。
+<PAUSE>
+<ACTOR>7,ts_m139a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　だが、光がおさまったあと、
+ボロボロになった泥鎧を剥がして現れたのは、
+ほぼ無傷な沼津の身体だ。
+<PAUSE>
+<NAME_PLATE>沼津
+「グハハハハハハハハハハ！！！
+　イタチの最後っ屁ってやつか！
+　楽しませてくれるじゃねえか！！」
+<PAUSE>
+<NAME_PLATE>
+　エネルギーを拡散させた分、
+その威力は弱まり、分厚い泥の下の身体に
+ダメージを与えることはできなかったようだ。
+<PAUSE>
+<NAME_PLATE>沼津
+「そのチンケなバッテリーは
+　いつまで持つんだ？　ええ？」
+<PAUSE>
+<NAME_PLATE>沼津
+「それにこいつらは
+　いくらでも出てくるんだぜえ！！」
+<PAUSE>
+<ACTOR_OUT>7,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m140a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,ts_m140a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>泥人形
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+「ＵＲＯＯＯＯＯＯＯＯＯ！！！」
+<PAUSE>
+//　※立ち絵
+//　　泥戦士（泥人形の色変え）立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+//　　泥戦士（泥人形の色変え）立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>3,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼火
+「ガルッガルッガルッッ！！！」
+「ギャギャギャギャギャギャッッ！！」
+「コケコケコケーーーーーーッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+//　※立ち絵
+//　　鬼火立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　倒したばかりの泥人形と鬼火が
+あっという間に再生している―――のだろう。
+<PAUSE>
+<ACTOR>7,ts_m139a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>沼津
+「おい！？　ふうまの小僧！？
+　どういうつもりだ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<NAME_PLATE>沼津
+「おちょくってんのか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、全然そんなつもりは……」
+<PAUSE>
+<NAME_PLATE>沼津
+「ならどうして目隠ししている！？
+　死々村の手でなぜ目隠ししている！？」
+<PAUSE>
+<NAME_PLATE>
+　沼津が指摘するとおり、
+少し前からコロ先輩が俺の背中にまわって、
+<PAUSE>
+<NAME_PLATE>
+　「だ～れだ？」の要領で
+俺を両手で目隠ししているのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、俺は別に構わないんだけどな」
+<PAUSE>
+<NAME_PLATE>なお
+「ダメに決まってるだろう」
+<PAUSE>
+<NAME_PLATE>孤路
+「（重大な風紀違反）」
+<PAUSE>
+<NAME_PLATE>俺
+「ということらしいので」
+<PAUSE>
+<NAME_PLATE>沼津
+「なに言ってやがる！？
+　いや待て！？
+　タコ女はどこに行ったアッ！？」
+<PAUSE>
+<NAME_PLATE>
+　やっと気づいたようだ。
+<PAUSE>
+<NAME_PLATE>
+　蛇子が消えていることに。
+<PAUSE>
+<NAME_PLATE>
+　レーザーシャワーの直前、
+沼津が全身を泥で覆った時からだ。
+<PAUSE>
+<NAME_PLATE>俺
+「オッサン、あんたは見せ過ぎだぜ。
+　自分の忍法をさ」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>沼津
+「何だと！？」
+<PAUSE>
+<NAME_PLATE>俺
+「予測はしていた。
+　泥沼で俺たちをハメて来るってな」
+<PAUSE>
+<NAME_PLATE>俺
+「だから対処方法は
+　すでに“相談済み”だった」
+<PAUSE>
+<NAME_PLATE>沼津
+「負け惜しみはやめろ小僧！！！
+　俺の泥沼にはめれば
+　抜け出す事などできねえ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「“人の足”ならな。
+　だがタコ足には効かないぜ」
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<NAME_PLATE>沼津
+「なにィ！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子のタコ足は言わば二匹の蛇だ。
+<PAUSE>
+<NAME_PLATE>
+　人の足に比べて、
+重さが一点に集中する事がない分、
+泥の上でも蛇の様に自在に移動可能だ。
+<PAUSE>
+<NAME_PLATE>沼津
+「タコ女は何処だ！？
+　どこに逃げ出した！？
+　どうして小僧は目隠ししているんだ！？」
+<PAUSE>
+<NAME_PLATE>
+　予想外の展開に弱いのか、
+沼津は呆れるほど動揺している。
+<PAUSE>
+<NAME_PLATE>俺
+「タコの秘密の能力知らないのか？
+　擬態できるんだぜ」
+<PAUSE>
+<NAME_PLATE>沼津
+「擬態だと！？」
+<PAUSE>
+<NAME_PLATE>俺
+「表皮の模様を変化させて
+　周囲の地形と同化するんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+「１００％能力を出したい時はその……
+　脱がないと駄目なんだけどな」
+<PAUSE>
+<NAME_PLATE>沼津
+「脱ぐ！？」
+<PAUSE>
+<NAME_PLATE>
+　その瞬間―――
+<PAUSE>
+<NAME_PLATE>
+　沼津の前に裸の少女、
+いやタコ少女が姿を現した。
+<PAUSE>
+<NAME_PLATE>
+　見えないが、きっとそうだ。
+<PAUSE>
+<NAME_PLATE>沼津
+「うへッ！！？」
+<PAUSE>
+<ACTOR_OUT>7,CENTER,linear,500
+<NAME_PLATE>蛇子
+「見ちゃ駄目ぇええええ！！！！！！！！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子の絶叫。
+<PAUSE>
+<BG>black,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバババババババババババババババババババ
+ババババババババババババババババババババ
+ババババ！！！！！！！！！！！
+<PAUSE>
+<NAME_PLATE>
+　身の毛がよだつ斬撃音。
+<PAUSE>
+<NAME_PLATE>
+　蛇子の四刀流が沼津の体を切り裂いた。
+―――のだろう、多分。
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿山畔家跡＿夜】【時間：夜】
+//　※TentacleandWitches_nc016bより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc221a,IN, 1000
+<ACTOR>8,h_t001c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>蛇子
+「だ、大丈夫かな？
+　結構本気で斬っちゃった……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服衣装
+<NAME_PLATE>
+　もちろん蛇子はもう服を着ている。
+<PAUSE>
+<NAME_PLATE>
+　俺も目隠しから解放されていた。
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫だよ。泥使いは頑丈に出来ている。
+　オッサン、死んだふりやめて起きろよ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「死んだふり？」
+<PAUSE>
+<NAME_PLATE>俺
+「泥使いは身体を泥にすることで
+　敵の攻撃を無効化することができるんだ。
+　だよなあ、オッサン？」
+<PAUSE>
+<NAME_PLATE>沼津
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　沼津彦四郎立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>蛇子
+「起きないよ」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、そうそう、思い出した。
+　全身を泥化したときはほぼ無敵になるけど、
+　１カ所だけ泥化できないとこがあったんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「試しにそこを突いてみるか。
+　本当に死んでたら関係ないし
+　死んだふりならそれで終わりだ」
+<PAUSE>
+<NAME_PLATE>沼津
+「グ……クソガキめ………」
+<PAUSE>
+<NAME_PLATE>
+　沼津はようやく目を開く。
+<PAUSE>
+<NAME_PLATE>俺
+「心臓が弱点なんだよな。
+　そこだけは泥化できない」
+<PAUSE>
+<ACTOR_OUT>8,CENTER,linear,1000
+<GROUP>
+<ACTOR>6,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>7,ko_t003c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>孤路
+「（妙な動きをすれば心臓を居抜く）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>なお
+「ふうまくん、本当に君は
+　忍法の知識に長けているね」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>俺
+「どうも。
+　さあ、知ってる事を全部話してもらうぜ？」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>沼津
+「ガキが生意気こいてんじゃねえぜ。
+　………ひぃい！？」
+<PAUSE>
+//　※立ち絵
+//　　沼津彦四郎立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　俺に悪態を吐いていた沼津の顔が豹変した。
+<PAUSE>
+<NAME_PLATE>沼津
+「ど、どうかお許しを………、
+　これは違うのです……！！！？」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　顔は青ざめ、慌てふためいている。
+<PAUSE>
+<NAME_PLATE>
+　一瞬前の傲慢な態度の欠片もない。
+<PAUSE>
+<NAME_PLATE>なお
+「君、何かしたの？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>7,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「いえ、何も……」
+<PAUSE>
+<NAME_PLATE>沼津
+「も、申し訳ありません！！！
+　あなたの邪魔をするつもりなど……！！」
+<PAUSE>
+<NAME_PLATE>
+　俺に怯えているわけじゃない。
+<PAUSE>
+<NAME_PLATE>
+　相手は誰だ！？　なにが見えている？
+<PAUSE>
+<NAME_PLATE>俺
+「おいオッサン！？　誰と話してんだ！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se120
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンッッ！！
+<PAUSE>
+<NAME_PLATE>沼津
+「ギャアアアアアッ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　いきなり沼津の右腕の付け根が爆発した。
+<PAUSE>
+<NAME_PLATE>
+　右腕が吹っ飛ぶ。
+<PAUSE>
+<NAME_PLATE>
+　しかも、そのまま沼津の身体が
+見えない何かに引きずられるように
+屋敷の中に消えていく。
+<PAUSE>
+<NAME_PLATE>沼津
+「グアァアアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん！？」
+<PAUSE>
+<NAME_PLATE>俺
+「と、とにかく追うぞ！」
+<PAUSE>
+//【黒画面】
+//【背景：五車町＿山畔家跡内＿夜】【時間：夜】
+//　※TentacleandWitches_nc020aより流用
+<UI_DISP>OFF, 500
+<SE_PLAY>se082
+<BG_OUT>1000
+<WAIT>500
+<BG>nc222a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　沼津に僅かに遅れて、
+俺たちは屋敷に突入する。
+<PAUSE>
+<NAME_PLATE>沼津
+「が、ガキども助けろ！？
+　さ、殺人鬼は……！！？」
+<PAUSE>
+//　※立ち絵
+//　　沼津彦四郎立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラスト
+<NAME_PLATE>
+　怯えきった顔の沼津が
+その先を言おうとした瞬間、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se120
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　唯一、泥化できない弱点、
+心臓のある部分が吹き飛んだ。
+<PAUSE>
+<NAME_PLATE>
+　沼津は即死。
+<PAUSE>
+<NAME_PLATE>
+　残った部分がドロドロと崩れて
+床に広がっていく。
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ！　やられた！！
+　敵がいるぞ！」
+<PAUSE>
+<NAME_PLATE>
+　なにも聞き出せなかった。
+<PAUSE>
+<NAME_PLATE>
+　しかも、沼津を殺した何者かがいる。
+<PAUSE>
+<NAME_PLATE>
+　次のターゲットは俺たちだ。
+<PAUSE>
+<NAME_PLATE>
+　そう思って攻撃に備えたのだが、
+三分たっても五分たってもなにも起こらない。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「敵は逃げたようだね」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　　＊対魔忍ＲＰＧカードイラストの差分を流用
+<NAME_PLATE>俺
+「逃げた？」
+<PAUSE>
+<NAME_PLATE>なお
+「今は僕たちと戦う気がなかった
+　と言った方が正確かな」
+<PAUSE>
+<NAME_PLATE>俺
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　理由は不明だが、
+沼津を殺した何者かは去ったようだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、その者こそが殺人鬼に間違いない。
+<PAUSE>
+<NAME_PLATE>なお
+「殺人鬼は確かに僕たちの前に現れた」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ、でも一体どんな忍法なのか
+　まったく分からなかったです……」
+<PAUSE>
+<NAME_PLATE>なお
+「人が爆発する忍法を
+　知らないわけじゃないよね？」
+<PAUSE>
+<NAME_PLATE>俺
+「それは色々と予想できます」
+<PAUSE>
+<NAME_PLATE>俺
+「でも最後まで姿が見えなかったこと、
+　沼津を屋敷に引きずり込んだことまで
+　考慮すると……」
+<PAUSE>
+<NAME_PLATE>なお
+「今はなんとも言えないか。
+　少ない情報での判断は危険だしね」
+<PAUSE>
+<NAME_PLATE>俺
+「はい、今のところ
+　忍法の正体はまったく分かりません」
+<PAUSE>
+<NAME_PLATE>なお
+「了解」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ko_t003c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,h_t001c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「蛇子たちを襲って来なかったね。
+　どうしてかな？」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿制服タコ化衣装
+<NAME_PLATE>孤路
+「（それは多分これのせい）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>
+　コロ先輩はもはや原形をとどめていない
+沼津のそばにある細長い包みを指さした。
+<PAUSE>
+<NAME_PLATE>
+　廃屋にはミスマッチの真新しい包みだ。
+<PAUSE>
+<NAME_PLATE>なお
+「新しいメッセージって事だね」
+<PAUSE>
+<NAME_PLATE>孤路
+「（……開けてみる）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　コロ先輩が慎重に包みを開ける。
+<PAUSE>
+<NAME_PLATE>
+　その手が微かに震えている。
+<PAUSE>
+<NAME_PLATE>なお
+「コロちゃん？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（……！！）」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃっ、足っ！！」
+<PAUSE>
+<NAME_PLATE>
+　そう、中からは切断された人間の足が。
+<PAUSE>
+<NAME_PLATE>
+　凍った状態の左足で、
+形状から見ておそらく女性のものだ。
+<PAUSE>
+<NAME_PLATE>
+　これは二年の浅井美織の左足か？
+<PAUSE>
+<NAME_PLATE>孤路
+「（……っっ！！）」
+<PAUSE>
+<NAME_PLATE>なお
+「これって……もしかして……？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（きっと……そう……）」
+<PAUSE>
+<NAME_PLATE>なお
+「そん……な……」
+<PAUSE>
+<NAME_PLATE>蛇子
+「先輩？」
+<PAUSE>
+<NAME_PLATE>
+　二人の先輩の様子がおかしい。
+<PAUSE>
+<NAME_PLATE>
+　切断された女の左足があった
+ということ以上に動揺している。
+<PAUSE>
+<NAME_PLATE>孤路
+「（今から……読んでみる）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩も沈痛な面持ちで
+魂遁の術を使って足を“黄泉録り”する。
+<PAUSE>
+<NAME_PLATE>
+　その結果、
+俺の予想とは全く違った答えが返ってきた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ko_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>孤路
+「（……間違いない。鶴の足）」
+<PAUSE>
+<NAME_PLATE>
+　ただでさえ小さい声がもう消える寸前だ。
+<PAUSE>
+<NAME_PLATE>俺
+「鶴？」
+<PAUSE>
+<NAME_PLATE>なお
+「鶴ちゃんは僕たちの親友さ」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩の顔も強ばっている。
+<PAUSE>
+<NAME_PLATE>なお
+「君も間接的ながら関係する人物さ」
+<PAUSE>
+<NAME_PLATE>俺
+「え！？」
+<PAUSE>
+<NAME_PLATE>なお
+「出雲鶴。
+　母の姓を名乗る前は、佐郷鶴」
+<PAUSE>
+<NAME_PLATE>俺
+「なっ！？　佐郷！？」
+<PAUSE>
+<NAME_PLATE>なお
+「鶴ちゃんは二車骸佐の反乱の際に
+　死亡したと記録された」
+<PAUSE>
+<NAME_PLATE>俺
+「反乱の際、彼女の右足だけが
+　発見されたからだ」
+<PAUSE>
+<NAME_PLATE>俺
+「つまり、うちのライブラリー、
+　いや佐郷文庫の―――」
+<PAUSE>
+<NAME_PLATE>なお
+「娘だよ」
+<PAUSE>
+//→Section５終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

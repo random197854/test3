@@ -1,0 +1,200 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//=================================================================
+//<SCREEN_SIZE>1280, 720
+//【黒画面】
+<NAME_PLATE>
+　……
+<PAUSE>
+//【背景：近隣都市まえさき市妖しい繁華街地区２＿夜】【時間：夜】
+<BGM_PLAY>bgm207,1000
+<BG>nc042a,IN, 1000
+<ACTOR>0,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「えーいっ！」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿制服衣装
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>ギャング
+「ぐわおっ！？」
+<PAUSE>
+//　※立ち絵
+//　　ギャング立ち絵
+<NAME_PLATE>さくら
+「とりゃあっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>ギャング
+「へぇふごっ！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「もいっちょおまけに……」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ボコ！！　ガツッ！！
+<PAUSE>
+<NAME_PLATE>ギャング
+「ひいっ！！　悪がっだ！！
+　もうやめでぐれぇぇぇっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　ボコボコになった男ギャングが、
+両手をあげて地面にへたり込む。
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 500
+<NAME_PLATE>さくら
+「ふーん？　ほんとに反省してる？」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, OUT, linear, 1000
+<GROUP>
+<ACTOR>2,ts_m039a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ギャング
+「ひいぃいいいいいぃいっ！！
+　しでますしでますぅぅっ！！！」
+<PAUSE>
+<NAME_PLATE>ギャング
+「ヤベエっ！　なんだこのガキぃぃ！！
+　づよずぎるっっ！！
+　づよずぎるよ姉御ぉぉっ！！！」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m039a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<ACTOR>0,ws_t002b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「にゃははっ♪
+　それほどでも～♪」
+<PAUSE>
+<NAME_PLATE>
+　さくらは忍法すら使わずに、
+銃を持ったギャングたちを、
+あっさりと叩き伏せてしまった。
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>俺
+（や、やっぱり凄まじい強さだな……）
+<PAUSE>
+<NAME_PLATE>俺
+（ま、あの“さくら先生”の若い頃だし、
+　当然といえば当然か……）
+<PAUSE>
+<NAME_PLATE>
+　俺はさくら先生に授業で叩きのめされ、
+二日間ほど動けなくなったことを思い出す。
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「あれ～？　ふうま君ってば、
+　恐くて一歩も動けなかったのかな？」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そんなわけあるか！」
+<PAUSE>
+<NAME_PLATE>俺
+「いつでも加勢できるよう待機してただけだ。
+　さくらがピンチになったら、
+　すぐ助られるようにな！」
+<PAUSE>
+<NAME_PLATE>俺
+（くっそ……さくら先生と同じ事
+　言いやがって……）
+<PAUSE>
+<NAME_PLATE>
+　実際のところ、俺が動きを考える間もなく、
+戦闘が終わっていただけなのだが。
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「へ～？　ふうま君、頼りになる～♪」
+<PAUSE>
+<NAME_PLATE>俺
+「と、当然だ！！
+　さて、片付いたんならさっさと行こうぜ。
+　こんなところに用はない」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「うーん、そうだね！
+　運動したらおなか空いちゃった♪」
+<PAUSE>
+<ACTOR>0,ws_t002b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　俺たちはボコボコのギャングたちに
+背を向け、その場を立ち去る。――が、
+<PAUSE>
+<NAME_PLATE>女ギャング
+「ま、待ってちょうだい！！
+　あなた達、ちょっと私の話を聞いて！！」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御立ち絵
+<NAME_PLATE>
+　女ギャングが座りこんだまま、
+声をふり絞って叫ぶ。
+<PAUSE>
+<NAME_PLATE>俺
+「あ？　なんだ？
+　まだ絡んで来る気か？」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「諦め悪いね！　じゃあもう一発……」
+<PAUSE>
+<NAME_PLATE>女ギャング
+「ち、違う！　待って！
+　もうちょっかいかける気はないわ……」
+<PAUSE>
+<ACTOR>0,ws_t002c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ふーん？　まあ確かに、
+　もう何かする体力はなさそうだね」
+<PAUSE>
+<NAME_PLATE>女ギャング
+「あなた達……というか、
+　その子の強さは充分すぎるほどわかった」
+<PAUSE>
+<ACTOR>0,ws_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「じゃあ、私達になんの用？」
+<PAUSE>
+<NAME_PLATE>女ギャング
+「あなた、仕事を探してるって
+　言ってたわよね？」
+<PAUSE>
+<NAME_PLATE>女ギャング
+「実は私達、あなたみたいな強い戦士を
+　探してたの。
+　良かったら一口乗ってみない……？」
+<PAUSE>
+<ACTOR>0,ws_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「えっ……？」
+<PAUSE>
+<NAME_PLATE>
+　ギャング女の口から出た意外な言葉に、
+俺たちは思わず顔を見合わせる。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,ws_t002d,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section１終了
+//☆第7章【Section２】シナリオ部分

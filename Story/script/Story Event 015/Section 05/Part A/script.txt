@@ -1,0 +1,497 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：海岸4＿昼】【時間：昼】
+//　※水着のシモベ君_nc002aより流用
+//nc314a
+<BGM_PLAY>bgm509,1000
+<BG>nc314a,IN, 1000
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クラクル
+「正義のライフセーバー。
+　クラクル参上ニャ！」
+<PAUSE>
+//　※立ち絵
+//　　【浜辺の猫】クラクル
+//　　　　＊カードイラストより流用
+<NAME_PLATE>クラクル
+「ビーチの平和を乱す悪者を
+　ついに追い詰めたニャ！
+　神妙にするのニャ！」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは頭の固い岡っ引きのような顔で
+ビシッと俺を指さす。
+<PAUSE>
+<NAME_PLATE>俺
+「待て待て。
+　俺は巻き込まれただけだ」
+<PAUSE>
+<NAME_PLATE>クラクル
+「それは嘘ニャ」
+<PAUSE>
+<NAME_PLATE>俺
+「話を聞く前から嘘とか言うな。
+　米連の連中は向こうが襲ってきて
+　やむなく相手をしただけだし」
+<PAUSE>
+<NAME_PLATE>俺
+「イカと魚のモンスターの時は
+　むしろ俺たちがビーチの平和を
+　守ったんだぞ」
+<PAUSE>
+<NAME_PLATE>クラクル
+「そんな言い訳は通用しないのニャ。
+　いつもトラブルの現場にいるお前が
+　悪の根源に違いないのニャ」
+<PAUSE>
+<NAME_PLATE>俺
+「そんな無茶な」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t012h,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「あーでも、
+　ふうま君そういうとこあるよねー」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿下着（水着として流用）
+//　　　＊対魔忍アサギＺＥＲＯの立ち絵を流用
+<NAME_PLATE>俺
+「そういうこと言うな」
+<PAUSE>
+<ACTOR>0,ws_t012a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ごめんごめん」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クラクル
+「今日は怪しい男たちもビーチで
+　いっぱい気絶してたのニャ。
+　あれもお前の仕業ニャ！」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、それは知らん。
+　噂のビキニ美女の仕業じゃないのか？」
+<PAUSE>
+<NAME_PLATE>クラクル
+「ウニャニャ？
+　確かにお前はビキニじゃないニャ。
+　美女でもないニャ」
+<PAUSE>
+<NAME_PLATE>俺
+「だろう？」
+<PAUSE>
+<NAME_PLATE>クラクル
+「じゃあ、そっちの女の仕業ニャ！」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは指さす相手をさくらに変えた。
+<PAUSE>
+<NAME_PLATE>俺
+「じゃあって」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t012b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「なはは、やっぱり私のことかあ」
+<PAUSE>
+<NAME_PLATE>
+　さくらは妙に嬉しそうに頭をかいている。
+<PAUSE>
+<NAME_PLATE>
+　こいつは……。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クラクル
+「悪者カップル。もう観念するニャ！
+　この正義の赤い腕章にかけて
+　クラクルは悪を絶対見逃さないのニャ！」
+<PAUSE>
+<NAME_PLATE>
+　左腕の腕章をビシッと俺たちに見せる。
+<PAUSE>
+<NAME_PLATE>俺
+「バイトって書いてあるぞ」
+<PAUSE>
+<NAME_PLATE>さくら
+「書いてあるね」
+<PAUSE>
+<NAME_PLATE>クラクル
+「だからライフセーバーのバイトなのニャ！
+　臨時雇いの正義の味方にゃ」
+<PAUSE>
+<NAME_PLATE>
+　胸を張って大いばりだ。
+<PAUSE>
+<NAME_PLATE>俺
+「バイトならそんな頑張らなくても
+　いいんじゃないか？」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「ウニャ！　頑張るのニャ！　悪い奴を
+　退治したあとのご飯は格別なのニャ。
+　そのために努力努力ニャ！」
+<PAUSE>
+<NAME_PLATE>俺
+「ひどい理由だ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t012c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「私たちも大した理由で
+　バイトしてないけどね」
+<PAUSE>
+<NAME_PLATE>俺
+「それを言うな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クラクル
+「もはや問答無用ニャ！
+　ビーチの平和を乱すやつには
+　この正義の鉄拳を食らわしてやるのニャ！」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは美味しいご飯のために
+ググッと拳を握りしめた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ws_t012a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「ねえねえ。
+　そんなこと言わないで一緒に遊ぼうよ」
+<PAUSE>
+//　※立ち絵
+//　　さくら通常立ち絵＿下着（水着として流用）
+//　　　＊対魔忍アサギＺＥＲＯの立ち絵を流用
+<ACTOR>0,ws_t012a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0239a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「なにを言ってるのニャ！」
+<PAUSE>
+<ACTOR>0,ws_t012b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「だって私たち悪いことしてないもん。
+　戦う理由なんかないし。
+　ほら、これで遊ぼ！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　シュシュシュルッ！
+<PAUSE>
+<NAME_PLATE>
+　さくらが影で妙なものを作り出した。
+先っぽにフワフワの付いた長い棒だ。
+<PAUSE>
+<NAME_PLATE>
+　あの形は―――
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「ウニャッ！？」
+<PAUSE>
+<NAME_PLATE>
+　それを見た途端、
+クラクルの目の色が変わった。
+<PAUSE>
+<ACTOR>0,chr_t0239a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ws_t012b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「忍法、影ネコジャラシ～～♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やはりネコジャラシか。
+<PAUSE>
+<NAME_PLATE>
+　さくらはそれをクラクルの目の前で
+フニャフニャと動かし始めた。
+<PAUSE>
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「ウニャ！？　ニャ？　ウニャニャ？」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは一瞬で心を奪われた様子だ。
+もう俺たちなど見ていない。
+<PAUSE>
+<NAME_PLATE>
+　揺れる影の先っぽにあわせて
+顔を右に左に楽しそうに振り出す。
+<PAUSE>
+<NAME_PLATE>クラクル
+「ウニャニャ、ニャニャ♪」
+<PAUSE>
+<NAME_PLATE>
+　握っていた拳も開いてしまい、
+掌でクイクイと影を捕まえようとしている。
+<PAUSE>
+<NAME_PLATE>さくら
+「いくよー、ほらっ」
+<PAUSE>
+<NAME_PLATE>
+　クラクルをたっぷりと引きつけておいて、
+さくらは影ネコジャラシを大きく横に振った。
+<PAUSE>
+<SE_PLAY>se003_01
+<ACTOR>0,chr_t0239a,CENTER, RIGHT, NONE, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「ウニャ～～～～～～～～～～～ッ♪」
+<PAUSE>
+<NAME_PLATE>
+　クラクルはそれを追いかけて
+すごい勢いで横に飛んだ。
+<PAUSE>
+<NAME_PLATE>さくら
+「ほらこっち～～」
+<PAUSE>
+<NAME_PLATE>
+　さくらは追いつかせまいと、
+ネコジャラシを反対側にブンッと返す。
+<PAUSE>
+<SE_PLAY>se003_01
+<ACTOR>0,chr_t0239a,RIGHT, LEFT, NONE, linear, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クラクル
+「ニャニャア～～～～～～～～～ッ♪」
+<PAUSE>
+<NAME_PLATE>
+　文字通り操られるように、
+クラクルは逆方向にジャンプした。
+<PAUSE>
+<NAME_PLATE>さくら
+「その調子その調子」
+<PAUSE>
+<NAME_PLATE>クラクル
+「フニャアアアア♪
+　フニャニャア～～～～～～ッ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃれついてるじゃれついてる」
+<PAUSE>
+<NAME_PLATE>さくら
+「ねー、楽しいでしょ？」
+<PAUSE>
+<ACTOR>0,chr_t0239a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>クラクル
+「ウニャニャっ……はっ！
+　な、なんという恐ろしい手を使うのニャ！
+　そんな手には引っかからないのニャ！！」
+<PAUSE>
+<NAME_PLATE>
+　バイトの赤い腕章の力だろうか。
+<PAUSE>
+<NAME_PLATE>
+　影ネコジャラシの虜になりかけた
+クラクルはすんでの所で理性を取り戻した。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0239a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ws_t012c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>さくら
+「えーーー。
+　私は仲良くしたいだけだよーー」
+<PAUSE>
+<NAME_PLATE>クラクル
+「ク、クラクルにそんなつもりはないのニャ」
+<PAUSE>
+<NAME_PLATE>
+　クラクルは必死に影ネコジャラシから
+目を逸らそうとしていた。
+<PAUSE>
+<NAME_PLATE>
+　だが身体はプルプルと震え、
+今にもまたフニャフニャの先っぽに
+飛びつきそうな顔だ。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0239a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>クラクル
+「こ、こうにゃったら助っ人を呼ぶのニャ！
+　いでよ正義の猫軍団！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　クラクルは正義の腕章のついた腕を
+グイッと突き上げた。
+<PAUSE>
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,ts_m194a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m194a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>猫軍団
+「「「ウニャ～～～～～～～～～ッ！！」」」
+<PAUSE>
+//　※立ち絵
+//　　ネコマタ立ち絵
+//　　　　＊モンスターイラスト（新規）
+//　※何体か並べてください。
+<NAME_PLATE>俺
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>さくら
+「うわっ、ホントに猫軍団だ！」
+<PAUSE>
+<NAME_PLATE>
+　ビーチに猫の鳴き声が響きわたり、
+砂をぶわあっと巻き上げて、
+数え切れないほどの猫が出現した。
+<PAUSE>
+<NAME_PLATE>
+　しかもみんな身体が大きくて、
+尻尾が二股に割れている。ネコマタだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メルシー
+「にゃあん！　メルシーだにゃあ！
+　今日は助っ人に呼ばれたのにゃあ！」
+<PAUSE>
+//　※立ち絵
+//　　メルシー＿立ち絵
+//　　　＊カードイラストより流用
+<ACTOR>0,chr_t0054a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カノン
+「やっと出番かにゃ！
+　オレの力をみせてやるにゃ！」
+<PAUSE>
+//　※立ち絵
+//　　カノン＿立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「あいつらまで」
+<PAUSE>
+<NAME_PLATE>
+　メルシーにカノンもいる。
+正月の猫トリオが再集結だ。
+<PAUSE>
+<NAME_PLATE>
+　親玉のバステトがいないだけましか。
+<PAUSE>
+<NAME_PLATE>さくら
+「わーい！　猫だらけだーーーー♪」
+<PAUSE>
+<NAME_PLATE>
+　さくらは大喜びだ。
+<PAUSE>
+<NAME_PLATE>カノン
+「ビーチの平和を乱す悪党ってのは
+　あいつらかニャ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0239a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「そうにゃ、あの女には気をつけるのニャ。
+　猫の本能に訴えかける恐ろしい技を
+　使うのニャ！」
+<PAUSE>
+<NAME_PLATE>カノン
+「ふふん、相手にとって不足なしにゃ！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0118a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>メルシー
+「あっちの男も用心するのにゃ！
+　メルにものすごくまずいチョコを食べさせた
+　とってもひどい奴なのにゃ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カノン
+「なっ！？　ネコにチョコを！？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0239a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クラクル
+「なんという人でなしニャ！　悪魔ニャ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ws_t012e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「えーー、ふうま君、
+　そんなかわいそうなことしたの？」
+<PAUSE>
+<NAME_PLATE>俺
+「してないしてない。
+　メルシー、それは俺のせいじゃないだろ。
+　むしろ助けてやっただろ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0118a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「そうだったかにゃ？
+　トラウマなので
+　あんまりよく覚えてないにゃ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「そこは覚えてろよ！」
+<PAUSE>
+<NAME_PLATE>メルシー
+「難しいのにゃ。
+　メルは日向でぽかぽかしてると細かいことは
+　みーんな忘れてしまうのにゃ」
+<PAUSE>
+<NAME_PLATE>さくら
+「あはは、猫だからねえ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「……はあ」
+<PAUSE>
+<ACTOR>0,chr_t0239a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クラクル
+「とにかくあいつらは悪い奴なのニャ！
+　もう決定ニャ！
+　みんなで退治するのニャ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m194a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m194a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m194a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>猫軍団
+「「「にゃ～～～～～～～～～～～！！」」」
+<PAUSE>
+<NAME_PLATE>
+　猫軍団が一斉にときの声を上げた。
+<PAUSE>
+//→S502a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

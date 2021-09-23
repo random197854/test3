@@ -1,0 +1,603 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ地下鍾乳洞＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc007aより流用
+<BGM_PLAY>bgm320,1000
+<BG>nc036a,IN, 1000
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「露払いは私にお任せを！！
+　はああああああああああっ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　先陣を切るのはリーナだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m072a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m072a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルワーム
+「ＧＵＲＵＵＵＵＵＵＵＵＵ！！」
+「ＧＵＲＵＵＵＵＵＵＵＵＵ！！」
+「ＧＵＲＵＵＵＵＵＵＵＵＵ！！」
+<PAUSE>
+//　※立ち絵
+//　　デビルワーム立ち絵
+//　　　＊モンスターイラストより流用
+//　※複数出してください
+<NAME_PLATE>
+　ヒュドラが現れるまでは坑道の支配者だった
+デビルワームが邪魔をしようとする。
+<PAUSE>
+<NAME_PLATE>
+　リーナはイングリッドに下賜された
+魔剣サクラブロッサムを振り下ろした。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「いくぞおおっ！！　サクラにアラシ！！
+　華麗にっ、軽やかにっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　魔力を帯びた斬風と刃のように鋭い花びらが
+デビルワームを次々と切り裂いていく。
+<PAUSE>
+<NAME_PLATE>
+　露払いとはいえ、
+かつて毒の沼地で戦った蛇よりも
+遙かに強い相手だ。
+<PAUSE>
+<NAME_PLATE>
+　しかしリーナの強さも
+以前とは比較にならなかった。
+<PAUSE>
+<BG>nc036a,IN, 500
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「はああああああああああっっ！！
+　唸れ！　ダークフレイム！！」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド立ち絵
+//　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　リーナの桜嵐を追いかけるように、
+イングリッドの炎が鍾乳洞で荒れ狂った。
+<PAUSE>
+<NAME_PLATE>
+　以前の闘いを再現するかのように、
+鍾乳洞の水があっという間に蒸発していく。
+<PAUSE>
+<NAME_PLATE>
+　灼熱の業火はあの時と同じように
+ヒュドラの身も焼こうとしたが、
+敵も同じではなかった。
+<PAUSE>
+<BG>nc036a,IN, 500
+<ACTOR>0,ts_m232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヒュドラ
+「グガアアアアアアアアアアアアアアッ！！」
+「グガアアアアアアアアアアアアアアッ！！」
+「グガアアアアアアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　九つの首を振り回して、
+予め口に含んでいた水を撒き散らし、
+<PAUSE>
+<NAME_PLATE>
+　その強力な水の結界で
+炎による被害を最小限にとどめている。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「少しは知恵を付けたようだな」
+<PAUSE>
+<NAME_PLATE>ヒュドラ
+「ゴオオオオオオオオオオッ！！」
+「ゴオオオオオオオオオオッ！！」
+「ゴオオオオオオオオオオッ！！」
+<PAUSE>
+//　※立ち絵
+//　　ヒュドラ立ち絵（ブレス）
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　さらにヒュドラは近づかれる前に
+九つの首で空気を吸い込み、
+一気に毒霧を吐き出した。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ts_m232b,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヒュドラ
+「ブフウウウウウウウウウウウウッ！！」
+「ブフウウウウウウウウウウウウッ！！」
+「ブフウウウウウウウウウウウウッ！！」
+<PAUSE>
+<NAME_PLATE>
+　九つの首から毒霧が噴出された。
+空気が紫色に染まるほどの濃厚な毒ガスだ。
+<PAUSE>
+<NAME_PLATE>
+　鼻を突くような嫌な臭いが充満し、
+巻き添えを食らったデビルワームが
+激しくのたうち、絶命していく。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「馬鹿め」
+<PAUSE>
+<NAME_PLATE>リーナ
+「息が臭いぞ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<SE_PLAY>se003
+<NAME_PLATE>
+　急速に接近してくる二人の騎士も
+その背後にいる誰も苦しんではいない。
+<PAUSE>
+<ACTOR>0,ts_m232a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヒュドラ
+「グガアアガアアッ！？」
+「グガアアガアアッ！？」
+「グガアアガアアッ！？」
+<PAUSE>
+<NAME_PLATE>
+　ヒュドラは初めて困惑したように
+ブレスを吐いた後の首をくねらせた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0144a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「そ、そ、そんなものは効きませんから！」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ立ち絵
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　エレーナがブルブルと震えながら、
+対毒の魔法をかけた杖を必死に構えていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m232a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヒュドラ
+「ガアアアアアアアアアアアアアアアッ！！」
+「ガアアアアアアアアアアアアアアアッ！！」
+「ガアアアアアアアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　以前は毒ブレスの邪魔をされ、
+今度はそれを無効化されて、
+ヒュドラは怒り狂う。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そして、あの時と同じように
+近づいてきたリーナとイングリッドに
+九つの首で噛みつこうとしてきた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「無駄だ！
+　はああああああっっ！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「あの時と同じじゃないぞ！！
+　てやっ！　はあっ！　そいやっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヒュドラ
+「グギャアアアアアアアアアアッ！！」
+「アギイイイイイイイイイイッ！！」
+「ヒガアアアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　悲鳴を上げることになったのは
+ヒュドラだけだった。
+<PAUSE>
+<BG>nc036a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　二人ともあの時とは別人だ。
+<PAUSE>
+<NAME_PLATE>
+　魔界騎士となったリーナはもちろん、
+イングリッドも数段その強さを増している。
+<PAUSE>
+<NAME_PLATE>
+　ヒュドラがいくら首を振り回そうが、
+そんなものは問題にならない。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　鋭い風の連続技が、重い炎の斬撃が
+ヒュドラの身を容赦なく斬り刻む。
+<PAUSE>
+<NAME_PLATE>ヒュドラ
+「ガアアアーーーーーーーーーッ！！」
+「ガアアアーーーーーーーーーッ！！」
+「ガアアアーーーーーーーーーッ！！」
+<PAUSE>
+<NAME_PLATE>
+　己の敗北を悟ったか、
+ヒュドラは身をよじらせて撤退にかかった。
+<PAUSE>
+<BG>nc036a,IN, 500
+<GROUP>
+<ACTOR>0,ts_m170a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m170a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>女戦士たち
+「奴の動きを止めろ！　一斉射撃！！」
+<PAUSE>
+//　※立ち絵
+//　　ノマド戦士(女)立ち絵
+//　　　＊カードイラストを流用
+//　※複数出してください
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　後方からの女戦士たちの銃撃が
+逃げようとするヒュドラを足止めし、
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「わ、私のペインは痛いぞ。
+　きょ、今日はちょっと頑張ろ。
+　グサ……グサグサ……ヒヒヒッ！」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス立ち絵
+//　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドロレスが不気味な笑みを浮かべて、
+自分の身体をナイフで傷つけると、
+<PAUSE>
+<NAME_PLATE>
+　その傷がすぐさま消えて、
+それに数倍する傷がヒュドラの身体に
+突然出現する。
+<PAUSE>
+<NAME_PLATE>
+　自傷によるダメージを増大して
+相手に移し替えるペインの呪いだ。
+<PAUSE>
+<NAME_PLATE>ヒュドラ
+「ギャギャギャアアアアアアアアアッ！！」
+「ギャギャギャアアアアアアアアアッ！！」
+「ギャギャギャアアアアアアアアアッ！！」
+<PAUSE>
+<NAME_PLATE>
+　神格級の魔獣であるヒュドラが
+イングリッド率いるノマド軍団に
+為すすべもない。
+<PAUSE>
+<BG>nc036a,IN, 500
+<NAME_PLATE>
+　もはや逃げることも叶わず、
+ヒュドラは絶望に悶えるだけだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「よおし！」
+<PAUSE>
+<NAME_PLATE>
+　リーナは弓を引き絞るように
+サクラブロッサムを構えた。
+<PAUSE>
+<NAME_PLATE>リーナ
+「はああああああああああああああっっ！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　裂帛の気合とともに
+最大限に高められた魔力が
+刀身に荒ぶる風を呼び起こす。
+<PAUSE>
+<NAME_PLATE>リーナ
+「くらえ！！
+　これがイングリッド様直伝の技だ！！
+　超必殺！　セブンズ・ハリケーーーン！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ズバババババババッッ！！！
+<PAUSE>
+<NAME_PLATE>
+　それは烈風を纏った七連撃。
+<PAUSE>
+<NAME_PLATE>
+　左右の上中下段へ
+怒濤のように斬りつけてから
+正面に突きを抉り込む。
+<PAUSE>
+<NAME_PLATE>
+　そう、初めて会ったあの夜、
+イングリッドに教えてもらった技を
+リーナが長年かけて極めたものだ。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se097
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　その凄まじい威力に
+ヒュドラの九つの首のうち
+七つが瞬時に消し飛んだ。
+<PAUSE>
+<BG>nc036a,IN, 500
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「イングリッド様、とどめを！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>イングリッド
+「はあああああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef009b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ダークフレイムが横薙ぎに一閃した。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　悶絶する残りの首二つが跳ね飛び
+返す刀が心臓に突き刺さる。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<NAME_PLATE>
+　全ての首を失ったヒュドラの内側から
+黒い炎がボッと燃え上がった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　一瞬の後、残りの胴体が燃え尽くされ、
+細かい灰となって散っていった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm606,1000
+<BG>nc036a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>イングリッド
+「リーナ、やったな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい！
+　ようやくあの時の屈辱が晴らせました」
+<PAUSE>
+<NAME_PLATE>
+　晴れ晴れとした顔のリーナに
+イングリッドは満足そうに頷く。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「最後のあの技は見事だった。
+　本当に腕を上げたな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「イングリッド様のおかげです！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「お前の鍛錬の賜だ。
+　あの技を教えたのは私だが
+　もはや私以上の使い手だな」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「ふわあ！！
+　そそ、そんなことはありません！
+　まだまだです！」
+<PAUSE>
+<NAME_PLATE>
+　ぶるぶると謙遜するリーナに
+イングリッドは笑って、
+<PAUSE>
+<NAME_PLATE>イングリッド
+「どうせなら九連撃にしてくれれば
+　私は何もしなくて楽だったぞ。
+　今のお前なら出来ただろう？」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それではイングリッド様直伝の技に
+　なりませんから！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「それに私はイングリッド様が格好よく
+　敵にとどめを刺すところが好きなんです。
+　今日も最高でした！！」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「お前は変わらないな」
+<PAUSE>
+<NAME_PLATE>
+　あの頃と少しも変わらぬ
+リーナのキラキラした瞳に
+イングリッドは苦笑した。
+<PAUSE>
+<NAME_PLATE>
+　そして思った。
+<PAUSE>
+<NAME_PLATE>イングリッド
+（リーナ、そうやって、
+　ずっと私に憧れてくれているから）
+<PAUSE>
+<NAME_PLATE>イングリッド
+（それに足る存在でなければならないと
+　私も自分を律することができる）
+<PAUSE>
+<NAME_PLATE>イングリッド
+（部下を盛りあげてくれていることも
+　感謝しているぞ。
+　私はそういうのは苦手だからな）
+<PAUSE>
+<NAME_PLATE>
+　リーナとイングリッド、
+二人の魔界騎士。
+<PAUSE>
+<NAME_PLATE>
+　そこには憧れる者と、憧れられる者、
+その確かな心の繋がりがあった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0025a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「フヒヒ、美しい主従、エ、エモい」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se115
+<NAME_PLATE>
+　そんな二人の姿を
+ドロレスがすかさず写真に撮っていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　いずれリーナの部屋の壁に
+大パネルとなって飾られるに違いない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>イングリッド
+「では、帰るとするか。
+　どうやらセルヴィアのお茶会には
+　間に合いそうだな」
+<PAUSE>
+<NAME_PLATE>リーナ
+「はい。
+　お嬢様にお会いするのもお久しぶりです」
+<PAUSE>
+<NAME_PLATE>
+　リーナは顔を綻ばせた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　かつての主、領地の反乱で
+一族尽く殺されたと思っていたセルヴィアは、
+<PAUSE>
+<NAME_PLATE>
+　実はたった一人生き残っていて、
+人間界に逃れていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　リーナが未だにちょっと苦手な
+黒い魔犬のジェロも無事だった。
+<PAUSE>
+<NAME_PLATE>
+　今日のお茶会にはリリスも来るそうだ。
+色々と面白い話を聞けるだろう。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>リーナ
+「イングリッド様、帰りましょう。
+　私たちのノマドに」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「うむ」
+<PAUSE>
+<NAME_PLATE>
+　変わる物もあれば変わらない物もある。
+<PAUSE>
+<NAME_PLATE>
+　けれどイングリッドへの想いは
+決して変わらない。
+<PAUSE>
+<NAME_PLATE>
+　そんな自分がリーナは嬉しかった。
+<PAUSE>
+//→Section５終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

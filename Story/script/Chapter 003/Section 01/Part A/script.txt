@@ -1,0 +1,699 @@
+//========================================//=======================
+//☆第三章【Section１】シナリオ
+//========================================//=======================
+//FileNo:S101a
+//シーン名：プロローグ
+//【背景：五車学園＿学食＿昼】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm502,1000
+<GROUP>
+<SE_PLAY>se021
+<BG>nc027a,IN, 1000
+</GROUP>
+<NAME_PLATE>
+　キーンコーン……
+<PAUSE>
+<NAME_PLATE>
+　昼休みの鐘が鳴り、
+食堂にどやどやと生徒たちが駆けこんできた。
+<PAUSE>
+<NAME_PLATE>
+　俺は……午前の授業をさぼって、
+一足早いランチタイムと
+洒落こんでいるわけだが。
+<PAUSE>
+<NAME_PLATE>俺
+（平和な午後だな……
+　あの攻防がまるで夢のようだぜ）
+<PAUSE>
+<NAME_PLATE>
+　米連基地への潜入、
+妖艶な情報屋との駆け引き、
+魔と人の蠢く東京キングダムでの戦い。
+<PAUSE>
+<NAME_PLATE>
+　数日前に見た刺激的な世界から、
+俺の心はまだ戻って来れずにいた。
+<PAUSE>
+<NAME_PLATE>俺
+（一度、あの世界で生きてみたいもんだ……
+　きっと退屈なんかしないだろう）
+<PAUSE>
+<NAME_PLATE>女生徒達の声
+「ねぇねぇ聞いた？　幽霊城の話！」
+<PAUSE>
+<NAME_PLATE>俺
+（ん？）
+<PAUSE>
+<NAME_PLATE>女生徒達の声
+「聞いた聞いた！　遠い昔に焼け落ちたはずの
+　城跡に、雨の日の夜、かつての城の姿が
+　浮かぶ…ってやつ」
+<PAUSE>
+<NAME_PLATE>女生徒達の声
+「えっ！？　先輩の話では、
+　古びた洋館って話だよ」
+<PAUSE>
+<NAME_PLATE>女生徒達の声
+「違うよー！　私が聞いたのは、
+　廃校になった校舎で…」
+<PAUSE>
+<NAME_PLATE>
+　後ろに陣取った女子のグループが、
+けたたましく噂話を始める。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ、対魔忍になろうという
+　女子生徒でもこういう怪談話は
+　好きらしい……）
+<PAUSE>
+<NAME_PLATE>
+　もっとも何人が本気で信じているか。
+皆で騒げる話題なら、
+きっと何でもいいのだろう。
+<PAUSE>
+<NAME_PLATE>
+　俺はひとり、ハンバーグを口に運んだ――
+<PAUSE>
+<ACTOR>0,sa_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「お、ふうま君じゃないか！
+　一人で昼食かい？　さみしいねえ！！」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿教師衣装
+<NAME_PLATE>俺
+「っぶふぁっ！！！
+　ちょ、さくら先生！！　食ってるときに
+　背中叩かないでください！！」
+<PAUSE>
+<NAME_PLATE>さくら
+「にゃはー、ゴメンゴメン！！」
+<PAUSE>
+<NAME_PLATE>
+　この人は、井河さくら先生。
+あの最強の対魔忍・井河アサギ校長の妹だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし、ずいぶんタイプが違う。
+アサギ校長が落ち着いた大人の女性なら、
+さくら先生は快活なおてんば娘。
+<PAUSE>
+<NAME_PLATE>
+　いつも元気に動き回っていて、
+子供っぽさが抜けきらないといった感じだ。
+<PAUSE>
+<NAME_PLATE>
+　姉妹は何度も共に死線をくぐりぬけ、
+固い絆で結ばれていると聞くが。
+<PAUSE>
+<NAME_PLATE>俺
+（共通点は……
+　その無駄にでかいおっぱいぐらいか）
+<PAUSE>
+<ACTOR>0,sa_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「むむっ？
+　ふうまくんドコ見てるのかな？？」
+<PAUSE>
+<NAME_PLATE>俺
+「あっいえ！　それよりさくら先生、
+　昼の補習はいいんですか？」
+<PAUSE>
+<ACTOR>0,sa_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「む～、何だか私が補習を受けるみたいな
+　言い方だなぁ……
+　今日の補習は時子先生が担当なんだよ」
+<PAUSE>
+<NAME_PLATE>俺
+（それで時子はいないのか）
+<PAUSE>
+<NAME_PLATE>
+　独立遊撃隊の隊長になってからも、
+時子は俺の様子が気になるようで、
+何かにつけて顔を見に来る。
+<PAUSE>
+<ACTOR>0,sa_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「今日の日替わりはハンバーグかあ。
+　ふーむ、日替わりとやきそば天津飯定食と
+　どっちにすべきか……」
+<PAUSE>
+<NAME_PLATE>
+　さくら先生は、
+俺の定食をまじまじと見ながら悩み始める。
+<PAUSE>
+<NAME_PLATE>俺
+「あの……俺に何か用があったんじゃ
+　ないんですか？」
+<PAUSE>
+<ACTOR>0,sa_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「あ、そうだった！　お姉ちゃん……
+　じゃない、校長が呼んでたんだ！」
+<PAUSE>
+//【背景：五車学園＿校長室＿昼】【時間：昼】
+<NAME_PLATE>
+<ACTOR>0,sa_t001e,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>1000
+<WAIT>2000
+<BG>nc006a,IN, 1000
+<ACTOR>0,sa_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「お姉ちゃーん！
+　ふうま君連れてきたよ！！」
+<PAUSE>
+////　※立ち絵
+////　　井河さくら通常立ち絵＿教師衣装
+<NAME_PLATE>
+　ハンバーグ定食を急いで掻き込み、
+俺はさくら先生とともに校長室へやってきた。
+<PAUSE>
+<NAME_PLATE>
+　骸佐の反乱で戦場と化したこの校長室も、
+すっかり修繕が終わり、
+ほぼ元通りになっている。
+<PAUSE>
+<ACTOR>0,sa_t001b,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>2,a_t001f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>井河アサギ
+「さくら！　学校では校長でしょ」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+<ACTOR>0,sa_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「にゃは……そうだった。
+　それよりふうま君に用事なんでしょ？」
+<PAUSE>
+<ACTOR>2,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「そう、独立遊撃隊へ依頼があるの」
+<PAUSE>
+<NAME_PLATE>俺
+「依頼……？」
+<PAUSE>
+<NAME_PLATE>
+　俺は女子生徒の噂話を思い出す。
+<PAUSE>
+<NAME_PLATE>俺
+「まさか今、噂になってる
+　幽霊城の件じゃないでしょうね？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「勘が良いわね。その通りよ」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……。他愛もない怪談話ですよ？
+　“かつて焼け落ちたはずの城が、
+　雨の日の夜にその姿を現す”なんて」
+<PAUSE>
+<NAME_PLATE>俺
+「校長まであんな噂を信じて……」
+<PAUSE>
+<NAME_PLATE>アサギ
+「残念ながら私も信じてはいないわ。
+　面白そうだけどね」
+<PAUSE>
+<ACTOR>0,sa_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「え～～、私は信じるけどなあ」
+<PAUSE>
+<ACTOR>2,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「さくらは黙っていなさい。
+　ふうま君、問題は噂の中身ではなく、
+　その場所よ」
+<PAUSE>
+<ACTOR>0,sa_t001a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>俺
+「場所？」
+<PAUSE>
+<NAME_PLATE>
+　俺は頭の中で、五車町周辺の地図を広げた。
+城跡がある場所は、確か……
+<PAUSE>
+<NAME_PLATE>俺
+「……なるほど。噂の場所は学園の北の山、
+　五車町と外をつなぐ隘路だ」
+<PAUSE>
+<NAME_PLATE>俺
+「北側から五車町を
+　攻略するとしたら、まさに要所となる」
+<PAUSE>
+<ACTOR>2,a_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「ご名答。さすがね」
+<PAUSE>
+<NAME_PLATE>
+　俺の答えに、アサギ校長は
+ニッコリと微笑む。
+<PAUSE>
+<NAME_PLATE>俺
+「なるほど、だから念のため調査して
+　欲しいと。了解です。噂の真偽も含め
+　調べてきますよ」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、何もないとは思いますがね」
+<PAUSE>
+<ACTOR>2,a_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「だといいんだけど。よろしく頼んだわよ」
+<PAUSE>
+<NAME_PLATE>俺
+「では早速行ってきます。失礼します」
+<PAUSE>
+<ACTOR>0,sa_t001b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>さくら
+「しつれいしまーっすっ」
+<PAUSE>
+<ACTOR>2,a_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「さーくーら、
+　なに一緒に行こうとしてるの？」
+<PAUSE>
+<ACTOR>0,sa_t001e,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「ぎくっ……」
+<PAUSE>
+<ACTOR>2,a_t001c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>アサギ
+「もう！　油断も隙もないんだから！」
+<PAUSE>
+<ACTOR>2,a_t001g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>さくら
+「えー！？　放してよお姉ちゃん！！」
+<PAUSE>
+<NAME_PLATE>俺
+「じゃ、じゃあ俺は失礼します」
+<PAUSE>
+<ACTOR>2,a_t001c,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,sa_t001e,RIGHT, RIGHT, OUT, linear, 1000
+<NAME_PLATE>
+　子ネコのように襟首つかまれたさくら先生を
+置いて、俺は校長室の扉を閉めた――
+<PAUSE>
+//【背景：五車学園＿校舎内廊下＿昼】【時間：昼】
+<BG>nc005a,IN, 1000
+<ACTOR>0,yu_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>水城ゆきかぜ
+「ぶっ飛ばすわよ！」
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うおッ！？　何だよ急に！？」
+<PAUSE>
+<NAME_PLATE>
+　校長室を出た瞬間、
+いきなり間近で怒鳴られた。
+<PAUSE>
+<NAME_PLATE>
+　声の主は、水城ゆきかぜ。見ての通りの
+美少女だが、学園で出くわしたくない同級生
+ナンバーワンである。
+<PAUSE>
+<ACTOR>0,yu_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ふうま……どうやって校長先生に
+　取り入ったか教えなさいよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「はア！？　そんなの知るかよ！
+　大体、俺は取り入ったりしてねえぞ！」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ふーん。秘密ってワケ。この私に
+　教えないなんて、度胸だけは認めて
+　あげるわ。ふうまのくせに」
+<PAUSE>
+<NAME_PLATE>俺
+「くせにってなんだ！
+　攻略法がもしあったとして、
+　教えてやる義理がどこにあ……」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜはゆっくりと銃を抜く。
+<PAUSE>
+//　※立ち絵
+//　　ゆきかぜ戦闘立ち絵＿対魔忍衣装
+<GROUP>
+<SE_PLAY>se014
+<ACTOR>0,yu_t002b,CENTER, CENTER, NONE, linear, 0
+<BG>nc005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<NAME_PLATE>
+　その銃はバチバチと雷を帯びていた。
+ゆきかぜは強力な雷を操る雷遁使いで、
+<PAUSE>
+<NAME_PLATE>
+　“雷撃の対魔忍”として
+この世界に名を轟かせている。
+<PAUSE>
+<NAME_PLATE>俺
+「待て！？　落ち着け！？
+　俺を殺しに来たのか！？」
+<PAUSE>
+<ACTOR>0,yu_t002d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「ちっ。そうだったわ。
+　聞きたい事があるのよ」
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, NONE, linear, 0
+//　※立ち絵
+//　　ゆきかぜ通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　ゆきかぜは銃を収めたが、
+相変わらず無茶苦茶な奴である。
+<PAUSE>
+<NAME_PLATE>
+　誰もが認める実力をもつ美少女だが、
+このとおりプライドが高く勝気な性格で、俺は
+度々こいつの理不尽なイジメにあっていた。
+<PAUSE>
+<NAME_PLATE>俺
+（いつか俺が力をつけたら覚えていろよ！？）
+<PAUSE>
+<NAME_PLATE>俺
+「で、用事ってのはなんだ」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「凜子先輩知らない？」
+<PAUSE>
+<NAME_PLATE>俺
+「凜子先輩……って
+　あの秋山凜子先輩の事か？」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「そうよ。昨日から姿が見えないのよね」
+<PAUSE>
+<NAME_PLATE>俺
+「知らないぞ。それより何で俺に凜子先輩の
+　行方を聞く？　何度か話した事あるくらいで
+　特別親しいわけでもないぞ」
+<PAUSE>
+<ACTOR>0,yu_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「でもあんた、便利屋なんでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ！？」
+<PAUSE>
+<ACTOR>0,yu_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「退学させられそうになったから泣き喚いて
+　校長先生に頼みこんでお情けで便利屋として
+　学園に残ったって噂聞いたんだけど」
+<PAUSE>
+<NAME_PLATE>俺
+「どんな噂だよ！？
+　俺は便利屋じゃない！
+　独立遊撃隊の隊長になったんだよ！」
+<PAUSE>
+<ACTOR>0,yu_t001e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「独立遊撃隊……！？」
+<PAUSE>
+<NAME_PLATE>俺
+「そうだ！　高度な戦術判断を
+　一任されている立場だ。驚け！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふーーーん？」
+<PAUSE>
+<NAME_PLATE>
+　そう言うと、ゆきかぜは俺の顔を
+まじまじと覗き込んだ。
+<PAUSE>
+<NAME_PLATE>俺
+（くっ……顔だけは可愛いな。
+　いやマジで可愛い。貧乳だが……）
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「ふふーーん？？」
+<PAUSE>
+<NAME_PLATE>俺
+「な、なんだよ？？？！」
+<PAUSE>
+<NAME_PLATE>
+　俺は耐えられずに後ずさった。
+覗き込んでくるゆきかぜの顔が近すぎるのだ。
+<PAUSE>
+<ACTOR>0,yu_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「なるほどね。見直したわ。少しはやるのね。
+　甘やかされたお坊ちゃんだし、
+　私が鍛えなおしてやろうって思ってたけど」
+<PAUSE>
+<NAME_PLATE>俺
+「鍛える！？　俺を！？！」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「だって、時子さんが可哀想だからね。
+　だけど、フフ……良い事聞いた♪
+　じゃあね、ふうま！」
+<PAUSE>
+<ACTOR>0,yu_t001b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　ゆきかぜは何故だか上機嫌で去って行く。
+<PAUSE>
+<NAME_PLATE>俺
+（よく分からん女だ……
+　やっぱりあいつは苦手だ！！！）
+<PAUSE>
+//<NAME_PLATE>
+//　俺はいつかあの女を鬼畜調教する想像をして
+//気持ちを落ち着かせる。
+//<PAUSE>
+<NAME_PLATE>俺
+「いや、こうしている場合じゃない。
+　任務があるんだった」
+<PAUSE>
+<NAME_PLATE>
+　任務といっても調査するだけだ、
+さっさと終わらせよう。
+俺はさっそく北の山道へと向かった。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<BG_OUT>3000
+<WAIT>1000
+//=================================================================
+//FileNo:S102a
+//シーン名：調査へ
+//シーン説明：
+//=================================================================
+//【背景：城跡＿昼】【時間：昼】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm408,1000
+<BG>nc028a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「ふぅ～～～……ここが城跡か。
+　思った以上に骨が折れたな」
+<PAUSE>
+<NAME_PLATE>
+　山道を歩き、藪をかき分け、
+俺は山上の城跡へ到着した。
+<PAUSE>
+<ACTOR>0,sa_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「う～ん、何もないねえ」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「ですねえ……っておい」
+<PAUSE>
+<ACTOR>0,sa_t002e,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「ほえ？」
+<PAUSE>
+<NAME_PLATE>俺
+「何でさくら先生まで
+　ついて来てるんすか？？」
+<PAUSE>
+<ACTOR>0,sa_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「ち、ちみはまさか私が幽霊城見たさに
+　ついてきたとでも言うつもりかい！？」
+<PAUSE>
+<NAME_PLATE>
+　そういうさくら先生の手には、
+怪しい霊感グッズが握られていた。
+<PAUSE>
+<NAME_PLATE>俺
+「………まあ、良いですけど
+　邪魔しないでくださいよ」
+<PAUSE>
+<ACTOR>0,sa_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「にゃはは。無論だよちみ！」
+<PAUSE>
+<NAME_PLATE>
+　そう言うと、さくら先生は
+霊感グッズの説明書を読み始める。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれだな……）
+<PAUSE>
+<ACTOR>0,sa_t002b,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>
+　さくら先生は置いておいて、
+とりあえず周囲を探るとしよう。
+<PAUSE>
+<NAME_PLATE>
+　城跡といっても、立派な石垣や櫓が
+残っているわけでもない。山の中に、
+一本の石碑と看板が立っているだけだ。
+<PAUSE>
+<NAME_PLATE>
+　俺はその看板に近づいて読んでみる。
+<PAUSE>
+<NAME_PLATE>俺
+「“城主・楢篠長武は暴君として名高く……
+　昔話には、鬼や妖怪を従え……」
+<PAUSE>
+<NAME_PLATE>俺
+「民を拷問・虐殺するなど恐怖による圧政を
+　行ったと伝わる”……か、ふうん」
+<PAUSE>
+<NAME_PLATE>
+　しかし今は草木が生え放題で、
+湧き水がちょろちょろと流れるだけのいたって
+静かな山だ。
+<PAUSE>
+<NAME_PLATE>俺
+「敵が何か企んでるなら痕跡があると
+　思ったが……、こりゃろくに人が来た様子も
+　ないな」
+<PAUSE>
+<NAME_PLATE>俺
+「さくら先生、やっぱ噂は噂ですよ。
+　日が暮れる前に帰りましょう」
+<PAUSE>
+<ACTOR>0,sa_t002c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「はんにゃーはーらーみーたー……」
+<PAUSE>
+<NAME_PLATE>
+　さくら先生は熱心になにやら唱えている。
+説明書を見ながら。
+<PAUSE>
+<NAME_PLATE>俺
+「さくら先生、帰りましょうってば……」
+<PAUSE>
+<ACTOR>0,sa_t002c,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,o_t002d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>土橋権左
+「こりゃ驚いたねえ！！！！」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！」
+<PAUSE>
+<ACTOR>0,o_t002a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「こんなとこで宗家の坊っちゃんと
+　会うとはなぁ」
+<PAUSE>
+<NAME_PLATE>
+　ニヤつきながら現れたのは、
+なんとあの凶悪なる執事・土橋権左だ。
+<PAUSE>
+<NAME_PLATE>俺
+「権左……！？」
+<PAUSE>
+<NAME_PLATE>俺
+（まさか……
+　こいつが何か企んでいたのか！？）
+<PAUSE>
+<ACTOR>0,o_t002b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「へっ、アンタも例のアレを見に来たんだろ？
+　スケベなお坊ちゃんだぜ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「アレ……？」
+<PAUSE>
+<NAME_PLATE>
+　例のアレ？？　スケベ？？？
+<PAUSE>
+<ACTOR>0,o_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「真面目ちゃんぶってんじゃねぇよ。
+　アレだよ、アレ。
+　美女の幽霊が出るって話だ」
+<PAUSE>
+<NAME_PLATE>さくら
+「び、美女の幽霊！？」
+<PAUSE>
+<ACTOR>0,o_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「こいつは驚いた。
+　井河アサギの妹御じゃねえか」
+<PAUSE>
+<NAME_PLATE>
+　権左の眼光がにわかに殺気を帯び、
+藪から彼の部下らしき者たちが現れる。
+<PAUSE>
+//　※立ち絵
+//　　ふうま刺客立ち絵
+//　　ふうま土遁衆(男)立ち絵
+<ACTOR>2,ts_m015a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m015a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>権左
+「幽霊口説きのつもりが思わぬ大魚に
+　遭遇だよなァ」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+（どうやら権左も幽霊城のことは
+　知らないようだが……糞ッ……
+　今日は時子がいないぞ。どうする！？）
+<PAUSE>
+<NAME_PLATE>さくら
+「ちょっとオッサン。
+　槍なんて構えてないで幽霊の話を
+　教えてよ！」
+<PAUSE>
+<NAME_PLATE>
+　まるで緊張感のない声で割り込んだのは
+さくら先生。これだけ囲まれながら、
+まったく警戒感もなく、隙も見せている。
+<PAUSE>
+<NAME_PLATE>俺
+（さすが、こう見えて百戦錬磨の対魔忍か……
+　いや、おそらくマイペースなだけだな）
+<PAUSE>
+<NAME_PLATE>
+　しかし権左は愚弄されたと思ったようで、
+身に纏う殺気を大きく膨らませた。
+<PAUSE>
+<ACTOR>0,o_t002g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「幽霊に直接聞きな。
+　あの世でなッッ！！」
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>2,ts_m015a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>0,o_t002g,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>1,ts_m015a,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section１-戦闘１へ

@@ -1,0 +1,524 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：空港ロビー（炎上）＿夜】【時間：夜】
+//　※対魔忍ユキカゼ2＿NC001eより流用
+<BGM_PLAY>bgm304,1000
+<BG>nc225b,IN, 1000
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リーナ
+「やる気か、対魔忍！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　迷わず剣を構えるリーナを
+アスカは慌てて止める。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<ACTOR>1,as_t005f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ちょっと！　ここで本気で抗ったりしたら、
+　ますます誤解を招いちゃうわ。
+　ここは適当にあしらって逃げるわよ」
+<PAUSE>
+//　※立ち絵
+//　　アスカ通常立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<NAME_PLATE>リーナ
+「なに？　逃げる？
+　魔界騎士が敵に後ろを見せろというのか！」
+<PAUSE>
+<NAME_PLATE>アスカ
+「っていうか敵じゃないでしょ！
+　いくらあなたが魔族で、相手が対魔忍でも、
+　誤解で殺し合いとかイヤでしょ。私はイヤ」
+<PAUSE>
+<ACTOR>1,as_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「騎士は道理に外れたことはしないでしょ。
+　このメモリーカードのことも聞きたいし、
+　ここは逃げの一手よ」
+<PAUSE>
+<NAME_PLATE>
+　ダーッとまくし立てると、
+前のめりの
+魔界騎士リーナもちょっと考え込む。
+<PAUSE>
+<NAME_PLATE>リーナ
+「むむ、確かに一理あるな」
+<PAUSE>
+<NAME_PLATE>
+　で、納得したらしく、
+サクラブロッサムの刃をくるりと返した。
+<PAUSE>
+<NAME_PLATE>リーナ
+「峰打ちは好きじゃないんだが」
+<PAUSE>
+<ACTOR>1,as_t011f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>アスカ
+「このさい好き嫌いは別！」
+<PAUSE>
+//　※立ち絵
+//　　アスカ戦闘立ち絵＿制服衣装
+//　　　＊対魔忍アサギ３より流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「相手は得体が知れません。
+　二人ずつかかりなさい！」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>対魔忍
+「「「「はっっ！！」」」」
+<PAUSE>
+<NAME_PLATE>
+　巴の指示でまず四人が
+パッと二手に分かれて迫ってくる。
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（女）立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※立ち絵
+//　　対魔忍斥候女（女）
+//　　　　＊モンスターイラストより流用
+//※二人ずつ四人出してください。
+<GROUP>
+<ACTOR>3,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m059a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<WAIT>500
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<WAIT>500
+<GROUP>
+<ACTOR>3,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m087a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　様子見といったところか。
+さすが対魔忍、連係のとれた動きだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,as_t011d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「って、あっちは本気なのよね。はぁ」
+<PAUSE>
+<NAME_PLATE>
+　しかも今は日常用の手足だ。
+対魔忍相手に接近戦などする気になれない。
+<PAUSE>
+<NAME_PLATE>
+　悪いが相手の間合いの遙か前から
+風の術をかけさせてもらう。
+<PAUSE>
+<ACTOR>1,as_t011f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アスカ
+「風神・塵旋風“てかげん”！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>1,CENTER,linear,500
+<SE_PLAY>se074_01
+<NAME_PLATE>
+　ブオオオオッッ
+<PAUSE>
+<NAME_PLATE>
+　アスカは威力を抑え気味にした風を
+だが鋭く足下に送った。
+<PAUSE>
+<GROUP>
+<ACTOR>3,ts_m087a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m087a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍
+「うわっっ！！」
+「あああっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候女（女）
+//　　　　＊モンスターイラストより流用
+//　※二人出してください。
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se024
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　物の見事に足下をすくわれて、
+対魔忍たちはあさっての方向に
+スッ転んでいく。
+<PAUSE>
+<NAME_PLATE>
+　そのまま気絶する程度に
+壁にぶつけてやる。
+<PAUSE>
+<NAME_PLATE>
+　ごんっ、ごんっ。
+<PAUSE>
+<NAME_PLATE>対魔忍
+「ぐっ……」
+「うっ……」
+<PAUSE>
+<NAME_PLATE>
+　二人は仲良く昏倒した。
+<PAUSE>
+<ACTOR>1,as_t011e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ごめんねっ！」
+<PAUSE>
+<NAME_PLATE>
+　相手が女なので一応謝っておく。
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　リーナは、と見ると、
+別の二人に斬り掛かられていたが、
+それを軽やかなステップで躱し、
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「このくらいかな？
+　そいやっ！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ立ち絵
+//　　　＊【桜嵐舞闘】リーナのカードイラストより流用
+<NAME_PLATE>
+　ぱしぱしっ！
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　サクラブロッサムの背で
+素早く相手に打ち付けている。
+<PAUSE>
+<GROUP>
+<ACTOR>3,ts_m059a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m059a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>対魔忍
+「ぐっ！？」
+「こいつっ！？」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候女（女）
+//　　　　＊モンスターイラストより流用
+//　※二人出してください
+<NAME_PLATE>
+　対魔忍たちは顔をしかめるが、
+気絶させるには至らない。
+<PAUSE>
+<NAME_PLATE>リーナ
+「まだちょっと弱いか？
+　せやあっ！」
+<PAUSE>
+<SE_PLAY>se001
+<NAME_PLATE>
+　バシバシッ！
+<PAUSE>
+<NAME_PLATE>
+　今度はもうちょっと強く。
+<PAUSE>
+<NAME_PLATE>対魔忍
+「ぐぐっっ……」
+「ううっっ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se024
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バタン。
+<PAUSE>
+<NAME_PLATE>
+　ようやく並んでその場に倒れる。
+<PAUSE>
+<ACTOR>0,chr_t0104a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リーナ
+「こんなものか」
+<PAUSE>
+<NAME_PLATE>
+　やはり魔界騎士。
+対魔忍相手に手加減するのは
+勝手が違うようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>アスカ
+（でも、大丈夫そうね。
+　あの物わかりの悪そうなのが
+　気になるけど……）
+<PAUSE>
+<ACTOR>2,chr_t0172a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>巴
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　黒田巴
+//　　　＊対魔忍RPGカードイラストより流用
+<NAME_PLATE>
+　その物わかりの悪そうなのは、
+こちらの戦いぶりをじっと見ながら、
+まだ一人だけ刀を抜いていない。
+<PAUSE>
+<NAME_PLATE>
+　というか、抜き打ちでいきなりすごいのを
+仕掛けてきそうな雰囲気だ。
+<PAUSE>
+<NAME_PLATE>巴
+「お前たち、下がりなさい。
+　ただ者ではないようです」
+<PAUSE>
+<NAME_PLATE>
+　訝しげな顔をしつつ、
+ともかく二人の実力を見て、
+部下たちを引かせている。
+<PAUSE>
+<NAME_PLATE>巴
+「ここは私が相手をするしかないようですね。
+　黒田巴、参ります」
+<PAUSE>
+<NAME_PLATE>
+　柄にかけていた右手が閃く。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　巴はその場を一歩も動くことなく、
+疾風のように刀を引き抜いた。
+<PAUSE>
+<NAME_PLATE>
+　ぞわっっ！
+<PAUSE>
+<NAME_PLATE>アスカ
+「っっ！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「わっっ！」
+<PAUSE>
+<NAME_PLATE>
+　強烈な殺気にアスカとリーナは
+殆ど同時に大きく飛び退いた。
+<PAUSE>
+<BG>ef003b,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュッッッ！！
+<PAUSE>
+<NAME_PLATE>
+　闘気の刃が放たれる。
+<PAUSE>
+<NAME_PLATE>
+　狙われたのはリーナだった。
+<PAUSE>
+<NAME_PLATE>
+　カチリ。
+<PAUSE>
+<BG>nc225b,IN, 500
+<NAME_PLATE>
+　巴が再び刀を収めたとき、
+リーナの髪が一房ハラリと舞った。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,as_t011d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスカ
+「やっぱり居合いかあ」
+<PAUSE>
+<NAME_PLATE>リーナ
+「おのれ、私の髪を」
+<PAUSE>
+<NAME_PLATE>巴
+「私の初太刀を躱しましたか。
+　さすがノマドの魔界騎士ですね」
+<PAUSE>
+<NAME_PLATE>
+　巴はむしろ嬉しそうに言った。
+<PAUSE>
+<NAME_PLATE>アスカ
+「強敵ね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「あいつをあしらうのは無理だな」
+<PAUSE>
+<NAME_PLATE>アスカ
+「みたいね」
+<PAUSE>
+<NAME_PLATE>リーナ
+「いいだろう。
+　次は私のサクラブロッサムの切れ味を
+　見せる番だ」
+<PAUSE>
+<NAME_PLATE>
+　リーナが峰打ちのため返していた
+サクラブロッサムの刃を元に戻した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　目が本気だ。
+<PAUSE>
+<NAME_PLATE>
+　ほんのちょっととはいえ、
+髪の毛を斬られて怒っている。
+<PAUSE>
+<NAME_PLATE>
+　気持ちは分かる。
+アスカだってやられたら怒る。
+大激怒だ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,chr_t0172a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,chr_t0104a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>リーナ
+「風使い。下がっていてくれ。
+　対魔忍、一対一の勝負だ！」
+<PAUSE>
+<NAME_PLATE>巴
+「望むところです、魔界騎士！」
+<PAUSE>
+<NAME_PLATE>
+　まさに決闘に入ろうとする二人。
+<PAUSE>
+<NAME_PLATE>アスカ
+（うわ、まっずいなあ。
+　なんとかして止めないと。
+　私も対魔忍とは揉めたくないし）
+<PAUSE>
+<NAME_PLATE>
+　しかし、凄腕の剣士二人の戦いを
+どうやって……？
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>男の声
+「お手伝いしますよ」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アスカ
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>
+　いきなり耳元で声がしたと思ったら、
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<SE_PLAY>se120
+<NAME_PLATE>
+　ボンッ！　ボンッ！　ボンッ！！
+もくもくもくもくもくっっ！！
+<PAUSE>
+<BG>white,IN, 1000
+<NAME_PLATE>
+　そこら中から煙が上がり始めた。
+<PAUSE>
+<NAME_PLATE>
+　まだ続いている火災のそれとは違う、
+濃い真っ白な煙が広がっていく煙幕だ。
+<PAUSE>
+<NAME_PLATE>リーナ
+「うわあ、な、なんだ！？」
+<PAUSE>
+<NAME_PLATE>巴
+「煙玉！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「これは！？」
+<PAUSE>
+<NAME_PLATE>
+　見えないが誰かいる。
+<PAUSE>
+<NAME_PLATE>
+　そこらじゅうを動き回っている。
+<PAUSE>
+<NAME_PLATE>
+　そいつが気絶させた対魔忍たちの
+煙玉を次々と使っているのだ。
+<PAUSE>
+<NAME_PLATE>
+　たちまちあたりは何も見えなくなる。
+<PAUSE>
+<NAME_PLATE>
+　一対一の勝負どころではない。
+<PAUSE>
+<NAME_PLATE>男の声
+「さあ今のうちに」
+<PAUSE>
+<NAME_PLATE>
+　また声だけ聞こえた。
+<PAUSE>
+<NAME_PLATE>
+　姿は見えない。これは―――
+<PAUSE>
+<NAME_PLATE>アスカ
+「光学迷彩？」
+<PAUSE>
+<NAME_PLATE>
+　しかも、声に聞き覚えがある。
+<PAUSE>
+<NAME_PLATE>
+　さっきのナンパ男だ。
+<PAUSE>
+<NAME_PLATE>
+　わけが分からないが、チャンスだ。
+<PAUSE>
+<ACTOR>1,as_t011f,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>アスカ
+「ちょっと！
+　ここはいったん退くわよ！」
+<PAUSE>
+<NAME_PLATE>
+　アスカは煙の中でキョロキョロしている
+リーナの腕を掴んだ。
+<PAUSE>
+<ACTOR>0,chr_t0104a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「なにっ！？
+　私はあいつと勝負を！？」
+<PAUSE>
+<NAME_PLATE>アスカ
+「ここは逃げの一手！！」
+<PAUSE>
+<NAME_PLATE>リーナ
+「ちょっ、引っ張るな！！」
+<PAUSE>
+<SE_PLAY>se054
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　問答無用で撤退する。
+<PAUSE>
+<NAME_PLATE>巴
+「逃がしませんよ！」
+<PAUSE>
+<NAME_PLATE>
+　何も見えなくなった煙の向こうで
+巴が吠えているのが聞こえた。
+<PAUSE>
+//→Section３終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

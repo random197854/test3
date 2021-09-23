@@ -1,0 +1,317 @@
+//☆第二章//【Section４】シナリオ部分
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//※S305aのシナリオの続き
+//【背景：米連地下秘密施設＿通路＿夜】//【時間：夜】
+<BG>nc017a,IN, 3000
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t005f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<BGM_PLAY>bgm207,1000
+<NAME_PLATE>蛇子
+「ふうまちゃん！　鹿之助ちゃん！
+　急いで！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　ぎりぎりのところでデータのダウンロード
+は完了し、俺たちは敵が押し寄せる前に
+部屋を脱出することができた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「出口を塞がれたらどうしようかと
+　思ったよぉ……」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「まだ油断するな、
+　一刻も早くあの部屋から離れるんだ」
+<PAUSE>
+<NAME_PLATE>
+　データを手に入れれば、あとは逃げるのみ。
+俺たちはもと来た道をひた走っていた。
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助！　道は大丈夫だろうな？」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「だ、ダメだ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「ダメ？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「人間じゃない何かが大量に来るぞ！！？」
+<PAUSE>
+<ACTOR>1,h_t005e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「人間じゃない！？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「い、犬と………大きな蜂みたいな……
+　何だよこれ！？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,h_t005e,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<NAME_PLATE>俺
+「来た！！」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ワスプ立ち絵
+//　　//　　＊決戦アリーナのモンスターイラストより流用
+//　　ドローン・ドッグ立ち絵
+//　　//　　＊決戦アリーナのモンスターイラストより流用
+<GROUP>
+<ACTOR>2,ts_m029a,LEFT, LEFT, IN, linear, 500
+<ACTOR>1,ts_m011a,RIGHT, RIGHT, IN, linear, 500
+</GROUP>
+<WAIT>500
+<SE_PLAY>se043
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>鹿之助
+「うわああっ！？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「おっとっ」
+<PAUSE>
+<NAME_PLATE>
+　犬と蜂は吠えたり唸ったりもせず、
+いきなり俺たちめがけて銃弾を浴びせかけた。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「なんで犬が機関銃撃ってくるんだぁぁ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「犬じゃない！　あれは米連のっ……」
+<PAUSE>
+<SE_PLAY>se043
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>蛇子
+「さ、さすがにやばくない？！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、あれは米連の戦闘ドローンだ。
+　文字通り話の通じる相手じゃない」
+<PAUSE>
+<NAME_PLATE>蛇子
+「どうする！？　タコ墨吐けば良い？？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、残念ながら
+　ドローン相手には効かないな」
+<PAUSE>
+<NAME_PLATE>俺
+「あいつらは目じゃなくセンサーで
+　俺たちの位置を認識している。
+　鹿之助の電遁ソナーと同じだ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「目眩ましは通用しないって事ね……」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「けけけどさ！！　ふうまの事だから
+　他に作戦があるんだろ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ドローン相手の戦いは
+　想定していなかった。すまんが手札がない」
+<PAUSE>
+<NAME_PLATE>蛇子
+「手札がない、って、ことは……？」
+<PAUSE>
+<NAME_PLATE>俺
+「反転して逃げろ、だ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>鹿之助
+「ひぃいいいいい」
+<PAUSE>
+<SE_PLAY>se043
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　俺はドローンたちに背を向けて、
+猛ダッシュで通路の奥――
+つまり入口と逆の方へ走りだした。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m029a,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ts_m011a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<BG_OUT>1000
+//【背景：米連地下秘密施設＿通路２＿夜】//【時間：夜】
+<WAIT>1000
+<BG>nc019a,IN, 1000
+<GROUP>
+<ACTOR>2,s_t001g,LEFT, LEFT, IN, linear, 500
+<ACTOR>1,h_t004c,RIGHT, RIGHT, IN, linear, 500
+</GROUP>
+<NAME_PLATE>鹿之助
+「ま、撒いたか……？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　無我夢中でどのくらい走っただろうか。
+<PAUSE>
+<NAME_PLATE>
+　ドローンどもの気配はなくなり、
+辺りの様子も少し変わっている。
+<PAUSE>
+<NAME_PLATE>俺
+（なんだ……？
+　明らかにこれまでとは造りの違う区画だぞ）
+<PAUSE>
+<NAME_PLATE>蛇子
+「ねえ、ふうまちゃん」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「なんだ」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「この基地って入り口は一つよね、確か？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、この地図によればな」
+<PAUSE>
+<ACTOR>2,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「えええ！？　じゃ、じゃあ何で逆方向に
+　来たんだよ！？　基地の奥へ向かっち
+　まってるってことじゃねえかああ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「仕方ないだろうが」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「まあそうだけどよおおおお……
+　戦う術もなくて、逃げ道もなかったら、
+　こんどこそオシマイだろおお……」
+<PAUSE>
+<NAME_PLATE>俺
+「逃げ道がないとまだ決まったわけでも
+　ないぜ。見てみろこの壁。
+　さっきまでと造りが違うだろ？」
+<PAUSE>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「本当ね。どうしてなのかしら？」
+<PAUSE>
+<NAME_PLATE>
+　さっきまでの整然とした壁とは打って
+変わって、古い石だかコンクリートだかが
+剥き出しになり、あちこちヒビが入っている。
+<PAUSE>
+<NAME_PLATE>
+　足元も、劣化した床が割れたり
+凹んだりして、歩きにくい事この上ない。
+<PAUSE>
+<NAME_PLATE>俺
+「これはおそらく古い区画……
+　つまり、元々ここにあった
+　工場の地下通路なんだろう」
+<PAUSE>
+<NAME_PLATE>
+　ドローンたちが追ってこないのも、
+この区画の地図がインプットされておらず、
+探索に手間取っているからではなかろうか。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そそそそそれってどういう！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ここは基地の地図にない通路だ。
+　入口が他にあるかもしれないってことさ」
+<PAUSE>
+<ACTOR>1,h_t004b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「希望が見えてきたわね！」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、だが
+　すんなり脱出させてはくれないようだな」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ワスプ立ち絵
+//　　//　　＊決戦アリーナのモンスターイラストより流用
+//　　ドローン・ドッグ立ち絵
+//　　//　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>
+　俺たちの前に現れたのは、
+さっきの戦闘ドローン軍団。
+<PAUSE>
+<NAME_PLATE>俺
+（探索に手間取ってたわけじゃなくて、
+　回り込んでたってことかよ……！！）
+<PAUSE>
+<NAME_PLATE>
+　だが、それはそれで希望が見える。
+回り込まれたという事は、
+別の道があるということだからだ。
+<PAUSE>
+<NAME_PLATE>俺
+「とはいえ、ここをなんとか突破しないとな」
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「と、突破って！？
+　こんな通路で突撃すれば
+　蜂の巣にされるぞ！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「被弾覚悟で行くしかない。
+　蛇子のタコ足頼みだ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「はあ！？　蛇子ぉ！？」
+<PAUSE>
+<NAME_PLATE>
+　蛇子のタコ足には再生能力がある。
+たとえ切断されてもまた生えてくるのだ。
+<PAUSE>
+<ACTOR>1,h_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ま、まさか、蛇子の足を盾にして
+　ドローンの包囲を強行突破しようと……？」
+<PAUSE>
+<NAME_PLATE>俺
+「そのとおりだ」
+<PAUSE>
+<ACTOR>1,h_t004f,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「乙女の足を何だと思ってるのよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「今はそれしか方法がない」
+<PAUSE>
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「～～～～もう！
+　すぐ治るけど痛いんだからねっ！！」
+<PAUSE>
+<NAME_PLATE>
+　と言いつつ、蛇子はしっかり
+タコ足を前に構えて盾を作ってくれた。
+<PAUSE>
+<NAME_PLATE>俺
+「恩に着るぜ！
+　さあ、突っ切るぞ！！」
+<PAUSE>
+<UI_DISP>OFF, 500
+<BGM_STOP>1500
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004e,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>1500
+<SCENARIO_END>
+//→Section４-ＭＡＰ画面１へ

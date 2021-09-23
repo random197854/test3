@@ -1,0 +1,917 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：東京キングダム＿高級住宅街＿夜】【時間：夜】
+//　※MonstersSurvive_nc016bより流用
+<UI_DISP>OFF, 500
+<BGM_PLAY>bgm506,1000
+<BG>nc110a,IN, 1000
+//【背景：東京キングダム＿高級住宅街＿部屋＿夜】【時間：夜】
+//　※対魔忍紅_NC012aより流用
+<WAIT>1000
+<BG>nc125a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m111a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>シュヴァリエ
+「いらっしゃい」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ立ち絵
+//　　　　＊シュヴァリエ01を流用
+<NAME_PLATE>ドラウグル・オーガスト
+「皆、元気そうでなによりだ」
+<PAUSE>
+//　※立ち絵
+//　　ドラウグル・オーガスト
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　錬金術師のシュヴァリエと
+その従者のドラウグル・オーガスト。
+<PAUSE>
+<NAME_PLATE>
+　もうすっかり馴染みになった二人が
+俺たちを出迎える。
+<PAUSE>
+<NAME_PLATE>
+　この夏、とあるビーチで
+“魔界の門”の調査をして以来だ。
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「さっそくシュヴァリエの希望に
+　応えてくれて嬉しいわ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺の身体のことで
+　なにか分かったと言われちゃな」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「今のあなたが必要としている情報だと
+　シュヴァリエは確信しているわ」
+<PAUSE>
+<NAME_PLATE>俺
+「期待してるよ」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「霊魂に詳しい対魔忍というのは、
+　その子かしら？」
+<PAUSE>
+<NAME_PLATE>
+　シュヴァリエはコロ先輩を見て
+好奇心に目を輝かせる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ko_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「死々村孤路先輩。
+　魂遁の術の使い手だ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（死々村孤路、よろしく）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　コロ先輩も初めて会う錬金術師に
+興味津々で挨拶した。
+<PAUSE>
+<NAME_PLATE>
+　いつも通り慣れていないと聞き取れない
+小さな小さな声だったのだが、
+<PAUSE>
+<ACTOR>0,ko_t008a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0040a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「シュヴァリエよ。
+　魂遁の術使い、なるほどね。
+　魂に優しく触れてくるような雅な声ね」
+<PAUSE>
+<ACTOR>0,ko_t008b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>孤路
+「（そんなこと初めて言われた）」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「わ、すごい。
+　コロ先輩の声をいきなり聞き分けてる」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「俺なんか何言ってるか
+　まだ半分くらい分かんないのに」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　シュヴァリエとコロ先輩。
+どうやらお互いに好印象を持ったようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「それで、調べて欲しい本ってのは？」
+<PAUSE>
+<ACTOR>0,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「これよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　彼女は茶色い本をテーブルに置いた。
+Ｂ５版くらいで厚さは３センチほど。
+タイトルも何も書いていない。
+<PAUSE>
+<NAME_PLATE>
+　相当に古いもののようだが、
+妙に脂ぎっているというか、
+テカテカした光沢がある。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR>1,ko_t008c,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>孤路
+「（……！）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩がぴくりとするのを見て、
+シュヴァリエはくすりと微笑んだ。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<ACTOR>0,chr_t0040a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「人皮装丁本（にんぴそうていほん）」よ」
+<PAUSE>
+<NAME_PLATE>俺
+「にんぴ……？」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「人の皮で作った本」
+<PAUSE>
+<NAME_PLATE>俺
+「なっ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃっ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひぃいいいっっ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺たち三人は思わず仰け反る。
+<PAUSE>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（人の皮、なるほど）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩だけが納得したように頷いた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「悪趣味極まりないな。
+　作った奴はなにを考えてるんだ」
+<PAUSE>
+<ACTOR>0,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「そう珍しいものでもないわ。
+　解剖学の教科書を
+　解剖された死体の皮膚で作ったり」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「人殺しの裁判記録を
+　その本人の皮膚で綴じた本に記録したり」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「そうそう、
+　死んだ後に遺言で自分の皮膚を
+　本にして残した趣味人もいたわね」
+<PAUSE>
+<NAME_PLATE>
+　シュヴァリエは実に楽しそうに
+人皮装丁本とやらについて説明してくれた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「どれもこれも嫌すぎる」
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「蛇子、ちょっと気持ち悪くなってきた」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ううう……
+　やっぱりこんな話だ……
+　もう嫌な予感しかしねえ……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ko_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（とても興味深い）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩はさすがだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「で、その本には
+　どういう謂われがあるんだ？」
+<PAUSE>
+<ACTOR>0,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「そこから調べてちょうだい。
+　日記か何かだと思うのだけれど」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「電話でも話したけれど、
+　強い残留思念で守られていて
+　シュヴァリエでも開くことができないの」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　つまり丸投げか。
+相変わらずだな、この錬金術師は。
+<PAUSE>
+<NAME_PLATE>俺
+「コロ先輩、すいませんが
+　お願いできますか？
+　人の皮の本なんて嫌でしょうけど」
+<PAUSE>
+<ACTOR>0,ko_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（ううん）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩は首を振り、
+躊躇うことなく本を手に取った。
+<PAUSE>
+<ACTOR>0,ko_t008b,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>孤路
+「（人の皮の本を読むのは初めて。
+　ドキドキする。来てよかった）」
+<PAUSE>
+<NAME_PLATE>俺
+「そ、そうですか……
+　じゃあ、お願いします」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　コロ先輩は本の表紙に触れ、
+意識を集中するためにいったん目を閉じ、
+そして開いた。
+<PAUSE>
+<ACTOR>0,ko_t008k,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（……魂遁の術……黄泉録り）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装（黄泉録り発動）
+<NAME_PLATE>
+　魂遁の術。
+<PAUSE>
+<NAME_PLATE>
+　死体に触れることにより
+霊魂情報を読み取るコロ先輩の忍法だ。
+<PAUSE>
+<NAME_PLATE>
+　死因や遺伝情報などを始めとして、
+強く残っている思念、すなわち記憶をも
+読み取ることができるという。
+<PAUSE>
+<NAME_PLATE>孤路
+「（これは……日記……）」
+<PAUSE>
+<NAME_PLATE>孤路
+「（書いたのは……
+　ジョン……ジョゼフ……ジョンディー）」
+<PAUSE>
+<NAME_PLATE>孤路
+「（強い意思を感じる……
+　ここでは読まないでって……
+　元々あった場所に戻してって……）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩はそこで術を解いた。
+<PAUSE>
+<ACTOR>0,ko_t008e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>孤路
+「（開かない方がいい。
+　本に残された思念に逆らうのは良くない）」
+<PAUSE>
+<NAME_PLATE>俺
+「なにかヒントになったか？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　これが日記であること、
+書いた人間の名前、
+元の場所に戻して欲しいこと。
+<PAUSE>
+<NAME_PLATE>
+　分かったのはそれだけだが、
+シュヴァリエは満足げに微笑んだ。
+<PAUSE>
+<ACTOR>0,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「対魔忍というのは人材の宝庫ね。
+　すばらしい能力よ」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「まさかあの男の日記とは
+　シュヴァリエも予想できなかったわ」
+<PAUSE>
+<NAME_PLATE>俺
+「知ってるのか？」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「ジョン・ジョゼフ・ジョンディー、
+　そこそこ有名だった人間の魔術師ね」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「異界の存在を呼び出そうとして失敗して、
+　館もろともこの世から消滅したはずよ。
+　確か１５０年くらい前だったかしら？」
+<PAUSE>
+<NAME_PLATE>
+　異界の存在とか、この世から消滅とか
+なにやらすごい話を軽い口調で言う。
+<PAUSE>
+<NAME_PLATE>俺
+「１５０年前……。
+　その日記がまたなんでバルドの書庫に？」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「さあ、それは分からないけど、
+　本は元の場所に帰りたがっているのね？」
+<PAUSE>
+<ACTOR>0,chr_t0040a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ko_t008a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「（そこでなら読めると思う）」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「なら持っていってもらうしかないわね。
+　そこで本に何が書いてあるか、
+　何が起るか確かめてきてくれるかしら？」
+<PAUSE>
+<NAME_PLATE>
+　と、ちょっとコンビニに行ってきて
+くらいの調子で頼んでくる。
+<PAUSE>
+<NAME_PLATE>俺
+「くれるかしらって
+　お前は一緒に行かないのか？」
+<PAUSE>
+<NAME_PLATE>
+　知っている魔術師らしいし、
+シュヴァリエがいるといないとでは
+大違いなのだが、
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0040a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「あの男、好きじゃないのよ」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「昔、言い寄られて振ったことがあって、
+　男としても魔術師としても
+　シュヴァリエの趣味じゃないわ」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「消えて無くなった屋敷の跡地には
+　きっとあの男の霊がいるでしょうし、
+　そんなのに再会したくはないもの」
+<PAUSE>
+<NAME_PLATE>俺
+「昔振った相手かよ。
+　で、俺に行かせると」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「よろしくお願いするわね」
+<PAUSE>
+<NAME_PLATE>
+　相変わらず勝手な錬金術師だ。
+<PAUSE>
+<NAME_PLATE>
+　この顔に何を言っても無駄なのは、
+今までの付き合いでもう分かっている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「はあ、しょうがない、行くか」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ko_t008b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>孤路
+「（１５０年前の幽霊屋敷、楽しみ♪）」
+<PAUSE>
+<NAME_PLATE>蛇子
+「楽しみだって……。
+　こういうとき、コロ先輩がいると
+　頼りになるね」
+<PAUSE>
+<NAME_PLATE>俺
+「全くだ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「うう……
+　ヤバいことしか起りそうにねえ。
+　マジで行きたくねえ……」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は俺と同じで諦めた顔だが
+鹿之助はここに来る前以上に沈んでいた。
+<PAUSE>
+<NAME_PLATE>俺
+「そう言わずに付き合ってくれよ。
+　帰ったら稲毛屋のアイス奢るからさ」
+<PAUSE>
+<ACTOR>0,s_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「なんだよそれ！　安すぎるだろ！」
+<PAUSE>
+<NAME_PLATE>俺
+「俺にとっては結構高い」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ゲームとかばっか買ってるからだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「それを言われると辛いな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ko_t008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「鹿之助ちゃん、
+　ふうまちゃんのためなんだから。
+　一緒に頑張ろうよ」
+<PAUSE>
+<NAME_PLATE>孤路
+「（チームワークは大事）」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え？　なんですか？
+　俺みたいに弱くて情けない奴は
+　ここで留守番してた方がいいとかですか？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「チームワークは大事って言ったの」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ううう……そんなあ……」
+<PAUSE>
+<NAME_PLATE>
+　ぐずる鹿之助を見て、
+シュヴァリエが笑顔で言った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0040a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「ここで留守番してもいいわよ。
+　ちょっと手伝ってもらいたい
+　魔術実験もあるし」
+<PAUSE>
+<NAME_PLATE>俺
+「それって人体実験？」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「もちろん」
+<PAUSE>
+<ACTOR>0,chr_t0040a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,ts_m111a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドラウグル・オーガスト
+「主の命なら致し方ないが、
+　鹿之助は私の友人でもある。
+　あまり勧めないぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「どうする、鹿之助？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ああもう、分かったよ。
+　行くよ、行けばいいんだろ！」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はやけくそ気味に答えた。
+<PAUSE>
+<NAME_PLATE>
+　一緒に行ってくれるようだ。
+良かった良かった。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ただ、もう時間はないということで、
+その日はシュヴァリエの館に泊らせてもらい、
+翌日、魔術師の館に向かうことになった。
+<PAUSE>
+//【背景：七霧村＿全景＿昼】【時間：昼】
+//　※輪姦倶楽部＿nc001bより流用
+//nc352a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc352a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　魔術師ジョンの館があったのは、
+関東の山奥にある七霧（なぎり）村。
+<PAUSE>
+<NAME_PLATE>
+　しかし、その七霧村には
+今ではもう誰も住んでいない。
+<PAUSE>
+<NAME_PLATE>
+　ちょうど１５０年ほど前から
+土砂崩れや大水などの災害に次々と見舞われ、
+<PAUSE>
+<NAME_PLATE>
+　住人が急速に減っていって、
+廃村となったのだという。
+<PAUSE>
+<NAME_PLATE>
+　どう考えても、魔術師が異界の存在を
+呼び出そうとした影響だろう。
+<PAUSE>
+<NAME_PLATE>
+　朝、東京キングダムを出発した俺たちが
+七霧の跡地にたどり着いたのは昼頃。
+<PAUSE>
+<NAME_PLATE>
+　その名の通り、村全体を覆うように、
+白くて冷たい霧が立ちこめていた。
+<PAUSE>
+//【背景：七霧村＿全景＿昼】【時間：昼】
+//　※退魔師ナナホ_nc004aより流用
+//nc353a
+<BG>nc353a,IN, 1000
+<NAME_PLATE>
+　そこは掛け値なしのゴーストタウンだった。
+<PAUSE>
+<NAME_PLATE>
+　放置され、崩れ始めた家々。
+人も自動車も通らなくなった道路。
+<PAUSE>
+<NAME_PLATE>
+　不気味に静まりかえった街に
+俺たちの足音だけが響きわたる。
+<PAUSE>
+<ACTOR>0,h_t002g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「誰もいない町って怖いね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　蛇子が周囲を伺いながら
+いつになく不安そうに言った。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「霧もどんどん濃くなってるしな」
+<PAUSE>
+<NAME_PLATE>
+　空気がじっとりと湿っている。
+<PAUSE>
+<NAME_PLATE>
+　寒いというより、寒気がする。
+<PAUSE>
+<ACTOR>0,ko_t008b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（るんるん♪♪）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「コロ先輩は楽しそうだな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「ノリノリだね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「な、なあ……
+　さっきから誰かに見られてるような
+　気がしてしょうがねえんだけど……」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　最後尾を歩く鹿之助は
+今にも泣きそうな顔をしていた。
+<PAUSE>
+<NAME_PLATE>俺
+「実は俺もだ」
+<PAUSE>
+<ACTOR>1,h_t002g,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「蛇子も」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは顔を見合わせた。
+<PAUSE>
+<NAME_PLATE>
+　周りに誰もいない、何も見えない。
+しかし背筋がゾクゾクする。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「あ、あの、コロ先輩……」
+<PAUSE>
+<ACTOR>0,ko_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（なに？）」
+<PAUSE>
+<NAME_PLATE>
+　俺が意を決して声をかけると、
+コロ先輩がクルッと振り返った。
+<PAUSE>
+<NAME_PLATE>俺
+「ひょっとして、
+　このあたり、もう出てますか？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（幽霊？）」
+<PAUSE>
+<NAME_PLATE>俺
+「ええまあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは否定して欲しかったのだが、
+コロ先輩はあっけらかんと頷いた。
+<PAUSE>
+<NAME_PLATE>孤路
+「（たくさん出てる。
+　そことか、そことか。
+　あ、そこにもいる）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひぃいいいっっ！！
+　やっぱりいいいい！！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん！！」
+<PAUSE>
+<NAME_PLATE>
+　二人が俺にしがみついてきたが、
+そうされても困る。
+<PAUSE>
+<NAME_PLATE>俺
+「あ、慌てるな。
+　出てくるのは予想してたことだ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ちっとも安心できねえよ！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「コ、コ、コロ先輩！
+　蛇子たち、幽霊に取り憑かれたり
+　しないですよね！？」
+<PAUSE>
+<ACTOR>0,ko_t008b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（このあたりのはただの浮遊霊
+　そんな力はない。大丈夫）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩は笑顔で請け合ってくれたが、
+ちっとも大丈夫ではない。
+<PAUSE>
+<NAME_PLATE>
+　幽霊はやはり恐ろしい。
+<PAUSE>
+<NAME_PLATE>
+　こういうのは
+魔物と戦ったりするのとは別の問題だ。
+<PAUSE>
+<NAME_PLATE>孤路
+「（早く行こう。
+　この日記も喜んでいる♪）」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩は例の人皮日記を取り出して、
+スキップするように（というか実際にして）
+どんどん先に進んで行く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「ま、待ってください！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001d,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002d,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「コロ先輩！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいいっ！！
+　おいてかないでくれええ！！」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<SE_PLAY>se054
+<NAME_PLATE>
+　俺たちは慌ててコロ先輩を追った。
+<PAUSE>
+//【背景：七霧村＿森の中＿夜】【時間：夜】
+//　※彷徨う淫らなルナティクス＿nc001cより流用
+//nc354a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm509,1000
+<BG>nc354a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　やがて日は落ち、
+俺たちは魔術師の館があったという
+町外れの森を歩いていた。
+<PAUSE>
+<NAME_PLATE>
+　不気味を絵に描いたような森で、
+並んでいる木々の形もおかしい。
+<PAUSE>
+<NAME_PLATE>
+　まるで苦悶に顔を歪めている
+人間のように見える。
+<PAUSE>
+<NAME_PLATE>
+　その間を冷たい風が通り抜けるたび、
+ヒュウウッと泣いているような音がする。
+<PAUSE>
+<ACTOR>0,h_t002d,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>蛇子
+「きゃああああっっ！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　蛇子はさっきから
+俺の腕にしがみつきっぱなしだし、
+<PAUSE>
+<ACTOR>0,s_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「やべえ、絶対やべえよ、ここやべえ。
+　なんかいるよ。こっち見てるよ」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍
+<NAME_PLATE>
+　鹿之助は下を向いてブツブツと呟きながら、
+もう周りを一切見ようとしない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「お前らちょっとは周囲を警戒しろよ……」
+<PAUSE>
+<NAME_PLATE>
+　二人に注意する俺の声も強ばっている。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t002g,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「そ、そんなこと言ったってよ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「こ、怖いものは怖いもん」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、そうだけどな……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ko_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「（……）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「え……？」
+<PAUSE>
+<NAME_PLATE>
+　一人、楽しそうに前を歩いていた
+コロ先輩が突然、立ち止まった。
+<PAUSE>
+<NAME_PLATE>孤路
+「（…………）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　顔が緊張している。
+<PAUSE>
+<NAME_PLATE>俺
+「どうしましたか？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（なにか来る）」
+<PAUSE>
+<NAME_PLATE>俺
+「来る？　幽霊ですか？」
+<PAUSE>
+<NAME_PLATE>孤路
+「（もっと危険なもの）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　コロ先輩が答えた次の瞬間、
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m064a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鬼火
+「グガァアアアアアアアアアアアアア！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+//　※複数出してください
+<NAME_PLATE>
+　そいつらが俺たちの前に現れた。
+<PAUSE>
+//→S202a
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

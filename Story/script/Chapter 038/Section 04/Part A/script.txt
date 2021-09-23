@@ -1,0 +1,764 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：ヨミハラ＿米連の地下施設＿隠し通路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ３_nc033aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc020a,IN, 1000
+<NAME_PLATE>
+　亜希と作業員の男が逃走した直後。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドオオオオオオオオン！！！
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m213a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m213a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>パワードスーツ兵
+「――――――」
+<PAUSE>
+//　※立ち絵
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+//　　Fist of steel2
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　轟音を立てて隔壁がぶち破られた。
+<PAUSE>
+<NAME_PLATE>
+　そこから通路に姿を見せたのは、
+パワードスーツ部隊と、それを
+指揮する女サイボーグ傭兵。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『………逃ゲラレタカ』
+<PAUSE>
+//　※立ち絵
+//　　ファウスト
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　サイボーグ傭兵・ファウストが
+淡々とした機械音でつぶやいた。
+<PAUSE>
+<NAME_PLATE>
+　既に通路には逃亡者たちの姿はない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　この施設はもともと数世代前に
+廃棄されていたものである。
+<PAUSE>
+<NAME_PLATE>
+　現在の管理者は、それを密かに
+占領する形で使用しており、
+<PAUSE>
+<NAME_PLATE>
+　自然、彼らが把握していない区画や
+抜け道がわずかばかり残っている。
+<PAUSE>
+<NAME_PLATE>
+　そこに逃げ込まれれば、いかに
+凄腕の傭兵とて探し出すのは困難だ。
+<PAUSE>
+<NAME_PLATE>
+　現在、現場から逃げ出した少数の
+“ネズミ”を駆除しきれていないのも、
+それが理由であった。
+<PAUSE>
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「ギギギギ……。どうした機械女、
+　てめえ、しくじりやがったのかぁ？」
+<PAUSE>
+//　※立ち絵
+//　　アイアンサイド
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>ファウスト
+『…………』
+<PAUSE>
+<NAME_PLATE>
+　背後から地鳴りのような足音。
+<PAUSE>
+<NAME_PLATE>
+　鈍く光を放つ鉄製の仮面、
+異常に発達した筋肉で全身を覆った
+異相の男が現れる。
+<PAUSE>
+<NAME_PLATE>
+　魔界各地の紛争で暗躍する
+傭兵集団“紅衣団”の首領。
+<PAUSE>
+<NAME_PLATE>
+　異形の魔族アイアンサイド。
+<PAUSE>
+<NAME_PLATE>
+　紛争地帯での数々の残虐行為で知られ、
+また現在も、その悪名から得た様々な
+“汚れ仕事”で荒稼ぎを繰り返している。
+<PAUSE>
+<NAME_PLATE>
+　闇の世界のおぞましさ、
+残虐さを凝縮したような男。
+<PAUSE>
+<NAME_PLATE>
+　この男が、この施設の現場を仕切る
+“業者”の総元締めであり、
+<PAUSE>
+<NAME_PLATE>
+　またサイボーグ傭兵、
+ファウストの現在の雇い主であった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『……ドコカラカ、
+　一匹ネズミガ入リ込ンダヨウダ。
+　生キ残リト共ニ逃走シタ』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「ギギギギ、生き残りだぁ？
+　こいつは驚いた、まだくたばってねえ
+　クソが残ってやがったのか」
+<PAUSE>
+<NAME_PLATE>ファウスト
+『ソウラシイ』
+<PAUSE>
+<NAME_PLATE>
+　アイアンサイドの喉が耳障りな
+音を響かせる。
+<PAUSE>
+<NAME_PLATE>
+　一方のファウストの応答は
+淡々として内心を窺わせない。
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「まあ、何も構いやしねえ。
+　このクソ施設の“毒”を食らっちゃ、
+　遅かれ早かれみんなくたばる」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「クソみてえな穴倉でくたばるか、
+　俺たちに狩られて死ぬか、
+　どっちにしろクソはクソだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『……マダ、コノ杜撰ナ現場ヲ
+　維持スルツモリカ？』
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「あぁ？」
+<PAUSE>
+<NAME_PLATE>
+　ファウストが淡々と言った。
+<PAUSE>
+<NAME_PLATE>ファウスト
+『オ前モ、理解シテイルダロウ？
+　コレ以上、シロウトヲカキ集メテ、
+　拙劣ナ処理ヲシタトコロデ――』
+<PAUSE>
+<NAME_PLATE>ファウスト
+『結局ハ、死人ガ増エルダケダ。
+　汚染ハ収マラナイ。
+　イヤ、ソレドコロカ――』
+<PAUSE>
+<NAME_PLATE>ファウスト
+『周辺地域、ヨミハラニマデ、
+　拡大シテイク恐レモ――』
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アイアンサイド
+「知らねえなぁ、そんなことは」
+<PAUSE>
+<NAME_PLATE>ファウスト
+『…………』
+<PAUSE>
+<NAME_PLATE>
+　アイアンサイドが
+牙をむき出しにして酷薄に笑った。
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「表沙汰にしたくねえってんだから、
+　俺はクソを集めて仕事をさせるしかねえ。
+　それに――」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「人が死ぬ？
+　ギギギ、それがどうした？」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「クソ溜めに住むカネのないクソが何人
+　くたばろうと俺たちには何も関りもねえし、
+　そもそも誰も気にしねえ」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「――全ては、
+　クライアント様のご要望だ」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「“誰にも知られねえように、
+　このクソ施設の後処理をしろ”」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「俺ら傭兵はそれでカネを貰ってる。
+　それ以上、何を気にすることがある？」
+<PAUSE>
+<NAME_PLATE>ファウスト
+『……ソウダナ』
+<PAUSE>
+<NAME_PLATE>
+　ファウストの電子的な声が
+淡々と応じた。
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「あぁ、そういうことよ。
+　ギギギ……だからてめえも
+　しっかり働いてくれよ、機械女」
+<PAUSE>
+<NAME_PLATE>アイアンサイド
+「俺は無能なクソにカネを払うのは
+　まっぴらだからなぁ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　耳障りな笑い声を響かせ、
+アイアンサイドが通路から立ち去った。
+<PAUSE>
+<ACTOR>0,ts_m051a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ファウスト
+『………………』
+<PAUSE>
+<NAME_PLATE>ファウスト
+（確かに、私は傭兵だ。
+　支払われた報酬分の働きはする）
+<PAUSE>
+<NAME_PLATE>ファウスト
+（しかし、それで全ての良心を
+　売り払った覚えはない……）
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　鋼鉄のマスクの下で、彼女の
+機械化された目が鋭く細められた。
+<PAUSE>
+//【黒画面】
+//【背景：ヨミハラ＿米連の地下施設＿潜伏部屋＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc009aより流用
+//nc456a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm314,1000
+<BG>nc456a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ボルティゲルン
+「ひとまずここなら安心だ。
+　奴らにも見つからない……」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「まあ、だからと言って、
+　助かったとは到底いえないが……」
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「いや、ありがとう……。
+　少し休めるだけでも充分だよ」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希03
+//　　　　＊カードイラスト　ふうま亜希03より流用
+<NAME_PLATE>
+　雑然とした朽ち果てたような部屋に
+どさりと体を横たえる。
+<PAUSE>
+<NAME_PLATE>
+　ふらつく体を支え合うようにして
+メンテナンス通路を逃走し、
+亜希と男はようやくここに辿り着いた。
+<PAUSE>
+<NAME_PLATE>
+　放棄された地下施設の一室。
+<PAUSE>
+<NAME_PLATE>
+　ここが男の潜伏場所らしかった。
+<PAUSE>
+<NAME_PLATE>亜希
+「しかしまぁ……
+　酷い場所だね、こりゃ……」
+<PAUSE>
+<NAME_PLATE>
+　亜希が部屋を見回して嘆息した。
+<PAUSE>
+<NAME_PLATE>
+　隅の方に布を被せられた四つの
+膨らみがあった。
+<PAUSE>
+<NAME_PLATE>
+　何者かの死体である。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ああ。ここで何人も死んだ。
+　俺と一緒に“現場”から逃げた奴らだ」
+<PAUSE>
+<NAME_PLATE>亜希
+「あの薬は……？
+　私は、少しだけ楽になったけれど、
+　効かなかったのかい……？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　メンテナンス通路を逃亡している途中、
+亜希は男から薬を渡された。
+<PAUSE>
+<NAME_PLATE>
+　施設作業員に提供される汚染
+緩和の薬だという。
+<PAUSE>
+<NAME_PLATE>
+　実際それを飲んだ後は、少しだけ
+体の変調が治まった気がしたのだが。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「残念ながら、
+　あれはただの気休めだ」
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「気休め……？」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ああ。あの薬は、
+　魔界で精製された魔薬の一種らしい」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「汚染を防ぐわけでも、
+　傷ついた細胞を治すわけでもない」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「体を騙して、
+　ただ痛みを軽減しているだけ――」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「俺たちを死ぬまで
+　この地獄で働かせるためにな」
+<PAUSE>
+<NAME_PLATE>亜希
+「なるほど……そりゃ最悪だね」
+<PAUSE>
+<NAME_PLATE>
+　亜希が苦笑すると、
+男も何かを諦めたような笑みを見せる。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「これを見ればわかるだろう。
+　俺も………もうすぐ、ここに
+　転がっているあいつらのようになる」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「勿論、このままだとあんたもな」
+<PAUSE>
+<NAME_PLATE>亜希
+「…………」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ボルティゲルンが作業服の袖を
+めくって腕を見せる。
+<PAUSE>
+<NAME_PLATE>
+　そこに現れたものの壮絶さに、
+亜希が眉をしかめて目を逸らす。
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「……教えてくれないか、
+　ボルティゲルンさん。
+　ここで何が起きているのか――」
+<PAUSE>
+<NAME_PLATE>亜希
+「私はそれを知るためにここに来た」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　通路を逃げている途中に
+簡単な自己紹介程度はしていた。
+<PAUSE>
+<NAME_PLATE>
+　しかしそこではまだ
+突っ込んだ話は聞けていない。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「それは俺も願ったりだ。
+　このことは、誰かが外に伝え
+　なければならないんだから――」
+<PAUSE>
+<NAME_PLATE>
+　憔悴しきった顔でそう言うと、
+ボルティゲルンは語り始めた。
+<PAUSE>
+//【背景：ヨミハラ＿米連の地下施設＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc007aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc047a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そもそものきっかけは、
+米連特務機関Ｇがヨミハラへの
+進出を画策していたことだ。
+<PAUSE>
+<NAME_PLATE>
+　そこでＧは、ヨミハラ近辺に
+廃棄されていた地下施設を密かに占領。
+<PAUSE>
+<NAME_PLATE>
+　そこをヨミハラ進出への拠点として
+造り替えようとしたが、
+<PAUSE>
+<NAME_PLATE>
+　そのために持ち込んだエネルギー
+供給用の小型原発が事故で破損。
+<PAUSE>
+<NAME_PLATE>
+　深刻な放射能汚染が発生した――。
+<PAUSE>
+//【背景：ヨミハラ＿米連の地下施設＿潜伏部屋＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc009aより流用
+//nc456a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc456a,IN, 1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>亜希
+「……やっぱり、
+　この体の不調は放射線障害か」
+<PAUSE>
+<NAME_PLATE>
+　亜希が無意識に痙攣を続ける
+自分の手のひらを見る。
+<PAUSE>
+<NAME_PLATE>
+　緩和薬で少しだけ痛みは
+マシになった。
+<PAUSE>
+<NAME_PLATE>
+　だが、体を覆う悪寒と痺れは
+どんどん酷くなるばかりである。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「いや、それだけじゃない。
+　もっと悪い」
+<PAUSE>
+<NAME_PLATE>亜希
+「もっと……？」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「漏れ出した放射線と魔界の瘴気が
+　混じってさらに強毒化している」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「防護服があっても、ここで一か月も
+　働けば全身の細胞が壊れて死ぬ」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ましてや……
+　今の俺たちのように生身なら、
+　三日も保たないだろうな」
+<PAUSE>
+<NAME_PLATE>亜希
+「三日か……。
+　そりゃあ励まされるね」
+<PAUSE>
+<NAME_PLATE>
+　亜希が苦笑する。
+<PAUSE>
+<NAME_PLATE>
+　笑うしかないような最悪の状況だ。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「くく、そうだな……」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「まあ、生身であっても、
+　あの――アイアンサイドのような
+　化け物なら話は別だが」
+<PAUSE>
+<NAME_PLATE>亜希
+「アイアンサイドというと、
+　“紅衣団”の首領……？
+　この施設に関わっているのか？」
+<PAUSE>
+<NAME_PLATE>
+　その不快な名前に亜希が
+顔をしかめた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　魔界の紛争地帯で暴れ回った
+凶悪な傭兵集団のボス。
+<PAUSE>
+<NAME_PLATE>
+　紅衣団は、敵兵や住民に対する
+残虐行為で浴びた“返り血”から、
+その名で呼ばれるようになった。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ああ。アイアンサイドは、
+　この施設の汚染処理を委託された
+　闇業者の元締めだよ」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「魔界の医療技術で異常なまでに
+　肉体を強化していて、ここの
+　汚染すらものともしないらしい」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「……奴が、俺たちスラムの住人を、
+　この地獄に送り込んだ」
+<PAUSE>
+//【背景：首都圏新外郭放水路＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC031aより
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc119a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　小規模とはいえ、東京地下で
+発生した放射能汚染――。
+<PAUSE>
+<NAME_PLATE>
+　これが露見すれば、当然、
+深刻な外交問題になるだろう。
+<PAUSE>
+<NAME_PLATE>
+　そこで特務機関Ｇは、事故を
+隠蔽するためにアイアンサイドら
+闇業者に施設の後処理を委託した。
+<PAUSE>
+<NAME_PLATE>
+　高額の報酬金を支払い、
+“決して表沙汰にしない”ことだけを
+条件にして。
+<PAUSE>
+//【背景：ヨミハラスラム＿昼夜共通】【時間：夜】
+//　※対魔忍アザギＺＥＲＯ_NC109aより流用
+//nc455a
+<UI_DISP>OFF, 0
+<BG>nc455a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　委託された闇業者はヨミハラの
+スラムで人員をかき集めた。
+<PAUSE>
+<NAME_PLATE>
+　“いなくなっても誰も騒がない”
+スラムに暮らす貧しい者たちを。
+<PAUSE>
+<NAME_PLATE>
+　機密保持のため、最初から
+“使い捨て”にして口を封じるつもりで――。
+<PAUSE>
+//【背景：ヨミハラ＿米連の地下施設＿潜伏部屋＿昼夜共通】【時間：夜】
+//　※漂流艦獄クロノス_nc009aより流用
+//nc456a
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc456a,IN, 1000
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>亜希
+「……なるほど。それで、
+　あんたは作業員として
+　この施設にやってきて……」
+<PAUSE>
+<NAME_PLATE>亜希
+「その後、戻ってこないあんたを
+　心配して、グィネヴィアちゃんが
+　探偵に捜索を依頼した」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ああ……。
+　馬鹿なことをしたと思っているよ」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「娘の反対を押し切って、
+　俺はこの仕事に参加した……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ボルティゲルンが沈痛に顔を歪める。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「あまりにも美味い仕事だ。
+　まともじゃないのは覚悟の上だった」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「それでも、あいつに……
+　娘にカネを残してやれるなら」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「あいつの将来のためならば、
+　俺の体なんてどうなってもいい、
+　そう思っていた」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「………だけど、この現場は、
+　俺の想像を超えていた」
+<PAUSE>
+<NAME_PLATE>亜希
+「……………」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「劣悪で、絶望的な作業状況……。
+　当然だよ、表沙汰にできない以上、
+　まともな人員など集められない」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「作業場にいるのは俺を含めて、
+　全員が素人――
+　これで汚染が収まるわけがない」
+<PAUSE>
+<NAME_PLATE>
+　そこでボルティゲルンは
+少数の仲間と現場から逃走した。
+<PAUSE>
+<NAME_PLATE>
+　このままだと無為に人が死んでいく
+――それ以上に、娘が暮らすヨミハラに
+まで汚染が漏れ出す恐れもある。
+<PAUSE>
+<NAME_PLATE>
+　だから、すぐに死ぬと承知で
+彼は防護服を捨てて“外”を目指した。
+<PAUSE>
+<NAME_PLATE>
+　仲間とヨミハラ、
+そして、何より娘のために。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「だが、一緒に逃げた奴らは皆、
+　症状が酷くなってくたばるか」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「……そうじゃなかったら、
+　アイアンサイドと、あの傭兵に
+　行く手を阻まれて殺された」
+<PAUSE>
+<NAME_PLATE>亜希
+「傭兵……」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ああ。ファウストという名の
+　女サイボーグだ」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「施設の出口周辺は、あの傭兵が
+　ドローン部隊と共に徹底的に
+　警備を固めている」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「俺には、アイアンサイドより
+　あのサイボーグ女の方が恐ろしい……」
+<PAUSE>
+<NAME_PLATE>亜希
+「確かに、あいつ、
+　並の奴じゃなかったね……」
+<PAUSE>
+<NAME_PLATE>
+　侵入した際に一瞬交戦したが、
+それだけであのサイボーグ傭兵の
+強力さは理解できた。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「だから、亜希さん……！
+　俺の代わりに、あんたが
+　この施設のことを外に伝えてくれ」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「あんたがどこの組織の者か
+　知らないが――
+　これだけの大事件なんだ」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ノマドでも、他のどこの組織でも、
+　すぐに動いてくれるはず――」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「そして……正しい処理をして……
+　ヨミハラへの汚染を、止めて……」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「お、おい、あんた！？
+　大丈夫か、ボルティゲルンさん！」
+<PAUSE>
+<NAME_PLATE>
+　語り終えた後、
+全ての力を使い果たしたように
+ぐったりと床に体を横たえる。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ああ、すまない……。
+　俺の体は、もう限界なんだ……」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「ポケットにある緩和薬は、
+　あんたが全部持っていってくれ……。
+　俺には、もう効かない……」
+<PAUSE>
+<NAME_PLATE>
+　微かに笑って、その目が閉じていく。
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「あんたは、何としても、
+　ここから逃げてくれ……」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「そして、外に出られたら
+　娘に……すまなかった、と……」
+<PAUSE>
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「馬鹿野郎！！！
+　そんなこと私に言わせるな！
+　謝るんなら自分の口でやるんだね」
+<PAUSE>
+<NAME_PLATE>ボルティゲルン
+「えっ……？」
+<PAUSE>
+<NAME_PLATE>
+　亜希が立ち上がって、
+ボルティゲルンの胸ポケットに入っていた
+緩和薬をまとめてぼりぼりと噛み砕く。
+<PAUSE>
+<NAME_PLATE>亜希
+「当然こんな場所からは逃げてやるよ。
+　――でも、あんたも一緒にな」
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

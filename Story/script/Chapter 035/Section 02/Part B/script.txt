@@ -1,0 +1,720 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダム＿繁華街２＿夜】【時間：夜】
+//　※対魔忍ムラサキ_nc013bより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc011a,IN, 1000
+<NAME_PLATE>
+　東京キングダム・歓楽街。
+<PAUSE>
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「――――」
+<PAUSE>
+//　※立ち絵
+//　　ギャング姉御
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　闇の街の通りを何食わぬ顔で歩く
+ギャング風の女がいた。
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（おほほ。すっきりしたよ～♪
+　あの対魔忍どもの驚いた顔っ！）
+<PAUSE>
+<NAME_PLATE>
+　その正体は、ハトを使った
+マジックで見事に火遁衆から逃れた
+ミスター・フール。
+<PAUSE>
+<NAME_PLATE>
+　得意の変身で一般人に化け、
+このまま追跡をやり過ごそうという
+狙いである。
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（もう大分満足したからね～。
+　これ以上遊ぶのも危険だし、
+　そろそろ手仕舞いにするかねぇ？）
+<PAUSE>
+<NAME_PLATE>
+　などと、ギャング女に化けたピエロが
+内心でニタニタしながら考えている。
+<PAUSE>
+<NAME_PLATE>
+　ミスター・フールは自在に
+姿を変える事ができる魔族である。
+<PAUSE>
+<NAME_PLATE>
+　その能力は非常に高く、
+彼が本気で身を隠そうとすれば
+発見することはほぼ不可能。
+<PAUSE>
+<NAME_PLATE>
+　ではなぜ、今日、火遁衆が
+彼を追跡できたかというと――。
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（おほほ。やられっぱなしじゃあ
+　ピエロの面目に関わるからねえ。
+　ほんとざまあみろって感じだよ～☆）
+<PAUSE>
+<NAME_PLATE>
+　つまり憂さ晴らしである。
+<PAUSE>
+<NAME_PLATE>
+　何度も対魔忍にしてやられて、
+このまま引っ込むなんて我慢ならない。
+<PAUSE>
+<NAME_PLATE>
+　そこでわざと姿を晒すことで
+対魔忍たちを引き寄せ、
+散々からかって遊んでやった。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　しかしそれも大体気が済んだ。
+<PAUSE>
+<NAME_PLATE>
+　あとはムリに危険をおかさず、
+大人しく身を隠して
+次の悪戯の仕込みでも――。
+<PAUSE>
+<NAME_PLATE>？？？
+「いたー！！　あの女の人！
+　あの女の人がピエロだよっ！」
+<PAUSE>
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミスター・フール
+「ふわっ！？」
+<PAUSE>
+<NAME_PLATE>
+　突然、人ごみの中から
+ビシッと正体が言い当てられた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm313,1000
+<GROUP>
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「ほほー！？　こいつか！？
+　この女があのクソピエロなのか！？」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華03（バニー衣装）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>焔
+「間違ったら大事だぞウサ公っ！
+　このままぶっ殺して大丈夫か！？」
+<PAUSE>
+//　※立ち絵
+//　　眞田焔02（晴れ着）
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0307a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>望月卯奈
+「うんっ！　バッチリ平気だよー！
+　だってこの人、心臓の音が全然違う！」
+<PAUSE>
+//　※立ち絵
+//　　望月卯奈02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミスター・フール
+（なっ、なんだとーーーーっ！！？）
+<PAUSE>
+<NAME_PLATE>
+　ミスター・フールの変身を見抜いたのは、
+五車の学生対魔忍・望月卯奈。
+<PAUSE>
+<NAME_PLATE>
+　彼女が焔たちが用意した
+『助っ人』の一人。
+<PAUSE>
+<NAME_PLATE>
+　卯奈はウサギの力を身に宿した
+獣遁使いの対魔忍であり、
+抜群に優れた聴覚を持っている。
+<PAUSE>
+<NAME_PLATE>
+　そしてミスター・フールは何にでも
+変身可能な肉体を持つ魔族である。
+<PAUSE>
+<NAME_PLATE>
+　外見を完璧に変化させても、
+体の中身までは変わらない。
+<PAUSE>
+<NAME_PLATE>
+　特異な肉体を持つがゆえ、
+その心臓は通常の人間や魔族とは
+全く異なる音を響かせている。
+<PAUSE>
+<NAME_PLATE>
+　そのわずかな心音の違いを
+卯奈は鋭敏な聴覚で判別し、
+<PAUSE>
+<NAME_PLATE>
+　ビシッと一発でピエロが化けた
+人間を言い当てたのだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m007a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「あ、あなたたち……？
+　いきなり出てきて
+　何を言っているの……！？」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（い、一体どういういことだ！？
+　なぜあんなマヌケ面の小娘に
+　私の完璧な変身が見破られて！！？）
+<PAUSE>
+<NAME_PLATE>
+　一方、平静を装いつつ内心で
+大混乱しているミスター・フール。
+<PAUSE>
+<NAME_PLATE>
+　今までも対魔忍の策略によって
+正体を暴かれたことはあった。
+<PAUSE>
+<NAME_PLATE>
+　しかしこうまでハッキリと
+見破られるとは……！？
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0086a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0307a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「うーん。なんか
+　当人は違うって言ってるなぁ？
+　本当に合ってるのかウサ公」
+<PAUSE>
+<NAME_PLATE>卯奈
+「えー？　合ってると思うけどなぁ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>舞華
+「まあ、とりあえず
+　一発殴ってみましょうよ姉御。
+　合ってたら正体を現しますぜ、たぶん」
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>焔
+「そうだなぁ。
+　もし間違ってたら謝るってことで。
+　死なない程度にボコってみるか」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「ちょ、ちょっとあなたたちっ！！？」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+（ひーーーーっ！！！？
+　なんなんだこの野蛮人どもっ！！？
+　かくなる上は、別の人間に――）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼん☆
+<PAUSE>
+<NAME_PLATE>舞華＆焔
+「あっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　再び七色の煙が上がる。
+<PAUSE>
+<NAME_PLATE>
+　辺りが煙幕に包まれた一瞬の隙に、
+別の通行人の姿にチェンジする。
+<PAUSE>
+<BG>nc011a,IN, 500
+<ACTOR>0,ts_m036a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク（偽）
+「へっへっへ。どこかに
+　オレに犯されたいメス豚はいないのか」
+<PAUSE>
+//　※立ち絵
+//　　オーク
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>卯奈
+「あいつ！！」
+<PAUSE>
+<NAME_PLATE>
+　またしても卯奈がビシッと
+一発で言い当てた。
+<PAUSE>
+<NAME_PLATE>オーク（偽）
+（はーーーー！！！？
+　ど、どういうことなんだ！？
+　ではこれでどうだ！！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼん☆
+<PAUSE>
+<NAME_PLATE>舞華＆焔
+「あっ！？」「またか！？」
+<PAUSE>
+<BG>nc011a,IN, 500
+<ACTOR>0,o_t004b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>土橋権左（偽）
+「ふぅ。街の見回りも楽じゃねえな。
+　おっと、これはなんの騒ぎだい
+　お嬢ちゃんたち」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左01＿執事衣装
+//　　　　＊カードイラストより流用
+<NAME_PLATE>卯奈
+「あのエッチなおじさん！」
+<PAUSE>
+<NAME_PLATE>権左（偽）
+（なにーーーーっ！！！）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼん☆
+<PAUSE>
+<BG>nc011a,IN, 500
+<ACTOR>0,ts_m204b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>白熊タロー（偽）
+「がうがう。
+　ぼくは悪い白熊じゃないよ」
+<PAUSE>
+//　※立ち絵
+//　　白熊タロー＿正面顔
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>卯奈
+「次はあのクマの人！！」
+<PAUSE>
+<NAME_PLATE>白熊タロー（偽）
+（どういうことだーーーー！！？）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼん☆
+<PAUSE>
+//　※白熊タロー立ち絵消えます。
+<NAME_PLATE>
+　誰に化けても一瞬でバレてしまう。
+<PAUSE>
+<BG>nc011a,IN, 500
+<NAME_PLATE>
+　そうこうしているうちに火遁衆に
+取り囲まれ、通行人に化ける
+ことも難しくなっている。
+<PAUSE>
+<ACTOR>0,chr_t0251a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>舞華
+「やるじゃねえか卯奈っ！！
+　へへっ、どうやらてめえも
+　年貢の納め時だなぁクソピエロ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「むぐぐ……！？
+　だっ、誰があんたらみたいな
+　お間抜け集団に……！」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ぼん☆
+<PAUSE>
+<NAME_PLATE>焔
+「あっ！！？
+　こいつ、また――」
+<PAUSE>
+<NAME_PLATE>
+　苦し紛れの煙幕だ。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　辺りが煙に包まれた瞬間、
+ミスター・フールは唯一の退路だと
+思われた背後の裏路地へと走る。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+//【背景：東京キングダム＿裏路地＿夜】【時間：夜】
+//　※対魔忍紅_NC005aより流用
+<UI_DISP>OFF, 500
+<BG>nc062a,IN, 1000
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<UI_DISP>ON, 0
+<NAME_PLATE>七瀬舞
+「――ピエロさん。
+　残念ですがここは行き止まりです。
+　紙気・防衛陣！」
+<PAUSE>
+//　※立ち絵
+//　　七瀬舞
+//　　　　＊カードイラストより流用
+<NAME_PLATE>篠原まり
+「えいっ！！
+　土遁の術“通せんぼ”！！」
+<PAUSE>
+//　※立ち絵
+//　　【土遁対魔忍】篠原まり立ち絵
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオオ！！！！
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「ひいっ！！？
+　なっ、なんだこれはっ！？」
+<PAUSE>
+<NAME_PLATE>
+　逃げ込んだ裏路地に突然、
+紙と土遁による壁が出現した。
+<PAUSE>
+<BG>nc062a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0119a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　舞華たちが
+用意した『助っ人』の残り二人。
+<PAUSE>
+<NAME_PLATE>
+　篠原まりと七瀬舞。
+<PAUSE>
+<NAME_PLATE>
+　今回の『助っ人』三人は、
+前の試験任務で知り合った舞華の
+友人たちである。
+<PAUSE>
+<NAME_PLATE>
+　そのうちの一人、七瀬舞は
+火遁衆リーダーの焔とも
+密かに仲が良かったりする。
+<PAUSE>
+<NAME_PLATE>
+　そんな関係から今回、
+厄介な変身ピエロを追い込むための
+共同作戦が行われたのだった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「あわ、あわわわ……。
+　こんなことはあり得ない、
+　こ、この私が……」
+<PAUSE>
+<NAME_PLATE>
+　狭い路地裏――その行く手を
+塞がれて呆然とするミスター・フール。
+<PAUSE>
+<NAME_PLATE>
+　もう逃げ場はない。
+<PAUSE>
+<NAME_PLATE>
+　変身しようにも周囲には誰もいない。
+<PAUSE>
+<NAME_PLATE>
+　今ここで使えるような
+マジックの用意もない。
+<PAUSE>
+<NAME_PLATE>
+　まさに絶体絶命――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「さぁてクソピエロ！！！
+　てめえには舐めた真似したツケ、
+　たっぷり払ってもらわねえとなァ！」
+<PAUSE>
+//　※立ち絵
+//　　神村舞華03（バニー衣装）
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　眞田焔02（晴れ着）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>焔
+「ククク。覚悟は決まったか！？」
+<PAUSE>
+<NAME_PLATE>
+　ボキボキと拳を鳴らして
+二人がピエロの前に立つ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<ACTOR>0,ts_m203b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミスター・フール
+「うぐぐぐぅ！！
+　こ、このバカ者どもがっ！！」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「武器も持たずイキがりおって！
+　良いだろう！！　ならば、
+　私の真の力で食い殺して――！！」
+<PAUSE>
+//　※立ち絵
+//　　ミスター・フール＿差分
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　ピエロの丸い体から
+強大な魔力が沸き上がる。
+<PAUSE>
+<SE_PLAY>se003
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　凶悪な魔族の本性をむき出しにして
+ミスター・フールが襲い掛かり――。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0086a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>焔
+「あぁ！？　武器が何だァ！？
+　関係ねえぜ！！！　なあ舞華！？」
+<PAUSE>
+<NAME_PLATE>舞華
+「おう姉御っ！！　こんな
+　クソピエロはステゴロで十分だ！！
+　おらおらおらおらおらァ！！」
+<PAUSE>
+<NAME_PLATE>ミスター・フール
+「はぎぃ！？
+　ひいいいいいいいいいいいいいい
+　いいいいいいいっ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ドゴオオオオオオオオオオン！！！
+<PAUSE>
+<NAME_PLATE>
+　ヤンキー娘二人の鉄拳制裁で
+無様に吹っ飛ばされるミスター・フール。
+<PAUSE>
+<NAME_PLATE>
+　思い切り
+壁に叩きつけられて失神――。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc062a,IN, 500
+<NAME_PLATE>ミスター・フール
+「はぐぅぅ……。
+　もうこりごりですぅ……がくっ」
+<PAUSE>
+<NAME_PLATE>
+　これにて一件落着、長らく
+闇の街を騒がせた害悪ピエロも、
+ついに御用となった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>0,chr_t0086a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>焔
+「わはははっ！！
+　まいったか、このクソピエロ！！」
+<PAUSE>
+<NAME_PLATE>焔
+「――てめえの敗因はたった一つ！
+　あたしらを甘く見た事さ！！」
+<PAUSE>
+<NAME_PLATE>
+　ビシッと焔が見栄を切る――と、
+そこに舞が食いついてくる。
+<PAUSE>
+<ACTOR>0,chr_t0086a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>舞
+「あっ！？　焔さん、
+　今のセリフは、あの名作マンガの
+　あの場面ですねっ！？」
+<PAUSE>
+<NAME_PLATE>焔
+「おう舞っ！！
+　やっぱりお前も読んでたか！？」
+<PAUSE>
+<NAME_PLATE>
+　得意げに笑う焔。
+<PAUSE>
+<NAME_PLATE>
+　舞と焔は大の漫画好きということで
+密かに意気投合し、休日には一緒に
+本屋巡りをするような仲である。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0119a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>まり
+「なになに？　お二人とも、
+　なんのお話ですか！？」
+<PAUSE>
+<NAME_PLATE>焔
+「おう、バトル漫画の話だぜ！」
+<PAUSE>
+<NAME_PLATE>焔
+「バトル漫画は実際の
+　戦いの参考にもなるからなぁ！
+　お前も読んでおけよ、まり！！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0207a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>舞
+「ふふ、そうですよね。
+　でも本当は、焔さんの
+　好きなジャンルは――」
+<PAUSE>
+<NAME_PLATE>焔
+「！？　お、おい舞っ、
+　お前それは言うなって……！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0119a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>まり
+「ええっ？　お話が見えない、
+　っていうか舞ちゃんはいつの間に
+　焔さんとそんな仲良しにっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　などと篠原まりもまじえて
+突発のマンガ談義を始めている。
+<PAUSE>
+<NAME_PLATE>
+　そして、そんな仲間たちを見て
+ほっと一息の舞華。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0251a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0307a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>舞華
+「しかし、
+　今日は助っ人ありがとな。
+　助かったぜ、卯奈っ！」
+<PAUSE>
+<NAME_PLATE>
+　戦闘力はともかく、
+ミスター・フールの擬態能力は
+恐るべきものである。
+<PAUSE>
+<NAME_PLATE>
+　卯奈の活躍がなければ、
+あの迷惑なピエロを捕らえるのは
+まだまだ先になっていたはずだ。
+<PAUSE>
+<NAME_PLATE>卯奈
+「えへへー。
+　お役に立てて何よりだよ。
+　でも舞華ちゃん、ちょっと……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>舞華
+「ん？　どうした卯奈」
+<PAUSE>
+<NAME_PLATE>
+　舞華が首を傾げた。
+<PAUSE>
+<NAME_PLATE>
+　いつも元気で明るい卯奈が
+深刻な顔を見せていた。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<NAME_PLATE>卯奈
+「実はねえ。今、
+　ピエロを捕まえましたーって
+　報告してたんだけど……」
+<PAUSE>
+<NAME_PLATE>舞華
+「おう。何かあったのか？」
+<PAUSE>
+<NAME_PLATE>卯奈
+「うん……。五車の方で、
+　先生やふうま君たちが大慌て
+　してるみたいで……」
+<PAUSE>
+<NAME_PLATE>
+　さっきまで通信していたらしき
+端末を手に卯奈が顔を曇らせる。
+<PAUSE>
+<NAME_PLATE>卯奈
+「鹿之助くんと、上原先生が、
+　任務の途中で行方不明に
+　なったって――」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>舞華
+「なんだと……！？」
+<PAUSE>
+//→Section２終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

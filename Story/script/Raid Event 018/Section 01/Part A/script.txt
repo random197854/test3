@@ -1,0 +1,1262 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：ヨミハラ繁華街＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bより流用
+<BGM_PLAY>bgm208,1000
+<BG>nc111a,IN, 1000
+<ACTOR>0,chr_t0284b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河さくら
+「よってらっしゃいみてらっしゃい♪
+　クリスマスケーキ、残り５個ですよぉ！！」
+<PAUSE>
+//　※立ち絵
+//　　トナカイ衣装の若いさくら
+//　　　　＊【Ｘｍａｓアルバイター】井河さくらを加工して流用
+//　　　　＊看板の文字を『クリスマスケーキ販売中！』と変えてください
+<NAME_PLATE>さくら
+「大好評の限定クリスマスケーキが、
+　絶賛販売中！
+　……ほら、ふうまくんも声出して！」
+<PAUSE>
+<NAME_PLATE>俺
+「俺は品出しと梱包担当だ。
+　ていうか、残り５個じゃないぞ？
+　まだ冷蔵庫に沢山……」
+<PAUSE>
+<NAME_PLATE>さくら
+「しっ。こういうのは、
+　限定感を煽った方が売れるんだよ！
+　そこのオークさん、ケーキいかが！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ちゃっかりしてるぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ここはヨミハラ、
+静流先生が営む店の前。
+<PAUSE>
+<NAME_PLATE>
+　トナカイ服に身を包んだ若いさくらが、
+声を張り上げて呼び込みをしている。
+<PAUSE>
+<ACTOR>0,chr_t0283a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>穂稀なお
+「ふうま、おしゃべりしてないで
+　梱包も頼むよ」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス】穂稀なお
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「あ、すいません！」
+<PAUSE>
+<NAME_PLATE>
+　穂稀なお先輩は店内のレジ担当。
+俺はケーキのラッピングと品出し担当だ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「ふう。
+　任務より忙しいぜまったく」
+<PAUSE>
+<NAME_PLATE>
+　そもそも、なんで
+俺たちがヨミハラでケーキ販売の
+手伝いをしているかというと。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　元々、俺となお先輩は任務のために、
+二人でヨミハラへやってきたのだ。
+<PAUSE>
+<NAME_PLATE>
+　任務は滞りなく終わり、
+静流先生の店へ立ち寄ったところ、
+なんとさくらがバイトしていた。
+<PAUSE>
+<NAME_PLATE>
+　――言うまでもないが、このさくらは、
+異次元からやってきて俺の家に住み着いている
+若いさくら。
+<PAUSE>
+<NAME_PLATE>
+　事情が事情なので、
+彼女の存在は一部を除いて秘密……
+のはずなのだが。
+<PAUSE>
+<ACTOR>0,chr_t0284b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「バイトを探してたら、静流さんが
+　クリスマスケーキ販売のお手伝いしない？
+　って誘ってくれてさ！」
+<PAUSE>
+//　※立ち絵
+//　　トナカイ衣装の若いさくら
+//　　　　＊【Ｘｍａｓアルバイター】井河さくらを加工して流用
+//　　　　＊看板の文字を『クリスマスケーキ販売中！』と変えてください
+<NAME_PLATE>さくら
+「時給もいいし楽しいし、
+　ラッキーだったよ！」
+<PAUSE>
+<NAME_PLATE>
+　静流先生にスカウト（？）され、
+ヨミハラの店を臨時で
+手伝うことになったさくら。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　そのケーキは予想以上の売れ行きで、
+任務の帰りに訪れた俺となお先輩も、
+急遽手伝いを頼まれたというわけだ。
+<PAUSE>
+<NAME_PLATE>俺
+（やれやれ、静流先生にはすっかり
+　さくらのことがバレてるな）
+<PAUSE>
+<NAME_PLATE>俺
+（ということは勿論アサギ校長にも……）
+<PAUSE>
+<NAME_PLATE>
+　恐ろしい予感がするが、
+深く考えないことにする。
+とりあえず今はケーキの梱包だ。
+<PAUSE>
+//【背景：静流の店＿夜】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<ACTOR>0,chr_t0283a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>なお
+「お待たせしました、ホールケーキ一個です。
+　え、カワイイ？　僕が？
+　ふふ、ありがとうございます♪」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス】穂稀なお
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　なお先輩からケーキを受け取って
+顔を赤くする男を見送ると、
+やっと少し客が途切れる。
+<PAUSE>
+<NAME_PLATE>俺
+「ふうー。疲れましたね。
+　なお先輩、大丈夫ですか？
+　めっちゃナンパされてましたけど」
+<PAUSE>
+<NAME_PLATE>なお
+「平気平気、慣れてるさ」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩はさらりと言って、
+乱れたケープの裾を直した。
+<PAUSE>
+<NAME_PLATE>なお
+「それにしても、
+　さくら先生にそっくりだよねあの子」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は、外で元気に呼び込む
+さくらの声を聴いて興味深げにつぶやく。
+<PAUSE>
+<NAME_PLATE>なお
+「名前も同じさくらなんだって？
+　すごい偶然もあるもんだよね」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、あー、流行ってるんですかねえ？
+　あの髪型と名前……あはは……」
+<PAUSE>
+<NAME_PLATE>
+　俺は苦しい言い訳で誤魔化す。
+<PAUSE>
+<NAME_PLATE>俺
+（さすがのなお先輩も、異次元の同一人物とは
+　思わないだろうが……
+　なんとも説明しづらいな）
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「そ、それより、
+　なお先輩もその服似合ってますね！」
+<PAUSE>
+<NAME_PLATE>なお
+「ふふ、いいでしょ？」
+<PAUSE>
+<NAME_PLATE>なお
+「せっかく任務が終わったのに
+　店を手伝うなんて嫌だったけれど、
+　可愛い服を着られるなら話は別だよ」
+<PAUSE>
+<NAME_PLATE>
+　話を逸らすべく先輩の服を褒めると、
+なお先輩は嬉しそうにサンタ服で
+くるりと回ってみせる。
+<PAUSE>
+<NAME_PLATE>
+　どこで手に入れたのか、
+脇や背中を大胆に露出した
+きわどいデザイン。
+<PAUSE>
+<NAME_PLATE>
+　それを完璧に着こなすなお先輩が、
+男だとは未だに信じられない。
+<PAUSE>
+<NAME_PLATE>なお
+「君も着たらいいのに」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、俺はいいですよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　と、話が別方向に怪しくなってきた
+ところへ。
+<PAUSE>
+<ACTOR>0,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>高坂静流
+「二人とも助かっちゃうわ。
+　もう少し頑張ってね、
+　晴れて完売したらパーティしましょ♪」
+<PAUSE>
+//　※立ち絵
+//　　【聖夜の花】高坂静流
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　店の奥から、
+これまた華やかなサンタ衣装に身を包んだ
+高坂静流先生が現れた。
+<PAUSE>
+<NAME_PLATE>
+　先生は五車学園の教師にして、
+潜入捜査を得意とするプロ対魔忍。
+<PAUSE>
+<NAME_PLATE>
+　彼女は潜入の為にこの店の店主に収まり、
+ヨミハラの情報を収集したり、
+人脈を築いたりしているのだ。
+<PAUSE>
+<NAME_PLATE>
+　また、今回の俺たちのように、
+対魔忍たちがヨミハラに潜入するときの
+拠点としても機能している。
+<PAUSE>
+<NAME_PLATE>俺
+「今更だけど、この店ってバーですよね。
+　なんでケーキ売ってるんですか？」
+<PAUSE>
+<NAME_PLATE>静流
+「料理上手の知り合いが、クリスマスに特別に
+　ケーキを置いてくれないかって
+　売り込んできたの」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ」
+<PAUSE>
+<NAME_PLATE>静流
+「なんでも居候を大勢抱えて金欠で、
+　このままじゃクリスマスに
+　チキンも買えないとか何とか……」
+<PAUSE>
+<NAME_PLATE>静流
+「それならってことで試しに
+　少し売ってみたの。
+　そうしたらこれが大好評で」
+<PAUSE>
+<NAME_PLATE>静流
+「販売役のバイトちゃんも見つかったし、
+　本格的に販売することにしたのよ」
+<PAUSE>
+<NAME_PLATE>静流
+「たくさん売れたら、ふうまくんたちにも
+　ボーナスあげるわよ。
+　だから頑張って！」
+<PAUSE>
+<NAME_PLATE>俺
+「やれやれ……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　げんなりしてみせたが、
+ボーナスと聞いては内心まんざらでもない。
+俺も金が入用になるかもしれないからだ。
+<PAUSE>
+<NAME_PLATE>
+　年末商戦にあわせて
+発売される期待の新型ゲーム機、
+『アソビステーション５』。
+<PAUSE>
+<NAME_PLATE>
+　発売前からその人気は凄まじく、
+厳しい抽選を勝ち抜かないと、
+予約すらできないという有様だ。
+<PAUSE>
+<NAME_PLATE>
+　俺ももちろん抽選に申し込んである。
+かなりの競争率なので、
+ダメ元ではあるのだが。
+<PAUSE>
+<NAME_PLATE>
+　もし当たったらその代金はもちろん、
+ゲームソフトも欲しい――というわけで、
+それなりの大金が必要なのである。
+<PAUSE>
+<NAME_PLATE>俺
+（せっかく当選したのに金が足りない！
+　などという事態だけは避けたいからな）
+<PAUSE>
+<NAME_PLATE>
+　俺がまだ見ぬアソビステーション５に
+思いを馳せていると。
+<PAUSE>
+<ACTOR>0,chr_t0080a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>リリス
+「ケーキデリバリー、
+　追加で三件注文入りました！」
+<PAUSE>
+//　※立ち絵
+//　　【魔女だってクリスマス】リリス
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　ホウキに乗って、
+サンタ姿の少女が飛び込んできた。
+<PAUSE>
+<ACTOR>0,chr_t0080a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0176a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>静流
+「了解よ♪
+　ふうまくん、包装おねがいね」
+<PAUSE>
+<NAME_PLATE>俺
+「へいへいっと……
+　って自称大魔女のリリスじゃないか」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0080a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　見覚えのある姿だと思ったら、
+クリスマスやら正月やら、イベントごとで
+よく出会う魔女リリスである。
+<PAUSE>
+<NAME_PLATE>
+　本名はリリス……ビンダー……
+まあ何とかいう長い名前で、
+祖母の名跡を継いで大魔女の修行中らしい。
+<PAUSE>
+<ACTOR>0,chr_t0080a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0176a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>静流
+「リリスちゃんは
+　ケーキのデリバリーを手伝ってくれてるの」
+<PAUSE>
+<NAME_PLATE>リリス
+「人間界では魔女は宅配をするもの、
+　とアニメで見ました！
+　ネコも連れてるしばっちりです！」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0080b,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ベリリク
+『おいリリス、私は猫じゃなくて喋れる犬……
+　でもなくて古代龍なんだが……
+　はあ、もういい』
+<PAUSE>
+<NAME_PLATE>
+　ネコ、と指さされた古代龍ベリリクは、
+疲れた顔でため息をつく。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0080a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　俺はすっかり慣れた手で、
+ケーキを三つ包み終えると、
+リリスに手渡した。
+<PAUSE>
+<NAME_PLATE>俺
+「傾かないように気を付けてくれよ」
+<PAUSE>
+<NAME_PLATE>リリス
+「どーんと任せてください！
+　崩れたって魔法ですぐ復活ですから！
+　よーし行くよベリリク！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　リリスはケーキをほうきに結び、
+アニメに使われていた軽快な歌を
+口ずさみながら窓から飛んでいく。
+<PAUSE>
+<NAME_PLATE>
+　揺れるケーキの袋を、
+ベリリクが必死に押さえているのが見えた。
+<PAUSE>
+<NAME_PLATE>俺
+「大丈夫なのか……」
+<PAUSE>
+<ACTOR>0,chr_t0285a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンリード・ボニー
+「にぎやかだな」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス】アンリード・ボニー
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　またもやサンタ装束の美女が、
+大きな袋を引きずって入ってきた。
+<PAUSE>
+<ACTOR>0,chr_t0285a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0176a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>静流
+「あらアンリードいらっしゃい」
+<PAUSE>
+<NAME_PLATE>アンリード
+「やあ静流、飲みに来たよ」
+<PAUSE>
+<NAME_PLATE>俺
+（あれは……）
+<PAUSE>
+<NAME_PLATE>
+　いつぞやシュヴァリエとともに同行した、
+銃使いのアンリード・ボニーだ。
+<PAUSE>
+<NAME_PLATE>
+　彼女もまた大胆な、
+セクシー極まるサンタ服に身を包んでいる。
+<PAUSE>
+<NAME_PLATE>
+　が、それよりも気になるのは
+彼女の持つ大きな細長い袋。
+<PAUSE>
+<NAME_PLATE>俺
+（なんか、モゾモゾ動いてないか……？
+　鎖めっちゃ巻いてあるし……）
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,chr_t0285a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　じっと袋を見る俺の視線に気づき、
+アンリードがこちらへやってくる。
+<PAUSE>
+<NAME_PLATE>アンリード
+「いつかの隊長さんじゃないの。
+　静流んとこの子だったのかい？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、いや、臨時のバイトだ。
+　それより、その袋って……」
+<PAUSE>
+<NAME_PLATE>アンリード
+「ああ、仕事帰りなんだ。
+　獲物を見ながら一杯やるのが
+　仕事の後の楽しみだからね♪」
+<PAUSE>
+<NAME_PLATE>
+　仕事。
+アンリードの仕事といえば賞金稼ぎ、
+つまり“獲物”とは……
+<PAUSE>
+<NAME_PLATE>俺
+（まさかその袋の中身って……）
+<PAUSE>
+<NAME_PLATE>
+　思わず訊きそうになったが、
+闇の仕事に口を出すのも野暮というものだ。
+<PAUSE>
+<NAME_PLATE>俺
+「随分と決まった格好だが、
+　その衣装で仕事だったのか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は袋から視線をそらし、
+気合の入ったサンタ衣装について尋ねる。
+<PAUSE>
+<NAME_PLATE>アンリード
+「ああ、今度の“獲物”のやつ、
+　隠れるのがうまくて、
+　なかなか尻尾を出さなかったんだが」
+<PAUSE>
+<NAME_PLATE>アンリード
+「とある闇のクリスマスパーティに
+　顔を出すって情報が入ってな」
+<PAUSE>
+<NAME_PLATE>アンリード
+「そこへこの服で潜入してとっ捕まえた。
+　油断して鼻の下伸ばしたところを
+　パシッとね」
+<PAUSE>
+<NAME_PLATE>
+　アンリードは椅子に腰かけながら、
+ドサッと袋を床に投げ出す。
+呻き声が聞こえたのは気のせいだろうか。
+<PAUSE>
+<NAME_PLATE>アンリード
+「ふうん、ケーキ売ってんのか」
+<PAUSE>
+<NAME_PLATE>アンリード
+「せっかくのクリスマスだし、
+　私もたまには酒じゃなくて
+　ケーキとコーヒーでも頂こうかね」
+<PAUSE>
+<NAME_PLATE>静流
+「はーい♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　静流先生がキッチンへ戻っていくと、
+入れ替わりにさくらが駆け込んできた。
+<PAUSE>
+<ACTOR>0,chr_t0284b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「ふうまくんみてみて！」
+<PAUSE>
+//　※立ち絵
+//　　トナカイ衣装の若いさくら
+//　　　　＊【Ｘｍａｓアルバイター】若いさくらを加工して流用
+<NAME_PLATE>
+　なにやら興奮した様子で、
+扉の外を指さす。
+<PAUSE>
+<NAME_PLATE>俺
+「どうしたんだ？」
+<PAUSE>
+<NAME_PLATE>さくら
+「雪！　雪が降ってきたの！」
+<PAUSE>
+<NAME_PLATE>俺
+「そりゃ冬だからな、雪くらい……」
+<PAUSE>
+<NAME_PLATE>俺
+「って雪？！　そんなばかな」
+<PAUSE>
+//【背景：ヨミハラ繁華街＿雪＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bを加工した背景（マップ02で使用）を流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<WAIT>1000
+<BG>nc112a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　外へ飛び出してみると、
+確かに雪が降っていた。
+<PAUSE>
+<NAME_PLATE>
+　それも結構な本降りで、
+街は既にうっすら白くなっている。
+<PAUSE>
+<ACTOR>0,chr_t0283a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「そんな……ここは地底だよ。
+　雪なんて降るはずないのに」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス】穂稀なお
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　なお先輩も驚いた目で空を見上げる。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ヨミハラは地下三百メートルの地底都市。
+一年を通して気温はほとんど変わらず、
+<PAUSE>
+<NAME_PLATE>
+　地下水による雨はあっても、
+雪は降るはずがないのだ。
+<PAUSE>
+<ACTOR>0,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「始まったわね♪」
+<PAUSE>
+//　※立ち絵
+//　　【聖夜の花】高坂静流
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　俺たちが呆気に取られていると、
+静流先生が店から出てきて、
+嬉しそうに空を見上げた。
+<PAUSE>
+<NAME_PLATE>俺
+「始まったとは？」
+<PAUSE>
+<NAME_PLATE>静流
+「今年の一大イベント、
+　ホワイトクリスマス・イン・ヨミハラよ♪」
+<PAUSE>
+<NAME_PLATE>俺
+「イベント……？」
+<PAUSE>
+<NAME_PLATE>静流
+「これは人工の雪なの。
+　少し前、町内会に降雪機の寄付があってね」
+<PAUSE>
+<NAME_PLATE>静流
+「せっかくだからクリスマス前に使おうって、
+　町内会長が決定したのよ。
+　地底都市に雪なんてロマンチックでしょ？」
+<PAUSE>
+<NAME_PLATE>俺
+「ヨミハラの町内会長って言うと……」
+<PAUSE>
+<NAME_PLATE>静流
+「うふふ、私♪」
+<PAUSE>
+<NAME_PLATE>
+　そう、静流先生はバーで人脈を広げた上、
+おっさんたちを色香で誑し込み、なんと
+ヨミハラの町内会長に収まってしまったのだ。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラ側としても、どこの勢力にも
+属していない（ことになっている）静流先生を
+町内会長に据えるのは都合がよかったらしい。
+<PAUSE>
+<NAME_PLATE>なお
+「なるほど、さすが静流先生。
+　すてきなアイデアですね」
+<PAUSE>
+<NAME_PLATE>俺
+（現地に溶け込む諜報対魔忍は、
+　ここまでするんだな……）
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　地下に雪の舞う幻想的な風景に、
+闇の住人たちも歓声をあげ、
+クリスマスムードが盛り上がり始めた。
+<PAUSE>
+<ACTOR>0,chr_t0284b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>さくら
+「風流、風流♪
+　こりゃケーキもたっくさん売れそうだね！」
+<PAUSE>
+//　※立ち絵
+//　　トナカイ衣装の若いさくら
+//　　　　＊【Ｘｍａｓアルバイター】若いさくらを加工して流用
+<NAME_PLATE>さくら
+「というわけでもうひと頑張り！
+　ホワイトクリスマスのお供に！
+　おいしいケーキいかがですかー！！」
+<PAUSE>
+<NAME_PLATE>
+　ちらちらと舞い散る雪の中に、
+さくらの声が響き渡る。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして数十分後。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿雪＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bを加工した背景（マップ02で使用）を流用
+<BGM_PLAY>bgm509,1000
+<BG>nc112a,IN, 1000
+<ACTOR>0,chr_t0284b,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>さくら
+「げ、ゲーギいががでずが……ずび」
+<PAUSE>
+//　※立ち絵
+//　　トナカイ衣装の若いさくら
+//　　　　＊【Ｘｍａｓアルバイター】若いさくらを加工して流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0283a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「ねえふうま、
+　いくら何でも寒すぎだと思わないかい？」
+<PAUSE>
+//　※立ち絵
+//　　【クリスマス】穂稀なお
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「うう、そうですよね……」
+<PAUSE>
+<NAME_PLATE>
+　わずかな間に冷え込みはどんどん強まり、
+店の中にいた俺となお先輩も、
+異様な寒さに驚いて外へ出てきたのだった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　さくらは呼び込みを頑張っているが、
+その手はガクガクと震え、
+看板は吹雪に奪われそうである。
+<PAUSE>
+<ACTOR>0,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ずいぶんな大雪ね。
+　さくらちゃん、一旦中へ入っていいわよ」
+<PAUSE>
+//　※立ち絵
+//　　【聖夜の花】高坂静流
+//　　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「静流先生！
+　さすがにこれは降らせすぎじゃないですか？
+　人工の雪なんですよね」
+<PAUSE>
+<NAME_PLATE>静流
+「そうねえ……。
+　降雪機の様子を見てこようかしら」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　雪はどんどん白く降り積もり、
+このままではヨミハラが埋まりそうだ。
+<PAUSE>
+<ACTOR>0,mi_t002a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「ひいい！　たいへんたいへん！！
+　大変っすよ会長！！」
+<PAUSE>
+//　※立ち絵
+//　　ミナサキ＿サンタ衣装
+//　　　　＊決戦アリーナ【黒きサンタ】ミナサキより流用
+<NAME_PLATE>
+　と、
+雪けむりを上げながら、ものすごい勢いで
+走ってくる小さな影がある。
+<PAUSE>
+<NAME_PLATE>
+　お騒がせ魔族の一人、
+自称ヤタガラス族のミナサキだ。
+<PAUSE>
+<NAME_PLATE>俺
+「ミナサキじゃねーか！
+　お前また何か悪さしたのか？」
+<PAUSE>
+<NAME_PLATE>俺
+「あ、さてはお前のせいか！？
+　この大雪と寒さは！？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「誤解でげす親分！
+　ボクは降雪機を動かす
+　アルバイトしてただけなんだよう！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「それより大変なんだ！
+　機械が繁殖しはじめた！」
+<PAUSE>
+<NAME_PLATE>俺
+「はあ？」
+<PAUSE>
+<NAME_PLATE>
+　こいつはいつもトンチキだが、
+今日はまた一段と訳の分からない
+ことを言っている。
+<PAUSE>
+<ACTOR>0,mi_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0176a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>静流
+「どういうことなのミナサキちゃん」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「どうもこうも、今言ったとおりだよ！
+　降雪機が子供を産んで増えてるんだ！」
+<PAUSE>
+<NAME_PLATE>俺
+「あのなあ。もうちょっと上手な嘘をつけ」
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR>0,mi_t002a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ミナサキ
+「ホントだってば～！」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「降雪機を運転してたら急に勢いが強くなって
+　とうとう雪だけじゃなくて、
+　自身の分身をですねえ……あいてっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は無言でミナサキの頭を小突き、
+羽交い絞めにして持ち上げる。
+<PAUSE>
+<NAME_PLATE>俺
+「正直に言えよ。
+　お前が降雪機を壊すか何かしたんだろ？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「だーかーらぁー！！！」
+<PAUSE>
+<NAME_PLATE>
+　ミナサキは浮いた足をばたつかせ、
+あくまでも機械が子供を産んだと
+主張している――そのとき。
+<PAUSE>
+<ACTOR>0,ts_m230a,CENTER, CENTER, OUT, linear, 1500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビュオン！！
+<PAUSE>
+//　※立ち絵
+//　　ヨトゥンハイム
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「……！？」
+<PAUSE>
+<ACTOR>0,chr_t0283a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「……今、何か飛んでいかなかった？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>ミナサキ
+「今の！
+　今のが降雪機の子供だよ！」
+<PAUSE>
+<ACTOR>0,ts_m230a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビュウン！！
+<PAUSE>
+<NAME_PLATE>
+　さらにもう一機。
+<PAUSE>
+<NAME_PLATE>
+　今度は俺たちの頭上、ちょうど
+二階の窓ぐらいの高さで止まると、
+<PAUSE>
+<NAME_PLATE>
+　口（？）から真っ白な冷気を吐き出し、
+たちまち辺りを吹雪で染めた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「うわっ！？　冷て！
+　なんだあれ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,mi_t002a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0176a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>静流
+「寄付された降雪機と似てるけど、
+　なんだか小さいわ」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「だからあれが、
+　降雪機の子供だってば！
+　ボクの言った通りでしょ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「マジか……、
+　いやでも機械が子供産むって
+　そんなばかな」
+<PAUSE>
+<ACTOR>0,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ありえなくもないわね……
+　あれは魔族の機械だもの」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>静流
+「降雪機は魔界マフィア“鬼哭”から
+　寄付されたものでね」
+<PAUSE>
+<NAME_PLATE>俺
+「“鬼哭”……
+　鬼族による組織ですか」
+<PAUSE>
+<NAME_PLATE>静流
+「そう。寄付された降雪機は“霜の鬼神”の
+　力を利用して雪を降らせる機械。
+　魔法科学機械とでもいうのかしら」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　鬼族は魔族の中でも多くを占める種族だが、
+強さを至上とし、刹那的に生きる性質から、
+組織的な集団はそれほど多くない。
+<PAUSE>
+<NAME_PLATE>
+　目先の快楽や金に弱いこともあって、
+人間界では傭兵として暴れながらも、
+いいように搾取される者がほとんどだ。
+<PAUSE>
+<NAME_PLATE>
+　が、中にはしっかりした組織を作ったり、
+策を弄して勢力を広めるような者たちも、
+いなくはないと聞く。
+<PAUSE>
+<NAME_PLATE>俺
+（魔法機械を作るとは、
+　“鬼哭”もそんな鬼族らしくない者たちの
+　集まりなのだろうか）
+<PAUSE>
+<NAME_PLATE>俺
+「いや確かに、魔界の機械は
+　人間のそれよりも有機的で、
+　生物に近いと言えなくもないですけど」
+<PAUSE>
+<NAME_PLATE>俺
+「だからって、さすがに
+　繁殖するなんてめちゃくちゃですよ」
+<PAUSE>
+<NAME_PLATE>
+　などと話しているうちにも、
+一台また一台と、冷気を吐き散らしながら
+飛んでいく降雪機が見える。
+<PAUSE>
+<ACTOR>0,mi_t002a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「おやびん！
+　このままじゃヨミハラが凍っちゃうよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「まあ、ヨミハラなんて
+　凍ったほうが世の為ではあるが」
+<PAUSE>
+<ACTOR>0,mi_t002a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0176a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>静流
+「何言ってるのよ。
+　今ヨミハラが氷漬けになったら
+　あなたたちも巻き添えよ」
+<PAUSE>
+<NAME_PLATE>俺
+「う、うーん……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0284b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0283a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「ふうま、
+　僕は地下で氷漬けなんてごめんだよ」
+<PAUSE>
+<NAME_PLATE>さくら
+「その“鬼哭”の人に
+　止め方聞いてみるっていうのは？
+　作った人に聞くのが一番じゃない？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>1,mi_t002a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0176a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「てんちょー、“鬼哭”の人に連絡は
+　とれないんですか？！」
+<PAUSE>
+<NAME_PLATE>静流
+「そうね。
+　“鬼哭”の幹部が確かまだ
+　ヨミハラにいたはずだわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>静流
+「電話してみるわね。
+　……あ、もしもしネイス？」
+<PAUSE>
+<NAME_PLATE>静流
+「降雪機のことで聞きたいの。
+　ちょっと来てくれないかしら」
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ほどなくして。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿雪＿夜】【時間：夜】
+//　※監獄アカデミア_NC009bを加工した背景（マップ02で使用）を流用
+<BG>nc112a,IN, 1000
+<ACTOR>0,ts_m231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ネイス
+「ヨトゥンヘイムがどうしたって？」
+<PAUSE>
+//　※立ち絵
+//　　ネイス
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　“鬼哭”の幹部、鬼族のネイスが
+やってきた。
+<PAUSE>
+<NAME_PLATE>
+　顔半分をマスクで覆い、
+表情はよくわからない女性だ。
+<PAUSE>
+<NAME_PLATE>
+　彼女がこのヨミハラを担当する幹部で、
+町内会に降雪機を寄付した本人らしい。
+<PAUSE>
+<NAME_PLATE>俺
+「ヨトゥン……？」
+<PAUSE>
+<NAME_PLATE>ネイス
+「あいつの名前だ。雪を作るあの子の」
+<PAUSE>
+<NAME_PLATE>俺
+「降雪機のことか。
+　あの子って、機械じゃないのか？」
+<PAUSE>
+<NAME_PLATE>ネイス
+「人間は機械と生物をハッキリ分けたがるな。
+　死力を尽くして作った機械と命がけで
+　産んだ子、そこにどれほどの差がある」
+<PAUSE>
+<NAME_PLATE>俺
+「難解な問いだな……
+　いや、今それどころじゃないんだ」
+<PAUSE>
+<NAME_PLATE>俺
+「そのヨトゥンヘイムが繁殖？　して、
+　ヨミハラをどんどん冷やしてるらしい」
+<PAUSE>
+<NAME_PLATE>
+　何を言っているのかと一蹴されると
+思ったが、意外にもネイスは
+それがどうしたと言わんばかりに頷いた。
+<PAUSE>
+<NAME_PLATE>ネイス
+「あぁ当然だ。
+　数は多い方が効率的に冷えるだろう？」
+<PAUSE>
+<NAME_PLATE>俺
+「当然？　増えてるのは仕様なのか？」
+<PAUSE>
+<NAME_PLATE>ネイス
+「そうだ」
+<PAUSE>
+<NAME_PLATE>
+　さすが魔族の機械。
+斜め上をいく効率化の方法である。
+<PAUSE>
+<NAME_PLATE>俺
+「それにしても増えすぎだろう。
+　このままじゃ皆凍えちまう」
+<PAUSE>
+<ACTOR>0,ts_m231a,CENTER, LEFT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0176a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>静流
+「そうよ。
+　止めるか弱めるかしてくれない？」
+<PAUSE>
+<NAME_PLATE>
+　俺と静流先生が訴えると、
+ネイスはふふっと目を細める。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>ネイス
+「それもできない仕様だ」
+<PAUSE>
+<NAME_PLATE>ネイス
+「存分に寒くなったほうが、我ら
+　“霜の鬼神”一族には住みやすいのでな」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>俺
+「なに……？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,ts_m231a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ネイス
+「人間界は気温の移り変わりが激しすぎて
+　我らには住みにくい」
+<PAUSE>
+<NAME_PLATE>ネイス
+「ここヨミハラは年中気温が変わらぬ上、
+　魔界の門にも近く良い立地だ。
+　だが、まだ少し暑い」
+<PAUSE>
+<NAME_PLATE>ネイス
+「我らがボスを快適にお迎えするため、
+　少しばかり冷やさせてもらおうとな」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……？
+　じゃあ、最初からそのつもりで……」
+<PAUSE>
+<NAME_PLATE>
+　なにやら不穏な話になってきた。
+何といっても相手は鬼族である。
+俺となお先輩は咄嗟に臨戦態勢をとるが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0176a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ふうまくん、ここは抑えて」
+<PAUSE>
+<NAME_PLATE>
+　冷静な町内会長こと静流先生が宥める。
+<PAUSE>
+<NAME_PLATE>静流
+「この寒さの中で“霜の鬼神”とやりあっても
+　勝ち目はないわ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ネイス
+「安心しろ。
+　私も町内会長の前で
+　厄介事を起こす気はない」
+<PAUSE>
+<NAME_PLATE>ネイス
+「何もヨミハラを滅ぼすつもりはない。
+　ただ少しばかり冷房を
+　効かせてもらうだけだ。ではな」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ネイスは余裕の顔で
+吹雪の中を帰ろうとしたが、
+ふと振り返る。
+<PAUSE>
+<ACTOR>0,ts_m231a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ネイス
+「ヨトゥンヘイムも機械とはいえ鬼族の出。
+　止めたいなら力で止めてみせろ」
+<PAUSE>
+<NAME_PLATE>ネイス
+「できるものならな。ふふ」
+<PAUSE>
+<NAME_PLATE>俺
+「なに……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　次の瞬間、ネイスの姿はもう
+吹雪の中に見えなくなっていた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0284b,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,mi_t002a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「……あちゃー。
+　どうやらあいつに仕組まれてたっぽいね」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ほら、ボクのせいじゃないだろ！
+　おやびん！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ぽかぽかと殴ってくるミナサキを
+押しのけながら、
+俺はネイスの消えた方を睨んだ。
+<PAUSE>
+<NAME_PLATE>俺
+「どうやら力ずくで止めるしかないか」
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0176a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0284b,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「まったく悪い奴らだね！！」
+<PAUSE>
+<NAME_PLATE>静流
+「はあ。
+　鬼族の顔も立てなきゃと思って、
+　怪しい降雪機を使った私の責任ね……」
+<PAUSE>
+<NAME_PLATE>
+　静流先生は珍しく落ち込んで、
+ため息などついてうなだれる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「落ち込んでも始まりません。
+　とにかくこの事態を止めないと」
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0283a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,chr_t0176a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>なお
+「増殖しているというのが
+　事実なら、まずは親機を壊したほうが
+　よさそうですね」
+<PAUSE>
+<NAME_PLATE>静流
+「そうね……
+　まずは親機を止めに行きましょう」
+<PAUSE>
+<NAME_PLATE>静流
+「ふうまくん、穂稀くん、さくらちゃん、
+　手伝ってくれるかしら？
+　ボーナスは三倍出すわ」
+<PAUSE>
+<NAME_PLATE>俺
+「もちろんです」
+<PAUSE>
+<NAME_PLATE>なお
+「仕方ありません。
+　このまま地下で氷漬けなんて
+　ごめんですからね」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0284b,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>さくら
+「ボーナス三倍っ！」
+<PAUSE>
+<NAME_PLATE>
+　静流先生、なお先輩、
+そしてボーナス三倍の言葉に
+目を輝かせる呑気なさくら。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　俺は三人とともに、
+町外れに設置されているという、
+降雪機ヨトゥンヘイムのもとへ向かった。
+<PAUSE>
+//→プロローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,798 @@
+//=================================================================
+//FileNo:S002a
+//シーン名：エピローグ
+//【背景：五車学園＿裏山＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC024aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc010a,IN, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　ブンッ……！
+<PAUSE>
+<NAME_PLATE>
+　俺達は、ネコビタマ草に
+すっかり敵と認識されたらしい。
+<PAUSE>
+<NAME_PLATE>
+　近づこうとするだけで、
+トゲトゲの実を投げつけられる。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「実を全部投げさせて、
+　無防備になった隙に引っこ抜くってのは
+　どうかな？」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお立ち絵＿制服衣装
+//　　　＊カードイラストより流用
+<NAME_PLATE>俺
+「なるほど、やってみましょう。
+　――蛇子！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,h_t006g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「はいはい……もー、痛いんだからね！！」
+<PAUSE>
+//　※立ち絵
+//　　蛇子通常立ち絵＿制服衣装（タコ化・武器装備）
+<PAUSE>
+<NAME_PLATE>
+　さすが蛇子、即座に作戦を理解し、
+文句を言いながらも前に出る。
+<PAUSE>
+<ACTOR>0,h_t006f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ほら、こっちよネコビタマ草ちゃん！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ブンッ……！
+<PAUSE>
+<NAME_PLATE>
+　蛇子がタコ足を振ってみせると、
+すかさず赤い実が飛んでくる。
+<PAUSE>
+<NAME_PLATE>蛇子
+「まだまだ！　ほらほら！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se098
+<NAME_PLATE>
+　ブンッ！　ブブンッ！！
+<PAUSE>
+<NAME_PLATE>
+　トゲトゲの実が次々に飛ばされ、
+蛇子の足に刺さっていく。
+そして――
+<PAUSE>
+<BG>nc010a,IN, 500
+<ACTOR>0,h_t006f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「投げ切ったわね！
+　――てえっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<SE_PLAY>se003
+<NAME_PLATE>
+　弾切れと見るや、蛇子は一気に飛び込み、
+小太刀で草を刈り取ってしまおうとする。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ひゃ！？」
+<PAUSE>
+<NAME_PLATE>
+　スパン……
+<PAUSE>
+<NAME_PLATE>
+　しかし、吹っ飛んだのは
+小太刀を握ったままのタコ足だった。
+<PAUSE>
+<ACTOR>0,h_t006d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「葉っぱが刃に！？」
+<PAUSE>
+<NAME_PLATE>
+　ネコビタマ草は一瞬の間に、
+葉を刃のように鋭く硬くし、
+蛇子の足を刎ね飛ばしたのだ。
+<PAUSE>
+<NAME_PLATE>俺
+「実を投げるだけじゃなくて、
+　葉っぱを刃にもできるのか。
+　さすが魔界の草だな」
+<PAUSE>
+<ACTOR>0,h_t006f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんってばー！
+　感心してる場合！？」
+<PAUSE>
+<NAME_PLATE>
+　などとやっている間にも、
+ネコビタマ草はみるみる実を大きくし、
+元通りになってしまった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「この作戦はダメか。
+　どうしたもんかな……」
+<PAUSE>
+<ACTOR>0,ko_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>孤路
+「ぶつぶつ
+　（それなら私がやる）」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装
+<NAME_PLATE>俺
+「え？　コロ先輩？」
+<PAUSE>
+<NAME_PLATE>
+　じっと観察していたコロ先輩が、
+刀に手をやり、すっと前に出る。
+<PAUSE>
+<NAME_PLATE>孤路
+「……ぶつぶつ…………！！！！」
+<PAUSE>
+//　※立ち絵
+//　　死々村孤路立ち絵＿制服衣装（斬撃エフェクト）
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,ko_t005g,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　恐らく何か技の名前を叫んだであろう、
+小さな声とともに、
+コロ先輩の剣が地面を凪ぐ。
+<PAUSE>
+<NAME_PLATE>
+　草は土埃とともに切り取られ、
+地面は禿げ地となった。
+<PAUSE>
+<NAME_PLATE>俺
+「すげえ……全然見えなかった」
+<PAUSE>
+<NAME_PLATE>
+　コロ先輩はこう見えて、
+凜子先輩と同じ逸刀流の剣士なのである。
+<PAUSE>
+<NAME_PLATE>
+　それも、かなりの腕の持ち主だ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「ぼそぼそ（さすがコロ先輩、豪快ね）」
+<PAUSE>
+<NAME_PLATE>俺
+「ひそひそ（俺達まで小声に
+　なることないんじゃないか蛇子）」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　圧倒された俺達が、
+思わず声を潜めていると。
+<PAUSE>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「さすがコロちゃん。
+　あっけないもんだね」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は剥き出しになった地面を
+悠々と歩いていき、
+細い指でネコビタマ草の根を拾おうとする――
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！」
+<PAUSE>
+<NAME_PLATE>俺
+「なお先輩危ない！」
+<PAUSE>
+<NAME_PLATE>なお
+「えっ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　異変に気づき飛び出したが、
+一歩遅かった。
+<PAUSE>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<NAME_PLATE>
+　刈り取られた葉の一本が硬くなり、
+なお先輩の目を狙って飛んだのだ。
+<PAUSE>
+<NAME_PLATE>
+　なお先輩はさっと避けて、
+首元をかすめただけで済んだが――。
+<PAUSE>
+<BG>nc010a,IN, 500
+<NAME_PLATE>俺
+「あ、危なかったですね」
+<PAUSE>
+<NAME_PLATE>俺
+「刈り取られてもこれとは、
+　恐るべき生命力だ」
+<PAUSE>
+<NAME_PLATE>俺
+「俺達だけじゃ危険かもしれない。
+　やっぱり誰か、木遁使いの生徒を
+　呼んできましょう」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「なお先輩？」
+<PAUSE>
+<NAME_PLATE>
+　振りかえると、なお先輩は
+地面にうつむいたまま黙っている。
+<PAUSE>
+<NAME_PLATE>
+　その肩は小さく震えているようだ。
+<PAUSE>
+<NAME_PLATE>俺
+「……なお先輩？　大丈夫ですか？」
+<PAUSE>
+<NAME_PLATE>なお
+「……くも」
+<PAUSE>
+<NAME_PLATE>俺
+「え？」
+<PAUSE>
+<BGM_PLAY>bgm205,1000
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「よくも僕の可愛い制服に傷を」
+<PAUSE>
+<NAME_PLATE>俺
+「は？　制服？」
+<PAUSE>
+<NAME_PLATE>
+　よく見ると、なお先輩の
+ブラウスの襟が小さく切れている。
+<PAUSE>
+<NAME_PLATE>俺
+（怒る所そこかよ？！）
+<PAUSE>
+<NAME_PLATE>俺
+「に、任務に出てる先輩なら、
+　対魔忍スーツが破れたりとか、
+　普通なんじゃないですか？」
+<PAUSE>
+<NAME_PLATE>
+　対魔忍にとって傷や怪我は日常。
+体の一部を失うことだってある。
+<PAUSE>
+<NAME_PLATE>
+　ましてなお先輩は、
+大人に交じって任務に出る事もある、
+優秀な対魔忍のひとりだ。
+<PAUSE>
+<NAME_PLATE>
+　俺が思わず訊くと、
+なお先輩はちょっと涙ぐむ。
+<PAUSE>
+<NAME_PLATE>なお
+「対魔忍スーツならいいさ。
+　体だって無傷で済むとは思ってない、
+　対魔忍だもの」
+<PAUSE>
+<NAME_PLATE>なお
+「だけどこの制服はね、」
+<PAUSE>
+<NAME_PLATE>なお
+「せめて日常の静かな日々は
+　可愛く過ごせるようにって、
+　自分で細かく調整したんだよ」
+<PAUSE>
+<NAME_PLATE>蛇子
+「そういえばなお先輩、
+　ブラウスの襟がちょっとだけ
+　大きいですよね？」
+<PAUSE>
+<NAME_PLATE>なお
+「うん、
+　ショートヘアにはこの方が可愛いだろう？」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩、
+気づいてもらえて嬉しいのか、
+微かに顔色を明るくする。
+<PAUSE>
+<NAME_PLATE>俺
+（襟が……？）
+<PAUSE>
+<NAME_PLATE>
+　言われてみれば蛇子やコロ先輩のより、
+少し大きいような気もするか。
+<PAUSE>
+<NAME_PLATE>俺
+（胸の大きさによっても、シャツの形は
+　だいぶ違って見え――）
+<PAUSE>
+<NAME_PLATE>なお
+「ふうま、何考えてるんだい？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いえ」
+<PAUSE>
+<NAME_PLATE>俺
+「五車学園って色んな着こなしの人が
+　いるじゃないですか。
+　対魔忍スーツで一日過ごすことも多いし」
+<PAUSE>
+<NAME_PLATE>
+　五車学園はその特殊な事情から、
+服装には比較的おおらかなのである。
+<PAUSE>
+<NAME_PLATE>
+　今日の凜子先輩のように、
+任務帰りに私服で来る生徒もいる。
+<PAUSE>
+<NAME_PLATE>なお
+「でもやっぱり、制服は可愛い。
+　それに今しか着られない服だし」
+<PAUSE>
+<NAME_PLATE>なお
+「だったらその可愛い服を、
+　さらに可愛くして着たい」
+<PAUSE>
+<NAME_PLATE>なお
+「襟だけじゃない、
+　裾だって袖だって細かく調整した。
+　可愛さは作るものなんだから」
+<PAUSE>
+<NAME_PLATE>なお
+「僕は３年生だ。
+　制服を着られるのは、もうあと少し……」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩は相当悔しいのか、
+涙のにじんだ目をきっと上げ、
+<PAUSE>
+<NAME_PLATE>なお
+「それをよくも！
+　光よ集まれ、光遁の術！！！」
+<PAUSE>
+<NAME_PLATE>
+　なお先輩が“光遁の術”を発動すると、
+冬のかすかな木漏れ日がその手に集まる。
+<PAUSE>
+<NAME_PLATE>
+　そしてみるみるうちに眩しさを増し――
+<PAUSE>
+//【背景：白画面】
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 1000
+<NAME_PLATE>蛇子
+「わわ！？」
+<PAUSE>
+<NAME_PLATE>俺
+「ま、まぶしいっ！」
+<PAUSE>
+<NAME_PLATE>孤路
+「…………！」
+<PAUSE>
+<NAME_PLATE>
+　俺達は思わず目を閉じる。
+<PAUSE>
+//【背景：五車学園＿裏山＿昼】【時間：昼】
+//　※対魔忍アサギZERO_NC024aより流用
+<BGM_STOP>1000
+<NAME_PLATE>
+　――しばらくして、光が和らいだのを感じ
+目を開けてみると。
+<PAUSE>
+<BG>nc010a,IN, 1000
+<NAME_PLATE>
+　なお先輩の前の地面に、
+草がすっぽりと枯れはてていた。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>
+　これなら、もう葉を飛ばしてきたり
+しないだろう。
+<PAUSE>
+<NAME_PLATE>俺
+「すげえ……
+　ネコビタマ草は熱に弱いとはいえ……」
+<PAUSE>
+<ACTOR>0,mi_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「……初めからこうしてもらえば
+　よかったんじゃない？」
+<PAUSE>
+//　※立ち絵
+//　　ミナサキ
+//　　　＊カードイラストより流用
+<NAME_PLATE>
+　どこかに隠れていたミナサキが、
+そろそろと出て来て言う。
+<PAUSE>
+<NAME_PLATE>俺
+「そうかもな……
+　ま、まあ結果オーライってやつだ」
+<PAUSE>
+<NAME_PLATE>
+　その後、俺達は
+熱くなった地面が冷めるのを待ち、
+ネコビタマ草の根っこを回収したのだった。
+<PAUSE>
+//【背景：ふうま自宅＿居間＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC026bより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc081b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　俺達は家に帰り、
+さっそくネコビタマ草入りのチョコを作成。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<NAME_PLATE>
+　ぐったりしながら待っていた、
+メルシーはじめ、中毒ネコたちの前に出す。
+<PAUSE>
+<ACTOR>0,chr_t0194a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「出来たよ！　ネコビタマチョコ！」
+<PAUSE>
+//　※立ち絵
+//　　【イタズラチョコ娘】ミナサキ
+//　　　　＊カードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>1,chr_t0197a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「フニャ！？　これをメルたちに！？」
+<PAUSE>
+//　※立ち絵
+//　　【ホットチョコ】メルシー
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　メルシーはチョコを見て目の色を変える。
+<PAUSE>
+<NAME_PLATE>
+　解毒剤入りと知っていても、
+チョコを目の前にすると、
+やはり理性を失ってしまうらしい。
+<PAUSE>
+<NAME_PLATE>メルシー
+「さっそくいただくにゃ――！！！
+　もぐもぐ」
+<PAUSE>
+<NAME_PLATE>
+　メルシー、そして猫たちは、
+チョコにとびついて一心不乱に食べた。
+<PAUSE>
+<NAME_PLATE>
+　しばしチョコを食べる音だけが響く。
+<PAUSE>
+<NAME_PLATE>メルシー
+「もぐもぐ……
+　…………！？」
+<PAUSE>
+<NAME_PLATE>
+　すると突如、
+メルシーや猫たちの顔色が変わる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>メルシー
+「うぐううっ！？」
+<PAUSE>
+<NAME_PLATE>メルシー
+「なんにゃこれ……！？
+　に、にが……まず……」
+<PAUSE>
+<NAME_PLATE>メルシー
+「うげええええ！！！」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<SE_PLAY>se105
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　メルシーは酷い顔で悶え苦しみ、
+床にゴロゴロと転がり出した。
+<PAUSE>
+<NAME_PLATE>
+　猫たちも様々に吐いたり、
+のたうちまわったりしていたかと思うと、
+一匹また一匹と気絶する。
+<PAUSE>
+<ACTOR>1,h_t001g,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ねえふうまちゃん、大丈夫なの？　あれ」
+<PAUSE>
+//　※立ち絵
+//　　相州蛇子通常立ち絵＿制服衣装
+<ACTOR>0,chr_t0169a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>なお
+「ケットシーはともかく、
+　可愛い猫たちが死んじゃうのは嫌だな」
+<PAUSE>
+//　※立ち絵
+//　　穂稀なお
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　蛇子となお先輩が心配げに、
+阿鼻叫喚の中にいる猫たちを見る。
+<PAUSE>
+<NAME_PLATE>俺
+「うーん……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　やがて猫たちが全部気絶し、
+静まった部屋に不安が漂い出したころ。
+<PAUSE>
+<ACTOR>0,chr_t0197a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メルシー
+「んにゃー！！！！」
+<PAUSE>
+<NAME_PLATE>
+　メルシーががばっと起き上がる。
+<PAUSE>
+<NAME_PLATE>メルシー
+「はあ……お、おそろしいにゃ……
+　トラウマになったにゃ……」
+<PAUSE>
+<NAME_PLATE>メルシー
+「おかげで目が覚めたにゃ。
+　もう二度とチョコは見るのもいやにゃ……」
+<PAUSE>
+<NAME_PLATE>メルシー
+「さあ、みんな起きるにゃ。
+　我ら野良猫一門、ヨミハラに帰って、
+　明日からもたくましく生きるにゃよ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　猫たちも次々と目を覚まし、
+むにゃむにゃと言いながら引きあげていく。
+<PAUSE>
+<ACTOR>0,ko_t001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>孤路
+「ぶつぶつ（相当不味かったのね）」
+<PAUSE>
+<ACTOR>1,h_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>蛇子
+「帰っちゃった……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0169a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>なお
+「とりあえず中毒は解けた、
+　ってことでいいのかな？」
+<PAUSE>
+<NAME_PLATE>
+　あっけない幕切れに、
+蛇子たちはいささか不安そうである。
+<PAUSE>
+<NAME_PLATE>俺
+「いわゆる強烈な抗酒剤みたいな
+　もんなのかな……」
+<PAUSE>
+<NAME_PLATE>なお
+「どういうこと？」
+<PAUSE>
+<NAME_PLATE>俺
+「アルコール依存症の治療に、
+　酒を飲むと気持ちが悪くなるという
+　薬が使われることがあるんですよ」
+<PAUSE>
+<NAME_PLATE>俺
+「それで嫌な思いをするうちに、
+　飲みたい気持ちがなくなっていく、
+　というわけです」
+<PAUSE>
+<NAME_PLATE>
+　一発で気を失うほどだった所からして、
+効果は比べ物にならないほどだろうが。
+<PAUSE>
+<NAME_PLATE>俺
+「これはその強烈な奴ですね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0194a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「いやー皆の衆、ありがとう！
+　これでミリアムにも言い訳が立つよ」
+<PAUSE>
+<ACTOR>1,ko_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>孤路
+「ぶつぶつ（諸悪の根源は、この鴉……
+　有害な魔族は斬り捨てておくべきかしら）」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「！？　聞き取れないけど、
+　なんかやばい事言ってるよねえ！？」
+<PAUSE>
+<NAME_PLATE>
+　逃げ回るミナサキと、それを狙うコロ先輩。
+俺はあえて止めずに眺めていた。
+<PAUSE>
+<NAME_PLATE>俺
+「ぼそぼそ（ま、あいつは
+　ちょっと痛い目見たほうがいいよな）」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ひそひそ（小声にならなくっても
+　いいと思うわよふうまちゃん）」
+<PAUSE>
+//【背景：ふうま自宅＿自室＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC027bより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc071b,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　こうして、無事に中毒猫たちを
+治療（？）したその翌日。
+<PAUSE>
+<BGM_PLAY>bgm208,1000
+<NAME_PLATE>ふうま時子
+「お館様」
+<PAUSE>
+<NAME_PLATE>
+　時子が部屋をノックする音が聞こえる。
+<PAUSE>
+<NAME_PLATE>時子
+「お館様？
+　荷物が届いてるんですけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「にも……つ？」
+<PAUSE>
+<NAME_PLATE>
+　俺はやっとの思いで声を絞り出す。
+<PAUSE>
+<NAME_PLATE>時子
+「品名は……ええと、『義理』……？」
+<PAUSE>
+<NAME_PLATE>俺
+「と、とりあえず、
+　そのへんに……置いて……うう」
+<PAUSE>
+<NAME_PLATE>時子
+「え、ええ……
+　お館様、どうかされたのですか？
+　開けますよ？」
+<PAUSE>
+<SE_PLAY>se052
+<NAME_PLATE>
+　ガヂャリ。
+<PAUSE>
+<NAME_PLATE>
+　遠慮がちに扉が開き、
+荷物とともに時子が顔を出した。
+<PAUSE>
+//　※立ち絵
+//　　ふうま時子通常立ち絵＿秘書衣装
+<ACTOR>0,t_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「お館様！？」
+<PAUSE>
+<NAME_PLATE>俺
+「う、うう……」
+<PAUSE>
+<NAME_PLATE>
+　俺を見た時子は、
+血相を変えて駆け寄ってくる。
+無理もない。
+<PAUSE>
+<NAME_PLATE>
+　俺は冬だというのに、
+床に寝て体を曲げ、
+腹をかかえて呻いているのだから。
+<PAUSE>
+<ACTOR>0,t_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「お館様！？
+　どうなさいました！？
+　どこか痛いのですか！？」
+<PAUSE>
+<NAME_PLATE>俺
+「う、時子……
+　そ、それ……」
+<PAUSE>
+<NAME_PLATE>
+　俺はやっとの思いで腕を上げ、
+テーブルの上のトリュフチョコを指差す。
+<PAUSE>
+<ACTOR>0,t_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「このチョコは……」
+<PAUSE>
+<NAME_PLATE>
+　それは蛇子がくれたチョコレート。
+一緒に作ったと言っていたから、
+時子にも見覚えはあるはずだ。
+<PAUSE>
+<NAME_PLATE>俺
+「時子、蛇子と一緒に
+　作ったって本当か……？」
+<PAUSE>
+<ACTOR>0,t_t001d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「え？　はい。トリュフチョコを」
+<PAUSE>
+<NAME_PLATE>時子
+「中身のクリームは自分で
+　入れたいということでしたから、
+　外側だけですけど……」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>俺
+「なるほど、そういう罠が……」
+<PAUSE>
+<ACTOR>0,t_t001c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>時子
+「お館様……？」
+<PAUSE>
+<NAME_PLATE>
+　時子はトリュフを一つ持ち上げてみる。
+<PAUSE>
+<NAME_PLATE>
+　ツンと鼻をつく匂いがし、
+緑のかたまりと、タコの吸盤が覗いていた。
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<ACTOR>0,t_t001d,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>時子
+「ひっ！？　……これは、
+　生ダコと……わさびでしょうか？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ、それだけじゃないぜ。
+　タコの塩辛とか、唐揚げ……
+　……うっぷ、すまん、吐き気が！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG_OUT>1000
+<NAME_PLATE>
+　俺は今日何度めになるかわからない
+トイレに向かってダッシュする。
+<PAUSE>
+<NAME_PLATE>俺
+（まさか猫たちとおんなじ目に遭うとはな。
+　しばらくチョコは見たくない……）
+<PAUSE>
+<NAME_PLATE>
+　外からは、時子が薬を探しに
+台所へ走る音が聞こえる。
+<PAUSE>
+<NAME_PLATE>俺
+（やっぱり、
+　対魔忍のバレンタインは厳しいぜ……）
+<PAUSE>
+<NAME_PLATE>
+　しんしんと寒気が染み込む冬のトイレで、
+俺はしみじみ思うのだった。
+<PAUSE>
+//→プロローグ終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

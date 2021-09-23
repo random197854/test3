@@ -1,0 +1,257 @@
+//☆第四章//【Section３】シナリオ
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//=================================================================
+//【背景：近隣都市まえさき市妖しい繁華街地区２＿夜】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm407,1000
+<BG>nc042a,IN, 1000
+<NAME_PLATE>俺
+「はあはあ……キモい笑い方の鬼野郎……
+　な、何とかまいたか？」
+<PAUSE>
+<NAME_PLATE>
+　俺は結局、
+もと来た道へまた逃げることになった。
+<PAUSE>
+<NAME_PLATE>俺
+「おかしいな……
+　あれほどの大金で買収できないなんて……」
+<PAUSE>
+<NAME_PLATE>
+　しかし振り返ってみると、
+どうやら追っては来ていないようであった。
+<PAUSE>
+<NAME_PLATE>俺
+「魔族に魔獣に鬼族までか。この町も
+　なかなか面白いことになってやがるな畜生！」
+<PAUSE>
+<ACTOR>0,ts_m026a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>青鬼
+「オホホホホ！
+　あなたが例の親分さんでござーましょうか？」
+<PAUSE>
+//　※立ち絵
+//　　青鬼立ち絵
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　背中からまた奇怪な声。
+はっと視線を戻すと、今度はまた別の鬼が
+立ち塞がっていた。
+<PAUSE>
+<NAME_PLATE>俺
+「げッ！！？　今度は青鬼かよ……！！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「さあ親分、リリムとミナサキの居場所を
+　言うのですよ。
+　そうすれば楽に殺してござーましょうよ」
+<PAUSE>
+<NAME_PLATE>俺
+「リリムとミナサキ……？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「すっとぼけても無駄でござーますよ。
+　あなたの部下の小悪魔でしょう」
+<PAUSE>
+<NAME_PLATE>俺
+「小悪魔…………あー！
+　あいつらそんな名前なのか……！？」
+<PAUSE>
+<NAME_PLATE>
+　俺を親分扱いして逃げた
+憎き魔族のガキどものことか。
+この鬼もあいつらを追っているらしい。
+<PAUSE>
+<NAME_PLATE>俺
+「あのな、言っておくが俺は親分じゃない！
+　あいつらに嵌められたんだ！」
+<PAUSE>
+<NAME_PLATE>青鬼
+「オホホ！　往生際の悪い事でござーますね！
+　いまさら知らないふりなんて！」
+<PAUSE>
+<NAME_PLATE>俺
+「だから本当に知らないんだって！」
+<PAUSE>
+<NAME_PLATE>青鬼
+「問答無用でござーましょうッ！！！！」
+<PAUSE>
+<SE_PLAY>se006
+<NAME_PLATE>
+　ブンッ！
+鬼の振り回す鉾を、俺は必死で回避する。
+<PAUSE>
+<NAME_PLATE>俺
+「うおおおおッ！！？
+　くそ、買収も出来ない以上、
+　逃げるしか……」
+<PAUSE>
+<NAME_PLATE>青鬼
+「逃がしませんよっ！
+　おいきなさいパトラッシュ！！！」
+<PAUSE>
+<ACTOR>0,ts_m026a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ts_m024a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se062
+<NAME_PLATE>パトラッシュ
+「グルルルッ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ナイトドッグ立ち絵
+<NAME_PLATE>俺
+「ぎゃ！　痛ってえ！！」
+<PAUSE>
+<NAME_PLATE>
+　さっきとはまた違う魔獣がどこからか
+飛びかかってきて、俺の腕に喰いついたかと
+思うと、物凄い力で引き倒された。
+<PAUSE>
+<ACTOR>0,ts_m024a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ts_m026a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>青鬼
+「オホホホ！　我が青鬼族に千五百年に
+　わたって受け継がれし拷問術で」
+<PAUSE>
+<NAME_PLATE>青鬼
+「小悪魔たちの居場所を
+　吐かせてさしあげましょう！」
+<PAUSE>
+<NAME_PLATE>俺
+「だから俺は赤の他人だと
+　言ってるだろうが！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「赤鬼は他人ではありませんよ！
+　私のマブダチでござーましょう！」
+<PAUSE>
+<NAME_PLATE>俺
+「何言ってんだ？　とにかく俺は知らない！！
+　拷問しても無駄だぞ！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「オホゥ！！！　そうまでして
+　小悪魔たちを庇う勇気、
+　見事と褒めてござーましょう！！」
+<PAUSE>
+<NAME_PLATE>青鬼
+「敬意を表して、秘伝の拷問術で三枚に
+　おろしてさしあげましょう！？」
+<PAUSE>
+<NAME_PLATE>俺
+「普通に死ぬだろうがッ！？
+　誰相手の拷問術だよ！！？」
+<PAUSE>
+<NAME_PLATE>青鬼
+「内臓は新鮮なうちに抜くのが
+　コツでござーましょう！！！」
+<PAUSE>
+<NAME_PLATE>俺
+「くそっ、と、とにかくこの犬を離せよ！？」
+<PAUSE>
+<NAME_PLATE>パトラッシュ
+「ガウ、ガウウッ」
+<PAUSE>
+<NAME_PLATE>青鬼
+「お断りでござーましょうっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　魔獣に抑え込まれた俺に、
+鬼の鉾が振り上げられる。
+<PAUSE>
+<NAME_PLATE>俺
+（くそっ、転がって避けることもできん――）
+<PAUSE>
+<NAME_PLATE>
+　切っ先がこちらに下りてくる――
+<PAUSE>
+<GROUP>
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<BGM_STOP>1000
+<NAME_PLATE>
+　ガギンッ！！！
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>俺
+「！！」
+<PAUSE>
+<NAME_PLATE>青鬼
+「何奴でござーますか！？」
+<PAUSE>
+<BGM_PLAY>bgm311,1000
+<ACTOR>0,h_t005e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>俺
+「へ、蛇子！！　おせえぞっ！！？」
+<PAUSE>
+<ACTOR>0,h_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「ふうまちゃんが
+　動きまわるからでしょう！？」
+<PAUSE>
+<NAME_PLATE>
+　ギリギリのところで、
+鬼の鉾を退けたのは蛇子の刃だった。
+<PAUSE>
+<NAME_PLATE>俺
+「ま、助かったぜ……！」
+<PAUSE>
+<NAME_PLATE>
+　俺はずっとこれを待っていたのだ。
+<PAUSE>
+<ACTOR>0,h_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「臭いを追うのも簡単じゃないんだからね！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はタコ化した足の吸盤を指差しながら
+言う。蛇子は俺についたタコ墨の臭いを、
+その吸盤の強力な嗅覚で追ってきたのだ。
+<PAUSE>
+<ACTOR>0,h_t005f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「あと、途中で臭い薄くなったし！！！
+　お風呂でもはいったの！？」
+<PAUSE>
+<NAME_PLATE>俺
+「えっ！？　と、とにかく目の前の敵を
+　処理するぞ！！！」
+<PAUSE>
+<ACTOR>0,h_t005e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そうね、了解よ！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子は武器を構え、
+青鬼と魔獣の前に立ちはだかる。
+<PAUSE>
+<ACTOR>0,h_t005e,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,ts_m026a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>青鬼
+「オホホ！　足がタコの女とは……
+　これまた面妖な魔物が登場しましたね！」
+<PAUSE>
+<ACTOR>0,ts_m026a,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>0,h_t005f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「魔物じゃないし！　っていうか、
+　あんたに言われたくないわね！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子はそう言うなり、
+青鬼の足元へ斬り込んで行った。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,h_t005f,CENTER, CENTER, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section３-ＭＡＰ画面１へ

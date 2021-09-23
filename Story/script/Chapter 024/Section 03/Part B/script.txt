@@ -1,0 +1,359 @@
+//=================================================================
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿魔女の屋敷＿食堂＿夜（消灯）】【時間：夜】
+//　※監獄アカデミア_NC011bより流用
+//nc102a
+<BGM_PLAY>bgm304,1000
+<BG>nc102a,IN, 1000
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>魔物
+「ガアアアアアアアア！！！！」
+「ガアアアアアアアア！！！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　四方から魔物が牙をむく。
+<PAUSE>
+<NAME_PLATE>
+　倒しても倒してもその攻撃の波は
+尽きることがない。
+<PAUSE>
+<NAME_PLATE>
+　脱出不能の結界に封じられ、
+無限に湧き出す魔物に気力と体力を
+奪われてやがて死に至る。
+<PAUSE>
+<NAME_PLATE>
+　それが魔術トラップの恐ろしさだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<ACTOR>0,kn_t001a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「それもすでにタネの割れた手品だな」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅
+//　　　　＊対魔忍ＲＰＧカードイラストを流用
+//　※注：戦闘場面なので紅ＳＲ１のカードイラストを使用
+<NAME_PLATE>
+　不敵に唇を歪めた紅が両眼に
+魔力を集中させる。
+<PAUSE>
+<NAME_PLATE>
+　伊達に闇の街での
+戦闘経験を積んでいない。
+<PAUSE>
+<NAME_PLATE>
+　魔術トラップの破り方など、
+紅は先刻承知であり――
+<PAUSE>
+<NAME_PLATE>紅
+「はっ――！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef004c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュ――
+<PAUSE>
+<BG>nc102a,IN, 1000
+<ACTOR>0,ts_m065a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>シャドウ
+『ＨＹＡＡＡＡＡＡＡＡＡＡ！！！！？』
+<PAUSE>
+//　※立ち絵
+//　　シャドウ
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　紅の二刀が闇に弧を描いた。
+<PAUSE>
+<NAME_PLATE>
+　と同時に屋敷エントランスに
+悲痛な死霊の叫びが轟く。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　“神眼”――
+<PAUSE>
+<NAME_PLATE>
+　あらゆる“存在”を見定める紅の邪眼。
+<PAUSE>
+<NAME_PLATE>
+　それによって魔物たちから
+わずかに伸びる魔力の痕跡を辿り、
+<PAUSE>
+<NAME_PLATE>
+　紅は、エントランスの奥に潜んでいた
+トラップを制御する魔物を切り伏せた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m064a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m064a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>魔物
+「ギャイイイイイイン！！？」
+「ガアアアアアア！！？」
+<PAUSE>
+//　※立ち絵
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　鬼火
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　魔力の供給を断たれて
+あっけなく消滅する魔物たち。
+<PAUSE>
+<NAME_PLATE>
+　魔術トラップの結界が破られたのだ。
+<PAUSE>
+<BGM_PLAY>bgm203,1000
+<ACTOR>0,kn_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「………」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>紅
+（あいつにトラップの破り方を
+　聞いておいてよかった……）
+<PAUSE>
+<NAME_PLATE>
+　静かになった広間を見渡し、
+紅はこっそり胸をなでおろす。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　実は以前、紅は魔術トラップに
+引っ掛かって散々な目にあっていた。
+<PAUSE>
+<NAME_PLATE>
+　その苦い経験を、ふうま小太郎に
+会った時に話してみたところ――
+<PAUSE>
+<NAME_PLATE>小太郎
+『ああ、あんなの簡単だって！
+　そういう時はこうしてああして――』
+<PAUSE>
+//　※注　紅視点なので上のセリフの名前欄は「俺」でなく「小太郎」です。
+<NAME_PLATE>
+　と親切丁寧に教えてくれて、
+そのおかげで今回のトラップを
+あっさり乗り切ることができた。
+<PAUSE>
+<ACTOR>0,kn_t008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+（うーむ、脱帽だ！）
+<PAUSE>
+<ACTOR>0,kn_t008j,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+（やっぱり小太郎はすごく頼りに……
+　って違う違う！　そんなことを
+　考えている場合ではない……！）
+<PAUSE>
+<ACTOR>0,kn_t008c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　ごほごほと咳払いして
+緩みそうになった顔を引き締めると、
+紅は屋敷の探索を再開した。
+<PAUSE>
+//【背景：センザキ＿魔女の屋敷＿私室＿夜（消灯）】【時間：夜】
+//　※監獄アカデミア_NC015bより流用
+//chrnc0178a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0178a,IN, 1000
+<ACTOR>0,kn_t008c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>紅
+「ここが魔女の私室――」
+<PAUSE>
+<NAME_PLATE>
+　“神眼”で一番濃い魔力の
+痕跡を辿ってここまでやってきた。
+<PAUSE>
+<NAME_PLATE>
+　部屋の入り口に立って慎重に
+中を見渡す紅。
+<PAUSE>
+<NAME_PLATE>
+　雑然とした部屋だ。
+<PAUSE>
+<NAME_PLATE>
+　やはり荒らされた形跡はない。
+<PAUSE>
+<NAME_PLATE>
+　ここで行き止まりだろうか？
+<PAUSE>
+<NAME_PLATE>紅
+（……いや、そうじゃないな）
+<PAUSE>
+<NAME_PLATE>
+　目に見えない魔力の痕跡は、
+私室の“壁”に突き当たって
+半端に途切れている。
+<PAUSE>
+<NAME_PLATE>
+　まるでその先に隠された通路でも
+あるかのように。
+<PAUSE>
+<NAME_PLATE>紅
+「………隠し部屋か」
+<PAUSE>
+//【黒画面】
+//【背景：センザキ＿魔女の屋敷＿隠し部屋＿夜（消灯）】【時間：夜】
+//　※対魔忍ユキカゼ_NC005aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ゴゴゴゴゴ……
+<PAUSE>
+<NAME_PLATE>
+　暖炉の裏側にあったスイッチを押すと、
+わずかな駆動音を響かせて隠し扉が開く。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<BG>nc301a,IN, 1000
+<ACTOR>0,kn_t008c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>紅
+「………」
+<PAUSE>
+//　※立ち絵
+//　　心願寺紅新立ち絵＿対魔忍衣装
+//　　　　RPG用新規イラストより流用
+<NAME_PLATE>
+　魔女の屋敷・隠し部屋。
+<PAUSE>
+<NAME_PLATE>
+　消された魔女が何かを遺していると
+すればここだろう。
+<PAUSE>
+<NAME_PLATE>
+　足を踏み入れた紅は手早く
+室内を捜索して――その時。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>篝
+『紅様ぁっ！　緊急事態ですっ！
+　不審な車両が大量に！
+　変な奴らが屋敷を囲んでいます！！』
+<PAUSE>
+<ACTOR>0,kn_t008e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「なに……？」
+<PAUSE>
+<NAME_PLATE>
+　端末から篝の切迫した声。
+<PAUSE>
+<NAME_PLATE>
+　篝は今、屋敷近くの樹上に潜んで
+周囲の監視を行っている。
+<PAUSE>
+<NAME_PLATE>篝
+『あれは――恰好からして
+　マフィアか何かの戦闘員ですね。
+　ぶっ殺しますか！！？』
+<PAUSE>
+<ACTOR>0,kn_t008d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「い、いや落ち着け篝。
+　無益な戦闘は避けるようにしろ、
+　お前は血の気が多すぎる……」
+<PAUSE>
+<NAME_PLATE>
+　慌てて気性の荒い新人従者を
+いさめる紅。
+<PAUSE>
+<ACTOR>0,kn_t008c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　恐らくやってきたのは、
+クローゼット商会の構成員だ。
+<PAUSE>
+<NAME_PLATE>
+　屋敷からの“証拠流出”を懸念して
+密かに警報装置でも仕掛けていたのだろう。
+<PAUSE>
+<NAME_PLATE>篝
+『はっ！　しかし、それでは
+　紅様の探索のお邪魔になりませんか？
+　奴ら、屋敷に入っていきますよ』
+<PAUSE>
+<NAME_PLATE>紅
+「問題ない。私もすぐに撤退する。
+　――目当てのものは見つかった」
+<PAUSE>
+<NAME_PLATE>篝
+『なんと！？』
+<PAUSE>
+<NAME_PLATE>
+　紅は手元の書類に目を落とした。
+<PAUSE>
+<NAME_PLATE>
+　死んだ魔女の“最後の”取引だったせいか、
+それは探すまでもなくデスクの上にあった。
+<PAUSE>
+<ACTOR>0,kn_t008e,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>紅
+「どうやら銃兵衛の奴が
+　睨んだ通りだったようだ……」
+<PAUSE>
+<NAME_PLATE>紅
+「クローゼット商会は、
+　魔女を仲介にしてセンザキ外部の
+　組織と秘密取引をしていた」
+<PAUSE>
+<NAME_PLATE>紅
+「忌まわしい――
+　吐き気を催すような非道な取引だ」
+<PAUSE>
+<NAME_PLATE>
+　紅の瞳に静かな怒りが浮かぶ。
+<PAUSE>
+<NAME_PLATE>
+　確かにこれは、“義”によって
+彼女が討つべき敵であった。
+<PAUSE>
+<NAME_PLATE>紅
+「取引の相手は、米連国務省系組織、
+　“特務機関Ｇ”――」
+<PAUSE>
+<NAME_PLATE>紅
+「目的は兵器開発――
+　子供の体を“素体”とした、
+　新たな人造兵士の研究だ」
+<PAUSE>
+//→Section３終了
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

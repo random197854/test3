@@ -1,0 +1,251 @@
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：五車学園＿正門前＿昼】【時間：昼】
+<BG>nc105a,IN, 1000
+<ACTOR>0,ts_m037a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>下忍１
+「捜せ！　この辺で目撃情報があった！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍斥候（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<ACTOR>1,ts_m001a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>下忍２
+「了解っ！！」
+<PAUSE>
+//　※立ち絵
+//　　対魔忍新兵（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+<SE_PLAY>se054
+</GROUP>
+<NAME_PLATE>
+　鋭く言い交わしながら
+対魔忍たちが駆けていく。
+<PAUSE>
+<NAME_PLATE>
+　すでに街の至るところに
+包囲網が敷かれているようだった。
+<PAUSE>
+<BGM_PLAY>bgm604,1000
+<ACTOR>2,chr_t0084a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アサギ
+「……なんとかやり過ごせたようね」
+<PAUSE>
+//　※立ち絵
+//　　ＺＥＲＯアサギ立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<ACTOR>3,ts_m061a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>俺
+「ええ。やっぱりここなら平気でしたね」
+//　※立ち絵
+//　　清麻呂＿汎用立ち絵
+//　　　　＊モンスターイラストから
+<PAUSE>
+<NAME_PLATE>
+　対魔忍たちが駆け去った後、門柱の影から
+姿を見せる俺（イノシシ）とアサギさん。
+<PAUSE>
+<NAME_PLATE>
+　俺達が隠れていたのは、
+五車学園の敷地の中。
+<PAUSE>
+<NAME_PLATE>
+　正月休みで人がいない校内に入って、
+対魔忍たちの追跡から逃れていたのだった。
+<PAUSE>
+<NAME_PLATE>アサギ
+「でも、どうして君がここを？」
+<PAUSE>
+<NAME_PLATE>俺
+「え？　何のことですか？」
+<PAUSE>
+<NAME_PLATE>
+　アサギさんが訝しそうに尋ねてきた。
+<PAUSE>
+<NAME_PLATE>アサギ
+「いえ、ここって対魔忍の学校でしょう。
+　なぜ君が、ここのことを？」
+<PAUSE>
+<NAME_PLATE>俺
+「ああ。そのことなら、実は俺も、
+　自分の次元ではここの学生なんですよ」
+<PAUSE>
+<NAME_PLATE>
+　俺は背後に見える校舎を指差した。
+<PAUSE>
+<NAME_PLATE>
+　俺とアサギさんは、
+学園の塀に身を隠すようにして
+そろそろと移動を始めている。
+<PAUSE>
+<NAME_PLATE>アサギ
+「ここの学生？　……そっか、
+　だから対魔忍のことも知っていたのね」
+<PAUSE>
+<NAME_PLATE>俺
+「ええ。アサギさんも、俺の次元では
+　ここの校長をしてますし」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,600
+<NAME_PLATE>アサギ
+「こ、校長っ！？　あっ……
+　さっき先生って呼んだのは、それ……？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「いや、でも……私は五車学園とは
+　距離を置いてるし……そもそも、
+　私はまだ学生なんだけど……？」
+<PAUSE>
+<NAME_PLATE>俺
+「さ、さあ……？」
+<PAUSE>
+<NAME_PLATE>
+　境遇や年齢など、次元ごとに色々と
+違いがあるのだろうか。
+<PAUSE>
+<NAME_PLATE>俺
+「あっ、アサギさん。そんなことより――」
+<PAUSE>
+<NAME_PLATE>
+　次元の話はわけがわからなすぎて
+考えても結論が出そうにない。
+<PAUSE>
+<NAME_PLATE>
+　俺は話を変えてアサギさんに聞いてみた。
+<PAUSE>
+<NAME_PLATE>俺
+「アサギさんは、何か願い事はないの？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「願い事……？」
+<PAUSE>
+<NAME_PLATE>俺
+「いや、さっきの話だと、俺が戻るために
+　福のエネルギーを譲ってくれるっていう
+　感じだったけど……」
+<PAUSE>
+<NAME_PLATE>俺
+「もしアサギさんに何か願いがあるなら、
+　申し訳ないかなって」
+<PAUSE>
+<NAME_PLATE>アサギ
+「うーん。私は特にないかな」
+<PAUSE>
+<NAME_PLATE>俺
+「ほ、本当に……？」
+<PAUSE>
+<NAME_PLATE>
+　欲がないというべきか、アサギさんは
+あっさりと言った。
+<PAUSE>
+<NAME_PLATE>アサギ
+「まあ、したいことがないわけじゃないけど
+　……それは、自分で実現すれば
+　良いことだし」
+<PAUSE>
+<NAME_PLATE>俺
+「確かに」
+<PAUSE>
+<NAME_PLATE>
+　俺を追いかけ回している連中にも
+聞かせたいセリフである。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>アサギ
+「あっ。ただ、もし何でも願いが叶うって
+　言うなら、ひとつだけ――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0086a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「――ハハ、願い事！？　そりゃあ、
+　面白え相手とやり合うことだろう！？」
+<PAUSE>
+//　※立ち絵
+//　　眞田焔立ち絵
+//　　　　＊対魔忍RPGガチャカード（正月）表絵柄より流用
+<BGM_PLAY>bgm406,1000
+<NAME_PLATE>
+　突然の大声。
+<PAUSE>
+<NAME_PLATE>
+　身を隠すように進んでいた俺達の前に、
+対魔忍部隊を率いた女が立ち塞がった。
+<PAUSE>
+<GROUP>
+<ACTOR>5,ts_m028a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>6,ts_m042a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_PRIORITY>4, 10
+</GROUP>
+//　※立ち絵
+//　　火遁衆(女)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+//　※立ち絵
+//　　火遁衆（男)立ち絵
+//　　　　＊決戦アリーナのモンスターイラストより流用
+<NAME_PLATE>俺
+「くっ！？　見つかった！？」
+<PAUSE>
+<NAME_PLATE>アサギ
+「……仕方がないわね。その姿じゃ、
+　人目を避け続けるにも限度がある」
+<PAUSE>
+<NAME_PLATE>
+　身構える俺達を取り囲むようにして
+対魔忍部隊が展開する。
+<PAUSE>
+<NAME_PLATE>
+　そして、その先頭に立った女が
+意気揚々と名乗りを上げて――
+<PAUSE>
+<NAME_PLATE>眞田焔
+「火遁衆３番隊筆頭・眞田焔見参！！！」
+<PAUSE>
+<NAME_PLATE>焔
+「嬉しいねぇ、井河アサギ！
+　あんたみたいな面白い奴が
+　敵に回ってくれて――！！」
+<PAUSE>
+<NAME_PLATE>
+　火炎を纏わせた長大な槍を、ビシッと
+俺とアサギさんの方に差し向けた。
+<PAUSE>
+<NAME_PLATE>俺
+「――眞田焔か」
+<PAUSE>
+<NAME_PLATE>
+　俺はその名前を記憶から引っ張り出した。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>6,LEFT,linear,1000
+<ACTOR_OUT>5,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ある意味で、とても有名な対魔忍だ。
+<PAUSE>
+<NAME_PLATE>
+　火遁衆３番隊筆頭・眞田焔。
+<PAUSE>
+<NAME_PLATE>
+　戦闘にかけてはかなりの腕を持つ
+実力者なのだが、闘うことしか考えていない。
+<PAUSE>
+<NAME_PLATE>
+　対魔忍とは名ばかりの戦闘狂――。
+<PAUSE>
+<NAME_PLATE>焔
+「さあ、いっちょ派手にやりますか！
+　新年早々燃えてきたァ！！！」
+<PAUSE>
+<ACTOR_OUT>4,CENTER,linear,1000
+//→Section３-ＭＡＰ画面１へ
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

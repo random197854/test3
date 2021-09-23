@@ -1,0 +1,337 @@
+//=================================================================
+//FileNo:S501a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：地下遺跡＿祭壇＿昼夜共通】【時間：夜】
+//　※姫騎士シャロン_nc003aより流用
+<BG>nc185a,IN, 1000
+<NAME_PLATE>
+　飛び込んだ祭壇の奥。
+そこは―――。
+<PAUSE>
+//【背景：ある魔術師の部屋＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO＿NC059aより流用
+//新規　nc186a
+<BGM_PLAY>bgm509,1000
+<BG>nc186a,IN, 1000
+<NAME_PLATE>
+　魔術師の書斎といった場所だった。
+<PAUSE>
+<NAME_PLATE>
+　地下遺跡の面影はどこにもない。
+<PAUSE>
+<NAME_PLATE>
+　５メートル四方ほどの小部屋だが
+どの壁も本棚で埋め尽くされている。
+<PAUSE>
+<NAME_PLATE>
+　書斎の真ん中には机があって、
+本やノートが積み重ねられていた。
+<PAUSE>
+<NAME_PLATE>
+　フラスコや試験管が細い管で繋がった
+いかにも魔術の実験道具といった代物もある。
+<PAUSE>
+<ACTOR>0,chr_t0040a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>シュヴァリエ
+「悪くない品揃えね。
+　本の趣味はシュヴァリエとは
+　合わないようだけれど」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ立ち絵
+//　　　　＊ローンチのシュヴァリエ01を流用
+<ACTOR>1,kr_t001f,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>きらら
+「そんなことより
+　アイツどこ行ったのよ！？
+　どこにもいないじゃないの！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　そう、俺たちをここに誘い込んだ
+ガーディアンの姿がない。
+<PAUSE>
+<NAME_PLATE>
+　見たところ、入ってきた扉以外に
+出入り口はなさそうだが。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>2,ts_m113c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>魔術師
+「我が館へようこそ」
+<PAUSE>
+//　※立ち絵
+//　　バルド通常立ち絵＿魔術師衣装
+<NAME_PLATE>
+　突然、男が部屋の中央に現れた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「っ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵_対魔忍
+<NAME_PLATE>
+　きらら先輩は瞬時に攻撃しようとするが、
+アンリードがそれを制する。
+<PAUSE>
+<NAME_PLATE>アンリード
+「これは幻影魔術。
+　遺されたホログラム映像のようなものさ」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー立ち絵
+//　　　　　＊対魔忍ＲＰＧキャラカードイラストより流用
+<NAME_PLATE>きらら
+「留守番メッセージってこと？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>アンリード
+「ま、そういうことね」
+<PAUSE>
+<NAME_PLATE>俺
+「この爺さんがここの主なのか……？」
+<PAUSE>
+<NAME_PLATE>
+　シルクハットに片眼鏡。
+そしてインバネスコート。
+ヨーロッパの老紳士といった風情だ。
+<PAUSE>
+<NAME_PLATE>
+　杖と片眼鏡がやけにメカニカルなのが
+魔術師らしくない。
+<PAUSE>
+<NAME_PLATE>俺
+「シュヴァリエ、知っているか？」
+<PAUSE>
+<NAME_PLATE>シュヴァリエ
+「うふふ。
+　まずは話を聞いてみたら？」
+<PAUSE>
+<NAME_PLATE>
+　シュヴァリエがそう促すと、
+幻影のくせにそれを待っていたかのように、
+爺さんは話し始めた。
+<PAUSE>
+<ACTOR>2,ts_m113a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「私はバルド・バルド」
+<PAUSE>
+<ACTOR>2,ts_m113f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「この幻影魔術を見ているという事は、
+　君たちが招待した覚えのない
+　不届き者であるということだ」
+<PAUSE>
+<ACTOR>2,ts_m113i,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「で、あるが歓迎しよう」
+<PAUSE>
+<ACTOR>2,ts_m113h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「よく我がガーディアン
+　“ドラウグル・オーガスト”の妨害を
+　乗り越え、この部屋に到達できたと」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「私は君たちの実力を買って
+　傭兵として雇いたいと考えている。
+　無論、十分な報酬を用意する」
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<NAME_PLATE>
+　そう言って、幻影のバルドは
+札束の入ったトランクケースを見せた。
+<PAUSE>
+<NAME_PLATE>
+　数千万は入っているだろうか。
+<PAUSE>
+<NAME_PLATE>
+　傭兵の報酬としては大金だ。
+<PAUSE>
+<NAME_PLATE>
+　無論、それ相応の仕事を要求される
+ということだろうが。
+<PAUSE>
+<ACTOR>2,ts_m113d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バルド・バルド
+「私はある研究に一生を捧げている」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「最近は意義ある研究を理解できない
+　野蛮人が増えてきてね」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「腕の立つ傭兵が欲しいと
+　常々思っているのだ」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「もし引き受けてくれるなら
+　今から１分以内に幻影の私に触れ給え」
+<PAUSE>
+<ACTOR>2,ts_m113i,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「さすれば今現在、
+　私がいる場所へ君たちは転送される」
+<PAUSE>
+<ACTOR>2,ts_m113d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>バルド・バルド
+「万が一、断るのなら
+　君たちは私の家の一つに忍び込んだ
+　賊ということになる」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「賊には哀しい未来しか残されていない。
+　ドラウグル・オーガストに君たちの始末を
+　頼むことにしよう」
+<PAUSE>
+<NAME_PLATE>バルド・バルド
+「愚かな選択をせぬ事を願う。
+　さあ、どうするかね？」
+<PAUSE>
+<NAME_PLATE>
+　魔術師という輩はみなこうなのだろうか？
+<PAUSE>
+<NAME_PLATE>
+　自らの棲家に死の罠を仕掛け、
+それを突破できた者を雇おうというのだ。
+<PAUSE>
+<NAME_PLATE>
+　その発想の中には
+恐ろしいほどの選民意識を感じる。
+<PAUSE>
+<NAME_PLATE>
+　このバルドという魔術師は
+かなり純粋悪に近い男であると予想できる。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>1,kr_t001i,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「ハア～～～～～～～～～～～～～ッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　きらら先輩が地の底から響くような
+深い深い溜息を吐いた。
+<PAUSE>
+<NAME_PLATE>
+　メッセージの途中から
+かなりプルプルしていたのだが、
+必死に我慢して、もう限界といった顔だ。
+<PAUSE>
+<ACTOR>1,kr_t001e,CENTER, CENTER, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「面白いじゃない！！
+　こいつの所に転送してもらって
+　ぶっ飛ばすってのはどう？」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<ACTOR_OUT>1,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,chr_t0147a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,chr_t0040a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アンリード
+「転送自体が罠ってこともあるよ？」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー立ち絵
+//　　　　　＊対魔忍ＲＰＧキャラカードイラストより流用
+<NAME_PLATE>シュヴァリエ
+「可能ね。
+　転送先がマグマの中なら、
+　さすがのシュヴァリエも死んでしまうかも」
+<PAUSE>
+//　※立ち絵
+//　　シュヴァリエ立ち絵
+//　　　　＊ローンチのシュヴァリエ01を流用
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,kr_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「相手は自信過剰の魔術師よ。
+　罠はないわよ！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　三人は俺の判断を仰ぐように
+こちらに視線を送ってきた。
+<PAUSE>
+<NAME_PLATE>
+　俺も罠の可能性は低いと考えている。
+<PAUSE>
+<NAME_PLATE>
+　あえてバルド・バルドの懐に
+飛び込むという手はある。
+<PAUSE>
+<NAME_PLATE>
+　しかし、今は蛇子や鹿之助を
+ガーディアン＝ドラウグル・オーガストから
+取り返すのが何よりも優先される。
+<PAUSE>
+<NAME_PLATE>
+　となれば、答えは一択だ。
+<PAUSE>
+<NAME_PLATE>
+　俺は幻影のバルドに答えた。
+<PAUSE>
+<BGM_PLAY>bgm406,1000
+<NAME_PLATE>俺
+「だが断る」
+<PAUSE>
+<ACTOR>2,ts_m113d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>バルド・バルド
+「残念だ」
+<PAUSE>
+//　※立ち絵
+//　　バルド通常立ち絵＿魔術師衣装
+<NAME_PLATE>
+　少しも残念ではなさそうに言った直後、
+幻影のバルドの姿が
+ドラウグル・オーガストに変化した。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>4,ts_m111a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ドラウグル・オーガスト
+「主の許しが出た。
+　おぬしたち全員を我が素材としよう」
+<PAUSE>
+//　※立ち絵
+//　　ドラウグル・オーガスト立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「俺たちを倒すことができたらな。
+　そのかわり、お前を倒したら
+　攫った二人を返してもらうぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「お前の主バルド・バルドの名にかけて
+　誓ってもらおうか」
+<PAUSE>
+<NAME_PLATE>ドラウグル・オーガスト
+「よかろう。
+　そのようなこと起こりうるはずもない。
+　我が主に逆らう愚か者たちよ」
+<PAUSE>
+<NAME_PLATE>
+　最強の守護者ドラウグル・オーガストの
+瞳がギラリと光った。
+<PAUSE>
+//→S502a
+<ACTOR_OUT>4,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

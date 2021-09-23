@@ -1,0 +1,239 @@
+//=================================================================
+//FileNo:S301a
+//シーン名：プロローグ
+//【背景：地下鉄廃墟＿昼】【時間：昼】
+//　※対魔忍アサギ2_nc016aより流用
+<BGM_PLAY>bgm203,1000
+<BG>nc021a,IN, 1000
+<NAME_PLATE>
+　東京キングダムの地下には、
+寂れ果てた線路が走る。
+<PAUSE>
+<NAME_PLATE>
+　東京キングダム建築時に
+本土と繋がる幹線として計画されたが、
+<PAUSE>
+<NAME_PLATE>
+　東京キングダム計画が頓挫すると、
+同時に凍結され、
+その後は建設中のまま放置されていた。
+<PAUSE>
+<ACTOR>0,ts_m066a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鬼蜘蛛三郎
+「………………」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　静まり返ったその線路上に、
+異様な存在感を放つ大蜘蛛が鎮座している。
+<PAUSE>
+<NAME_PLATE>
+　二車家幹部が一人、鬼蜘蛛三郎。
+<PAUSE>
+<NAME_PLATE>
+　否、正確には、
+蜘蛛の背にちょこんと座る少女が
+鬼蜘蛛三郎である。
+<PAUSE>
+<NAME_PLATE>
+　鬼蜘蛛家は代々“獣遁の術”使いで知られ、
+彼女もまた祖父から「三郎」の名を継いで
+当主となった。
+<PAUSE>
+<NAME_PLATE>鬼蜘蛛三郎
+「……遅いわね……」
+<PAUSE>
+//　※立ち絵
+//　　鬼蜘蛛三郎
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　その三郎は憮然とした表情で
+前を見据えていた。
+誰かを待っているようだ。
+<PAUSE>
+<NAME_PLATE>矢車弥右衛門
+『ほら、言うただろう』
+<PAUSE>
+<NAME_PLATE>
+　と、足元から声がしたと思うと、
+巨漢が地面から生え現れた。
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門
+//　　　　＊モンスターイラストより流用
+<ACTOR>0,ts_m066a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　矢車弥右衛門。
+彼もまた、二車家の幹部のひとりである。
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「そんな大蜘蛛で待ち構えとったら、
+　情報提供者もビビって出て来れんわい」
+<PAUSE>
+<NAME_PLATE>三郎
+「うるさいなあ。
+　大体なんであなたがいっしょなの？
+　情報交換なんて、私ひとりで十分なのに」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「そうもいかん。
+　情報提供者も子供相手では不安になろうて」
+<PAUSE>
+<NAME_PLATE>三郎
+「子供じゃないし」
+<PAUSE>
+<NAME_PLATE>
+　三郎は大五郎の背から、
+弥右衛門をぎろりと睨み下ろした。
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「そうかいそうかい。
+　当主になってもまったく口は減らんな。
+　先代とは大違いだ」
+<PAUSE>
+<NAME_PLATE>三郎
+「……大五郎の餌にされたいの？」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「そいつは勘弁……」
+<PAUSE>
+<NAME_PLATE>大五郎
+「ＧＹＡ！」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　大蜘蛛・大五郎が声を出し、
+首をもたげる。
+<PAUSE>
+<NAME_PLATE>
+　弥右衛門を喰らおうとしたわけではない。
+トンネルの奥に、何かの気配を感じたのだ。
+<PAUSE>
+<NAME_PLATE>三郎
+「何か来るみたいね」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「そのようじゃな。
+　情報提供者の話は確かなのか？」
+<PAUSE>
+<NAME_PLATE>三郎
+「間違いない。尚兄からの情報よ」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>弥右衛門
+「ううむ。しかしこれは……」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ガシャガシャガシャガシャ……。
+<PAUSE>
+<NAME_PLATE>
+　やがて二人の耳にも聞こえるほどに、
+金属のぶつかる不快な音が響く。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m041a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m041a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m041a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>
+　ガシャガシャガシャガシャ……。
+<PAUSE>
+//　※立ち絵
+//　　ドローンアント
+//　　　　＊モンスターイラストより流用
+//　　※たくさんいる風で並べてください
+<NAME_PLATE>　
+　果たして、艶々とした姿を現したのは、
+蟻を模したドローンの群れであった。
+<PAUSE>
+<NAME_PLATE>
+　それも数十匹、もしかしたら数百匹は
+あろうかという大群である。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>三郎
+「ひええっ！？　機械アリ！？」
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「言わんことではない、
+　大蜘蛛なんぞ連れて待つから、
+　機械の虫を寄越しおったぞ」
+<PAUSE>
+<NAME_PLATE>三郎
+「そんなわけないでしょ！
+　罠だったのよ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　三郎の言葉を裏付けるように、
+トンネルの逆方向からも機械の足音が迫る。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m041a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m041a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m041a,CENTER, CENTER, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>
+　ガシャガシャガシャガシャ……。
+<PAUSE>
+//　※立ち絵
+//　　ドローンアント
+//　　　　＊モンスターイラストより流用
+//　　※たくさんいる風で並べてください
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m066a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m083a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>弥右衛門
+「こりゃ参ったわい。
+　尚之助の奴、かまされおったな」
+<PAUSE>
+<NAME_PLATE>三郎
+「尚兄がミスるなんて、
+　珍しいこともあるのね」
+<PAUSE>
+<NAME_PLATE>
+　大量の機械アリは、あっという間に
+二人を取り囲んでしまった。
+<PAUSE>
+<NAME_PLATE>弥右衛門
+「叩き壊して抜けるしかなさそうじゃの」
+<PAUSE>
+<NAME_PLATE>三郎
+「わかってる、いくわよ大五郎！」
+<PAUSE>
+//→S302a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,765 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：五車町＿山間部＿森の中＿昼】【時間：昼】
+//　※MISAO_nc011aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc171a,IN, 1000
+<ACTOR>0,s_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「お、俺だって男だ。
+　独立遊撃隊で何度も修羅場を
+　経験してきたんだ！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>鹿之助
+「お、お前ら
+　対魔忍、上原鹿之助を舐めるなよぉ！！」
+<PAUSE>
+<NAME_PLATE>
+　化物の群れに向かって意気込んでみせるが、
+連中は少しも怯んでいない。
+<PAUSE>
+//　※立ち絵
+//　　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何体か出してください
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m167a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m166a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　こっちの言葉が通じているかも怪しい。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「くそお！！
+　お前らちょっとはビビれよ！！
+　これならどうだ、　爆弾手裏剣！！」
+<PAUSE>
+<NAME_PLATE>
+　敵は２０匹近くに増えている。
+一斉に攻め込まれたらアウトだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　鹿之助は近づいてくる魚とイカに向かって
+放射状に手裏剣を放った。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「電遁の術“スパーク”！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se037
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチバチッ――
+ドゴオオオオオオオオン！！！！！
+<PAUSE>
+<NAME_PLATE>
+　敵の目前で爆発の壁が拡がっていく。
+<PAUSE>
+<NAME_PLATE>
+　数匹がそれに巻き込まれて、
+グチャグチャッと肉片を弾き飛ばした。
+<PAUSE>
+<BG>nc171a,IN, 500
+<NAME_PLATE>
+　それで倒すには至らなかったが、
+化物たちは多少は怯んだようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m167a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m166a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　今度は鹿之助の出方を窺うように、
+ふわふわズルズルと彼を取り囲もうとする。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,s_t001g,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「ううう……あんまり効いてねえ。
+　爆弾手裏剣だってそんなにないし。
+　……あれ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>化け魚
+「！？！？！？！？！？！？！？」
+<PAUSE>
+<NAME_PLATE>
+　傷を負った化け魚の一匹が
+べたんべたんと地面でのたうっていた。
+<PAUSE>
+<NAME_PLATE>
+　その傷口に妙な機械が見え、
+バチバチと火花を散らしている。
+<PAUSE>
+<ACTOR>0,s_t001c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「身体の中に機械？
+　もしかしてあれで制御してるのか！？」
+<PAUSE>
+<NAME_PLATE>
+　だとしたら手はある。
+<PAUSE>
+<ACTOR>0,s_t001f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あいつらまだ来ないし。
+　よ、よし、俺がやってやる！
+　バッテリー・オン！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助汎用立ち絵＿対魔忍電気
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,s_t002f,CENTER, CENTER, NONE, linear, 0
+<SE_PLAY>se014_01
+<NAME_PLATE>
+　鹿之助はとっておきのバッテリーで
+電気の衣をまとった。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「くらえ、
+　“バンビーノ・スパーク”っっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　上原鹿之助戦闘立ち_対魔忍衣装電気子鹿
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR>0,s_t005c,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　増幅された電気のエネルギーが
+小鹿の形となって化物に襲いかかった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se030_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バチッ、バチッ、バチバチッッ！！
+<PAUSE>
+<NAME_PLATE>化け魚
+「！？！？！？！？！？！？！？」
+「！？！？！？！？！？！？！？」
+「！？！？！？！？！？！？！？」
+<PAUSE>
+//　※立ち絵
+//　　スィール＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何匹か出してください。
+<NAME_PLATE>化けイカ
+「！？！？！？！？！？！？！？」
+「！？！？！？！？！？！？！？」
+「！？！？！？！？！？！？！？」
+<PAUSE>
+//　※立ち絵
+//　　カナロア＿立ち絵
+//　　　　＊モンスターイラストより流用
+//　※何匹か出してください。
+<NAME_PLATE>
+　効果は劇的だった。
+<PAUSE>
+<NAME_PLATE>
+　電気攻撃を受けた化物たちは
+埋め込まれた制御装置を次々と故障させ、
+<PAUSE>
+<NAME_PLATE>
+　互いに争い合ったり、共食いを始めたり、
+勝手に地面に激突したりしている。
+<PAUSE>
+<NAME_PLATE>
+　あれよあれよという間に
+魚もイカも一匹残らず自滅してしまった。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc171a,IN, 500
+<ACTOR>0,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え？　た、倒せた？
+　うそ、俺一人で？？　や、やった？」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そ、そうだよな。
+　俺だってもう一人でやれるんだ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ふうまやゆきかぜが来たら
+　どうだすごいだろって自慢してやるぜ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　誇らしい気持ちになったところで、
+<PAUSE>
+<NAME_PLATE>
+　ブウン―――
+<PAUSE>
+<NAME_PLATE>
+　背後で嫌な音がした。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,s_t001e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「え？　なに？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m205a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　鹿之助が振り返ると、
+全長３メートルほどのロボットが
+光学迷彩を解いて出現していた。
+<PAUSE>
+//　※立ち絵
+//　　パズズ＿立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>鹿之助
+「ひいいいいいいい！！
+　今度は謎のロボットが！！
+　しかもすげえ悪カッコイイ感じのおっ！！」
+<PAUSE>
+<NAME_PLATE>
+　悲鳴を上げながら喜ぶという
+器用な真似をしつつ、鹿之助は後ずさる。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビーッ！！
+ぼぼんっ！
+<PAUSE>
+<NAME_PLATE>
+　ロボットは目からレーザーを発射して、
+鹿之助のバッテリーを破壊した。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「目からレーザー！？
+　す、すげえ……けど、ひいい。
+　俺に、なな、何の用だよお！！」
+<PAUSE>
+<NAME_PLATE>パズズ
+「我が名はパズズ。
+　お前の力の源は破壊した。
+　抵抗は無意味だ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「しゃ、しゃべった！？
+　も、もしかしてコンボイ！？」
+<PAUSE>
+<NAME_PLATE>
+　喋る悪カッコいいロボットに
+窮地ではあるが鹿之助の目が輝く。
+<PAUSE>
+<NAME_PLATE>パズズ
+「我らは機械生命体だ。」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「や、やっぱりコンボイ！？
+　変身！？　変身はするんだよな！？」
+<PAUSE>
+<NAME_PLATE>パズズ
+「何を言っている人間！？
+　変身などせぬ！！！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　鹿之助とは逆に
+何か怒りの琴線に触れたらしく、
+パズズは彼の足元を威嚇射撃した。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいいいいい！！！
+　正義のロボットじゃないのかよ！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「そうよ！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ立ち絵
+//　　　　＊カードイラストより流用
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビギャーーンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　レーザーのように鋭い雷撃が
+パズズを撃った。
+<PAUSE>
+<NAME_PLATE>パズズ
+「がっっ！」
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc171a,IN, 500
+<NAME_PLATE>
+　今の雷。やっと来てくれた！
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ゆきかぜ！？」
+<PAUSE>
+<BGM_PLAY>bgm320,1000
+<ACTOR>0,chr_t0277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「鹿之助！　そこどいて！！」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ戦闘立ち絵
+//　　　　＊カードイラストより流用
+<NAME_PLATE>鹿之助
+「―――じゃない？」
+<PAUSE>
+<NAME_PLATE>
+　見たことのない女性が
+すごいスピードでやって来る。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m205a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>パズズ
+「邪魔をするか！」
+<PAUSE>
+<NAME_PLATE>
+　パズズは怒号を張りあげて、
+その人に向けてミサイルを発射した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,chr_t0277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「無駄よ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　彼女は右手をさっと一振りした。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se014
+<WAIT>500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリバリバリッッッ！！
+ぼぼぼぼんっっ！！！
+<PAUSE>
+<NAME_PLATE>
+　帯のような雷撃が繰り出され、
+ミサイルが全て空中で爆発する。
+<PAUSE>
+<BG>nc171a,IN, 500
+<NAME_PLATE>パズズ
+「ぬうっ、貴様っっ！！」
+<PAUSE>
+<NAME_PLATE>
+　パズズは彼女にマシンガンを向けた。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガガガガガガガガガッ！！
+<PAUSE>
+<NAME_PLATE>
+　鹿之助の時とは違い、
+威嚇ではなく、当てるための攻撃だ。
+<PAUSE>
+<NAME_PLATE>？？？
+「っっ！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ヒュンッ
+<PAUSE>
+<NAME_PLATE>
+　女の人の身体が稲光に包まれた。
+<PAUSE>
+<NAME_PLATE>
+　彼女自身が雷になったかのような動きで
+マシンガンの弾を簡単にかわしていく。
+<PAUSE>
+<ACTOR>0,ts_m205a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>パズズ
+「ぬう！！
+　それしきのスピード！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se116
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ビーッ！！　ビビーーッ！！
+<PAUSE>
+<NAME_PLATE>
+　パズズは目からレーザーを放つが、
+それすら通用しない。
+<PAUSE>
+<NAME_PLATE>
+　女の人は強電磁場かなにかで
+レーザーを次々と弾いている。
+<PAUSE>
+<BG>nc171a,IN, 500
+<ACTOR>0,chr_t0277b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「はあっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef006c,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　女の人は手のひらから雷球を放った。
+<PAUSE>
+<NAME_PLATE>パズズ
+「ぐはっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　パズズはそれを防ぐことも、
+避けることも出来なかった。
+<PAUSE>
+<NAME_PLATE>
+　気がついた時には雷球を食らい、
+その体の一部を吹き飛ばされて、
+まるで人間のように呻いていた。
+<PAUSE>
+<BG>nc171a,IN, 500
+<ACTOR>0,s_t001d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「す、すげえ……！！
+　誰なんだあのカッコイイ女の人？
+　ゆきかぜの親戚かなんかか？？」
+<PAUSE>
+<NAME_PLATE>
+　悪のコンボイを圧倒するお姉さんに、
+鹿之助は見とれてしまう。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m205a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>パズズ
+「お、おのれ！！
+　誇り高き機械生命体であるこのパズズに
+　傷を付けるとは、愚かな下等生物が！」
+<PAUSE>
+<NAME_PLATE>？？？
+「お望みならスクラップにしてあげる」
+<PAUSE>
+<NAME_PLATE>パズズ
+「くっ、覚えておれ！！」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　格好いいお姉さんにクールに睨まれ、
+パズズは捨て台詞を吐いて逃げていった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「大丈夫だった？」
+<PAUSE>
+//　※立ち絵
+//　　大人ゆきかぜ通常立ち絵対魔忍１
+<ACTOR>0,yu_t004a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t001i,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「は、はい！
+　強くてカッコイイお姉さん！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　鹿之助は目をキラキラさせて答える。
+<PAUSE>
+<ACTOR>0,yu_t004b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　お姉さんはくすりと笑った。
+<PAUSE>
+<NAME_PLATE>？？？
+「鹿之助、久しぶりね」
+<PAUSE>
+<ACTOR>1,s_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「え？　久しぶりって、え？」
+<PAUSE>
+<NAME_PLATE>？？？
+「私のこと分からない？
+　じゃあ、これでどう？」
+<PAUSE>
+<NAME_PLATE>
+　その人は人差し指を立てて、
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+<NAME_PLATE>
+　バチッ
+<PAUSE>
+<ACTOR>1,s_t001d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うひゃっっ！」
+<PAUSE>
+<NAME_PLATE>
+　ごくごく軽い雷撃を彼に当てた。
+<PAUSE>
+<NAME_PLATE>
+　電遁使いの鹿之助だからこそ、
+それで通じるものがあった。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「こ、この感じ、知ってるぞ。
+　ええ？　ゆきかぜなのか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「正解」
+<PAUSE>
+<NAME_PLATE>
+　大人のゆきかぜは言った。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「で、でもその姿は？
+　いきなりすげえ格好いい大人になって」
+<PAUSE>
+<ACTOR>1,s_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「手も足も長くて、顔もなんかクールだし、
+　胸は……あんまり変わってないけど、
+　いやむしろ小さくなって―――」
+<PAUSE>
+<ACTOR>0,yu_t004d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「はあっ！？」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030_01
+<NAME_PLATE>
+　バチバチバチッ！！
+<PAUSE>
+<ACTOR>1,s_t001d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「ひいいいっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　良く知っている反応が来た。
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜだ。間違いなくゆきかぜだ。
+<PAUSE>
+<ACTOR>0,yu_t004a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「はあ、まったく。
+　胸、胸ってあんたくらいの年の男は
+　ほんとに女の魅力が分かってないんだから」
+<PAUSE>
+<ACTOR>1,s_t001e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ご、ごめん！！
+　っていうか、お前なんでいきなり大人に
+　なっちゃったんだよ！」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「いきなりなったんじゃなくて
+　未来から来たからよ」
+<PAUSE>
+<NAME_PLATE>
+　大人のゆきかぜは溜息交じりに言った。
+鹿之助はそれに食いつく。
+<PAUSE>
+<ACTOR>1,s_t001d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「み、未来！？
+　それってタイムトラベラーか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「そうよ」
+<PAUSE>
+<ACTOR>1,s_t001b,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「マジかよ！！
+　うわすげええええ！！！」
+<PAUSE>
+<NAME_PLATE>
+　悪のコンボイみたいなロボットに
+格好いい大人のゆきかぜ。
+さらにタイムトラベラー。
+<PAUSE>
+<NAME_PLATE>
+　鹿之助はもう大興奮だ。
+<PAUSE>
+<NAME_PLATE>
+　そこへ、ふうまがようやくやってきた。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「鹿之助！？　大丈夫か！？」
+<PAUSE>
+<ACTOR>0,s_t001b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「おおい、ふうま！！　すげえんだぜ！！
+　いま俺、悪のコンボイに襲われたんだ！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「そしたら大人のゆきかぜが現れて
+　あっという間にそいつを蹴散らして
+　すっげーーかっこいいの！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「この人この人、ゆきかぜなんだぜ。
+　未来から来たんだって」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「タイムトラベラーだぜ！
+　タイムトラベラーゆきかぜ！！
+　すごすぎるだろ、なっ、なっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+「だ、大丈夫そうだな………」
+<PAUSE>
+<ACTOR>0,yu_t004a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ゆきかぜ
+「はあ……昔のまんまね。鹿之助。
+　まあ、昔なんだけど……」
+<PAUSE>
+<NAME_PLATE>
+　大はしゃぎの鹿之助に
+ゆきかぜは呆れ顔だった。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　しかし、あたりに転がった
+化物の死骸の数を見るに
+かなりの危機だったはずだ。
+<PAUSE>
+<NAME_PLATE>俺
+「とにかく、無事で何よりだ」
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>0,yu_t004a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,s_t001c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「なあ、ゆきかぜ、
+　いきなり俺を襲ってきたけど、
+　あのロボットなんなんだよ？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「あいつはパズズよ。
+　アルサールが作り出した機械生命体」
+<PAUSE>
+<ACTOR>1,s_t001d,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「アルサール！？
+　ブレインフレーヤーの！？
+　あいつ死んだんじゃないのか？？」
+<PAUSE>
+<NAME_PLATE>俺
+「どうやら生きてたらしい」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うそだろぉおおおおお！！」
+<PAUSE>
+<NAME_PLATE>
+　大はしゃぎから一転、
+鹿之助は震え上がった。
+<PAUSE>
+<NAME_PLATE>
+　前の時は、俺と離ればなれになって
+どこかの次元で怪物に食われそうになったり、
+<PAUSE>
+<NAME_PLATE>
+　瀕死のアルサールに人質にとられたりと、
+俺以上に酷い目にあったから無理もない。
+<PAUSE>
+<NAME_PLATE>俺
+「鹿之助を狙ってきたってことは
+　俺たちに復讐するために来たのか？」
+<PAUSE>
+<NAME_PLATE>ゆきかぜ
+「分からない。鹿之助の忍法は
+　機械生命体にとっては最も脅威だから
+　それで狙われたかもしれない」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは俺と目を合わせずに
+素っ気ない口調で言った。
+<PAUSE>
+<NAME_PLATE>
+　嘘は言っていないが、
+何かを誤魔化している。そう感じた。
+<PAUSE>
+<ACTOR>0,yu_t005a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「今、あいつに発信器を取り付けたわ」
+<PAUSE>
+<NAME_PLATE>
+　ゆきかぜは事務的に言うと、
+対魔忍スーツの小手の部分を操作した。
+<PAUSE>
+<NAME_PLATE>
+　すると中空にディスプレイが浮かび
+何かを映し出した。
+<PAUSE>
+<ACTOR>1,s_t001b,RIGHT, RIGHT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>鹿之助
+「うおおおお！
+　すげええええええっっ！！」
+<PAUSE>
+<NAME_PLATE>俺
+「確かにＳＦだな、ゆきかぜ」
+<PAUSE>
+<NAME_PLATE>
+　鹿之助がまた喜んでいる。
+<PAUSE>
+<NAME_PLATE>
+　こいつはと呆れつつも、
+俺もそのＳＦガジェットに見とれてしまう。
+<PAUSE>
+<NAME_PLATE>
+　そんな俺たちの姿に
+ゆきかぜはクールな表情を崩して、
+少し笑った。
+<PAUSE>
+<ACTOR>0,yu_t005b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>ゆきかぜ
+「まったくあんたたちは。
+　さあ、追うわよ」
+<PAUSE>
+//→Section２終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

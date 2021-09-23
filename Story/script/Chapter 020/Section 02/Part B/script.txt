@@ -1,0 +1,332 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：近隣都市まえさき市＿路地裏＿昼】【時間：昼】
+//　※堕ちる人妻＿nc008aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc262a,IN, 1000
+<ACTOR>3,ts_m029a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ドローン・ドッグ
+「ＧＵＲＵＵＵＵＵＵＵＵＵ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ドッグ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　ドローン・ドッグが地上から、
+<PAUSE>
+<ACTOR>2,ts_m011a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドローンワスプ
+「ＢＵＵＵＵＵＵＵＵＮＮＮ！！」
+<PAUSE>
+//　※立ち絵
+//　　ドローン・ワスプ立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　ドローン・ワスプが空中から、
+斉藤に躍りかかった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>3,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「機械の相手をさせられるなど」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　斉藤は相変わらず平然としている。
+<PAUSE>
+<NAME_PLATE>
+　だが、ドローンの爪と牙は
+柔らかい人間の身体など容易く切り裂く。
+<PAUSE>
+<NAME_PLATE>井河影臣
+（さあ、それにどうやって対抗する！？）
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「単調な動きだ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　スッ……スッ……ススッ……
+<PAUSE>
+<NAME_PLATE>
+　能面男は三人の部下をあしらったのと同じ、
+華麗な体術でドローンの攻撃を躱していく。
+<PAUSE>
+<NAME_PLATE>井河影臣
+（その体術はすげえよ。褒めてやる。
+　だが、腕が四本あっても素手でどうすんだ？
+　ええ、連続殺人鬼さんよ！）
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「一つ」
+<PAUSE>
+<NAME_PLATE>
+　斉藤の右手、元からあった奴が
+ドローン・ドッグの頭に軽く触れた。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　なにをどうやったのか、
+ドローン・ドッグの頭が吹き飛ぶ。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「二つ」
+<PAUSE>
+<NAME_PLATE>
+　今度は左手、後から生えた方で、
+ドローン・ワスプの胴体を軽く押した。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボカンッ！！
+<PAUSE>
+<NAME_PLATE>
+　やはり小さな爆発が起こって、
+ドローン・ワスプがあっさり砕け散った。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「三つ……四つ……」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンッ！！　ボボンッ！！
+<PAUSE>
+<NAME_PLATE>
+　斉藤は顔色一つ変えず、
+ルーチンワークをこなすように
+ドローンを淡々と破壊していく。
+<PAUSE>
+<BG>nc262a,IN, 500
+<ACTOR>1,ts_m151a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>井河影臣
+（小型の爆弾でも隠し持ってやがるのか？
+　まあ、本当に素手ってことはないわな）
+<PAUSE>
+<NAME_PLATE>
+　影臣はドローンが破壊されていくのを
+のんびり見ていたわけではない。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「…………」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　静かに、斉藤に接近していたのだ。
+<PAUSE>
+<NAME_PLATE>
+　あと三歩……
+<PAUSE>
+<NAME_PLATE>
+　一歩……
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「五つ……六つ…………」
+<PAUSE>
+<NAME_PLATE>
+　斉藤はまるきり気づいていない。
+<PAUSE>
+<NAME_PLATE>
+　ドローン相手に調子に乗って、
+無防備な背中を彼に晒している。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「俺の射程範囲に捉えたぜ！！！」
+<PAUSE>
+<ACTOR>0,ts_m150a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>斉藤半次郎
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　斉藤が彼を振り返った。
+<PAUSE>
+<NAME_PLATE>
+　その顔はまるで驚いていない。
+相変わらずスカしたままだ。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　微かな違和感を感じつつ、
+斉藤を攻撃しようとしたその時。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>
+　―――ふっ。
+<PAUSE>
+<NAME_PLATE>
+　突然、斉藤の姿が消えた。
+<PAUSE>
+<NAME_PLATE>
+　体術によるものではない。
+<PAUSE>
+<NAME_PLATE>
+　文字通り、いきなり消失したのだ。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>1,ts_m151a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>井河影臣
+「消えやがった！？
+　奴はどうやって消えやがった！？」
+<PAUSE>
+<NAME_PLATE>
+　一体何が起きた！？
+<PAUSE>
+<NAME_PLATE>
+　奴の忍法は
+腕二本生やすだけではないのか！？
+<PAUSE>
+<NAME_PLATE>
+　光学迷彩！？
+<PAUSE>
+<NAME_PLATE>
+　いや、奴はサイボーグではない！！！
+<PAUSE>
+<NAME_PLATE>
+　そんな事はあり得ない！！！
+<PAUSE>
+<NAME_PLATE>
+　奴にはまだ秘密があるというのか！？
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「私は常に狩る側だと言っただろう？」
+<PAUSE>
+//　※立ち絵
+//　　斉藤半次郎立ち絵
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　その声は影臣の背後からした。
+<PAUSE>
+<NAME_PLATE>井河影臣
+「……っ！！」
+<PAUSE>
+<NAME_PLATE>
+　動けない。
+<PAUSE>
+<NAME_PLATE>
+　動いたらやられる。
+<PAUSE>
+<NAME_PLATE>
+　影臣は総毛立つ。
+<PAUSE>
+<NAME_PLATE>
+　全身から嫌な汗が吹き出した。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「用心深い暗殺者。だが私の敵ではない」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「あんたの忍法は一体！？」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「しー！　しー！　しー……！　聞くのだ」
+<PAUSE>
+<NAME_PLATE>
+　影臣の耳にぬるりと息が吹きかかった。
+<PAUSE>
+<NAME_PLATE>
+　ぞわっと怖気が走る。
+<PAUSE>
+<NAME_PLATE>
+　斉藤は囁くように続ける。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「殺人には二つの種類がある。
+　一つは思想としての殺人。
+　もう一つは高貴なる者への快楽殺人」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「あんたの快楽のために連続殺人を
+　してるのかよ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「まだ分からないようだね。
+　あれは前者だ。たんなる間引きだよ」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「間引きときたか。
+　じゃあ、高貴なる者ってのは誰なんだよ？」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「井河アサギ」
+<PAUSE>
+<NAME_PLATE>井河影臣
+「な！？」
+<PAUSE>
+<NAME_PLATE>
+　斉藤の声が艶めいていた。
+<PAUSE>
+<NAME_PLATE>
+　そしてウットリしたように言った。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「私は井河アサギを超える男となる」
+<PAUSE>
+<NAME_PLATE>
+　―――ひたり。
+<PAUSE>
+<NAME_PLATE>
+　冷たい手が影臣の頬に触れた。
+<PAUSE>
+<NAME_PLATE>
+　まるで死人の手だ。
+<PAUSE>
+<NAME_PLATE>
+　影臣はそう思った。
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「分かるか？
+　真の強者になる運命にあるのだ」
+<PAUSE>
+<NAME_PLATE>斉藤半次郎
+「そしてお前は畜群、単なる弱者に過ぎない」
+<PAUSE>
+<ACTOR_OUT>1,CENTER,linear,1000
+<NAME_PLATE>
+　死人の手が頬から離れていく。
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ボンッ！！！
+<PAUSE>
+//　※立ち絵
+//　　井河影臣立ち絵（頭部なし）
+//　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　影臣の頭が吹き飛んだ。
+<PAUSE>
+<NAME_PLATE>
+　一体残らず壊されたドローンと同じように。
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　頭を失った彼の身体は
+力なくその場に崩れ落ちていった。
+<PAUSE>
+//→Section２終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

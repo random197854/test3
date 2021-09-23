@@ -1,0 +1,534 @@
+//=================================================================
+//FileNo:S201a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：アミダハラ監獄＿朝】【時間：朝】
+//　※免罪の皇女アリア＿nc007aより流用
+<BG>nc212a,IN, 1000
+<NAME_PLATE>
+　内通者でもある看守長カウーラ。
+<PAUSE>
+<NAME_PLATE>
+　彼女率いる獄卒部隊に助けられ、
+俺はアミダハラ監獄に無事到着した。
+<PAUSE>
+<NAME_PLATE>
+　長く危険な夜は明けて、
+要塞を思わせる堅固な監獄が
+ギラギラした朝日に照らされていた。
+<PAUSE>
+//【背景：アミダハラ監獄＿調査室＿昼夜共通】【時間：朝】
+//　※監獄戦艦２_背景nc018aより流用
+<BGM_PLAY>bgm509,1000
+<BG>nc213a,IN, 1000
+<ACTOR>0,chr_t0165a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「よく来たね、アミダハラ監獄へ」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>カウーラ
+「まずはここでボディチェックを
+　受けてもらうよ」
+<PAUSE>
+<NAME_PLATE>
+　俺は調査室なる場所に通されている。
+<PAUSE>
+<NAME_PLATE>
+　全ての女囚がそうされるのか、
+俺だけが特別にそうなのか、
+カウーラと二人きりだ。
+<PAUSE>
+<NAME_PLATE>
+　内通者のこの女と話しやすい状況だが、
+さっきの意味深な口ぶりを思えば、
+他に誰もおらず、逆に油断ができない。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「服はそのままでいいよ。
+　特別な計らいって奴だ」
+<PAUSE>
+<ACTOR>0,chr_t0165a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,kr_t005a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>きらら（俺）
+「ありがとうございます……」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装（女囚）
+//　　　　※可能であれば首輪と手枷の加工をお願いします。
+<NAME_PLATE>カウーラ
+「首輪も枷もこの監獄では不要だ」
+<PAUSE>
+<NAME_PLATE>
+　そう言って、彼女は俺の首輪手枷足枷を
+あっさり外してくれた。
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら通常立ち絵＿対魔忍衣装
+<ACTOR>1,kr_t006d,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「意外かい？」
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「ええまあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺が頷くと、
+カウーラは楽しそうにつけ加えた。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ただし……」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「ただし？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「封印はさせてもらう♪」
+<PAUSE>
+<NAME_PLATE>
+　目が無邪気に笑っている。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「封印？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「魔族や対魔忍、
+　ここには厄介な力を持つ奴らばかりが
+　収監される」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「そんな奴らが好き勝手に力を使って
+　暴れないように封印するんだよ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「あんたは対魔忍だから、
+　お得意の忍法が使えなくなるってわけさ」
+<PAUSE>
+<NAME_PLATE>
+　なるほど。なんらかの手段で、
+異能の力を使えなくするわけだ。
+<PAUSE>
+<NAME_PLATE>
+　お得意のと言われても、
+俺は忍法を元から使えないので、
+封じられても問題ない。
+<PAUSE>
+<NAME_PLATE>
+　しかし、魔性の力らしい再生能力まで
+封印されてしまうかもしれない。
+<PAUSE>
+<ACTOR>1,kr_t006g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「あの、封じたふりは駄目ですか？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「さっそく“一度助ける”を
+　使いたいってことか？」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「えっと、オマケで……」
+<PAUSE>
+<NAME_PLATE>
+　おずおずと尋ねてみる。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「オマケはもう駄目だよ」
+<PAUSE>
+<NAME_PLATE>
+　と、即否定だ。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「どうするかはアンタ次第。
+　アタシが助けるのは“一度”だけ。
+　さあ、どうする？」
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　もし、あの再生能力が封じられたら、
+いざというときに負傷覚悟で行動できなくなり
+打つ手が一つ減ることになるが、
+<PAUSE>
+<NAME_PLATE>
+　逆に言えば、
+俺にとってのリスクはそれだけだ。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「いえ、使いません……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「了解」
+<PAUSE>
+<NAME_PLATE>
+　カウーラは特に気にした風もなく頷いた。
+<PAUSE>
+<NAME_PLATE>
+　あまり物事に
+こだわらない質のように思える。
+<PAUSE>
+<NAME_PLATE>
+　その手の封印の方法は色々だ。
+<PAUSE>
+<NAME_PLATE>
+　魔界における力を封じる方法についても、
+五車の蔵書で知識としては持っている。
+<PAUSE>
+<NAME_PLATE>
+　最もメジャーなのは呪い付き契約書に
+サインするというものだ。
+<PAUSE>
+<NAME_PLATE>
+　禁止事項を破ったら、呪われるという奴で
+あるが果たして？
+<PAUSE>
+<ACTOR>1,kr_t006g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「あの……封印ってどんな感じでしょうか？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「少し痛いね」
+<PAUSE>
+<ACTOR>1,kr_t006d,LEFT, LEFT, NONE, linear, 0
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら（俺）
+「えっ！？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「痛いのは嫌いかい？」
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「……まあ、あまり」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「私は好きだね♪」
+<PAUSE>
+<NAME_PLATE>
+　好きなのは痛くするのだろう。
+顔を見れば分かる。
+<PAUSE>
+<NAME_PLATE>
+　どう見てもドＳな気質らしい
+カウーラの瞳が妖しく輝いている。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「使うのはコイツさ」
+<PAUSE>
+<NAME_PLATE>
+　カウーラはピアスを取り出した。
+<PAUSE>
+<ACTOR>1,kr_t006d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「ピ、ピアス……！？」
+<PAUSE>
+<NAME_PLATE>
+　なんだか嫌な予感がする。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「魔界の呪物さ。
+　これを大切な所に三つ装着するのさ」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「み、三つ！？　大切な所って……？」
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>
+　ま、まさか……！？
+<PAUSE>
+<NAME_PLATE>カウーラ
+「女の大切な所なんて決まってるだろ♪」
+<PAUSE>
+<NAME_PLATE>
+　カウーラは楽しそうに
+俺、もとい、きらら先輩の
+胸と股間を指さした。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら（俺）
+（ひぃいいいいいいいい！？）
+<PAUSE>
+<NAME_PLATE>
+　元の身体と、今のきらら先輩の身体と
+どこがどう対応しているのかとか、
+確かめてなどいないが、
+<PAUSE>
+<NAME_PLATE>
+　痛いに決まっている！！
+<PAUSE>
+<NAME_PLATE>カウーラ
+「看守たちに逆らわないことだ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「このピアスには
+　“見えざる鎖”が繋がっているからね」
+<PAUSE>
+<ACTOR>1,kr_t006g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「み、見えざる鎖？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「看守たちはいつでも
+　その鎖を引っ張ることができる。
+　もちろんアタシも。激痛だよ」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「ひぃいいいいいいいいい！？」
+<PAUSE>
+<NAME_PLATE>
+　その想像もできない痛みに声が出てしまう。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「なあに。平気さ。
+　それが癖になる奴もいるからね」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「アンタもそうなら、アタシにだけ逆らいな。
+　すごく痛くしてやるから」
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「え、遠慮します……」
+<PAUSE>
+<NAME_PLATE>
+　できれば、呪いのピアス自体遠慮したいが、
+もう受け入れるしかない。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「さあ、装着するよ。服を脱ぎなよ」
+<PAUSE>
+<ACTOR>1,kr_t006g,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「あ、あの、一つ質問が……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「何だよ？」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「それを付けた後で、
+　能力を使うとどうなるんですか？」
+<PAUSE>
+<NAME_PLATE>
+　カウーラは嬉しそうに教えてくれた。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「全身を激痛が襲う。
+　さらに無理して使おうとすれば
+　呪いで全身が石となるって寸法さ」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「な、なるほど……。
+　最後にもう一つ質問が……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「なに？　まだあんの？」
+<PAUSE>
+<NAME_PLATE>
+　面倒くさくなってきているような顔だ。
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「俺の他に対魔忍が収監されてますよね？
+　つい最近ですけど」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ああ」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「あの、ピアスの時に……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「男って分かったよ。
+　名前が鹿之助だしな」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「ですよね」
+<PAUSE>
+<NAME_PLATE>
+　やっぱりいるのか。
+<PAUSE>
+<NAME_PLATE>
+　しかも男だとばれている。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「それで、あの……そいつは今？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「食べたいくらい可愛かったから」
+<PAUSE>
+<ACTOR>1,kr_t006d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「か、可愛かったから？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「そのまま女囚として監獄に入れたよ」
+<PAUSE>
+<ACTOR>1,kr_t006c,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>きらら（俺）
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　それは幸福なのか不幸なのか。
+<PAUSE>
+<NAME_PLATE>
+　男囚ばかりのところに
+鹿之助が放り込まれるよりは良かったか。
+<PAUSE>
+<NAME_PLATE>
+　本人は何故だと怒るだろうが。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「アンタが投獄されたのは
+　アイツを助けるため？」
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+「それはご想像にお任せします……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「対魔忍は何を企んでいるんだ？
+　ま、どうでもいいけどな。
+　さあ、脱ぎな」
+<PAUSE>
+<NAME_PLATE>
+　俺は覚悟を決めて服を脱ぎ始めた。
+<PAUSE>
+<NAME_PLATE>きらら（俺）
+（きらら先輩、すいません。
+　鹿之助を助けるためです）
+<PAUSE>
+<ACTOR_OUT>1,LEFT,linear,1000
+<NAME_PLATE>
+　自分の身体ではないので恥ずかしくはない。
+しかし悪い気はするので心の中で謝っておく。
+<PAUSE>
+<ACTOR>0,chr_t0165a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>カウーラ
+「へえっ、アンタいいねえ。
+　対魔忍なんて傷だらけかと思ったけど、
+　綺麗な身体をしてるじゃないか♪」
+<PAUSE>
+<NAME_PLATE>
+　カウーラはピアスを弄りながら
+ウキウキしている。勘弁して欲しい。
+<PAUSE>
+<NAME_PLATE>
+　しかし、その隙に俺の影からさっと抜けだし
+調査室の外へ出て行く別の影があったことには
+気づいていないようだった。
+<PAUSE>
+//【黒画面】
+//【背景：アミダハラ監獄＿地下施設＿昼夜共通】【時間：朝】
+//　※監獄アカデミア_NC012aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc103a,IN, 1000
+<ACTOR>2,chr_t0157a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>さくら
+「じゃじゃーん！
+　新対魔忍スーツのさくら先生だよ！」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら立ち絵
+//　　　　＊対魔忍ＲＰＧの井河さくら02のカードイラストより流用
+<NAME_PLATE>さくら
+「って、誰もいないけどね」
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<NAME_PLATE>
+　と、一人でポーズを決めたのは、
+ふうまの影から抜け出てきた、井河さくらだ。
+<PAUSE>
+<NAME_PLATE>
+　彼の家に居候している、
+若いさくらではない。
+<PAUSE>
+<NAME_PLATE>
+　もう若くない……いや、失礼、
+五車で教師をしている、
+熟練対魔忍のさくらだ。
+<PAUSE>
+<NAME_PLATE>
+　彼女は、こと隠れ身にかけては、
+姉のアサギをも凌駕すると言われる。
+<PAUSE>
+<NAME_PLATE>
+　影遁の術を駆使して、
+巧みに看守や獄卒たちの目を盗み、
+易々と監獄の地下へとやって来たのだった。
+<PAUSE>
+<NAME_PLATE>さくら
+「なーんか、
+　ふうま君大変なことになってたね。
+　いきなり三点ピアスつけろーとか」
+<PAUSE>
+<NAME_PLATE>さくら
+「ちょっとかわいそうだけど、でもあれだね、
+　ふうま君はもうちっと対魔忍の女の子の
+　苦労を知ってもいいよね、うんうん」
+<PAUSE>
+<NAME_PLATE>さくら
+「大丈夫大丈夫。
+　三点ピアスくらいどうってことないよ。
+　さくら先生の経験からすれば……っと」
+<PAUSE>
+<NAME_PLATE>さくら
+「さて、ふうま君が目立っている間に
+　任務を果たさないとね」
+<PAUSE>
+<NAME_PLATE>さくら
+「と、その前に―――」
+<PAUSE>
+<NAME_PLATE>
+　知らない者が見れば、油断しているとしか
+思えない独り言を呟きながら、
+さくらは周囲を窺っていた。
+<PAUSE>
+<NAME_PLATE>
+　彼女を取り囲むように
+無数の敵の気配が近づいてきている。
+<PAUSE>
+<NAME_PLATE>
+　低い獣の呻り声も。
+<PAUSE>
+<NAME_PLATE>さくら
+「うーん、地下には看守や獄卒がいないって
+　情報は正しかったけど、正確じゃないなあ」
+<PAUSE>
+<NAME_PLATE>さくら
+「わざと言わなかったのかな？　違うかな？
+　あのカウーラ、細かいこと気にしなさそうな
+　タイプっぽいしなあ……それにしたって」
+<PAUSE>
+//　※立ち絵
+//　　デビルズドッグ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+//　　ナイトドッグ立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<ACTOR_OUT>2,CENTER,linear,1000
+<GROUP>
+<ACTOR>3,ts_m024a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>4,ts_m071a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>さくら
+「代わりに魔犬の大群が放し飼いだなんて
+　聞いてないし！」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら立ち絵
+//　　　　＊対魔忍ＲＰＧの井河さくら02のカードイラストより流用
+//→S202a
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

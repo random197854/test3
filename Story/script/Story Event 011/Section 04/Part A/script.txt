@@ -1,0 +1,266 @@
+//=================================================================
+//FileNo:S401a
+//シーン名：プロローグ
+//【黒画面】
+//【背景：五車町山中＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+//nc028a
+<BGM_PLAY>bgm509,1000
+<BG>nc028a,IN, 1000
+<NAME_PLATE>
+　五車山中。
+<PAUSE>
+<NAME_PLATE>
+　傷ついた体を庇いながら天音は駆ける。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>天音
+「…………………」
+<PAUSE>
+//　※立ち絵
+//　　ふうま天音立ち絵＿対魔忍衣装
+//　　　　　＊ふうま天音02カードイラストより流用
+<NAME_PLATE>天音
+（不思議なものだ……）
+<PAUSE>
+<NAME_PLATE>天音
+（まったく似ていない、
+　対称的ともいえるお二人なのに、
+　なぜ……？）
+<PAUSE>
+<NAME_PLATE>
+　それが“血”というものだろうか。
+<PAUSE>
+<NAME_PLATE>
+　さっき決別した少年・ふうま小太郎と、
+彼の父である弾正。
+<PAUSE>
+<NAME_PLATE>
+　二人の顔が、いつしか
+天音の中で重なり合っている。
+<PAUSE>
+<NAME_PLATE>天音
+（それに、あれは――）
+<PAUSE>
+<NAME_PLATE>
+　天音は思い返す。
+<PAUSE>
+<NAME_PLATE>
+　ほんの少女だった頃、弾正と語った記憶。
+<PAUSE>
+//　※回想
+//【背景：ふうま別邸＿居間＿昼】【時間：昼】
+//　　※対魔忍アサギ３_nc010aより流用
+//　※注　回想なので、画面的に合えば背景立ち絵ともにモノクロorセピア処理などして追憶風にお願いします。
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG>white,IN, 1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc235b,IN, 1000
+<ACTOR>0,ts_m147a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ふうま弾正
+『もしも、この先――
+　いや、これは万が一の話だが』
+<PAUSE>
+//　※立ち絵
+//　　ふうま弾正立ち絵＿対魔忍衣装
+//　　　　＊対魔忍ＲＰＧの弾正。表情差分などなしで描き下ろしを制作
+//　※注意
+//　　対魔忍ＲＰＧにおける弾正のビジュアルは決戦アリーナとは違うので
+//　　使用しないようにお願いします。
+<NAME_PLATE>弾正
+『――天音。
+　俺が敗れるようなことがあっても、
+　早まった真似はするなよ？』
+<PAUSE>
+<NAME_PLATE>
+　天音は弾正から戦いの手ほどきを受けた。
+<PAUSE>
+<NAME_PLATE>
+　この思い出も、
+そんな鍛錬の合間の光景だ。
+<PAUSE>
+<NAME_PLATE>天音
+『……お言葉ですが
+　そのご命令は聞けません』
+<PAUSE>
+//　※注　子供の頃の天音なので回想では天音立ち絵はなしでお願いします。
+<NAME_PLATE>天音
+『お館様に万が一があるならば、
+　天音も共に死にまする』
+<PAUSE>
+<NAME_PLATE>弾正
+『ハハハハハ！！
+　小娘が生意気を言う――いや、
+　俺もこんな忠臣を持って幸せだ』
+<PAUSE>
+<NAME_PLATE>
+　まぁこれだからわざわざ言って
+やらねばならんのだが――と、
+弾正は愉快そうに笑う。
+<PAUSE>
+<NAME_PLATE>弾正
+『生憎と俺は、これっぽっちも
+　そんなことを望んでいない』
+<PAUSE>
+<NAME_PLATE>弾正
+『お前のようなガキについて来られても
+　嬉しくもなんともないからな』
+<PAUSE>
+<NAME_PLATE>天音
+『…………』
+<PAUSE>
+<NAME_PLATE>
+　むすっとしている天音を見て、
+弾正はふと思いついたように。
+<PAUSE>
+<NAME_PLATE>弾正
+『しかし、どうしてもと言うなら……
+　小太郎めにつけ』
+<PAUSE>
+<NAME_PLATE>天音
+『小太郎様に……？』
+<PAUSE>
+<NAME_PLATE>
+　天音は首を傾げた。
+<PAUSE>
+<NAME_PLATE>
+　弾正の嫡子・小太郎は目から
+鼻に抜けるような聡明さで評判の子だ。
+<PAUSE>
+<NAME_PLATE>
+　しかし弾正が彼に情愛らしきものを
+見せることは少なく、ここで名が出るのは
+何か不自然だった。
+<PAUSE>
+<NAME_PLATE>弾正
+『ああ。いや、あくまで万が一だ。
+　大した意味はないのだろう。
+　だが奴は、あれで案外……ククク』
+<PAUSE>
+//　※注
+//　　弾正は目抜けの闇の奥に潜む何かに気付いています。
+//　　これは読者には秘密の事項です。
+<NAME_PLATE>天音
+『……？　承知しました』
+<PAUSE>
+<NAME_PLATE>
+　主の奇妙な物言いに戸惑いつつ、
+天音は静かに肯いた。
+<PAUSE>
+<NAME_PLATE>天音
+『小太郎様が当主として
+　ふさわしい御方であるならば、
+　天音は喜んで命を捧げます』
+<PAUSE>
+<NAME_PLATE>天音
+『しかしそうでなければ……
+　天音は、最期までお館様と共に』
+<PAUSE>
+<NAME_PLATE>弾正
+『クク、強情な奴だな。
+　その時は好きにしろ――』
+<PAUSE>
+//　※回想終了
+//【背景：五車町山中＿昼】【時間：昼】
+//　※MISAO_nc003aより流用
+//nc028a
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG>white,IN, 1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc028a,IN, 1000
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>天音
+（――あの少年が、弾正様と同じ
+　当主の器であるかどうか）
+<PAUSE>
+<NAME_PLATE>天音
+（まあ、考えるまでもない）
+<PAUSE>
+<NAME_PLATE>
+　天音にとって弾正は唯一の存在だ。
+<PAUSE>
+<NAME_PLATE>
+　それに代わる者などいない。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<NAME_PLATE>天音
+「…………………ふっ」
+<PAUSE>
+<NAME_PLATE>
+　なぜか安堵している自分がいた。
+<PAUSE>
+<NAME_PLATE>
+　あの少年を死地から遠ざける
+ことができた。
+<PAUSE>
+<NAME_PLATE>
+　自分の醜い戦いに巻き込まずに済んだ。
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　そのことが、
+どうしてこんなにも――。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,ts_m003a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m004a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>抜け忍衆
+「いたぞ！！　女狐を囲め！！」
+<PAUSE>
+//　　※立ち絵
+//　　　ふうま下忍（女）
+//　　　　＊カードイラストより流用
+//　　※立ち絵
+//　　　ふうま火遁衆（女）
+//　　　　＊カードイラストより流用
+<NAME_PLATE>天音
+「…………やはり来たか」
+<PAUSE>
+<NAME_PLATE>
+　天音と並走するように
+木々の間にちらつく無数の影。
+<PAUSE>
+<NAME_PLATE>
+　――ふうま抜け忍衆・本隊。
+<PAUSE>
+<NAME_PLATE>
+　隠し館に天音がいないことを察し、
+追跡をかけてきたのだろう。
+<PAUSE>
+<NAME_PLATE>天音
+（数は……多いな）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかし構わない。
+<PAUSE>
+<NAME_PLATE>
+　今は不思議と、力の限り暴れて
+やりたい気分だった。
+<PAUSE>
+<ACTOR>0,chr_t0186a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>天音
+「さあ、かかってこい下郎ども！
+　派手に死に華を咲かせてやろう！」
+<PAUSE>
+//→S402a
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,704 @@
+//=================================================================
+//FileNo:S405a
+//シーン名：エピローグ
+//シーン説明：
+//※２日目　夜
+//【黒画面】
+//【背景：蜘蛛の貴婦人の館（食堂）＿夜（明かりあり）】【時間：夜】
+//　※監獄アカデミア_NC011aを流用
+<BGM_PLAY>bgm207,1000
+<BG>nc102b,IN, 1000
+<ACTOR>0,ts_m127a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>重森
+「あの者たちを排除しなさい」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者立ち絵
+//　　　　＊決戦アリーナのモンスターイラスト　　より流用
+<NAME_PLATE>
+　重森が女たちに命令した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>1,ts_m052a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,ts_m052a,LEFT, LEFT, IN, linear, 1000
+<SE_PLAY>se040
+</GROUP>
+//　※立ち絵
+//　　ダークガード＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+//　　ダークガード＿汎用立ち絵
+//　　　　＊モンスターイラストから流用
+<NAME_PLATE>
+　女たちは一糸乱れぬ動きで
+四方から銃を構えた。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ズガガガガガガガガッッ！！
+<PAUSE>
+<NAME_PLATE>
+　マシンガンが一斉に火を噴く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>3,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「気流壁！！」
+<PAUSE>
+//　※立ち絵
+//　　星乃深月立ち絵
+//　　　＊対魔忍RPGカードより流用
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　深月はとっさに
+自分たちを中心に竜巻を起こして
+十字砲火を防いだ。
+<PAUSE>
+<NAME_PLATE>
+　激しい気流が障壁となって、
+撃ち込まれる銃弾を次々に逸らす。
+<PAUSE>
+<NAME_PLATE>
+　流れ弾がそこらに散らばって、
+テーブルや椅子や食器、壁の絵画など
+あるものを手当たり次第に破壊していく。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<NAME_PLATE>
+　女たちも例外ではない。
+<PAUSE>
+<NAME_PLATE>
+　自分たちの撃った弾をはじかれ、
+次々と同士討ちになっている。
+<PAUSE>
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ブスッ、ブスッ、ブスッと
+嫌な音を立てて、女たちの身体に
+弾が食い込んでいく。
+<PAUSE>
+<BG>nc102b,IN, 500
+<GROUP>
+<ACTOR>2,ts_m052a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>1,ts_m052a,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<SE_PLAY>se036_03
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　しかし衝撃で身体がぶれるだけで、
+女たちはわずかな悲鳴すらあげず、
+平然と銃撃を続けている。
+<PAUSE>
+<NAME_PLATE>深月
+「あの人たち、いったい？」
+<PAUSE>
+<NAME_PLATE>
+　まるで痛みを感じていない。
+<PAUSE>
+<NAME_PLATE>
+　目に意思の光はなく、表情はうつろで、
+動きだけがロボットのように正確だ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>2,RIGHT,linear,1000
+</GROUP>
+<ACTOR>4,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「もはや人ではないな。
+　人としての命も心も失い、
+　あの男の操り人形と化している」
+<PAUSE>
+//　※立ち絵
+//　　上原燐立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>
+　燐が冷静に言った。
+<PAUSE>
+<NAME_PLATE>
+　その感情を交えぬ口調が
+逆に底なしの怒りを感じさせた。
+<PAUSE>
+<ACTOR>4,chr_t0044a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「そんな……」
+<PAUSE>
+<NAME_PLATE>
+　女たちは眞田焔と同じように
+集められた奴隷のなれの果てだった。
+<PAUSE>
+<NAME_PLATE>
+　蜘蛛の貴婦人の餌として
+認められなかったため、執事に魂を奪われ、
+操り人形にされているのだ。
+<PAUSE>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR>5,chr_t0135a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>六穂
+「そんなことじゃないかと思ったよ。
+　とことん趣味が悪いね」
+<PAUSE>
+//　※立ち絵
+//　　柳六穂立ち絵
+//　　　＊対魔忍RPGカードより流用
+<NAME_PLATE>燐
+「哀れだが、
+　ああなってしまっては倒すほかない。
+　それが慈悲だ」
+<PAUSE>
+<NAME_PLATE>六穂
+「グズグズしている時間もないしね。
+　早くしないと眞田焔が
+　あの蜘蛛女のおやつにされそうだ」
+<PAUSE>
+<NAME_PLATE>深月
+「わ、分かっています」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>5,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　深月も覚悟を決めた。
+<PAUSE>
+<NAME_PLATE>
+　かわいそうだけれど、
+彼女たちを助けることはできない。
+<PAUSE>
+<NAME_PLATE>
+　ならば対魔忍として
+やるべきことは一つだ。
+<PAUSE>
+<ACTOR>3,chr_t0146a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+「合図と同時に風を解きます。
+　一気に攻撃してください」
+<PAUSE>
+<NAME_PLATE>深月
+「彼女たちは痛みを感じません。
+　動かなくなるまで破壊してください」
+<PAUSE>
+<NAME_PLATE>
+　隊長として冷徹に指示する。
+<PAUSE>
+<ACTOR_OUT>3,CENTER,linear,1000
+<ACTOR>4,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「じゃあ、この手を使うかな。
+　見た目が悪くて嫌だけどね」
+<PAUSE>
+<NAME_PLATE>
+　六穂は自分の両肩に
+両手の爪をギリッと食い込ませた。
+<PAUSE>
+<NAME_PLATE>
+　爪からジワジワと溢れる毒が
+彼女自身の身体に注入されていく。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<ACTOR_OUT>4,CENTER,linear,500
+</GROUP>
+<NAME_PLATE>
+　ぼこっ、ぼこっ、ぼこぼこっ。
+<PAUSE>
+<NAME_PLATE>
+　六穂の腕や足、全身の筋肉が
+見る見るうちに膨れあがる。
+<PAUSE>
+<NAME_PLATE>
+　昔、なにかの機会に
+話してくれたことがある。
+<PAUSE>
+<NAME_PLATE>
+　柳一族には「強壮毒」といって、
+毒の成分を調整して、一時的に肉体の能力を
+高める術があると。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>六穂
+「くっっ」
+<PAUSE>
+<NAME_PLATE>
+　しかし、六穂の表情も辛そうだ。
+危険な術を肉体の限界ギリギリまで
+使っているに違いない。
+<PAUSE>
+<NAME_PLATE>
+　六穂も怒っているのだ。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se030
+<ACTOR>5,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>燐
+「外道の輩め」
+<PAUSE>
+<NAME_PLATE>
+　燐も同じだった。
+<PAUSE>
+<NAME_PLATE>
+　全身が今まで以上に
+バチバチと輝いている。
+<PAUSE>
+<NAME_PLATE>
+　その怒りの大きさを示すかのように、
+電輝の光で表情がもう分からない。
+<PAUSE>
+<NAME_PLATE>深月
+「二人とも準備はいいですね！」
+<PAUSE>
+<NAME_PLATE>六穂
+「いいよ！」
+<PAUSE>
+<NAME_PLATE>燐
+「無論」
+<PAUSE>
+<ACTOR_OUT>5,CENTER,linear,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「いきますっっっ！！
+　はぁああああああああっ！！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　深月は扇を強く振った。
+<PAUSE>
+<NAME_PLATE>
+　自分たちをガードしていた竜巻を
+周囲の女たちに向かって
+思いきり押し付けるように開放する。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se074_01
+</GROUP>
+<NAME_PLATE>
+　ブワァアアアアアアッッ！！
+<PAUSE>
+<NAME_PLATE>
+　突風で女たちの銃撃が乱れた。
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　六穂と燐が飛び出す。
+<PAUSE>
+<NAME_PLATE>六穂
+「人形遊びは終わりだよっ！！」
+<PAUSE>
+<NAME_PLATE>
+　六穂が毒で肥大した豪腕を振るった。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se012
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ドゴオオオオオオオオッ！！
+<PAUSE>
+<NAME_PLATE>
+　人が殴ったとは到底思えない音がして
+女の一人が壁に叩きつけられた。
+<PAUSE>
+<NAME_PLATE>
+　ただの一撃で肉体が破砕され、
+女は操り人形という呪いから解放された。
+<PAUSE>
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se107_01
+</GROUP>
+<NAME_PLATE>燐
+「成仏するがいい」
+<PAUSE>
+<NAME_PLATE>
+　燐が電輝の刃を振り下ろす。
+<PAUSE>
+<NAME_PLATE>
+　表情のない女の身体が真っ二つに裂け、
+倒れながらボオッと燃え上がる。
+<PAUSE>
+<NAME_PLATE>
+　まるで穢された身体を
+炎で浄化しようとしているかのようだ。
+<PAUSE>
+<NAME_PLATE>六穂
+「はっっっ！！」
+<PAUSE>
+<NAME_PLATE>燐
+「やああっ！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se024
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　六穂と燐は、哀れな女たちを
+一人、また一人と倒していく。
+<PAUSE>
+<ACTOR>0,ts_m127a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>重森
+「よくも私の可愛い人形を」
+<PAUSE>
+//　※立ち絵
+//　　闇の従者立ち絵
+//　　　　＊決戦アリーナのモンスターイラスト　　より流用
+<NAME_PLATE>深月
+「あの人たちは人形じゃありません！」
+<PAUSE>
+<NAME_PLATE>重森
+「ならばお前をそうしてやろう」
+<PAUSE>
+<NAME_PLATE>
+　重森が深月に向かってくる。
+<PAUSE>
+<NAME_PLATE>
+　まるで体重がないかのような、
+地面に脚がついていないかのような
+フワフワした歩き方だ。
+<PAUSE>
+<NAME_PLATE>
+　重森は右手の手袋を取って、
+長い爪の生えた青白い手を掲げた。
+<PAUSE>
+<NAME_PLATE>
+　きっとあの爪で
+人を人形に変えるのだ。
+<PAUSE>
+<NAME_PLATE>深月
+「くらいなさいっっっ！！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　深月はゆらゆらと近づく重森に
+裂帛の気合で扇を振り下ろし、
+真空の刃を叩きつけた。
+<PAUSE>
+<NAME_PLATE>重森
+「愚か者め」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　執事の姿がスーッと
+闇に溶け込むように消えた。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　直後、頭上に“風”を感じた。
+<PAUSE>
+<NAME_PLATE>
+　敵の気配！
+<PAUSE>
+<NAME_PLATE>深月
+「っっ！！」
+<PAUSE>
+<GROUP>
+<BG>nc102b,IN, 200
+<TRANSITION>TR01, IN,800
+<SE_PLAY>se003
+</GROUP>
+<NAME_PLATE>
+　深月は身体を右に倒して、
+思いきり床を蹴った。
+<PAUSE>
+<NAME_PLATE>
+　首筋のすぐ近くを、
+重森の爪がひやりと通り過ぎていく。
+<PAUSE>
+<ACTOR>0,ts_m127a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　真空刃を躱した重森が
+天井から急襲してきたのだ。
+<PAUSE>
+<NAME_PLATE>重森
+「よく躱したな」
+<PAUSE>
+<NAME_PLATE>深月
+「あなたがどこに隠れようが、
+　風が私に教えてくれます」
+<PAUSE>
+<NAME_PLATE>
+　危なかった。
+<PAUSE>
+<NAME_PLATE>
+　一瞬でも反応が遅れたらやられていた。
+<PAUSE>
+<NAME_PLATE>
+　冷たい汗がどっと出るのを感じながら
+深月は扇を構え直した。
+<PAUSE>
+<NAME_PLATE>
+　六穂と燐はまだ女たちの相手をしている。
+<PAUSE>
+<NAME_PLATE>
+　今は深月が一人で戦うしかない。
+<PAUSE>
+<NAME_PLATE>重森
+「ではこれはどうかな？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>
+　ピカッ☆
+<PAUSE>
+<NAME_PLATE>
+　重森の目が妖しく光った。
+<PAUSE>
+<BG>white,IN, 1000
+<NAME_PLATE>深月
+「うっっ！？」
+<PAUSE>
+<NAME_PLATE>
+　いけない！
+<PAUSE>
+<NAME_PLATE>
+　そう思った時には、
+深月はその光をまともに見てしまった。
+<PAUSE>
+<ACTOR>0,ts_m127a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>深月
+（あ………）
+<PAUSE>
+<NAME_PLATE>
+　重森から目が離せなくなる。
+<PAUSE>
+<NAME_PLATE>
+　どうして気づかなかったんだろう。
+<PAUSE>
+<NAME_PLATE>
+　あの人はとても美しくて、魅力的で、
+そう、自分の全てを捧げたく―――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>六穂
+「目を覚ませ！　委員長！」
+<PAUSE>
+<NAME_PLATE>
+　誰かの声がした。
+<PAUSE>
+<NAME_PLATE>
+　チクッ！
+<PAUSE>
+<BG>nc102b,IN, 500
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>深月
+「いたっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　何かお尻に刺さった。
+<PAUSE>
+<NAME_PLATE>
+　あまりの痛みに
+飛び上がりそうになる。
+<PAUSE>
+<NAME_PLATE>
+　うっとりしていた気持ちも
+吹き飛んだ。
+<PAUSE>
+<NAME_PLATE>深月
+「はっっ！！」
+<PAUSE>
+<ACTOR>0,ts_m127a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　目の前には重森の姿。
+<PAUSE>
+<NAME_PLATE>
+　今まさに深月に爪を
+突き立てようとしている。
+<PAUSE>
+<NAME_PLATE>深月
+「こないでっ！！」
+<PAUSE>
+<SE_PLAY>se027
+<NAME_PLATE>
+　深月は扇を振り上げ、
+<PAUSE>
+<NAME_PLATE>重森
+「自分を取り戻しただと！？」
+<PAUSE>
+<NAME_PLATE>
+　驚愕の表情を浮かべた重森に向かって、
+渾身の力で風を繰り出した。
+<PAUSE>
+<NAME_PLATE>深月
+「よくもわたしをっっ！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se074_01
+<EFFECT_FLASH>WHITE, 1000
+</GROUP>
+<ACTOR_OUT>0,CENTER,linear,500
+<NAME_PLATE>重森
+「ぐっっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　至近距離からの風だ。
+<PAUSE>
+<NAME_PLATE>
+　重森とて逃げられない。
+<PAUSE>
+<NAME_PLATE>
+　竜巻が作り出す風の檻に完全に捕まった。
+<PAUSE>
+<NAME_PLATE>深月
+「真空斬・裏式！！」
+<PAUSE>
+<NAME_PLATE>
+　地下でも使った真空斬の裏技だ。
+<PAUSE>
+<NAME_PLATE>
+　真空の刃を周囲に向けて飛ばすのではなく、
+敵を風の檻で捕らえて、その内側で徹底的に
+暴れさせる。
+<PAUSE>
+<NAME_PLATE>
+　数百の真空刃が、
+逃げられなくなった敵を斬り刻む
+嬲り殺しも同然の技だ。
+<PAUSE>
+<NAME_PLATE>
+　深月はそれを使った。
+<PAUSE>
+<SE_PLAY>se097
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>重森
+「ぐぎゃああああああああああ！！」
+<PAUSE>
+<NAME_PLATE>
+　吹きすさぶ風の檻の中で
+重森は全身をズタズタに切り裂かれていく。
+<PAUSE>
+<NAME_PLATE>深月
+「人形にされた女の子たちの
+　痛みを知りなさい！！」
+<PAUSE>
+<SE_PLAY>se097
+<NAME_PLATE>
+　深月は何度も何度も扇を振った。
+<PAUSE>
+<NAME_PLATE>
+　女たちの恨みを込めて。
+<PAUSE>
+<NAME_PLATE>重森
+「ぐああああ……あああ……
+　……おく……さ……ま……」
+<PAUSE>
+<NAME_PLATE>
+　断末魔の悲鳴は
+次第に小さくなっていったが、
+<PAUSE>
+<NAME_PLATE>
+　それが完全に聞こえなくなっても、
+真空の渦はしばらく止まなかった。
+<PAUSE>
+<BGM_STOP>1000
+<BG>nc102b,IN, 500
+<SE_PLAY>se024
+<NAME_PLATE>
+　風が完全に止んだときには、
+重森はどれがどの部分か分からないほどの
+バラバラの血と肉の破片になっていた。
+<PAUSE>
+<NAME_PLATE>
+　そして、そのころには、
+人形にされた女たちも全て倒されていた。
+<PAUSE>
+<ACTOR>4,chr_t0135a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>六穂
+「委員長を怒らせると怖いねえ」
+<PAUSE>
+<NAME_PLATE>
+　六穂が感心したような
+呆れたような顔で声をかけてくる。
+<PAUSE>
+<NAME_PLATE>
+　強壮毒の術はもう解けていて、
+身体はもとに戻っていた。
+<PAUSE>
+<BGM_PLAY>bgm408,1000
+<ACTOR>4,chr_t0135a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>3,chr_t0146a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>深月
+「柳さん、ありがとうございました」
+<PAUSE>
+<NAME_PLATE>
+　深月はお尻に刺さっていた
+細い針を抜いて、六穂に返した。
+<PAUSE>
+<NAME_PLATE>六穂
+「覚醒の毒入りだよ。
+　よく効いただろ？」
+<PAUSE>
+<NAME_PLATE>深月
+「はい」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,LEFT,linear,1000
+<ACTOR_OUT>4,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　六穂にもう一度礼を言ってから、
+静かになった食堂を見渡した。
+<PAUSE>
+<NAME_PLATE>
+　人形にされていた女たちは
+ある者は肉体を完全に破壊され、
+ある者は真っ二つに焼かれていた。
+<PAUSE>
+<NAME_PLATE>
+　もう一人一人の名前も分からない。
+<PAUSE>
+<NAME_PLATE>
+　けれど、誰一人として
+こんな無残な最期を迎えたいとは
+思っていなかったはずだ。
+<PAUSE>
+<NAME_PLATE>
+　他に方法がなかったとはいえ、
+胸が締め付けられるように苦しい。
+<PAUSE>
+<NAME_PLATE>深月
+「みなさん、助けてあげられなくて
+　ごめんなさい」
+<PAUSE>
+<NAME_PLATE>
+　涙が溢れてくるのを感じながら、
+女たちに深く頭を下げた。
+<PAUSE>
+<ACTOR>5,chr_t0044a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>燐
+「まだ助けられる者はいる。
+　いくぞ」
+<PAUSE>
+<NAME_PLATE>深月
+「はい」
+<PAUSE>
+<NAME_PLATE>
+　燐に優しく肩を叩かれ、
+深月は涙をグイと拭った。
+<PAUSE>
+//→Section４終了
+<ACTOR_OUT>5,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,925 @@
+//=================================================================
+//FileNo:S205a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：ヨミハラ町の広場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC034aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc122a,IN, 1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「うりゃああああああああああああっ！！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　フランシスはデコ金棒を振り回し、
+ハイオークに突進した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m075a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ハイオーク
+「ごあああああああああっっっ！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオークチーフ立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　ハイオークは両手の斧で迎え撃つ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ガキンッ、ガキンッッ！！
+<PAUSE>
+<NAME_PLATE>
+　デコ金棒と大斧がぶつかり合い、
+激しい火花を散らした。
+<PAUSE>
+<NAME_PLATE>
+　火花だけでなく、
+ラインストーンやらなにやらの
+金棒の飾りまで飛び散っている。
+<PAUSE>
+<BG>nc122a,IN, 500
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ああああっ！！
+　せっかく綺麗にデコしたのに！！」
+<PAUSE>
+<NAME_PLATE>ハイオーク
+「なにがデコだ！！
+　舐めんじゃねえぞこらああっ！！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「黙れこのバカっ！！
+　一人旅を楽しんでたのに！
+　ご飯に誘われたとこなのに！！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「でりゃあああああああああああっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオーク
+「な、なんて馬鹿力だっ！！」
+<PAUSE>
+<BG_OUT>1000
+<NAME_PLATE>
+　金棒から剥がれるデコを気にしつつ、
+フランシスはハイオークを圧倒していた。
+<PAUSE>
+<NAME_PLATE>
+　その一方、
+<PAUSE>
+<BG>nc122a,IN, 500
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサシン
+「この小娘が！」
+<PAUSE>
+//　※立ち絵
+//　　アサシン立ち絵
+//　　　　＊カードイラストを流用
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se094
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　アサシンは一見脆弱そうなナーサラを
+相手と決めて銃を撃ちまくったが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ヒラヒラ、防御、ヒラヒラ」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<NAME_PLATE>
+　ナーサラがその場でクルクルと回って
+軽やかにスカートをひるがえすと、
+銃弾が次々と消えていく。
+<PAUSE>
+<NAME_PLATE>
+　受け止めた銃弾を食べているのだが、
+もちろんアサシンには分からない。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサシン
+「なんだこいつは！？」
+<PAUSE>
+<NAME_PLATE>
+　あっという間に弾が尽き、
+今度は刀で斬り掛かるが、
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ハリセン、えい」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはどこからともなく
+ハリセンを取り出して、
+パシパシとそれを受け止めている。
+<PAUSE>
+<NAME_PLATE>
+　受け止めるだけで、
+刀を食べてはいないようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサシン
+「く、くそっっ！！」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラの異次元の強さに敵は怯え、
+フランシスは歓喜した。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「なにあれすげえ！
+　アタシも負けてらんない！！
+　おらおらおらあああああああっっ！！」
+<PAUSE>
+<NAME_PLATE>ハイオーク
+「だ、だめだっ。くそっっ！
+　押し切られるっっ！！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「おらとどめええええええええっっ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se079
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　バリイイインンッッ！！
+ぐちゃっっっ！！
+<PAUSE>
+<NAME_PLATE>
+　振り下ろされた一撃が
+ハイオークの大斧を二本まとめて粉砕し、
+さらに脳天までかち割った。
+<PAUSE>
+<BG>nc122a,IN, 500
+<ACTOR>0,ts_m152a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アサシン
+「ちいっっ！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　仲間がやられたことを知り、
+アサシンは撤退しようとしたが、
+<PAUSE>
+<ACTOR>0,chr_t0274a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ダメ、逃がさない」
+<PAUSE>
+<SE_PLAY>se117
+<NAME_PLATE>
+　シュルルルッッ！！
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>アサシン
+「なっ！？」
+<PAUSE>
+<NAME_PLATE>
+　スカートの裾が生き物のように伸び、
+アサシンに絡みついて動けなくさせる。
+<PAUSE>
+<NAME_PLATE>アサシン
+「くっっ！
+　なにがどうなっている！？
+　なんなんだお前は！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「説明、不要」
+<PAUSE>
+<NAME_PLATE>フランシス
+「へいへい！
+　ナーサラ、パスパース！！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスが血でデコされた金棒を
+バッターのように構えていた。
+<PAUSE>
+<NAME_PLATE>
+　しかも一本足打法だ。
+<PAUSE>
+<NAME_PLATE>アサシン
+「よ、よせぇ！！」
+<PAUSE>
+<NAME_PLATE>
+　もう説明の必要はなかった。
+アサシンの声は怯えきっていた。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「パス」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<SE_PLAY>se013
+<NAME_PLATE>
+　ナーサラが無慈悲に
+スカートをひるがえす。
+<PAUSE>
+<NAME_PLATE>
+　まるで体重がないかのように
+アサシンはフランシスの方に放られた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「かきーーん！！」
+<PAUSE>
+<BG>ef004d,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se027
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　軽い声と共に恐ろしい勢いでバット、
+ではない金棒が振られ、
+<PAUSE>
+<BGM_STOP>1000
+<BG_OUT>1000
+<NAME_PLATE>
+　アサシンは即死。
+さらに遙か彼方に吹っ飛んでいった。
+<PAUSE>
+<NAME_PLATE>
+　あの角度ではヨミハラの天井に
+ぶち当たるかも知れなかった。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<BG>nc122a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「ホームラーンってね♪」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ぱちぱち」
+<PAUSE>
+<NAME_PLATE>
+　あっさりと敵を撃破した二人。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ハイタッーチ！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「はいたーっち」
+<PAUSE>
+<NAME_PLATE>
+　パチン☆
+<PAUSE>
+<NAME_PLATE>
+　手と手を打ち合わせ、
+もうすっかり仲良しになっていた。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ふーーーーー。
+　一暴れしたら、またお腹すいちゃった」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「同意、ペコペコ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「だよねー」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>
+　腹ぺこ二人組は
+探偵事務所を目指すのだった。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ2_nc003cより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>nc215a,IN, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>ナーサラ
+「ただいま」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ立ち絵
+//　　　　＊【フラフラ娘】ナーサラを流用
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「おかえりなさい。あらお客さん？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　探偵事務所にいたのは
+クローンアサギ一人だった。
+<PAUSE>
+<NAME_PLATE>
+　もう二人の同居人、
+ふうま亜希とミリアムは外出中だ。
+<PAUSE>
+<NAME_PLATE>
+　別に珍しいことではなかったが、
+ナーサラが誰かを連れてくるのは珍しい。
+<PAUSE>
+<NAME_PLATE>
+　ちょっと意外な思いで、
+その連れの顔を見る。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「アタシ、フランシスでーす！
+　ごはん食べに来ましたーーー！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>クローンアサギ
+「えっ？　ごはん？
+　ええっ？　鬼？？」
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「お腹ペコペコ、行き倒れ。
+　ナーサラ、一緒にご飯、食べたい」
+<PAUSE>
+<NAME_PLATE>フランシス
+「お腹ペコペコでーす！
+　よろしくおねがいしまーす！」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラはいつも通り
+とらえどころがない。
+<PAUSE>
+<NAME_PLATE>
+　フランシスはニッコニコだ。
+お腹が空いていることは分かった。
+<PAUSE>
+<NAME_PLATE>
+　その他の事情はまるきり分からないが、
+クローンアサギは諦めたように言った。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「はあ、仕方ないわね。
+　連れてきちゃったものを
+　追い返すわけにいかないし」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「でも、まだできてないわよ、ご飯」
+<PAUSE>
+<NAME_PLATE>
+　ちょうど今、その準備をしていたのだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「けどすっごい良い匂いがしてるけど、
+　この匂いは……くんくん、豚汁！？
+　あとご飯も炊けてる！！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスは嬉しそうに鼻をヒクつかせた。
+確かに当たっている。
+<PAUSE>
+<ACTOR>0,chr_t0109a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「ご飯、豚汁、美味しい」
+<PAUSE>
+<NAME_PLATE>フランシス
+「アタシも大好物！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「だからそれだけしかできてないの。
+　おかずはこれから。
+　ちょっと待ってなさい」
+<PAUSE>
+<ACTOR>0,chr_t0116a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0109a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「それだけでいいから！
+　ご飯と豚汁だけで！！」
+<PAUSE>
+<NAME_PLATE>フランシス
+「アタシもう腹ぺこでぶっ倒れそう。
+　姐さん、お願いします、この通り！」
+<PAUSE>
+<NAME_PLATE>
+　ぐーーーー。
+<PAUSE>
+<NAME_PLATE>
+　拝むフランシスのお腹が鳴った。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「誰が姐さんよ。
+　ナーサラはどうする？」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「食べる、一緒」
+<PAUSE>
+<NAME_PLATE>
+　ぐーーーー。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラのお腹も鳴った。
+なんとなく調子を合わせて
+自分で鳴らしている気がする。
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>0,chr_t0116a,LEFT, CENTER, NONE, linear, 1000
+<NAME_PLATE>クローンアサギ
+「じゃあ、適当に食べてて。
+　ご飯足りるかしら……」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　クローンアサギは呟きながら、
+厨房に消えていった。
+<PAUSE>
+<NAME_PLATE>
+　ナーサラが電気釜と豚汁の入った大鍋を
+テーブルに運んでくる。
+<PAUSE>
+<NAME_PLATE>
+　それから丼と大きめのお椀が二つずつ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「ご飯、どれくらい？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「大盛り！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「豚汁は？」
+<PAUSE>
+<NAME_PLATE>フランシス
+「大盛り！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「大盛り、ダブル」
+<PAUSE>
+<NAME_PLATE>
+　山盛りご飯に、お椀たっぷりの豚汁が
+ほかほかと湯気を上げる。
+<PAUSE>
+<NAME_PLATE>フランシス
+「うっわああああ！
+　超美味しそう！！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「美味しそう」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「それだけじゃ寂しいでしょ？
+　はいこれ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　クローンアサギが気を利かせて、
+生卵と漬物の入った小鉢を持ってきて、
+また台所に消えていった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「しゃーっす！！
+　いっただっきまーす！！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「いただきます」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「ぐァつぐァつぐァつ！
+　ずずずーーっ！　ごっくん！」
+<PAUSE>
+<NAME_PLATE>
+　フランシスはすごい勢いで食べ始めた。
+山盛りご飯が見る見るうちに消えていく。
+<PAUSE>
+<NAME_PLATE>フランシス
+「くはあーー美味い！
+　やっぱマジで腹減ってるときは
+　こういうご飯が最高だよねーー！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「もぐもぐ、もぐもぐ。
+　ずずず、ごっくん。美味しい」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラもゆっくり食べているようで、
+そのスピードは引けを取らない。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ぐァつぐァつぐァつ！
+　おかわり！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ぱくぱく、ぱくぱく。
+　おかわり」
+<PAUSE>
+<NAME_PLATE>
+　二人同時に二杯目。
+もちろん、てんこ盛りだ。
+<PAUSE>
+<NAME_PLATE>フランシス
+「次は卵かけご飯にしよっと。
+　タマゴタマゴナマタマゴー♪
+　ぐァつぐァつぐァつ、くはあ最高っ！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「卵かけご飯、最高」
+<PAUSE>
+<NAME_PLATE>フランシス
+「ずずずーーーーっ！！
+　この豚汁もマジで美味しい。
+　あの姐さん、いい腕してる♪」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「アサギ、料理、全部美味しい」
+<PAUSE>
+<NAME_PLATE>フランシス
+「かあーっ羨ましいなあ。
+　あの姐さん、料理が上手いだけじゃなくて、
+　腕っ節の方も相当なもんでしょ？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「すごく、強い」
+<PAUSE>
+<NAME_PLATE>フランシス
+「だよねー。
+　もう一目で分かっちゃった」
+<PAUSE>
+<NAME_PLATE>フランシス
+「強くて美人で料理上手とか
+　もう男なんかよりどりみどりっしょ？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「男、恋人、不明、未確認」
+<PAUSE>
+<NAME_PLATE>フランシス
+「あはは、そうなんだ。
+　ぐァつぐァつぐァつ！
+　おかわり！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「もぐもぐ、おかわり」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　などとやっていると、
+ふうま亜希とミリアムが帰ってきた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ふうま亜希
+「ただいまー」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>ミリアム
+「今、帰ったぞ」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>ナーサラ
+「おかえり」
+<PAUSE>
+<NAME_PLATE>亜希
+「ナーサラちゃん、ただいまっ。
+　今日もその服似合ってるね。可愛いよ。
+　あれ誰その人、お客さん？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「フランシス、お友達。
+　一緒にご飯、食べてる」
+<PAUSE>
+<NAME_PLATE>フランシス
+「どもー。
+　フランシスでーす。
+　一緒にご飯食べてまーす」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<GROUP>
+<ACTOR>1,chr_t0164a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>亜希
+「ふーん。
+　ナーサラちゃんの友達。
+　あ、頭に角……鬼だ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「はい鬼でーす」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラを愛でることにかけては
+人後に落ちない亜希は彼女が連れてきた鬼に
+少し怪訝そうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「なに！？　鬼と一緒に食事だと？
+　むむ、なにやら嫌な予感が……」
+<PAUSE>
+<NAME_PLATE>
+　一方、子供のような外見だが、
+中身は経験豊富な魔女であるミリアムは
+露骨に不審そうな顔をしていた。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「はっ！　クロ、シロ！！
+　そこの釜と鍋を調べるのじゃ！」
+<PAUSE>
+<ACTOR>0,chr_t0091d,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>
+　ミリアムの命令で
+使い魔のクロとシロが急行する。
+<PAUSE>
+<ACTOR>0,chr_t0091a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>クロ＆シロ
+「ぴぴーーっ！！」
+「きゅきゅーーーっ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「なにぃいいい！！」
+<PAUSE>
+<ACTOR>0,chr_t0091a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「え？　なに？　どうしたの？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「こやつら、飯も豚汁も
+　全部食べてしまいおった！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>亜希
+「えーーーーーーーーー！！」
+<PAUSE>
+<NAME_PLATE>
+　亜希は驚いて鍋釜を確認する。
+確かに両方ともすっからかんだった。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「おのれ、鬼！！
+　どこのどいつか知らんが、
+　貴様は加減というものを知らんのか！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「あはは、ごめんごめん。
+　気がついたらなくなっててさ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「だってあんまりここのご飯と豚汁が
+　美味しいんだもん」
+<PAUSE>
+<NAME_PLATE>
+　フランシスはさすがに少し
+照れくさそうにしていた。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「何の騒ぎ？
+　あら、おかえりなさい」
+<PAUSE>
+<NAME_PLATE>
+　急に喧しくなった事務所に
+クローンアサギが台所から出てきた。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「こらアサギ！
+　お前がいてなんたることじゃ！！
+　こやつら全部食べ尽くしてしまったぞ！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「え？　この短時間で？
+　うわあ、見事に空っぽね」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そんな気がしなくもなかったんだけど、
+　さすが鬼の食欲というかなんというか。
+　ナーサラもよく食べたわね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「お腹、いっぱい」
+<PAUSE>
+<NAME_PLATE>フランシス
+「アタシも。
+　ええと、お礼って言うか、
+　お詫びにアタシなんでもするからさ」
+<PAUSE>
+<NAME_PLATE>フランシス
+「姐さんのご飯、超美味しかった。
+　ごちそうさまっ！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ごちそうさま」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　仲良くごちそうさまする二人だが、
+収まらないのは帰ってきたばかりの二人だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「ナーサラちゃん、これはないよ！」
+<PAUSE>
+<NAME_PLATE>亜希
+「こんなやつどこから連れてきたの？
+　さっさと追い出してよ！
+　私だって、おっぱい大人に興味ないし！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「待て待て！
+　おぬしのどうでもいい趣味はさておき」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「自分から奴隷になると言うなら
+　無下に断る必要はあるまい」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「図々しく食い散らかした分
+　しっかり働いてもらうぞ。
+　ふっふっふ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「いやあ、奴隷になるとまでは
+　アタシ言ってないけど……」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「なんじゃと！？
+　なら今すぐその腹かっさばいて
+　食った物を全部掻き出してやろうか！！」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「いいアイデアだね。
+　それなら私も手伝うよ」
+<PAUSE>
+<NAME_PLATE>
+　食い物の恨みは怖い。
+ミリアムと亜希が殺気立つ。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「ちょっ目がマジ！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「まあまあ。
+　ご飯ならまたすぐ作ってあげるから。
+　二人とも抑えて抑えて」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは苦笑しつつ
+二人をなだめようとする。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0109a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>フランシス
+「姐さん、優しい」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「探偵！　甘いぞ！」
+<PAUSE>
+<NAME_PLATE>亜希
+「そうだそうだ！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あなたたちの世話をしてたら
+　色々と寛容にもなるわ」
+<PAUSE>
+<NAME_PLATE>亜希
+「がーーーーん」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「そんな鬼と一緒にするな！」
+<PAUSE>
+<NAME_PLATE>
+　家主の思わぬ反撃に
+二人は意外とショックを受けている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「とにかく、ちょうど仕事が一つ二つ来てるし
+　それをやってもらいましょうか。
+　いいわね……ええと、フランシス」
+<PAUSE>
+<ACTOR>1,chr_t0109a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「まかせて！
+　姐さんの超美味しいご飯のために
+　アタシ頑張る！！」
+<PAUSE>
+<NAME_PLATE>
+　お腹いっぱいになったフランシスは
+まるで反省していない様子で頷いた。
+<PAUSE>
+//→Section２終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

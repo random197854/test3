@@ -1,0 +1,305 @@
+//FileNo:S305a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+//　※視点変更　きらら視点
+<BG>nc035a,IN, 1000
+<BGM_PLAY>bgm408,1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「せぇえぇいッ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵＿対魔忍衣装
+<GROUP>
+<ACTOR>0,ts_m082a,CENTER, CENTER, IN, linear, 1000
+<SE_PLAY>se086
+</GROUP>
+<NAME_PLATE>ガーゴイル
+「ＧＲＵＵＵＵＵＵＵ！！！？」
+<PAUSE>
+//　※立ち絵
+//　　ガーゴイル
+//　　　　＊対魔忍RPG用に新デザイン
+<GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se039_01
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　パリンパリン――！！
+<PAUSE>
+<NAME_PLATE>
+　小気味よい音を響かせ、氷のクローによって
+凍結した魔物が砕け散っていく。
+<PAUSE>。
+<NAME_PLATE>
+　抜群の身体能力を活かして、
+鬼崎きららは次々と魔物を屠っていた。
+<PAUSE>
+<NAME_PLATE>きらら
+（そうよ――！！
+　あんな奴の指示を聞かなくったって、
+　私一人で戦えるんだから！！）
+<PAUSE>
+<NAME_PLATE>
+　同行している後輩――ふうま小太郎。
+<PAUSE>
+<NAME_PLATE>
+　彼が何かごちゃごちゃ言っていたが、
+そんなものを聞くつもりはない。
+<PAUSE>
+<NAME_PLATE>
+　なぜなら、自分の方が圧倒的に
+強いから――。
+<PAUSE>
+<NAME_PLATE>
+　あんな――鬼火の一匹を倒すのに
+ひいひい言っている男の、
+何を信じられると言うのか。
+<PAUSE>
+<NAME_PLATE>きらら
+（それなのに、アサギ先生は――）
+<PAUSE>
+<NAME_PLATE>
+　そう――。
+<PAUSE>
+<NAME_PLATE>
+　この任務を命じる際、井河アサギは
+きららにこんな風に言っていた。
+<PAUSE>
+//　※回想
+//【背景：五車学園＿校舎内校長室＿昼】【時間：昼】
+//　※対魔忍アサギZEROの背景NC009aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BG>nc006a,IN, 3000
+<ACTOR>1,a_t001c,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アサギ
+「あなたと、あなたのお母様の
+　過去については聞いているわ」
+<PAUSE>
+//　※立ち絵
+//　　アサギ通常立ち絵＿校長衣装
+//　　　　＊対魔忍アサギ３の立ち絵より流用
+<NAME_PLATE>アサギ
+「大変痛ましい事件だったと思うし、
+　あなたが男性を拒絶する気持ちも
+　良くわかる。だけど――」
+<PAUSE>
+<NAME_PLATE>アサギ
+「いつまでもそれを引き摺っているのは、
+　あなたにとっても良くないことだわ」
+<PAUSE>
+<ACTOR>1,a_t001a,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>アサギ
+「――だから、次の任務では、
+　彼と共に行動してみなさい」
+<PAUSE>
+<NAME_PLATE>アサギ
+「彼は、信頼できる青年だわ」
+<PAUSE>
+<NAME_PLATE>アサギ
+「彼と接することで、もしかしたら、
+　過去を吹っ切るきっかけになるかも
+　知れない――」
+<PAUSE>
+//　※回想終了
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BG>nc035a,IN, 3000
+<UI_DISP>ON, 0
+<NAME_PLATE>きらら
+（――だから、あんな奴を頼れ？）
+<PAUSE>
+<NAME_PLATE>きらら
+（いくらアサギ先生の言うことだって、
+　聞けるわけないわ！！）
+<PAUSE>
+<NAME_PLATE>
+　そんな風に言われたからこそ、
+きららは反発した。
+<PAUSE>
+<NAME_PLATE>
+　彼――ふうま小太郎に意味もなく
+突っかかり、バカにして、
+取るに足らない奴だと思おうとした。
+<PAUSE>
+<NAME_PLATE>
+　アサギ校長が何と言おうと
+関係ない。
+<PAUSE>
+<NAME_PLATE>
+　男なんて、全員同じ。
+<PAUSE>
+<NAME_PLATE>
+　信じるに価しない“敵”なのだと――。
+<PAUSE>
+<NAME_PLATE>きらら
+（そ、そうよ……！！
+　男なんて、誰も信用できない！）
+<PAUSE>
+<NAME_PLATE>きらら
+（信用したって、結局、
+　最後にはママみたいに……！！）
+<PAUSE>
+<NAME_PLATE>
+　戦いの中で一瞬、きららの心が
+乱れる。そして――
+<PAUSE>
+<NAME_PLATE>
+　その隙を見逃さない者がいた。
+<PAUSE>
+<BGM_STOP>1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>小太郎
+「きらら先輩！？
+　危ない――っ！！！」
+<PAUSE>
+<NAME_PLATE>きらら
+「っ！！？」
+<PAUSE>
+//【黒画面】
+//　※視点変更　主人公視点に戻ります。
+//【背景：東京キングダムの地下空間２＿昼夜共通】【時間：夜】
+//　※MonstersSurvive_nc009aより流用
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<BG>nc035a,IN, 1000
+<BGM_PLAY>bgm313,1000
+<UI_DISP>ON, 0
+<NAME_PLATE>俺
+「きらら先輩！？
+　危ない――っ！！！」
+<PAUSE>
+<NAME_PLATE>
+　魔物と応戦しつつ俺は叫んだ。
+<PAUSE>
+<NAME_PLATE>
+　なぜか一瞬、動きを乱した
+きらら先輩――
+<PAUSE>
+<NAME_PLATE>
+　その足もとの地面が膨れ上がり、
+魁偉な容貌の大男が出現した。
+<PAUSE>
+<ACTOR>2,ts_m083a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「ゲヒヒヒ――！！
+　隙ありじゃ嬢ちゃん！！！」
+<PAUSE>
+//　※立ち絵
+//　　矢車弥右衛門立ち絵
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>きらら
+「っ！？」
+<PAUSE>
+<NAME_PLATE>俺
+（やっぱり近くにいやがった！！）
+<PAUSE>
+<NAME_PLATE>
+　前の“迷い辻”の迷宮における、
+シャドウの役割。
+<PAUSE>
+<NAME_PLATE>
+　魔物の群れを操る術者が、
+襲いかかる隙を窺っていたのだ。
+<PAUSE>
+<ACTOR_OUT>2,CENTER,linear,1000
+<ACTOR>3,kr_t003b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>きらら
+「くぅっ！？
+　なっ、なによこんな奴――っ！！」
+<PAUSE>
+//　※立ち絵
+//　　鬼崎きらら戦闘立ち絵＿対魔忍衣装
+<GROUP>
+<SE_PLAY>se080
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　バチン！！！
+<PAUSE>
+<NAME_PLATE>俺
+「おお――っ！？」
+<PAUSE>
+<NAME_PLATE>
+　鬼神のようなきらら先輩の
+反応速度だった。
+<PAUSE>
+<NAME_PLATE>
+　普通では絶対にかわしようのない
+死角からの攻撃を回避し、すかさず
+カウンターを叩き込む。
+<PAUSE>
+<NAME_PLATE>
+　だが――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>きらら
+「ええっ！！？　何これ！？」
+<PAUSE>
+<NAME_PLATE>
+　氷のクローで貫かれた大男の体が
+ドロリと溶け、ただの土塊に変わって
+崩れ落ちる。そして――。
+<PAUSE>
+<NAME_PLATE>？？？
+「ゲヒヒ、残念じゃのう嬢ちゃん。
+　そっちの儂は外れじゃあ――！！」
+<PAUSE>
+<NAME_PLATE>
+　再び、無防備となった背後から
+出現した男が、豪腕一発――。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se001
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　巨大な筋肉で覆われた拳が、
+きらら先輩の下腹部にめり込んだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>3,CENTER,linear,1000
+<SE_PLAY>se010
+</GROUP>
+<NAME_PLATE>きらら
+「あっぐぅうぅうううっ！！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「き、きらら先輩っ！！！」
+<PAUSE>
+<NAME_PLATE>
+　壁に叩きつけられ、
+そのまま無様に地面に転がった。
+<PAUSE>
+<NAME_PLATE>
+　きらら先輩の整った顔が苦痛に歪み、
+ゲホっと嘔吐いた口から大量の血が溢れ出す。
+<PAUSE>
+<NAME_PLATE>きらら
+「あがっ！？
+　ぐ、ぐぅ……こ、この……っ」
+<PAUSE>
+<ACTOR>2,ts_m083a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「さぁて嬢ちゃん、
+　これで終いじゃあ――っ！！！」
+<PAUSE>
+<SE_PLAY>se003
+<NAME_PLATE>
+　横たわったまま動かないきらら先輩に、
+巨躯の男が躍りかかった。
+<PAUSE>
+//→Section３終了
+<ACTOR_OUT>2,CENTER,linear,1000
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

@@ -1,0 +1,284 @@
+//=================================================================
+//FileNo:S505a
+//シーン名：エピローグ
+//=================================================================
+//【背景：幽霊城地下の洞窟＿ホール】【時間：夜】
+//<SCREEN_SIZE>1280, 720
+<BGM_PLAY>bgm320,1000
+<BG>nc036a,IN, 1000
+<NAME_PLATE>淫魔の女
+「おのれ……人間如きが……」
+<PAUSE>
+//　※立ち絵
+//　　白きサキュバス立ち絵
+<NAME_PLATE>淫魔の女
+「ククク……じゃが、準備は整った……」
+<PAUSE>
+<NAME_PLATE>
+　白い淫魔の女は、倒れながら
+何やら呪文のようなものを呟いた。
+<PAUSE>
+<NAME_PLATE>俺
+「なんだ？」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se057
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　ゴゴゴゴゴゴ……
+<PAUSE>
+<NAME_PLATE>
+　すると――突然あたりが揺れ始め、
+やがて立っていられないほどの
+大きな地震になっていく。
+<PAUSE>
+<NAME_PLATE>俺
+「洞窟が崩れるぞ！！？」
+<PAUSE>
+<NAME_PLATE>
+　天然の岩壁はバラバラと崩れ、
+天井からは土砂が降ってくる。
+<PAUSE>
+<NAME_PLATE>俺
+「逃げろ！！」
+<PAUSE>
+//【黒画面】
+<GROUP>
+<BGM_STOP>1000
+<SE_PLAY>se057
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<BG_OUT>1000
+</GROUP>
+<NAME_PLATE>
+　ゴゴゴゴゴ……！
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ぎゃああああ！！」
+<PAUSE>
+<NAME_PLATE>蛇子
+「もうちょっとで出口よ！
+　走って……！！！」
+<PAUSE>
+//【背景：城跡＿夜】【時間：夜】
+<BG>nc028b,IN, 1000
+<NAME_PLATE>鹿之助
+「っはー！！　出たあーーー！！！！
+　……ってココどこだ！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>
+　必死の思いで洞窟を抜け出すと、
+先日見たままの、草生い茂る城跡が
+広がっていた。
+<PAUSE>
+<BGM_PLAY>bgm408,1000
+<ACTOR>0,h_t004d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「城……なくなってる……」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿対魔忍衣装
+<ACTOR>0,h_t004d,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>俺
+「全員無事のようだな……」
+<PAUSE>
+<NAME_PLATE>
+　城はあとかたもなく、
+ただ石碑と看板がひそやかに佇んでいた。
+<PAUSE>
+<GROUP>
+<ACTOR>0,s_t001e,LEFT, LEFT, IN, linear, 1000
+<ACTOR>2,sa_t002c,CENTER, CENTER, IN, linear, 1000
+<ACTOR>1,h_t004e,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「全てが幻影だったって事よね……
+　でもどれが幻影で何が現実だったんだろ」
+<PAUSE>
+<ACTOR>2,sa_t002f,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「洞窟は塞がっちゃったね………
+　魔族たち何してたんだろう」
+<PAUSE>
+//　※立ち絵
+//　　井河さくら通常立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「結局、鹿之助が見たって言う幽霊女は現れず
+　奴らがここで何をしていたのかも、
+　全て土の中か」
+<PAUSE>
+<ACTOR>2,sa_t002h,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>さくら
+「なーんか、スッキリしない結末だね……」
+<PAUSE>
+<ACTOR>0,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「あんな怖い思いしたのになあ……」
+<PAUSE>
+<NAME_PLATE>
+　俺たちは、静かに湧き水の流れる山の中で
+がっくりと肩を落とした。
+<PAUSE>
+<NAME_PLATE>俺
+「ま、魔族どもも倒したんだ。あとは
+　校長たちが調べてくれるんじゃないか？
+　とにかく帰ろうぜ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「あ、ああ、とにかくみんな
+　無事だったわけだしな……」
+<PAUSE>
+<ACTOR>0,s_t001h,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「って、あーーっ！　明日小テストじゃん……
+　やべ、全然勉強してないよ……
+　は、早く帰ろうぜ、ふうま！　蛇子！」
+<PAUSE>
+<ACTOR>1,h_t004d,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「そんなの普段から
+　ちゃんと勉強してれば余裕でしょ」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うええええ……一難去ってまた一難……」
+<PAUSE>
+<NAME_PLATE>俺
+「俺もやべえ……」
+<PAUSE>
+<ACTOR>1,h_t004a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「しょうがないわねー、今回だけは
+　出そうなとこ教えてあげるから！」
+<PAUSE>
+<ACTOR>0,s_t001b,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「へ、蛇子！　神か、タコの女神かよ！」
+<PAUSE>
+<NAME_PLATE>
+　いつしか小雨も止み、
+俺たちは月明かりの山道を下っていった。
+<PAUSE>
+<GROUP>
+<BGM_STOP>1000
+<ACTOR>0,s_t001b,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>2,sa_t002h,CENTER, CENTER, OUT, linear, 1000
+<ACTOR>1,h_t004a,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<BG_OUT>1000
+//【黒画面】
+<NAME_PLATE>
+　一方。
+城跡より数キロ離れた森の中――
+<PAUSE>
+//【背景：城跡より数キロ離れた森の中＿夜】【時間：夜】
+<BGM_PLAY>bgm312,1000
+<BG>nc037a,IN, 1000
+<NAME_PLATE>
+　雲間の月を見上げながら、
+佇む男の姿があった。
+<PAUSE>
+<ACTOR>0,g_t001f,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>二車骸佐
+「…………権左か？」
+<PAUSE>
+//　※立ち絵
+//　　骸佐汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>権左
+「はっ」
+<PAUSE>
+<NAME_PLATE>
+　地から盛り上がった土塊が、
+みるみる人の形を成したかと思うと、
+権左となって主に跪く。
+<PAUSE>
+<ACTOR>0,g_t001f,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,o_t002c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>権左
+「城跡の地下の魔界の門、
+　朽ちて使えぬものでした……
+　おそらく、閉じて数百年は経つかと」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<ACTOR>0,g_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ふん、そうか。
+　ノマドの情報も存外たいした事はないな」
+<PAUSE>
+<NAME_PLATE>
+　骸佐はこともなげに返した。
+もともと、そんなことではないかと
+考えていたのだ。
+<PAUSE>
+<NAME_PLATE>
+　かつてその城の城主は、鬼や妖怪を従え、
+恐怖で民を支配したという――
+<PAUSE>
+<NAME_PLATE>
+　しかしその権勢は、
+あるときぱったりと終わる。力を失った城主は、
+虐げてきた領民にあっさり討たれた。
+<PAUSE>
+<NAME_PLATE>
+　昔話が本当なら、鬼や妖怪は、
+魔界の門から召喚されたのではないか。
+<PAUSE>
+<NAME_PLATE>
+　そして突然力を失った瞬間、それは即ち、
+魔界の門の力が途絶えた時だったのでは
+ないか――
+<PAUSE>
+<ACTOR>0,g_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「いつの世も、愚かなのは人間だな」
+<PAUSE>
+<NAME_PLATE>権左
+「お館様……」
+<PAUSE>
+<ACTOR>0,g_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「なんだ？」
+<PAUSE>
+<NAME_PLATE>権左
+「朽ちた門の調査、実は先客がおりまして、
+　部下がかなり殺られちまいました。
+　申し訳御座いません」
+<PAUSE>
+<NAME_PLATE>骸佐
+「ほお？　権左がいて苦戦したってのか？」
+<PAUSE>
+<NAME_PLATE>権左
+「………妖しげな魔族を連れた
+　手練の女戦士がおりまして」
+<PAUSE>
+<ACTOR>0,g_t001f,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ほう」
+<PAUSE>
+<ACTOR>0,g_t001a,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>骸佐
+「ノマドのもとに魔族どもは
+　纏まっているのかと思っていたが、
+　奴らも一枚岩ではないって事か」
+<PAUSE>
+<NAME_PLATE>権左
+「御意」
+<PAUSE>
+<NAME_PLATE>骸佐
+「それだけでも良い土産話だぜ、権左」
+<PAUSE>
+<NAME_PLATE>
+　そう言い残して森の中へ去っていく骸佐を、
+権左はずっと跪いたまま見送っていた。
+<PAUSE>
+<UI_DISP>OFF, 0
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>0,g_t001a,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,o_t002c,RIGHT, RIGHT, OUT, linear, 1000
+<BG_OUT>3000
+</GROUP>
+<SCENARIO_END>
+//→Section５終了

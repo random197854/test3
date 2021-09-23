@@ -1,0 +1,725 @@
+//=================================================================
+//FileNo:S105a
+//シーン名：エピローグ
+//【黒画面】
+//【背景：センザキ＿繁華街１＿夜】【時間：夜】
+//　※対魔忍紅_NC004aより流用
+<BGM_PLAY>bgm313,1000
+<BG>nc061a,IN, 1000
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m210a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　デビルランタンは危険な魔獣である。
+<PAUSE>
+<NAME_PLATE>
+　一体一体の強さはそれほどでもないが、
+うんざりするほど数が多い。
+<PAUSE>
+<NAME_PLATE>
+　小さな体に魔界の炎ダークフレイムをまとい
+それをタコ墨にして吐き出す
+タコフレイムを使う。
+<PAUSE>
+<NAME_PLATE>
+　さらに厄介なのがその生命力だ。
+<PAUSE>
+<NAME_PLATE>
+　魔界の生物特有の強い再生力を持ち、
+どれだけ強い攻撃を受け、
+足の一本や二本がちぎれても、
+<PAUSE>
+<NAME_PLATE>
+　すぐに復活してぴょんぴょん
+飛び跳ねながら襲いかかってくる。
+<PAUSE>
+<NAME_PLATE>
+　半端な闇の住人や魔族などより
+よっぽど厄介な恐るべき相手である。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<NAME_PLATE>俺
+「だけど、奴らの習性は掴んだぜ！」
+<PAUSE>
+<NAME_PLATE>
+　こっちだって一方的に
+やられてばかりじゃいられない。
+<PAUSE>
+<NAME_PLATE>
+　好き勝手に暴れ回っているような
+タコ型生物だが、よく観察すると実は意外と
+統制された動きをしているのがわかる。
+<PAUSE>
+<NAME_PLATE>
+　その動きを仕切っているのは、群れに
+何匹か存在するらしいリーダー格のタコ。
+<PAUSE>
+<NAME_PLATE>
+　そのリーダータコを狙い撃ちにすれば、
+群れの統制は乱れ、奴らを退治することも
+容易くなるだろうという読みだ。
+<PAUSE>
+<NAME_PLATE>
+　そして、そのためには。
+<PAUSE>
+<NAME_PLATE>俺
+「――おいミナサキ！！
+　お菓子だ、今すぐお菓子を出せ！」
+<PAUSE>
+<ACTOR>0,chr_t0268a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミナサキ
+「えー？　イヤだよ！
+　なんでボクの大事なお菓子をふうまに
+　カツ丼されなきゃいけないんだい！？」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】ミナサキ
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミナサキ
+「大体、こんな時にお腹が減って
+　お菓子を食べようだなんて、
+　親分の風上にも置けない卑しさだね！」
+<PAUSE>
+<NAME_PLATE>俺
+「なに言ってやがるこの小動物！
+　お菓子を食べるのは俺じゃない！！
+　あのタコどもの好物なんだよ！」
+<PAUSE>
+<NAME_PLATE>俺
+「いいからほれ！
+　さっきお前が使ってた幻の杖だ！
+　あれを使って大量に出せ！！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「あいたたたた！！？
+　もーわかったよこのロリコンふうま！
+　これでいいんだろ、えーーい！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>デビルランタンたち
+『タコ？』
+『タコココ？』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　俺に頬っぺたを引っ張られた
+ミナサキがやけくそみたいな顔で
+手に持ったステッキを振る。
+<PAUSE>
+<NAME_PLATE>
+　するとイベント会場の上空から
+大量のお菓子が雨あられのように降ってくる。
+<PAUSE>
+<NAME_PLATE>
+　本物のお菓子ではない。
+<PAUSE>
+<NAME_PLATE>
+　ミナサキが道端で知らないおじさんから
+貰ったという、ハロウィンの日限定で
+幻を見せるという魔法のステッキ。
+<PAUSE>
+<NAME_PLATE>
+　それによって出現した幻のお菓子――
+だが幻であっても、このタコ生物どもの
+注意を引くには充分だったようだ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m210a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルランタンたち
+『キャーーーーーー♪』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　興奮に沸き立つタコ型生物の群れ。
+<PAUSE>
+<NAME_PLATE>
+　広場中央に落下したお菓子に向かって
+群れ全体が一斉に向きを変えた。
+<PAUSE>
+<NAME_PLATE>
+　ここがチャンスである。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<NAME_PLATE>俺
+「でかしたミナサキ！
+　蛇子、鹿之助、今度は俺たちだ！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0266a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,s_t014f,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子＆鹿之助
+「「了解っ！！」」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】相州蛇子
+//　　　　＊カードイラストより流用
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳
+//　※立ち絵加工　パーティー用の『とんがり帽子』の装着をお願いします。
+<NAME_PLATE>
+　俺と蛇子、鹿之助が幻のお菓子に夢中に
+なっているタコどもの背後に回り込む。
+<PAUSE>
+<NAME_PLATE>
+　狙いはリーダー格である数匹のタコ。
+<PAUSE>
+<NAME_PLATE>蛇子
+「えーーーいっ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「電遁の術“スパーク”！！！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助通常立ち絵＿対魔忍衣裳（電気）
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ザシュ！！！
+<PAUSE>
+//　※攻撃演出などお願いします。
+<NAME_PLATE>デビルランタンたち
+『タコーーー！！！？』
+『タコーーー！！！？』
+『タコーーー！！！？』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<BG>nc061a,IN, 500
+<NAME_PLATE>俺
+「いいぞ、蛇子！　鹿之助！！」
+<PAUSE>
+<NAME_PLATE>
+　蛇子と鹿之助の息の合った連携だ。
+<PAUSE>
+<NAME_PLATE>
+　リーダータコの一部がやられた
+デビルランタンの群れは目に見えて動揺し、
+ジタバタと無秩序に動き始める。
+<PAUSE>
+<NAME_PLATE>俺
+（よし！　今が追撃のチャンス――！）
+<PAUSE>
+<NAME_PLATE>
+　そう考えて踏み込んだ俺の目の前で、
+奴らは予想外の粘りを見せた。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m210a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルランタンたち
+『タコーーーーーーーーーーーーー
+　ーーーーーーーーーー！！！』
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+<ACTOR_OUT>0,CENTER,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se015
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオッ！！！
+<PAUSE>
+//　※可能であれば蒼い炎の攻撃演出などお願いします。
+<NAME_PLATE>俺
+「うわっ！？
+　こ、こいつら――」
+<PAUSE>
+<NAME_PLATE>蛇子
+「ふうまちゃん！！？」
+<PAUSE>
+<NAME_PLATE>
+　火事場の馬鹿力的な反応だろうか。
+<PAUSE>
+<NAME_PLATE>
+　リーダータコを何匹かやられつつも、
+大量にタコフレイムを吐き出して
+俺たちの動きを牽制しながら、
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンの群れは、
+イベント会場である広場から散ろうと
+一斉に路地に向かっていく。
+<PAUSE>
+<BG>nc061a,IN, 500
+<ACTOR>0,s_t014d,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>鹿之助
+「お、おいふうま！？
+　あいつらどっかに逃げちゃうよ！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「くそ！！　マズいぞ、
+　またどこかに逃げられたら
+　面倒なことに――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　俺は歯噛みした。
+<PAUSE>
+<NAME_PLATE>
+　奴らを食い止めようにも
+目の前で牽制をするタコが邪魔して
+思うように動けない。
+<PAUSE>
+<NAME_PLATE>
+　そうこうしているうちに、
+タコ連中は広場から逃走して――
+<PAUSE>
+<NAME_PLATE>？？？
+「――絶技・旋風陣！」
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se074_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオ！！！！
+<PAUSE>
+<NAME_PLATE>デビルランタンたち
+『タコーーーー！！！！？』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「！！！？」
+<PAUSE>
+<BG>nc061a,IN, 500
+<NAME_PLATE>
+　突然のことだった。
+<PAUSE>
+<NAME_PLATE>
+　強烈な旋風が路地の奥から吹きつけ、
+そこに逃げ込もうとしたタコ生物たちを
+まとめて吹き飛ばし、押し戻していた。
+<PAUSE>
+<ACTOR>1,chr_t0161a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>心願寺紅
+「――すまん、
+　待たせたなふうま！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】心願寺紅
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR>0,ts_m097a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>1
+</GROUP>
+<NAME_PLATE>金崎銃兵衛
+「よう若。こっちもヤバそうだな」
+<PAUSE>
+//　※立ち絵
+//　　金崎銃兵衛立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>俺
+「紅！！　銃兵衛！！
+　こっちに来てくれたのか！」
+<PAUSE>
+<NAME_PLATE>
+　現れたのは、俺の幼馴染でもある
+元ふうまの対魔忍・紅と銃兵衛。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンの発生地である
+港湾地区の対処に向かった二人である。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　同時に――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0160a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0267a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鬼崎きらら
+「――必殺・凍奔征走！！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】鬼崎きらら
+//　　　　＊カードイラストより流用
+<NAME_PLATE>弓走颯
+「てやっ！　風遁・響弓っ！！」
+<PAUSE>
+//　※立ち絵
+//　　【ハロウィン】弓走颯
+//　　　　＊カードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se111
+<WAIT>500
+<SE_PLAY>se008
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>デビルランタンたち
+『タコーーーーーーーーーーーーーー
+　ーーーーーー！！！！？』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　別の路地に逃げ込もうとしていた
+タコ集団が巨大な氷柱、または次々と
+飛来する弓によって弾き返される。
+<PAUSE>
+<BG>nc061a,IN, 500
+<NAME_PLATE>俺
+「きらら先輩！　颯！！」
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0160a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0267a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　お馴染みのきらら先輩、
+そして俺のクラスメイトの弓走颯。
+<PAUSE>
+<NAME_PLATE>
+　二人とは、このイベント会場で
+待ち合わせをしていたのだった。
+<PAUSE>
+<NAME_PLATE>きらら
+「ねえふうま！？
+　さっきからうじゃうじゃ出てきた
+　この変な魔物って何！！！？」
+<PAUSE>
+<NAME_PLATE>俺
+「えーと、すみません！
+　詳しく説明してる時間はなくて――
+　とにかくセンザキのピンチです！」
+<PAUSE>
+<NAME_PLATE>俺
+「先輩たちも一緒に
+　こいつらを食い止めてください！
+　指示は出します！」
+<PAUSE>
+<NAME_PLATE>きらら
+「んー？
+　なんだかわかんないけど了解！！
+　指示よろしくね、ふうま！」
+<PAUSE>
+<NAME_PLATE>俺
+「はいっ！！」
+<PAUSE>
+<NAME_PLATE>颯
+「え、えぇ……？　きらら先輩、
+　今ので了解したんですか！？」
+<PAUSE>
+<NAME_PLATE>きらら
+「えっ？　まぁ、あいつがピンチって
+　言うなら本当にピンチなんでしょ」
+<PAUSE>
+<NAME_PLATE>きらら
+「それより実戦でぐずぐず考えてたら
+　すぐにやられちゃうわよー。
+　さあ颯ちゃんも動いて動いて！」
+<PAUSE>
+<NAME_PLATE>颯
+「は、はいっ！」
+<PAUSE>
+<NAME_PLATE>俺
+（うーむ。さすがきらら先輩）
+<PAUSE>
+<NAME_PLATE>
+　実戦経験が豊富と言うか、
+色々ぶっちぎってると言うか、
+とにかく判断が早い。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　紅、銃兵衛、きらら先輩、颯――
+対魔忍の中でも実力上位であろう
+４人が助っ人に加わったのだ。
+<PAUSE>
+<NAME_PLATE>
+　一度は奴らに押し切られかけたが、
+こうなれば完全に形勢逆転だ。
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m210a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m210a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>デビルランタンたち
+『タコ、タココココ……』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　デビルランタン
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>俺
+「おや？　奴らの様子が……」
+<PAUSE>
+<NAME_PLATE>
+　その時だった。
+<PAUSE>
+<NAME_PLATE>
+　俺たちに包囲され、追い込まれた
+タコ生物が奇妙な行動をとった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　リーダータコを中心にして
+何匹ものタコ生物が積み重なる。
+<PAUSE>
+<EFFECT_FLASH>WHITE, 1000
+<BG>white,IN, 500
+<SE_PLAY>se109_01
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　すると、ぼんっ！　と音を立てて
+魔界の炎が立ち昇り、積み重なった
+タコたちが次々に融合していく――。
+<PAUSE>
+<BG>nc061a,IN, 500
+<ACTOR>0,chr_t0266a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>蛇子
+「ふ、ふうまちゃん何あれ！？
+　タコちゃんたちが凄い勢いで
+　合体してるんだけど！？」
+<PAUSE>
+<NAME_PLATE>俺
+「い、いや俺が知るか――」
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>俺
+（ん？　待てよ……）
+<PAUSE>
+<NAME_PLATE>
+　俺は思い返す。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンの記述があった本に、
+このわけのわからない合体のことも
+書いてあったような――
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+『ＴＡＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯ！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン王
+//　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺たち
+「はあああああああっ！！！？」
+<PAUSE>
+<NAME_PLATE>
+　理解不能な奴がそこにいた。
+<PAUSE>
+<NAME_PLATE>
+　積み重なったタコ生物が融合した姿。
+<PAUSE>
+<NAME_PLATE>
+　全身に魔界の炎をまとった、
+巨大なカボチャ型の甲冑のような外見。
+<PAUSE>
+<NAME_PLATE>銃兵衛
+「な、なんだこりゃあ……？」
+<PAUSE>
+<NAME_PLATE>蛇子
+「なんか昔のゲームで
+　こういうの見たことあるわね」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「やべえ、超かっけええ……」
+<PAUSE>
+<NAME_PLATE>
+　呆然としながらそれぞれの
+反応をしている鹿之助たち。
+<PAUSE>
+<NAME_PLATE>俺
+「こ、こいつは、
+　デビルランタン王だ……！」
+<PAUSE>
+<NAME_PLATE>
+　そんな中、俺がつぶやいた。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンについて書かれた本に、
+この存在の記述もあった。
+<PAUSE>
+<NAME_PLATE>
+　デビルランタンは一種の群体生物で、
+個体と個体の区別がほとんどないらしい。
+<PAUSE>
+<NAME_PLATE>俺
+（だからリーダー格のタコの指令で
+　統制のとれた動きをしていた）
+<PAUSE>
+<NAME_PLATE>
+　それゆえ、ピンチになると
+このタコ生物たちは合体して巨大な姿
+『デビルランタン王』となり、
+<PAUSE>
+<NAME_PLATE>
+　タコ型の時の数千倍の強烈な炎
+『ギガタコフレイム』によって
+敵対する者を殲滅するという――。
+<PAUSE>
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯ！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン王
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+//新規作成
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<NAME_PLATE>銃兵衛
+「やべえっ！？　炎が来るぞ、
+　みんな頭を低くしろっっ！！」
+<PAUSE>
+<NAME_PLATE>鹿之助
+「ひいいいいいいいいいっ！！？」
+<PAUSE>
+<NAME_PLATE>
+　出現と同時に強烈な炎を放つ巨人。
+<PAUSE>
+<NAME_PLATE>
+　それを必死で避ける銃兵衛たち。
+<PAUSE>
+<NAME_PLATE>
+　しかし――。
+<PAUSE>
+<BG>nc061a,IN, 1000
+<NAME_PLATE>俺
+「う、嘘だろ……？」
+<PAUSE>
+<NAME_PLATE>紅＆きらら＆蛇子
+「――小太郎！！！？」
+「ふうま！！？」
+「ふうまちゃん！！！？」
+<PAUSE>
+<NAME_PLATE>
+　背後から届く悲痛な声。
+<PAUSE>
+<NAME_PLATE>
+　ちょうど奴の真正面にいた俺は、
+迫りくる炎をかわす余裕などなく――。
+<PAUSE>
+<NAME_PLATE>俺
+（ま、まさか、
+　俺はこんなところで……？）
+<PAUSE>
+<NAME_PLATE>
+　俺には再生の力がある。
+<PAUSE>
+<NAME_PLATE>
+　だけど強力な魔界の炎で
+消し炭にされても今までのように
+再生できるのだろうか？
+<PAUSE>
+<NAME_PLATE>
+　もし、今までのように
+復活することができなかったら……？
+<ACTOR>0,ts_m211a,CENTER, CENTER, IN, linear, 1000
+<PAUSE>
+<NAME_PLATE>デビルランタン王
+『ＴＡＣＯＯＯＯＯＯＯＯＯＯＯＯＯＯ
+　ＯＯＯＯＯＯＯＯＯＯ！！！！！』
+<PAUSE>
+//　※立ち絵
+//　　デビルランタン王
+//　　　＊モンスターイラストより流用
+<ACTOR_OUT>0,CENTER,linear,500
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_FLASH>WHITE, 500
+<BG>white,IN, 500
+<SE_PLAY>se015
+//新規作成
+<NAME_PLATE>
+　ゴオオオオオオオオオ！！！！！
+<PAUSE>
+//　※可能であれば炎（強め）の攻撃演出などお願いします。
+<NAME_PLATE>
+　立ち竦む俺の視界一杯を、
+迫りくる魔界の炎が覆いつくした。
+<PAUSE>
+//→Section１終了
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

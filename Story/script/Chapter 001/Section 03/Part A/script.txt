@@ -1,0 +1,489 @@
+//=================================================================
+//
+//FileNo:S301a
+//
+//シーン名：プロローグ
+//
+//<SCREEN_SIZE>1280, 720
+//=================================================================
+//【背景：五車学園＿校舎内廊下＿昼】【時間：昼】
+<BGM_PLAY>bgm314,1000
+<BG>nc005a,IN, 3000
+<GROUP>
+<ACTOR>2,s_t001g,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,h_t004c,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>鹿之助
+「ぜぇー、ふぁーっ！
+　なんとか校舎に入れたな！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<ACTOR>1,h_t004e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「本番はここからよ！　気を抜かないで」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>
+　森から裏口へ全力疾走し、
+俺たちは無事校舎に到着した。
+<PAUSE>
+<ACTOR>2,s_t001d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>鹿之助
+「ちょ、ちょっと、息整えさせてくれよ！！」
+<PAUSE>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>蛇子
+「しょーがないわねーもう」
+<PAUSE>
+<NAME_PLATE>俺
+（確かに、ここから先は戦闘は
+　避けられないだろう。息を整えて
+　万全で挑んだほうがよさそうだな）
+<PAUSE>
+<NAME_PLATE>俺
+（……時子は大丈夫だろうか）
+<PAUSE>
+<NAME_PLATE>
+　俺は森に残してきた時子のことを思った。
+<PAUSE>
+<NAME_PLATE>？？？
+「貴様ら！　何者だ！」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>俺
+「！！！　しまった……！」
+<PAUSE>
+//【背景：五車学園＿校舎裏の森２＿昼】【時間：昼】
+<BGM_STOP>1000
+<GROUP>
+<ACTOR>2,s_t001d,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004c,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<EV_OUT>1500
+<NAME_PLATE>
+　その頃。
+<PAUSE>
+<BG>nc010a,IN, 1500
+<GROUP>
+<ACTOR>1,o_t002c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,t_t003e,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<NAME_PLATE>
+　森の中では、二人の執事が対峙していた。
+<PAUSE>
+<BGM_PLAY>bgm207,1000
+<ACTOR>1,o_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「ククク……互いに執事勤めは辛いよな」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左汎用立ち絵＿対魔忍衣装
+<ACTOR>2,t_t003l,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「辛いなどと思った事はありません」
+<PAUSE>
+//　※立ち絵
+//　　新時子戦闘立ち絵＿対魔忍衣装
+<NAME_PLATE>権左
+「だよな？　俺もそうだ」
+<PAUSE>
+<NAME_PLATE>
+　静かに会話しているように見える
+二人の間だが、その実、表面張力で保たれた
+水のような、きわどい緊張が漂っていた。
+<PAUSE>
+<ACTOR>2,t_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「いい加減な男ですね」
+<PAUSE>
+<NAME_PLATE>権左
+「へへっ。なあ、女を串刺しにするのは
+　趣味じゃねえ。ここで裸になって
+　命乞いすれば許してやるぜ？」
+<PAUSE>
+<NAME_PLATE>時子
+「あなたは私に勝てません」
+<PAUSE>
+<ACTOR>1,o_t002e,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「つれねえなオイッ！！！！」
+<PAUSE>
+<GROUP>
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.5,250
+</GROUP>
+<NAME_PLATE>
+　先に均衡を壊したのは権左だった。
+<PAUSE>
+<NAME_PLATE>権左
+「てァっ！！」
+<PAUSE>
+//　※権左立ち絵消える
+<SE_PLAY>se005
+<ACTOR>1,o_t002e,RIGHT, RIGHT, OUT, linear, 100
+<EFFECT_QUAKE>VERTICAL,1,250
+<NAME_PLATE>
+　権左は槍を地面に突き刺すと、
+自らもプールに飛び込むように土中に潜った。
+<PAUSE>
+<ACTOR>2,t_t003d,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「土遁の術………！？」
+<PAUSE>
+<NAME_PLATE>権左
+『クク……あんたがクナイの名手だって
+　ことは知ってるぜ。だがよぉ、
+　土中には攻撃できねえよなッ！！！！』
+<PAUSE>
+//※立ち絵なし
+<ACTOR>2,t_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「っ！？」
+<PAUSE>
+<SE_PLAY>se003
+<EFFECT_QUAKE>VERTICAL,0.25,250
+<NAME_PLATE>
+　時子は何かを感じてその場から飛び退いた。
+<PAUSE>
+<SE_PLAY>se006
+<ACTOR>2,t_t003d,LEFT, LEFT, OUT, linear, 0
+<BG>ef004c,IN, 100
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>
+　間一髪、足元から槍が突き立つ。
+<PAUSE>
+<NAME_PLATE>権左
+『へえ、さすがに一発じゃ
+　刺されてくれねえか。
+　ひよっこ対魔忍どもとは訳が違うねえ』
+<PAUSE>
+<BG>nc010a,IN, 1000
+<ACTOR>0,t_t003e,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「なるほど……これがあなたの真の技ですか」
+<PAUSE>
+<NAME_PLATE>
+　土遁の術を槍術に取り入れた、強力かつ
+避け難い技。あたり一面の墓標は、
+この技にやられた犠牲者たちだったのだ。
+<PAUSE>
+<NAME_PLATE>権左
+『その結果がこの光景さ、悪くねえだろ？』
+<PAUSE>
+<NAME_PLATE>時子
+「悪趣味な……」
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、いかにも強力な技である。
+権左といえど、この術を編み出すには
+相当な努力を費やしたであろう。
+<PAUSE>
+<NAME_PLATE>権左
+『おらおらァ！　ボーっとしてると
+　串刺しになるぜ！？』
+<PAUSE>
+<SE_PLAY>se006
+<ACTOR>0,t_t003e,CENTER, CENTER, OUT, linear, 0
+<BG>ef004c,IN, 100
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>
+　ザシャッ！！
+<PAUSE>
+<SE_PLAY>se006
+<BG>ef004d,IN, 100
+<EFFECT_QUAKE>VERTICAL,0.5,250
+<NAME_PLATE>
+　バシュッ！！！
+<PAUSE>
+<NAME_PLATE>
+　間髪入れず、時子を狙って
+突き上げられる剛槍。
+時子は避けるので精一杯だ。
+<PAUSE>
+<NAME_PLATE>権左
+『どうしたァ？！　踊ってばっかじゃ
+　勝てないぜ、宗家の執事様よォ！！』
+<PAUSE>
+<BG>nc010a,IN, 1000
+<ACTOR>0,t_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「く……っ！！」
+<PAUSE>
+<NAME_PLATE>
+　時子は目を細めてクナイを構える。
+<PAUSE>
+<NAME_PLATE>権左
+『ハッ！　クナイごときで槍を止める気か！
+　馬鹿はどっちだ！！』
+<PAUSE>
+<GROUP>
+<SE_PLAY>se007
+<EFFECT_QUAKE>HORIZONTAL,0.5,250
+</GROUP>
+<NAME_PLATE>
+　ガギンッ！！！
+<PAUSE>
+<NAME_PLATE>
+　時子が寸前で放ったクナイは、
+権左の剛槍に軽く弾かれる……と思われた。
+しかし――
+<PAUSE>
+<ACTOR>0,t_t003l,CENTER, CENTER, NONE, linear, 0
+<NAME_PLATE>権左
+「！？」
+<PAUSE>
+<NAME_PLATE>
+　驚くべき事に剛槍は、クナイを支点に
+いなされるように方向を変えて空振る。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se013
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>権左
+「ぐあッっ！！！！？」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左戦闘立ち絵＿対魔忍衣装（武器装備）
+<NAME_PLATE>
+　そして空転する槍に釣り上げられるように
+権左が土中から姿を現す。
+<PAUSE>
+<ACTOR>0,stv004a,CENTER, CENTER, NONE, linear, 0
+<EFFECT_FLASH>WHITE, 1000
+<NAME_PLATE>時子
+「対魔殺法“百鬼夜行”！！！」
+<PAUSE>
+//　※立ち絵
+//　　時子イラスト流用立ち絵
+<GROUP>
+<SE_PLAY>se008
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　間髪入れず、時子は無数のクナイを放った。
+<PAUSE>
+<GROUP>
+<SE_PLAY>se010
+<EFFECT_QUAKE>VERTICAL,0.5,500
+</GROUP>
+<NAME_PLATE>
+　空中に投げ出された権左は為す術無く、
+クナイで全身を貫かれながら
+地面に叩きつけられた。
+<PAUSE>
+<ACTOR>0,t_t003c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>時子
+「……はあ……はあ」
+<PAUSE>
+<NAME_PLATE>
+　勝負あったかに見えたが、
+時子は戦闘態勢を緩めなかった。
+<PAUSE>
+<ACTOR>0,t_t003c,CENTER, CENTER, OUT, linear, 1000
+<NAME_PLATE>権左
+「さすがだね」
+<PAUSE>
+//　※立ち絵
+//　　土橋権左戦闘立ち絵＿対魔忍衣装（武器装備）
+<NAME_PLATE>
+　貫かれたはずの権左が、土中から現れる。
+同時に、さきほどまでの権左は土塊となって
+崩れ落ちた。
+<PAUSE>
+<GROUP>
+<ACTOR>1,o_t002c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,t_t003e,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>権左
+「あんたの邪眼“千里眼”は
+　“重心”を見抜くって噂、
+　本当だったようだな」
+<PAUSE>
+<ACTOR>1,o_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「支援型の対魔忍だと思って
+　甘く見ていたが、試して良かったぜ」
+<PAUSE>
+<NAME_PLATE>時子
+「あなたこそ、土遁の術を随分鍛えている
+　ようですね。素晴らしい応用力、
+　私もあなたを甘く見ていました」
+<PAUSE>
+<NAME_PLATE>
+　難しいコントロールを必要とする、
+土遁の術と槍術の合わせ技。そして一瞬で
+自分の身代わりを作り出すほどの忍法。
+<PAUSE>
+<NAME_PLATE>
+　影でどれほどの修行を重ねたのだろうと、
+時子は素直に感服した。
+<PAUSE>
+<ACTOR>1,o_t002c,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「なあ、やっぱり殺すには惜しい女だ。
+　俺の女にしてやるから降参しろよ？」
+<PAUSE>
+<ACTOR>2,t_t003e,LEFT, LEFT, NONE, linear, 0
+<NAME_PLATE>時子
+「拒否します」
+<PAUSE>
+<ACTOR>1,o_t002b,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>権左
+「きっつぅ～～～！　ますます惚れるねえ。
+　じゃあ力ずくで
+　俺に惚れさせてやるよ！！！」
+<PAUSE>
+<SE_PLAY>se004
+<ACTOR>1,o_t002a,RIGHT, RIGHT, NONE, linear, 0
+<NAME_PLATE>
+　二人はふたたび武器を構えて対峙する。
+<PAUSE>
+<BGM_STOP>1500
+<GROUP>
+<ACTOR>1,o_t002a ,RIGHT, RIGHT,OUT, linear, 1000
+<ACTOR>2,t_t003e,LEFT, LEFT, OUT, linear, 1000
+<ACTOR_FRONT>2
+</GROUP>
+<BG_OUT>1500
+//【黒画面】
+<NAME_PLATE>
+　一方――
+<PAUSE>
+//【背景：五車学園＿校舎内廊下＿昼】【時間：昼】
+<BG>nc005a,IN
+<BGM_PLAY>bgm314,1000
+<ACTOR>0,ts_m038a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>？？？
+「何者だ！？　校舎は我々が封鎖したぞ！！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま下忍(男)立ち絵
+<NAME_PLATE>
+　やはり、のんびりしていたのが
+まずかったか。早くも校舎は
+反乱軍の手に落ちていたようだ。
+<PAUSE>
+<NAME_PLATE>鹿之助
+「うええええ！　早速かよ……！
+　ふうま、またなんか策はないのか！？」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>？？？
+「ん？　ふうまだと……？」
+<PAUSE>
+<NAME_PLATE>俺
+「お前は骸佐のとこの……！！」
+<PAUSE>
+<NAME_PLATE>
+　俺たちの前に立ちはだかった
+その男には見覚えがあった。骸佐直属の下忍
+つまりふうま一門の対魔忍である。
+<PAUSE>
+<NAME_PLATE>ふうま下忍
+「ぬっ、貴方は……宗家の」
+<PAUSE>
+<NAME_PLATE>
+　俺の顔を見て男の歯切れが悪くなる。
+<PAUSE>
+<NAME_PLATE>俺
+（これはいけるかもしれんな）
+<PAUSE>
+<NAME_PLATE>
+　俺は精一杯の威厳を作り、
+ゆっくりと下忍に語りかけた。
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐はどこだ？　宗家当主として話がある」
+<PAUSE>
+<NAME_PLATE>ふうま下忍
+「だ、誰も通すなと命令されている！」
+<PAUSE>
+<NAME_PLATE>俺
+「宗家の命に反するというのか。
+　それは即ち、そなたの直接の主である、
+　二車家への反逆であるぞ」
+<PAUSE>
+<NAME_PLATE>俺
+「そういうことで構わぬか？」
+<PAUSE>
+<NAME_PLATE>ふうま下忍
+「そ、そんなわけでは………」
+<PAUSE>
+<NAME_PLATE>俺
+（よし、もうひと押しだな）
+<PAUSE>
+<NAME_PLATE>
+　そう思った矢先――
+<PAUSE>
+<ACTOR>0,ts_m038a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,ts_m002a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ふうま火遁衆
+「おい、どうした？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま火遁衆(男)立ち絵
+<NAME_PLATE>俺
+（くそっ！！）
+<PAUSE>
+<NAME_PLATE>
+　現れたのは、骸佐の部下の中でも
+気性の荒さで知られる火遁使いの男である。
+<PAUSE>
+<NAME_PLATE>
+　うまく誤魔化して突破できそうだったが、
+コイツが出てくると厄介だ。
+とりあえず、駄目元で作戦を続行してみる。
+<PAUSE>
+<NAME_PLATE>俺
+「骸佐と話がしたい。ここを通してもらうぞ」
+<PAUSE>
+<NAME_PLATE>ふうま火遁男
+「骸佐“様”だ、このクズが。いつまで
+　当主のつもりだ？　今日よりふうま一門の
+　当主は骸佐様だ。構わぬ殺せ！」
+<PAUSE>
+<NAME_PLATE>俺
+（やっぱり駄目か……やれやれだな）
+<PAUSE>
+<NAME_PLATE>
+　しかしこうなったものは仕方ない。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m038a,LEFT, LEFT, OUT, linear, 500
+<ACTOR>1,ts_m002a,RIGHT, RIGHT, OUT, linear, 500
+</GROUP>
+<NAME_PLATE>俺
+「問答無用かよ。蛇子！　鹿之助！」
+<PAUSE>
+<GROUP>
+<ACTOR>1,h_t004c,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>2,s_t001c,LEFT, LEFT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>蛇子
+「はいはい。突破よね」
+<PAUSE>
+//　※立ち絵
+//　　蛇子汎用立ち絵＿タコ化対魔忍衣装（武器装備）
+<NAME_PLATE>鹿之助
+「“電波”の準備は万端だぜ！」
+<PAUSE>
+//　※立ち絵
+//　　鹿之助汎用立ち絵＿対魔忍衣装
+<NAME_PLATE>俺
+「よし！　行くぞ！！！」
+//→Section３-ＭＡＰ画面１へ
+<PAUSE>
+<BGM_STOP>3000
+<GROUP>
+<ACTOR>2,s_t001c,LEFT, LEFT, OUT, linear, 1000
+<ACTOR>1,h_t004c,RIGHT, RIGHT, OUT, linear, 1000
+</GROUP>
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
+//=================================================================

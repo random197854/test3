@@ -1,0 +1,2237 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：ヨミハラ入り口＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC033aより流用
+<BG>nc121a,IN, 1000
+<NAME_PLATE>
+　八月某日。
+<PAUSE>
+<NAME_PLATE>
+　夏も盛りを迎えようというこの日、
+地下都市ヨミハラでは年に一度の
+特別な催しが開かれる。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラ町内会主催・夏祭り。
+<PAUSE>
+//【背景：ヨミハラ＿納涼祭＿屋台＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc015a　をお祭り風に加工流用
+<BGM_PLAY>bgm309,1000
+<BG>nc336a,IN, 1000
+<NAME_PLATE>
+　普段は血で血を洗う抗争を
+繰り広げている闇の住人たちも、
+この日ばかりは例外であった。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラの夏祭りは休戦がルール。
+<PAUSE>
+<NAME_PLATE>
+　街路には銃声や怒声ではなく
+祭囃子と太鼓の音が賑やかに響き渡り、
+<PAUSE>
+<NAME_PLATE>
+　常日頃いがみ合っているギャングや
+魔族の者たちも、この夜だけは争いを
+忘れて笑顔で酒を酌み交わす。
+<PAUSE>
+<NAME_PLATE>
+　そして、この年。
+<PAUSE>
+<NAME_PLATE>
+　今回の夏祭りは、いつにも増して
+特別なお祭りとなった――。
+<PAUSE>
+//【背景：ヨミハラ＿納涼祭＿舞台＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC073a　より流用
+//nc337a
+<BG>nc337a,IN, 1000
+<ACTOR>0,chr_t0249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナディア
+「みんなー！　楽しんでますかー！！？」
+<PAUSE>
+//　※立ち絵
+//　　【祭りの後】ナディア
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ナディア
+「私は踊り子のナディアです！！
+　今日は、みんなのお祭りに
+　呼んでくれてありがとーーーーっ♪」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ts_m043a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m043a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ハイオークたち
+「おおおおおおおおおおおっ！！！
+　ナディアさまぁああああああああああ
+　ああああああああああああああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ハイオーク
+//　　　　＊対魔忍RPG用に新デザイン
+//　※立ち絵
+//　　ハイオーク
+//　　　　＊対魔忍RPG用に新デザイン
+<NAME_PLATE>ハイオークたち
+「こっちこそ、来てくれて最高ですぅううう
+　うううううううううううぅぅっ！！！」
+<PAUSE>
+<NAME_PLATE>
+　祭り会場に野太い声援が響く。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0249a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　祭りやぐらから手を振る浴衣姿の女性は、
+魔界一の名手と誉れ高い踊り子のナディア。
+今回の夏祭りの特別ゲストである。
+<PAUSE>
+<NAME_PLATE>
+　あのノマド首領エドウィン・ブラックや
+獄炎の女王アスタロトに匹敵する
+魔力を持つとも言われているが、
+<PAUSE>
+<NAME_PLATE>
+　その強大な力を争いに使うのを好まない、
+魔界の者には珍しい生粋の平和主義者。
+<PAUSE>
+<NAME_PLATE>
+　その温和な性格や美貌、何より踊りの
+素晴らしさから熱狂的なファンが魔界中、
+果てはここヨミハラにも数多く存在し、
+<PAUSE>
+<NAME_PLATE>
+　今日のお祭りの舞台でも、そんなファン達が
+盛んに応援の声を上げているのであった。
+<PAUSE>
+<NAME_PLATE>ナディア
+「ふふっ♪
+　ヨミハラのみんなありがとー！」
+<PAUSE>
+<NAME_PLATE>ナディア
+「じゃあ早速、今日のお祭りで
+　私の踊りを手伝ってくれる、
+　大太鼓の叩き手さんを紹介するねー！」
+<PAUSE>
+<NAME_PLATE>ナディア
+「まず一人目は………
+　なんと、この方が来てくれました！」
+<PAUSE>
+<NAME_PLATE>ナディア
+「誇り高き魔界騎士にしてノマドの大幹部！
+　イングリッドさんですっ！！」
+<PAUSE>
+<ACTOR>0,chr_t0249a,CENTER, RIGHT, NONE, linear, 1000
+<GROUP>
+<ACTOR>1,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>イングリッド
+「ああ……。
+　皆、今日はよろしく頼む」
+<PAUSE>
+//　※立ち絵
+//　　イングリッド
+//　　　＊対魔忍RPGローンチガチャのカードイラストを流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>1,chr_t0246a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リーナ
+「きゃああああああああ！！！
+　イングリッド様ああああああああああ
+　ああああああああ！！！」
+<PAUSE>
+//　※立ち絵
+//　　リーナ
+//　　　＊【夏服】リーナ４のカードイラストより流用
+<ACTOR>0,chr_t0025a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ドロレス
+「お、お姉ちゃんキタコレ……！
+　超エモい……！！」
+<PAUSE>
+//　※立ち絵
+//　　ドロレス＿立ち絵
+//　　　＊カードイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,500
+<ACTOR_OUT>1,RIGHT,linear,500
+</GROUP>
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se115
+<NAME_PLATE>
+　パシャパシャパシャパシャ！！
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　イングリッドがやぐらに登場すると同時に、
+彼女の配下らしきノマドの男たちから
+盛大な歓声が上がり、
+<PAUSE>
+<NAME_PLATE>
+　さらに、その最前列に陣取った
+夏服の少女が目を血走らせてカメラの
+フラッシュを焚きまくる。
+<PAUSE>
+<NAME_PLATE>
+　そしてそんなカメラ少女の隣には、
+スマホを構えて動画を撮っているらしき
+引きこもり風の少女。
+<PAUSE>
+<NAME_PLATE>
+　どうやらこの戦いとは無縁そうな
+少女二人も、彼女の配下のようだ。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「あ、ああ……。皆、声援ありがとう」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「というか、リーナとドロレスは
+　少し落ち着くんだ。あまりやぐらに
+　近づくと危ないからな」
+<PAUSE>
+<NAME_PLATE>
+　とイングリッドは興奮した様子の
+配下たちに軽く声をかけてから。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「……しかし正直なところ、
+　気分は良くないな」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「よりによって、貴様と共に
+　こんな舞台に立つことになろうとは――」
+<PAUSE>
+<ACTOR>0,chr_t0010a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0249a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナディア
+「あら♪　まだそんなこと言っているの、
+　イングリッド？」
+<PAUSE>
+<NAME_PLATE>
+　苦々しい視線を向けるイングリッドに
+ナディアが屈託のない笑みを返す。
+<PAUSE>
+<NAME_PLATE>
+　ナディアと、イングリッドの主である
+エドウィン・ブラックは、同じ魔界の
+支配階級に属している。
+<PAUSE>
+<NAME_PLATE>
+　そんな関係からか、ずいぶん前から
+ブラックとナディアは犬猿の仲であり、
+<PAUSE>
+<NAME_PLATE>
+　当然、ブラックの臣下である
+イングリッドも彼女を快く思ってない。
+<PAUSE>
+<NAME_PLATE>
+　だから本当であれば、ナディアと
+同じ舞台に立つなどあり得ない話だが。
+<PAUSE>
+<NAME_PLATE>イングリッド
+「……いや、わかっている。
+　今回ばかりは“ヨミハラのため”だ。
+　不本意ではあるが、お前に協力する」
+<PAUSE>
+<NAME_PLATE>
+　イングリッドが苦笑する。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　立場上きついことを言ったが、
+こんな祭りの日にまで争う気持ちは
+イングリッドにもない。
+<PAUSE>
+<NAME_PLATE>
+　そもそも今回の夏祭りは、
+災難続きのヨミハラの邪気を払う
+重要なもの。
+<PAUSE>
+<NAME_PLATE>
+　それを成功させるには三人の強力な
+戦士が必要――となれば、協力するのは
+魔界騎士として当然の務めだろう。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0010a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0249a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナディア
+「ふふっ、それで正解♪
+　せっかくのお祭りなんだから、
+　一緒に楽しみましょ？」
+<PAUSE>
+<NAME_PLATE>ナディア
+「まあ私個人としてはあなただけじゃなくて、
+　ブラックさんとも
+　仲良くしたいんだけどなー？」
+<PAUSE>
+<NAME_PLATE>イングリッド
+「ふっ、調子に乗るな。
+　――ほら、皆が下で待っている。
+　祭りを続けるぞ」
+<PAUSE>
+<NAME_PLATE>ナディア
+「はいはい♪」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0249a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　ナディアが微笑んで、一歩後ろで
+出番を待つ巨体の戦士に軽く目で合図する。
+<PAUSE>
+<NAME_PLATE>ナディア
+「さあ、お待たせしましたー♪
+　次に紹介するのはこの人、
+　鬼族の最強戦士が来てくれました！！」
+<PAUSE>
+<NAME_PLATE>ナディア
+「――ヤマタノオロチさん！！！」
+<PAUSE>
+<ACTOR>1,chr_t0249a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m076a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヤマタノオロチ
+「ヒヒヒ。
+　ようゴミども、調子はどうだい？」
+<PAUSE>
+//　※立ち絵
+//　　ヤマタノオロチ
+//　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　巨体の女戦士――神話級の鬼族である
+ヤマタノオロチがやぐらの舞台に現れる。
+すると。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m023a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヨミハラの住人たち
+「ブー！　ブー！！　ひっこめー！！！」
+「うちの店のツケ払え鬼女ーーー！」
+<PAUSE>
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　魔族傭兵立ち絵
+//　　　　＊モンスターイラストより流用
+<NAME_PLATE>
+　飛んでくるブーイングの数々。
+<PAUSE>
+<NAME_PLATE>
+　どうやらヤマタノオロチは、飲み代を
+踏み倒し過ぎてヨミハラの住人にすこぶる
+評判が悪いようだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m076a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ヤマタノオロチ
+「ヒャハハハ！！！
+　うるせえゴミどもだな！！！！」
+<PAUSE>
+<NAME_PLATE>ヤマタノオロチ
+「ちっと待ってろよ、そのツケって奴を
+　払うために一働きするんだからよぉ。
+　なぁ？　そうだろ踊り子の姉ちゃん？」
+<PAUSE>
+<ACTOR>0,ts_m076a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0249a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナディア
+「えーと？　報酬については
+　私はわからないけど、でも町内会長さんが
+　しっかり払ってくれると思うわ」
+<PAUSE>
+<NAME_PLATE>ヤマタノオロチ
+「おう。ならなーんも問題ねえ。
+　このクソ下らねえ茶番にも大人しく
+　付き合ってやるよ、ヒヒヒ……」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　そうニタニタ笑って、巨体の女戦士は
+定位置である大太鼓の前にのっそりと
+歩いていく。
+<PAUSE>
+<ACTOR>1,chr_t0249a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>ナディア
+「うーん。頼もしいですねー。
+　みんなもブーイングはほどほどにして、
+　しっかり応援してあげましょう♪」
+<PAUSE>
+<NAME_PLATE>ナディア
+「――さて、それでは三人目！！
+　最後の叩き手さんです！」
+<PAUSE>
+<NAME_PLATE>ナディア
+「人間界・魔界を股にかける凄腕賞金稼ぎ、
+　アンリード・ボニーさん！！」
+<PAUSE>
+<ACTOR>1,chr_t0249a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0147a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>アンリード・ボニー
+「あー。なんだか
+　妙なことになっちまったねえ」
+<PAUSE>
+//　※立ち絵
+//　　アンリード・ボニー
+//　　　＊モンスターイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>傭兵たち
+「おおおおおおおおっ！！」
+「待ってましたボニーの姉御っ！！」
+<PAUSE>
+<NAME_PLATE>
+　苦笑しながら舞台に女ガンマン――
+アンリード・ボニーが登場すると、
+傭兵仲間たちが一斉に囃し立てた。
+<PAUSE>
+<NAME_PLATE>
+　その中には、傭兵たちのリーダー格
+である歴戦のオークと、彼の知人である
+流浪の魔界貴族ナドラの姿もある。
+<PAUSE>
+<ACTOR>0,ts_m086a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「おいおい、どうしたよボニー！？」
+<PAUSE>
+//　※立ち絵
+//　　歴戦のオーク傭兵立ち絵
+//　　　　＊決戦アリーナのモンスターイラストの流用
+//　　　　　オーク傭兵の色違い
+<NAME_PLATE>オーク傭兵
+「覇気が感じられねえぞ、覇気が！
+　珍しく人前に出てブルっちまったかぁ？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0147a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>アンリード
+「へっ、
+　相変らずやかましいオヤジだね」
+<PAUSE>
+<NAME_PLATE>アンリード
+「そっちこそ、美人が隣にいるからって
+　張り切りすぎじゃないのかい？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>オーク傭兵
+「なぬ？　ガハハ、確かにその通りだ！
+　今日の俺はお姫様の御付きだからなぁ、
+　そりゃ気分のひとつも上がるってもんさ」
+<PAUSE>
+<ACTOR>1,chr_t0245a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ナドラ
+「お、お姫様なんて……」
+<PAUSE>
+//　※立ち絵
+//　　【夏服】ナドラ２＿カードイラストより流用
+<NAME_PLATE>ナドラ
+「ボニーさんも、アルフォンスさんも……
+　そんなこと言われたら、
+　困ってしまいますわ……」
+<PAUSE>
+<NAME_PLATE>
+　オーク傭兵とアンリードの冗談の
+応酬のネタにされ、涼しげな夏服姿の
+女性が恥ずかしそうに頬を染める。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0245a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>
+　彼女――流浪の魔界貴族ナドラは、
+人目を避ける事情があり、普段は闇の街の
+片隅でひっそりと静かに暮らしている。
+<PAUSE>
+<NAME_PLATE>
+　しかし今日は年に一度の夏祭り。
+<PAUSE>
+<NAME_PLATE>
+　どんな争いごとも一時休戦の
+平和な夜である。
+<PAUSE>
+<NAME_PLATE>
+　町中に響く楽しげな祭囃子と
+人々の明るい笑い声に誘われたナドラは、
+<PAUSE>
+<NAME_PLATE>
+　思い切って普段とは違う軽装に着替え、
+知人のオーク傭兵に付き添ってもらいながら、
+こうして夜の街に出てきたのだった。
+<PAUSE>
+<ACTOR>1,chr_t0245a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナドラ
+「でも、アルフォンスさん、
+　なんだか不思議ですね……」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「ん？　どうしたナドラ」
+<PAUSE>
+<NAME_PLATE>ナドラ
+「ふふ、このお祭りの夜のことですわ♪」
+<PAUSE>
+<NAME_PLATE>ナドラ
+「いつも見慣れたヨミハラの街なのに、
+　今夜は、まったく別の場所のようで……」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「ああ。確かになぁ」
+<PAUSE>
+<NAME_PLATE>
+　微笑むナドラにつられて、やぐらが
+建てられた広場周辺を見渡すオーク傭兵。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　街路を明るく照らす沢山の祭り提灯。
+<PAUSE>
+<NAME_PLATE>
+　広場を囲うように賑わう数々の屋台、露店。
+<PAUSE>
+<NAME_PLATE>
+　殺伐とした危険な闇の街とは思えない、
+どこか温かさすら感じる光景だ。
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m086a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0245a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク傭兵
+「まぁ、それが祭りって事なんだろうな。
+　俺らみてえなゴミ溜めに住む腐れ外道でも、
+　この日ばかりはガキの頃に戻っちまう」
+<PAUSE>
+<NAME_PLATE>オーク傭兵
+「あんたも、運命とか難しい事は忘れて
+　今夜は最後までゆっくり楽しもうぜ？」
+<PAUSE>
+<NAME_PLATE>ナドラ
+「はいっ♪　それではまず、
+　ボニーさんたちの応援ですわね――」
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ＿納涼祭＿舞台＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC073a　より流用
+//nc337a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+<BGM_PLAY>bgm309,1000
+<BG>nc337a,IN, 1000
+<NAME_PLATE>
+　そんな賑わいから少し離れた広場の片隅に、
+深刻な顔で話し合うおかしな四人組がいた。
+<PAUSE>
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「なななな、なに～～～～っ！！？
+　ヒドイではないか探偵、あんまりだ！
+　おぬしの心には悪魔が住んでいるのか！？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　　＊ミリアム01のカードイラストより流用
+<NAME_PLATE>シロ＆クロ
+「きゅ！！」
+「ぴぴ～っ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0248a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「い、いえ、
+　そんなこと言われても……？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊【夏祭り】クローンアサギのカードイラストより流用
+<NAME_PLATE>
+　闇の街の探偵・クローンアサギと、
+彼女の事務所に居候する腐れ縁の
+メンバーである。
+<PAUSE>
+<ACTOR>0,chr_t0248a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「いや、わたしもアホではないからな！
+　おぬしの言いたいことはわかっている」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「確かにうちの事務所の家計は苦しい。
+　祭りに浮かれて散財するなど、
+　それこそ大バカ者の所業であろう」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「――しかしだ！！
+　“だからこそ”ではないか探偵？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「う、うん……？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「普段節約しているからこそ、
+　こういう楽しい時にぱーっと使う」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「その時の楽しさがあるからこそ、
+　普段はがんばって節約できる。
+　それなのに――！」
+<PAUSE>
+<NAME_PLATE>
+　ビシっとミリアムが
+クローンアサギを指さした。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「おぬしという奴は、
+　“祭りでの買い食いは一人一品まで”
+　だと～～～～！！？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「こんなに沢山お店が出てるのに！？
+　信じられない厳しさだ！！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ほれ！　見てみろこのナーサラを！
+　切なさのあまり触手から変な汁を
+　垂らしておる！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「一人一品、つらい、哀しい……」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　　＊ナーサラ01のカードイラストより流用
+<NAME_PLATE>ナーサラ
+「たこ焼き、わた飴、お好み焼き、
+　ナーサラ、色々味わいたい……」
+<PAUSE>
+<NAME_PLATE>
+　異界の少女ナーサラは、
+少し前にこちらの世界に来たばかり。
+<PAUSE>
+<NAME_PLATE>
+　初めて見るお祭りの屋台に
+大変興味を惹かれているようだ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0248a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「あ、あぁ……そうねえ……。
+　確かに、厳しすぎたかしら……？」
+<PAUSE>
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「そうだとも！？　なぁ亜希！
+　おぬしも何か言ってやれ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ひとり話に参加していなかった
+ふうま亜希の背中を叩くミリアム。
+<PAUSE>
+<NAME_PLATE>
+　しかし。
+<PAUSE>
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま亜希
+「……………………えっ。
+　ミリアムちゃん今なんか言った？」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　　＊ふうま亜希01のカードイラストより流用
+//　※注　ふうま亜希は『つい先日まで五車に戻っていて祭りのことを知らなかった』設定なので、
+//　　　　ここでは夏祭り衣装ではなく通常のふうま亜希01立ち絵でお願いします。
+<ACTOR>0,chr_t0164a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「は～～～～～～～っ！！！？」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「亜希、何なのだおぬしは！？
+　普段はいらん所で色々うるさいのに、
+　肝心な時だけ聞いておらぬとは！」
+<PAUSE>
+<NAME_PLATE>亜希
+「あはは。ごめんごめん、
+　ちょっと考え事しててさ」
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>0,chr_t0248a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「ええい、わかった！　もういい！
+　――探偵、一人三品だ！！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「その代わり、フロ掃除とゴミ出しの
+　私の担当分を増やして構わん！
+　これで手を打とう！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……はいはい、わかったわ。
+　そこまで言うなら仕方ないわね」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「おっ？」
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅ？」
+「ぴっ？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「一人四品まで大目に見るわ。
+　前の――町内会の仕事の謝礼もあるし、
+　今月は結構余裕あるから」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「おーーーーっ！！！！
+　素晴らしい！　おぬしも
+　話がわかるではないか探偵！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　わーいと大喜びする自称“大魔女”の
+ミリアムとその使い魔のシロとクロ。
+<PAUSE>
+<ACTOR>1,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「そうと決まったら善は急げ！
+　皆、屋台巡りツアーに出発だぞ！！」
+<PAUSE>
+<NAME_PLATE>シロ＆クロ
+「きゅっ！！」
+「ぴぴーーーっ！！」
+<PAUSE>
+<SE_PLAY>se078
+<ACTOR_OUT>1,CENTER,linear,1000
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「アサギ、優しい。感謝、すごく嬉しい」
+<PAUSE>
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「ふふっ、いいのよ。じゃあナーサラ、
+　私はここで待っているから、
+　ミリアムたちと好きに買って来なさい」
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>0,LEFT,linear,1000
+<NAME_PLATE>
+　異界の少女はこくりと肯くと、
+二匹の使い魔を連れた魔女を追って
+てくてくと歩いていく。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あなたは行かなくていいの、亜希？」
+<PAUSE>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「ん？　あー、そうだね。
+　今おなか減ってないから」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そう……？」
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギは首を傾げた。
+<PAUSE>
+<NAME_PLATE>
+　普段の亜希なら、ミリアムたちと
+一緒に意気揚々と屋台巡りに
+行きそうなものなのに……？
+<PAUSE>
+<NAME_PLATE>亜希
+「探偵の方こそ、何か仕事したのか？
+　町内会の報酬って言ってたけど」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ええ。ちょっと前にね。
+　あなたが五車に戻っている時、
+　急な依頼が入って――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>高坂静流
+「ふふっ、そうよ亜希♪
+　探偵さんたちは、
+　今日のお祭りの陰の立役者」
+<PAUSE>
+//　※立ち絵
+//　　静流立ち絵
+//　　　　　＊【夏服】高坂静流４カードイラストより流用
+<NAME_PLATE>静流
+「彼女たちの活躍で、
+　予定通りヨミハラの夏祭りが
+　開けたんだから♪」
+<PAUSE>
+<NAME_PLATE>亜希
+「おや、静流――？」
+<PAUSE>
+<NAME_PLATE>
+　祭りの人ごみの中から、
+爽やかな女教師風の美女――
+高坂静流が声をかけてきた。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そう、あれは３日前のこと。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿昼夜共通】【時間：昼】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　ヨミハラ町内会の会長、
+高坂静流に仕事を依頼されたのが
+そもそものきっかけであった。
+<PAUSE>
+//【背景：ヨミハラ裏町のある酒場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0101a,IN, 1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「――いや、ちょっと待って。
+　町内会長？　静流、
+　あなたいつからそんな役職に？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊クローンアサギ01のカードイラストより流用
+<NAME_PLATE>
+　まずそこから驚いた。
+<PAUSE>
+<ACTOR>0,chr_t0116a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>
+　ヨミハラの町内会長から依頼がある――
+そう聞いてやってきたら、そこにいたのは
+彼女の知人でもある対魔忍・高坂静流。
+<PAUSE>
+<NAME_PLATE>
+　一体なんでそんなことに？
+<PAUSE>
+<NAME_PLATE>静流
+「うふふ、実は半年前くらいから♪」
+<PAUSE>
+//　※立ち絵
+//　　静流立ち絵
+//　　　　　＊【チョコ教師】高坂静流のカードイラストより流用
+<NAME_PLATE>静流
+「だってそういう地位があった方が、
+　潜入や工作任務に都合が良いでしょう？」
+<PAUSE>
+<NAME_PLATE>静流
+「だから、町内会のオジサマたちに
+　ちょいちょいってお願いしたら、
+　意外と簡単になれちゃった♪」
+<PAUSE>
+<NAME_PLATE>
+　てへへという感じであっさりと
+答える静流。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「おぉ、色仕掛けか……。
+　恐ろしい奴め」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　　＊ミリアム01のカードイラストより流用
+<NAME_PLATE>ナーサラ
+「ヒトの欲望、男女の駆け引き、
+　興味深い……」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　　＊ナーサラ01のカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「いや、意外と簡単にって――静流、
+　そんな強引なことして大丈夫なの？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　町内会長は季節の催し事を
+まとめるだけのお飾りのような役職。
+<PAUSE>
+<NAME_PLATE>
+　とはいえ、一応は町内を束ねる
+立場なのでそれなりの利益や旨味もある。
+<PAUSE>
+<NAME_PLATE>
+　気性の荒い闇の街の住人が、
+簡単に静流を会長と認めるだろうか。
+<PAUSE>
+<ACTOR>1,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「その点はぜんぜん平気♪
+　私はヨミハラの組織には属さない、
+　全く中立の立場だから」
+<PAUSE>
+<NAME_PLATE>静流
+「バランスよく利害の調整ができるって、
+　裏組織のオジサマにも好評なのよ♪」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「ほー。上手いことたらし込んだのう」
+<PAUSE>
+<BGM_STOP>1000
+<NAME_PLATE>静流
+「ええ♪　うーん、でも……
+　今回はそれも原因のひとつというか」
+<PAUSE>
+<NAME_PLATE>
+　静流が頬に手を当てて
+少し困ったような顔をする。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<ACTOR>1,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「どういうこと？」
+<PAUSE>
+<NAME_PLATE>静流
+「いえ、それを話す前に、
+　今回の依頼について説明するわ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そう言って静流は、今回の本題――
+『ヨミハラ町内会の祭具盗難事件』に
+ついて語り始めた。
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「長いこと封印されてたみたいだから、
+　皆は知らないと思うけど――」
+<PAUSE>
+<NAME_PLATE>静流
+「ヨミハラ町内会の倉庫には、
+　『招福の大太鼓』っていう
+　強力な祭具が眠っているの」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それは、いにしえの昔、
+異界の神を奉ずる儀式に使用
+されていたという由緒ある祭具。
+<PAUSE>
+<NAME_PLATE>
+　この大太鼓を使って、今年の
+夏祭りはいつもより盛大に行いたい、
+というのが静流の計画だ。
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「近頃のヨミハラは
+　災難続きだったでしょう？」
+<PAUSE>
+<NAME_PLATE>静流
+「妙に火事が多かったり、
+　連続猟奇事件が起きたり、
+　それに、あの熱病も――」
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「確かに……
+　あれは大変だったわね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　少し前に流行した、異次元からの
+病原菌が原因とされる謎の熱病。
+<PAUSE>
+<NAME_PLATE>
+　探偵事務所の面々も見事に感染して
+動けなくなり、
+<PAUSE>
+<ACTOR>0,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　なぜか一人だけ元気なままだった
+ナーサラに世話をして貰って
+乗り切ったという経緯があった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「そういう溜まりに溜まった
+　良くないエネルギーを浄化するのに、
+　あの祭具を使おうと思ったの」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　招福の大太鼓は、演奏する者の
+魔力やパワーを福のエネルギーに変換、
+そして増幅して解き放つ力がある。
+<PAUSE>
+<NAME_PLATE>
+　これを使えば、災難続きだった
+ヨミハラに溜まった悪い気も
+一掃されるに違いない。
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ただ、ずっと封印されてただけあって、
+　この大太鼓には致命的な問題があるの」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それは、変換した福のエネルギーの
+制御に強力な巫女の存在が不可欠なこと。
+<PAUSE>
+<NAME_PLATE>
+　巫女が流れを制御しなければ、
+大太鼓に溜まったエネルギーは無秩序に
+放出されて破壊を振り撒いてしまう――。
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「そこで今回のお祭りでは、
+　特別ゲストとして“彼女”に
+　来てもらうことにしたわ」
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「彼女？」
+<PAUSE>
+<NAME_PLATE>静流
+「ええ。魔界の踊り子ナディア――」
+<PAUSE>
+<NAME_PLATE>静流
+「彼女が巫女としてエネルギーを
+　制御してくれれば、問題なく
+　大太鼓を使うことができる♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「あ、あいつかー……」
+<PAUSE>
+<NAME_PLATE>
+　その名前に思うところがあるのか、
+ミリアムが渋い顔をする。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<ACTOR>0,chr_t0028a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――魔界の踊り子ナディア。
+<PAUSE>
+//　※立ち絵
+//　　　ナディア
+//　　　　＊ナディア01カードイラストより流用
+<NAME_PLATE>
+　魔界の支配階級に属し、
+あのエドウィン・ブラックやアスタロトと
+同格とも言われる美しき魔人。
+<PAUSE>
+<NAME_PLATE>
+　彼女の踊りはただ華麗なだけでなく
+強大な力を持ち、天候や人の生死、
+あるいは運命すら操るという――。
+<PAUSE>
+//【背景：ヨミハラ裏町のある酒場＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC045aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<BGM_PLAY>bgm208,1000
+<BG>chrnc0101a,IN, 1000
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ナディアさん、ヨミハラの
+　厄を払うためって説明したら、
+　快く引き受けてくれたわ♪」
+<PAUSE>
+//　※立ち絵
+//　　静流立ち絵
+//　　　　　＊【チョコ教師】高坂静流のカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「まー、そうであろうな。
+　あやつは底抜けのお人好しだから。
+　人のために何かするのが趣味という」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　　＊ミリアム01のカードイラストより流用
+<NAME_PLATE>
+　でも、そういうところがなー、
+とひとり唇を尖らせるミリアム。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「うーん。凄い人が祭りに
+　参加するのはわかったけど……
+　逆に心配じゃない？」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊クローンアサギ01のカードイラストより流用
+<NAME_PLATE>クローンアサギ
+「そんな超ＶＩＰがヨミハラの
+　お祭りなんかに来たら――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ヨミハラの夏祭りは休戦がルール
+――とは言うものの、それを守らない
+不埒者も毎年それなりに出現する。
+<PAUSE>
+<NAME_PLATE>
+　彼女がケンカや乱闘に巻き込まれたら
+大事になってしまうのでは？
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「ふふっ、問題ないわ♪
+　その点は、むしろナディアさんの
+　おかげで解決したの」
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「そうなの……？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　得意そうに微笑む静流の説明よると。
+<PAUSE>
+<NAME_PLATE>
+　ナディアが持つ踊りの力のひとつに、
+“悪意を持って行う攻撃を全て無効化する”
+というものがあるらしい。
+<PAUSE>
+<NAME_PLATE>
+　つまり、人々の意思とは関係のない
+強制的な平和の実現。
+<PAUSE>
+<NAME_PLATE>
+　これを使えば、どんなに気性の荒い
+闇の住人が祭りにやってきても、
+“争い自体が起こらない”――。
+<PAUSE>
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「そ、それはまた………強烈ね」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　世界の摂理に干渉しているような
+理解を超えた踊りの力――
+<PAUSE>
+<NAME_PLATE>
+　ブラックやアスタロトと同格と
+言われているのも納得の、ある意味では
+凶悪極まりない能力であった。
+<PAUSE>
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「な？　わたしがなんとなく奴を
+　虫が好かない理由がわかるだろ」
+<PAUSE>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「魔人の踊り……興味深い」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>1000
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「あら？　私は大助かりだけどな～。
+　警備に使う予算も大幅に削減できるし、
+　ほんとナディア様々って感じ♪」
+<PAUSE>
+<NAME_PLATE>
+　にっこりと笑う静流、
+しかしそこで真顔に戻って。
+<PAUSE>
+<BGM_PLAY>bgm509,1000
+<NAME_PLATE>静流
+「で、ここまでは
+　万事順調だったんだけど――
+　思わぬ問題が発生」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　それが、祭具の盗難事件。
+<PAUSE>
+<NAME_PLATE>
+　招福の大太鼓には、セットに
+なっている招福の鈴という祭具がある。
+<PAUSE>
+<NAME_PLATE>
+　その招福の鈴が、いつの間にか
+町内会の倉庫から消えていた――。
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「招福の鈴は、巫女が踊りを捧げる際、
+　福のエネルギーを制御するのに使う」
+<PAUSE>
+<NAME_PLATE>静流
+「いくらナディアさんでも、
+　あれがないと完璧に流れを
+　コントロールするのは難しい――」
+<PAUSE>
+<NAME_PLATE>静流
+「となれば、今回の夏祭り自体、
+　考え直さなければいけなくなる」
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「……なるほど。
+　だから私たちが呼ばれたのね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　町内会の倉庫から消えた祭具――
+招福の鈴を見つけ出して欲しい、
+というのが静流の依頼。
+<PAUSE>
+<ACTOR>0,chr_t0089a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「実をいうと、犯人――
+　いえ、犯人グループかしら、
+　の目星はもう付いているの」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「え？　そうなのか？」
+<PAUSE>
+<NAME_PLATE>
+　拍子抜けしたようにミリアムが
+聞くと、静流が苦笑して肯く。
+<PAUSE>
+<NAME_PLATE>静流
+「ええ。盗んだ動機も何となく
+　見当がついてるし――
+　でも、証拠がない」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　祭具が紛失して誰が被害を被り、
+誰が得するのか――それを考えると
+自ずと容疑者は絞られてくる。
+<PAUSE>
+<NAME_PLATE>
+　ただ、静流自身は町内会長として
+これから祭りの準備で忙しい。
+<PAUSE>
+<NAME_PLATE>
+　そこで、クローンアサギ達に
+代わりに捜査してほしい、と。
+<PAUSE>
+<GROUP>
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>0,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「了解したわ。そこまで
+　わかっているなら簡単な依頼ね。
+　で、その怪しい一団というのは？」
+<PAUSE>
+<NAME_PLATE>静流
+「ええ。それは――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　と、静流が疑惑のグループについて
+言いかけた時。
+<PAUSE>
+<SE_PLAY>se128
+<NAME_PLATE>
+　ガチャリと酒場のドアが開いて
+どたどたと何者かが入ってくる。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>？？？
+「おうおうおうおう！！！？
+　どうなってんだい、
+　町内会長のお姉ちゃんよぉ！！？」
+<PAUSE>
+<NAME_PLATE>クローンアサギたち
+「え？」
+<PAUSE>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「まーだなくなった祭具とやらは
+　見つからないっていうじゃないか！！
+　こりゃあ責任問題じゃないのかねえ！」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+//　　　　＊【お気楽夢魔】リリムのカードイラストより流用
+<GROUP>
+<ACTOR>1,mi_t001a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>ミナサキ
+「ゲッヒッヒ！　あっしは最初から、
+　あんな娘っ子に町内会長は務まらねえと
+　思ってやしたぜえ！」
+<PAUSE>
+//　※立ち絵
+//　　ミナサキ立ち絵
+//　　　　＊決戦アリーナのカードイラストより流用
+<NAME_PLATE>リリム
+「違いねえっ！　さっさと身を引いて、
+　こっちの越後屋さんに譲った方が
+　身のためじゃないのかいっ！！？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m076a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ヤマタノオロチ
+「ヒッヒッヒ、違いねえ違いねえ」
+<PAUSE>
+//　※立ち絵
+//　　ヤマタノオロチ
+//　　　＊モンスターイラストより流用
+<ACTOR>1,ts_m176a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>オーク商人
+「は、はあ……どうも……」
+<PAUSE>
+//　※立ち絵
+//　　穏健派のオーク商人立ち絵
+//　　　＊決戦アリーナ_オーク奴隷商人立ち絵より流用
+<NAME_PLATE>クローンアサギたち
+「…………」
+<PAUSE>
+<NAME_PLATE>
+　店に入ってきたのは、町内会でも
+穏健派で知られる善良なオーク商人と、
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラでも有名なお騒がせコンビ、
+リリムとミナサキ。
+<PAUSE>
+<NAME_PLATE>
+　そして、なぜかリリムたちの
+用心棒をしているヤマタノオロチ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「あー……」
+<PAUSE>
+<ACTOR>1,chr_t0089a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「ね？」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0008a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「完全理解」
+<PAUSE>
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「こやつらが元凶か」
+<PAUSE>
+//【背景：黒画面】
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　というのが３日前。
+<PAUSE>
+//【背景：ヨミハラ＿納涼祭＿舞台＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC073a　より流用
+//nc337a
+<BGM_PLAY>bgm309,1000
+<BG>nc337a,IN, 1000
+<ACTOR>1,chr_t0244a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>静流
+「あの子たち、人の良い越後屋さんを
+　傀儡にして町内会を牛耳るつもり
+　だったらしいわ」
+<PAUSE>
+//　※立ち絵
+//　　静流立ち絵
+//　　　　　＊【夏服】高坂静流４のカードイラストより流用
+<NAME_PLATE>
+　そのため、祭りで使う祭具を盗み出し、
+現会長である静流の失脚を画策した。
+<PAUSE>
+<ACTOR>1,chr_t0244a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,chr_t0248a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「町内会の予算を横取りして
+　“プレミアム超すごい棒”食べ放題だー
+　とか言ってたわね」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊【夏祭り】クローンアサギのカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「うーむ。相変らずだなぁ、
+　リリムちゃんとミナサキちゃん」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜紀
+//　　　　　＊ふうま亜紀01のカードイラストより流用
+<NAME_PLATE>亜希
+「でも、よく取り戻せたね。
+　リリムちゃんとミナサキちゃんは、
+　まあ、どうとでもなるだろうけど」
+<PAUSE>
+<NAME_PLATE>亜希
+「用心棒がいたんだろ？
+　あいつ、酒と金にはだらしないけど、
+　強さだけならこの街でもトップ級だぞ」
+<PAUSE>
+<ACTOR>0,chr_t0164a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「ああ。彼女ね」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鬼族の戦士ヤマタノオロチ。
+<PAUSE>
+<NAME_PLATE>
+　亜希の言う通り、まともに戦えば
+探偵チーム３人がかりでも苦戦する
+強力な相手である。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「彼女は買収したわ。
+　こっちも無駄な戦いはしたくないし」
+<PAUSE>
+<NAME_PLATE>亜希
+「へっ？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「どうせあの子たち、ろくに
+　用心棒代を払ってないだろうと
+　思ったし、それに――」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「こっちにはスポンサーに
+　町内会長がついてるんだから、
+　金なんて出し放題よ」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　鬼族は金に弱く買収がきく、
+というのは闇の街の常識だ。
+<PAUSE>
+<NAME_PLATE>
+　その結果――。
+<PAUSE>
+<NAME_PLATE>
+　ヤマタノオロチはあっさり
+寝返ってリリムとミナサキを売り渡し、
+盗難事件は一件落着となった。
+<PAUSE>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「な、なるほど……」
+<PAUSE>
+<ACTOR>1,chr_t0244a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「私としても都合よかったわ。
+　ちょうど、大太鼓を叩ける
+　パワーのある人を探してたから♪」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　招福の大太鼓は、叩き手の魔力や
+パワーを福のエネルギーに変換する。
+<PAUSE>
+<NAME_PLATE>
+　なのでヨミハラでも屈指のパワーを持つ
+ヤマタノオロチは叩き手にうってつけで。
+<PAUSE>
+<NAME_PLATE>
+　買収のついでにスカウトして、
+今夜、大太鼓の叩き手として
+やぐらに上がってもらっている。
+<PAUSE>
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「そっかー。私がいない間に、
+　こっちでは色々あったんだなぁ」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　祭りで賑わう広場を眺めて
+亜希がしみじみとつぶやく。
+<PAUSE>
+<NAME_PLATE>
+　彼女は一週間ほど五車に戻っていて、
+この日の昼に久しぶりに事務所に
+顔を出したという感じだったりする。
+<PAUSE>
+<ACTOR>1,chr_t0244a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「亜希、そういう
+　あなたは五車で何してたの？
+　しばらくこっちで姿を見なかったけど」
+<PAUSE>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>亜希
+「ん、私か？
+　いや、そうだな――」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……？」
+<PAUSE>
+<NAME_PLATE>
+　亜希が口ごもる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ぼんやり何か考え込んでいる風で、
+少し待ってもその口から意味のある
+言葉は出てこない。
+<PAUSE>
+<NAME_PLATE>
+　と、その時。
+<PAUSE>
+<NAME_PLATE>ナディア
+『では、私の挨拶はここまで♪
+　みんな、招福の舞は３０分後に
+　開始だから、楽しみに待っててねー！』
+<PAUSE>
+//　※立ち絵なし
+<NAME_PLATE>
+　踊り子の挨拶が終わったのだろう。
+<PAUSE>
+<NAME_PLATE>
+　いったん休憩時間となり、やぐら前に
+集まっていた人々が楽しげにざわざわと
+語り合いながら散っていく。
+<PAUSE>
+<ACTOR>0,chr_t0164a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>亜希
+「――おっ、休憩か！
+　話の途中で悪いね二人とも、
+　今のうちにトイレでも行ってくるよ」
+<PAUSE>
+<NAME_PLATE>静流
+「え？　ええ……」
+<PAUSE>
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　二人に軽く手を上げると、
+亜希はふらりと人ごみに姿を消す。
+<PAUSE>
+<ACTOR>1,chr_t0244a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>静流
+「ねえ探偵さん、今日の亜希、
+　なんか変じゃない……？」
+<PAUSE>
+<ACTOR>0,chr_t0248a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　何とも答えられず
+クローンアサギは静流と顔を見合わせた。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ヨミハラ＿納涼祭＿舞台＿夜】【時間：夜】
+//　※対魔忍アサギZERO_NC073a　より流用
+//nc337a
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc337a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>アナウンス
+『――皆さまお待たせしました。
+　あと１０分ほどでナディア様による
+　招福の舞が始まります』
+<PAUSE>
+<NAME_PLATE>アナウンス
+『ゆっくりと、混雑にならないよう
+　やぐらの前にお集まりください』
+<PAUSE>
+<NAME_PLATE>アナウンス
+『また、ナディア様の舞の後は、
+　ヨミハラハッピー盆踊り、
+　有志によるラップ大会などなど』
+<PAUSE>
+<NAME_PLATE>アナウンス
+『様々なイベントを用意しています。
+　皆さま最後までヨミハラ納涼祭を
+　お楽しみください――』
+<PAUSE>
+<BGM_PLAY>bgm317,1000
+<ACTOR>1,chr_t0194a,RIGHT, RIGHT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミナサキ
+「って、楽しめるかいバカヤロー！
+　こっちは大変なんだよー！」
+<PAUSE>
+//　※立ち絵
+//　　ミナサキ立ち絵
+//　　　　＊【イタズラチョコ娘】ミナサキのカードイラストより流用
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>リリム
+「そうだそうだー！！
+　なんでリリムちゃんたちだけ
+　タダ働きなんだよボケーー！」
+<PAUSE>
+//　※立ち絵
+//　　リリム立ち絵
+//　　　　＊【お気楽夢魔】リリムのカードイラストより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　広場片隅のチョコバナナの屋台である。
+<PAUSE>
+<NAME_PLATE>
+　祭具窃盗のペナルティで
+強制労働させられている
+リリムとミナサキがいた。
+<PAUSE>
+<ACTOR>0,chr_t0196a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「やかましい！　つべこべ
+　言わず働けこのアホアホコンビ！！
+　ほれ、また注文が入ったぞ！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊【ＶＤラッピング】ミリアムのカードイラストより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0194a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミナサキ
+「ぐぬぬ……
+　こんな一年に一度の遊び時に……！」
+<PAUSE>
+<NAME_PLATE>リリム
+「リリムちゃん一生の不覚……」
+<PAUSE>
+<NAME_PLATE>
+　そして、町内会の依頼でリリムたちの
+お目付け役をしているミリアム。
+<PAUSE>
+<NAME_PLATE>
+　さらに、そのお手伝いをしている
+ナーサラもいる。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0008a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーサラ
+「チョコバナナ２本？　了承。
+　金銭と交換。円滑に取引完了」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　　＊ナーサラ01のカードイラストより流用
+<NAME_PLATE>浴衣の少女
+「ふえぇ……？　
+　あ、ありがとうございます……？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラの独特な接客に戸惑いながら、
+浴衣の少女がチョコバナナを受け取った。
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「ナーサラ、遊びに行ってもいい？
+　もう少し見て回るの希望」
+<PAUSE>
+<ACTOR>0,chr_t0008a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0196a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「おっ？　なんだ？」
+<PAUSE>
+<NAME_PLATE>
+　ナーサラがミリアムに声をかけてきた。
+<PAUSE>
+<NAME_PLATE>
+　さっきの少女でひとまず客がはけたので、
+屋台もだいぶ楽になっている。
+<PAUSE>
+<NAME_PLATE>ミリアム
+「あー。祭りを探検したくなったか？
+　まあ構わんぞ。どうせなら、
+　ヒマそうにしてるクロもつれてってやれ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「了承。クロ、一緒に探検に出発」
+<PAUSE>
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR>1,chr_t0091c,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>クロ
+「ぴっ！？　ぴぴっ～♪」
+<PAUSE>
+//　※立ち絵
+//　　使い魔クロ
+//　　　　＊マップ09イベントで使用したクロだけ切り抜き立ち絵を流用
+<NAME_PLATE>
+　一声鳴いた使い魔のクロが
+パタパタとナーサラの頭上に移動する。
+<PAUSE>
+<NAME_PLATE>
+　仲良しのナーサラと祭り探検に行けて
+とても嬉しそうだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0194a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム
+「ええええええっ！！！？
+　ズルい！　ズルいズルーーーい！
+　なんであの子は遊んでいいのさー！？」
+<PAUSE>
+<NAME_PLATE>ミナサキ
+「ひーき、ひーき！！
+　そーいうの良くないと思いまーす！
+　ボクらも遊び行くーーー！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0196b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「行かせるかアホーーーー！！
+　お前らは祭具盗んだペナルティって
+　言ってるだろうがああああっ！！！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム立ち絵
+//　　　　＊【ＶＤラッピング】ミリアムのカードイラストより流用
+//　　　　＊使い魔クロ無しに加工。
+//　※注　クロがナーサラについていったので立ち絵からクロを消去お願いします。
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,ri_t002a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0194a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>リリム＆ミナサキ
+「ええーーーーーっ！！？」
+「ズルーいズルーーーい！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc337a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　大騒ぎするミリアムたちの
+声が響き渡る。
+<PAUSE>
+<NAME_PLATE>
+　そんな屋台を振り返って、
+さっきチョコバナナを買った
+浴衣の少女が目を丸くする。
+<PAUSE>
+<BGM_PLAY>bgm309,1000
+<ACTOR>0,chr_t0250a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリヤ
+「な、なんだかすごい屋台……。
+　でも、作ってる時はちゃんとしてたし、
+　大丈夫だよね……？」
+<PAUSE>
+//　※立ち絵
+//　　ユーリヤ立ち絵
+//　　　　＊【浴衣メイド】ユーリヤのカードイラストより流用
+<SE_PLAY>se082
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　すると、そんな少女と
+すれ違うように――
+<PAUSE>
+<ACTOR>0,ts_m128a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>炎王
+「うーむ。感心感心！！
+　皆、防火に気を使っているな！！
+　注意一秒、火事一生！」
+<PAUSE>
+//　※立ち絵
+//　　(科学)ＳＢ‐００１炎王
+//　　　＊モンスターイラストより流用
+<ACTOR>1,chr_t0144a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>エレーナ
+「は、はぁ。そうですねえ……」
+<PAUSE>
+//　※立ち絵
+//　　エレーナ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　消防の見回りをしている
+二人がこちらにやってくる。
+<PAUSE>
+<NAME_PLATE>
+　ヨミハラ消防１課１班に所属する
+ＳＢ－００１、通称“炎王”。
+<PAUSE>
+<NAME_PLATE>
+　そしてノマドから派遣されて
+同行している魔術師エレーナだ。
+<PAUSE>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0144a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>エレーナ
+（うぅ、よくわからない任務だけど、
+　みんなのために頑張らなくっちゃ……！）
+<PAUSE>
+<NAME_PLATE>
+　彼女の任務は、火を見ると興奮して
+見境なく消火活動を始める炎王のブレーキ役。
+<PAUSE>
+<NAME_PLATE>
+　じゃんけんに負けて押し付けられた
+厄介な任務だが、引き受けた以上、
+お祭りの平和のために頑張ろう――
+<PAUSE>
+<NAME_PLATE>
+　などとエレーナがひそかに
+決意を固めている矢先に。
+<PAUSE>
+<ACTOR>1,chr_t0144a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>0,ts_m128a,LEFT, LEFT, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>炎王
+「むむッ！？　あそこのたこ焼き屋め、
+　火の始末が不十分だぞ！！　天誅だ！」
+<PAUSE>
+<NAME_PLATE>エレーナ
+「あわわ……落ち着いて炎王さん！
+　私が話して説明してきますから、
+　水を撒かないでください～！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,mk_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0156a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>アスタロト
+「相変らずね、あの消火マニア」
+<PAUSE>
+//　※立ち絵
+//　　アスタロト立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+//　※立ち絵
+//　　桐生美琴立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラスト表（まだ未実装）を流用
+<NAME_PLATE>桐生美琴
+「なに、知り合い？」
+<PAUSE>
+<NAME_PLATE>
+　ドタバタと駆けていく炎王と
+エレーナを見て、露店の前で立ち話を
+している妖艶な美女が苦笑する。
+<PAUSE>
+<NAME_PLATE>
+　獄炎の女王アスタロトと、
+その古い友人の魔科医・桐生美琴。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「ええ。ちょっと前にヨミハラで
+　婿探しをしたんだけど、
+　その時に戦ったのよ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「まあ、全然期待外れだったけど」
+<PAUSE>
+<NAME_PLATE>美琴
+「婿探し？　あなた、
+　まだそんなことしてるの？」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「なによ」
+<PAUSE>
+<NAME_PLATE>美琴
+「だってあなた、まだ
+　“自分より強い男がいい”
+　とか言ってるんでしょう？」
+<PAUSE>
+<NAME_PLATE>美琴
+「そんなのいるわけないじゃない。
+　いい加減あきらめなさいよ。
+　一生結婚できないわよ」
+<PAUSE>
+<NAME_PLATE>アスタロト
+「そ、そんなことないわよ……。
+　いるところにはいるし、たぶん」
+<PAUSE>
+<NAME_PLATE>
+　珍しく言いよどむアスタロト。
+<PAUSE>
+<NAME_PLATE>
+　魔界人界を合わせても、
+彼女にこれだけズバズバ言えるのは
+この旧友の魔科医だけだろう。
+<PAUSE>
+<NAME_PLATE>アスタロト
+「はぁ。それにしても――
+　せっかくお祭りに来たんだから、
+　強い男との出会いでもないかしら？」
+<PAUSE>
+<NAME_PLATE>
+　アスタロトが色っぽくため息をつく。
+<PAUSE>
+<NAME_PLATE>
+　しかし周囲の状況は
+彼女の願望とは全くの逆であった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m036a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m039a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>オーク１
+「お、おい！　誰か思い切って
+　声かけてみろよっ！？」
+<PAUSE>
+//　※立ち絵
+//　　オーク立ち絵
+//　　　　＊モンスターイラストより流用
+//　※立ち絵
+//　　ギャング立ち絵
+//　　　　＊モンスターイラストより流用
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>チンピラ１
+「バカ、できるわけねえだろ！？
+　あのアスタロト様と鬼腕の魔科医だぞ！
+　声かけた瞬間にあの世行きだ！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,mk_t001a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0156a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　ヨミハラでも高名な女帝と
+魔科医の組み合わせだ。
+<PAUSE>
+<NAME_PLATE>
+　闇の住人たちがざわざわと噂しながら
+恐れて遠巻きにするので、祭りの人ごみが
+二人の周りだけぽっかりと空いている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0159a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>メリィ
+「あぅ……ど、どうしよう……？」
+<PAUSE>
+//　※立ち絵
+//　　メリィ立ち絵
+//　　　　＊対魔忍ＲＰＧカードイラストより流用
+<NAME_PLATE>
+　災難なのは、二人が立ち話している
+ちょうど後ろの露店である。
+<PAUSE>
+<NAME_PLATE>メリィ
+（みんながアスタロトさんたちに注目して、
+　私の露店まで来てくれないよぉ……）
+<PAUSE>
+<NAME_PLATE>メリィ
+（これじゃ今日の売り上げ目標が……
+　うう、プレッシャーでお腹が……）
+<PAUSE>
+<NAME_PLATE>
+　露店の店主・気弱な呪術師メリィが
+人知れず頭を抱えるのであった。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　そして――。
+<PAUSE>
+//【背景：ヨミハラ＿納涼祭＿屋台＿夜】【時間：夜】
+//　※鋼鉄の魔女アンネローゼ_nc015a　をお祭り風に加工流用
+<BG>nc336a,IN, 1000
+<NAME_PLATE>
+　そんな祭りの賑わいから離れた
+ひと気のない裏通り。
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0248a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「――亜希、用件って何？
+　こんなところまで呼び出して」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　　＊【夏祭り】クローンアサギのカードイラストより流用
+<NAME_PLATE>
+　広場から楽しげな歓声が響く中、
+彼女たち二人はここにいた。
+<PAUSE>
+<NAME_PLATE>亜希
+「いや、ここまで来れば、
+　あの子の力も届かないと思ってね」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　　＊ふうま亜希01のカードイラストより流用
+<NAME_PLATE>
+　妙に淡々とした様子の
+ふうま亜希が言う。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「あの子の力……？」
+<PAUSE>
+<NAME_PLATE>亜希
+「そう。踊り子ちゃんの、
+　攻撃無効化のフィールド。
+　この辺なら大丈夫だろう？」
+<PAUSE>
+<NAME_PLATE>
+　踊り子ナディアの力によって、
+広場周辺は攻撃無効になっている。
+<PAUSE>
+<NAME_PLATE>
+　確かにここまで来れば、
+その効果も届かないだろう。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「……どうして、亜希。
+　なぜそんなことを気にするの？」
+<PAUSE>
+<NAME_PLATE>
+　自然と声が強張った。
+<PAUSE>
+<NAME_PLATE>
+　今日の亜希は、
+ずっとどこか変だった。
+<PAUSE>
+<NAME_PLATE>亜希
+「いやぁ。実はね探偵。
+　薄々気づいてたかもしれないけど、
+　私はあんたを監視してたんだ」
+<PAUSE>
+<NAME_PLATE>亜希
+「あんたのオリジナル――
+　私の上司からの指令でね」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「………」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「そうね……。
+　もしかしたら、とは思っていた」
+<PAUSE>
+<NAME_PLATE>亜希
+「だよね」
+<PAUSE>
+<NAME_PLATE>
+　彼女は、対魔忍・井河アサギの
+細胞から作られたクローンだ。
+<PAUSE>
+<NAME_PLATE>
+　亜希も対魔忍である以上、
+二人の類似に気づかないはずはない。
+<PAUSE>
+<NAME_PLATE>
+　だが今まで、亜希がその事実に
+ついて触れることはなかった。
+<PAUSE>
+<NAME_PLATE>
+　という事は――
+“あえて”そのことに触れなかったのだ。
+<PAUSE>
+<NAME_PLATE>
+　あえて知らぬふりをして、
+監視の任務を続けていた。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+（……だけど、
+　それを今明かすということは）
+<PAUSE>
+<NAME_PLATE>亜希
+「で、何というか……。
+　先週、五車に戻った時、
+　上司から新しい指令が来たんだよ」
+<PAUSE>
+<NAME_PLATE>亜希
+「――クローンアサギ、
+　あんたを抹殺しろってね」
+<PAUSE>
+//→プロローグ終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>

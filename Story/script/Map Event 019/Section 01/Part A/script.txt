@@ -1,0 +1,1444 @@
+//=================================================================
+//FileNo:S001a
+//シーン名：プロローグ
+//【背景：黒画面】
+//【背景：ナーガ族の娼館ビル＿外観＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc014aより流用
+<BG>chrnc0226c,IN, 1000
+<NAME_PLATE>
+　地下都市ヨミハラ――
+<PAUSE>
+//【背景：ナーガ族の娼館ビル＿上層廊下＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc018aより流用
+<BGM_PLAY>bgm313,1000
+<BG>chrne0082a,IN, 1000
+<NAME_PLATE>
+　ナーガ族の娼館ビル・上層フロア。
+<PAUSE>
+<ACTOR>0,chr_t0291b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「おおおおおおりゃぁあっ！！！
+　さっさとくたばれ、この蛇公ども！！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵（エフェクト有り）
+//　　　　＊カウーラ02カードイラストを流用
+<NAME_PLATE>
+　狭い通路に密集した蛇頭蛇身のおぞましき
+怪物に向けて魔族の女が
+荒々しく二刀をふるう。
+<PAUSE>
+//　※鮮血、斬撃エフェクトなど。
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>800
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナーガボーン
+「ギィイイイイイイッ！！！」
+「ギィイイイイ！！？？」
+<PAUSE>
+//　※立ち絵
+//　　ナーガボーン
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ナーガボーン
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　鮮血が迸り、びちゃびちゃと臓物を
+まき散らしながら次々と両断されていく
+ナーガ族の先兵たち。
+<PAUSE>
+<BG>chrne0082a,IN, 500
+<ACTOR>0,chr_t0291b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　女が使うのは、その刃によって
+生物の魂を奪う魔剣ニルガル。
+<PAUSE>
+<NAME_PLATE>
+　そしてもう一刀は、
+生物の命を吸えば吸うほど切れ味を増す
+妖刀・贄霊餓魂（しれいがこん）。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「へへっ。ヨミハラは良いねえ。
+　これだけ瘴気が濃いと剣の冴えも
+　違うってもんさ――おらァ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se006
+<WAIT>800
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ナーガボーン
+「ギィイイッ！！！！？」
+<PAUSE>
+<NAME_PLATE>
+　けたたましく警報が鳴り響く中、
+全身を返り血で染めた魔族の女が笑う。
+<PAUSE>
+<BG>chrne0082a,IN, 500
+<ACTOR>0,chr_t0291b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　女の名はカウーラ、
+アミダハラ監獄の看守長だ。
+<PAUSE>
+<NAME_PLATE>
+　魔力を剣に宿して戦う彼女にとって、
+“魔界の門”の存在により瘴気の濃い
+ヨミハラは絶好の狩場。
+<PAUSE>
+<NAME_PLATE>
+　本能むき出しの我流二刀流で、
+襲い掛かる蛇身の怪物を次々と
+切り伏せ――しかし。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「気を付けてカウーラ！
+　そこの一頭、まだ息がある！！」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊クローンアサギ01カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m234a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーガボーン
+「ギィイイ……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ちっ！！　しつけえ！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef005a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se031
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キィイイン！！　ザシュ！！！
+<PAUSE>
+//　※鮮血、斬撃エフェクトなど。
+<NAME_PLATE>
+　瀕死の怪物――ナーガボーンが
+よろよろと伸ばしてきた刃を
+カウーラは顔色を変えて振り払う。
+<PAUSE>
+<BG>chrne0082a,IN, 500
+<ACTOR>0,chr_t0291b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　ほとんど力の入っていない
+弱々しい攻撃――
+<PAUSE>
+<NAME_PLATE>
+　それにカウーラが
+必死で対応したのは理由があった。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　猛毒だ。
+<PAUSE>
+<NAME_PLATE>
+　ナーガ族が使う武器には、
+彼ら自身の体から分泌される解毒困難な
+毒物がべったりと塗り付けられている。
+<PAUSE>
+<NAME_PLATE>
+　たった一撃、かすり傷すら
+許されない非常に危険な状況だ。
+<PAUSE>
+<NAME_PLATE>ユーリ
+『どうしましたか皆さん！？
+　そちらで、何かトラブルが――』
+<PAUSE>
+<ACTOR>0,chr_t0091a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「わっ、わからん！！
+　急に敵が湧いてきおったのだ！
+　――って、うわぁ！！？」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム
+//　　　　＊ミリアム01カードイラストを流用
+<NAME_PLATE>シロ＆クロ
+「ぴぴっ」
+「きゅっきゅー！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<ACTOR>0,ts_m234a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ナーガボーン
+「シャアアアアアアア！！！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　ギィイイイイイ！！！！
+<PAUSE>
+//　※鮮血、斬撃エフェクトなど。
+<BG>chrne0082a,IN, 500
+<ACTOR>0,chr_t0292a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ふうま亜希
+「……こりゃあマズったね。
+　私らの動き、完全にバレてたみたい」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊ふうま亜希03カードイラストを流用
+<NAME_PLATE>ユーリ
+『！！！？』
+<PAUSE>
+<NAME_PLATE>
+　亜希の抑えたつぶやきに
+端末の向こうのユーリが絶句する。
+<PAUSE>
+<NAME_PLATE>亜希
+「どうりで簡単に
+　ここまで入ってこられたわけだ。
+　誘い込まれたね、私たち――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,500
+<GROUP>
+<ACTOR>0,ts_m234a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m234a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーガボーン
+「シャアアアアアアアアアッ！！！！」
+「ギィイイイイ！！！」
+<PAUSE>
+<NAME_PLATE>ミリアム
+「くぅっ！？　
+　こいつら、後から後から――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0091a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ミリアム
+「ど、どうする探偵！？
+　これじゃあ依頼どころか、
+　こっちの命が危ないぞ！！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「それは――」
+<PAUSE>
+<NAME_PLATE>
+　殺到する怪物たちの勢いは衰えない。
+<PAUSE>
+<NAME_PLATE>
+　一行を挟み撃ちにするように、
+通路の前後から続々と増援が現れる。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「仕方がないわ。
+　ここはいったん引いて――」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0291b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「はァ！？
+　ここまで来て逃げるだぁ！！？」
+<PAUSE>
+<NAME_PLATE>
+　毒の刃を避けて応戦しつつ、
+カウーラが呆れたように目をむいた。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「寝惚けでもしてるのかい！？
+　こんなヘビども、全員ブチ殺して
+　進めばいいじゃないか！」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0116a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「な、なにを無茶な！
+　これが罠だとしたら、
+　すぐにもっと危険が――」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>？？？
+「クク、そうだねえ……？」
+<PAUSE>
+<NAME_PLATE>？？？
+「せっかく来たんだから
+　もっと遊んで行ったらいいじゃない。
+　骨までしゃぶってあげるよぉ♪」
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>クローンアサギ
+「！！？」
+<PAUSE>
+<GROUP>
+<ACTOR>0,ts_m050a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m048a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーガソルジャー
+「フフフ……」
+<PAUSE>
+//　※立ち絵
+//　　ナーガソルジャー
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>レッサーサラマンダー
+「グル、グルルル……！」
+<PAUSE>
+//　※立ち絵
+//　　レッサーサラマンダー
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>
+　通路の奥から現れたのは、
+さらなるナーガ族の増援――。
+<PAUSE>
+<NAME_PLATE>
+　高位魔族と同等の力を持つ
+ナーガソルジャーの一団。
+<PAUSE>
+<NAME_PLATE>
+　彼女たちが使役する炎の魔獣
+レッサーサラマンダー。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、さらにその奥に。
+<PAUSE>
+<ACTOR>0,ts_m235a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>阿用
+「待ってたよ、カウーラ。
+　アンタはたっぷり拷問したあと、
+　腹を切り裂いてカヲルに送ってやるよ」
+<PAUSE>
+//　※立ち絵
+//　　阿用
+//　　　＊モンスターイラストを流用
+<NAME_PLATE>カウーラ
+「のこのこ出てきやがったな、
+　このクソ鬼女……」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊カウーラ02カードイラストを流用
+<NAME_PLATE>
+　人食いの悪鬼・阿用（アヨウ）。
+<PAUSE>
+<NAME_PLATE>
+　鉄華院カヲルを裏切って逃走した、
+元アミダハラ監獄の副看守長である。
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――。
+<PAUSE>
+<NAME_PLATE>
+　数日前。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC034aより流用
+<BG>nc122a,IN, 1000
+<NAME_PLATE>
+　裏切者・阿用を追って地下都市
+ヨミハラを訪れたカウーラは、
+<PAUSE>
+<NAME_PLATE>
+　この町でも“凄腕”と評判高い
+探偵に協力を依頼することにした。
+<PAUSE>
+//【背景：ヨミハラ繁華街２＿昼夜共通】【時間：夜】
+//　※対魔忍アサギＺＥＲＯ_NC035aより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0101a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　阿用がヨミハラに逃げ込んだ
+という情報は得たものの、
+詳しい潜伏場所はわからない。
+<PAUSE>
+<NAME_PLATE>
+　それを突き止めるには、
+この町に不慣れな自分一人では難しい。
+<PAUSE>
+<NAME_PLATE>
+　そこで、ヨミハラの事情に詳しい
+協力者が必要と考えたわけである。
+<PAUSE>
+<NAME_PLATE>
+　いや、そう考えていたのだが……。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ2_nc003cより流用
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BGM_PLAY>bgm506,1000
+<BG>chrnc0118a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　繁華街・探偵事務所。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カウーラ
+「……なあ探偵よ。ひとつ、
+　確認したいことがあるんだが」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊カウーラ02カードイラストを流用
+<NAME_PLATE>クローンアサギ
+「ええ。何かしら」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊クローンアサギ01カードイラストを流用
+<NAME_PLATE>カウーラ
+「本当にお前のとこの事務所は、
+　“凄腕”ぞろいなのか？」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「いや、ここに来る前、
+　酒場でそんな風に聞いたんだが……」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「い、いえ、それは……」
+<PAUSE>
+<NAME_PLATE>
+　ぐっと言葉に詰まるクローンアサギ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　依頼人――カウーラの視線は、
+探偵を通り越してその後ろに
+向けられている。
+<PAUSE>
+<NAME_PLATE>
+　そこには――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーサラ
+「お茶請けおいしい、もぐもぐ。
+　おやつの時間、大好き」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　＊ナーサラ02カードイラストを流用
+<NAME_PLATE>亜希
+「くぅー！　たまらん！
+　今日のナーサラちゃんも
+　天地を揺るがすほどかわいいなぁ！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊ふうま亜希01カードイラストを流用
+<NAME_PLATE>亜希
+「どうだい！　おやつが終わったら
+　一緒にお相撲さんごっこしないかい？
+　いや決していやらしい意図はなく、ぐふふ」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「お相撲さんごっこ、
+　聞いたことない遊び、興味深い」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「おいおい。お前たち、
+　騒ぐのはいいが時と場所を考えろ！」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム03＿眼鏡差分
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミリアム
+「今は大事な魔術の講義中だぞ！
+　なあ、ミレーヌ？」
+<PAUSE>
+<NAME_PLATE>ミレーヌ
+『は、はあ……ミリアム先生』
+<PAUSE>
+//　※リモート越しなのでミレーヌの立ち絵はなしです。
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「いや、それより今は、来客中という方が
+　問題だと思うのですが……？」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊ユーリ01カードイラストを流用
+<NAME_PLATE>フランシス
+「ぐがー。もう飲めないにょー。
+　むにゃむにゃ……」
+<PAUSE>
+//　※立ち絵
+//　　フランシス02立ち絵
+//　　　　＊カードイラストを流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カウーラ
+「…………な？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「い、いえ、これは……」
+<PAUSE>
+<NAME_PLATE>
+　（なんなんだこいつらは）という顔の
+依頼人にクローンアサギが溜息を返す。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　事務所の中では、
+いつもの居候連中が好き勝手に
+ワイワイやっていた。
+<PAUSE>
+<NAME_PLATE>
+　端から順番に――。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>
+　異界の少女ナーサラと、
+いつものようにそれを愛でている
+剣客対魔忍のふうま亜希。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　自称“大魔女”のミリアムは、
+つい先日引き受けた弟子のミレーヌに、
+<PAUSE>
+<NAME_PLATE>
+　リモートソフトを使ってオンラインで
+魔術の授業をつけてあげている。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　ソファでは新入りの鬼ギャル、
+フランシスが泥酔して大股開きで
+眠りこけており、
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　そして、たまたま遊びに来ていた
+常識人・ユーリが一同の自由っぷりに
+困惑している――
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　という、大体いつもの
+探偵事務所の光景であった。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カウーラ
+「というか、あいつらも、
+　この事務所の探偵なのか？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「いえ、そういうわけじゃなくて……
+　あの子たちは、ただの居候っていうか」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「行きがかり上、なんとなく
+　面倒を見てるっていうか、
+　毎日の食費が大変っていうか……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「お、おう。なんかすまん……。
+　とりあえず依頼の話をするか」
+<PAUSE>
+<NAME_PLATE>
+　なぜか探偵が遠い目をし始めたので、
+カウーラが慌てて話を戻す。
+<PAUSE>
+<NAME_PLATE>
+　まぁ、ほかの連中はともかく
+探偵自身はまともそうであるし、
+<PAUSE>
+<NAME_PLATE>
+　仮に能力が物足りなくても
+不慣れな街で一人で動くよりは
+ずいぶんマシだろう。
+<PAUSE>
+<BGM_STOP>1000
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR>1,chr_t0291a,RIGHT, CENTER, NONE, linear, 1000
+<NAME_PLATE>カウーラ
+「じゃあ早速だが――
+　あたしの頼みは、人探しだ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「そいつの名前は、
+　阿用（アヨウ）」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「あたしの職場――
+　アミダハラ監獄を裏切って姿を消した、
+　クソったれの鬼女だよ」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「鬼……？」
+<PAUSE>
+//【背景：黒画面】
+<ACTOR_OUT>1,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――そもそものきっかけは、
+少し前に起きた脱獄事件であった。
+<PAUSE>
+//【背景：アミダハラ監獄＿地下施設＿昼夜共通】【時間：朝】
+//　※監獄アカデミア_NC012aより流用
+//　※回想モノローグなので監獄背景、白熊立ち絵はモノクロなどでお願いします。
+<BGM_PLAY>bgm509,1000
+<BG>nc103b,IN, 1000
+<ACTOR>0,ts_m204c,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　アミダハラ監獄に収監された
+“獣王会”幹部・白熊タローが
+獄中で暴走し、
+<PAUSE>
+//　※立ち絵
+//　　白熊タロー立ち絵
+//　　　　＊対魔忍ＲＰＧモンスターイラストより流用
+<NAME_PLATE>
+　その混乱に紛れ、隔離区画に
+収監されていた、特Ａ級に
+ランクされる危険犯罪者が姿を消した。
+<PAUSE>
+<NAME_PLATE>
+　それを手引きしたとされるのが、
+何らかの外部組織の者、そして、
+監獄副看守長の阿用であった――。
+<PAUSE>
+//【背景：ヨミハラ繁華街＿探偵事務所＿昼夜共通】【時間：夜】
+//　※対魔忍アサギ2_nc003cより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0118a,IN, 1000
+<ACTOR>0,chr_t0291a,CENTER, CENTER, IN, linear, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>カウーラ
+「まあ、その逃げた囚人ってのは、
+　所長の依頼で獣王会の奴らが
+　追っているらしい」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊カウーラ02カードイラストを流用
+<NAME_PLATE>カウーラ
+「で、私の狙いはもう一人の方だ」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「監獄を裏切ったクソ鬼女――
+　阿用の奴が、このヨミハラに
+　潜伏してるって情報があってね」
+<PAUSE>
+<ACTOR>0,chr_t0291a,CENTER, RIGHT, NONE, linear, 1000
+<ACTOR>1,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>クローンアサギ
+「なるほど……」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊クローンアサギ01カードイラストを流用
+<GROUP>
+<ACTOR_OUT>1,LEFT,linear,1000
+<ACTOR_OUT>0,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　隻眼の女鬼・阿用。
+<PAUSE>
+<NAME_PLATE>
+　監獄所長・鉄華院カヲルの
+命令はその身柄を押さえることだが、
+<PAUSE>
+<NAME_PLATE>
+　前々から阿用が大嫌いだった
+カウーラは、この機会に密かに
+殺してやろうと狙っていたりもする。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>カウーラ
+「探偵さん、あんたらには、
+　阿用のクソ馬鹿を捕らえるのを
+　手伝ってほしい」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「受けてくれるかい、この依頼？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ええ。そうね、
+　引き受けるのは構わないけれど……」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「今、少し依頼が詰まっているの。
+　報酬は割高になるけれど、
+　それでもいいかしら？」
+<PAUSE>
+<NAME_PLATE>
+　頭の中で予定を確認しながら
+クローンアサギが言う。
+<PAUSE>
+<NAME_PLATE>
+　年末年始ということもあり、
+探偵事務所は緊急の仕事で大忙し
+という状況なのであった。
+<PAUSE>
+<NAME_PLATE>カウーラ
+「なんだと……？　まあ、
+　時期が時期だし仕方がないか」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ただ、あたしもそんなに
+　持ってきたわけじゃないからなぁ、
+　これで足りるか？」
+<PAUSE>
+<NAME_PLATE>
+　カウーラが依頼料を電卓に示す。
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「失礼、拝見するわ……えぇっ！？」
+<PAUSE>
+<NAME_PLATE>
+　かちゃーん。
+<PAUSE>
+<NAME_PLATE>
+　クローンアサギが激しい動揺に
+顔をこわばらせて電卓を取り落とす。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>カウーラ
+「た、探偵！！？
+　おいどうしたその顔は、
+　この額じゃ足りなかったのか！？」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「ち、ちがうわ……
+　そうじゃなくて、ぜんぜん、
+　その逆で……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「は？　逆……？」
+<PAUSE>
+<BGM_STOP>1000
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　二人の金銭感覚の違いが
+生んだ悲劇であった。
+<PAUSE>
+<NAME_PLATE>
+　多くの組織と協定を結んで
+囚人収監を行うアミダハラ監獄には、
+日々膨大な金が流れ込んでくる。
+<PAUSE>
+<NAME_PLATE>
+　当然、カヲルがカウーラに
+預けた金も膨大。
+<PAUSE>
+<NAME_PLATE>
+　一方の探偵事務所は金にならない
+仕事も多く引き受けているので
+多忙な割に貧乏。
+<PAUSE>
+<NAME_PLATE>
+　そのギャップで、
+つい感極まってしまったのだ。
+<PAUSE>
+<BGM_PLAY>bgm506,1000
+<ACTOR>0,chr_t0279b,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ミリアム
+「なんだなんだ？　お前ら
+　いったい、何をもめておる――」
+<PAUSE>
+//　※立ち絵
+//　　ミリアム03＿眼鏡差分
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　電卓を拾ってミリアムと
+その他の面々が金額をのぞき込む。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ミリアム
+「って、なんだこの大金は！！？
+　おぬし王侯か！？
+　それともＩＴ長者か！？」
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<GROUP>
+<ACTOR>0,chr_t0164a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>亜希
+「うわっ、こりゃスゴイ！！
+　カウーラさんと呼ばせてください！
+　わっしょいわっしょい！」
+<PAUSE>
+//　※立ち絵
+//　　ふうま亜希
+//　　　　＊ふうま亜希01カードイラストを流用
+<NAME_PLATE>ナーサラ
+「ゼロがたくさん。興味深い」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ
+//　　　　＊ナーサラ02カードイラストを流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,chr_t0200a,LEFT, LEFT, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「良かったですねぇ、皆さん。
+　よいお正月が迎えられそうです」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ立ち絵
+//　　　　＊ユーリ01カードイラストを流用
+<ACTOR>1,chr_t0273a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>フランシス
+「ふにゃー。なに、
+　みんな、もうゴハンー？」
+<PAUSE>
+//　※立ち絵
+//　　フランシス02立ち絵
+//　　　　＊カードイラストを流用
+<NAME_PLATE>
+　カウーラの高額な依頼金に
+大盛り上がりの居候一同。
+<PAUSE>
+<NAME_PLATE>
+　普段のクローンアサギの苦労を知る
+ユーリはついほろりとしたりしている。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　そして、冷静さを取り戻した探偵も。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0116a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>クローンアサギ
+「あなたの依頼、引き受けるわ。
+　ぜひ協力させてちょうだい……！」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「お、おう……ありがとう……」
+<PAUSE>
+<NAME_PLATE>カウーラ
+（ほんとに大丈夫か、
+　この探偵事務所……？）
+<PAUSE>
+<NAME_PLATE>
+　依頼を受けてもらえたものの、
+一抹の不安を感じるカウーラだった。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ナーガ族の娼館ビル＿外観＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc014aより流用
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrnc0226c,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　その後、事情通の高坂静流や
+ヨミハラ猫社会からの情報を得て。
+<PAUSE>
+<NAME_PLATE>
+　標的の阿用はナーガ族の拠点の
+ひとつである娼館ビルに潜伏している
+ことが判明した。
+<PAUSE>
+<NAME_PLATE>
+　なぜナーガ族が鬼族である阿用を
+匿っているかは不明ではあるものの、
+<PAUSE>
+<NAME_PLATE>
+　居場所がわかれば、
+あとは行動に移るのみ。
+<PAUSE>
+<NAME_PLATE>
+　カウーラと探偵チームは、
+密かに娼館ビルに潜入し、
+阿用を捕らえる作戦を行うが……。
+<PAUSE>
+//【背景：黒画面】
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　――――――。
+<PAUSE>
+<NAME_PLATE>
+　現在。
+<PAUSE>
+//【背景：ナーガ族の娼館ビル＿ビルの近くの裏路地＿昼夜共通】【時間：夜】
+//　※鋼殻のアイ_nc021bより流用
+//nc380a
+<BGM_PLAY>bgm314,1000
+<BG>nc380a,IN, 1000
+<NAME_PLATE>
+　ナーガ族の娼館ビル・裏口付近。
+<PAUSE>
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ユーリ
+「どうしましたか皆さん！？
+　そちらで、何かトラブルが――」
+<PAUSE>
+//　※立ち絵
+//　　ユーリ01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ミリアム
+『わっ、わからん！！
+　急に敵が湧いてきおったのだ！
+　――って、うわぁ！！？』
+<PAUSE>
+<NAME_PLATE>亜希
+『……こりゃあマズったね。
+　私らの動き、完全にバレてたみたい』
+<PAUSE>
+<NAME_PLATE>ユーリ
+「！！？」
+<PAUSE>
+<NAME_PLATE>
+　ふうま亜希の抑えたつぶやきに
+ユーリが絶句する。
+<PAUSE>
+<NAME_PLATE>
+　端末の向こうからは潜入チームの
+困惑した声と、激しい戦いの音。
+<PAUSE>
+<NAME_PLATE>
+　明らかに、計画とは外れた
+何らかの事態が起きている。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「とにかく、
+　フランシスさんたちに連絡を――」
+<PAUSE>
+<NAME_PLATE>
+　すぐに端末を操作するユーリ。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<NAME_PLATE>
+　今回の作戦では、探偵チームは
+三つの組にメンバーを分けていた。
+<PAUSE>
+<NAME_PLATE>
+　密かに娼館ビルに潜入して
+阿用を捕らえる“潜入チーム”。
+<PAUSE>
+<NAME_PLATE>
+　そして、阿用を捕らえたのち、
+ビル内で騒ぎを起こして潜入組の
+脱出を助ける“攪乱チーム”。
+<PAUSE>
+<NAME_PLATE>
+　ユーリはビルの外で待機し、
+潜入組と攪乱組に情報を伝達して
+バックアップをする役目である。
+<PAUSE>
+<NAME_PLATE>
+　だが、その時――。
+<PAUSE>
+<NAME_PLATE>ユーリ
+「っ！！！？」
+<PAUSE>
+<BG>ef001a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<SE_PLAY>se007
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　キィイイイイイイイン！！！
+<PAUSE>
+//　※剣戟エフェクトなど。
+<NAME_PLATE>
+　突風のような鋭い一撃。
+<PAUSE>
+<BG>nc380a,IN, 500
+<NAME_PLATE>
+　ユーリの頬からたらりと
+一筋の血が垂れる。
+<PAUSE>
+<NAME_PLATE>
+　とっさに応戦してなければ
+確実に首を切られていた。
+<PAUSE>
+<ACTOR>0,chr_t0234a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>葉月
+「――見つけました。
+　あなたが侵入者の仲間ですね」
+<PAUSE>
+//　※立ち絵
+//　　葉月01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>葉月
+「あなたに恨みはありませんが、
+　これもお仕事です。
+　お命、頂戴します――」
+<PAUSE>
+<NAME_PLATE>
+　ユーリが取り落とした端末を
+女の足が踏みつけ、破壊する。
+<PAUSE>
+<NAME_PLATE>
+　人狗族の女・葉月。
+<PAUSE>
+<NAME_PLATE>
+　娼館ビルに雇われた用心棒である。
+<PAUSE>
+<ACTOR_OUT>0,CENTER,linear,1000
+<ACTOR>0,chr_t0200a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>ユーリ
+「……なるほど。まずはこの場を
+　切り抜ける必要があるようですね」
+<PAUSE>
+<NAME_PLATE>
+　鋭く目を細めたユーリが
+ナイフを構えた。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ナーガ族の娼館ビル＿カジノフロア＿昼夜共通】【時間：夜】
+//　※対魔忍アサギZERO_NC048aより流用
+<ACTOR_OUT>0,CENTER,linear,1000
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>nc155a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ナーガ族の娼館ビル・下層フロア。
+<PAUSE>
+<NAME_PLATE>
+　ブツっ！！
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「はあ？　なにこれ！？
+　ユーリってば、急に
+　通信切っちゃったんだけど！」
+<PAUSE>
+//　※立ち絵
+//　　フランシス01
+//　　　　＊カードイラストより流用
+<NAME_PLATE>ナーサラ
+「……？」
+<PAUSE>
+//　※立ち絵
+//　　ナーサラ02
+//　　　　＊カードイラストより流用
+<NAME_PLATE>
+　耳飾りにつけた小型の通信端末を
+ぺちぺち叩いて困惑顔のフランシス。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　ここは娼館ビル１階のカジノフロア。
+<PAUSE>
+<NAME_PLATE>
+　攪乱チームとなったフランシスと
+ナーサラは、ここで一般客を装いつつ
+作戦のゴーサインを待っていた。
+<PAUSE>
+<NAME_PLATE>
+　しかし……。
+<PAUSE>
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「うーん、どうしよナーサラ？
+　ユーリから連絡ないと、
+　いつ暴れていいかわかんないんだけど」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「待機？　また繋がるかも」
+<PAUSE>
+<NAME_PLATE>フランシス
+「あー。そうだね～？
+　便りがないのは良い便りっていうし」
+<PAUSE>
+<NAME_PLATE>フランシス
+「じゃあナーサラ！
+　また連絡がくるまで、
+　楽しくカジノで遊んじゃおー！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「わくわく。絵が一杯、
+　ぴかぴかぐるぐる、凄く愉快」
+<PAUSE>
+<NAME_PLATE>
+　と、あっさり気を取り直して
+スロットマシンを回し始める二人。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　作戦のために潜入しているとは
+思えないのん気さである。
+<PAUSE>
+<NAME_PLATE>
+　そこに――。
+<PAUSE>
+<NAME_PLATE>？？？
+「ヒヒヒヒヒ、お前らかぁ！！？
+　このビルで揉め事おこそうっていう
+　ゴミどもはァ！！？」
+<PAUSE>
+<BG>ef004a,NONE
+<EFFECT_FLASH>WHITE, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>
+　グシャアアアア！！！！
+<PAUSE>
+<BG>nc155a,IN, 500
+<GROUP>
+<ACTOR>0,chr_t0109a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,chr_t0274a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>フランシス
+「うわあっ！！？
+　なっ、なにっ！！？」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「………？」
+<PAUSE>
+<NAME_PLATE>
+　突然、二人が遊んでいた
+スロットマシンが粉々に吹っ飛んだ。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<NAME_PLATE>
+　呆然として顔をあげる二人、
+そこには――。
+<PAUSE>
+<ACTOR>0,ts_m076a,CENTER, CENTER, IN, linear, 1000
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>ヤマタノオロチ
+「おっやァ！？　ヒャハハ！！
+　どっかで見た奴だと思ったら
+　イカれ女のフランシスか！？」
+<PAUSE>
+//　※立ち絵
+//　　ヤマタノオロチ
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>ヤマタノオロチ
+「知らなかったよ、あんた、
+　ヨミハラに来てたんだねえ？」
+<PAUSE>
+<GROUP>
+<ACTOR>2,ts_m141a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m142a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR_FRONT>0
+</GROUP>
+<NAME_PLATE>セキュリティたち
+「―――――」
+<PAUSE>
+//　※立ち絵
+//　　サイボーグエージェント伍長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+//　　サイボーグエージェント曹長
+//　　　＊対魔忍ユキカゼ２の立ち絵より流用
+<NAME_PLATE>フランシス
+「うわ……あ、あんた、
+　ヤマタノオロチじゃん……」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「………」
+<PAUSE>
+<NAME_PLATE>
+　大勢のセキュリティを引き連れた
+巨躯の女が哄笑する。
+<PAUSE>
+<NAME_PLATE>
+　鬼族の戦士ヤマタノオロチ。
+<PAUSE>
+<NAME_PLATE>フランシス
+「ていうか、ウソでしょ……？
+　なんであんたがこんなとこに……」
+<PAUSE>
+<NAME_PLATE>
+　同じ鬼族だからこそ、
+フランシスはヤマタノオロチの
+恐ろしさをよく知っている。
+<PAUSE>
+<NAME_PLATE>
+　“神話級”とも言われる怪物。
+<PAUSE>
+<NAME_PLATE>
+　金と酒好きのいい加減な性格ながら、
+純粋な強さだけなら鬼族でもトップ級。
+<PAUSE>
+<NAME_PLATE>
+　フランシスも腕自慢ではあるが、
+この怪物と喧嘩して勝つ自信は全くない。
+<PAUSE>
+<NAME_PLATE>ヤマタノオロチ
+「ヒヒ、用心棒って奴だねぇ。
+　阿用のバカが、追っ手を殺したら
+　いくらでも金をくれるって言うからさ」
+<PAUSE>
+<NAME_PLATE>
+　ニタニタと笑った怪物が
+無造作に歩み寄る。
+<PAUSE>
+<NAME_PLATE>
+　周囲から上がる悲鳴の声。
+<PAUSE>
+<NAME_PLATE>
+　鬼女の出現に恐れをなした
+カジノ客たちが色を失い逃げていく。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>フランシス
+「わああっ！？　ヤバイ！！！
+　来るよナーサラ、気を付けて！！」
+<PAUSE>
+<NAME_PLATE>ナーサラ
+「了承。あの人、すごく強い」
+<PAUSE>
+<NAME_PLATE>ヤマタノオロチ
+「さあ！　悪いねえフランシス、
+　ぐちゃぐちゃのミンチになって
+　あたしの飲み代になりなァ！！」
+<PAUSE>
+<NAME_PLATE>
+　哄笑するヤマタノオロチの大剣が
+二人の頭上に振り下ろされた。
+<PAUSE>
+//【背景：黒画面】
+//【背景：ナーガ族の娼館ビル＿上層廊下＿昼夜共通】【時間：夜】
+//　※対魔忍ユキカゼ_nc018aより流用
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>0,CENTER,linear,1000
+</GROUP>
+<UI_DISP>OFF, 0
+<BGM_STOP>1000
+<BG_OUT>1000
+<WAIT>1000
+<BG>chrne0082a,IN, 1000
+<UI_DISP>ON, 0
+<NAME_PLATE>
+　ナーガ族の娼館ビル・上層フロア。
+<PAUSE>
+<NAME_PLATE>セキュリティ
+『――報告は以上です。
+　発見した侵入者の仲間二組は、
+　ただちにこちらで排除します』
+<PAUSE>
+<BGM_PLAY>bgm314,1000
+<GROUP>
+<ACTOR>2,ts_m050a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m050a,RIGHT, RIGHT, IN, linear, 1000
+<ACTOR>0,ts_m235a,CENTER, CENTER, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>阿用
+「アハハハハ！　ご苦労さま！！
+　遠慮しないで全員残らず
+　ぶっ殺して良いんだからねぇ！！」
+<PAUSE>
+//　※立ち絵
+//　　阿用
+//　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ナーガソルジャー
+//　　　　＊モンスターイラストを流用
+//　※立ち絵
+//　　ナーガソルジャー
+//　　　　＊モンスターイラストを流用
+<NAME_PLATE>カウーラ
+「こ、このクソが……！」
+<PAUSE>
+//　※立ち絵
+//　　カウーラ立ち絵
+//　　　　＊カウーラ02カードイラストを流用
+<NAME_PLATE>
+　阿用はナーガ族を盾にするように
+ニタニタと悪辣な笑みを浮かべている。
+<PAUSE>
+<NAME_PLATE>
+　恐れていた事態であった。
+<PAUSE>
+<NAME_PLATE>
+　ナーガ族の戦士は一騎当千の兵揃い。
+<PAUSE>
+<NAME_PLATE>
+　この者たちとの戦闘は極力避け、
+密かに標的の阿用だけをさらって行く――
+というのが今回の作戦。
+<PAUSE>
+<NAME_PLATE>
+　しかし、その狙いも、
+今は根底から崩れてしまった。
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>2,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<ACTOR>0,ts_m235a,CENTER, LEFT, NONE, linear, 1000
+<ACTOR>1,chr_t0291a,RIGHT, RIGHT, IN, linear, 1000
+<NAME_PLATE>カウーラ
+「阿用……てめえ、
+　一体誰に知恵をつけられやがった」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「てめえみたいな単純バカに、
+　こんなワナ張れる頭があるわけねえ……」
+<PAUSE>
+<NAME_PLATE>
+　探偵チームが潜入するのを予測して
+手勢と共に待ち受けていたこと。
+<PAUSE>
+<NAME_PLATE>
+　いや、そもそも
+この状況自体が異常なのだ。
+<PAUSE>
+<NAME_PLATE>
+　ナーガ族の戦士たちが、
+なぜここまで鬼族の阿用に力を貸す……？
+<PAUSE>
+<NAME_PLATE>
+　それこそ、よほどの大物が
+裏にいるのでもなければ――。
+<PAUSE>
+<EFFECT_QUAKE>VERTICAL,0.5,500
+<NAME_PLATE>阿用
+「アハハハハ！！！
+　これから死ぬあんたにゃ無関係な話さ！
+　さあカウーラ！！！」
+<PAUSE>
+<NAME_PLATE>阿用
+「お仲間と一緒にくたばりな！！
+　大好きなカヲルも、
+　そのうちそっちに送ってやるよ！！」
+<PAUSE>
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+</GROUP>
+<GROUP>
+<ACTOR>0,ts_m050a,LEFT, LEFT, IN, linear, 1000
+<ACTOR>1,ts_m050a,RIGHT, RIGHT, IN, linear, 1000
+</GROUP>
+<NAME_PLATE>ナーガソルジャー
+「フフフ――」
+<PAUSE>
+<NAME_PLATE>カウーラ
+「ッ！！！」
+<PAUSE>
+<NAME_PLATE>クローンアサギ
+「くっ！！？
+　皆、ひとまずまとまって！
+　切り抜けるわよ！」
+<PAUSE>
+//　※立ち絵
+//　　クローンアサギ
+//　　　　＊クローンアサギ01カードイラストを流用
+<NAME_PLATE>
+　クローンアサギたちが武器を構える。
+<PAUSE>
+<ACTOR>2,ts_m235a,CENTER, CENTER, IN, linear, 1000
+<NAME_PLATE>
+　裏切りの悪鬼・阿用、そして
+ナーガ族の精鋭との戦いが始まった。
+<PAUSE>
+//→プロローグ終了
+<GROUP>
+<ACTOR_OUT>0,LEFT,linear,1000
+<ACTOR_OUT>1,RIGHT,linear,1000
+<ACTOR_OUT>2,CENTER,linear,1000
+</GROUP>
+<BGM_STOP>3000
+<UI_DISP>OFF, 500
+<BG_OUT>3000
+<SCENARIO_END>
