@@ -979,4 +979,18 @@ STORY = {
 		banner:"bnr_ev_map_00024_1_l.png",
 		id:112
 	},
+	RAIDEVENT024:{
+		japName:"ヨミハラサイドストーリー",
+		engName:"",
+		type:"raid",
+		banner:"bnr_ev_raid_00024_1_l.png",
+		id:113
+	},
+	CHAPTER040:{
+		japName:"氷神の対魔忍",
+		engName:"",
+		type:"chapter",
+		chapter:40,
+		id:114
+	},
 }
