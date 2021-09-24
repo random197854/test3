@@ -19867,6 +19867,7 @@ var SCENE = {
             misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
+        nextScene:"0360_2"
     },
     "0360_2":{
         character:CHAR.SERUBIA_ROZAMARI,
@@ -19893,6 +19894,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0361_2"
     },
     "0361_2":{
         character:CHAR.WIGHT,
@@ -19933,6 +19935,63 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0364_1":{
+        character:[CHAR.KOUKAWA_ASUKA, CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES,
+                TAG.BLOWJOB_PAIZURI, TAG.BUKKAKE, TAG.DICK_CLEANING_BLOWJOB
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0364_2"
+    },
+    "0364_2":{
+        character:[CHAR.KOUKAWA_ASUKA, CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES, TAG.PANTIES_PUSHED_TO_SIDE, TAG.WOMB_TATTOO,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.DOUBLE_PEACE_SIGN
+            ],
+            male:[TAG.NIPPLE_SUCKING],
+            location:[TAG.ON_BED, TAG.BEDROOM, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0365_1":{
+        character:CHAR.KAMIMURA_MAIKA,
+        tags:{
+            female:[
+                TAG.HALF_NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.NIPPLE_PIERCING,
+                TAG.PROSTITUTION, TAG.BLOWJOB, TAG.SPANKING, TAG.BREAST_GROPING, TAG.DEEPTHROAT, TAG.CUM_SWALLOWING, TAG.CUM_IN_MOUTH, TAG.NIPPLE_PLAY, TAG.BUKKAKE, TAG.PISS_DRINKING, TAG.VAGINAL_LEAKAGE, TAG.DICK_CLEANING_BLOWJOB
+            ],
+            male:[],
+            location:[TAG.SEMI_PUBLIC, TAG.INSIDE],
+            misc:[TAG.NO_SEX, TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0365_2"
+    },
+    "0365_2":{
+        character:CHAR.KAMIMURA_MAIKA,
+        tags:{
+            female:[
+                TAG.HALF_NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.NIPPLE_PIERCING, TAG.WEARING_CONDOMS, TAG.RIPPED_CLOTHING, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.PROSTITUTION, TAG.VAGINAL_SEX, TAG.SQUIRTING, TAG.AHEGAO, TAG.CUM_IN_MOUTH, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE
+
+            ],
+            male:[],
+            location:[TAG.SEMI_PUBLIC, TAG.INSIDE],
+            misc:[TAG.CUT_IN_XRAY, TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+    },
+
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
         form:"young",
