@@ -7840,6 +7840,44 @@ var CHAR = {
             cv:CV.NANASE_PANDA
         }
     },
+    ISUKA:{
+        base:{
+            name:{
+                eng:"Isuka",
+                engAlias:[],
+                jap:"イスカ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.PINK_HAIR, TAG.SHORT_HAIR,
+                TAG.VIOLET_EYES,
+                TAG.LIGHT_SKIN, TAG.BIG_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SAGE_JOH,
+            cv:CV.FURUSAWA_REI
+        }
+    },
+    ROSELINA:{
+        base:{
+            name:{
+                eng:"Roselina",
+                engAlias:[],
+                jap:"ロセリナ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.BLUE_EYES,
+                TAG.LIGHT_SKIN, TAG.BIG_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.ZOL,
+            cv:CV.AOGIRI_KAKO
+        }
+    },
 
 
     // :{
@@ -8014,11 +8052,11 @@ var CHAR = {
             cv:CV.HIROKAWA_KOTONE
         }
     },
-    ISUKA:{
+    MAHOU_SHOUJO_ISUKA:{
         base:{
             name:{
-                eng:"Isuka",
-                engAlias:["Mahou Shoujo Isuka", "Magical Girl Isuka"],
+                eng:"Mahou Shoujo Isuka",
+                engAlias:["Isuka", "Magical Girl Isuka"],
                 jap:"イスカ",
                 japAlias:["魔法少女イスカ"]
             },
@@ -19940,7 +19978,7 @@ var SCENE = {
         tags:{
             female:[
                 TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES,
-                TAG.BLOWJOB_PAIZURI, TAG.BUKKAKE, TAG.DICK_CLEANING_BLOWJOB
+                TAG.BLOWJOB_PAIZURI, TAG.BUKKAKE, TAG.DICK_CLEANING_BLOWJOB, TAG.NIPPLE_SUCKING, TAG.BREAST_GROPING
             ],
             male:[],
             location:[TAG.BEDROOM, TAG.PRIVATE],
@@ -19953,7 +19991,7 @@ var SCENE = {
         character:[CHAR.KOUKAWA_ASUKA, CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
         tags:{
             female:[
-                TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES, TAG.PANTIES_PUSHED_TO_SIDE, TAG.WOMB_TATTOO,
+                TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES, TAG.PANTIES_PUSHED_TO_SIDE, TAG.WOMB_TATTOO, TAG.SIDE_TIE_PANTIES,
                 TAG.COWGIRL_POSITION,
                 TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.DOUBLE_PEACE_SIGN
             ],
@@ -19988,6 +20026,89 @@ var SCENE = {
             male:[],
             location:[TAG.SEMI_PUBLIC, TAG.INSIDE],
             misc:[TAG.CUT_IN_XRAY, TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0366_1":{
+        character:CHAR.MIRIAM,
+        tags:{
+            female:[
+                TAG.HALLOWEEN_OUTFIT, TAG.PANTIES, TAG.BREASTS_OUT, TAG.WITCH_HAT, TAG.THIGH_HIGH_STOCKINGS, TAG.FRILLY_CLOTHING, TAG.PANTIES_AROUND_LEG,
+                TAG.BREAST_GROPING, TAG.DRUGS, TAG.NIPPLE_PLAY, TAG.MASTURBATION, TAG.VAGINAL_FINGERING, TAG.SEX_TOYS, TAG.NIPPLE_FUCK, TAG.SQUIRTING, TAG.VAGINAL_LEAKAGE, TAG.VAGINAL_INSERTION
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0366_2"
+    },
+    "0366_2":{
+        character:CHAR.MIRIAM,
+        tags:{
+            female:[
+                TAG.WITCH_HAT, TAG.FRILLY_CLOTHING, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.HALLOWEEN_OUTFIT,
+                TAG.DRUGS, TAG.TRIPLE_PENETRATION, TAG.ANAL_SEX, TAG.VAGINAL_SEX, TAG.BLOWJOB, TAG.NIPPLE_FUCK, TAG.NIPPLE_PLAY, TAG.NAKADASHI, TAG.CUM_IN_MOUTH, TAG.BUKKAKE, TAG.GAPING
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0367_1":{
+        character:[CHAR.IGAWA_ASAGI, CHAR.FUUMA_KOTAROU],
+        form:["clone", null],
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.BREASTS_OUT,
+                TAG.BLOWJOB_PAIZURI, TAG.BUKKAKE, TAG.CUM_IN_MOUTH, TAG.CUM_LICKUP
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0367_2"
+    },
+    "0367_2":{
+        character:[CHAR.IGAWA_ASAGI, CHAR.FUUMA_KOTAROU],
+        form:["clone", null],
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.LEGS_PULLED_UP,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.KISSING, TAG.NAKADASHI, TAG.SQUIRTING, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0368":{
+        character:CHAR.ISUKA,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.VAGINAL_SEX, TAG.SQUIRTING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.ON_BED, TAG.BEDROOM, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0369":{
+        character:CHAR.ROSELINA,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.FRILLY_CLOTHING, TAG.PANTIES_AROUND_LEG, TAG.BREASTS_OUT,
+                TAG.VAGINAL_SEX, TAG.DEFLORATION, TAG.BREAST_GROPING, TAG.NIPPLE_SUCKING, TAG.NAKADASHI, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
         },
         ignoredCharacterTags:[],
     },
@@ -25763,7 +25884,7 @@ var SCENE = {
         ignoredCharacterTags:[],
     },
     "c428":{
-        character:CHAR.ISUKA,
+        character:CHAR.MAHOU_SHOUJO_ISUKA,
         tags:{
             female:[
                 TAG.KIMONO, TAG.BREASTS_OUT, TAG.AHEGAO
@@ -25776,7 +25897,7 @@ var SCENE = {
         nextScene:"c429"
     },
     "c429":{
-        character:CHAR.ISUKA,
+        character:CHAR.MAHOU_SHOUJO_ISUKA,
         tags:{
             female:[
                 TAG.KIMONO, TAG.BREASTS_OUT, TAG.AHEGAO
