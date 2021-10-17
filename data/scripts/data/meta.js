@@ -1724,6 +1724,11 @@ var TAG = {
         aliases: ["Mind Break", "Mind-break"],
         parents: []
     },
+    MIND_CONTROL: {
+        name: "Mind Control",
+        aliases: ["Saimin"],
+        parents:[]
+    },
     PETRIFICATION: {
         name: "Petrification",
         aliases: ["Turned to Stone", "Turns to Stone", "Turn to Stone"],
@@ -5168,7 +5173,8 @@ var CHAR = {
             gender:"female",
             originalCharacter:true,
             artist:ARTIST.BAN,
-            cv:CV.MIYAMORI_YUU
+            cv:CV.MUKAI_REN,
+            altCV:[CV.MIYAMORI_YUU]
         }
     },
     CHEVALIER:{
@@ -13383,6 +13389,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "0040":{
         character:[CHAR.CHEVALIER, CHAR.FUUMA_KOTAROU],
@@ -19783,7 +19790,7 @@ var SCENE = {
         ignoredCharacterTags:[],
     },
     "0354":{
-        character:CHAR.FUUMA_SAIKA,
+        character:[CHAR.FUUMA_SAIKA, CHAR.FUUMA_KOTAROU],
         tags:{
             female:[
                 TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.LEOTARD, TAG.THIGH_HIGH_STOCKINGS,
@@ -20108,6 +20115,89 @@ var SCENE = {
             ],
             male:[],
             location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0370_1":{
+        character:CHAR.SHIMIZU_KANNA,
+        tags:{
+            female:[
+                TAG.HALLOWEEN_OUTFIT, TAG.BREASTS_OUT,
+                TAG.QUICKIE_FIX_POSITION,
+                TAG.BREAST_GROPING, TAG.VAGINAL_FINGERING, TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.NIPPLE_PINCHING, TAG.NAKADASHI, TAG.SWEATING
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0370_2"
+    },
+    "0370_2":{
+        character:CHAR.SHIMIZU_KANNA,
+        tags:{
+            female:[
+                TAG.HALLOWEEN_OUTFIT, TAG.BREASTS_OUT,
+                TAG.HANDJOB, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.SQUIRTING, TAG.BUKKAKE, 
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0371_1":{
+        character:CHAR.YATSU_MURASAKI,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.HALLOWEEN_OUTFIT, TAG.PANTIES, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.PANTIES_PULLED_DOWN,
+                TAG.MIND_CONTROL, TAG.VAGINAL_LEAKAGE, TAG.DOUBLE_PEACE_SIGN_AHEGAO, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.CLASSROOM, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0371_2"
+    },
+    "0371_2":{
+        character:CHAR.YATSU_MURASAKI,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.HALLOWEEN_OUTFIT, TAG.PANTIES, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.MIND_CONTROL, TAG.MASTURBATION, TAG.VAGINAL_FINGERING, TAG.BLOWJOB, TAG.VAGINAL_LEAKAGE, TAG.SQUIRTING, TAG.CUM_IN_MOUTH, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.CLASSROOM, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0372":{
+        character:[CHAR.CHEVALIER, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.HALLOWEEN_OUTFIT, TAG.BREASTS_OUT,
+                TAG.HANDJOB, TAG.BLOWJOB
+            ],
+            male:[],
+            location:[TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0373":{
+        character:CHAR.RUNE,
+        tags:{
+            female:[
+                TAG.PANTIES, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.TENTACLE_RAPE, TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.DOUBLE_PENIS_PENETRATION, TAG.NAKADASHI, TAG.CUM_IN_MOUTH, TAG.TENTACLE_BONDAGE, TAG.SCAT, TAG.STOMACH_DEFORMATION, TAG.STOMACH_INFLATION, 
+            ],
+            male:[TAG.TENTACLE_CREATURE],
+            location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[]
         },
         ignoredCharacterTags:[],
@@ -24711,6 +24801,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite: CV.MIYAMORI_YUU,
         nextScene:"c347"
     },
     "c347":{
@@ -24724,6 +24815,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite: CV.MIYAMORI_YUU,
     },
     "c344":{
         character:CHAR.HOSHINO_MITSUKI,
