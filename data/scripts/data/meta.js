@@ -221,6 +221,12 @@ var ARTIST = {
         jap: "sage・ジョー",
         japAlias: ["ジョー"]
     },
+    TSUNE:{
+        eng: "Tsune",
+        engAlias: [],
+        jap: "常",
+        japAlias: []
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -877,6 +883,12 @@ var CV = {
         engAlias: ["Nanase", "Panda Nanase", "Panda"],
         jap: "七瀬ぱんだ",
         japAlias: ["七瀬", "ぱんだ"]
+    },
+    FUJINOMIYA_KISEKI:{
+        eng: "Fujinomiya Kiseki",
+        engAlias: ["Fujinomiya", "Kiseki Fujinomiya", "Kiseki"],
+        jap: "藤宮きせき",
+        japAlias: ["藤宮", "きせき"]
     },
     IGNORE:{
         eng: "",
@@ -7882,6 +7894,63 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.ZOL,
             cv:CV.AOGIRI_KAKO
+        }
+    },
+    TATSUMIYA_HAIRI:{
+        base:{
+            name:{
+                eng:"Tatsumiya Hairi",
+                engAlias:["Tatsumiya", "Hairi Tatsumiya", "Hairi"],
+                jap:"竜宮ハイリ",
+                japAlias:["竜宮", "ハイリ"]
+            },
+            tags:[
+                TAG.ORANGE_HAIR, TAG.LONG_HAIR,
+                TAG.AMBER_EYES,
+                TAG.LIGHT_SKIN, TAG.AVERAGE_BREASTS, TAG.REPTILIAN_TAIL
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.TSUNE,
+            cv:CV.FUJINOMIYA_KISEKI
+        }
+    },
+    BILBA:{
+        base:{
+            name:{
+                eng:"Bilba",
+                engAlias:[],
+                jap:"ビルヴァ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.PINK_HAIR, TAG.LONG_HAIR,
+                TAG.PINK_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.HOMURA_YUNI,
+            cv:CV.MISONOO_MEI
+        }
+    },
+    ASAHINA_ICHIKA:{
+        base:{
+            name:{
+                eng:"Asahina Ichika",
+                engAlias:["Asahina", "Ichika Asahina", "Ichika"],
+                jap:"朝比奈逸華",
+                japAlias:["朝比奈", "逸華"]
+            },
+            tags:[
+                TAG.RED_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.BLUE_EYES,
+                TAG.BROWN_SKIN, TAG.SMALL_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.NOBUSHITO,
+            cv:CV.HARUNA_REN
         }
     },
 
@@ -20197,6 +20266,86 @@ var SCENE = {
                 TAG.TENTACLE_RAPE, TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.DOUBLE_PENIS_PENETRATION, TAG.NAKADASHI, TAG.CUM_IN_MOUTH, TAG.TENTACLE_BONDAGE, TAG.SCAT, TAG.STOMACH_DEFORMATION, TAG.STOMACH_INFLATION, 
             ],
             male:[TAG.TENTACLE_CREATURE],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0374_1":{
+        character:CHAR.TATSUMIYA_HAIRI,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.THIGH_HIGH_STOCKINGS, TAG.LEOTARD, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS, TAG.VAGINAL_CUTOUT,
+                TAG.METAL_BONDAGE, TAG.VAGINAL_SEX, TAG.DEFLORATION, TAG.NAKADASHI, TAG.RAPE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0374_2"
+    },
+    "0374_2":{
+        character:CHAR.TATSUMIYA_HAIRI,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.THIGH_HIGH_STOCKINGS, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS,
+                TAG.VIBRATOR, TAG.ROTOR, TAG.ANAL_BEADS, TAG.ANAL_SEX, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE, TAG.VAGINAL_SEX
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0375_1":{
+        character:[CHAR.LILITH, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.BREASTS_OUT,
+                TAG.NIPPLE_SUCKING, TAG.HANDJOB, TAG.CUM_LICKUP
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0375_2"
+    },
+    "0375_2":{
+        character:[CHAR.LILITH, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.INCONTINENCE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0376":{
+        character:[CHAR.BILBA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.APRON, TAG.CASUAL_CLOTHING, TAG.BREASTS_OUT,
+                TAG.HANDJOB, TAG.BREAST_SUCKING, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0377":{
+        character:CHAR.ASAHINA_ICHIKA,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.TWO_PIECE_CLOTHING, TAG.BREASTS_OUT, TAG.RIPPED_CLOTHING,
+                TAG.VAGINAL_SEX, TAG.RAPE, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[TAG.ORC],
             location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[]
         },

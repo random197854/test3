@@ -761,7 +761,7 @@ function cursorRight(){
 	removeCursorEffect();
 	if(sceneSelect.cursor % prefs.select.columns == (prefs.select.columns - 1) || sceneSelect.cursor + 1 == main.elements.cgWrapper.children.length){
 		sceneSelect.cursor -= (sceneSelect.cursor % prefs.select.columns);
-	} else {
+	} else { 
 		sceneSelect.cursor += 1;
 	}
 	addCursorEffect()
