@@ -890,6 +890,12 @@ var CV = {
         jap: "藤宮きせき",
         japAlias: ["藤宮", "きせき"]
     },
+    FUJINO_MURASAKI:{
+        eng: "Fujino Murasaki",
+        engAlias: ["Fujino", "Murasaki Fujino", "Murasaki"],
+        jap: "藤野むらさき",
+        japAlias: ["藤野", "むらさき"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -7951,6 +7957,44 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.NOBUSHITO,
             cv:CV.HARUNA_REN
+        }
+    },
+    VIOLA:{
+        base:{
+            name:{
+                eng:"Viola",
+                engAlias:[],
+                jap:"ヴァイオラ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.BLUE_HAIR, TAG.PONYTAIL, TAG.LONG_HAIR,
+                TAG.RED_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN, TAG.SUCCUBUS, TAG.DEMON_TAIL, TAG.HORNS, TAG.BAT_WINGS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SAKURANBO,
+            cv:CV.ENOKIZU_MAO
+        }
+    },
+    ARU_LINDSEY:{
+        base:{
+            name:{
+                eng:"Aru Lindsey",
+                engAlias:["Aru", "Aru Lindsay"],
+                jap:"アル・リンジー",
+                japAlias:["アルリンジー", "アル", "リンジー"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.AMBER_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SABUROU,
+            cv:CV.FUJINO_MURASAKI
         }
     },
 
@@ -20347,6 +20391,85 @@ var SCENE = {
             ],
             male:[TAG.ORC],
             location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0378_1":{
+        character:CHAR.FUYUTSUKI_KURURI,
+        tags:{
+            female:[
+                TAG.GLOVES, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.HANDJOB, TAG.FEMDOM, TAG.VAGINAL_SEX, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0378_2":{
+        character:CHAR.FUYUTSUKI_KURURI,
+        tags:{
+            female:[
+                TAG.HANDJOB, TAG.BALL_CRUSHING, TAG.CUM_LICKUP
+            ],
+            male:[TAG.ANAL_FINGERING],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0379_1":{
+        character:CHAR.ERICA_BLACKMORE,
+        tags:{
+            female:[
+                TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS, TAG.PANTYLESS, TAG.ROPE_BONDAGE,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BLOWJOB, TAG.ANAL_SEX, TAG.TRIPLE_PENIS_PENETRATION, TAG.RAPE, TAG.CUM_IN_MOUTH, TAG.AHEGAO, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0379_2":{
+        character:[CHAR.ERICA_BLACKMORE, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.NAKED,
+                TAG.SITTING_SEX,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0380":{
+        character:CHAR.VIOLA,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS, TAG.SKIRT, TAG.FRILLY_CLOTHING,
+                TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.SQUIRTING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0381":{
+        character:[CHAR.ARU_LINDSEY, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.DRESS, TAG.PANTYLESS,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.DEFLORATION, TAG.NAKADASHI, 
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.PRIVATE],
             misc:[]
         },
         ignoredCharacterTags:[],

@@ -213,6 +213,11 @@ function initUserInput(){
 						toggleOffSceneAutoMode();
 						jumpToAction(true);
 					break;
+					case "KeyV":
+						scene.current.voice.pause();
+						scene.current.voice.currentTime = 0;
+						scene.current.voice.play();
+					break;
 					default:
 						// console.log(e.code)
 					break;
