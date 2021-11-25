@@ -4787,6 +4787,25 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.KAGAMI_HIROTAKA,
             cv:CV.AOBA_RINGO
+        },
+        form:{
+            awakened:{
+                name:{
+                    eng:"Awakened Lilim",
+                    engAlias:[],
+                    jap:"覚醒リリム",
+                    japAlias:[]
+                    
+                },
+                tags:[
+                    TAG.BIG_BREASTS
+                ],
+                remove:{
+                    tags:[
+                        TAG.AVERAGE_BREASTS
+                    ]
+                }
+            }
         }
     },
     NASARA:{
@@ -6018,19 +6037,33 @@ var CHAR = {
         base:{
             name:{
                 eng:"Onisaki Kirara",
-                engAlias:["Kirara", "Onisaki", "Kirara Onisaki", "Kirara Senpai"],
+                engAlias:["Onisaki", "Kirara Onisaki", "Kirara Senpai",  "Kirara"],
                 jap:"鬼崎きらら",
-                japAlias:["きらら", "きらら先輩", "鬼崎"]
+                japAlias:["きらら先輩", "鬼崎", "きらら"]
             },
             tags:[
                 TAG.GOLDEN_BLOND_HAIR, TAG.TWIN_TAILS,
                 TAG.BLUE_EYES,
-                TAG.HUGE_BREASTS, TAG.INVERTED_NIPPLES, TAG.LIGHT_SKIN
+                TAG.HUGE_BREASTS, TAG.INVERTED_NIPPLES, TAG.LIGHT_SKIN, TAG.HORNS
             ],
             gender:"female",
             originalCharacter:true,
             artist:ARTIST.AOI_NAGISA,
             cv:CV.SHIRASE_HONAMI
+        },
+        form:{
+            future:{
+                name:{
+                    eng:"Future Kirara",
+                    engAlias:["Ice God Kirara"],
+                    jap:"氷神きらら",
+                    japAlias:[]
+                    
+                },
+                tags:[
+                    TAG.RED_EYES, TAG.HETEROCHROMIA
+                ]
+            }
         }
     },
     WYMULU:{
@@ -20407,6 +20440,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0378_2"
     },
     "0378_2":{
         character:CHAR.FUYUTSUKI_KURURI,
@@ -20432,6 +20466,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0379_2"
     },
     "0379_2":{
         character:[CHAR.ERICA_BLACKMORE, CHAR.FUUMA_KOTAROU],
@@ -20474,6 +20509,69 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0382_1":{
+        character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["future", null],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.LEOTARD, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.SITTING_SEX,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.NAKADASHI
+
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE, TAG.DREAM],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0382_2"
+    },
+    "0382_2":{
+        character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["future", null],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.BUTTERFLY_POSITION,
+                TAG.PREGNANT, TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.AHEGAO, TAG.VAGINAL_LEAKAGE, TAG.CUM_IN_MOUTH, TAG.LACTATION, TAG.HANDJOB
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE, TAG.DREAM],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0383_1":{
+        character:[CHAR.LILIM, CHAR.IGAWA_SAKURA, CHAR.FUUMA_KOTAROU],
+        form:["awakened", "adult", null],
+        tags:{
+            female:[
+                TAG.CLEAVAGE_CUTOUT, TAG.CHOKER, TAG.TAIMANIN_OUTFIT, TAG.PROTRUDING_NIPPLES, TAG.BREASTS_OUT,
+                TAG.HANDJOB, TAG.KISSING, TAG.CUM_LICKUP, TAG.CUM_IN_MOUTH, TAG.CUM_SWALLOWING
+
+            ],
+            male:[TAG.NIPPLE_PINCHING],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0383_2"
+    },
+    "0383_2":{
+        character:[CHAR.LILIM, CHAR.IGAWA_SAKURA, CHAR.FUUMA_KOTAROU],
+        form:["awakened", "adult", null],
+        tags:{
+            female:[
+                TAG.STOCKINGS, TAG.TAIMANIN_OUTFIT, TAG.FINGERLESS_EVENING_GLOVES, TAG.LEOTARD, TAG.PANTIES_PUSHED_TO_SIDE, TAG.RIPPED_CLOTHING,
+                TAG.VAGINAL_SEX, TAG.ANAL_FINGERING, TAG.AHEGAO, TAG.INCONTINENCE, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,

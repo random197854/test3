@@ -312,7 +312,7 @@ function drawImage(canvas, file, callback=null){
 function createImagePath(file){
 	if(scene.type == H_RPGX || scene.type == CG_RPGX){
 		let id;
-		if(file.startsWith("chr_0") && !file.startsWith("chr_0295_3") && !file.startsWith("chr_0299_3") && !file.startsWith("chr_0334") && !file.startsWith("chr_0364_3")){
+		if(file.startsWith("chr_0") && !file.startsWith("chr_0295_3") && !file.startsWith("chr_0299_3") && !file.startsWith("chr_0334") && !file.startsWith("chr_0364_3") && !file.startsWith("chr_0382_3")){
 			id = file.replace("chr_", "").replace("_r18", "").replace(/[a-z]/g, "").substr(0,6);
 		} else if(file.startsWith("exev")){
 			id = (file.split("_")[0] + file.split("_")[1].replace(/[a-z]/, "")).replace("ev", "");
