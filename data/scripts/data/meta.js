@@ -896,6 +896,12 @@ var CV = {
         jap: "藤野むらさき",
         japAlias: ["藤野", "むらさき"]
     },
+    CAN:{
+        eng: "CAN",
+        engAlias: [],
+        jap: "CAN",
+        japAlias: []
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8028,6 +8034,44 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.SABUROU,
             cv:CV.FUJINO_MURASAKI
+        }
+    },
+    SAKU_KANAME:{
+        base:{
+            name:{
+                eng:"Saku Kaname",
+                engAlias:["Saku", "Kaname Saku", "Kaname"],
+                jap:"佐久かなめ",
+                japAlias:["佐久", "かなめ"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.AMBER_EYES,
+                TAG.LIGHT_SKIN, TAG.AVERAGE_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.KUUCHUU_YOUSAI,
+            cv:CV.HOSHIZORA_YUME
+        }
+    },
+    MINASE_MOMIJI:{
+        base:{
+            name:{
+                eng:"Minase Momiji",
+                engAlias:["Minase", "Momiji Minase", "Momiji"],
+                jap:"皆瀬もみじ",
+                japAlias:["皆瀬", "もみじ"]
+            },
+            tags:[
+                TAG.RED_HAIR, TAG.LONG_HAIR,
+                TAG.AMBER_EYES,
+                TAG.LIGHT_SKIN, TAG.AVERAGE_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.ZOL,
+            cv:CV.CAN
         }
     },
 
@@ -20568,6 +20612,88 @@ var SCENE = {
             male:[],
             location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0384_1":{
+        character:CHAR.KIRIHARA_JUNKO,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT,
+                TAG.NIPPLE_PINCHING, TAG.LACTATION, TAG.NIPPLE_PLAY, TAG.NIPPLE_FUCK, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0384_2"
+    },
+    "0384_2":{
+        character:CHAR.KIRIHARA_JUNKO,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.LACTATION, TAG.INVERTED_NIPPLES, TAG.NIPPLE_PIERCING, TAG.ROTOR, TAG.NAKADASHI, TAG.NIPPLE_PLAY, TAG.NIPPLE_PULLING, TAG.ELECTRIC_SHOCKS
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0385_1":{
+        character:CHAR.ANNEROSE_VAJRA,
+        tags:{
+            female:[
+                TAG.TIGHT_CLOTHING, TAG.PROTRUDING_NIPPLES, TAG.VAGINAL_CUTOUT,
+                TAG.METAL_BONDAGE, TAG.SEX_ENGINE, TAG.VAGINAL_INSERTION, TAG.ANAL_INSERTION, TAG.DOUBLE_PENETRATION, TAG.STOMACH_DEFORMATION, TAG.AHEGAO, TAG.INCONTINENCE, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.SEX_DUNGEON, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0385_2"
+    },
+    "0385_2":{
+        character:CHAR.ANNEROSE_VAJRA,
+        tags:{
+            female:[
+                TAG.TIGHT_CLOTHING, TAG.PROTRUDING_NIPPLES, TAG.VAGINAL_CUTOUT, TAG.BREASTS_OUT,
+                TAG.BUTTERFLY_POSITION,
+                TAG.VAGINAL_SEX, TAG.RAPE, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.BLOWJOB, TAG.CUM_IN_MOUTH
+            ],
+            male:[],
+            location:[TAG.SEX_DUNGEON, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0386":{
+        character:[CHAR.SAKU_KANAME, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.CLEAVAGE_CUTOUT,
+                TAG.PAIZURI, TAG.CUM_LICKUP
+            ],
+            male:[],
+            location:[],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0387":{
+        character:CHAR.MINASE_MOMIJI,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.FRILLY_CLOTHING, TAG.BREASTS_OUT, TAG.PANTYLESS,
+                TAG.ROTOR, TAG.VIBRATOR, TAG.VAGINAL_INSERTION, TAG.SQUIRTING, TAG.VAGINAL_SEX, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
         },
         ignoredCharacterTags:[],
     },
