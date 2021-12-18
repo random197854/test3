@@ -6473,11 +6473,11 @@ var CHAR = {
             cv:CV.HAZUKI_AKARI
         }
     },
-    MARY:{
+    MERRY:{
         base:{
             name:{
-                eng:"Mary",
-                engAlias:["Merry"],
+                eng:"Merry",
+                engAlias:[],
                 jap:"メリィ",
                 japAlias:[]
             },
@@ -15879,7 +15879,7 @@ var SCENE = {
         ignoredCharacterTags:[],
     },
     "0159":{
-        character:CHAR.MARY,
+        character:CHAR.MERRY,
         tags:{
             female:[
                 TAG.SLIT_DRESS, TAG.BREASTS_OUT, TAG.PANTIES,
@@ -20697,7 +20697,88 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0388_1":{
+        character:CHAR.SANADA_HOMURA,
+        tags:{
+            female:[
+                TAG.CHRISTMAS_CLOTHING, TAG.BREASTS_OUT, TAG.PANTIES_AROUND_LEG,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.SQUIRTING, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0388_2"
+    },
+    "0388_2":{
+        character:CHAR.SANADA_HOMURA,
+        tags:{
+            female:[
+                TAG.CHRISTMAS_CLOTHING, TAG.PANTYLESS, TAG.BREASTS_OUT,
+                TAG.STOMACH_INFLATION, TAG.LARGE_INSERTIONS, TAG.VAGINAL_INSERTION, TAG.CUM_IN_MOUTH, TAG.CUM_SWALLOWING, TAG.BUKKAKE, TAG.INCONTINENCE
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0389_1":{
+        character:CHAR.YURI,
+        tags:{
+            female:[
+                TAG.CHRISTMAS_CLOTHING, TAG.LEOTARD, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THONG, TAG.BREAST_CUTOUTS, TAG.FACE_MASK, TAG.PUBIC_HAIR, TAG.BODYSTOCKING, TAG.RIPPED_CLOTHING,
+                TAG.VAGINAL_SEX, TAG.RAPE, TAG.STOMACH_DEFORMATION, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.BUKKAKE, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.PRISON_CELL, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0389_2"
+    },
+    "0389_2":{
+        character:CHAR.YURI,
+        tags:{
+            female:[
+                TAG.CHRISTMAS_CLOTHING, TAG.BODYSTOCKING, TAG.LEOTARD, TAG.BREAST_CUTOUTS, TAG.THONG, TAG.PANTIES_PUSHED_TO_SIDE, TAG.RIPPED_CLOTHING,
+                TAG.BUTTERFLY_POSITION,
+                TAG.VAGINAL_SEX, TAG.BLOWJOB, TAG.NAKADASHI, TAG.BUKKAKE, TAG.DOUBLE_PENIS_PENETRATION
+            ],
+            male:[],
+            location:[TAG.PRISON_CELL, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0390":{
+        character:CHAR.CECILIA_CELLO,
+        tags:{
+            female:[
+                TAG.CHRISTMAS_CLOTHING, TAG.PANTIES, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.HANDJOB, TAG.VAGINAL_SEX, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0391":{
+        character:CHAR.MERRY,
+        tags:{
+            female:[
+                TAG.CHRISTMAS_CLOTHING, TAG.BREASTS_OUT, TAG.THIGH_BAND, TAG.ROPE_BONDAGE,
+                TAG.SPANKING, TAG.VAGINAL_SEX, TAG.WAX_PLAY, TAG.NAKADASHI
 
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
@@ -26120,7 +26201,7 @@ var SCENE = {
         ignoredCharacterTags:[],
     },
     "c397":{
-        character:CHAR.MARY,
+        character:[],
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BLOWJOB
