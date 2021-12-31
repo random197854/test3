@@ -5100,7 +5100,8 @@ var CHAR = {
             gender:"female",
             originalCharacter:true,
             artist:ARTIST.OBUI,
-            cv:CV.MIYAMORI_YUU
+            cv:CV.MUKAI_REN,
+            altCV:[CV.MIYAMORI_YUU]
         }
     },
     OOSHIMA_SHIZUKU:{
@@ -6508,7 +6509,8 @@ var CHAR = {
             gender:"female",
             originalCharacter:true,
             artist:ARTIST.ASAHI,
-            cv:CV.MIYAMORI_YUU
+            cv:CV.MUKAI_REN,
+            altCV:[CV.MIYAMORI_YUU]
         }
     },
     KAURA:{
@@ -6822,9 +6824,9 @@ var CHAR = {
         base:{
             name:{
                 eng:"Yuri",
-                engAlias:[],
+                engAlias:["Fuuma Yukiha", "Yukiha", "Yukiha Fuuma", "Yuu-chan"],
                 jap:"ユーリ",
-                japAlias:[]
+                japAlias:["ふうま雪晴", "ふうま", "雪晴", "ゆーちゃん"]
             },
             tags:[
                 TAG.PINK_HAIR, TAG.SHOULDER_LENGTH_HAIR,
@@ -8321,7 +8323,8 @@ var CHAR = {
             gender:"female",
             originalCharacter:false,
             artist:ARTIST.KAGAMI_HIROTAKA,
-            cv:CV.MIYAMORI_YUU
+            cv:CV.MUKAI_REN,
+            altCV:[CV.MIYAMORI_YUU]
         }
     },
     FUJISAKI_AI:{
@@ -8549,23 +8552,6 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.ASAGIRI,
             cv:CV.HOSHI_MOERU
-        }
-    },
-    REBECCA_SILKY:{
-        base:{
-            name:{
-                eng:"Rebecca Silky",
-                engAlias:["Rebecca", "Rebecca Silky", "Silky"],
-                jap:"レベッカ・シルキー",
-                japAlias:["レベッカ", "シルキー"]
-            },
-            tags:[
-               TAG.BLOND_HAIR
-            ],
-            gender:"female",
-            originalCharacter:true,
-            artist:ARTIST.SASAYUKI,
-            cv:CV.MIYAMORI_YUU
         }
     },
     REBECCA_SILKY:{
@@ -13454,6 +13440,7 @@ var SCENE = {
             misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "0031":{
         character:CHAR.YATSU_MURASAKI,
@@ -15960,6 +15947,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "0163":{
         character:CHAR.NADIA,
@@ -18117,7 +18105,8 @@ var SCENE = {
             misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
-        nextScene:"0265_2"
+        nextScene:"0265_2",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "0265_2":{
         character:CHAR.RUNE,
@@ -18131,6 +18120,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "0266_1":{
         character:[CHAR.AISHUU_HEBIKO, CHAR.FUUMA_KOTAROU],
@@ -20779,6 +20769,89 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0392_1":{
+        character:[CHAR.MIRABELL_BELL, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.KIMONO, TAG.BREASTS_OUT, TAG.THONG,
+                TAG.HANDJOB, TAG.MASTURBATION, TAG.VAGINAL_FINGERING, TAG.KISSING, TAG.VAGINAL_LEAKAGE, TAG.BUKKAKE, TAG.CUM_IN_MOUTH, TAG.DICK_CLEANING_BLOWJOB
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0392_2"
+    },
+    "0392_2":{
+        character:[CHAR.MIRABELL_BELL, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.KIMONO, TAG.BREASTS_OUT, TAG.PANTYLESS,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.KISSING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0393_1":{
+        character:[CHAR.MIZUKI_YUKIKAZE, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
+        tags:{
+            female:[
+                TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.NEKOMIMI, TAG.FRILLY_CLOTHING, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.ASS_GROPING, TAG.VAGINAL_FINGERING, TAG.VAGINAL_LEAKAGE, TAG.SQUIRTING, 
+            ],
+            male:[],
+            location:[TAG.DREAM, TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0393_2"
+    },
+    "0393_2":{
+        character:[CHAR.MIZUKI_YUKIKAZE, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
+        tags:{
+            female:[
+                TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.NEKOMIMI, TAG.FRILLY_CLOTHING, TAG.PANTYLESS,
+                TAG.VAGINAL_SEX, TAG.SQUIRTING, TAG.AHEGAO, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.DREAM, TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.OVERLAY_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0393":{
+        character:[CHAR.ELENA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MIKO_DRESS, TAG.CLEAVAGE_CUTOUT, TAG.PANTIES, TAG.SKIRT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0394":{
+        character:CHAR.SENA,
+        tags:{
+            female:[
+                TAG.KIMONO, TAG.BREASTS_OUT,
+                TAG.BLOWJOB, TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.ANAL_INSERTION, TAG.DRINK_BOTTLE_INSERTION, TAG.NAKADASHI, TAG.CUM_IN_MOUTH
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
@@ -23003,7 +23076,8 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
-        nextScene:"c161"
+        nextScene:"c161",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c161":{
         character:CHAR.MIRABELL_BELL,
@@ -23016,6 +23090,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c159":{
         character:CHAR.MAISIE,
@@ -23738,7 +23813,8 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
-        nextScene:"c213"
+        nextScene:"c213",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c213":{
         character:CHAR.ANNEROSE_VAJRA,
@@ -23751,6 +23827,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     
     "c210":{
@@ -25919,7 +25996,8 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
-        nextScene:"c383"
+        nextScene:"c383",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c383":{
         character:CHAR.MIRABELL_BELL,
@@ -25932,6 +26010,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c380":{
         character:CHAR.CERASTES,
@@ -28967,6 +29046,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c622":{
         character:CHAR.ISOZAKI_IORI,
@@ -29900,7 +29980,8 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
-        nextScene:"c694"
+        nextScene:"c694",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c694":{
         character:CHAR.RUNE,
@@ -29913,6 +29994,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c695":{
         character:CHAR.NANASE_MAI,
@@ -31441,7 +31523,8 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
-        nextScene:"c822"
+        nextScene:"c822",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c822":{
         character:CHAR.RUNE,
@@ -31454,6 +31537,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c815":{
         character:CHAR.SHIJIMA_MUGI,
@@ -32508,7 +32592,8 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
-        nextScene:"c907"
+        nextScene:"c907",
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c907":{
         character:CHAR.RUNE,
@@ -32521,6 +32606,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        cvOverwrite:CV.MIYAMORI_YUU
     },
     "c901":{
         character:CHAR.MIZUKI_SHIRANUI,
