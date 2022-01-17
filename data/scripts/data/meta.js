@@ -8076,6 +8076,63 @@ var CHAR = {
             cv:CV.CAN
         }
     },
+    KARINA:{
+        base:{
+            name:{
+                eng:"Karina",
+                engAlias:[],
+                jap:"カリナ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.BROWN_HAIR, TAG.LONG_HAIR, TAG.KEMONOMIMI,
+                TAG.BROWN_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SANO_TOSHIHIDE,
+            cv:CV.HOSHI_MOERU
+        }
+    },
+    HAYAKAZE_AYAKO:{
+        base:{
+            name:{
+                eng:"Hayakaze Ayako",
+                engAlias:["Hayakaze", "Ayako Hayakaze", "Ayako"],
+                jap:"疾風亜矢子",
+                japAlias:["疾風", "亜矢子"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.AMBER_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SAKURANBO,
+            cv:CV.SUAMA_CHIYOKO
+        }
+    },
+    FUJIMINE_ASUKA:{
+        base:{
+            name:{
+                eng:"Fujimine Asuka",
+                engAlias:["Fujimine", "Asuka Fujimine", "Asuka"],
+                jap:"藤嶺明華",
+                japAlias:["藤嶺", "明華"]
+            },
+            tags:[
+                TAG.CYAN_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.AMBER_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.AIKAWA_ARISA,
+            cv:CV.TAKANASHI_HANAMI
+        }
+    },
 
 
     // :{
@@ -19717,6 +19774,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0393_1"
     },
     "0342":{
         character:[CHAR.FUUMA_KOTAROU, CHAR.LAETITIA_BELLMER],
@@ -20826,7 +20884,7 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
-    "0393":{
+    "0394":{
         character:[CHAR.ELENA, CHAR.FUUMA_KOTAROU],
         tags:{
             female:[
@@ -20839,7 +20897,7 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
-    "0394":{
+    "0395":{
         character:CHAR.SENA,
         tags:{
             female:[
@@ -20849,6 +20907,91 @@ var SCENE = {
             male:[],
             location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0396_1":{
+        character:CHAR.KARINA,
+        tags:{
+            female:[
+                TAG.KIMONO, TAG.RIPPED_CLOTHING, TAG.BREASTS_OUT,
+                TAG.SEVENTH_POSTURE,
+                TAG.METAL_BONDAGE, TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0396_2"
+    },
+    "0396_2":{
+        character:CHAR.KARINA,
+        tags:{
+            female:[
+                TAG.COMPLETELY_NAKED,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0397_1":{
+        character:[CHAR.YANAGI_MUTSUHO, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.MICROSKIRT,
+                TAG.SIXTY_NINE,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0397_2"
+    },
+    "0397_2":{
+        character:[CHAR.YANAGI_MUTSUHO, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.HALF_NAKED, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.SITTING_SEX,
+                TAG.VAGINAL_SEX, TAG.FEMDOM, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0398":{
+        character:[CHAR.HAYAKAZE_AYAKO, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT,
+                TAG.SITTING_SEX,
+                TAG.VAGINAL_SEX, TAG.KISSING, TAG.SQUIRTING
+            ],
+            male:[],
+            location:[],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0399":{
+        character:[CHAR.FUJIMINE_ASUKA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.HEART_PUPILS, TAG.CUM_IN_MOUTH, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED],
+            misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
     },
