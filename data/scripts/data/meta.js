@@ -902,6 +902,18 @@ var CV = {
         jap: "CAN",
         japAlias: []
     },
+    TSURUMAKI_CHITOSE:{
+        eng: "Tsurumaki Chitose",
+        engAlias: ["Tsurumaki", "Chitose Tsurumaki", "Chitose"],
+        jap: "鶴巻ちとせ",
+        japAlias: ["鶴巻", "ちとせ"]
+    },
+    YUZUHARA_MIU:{
+        eng: "Yuzuhara Miu",
+        engAlias: ["Yuzuhara", "Miu Yuzuhara", "Yuzuhara"],
+        jap: "柚原みう",
+        japAlias: ["柚原", "みう"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8131,6 +8143,82 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.AIKAWA_ARISA,
             cv:CV.TAKANASHI_HANAMI
+        }
+    },
+    FELMA:{
+        base:{
+            name:{
+                eng:"Felma",
+                engAlias:[],
+                jap:"フェルマ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.BLUE_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN, TAG.SUCCUBUS, TAG.BAT_WINGS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.TANA,
+            cv:CV.TAKANASHI_HANAMI
+        }
+    },
+    IGAWA_SENSHUU:{
+        base:{
+            name:{
+                eng:"Igawa Senshuu",
+                engAlias:["Igawa", "Senshuu Igawa", "Senshuu", "Asagi's Aunt", "Hisui"],
+                jap:"井河扇舟",
+                japAlias:["井河", "扇舟", "翡翠"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.VIOLET_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SANO_TOSHIHIDE,
+            cv:CV.TSURUMAKI_CHITOSE
+        }
+    },
+    HAYASHIZAKI_MIYAKO:{
+        base:{
+            name:{
+                eng:"Hayashizaki Miyako",
+                engAlias:["Hayashizaki", "Miyako Hayashizaki", "Miyako"],
+                jap:"林崎宮子",
+                japAlias:["林崎", "宮子"]
+            },
+            tags:[
+                TAG.ORANGE_HAIR, TAG.SHORT_HAIR,
+                TAG.VIOLET_EYES,
+                TAG.AVERAGE_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.KUUCHUU_YOUSAI,
+            cv:CV.KONOE_YUZUKO
+        }
+    },
+    SANADA_SAKI:{
+        base:{
+            name:{
+                eng:"Sanada Saki",
+                engAlias:["Sanada", "Saki Sanada", "Saki", "Homura's Sister"],
+                jap:"眞田咲",
+                japAlias:["眞田", "咲"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.AMBER_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.NOBUSHITO,
+            cv:CV.YUZUHARA_MIU
         }
     },
 
@@ -20992,6 +21080,88 @@ var SCENE = {
             male:[],
             location:[TAG.BEDROOM, TAG.ON_BED],
             misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0400_1":{
+        character:CHAR.FELMA,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.REVERSE_MISSIONARY_POSITION,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BUKKAKE, TAG.ANAL_SEX, TAG.AHEGAO, TAG.GAPING
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.GROUP]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0400_2"
+    },
+    "0400_2":{
+        character:CHAR.FELMA,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.SEX_ENGINE, TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.NIPPLE_SUCKING, TAG.DRUGS, TAG.BLINDFOLD, TAG.METAL_BONDAGE, TAG.NAKADASHI, TAG.LACTATION, TAG.AHEGAO, TAG.FUTANARI, TAG.STOMACH_INFLATION
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0401_1":{
+        character:CHAR.IGAWA_SENSHUU,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.EVENING_GLOVES, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.BLOWJOB, TAG.DEEPTHROAT, TAG.CUM_IN_MOUTH, TAG.CUM_SWALLOWING
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0401_2"
+    },
+    "0401_2":{
+        character:CHAR.IGAWA_SENSHUU,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.EVENING_GLOVES, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.DOGGY_STYLE,
+                TAG.ANAL_SEX, TAG.SQUIRTING, TAG.NAKADASHI, TAG.GAPING
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0403":{
+        character:CHAR.HAYASHIZAKI_MIYAKO,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT,
+                TAG.MASTURBATION, TAG.MIND_CONTROL, TAG.HANDJOB, TAG.SQUIRTING
+            ],
+            male:[TAG.ANILINGUS],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0404":{
+        character:TAG.SANADA_SAKI,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PULLED_DOWN, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.RAPE, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.ANAL_SEX, TAG.SCAT
+            ],
+            male:[TAG.ORC],
+            location:[TAG.WAREHOUSE, TAG.PRIVATE],
+            misc:[]
         },
         ignoredCharacterTags:[],
     },
