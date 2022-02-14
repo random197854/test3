@@ -6446,6 +6446,26 @@ var CHAR = {
             artist:ARTIST.KAGAMI_HIROTAKA,
             cv:CV.MUKAI_REN,
             altCV:[CV.MIYAMORI_YUU]
+        },
+        form:{
+            young:{
+                name:{
+                    eng:"Young Tokiko",
+                    engAlias:[],
+                    jap:"若い時子",
+                    japAlias:[]
+                    
+                },
+            },
+            adult:{
+                name:{
+                    eng:"Adult Tokiko",
+                    engAlias:[],
+                    jap:"大人時子",
+                    japAlias:[]
+                    
+                },
+            }
         }
     },
     ASTAROTH:{
@@ -14736,6 +14756,7 @@ var SCENE = {
     },
     "0093_1":{
         character:[CHAR.FUUMA_TOKIKO, CHAR.FUUMA_KOTAROU],
+        form:["adult", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.LEOTARD, TAG.THIGH_HIGH_STOCKINGS, TAG.CLEAVAGE_CUTOUT, TAG.BRIDAL_GAUNTLET, TAG.PROTRUDING_NIPPLES,
@@ -14751,6 +14772,7 @@ var SCENE = {
     },
     "0093_2":{
         character:[CHAR.FUUMA_TOKIKO, CHAR.FUUMA_KOTAROU],
+        form:["adult", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.LEOTARD, TAG.THIGH_HIGH_STOCKINGS, TAG.CLEAVAGE_CUTOUT, TAG.BRIDAL_GAUNTLET, TAG.BREASTS_OUT,
@@ -17718,6 +17740,7 @@ var SCENE = {
     },
     "0240_1":{
         character:[CHAR.FUUMA_TOKIKO, CHAR.FUUMA_KOTAROU],
+        form:["adult", null],
         tags:{
             female:[
                 TAG.BIKINI, TAG.BREASTS_OUT,
@@ -17733,6 +17756,7 @@ var SCENE = {
     },
     "0240_2":{
         character:[CHAR.FUUMA_TOKIKO, CHAR.FUUMA_KOTAROU],
+        form:["adult", null],
         tags:{
             female:[
                 TAG.BIKINI, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
@@ -19367,6 +19391,7 @@ var SCENE = {
     },
     "0319_1":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.BUTLER_UNIFORM, TAG.NIPPLE_PIERCING, TAG.BREASTS_OUT, TAG.RIPPED_CLOTHING, TAG.VAGINAL_CUTOUT,
@@ -19381,6 +19406,7 @@ var SCENE = {
     },
     "0319_2":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.BUTLER_UNIFORM, TAG.NIPPLE_PIERCING, TAG.BREASTS_OUT, TAG.RIPPED_CLOTHING, TAG.VAGINAL_CUTOUT,
@@ -21139,7 +21165,7 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
-    "0403":{
+    "0402":{
         character:CHAR.HAYASHIZAKI_MIYAKO,
         tags:{
             female:[
@@ -21152,8 +21178,8 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
-    "0404":{
-        character:TAG.SANADA_SAKI,
+    "0403":{
+        character:CHAR.SANADA_SAKI,
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PULLED_DOWN, TAG.THIGH_HIGH_STOCKINGS,
@@ -21162,6 +21188,89 @@ var SCENE = {
             male:[TAG.ORC],
             location:[TAG.WAREHOUSE, TAG.PRIVATE],
             misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0404_1":{
+        character:[CHAR.YUFI, CHAR.SOFI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.NAKED_RIBBON, TAG.THONG, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_FINGERING, TAG.SWEATING, TAG.BUKKAKE, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0404_2"
+    },
+    "0404_2":{
+        character:[CHAR.YUFI, CHAR.SOFI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.NAKED_RIBBON,
+                TAG.VAGINAL_LEAKAGE, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BREAST_GROPING
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0405_1":{
+        character:CHAR.FUUMA_TOKIKO,
+        form:"young",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.MICROSKIRT, TAG.THIGH_HIGH_STOCKINGS, TAG.EVENING_GLOVES,
+                TAG.ROTOR, TAG.CUNNILINGUS, TAG.MAGIC_WAND, TAG.SQUIRTING
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0405_2"
+    },
+    "0405_2":{
+        character:CHAR.FUUMA_TOKIKO,
+        form:"young",
+        tags:{
+            female:[
+                TAG.LINGERIE, TAG.TRANSPARENT_CLOTHING, TAG.PANTIES_PUSHED_TO_SIDE, TAG.EVENING_GLOVES, TAG.CHOKER, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT,
+                TAG.SITTING_SEX,
+                TAG.VAGINAL_SEX, TAG.KISSING, TAG.BREAST_GROPING, TAG.NIPPLE_PINCHING, TAG.AHEGAO, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0406":{
+        character:[CHAR.DONNA_BURROUGHS, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.DRESS, TAG.PANTIES, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.HANDJOB, TAG.VAGINAL_LEAKAGE, TAG.BUKKAKE, TAG.VAGINAL_SEX, TAG.LACTATION, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0407":{
+        character:CHAR.KAKEHARA_TAKAOMI,
+        tags:{
+            female:[
+                TAG.GLASSES, TAG.BREASTS_OUT,
+                TAG.BLOWJOB, TAG.LIVE_STREAMING, TAG.CUM_IN_MOUTH, TAG.CUM_SWALLOWING
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.SEMI_PRIVATE],
+            misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
     },
@@ -25654,6 +25763,7 @@ var SCENE = {
     },
     "c338":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BREAST_GROPING, TAG.RYONA
@@ -25925,6 +26035,7 @@ var SCENE = {
     },
     "c352":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -25939,6 +26050,7 @@ var SCENE = {
     },
     "c353":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -26448,6 +26560,7 @@ var SCENE = {
     },
     "c390":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.SEX_ENGINE
@@ -26462,6 +26575,7 @@ var SCENE = {
     },
     "c391":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.BLOWJOB
@@ -26476,6 +26590,7 @@ var SCENE = {
     },
     "c392":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -27992,6 +28107,7 @@ var SCENE = {
     },
     "c528":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.WEDDING_DRESS, TAG.AHEGAO, TAG.DEFLORATION
@@ -28006,6 +28122,7 @@ var SCENE = {
     },
     "c529":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.WEDDING_DRESS, TAG.AHEGAO, TAG.DEFLORATION
@@ -30003,6 +30120,7 @@ var SCENE = {
     },
     "c665":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.HANDJOB
@@ -30017,6 +30135,7 @@ var SCENE = {
     },
     "c666":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -31880,6 +31999,7 @@ var SCENE = {
 
     "c813":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BREAST_GROPING, TAG.ORC
@@ -31894,6 +32014,7 @@ var SCENE = {
     },
     "c814":{
         character:CHAR.FUUMA_TOKIKO,
+        form:"adult",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.ORC
