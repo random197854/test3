@@ -21274,6 +21274,89 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0408_1":{
+        character:[CHAR.ISOZAKI_IORI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.GARTER_BELT, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.SIXTY_NINE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0408_2"
+    },
+    "0408_2":{
+        character:[CHAR.ISOZAKI_IORI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.THIGH_HIGH_STOCKINGS, TAG.GARTER_BELT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.LEGLOCK, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0409_1":{
+        character:[CHAR.CLEAR_LOBEL, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.CUM_IN_MOUTH, TAG.CUM_SWALLOWING
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        artistOverwrite:ARTIST.FUUFUU,
+        nextScene:"0409_2"
+    },
+    "0409_2":{
+        character:[CHAR.CLEAR_LOBEL, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.THIGH_HIGH_STOCKINGS, TAG.BRA, TAG.BREASTS_OUT, TAG.PANTYLESS,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.OVERLAY_XRAY]
+        },
+        ignoredCharacterTags:[],
+        artistOverwrite:ARTIST.FUUFUU
+    },
+    "0410":{
+        character:CHAR.CRACKLE,
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.PANTIES, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI, TAG.INCONTINENCE, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0411":{
+        character:CHAR.ELEKTRA,
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.BREASTS_OUT, TAG.THIGH_HIGH_STOCKINGS, TAG.PANTYLESS,
+                TAG.SEVENTH_POSTURE,
+                TAG.VAGINAL_SEX, TAG.ELECTRIC_SHOCKS, TAG.ROTOR, TAG.NAKADASHI, TAG.AHEGAO, TAG.INCONTINENCE, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
