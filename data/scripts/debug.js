@@ -33,6 +33,43 @@ function checkExists(path){
 	file.src = path;
 }
 
+function consecBG(){
+	for(let key in storyData){
+		let sections = storyData[key].SECTIONS;
+		for(let section in sections){
+			let parts = sections[section];
+			for(let part in parts){
+				let script = parts[part].SCRIPT;
+				parse(script, {key:key, section:section, part:part});
+			}
+		}
+	}
+	for(let id in sceneData){
+		if(!sceneData[id].rpgx) continue;
+		parse(sceneData[id].SCRIPTS.PART1.SCRIPT, {key:id});
+	}
+
+	function parse(script, data = {section:"None", part:"None"}){
+		let found = 0;
+		for(let cmd of script){
+			if(getTag(cmd) == "<ACTOR>"){
+				if(cmd.includes(" IN, ")) found++;
+			} else if(getTag(cmd) == "<ACTOR_OUT>"){
+				found--;
+			} else if(getTag(cmd) == "<EFFECT_FLASH>"){
+				if(found > 0){
+					console.log(data.key + " - " + data.section + " - " + data.part);
+				}
+			}
+
+		}
+	}
+
+	function getTag(cmd){
+		return cmd.substr(0, cmd.lastIndexOf(">") + 1);
+	}
+}
+
 function fileCheck(ids=Object.keys(sceneData)){
 	runningFileCheck = true;
 	console.log("Running File Check:");

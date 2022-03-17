@@ -914,6 +914,24 @@ var CV = {
         jap: "柚原みう",
         japAlias: ["柚原", "みう"]
     },
+    WAOU_KIRIKA:{
+        eng: "Waou Kirika",
+        engAlias: ["Waou", "Kirika Waou", "Kirika"],
+        jap: "和央きりか",
+        japAlias: ["和央", "きりか"]
+    },
+    YUUKI_HONOKA:{
+        eng: "Yuuki Honoka",
+        engAlias: ["Yuuki", "Honoka Yuuki", "Honoka"],
+        jap: "結城ほのか",
+        japAlias: ["結城", "ほのか"]
+    },
+    FUYUMINE_KOSUZU:{
+        eng: "Fuyumine Kosuzu",
+        engAlias: ["Fuyumine", "Kosuzu Fuyumine", "Kosuzu"],
+        jap: "冬峰小鈴",
+        japAlias: ["冬峰", "小鈴"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8239,6 +8257,82 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.NOBUSHITO,
             cv:CV.YUZUHARA_MIU
+        }
+    },
+    KARIN_BRANFORD:{
+        base:{
+            name:{
+                eng:"Karin Branford",
+                engAlias:[],
+                jap:"カリン・ブランフォード",
+                japAlias:["カリンブランフォード"]
+            },
+            tags:[
+                TAG.BLOND_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.CYAN_EYES,
+                TAG.AVERAGE_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SANO_TOSHIHIDE,
+            cv:CV.FUYUMINE_KOSUZU
+        }
+    },
+    PHANTASMA:{
+        base:{
+            name:{
+                eng:"Phantasma",
+                engAlias:[],
+                jap:"ファンタスマ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.GREEN_HAIR, TAG.PINK_HAIR, TAG.LONG_HAIR,
+                TAG.CYAN_EYES,
+                TAG.HUGE_BREASTS, TAG.BROWN_SKIN, TAG.SUCCUBUS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.AOI_NAGISA,
+            cv:CV.HANAZE_CHII
+        }
+    },
+    KANNAGI_KAEDE:{
+        base:{
+            name:{
+                eng:"Kannagi Kaede",
+                engAlias:["Kannagi", "Kaede Kannagi", "Kaede"],
+                jap:"巫部楓葉",
+                japAlias:["巫部", "楓葉"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.AMBER_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SAIJO_SATORU,
+            cv:CV.WAOU_KIRIKA
+        }
+    },
+    AREKKI:{
+        base:{
+            name:{
+                eng:"Arekki",
+                engAlias:["Alekki"],
+                jap:"アレッキィ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.BLACK_HAIR, TAG.LONG_HAIR,
+                TAG.GREEN_EYES, TAG.RED_EYES, TAG.HETEROCHROMIA,
+                TAG.SMALL_BREASTS, TAG.LIGHT_SKIN, TAG.SUCCUBUS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.TSUNE,
+            cv:CV.YUUKI_HONOKA
         }
     },
 
@@ -21354,6 +21448,90 @@ var SCENE = {
             male:[],
             location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0412_1":{
+        character:CHAR.KARIN_BRANFORD,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.VAGINAL_CUTOUT, TAG.RIPPED_CLOTHING,
+                TAG.VIBRATOR, TAG.VAGINAL_LEAKAGE, TAG.SQUIRTING, TAG.AHEGAO, TAG.MASTURBATION
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0412_2"
+    },
+    "0412_2":{
+        character:CHAR.KARIN_BRANFORD,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.VAGINAL_CUTOUT, TAG.RIPPED_CLOTHING,
+                TAG.VAGINAL_SEX, TAG.METAL_BONDAGE, TAG.NAKADASHI, TAG.BUKKAKE, TAG.RAPE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0413_1":{
+        character:[CHAR.PHANTASMA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.NAKED, TAG.THIGH_HIGH_STOCKINGS, TAG.HEART_PUPILS,
+                TAG.COWGIRL_POSITION,
+                TAG.BUKKAKE, TAG.VAGINAL_SEX, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0413_2"
+    },
+    "0413_2":{
+        character:[CHAR.PHANTASMA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0414":{
+        character:CHAR.KANNAGI_KAEDE,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREAST_CUTOUTS, TAG.RIPPED_CLOTHING, TAG.VAGINAL_CUTOUT,
+                TAG.METAL_BONDAGE, TAG.VAGINAL_SEX, TAG.RAPE, TAG.DEFLORATION, TAG.NAKADASHI, TAG.BUKKAKE
+
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0415":{
+        character:CHAR.AREKKI,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.COWGIRL_POSITION,
+                TAG.HANDJOB, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.PRISON_CELL, TAG.PRIVATE],
+            misc:[TAG.GROUP]
         },
         ignoredCharacterTags:[],
     },
