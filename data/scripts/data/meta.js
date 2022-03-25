@@ -4541,9 +4541,9 @@ var CHAR = {
             future:{
                 name: {
                     eng: "Future Asuka",
-                    engAlias: ["Mirai Asuka"],
+                    engAlias: ["Mirai Asuka", "Loli Asuka", "Wind God Asuka", "God of Wind Asuka", "Adult Asuka", "Mirai Koukawa Asuka", "Loli Koukawa Asuka", "Wind God Koukawa Asuka", "God of Wind Koukawa Asuka", "Adult Koukawa Asuka", "Future Koukawa Asuka", "Fuujin Asuka", "Fuujin Koukawa Asuka"],
                     jap: "未来アスカ",
-                    japAlias: []
+                    japAlias: ["風神アスカ", "大人アスカ", "大人甲河アスカ", "風神アスカ", "風神甲河アスカ", "未来甲河アスカ"]
                 },
                 tags:[
                     TAG.YOUNGER_APPEARANCE
@@ -4602,9 +4602,9 @@ var CHAR = {
             adult:{
                 name:{
                     eng:"Adult Yukikaze",
-                    engAlias:[],
+                    engAlias:["God of Lightning Yukikaze", "Lightning God Yukikaze", "Future Yukikaze", "Futurekaze", "God of Lightning Mizuki Yukikaze", "Lightning God Mizuki Yukikaze", "Adult Mizuki Yukikaze", "Future Mizuki Yukikaze", "Raijin Yukikaze", "Raijin Mizuki Yukikaze"],
                     jap:"大人ゆきかぜ",
-                    japAlias:[]
+                    japAlias:["雷神ゆきかぜ", "雷神水城ゆきかぜ", "大人水城ゆきかぜ", "未来ゆきかぜ", "未来水城ゆきかぜ"]
                 },
                 tags:[
                     TAG.LIGHT_BROWN_SKIN, TAG.SHORT_HAIR
@@ -4618,9 +4618,9 @@ var CHAR = {
             young:{
                 name:{
                     eng:"Young Yukikaze",
-                    engAlias:[],
+                    engAlias:["Young Mizuki Yukikaze"],
                     jap:"若いゆきかぜ",
-                    japAlias:[]
+                    japAlias:["若い水城ゆきかぜ"]
                 },
             },
         }
@@ -5358,6 +5358,24 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.POTION,
             cv:CV.FUIJI_NEKOKO
+        },
+        form:{
+            adult:{
+                name:{
+                    eng:"Chief Mari",
+                    engAlias:["Future Mari", "Adult Mari", "Future Shinohara Mari", "Adult Shinohara Mari", "Chief Shinohara Mari", "Mari Shuuryou", "Shinohara Mari Shuuryou"],
+                    jap:"まり首領",
+                    japAlias:["大人まり", "大人篠原まり", "未来まり", "未来篠原まり", "篠原まり首領"]
+                },
+            },
+            young:{
+                name:{
+                    eng:"Young Mari",
+                    engAlias:["Young Shinohara Mari"],
+                    jap:"若いまり",
+                    japAlias:["若い篠原まり"]
+                },
+            },
         }
     },
     YUKINA_GRACE:{
@@ -5646,7 +5664,26 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.SIAN,
             cv:CV.SAKURA_MOMOKA
+        },
+        form:{
+            adult:{
+                name:{
+                    eng:"Maika Nee-san",
+                    engAlias:["God of Fire Maika", "Fire God Maika", "Kajin Maika", "Future Maika", "Adult Maika", "God of Fire Kamimura Maika", "Fire God Kamimura Maika", "Kajin Kamimura Maika", "Future Kamimura Maika", "Adult Kamimura Maika"],
+                    jap:"舞華姐さん",
+                    japAlias:["大人舞華", "大人神村舞華", "火神舞華", "火神神村舞華", "未来舞華", "未来神村舞華"]
+                },
+            },
+            young:{
+                name:{
+                    eng:"Young Maika",
+                    engAlias:["Young Kamimura Maika"],
+                    jap:"若い舞華",
+                    japAlias:["若い神村舞華"]
+                },
+            },
         }
+        
     },
     LUSTER:{
         base:{
@@ -6091,16 +6128,24 @@ var CHAR = {
         form:{
             future:{
                 name:{
-                    eng:"Future Kirara",
-                    engAlias:["Ice God Kirara"],
+                    eng:"Ice God Kirara",
+                    engAlias:["God of Ice Kirara", "Hikami Kirara", "Adult Kirara", "Future Kirara", "Ice God Onisaki Kirara", "God of Ice Onisaki Kirara", "Hikami Onisaki Kirara", "Adult Onisaki Kirara", "Future Onisaki Kirara"],
                     jap:"氷神きらら",
-                    japAlias:[]
+                    japAlias:["未来きらら", "未来鬼崎きらら", "大人きらら", "大人鬼崎きらら", "氷神鬼崎きらら"]
                     
                 },
                 tags:[
                     TAG.RED_EYES, TAG.HETEROCHROMIA
                 ]
-            }
+            },
+            young:{
+                name: {
+                    eng: "Young Kirara",
+                    engAlias: ["Young Onisaki Kirara"],
+                    jap: "若いきらら",
+                    japAlias: ["若い鬼崎きらら"]
+                }
+            },
         }
     },
     WYMULU:{
@@ -6752,6 +6797,26 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.KAGAMI_HIROTAKA,
             cv:CV.SHIPPU_HARU
+        },
+        form:{
+            young:{
+                name:{
+                    eng:"Young Hebiko",
+                    engAlias:["Young Aishuu Hebiko"],
+                    jap:"若い蛇子",
+                    japAlias:["若い相州蛇子"]
+                    
+                },
+            },
+            adult:{
+                name:{
+                    eng:"Majin Hebiko-sama",
+                    engAlias:["Adult Hebiko", "Majin Hebiko", "Hebiko-sama", "Future Hebiko", "Majin Aishuu Hebiko-sama", "Adult Aishuu Hebiko", "Majin Aishuu Hebiko", "Aishuu Hebiko-sama", "Future Aishuu Hebiko"],
+                    jap:"魔神蛇子さま",
+                    japAlias:["魔神蛇子", "蛇子さま", "大人蛇子", "大人相州蛇子", "未来蛇子", "未来相州蛇子"]
+                    
+                },
+            }
         }
     },
     UEHARA_SHIKANOSUKE:{
@@ -13927,6 +13992,7 @@ var SCENE = {
     },
     "0047":{
         character:[CHAR.SHINOHARA_MARI, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.GLASSES,
@@ -14437,6 +14503,7 @@ var SCENE = {
     },
     "0072_1":{
         character:[CHAR.KAMIMURA_MAIKA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.THIGH_BAND, TAG.THONG, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS,
@@ -14451,6 +14518,7 @@ var SCENE = {
     },
     "0072_2":{
         character:[CHAR.KAMIMURA_MAIKA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.THIGH_BAND, TAG.THONG, TAG.BREASTS_OUT,
@@ -14655,6 +14723,7 @@ var SCENE = {
     },
     "0083":{
         character:[CHAR.SHINOHARA_MARI, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.CHRISTMAS_CLOTHING, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.RIPPED_CLOTHING, TAG.GLASSES,
@@ -15290,6 +15359,7 @@ var SCENE = {
     },
     "0119_1":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.GLASSES, TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS,
@@ -15304,6 +15374,7 @@ var SCENE = {
     },
     "0119_2":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.GLASSES, TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS, TAG.THIGH_BAND,
@@ -15317,6 +15388,7 @@ var SCENE = {
     },
     "0120_1":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.LEOTARD, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.HAIR_TIE_RIBBON,
@@ -15332,6 +15404,7 @@ var SCENE = {
     },
     "0120_2":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.HAIR_TIE_RIBBON,
@@ -16032,6 +16105,7 @@ var SCENE = {
     },
     "0154":{
         character:[CHAR.KAMIMURA_MAIKA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.CASUAL_CLOTHING, TAG.BREASTS_OUT, TAG.BRA, TAG.THONG, TAG.THIGH_HIGH_SOCKS, TAG.PANTIES_PUSHED_TO_SIDE, TAG.SKIRT,
@@ -16170,6 +16244,7 @@ var SCENE = {
     },
     "0161_1":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.LEOTARD, TAG.HALLOWEEN_OUTFIT, TAG.BREASTS_OUT, TAG.HAIR_TIE_RIBBON,
@@ -16184,6 +16259,7 @@ var SCENE = {
     },
     "0161_2":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.LEOTARD, TAG.HALLOWEEN_OUTFIT, TAG.BREASTS_OUT, TAG.HAIR_TIE_RIBBON,
@@ -16551,6 +16627,7 @@ var SCENE = {
     },
     "0180_1":{
         character:[CHAR.AISHUU_HEBIKO, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS, 
@@ -16565,6 +16642,7 @@ var SCENE = {
     },
     "0180_2":{
         character:[CHAR.AISHUU_HEBIKO, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS, TAG.CROTCHLESS_CLOTHING,
@@ -17239,6 +17317,7 @@ var SCENE = {
     },
     "0212":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.SCHOOL_UNIFORM, TAG.SKIRT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.GLASSES, TAG.BREASTS_OUT,
@@ -18053,6 +18132,7 @@ var SCENE = {
     },
     "0251_1":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
                 TAG.BUNNYGIRL_OUTFIT, TAG.EVENING_GLOVES, TAG.USAMIMI,
@@ -18067,6 +18147,7 @@ var SCENE = {
     },
     "0251_2":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
                 TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.USAMIMI,
@@ -18080,6 +18161,7 @@ var SCENE = {
     },
     "0252_1":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.BUNNYGIRL_OUTFIT, TAG.LEOTARD, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.HIGH_HEELS, TAG.USAMIMI,
@@ -18094,6 +18176,7 @@ var SCENE = {
     },
     "0252_2":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.LEOTARD, TAG.PANTIES_PUSHED_TO_SIDE, TAG.USAMIMI,
@@ -18387,6 +18470,7 @@ var SCENE = {
     },
     "0266_1":{
         character:[CHAR.AISHUU_HEBIKO, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.WITCH_HAT, TAG.CHOKER, TAG.SKIRT, TAG.CAPE, TAG.CROP_TOP, TAG.CLEAVAGE_CUTOUT, TAG.THIGH_HIGH_SOCKS, TAG.BREASTS_OUT,
@@ -18401,6 +18485,7 @@ var SCENE = {
     },
     "0266_2":{
         character:[CHAR.AISHUU_HEBIKO, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.CHOKER, TAG.SKIRT, TAG.THIGH_HIGH_SOCKS, TAG.BREASTS_OUT, TAG.SIDE_TIE_PANTIES, TAG.PANTIES_PUSHED_TO_SIDE,
@@ -19789,6 +19874,7 @@ var SCENE = {
     },
     "0333_1":{
         character:[CHAR.AISHUU_HEBIKO, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.WEDDING_DRESS, TAG.THIGH_HIGH_STOCKINGS, TAG.EVENING_GLOVES, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THONG,
@@ -19804,6 +19890,7 @@ var SCENE = {
     },
     "0333_2":{
         character:CHAR.AISHUU_HEBIKO,
+        form:"young",
         tags:{
             female:[
                 TAG.WEDDING_DRESS, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.EVENING_GLOVES, TAG.THIGH_HIGH_STOCKINGS, TAG.THONG,
@@ -20428,6 +20515,7 @@ var SCENE = {
     },
     "0364_1":{
         character:[CHAR.KOUKAWA_ASUKA, CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["normal", "young", null],
         tags:{
             female:[
                 TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES,
@@ -20442,6 +20530,7 @@ var SCENE = {
     },
     "0364_2":{
         character:[CHAR.KOUKAWA_ASUKA, CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["normal", "young", null],
         tags:{
             female:[
                 TAG.BIKINI, TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.EVENING_GLOVES, TAG.PANTIES_PUSHED_TO_SIDE, TAG.WOMB_TATTOO, TAG.SIDE_TIE_PANTIES,
@@ -20456,6 +20545,7 @@ var SCENE = {
     },
     "0365_1":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"adult",
         tags:{
             female:[
                 TAG.HALF_NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.NIPPLE_PIERCING,
@@ -20470,6 +20560,7 @@ var SCENE = {
     },
     "0365_2":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"adult",
         tags:{
             female:[
                 TAG.HALF_NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.NIPPLE_PIERCING, TAG.WEARING_CONDOMS, TAG.RIPPED_CLOTHING, TAG.THIGH_HIGH_STOCKINGS,
@@ -21535,6 +21626,65 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0416_1":{
+        character:CHAR.SHINOHARA_MARI,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.BREAST_CUTOUTS,
+                TAG.RAPE, TAG.VAGINAL_FINGERING, TAG.SQUIRTING, TAG.BLOWJOB, TAG.VAGINAL_SEX, TAG.BUKKAKE, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.CLASSROOM],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0416_2"
+    },
+    "0416_2":{
+        character:CHAR.SHINOHARA_MARI,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.VAGINAL_CUTOUT, TAG.BREAST_CUTOUTS, TAG.NIPPLE_PIERCING,
+                TAG.SPREAD_PUSSY, TAG.HANDJOB, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BUKKAKE, TAG.DOUBLE_PEACE_SIGN_AHEGAO
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.CLASSROOM],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0417_1":{
+        character:CHAR.AISHUU_HEBIKO,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREAST_CUTOUTS, TAG.VAGINAL_CUTOUT,
+                TAG.TENTACLE_BONDAGE, TAG.BREAST_INJECTION, TAG.BREAST_SUCKING, TAG.NIPPLE_PULLING, TAG.LACTATION, TAG.AHEGAO, TAG.SQUIRTING
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0417_2"
+    },
+    "0417_2":{
+        character:CHAR.AISHUU_HEBIKO,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREAST_CUTOUTS, TAG.VAGINAL_CUTOUT,
+                TAG.SUSPENSION_BONDAGE, TAG.VAGINAL_LEAKAGE, TAG.TENTACLE_BONDAGE, TAG.BREAST_INJECTION, TAG.CLIT_INJECTION, TAG.BREAST_GROPING, TAG.NIPPLE_PINCHING, TAG.TENTACLE_RAPE, TAG.VAGINAL_SEX, TAG.PREGNANT, TAG.LACTATION, TAG.AHEGAO, TAG.NAKADASHI, TAG.MONSTER_BIRTH, TAG.MINDBREAK
+            ],
+            male:[],
+            location:[TAG.FLESH_ROOM, TAG.PRIVATE],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
@@ -22590,6 +22740,7 @@ var SCENE = {
     
     "c135":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.GLASSES, TAG.BREAST_CUTOUTS,
@@ -22605,6 +22756,7 @@ var SCENE = {
     },
     "c136":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.GLASSES, TAG.BREAST_CUTOUTS,
@@ -23700,6 +23852,7 @@ var SCENE = {
 
     "c154":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
 
@@ -23713,6 +23866,7 @@ var SCENE = {
     },
     "c155":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -23726,6 +23880,7 @@ var SCENE = {
     },
     "c156":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.SCAT
@@ -31528,6 +31683,7 @@ var SCENE = {
     },
     "c757":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.BIKINI, TAG.AHEGAO
@@ -31541,6 +31697,7 @@ var SCENE = {
     },
     "c758":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.BIKINI, TAG.AHEGAO
@@ -32591,6 +32748,7 @@ var SCENE = {
     },
     "c834":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BREAST_GROPING
@@ -32604,6 +32762,7 @@ var SCENE = {
     },
     "c835":{
         character:CHAR.KAMIMURA_MAIKA,
+        form:"young",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BLOWJOB
@@ -34163,6 +34322,7 @@ var SCENE = {
     },
     "c975":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -34176,6 +34336,7 @@ var SCENE = {
     },
     "c976":{
         character:CHAR.SHINOHARA_MARI,
+        form:"young",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -34924,6 +35085,7 @@ var SCENE = {
     },
     "OTOGI_217051":{
         character:[CHAR.ONISAKI_KIRARA, CHAR.FUUMA_KOTAROU],
+        form:["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.LEOTARD,
@@ -34938,6 +35100,7 @@ var SCENE = {
     },
     "OTOGI_217061":{
         character:CHAR.MIZUKI_YUKIKAZE,
+        form:"young",
         tags:{
             female:[
                 TAG.NAKED,
@@ -34953,6 +35116,7 @@ var SCENE = {
     },
     "OTOGI_217062":{
         character:CHAR.MIZUKI_YUKIKAZE,
+        form:"young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREAST_CUTOUTS, TAG.RIPPED_CLOTHING,
