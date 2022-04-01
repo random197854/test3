@@ -21684,6 +21684,91 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0418_1":{
+        character:CHAR.TAMAMO,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.GARTER_BELT, TAG.THIGH_HIGH_STOCKINGS, TAG.SKIRT,
+                TAG.PAIZURI, TAG.BLOWJOB_PAIZURI, TAG.BUKKAKE, 
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0418_2"
+    },
+    "0418_2":{
+        character:CHAR.TAMAMO,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.GARTER_BELT, TAG.THIGH_HIGH_STOCKINGS, TAG.SKIRT,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0419_1":{
+        character:[CHAR.KOUKAWA_ASUKA, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
+        tags:{
+            female:[
+                TAG.CHEERLEADER_OUTFIT, TAG.MINISKIRT, TAG.THONG, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.FRILLY_CLOTHING,
+                TAG.SIXTY_NINE,
+                TAG.BLOWJOB, TAG.SPREAD_PUSSY, TAG.CUNNILINGUS, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE, TAG.ON_BED],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0419_2"
+    },
+    "0419_2":{
+        character:[CHAR.KOUKAWA_ASUKA, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
+        tags:{
+            female:[
+                TAG.CHEERLEADER_OUTFIT, TAG.BREASTS_OUT, TAG.MINISKIRT, TAG.FRILLY_CLOTHING, TAG.PANTIES_PUSHED_TO_SIDE, TAG.NECKTIE, TAG.THONG,
+                TAG.SITTING_SEX,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.SQUIRTING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE, TAG.ON_BED],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0420":{
+        character:[CHAR.MINASAKI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.CHEERLEADER_OUTFIT, TAG.BREASTS_OUT, TAG.MINISKIRT, TAG.SPATS,
+                TAG.FOOTJOB, TAG.FACESITTING, TAG.VAGINAL_LEAKAGE, TAG.CUNNILINGUS, TAG.BUKKAKE
+            ],
+            male:[TAG.NIPPLE_PLAY],
+            location:[TAG.DREAM, TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0421":{
+        character:CHAR.HINODE_HIMARI,
+        tags:{
+            female:[
+                TAG.CHEERLEADER_OUTFIT, TAG.MINISKIRT,
+                TAG.PAIZURI, TAG.BUKKAKE, TAG.BLOWJOB_PAIZURI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
 
 
     "EX0001":{
