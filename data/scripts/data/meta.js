@@ -932,6 +932,12 @@ var CV = {
         jap: "冬峰小鈴",
         japAlias: ["冬峰", "小鈴"]
     },
+    KUROMORI_OSHIKA:{
+        eng: "Kuromori Oshika",
+        engAlias: ["Kuromori", "Oshika Kuromori", "Oshika"],
+        jap: "黒森オシカ",
+        japAlias: ["黒森", "オシカ"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8398,6 +8404,44 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.TSUNE,
             cv:CV.YUUKI_HONOKA
+        }
+    },
+    SALLY_ROBERTS:{
+        base:{
+            name:{
+                eng:"Sally Roberts",
+                engAlias:["Sally", "Roberts"],
+                jap:"サリー・ロバーツ",
+                japAlias:["サリーロバーツ", "サリー", "ロバーツ"]
+            },
+            tags:[
+                TAG.BLOND_HAIR, TAG.LONG_HAIR,
+                TAG.CYAN_EYES,
+                TAG.LIGHT_SKIN, TAG.SMALL_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.AIKAWA_ARISA,
+            cv:CV.HIGASHI_SHIZU
+        }
+    },
+    ELVIRA:{
+        base:{
+            name:{
+                eng:"Elvira",
+                engAlias:[],
+                jap:"エルヴィーラ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.VIOLET_EYES,
+                TAG.LIGHT_SKIN, TAG.BIG_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.KAGAMI_HIROTAKA,
+            cv:CV.KUROMORI_OSHIKA
         }
     },
 
@@ -17581,9 +17625,9 @@ var SCENE = {
         tags:{
             female:[
                 TAG.EYE_MASK, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
-                TAG.BREAST_GROPING, TAG.FOOT_LICKING, TAG.CUNNILINGUS, TAG.VAGINAL_LEAKAGE, TAG.VIBRATOR, TAG.MAGIC_WAND, TAG.INCONTINENCE, TAG.AHEGAO, TAG.VAGINAL_INSERTION, TAG.BARE_FEET
+                TAG.BREAST_GROPING, TAG.CUNNILINGUS, TAG.VAGINAL_LEAKAGE, TAG.VIBRATOR, TAG.MAGIC_WAND, TAG.INCONTINENCE, TAG.AHEGAO, TAG.VAGINAL_INSERTION, TAG.BARE_FEET
             ],
-            male:[],
+            male:[TAG.FOOT_LICKING],
             location:[],
             misc:[TAG.NO_SEX, TAG.GROUP]
         },
@@ -21766,6 +21810,87 @@ var SCENE = {
             male:[],
             location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0422_1":{
+        character:CHAR.MICHEA_SILKYS,
+        tags:{
+            female:[
+                TAG.RIPPED_CLOTHING, TAG.SIDE_TIE_PANTIES, TAG.THONG, TAG.PANTIES_PUSHED_TO_SIDE, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.TENTACLE_BONDAGE, TAG.TENTACLE_RAPE, TAG.VAGINAL_SEX, TAG.STOMACH_DEFORMATION, TAG.STOMACH_INFLATION, TAG.INCONTINENCE, TAG.NIPPLE_PLAY, TAG.NAKADASHI
+            ],
+            male:[TAG.TENTACLE_CREATURE],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0422_2":{
+        character:CHAR.MICHEA_SILKYS,
+        tags:{
+            female:[
+                TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.THONG, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.MONSTER_BIRTH, TAG.PREGNANT, TAG.SQUIRTING, TAG.TENTACLE, TAG.VAGINAL_SEX, TAG.STOMACH_DEFORMATION, TAG.NIPPLE_PLAY, TAG.STOMACH_INFLATION, TAG.NAKADASHI
+            ],
+            male:[TAG.TENTACLE_CREATURE],
+            location:[TAG.LABORATORY, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0423_1":{
+        character:CHAR.TORAJIRO,
+        tags:{
+            female:[
+                TAG.CHINESE_DRESS, TAG.PANTYLESS,
+                TAG.STANDING_SEX,
+                TAG.RAPE, TAG.VAGINAL_SEX, TAG.STOMACH_DEFORMATION, TAG.LARGE_INSERTIONS, TAG.AHEGAO, TAG.PROTRUDING_NIPPLES, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.LACTATION, TAG.INCONTINENCE, TAG.SLAVE_TATTOO
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0423_2":{
+        character:CHAR.TORAJIRO,
+        tags:{
+            female:[
+                TAG.COMPLETELY_NAKED, TAG.SLAVE_TATTOO,
+                TAG.STOMACH_INFLATION, TAG.VAGINAL_LEAKAGE, TAG.ANAL_SEX, TAG.GAPING, TAG.SCAT, TAG.SWEATING, TAG.PISSED_ON
+
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0424":{
+        character:CHAR.SALLY_ROBERTS,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.FRILLY_CLOTHING, TAG.BREASTS_OUT, TAG.BRA,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.NIPPLE_PINCHING, TAG.FEMDOM, TAG.NAKADASHI,
+            ],
+            male:[TAG.FOOT_LICKING],
+            location:[TAG.ON_BED, TAG.BEDROOM, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0425":{
+        character:CHAR.ELVIRA,
+        tags:{
+            female:[
+                TAG.BRA, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS, TAG.HALF_NAKED,
+                TAG.ROTOR, TAG.VIBRATOR, TAG.ANAL_BEADS, TAG.CLIT_PLAY, TAG.VAGINAL_INSERTION, TAG.ANAL_INSERTION, TAG.ROPE_BONDAGE, TAG.VAGINAL_SEX, TAG.BUKKAKE, TAG.AHEGAO, TAG.RAPE
+            ],
+            male:[],
+            location:[TAG.PRISON_CELL, TAG.PRIVATE],
+            misc:[]
         },
         ignoredCharacterTags:[],
     },
