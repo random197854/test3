@@ -21825,6 +21825,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0422_2"
     },
     "0422_2":{
         character:CHAR.MICHEA_SILKYS,
@@ -21852,6 +21853,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0423_2"
     },
     "0423_2":{
         character:CHAR.TORAJIRO,
@@ -21890,6 +21892,88 @@ var SCENE = {
             ],
             male:[],
             location:[TAG.PRISON_CELL, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0426_1":{
+        character:CHAR.MERCY,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.PANTIES, TAG.BREASTS_OUT, TAG.BRALESS, TAG.EVENING_GLOVES, TAG.PANTIES_PULLED_DOWN,
+                TAG.REVERSE_COWGIRL_POSITION,
+                TAG.ANAL_SEX, TAG.NAKADASHI, TAG.GAPING
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0426_2"
+    },
+    "0426_2":{
+        character:CHAR.MERCY,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.BREASTS_OUT, TAG.BRALESS, TAG.EVENING_GLOVES, TAG.PANTYLESS, TAG.THIGH_BAND, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.VAGINAL_INSERTION, TAG.ANAL_INSERTION, TAG.VAGINAL_SEX, TAG.DOUBLE_PENETRATION, TAG.NAKADASHI, TAG.AHEGAO, TAG.DICK_CLEANING_BLOWJOB
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0427_1":{
+        character:CHAR.SHINGANJI_KURENAI,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.PANTIES, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.HIGH_HEELS, TAG.CHOKER, TAG.PANTIES_PUSHED_TO_SIDE, TAG.SLAVE_TATTOO, TAG.BREASTS_OUT,
+                TAG.SPREAD_ASS, TAG.TENTACLE_RAPE, TAG.ANAL_FINGERING, TAG.BREAST_INJECTION, TAG.CLIT_INJECTION, TAG.ANAL_SEX, TAG.NAKADASHI, TAG.AHEGAO, TAG.GAPING, TAG.SCAT
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0427_2"
+    },
+    "0427_2":{
+        character:CHAR.SHINGANJI_KURENAI,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.BREASTS_OUT, TAG.BRALESS, TAG.PANTYLESS, TAG.SLAVE_TATTOO,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.DOUBLE_PENIS_PENETRATION, TAG.BLOWJOB, TAG.NIPPLE_PLAY, TAG.NAKADASHI, TAG.AHEGAO, TAG.GAPING, TAG.NIPPLE_PINCHING, TAG.HAIR_PULLING, TAG.NIPPLE_PIERCING
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0428":{
+        character:CHAR.HOSHINO_MITSUKI,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.CLEAVAGE_CUTOUT, TAG.PANTIES, TAG.EVENING_GLOVES, TAG.THIGH_HIGH_STOCKINGS, TAG.HIGH_HEELS, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.MASTURBATION, TAG.VAGINAL_FINGERING, TAG.CUM_IN_MOUTH, TAG.SPREAD_PUSSY, TAG.VAGINAL_LEAKAGE, TAG.SQUIRTING
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0429":{
+        character:CHAR.TEKKAIN_KAORU,
+        tags:{
+            female:[
+                TAG.DRESS, TAG.PANTYLESS, TAG.PROTRUDING_NIPPLES,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE, TAG.CUM_SWALLOWING, TAG.CUM_PLAY, TAG.SQUIRTING
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
             misc:[]
         },
         ignoredCharacterTags:[],
