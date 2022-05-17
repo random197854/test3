@@ -938,6 +938,12 @@ var CV = {
         jap: "黒森オシカ",
         japAlias: ["黒森", "オシカ"]
     },
+    KAWAMURA_MITSUKA:{
+        eng: "Kawamura Mitsuka",
+        engAlias: ["Kawamura", "Mitsuka Kawamura", "Mitsuka"],
+        jap: "河村蜜華",
+        japAlias: ["河村", "蜜華"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8444,6 +8450,26 @@ var CHAR = {
             cv:CV.KUROMORI_OSHIKA
         }
     },
+    SHARRON_OREAS:{
+        base:{
+            name:{
+                eng:"Sharron Oreas",
+                engAlias:["Sharon", "Oreas"],
+                jap:"シャロン・オルレアス",
+                japAlias:["シャロンオルレアス", "シャロン", "オルレアス"]
+            },
+            tags:[
+                TAG.BLOND_HAIR, TAG.LONG_HAIR,
+                TAG.BLUE_EYES,
+                TAG.HUGE_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.HOMURA_YUNI,
+            cv:CV.KAWAMURA_MITSUKA
+        }
+    },
+    
 
 
     // :{
@@ -21974,6 +22000,92 @@ var SCENE = {
             ],
             male:[],
             location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0430_1":{
+        character:[CHAR.AYAMI_KOKONE, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.CASUAL_CLOTHING, TAG.SKIRT, TAG.PANTYLESS, TAG.BREASTS_OUT,
+                TAG.SIXTY_NINE,
+                TAG.BLOWJOB, TAG.VAGINAL_LEAKAGE, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.LOVE_HOTEL, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0430_2"
+    },
+    "0430_2":{
+        character:[CHAR.AYAMI_KOKONE, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.CASUAL_CLOTHING, TAG.PANTLESS, TAG.PANTYLESS, TAG.BREASTS_OUT, TAG.BRA, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.STANDING_SEX,
+                TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.KISSING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.LOVE_HOTEL, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0431_1":{
+        character:CHAR.INGRID,
+        tags:{
+            female:[
+                TAG.THONG, TAG.STOCKINGS, TAG.BREASTS_OUT, TAG.BRA, TAG.BLOUSE, TAG.PANTIES_PUSHED_TO_SIDE, TAG.GLASSES,
+                TAG.QUICKIE_FIX_POSITION,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.ANAL_FINGERING, TAG.NAKADASHI, TAG.AHEGAO, TAG.ANAL_SEX
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0431_2"
+    },
+    "0431_2":{
+        character:CHAR.INGRID,
+        tags:{
+            female:[
+                TAG.THONG, TAG.STOCKINGS, TAG.BREASTS_OUT, TAG.BRA, TAG.BLOUSE, TAG.PANTIES_PUSHED_TO_SIDE, TAG.GLASSES,
+                TAG.STANDING_SEX,
+                TAG.VIBRATOR, TAG.VAGINAL_LEAKAGE, TAG.VAGINAL_INSERTION, TAG.SWEATING, TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.NAKADASHI, TAG.AHEGAO, TAG.BODY_WRITING
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0432":{
+        character:CHAR.RINA,
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.THIGH_HIGH_STOCKINGS, TAG.GARTER_BELT, TAG.BREASTS_OUT, TAG.HANDCUFFS, TAG.PANTYLESS,
+                TAG.QUICKIE_FIX_POSITION,
+                TAG.VAGINAL_FINGERING, TAG.VAGINAL_SEX, TAG.SPANKING, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0433":{
+        character:CHAR.SHARRON_OREAS,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.BREASTS_OUT, TAG.RIPPED_CLOTHING,
+                TAG.FULL_NELSON,
+                TAG.SPREAD_PUSSY, TAG.SWEATING, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[]
         },
         ignoredCharacterTags:[],
