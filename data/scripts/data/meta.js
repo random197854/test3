@@ -4655,6 +4655,32 @@ var CHAR = {
             artist:ARTIST.AOI_NAGISA,
             cv:CV.KITAITA_RIA,
             altCV:[CV.SATOU_HARUKA]
+        },
+        form:{
+            adult:{
+                name:{
+                    eng:"Adult Rinko",
+                    engAlias:["Future Rinko", "Kijin Rinko", "Fierce God Rinko", "Adult Akiyama Rinko", "Future Akuyama Rinko", "Kijin Akiyama Rinko", "Fierce God Akiyama Rinko"],
+                    jap:"大人凜子",
+                    japAlias:["鬼神凜子", "鬼神秋山凜子", "大人秋山凜子", "未来凜子", "未来秋山凜子"]
+                },
+                tags:[
+                    TAG.GRADIENT_HAIR
+                ],
+                remove:{
+                    tags:[
+                        TAG.PONYTAIL
+                    ]
+                }
+            },
+            young:{
+                name:{
+                    eng:"Young Rinko",
+                    engAlias:["Young Akiyama Rinko"],
+                    jap:"若い凜子",
+                    japAlias:["若い秋山凜子"]
+                },
+            },
         }
     },
     MIZUKI_SHIRANUI:{
@@ -13205,6 +13231,7 @@ var CHAR = {
 var SCENE = {
     "0001_1":{
         character: [CHAR.AKIYAMA_RINKO, CHAR.FUUMA_KOTAROU],
+        form: ["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.CROTCHLESS_CLOTHING, TAG.RIPPED_CLOTHING, TAG.VAGINAL_STICKER, TAG.GAUNTLETS,
@@ -13220,6 +13247,7 @@ var SCENE = {
     },
     "0001_2":{
         character: [CHAR.AKIYAMA_RINKO, CHAR.FUUMA_KOTAROU],
+        form: ["young", null],
         tags:{
             female:[
                 TAG.COMPLETELY_NAKED, TAG.VAGINAL_STICKER,
@@ -14103,6 +14131,7 @@ var SCENE = {
     },
     "0050":{
         character:[CHAR.AKIYAMA_RINKO, CHAR.FUUMA_KOTAROU],
+        form: ["young", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.HALF_NAKED,
@@ -14394,6 +14423,7 @@ var SCENE = {
     },
     "0066_1":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.BREASTS_OUT, TAG.RIPPED_CLOTHING, 
@@ -14408,6 +14438,7 @@ var SCENE = {
     },
     "0066_2":{
         character:[CHAR.AKIYAMA_RINKO, CHAR.FUUMA_KOTAROU],
+        form: ["young", null],
         tags:{
             female:[
                 TAG.COMPLETELY_NAKED, TAG.CHOKER,
@@ -14753,6 +14784,7 @@ var SCENE = {
     },
     "0081_1":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.CHRISTMAS_CLOTHING, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.LEOTARD, TAG.CLEAVAGE_CUTOUT, TAG.BREASTS_OUT,
@@ -14767,6 +14799,7 @@ var SCENE = {
     },
     "0081_2":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.CHRISTMAS_CLOTHING, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.LEOTARD, TAG.CLEAVAGE_CUTOUT, TAG.BREASTS_OUT,
@@ -15900,6 +15933,7 @@ var SCENE = {
     },
     "0141_1":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.CASUAL_CLOTHING,
@@ -15914,6 +15948,7 @@ var SCENE = {
     },
     "0141_2":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.CASUAL_CLOTHING, TAG.STOCKINGS, TAG.THONG, TAG.BREASTS_OUT, TAG.PANTLESS, TAG.BRALESS,
@@ -17347,6 +17382,7 @@ var SCENE = {
     },
     "0210_1":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.SCHOOL_UNIFORM, TAG.PANTYHOSE, TAG.PANTIES, TAG.BREASTS_OUT, TAG.SKIRT, TAG.RIPPED_CLOTHING,
@@ -17361,6 +17397,7 @@ var SCENE = {
     },
     "0210_2":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.SCHOOL_UNIFORM, TAG.PANTYHOSE, TAG.PANTIES, TAG.BREASTS_OUT, TAG.PANTLESS, TAG.RIPPED_CLOTHING,
@@ -19010,6 +19047,7 @@ var SCENE = {
     },
     "0288_1":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.BIKINI, TAG.THIGH_HIGH_STOCKINGS, TAG.COLLAR, TAG.HAIR_ORNAMENTS, TAG.BRAIDED_HAIR, TAG.BREASTS_OUT, TAG.ANIMAL_PRINT_CLOTHING, TAG.PANTIES_PUSHED_TO_SIDE,
@@ -19024,6 +19062,7 @@ var SCENE = {
     },
     "0288_2":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.BIKINI, TAG.THIGH_HIGH_STOCKINGS, TAG.COLLAR, TAG.HAIR_ORNAMENTS, TAG.BRAIDED_HAIR, TAG.BREASTS_OUT, TAG.ANIMAL_PRINT_CLOTHING, TAG.EVENING_GLOVES, TAG.PANTYLESS, TAG.HALF_NAKED, TAG.FACIAL_PIERCING,
@@ -22090,7 +22129,65 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
-
+    "0434_1":{
+        character:CHAR.AKIYAMA_RINKO,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT,
+                TAG.HANDJOB, TAG.BREAST_GROPING, TAG.PAIZURI, TAG.BLOWJOB, TAG.CUM_IN_MOUTH, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0434_2"
+    },
+    "0434_2":{
+        character:CHAR.AKIYAMA_RINKO,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.RIPPED_CLOTHING, TAG.VAGINAL_CUTOUT, TAG.ANAL_CUTOUT,
+                TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.BREAST_GROPING, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0435_1":{
+        character:[CHAR.SAYA, CHAR.FUUMA_KOTAROU],
+        form:["neo", null],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.CHINESE_DRESS,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.BUKKAKE
+            ],
+            male:[TAG.NIPPLE_PLAY],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0435_2"
+    },
+    "0435_2":{
+        character:[CHAR.SAYA, CHAR.FUUMA_KOTAROU],
+        form:["neo", null],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.CHINESE_DRESS, TAG.BREASTS_OUT, TAG.PANTIES_AROUND_LEG, TAG.THONG, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.COWGIRL_POSITION,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.CUM_LICKUP, TAG.VAGINAL_LEAKAGE, TAG.AHEGAO
+            ],
+            male:[TAG.NIPPLE_PLAY],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
@@ -22406,6 +22503,7 @@ var SCENE = {
     },
     "c46":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT,
@@ -22422,6 +22520,7 @@ var SCENE = {
     },
     "c47":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT,
@@ -22466,6 +22565,7 @@ var SCENE = {
     },
     "c64":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT,
@@ -22481,6 +22581,7 @@ var SCENE = {
     },
     "c65":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.BREASTS_OUT, TAG.CROTCHLESS_CLOTHING,  TAG.RIPPED_CLOTHING,
@@ -23453,6 +23554,7 @@ var SCENE = {
 
     "c52":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.VAGINAL_CUTOUT,
@@ -23469,6 +23571,7 @@ var SCENE = {
     },
     "c53":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT, TAG.VAGINAL_CUTOUT,
@@ -25874,6 +25977,7 @@ var SCENE = {
     },
     "c278":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.PROFESSIONAL_PORN_PRODUCTION, TAG.FILMING, TAG.AHEGAO
@@ -25926,6 +26030,7 @@ var SCENE = {
     },
     "c275":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.PROFESSIONAL_PORN_PRODUCTION, TAG.FILMING, TAG.AHEGAO
@@ -25940,6 +26045,7 @@ var SCENE = {
     },
     "c276":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.PROFESSIONAL_PORN_PRODUCTION, TAG.FILMING, TAG.AHEGAO
@@ -28540,6 +28646,7 @@ var SCENE = {
     },
     "c488":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.SCHOOL_UNIFORM, TAG.AHEGAO
@@ -28553,6 +28660,7 @@ var SCENE = {
     },
     "c489":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.SCHOOL_UNIFORM, TAG.AHEGAO, TAG.RYONA
@@ -31759,6 +31867,7 @@ var SCENE = {
     },
     "c741":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.BLOWJOB, TAG.AHEGAO
@@ -31772,6 +31881,7 @@ var SCENE = {
     },
     "c742":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BREAST_GROPING
@@ -33005,6 +33115,7 @@ var SCENE = {
     },  
     "c845":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.ORC
@@ -33018,6 +33129,7 @@ var SCENE = {
     },
     "c846":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -33971,6 +34083,7 @@ var SCENE = {
     },
     "c903":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.PROFESSIONAL_PORN_PRODUCTION, TAG.FILMING, TAG.TAIMANIN_OUTFIT, TAG.RIPPED_CLOTHING, TAG.CROTCHLESS_CLOTHING
@@ -33984,6 +34097,7 @@ var SCENE = {
     },
     "c904":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.PROFESSIONAL_PORN_PRODUCTION, TAG.FILMING, TAG.CROTCHLESS_CLOTHING, TAG.BREASTS_OUT, TAG.NIPPLE_STICKER, TAG.WOMB_TATTOO, TAG.MICRO_BIKINI, TAG.EVENING_GLOVES
@@ -35570,6 +35684,7 @@ var SCENE = {
     },
     "OTOGI_217081":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.BREASTS_OUT,
@@ -35584,6 +35699,7 @@ var SCENE = {
     },
     "OTOGI_217082":{
         character:CHAR.AKIYAMA_RINKO,
+        form: "young",
         tags:{
             female:[
                 TAG.BIKINI, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.SIDE_TIE_PANTIES,
