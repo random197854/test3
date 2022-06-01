@@ -22188,6 +22188,87 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0436_1":{
+        character:CHAR.BRIDGET,
+        tags:{
+            female:[
+                TAG.WEDDING_DRESS, TAG.PANTIES_AROUND_LEG, TAG.BREASTS_OUT, TAG.METAL_BONDAGE,
+                TAG.RAPE, TAG.AMATEUR_PORN_PRODUCTION, TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0436_2":{
+        character:CHAR.BRIDGET,
+        tags:{
+            female:[
+                TAG.WEDDING_DRESS, TAG.PANTIES_AROUND_LEG, TAG.BREASTS_OUT,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.HANDJOB, TAG.BUKKAKE, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0437_1":{
+        character:[CHAR.IGAWA_ASAGI, CHAR.FUUMA_KOTAROU],
+        form:["adult", null],
+        tags:{
+            female:[
+                TAG.WEDDING_DRESS, TAG.BREASTS_OUT, TAG.EVENING_GLOVES, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.HANDJOB, TAG.BUKKAKE, TAG.BREAST_GROPING, TAG.KISSING, TAG.CUM_LICKUP
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0437_2":{
+        character:[CHAR.IGAWA_ASAGI, CHAR.FUUMA_KOTAROU],
+        form:["adult", null],
+        tags:{
+            female:[
+                TAG.WEDDING_DRESS, TAG.BREASTS_OUT, TAG.EVENING_GLOVES, TAG.THIGH_HIGH_STOCKINGS, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.ARMS_BEHIND_HEAD, TAG.NAKADASHI, TAG.AHEGAO, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0438":{
+        character:[CHAR.RINOA_CERINGU, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.WEDDING_DRESS, TAG.BREASTS_OUT, TAG.GARTER_BELT, TAG.THIGH_HIGH_STOCKINGS, TAG.PANTYLESS,
+                TAG.HANDJOB, TAG.BUKKAKE, TAG.VAGINAL_SEX, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.CHURCH, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0439":{
+        character:CHAR.YATSUSHIRO_MOMOKA,
+        tags:{
+            female:[
+                TAG.WEDDING_DRESS, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.HIGH_HEELS,
+                TAG.FULL_NELSON,
+                TAG.VAGINAL_SEX, TAG.NIPPLE_PINCHING, TAG.PEACE_SIGN, TAG.DOUBLE_PEACE_SIGN, TAG.NAKADASHI, TAG.SQUIRTING, TAG.AMATEUR_PORN_PRODUCTION
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
