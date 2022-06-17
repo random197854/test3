@@ -944,6 +944,24 @@ var CV = {
         jap: "河村蜜華",
         japAlias: ["河村", "蜜華"]
     },
+    OKUDERA_KASUMI:{
+        eng: "Okudera Kasumi",
+        engAlias: ["Okudera", "Kasumi Okudera", "Kasumi"],
+        jap: "奥寺かすみ",
+        japAlias: ["奥寺", "かすみ"]
+    },
+    YONEKURA_SAYA:{
+        eng: "Yonekura Saya",
+        engAlias: ["Yomekura", "Saya Yonekura", "Saya"],
+        jap: "米倉沙弥",
+        japAlias: ["米倉", "沙弥"]
+    },
+    ASAI_KOMOMO:{
+        eng: "Asai Komomo",
+        engAlias: ["Asai", "Komomo Asai", "Komomo"],
+        jap: "朝井こもも",
+        japAlias: ["朝井", "こもも"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8495,7 +8513,63 @@ var CHAR = {
             cv:CV.KAWAMURA_MITSUKA
         }
     },
-    
+    CHIARU:{
+        base:{
+            name:{
+                eng:"Chiaru",
+                engAlias:[],
+                jap:"チアル",
+                japAlias:[]
+            },
+            tags:[
+                TAG.GREY_HAIR, TAG.BLOND_HAIR, TAG.GRADIENT_HAIR, TAG.SHORT_HAIR,
+                TAG.AMBER_EYES,
+                TAG.SMALL_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.FUUFUU,
+            cv:CV.YOSHINAKA_AI
+        }
+    },
+    KIICHI_ASUZA:{
+        base:{
+            name:{
+                eng:"Kiichi Azusa",
+                engAlias:["Kiichi", "Azusa Kiichi", "Azusa"],
+                jap:"鬼壱あずさ",
+                japAlias:["鬼壱", "あずさ"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.RED_EYES, TAG.UNNATURAL_SCLERA,
+                TAG.LIGHT_SKIN, TAG.BIG_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.AOI_NAGISA,
+            cv:CV.OKUDERA_KASUMI
+        }
+    },
+    MYURUNU:{
+        base:{
+            name:{
+                eng:"Myurunu",
+                engAlias:[],
+                jap:"ミュルヌ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.BLOND_HAIR, TAG.LONG_HAIR,
+                TAG.BLUE_EYES,
+                TAG.LIGHT_SKIN, TAG.BIG_BREASTS
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SANO_TOSHIHIDE,
+            cv:CV.ASAI_KOMOMO
+        }
+    },
 
 
     // :{
@@ -13078,7 +13152,8 @@ var CHAR = {
             gender:"female",
             originalCharacter:true,
             artist:ARTIST.HOMURA_YUNI,
-            cv:CV.KATAKURA_HINA
+            cv:CV.YONEKURA_SAYA,
+            altCV:[CV.KATAKURA_HINA]
         }
     },
 
@@ -22265,6 +22340,84 @@ var SCENE = {
             ],
             male:[],
             location:[TAG.INSIDE, TAG.SEMI_PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0440_1":{
+        character:CHAR.CHIARU,
+        tags:{
+            female:[
+                TAG.FRILLY_CLOTHING, TAG.DRESS, TAG.THIGH_HIGH_SOCKS, TAG.PANTIES,
+                TAG.MASTURBATION, TAG.VIBRATOR, TAG.BLOWJOB, TAG.VAGINAL_INSERTION, TAG.SQUIRTING
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.INSIDE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0440_2":{
+        character:CHAR.CHIARU,
+        tags:{
+            female:[
+                TAG.FRILLY_CLOTHING, TAG.PANTYLESS, TAG.BREASTS_OUT, TAG.THIGH_HIGH_SOCKS,
+                TAG.ROTOR, TAG.VIBRATOR, TAG.VAGINAL_SEX, TAG.BLOWJOB, TAG.MAGIC_WAND, TAG.SQUIRTING, TAG.VAGINAL_INSERTION, TAG.LIVE_STREAMING, TAG.PEACE_SIGN_AHEGAO, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE, TAG.ON_BED],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0441_1":{
+        character:[CHAR.KIICHI_ASUZA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.NIPPLE_CUTOUTS,
+                TAG.HANDJOB
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PRIVATE],
+            misc:[TAG.NO_SEX, TAG.OVERLAY_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0441_2":{
+        character:[CHAR.KIICHI_ASUZA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.NIPPLE_CUTOUTS,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.BROTHEL, TAG.SEMI_PRIVATE],
+            misc:[TAG.OVERLAY_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0442":{
+        character:CHAR.SHIPPOU_YAE,
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.PANTIES, TAG.PANTIES_AROUND_LEG, TAG.PROTRUDING_NIPPLES,
+                TAG.INCONTINENCE, TAG.RAPE, TAG.DEFLORATION, TAG.BLOWJOB, TAG.DOUBLE_PENIS_PENETRATION, TAG.SWEATING, TAG.NAKADASHI, TAG.CUM_IN_MOUTH, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0443":{
+        character:[CHAR.MYURUNU, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.FRILLY_CLOTHING, TAG.DRESS, TAG.PANTIES, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.HANDJOB, TAG.BLOWJOB, TAG.VAGINAL_LEAKAGE, TAG.VAGINAL_SEX, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
             misc:[]
         },
         ignoredCharacterTags:[],
