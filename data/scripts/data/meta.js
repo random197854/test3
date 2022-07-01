@@ -4801,7 +4801,15 @@ var CHAR = {
                         TAG.LIGHT_SKIN, TAG.BLUE_EYES
                     ]
                 }
-            }
+            },
+            normal:{
+                name:{
+                    eng:"Normal Kurenai",
+                    engAlias:[],
+                    jap:"普通寺紅",
+                    japAlias:[]
+                },
+            },
         }
     },
     MAKISHIMA_AYAME:{
@@ -4897,7 +4905,15 @@ var CHAR = {
                         TAG.AVERAGE_BREASTS
                     ]
                 }
-            }
+            },
+            normal:{
+                name:{
+                    eng:"Normal Lilim",
+                    engAlias:[],
+                    jap:"普通リリム",
+                    japAlias:[]
+                },
+            },
         }
     },
     NASARA:{
@@ -13450,6 +13466,7 @@ var SCENE = {
     },
     "0006_1":{
         character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.GAUNTLETS, TAG.HAIR_TIE_RIBBON,
@@ -13464,6 +13481,7 @@ var SCENE = {
     },
     "0006_2":{
         character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.TAIMANIN_OUTFIT, TAG.GAUNTLETS, TAG.PROTRUDING_NIPPLES, TAG.CROTCHLESS_CLOTHING, TAG.RIPPED_CLOTHING, TAG.BREASTS_OUT, TAG.HAIR_TIE_RIBBON,
@@ -13478,6 +13496,7 @@ var SCENE = {
     },
     "0007_1":{
         character:[CHAR.LILIM, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.BRIDAL_GAUNTLET, TAG.TWO_PIECE_CLOTHING, TAG.TIGHT_CLOTHING, TAG.PROTRUDING_NIPPLES, TAG.ARM_CUFF,
@@ -13492,6 +13511,7 @@ var SCENE = {
     },
     "0007_2":{
         character:[CHAR.LILIM, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.BRIDAL_GAUNTLET, TAG.BRIDAL_GAUNTLET, TAG.TWO_PIECE_CLOTHING, TAG.TIGHT_CLOTHING, TAG.PROTRUDING_NIPPLES, TAG.ARM_CUFF, TAG.BREASTS_OUT,
@@ -15735,6 +15755,7 @@ var SCENE = {
     },
     "0128_1":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.NAKED, TAG.ROPE_BONDAGE, TAG.SUSPENSION_BONDAGE,
@@ -15749,6 +15770,7 @@ var SCENE = {
     },
     "0128_2":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.NAKED, TAG.BRIDAL_GAUNTLET,
@@ -16395,6 +16417,7 @@ var SCENE = {
     },
     "0160_1":{
         character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.DRESS, TAG.PANTIES, TAG.BRALESS, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.HALLOWEEN_OUTFIT, TAG.FRILLY_CLOTHING,
@@ -16409,6 +16432,7 @@ var SCENE = {
     },
     "0160_2":{
         character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.DRESS, TAG.PANTYLESS, TAG.BRALESS, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.HALLOWEEN_OUTFIT, TAG.FRILLY_CLOTHING,
@@ -17429,6 +17453,7 @@ var SCENE = {
     },
     "0209_1":{
         character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.SCHOOL_UNIFORM,
@@ -17443,6 +17468,7 @@ var SCENE = {
     },
     "0209_2":{
         character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.SWIMSUIT, TAG.TIGHT_CLOTHING, TAG.PARTIALLY_TRANSPARENT_CLOTHING,
@@ -20394,6 +20420,7 @@ var SCENE = {
     },
     "0349_1":{
         character:[CHAR.LILIM, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.DRESS, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.PANTYLESS, TAG.HAT,
@@ -20409,6 +20436,7 @@ var SCENE = {
     },
     "0349_2":{
         character:[CHAR.LILIM, CHAR.FUUMA_KOTAROU],
+        form:["normal", null],
         tags:{
             female:[
                 TAG.DRESS, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.HAT,
@@ -22066,6 +22094,7 @@ var SCENE = {
     },
     "0427_1":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.DRESS, TAG.PANTIES, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.HIGH_HEELS, TAG.CHOKER, TAG.PANTIES_PUSHED_TO_SIDE, TAG.SLAVE_TATTOO, TAG.BREASTS_OUT,
@@ -22080,6 +22109,7 @@ var SCENE = {
     },
     "0427_2":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.DRESS, TAG.BREASTS_OUT, TAG.BRALESS, TAG.PANTYLESS, TAG.SLAVE_TATTOO,
@@ -22275,6 +22305,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0436_2"
     },
     "0436_2":{
         character:CHAR.BRIDGET,
@@ -22302,6 +22333,7 @@ var SCENE = {
             misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
+        nextScene:"0437_2"
     },
     "0437_2":{
         character:[CHAR.IGAWA_ASAGI, CHAR.FUUMA_KOTAROU],
@@ -22356,6 +22388,7 @@ var SCENE = {
             misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
+        nextScene:"0440_2"
     },
     "0440_2":{
         character:CHAR.CHIARU,
@@ -22382,6 +22415,7 @@ var SCENE = {
             misc:[TAG.NO_SEX, TAG.OVERLAY_XRAY]
         },
         ignoredCharacterTags:[],
+        nextScene:"0441_2"
     },
     "0441_2":{
         character:[CHAR.KIICHI_ASUZA, CHAR.FUUMA_KOTAROU],
@@ -22418,6 +22452,92 @@ var SCENE = {
             ],
             male:[],
             location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0444_1":{
+        character:CHAR.JINGAI_NO_ORYOU,
+        tags:{
+            female:[
+                TAG.RIPPED_CLOTHING, TAG.BREASTS_OUT,
+                TAG.TENTACLE_BONDAGE, TAG.TENTACLE_RAPE, TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.BREAST_SUCKING, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.CAVE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0444_2"
+    },
+    "0444_2":{
+        character:CHAR.JINGAI_NO_ORYOU,
+        tags:{
+            female:[
+                TAG.NAKED, TAG.BREASTS_OUT,
+                TAG.DOGGY_STYLE,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.CAVE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0445_1":{
+        character:[CHAR.LILIM, CHAR.FUUMA_KOTAROU],
+        form:["awakened", null],
+        tags:{
+            female:[
+                TAG.SLING_BIKINI, TAG.PROTRUDING_NIPPLES, TAG.BREASTS_OUT, 
+                TAG.BLOWJOB_PAIZURI, TAG.CUM_IN_MOUTH, TAG.CUM_SWALLOWING
+            ],
+            male:[],
+            location:[TAG.ONSEN, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0445_2"
+    },
+    "0445_2":{
+        character:[CHAR.LILIM, CHAR.FUUMA_KOTAROU],
+        form:["awakened", null],
+        tags:{
+            female:[
+                TAG.SLING_BIKINI, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THIGH_BAND,
+                TAG.VAGINAL_SEX, TAG.NIPPLE_PINCHING, TAG.NIPPLE_SUCKING, TAG.NAKADASHI, TAG.AHEGAO, TAG.HEART_PUPILS, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.ONSEN, TAG.PRIVATE],
+            misc:[TAG.OVERLAY_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0446":{
+        character:CHAR.SHIMIZU_KANNA,
+        tags:{
+            female:[
+                TAG.SWIMSUIT, TAG.THIGH_BAND, TAG.PROTRUDING_NIPPLES, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.SITTING_SEX, TAG.FULL_NELSON,
+                TAG.NIPPLE_PINCHING, TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.SQUIRTING, TAG.ASPHYXIATION, TAG.NAKADASHI, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.BEACH, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0447":{
+        character:CHAR.KIRIHARA_JUNKO,
+        tags:{
+            female:[
+                TAG.SWIMSUIT, TAG.CLEAVAGE_CUTOUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.BREASTS_OUT,
+                TAG.STANDING_SEX,
+                TAG.LACTATION, TAG.VAGINAL_SEX, TAG.NIPPLE_PLAY, TAG.NIPPLE_SUCKING, TAG.NAKADASHI, TAG.VAGINAL_LEAKAGE
+
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
             misc:[]
         },
         ignoredCharacterTags:[],
@@ -23029,6 +23149,7 @@ var SCENE = {
 
     "c7":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.BRIDAL_GAUNTLET, TAG.TWO_PIECE_CLOTHING, TAG.TIGHT_CLOTHING, TAG.ARM_CUFF, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
@@ -27316,6 +27437,7 @@ var SCENE = {
     
     "c368":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.BLOWJOB, TAG.AHEGAO
@@ -27331,6 +27453,7 @@ var SCENE = {
     },
     "c369":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.BLOWJOB, TAG.AHEGAO, TAG.BREAST_GROPING
@@ -27344,6 +27467,7 @@ var SCENE = {
     },
     "c409":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.SEX_ENGINE
@@ -27358,6 +27482,7 @@ var SCENE = {
     },
     "c410":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.SCAT
@@ -27396,6 +27521,7 @@ var SCENE = {
     },
     "c393":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.BREAST_GROPING, TAG.AHEGAO
@@ -27409,6 +27535,7 @@ var SCENE = {
     },
     "c394":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -29022,6 +29149,7 @@ var SCENE = {
     },
     "c499":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -29035,6 +29163,7 @@ var SCENE = {
     },
     "c500":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -31899,6 +32028,7 @@ var SCENE = {
     },
     "c720":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BREAST_GROPING
@@ -31912,6 +32042,7 @@ var SCENE = {
     },
     "c721":{
         character:CHAR.LILIM,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO
@@ -34084,6 +34215,7 @@ var SCENE = {
     },
     "c891":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.SEX_ENGINE
@@ -34097,6 +34229,7 @@ var SCENE = {
     },
     "c892":{
         character:CHAR.SHINGANJI_KURENAI,
+        form:"normal",
         tags:{
             female:[
                 TAG.AHEGAO, TAG.BREAST_GROPING
@@ -35440,6 +35573,7 @@ var SCENE = {
     },
     "c996":{
         character:[CHAR.MAKISHIMA_AYAME, CHAR.SHINGANJI_KURENAI],
+        form:[null, "normal"],
         tags:{
             female:[
                 TAG.FUTANARI, TAG.AHEGAO
