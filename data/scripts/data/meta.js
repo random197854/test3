@@ -22542,6 +22542,89 @@ var SCENE = {
         },
         ignoredCharacterTags:[],
     },
+    "0448_1":{
+        character:CHAR.AREKKI,
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.BREASTS_OUT, TAG.PANTIES_PULLED_DOWN,
+                TAG.DOGGY_STYLE,
+                TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.NIPPLE_PINCHING, TAG.NAKADASHI
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0448_2"
+    },
+    "0448_2":{
+        character:CHAR.AREKKI,
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.BREASTS_OUT, TAG.PANTYLESS,
+                TAG.PILEDRIVER,
+                TAG.VAGINAL_SEX, TAG.VAGINAL_LEAKAGE, TAG.SQUIRTING, TAG.CLIT_PLAY, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0449_1":{
+        character:CHAR.KOUSAKA_SHIZURU,
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.THONG, TAG.THIGH_HIGH_STOCKINGS, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.SIXTY_NINE,
+                TAG.BLOWJOB, TAG.PAIZURI, TAG.BLOWJOB_PAIZURI, TAG.CUNNILINGUS, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0449_2"
+    },
+    "0449_2":{
+        character:CHAR.KOUSAKA_SHIZURU,
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.THONG, TAG.THIGH_HIGH_STOCKINGS, TAG.HIGH_HEELS, TAG.WOMB_TATTOO,
+                TAG.VAGINAL_SEX, TAG.BREAST_GROPING, TAG.NIPPLE_SUCKING, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.IN_WATER, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0450":{
+        character:[CHAR.SERUBIA_ROZAMARI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.SCHOOL_SWIMSUIT, TAG.THIGH_BAND, TAG.THIGH_HIGH_STOCKINGS, TAG.APRON, TAG.BREASTS_OUT, TAG.PARTIALLY_TRANSPARENT_CLOTHING, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.BREAST_GROPING, TAG.FOOTJOB, TAG.VAGINAL_SEX, TAG.BUKKAKE, TAG.AHEGAO, TAG.GAPING
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0451":{
+        character:CHAR.KARIN_BRANFORD,
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.SHORT_SHORTS, TAG.BREASTS_OUT, TAG.PANTIES_PULLED_DOWN,
+                TAG.SLEEPING_SEX, TAG.BREAST_GROPING, TAG.VAGINAL_FINGERING, TAG.BLOWJOB, TAG.VAGINAL_SEX, TAG.CUM_IN_MOUTH, TAG.NAKADASHI, TAG.BUKKAKE, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
 
     "EX0001":{
         character:CHAR.IGAWA_ASAGI,
