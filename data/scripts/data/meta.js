@@ -227,12 +227,19 @@ var ARTIST = {
         jap: "常",
         japAlias: []
     },
+    HIROE_REI:{
+        eng: "Hiroe Rei",
+        engAlias: ["Hiroe", "Rei Hiroe", "Rei"],
+        jap: "広江礼威",
+        japAlias: ["広江", "礼威"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
         jap: "",
         japAlias: []
     }
+    
 };
 
 var CV = {
@@ -961,6 +968,24 @@ var CV = {
         engAlias: ["Asai", "Komomo Asai", "Komomo"],
         jap: "朝井こもも",
         japAlias: ["朝井", "こもも"]
+    },
+    TOMIZAWA_MICHIE:{
+        eng: "Tomizawa Michie",
+        engAlias: ["Tomizawa", "Michie Tomizawa", "Michie"],
+        jap: "富沢美智恵",
+        japAlias: ["富沢", "美智恵"]
+    },
+    TOYOGUCHI_MEGUMI:{
+        eng: "Toyoguchi Megumi",
+        engAlias: ["Toyoguchi", "Megumi Toyoguchi", "Megumi"],
+        jap: "豊口めぐみ",
+        japAlias: ["豊口", "めぐみ"]
+    },
+    KOYAMA_MAMI:{
+        eng: "Koyama Mami",
+        engAlias: ["Koyama", "Mami Koyama", "Mami"],
+        jap: "小山茉美",
+        japAlias: ["小山", "茉美"]
     },
     IGNORE:{
         eng: "",
@@ -8584,6 +8609,63 @@ var CHAR = {
             originalCharacter:true,
             artist:ARTIST.SANO_TOSHIHIDE,
             cv:CV.ASAI_KOMOMO
+        }
+    },
+    ROBERTA:{
+        base:{
+            name:{
+                eng:"Roberta",
+                engAlias:[],
+                jap:"ロベルタ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.LONG_HAIR, TAG.BLACK_HAIR, TAG.TWIN_TAILS, TAG.BRAIDED_HAIR,
+                TAG.BLUE_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:false,
+            artist:ARTIST.KAGAMI_HIROTAKA,
+            cv:CV.TOMIZAWA_MICHIE
+        }
+    },
+    REVY:{
+        base:{
+            name:{
+                eng:"Revy",
+                engAlias:[],
+                jap:"レヴィ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.BROWN_HAIR, TAG.PONYTAIL, TAG.LONG_HAIR,
+                TAG.BROWN_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:false,
+            artist:ARTIST.HIROE_REI,
+            cv:CV.TOYOGUCHI_MEGUMI
+        }
+    },
+    BALALAIKA:{
+        base:{
+            name:{
+                eng:"Balalaika",
+                engAlias:[],
+                jap:"バラライカ",
+                japAlias:[]
+            },
+            tags:[
+                TAG.BLOND_HAIR, TAG.LONG_HAIR,
+                TAG.BLUE_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN, TAG.SCAR, TAG.MOLE
+            ],
+            gender:"female",
+            originalCharacter:false,
+            artist:ARTIST.HIROE_REI,
+            cv:CV.KOYAMA_MAMI
         }
     },
 
@@ -22622,6 +22704,105 @@ var SCENE = {
             male:[],
             location:[TAG.OUTSIDE, TAG.PRIVATE],
             misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0452_1":{
+        character:[CHAR.ROBERTA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.MAID_DRESS, TAG.GLASSES
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0452_2"
+    },
+    "0452_2":{
+        character:[CHAR.ROBERTA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0453_1":{
+        character:[CHAR.REVY, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0453_2"
+    },
+    "0453_2":{
+        character:[CHAR.REVY, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BIKINI, TAG.GLASSES
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0454_1":{
+        character:[CHAR.BALALAIKA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.DRESS,
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0454_2"
+    },
+    "0454_2":{
+        character:[CHAR.BALALAIKA, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BIKINI
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0455":{
+        character:[CHAR.SHINGANJI_KURENAI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0456":{
+        character:[CHAR.SHISHIMURA_KORO, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.CHINESE_DRESS, TAG.SIDE_TIE_PANTIES
+            ],
+            male:[],
+            location:[],
+            misc:[TAG.NO_SEX]
         },
         ignoredCharacterTags:[],
     },
