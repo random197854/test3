@@ -1698,6 +1698,11 @@ var TAG = {
         aliases:[],
         parents:["LEGS_PULLED_UP"]
     },
+    MATING_PRESS:{
+        name:"Mating Press",
+        aliases:[],
+        parents:["LEGS_PULLED_UP"]
+    },
 
     //// Urination Fetish
     PISSED_ON: {
@@ -22803,6 +22808,88 @@ var SCENE = {
             male:[],
             location:[],
             misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0457_1":{
+        character:CHAR.SHIGARAKI_MAME,
+        tags:{
+            female:[
+                TAG.BUNNYGIRL_OUTFIT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.BREASTS_OUT, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.MATING_PRESS,
+                TAG.VAGINAL_SEX, TAG.BLOWJOB, TAG.PAIZURI, TAG.BUKKAKE, TAG.NAKADASHI, TAG.MASTURBATION
+
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0457_2":{
+        character:CHAR.SHIGARAKI_MAME,
+        tags:{
+            female:[
+                TAG.BUNNYGIRL_OUTFIT, TAG.PANTIES_PUSHED_TO_SIDE, TAG.BREASTS_OUT, TAG.THIGH_HIGH_STOCKINGS,
+                TAG.VIBRATOR, TAG.ONAHOLE, TAG.NAKADASHI, TAG.ELECTRIC_SHOCKS, TAG.INCONTINENCE
+            ],
+            male:[],
+            location:[TAG.OUTSIDE, TAG.PUBLIC],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0458_1":{
+        character:[CHAR.AMAMIYA_SHISUI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.STOCKINGS,
+                TAG.VAGINAL_SEX, TAG.NIPPLE_PINCHING, TAG.NAKADASHI, TAG.AHEGAO
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.BATHROOM, TAG.IN_BATH],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0458_2":{
+        character:[CHAR.AMAMIYA_SHISUI, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.STOCKINGS,
+                TAG.MATING_PRESS,
+                TAG.VAGINAL_SEX, TAG.AHEGAO, TAG.NAKADASHI, TAG.DICK_CLEANING_BLOWJOB, TAG.CUM_SWALLOWING
+            ],
+            male:[],
+            location:[TAG.PRIVATE, TAG.BATHROOM],
+            misc:[TAG.CUT_IN_XRAY]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0459":{
+        character:CHAR.SHIJIMA_MUGI,
+        tags:{
+            female:[
+                TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.STUCK_IN_WALL_SEX,
+                TAG.VAGINAL_SEX, TAG.NAKADASHI, TAG.BLOWJOB, TAG.BUKKAKE, TAG.INCONTINENCE, TAG.CUM_IN_MOUTH, TAG.RAPE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0460":{
+        character:CHAR.TINA_WORRELL,
+        tags:{
+            female:[
+                TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
+                TAG.HANDJOB, TAG.VAGINAL_SEX, TAG.KISSING, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
         },
         ignoredCharacterTags:[],
     },
