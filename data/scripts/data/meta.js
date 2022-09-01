@@ -987,6 +987,24 @@ var CV = {
         jap: "小山茉美",
         japAlias: ["小山", "茉美"]
     },
+    SUZUKI_MINATO:{
+        eng: "Suzuki Minato",
+        engAlias: ["Suzuki", "Minato Suzuki", "Minato"],
+        jap: "鈴木三都",
+        japAlias: ["鈴木", "三都"]
+    },
+    OTOKURA_YUI:{
+        eng: "Otokura Yui",
+        engAlias: ["Otokura", "Yui Otokura", "Yui"],
+        jap: "乙倉由依",
+        japAlias: ["乙倉", "由依"]
+    },
+    YOMOGI_KASUMI:{
+        eng: "Yomogi Kasumi",
+        engAlias: ["Yomogi", "Kasumi Yomogi", "Kasumi"],
+        jap: "よもぎかすみ",
+        japAlias: ["よもぎ", "かすみ"]
+    },
     IGNORE:{
         eng: "",
         engAlias: [],
@@ -8671,6 +8689,63 @@ var CHAR = {
             originalCharacter:false,
             artist:ARTIST.HIROE_REI,
             cv:CV.KOYAMA_MAMI
+        }
+    },
+    SHAKUJII_SOYO:{
+        base:{
+            name:{
+                eng:"Shakujii Soyo",
+                engAlias:["Shakujii", "Soyo Shakujii", "Soyo"],
+                jap:"石神井爽美",
+                japAlias:["石神井", "爽美"]
+            },
+            tags:[
+                TAG.BLACK_HAIR, TAG.LONG_HAIR,
+                TAG.AMBER_EYES,
+                TAG.AVERAGE_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.SABUROU,
+            cv:CV.SUZUKI_MINATO
+        }
+    },
+    AMETANI_SHIINA:{
+        base:{
+            name:{
+                eng:"Ametani Shiina",
+                engAlias:["Ametani", "Shiina Ametani", "Shiina"],
+                jap:"飴谷しいな",
+                japAlias:["飴谷", "しいな"]
+            },
+            tags:[
+                TAG.WHITE_HAIR, TAG.LONG_HAIR,
+                TAG.GREEN_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.NOBUSHITO,
+            cv:CV.OTOKURA_YUI
+        }
+    },
+    YAYOI:{
+        base:{
+            name:{
+                eng:"Yayoi",
+                engAlias:[],
+                jap:"弥生",
+                japAlias:[]
+            },
+            tags:[
+                TAG.GREEN_HAIR, TAG.SHOULDER_LENGTH_HAIR,
+                TAG.GREEN_EYES,
+                TAG.BIG_BREASTS, TAG.LIGHT_SKIN
+            ],
+            gender:"female",
+            originalCharacter:true,
+            artist:ARTIST.HOMURA_YUNI,
+            cv:CV.YOMOGI_KASUMI
         }
     },
 
@@ -20871,6 +20946,7 @@ var SCENE = {
             misc:[TAG.CUT_IN_XRAY, TAG.GROUP]
         },
         ignoredCharacterTags:[],
+        nextScene:"0462_1"
     },
     "0366_1":{
         character:CHAR.MIRIAM,
@@ -22825,6 +22901,7 @@ var SCENE = {
             misc:[]
         },
         ignoredCharacterTags:[],
+        nextScene:"0457_2"
     },
     "0457_2":{
         character:CHAR.SHIGARAKI_MAME,
@@ -22851,6 +22928,7 @@ var SCENE = {
             misc:[TAG.CUT_IN_XRAY]
         },
         ignoredCharacterTags:[],
+        nextScene:"0458_2"
     },
     "0458_2":{
         character:[CHAR.AMAMIYA_SHISUI, CHAR.FUUMA_KOTAROU],
@@ -22886,6 +22964,92 @@ var SCENE = {
             female:[
                 TAG.BUNNYGIRL_OUTFIT, TAG.BREASTS_OUT, TAG.PANTIES_PUSHED_TO_SIDE,
                 TAG.HANDJOB, TAG.VAGINAL_SEX, TAG.KISSING, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0461_1":{
+        character:[CHAR.SHAKUJII_SOYO, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.PROTRUDING_NIPPLES,
+                TAG.BLOWJOB_PAIZURI, TAG.BUKKAKE, TAG.CUM_LICKUP
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.PRIVATE],
+            misc:[TAG.NO_SEX]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0461_2"
+    },
+    "0461_2":{
+        character:[CHAR.SHAKUJII_SOYO, CHAR.FUUMA_KOTAROU],
+        tags:{
+            female:[
+                TAG.TAIMANIN_OUTFIT, TAG.UNDERBOOB, TAG.VAGINAL_CUTOUT,
+                TAG.QUICKIE_FIX_POSITION,
+                TAG.VAGINAL_SEX, TAG.ANAL_FINGERING, TAG.NAKADASHI, TAG.ANAL_SEX, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.BEDROOM, TAG.ON_BED, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0462_1":{
+        character:CHAR.KAMIMURA_MAIKA,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS, TAG.RIPPED_CLOTHING, TAG.METAL_BONDAGE, TAG.NIPPLE_PIERCING,
+                TAG.LEGS_BEHIND_HEAD, TAG.PILEDRIVER,
+                TAG.VAGINAL_SEX, TAG.STOMACH_DEFORMATION, TAG.AHEGAO, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.BUKKAKE, TAG.VAGINAL_LEAKAGE
+            ],
+            male:[],
+            location:[TAG.CAVE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+        nextScene:"0462_2"
+    },
+    "0462_2":{
+        character:CHAR.KAMIMURA_MAIKA,
+        form:"adult",
+        tags:{
+            female:[
+                TAG.NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.THIGH_HIGH_STOCKINGS, TAG.RIPPED_CLOTHING, TAG.GARTER_BELT,
+                TAG.STANDING_SEX, TAG.NIPPLE_PIERCING,
+                TAG.ANAL_SEX, TAG.VAGINAL_SEX, TAG.DOUBLE_PENIS_PENETRATION, TAG.STOMACH_DEFORMATION, TAG.NAKADASHI, TAG.STOMACH_INFLATION, TAG.VAGINAL_LEAKAGE, TAG.AHEGAO, TAG.GENITAL_PIERCING
+            ],
+            male:[],
+            location:[TAG.CAVE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0463":{
+        character:CHAR.AMETANI_SHIINA,
+        tags:{
+            female:[
+                TAG.BREASTS_OUT, TAG.PANTYLESS, TAG.SKIRT, TAG.METAL_BONDAGE,
+                TAG.BREAST_GROPING, TAG.VAGINAL_SEX, TAG.ANAL_SEX, TAG.DOUBLE_PENIS_PENETRATION, TAG.NAKADASHI, TAG.BUKKAKE
+            ],
+            male:[],
+            location:[TAG.INSIDE, TAG.PRIVATE],
+            misc:[]
+        },
+        ignoredCharacterTags:[],
+    },
+    "0464":{
+        character:CHAR.YAYOI,
+        tags:{
+            female:[
+                TAG.HALF_NAKED, TAG.BREASTS_OUT, TAG.PANTYLESS,
+                TAG.DOGGY_STYLE,
+                TAG.VAGINAL_SEX, TAG.SPANKING, TAG.VAGINAL_LEAKAGE, TAG.NAKADASHI, TAG.CUM_LICKUP, TAG.PISSED_ON, TAG.CUM_SWALLOWING
             ],
             male:[],
             location:[TAG.INSIDE, TAG.PRIVATE],
